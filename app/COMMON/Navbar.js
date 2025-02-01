@@ -389,14 +389,12 @@ const Navbar = () => {
                 <ul>
                   <li className="mar">
                     <div className="flex items-center cursor-pointer nb-0 navLinks">
-                      <p
-                        onClick={() => {
-                          navigate("/about");
-                        }}
-                        className="sar descfont"
+                    <Link
+                        className="sar descfont textTransform-navbar"
+                        href="/about"
                       >
-                        About us
-                      </p>
+                        About-us
+                      </Link>
                       <div className="ser-nav10 hidden megaMenu">
                         <div className="compan flex items-start justify-between compan1">
                           <div className="first-compan mt-5 flex items-start justify-evenly">
