@@ -1,0 +1,95 @@
+
+/* Next js added  */
+.h2s4wrap{background:#CFD8D980;width:100%;position:relative}.h2s4cont{max-width:1400px;margin:0 auto;width:100%;display:flex;flex-direction:column;gap:100px;padding:100px 0}.h2s4cont h3{font-family:sf-ui-display-medium,sans-serif;font-size:40px;font-weight:700;line-height:50px;color:#002421;padding:0 10px}.wedoitems{display:flex;flex-direction:column;margin:0 20px}.singleWeitem{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #00000080;padding:44px 50px}.singleWeitem:hover{background-color:#F2F6F7;transition:0.5s linear}.weiteemright{display:flex;align-items:center;gap:10px;transition:0.3s all;cursor:pointer}.weiteemright:hover span,.weiteemright:hover .arrowlefts4{color:#1063ff}.weiteemright span{font-family:sf-ui-display-medium,sans-serif;font-size:20px;font-weight:400;line-height:30px;text-align:center;color:#002421}.weitemleft{display:flex;gap:20px;align-items:center}.weitemleft .itemconte{display:flex;flex-direction:column;gap:10px}.weitemleft .itemconte .ictitle{font-family:sf-ui-display-medium,sans-serif;font-size:24px;font-weight:600;line-height:34px;text-align:left;color:#0E151D}.weitemleft .itemconte .ipara{font-family:sf-ui-display-medium,sans-serif;font-size:20px;font-weight:400;line-height:30px;text-align:left;color:#101010;max-width:524px}.hoverImageContainer{position:fixed;top:50%;left:50%;transform:translate(13%,-40%);z-index:1000;pointer-events:none}.hoverImage{width:350px;height:auto;transition:opacity 0.3s ease-in-out}.arrowlefts4{font-size:28px}.dashspandiv{display:flex;align-items:center;gap:16px;margin:0 20px}.dashspandiv span{width:54px;border:2px solid #000;border:2px solid #000}.h3tags{font-family:sf-ui-display-medium,sans-serif;font-size:20px;font-weight:500;line-height:44px;color:#333;color:red!important}.singleWeitem .itemconte .ipara{max-height:0;opacity:0;overflow:hidden;transition:max-height 0.5s ease-in-out,opacity 0.5s ease-in-out;transform:translateY(-20px)}.singleWeitem:hover .itemconte .ipara{max-height:100px;opacity:1;transform:translateY(0)}@media (max-width:800px){.weitemleft .itemconte .ictitle{font-size:20px}.weitemleft img{width:34px;height:34px}.weitemleft .itemconte .ipara{font-size:16px;max-width:424px}.weiteemright span{font-size:18px}}@media (max-width:630px){.weiteemright span{display:none}.h2s4cont h3{font-size:34px}.addMediaquery{display:none}}@media (max-width:500px){.weitemleft .itemconte .ictitle{font-size:14px;line-height:20px}.weitemleft img{width:20px;height:20px}.weitemleft .itemconte{display:flex;flex-direction:column;gap:0}.weitemleft .itemconte .ipara{font-size:10px;max-width:424px;line-height:26px}.h2s4cont{gap:60px}.singleWeitem{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #00000080;padding:20px 32px}}
+
+
+.wedoitems2{
+    display: none;
+}
+
+ @media (max-width:550px) {
+    .h2s4cont{
+        padding: 50px 0px;
+        gap: 30px;
+    }
+
+    .wedoitems{
+        display:none;
+        flex-direction:column;
+        margin:0 20px;
+    }
+    .wedoitems2{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+
+
+    }
+
+    .somesings{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 95%;
+        margin:0 auto;
+        background-color: #F2F6F7;
+        padding: 20px 16px;
+        gap: 20px;
+    }
+    .sidivcontent{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .sidivcontent p:nth-child(1){
+        font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+color: #101010;
+    }
+    .sidivcontent .flxindiv{
+       display: flex;
+       align-items: center;
+       gap: 6px;
+    }
+    .sidivcontent .flxindiv span{
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 38px;
+        text-align: center;
+color: #002421;        
+    }
+    .arrowlefts43{
+        max-width: 24px;
+        max-height: 24px;
+    }
+    .sindardiv{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .sdivleft{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+    }
+    .sdivleft img{
+        /* max-width: 28px;
+        max-height: 28px; */
+    }
+    .sdivleft span{
+        /* font-family: Poppins; */
+        font-family:sf-ui-display-medium;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+text-align: left;
+
+    }
+ }
