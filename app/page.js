@@ -14,6 +14,7 @@ import Home2Section10 from './components/Home/Home2Section10';
 import Home2BrandSwiper from './components/Home/Home2BrandSwiper';
 import Home2Testimonial from './components/Home/Home2Testimonial';
 import Home2AskQuestion from './components/Home/Home2AskQuestion';
+import Head from 'next/head';
 // import Navbar from './components/Home/Navbar';
 import './globals.css'
 import Footer from './COMMON/Footer';
@@ -33,6 +34,10 @@ const HomePage = () => {
 
   return (
     <>
+    <Head>
+    <title>KushelDigi Solutions- Top shopify development company</title>
+    <meta name="description" content="Free Web tutorials"/>
+    </Head>
       <div className="home-main">
      <Navbar/>
         <Home2Banner />
