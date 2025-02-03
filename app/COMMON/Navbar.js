@@ -654,9 +654,9 @@ const Navbar = () => {
                             </div>
                             <div className="dummy">
                               {" "}
-                              <ink href="/hire/nodejs-developer">
+                              <Link href="/hire/nodejs-developer">
                                 <span>Hire Node Js Developer</span>
-                              </ink>
+                              </Link>
                             </div>
                             <div className="dummy">
                               {" "}
