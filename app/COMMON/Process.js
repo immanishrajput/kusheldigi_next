@@ -1,0 +1,74 @@
+import React from 'react'
+import img14 from "../../public/assets/earthpap.png";
+import img15 from "../../public/assets/Group 1000006826.png";
+import img16 from "../..//public/assets/shot.png";
+import img18 from "../../public/assets/Group 1000006829.png";
+import img19 from "../../public/assets/Frame (1).png";
+
+const Process = () => {
+  return (
+    <>
+       <div className="fiveee-createe">
+        <div className="five-create dine-1234">
+                <p className="intutive">
+                    Our Process 
+                </p>
+                <p className="leverage">
+                    Unlock your true potential, leverage the best of technology, and
+                    create apps based on modern algorithms with our React Native
+                    development experts.
+                </p>
+                <div className="triple-mainbox">
+                    <div className="discover-box">
+                        {/* <div className="line"> */}
+                            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724918173/download_21_jqtevh.png" id="delo"></img>
+                        {/* </div> */}
+                        <p className="discover">Discover</p>
+                        <p className="project">
+                            There goes a lot in the back to turn your project into a success
+                            story.
+                        </p>
+                    </div>
+                    <hr className="horzt" />
+                    <div className="discover-box">
+                        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724918170/download_22_fwsydv.png" id="delo"></img>
+                        <p className="discover">Define</p>
+                        <p className="project">
+                            Determining the scope of how we can convert your idea into
+                            reality.
+                        </p>
+                    </div>
+                    <hr className="horzt" />
+                    <div className="discover-box">
+                        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724918169/download_23_nmqglt.png" id="delo"></img>
+                        <p className="discover">Design</p>
+                        <p className="project">Offering you breakthrough app prototypes</p>
+                    </div>
+                </div>
+                <div className="double-mainbox">
+                    <div className="discover-box">
+                        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724918167/download_24_vhqdvj.png" id="delo"></img>
+                        <p className="discover">Analyze & Deliver</p>
+                        <p className="project">
+                            Stable and secure application served at your table as per the
+                            deadlines
+                        </p>
+                    </div>
+                    <hr className="horzt" />
+                    <div className="discover-box">
+                        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724918164/download_25_wegjwm.png" id="delo"></img>
+                        <p className="discover">Develop</p>
+                        <p className="project" id="important">
+                            We’d commence development with a - milestone based plan of action.
+                        </p>
+                    </div>
+                    <hr id="line2" />
+                    <hr id="vertical" />
+                </div>
+            </div>
+            </div>
+    </>
+  )
+}
+
+export default Process
