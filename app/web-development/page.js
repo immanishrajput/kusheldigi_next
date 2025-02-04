@@ -53,6 +53,7 @@ import whatsApp from "../../public/assets/whatsapp.png";
 import call from "../../public/assets/telephone.png"
 import Image from "next/image";
 import '../globals.css'
+import WebdevelopmentFAQ from '../COMMON/WebdevelopmentFAQ'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
 import {
@@ -452,7 +453,7 @@ const WebDevelopmentUSA = ({ notify }) => {
           <div className="step-card">
             <div className="step-box">
               <div className="step-img">
-                <img src={setting} alt="Choose the Services" title="Choose the Services" />
+                <Image src={setting} alt="Choose the Services" title="Choose the Services" />
               </div>
               <div className="step-head">
                 <h4>Choose the Services</h4>
@@ -741,7 +742,7 @@ const WebDevelopmentUSA = ({ notify }) => {
                 onMouseEnter={() => setHovered(true)}
                 onMouseLeave={() => setHovered(false)}
               >
-                <img src={hovered ? posis10 : dilkush} alt="Healthcare & Wellness" title="Healthcare & Wellness" />
+                <Image src={hovered ? posis10 : dilkush} alt="Healthcare & Wellness" title="Healthcare & Wellness" />
                 <p>Healthcare & Wellness</p>
               </div>
               <div
@@ -749,7 +750,7 @@ const WebDevelopmentUSA = ({ notify }) => {
                 onMouseEnter={() => setHovered2(true)}
                 onMouseLeave={() => setHovered2(false)}
               >
-                <img src={hovered2 ? posis2 : dec1} alt="Real Estate" title="Real Estate" />
+                <Image src={hovered2 ? posis2 : dec1} alt="Real Estate" title="Real Estate" />
                 <p>Real Estate</p>
               </div>
               <div
@@ -757,7 +758,7 @@ const WebDevelopmentUSA = ({ notify }) => {
                 onMouseEnter={() => setHovered3(true)}
                 onMouseLeave={() => setHovered3(false)}
               >
-                <img src={hovered3 ? posis3 : dec2} alt="Software & Internet Marketing" title="Software & Internet Marketing" />
+                <Image src={hovered3 ? posis3 : dec2} alt="Software & Internet Marketing" title="Software & Internet Marketing" />
                 <p>IT, Software & Internet Marketing</p>
               </div>
               <div
@@ -765,7 +766,7 @@ const WebDevelopmentUSA = ({ notify }) => {
                 onMouseEnter={() => setHovered4(true)}
                 onMouseLeave={() => setHovered4(false)}
               >
-                <img src={hovered4 ? posis4 : dec3} alt="Finance & Banking" title="Finance & Banking" />
+                <Image src={hovered4 ? posis4 : dec3} alt="Finance & Banking" title="Finance & Banking" />
                 <p>Finance & Banking</p>
               </div>
             </div>
@@ -775,7 +776,7 @@ const WebDevelopmentUSA = ({ notify }) => {
                 onMouseEnter={() => setHovered5(true)}
                 onMouseLeave={() => setHovered5(false)}
               >
-                <img src={hovered5 ? posis5 : dec4} alt="Government & Public" title="Government & Public" />
+                <Image src={hovered5 ? posis5 : dec4} alt="Government & Public" title="Government & Public" />
                 <p>
                   Government & Public <br /> Sector Enterprises
                 </p>
@@ -785,7 +786,7 @@ const WebDevelopmentUSA = ({ notify }) => {
                 onMouseEnter={() => setHovered6(true)}
                 onMouseLeave={() => setHovered6(false)}
               >
-                <img src={hovered6 ? posis6 : dec5} alt="Travel & Tour" title="Travel & Tour" />
+                <Image src={hovered6 ? posis6 : dec5} alt="Travel & Tour" title="Travel & Tour" />
                 <p>Travel & Tour</p>
               </div>
               <div
@@ -793,7 +794,7 @@ const WebDevelopmentUSA = ({ notify }) => {
                 onMouseEnter={() => setHovered7(true)}
                 onMouseLeave={() => setHovered7(false)}
               >
-                <img src={hovered7 ? posis7 : dec6} alt="Retail" title="Retail" />
+                <Image src={hovered7 ? posis7 : dec6} alt="Retail" title="Retail" />
                 <p>Retail</p>
               </div>
               <div
@@ -801,7 +802,7 @@ const WebDevelopmentUSA = ({ notify }) => {
                 onMouseEnter={() => setHovered8(true)}
                 onMouseLeave={() => setHovered8(false)}
               >
-                <img src={hovered8 ? posis8 : dec7} alt="SPORTS" title="SPORTS" />
+                <Image src={hovered8 ? posis8 : dec7} alt="SPORTS" title="SPORTS" />
                 <p>SPORTS ( outdoor & indoor )</p>
               </div>
             </div>
@@ -809,7 +810,7 @@ const WebDevelopmentUSA = ({ notify }) => {
         </div>
         {/* <Certified /> */}
 
-        <div className="home9 mb-12 home278">
+        {/* <div className="home9 mb-12 home278">
           <div className="home91 px-24 dine-1234">
             <div className="home911 text-center">
               <h2 className="font-bold text-gray-700">Frequently Asked<br /> Questions</h2>
@@ -888,7 +889,8 @@ const WebDevelopmentUSA = ({ notify }) => {
               </Accordion>
             </div>
           </div>
-        </div>
+        </div> */}
+        <WebdevelopmentFAQ/>
 
         <ContactForm notify={notify} />
 

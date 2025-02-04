@@ -25,19 +25,21 @@ import mobileApi from '../../public/assets/mobileapi.png';
 import '../globals.css'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemHeading,
-  AccordionItemButton,
-  AccordionItemPanel,
-} from "react-accessible-accordion";
+
+// import {
+//   Accordion,
+//   AccordionItem,
+//   AccordionItemHeading,
+//   AccordionItemButton,
+//   AccordionItemPanel,
+// } from "react-accessible-accordion";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import ContactForm from "../COMMON/ContactForm";
 // import { Helmet } from "react-helmet";
 import "@splidejs/react-splide/css";
 import whatsApp from "../../public/assets/whatsapp.png";
 import call from "../../public/assets/telephone.png"
+import MobileFAQ from "../COMMON/MobileFAQ";
 const MobileApp = ({ notify }) => {
   const [perPage, setPerPage] = useState(6);
   useEffect(() => {
@@ -299,88 +301,7 @@ const MobileApp = ({ notify }) => {
           </div>
         </div>
 
-
-
-        <div className="home9 mb-12 home278 ">
-          <div className="home91 px-24 dine-1234">
-            <div className="home911 text-center">
-              <h2 className="font-bold text-gray-700">Frequently Asked<br /> Questions</h2>
-            </div>
-            <div className="home912 FAQ-1">
-              <Accordion allowZeroExpanded>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      Why choose Kushel Digi Solution for mobile app development?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      We bring expertise and affordability, crafting exceptional experiences to enhance your digital presence.
-
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      How does Kushel Digi Solution ensure affordable app development?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      We optimise processes, leverage cost-effective tech, and offer tailored solutions for top-notch yet budget-friendly apps.
-
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      What's Kushel Digi Solution's focus on enhancing app user experiences?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      We prioritise user-centric design, ensuring seamless and engaging experiences for iOS and Android apps.
-
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      Key considerations for successful mobile app development?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Understand your audience, and ensure robust functionality, intuitive design, and regular updates to meet evolving expectations.
-
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      Why is cross-platform development like React Native important?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      It's crucial for efficiency, allowing apps compatible with iOS and Android using a single codebase, and saving time and resources.
-
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-              </Accordion>
-
-            </div>
-          </div>
-        </div>
+           <MobileFAQ/>
 
         <ContactForm notify={notify} />
 

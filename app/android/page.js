@@ -13,18 +13,19 @@ import Image from "next/image";
 import '../globals.css'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemHeading,
-  AccordionItemButton,
-  AccordionItemPanel,
-} from "react-accessible-accordion";
+// import {
+//   Accordion,
+//   AccordionItem,
+//   AccordionItemHeading,
+//   AccordionItemButton,
+//   AccordionItemPanel,
+// } from "react-accessible-accordion";
 import ContactForm1 from "../COMMON/ContactForm1";
 // import { NavLink } from "react-router-dom";
 import Link from "next/link";
 import whatsApp from "../../public/assets/whatsapp.png";
 import call from "../../public/assets/telephone.png"
+import AndroidFAQ from "../COMMON/AndroidFAQ";
 // import { Helmet } from "react-helmet";
 const Android = ({ notify }) => {
 
@@ -283,85 +284,7 @@ const Android = ({ notify }) => {
           </div>
         </div>
         <ContactForm1 notify={notify} />
-        <div className="home9 mb-12 home278 home480 home481">
-          <div className="home91 px-24 dine-1234">
-            <div className="home911 text-center">
-              <h2 className="font-bold text-gray-700">Frequently Asked<br /> Questions</h2>
-            </div>
-            <div className="home912 FAQ-1">
-              <Accordion allowZeroExpanded>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      What are the  Services provided by your Android app development agency?                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Our agency offers comprehensive Android app development services.
-
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      Do you develop apps for smartphones and tablets?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Yes, we develop apps for both smartphones and tablets.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      What is the timeline for Android app development?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Development time varies based on project complexity.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      What sets your agency apart?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Expertise, innovation, and post-launch support distinguish our agency.
-
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      Do you provide Testing and integration services?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Yes, we ensure app quality through testing and can integrate third-party APIs.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-              </Accordion>
-              {/* <div className="home9121 font-semibold w-fit">
-                See All FAQs
-              </div> */}
-            </div>
-          </div>
-        </div>
-
+                 <AndroidFAQ/>
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
             <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />

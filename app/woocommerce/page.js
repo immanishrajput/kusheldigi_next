@@ -32,6 +32,7 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
 } from "react-accessible-accordion";
+import WooCommereceFAQ from "../COMMON/WooCommereceFAQ";
 const WooCommerce = () => {
   const [hovered, setHovered] = useState(false);
   const [hovered2, setHovered2] = useState(false);
@@ -419,7 +420,7 @@ const WooCommerce = () => {
 
         <ContactForm1 />
 
-        <div className="home9 py-20 bigcom9">
+        {/* <div className="home9 py-20 bigcom9">
           <div className="home91 px-20 dine-1234">
             <div className="home911 text-center">
               <h2 className="font-bold text-gray-700">Frequently Asked<br /> Questions</h2>
@@ -494,7 +495,8 @@ const WooCommerce = () => {
               </Accordion>
             </div>
           </div>
-        </div>
+        </div> */}
+        <WooCommereceFAQ/>
 
 
         <div className="whtsApBtns">

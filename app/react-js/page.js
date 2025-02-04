@@ -11,6 +11,7 @@ import zz5 from "../../public/assets/iii5.png";
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
 import Image from "next/image";
+import ReactFAQ from "../COMMON/ReactFAQ";
 import '../globals.css'
 import {
   Accordion,
@@ -331,7 +332,7 @@ const Reactjsdev = () => {
             </div>
           </div>
         </div>
-        <div className="home9 mb-12 home278 home480 home481">
+        {/* <div className="home9 mb-12 home278 home480 home481">
           <div className="home91 px-24 dine-1234">
             <div className="home911 text-center">
               <h2 className="font-bold text-gray-700">Frequently Asked<br/> Questions</h2>
@@ -413,7 +414,8 @@ const Reactjsdev = () => {
             
             </div>
           </div>
-        </div>
+        </div> */}
+        <ReactFAQ/>
 
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>

@@ -20,6 +20,7 @@ import Footer from '../COMMON/Footer';
 import Navbar from '../COMMON/Navbar';
 import Image from 'next/image';
 import '../globals.css'
+import PhpFAQ from '../COMMON/PhpFAQ';
 const Php = () => {
 
     const [tab8, setTab8] = useState(1);
@@ -604,8 +605,8 @@ effective PHP portals and websites."
 
 
                 <ContactForm1 />
-
-                <div className="home9 py-20 bigcom9">
+                 <PhpFAQ/>
+                {/* <div className="home9 py-20 bigcom9">
                     <div className="home91 px-24 dine-1234">
                         <div className="home911 text-center">
                             <h2 className="font-bold text-gray-700">Frequently Asked<br /> Questions</h2>
@@ -682,7 +683,7 @@ effective PHP portals and websites."
                             </Accordion>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="whtsApBtns">
                     <button onClick={whatAppHandler}>

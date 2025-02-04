@@ -18,6 +18,7 @@ import Link from 'next/link';
 import whatsApp from "../../public/assets/whatsapp.png";
 import call from "../../public/assets/telephone.png"
 import '../globals.css'
+import HtmlFAQ from '../COMMON/HtmlFAQ';
 import Image from 'next/image';
 import Navbar from '../COMMON/Navbar';
 import Footer from '../COMMON/Footer';
@@ -382,7 +383,7 @@ const Html = () => {
                             </button> </Link>
                     </div>
                 </div>
-                <div className="home9 mb-12 home278 home480 home481">
+                {/* <div className="home9 mb-12 home278 home480 home481">
           <div className="home91 px-24 dine-1234">
             <div className="home911 text-center">
               <h2 className="font-bold text-gray-700">Frequently Asked<br/> Questions</h2>
@@ -462,7 +463,8 @@ const Html = () => {
             
             </div>
           </div>
-        </div>
+        </div> */}
+        <HtmlFAQ/>
 
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>

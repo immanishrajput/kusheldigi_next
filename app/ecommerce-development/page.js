@@ -52,7 +52,7 @@ import Ecommpop from "./Ecommpop/page";
 // import { Helmet } from "react-helmet";
 import bigcommercelogo from "../../public/assets/bigcommerce_logo.png"
 import Image from "next/image";
-import UsaAccorrodian from "../COMMON/UseAccorrodian";
+import UseAccorrodian from "../COMMON/UseAccorrodian";
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
 const USA = ({ pop, setPop, notify }) => {
@@ -886,7 +886,7 @@ const USA = ({ pop, setPop, notify }) => {
           </div>
         </div> */}
 
-        <UsaAccorrodian/>
+        <UseAccorrodian/>
 
 
         <ContactForm1 notify={notify} />

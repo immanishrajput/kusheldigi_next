@@ -22,13 +22,13 @@ import poli5 from '../../public/assets/poli5.png';
 import poli6 from '../../public/assets/poli6.png';
 import '../globals.css'
 import Image from "next/image";
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemHeading,
-  AccordionItemButton,
-  AccordionItemPanel,
-} from "react-accessible-accordion";
+// import {
+//   Accordion,
+//   AccordionItem,
+//   AccordionItemHeading,
+//   AccordionItemButton,
+//   AccordionItemPanel,
+// } from "react-accessible-accordion";
 import ContactForm1 from "../COMMON/ContactForm1";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
@@ -38,6 +38,7 @@ import Link from "next/link";
 import whatsApp from "../../public/assets/whatsapp.png";
 import call from "../../public/assets/telephone.png"
 import Navbar from "../COMMON/Navbar";
+import MagentoFAQ from '../COMMON/MagentoFAQ'
 import Footer from "../COMMON/Footer";
 const Magento = () => {
   const [front, setFront] = useState(1);
@@ -473,7 +474,7 @@ const Magento = () => {
 
         <ContactForm1 />
 
-        <div className="home9 py-20 bigcom9">
+        {/* <div className="home9 py-20 bigcom9">
           <div className="home91 px-20 dine-1234">
             <div className="home911 text-center">
               <h2 className="font-bold text-gray-700">Frequently Asked<br /> Questions</h2>
@@ -608,8 +609,8 @@ const Magento = () => {
               </Accordion>
             </div>
           </div>
-        </div>
-
+        </div> */}
+           <MagentoFAQ/>
 
 
         <div className="whtsApBtns">
