@@ -35,6 +35,7 @@ import Image from 'next/image';
 import Navbar from '../COMMON/Navbar';
 import Footer from '../COMMON/Footer';
 import { IMAGES_MANIFEST } from 'next/dist/shared/lib/constants';
+import GraphicFAQ from '../COMMON/GraphicFAQ';
 // import { Helmet } from 'react-helmet';
 const GraphicDesign = ({ notify }) => {
 
@@ -289,7 +290,7 @@ const GraphicDesign = ({ notify }) => {
                     </div>
                    
                 </div>
-                <div className="home9 mb-12 home278 home480 home481">
+                {/* <div className="home9 mb-12 home278 home480 home481">
                     <div className="home91 px-24 dine-1234">
                         <div className="home911 text-center">
                             <h2 className="font-bold text-gray-700">Frequently Asked<br /> Questions</h2>
@@ -375,7 +376,8 @@ const GraphicDesign = ({ notify }) => {
 
                         </div>
                     </div>
-                </div>
+                </div> */}
+                <GraphicFAQ/>
 
                 <ContactForm1 notify={notify} />
 

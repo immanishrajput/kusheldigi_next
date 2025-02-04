@@ -31,6 +31,7 @@ import call from "../../public/assets/telephone.png"
 import Image from 'next/image';
 import Footer from '../COMMON/Footer';
 import Navbar from '../COMMON/Navbar';
+import FlutterFAQ from '../COMMON/FlutterFAQ';
 const Flutters = ({notify}) => {
  
   const phoneNumber = "9045301702";
@@ -307,7 +308,7 @@ const Flutters = ({notify}) => {
 
        <ContactForm1 notify={notify} />
 
-       <div className="home9 mb-12 home278">
+       {/* <div className="home9 mb-12 home278">
          <div className="home91 px-24 dine-1234">
            <div className="home911 text-center">
              <h2 className="font-bold text-gray-700">Frequently Asked<br/> Questions</h2>
@@ -379,8 +380,8 @@ const Flutters = ({notify}) => {
             
            </div>
          </div>
-       </div>
-
+       </div> */}
+<FlutterFAQ/>
        <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
             <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />

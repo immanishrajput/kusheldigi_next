@@ -26,6 +26,7 @@ import keys2 from '../../public/assets/keys2.png';
 import pret from '../../public/assets/pret.png';
 import pret1 from '../../public/assets/pret1.png';
 import fantaji from '../../public/assets/fantaJi.png';
+import ReactNativeFAQ from "../COMMON/ReactNativeFAQ";
 import Image from "next/image";
 import {
   Accordion,
@@ -337,89 +338,8 @@ const Native = () => {
 
         <ContactForm1 />
 
-        <div className="home9 mb-12 mt-20 home278">
-          <div className="home91 px-24 dine-1234">
-            <div className="home911 text-center">
-              <h2 className="font-bold text-gray-700">Frequently Asked<br/> Questions</h2>
-            </div>
-            <div className="home912 FAQ-1">
-              <Accordion allowZeroExpanded>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    Why choose Kushel Digi Solutions for React Native app development?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                    Kushel Digi Solutions combines expertise and innovation to deliver high-quality React Native apps, ensuring a seamless and efficient development process.
-
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    How does Kushel Digi Solutions ensure cross-platform compatibility in React Native app development?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                    Our developers leverage the power of React Native to create apps that function seamlessly across both iOS and Android platforms, saving time and resources.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem> 
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    What advantages does React Native offer for mobile app development?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                    React Native provides a cost-effective and time-efficient solution, allowing the development of cross-platform apps with a single codebase, ensuring consistency and faster time-to-market.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    Are there specific industries that benefit most from React Native app development?
-
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                    React Native is versatile and caters to various industries, including e-commerce, healthcare, and finance, offering a scalable solution for businesses seeking cross-platform mobile applications.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    How can I ensure optimal performance for my React Native app?
-
-
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                    Optimal performance in React Native apps is achieved through efficient coding practices, regular updates, and compatibility checks with the latest React Native versions.                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                
-              </Accordion>
-              {/* <div className="home9121 font-semibold w-fit">
-                See All FAQs
-              </div> */}
-            </div>
-          </div>
-        </div>
-
+      <ReactNativeFAQ/>
+       
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
             <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />

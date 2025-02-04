@@ -22,6 +22,7 @@ import Link from "next/link";
 // import { Helmet } from "react-helmet";
 import whatsApp from "../../public/assets/whatsapp.png";
 import call from "../../public/assets/telephone.png"
+import KotlinFAQ from "../COMMON/KotlinFAQ";
 const Kotlin = () => {
   const [tab, setTab] = useState(1);
   const tabAnother = (e) => {
@@ -714,7 +715,7 @@ const Kotlin = () => {
 
         <ContactForm1 />
 
-        <div className="home9 home967 homeee1 home278 dine-1234">
+        {/* <div className="home9 home967 homeee1 home278 dine-1234">
           <div className="home91 px-24">
             <div className="home911 text-center">
               <h2 className="font-bold text-gray-700">Frequently Asked<br/> Questions</h2>
@@ -791,7 +792,8 @@ const Kotlin = () => {
             </div>
           </div>
         </div>
-        
+         */}
+         <KotlinFAQ/>
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
             <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
