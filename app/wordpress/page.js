@@ -51,6 +51,7 @@ import Navbar from '../COMMON/Navbar';
 import Footer from '../COMMON/Footer';
 import '../globals.css'
 import Image from 'next/image';
+import WordpressFAQ from '../COMMON/WordpressFAQ';
 // import { Helmet } from 'react-helmet';
 
 const WordPress = () => {
@@ -531,7 +532,7 @@ const WordPress = () => {
 
                 <ContactForm1 />
 
-                <div className="home9 home278 home480">
+                {/* <div className="home9 home278 home480">
                     <div className="home91 px-24 dine-1234">
                         <div className="home911 text-center">
                             <h2 className='font-bold text-gray-700'>Frequently Asked<br /> Questions</h2>
@@ -608,7 +609,8 @@ const WordPress = () => {
 
                         </div>
                     </div>
-                </div>
+                </div> */}
+                <WordpressFAQ/>
             </div>
 
             <div className="whtsApBtns">

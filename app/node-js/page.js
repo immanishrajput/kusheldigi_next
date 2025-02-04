@@ -27,6 +27,7 @@ import call from "../../public/assets/telephone.png"
 import Image from "next/image";
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
+import NodejsFAQ from "../COMMON/NodejsFAQ";
 const Nodejsdev2 = () => {
   const [tab, setTab] = useState(1);
 
@@ -562,7 +563,7 @@ high-quality web and mobile applications."
             </div>
           </div>
         </div>
-        <div className="home9 mb-12 home278 home480 home481">
+        {/* <div className="home9 mb-12 home278 home480 home481">
           <div className="home91 px-24 dine-1234">
             <div className="home911 text-center">
               <h2 className="font-bold text-gray-700">Frequently Asked<br /> Questions</h2>
@@ -643,7 +644,8 @@ high-quality web and mobile applications."
 
             </div>
           </div>
-        </div>
+        </div> */}
+        <NodejsFAQ/>
 
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
