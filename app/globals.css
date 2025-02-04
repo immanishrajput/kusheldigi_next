@@ -38727,11 +38727,12 @@ form button {
   background-color: transparent !important;
   font-size: 23px;
   font-weight: 500;
-  color: #33475b !important
+  color: #33475b !important;
+  padding: 18px;
 }
 
 .accordion__button p {
-  color: #33475b !important
+  color: #33475b !important;
 }
 
 .home278 {

@@ -52,7 +52,7 @@ const Footer = () => {
                     <Link href="/digital-marketing-agency">Digital Marketing</Link>
                     {/* <Link to="/">Web Application Development</Link> */}
                     <Link href="/ui-ux-design">UI/UX Design</Link>
-                    <Link href="/Graphic-Design">Graphic Design</Link>
+                    <Link href="/graphic-design">Graphic Design</Link>
                     <Link href="/staff-augmentation">Staff Augmentation</Link>
                     <Link href="/multi-level-marketing">Multi-Level Marketing</Link>
                     <Link href="/custom-software-development">Software Development</Link>
