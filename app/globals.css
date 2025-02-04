@@ -619,6 +619,23 @@
 }
 
  */
+ @font-face{
+  font-family: "sf-ui-display-medium";
+  src:local("sf-ui-display-medium")
+    url("../public/font/sf-ui-display-cufonfonts/sf-ui-display-medium-58646be638f96.otf") format("truetype")
+ }
+ @font-face{
+  font-family: "sf-ui-display-regular";
+  src:local("sf-ui-display-regular")
+    url("../public/font/SF-UI-Display-Regular/SF_UI_Display_Regular.ttf") format("truetype")
+ }
+*{
+  font-family: "sf-ui-display-medium", sans-serif !important;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: none !important;
+}
 
 .contanier-box {
     display: flex;
@@ -2946,9 +2963,9 @@
     margin-left: 14px;
 } */
 
-* {
+/* * {
     font-family: "Manrope", sans-serif
-}
+} */
 
 .content {
     display: flex;
@@ -7680,11 +7697,11 @@ animation-timing-function: ease-in-out;
   
    */
 
-* {
+/* * {
     box-sizing: border-box;
     margin: 0;
     padding: 0
-  }
+  } */
   
   .Nodejs_page_main {
     background-color: #085881;
@@ -9201,15 +9218,11 @@ animation-timing-function: ease-in-out;
     }
 } */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box
-}
 
-.body {
+
+/* .body {
     font-family: 'Roboto', sans-serif
-}
+} */
 
 .main-section {
     max-width: 100%;
@@ -12851,12 +12864,7 @@ body{
   fill: #0B56E4 !important;
 } */
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Manrope", sans-serif
-  }
+
   
   body {
   
@@ -14446,11 +14454,6 @@ body{
     }
 } */
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box
-}
 
 .homes_banner {
     background-color: #f8faf9
@@ -15950,11 +15953,6 @@ body{
     }
 } */
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box
-}
 
 .indus-banner {
     background-color: #F5F5F7
@@ -17756,12 +17754,7 @@ fill: #0B56E4 !important;
 }
   */
 
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Manrope", sans-serif
-  }
+  
   
   body {
   
@@ -19386,14 +19379,10 @@ fill: #0B56E4 !important;
   }
 } */
 
-@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap);
+/* @import url(https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap); */
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  overflow-x: none !important
-}
+
+
 
 #hemesh-ppc .ppc {
   background-image: url(../public/assets/PPC/ppc-banner.png);
@@ -21171,13 +21160,7 @@ fill: #0B56E4 !important;
     font-size: 19px;
   }
 } */
-@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap);
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box
-}
 
 .overflow {
   overflow-x: initial !important
@@ -22913,11 +22896,7 @@ color: #0E151D;
     }
   } */
 
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box
-  }
+  
   
   .USA-banner {
     background-color: #E0F1EB
@@ -27806,7 +27785,7 @@ color: #0E151D;
 }
 
 .singlquestion .quetiobtn p {
-    font-family: sf-ui-display-medium, sans-serif;
+    font-family: 'Poppins', sans-serif !important;
     font-size: 16px;
     font-weight: 600;
     line-height: 26px;
@@ -32363,11 +32342,7 @@ color: #101820;
 }
 
 /* custom software */
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
+
 .css_main_banner{
   background-image: url('../public/assets/cmo\ banner.png');
   width: 100%;
@@ -34395,7 +34370,7 @@ display: none;
   }
 
   /* app */
-  @font-face{
+  /* @font-face{
     font-family: "sf-ui-display-medium";
     src:local("sf-ui-display-medium")
       url("../public/font/sf-ui-display-cufonfonts/sf-ui-display-medium-58646be638f96.otf") format("truetype")
@@ -34407,7 +34382,7 @@ display: none;
    }
   *{
     font-family: "sf-ui-display-medium";
-  } 
+  }  */
   .navLinks:hover > .megaMenu{
     display: block;
   }
@@ -34443,18 +34418,12 @@ display: none;
   }
 
   /* index */
-  @import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+  /* @import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;900&family=Manrope:wght@400;500;600;700&family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;600&family=Prompt:wght@400;500;600&family=Questrial&family=Roboto:wght@400;500&display=swap);
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "sf-ui-display-medium", sans-serif !important
-}
 
 h2 {
   latter-spacing:
@@ -36526,11 +36495,6 @@ hr {
   }
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box
-}
 
 .akki-form-main {
   padding: 50px
@@ -61599,7 +61563,7 @@ option {
 }
 
 /* index1 */
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&family=Prompt:wght@100;200;300;400;500;600&display=swap);
+
 
 .staff-cap {
     padding: 70px 100px;
@@ -63942,7 +63906,7 @@ wordpress_cater_box p {
 }
 
 /* index2 */
-@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;900&family=Manrope:wght@400;500;600;700&family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;600&family=Prompt:wght@400;500;600&family=Questrial&family=Roboto:wght@400;500&display=swap);
+
 
 .about-page {
     padding: 70px 90px !important
