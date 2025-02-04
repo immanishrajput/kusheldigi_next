@@ -104,11 +104,11 @@ const data = [
       },
       {
         title: "Cross Platform app development ",
-        navigate: "/react-native",
+        navigate: "/native",
         subpart: [
           {
             title: "React Native",
-            navigate: "/react-native",
+            navigate: "/native",
           },
           {
             title: "Flutter",
@@ -458,9 +458,9 @@ const Navbar = () => {
                                 </Link>
                               </div>
                               <div className="left-containt-services">
-                                <a href="/ios">iOS </a>
+                                <Link href="/ios">iOS </Link>
                                 <span>|</span>
-                                <a href="/android">Android </a>
+                                <Link href="/android">Android </Link>
                               </div>
                             </div>
                             <div className="left-side-servises-containt">
@@ -470,15 +470,15 @@ const Navbar = () => {
                                 </Link>
                               </div>
                               <div className="left-containt-services">
-                                <a href="/bigcommerce-development">
+                                <Link href="/bigcommerce-development">
                                   BigCommerce{" "}
-                                </a>
+                                </Link>
                                 <span>|</span>
-                                <a href="/shopify">Shopify </a>
+                                <Link href="/shopify">Shopify </Link>
                                 <span>|</span>
-                                <a href="/magento">Magento </a>
+                                <Link href="/magento">Magento </Link>
                                 <span>|</span>
-                                <a href="/woocommerce">WooCommerce </a>
+                                <Link href="/woocommerce">WooCommerce </Link>
                               </div>
                             </div>
                             <div className="left-side-servises-containt">
@@ -488,31 +488,31 @@ const Navbar = () => {
                                 </Link>
                               </div>
                               <div className="left-containt-services">
-                                <a href="/php">PHP </a>
+                                <Link href="/php">PHP </Link>
                                 <span>|</span>
-                                <a href="/react-js">React.Js </a>
+                                <Link href="/react-js">React.Js </Link>
                                 <span>|</span>
-                                <a href="/html">HTML5 </a>
+                                <Link href="/html">HTML5 </Link>
                                 <span>|</span>
-                                <a href="/node-js">Node.Js </a>
+                                <Link href="/node-js">Node.Js </Link>
                                 <span>|</span>
-                                <a href="/wordpress">Wordpress </a>
+                                <Link href="/wordpress">Wordpress </Link>
                                 <span>|</span>
-                                <a href="/next-js">Next.Js </a>
+                                <Link href="/next-js">Next.Js </Link>
                               </div>
                             </div>
                             <div className="left-side-servises-containt">
                               <div className="left-head-services">
-                                <Link href="/react-native">
+                                <Link href="/native">
                                   <span>Cross Platform App Development</span>
                                 </Link>
                               </div>
                               <div className="left-containt-services">
-                                <a href="/react-native">React Native </a>
+                                <Link href="/native">React Native </Link>
                                 <span>|</span>
-                                <a href="/flutter">Flutter </a>
+                                <Link href="/flutter">Flutter </Link>
                                 <span>|</span>
-                                <a href="/kotlin">Kotlin </a>
+                                <Link href="/kotlin">Kotlin </Link>
                               </div>
                             </div>
                             <div className="left-side-servises-containt">
@@ -531,11 +531,11 @@ const Navbar = () => {
                                 </Link>
                               </div>
                               <div className="left-containt-services">
-                                <a href="/graphic-design"> Adobe Photoshop</a>
+                                <Link href="/graphic-design"> Adobe Photoshop</Link>
                                 <span>|</span>
-                                <a href="/graphic-design"> Adobe illustrator</a>
+                                <Link href="/graphic-design"> Adobe illustrator</Link>
                                 <span>|</span>
-                                <a href="/graphic-design">Coreldraw</a>
+                                <Link href="/graphic-design">Coreldraw</Link>
                               </div>
                             </div>
                             <div className="left-side-servises-containt">
@@ -545,11 +545,11 @@ const Navbar = () => {
                                 </Link>
                               </div>
                               <div className="left-containt-services">
-                                <a href="/seo">SEO </a>
+                                <Link href="/seo">SEO </Link>
                                 <span>|</span>
-                                <a href="/smm">SMM </a>
+                                <Link href="/smm">SMM </Link>
                                 <span>|</span>
-                                <a href="/ppc">PPC </a>
+                                <Link href="/ppc">PPC </Link>
                               </div>
                             </div>
                             <div className="left-side-servises-containt">
@@ -559,7 +559,7 @@ const Navbar = () => {
                                 </Link>
                               </div>
                               <div className="left-containt-services">
-                                <a href="/ui-ux-design">UI & UX Designing </a>
+                                <Link href="/ui-ux-design">UI & UX Designing </Link>
                               </div>
                             </div>
                             <div className="left-side-servises-containt">

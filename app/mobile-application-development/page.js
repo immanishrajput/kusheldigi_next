@@ -224,7 +224,7 @@ const MobileApp = ({ notify }) => {
             </div>
             <div className="business-box relative text-center cursor-pointer">
               <div className="business-card-img">
-                <Image src={{c5}} alt="Web Application Development" title="Web Application Development" />
+                <Image src={c5} alt="Web Application Development" title="Web Application Development" />
               </div>
               <h5>Web Application Development</h5>
               <p>
