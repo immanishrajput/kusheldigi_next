@@ -3,13 +3,14 @@ import { useEffect, useState } from "react";
 // import "./blog.css";
 import { GoArrowRight } from "react-icons/go";
 // import { useNavigate } from "react-router-dom";
-import Router from "next/navigation";
+
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
 import { RxCross2 } from "react-icons/rx";
-import { useRouter } from "next/navigation";
 import '../globals.css'
-import Image from "next/image";
+import { useRouter } from "next/navigation";
+import Navbar from "../COMMON/Navbar";
+import Footer from "../COMMON/Footer";
 const baseurl = "https://backblog.kusheldigi.com";
 // const baseurl = "http://localhost:4000";
 
@@ -144,7 +145,7 @@ console.log("featuredBlog" , featuredBlog);
   return (
 
     <div className="kblogwrap pb-10">
-
+<Navbar/>
       <div className="blogsfilesect">
 
       <div className="blofilteconta">
@@ -199,9 +200,7 @@ console.log("featuredBlog" , featuredBlog);
     <div className="kbsecontwrap">
       <div className="kbsecCCont">
         <img
-          onClick={() => {
-          
-            navigate(`/blogdetail/${currAllBlogs[0]?._id}`);
+          onClick={() => { router.push(`blogdetails/${currAllBlogs[0]?._id}`);
           }}
           className="kbse2img cursor-pointer"
           src={currAllBlogs[0]?.images}
@@ -226,8 +225,8 @@ console.log("featuredBlog" , featuredBlog);
           <h2
             className="cursor-pointer"
             onClick={() => {
-          
-              navigate(`/blogdetail/${currAllBlogs[0]?._id}`);
+           
+             router.push(`blogdetails/${currAllBlogs[0]?._id}`);
             }}
           >
             {currAllBlogs[0]?.title?.length > 50 ? `${currAllBlogs[0]?.title?.slice(0,50)}...` : currAllBlogs[0]?.title} 
@@ -235,8 +234,7 @@ console.log("featuredBlog" , featuredBlog);
 
           <p
             onClick={() => {
-           
-              navigate(`/blogdetail/${currAllBlogs[0]?._id}`);
+              router.push(`blogdetails/${currAllBlogs[0]?._id}`);
             }}
             className="kblopara cursor-pointer"
           >
@@ -248,7 +246,7 @@ console.log("featuredBlog" , featuredBlog);
           <div
             onClick={() => {
              
-              navigate(`/blogdetail/${currAllBlogs[0]?._id}`);
+              router.push(`blogdetails/${currAllBlogs[0]?._id}`);
             }}
             className="readmorekb"
           >
@@ -267,13 +265,13 @@ console.log("featuredBlog" , featuredBlog);
           {featuredBlog?.map((blog, index) => (
             <>
               <div key={index} className="singfeaturesb">
-                <Image src={blog?.images} className="feimgablog" alt="" />
+                <img src={blog?.images} className="feimgablog" alt="" />
 
                 <div className="sifet_contet">
                   <h4
                     onClick={() => {
                      
-                      navigate(`/blogdetail/${blog?._id}`);
+                      router.push(`blogdetails/${blog?._id}`);
                     }}
                   >
                     {blog?.title?.length > 60
@@ -320,7 +318,7 @@ console.log("featuredBlog" , featuredBlog);
               <div className="singboxblog">
                 <img
                   onClick={() => {
-                    navigate(`/blogdetail/${data?._id}`);
+                    router.push(`blogdetails/${data?._id}`);
                   }}
                   src={data.images[0]}
                   className="sinboximg cursor-pointer"
@@ -344,7 +342,7 @@ console.log("featuredBlog" , featuredBlog);
                   <h4
                     className="cursor-pointer"
                     onClick={() => {
-                      navigate(`/blogdetail/${data?._id}`);
+                      router.push(`/blogdetail/${data?._id}`);
                     }}
                   >
                     {data?.title?.length > 50
@@ -356,7 +354,7 @@ console.log("featuredBlog" , featuredBlog);
 
                   <div
                     onClick={() => {
-                      navigate(`/blogdetail/${data?._id}`);
+                      router.push(`/blogdetails/${data?._id}`);
                     }}
                     className="readmorekb"
                   >
@@ -387,7 +385,7 @@ console.log("featuredBlog" , featuredBlog);
                   <img
                     onClick={() => {
                       // navigate(`/blogdetail/${data?.title}`, { state: data });
-                      navigate(`/blogdetail/${data?._id}`);
+                      router.push(`blogdetails/${data?._id}`);
                     }}
                     src={data?.images[0]}
                     className="blogimg cursor-pointer"
@@ -411,7 +409,7 @@ console.log("featuredBlog" , featuredBlog);
                     className="cursor-pointer "
                     onClick={() => {
                       // navigate(`/blogdetail/${data?.title}`, { state: data });
-                      navigate(`/blogdetail/${data?._id}`);
+                      router.push(`blogdetails/${data?._id}`);
                     }}
                   >
                     {data?.title?.split(" ")?.length > 11
@@ -422,7 +420,7 @@ console.log("featuredBlog" , featuredBlog);
                   <p
                     onClick={() => {
                       // navigate(`/blogdetail/${data?.title}`, { state: data });
-                      navigate(`/blogdetail/${data?._id}`);
+                      router.push(`blogdetails/${data?._id}`);
                     }}
                     className="kblogpras cursor-pointer"
                   >
@@ -435,14 +433,14 @@ console.log("featuredBlog" , featuredBlog);
                   <div
                     onClick={() => {
                       // navigate(`/blogdetail/${data?.title}`, { state: data });
-                      navigate(`/blogdetail/${data?._id}`);
+                      router.push(`blogdetails/${data?._id}`);
                     }}
                     className="readmorekb"
                   >
                     <p
                       onClick={() => {
                         // navigate(`/blogdetail/${data?.title}`, { state: data });
-                        router(`/blogdetail/${data?._id}`);
+                        router.push(`blogdetails/${data?._id}`);
                       }}
                     >
                       Read More
@@ -471,7 +469,7 @@ console.log("featuredBlog" , featuredBlog);
              <div key={index} className="singblogsthi">
                <img
                  onClick={() => {
-                   navigate(`/blogdetail/${data?._id}`);
+                  router.push(`blogdetails/${data?._id}`);
                  }}
                  src={data?.images[0] || ""}
                  className="blogimg cursor-pointer"
@@ -494,7 +492,7 @@ console.log("featuredBlog" , featuredBlog);
                <h3
                  className="cursor-pointer "
                  onClick={() => {
-                   navigate(`/blogdetail/${data?._id}`);
+                  router.push(`blogdetails/${data?._id}`);
                  }}
                >
                  {data?.title?.split(" ")?.length > 11
@@ -504,7 +502,7 @@ console.log("featuredBlog" , featuredBlog);
 
                <p
                  onClick={() => {
-                   navigate(`/blogdetail/${data?._id}`);
+                  router.push(`blogdetails/${data?._id}`);
                  }}
                  className="kblogpras cursor-pointer"
                >
@@ -516,13 +514,13 @@ console.log("featuredBlog" , featuredBlog);
 
                <div
                  onClick={() => {
-                   navigate(`/blogdetail/${data?._id}`);
+                  router.push(`blogdetails/${data?._id}`);
                  }}
                  className="readmorekb"
                >
                  <p
                    onClick={() => {
-                     router(`/blogdetail/${data?._id}`);
+                    router.push(`blogdetails/${data?._id}`);
                    }}
                  >
                    Read More
@@ -560,7 +558,7 @@ console.log("featuredBlog" , featuredBlog);
      </div>
    </div> 
    }
-
+<Footer/>
 
     </div>
   );
