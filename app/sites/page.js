@@ -65,7 +65,7 @@ const Sites = () => {
                     <div className="side-bg-trio">
                         <div className="first-kick-pads incheingh">
                             <div className="left-section-kids">
-                                <Image src={"https://res.cloudinary.com/ecommerce-website/image/upload/v1726142417/image_18_yj36zo.svg"} width="120" alt="img"></Image>
+                                <img src={"https://res.cloudinary.com/ecommerce-website/image/upload/v1726142417/image_18_yj36zo.svg"} width="120" alt="img"></img>
                                 <p className="shoots_premium mt_top">
                                     Sites and Scopes has specialized experience in delivering high performance optics and accessories for marksmen, hunters, and tactical professionals. All their aim is on delivering a precision-engineered product for utmost reliability and clearness in any environment.
                                 </p>
@@ -146,7 +146,7 @@ const Sites = () => {
                     </div>
                     <div className="right-card-omega">
                         <p>Color Plate</p>
-                        <Image src={"https://res.cloudinary.com/ecommerce-website/image/upload/v1726205579/Group_1171276051_kenw1s.svg"} id="gang" alt="img" />
+                        <img src={"https://res.cloudinary.com/ecommerce-website/image/upload/v1726205579/Group_1171276051_kenw1s.svg"} id="gang" alt="img" />
                     </div>
                 </div>{" "}
 
@@ -254,12 +254,12 @@ const Sites = () => {
                     <div className="kick-first kick-first222">
 
                         <div className="kickds">
-                            <Image width="210" src={"https://res.cloudinary.com/ecommerce-website/image/upload/v1726206845/image_19_qgz5jx.png"} alt="kick5" />
+                            <img width="210" src={"https://res.cloudinary.com/ecommerce-website/image/upload/v1726206845/image_19_qgz5jx.png"} alt="kick5" />
                         </div>
                     </div>
                     <div className="kick-second kick-second222 relative">
                         <div className="about165">
-                            <Image
+                            <img
                                 className="absolute about161 animate__animated animate__pulse animate__infinite"
                                 src={"https://res.cloudinary.com/ecommerce-website/image/upload/v1726206677/Ellipse_451_bi1imf.png"}
                                 alt=""
@@ -319,7 +319,7 @@ const Sites = () => {
                         <SplideSlide>
                             <div className="other-card">
                                 <div className="other-box">
-                                    <img src={rel1} alt="rel1" />
+                                    <Image src={rel1} alt="rel1" />
                                 </div>
                                 <div className="other-tox-para">
                                     <h3>RELY INNOVATION</h3>

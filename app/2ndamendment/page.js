@@ -1,0 +1,466 @@
+"use client"
+// import "./section7.css";
+import { useState } from "react";
+import { TiTick } from "react-icons/ti";
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/splide/dist/css/splide.min.css';
+import '../globals.css'
+import Navbar from "../COMMON/Navbar";
+import Image from "next/image";
+import Footer from "../COMMON/Footer";
+const d1 = [
+  {
+    title1: "Industries",
+    title2: "Ecommerce",
+  },
+  {
+    title1: "Client Location",
+    title2: "United States",
+  },
+  {
+    title1: "Key Technologies",
+    title2: "BigCommerce",
+  },
+];
+
+const d2 = [
+  {
+    title:"Discovery Phase" , 
+    data:{
+      img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216631/c2d1_j5clbp.png" ,
+      title:"Discovery Phase" ,
+      para:"This phase is the foundation of a successful project. We focus on having a deep understanding about your business, target audience and goals to ensure that our solutions align with your business goal." , 
+      points:[
+        "In-depth Market Research" , 
+        "Requirement Analysis" , 
+        "Strategic Planning for effective execution "
+      ]
+    }
+  } ,
+  {
+    title:"UX/UI Design" , 
+    data:{
+      img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216874/c1bg5_wnepdj.png" ,
+      title:"UX/UI Design" ,
+      para:"We believe in user-centric design principles and to achieve this we design engaging and user friendly interfaces that align with your brand's identity. " , 
+      points:[
+        "User Journey Mapping" , 
+        "Brand Identity Integration" , 
+        "Responsive Design"
+      ]
+    }
+  } , 
+  {
+    title:"Development" , 
+    data:{
+      img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216850/c1bg4_wxl6sh.png" ,
+      title:"Web development" ,
+      para:"Our development team is always committed to bringing your vision to life by integrating the latest technologies and best practices to build a scalable eCommerce platform." , 
+      points:[
+        "Customized Solutions" , 
+        "Optimized Code" , 
+        "Agile Approach"
+      ]
+    }
+  } , 
+  {
+    title:"Testing Automation" , 
+    data:{
+      img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216817/c1bg3_zabfta.png" ,
+      title:"Testing Automation" ,
+      para:"We thoroughly test every feature on the platform, using automation to deliver reliability, security, and an error-free experience before the user's eyes in front of its launch." , 
+      points:[
+        "Comprehensive Testing" , 
+        "Automated Quality Assurance" , 
+        "User Acceptance Testing"
+      ]
+    }
+  } , 
+  {
+    title:"Product-to-market launch" , 
+    data:{
+      img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216787/c1bg2_eog7dh.png" ,
+      title:"Product-to-market launch" ,
+      para:"In this final phase of development, we introduce your platform to the market and ensure a smooth and impactful launch that maximizes visibility and customer engagement." , 
+      points:[
+        "Go-to-Market Strategy" , 
+        "Performance Monitoring" , 
+        "Ongoing Support"
+      ]
+    }
+  }
+]
+
+const projects = [
+  {
+     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216954/down1_kgzcrg.png" , 
+     title1:"Topbrass tactical" , 
+     title2:"E-commerce, Bigcomerce "
+  } , 
+  {
+     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216979/down2_m0c8fa.png" , 
+     title1:"Kickeez" , 
+     title2:"E-commerce, Bigcomerce "
+  } , 
+  {
+     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217009/down3_ucxpri.png" , 
+     title1:"Sights & Scopes" , 
+     title2:"E-commerce, Bigcomerce "
+  } , 
+]
+
+function CaseStudy() {
+
+  const [selectS4, setSelectS4] = useState(0);
+  const [selectdata, setSelectdata] = useState(d2[0].data);
+  const [animationDirection, setAnimationDirection] = useState('slide-in-right');
+  
+  const handleSelectionChange = (index) => {
+    // Set slide-out animation
+    setAnimationDirection('slide-out-left');
+  
+    setTimeout(() => {
+      // Update selected data and slide in from right
+      setSelectS4(index);
+      setSelectdata(d2[index].data);
+      setAnimationDirection('slide-in-right');
+    }, 300); // Time for the slide-out transition to complete
+  };  /* Slide-out animation */
+ 
+
+  return (
+    <div className="case1wrap home-main">
+<Navbar/>
+      {/* first sectino */}
+      <section className="case1firsec">
+
+        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216400/case1fil_bwtual.png" alt="" className="case1fill" />
+        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216437/case1bg_j1tw2e.png" alt="" className="case1bg" />
+
+        <div className="cas1cont1wrap">
+          <div className="case1fircont">
+            
+            <div className="case1fifirco">
+              {/* left  */}
+              <div className="ca1firleft">
+                <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216471/case1s1_wisthd.png" alt="" />
+                <p>2ndamendment Armory</p>
+              </div>
+
+              <p className="ca1firrigh">
+              2nd Amendment Armory is the most trusted firearms provider of high-quality gun accessories, serving customers both locally in Brandon, FL and across the nation.
+              </p>
+            </div>
+
+            {/* secont */}
+            <div className="case1secbot">
+              {d1?.map((d, index) => (
+                <div key={index} className="singleca1bt">
+                  {/* left */}
+                  <div className="sli1left">
+                    <p>{d?.title1}</p>
+                    <h3>{d?.title2}</h3>
+                  </div>
+
+               {
+                index != 2 && 
+                <p className="horizline"> </p>
+               }
+                </div>
+              ))}
+            </div>
+
+          </div>
+        </div>
+        
+      </section>
+
+      {/* secon section  */}
+      <section className="case2secsec">
+        <div className="case2seccont">
+          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216503/case2imgs1_xngbpg.png" alt="" className="cs2i1" />
+
+          <div className="sc2_main_content">
+            <h3>Client Background</h3>
+
+            <p>
+            2nd Amendment Armory is known for being a leading provider of high-quality firearms and tactical equipment. They have a wide selection of firearms that includes big brands like Glock, Ruger, Smith & Wesson and Daniel Defense.The store caters to a wide variety of people, including hunters, outdoorsmen, recreational shooters, law enforcement, military servicemen, and responsible owners of firearms. 2nd Amendment Armory focuses on customer satisfaction by guaranteeing fair pricing, product knowledge, and exceptional post-purchase support. 
+            </p>
+          </div>
+        </div>
+
+        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216538/c2el1_ljp05j.png" alt="" className="c2el1" />
+      </section>
+
+      {/* third section  */}
+      <section className="case3secthir">
+        <div className="sc3sectcont">
+          {/* left side */}
+          <div className="s3secltleft">
+
+            <div className="c3s3_head">
+              <h3>Solution</h3>
+              <p></p>
+            </div>
+
+            <p className="s3theeparas">
+            With the 2nd Amendment Armory's requirement for a much more robust and compliant eCommerce platform, we developed an ecommerce platform using  BigCommerce that can be best suited for their company. While designing the solution, we have prioritized user experience to ensure that customers are able to browse the diverse range of firearms, accessories, and services. We have designed a clear and intuitive interface which categorized the products for ease of identification by customers as suited to their preferences.
+
+            </p>
+
+            <p className="s3theeparas">
+              {" "}
+              Security and compliance were also our top most priority throughout the development. We integrated BigCommerce’s PCI-compliant security features that includes encrypted payment gateways and customer data protection, which are essential in the firearms industry.
+
+            </p>
+
+          </div>
+
+          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216571/case3ano_uv19e1.png" alt="" className="c3antoimg" />
+        </div>
+      </section>
+
+
+     {/* fourth  section  */}
+
+<Splide
+      options={{
+        type: 'loop',
+        perPage: 1,
+        autoplay: true,
+        interval: 3000, 
+        pagination: true,
+        arrows: false,
+      }}
+    >
+      <SplideSlide>
+        <section className="case3secfour">
+          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216738/c1bg1_pjbwvi.png" alt="" className="c1btimage" />
+
+          <div className="cas3s4con">
+
+   <div className="bgshowdb1">
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730447922/Group_1171279178_mudtzg.png" alt="" className="ca2insideimg adjustheighimg" />
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="" className="shadowbg1" />
+   </div>
+
+            <div className="cas3circldata">
+              <h4>Easy Navigation Menu </h4>
+              <p>2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help. </p>
+            </div>
+
+          </div>
+
+        </section>
+      </SplideSlide>
+
+
+      <SplideSlide>
+        <section className="case3secfour">
+          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216738/c1bg1_pjbwvi.png" alt="" className="c1btimage" />
+
+          <div className="cas3s4con">
+
+   <div className="bgshowdb1">
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730447919/Group_1171279179_d6pz1d.png" alt="" className="ca2insideimg adjustheighimg" />
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="" className="shadowbg1" />
+   </div>
+
+            <div className="cas3circldata">
+              <h4>Smart Filters </h4>
+              <p>2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help. </p>
+            </div>
+
+          </div>
+
+        </section>
+      </SplideSlide>
+
+      <SplideSlide>
+        <section className="case3secfour">
+          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216738/c1bg1_pjbwvi.png" alt="" className="c1btimage" />
+
+          <div className="cas3s4con">
+
+   <div className="bgshowdb1">
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730447917/Group_1171279180_kw6axc.png" alt="" className="ca2insideimg addheightimage" />
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="" className="shadowbg1" />
+   </div>
+
+            <div className="cas3circldata">
+              <h4>Mobile Responsive </h4>
+              <p>2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help. </p>
+            </div>
+
+          </div>
+
+        </section>
+      </SplideSlide>
+     
+
+    </Splide>
+
+     {/* fivth  section  */}
+     <section className="case2fivsec">
+
+      <div className="c2fivsecont">
+
+        {/* top  */}
+        <div className="c2fivtopsec">
+          <h4>How we build the E-Commerce development Process</h4>
+          <p>Kushel Digi committed to transform your tech solutions into impactful brands by ensuring unique customer experiences at every digital touchpoint through our  structured process.          </p>
+        </div>
+
+   {/* bbottm  */}
+   <div className="c22fivbotsec">
+  {/* Left Section */}
+  <div className="c3fivbtoleft">
+    {d2?.map((d2Item, index) => (
+      <p
+        key={index}
+        onClick={() => handleSelectionChange(index)}
+        className={`${selectS4 === index && "addthsomfbg"} cursor-pointer`}
+      >
+        {d2Item?.title}
+      </p>
+    ))}
+  </div>
+
+  {/* Right Section with Animation */}
+  <div className={`c2fibbotrigh ${animationDirection} `}>
+    <Image src={selectdata?.img} className="selectdataimg" alt="" />
+    <div className="serigh_macont">
+      <h4>
+        <span>0{selectS4 + 1}/</span> {selectdata?.title}
+      </h4>
+      <p className="sledatapar">{selectdata?.para}</p>
+      <ul>
+        {selectdata?.points?.map((point, index) => (
+          <li key={index}>
+            <span>
+              <TiTick className="TiTickfds" />
+            </span>{" "}
+            {point}
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+    <div className="sliderbotse">
+    <Splide
+      options={{
+        type: 'loop',
+        perPage: 1,
+        autoplay: true,
+        interval: 3000, 
+        pagination: true,
+        arrows: false,
+      }}
+    >
+
+      {
+        d2?.map((item , index)=>(
+          <SplideSlide key={index}>
+
+          <div className={`c2fibbotrigh`}>
+       
+       <Image src={item?.data?.img} className="selectdataimg" alt="" />
+       
+       <div className="serigh_macont">
+       
+          <h4><span>0{index+1}/</span> {item?.data?.title}</h4>
+       
+          <p className="sledatapar">{item?.data?.para}</p>
+       
+          <ul>
+          {
+           item?.data?.points?.map((point , index)=>(
+             <li key={index}><span><TiTick className="TiTickfds" /></span> {point} </li>
+           ))
+          }
+          </ul>
+       
+       </div>
+       
+       </div>
+          </SplideSlide>
+       
+        ))
+      }
+  
+
+
+    </Splide>
+    </div>
+
+
+      </div>
+      
+     </section>
+
+     {/* six section  */}
+     <section className="cs2sexiesec">
+
+      <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216672/similarl1_kq1btu.png" alt="" className="similarl1" />
+      <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216703/similarl2_yt5kqi.png" alt=""  className="similarl2" />
+
+       <div className="c2sixconta">
+
+          <div className="cssixtop">
+          <h4>Got a new project idea? Let’s make it happen!          </h4>
+          <p>See how our specialized approach can drive your project forward with impactful results          </p>
+          </div>
+
+          <div className="csizbot">
+            <button><span>Get A Quote For Your Project</span></button>
+            <p>Or Start a conversation</p>
+          </div>
+
+
+       </div>
+
+
+     </section>
+
+     {/* seven section  */}
+     <section className="sc2sevensec">
+
+      <div className="sc2sevnconta">
+
+        <div className="sc2sev_head">
+        <h2>Related Projects</h2>
+        <p></p>
+        </div>
+
+        <div className="sc2_Sev_projects">
+
+          {
+            projects?.map((project , index)=>(
+              <div key={index} className="singlprojseve">
+                   <Image src={project?.img} alt="" />
+
+                    <div className="seven_titls">
+                      <p className="sep1">{project?.title1}</p>
+                      <p className="sep2">{project?.title2}</p>
+                    </div>
+
+                   <button><span>Case study</span></button>
+
+              </div>
+            ))
+          }
+
+        </div>
+
+      </div>
+
+     </section>
+<Footer/>
+    </div>
+  );
+}
+
+export default CaseStudy;

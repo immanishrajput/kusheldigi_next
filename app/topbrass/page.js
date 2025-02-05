@@ -42,7 +42,7 @@ import img13 from "../../public/assets/Group 1000006500 (1).png";
 import matsection from "../../public/assets/matsection.png";
 
 
-import "../components/css/app2.css";
+// import "../components/css/app2.css";
 
 
 import Navbar from "../COMMON/Navbar";
@@ -76,7 +76,7 @@ import ele from '../../public/assets/elle.svg';
 import skl1 from '../../public/assets/skl1.svg';
 import skl2 from '../../public/assets/skl2.svg';
 import skl3 from '../../public/assets/skl3.svg';
-
+import Image from "next/image";
 import '../globals.css'
 
 const TopBrass = () => {
@@ -134,7 +134,7 @@ const TopBrass = () => {
                                 </div>
                             </div>
                             <div className="right-section-kids">
-                                <img className="ai_site" src={Topo} alt="img"></img>
+                                <Image className="ai_site" src={Topo} alt="img"></Image>
                             </div>
                         </div>
                         {/* *********************************************** */}
@@ -350,7 +350,7 @@ const TopBrass = () => {
 
                                 <div className="azib-tech">
                                     <h3>Technologies Used</h3>
-                                    <img className="conjun" src={opqweeeeeee3} alt="" />
+                                    <Image className="conjun" src={opqweeeeeee3} alt="" />
                                 </div>
                             </div>
                         </div>
@@ -389,7 +389,7 @@ const TopBrass = () => {
                         <SplideSlide>
                             <div className="other-card">
                                 <div className="other-box">
-                                    <img src={rel1} alt="rel1" />
+                                    <Image src={rel1} alt="rel1" />
                                 </div>
                                 <div className="other-tox-para">
                                     <h3>RELY INNOVATION</h3>
@@ -398,7 +398,7 @@ const TopBrass = () => {
                                         of danger, but also clearly instructs you on what to do
                                         next.
                                     </p>
-                                    <Link to="/rely">
+                                    <Link href="/rely">
                                         <button className="kick_eez-btn">View</button>
                                     </Link>
                                 </div>
@@ -415,7 +415,7 @@ const TopBrass = () => {
                                         Aftermarket suspension lift kits, leveling kits and
                                         accessories for 4X4 off-road truck and jeep enthusiasts
                                     </p>
-                                    <Link to="/pro-track">
+                                    <Link href="/pro-track">
                                         <button>View</button>
                                     </Link>
                                 </div>
@@ -432,7 +432,7 @@ const TopBrass = () => {
                                         Due to high volatility in the materials market we are
                                         currently experiencing longer than normal lead times.
                                     </p>
-                                    <Link to="/solenoid-ninja">
+                                    <Link href="/solenoid-ninja">
                                         <button>View</button>
                                     </Link>
                                 </div>
@@ -450,7 +450,7 @@ const TopBrass = () => {
                             You can send us the details of your project, and a member of our
                             team will contact you shortly.
                         </p>
-                        <Link to="/contact-us">
+                        <Link href="/contact-us">
                             <button>
                                 Request A Call{" "}
                                 <Image

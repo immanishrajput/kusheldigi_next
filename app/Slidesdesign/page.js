@@ -1,49 +1,35 @@
-
 "use client"
-
-import React, { useState, useEffect } from "react";
+import React,{useState,useEffect} from "react";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/react-splide/css";
 import arrow4 from "../../public/assets/arrow4.png";
-import Link from "next/link";
 import rel1 from "../../public/assets/rel1.png";
 import rel2 from "../../public/assets/rel2.png";
 import rel3 from "../../public/assets/rel3.png";
-import { Splide, SplideSlide } from "@splidejs/react-splide";
-import "@splidejs/react-splide/css";
-import opqweeeeeee from "../../public/assets/opqweeeeeee.png";
-import opqweeeeeee2 from "../../public/assets/opqweeeeeee2.png";
-import opqweeeeeee3 from "../../public/assets/opqweeeeeee3.png";
-
-
-
-import ballistic from "../../public/assets/ballistic.png"
+// import { NavLink } from "react-router-dom";
+import Link from "next/link";
+import pt4 from "../../public/assets/slidesPLP Page.png";
+import pt5 from "../../public/assets/slidesHome page design.png";
+import pt6 from "../../public/assets/slidesaboutPLP Page z.png";
 import img4 from "../../public/assets/Group 1000004718.png";
 import img5 from "../../public/assets/Group 1000004715.png";
 import img6 from "../../public/assets/Group 1000004716.png";
+import protruckss from "../../public/assets/Slidesrightimg.png";
 import img13 from "../../public/assets/Group 1000006500 (1).png";
-import madlogooooo from "../../public/assets/madlogooooo.png";
-
-
-import Navbar from "../COMMON/Navbar";
-import Footer from "../COMMON/Footer";
+import hh5 from "../../public/assets/slidescolorplat.png";
+import hh6 from "../../public/assets/slidesfirst1.png";
+import hh7 from "../../public/assets/slidesfirst2.png";
+import hh8 from "../../public/assets/slidesfirst3.png";
+import pru2 from '../../public/assets/shshhshshshsshshshshsh.png';
+import opqweeeeeee2 from "../../public/assets/opqweeeeeee2.png";
+import opqweeeeeee3 from "../../public/assets/opqweeeeeee3.png";
 import whatsApp from "../../public/assets/whatsapp.png";
 import call from "../../public/assets/telephone.png"
-
-import ballisticRi from "../../public/assets/balisticright.png"
-import elivaterig from "../../public/assets/elivateright.png"
-import colorplate from "../../public/assets/batcolorplate.png"
-import batright from "../../public/assets/batright.png"
-import batmiddle from "../../public/assets/batmiddle.png"
-import batleft from "../../public/assets/batleft.png"
-import recoil from "../../public/assets/mostrecoil.png"
-import el44 from "../../public/assets/ellipse44.png"
-import catlog from "../../public/assets/CATALOG2.png"
-import home2 from "../../public/assets/HOME32.png"
-import productdd from "../../public/assets/PRODUCTdd.png"
+import Image from "next/image";
+import Navbar from "../COMMON/Navbar";
+import Footer from "../COMMON/Footer";
 import '../globals.css'
-import Image from 'next/image'; 
-
-
-const Ballistic = () => {
+const ProTrucks = () => {
   const [perPage, setPerPage] = useState(3);
   useEffect(() => {
     if (window.matchMedia("(max-width: 800px)").matches) {
@@ -55,63 +41,48 @@ const Ballistic = () => {
   }, []);
 
 
+
   const phoneNumber = "9045301702";
 
   const whatAppHandler = () => {
     const whatsappUrl = `https://wa.me/${phoneNumber}`;
     window.open(whatsappUrl, "_blank");
   };
-  const callHandler = () => {
+  const callHandler=()=>{
     const callUrl = `tel:${phoneNumber}`;
     window.open(callUrl, "_blank");
   }
 
 
+ 
 
   return (
     <>
     <Navbar/>
-      {/* <helmet> */}
-        <link rel="canonical" href="https://www.kusheldigi.com/kick-eez" />
-      {/* </helmet> */}
-
+    {/* <helmet> */}
+    <link rel="canonical" href="https://www.kusheldigi.com/slidesdesign"/>
+    {/* </helmet> */}
+    
       <div className="ser-main">
+
         <div>
           <div className="side-bg-trio">
-            <div className="first-kick-pads incheingh iynyj">
-              <div className="left-section-kids ">
-                <img src={"https://res.cloudinary.com/ecommerce-website/image/upload/v1725976506/image_75_1_aha5l9.svg"} id="plus-circle" className="ballistic" alt="img"></img>
+            <div className="first-kick-pads">
+              <div className="left-section-kids">
+                <Image src={pru2} className="pru188888888" alt="img"></Image>
                 <p className="shoots_premium">
-                Ballistic Dummy Lab is the leading developer of the most physiologically correct human analogues for the firearms testing, medical training, and special effects in film and television industries. It is recognized by its innovative products made of organic and synthetic ballistic gel, which have set the global standard of realism and accuracy.
+                  1000+ Innovative Slides Design
                 </p>
                 <h3>Technologies Used</h3>
                 <div className="main-box-logic flex">
-                  <Image src={opqweeeeeee} id="sim" alt="img"></Image>
                   <Image src={opqweeeeeee2} id="rotat" alt="img"></Image>
                 </div>
               </div>
               <div className="right-section-kids">
-                <Image src={ballisticRi} className="ballisticRi" id="total-group" alt="img"></Image>
+                <Image src={protruckss} id="total-group" alt="img"></Image>
               </div>
             </div>
-            {/* *********************************************** */}
-            <div className="MadFish_press">
-              <div className="MadFish-back">
-                <div className="MadFish-back1">
-                  <div className="MadFish_press_head">
-                    <Image src={madlogooooo} alt="madlogooooo" />
-                  </div>
-                  <div className="MadFish_press_para">
-                    <p>
-                    Kushel Digi Solutions is excited to contribute to the development of this excellent solutions for the firearms testing, medical training, and special effects industries for Ballistic Dummy lab.
-                    </p>
-                  </div>
-                </div>
-                <div className="MadFish-back2">
-                  <Image src={elivaterig} alt="MadFish" />
-                </div>
-              </div>
-            </div>
+
             {/* ************************************************** */}
             <div className="second-service-conte">
               <p className="service-hinking">Services Provided</p>
@@ -132,27 +103,25 @@ const Ballistic = () => {
             </div>
           </div>
         </div>
-
-        {/* *********************************************** */}
-
         {/* ******************************************** */}
+
         <div className="fourth-plate-juuls">
           <div className="left-card-hub">
-            <div className="vl-chic vl-chic22">
+            <div className="vl-chic">
               <p className="fila">Font</p>
-              <div className="ywo-stem">
+              <div className="ywo-stem so_change">
                 <div className="light-aa">
                   <p className="hoo">Aa</p>
-                  <p className="roboto-tip">Urbanist</p>
+                  <p className="roboto-tip">Poppins</p>
                 </div>
                 <div className="dark-aa">
                   <p className="dark-canny">Aa</p>
-                  <p className="prompt-tip">Urbanist</p>
+                  <p className="prompt-tip">Poppins</p>
                 </div>
-                {/* <div className="medium-aa">
-                  <p className="medium">Aa</p>
-                  <p className="node-tip">Roboto</p>
-                </div> */}
+                <div className="dark-aa">
+                  <p className="dark-canny">Aa</p>
+                  <p className="prompt-tip">Poppins</p>
+                </div>
               </div>
               <div className="sub-worm">
                 <p className="tool">Tools Use</p>
@@ -162,10 +131,9 @@ const Ballistic = () => {
           </div>
           <div className="right-card-omega">
             <p>Color Plate</p>
-            <Image src={colorplate} id="gang" alt="img" />
+            <Image src={hh5} id="gang" alt="img" />
           </div>
-        </div>{" "}
-
+        </div>
 
         <div className="back-story">
           <div className="step1-back">
@@ -175,19 +143,24 @@ const Ballistic = () => {
             </div>
             <div className="step-backs2">
               <p>
-
-                Ballistic Dummy Lab wanted to move away from the manual sales process and sell on a fully automated eCommerce platform for the growing customer base. Their goal was an online storefront reflecting expertise, providing excellent user experiences, and an online storefront that seamlessly integrates with operations.
-
-
+                {" "}
+                Slides365 aimed to serve various needs of professionals by offering subscription-based templates, presentations, design slides, and industry-specific slides. In short, the company aimed to make the chore of creating effective presentations a little easier by providing readymade templates in several sectors. Slides365 wanted to make its services and customer experience even better by searching for a digital partner that could uplift their online platform and make the browsing, subscription, and downloading of presentations easier for users.
 
               </p>
-
+             
             </div>
           </div>
-          <div className="step-images flex  justify-center mt-20">
-            <Image className="batleft heightcum" src={batleft} alt="stepback" />
-            <Image className="batleft " src={batmiddle} alt="stepback1" />
-            <Image className="batleft heightcum" src={batright} alt="stepback1" />
+          <div className="step-images flex items-center justify-center mt-20">
+            <Image
+              className="stepback solenoid-stepback1"
+              src={hh6}
+              alt="stepback"
+            />
+            <Image
+              className="stepback1 solenoid-stepback1"
+              src={hh7}
+              alt="stepback1"
+            />
           </div>
         </div>
 
@@ -196,124 +169,83 @@ const Ballistic = () => {
             <h3 className="nila">02</h3>
             <h3>Challenges & Solutions</h3>
           </div>
-          <div className="challenge-story2 flex gap-4">
-            <div className="challenge-box challenge-box2  ">
+          <div className="challenge-story2 flex">
+            <div className="challenge-box challenge-box2">
               <h4>Challenges</h4>
               <div className="chal"></div>
               <div className="challenge-list mt-8">
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                    Complex Showcase of Products that were to be made in such a manner as to highlight the unique selling points.
-                  </p>
-                </div>
-                <div className="challenge-list1">
-                  <div className="nilust"></div>
-                  <p>
-                    One system to handle high traffic and increased demand across industry types.
-                  </p>
-                </div>
-                <div className="challenge-list1">
-                  <div className="nilust"></div>
-                  <p>
-                    International customers had to be supported with a easy buying experience.
-                  </p>
-                </div>
-                <div className="challenge-list1">
-                  <div className="nilust"></div>
-                  <p>
-                    Seamless backend integration was necessary to manage inventory, process orders, and ship merchandise.
-                  </p>
-                </div>
+                  Their old website was making difficult for users to navigate through the vast library of templates.
 
+                  </p>
+                </div>
+                <div className="challenge-list1">
+                  <div className="nilust"></div>
+                  <p>
+                  The platform lacked a good design that can allow easy access to templates, leading to a high bounce rate.
+
+                  </p>
+                </div>
+                <div className="challenge-list1">
+                  <div className="nilust"></div>
+                  <p>
+                  Handling different subscription plans was complex which requires a solution to automate and simplify the process.
+
+                  </p>
+                </div>
               </div>
             </div>
-            <div className="challenge-box challenge-box2  ">
-              <h4>Solutions</h4>
+            <div className="challenge-box challenge-box2">
+              <h4>Solution</h4>
               <div className="chal"></div>
               <div className="challenge-list mt-8">
-
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                    We customized Shopify to highlight the distinctive features of Ballistic Dummy Lab products. Thus, very detailed product pages with high-quality visuals were possible.
+                  We designed a fully scalable website that can efficiently facilitate Slides365 in managing and organizing its huge template library.
+
                   </p>
                 </div>
-
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                    Configured Shopify to be scalable to handle high traffic volumes while leading customers through an end-to-end experience locally and internationally.
-
+                  Our team conducted extensive user research to redesign the interface that focus on ease in navigation and improved search functionality.
 
                   </p>
                 </div>
-
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                    Optimized the platform for search engines and built a user friendly interface to attract and retain customers around the world.
-
-
-
-                  </p>
-
-                </div>
-
-                <div className="challenge-list1">
-                  <div className="nilust"></div>
-                  <p>
-                    Built an effective inventory and order management system that fits with their production and shipping.
-
+                  We introduced sophisticated automation in subscription handling, thereby allowing users to subscribe and renew plans.
 
                   </p>
                 </div>
-
               </div>
             </div>
+           
           </div>
         </div>
 
-        {/* <div className="ballilabwrap">
-
-          <div className="ballisconta">
-
-            <img src={ballistic} className="lerbalifsd" alt="" />
-
-            <div className="rightballis">
-              <img src={recoil} className="recoil432" alt="" />
-              <img src={el44} className="el44" alt="" />
+        <div className="kick-start kick-start22">
+          <div className="kick-first kick-first222">
+        
+            <div className="kickds">
+              <Image className="kick_mart" src={pru2} alt="kick5" />
             </div>
-
           </div>
-
-        </div> */}
-
-<div className="kick-start kick-start22">
-                    <div className="kick-first kick-first222">
-
-                        <div className="kickds">
-                            <Image width="210" src={ballistic} alt="kick5" />
-                        </div>
-                    </div>
-                    <div className="kick-second kick-second222 relative">
-                        <div className="about165">
-                            <Image
-                                className="absolute about161 animate__animated animate__pulse animate__infinite"
-                                src={el44}
-                                alt=""
-                            />
-                        </div>
-                        <Image
-                            className=" relative z-10 about162 pick222"
-                            src={recoil}
-                            alt="aa"
-                        />
-                    </div>
-                </div>
-
-
-        <div className="azib kickazib">
+          <div className="kick-second kick-second222 relative">
+            <Image
+              className=" relative z-10 about162 pick222"
+              src={hh8}
+              alt="hh8"
+            />
+          </div>
+        </div>
+       
+       
+        <div className="azib">
           <div className="azib1">
             <div className="azib1-sect">
               <div className="azib1-first">
@@ -322,36 +254,25 @@ const Ballistic = () => {
               </div>
               <div className="azib1-second">
                 <p>
-                  The development of Ballistic Dummy Lab's eCommerce platform has greatly streamlined their sales process which enables the automation and ultimately  improved efficiency. This resulted in increased global reach, attracting more customers from various industries. It also enhances the overall user experience with seamless navigation and product discovery. The scalable Shopify platform now supports higher traffic and order volumes ultimately positioning Ballistic Dummy Lab for continuous growth.
-                </p>
+                With an optimized user experience and automation of processes, subscription sign-ups increased 30% within the first month. This redesign brought a decrease in bounce rates and an increase in surfing user engagement. The BigCommerce-based platform has now become scalable, future-ready, and able to bear more load. Performance improvement and load time enabled Slides365 to hold its position in the competitive market, while this intuitive interface became vital for increasing customer satisfaction.
 
+                </p>
+           
                 <div className="azib-tech">
                   <h3>Technologies Used</h3>
-                  <Image className="conjun" src={opqweeeeeee3} alt="" />
+                  <Image className="conjun" src={opqweeeeeee3} alt="conjun" />
                 </div>
               </div>
             </div>
-
             <div className="azib-images flex items-center justify-center">
-              <Image src={home2} alt="azib" />
-              <Image src={productdd} alt="azib" />
-              <Image src={catlog} alt="azib" />
+              <Image src={pt5} alt="pt4" />
+              <Image src={pt6} alt="pt5" />
+              <Image src={pt4} alt="pt6" />
             </div>
           </div>
         </div>
 
-        <div className="client-apperication">
-          {/* <h2>Client Appreciation</h2>
-          <p>
-            “Thank you Affle team for all your hardwork, patience and continuous
-            support. The app is getting positive reviews and we hope to continue
-            to improve and evolve the app. Looking forward to our continued
-            growth.”
-          </p>
-          <h4>Matt Reeder</h4> */}
-        </div>
-
-        <div className="other-project ">
+        <div className="other-project">
           <h2 className="text-center ">OTHER PROJECTS</h2>
           <Splide
             aria-label="Our Services"
@@ -378,7 +299,7 @@ const Ballistic = () => {
                     next.
                   </p>
                   <Link href="/rely">
-                    <button className="kick_eez-btn">View</button>
+                    <button>View</button>
                   </Link>
                 </div>
               </div>
@@ -437,17 +358,14 @@ const Ballistic = () => {
                   width={13}
                   className=" inline ml-2"
                   src={arrow4}
-                  alt="alik"
+                  alt="arrow"
                 />
               </button>
             </Link>
-           
           </div>
         </div>
 
-  
-        <Footer/>
-        {/*  buttons  */}
+        
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
             <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
@@ -457,12 +375,12 @@ const Ballistic = () => {
           </button>
 
         </div>
-        
-      </div>
-      
 
+      </div>
+      <Footer/>
     </>
+    
   );
 };
 
-export default Ballistic;
+export default ProTrucks;
