@@ -38,6 +38,7 @@ import {
 } from 'react-accessible-accordion';
 import ContactForm from "../COMMON/ContactForm";
 import Link from "next/link";
+import StaffFAQ from "../COMMON/staffFAQ";
 // import { NavLink } from "react-router-dom";
 // import { Helmet } from "react-helmet";
 const StafArgu = ({notify}) => {
@@ -360,7 +361,7 @@ const StafArgu = ({notify}) => {
         </div>
 
 
-        <div className="home9 mb-12 home278 home480">
+        {/* <div className="home9 mb-12 home278 home480">
           <div className="home91 px-24 dine-1234">
             <div className="home911 text-center">
               <h2 className='font-bold text-gray-700'>Frequently Asked<br/> Questions</h2>
@@ -436,7 +437,8 @@ const StafArgu = ({notify}) => {
              
             </div>
           </div>
-        </div>
+        </div> */}
+        <StaffFAQ/>
         <ContactForm notify={notify} />
 
         
