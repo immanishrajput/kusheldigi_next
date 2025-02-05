@@ -15,6 +15,7 @@ import Home2BrandSwiper from './components/Home/Home2BrandSwiper';
 import Home2Testimonial from './components/Home/Home2Testimonial';
 import Home2AskQuestion from './components/Home/Home2AskQuestion';
 import Head from 'next/head';
+import {Metadata} from 'next';
 // import Navbar from './components/Home/Navbar';
 import './globals.css'
 import Footer from './COMMON/Footer';
@@ -31,6 +32,8 @@ const HomePage = () => {
     const callUrl = `tel:${phoneNumber}`;
     window.open(callUrl, '_blank');
   };
+
+  
 
   return (
     <>

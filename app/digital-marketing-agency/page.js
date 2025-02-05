@@ -32,6 +32,7 @@ import '../globals.css'
 import Footer from "../COMMON/Footer";
 import Navbar from "../COMMON/Navbar";
 // import { Helmet } from "react-helmet";
+import Head from "next/head";
 
 import {
   Accordion,
@@ -72,20 +73,10 @@ function DigitalMarketing({notify}) {
   return (
     <>
     <Navbar/>
-    {/* <Helmet> */}
-        <title>
-        Your one stop place for top Digital Marketing services 
-</title>
-        <meta
-          name="description"
-          content="KushelDigi Solutions is one of the Professional and best Digital Marketing company, which provide a 360 Degree marketing approach"
-        />
-        <meta
-          name="keywords"
-          content="Digital marketing services, SEO, SMM, SMO, PPC"
-        />
-        <link rel="canonical" href="https://www.kusheldigi.com/digital-marketing-agency"/>
-      {/* </Helmet> */}
+    <Head>
+      <title>Hi there</title>
+    </Head>
+    
       <div className="ser-main digi-ser-main">
         <div className="digitalMarketing">
           <section className="heroSection">

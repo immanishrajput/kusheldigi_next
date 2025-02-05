@@ -37,6 +37,7 @@ import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
 // import "../Responsive.css"
 import data from "../data/data";
+import IndustriesFAQ from "../COMMON/IndustriesFAQ";
 // import { Helmet } from 'react-helmet';
 const Ankitcrouser = [
   {
@@ -1639,7 +1640,7 @@ function Industries() {
         </div>
       </div>
 
-      <div className="home9 mb-12">
+      {/* <div className="home9 mb-12">
         <div className="home91 px-24 dine-1234">
           <div className="home911 text-center newclasscentre">
             <h2 className="font-bold text-gray-700 mx-auto">
@@ -1751,7 +1752,8 @@ function Industries() {
         </Accordion>
           </div>
         </div>
-      </div>
+      </div> */}
+      <IndustriesFAQ/>
       <div className="whtsApBtns">
         <button onClick={whatAppHandler}>
           <Image
