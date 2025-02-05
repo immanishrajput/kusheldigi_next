@@ -18,6 +18,7 @@ import '../globals.css'
 import "@splidejs/react-splide/css";
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
+import { useEffect } from "react";
 const Solution = () => {
 
 
@@ -42,7 +43,18 @@ const Solution = () => {
       behavior: 'smooth',
     });
   };
-
+ const generateMetadata = ({ params }) => ({
+    title: 'Case Studies of Kushel Digi Solutions ',
+    description: 'Kushel Digi Solutions is most trusted Web Development company with 2000+ Satisfied clients across the globe.',
+  });
+  
+useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description : 
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
   return (
     <>
     <Navbar/>

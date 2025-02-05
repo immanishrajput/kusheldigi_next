@@ -1,6 +1,7 @@
 // app/page.js
 "use client"
 // import {Metadata} from 'next'
+import Head from 'next/head';
 import Image from 'next/image';
 import Home2Banner from './components/Home/Home2Banner';
 import Home2Swiper from './components/Home/Home2Swiper';
@@ -15,13 +16,13 @@ import Home2Section10 from './components/Home/Home2Section10';
 import Home2BrandSwiper from './components/Home/Home2BrandSwiper';
 import Home2Testimonial from './components/Home/Home2Testimonial';
 import Home2AskQuestion from './components/Home/Home2AskQuestion';
-import Head from 'next/head';
+
 
 // import Navbar from './components/Home/Navbar';
 import './globals.css'
 import Footer from './COMMON/Footer';
 import Navbar from './COMMON/Navbar';
-const HomePage = () => {
+const HomePage = ({props}) => {
   const phoneNumber = '9045301702';
 
   const whatAppHandler = () => {
@@ -38,10 +39,17 @@ const HomePage = () => {
 
   return (
     <>
-    <Head>
-    <title>KushelDigi Solutions- Top shopify development company</title>
-    <meta name="description" content="Free Web tutorials"/>
-    </Head>
+      <Head>
+        <title>{props?.title}</title>
+        <meta name="description" content="Learn how to optimize SEO in Next.js with meta tags, structured data, and performance improvements." />
+        <meta name="keywords" content="Next.js, SEO, Web Development" />
+        <meta name="author" content="Your Name" />
+        <meta property="og:title" content="Best SEO Practices in Next.js" />
+        <meta property="og:description" content="Learn how to optimize SEO in Next.js with meta tags, structured data, and performance improvements." />
+        <meta property="og:image" content="/seo-image.jpg" />
+        <meta property="og:url" content="https://yourwebsite.com" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Head>
       <div className="home-main">
      <Navbar/>
         <Home2Banner />

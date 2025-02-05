@@ -13,7 +13,7 @@ import leftMost from "../../public/assets//leftmost.png";
 import gthj from '../../public/assets//gthj.png'
 import csRightMost from "../../public/assets//csRightMost.png"
 // import { Helmet } from "react-helmet";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import hrmsname from "../../public/assets//hrmsname.png"
 import sainaimg from "../../public/assets//sainaimg.png"
 import vrott from "../../public/assets//vrott.png"
@@ -555,7 +555,18 @@ const Portfolio = () => {
   };
 
   const filteredCaseStudies = filteredCategory === "All"? caseStudies: filteredCategory === "ecommerce" ? caseStudies.filter((data) => data.category.includes(filteredCategory.toLowerCase())).reverse() :  caseStudies.filter((data) => data.category.includes(filteredCategory.toLowerCase()));
-
+ const generateMetadata = ({ params }) => ({
+    title: 'Case Studies of Kushel Digi Solutions ',
+    description: 'Kushel Digi Solutions is most trusted Web Development company with 2000+ Satisfied clients across the globe.',
+  });
+  
+useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description : 
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
 
 
   return (

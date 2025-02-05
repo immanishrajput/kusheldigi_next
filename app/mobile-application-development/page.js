@@ -76,18 +76,22 @@ const MobileApp = ({ notify }) => {
       behavior: 'smooth',
     });
   };
-
+ const generateMetadata = ({ params }) => ({
+      title: 'Unlock the Power of Mobile App Development',
+      description: 'the best mobile app development company, expert in Android, iOS, and more. Our company not only enhances online presence but also redefines digital experiences.',
+    });
+    
+  useEffect(() => {
+      const { title, description } = generateMetadata({ params: {} });
+      document.title = title;
+      let metaDescription = document.querySelector('meta[name="description"]');
+      metaDescription ? metaDescription.content = description : 
+        document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+    }, []);
   return (
     <>
 <Navbar/>
-{/* <Helmet> */}
-        <title>Unlock the Power of Mobile App Development</title>
-        <meta
-          name="description"
-          content="the best mobile app development company, expert in Android, iOS, and more. Our company not only enhances online presence but also redefines digital experiences."
-        />
-        <link rel="canonical" href="https://www.kusheldigi.com/mobile-application-development " />
-      {/* </Helmet> */}
+
       <div className="ser-main">
         <div className="serjii1">
           <div className="ser11 px-24 flex items-center justify-between dine-123">

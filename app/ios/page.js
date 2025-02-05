@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import iosji from "../../public/assets/iosji.png";
 import iospo from "../../public/assets/iospo.png";
 import arrow4 from "../../public/assets/arrow4.png";
@@ -49,20 +49,22 @@ const Ios = () => {
       behavior: "smooth",
     });
   };
-
+const generateMetadata = ({ params }) => ({
+      title: 'IOS app development company - kusheldigi Solutions',
+      description: "best iOS app development company! Kushel Digi's staff specializes in developing innovative, user-friendly apps that improve user experiences",
+    });
+    
+  useEffect(() => {
+      const { title, description } = generateMetadata({ params: {} });
+      document.title = title;
+      let metaDescription = document.querySelector('meta[name="description"]');
+      metaDescription ? metaDescription.content = description : 
+        document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+    }, []);
   return (
     <>
     <Navbar/>
-      {/* <Helmet> */}
-      <title>IOS app development company - kusheldigi Solutions</title>
-      <meta
-        name="description"
-        content="best iOS app development company! Kushel Digi's staff 
-                               specializes in developing innovative, user-friendly apps that 
-                                     improve user experiences."
-      />
-      <link rel="canonical" href="https://www.kusheldigi.com/ios" />
-      {/* </Helmet> */}
+   
       <div className="ser-main">
         <div className="android-back ios-back">
           <div className="android-back1 ios-back1 dine-123">

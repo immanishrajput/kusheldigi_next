@@ -631,7 +631,7 @@ const Navbar = () => {
                   </li>
 
                   <Link href="/hire">
-                    <li className="mar" style={{ position: "relative" }}>
+                  <li className="mar" style={{ position: "relative" }}>
                       <div className="flex items-center cursor-pointer nb-0 navLinks">
                         <p className="sar descfont textTransform-navbar" to="">
                           Hire

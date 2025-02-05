@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 // import arrow3 from "../images/arrow5.png";
 import ContactForm1 from "../COMMON/ContactForm1";
@@ -41,6 +41,9 @@ import Link from "next/link";
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
 import '../globals.css'
+import Head from "next/head";
+import { NextSeo } from "next-seo";
+import HeadSEO from "../COMMON/HeadSeo";
 
 const About = ({ notify }) => {
   const [tab, setTab] = useState(1);
@@ -149,6 +152,18 @@ const About = ({ notify }) => {
     });
   };
 
+  const generateMetadata = ({ params }) => ({
+    title: 'About - Kushel Digi Solutions Ecommerce Web Development Company',
+    description: 'Kushel Digi Solutions is most trusted Web Development company with 2000+ Satisfied clients across the globe.',
+  });
+  
+  useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description : 
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
   return (
     <>
 
@@ -161,6 +176,8 @@ const About = ({ notify }) => {
       <link rel="canonical" href="https://www.kusheldigi.com/about"/>
       </Helmet> */}
       <Navbar/>
+     
+     
       <div className="about-main">
         <div className="about-main1 relative ">
           <div className="about-main11 flex justify-start items-center dine-123">
@@ -828,3 +845,4 @@ const About = ({ notify }) => {
 };
 
 export default About;
+

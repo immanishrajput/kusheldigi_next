@@ -55,18 +55,21 @@ const ProTrucks = () => {
     window.open(callUrl, "_blank");
   }
 
-
+  const generateMetadata = ({ params }) => ({
+    title: "Kushel Digi Solutions Case Study- Digitalmna",
+    description: 'Kushel Digi Solutions delivered exceptional UX/UI design and website development for Digitalmna, enhancing user experience and driving digital growth.',
+  });
+  
+useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description : 
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
   return (
     <>
     <Navbar/>
-    {/* <helmet> */}
-    <link rel="canonical" href="https://www.kusheldigi.com/Digitalmna"/>
-    <title>Kushel Digi Solutions Case Study- Digitalmna</title>
-        <meta
-          name="description"
-          content="Kushel Digi Solutions delivered exceptional UX/UI design and website development for Digitalmna, enhancing user experience and driving digital growth."
-        />
-    {/* </helmet> */}
       <div className="ser-main">
         <div>
           <div className="side-bg-trio">

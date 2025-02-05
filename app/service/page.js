@@ -10,6 +10,7 @@ import Image from "next/image";
 import '../globals.css'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
+import { useEffect } from "react";
 // import {
 //     Accordion,
 //     AccordionItem,
@@ -32,6 +33,19 @@ const callHandler=()=>{
 }
 
 const Service = () => {
+  const generateMetadata = ({ params }) => ({
+    title: 'Service - Kushel Digi Solutions Ecommerce Web Development Company',
+    description: 'Kushel Digi Solutions is most trusted Web Development company with 2000+ Satisfied clients across the globe.',
+  });
+  
+  
+  useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description : 
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
   return (
     <>
     <Navbar/>

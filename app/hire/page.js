@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 // import hireTeam from "../../public/assets/hireTeam.png";
 import arrow from "../../public/assets/arrow.png";
 import hiper from "../../public/assets/hiper.png";
@@ -70,19 +70,23 @@ const HireTeam = () => {
       behavior: 'smooth',
     });
   };
-
+ const generateMetadata = ({ params }) => ({
+    title: 'KushelDigi : Job Search Marketplace. Tech Job Hunting Simplified',
+    description: 'Discover your dream tech job effortlessly with KushelDigi! Our job search marketplace streamlines the process, connecting talented professionals with top tech companies. Simplify your job hunt today..',
+  });
+  
+useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description : 
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
 
   return (
     <>
     <Navbar/>
-      {/* <Helmet> */}
-        <link rel="canonical" href="https://www.kusheldigi.com/hire" />
-        <title>KushelDigi : Job Search Marketplace. Tech Job Hunting Simplified</title>
-        <meta
-          name="description"
-          content="Discover your dream tech job effortlessly with KushelDigi! Our job search marketplace streamlines the process, connecting talented professionals with top tech companies. Simplify your job hunt today."
-        />
-      {/* </Helmet> */}
+     
       <div className="ser-main">
         <div className="hire-back">
           <div className="hire-sect dine-1234">

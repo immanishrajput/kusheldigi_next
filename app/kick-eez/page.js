@@ -77,18 +77,22 @@ const Kickiz = () => {
       behavior: 'smooth',
     });
   };
-
+  const generateMetadata = ({ params }) => ({
+    title: 'Kushel Digi Solutions Case Study- Kick-Eez',
+    description: "Kushel Digi Solutions' case study on Kick-Eez highlights successful digital transformation, boosting brand visibility and driving sales through website development.",
+  });
+  
+useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description : 
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
   return (
     <>
     <Navbar/>
-    {/* <helmet> */}
-    <link rel="canonical" href="https://www.kusheldigi.com/kick-eez"/>
-    <title>Kushel Digi Solutions Case Study- Kick-Eez</title>
-        <meta
-          name="description"
-          content="Kushel Digi Solutions' case study on Kick-Eez highlights successful digital transformation, boosting brand visibility and driving sales through website development."
-        />
-    {/* </helmet> */}
+   
       <div className="ser-main">
         <div>
           <div className="side-bg-trio">

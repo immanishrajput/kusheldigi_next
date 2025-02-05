@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import ContactForm1 from "../COMMON/ContactForm1";
 import Image from "next/image";
 import whatsApp from "../../public/assets/whatsapp.png";
@@ -19,6 +19,18 @@ const Contact = () => {
     const callUrl = `tel:${phoneNumber}`;
     window.open(callUrl, "_blank");
   };
+ const generateMetadata = ({ params }) => ({
+    title: 'KushelDigi : Job Search Marketplace. Tech Job Hunting Simplified',
+    description: 'Discover your dream tech job effortlessly with KushelDigi! Our job search marketplace streamlines the process, connecting talented professionals with top tech companies. Simplify your job hunt today..',
+  });
+  
+useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description : 
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
 
   return (
     <>

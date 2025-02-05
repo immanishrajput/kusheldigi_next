@@ -32,7 +32,6 @@ import '../globals.css'
 import Footer from "../COMMON/Footer";
 import Navbar from "../COMMON/Navbar";
 // import { Helmet } from "react-helmet";
-import Head from "next/head";
 
 import {
   Accordion,
@@ -70,12 +69,21 @@ function DigitalMarketing({notify}) {
     });
   };
 
+  const generateMetadata = ({ params }) => ({
+      title: "  Your one stop place for top Digital Marketing services",
+      description: 'KushelDigi Solutions is one of the Professional and best Digital Marketing company, which provide a 360 Degree marketing approach',
+    });
+    
+  useEffect(() => {
+      const { title, description } = generateMetadata({ params: {} });
+      document.title = title;
+      let metaDescription = document.querySelector('meta[name="description"]');
+      metaDescription ? metaDescription.content = description : 
+        document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+    }, []);
   return (
     <>
     <Navbar/>
-    <Head>
-      <title>Hi there</title>
-    </Head>
     
       <div className="ser-main digi-ser-main">
         <div className="digitalMarketing">

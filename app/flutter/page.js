@@ -54,18 +54,22 @@ const Flutters = ({notify}) => {
         behavior: 'smooth',
       });
     };
+    const generateMetadata = ({ params }) => ({
+        title: "Best stop for flutter app development services by kusheldigi",
+        description: 'Kushel Digi is skilled in Flutter app development service to create Android and iOS apps in record time by keeping a single codebase.',
+      });
+      
+    useEffect(() => {
+        const { title, description } = generateMetadata({ params: {} });
+        document.title = title;
+        let metaDescription = document.querySelector('meta[name="description"]');
+        metaDescription ? metaDescription.content = description : 
+          document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+      }, []);
   return (
     <>
     <Navbar/>
-    {/* <Helmet> */}
-     
-       <title>Best stop for flutter app development services by kusheldigi</title>
-       <meta
-         name="description"
-         content="Kushel Digi is skilled in Flutter app development service to create Android and iOS apps in record time by keeping a single codebase."
-       />
-       <link rel="canonical" href="https://www.kusheldigi.com/flutter"/>
-     {/* </Helmet> */}
+   
 
 
      <div className="ser-main">

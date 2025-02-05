@@ -1,5 +1,5 @@
 "use client"
-import React from "react";
+import React, { useEffect } from "react";
 import androidSis from "../../public/assets/android-sis.png";
 import bulb1 from "../../public/assets/bulb1.png";
 import bulb2 from "../../public/assets/bulb2.png";
@@ -49,17 +49,23 @@ const Android = ({ notify }) => {
       behavior: 'smooth',
     });
   };
+     
+  const generateMetadata = ({ params }) => ({
+      title: 'Best android app development services',
+      description: 'the best location to create cutting-edge Android apps here at Kushel Digi! We provide best android app development services',
+    });
+    
+    useEffect(() => {
+      const { title, description } = generateMetadata({ params: {} });
+      document.title = title;
+      let metaDescription = document.querySelector('meta[name="description"]');
+      metaDescription ? metaDescription.content = description : 
+        document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+    }, []);
   return (
     <>
     <Navbar/>
-      {/* <Helmet> */}
-        <title>Best android app development services</title>
-        <meta
-          name="description"
-          content="the best location to create cutting-edge Android apps here at Kushel Digi! We provide best android app development services"
-        />
-        <link rel="canonical" href="https://www.kusheldigi.com/android " />
-      {/* </Helmet> */}
+    
       <div className="ser-main">
         <div className="android_next_class">
           <div className="android-back  android-back-flex1 flutter-back-flex1 dine-123 andoidd-pad">

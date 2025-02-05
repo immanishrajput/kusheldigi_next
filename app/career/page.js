@@ -1,5 +1,5 @@
 "use client"
-import React,{useState} from "react";
+import React,{useEffect, useState} from "react";
 
 import lonia from "../../public/assets/lonia.png";
 import lastdate4 from "../../public/assets/lasdate4.png";
@@ -79,18 +79,23 @@ const Career = ({notify}) => {
       behavior: 'smooth',
     });
   };
-
+ const generateMetadata = ({ params }) => ({
+    title: 'Explore Exciting Career Opportunities at Kushel Digi Solutions - Careers',
+    description: 'Kushel Digi Solutions offers job opportunity in India. You can check our current opening by visiting carrier section at our website.',
+  });
+  
+useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description : 
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
   return (
     <>
     <Navbar/>
-    {/* <Helmet> */}
-    <link rel="canonical" href="https://www.kusheldigi.com/career"/>
-    <title>Explore Exciting Career Opportunities at Kushel Digi Solutions - Careers</title>
-        <meta
-          name="description"
-          content="Kushel Digi Solutions offers job opportunity in India. You can check our current opening by visiting carrier section at our website."
-        />
-    {/* </Helmet> */}
+   
+  
       <div className="ser-main">
         <div className="caring-back">
           <div className="caring-sect dine-1234">
