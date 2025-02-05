@@ -21,6 +21,7 @@ import Navbar from '@/app/COMMON/Navbar';
 import Footer from '@/app/COMMON/Footer';
 import Image from 'next/image';
 import '../../globals.css'
+import FlutterHireFAQ from '@/app/COMMON/FlutterHireFAQ';
 // import { Helmet } from 'react-helmet';
 const FluterHire = () => {
     const [tab, setTab] = useState(1);
@@ -280,79 +281,7 @@ const FluterHire = () => {
 
                 <ServiceCommon/>
 
-                <div className="home9 mb-12 home278">
-                    <div className="home91 flex px-24 dine-1234">
-                        <div className="home911 text-center">
-                            <h2 className="font-bold text-gray-700">Frequently Asked<br/> Questions</h2>
-                        </div>
-                        <div className="home912 FAQ-1">
-                            <Accordion allowZeroExpanded>
-                                <AccordionItem>
-                                    <AccordionItemHeading>
-                                        <AccordionItemButton>
-                                            What potential benefits does outsourcing flutter app development offer?
-                                        </AccordionItemButton>
-                                    </AccordionItemHeading>
-                                    <AccordionItemPanel>
-                                        <p>
-                                            Exercitation in fugiat est ut ad ea cupidatat ut in
-                                            cupidatat occaecat ut occaecat consequat est minim minim
-                                            esse tempor laborum consequat esse adipisicing eu
-                                            reprehenderit enim.
-                                        </p>
-                                    </AccordionItemPanel>
-                                </AccordionItem>
-                                <AccordionItem>
-                                    <AccordionItemHeading>
-                                        <AccordionItemButton>
-                                            How much does hiring a flutter app developer cost?
-                                        </AccordionItemButton>
-                                    </AccordionItemHeading>
-                                    <AccordionItemPanel>
-                                        <p>
-                                            In ad velit in ex nostrud dolore cupidatat consectetur ea
-                                            in ut nostrud velit in irure cillum tempor laboris sed
-                                            adipisicing eu esse duis nulla non.
-                                        </p>
-                                    </AccordionItemPanel>
-                                </AccordionItem>
-                                <AccordionItem>
-                                    <AccordionItemHeading>
-                                        <AccordionItemButton>
-                                            Can we use flutter for Web development?
-                                        </AccordionItemButton>
-                                    </AccordionItemHeading>
-                                    <AccordionItemPanel>
-                                        <p>
-                                            In ad velit in ex nostrud dolore cupidatat consectetur ea
-                                            in ut nostrud velit in irure cillum tempor laboris sed
-                                            adipisicing eu esse duis nulla non.
-                                        </p>
-                                    </AccordionItemPanel>
-                                </AccordionItem>
-                                <AccordionItem>
-                                    <AccordionItemHeading>
-                                        <AccordionItemButton>
-                                            How much does it cost to build a flutter application?
-                                        </AccordionItemButton>
-                                    </AccordionItemHeading>
-                                    <AccordionItemPanel>
-                                        <p>
-                                            In ad velit in ex nostrud dolore cupidatat consectetur ea
-                                            in ut nostrud velit in irure cillum tempor laboris sed
-                                            adipisicing eu esse duis nulla non.
-                                        </p>
-                                    </AccordionItemPanel>
-                                </AccordionItem>
-
-                            </Accordion>
-                            {/* <div className="home9121 font-semibold w-fit">
-                See All FAQs
-              </div> */}
-                        </div>
-                    </div>
-                </div>
-
+               <FlutterHireFAQ/>
                 
                 <div className="whtsApBtns">
           <button onClick={whatAppHandler}>

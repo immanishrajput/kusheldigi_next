@@ -20,6 +20,7 @@ import Image from 'next/image';
 import Navbar from '@/app/COMMON/Navbar';
 import Footer from '@/app/COMMON/Footer';
 import '../../globals.css'
+import ReactnativeHireFAQ from '@/app/COMMON/ReactnativeHireFAQ';
 const ReactNativeHire = () => {
 
     const [perPage, setPerPage] = useState(3);
@@ -285,7 +286,7 @@ const ReactNativeHire = () => {
 
                 <ServiceCommon />
 
-                <div className="home9 mb-12 home278">
+                {/* <div className="home9 mb-12 home278">
                     <div className="home91 flex px-24 dine-1234">
                         <div className="home911 text-center">
                             <h2 className="font-bold text-gray-700">Frequently Asked<br /> Questions</h2>
@@ -364,8 +365,9 @@ const ReactNativeHire = () => {
                     </div>
                 </div>
 
+ */}
 
-
+<ReactnativeHireFAQ/>
                 <div className="whtsApBtns">
                     <button onClick={whatAppHandler}>
                         <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />

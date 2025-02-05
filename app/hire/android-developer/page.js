@@ -22,6 +22,7 @@ import {
 import ServiceCommon from '../../COMMON/ServiceCommon';
 import Process from '../../COMMON/Process';
 import ContactForm3 from '../../COMMON/ContactForm3';
+import AndroidHireFAQ from '@/app/COMMON/AndroidHireFAQ';
 
 const AndroidHire = () => {
     const [tab, setTab] = useState(1);
@@ -474,7 +475,7 @@ const AndroidHire = () => {
 
 
                 <ServiceCommon />
-                <div className="home9 mb-12 home278">
+                {/* <div className="home9 mb-12 home278">
                     <div className="home91 flex px-24 dine-1234">
                         <div className="home911 text-center">
                             <h2 className="font-bold text-gray-700">Frequently Asked<br/> Questions</h2>
@@ -551,7 +552,8 @@ const AndroidHire = () => {
                             
                         </div>
                     </div>
-                </div>
+                </div> */}
+                <AndroidHireFAQ/>
 
                 <div className="whtsApBtns">
           <button onClick={whatAppHandler}>

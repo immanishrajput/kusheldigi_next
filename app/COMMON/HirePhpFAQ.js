@@ -32,7 +32,7 @@ const data = [
   
 ];
 
-function HireFAQ() {
+function HirePhpFAQ() {
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggleAnswer = (index) => {
@@ -64,4 +64,4 @@ function HireFAQ() {
   );
 }
 
-export default HireFAQ;
+export default HirePhpFAQ;

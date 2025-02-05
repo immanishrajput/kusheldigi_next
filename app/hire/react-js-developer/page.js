@@ -21,6 +21,7 @@ import Footer from '@/app/COMMON/Footer';
 import Navbar from '@/app/COMMON/Navbar';
 import '../../globals.css'
 import Image from 'next/image';
+import ReactHireFAQ from '@/app/COMMON/ReactHireFAQ';
 const ReactJsHire = () => {
     const [perPage, setPerPage] = useState(3);
     useEffect(() => {
@@ -378,7 +379,7 @@ const ReactJsHire = () => {
 
                 <ServiceCommon/>
 
-                <div className="home9 py-12 bigcom9">
+                {/* <div className="home9 py-12 bigcom9">
                     <div className="home91 flex px-24 dine-1234">
                         <div className="home911 text-center FAQ-1">
                             <h2 className="font-bold text-gray-700">Frequently Asked<br/> Questions</h2>
@@ -446,7 +447,8 @@ const ReactJsHire = () => {
                             </Accordion>
                         </div>
                     </div>
-                </div>
+                </div> */}
+                <ReactHireFAQ/>
 
                 <div className="whtsApBtns">
           <button onClick={whatAppHandler}>

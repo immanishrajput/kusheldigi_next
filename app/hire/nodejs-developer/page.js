@@ -27,6 +27,7 @@ import Link from 'next/link';
 import '../../globals.css'
 import Footer from '@/app/COMMON/Footer';
 import Navbar from '@/app/COMMON/Navbar';
+import NodeHireFAQ from '@/app/COMMON/NodeHireFAQ';
 const HireNodeJs = () => {
     const [perPage, setPerPage] = useState(3);
     useEffect(() => {
@@ -436,79 +437,7 @@ const HireNodeJs = () => {
 
                 <ServiceCommon />
 
-                <div className="home9 mb-12 home278">
-                    <div className="home91 flex px-24 dine-1234">
-                        <div className="home911 text-center">
-                            <h2 className="font-bold text-gray-700">Frequently Asked<br /> Questions</h2>
-                        </div>
-                        <div className="home912 FAQ-1">
-                            <Accordion allowZeroExpanded>
-                                <AccordionItem>
-                                    <AccordionItemHeading>
-                                        <AccordionItemButton>
-                                            Why choose Node JS for your web app development project?
-                                        </AccordionItemButton>
-                                    </AccordionItemHeading>
-                                    <AccordionItemPanel>
-                                        <p>
-                                            Exercitation in fugiat est ut ad ea cupidatat ut in
-                                            cupidatat occaecat ut occaecat consequat est minim minim
-                                            esse tempor laborum consequat esse adipisicing eu
-                                            reprehenderit enim.
-                                        </p>
-                                    </AccordionItemPanel>
-                                </AccordionItem>
-                                <AccordionItem>
-                                    <AccordionItemHeading>
-                                        <AccordionItemButton>
-                                            How much does it cost to hire Node JS developers?
-                                        </AccordionItemButton>
-                                    </AccordionItemHeading>
-                                    <AccordionItemPanel>
-                                        <p>
-                                            In ad velit in ex nostrud dolore cupidatat consectetur ea
-                                            in ut nostrud velit in irure cillum tempor laboris sed
-                                            adipisicing eu esse duis nulla non.
-                                        </p>
-                                    </AccordionItemPanel>
-                                </AccordionItem>
-                                <AccordionItem>
-                                    <AccordionItemHeading>
-                                        <AccordionItemButton>
-                                            Is Node.js secure?
-                                        </AccordionItemButton>
-                                    </AccordionItemHeading>
-                                    <AccordionItemPanel>
-                                        <p>
-                                            In ad velit in ex nostrud dolore cupidatat consectetur ea
-                                            in ut nostrud velit in irure cillum tempor laboris sed
-                                            adipisicing eu esse duis nulla non.
-                                        </p>
-                                    </AccordionItemPanel>
-                                </AccordionItem>
-                                <AccordionItem>
-                                    <AccordionItemHeading>
-                                        <AccordionItemButton>
-                                            What our Node.Js developers can do for you?
-                                        </AccordionItemButton>
-                                    </AccordionItemHeading>
-                                    <AccordionItemPanel>
-                                        <p>
-                                            In ad velit in ex nostrud dolore cupidatat consectetur ea
-                                            in ut nostrud velit in irure cillum tempor laboris sed
-                                            adipisicing eu esse duis nulla non.
-                                        </p>
-                                    </AccordionItemPanel>
-                                </AccordionItem>
-
-                            </Accordion>
-                            {/* <div className="home9121 font-semibold w-fit">
-    See All FAQs
-  </div> */}
-                        </div>
-                    </div>
-                </div>
-
+             <NodeHireFAQ/>
                 <div className="whtsApBtns">
                     <button onClick={whatAppHandler}>
                         <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />

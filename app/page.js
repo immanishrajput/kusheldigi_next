@@ -1,5 +1,6 @@
 // app/page.js
 "use client"
+// import {Metadata} from 'next'
 import Image from 'next/image';
 import Home2Banner from './components/Home/Home2Banner';
 import Home2Swiper from './components/Home/Home2Swiper';
@@ -15,7 +16,7 @@ import Home2BrandSwiper from './components/Home/Home2BrandSwiper';
 import Home2Testimonial from './components/Home/Home2Testimonial';
 import Home2AskQuestion from './components/Home/Home2AskQuestion';
 import Head from 'next/head';
-import {Metadata} from 'next';
+
 // import Navbar from './components/Home/Navbar';
 import './globals.css'
 import Footer from './COMMON/Footer';

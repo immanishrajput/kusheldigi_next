@@ -22,6 +22,7 @@ import Footer from '@/app/COMMON/Footer';
 import Image from 'next/image';
 import '../../globals.css'
 import Navbar from '@/app/COMMON/Navbar';
+import LaravelHireFAQ from '@/app/COMMON/LaravelHireFAQ';
 const LaravelHire = () => {
 
 
@@ -322,7 +323,7 @@ const LaravelHire = () => {
 
                  <ServiceCommon/>
 
-                <div className="home9 py-12 bigcom9">
+                {/* <div className="home9 py-12 bigcom9">
                     <div className="home91 flex px-24 dine-1234">
                         <div className="home911 text-center">
                             <h2 className="font-bold text-gray-700">Frequently Asked<br/> Questions</h2>
@@ -390,7 +391,8 @@ const LaravelHire = () => {
                             </Accordion>
                         </div>
                     </div>
-                </div>
+                </div> */}
+                <LaravelHireFAQ/>
 
                 <div className="whtsApBtns">
           <button onClick={whatAppHandler}>

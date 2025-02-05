@@ -20,6 +20,8 @@ import ServiceCommon from "../../COMMON/ServiceCommon";
 import ContactForm3 from "../../COMMON/ContactForm3";
 import Footer from "@/app/COMMON/Footer";
 import Image from "next/image";
+import PhpFAQ from "@/app/COMMON/PhpFAQ";
+import HireFAQ from "@/app/COMMON/HirePhpFAQ";
 // import { Helmet } from "react-helmet";
 const PhpHire = () => {
 
@@ -479,7 +481,7 @@ const PhpHire = () => {
 
         <ServiceCommon />
 
-        <div className="home9 py-12 bigcom9">
+        {/* <div className="home9 py-12 bigcom9">
           <div className="home91 flex px-24 dine-1234">
             <div className="home911 text-center">
               <h2 className="font-bold text-gray-700">Frequently Asked<br /> Questions</h2>
@@ -564,7 +566,8 @@ const PhpHire = () => {
               </Accordion>
             </div>
           </div>
-        </div>
+        </div> */}
+        <HireFAQ/>
 
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
