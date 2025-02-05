@@ -109,7 +109,7 @@ const projects = [
   } , 
 ]
 
-function CaseStudy() {
+function Page() {
 
   const [selectS4, setSelectS4] = useState(0);
   const [selectdata, setSelectdata] = useState(d2[0].data);
@@ -328,7 +328,7 @@ function CaseStudy() {
 
   {/* Right Section with Animation */}
   <div className={`c2fibbotrigh ${animationDirection} `}>
-    <Image src={selectdata?.img} className="selectdataimg" alt="" />
+    <img src={selectdata?.img} className="selectdataimg" alt=""/>
     <div className="serigh_macont">
       <h4>
         <span>0{selectS4 + 1}/</span> {selectdata?.title}
@@ -367,7 +367,7 @@ function CaseStudy() {
 
           <div className={`c2fibbotrigh`}>
        
-       <Image src={item?.data?.img} className="selectdataimg" alt="" />
+       <img src={item?.data?.img} className="selectdataimg" alt=""/>
        
        <div className="serigh_macont">
        
@@ -440,7 +440,7 @@ function CaseStudy() {
           {
             projects?.map((project , index)=>(
               <div key={index} className="singlprojseve">
-                   <Image src={project?.img} alt="" />
+                   <img src={project?.img} alt=""/>
 
                     <div className="seven_titls">
                       <p className="sep1">{project?.title1}</p>
@@ -463,4 +463,4 @@ function CaseStudy() {
   );
 }
 
-export default CaseStudy;
+export default Page;

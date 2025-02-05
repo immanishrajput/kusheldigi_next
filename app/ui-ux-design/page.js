@@ -35,6 +35,7 @@ import ContactForm from "../COMMON/ContactForm";
 // import { NavLink } from "react-router-dom";
 import Link from "next/link";
 import Navbar from "../COMMON/Navbar";
+import UIUXFAQ from "../COMMON/UIUXFAQ";
 const Uiux = ({notify}) => {
   let heading = "www.2ndAmendment.com";
   let heading1 = "www.kickeez.com";
@@ -345,7 +346,7 @@ const Uiux = ({notify}) => {
           </div>
         </div>
 
-        <div className="home9 mb-12 home278">
+        {/* <div className="home9 mb-12 home278">
           <div className="home91 px-24 dine-1234">
             <div className="home911 text-center">
               <h2 className="font-bold text-gray-700">Frequently Asked<br/> Questions</h2>
@@ -418,7 +419,8 @@ const Uiux = ({notify}) => {
               </Accordion>
             </div>
           </div>
-        </div>
+        </div> */}
+        <UIUXFAQ/>
         <ContactForm notify={notify} />
       
       

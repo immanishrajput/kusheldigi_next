@@ -44,6 +44,7 @@ import whatsApp from "../../public/assets/whatsapp.png";
 import call from "../../public/assets/telephone.png"
 
 import ContactForm from "../COMMON/ContactForm";
+import DigitalFAQ from "../COMMON/DigitalFAQ";
 function DigitalMarketing({notify}) {
 
 
@@ -207,7 +208,7 @@ function DigitalMarketing({notify}) {
           {/* <!-- Portfolio Section --> */}
           <section>
             <div className="DMC-process"></div>
-            <div class="process aaj13122023 dine-123">
+            <div className="process aaj13122023 dine-123">
               <h2 className="font-bold  new1487899641mhhjkkjkj">
                 Our <span>R.O.C.K.E.T</span> process
               </h2>
@@ -407,86 +408,7 @@ as well!</p>
             </div>
             </div>
 
-            <div className="home9  home278 home568 dmapadd">
-              <div className="home91 px-24 dine-1234">
-                <div className="home911 text-center">
-                  <h2 className="font-bold text-gray-700">Frequently Asked<br/> Questions</h2>
-                </div>
-                <div className="home912 FAQ-1">
-                  <Accordion allowZeroExpanded>
-                    <AccordionItem>
-                      <AccordionItemHeading>
-                        <AccordionItemButton>Why choose Kushel Digi for digital marketing?</AccordionItemButton>
-                      </AccordionItemHeading>
-                      <AccordionItemPanel>
-                        <p>
-                        {/* Kushel Digi excels with strategic thinking, data-driven insights, and a skilled team for boosting online presence and achieving business goals. */}
-                        One of the greatest digital marketing Agency in the USA, Kushel Digi Solutions, has been offering its clients the best services for website design, custom web development, mobile app development, SEO, SMO, PPC, SEM, and ORM. 
-
-
-                        </p>
-                      </AccordionItemPanel>
-                    </AccordionItem>
-                    <AccordionItem>
-                      <AccordionItemHeading>
-                        <AccordionItemButton>
-                        How does Kushel Digi customise digital marketing strategies?
-
-                        </AccordionItemButton>
-                      </AccordionItemHeading>
-                      <AccordionItemPanel>
-                        <p>
-                        Kushel Digi tailors strategies by analysing data, identifying target audiences, and implementing campaigns for maximum ROI and brand visibility.
-
-
-                        </p>
-                      </AccordionItemPanel>
-                    </AccordionItem>
-                    <AccordionItem>
-                      <AccordionItemHeading>
-                        <AccordionItemButton>
-                        What sets Kushel Digi apart in digital marketing?
-                        </AccordionItemButton>
-                      </AccordionItemHeading>
-                      <AccordionItemPanel>
-                        <p>
-                        Kushel Digi's commitment to innovation, client-centric practices, and a proficient team ensures effective and measurable digital marketing solutions.
-
-                        </p>
-                      </AccordionItemPanel>
-                    </AccordionItem>
-                    <AccordionItem>
-                      <AccordionItemHeading>
-                        <AccordionItemButton>
-                        Key considerations for choosing a digital marketing provider?
-
-                        </AccordionItemButton>
-                      </AccordionItemHeading>
-                      <AccordionItemPanel>
-                        <p>
-                        Consider expertise, proven results, and alignment with business objectives when selecting a digital marketing provider.
-
-                        </p>
-                      </AccordionItemPanel>
-                    </AccordionItem>
-                    <AccordionItem>
-                      <AccordionItemHeading>
-                        <AccordionItemButton>
-                        Insights into the latest digital marketing trends and practices?
-
-                        </AccordionItemButton>
-                      </AccordionItemHeading>
-                      <AccordionItemPanel>
-                        <p>
-                        Stay informed about digital marketing trends by exploring industry insights, embracing best practices, and engaging with online communities for valuable perspectives.
-
-                        </p>
-                      </AccordionItemPanel>
-                    </AccordionItem>
-                  </Accordion>
-                </div>
-              </div>
-            </div>
+           <DigitalFAQ/>
             <ContactForm notify={notify}/>
           </section>
         </div>
