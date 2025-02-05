@@ -1,5 +1,5 @@
 "use client"
-import React from 'react'
+import React, { useEffect } from 'react'
 import arrow4 from "../../public/assets/arrow4.png";
 import fluting from "../../public/assets/fluting.png";
 import androidSis from "../../public/assets/android-sis.png";
