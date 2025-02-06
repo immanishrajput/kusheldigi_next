@@ -30,7 +30,10 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Navbar from '../COMMON/Navbar';
 import Footer from '../COMMON/Footer';
-import '../globals.css'
+import '../globals.css';
+import Head from "next/head";
+import { NextSeo } from "next-seo";
+import HeadSEO from "../COMMON/HeadSeo";
 
 
 const phoneNumber = "9045301702";
@@ -44,17 +47,30 @@ const callHandler=()=>{
   window.open(callUrl, "_blank");
 }
 
+ const generateMetadata = ({ params }) => ({
+    title: 'Service - Kushel Digi Solutions Ecommerce Web Development Company',
+    description: 'Unlock your online potential with KushelDigi Solutions – Your best SEO agency for top-notch strategies and unmatched results. Boost your visibility today!',
+  });
+  
+  
+  useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description : 
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
 
 function Seo2() {
   return (
     <>
     <Navbar/>
      {/* <Helmet> */}
-     <title>KushelDigi Solutions- the Best SEO agency</title>
+     {/* <title>KushelDigi Solutions- the Best SEO agency</title>
      <meta
          name="description"
          content="Unlock your online potential with KushelDigi Solutions – Your best SEO agency for top-notch strategies and unmatched results. Boost your visibility today!"           
-    />           
+    />            */}
     <link rel="canonical" href="https://www.kusheldigi.com/seo"/>
     {/* </Helmet> */}
       <div className="ser-main overflow">

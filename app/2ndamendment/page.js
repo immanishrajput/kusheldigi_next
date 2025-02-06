@@ -130,7 +130,7 @@ function Page() {
 
   return (
     <div className="case1wrap home-main">
-<Navbar/>
+<Navbar/> 
       {/* first sectino */}
       <section className="case1firsec">
 

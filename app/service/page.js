@@ -11,6 +11,9 @@ import '../globals.css'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
 import { useEffect } from "react";
+import Head from "next/head";
+import { NextSeo } from "next-seo";
+import HeadSEO from "../COMMON/HeadSeo";
 // import {
 //     Accordion,
 //     AccordionItem,

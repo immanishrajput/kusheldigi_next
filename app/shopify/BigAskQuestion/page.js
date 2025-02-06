@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import plus from '../../../public/assets/+.png';
 import minus from "../../../public/assets/-.png"
 import Image from 'next/image';
+import Head from "next/head";
+import { NextSeo } from "next-seo";
+import HeadSEO from "../COMMON/HeadSeo";
 const data = [
   {
     question: 'What is Shopify, and how does it work?',
@@ -39,6 +42,21 @@ function BigAskQuestion() {
   const toggleAnswer = (index) => {
     setOpenIndex(openIndex === index ? null : index);
   };
+
+  const generateMetadata = ({ params }) => ({
+    title: 'Service - Kushel Digi Solutions Ecommerce Web Development Company',
+    description: 'Kushel Digi Solutions experience, you can unlock Shopify full potential Put your trust in the Shopify development services to build your online success!',
+  });
+  
+  
+  useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description : 
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
+
 
   return (
     <div className='home2asqueswrap'>

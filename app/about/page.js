@@ -187,6 +187,7 @@ const About = ({ notify }) => {
               <p>With over 8 years of experience, Kushel Digi is committed to empower your business for digital success.</p>
             </div>
             <Image className="absolute" src={e6} alt="kusheldigi About Us"  title="kusheldigi About Us"/>
+            
           </div>
         </div>
 
