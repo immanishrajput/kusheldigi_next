@@ -1,5 +1,5 @@
 "use client"
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import arrow4 from "../../public/assets/arrow4.png";
 import conjun from '../../public/assets/conjun.png';
@@ -50,19 +50,23 @@ const Solenoid = () => {
     window.open(callUrl, "_blank");
   }
 
-
+const generateMetadata = ({ params }) => ({
+         title: 'Kushel Digi Solutions Case Study- solenoid-ninja',
+         description:"Explore the Kushel Digi Solutions case study on Solenoid Ninja: Discover how expert UX/UI design and website development enhanced their digital presence."
+       });
+       
+     useEffect(() => {
+         const { title, description } = generateMetadata({ params: {} });
+         document.title = title;
+         let metaDescription = document.querySelector('meta[name="description"]');
+         metaDescription ? metaDescription.content = description : 
+           document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+       }, []);
 
   return (
     <>
     <Navbar/>
-    {/* <helmet> */}
-    <link rel="canonical" href="https://www.kusheldigi.com/solenoid-ninja"/>
-    <title>Kushel Digi Solutions Case Study- solenoid-ninja</title>
-        <meta
-          name="description"
-          content="Explore the Kushel Digi Solutions case study on Solenoid Ninja: Discover how expert UX/UI design and website development enhanced their digital presence."
-        />
-    {/* </helmet> */}
+  
           <div className="ser-main">
         
         <div>

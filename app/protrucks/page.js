@@ -1,6 +1,6 @@
 
 "use client"
-import React from "react";
+import React, { useEffect } from "react";
 import Link from "next/link";
 
 import '../globals.css'
@@ -64,18 +64,22 @@ const ProTrucks = () => {
       behavior: 'smooth',
     });
   };
-
+ const generateMetadata = ({ params }) => ({
+              title: 'Kushel Digi Solutions Case Study- pro-track',
+              description: "Kushel Digi Solutions crafted a dynamic website for Pro-Track, enhancing user experience and showcasing their services, driving online engagement and growth."
+            });
+            
+          useEffect(() => {
+              const { title, description } = generateMetadata({ params: {} });
+              document.title = title;
+              let metaDescription = document.querySelector('meta[name="description"]');
+              metaDescription ? metaDescription.content = description : 
+                document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+            }, []);
   return (
     <>
     <Navbar/>
-    {/* <helmet> */}
-    <link rel="canonical" href="https://www.kusheldigi.com/pro-track"/>
-    <title>Kushel Digi Solutions Case Study- pro-track</title>
-        <meta
-          name="description"
-          content="Kushel Digi Solutions crafted a dynamic website for Pro-Track, enhancing user experience and showcasing their services, driving online engagement and growth."
-        />
-    {/* </helmet> */}
+   
       <div className="ser-main">
         <div>
           <div className="side-bg-trio">

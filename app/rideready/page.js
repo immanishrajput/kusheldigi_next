@@ -1,6 +1,6 @@
 "use client"
 // import "./ride.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { TiTick } from "react-icons/ti";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
@@ -121,6 +121,19 @@ function rideready() {
     }, 300);
   };
 
+  const generateMetadata = ({ params }) => ({
+           title: 'Kusheldigi.com/rideready',
+           description:"Web Development Company | Kushel Digi Solutions"
+         });
+         
+       useEffect(() => {
+           const { title, description } = generateMetadata({ params: {} });
+           document.title = title;
+           let metaDescription = document.querySelector('meta[name="description"]');
+           metaDescription ? metaDescription.content = description : 
+             document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+         }, []);
+  
   return (
     <div className="case1wrap home-main">
         <Navbar/>

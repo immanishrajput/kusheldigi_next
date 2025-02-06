@@ -61,13 +61,23 @@ const WoodView = () => {
     const callUrl = `tel:${phoneNumber}`;
     window.open(callUrl, "_blank");
   };
+  const generateMetadata = ({ params }) => ({
+    title: 'Kusheldigi.com/woodView',
+    description:"Web Development Company | Kushel Digi Solutions"
+  });
+  
+useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description : 
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
 
   return (
     <>
     <Navbar/>
-      {/* <helmet> */}
-        <link rel="canonical" href="https://www.kusheldigi.com/kick-eez" />
-      {/* </helmet> */}
+     
 
       <div className="ser-main">
 

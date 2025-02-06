@@ -1,5 +1,5 @@
 "use client"
-import React from "react";
+import React, { useEffect } from "react";
 import digital from "../../public/assets/digital.png";
 import digital2 from "../../public/assets/digital2.png";
 import quality from "../../public/assets/quality.png";
@@ -64,18 +64,23 @@ const StafArgu = ({notify}) => {
       behavior: 'smooth',
     });
   };
+const generateMetadata = ({ params }) => ({
+         title: 'KushelDigi Solutions- Staf augmentation services',
+         description:"Boost your team's capacity with KushelDigi's expert staff augmentation services. Streamline operations and scale efficiently. Contact us today!"
+       });
+       
+     useEffect(() => {
+         const { title, description } = generateMetadata({ params: {} });
+         document.title = title;
+         let metaDescription = document.querySelector('meta[name="description"]');
+         metaDescription ? metaDescription.content = description : 
+           document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+       }, []);
 
   return (
     <>
     <Navbar/>
-    {/* <Helmet> */}
-    <title>KushelDigi Solutions- Staf augmentation services</title>
-    <meta
-       name="description"
-       content="Boost your team's capacity with KushelDigi's expert staff augmentation services. Streamline operations and scale efficiently. Contact us today!"
-    />
-    <link rel="canonical" href="https://www.kusheldigi.com/staff-augmentation"/>
-    {/* </Helmet> */}
+   
       <div className="home-main">
         <div className="starff-main">
         <div className="staff-back101 dine-123">

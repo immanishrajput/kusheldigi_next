@@ -67,14 +67,23 @@ const CrazyCMS = () => {
     window.open(callUrl, "_blank");
   }
 
-
+  const generateMetadata = ({ params }) => ({
+    title: 'Kusheldigi.com/crazyCMS',
+    description:"web agency, web design agency , best web design agency in the world, web design agency, web design services, web design and development agency"
+  });
+  
+useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description : 
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
 
   return (
     <>
     <Navbar/>
-      {/* <helmet> */}
-        <link rel="canonical" href="https://www.kusheldigi.com/kick-eez" />
-      {/* </helmet> */}
+     
 
       <div className="ser-main">
         <div>

@@ -66,7 +66,18 @@ const Ballistic = () => {
     window.open(callUrl, "_blank");
   }
 
-
+const generateMetadata = ({ params }) => ({
+         title: 'Kusheldigi.com/ballistic',
+         description:"Web Development Company | Kushel Digi Solutions"
+       });
+       
+     useEffect(() => {
+         const { title, description } = generateMetadata({ params: {} });
+         document.title = title;
+         let metaDescription = document.querySelector('meta[name="description"]');
+         metaDescription ? metaDescription.content = description : 
+           document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+       }, []);
 
   return (
     <>

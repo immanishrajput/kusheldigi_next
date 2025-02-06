@@ -1,5 +1,5 @@
 "use client"
-import React from "react";
+import React, { useEffect } from "react";
 
 
 import arrow4 from "../../public/assets/arrow4.png";
@@ -61,18 +61,22 @@ const Rely = () => {
     });
   };
 
-
+const generateMetadata = ({ params }) => ({
+         title: 'Kushel Digi Solutions Case Study- rely',
+         description: 'Discover how Kushel Digi Solutions crafted an impactful website for Rely, boosting their online presence with cutting-edge design and functionality.',
+       });
+       
+     useEffect(() => {
+         const { title, description } = generateMetadata({ params: {} });
+         document.title = title;
+         let metaDescription = document.querySelector('meta[name="description"]');
+         metaDescription ? metaDescription.content = description : 
+           document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+       }, []);
   return (
     <>
     <Navbar/>
-    {/* <helmet> */}
-    <link rel="canonical" href="https://www.kusheldigi.com/rely"/>
-    <title>Kushel Digi Solutions Case Study- rely</title>
-        <meta
-          name="description"
-          content="Discover how Kushel Digi Solutions crafted an impactful website for Rely, boosting their online presence with cutting-edge design and functionality."
-        />
-    {/* </helmet> */}
+   
       <div className="ser-main">
       
         <div>

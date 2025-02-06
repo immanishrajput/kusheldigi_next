@@ -1,5 +1,5 @@
 "use client"
-import React from 'react'
+import React, { useEffect } from 'react'
 // import "./header.css"
 import BigHeader from './BigHeader/page';
 import BigSection2 from './BigSection2/page';
@@ -20,21 +20,24 @@ import Footer from '../COMMON/Footer';
 // import { Helmet } from 'react-helmet';
 
 function Shopify3({notify}) {
+  const generateMetadata = ({ params }) => ({
+              title: 'KushelDigi Solutions- Top shopify development company',
+              description: "Kushel Digi Solutions experience, you can unlock Shopify's full potential Put your trust in the Shopify development services to build your online success."
+            });
+            
+          useEffect(() => {
+              const { title, description } = generateMetadata({ params: {} });
+              document.title = title;
+              let metaDescription = document.querySelector('meta[name="description"]');
+              metaDescription ? metaDescription.content = description : 
+                document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+            }, []);
   return (
     <>
 <Navbar/>
-{/* <Helmet> */}
-        <title>KushelDigi Solutions- Top shopify development company</title>
-        <meta
-          name="description"
-          content="Kushel Digi Solutions experience, you can unlock Shopify's full potential Put your trust in the Shopify development services to build your online success."
-        />
-        {/* <meta
-          name="keywords"
-          content="Affordable wordpress development services in india"
-        /> */}
-        <link rel="canonical" href="https://www.kusheldigi.com/shopify" />
-      {/* </Helmet> */}
+
+        
+    
 
 <div className="home-main">
 

@@ -1,6 +1,6 @@
 "use client"
 // import "./section7.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { TiTick } from "react-icons/ti";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
@@ -127,7 +127,19 @@ function Page() {
     }, 300); // Time for the slide-out transition to complete
   };  /* Slide-out animation */
  
-
+const generateMetadata = ({ params }) => ({
+         title: 'Kusheldigi.com/2ndamendment',
+         description:"Web Development Company | Kushel Digi Solutions"
+       });
+       
+     useEffect(() => {
+         const { title, description } = generateMetadata({ params: {} });
+         document.title = title;
+         let metaDescription = document.querySelector('meta[name="description"]');
+         metaDescription ? metaDescription.content = description : 
+           document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+       }, []);
+ 
   return (
     <div className="case1wrap home-main">
 <Navbar/> 

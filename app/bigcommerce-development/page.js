@@ -1,5 +1,5 @@
 "use client"
-import React from 'react'
+import React, { useEffect } from 'react'
 import BigHeader from './BigHeader/Page'
 import BigSection2 from './BigSection2/page'
 // import "./header.css"
@@ -20,21 +20,22 @@ import Footer from '../COMMON/Footer'
 // import { Helmet } from 'react-helmet';
 
 function BigCommerce3({ notify }) {
+   const generateMetadata = ({ params }) => ({
+                title: 'Top-notch Big commerce development services',
+                description: "Kushel Digi Solutions elevates your business with top-notch big commerce website, Our best Big-commerce development service is expert to create eCommerce stores"
+              });
+              
+            useEffect(() => {
+                const { title, description } = generateMetadata({ params: {} });
+                document.title = title;
+                let metaDescription = document.querySelector('meta[name="description"]');
+                metaDescription ? metaDescription.content = description : 
+                  document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+              }, []);
   return (
     <>
     <Navbar/>
-      {/* <Helmet> */}
-        <title>Top-notch Big commerce development services</title>
-        <meta
-          name="description"
-          content="Kushel Digi Solutions elevates your business with top-notch big commerce website, Our best Big-commerce development service is expert to create eCommerce stores"
-        />
-        {/* <meta
-          name="keywords"
-          content="Affordable wordpress development services in india"
-        /> */}
-        <link rel="canonical" href="https://www.kusheldigi.com/bigcommerce-development" />
-      {/* </Helmet> */}
+     
       <div className="home-main">
 
         <BigHeader />

@@ -1,5 +1,5 @@
 "use client"
-import React from 'react'
+import React, { useEffect } from 'react'
 import ContactForm1 from '../COMMON/ContactForm1'
 import whatsApp from "../../public/assets/whatsapp.png";
 import call from "../../public/assets/telephone.png"
@@ -30,13 +30,23 @@ const Privacy = () => {
       behavior: 'smooth',
     });
   };
+  const generateMetadata = ({ params }) => ({
+      title: "Case Studies of kushelDigi Solution",
+      description:"Web Development Company | Kushel Digi Solutions"
+    });
+    
+  useEffect(() => {
+      const { title, description } = generateMetadata({ params: {} });
+      document.title = title;
+      let metaDescription = document.querySelector('meta[name="description"]');
+      metaDescription ? metaDescription.content = description : 
+        document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+    }, []);
 
   return (
     <>
     <Navbar/>
-    {/* <helmet> */}
-    <link rel="canonical" href="https://www.kusheldigi.com/privacy"/>
-    {/* </helmet> */}
+   
      <div className="ser-main">
       <div className="privacy-back">
         <div className="privacy-sect">

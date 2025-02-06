@@ -1,5 +1,5 @@
 "use client"
-import React from "react";
+import React, { useEffect } from "react";
 import img9 from "../../public/assets/group-part.png";
 import mnop from "../../public/assets/nmop.png";
 import nmop2 from "../../public/assets/nmop1.png";
@@ -47,19 +47,22 @@ const Reactjsdev = () => {
       behavior: 'smooth',
     });
   };
-
+ const generateMetadata = ({ params }) => ({
+              title: 'unlock the power of React JS Development service',
+              description: "Kushel Digi Solutions stays on top of React JS development company's most recent features and innovations to make sure your online apps are cutting-edge."
+            });
+            
+          useEffect(() => {
+              const { title, description } = generateMetadata({ params: {} });
+              document.title = title;
+              let metaDescription = document.querySelector('meta[name="description"]');
+              metaDescription ? metaDescription.content = description : 
+                document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+            }, []);
   return (
     <>
     <Navbar/>
-    {/* <Helmet> */}
-        
-        <title>unlock the power of React JS Development service</title>
-        <meta
-          name="description"
-          content="Kushel Digi Solutions stays on top of React JS development company's most recent features and innovations to make sure your online apps are cutting-edge."
-        />
-        <link rel="canonical" href="https://www.kusheldigi.com/react-js"/>
-      {/* </Helmet> */}
+  
       <div className="ser-main">
         {/* ********************************************************************************** */}
 
