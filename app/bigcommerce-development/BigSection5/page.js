@@ -137,7 +137,7 @@ function BigSection5() {
         </div>
 
   <div className="allprojectbtns">
-    <button onClick={()=>navigate("/portfolio")}><span>View All Projects</span></button>
+    <button onClick={()=>router.push("/portfolio")}><span>View All Projects</span></button>
   </div>
 
       </div>

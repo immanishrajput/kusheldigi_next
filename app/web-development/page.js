@@ -310,7 +310,7 @@ const generateMetadata = ({ params }) => ({
           <div className="thir_button_flex">
             <div onClick={ChangeImage1} className="thir_img">
               <p>Customized design</p>
-              <Image id="img1" src={thir2} alt="Customized design" title="Customized design" />
+              <Image id="img1" src={thir1} alt="Customized design" title="Customized design" />
             </div>
             <div onClick={ChangeImage2} className="thir_img">
             </div>
@@ -320,7 +320,7 @@ const generateMetadata = ({ params }) => ({
             </div>
             <div onClick={ChangeImage4} className="thir_img">
               <p>SEO Service</p>
-              <Image id="img4" src={thir1} alt="SEO Service" title="SEO Service" />
+              <Image id="img4" src={thir2} alt="SEO Service" title="SEO Service" />
             </div>
             <div onClick={ChangeImage5} className="thir_img" >
               <p>Website Maintenance</p>

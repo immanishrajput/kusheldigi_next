@@ -510,7 +510,7 @@ const Php = () => {
                                 <div className="inr-div">
                                     <div>
                                         {" "}
-                                        <img src={onring1} alt="Security" title="Security" className="icon" />
+                                        <Image src={onring1} alt="Security" title="Security" className="icon" />
                                     </div>
                                     <div>
                                         <h3 className="heading-2">Security</h3>

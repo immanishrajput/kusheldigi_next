@@ -55,6 +55,7 @@ import Image from "next/image";
 import UseAccorrodian from "../COMMON/UseAccorrodian";
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
+
 const USA = ({ pop, setPop, notify }) => {
   const [perPage, setPerPage] = useState(5);
   const [fard, setFard] = useState(1);
@@ -137,7 +138,7 @@ const USA = ({ pop, setPop, notify }) => {
       behavior: 'smooth',
     });
   };
-
+  // const [pop, setPop]= useState(false);
   return (
 
 
