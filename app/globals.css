@@ -32444,8 +32444,9 @@ line-height: 47px;
   fill: #0B56E4;
 }
 .css_content_img img{
-  max-width: 75%;
-  width: 100%;
+  /* max-width: 75%;
+  width: 100%; */
+  width: 383px;
 }
 
 .service-back{
@@ -32486,8 +32487,8 @@ max-width: 34em;
     }
 
     .service-back2 img {
-        max-width: 545px;
-        width: 100%;
+        width: 545px;
+        /* width: 100%; */
         object-fit: cover;
       }
 
@@ -42406,8 +42407,8 @@ form button:hover {
 }
 
 .second-experiencedji img {
-  max-width: 900px;
-  width: 100%
+  width:884px;
+  /* width: 100% */
 }
 
 .uiux-process {
@@ -42827,8 +42828,8 @@ form button:hover {
 }
 
 .how-ux2 img {
-  max-width: 600px;
-  width: 100%
+  width: 584px;
+  /* width: 100% */
 }
 
 .development-process {
@@ -54261,8 +54262,8 @@ video {
 }
 
 .pick222 {
-  max-width: 700px;
-  width: 100%
+  width: 700px;
+
 }
 
 .kick-start22 {
@@ -56733,11 +56734,11 @@ video {
 }
 
 .single_big-PRO-TRUCKS>img {
-  max-width: 768px;
+  width: 768px;
   margin-top: 1rem;
   z-index: 3;
   margin-bottom: -120px;
-  width: 100% !important
+  /* width: 100% !important */
 }
 
 .third-wireframe-homie-solenoid-s {
@@ -56769,8 +56770,8 @@ video {
 }
 
 .single_big-solenoid-s>img {
-  max-width: 988px;
-  width: 100%;
+  width: 988px;
+  /* width: 100%; */
   margin-top: 1rem;
   z-index: 3;
   margin-bottom: -120px
@@ -56848,8 +56849,8 @@ video {
 }
 
 .uiuximggg img {
-  max-width: 500px !important;
-  width: 100% !important
+  width: 500px !important;
+  /* width: 100% !important */
 }
 
 .bigcom-back1 button {
@@ -58925,8 +58926,8 @@ video {
 }
 
 .MadFish-back2 img {
-  max-width: 514px;
-  width: 100%;
+  width: 514px;
+  /* width: 100%; */
   object-fit: cover
 }
 
@@ -64680,8 +64681,8 @@ wordpress_cater_box p {
 }
 
 .process-flex1 img {
-    max-width: 650px;
-    width: 100%
+  width: 650px;
+    /* width: 100% */
 }
 
 .process-flex2 h2 {
@@ -64795,8 +64796,8 @@ wordpress_cater_box p {
 }
 
 .office-flex2 img {
-    max-width: 650px;
-    width: 100%
+  width: 650px;
+    /* width: 100% */
 }
 
 .office-flex1 {
@@ -64866,8 +64867,8 @@ wordpress_cater_box p {
 
 
 .about-10 .sersa {
-    max-width: 720px;
-    width: 100%
+    width: 720px;
+    /* width: 100% */
 }
 
 .about-11 {
@@ -65038,8 +65039,8 @@ wordpress_cater_box p {
 }
 
 .about81 img {
-    max-width: 615px;
-    width: 100%
+    width: 615px;
+    /* width: 100% */
 }
 
 .about802 {
