@@ -380,8 +380,7 @@ const Navbar = () => {
                     className="kdssslogo"
                     src={logo}
                     alt="KushelDigi Solutions Logo"
-                    title="KushelDigi Solutions Logo"
-                  />
+                    title="KushelDigi Solutions Logo" />
                 </div>
               </Link>
 

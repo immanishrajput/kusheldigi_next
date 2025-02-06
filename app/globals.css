@@ -630,7 +630,7 @@
     url("../public/font/SF-UI-Display-Regular/SF_UI_Display_Regular.ttf") format("truetype")
  }
 *{
-  font-family: "sf-ui-display-medium", sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -36787,13 +36787,14 @@ hr {
 }
 
 .logo img {
-  width: 120px;
+  height: 56px;
+  width: 180px;
   max-width: 100%
 }
 
 .kdssslogo {
   max-width: 180px !important;
-  width: 100% !important
+  /* width: 100% !important */
 }
 
 .contact-back {
