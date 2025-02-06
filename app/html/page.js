@@ -1,5 +1,5 @@
 "use client"
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import auxit from '../../public/assets/auxit.png';
 import doliwala1 from '../../public/assets/doliwala1.png';
@@ -44,18 +44,22 @@ const Html = () => {
         behavior: 'smooth',
       });
     };
-
+const generateMetadata = ({ params }) => ({
+      title: 'top-notch affordable HTML development services',
+      description: 'KushelDigi Solutions, recognized as a premier Website Development Company, specializes in HTML web development services aimed at elevating your brand value',
+    });
+    
+  useEffect(() => {
+      const { title, description } = generateMetadata({ params: {} });
+      document.title = title;
+      let metaDescription = document.querySelector('meta[name="description"]');
+      metaDescription ? metaDescription.content = description : 
+        document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+    }, []);
     return (
         <>
         <Navbar/>
-            {/* <Helmet> */}
-                <title>top-notch affordable HTML development services</title>
-                <meta
-                    name="description"
-                    content="KushelDigi Solutions, recognized as a premier Website Development Company, specializes in HTML web development services aimed at elevating your brand value"
-                />
-                <link rel="canonical" href="https://www.kusheldigi.com/html"/>
-            {/* </Helmet> */}
+            
             <div className="ser-main">
                 <div className='html_5 htmllll'>
                     <div className="html_back dine-123">

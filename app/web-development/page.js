@@ -160,20 +160,21 @@ const WebDevelopmentUSA = ({ notify }) => {
       behavior: 'smooth',
     });
   };
-
+const generateMetadata = ({ params }) => ({
+        title: ' your stop for the Best Website Development services ',
+        description: 'KushelDigi Solutions- the best web development services! that Boost your online visibility with our experienced staff committed to making your dreams come true.',
+      });
+      
+    useEffect(() => {
+        const { title, description } = generateMetadata({ params: {} });
+        document.title = title;
+        let metaDescription = document.querySelector('meta[name="description"]');
+        metaDescription ? metaDescription.content = description : 
+          document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+      }, []);
   return (
     <>
     <Navbar/>
-      {/* <Helmet> */}
-        <title>
-        your stop for the Best Website Development services 
-        </title>
-        <meta
-          name="description"
-          content="KushelDigi Solutions- the best web development services! that Boost your online visibility with our experienced staff committed to making your dreams come true."
-        />
-        <link rel="canonical" href="https://www.kusheldigi.com/web-development" />
-      {/* </Helmet> */}
       <div className="ser-main">
         <div className="ser1 serji serji1 ">
           <div className="ser11  flex items-center justify-between webDoveeee dine-123">

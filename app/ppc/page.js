@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 // import "../components/css/ppc.css";
 // import { Helmet } from "react-helmet";
 
@@ -39,17 +39,22 @@ const callHandler=()=>{
 
 
 function Ppc() {
+   const generateMetadata = ({ params }) => ({
+              title: 'KushelDigi Solutions- top PPC company',
+              description: 'Elevate your PPC performance with KushelDigi Solutions, your top PPC company. Drive targeted traffic & maximize ROI today!',
+            });
+            
+          useEffect(() => {
+              const { title, description } = generateMetadata({ params: {} });
+              document.title = title;
+              let metaDescription = document.querySelector('meta[name="description"]');
+              metaDescription ? metaDescription.content = description : 
+                document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+            }, []);
   return (
     <>
     <Navbar/>
-      {/* <Helmet> */}
-        <title>KushelDigi Solutions- top PPC company</title>
-        <meta
-          name="description"
-          content="Elevate your PPC performance with KushelDigi Solutions, your top PPC company. Drive targeted traffic & maximize ROI today!"
-        />
-        <link rel="canonical" href="https://www.kusheldigi.com/ppc" />
-      {/* </Helmet> */}
+      
       <div className="ser-main">
         <div id="hemesh-ppc">
           <div class="ppc">

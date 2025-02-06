@@ -66,6 +66,7 @@ const Flutters = ({notify}) => {
         metaDescription ? metaDescription.content = description : 
           document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
       }, []);
+      
   return (
     <>
     <Navbar/>

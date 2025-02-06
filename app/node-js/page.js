@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import nodejsfirsts from "../../public/assets/nodejsfirsts.avif";
 import nodejsImage from "../../public/assets/nodejsImage.png";
 import nodejsleftss from "../../public/assets/nodejsleftss.png";
@@ -113,20 +113,22 @@ const Nodejsdev2 = () => {
       behavior: 'smooth',
     });
   };
-
+const generateMetadata = ({ params }) => ({
+      title: 'Leading Node.js Development Company for Your Business',
+      description: 'KushelDigi Solutions excels as a leading Node.js development company, specializing in the creation of high-quality web and mobile applications.',
+    });
+    
+  useEffect(() => {
+      const { title, description } = generateMetadata({ params: {} });
+      document.title = title;
+      let metaDescription = document.querySelector('meta[name="description"]');
+      metaDescription ? metaDescription.content = description : 
+        document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+    }, []);
   return (
     <>
     <Navbar/>
-      {/* <Helmet> */}
-        <title>Leading Node.js Development Company for Your Business</title>
-        <meta
-          name="description"
-          content="KushelDigi Solutions excels as a leading Node.js 
-development company, specializing in the creation of 
-high-quality web and mobile applications."
-        />
-        <link rel="canonical" href="https://www.kusheldigi.com/node-js" />
-      {/* </Helmet> */}
+      
       <div className="ser-main">
         <div className="node_dev_ss node-bg">
           <div className="node_dev_ss-back01 dine-123">

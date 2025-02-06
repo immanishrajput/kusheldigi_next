@@ -1,5 +1,5 @@
 "use client"
-import React from 'react'
+import React, { useEffect } from 'react'
 // import { Helmet } from "react-helmet";
 
 import {
@@ -47,8 +47,9 @@ const callHandler=()=>{
   window.open(callUrl, "_blank");
 }
 
- const generateMetadata = ({ params }) => ({
-    title: 'Service - Kushel Digi Solutions Ecommerce Web Development Company',
+function Seo2() {
+  const generateMetadata = ({ params }) => ({
+    title: 'KushelDigi Solutions- the Best SEO agency',
     description: 'Unlock your online potential with KushelDigi Solutions – Your best SEO agency for top-notch strategies and unmatched results. Boost your visibility today!',
   });
   
@@ -60,19 +61,10 @@ const callHandler=()=>{
     metaDescription ? metaDescription.content = description : 
       document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
   }, []);
-
-function Seo2() {
   return (
     <>
     <Navbar/>
-     {/* <Helmet> */}
-     {/* <title>KushelDigi Solutions- the Best SEO agency</title>
-     <meta
-         name="description"
-         content="Unlock your online potential with KushelDigi Solutions – Your best SEO agency for top-notch strategies and unmatched results. Boost your visibility today!"           
-    />            */}
-    <link rel="canonical" href="https://www.kusheldigi.com/seo"/>
-    {/* </Helmet> */}
+    
       <div className="ser-main overflow">
       <div id="hemesh-seo-kushel">
         <div className="banner">

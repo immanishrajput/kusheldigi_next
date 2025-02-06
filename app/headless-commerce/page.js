@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 
 import {
   Accordion,
@@ -83,21 +83,24 @@ const Headless = () => {
       },
     ],
   };
+  
+   const generateMetadata = ({ params }) => ({
+          title: "Kushel Digi Solutions | Headless Commerce Web Development Company",
+          description: 'offers headless commerce development services and e-commerce solutions, including custom coding and responsive design. and we holds the experience and expertise to accommodate all your eCommerce platform needs.',
+        });
+        
+      useEffect(() => {
+          const { title, description } = generateMetadata({ params: {} });
+          document.title = title;
+          let metaDescription = document.querySelector('meta[name="description"]');
+          metaDescription ? metaDescription.content = description : 
+            document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+        }, []);
+
   return (
     <>
       <Navbar />
-      {/* <Helmet> */}
-      <title>
-        Kushel Digi Solutions | Headless Commerce Web Development Company
-      </title>
-      <meta
-        name="description"
-        content="offers headless commerce development services and e-commerce solutions, including custom coding and responsive design. and we holds the experience and expertise to accommodate all your eCommerce platform needs."
-      />
-      <link
-        rel="canonical"
-        href="https://www.kusheldigi.com/headless-commerce"
-      />
+      
       {/* </Helmet> */}
       <div id="kushel-headless-commerce">
         <div className="headless-commerce-banner">
@@ -929,7 +932,7 @@ const Headless = () => {
           </div>
         </div>
       </div> */}
-      <HeadlessFAQ/>
+      <HeadlessFAQ />
       <div className="whtsApBtns">
         <button onClick={whatAppHandler}>
           <Image

@@ -1,5 +1,5 @@
 "use client"
-import React from "react";
+import React, { useEffect } from "react";
 import reactNativeImgg from "../../public/assets/reactNativeImgg.png";
 import arrow4 from "../../public/assets/arrow4.png";
 import androidSis from "../../public/assets/android-sis.png";
@@ -67,24 +67,22 @@ const Native = () => {
       behavior: 'smooth',
     });
   };
-
+const generateMetadata = ({ params }) => ({
+            title: 'Empowering Mobile Experiences: React Native Development Company',
+            description: 'Kushel Digi Solutions stays is top React Js development company We specialize in developing ReactJS web applications for small to large-scale enterprises.',
+          });
+          
+        useEffect(() => {
+            const { title, description } = generateMetadata({ params: {} });
+            document.title = title;
+            let metaDescription = document.querySelector('meta[name="description"]');
+            metaDescription ? metaDescription.content = description : 
+              document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+          }, []);
   return (
     <>
     <Navbar/>
-      {/* <Helmet> */}
-        <title>Empowering Mobile Experiences: React Native Development Company</title>
-        <meta
-          name="description"
-          content="Kushel Digi Solutions stays is top React Js development company We specialize in developing ReactJS web applications for small to large-scale enterprises."
-        />
-        <meta
-          name="keywords"
-          content="React Native App development services"
-        />
-       
-    <link rel="canonical" href="https://www.kusheldigi.com/react-native"/>
-    
-      {/* </Helmet> */}
+      
       <div className="ser-main">
         <div className="react-bg">
         <div className="android-back native-back react-native-app dine-123 nativee-backk">

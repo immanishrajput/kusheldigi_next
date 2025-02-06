@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import nn1 from "../../public/assets/n1.png";
 import nn2 from "../../public/assets/n2.png";
 import nn3 from "../../public/assets/n3.png";
@@ -68,21 +68,23 @@ const Magento = () => {
       behavior: 'smooth',
     });
   };
-
+   const generateMetadata = ({ params }) => ({
+         title: 'Best magento development company -KushelDigi Solutions',
+         description: 'Kushel Digi Solutions offers Magento Development services that ensure a seamless client experience and a wide range of capabilities.',
+       });
+       
+     useEffect(() => {
+         const { title, description } = generateMetadata({ params: {} });
+         document.title = title;
+         let metaDescription = document.querySelector('meta[name="description"]');
+         metaDescription ? metaDescription.content = description : 
+           document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+       }, []);
 
   return (
     <>
     <Navbar/>
-      {/* <Helmet> */}
-        <title>Best magento development company -KushelDigi Solutions</title>
-        <meta
-          name="description"
-          content="Kushel Digi Solutions offers Magento Development
- services that ensure a seamless client experience
- and a wide range of capabilities."
-        />
-        <link rel="canonical" href="https://www.kusheldigi.com/magento" />
-      {/* </Helmet> */}
+    
       <div className="ser-main">
         <div className="magentooo1">
           <div className="magento-back dine-123">

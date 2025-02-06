@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import arrow4 from "../../public/assets/arrow4.png";
 import koting from "../../public/assets/koting.png";
 import mobilet from "../../public/assets/mobilet.png";
@@ -81,19 +81,22 @@ const Kotlin = () => {
       behavior: 'smooth',
     });
   };
-
+ const generateMetadata = ({ params }) => ({
+      title: "KushelDigi Solutions- Best kotlin app development company",
+      description: 'Transform your Ideas into Reality and Boost Your Android App Excellence. Start Your Kotlin App Journey with our Kotlin app development services!',
+    });
+    
+  useEffect(() => {
+      const { title, description } = generateMetadata({ params: {} });
+      document.title = title;
+      let metaDescription = document.querySelector('meta[name="description"]');
+      metaDescription ? metaDescription.content = description : 
+        document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+    }, []);
   return (
     <>
     <Navbar/>
-    {/* <Helmet> */}
     
-        <title>KushelDigi Solutions- Best kotlin app development company</title>
-        <meta
-          name="description"
-          content="Transform your Ideas into Reality and Boost Your Android App Excellence. Start Your Kotlin App Journey with our Kotlin app development services!"
-        />
-        <link rel="canonical" href="https://www.kusheldigi.com/kotlin"/>
-      {/* </Helmet> */}
       <div className="ser-main">
         <div className="Kotlin-bg">
         <div className="bigCommerce-back kotlin-bg1 dine-123 kotlin-padd">

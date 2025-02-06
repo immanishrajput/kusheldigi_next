@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import wordpressDev from '../../public/assets/wordpress__Development.png.png';
 import wordpressfimg from "../../public/assets/wordpressfimg.png";
 import wordtu from '../../public/assets/wordtu.png';
@@ -87,22 +87,22 @@ const WordPress = () => {
             behavior: 'smooth',
         });
     };
-
+const generateMetadata = ({ params }) => ({
+      title: 'Your Premier WordPress Development Company for Innovative Solutions',
+      description: 'KushelDigi Solutions Provides the Best WordPress Development Services our expert developers specialize in creating and customizing unique websites',
+    });
+    
+  useEffect(() => {
+      const { title, description } = generateMetadata({ params: {} });
+      document.title = title;
+      let metaDescription = document.querySelector('meta[name="description"]');
+      metaDescription ? metaDescription.content = description : 
+        document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+    }, []);
     return (
         <>
         <Navbar/>
-            {/* <Helmet> */}
-                <title>Your Premier WordPress Development Company for Innovative Solutions</title>
-                <meta
-                    name="description"
-                    content="KushelDigi Solutions Provides the Best WordPress Development Services our expert developers specialize in creating and customizing unique websites"
-                />
-                <meta
-                    name="keywords"
-                    content="Affordable wordpress development services in india"
-                />
-                <link rel="canonical" href="https://www.kusheldigi.com/wordpress" />
-            {/* </Helmet> */}
+            
             <div className="ser-main">
                 <div className='word_press word-press1'>
                     <div className="wordpress-back012 dine-123">

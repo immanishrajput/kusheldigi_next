@@ -60,7 +60,18 @@ const LaravelHire = () => {
       behavior: 'smooth',
     });
   };
-
+const generateMetadata = ({ params }) => ({
+    title: 'KushelDigi : Job Search Marketplace. Tech Job Hunting Simplified',
+    description:"web agency, web design agency , best web design agency in the world, web design agency, web design services, web design and development agency"
+  });
+  
+useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description : 
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
 
     return (
         <>

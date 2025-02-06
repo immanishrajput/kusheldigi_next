@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 // import { NavLink } from 'react-router-dom';
 import Link from 'next/link';
 import ContactForm1 from "../COMMON/ContactForm1";
@@ -99,20 +99,22 @@ const Php = () => {
         document.getElementById("extension").style.color = "#33475B";
         document.getElementById("developer").style.color = "#1B6BFF";
     };
+    const generateMetadata = ({ params }) => ({
+            title: 'Best Affordable php development services by KushelDigi',
+            description: 'Kushel Digi Solutions provides excellent PHP development services to create dynamic, highly effective PHP portals and websites.',
+          });
+          
+        useEffect(() => {
+            const { title, description } = generateMetadata({ params: {} });
+            document.title = title;
+            let metaDescription = document.querySelector('meta[name="description"]');
+            metaDescription ? metaDescription.content = description : 
+              document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+          }, []);
     return (
         <>
         <Navbar/>
-            {/* <Helmet> */}
-
-                <title>Best Affordable php development services by KushelDigi</title>
-                <meta
-                    name="description"
-                    content="Kushel Digi Solutions provides excellent PHP 
-development services to create dynamic, highly 
-effective PHP portals and websites."
-                />
-                <link rel="canonical" href="https://www.kusheldigi.com/php" />
-            {/* </Helmet> */}
+         
             <div className="ser-main">
                 <div className="php-mainback">
                     <div className="PHP-back phpbackk dine-123">

@@ -1,5 +1,5 @@
 "use client"
-import React from "react";
+import React, { useEffect } from "react";
 // import "../components/css/app10.css";
 // import { NavLink } from "react-router-dom";
 import Link from "next/link";
@@ -61,18 +61,22 @@ const Smm = () => {
     });
   };
 
-
+const generateMetadata = ({ params }) => ({
+            title: 'KushelDigi Solutions- the Best SMM Service company',
+            description: 'Unlock the power of social media with KushelDigi Solutions, your trusted partner for the best SMM services. Boost your brand today!',
+          });
+          
+        useEffect(() => {
+            const { title, description } = generateMetadata({ params: {} });
+            document.title = title;
+            let metaDescription = document.querySelector('meta[name="description"]');
+            metaDescription ? metaDescription.content = description : 
+              document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+          }, []);
   return (
     <>
     <Navbar/>
-      {/* <Helmet> */}
-        <title>KushelDigi Solutions- the Best SMM Service company</title>
-        <meta
-          name="description"
-          content="Unlock the power of social media with KushelDigi Solutions, your trusted partner for the best SMM services. Boost your brand today!"
-        />
-        <link rel="canonical" href="https://www.kusheldigi.com/smm" />
-      {/* </Helmet> */}
+      
       <div className="ser-main">
         <div className="main-section">
           <div className="social-media dine-123">

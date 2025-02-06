@@ -66,18 +66,22 @@ const Uiux = ({notify}) => {
   }
 
 
-
+const generateMetadata = ({ params }) => ({
+        title: 'KushelDigi: UI/UX Design Services | Leading UI UX Design Company',
+        description: 'We Provide one of the best UI UX design services with unique and creative designs that transform your website performance to new hights',
+      });
+      
+    useEffect(() => {
+        const { title, description } = generateMetadata({ params: {} });
+        document.title = title;
+        let metaDescription = document.querySelector('meta[name="description"]');
+        metaDescription ? metaDescription.content = description : 
+          document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+      }, []);
   return (
     <>
     <Navbar/>
-     {/* <Helmet> */}
-        <title>KushelDigi: UI/UX Design Services | Leading UI UX Design Company</title>
-        <meta
-          name="description"
-          content="We Provide one of the best UI UX design services with unique and creative designs that transform your website performance to new hights"
-        />
-        <link rel="canonical" href="https://www.kusheldigi.com/ui-ux-design"/>
-      {/* </Helmet> */}
+    
       <div className="ser-main">
         <div className="ser1 serji  serji2 uiux_bg">
           <div className="uiux_padd px-24 pt-12 pb-4 flex justify-between dine-123">

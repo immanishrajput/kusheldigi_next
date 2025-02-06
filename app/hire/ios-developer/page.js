@@ -89,6 +89,18 @@ const IosHire = () => {
         document.getElementById("pex3").style.color = "#33475B";
         document.getElementById("pex4").style.color = "#0C61FF";
     }
+    const generateMetadata = ({ params }) => ({
+        title: 'KushelDigi : Job Search Marketplace. Tech Job Hunting Simplified',
+        description:"web agency, web design agency , best web design agency in the world, web design agency, web design services, web design and development agency"
+      });
+      
+    useEffect(() => {
+        const { title, description } = generateMetadata({ params: {} });
+        document.title = title;
+        let metaDescription = document.querySelector('meta[name="description"]');
+        metaDescription ? metaDescription.content = description : 
+          document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+      }, []);
     return (
         <>
         <Navbar/>

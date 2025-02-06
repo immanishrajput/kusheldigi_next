@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import plus from '../../../public/assets/+.png';
 import minus from "../../../public/assets/-.png"
 import Image from 'next/image';
 import Head from "next/head";
 import { NextSeo } from "next-seo";
-import HeadSEO from "../COMMON/HeadSeo";
+// import HeadSEO from "../COMMON/HeadSeo";
 const data = [
   {
     question: 'What is Shopify, and how does it work?',
@@ -44,8 +44,8 @@ function BigAskQuestion() {
   };
 
   const generateMetadata = ({ params }) => ({
-    title: 'Service - Kushel Digi Solutions Ecommerce Web Development Company',
-    description: 'Kushel Digi Solutions experience, you can unlock Shopify full potential Put your trust in the Shopify development services to build your online success!',
+    title: 'KushelDigi Solutions- Top shopify development company',
+    description:"Kushel Digi Solutions experience, you can unlock Shopify's full potential Put your trust in the Shopify development services to build your online success."
   });
   
   

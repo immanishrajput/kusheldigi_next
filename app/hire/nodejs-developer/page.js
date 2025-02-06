@@ -62,13 +62,22 @@ const HireNodeJs = () => {
             behavior: 'smooth',
         });
     };
-
+const generateMetadata = ({ params }) => ({
+        title: 'KushelDigi : Job Search Marketplace. Tech Job Hunting Simplified',
+        description:"Web Development Company | Kushel Digi Solutions"
+      });
+      
+    useEffect(() => {
+        const { title, description } = generateMetadata({ params: {} });
+        document.title = title;
+        let metaDescription = document.querySelector('meta[name="description"]');
+        metaDescription ? metaDescription.content = description : 
+          document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+      }, []);
     return (
         <>
         <Navbar/>
-            {/* <Helmet> */}
-                <link rel="canonical" href="https://www.kusheldigi.com/hire/nodejs-developer" />
-            {/* </Helmet> */}
+            
             <div className="ser-main">
 
                 <div className="phppp-main">

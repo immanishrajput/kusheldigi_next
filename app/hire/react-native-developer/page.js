@@ -89,20 +89,23 @@ const ReactNativeHire = () => {
         document.getElementById("pex3").style.color = "#33475B";
         document.getElementById("pex4").style.color = "#0C61FF";
     }
-
+const generateMetadata = ({ params }) => ({
+        title: 'React Native Mobile App Development Company - KushelDigi',
+        description:"KushelDigi is the best React Native mobile app development company in India, offering high-quality React Native development services to build cross-platform mobile apps. "
+      });
+      
+    useEffect(() => {
+        const { title, description } = generateMetadata({ params: {} });
+        document.title = title;
+        let metaDescription = document.querySelector('meta[name="description"]');
+        metaDescription ? metaDescription.content = description : 
+          document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+      }, []);
 
     return (
         <>
         <Navbar/>
-            {/* <Helmet> */}
-                <title>React Native Mobile App Development Company - KushelDigi</title>
-                <meta
-                    name="description"
-                    content="KushelDigi is the best React Native mobile app development company in India, offering high-quality React Native development services to build cross-platform mobile apps. "
-                />
-
-                <link rel="canonical" href="https://www.kusheldigi.com/hire/react-native-developer" />
-            {/* </Helmet> */}
+           
             <div className="ser-main">
 
                 <div className="phppp-main">

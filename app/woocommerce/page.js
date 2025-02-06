@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import gatr from "../../public/assets/gatr.png";
 import gatr1 from "../../public/assets/gatr1.png";
 import gatr2 from "../../public/assets/gatr2.png";
@@ -60,17 +60,22 @@ const WooCommerce = () => {
       behavior: 'smooth',
     });
   };
+  const generateMetadata = ({ params }) => ({
+        title: 'your one-stop woocommerce development company',
+        description: 'WooCommerce development services, Kushel Digi Solutions offer services for creating, customizing, developing themes, and developing plugins for WooCommerce websites.',
+      });
+      
+    useEffect(() => {
+        const { title, description } = generateMetadata({ params: {} });
+        document.title = title;
+        let metaDescription = document.querySelector('meta[name="description"]');
+        metaDescription ? metaDescription.content = description : 
+          document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+      }, []);
   return (
     <>
     <Navbar/>
-      {/* <Helmet> */}
-        <title>your one-stop woocommerce development company</title>
-        <meta
-          name="description"
-          content="WooCommerce development services, Kushel Digi Solutions offer services for creating, customizing, developing themes, and developing plugins for WooCommerce websites."
-        />
-        <link rel="canonical" href="https://www.kusheldigi.com/woocommerce" />
-      {/* </Helmet> */}
+     
       <div className="ser-main">
         <div className="wooCommmm">
           <div className="magento-back-newest woocommmm dine-123">

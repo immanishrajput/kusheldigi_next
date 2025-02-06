@@ -1,5 +1,5 @@
 "use client"
-import React from 'react'
+import React, { useEffect } from 'react'
 import banner from "../../public/assets/banner1img.png"
 import next2 from "../../public/assets/next2sect.png"
 import maskgroup from "../../public/assets/Mask-group.svg"
@@ -43,17 +43,22 @@ const callHandler=()=>{
 }
 
 const Next = () => {
+  const generateMetadata = ({ params }) => ({
+        title: 'Leading Next.js Development Company | Kushel Digi Solutions',
+        description: 'Kushel Digi Solutions a globally recognized Next js web development company, is your go-to destination for top-notch Next.js Web development services',
+      });
+      
+    useEffect(() => {
+        const { title, description } = generateMetadata({ params: {} });
+        document.title = title;
+        let metaDescription = document.querySelector('meta[name="description"]');
+        metaDescription ? metaDescription.content = description : 
+          document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+      }, []);
   return (
 <>
 <Navbar/>
-{/* <Helmet> */}
-        <title>Leading Next.js Development Company | Kushel Digi Solutions</title>
-        <meta
-          name="description"
-          content="Kushel Digi Solutions a globally recognized Next js web development company, is your go-to destination for top-notch Next.js Web development services"
-        />
-        <link rel="canonical" href="https://www.kusheldigi.com/next-js" />
-      {/* </Helmet> */}
+
 <div id="kushel-next-js">
   <div className="kushel-next-js-banner">
     <div className="kushel-next-js-container">

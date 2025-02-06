@@ -1,5 +1,5 @@
 "use client"
-import React from 'react'
+import React, { useEffect } from 'react'
 import graphic1 from '../../public/assets/graphic1.png';
 import graphicImgee from "../../public/assets/graphicImgee.png";
 import sinki from '../../public/assets/sinki.png';
@@ -57,18 +57,22 @@ const GraphicDesign = ({ notify }) => {
             behavior: 'smooth',
         });
     };
-
+const generateMetadata = ({ params }) => ({
+          title: "KushelDigi Solutions- Creative Graphic Design company",
+          description: 'the best graphic design company, Kushel Digi Solutions offers a range of graphic design services, such as motion graphics, infographics, logos, and more.',
+        });
+        
+      useEffect(() => {
+          const { title, description } = generateMetadata({ params: {} });
+          document.title = title;
+          let metaDescription = document.querySelector('meta[name="description"]');
+          metaDescription ? metaDescription.content = description : 
+            document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+        }, []);
     return (
         <>
         <Navbar/>   
-            {/* <Helmet> */}
-                <title>KushelDigi Solutions- Creative Graphic Design company</title>
-                <meta
-                    name="description"
-                    content="the best graphic design company, Kushel Digi Solutions offers a range of graphic design services, such as motion graphics, infographics, logos, and more."
-                />
-                <link rel="canonical" href="https://www.kusheldigi.com/graphic-design" />
-            {/* </Helmet> */}
+           
             <div className="ser-main">
                 <div className="graphic_back0">
                     <div className="graphic_back1 dine-123">

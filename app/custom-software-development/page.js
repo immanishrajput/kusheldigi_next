@@ -3,7 +3,7 @@
 import serviceImg from "../../public/assets/customSoftware/Group 1000009804.png";
 import firstCircle from "../../public/assets/customSoftware/Ellipse 572.png";
 import secondCircle from "../../public/assets/customSoftware/Ellipse 573.png";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import whyBestSol3 from "../../public/assets/customSoftware/whyReason3.png";
 import whyBestSol2 from "../../public/assets/customSoftware/whyReason2.png";
 import whyBestSol4 from "../../public/assets/customSoftware/whyBestSol4.png";
@@ -1160,17 +1160,21 @@ function CustomSoftware() {
 
 
 
+  const generateMetadata = ({ params }) => ({
+      title: "best Custom software development company - KushelDigi Solutions",
+      description: 'Kushel Dig Solutions one of the best Custom software development company with various benefits like Increased Efficiency, Scalability, Enhanced Security, and more',
+    });
+    
+  useEffect(() => {
+      const { title, description } = generateMetadata({ params: {} });
+      document.title = title;
+      let metaDescription = document.querySelector('meta[name="description"]');
+      metaDescription ? metaDescription.content = description : 
+        document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+    }, []);
   return (
     <>
     <Navbar/>
-    {/* <Helmet> */}
-      <title>best Custom software development company - KushelDigi Solutions</title>
-      <meta 
-      name="description"
-      content="Kushel Dig Solutions one of the best Custom software development company with various benefits like Increased Efficiency, Scalability, Enhanced Security, and more"
-      />
-    <link rel="canonical" href="https://www.kusheldigi.com/custom-software-development" />
-    {/* </Helmet> */}
     <div className="ser-main">
     <div id="customSoftware">
       {/* hero section */}
