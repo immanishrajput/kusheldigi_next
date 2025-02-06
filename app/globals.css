@@ -37282,8 +37282,8 @@ form button {
 }
 
 .staffimg1 img {
-  max-width: 360px;
-  width: 100%
+width: 360px;
+  /* width: 100% */
 }
 
 .staff-back101 {
@@ -43707,9 +43707,9 @@ form button:hover {
 }
 
 .second-hiring .hiper {
-  max-width: 530px;
+  width: 530px;
   font-family: 'Poppins', sans-serif !important;
-  width: 100%;
+  /* width: 100%; */
   position: relative;
   z-index: 10
 }
@@ -46310,8 +46310,8 @@ video {
 }
 
 .flutter-back2 img {
-  max-width: 390px;
-  width: 100%
+  width: 390px;
+  /* width: 100% */
 }
 
 .flutter-back p {

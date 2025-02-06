@@ -1,5 +1,6 @@
 import React,{useState} from "react";
 import popupimage from "../../../public/assets/popupimage.png";
+import Image from "next/image";
 // import OutsideClickHandler from 'react-outside-click-handler';
 const Ecommpop = ({setPop, notify}) => {
   const [user, setUser] = useState({
