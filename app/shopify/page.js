@@ -51,13 +51,13 @@ function Shopify3({notify}) {
 
 <Home2BrandSwiper title={"Featured Technology Partners"} />
 
-<BigSection5 />
+{/* <BigSection5 /> */}
 
 <Bigsection6 />
 
 <BigSection7 />
 
-<BigSection8 />
+{/* <BigSection8 /> */}
 
 <Home2Section10  heading={"EMPOWERING INDUSTRIES WITH OUR EXPERT SOLUTIONS"} 
 // heading1={"SUPPORTING SUCCESS ACROSS ALL THE MAJOR INDUSTRIES"}
