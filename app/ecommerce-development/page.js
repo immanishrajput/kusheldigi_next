@@ -48,7 +48,7 @@ import lojoFrame from '../../public/assets/lojoFrame.png';
 // import womanMan from '../../public/assets/womanMan.png';
 import whatsApp from "../../public/assets/whatsapp.png";
 import call from "../../public/assets/telephone.png"
-import Ecommpop from "./Ecommpop/page";
+import Ecommpop from "./Ecommpop";
 // import { Helmet } from "react-helmet";
 import bigcommercelogo from "../../public/assets/bigcommerce_logo.png"
 import Image from "next/image";
@@ -56,10 +56,11 @@ import UseAccorrodian from "../COMMON/UseAccorrodian";
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
 
-const USA = ({ pop, setPop, notify }) => {
+const USA = ({ notify }) => {
   const [perPage, setPerPage] = useState(5);
   const [fard, setFard] = useState(1);
   useEffect(() => {
+    
     if (window.matchMedia("(max-width: 1300px)").matches) {
       setPerPage(4);
     }
@@ -138,7 +139,7 @@ const USA = ({ pop, setPop, notify }) => {
       behavior: 'smooth',
     });
   };
-  // const [pop, setPop]= useState(false);
+  const [pop, setPop]= useState(false);
   return (
 
 

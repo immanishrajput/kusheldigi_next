@@ -1,6 +1,7 @@
 import React,{useState} from "react";
-import popupimage from "../../../public/assets/popupimage.png";
+import popupimage from "../../public/assets/popupimage.png";
 import Image from "next/image";
+// import OutsideClickHandler from "react-outside-click-handler";
 // import OutsideClickHandler from 'react-outside-click-handler';
 const Ecommpop = ({setPop, notify}) => {
   const [user, setUser] = useState({
@@ -43,9 +44,7 @@ const Ecommpop = ({setPop, notify}) => {
     <>
     
       <div className="ser-main">
-        <OutsideClickHandler
-          onOutsideClick={() => setPop(false)}
-        >
+        <OutsideClickHandler onOutsideClick={() => setPop(false)}>
           <div className="eco_pop">
 
             <i onClick={() => setPop(false)} className="fa-solid fa-x"></i>

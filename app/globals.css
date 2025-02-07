@@ -39041,6 +39041,7 @@ width: 360px;
 }
 
 .web-button button {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   width: 218px;
   align-items: center;
   background-color: #0B56E4;
@@ -39714,6 +39715,7 @@ width: 360px;
 }
 
 .first-delivery .com {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   margin-top: 20px;
   align-items: center;
   background-color: #0B56E4;
@@ -39842,6 +39844,7 @@ width: 360px;
 }
 
 .trants button {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   position: absolute;
   top: 209px
 }
@@ -41064,6 +41067,7 @@ form button:hover {
 }
 
 .footer-btn button {
+  font-family: 'sf-ui-display-medium', sans-serif !important;
   width: 160px;
   height: 45px;
   border-radius: 50px;
@@ -42130,6 +42134,7 @@ form button:hover {
 }
 
 .ben-da button {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   max-width: 270px;
   width: 100%;
   align-items: center;
@@ -45673,6 +45678,7 @@ form button:hover {
 }
 
 .android-back1 button {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   align-items: center;
   background-color: #0B56E4;
   border: none;
@@ -46257,6 +46263,7 @@ video {
 }
 
 .ios-kickstart button {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   align-items: center;
   background-color: #0B56E4;
   border: none;
@@ -50005,6 +50012,7 @@ video {
 }
 
 .magento_back1 button {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   align-items: center;
   background-color: #0B56E4;
   border: none;
@@ -50483,6 +50491,7 @@ video {
 }
 
 .partion button {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   max-width: 230px;
   align-items: center;
   background-color: #0B56E4;
@@ -51191,6 +51200,7 @@ video {
 }
 
 .php_ben1 button {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   max-width: 270px;
   width: 100%;
   height: 64px;
@@ -54341,6 +54351,7 @@ video {
 }
 
 .left_selling button {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   align-items: center;
   background-color: #0B56E4;
   border: none;
@@ -54359,6 +54370,7 @@ video {
 }
 
 .left_selling button:hover {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   background-color: #fff;
   border: 1px solid #0039ff;
   color: #0B56E4
@@ -54560,6 +54572,7 @@ video {
 }
 
 .suris_tech_left button {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   align-items: center;
   background-color: #0B56E4;
   border: none;
@@ -54673,6 +54686,7 @@ video {
 }
 
 .theCom_right button {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   align-items: center;
   background-color: #0B56E4;
   border: none;
@@ -54776,6 +54790,7 @@ video {
 }
 
 .tellUs_left button {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   align-items: center;
   background-color: #0B56E4;
   border: none;
@@ -56355,6 +56370,7 @@ video {
 }
 
 .kay_btn button {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   max-width: 380px;
   width: 100%;
   align-items: center;
@@ -56477,6 +56493,7 @@ video {
 }
 
 .html_back1 button {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   max-width: 270px;
   width: 100%;
   height: 64px;
@@ -57645,6 +57662,7 @@ video {
 }
 
 .node_dev_ss-back1 button {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   max-width: 205px;
   width: 100%;
   align-items: center;
@@ -57665,6 +57683,7 @@ video {
 }
 
 .node_dev_ss-back1 button:hover {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   background-color: #fff;
   border: 1px solid #0039ff;
   color: #0B56E4
@@ -57897,6 +57916,7 @@ video {
 }
 
 .node_dev_ss_ser_btn button {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   align-items: center;
   background-color: #0B56E4;
   border: none;
@@ -61598,6 +61618,7 @@ option {
   }
 
   .web-button button {
+    font-family: 'sf-ui-display-medium',sans-serif !important;
     font-size: 16px !important;
   }
 
@@ -64894,6 +64915,7 @@ wordpress_cater_box p {
     font-weight: 500;
     line-height: 24px;
     padding: 16px 30px;
+    font-family: 'sf-ui-display-medium', sans-serif;
     text-align: center
 }
 
@@ -64913,6 +64935,7 @@ wordpress_cater_box p {
 }
 
 .about-main-13 button {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
     align-items: center;
     background-color: #0B56E4;
     border: none;
@@ -77457,6 +77480,7 @@ wordpress_cater_box p {
     }
 
     .kay_btn button {
+      
         width: auto !important;
         padding: 0 20px !important
     }
