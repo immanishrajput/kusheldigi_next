@@ -25,7 +25,7 @@ function BigSection5() {
             pagination: false,
           }}
           className="branchswipe3"
-          ref={splideRef} 
+          // ref={splideRef} 
         >
 
       
@@ -119,18 +119,18 @@ function BigSection5() {
         </Splide>
 
         <div className="slidbotns2">
-          <button
+          {/* <button
             className="slibntss"
-            onClick={() => splideRef.current.splide.go("<")} // Move to previous slide
+            onClick={() => splideRef.current.splide.go("<")}
           >
             <GoArrowLeft fontSize={22} className="GoArrowLeft" />
-          </button>
-          <button
+          </button> */}
+          {/* <button
             className="slibntss"
             onClick={() => splideRef.current.splide.go(">")} // Move to next slide
           >
             <GoArrowRight fontSize={22} className="GoArrowLeft" />
-          </button>
+          </button> */}
         </div>
 
         <div className="allprojectbtns">
