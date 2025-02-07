@@ -18,6 +18,8 @@ import ContactForm1 from '../COMMON/ContactForm1';
 import '../globals.css'
 import Navbar from '../COMMON/Navbar';
 import Footer from '../COMMON/Footer';
+import BigSection5 from './BigSection5/page';
+import BigSection8 from './BigSection8/page';
 // import { Helmet } from 'react-helmet';
 
 function Shopify3({notify}) {
@@ -52,13 +54,13 @@ function Shopify3({notify}) {
 
 <Home2BrandSwiper title={"Featured Technology Partners"} />
 
-{/* <BigSection5 /> */}
+<BigSection5/>
 
 <Bigsection6 />
 
 <BigSection7 />
 
-{/* <BigSection8 /> */}
+<BigSection8/>
 
 <Home2Section10  heading={"EMPOWERING INDUSTRIES WITH OUR EXPERT SOLUTIONS"} 
 // heading1={"SUPPORTING SUCCESS ACROSS ALL THE MAJOR INDUSTRIES"}
