@@ -44132,7 +44132,7 @@ font-family: 'sf-ui-display-medium', sans-serif !important;
 
 .demo-hire-sect button {
   align-items: center;
-  font-family: 'Poppins', sans-serif !important;
+  font-family: 'sf-ui-display-medium', sans-serif !important;
   background-color: #0B56E4;
   border: none;
   border-radius: 28px;
@@ -50652,6 +50652,7 @@ width: 450px;
 }
 
 .php-back1 button {
+  font-family: 'sf-ui-display-medium', sans-serif !important;
   align-items: center;
   background-color: #0B56E4;
   border: none;
@@ -50741,6 +50742,7 @@ width: 450px;
 }
 
 .form_exam_btn button {
+  font-family: 'sf-ui-display-medium', sans-serif !important;
   float: right;
   align-items: center;
   background-color: #0B56E4;
@@ -50970,6 +50972,7 @@ width: 450px;
 }
 
 .get_mig button {
+  font-family: 'sf-ui-display-medium', sans-serif !important;
   max-width: 420px;
   padding: 10px 45px;
   background-color: #0B56E4;
