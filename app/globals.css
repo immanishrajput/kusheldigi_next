@@ -9500,6 +9500,7 @@ animation-timing-function: ease-in-out;
 }
 
 .btn button {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
     align-items: center;
     background-color: #0B56E4;
     border: none;
@@ -19470,6 +19471,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
 }
 
 #hemesh-ppc .Button button {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   align-items: center;
   background-color: #0B56E4;
   border: none;
@@ -19544,8 +19546,8 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
 }
 
 #hemesh-ppc .right-image1 img {
-  max-width: 418px;
-  width: 100%
+width: 418px;
+  /* width: 100% */
 }
 
 #hemesh-ppc .ppccontainer2 {
@@ -19564,8 +19566,8 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
 }
 
 #hemesh-ppc .right-image2 img {
-  max-width: 520px;
-  width: 100%
+width: 520px;
+  /* width: 100% */
 }
 
 #hemesh-ppc .left-content2 {
@@ -19624,6 +19626,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
 }
 
 #hemesh-ppc .buttonn button {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   align-items: center;
   background-color: #0B56E4;
   border: none;
@@ -19869,6 +19872,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
 }
 
 #hemesh-ppc .button1 button {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   width: 219px;
   align-items: center;
   background-color: #0B56E4;
@@ -19997,6 +20001,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
 }
 
 #hemesh-ppc .ppcbutton2 button {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   width: 200px;
   align-items: center;
   background-color: #0B56E4;
@@ -42386,6 +42391,8 @@ form button:hover {
 }
 
 .first-experiencedji button {
+  
+font-family: 'sf-ui-display-medium', sans-serif !important;
   align-items: center;
   background-color: #0B56E4;
   border: none;
@@ -42752,8 +42759,8 @@ form button:hover {
 }
 
 .how-did-first img {
-  max-width: 650px;
-  width: 100%
+  width: 650px;
+  /* width: 100% */
 }
 
 .how-did-first {
@@ -42783,6 +42790,7 @@ form button:hover {
 }
 
 .how-did-second button {
+  font-family: 'sf-ui-display-medium', sans-serif !important;
   align-items: center;
   background-color: #0B56E4;
   border: none;
@@ -43732,6 +43740,7 @@ form button:hover {
 }
 
 .first-hiring button {
+  font-family: 'sf-ui-display-medium', sans-serif !important;
   align-items: center;
   font-family: 'Poppins', sans-serif !important;
   background-color: #0B56E4;
@@ -43751,6 +43760,7 @@ form button:hover {
 }
 
 .first-hiring button:hover {
+  font-family: 'sf-ui-display-medium', sans-serif !important;
   background-color: #fff;
   border: 1px solid #0039ff;
   color: #0B56E4
@@ -43863,6 +43873,7 @@ form button:hover {
 }
 
 .hired-help-sect button {
+  font-family: 'sf-ui-display-medium', sans-serif !important;
   align-items: center;
   background-color: #0B56E4;
   border: none;
@@ -43982,7 +43993,8 @@ form button:hover {
 
 .benifits-hire button {
   align-items: center;
-  font-family: 'Poppins', sans-serif !important;
+  font-family: 'sf-ui-display-medium', sans-serif !important;
+  /* font-family: 'Poppins', sans-serif !important; */
   background-color: #0B56E4;
   border: none;
   border-radius: 28px;
@@ -52275,6 +52287,7 @@ width: 450px;
 }
 
 .solution_back1 button {
+  font-family: 'sf-ui-display-medium', sans-serif !important;
   align-items: center;
   background-color: #0B56E4;
   border: none;
@@ -52293,6 +52306,7 @@ width: 450px;
 }
 
 .solution_back1 button:hover {
+  font-family: 'sf-ui-display-medium', sans-serif !important;
   background-color: #fff;
   border: 1px solid #0039ff;
   color: #0B56E4
@@ -52458,6 +52472,7 @@ width: 450px;
 }
 
 .skyRoket button {
+  font-family: 'sf-ui-display-medium', sans-serif !important;
   align-items: center;
   background-color: #0B56E4;
   border: none;
@@ -52650,6 +52665,7 @@ width: 450px;
 }
 
 .boost_sect button {
+  font-family: 'sf-ui-display-medium', sans-serif !important;
   align-items: center;
   background-color: #0B56E4;
   border: none;
@@ -60226,7 +60242,8 @@ option {
   font-size: 18px;
   font-weight: 300;
   color: #fff;
-  padding-top: 10px
+  padding-top: 10px;
+  text-align: left;
 }
 
 #hemesh-services .services1 {
@@ -60993,8 +61010,8 @@ option {
 }
 
 .USA-ourWork-right-image2 img {
-  max-width: 700px;
-  width: 100%
+  width: 700px;
+  /* width: 100% */
 }
 
 .USA-ourWork-aero-left {
@@ -72854,6 +72871,7 @@ wordpress_cater_box p {
     }
 
     .first-hiring button {
+     
         font-size: 16px
     }
 
