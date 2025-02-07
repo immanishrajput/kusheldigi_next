@@ -1,4 +1,4 @@
-// import "./bigs7.css"
+"use client"
 function YourProject() {
   return (
     <div className="yprwrap">

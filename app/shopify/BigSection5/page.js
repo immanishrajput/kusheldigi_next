@@ -2,14 +2,14 @@
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
-import { useRef } from "react";
+// import { useRef } from "react";
 // import { useNavigate } from "react-router-dom";
 import { Pagination } from "flowbite-react";
 import { useRouter } from "next/navigation";
 
 function BigSection5() {
 
-  const splideRef = useRef(null);
+  // const splideRef = useRef(null);
   const  router = useRouter();
 
   return (
