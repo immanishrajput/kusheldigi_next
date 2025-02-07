@@ -18028,6 +18028,8 @@ fill: #0B56E4 !important;
   }
   
   #kushel-next-js .button-group button {
+    
+font-family: 'sf-ui-display-medium',sans-serif !important;
     width: 145px;
     padding: 10px;
     cursor: pointer;
@@ -46505,8 +46507,8 @@ video {
 }
 
 .let-flutter2 img {
-  max-width: 320px;
-  width: 100%
+  width: 320px;
+  /* width: 100% */
 }
 
 .container3 {
@@ -47916,8 +47918,8 @@ video {
 }
 
 .bigCommerce-back2 .bigcompt {
-  max-width: 450px;
-  width: 100%
+width: 450px;
+  /* width: 100% */
 }
 
 .bigCommerce-app {
@@ -55224,6 +55226,7 @@ video {
 }
 
 .manbi-btn button {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   max-width: 270px;
   width: 100%;
   align-items: center;
@@ -55243,6 +55246,7 @@ video {
 }
 
 .manbi-btn button:hover {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   background-color: #fff;
   border: 1px solid #0039ff;
   color: #0B56E4
@@ -55658,6 +55662,7 @@ video {
 }
 
 .wordpress-back1 button {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   max-width: 205px;
   width: 100%;
   margin-top: 30px;
@@ -55678,6 +55683,7 @@ video {
 }
 
 .wordpress-back1 button:hover {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   background-color: #fff;
   border: 1px solid #0039ff;
   color: #0B56E4
@@ -56086,6 +56092,7 @@ video {
 }
 
 .wordpress_about_left button {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   max-width: 270px;
   width: 100%;
   align-items: center;
@@ -56107,6 +56114,7 @@ video {
 
 .wordpress_about_left button:hover {
   background-color: #fff;
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   border: 1px solid #0039ff;
   color: #0B56E4
 }
@@ -56156,6 +56164,7 @@ video {
 
 .one_stet_sect button {
   max-width: 172px;
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   width: 100%;
   align-items: center;
   background-color: #0B56E4;
@@ -56175,6 +56184,7 @@ video {
 }
 
 .one_stet_sect button:hover {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   background-color: #fff;
   border: 1px solid #0039ff;
   color: #0B56E4
@@ -57980,6 +57990,7 @@ video {
 }
 
 .node_dev_ss1-back1 button {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
   max-width: 270px;
   width: 100%;
   align-items: center;

@@ -44,7 +44,7 @@ const Ecommpop = ({setPop, notify}) => {
     <>
     
       <div className="ser-main">
-        <OutsideClickHandler onOutsideClick={() => setPop(false)}>
+        {/* <OutsideClickHandler onOutsideClick={() => setPop(false)}> */}
           <div className="eco_pop">
 
             <i onClick={() => setPop(false)} className="fa-solid fa-x"></i>
@@ -112,7 +112,7 @@ const Ecommpop = ({setPop, notify}) => {
               </div>
             </div>
           </div>
-        </OutsideClickHandler>
+        {/* </OutsideClickHandler> */}
       </div>
     </>
   );
