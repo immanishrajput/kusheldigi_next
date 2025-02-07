@@ -5,10 +5,10 @@ import BigHeader from './BigHeader/page';
 import BigSection2 from './BigSection2/page';
 import BigSection3 from './BigSection3/page';
 import Home2BrandSwiper from '../components/Home/Home2BrandSwiper';
-// import BigSection5 from './BigSection5/page';
+
 import Bigsection6 from './Bigsection6/page';
 import BigSection7 from './BigSection7/page';
-// import BigSection8 from './BigSection8/page';
+
 import Home2Section10 from '../components/Home/Home2Section10';
 import Home2Testimonial from '../components/Home/Home2Testimonial';
 import YourProject from './YourProject/page';
