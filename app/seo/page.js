@@ -2,13 +2,7 @@
 import React, { useEffect } from 'react'
 // import { Helmet } from "react-helmet";
 
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemHeading,
-  AccordionItemButton,
-  AccordionItemPanel,
-} from "react-accessible-accordion";
+
 import whatsApp from "../../public/assets/whatsapp.png";
 import call from "../../public/assets/telephone.png"
 // import "../components/css/seo.css";

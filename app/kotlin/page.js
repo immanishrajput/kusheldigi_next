@@ -9,13 +9,7 @@ import Image from "next/image";
 import '../globals.css'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemHeading,
-  AccordionItemButton,
-  AccordionItemPanel,
-} from "react-accessible-accordion";
+
 import ContactForm1 from "../COMMON/ContactForm1";
 // import { NavLink } from "react-router-dom";
 import Link from "next/link";

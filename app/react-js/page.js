@@ -13,14 +13,7 @@ import Footer from "../COMMON/Footer";
 import Image from "next/image";
 import ReactFAQ from "../COMMON/ReactFAQ";
 import '../globals.css'
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemHeading,
-  AccordionItemButton,
-  AccordionItemPanel,
-} from "react-accessible-accordion";
-import zz6 from "../../public/assets/iii6.png";
+
 // import { Helmet } from "react-helmet";
 import whatsApp from "../../public/assets/whatsapp.png";
 import call from "../../public/assets/telephone.png"

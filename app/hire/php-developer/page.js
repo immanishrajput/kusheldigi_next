@@ -7,14 +7,7 @@ import whatsApp from "../../../public/assets/whatsapp.png";
 import call from "../../../public/assets/telephone.png"
 import '../../globals.css'
 import Navbar from "@/app/COMMON/Navbar";
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemHeading,
-  AccordionItemButton,
-  AccordionItemPanel,
-} from "react-accessible-accordion";
-// import { NavLink } from "react-router-dom";
+
 import Link from "next/link";
 import ServiceCommon from "../../COMMON/ServiceCommon";
 import ContactForm3 from "../../COMMON/ContactForm3";

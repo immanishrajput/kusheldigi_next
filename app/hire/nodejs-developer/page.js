@@ -10,13 +10,7 @@ import frena6 from '../../../public/assets/frena6.png';
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 
-import {
-    Accordion,
-    AccordionItem,
-    AccordionItemHeading,
-    AccordionItemButton,
-    AccordionItemPanel,
-} from "react-accessible-accordion";
+
 import ServiceCommon from '../../COMMON/ServiceCommon';
 import whatsApp from "../../../public/assets/whatsapp.png";
 import call from "../../../public/assets/telephone.png"

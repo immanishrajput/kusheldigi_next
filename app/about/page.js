@@ -167,14 +167,7 @@ const About = ({ notify }) => {
   return (
     <>
 
-      {/* <Helmet>
-      <title>About - Kushel Digi Solutions Ecommerce Web Development Company</title>
-     <meta
-         name="description"
-         content="Kushel Digi Solutions is most trusted Web Development company with 2000+ Satisfied clients across the globe."
-     /> 
-      <link rel="canonical" href="https://www.kusheldigi.com/about"/>
-      </Helmet> */}
+     
       <Navbar/>
      
      

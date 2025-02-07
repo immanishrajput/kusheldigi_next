@@ -6,13 +6,7 @@ import whatsApp from "../../../public/assets/whatsapp.png";
 import call from "../../../public/assets/telephone.png"
 import "@splidejs/react-splide/css";
 
-import {
-    Accordion,
-    AccordionItem,
-    AccordionItemHeading,
-    AccordionItemButton,
-    AccordionItemPanel,
-} from "react-accessible-accordion";
+
 import ServiceCommon from '../../COMMON/ServiceCommon';
 import Process from '../../COMMON/Process';
 import ContactForm3 from '../../COMMON/ContactForm3';

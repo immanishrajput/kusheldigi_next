@@ -1,3 +1,4 @@
+"use client"
 import React, { useState } from 'react';
 // import './askques.css';
 import plus from '../../../public/assets/+.png';

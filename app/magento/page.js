@@ -22,13 +22,7 @@ import poli5 from '../../public/assets/poli5.png';
 import poli6 from '../../public/assets/poli6.png';
 import '../globals.css'
 import Image from "next/image";
-// import {
-//   Accordion,
-//   AccordionItem,
-//   AccordionItemHeading,
-//   AccordionItemButton,
-//   AccordionItemPanel,
-// } from "react-accessible-accordion";
+
 import ContactForm1 from "../COMMON/ContactForm1";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";

@@ -56,13 +56,7 @@ import '../globals.css'
 import WebdevelopmentFAQ from '../COMMON/WebdevelopmentFAQ'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemHeading,
-  AccordionItemButton,
-  AccordionItemPanel,
-} from "react-accessible-accordion";
+
 import ContactForm from "../COMMON/ContactForm";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";

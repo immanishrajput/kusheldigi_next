@@ -26,13 +26,7 @@ import '../globals.css'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
 
-// import {
-//   Accordion,
-//   AccordionItem,
-//   AccordionItemHeading,
-//   AccordionItemButton,
-//   AccordionItemPanel,
-// } from "react-accessible-accordion";
+
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import ContactForm from "../COMMON/ContactForm";
 // import { Helmet } from "react-helmet";

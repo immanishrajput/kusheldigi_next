@@ -29,16 +29,16 @@ import Image from "next/image";
 import Footer from "../COMMON/Footer";
 import Navbar from "../COMMON/Navbar";
 import '../globals.css'
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemHeading,
-  AccordionItemButton,
-  AccordionItemPanel,
-} from 'react-accessible-accordion';
+// import {
+//   Accordion,
+//   AccordionItem,
+//   AccordionItemHeading,
+//   AccordionItemButton,
+//   AccordionItemPanel,
+// } from 'react-accessible-accordion';
 import ContactForm from "../COMMON/ContactForm";
 import Link from "next/link";
-import StaffFAQ from "../COMMON/staffFAQ";
+import StaffFAQ from "../COMMON/StaffFAQ";
 // import { NavLink } from "react-router-dom";
 // import { Helmet } from "react-helmet";
 const StafArgu = ({notify}) => {

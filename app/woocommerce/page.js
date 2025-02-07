@@ -25,13 +25,7 @@ import '../globals.css'
 import Navbar from "../COMMON/Navbar";
 // import { Helmet } from "react-helmet";
 
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemHeading,
-  AccordionItemButton,
-  AccordionItemPanel,
-} from "react-accessible-accordion";
+
 import WooCommereceFAQ from "../COMMON/WooCommereceFAQ";
 const WooCommerce = () => {
   const [hovered, setHovered] = useState(false);

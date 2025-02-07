@@ -12,13 +12,7 @@ import nodejsicon7 from "../../public/assets/nodejsicon7.png";
 import callimageleft from "../../public/assets/callimageleft.avif";
 import img10 from "../../public/assets/dark-img.png";
 import '../globals.css'
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemHeading,
-  AccordionItemButton,
-  AccordionItemPanel,
-} from "react-accessible-accordion";
+
 // import { Helmet } from "react-helmet";
 // import { NavLink } from "react-router-dom";
 import Link from "next/link";

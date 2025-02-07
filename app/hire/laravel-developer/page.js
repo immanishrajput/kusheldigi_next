@@ -4,13 +4,7 @@ import frema from "../../../public/assets/frema.png";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 // import { Helmet } from "react-helmet";
-import {
-    Accordion,
-    AccordionItem,
-    AccordionItemHeading,
-    AccordionItemButton,
-    AccordionItemPanel,
-} from "react-accessible-accordion";
+
 import ServiceCommon from '../../COMMON/ServiceCommon';
 import ContactForm3 from '../../COMMON/ContactForm3';
 import whatsApp from "../../../public/assets/whatsapp.png";

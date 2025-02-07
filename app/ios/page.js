@@ -17,13 +17,7 @@ import Image from "next/image";
 import '../globals.css'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemHeading,
-  AccordionItemButton,
-  AccordionItemPanel,
-} from "react-accessible-accordion";
+
 import ContactForm1 from "../COMMON/ContactForm1";
 // import { NavLink } from "react-router-dom";
 import Link from "next/link";
@@ -524,79 +518,7 @@ const generateMetadata = ({ params }) => ({
 
         <ContactForm1 />
 
-        <div className="home9 mb-12 home278">
-          <div className="home91 px-24 dine-1234">
-            <div className="home911 text-center">
-              <h2 className="font-bold text-gray-700">
-                Frequently Asked
-                <br /> Questions
-              </h2>
-            </div>
-            <div className="home912 FAQ-1">
-              <Accordion allowZeroExpanded>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      Why choose an iOS app development agency?{" "}
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Agencies specialise in iOS development, ensuring expertise
-                      and quality.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      What are the types of iOS apps an agency can develop?{" "}
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Agencies can develop a wide range of iOS apps tailored to
-                      your needs.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      How to know if iOS is right for my app?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>Consider your target audience and app requirements.</p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      Can an agency build iPhones and iPads?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Yes, agencies develop apps for both iPhones and iPads.{" "}
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      Can an agency assist with maintenance and updates?{" "}
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Yes, agencies provide post-launch support and maintenance.{" "}
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-              </Accordion>
-            </div>
-          </div>
+        
         </div>
 
         <div className="whtsApBtns">
@@ -612,7 +534,7 @@ const generateMetadata = ({ params }) => ({
             <Image src={call} alt="call-icon" title="call-icon" />
           </button>
         </div>
-      </div>
+      
       <Footer/>
     </>
   );

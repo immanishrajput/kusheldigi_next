@@ -4,13 +4,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import auxit from '../../public/assets/auxit.png';
 import doliwala1 from '../../public/assets/doliwala1.png';
 import mpma1 from '../../public/assets/mpma1.png';
-import {
-    Accordion,
-    AccordionItem,
-    AccordionItemHeading,
-    AccordionItemButton,
-    AccordionItemPanel,
-  } from "react-accessible-accordion";
+
 import erty from '../../public/assets/erty.png';
 // import { NavLink } from "react-router-dom";
 import Link from 'next/link';

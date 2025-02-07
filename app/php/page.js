@@ -5,13 +5,7 @@ import Link from 'next/link';
 import ContactForm1 from "../COMMON/ContactForm1";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import {
-    Accordion,
-    AccordionItem,
-    AccordionItemHeading,
-    AccordionItemButton,
-    AccordionItemPanel,
-} from "react-accessible-accordion";
+
 import onring1 from '../../public/assets/onring1.png';
 // import { Helmet } from 'react-helmet';
 import whatsApp from "../../public/assets/whatsapp.png";

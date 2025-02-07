@@ -30,13 +30,7 @@ import kiktas from '../../public/assets/kiktas.png';
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import ContactForm1 from '../COMMON/ContactForm1';
-import {
-    Accordion,
-    AccordionItem,
-    AccordionItemHeading,
-    AccordionItemButton,
-    AccordionItemPanel,
-} from 'react-accessible-accordion';
+
 import dilll1 from '../../public/assets/dilll1.png';
 import dilll2 from '../../public/assets/dilll2.png';
 import dilll3 from '../../public/assets/dilll3.png';

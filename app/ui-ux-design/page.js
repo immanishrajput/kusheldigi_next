@@ -24,13 +24,7 @@ import Image from "next/image";
 import '../globals.css'
 import Footer from "../COMMON/Footer";
 // import { Helmet } from "react-helmet";
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemHeading,
-  AccordionItemButton,
-  AccordionItemPanel,
-} from "react-accessible-accordion";
+
 import ContactForm from "../COMMON/ContactForm";
 // import { NavLink } from "react-router-dom";
 import Link from "next/link";

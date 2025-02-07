@@ -2,13 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import {
-    Accordion,
-    AccordionItem,
-    AccordionItemHeading,
-    AccordionItemButton,
-    AccordionItemPanel,
-} from "react-accessible-accordion"; 
+
 // import "../components/css/industries.css";
 import whatsApp from "../../public/assets/whatsapp.png";
 import call from "../../public/assets/telephone.png";

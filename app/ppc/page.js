@@ -3,13 +3,7 @@ import React, { useEffect, useState } from "react";
 // import "../components/css/ppc.css";
 // import { Helmet } from "react-helmet";
 
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemHeading,
-  AccordionItemButton,
-  AccordionItemPanel,
-} from "react-accessible-accordion";
+
 import whatsApp from "../../public/assets/whatsapp.png";
 import call from "../../public/assets/telephone.png"
 import Ppcrighta from "../../public/assets/PPC/Ppcrighta.png";

@@ -7,13 +7,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import whatsApp from "../../../public/assets/whatsapp.png";
 import call from "../../../public/assets/telephone.png"
-import {
-    Accordion,
-    AccordionItem,
-    AccordionItemHeading,
-    AccordionItemButton,
-    AccordionItemPanel,
-} from "react-accessible-accordion";
+
 import ServiceCommon from '../../COMMON/ServiceCommon';
 import ContactForm3 from '../../COMMON/ContactForm3';
 // import { Helmet } from 'react-helmet';

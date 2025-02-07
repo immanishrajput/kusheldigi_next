@@ -15,13 +15,7 @@ import art9 from '../../public/assets/art9.png';
 import art10 from '../../public/assets/art10.png';
 import art11 from '../../public/assets/art11.png';
 import '../globals.css'
-import {
-    Accordion,
-    AccordionItem,
-    AccordionItemHeading,
-    AccordionItemButton,
-    AccordionItemPanel,
-} from "react-accessible-accordion";
+
 import art12 from '../../public/assets/art12.png';
 
 // import { NavLink } from "react-router-dom";

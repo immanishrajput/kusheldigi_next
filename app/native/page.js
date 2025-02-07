@@ -28,13 +28,7 @@ import pret1 from '../../public/assets/pret1.png';
 import fantaji from '../../public/assets/fantaJi.png';
 import ReactNativeFAQ from "../COMMON/ReactNativeFAQ";
 import Image from "next/image";
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemHeading,
-  AccordionItemButton,
-  AccordionItemPanel,
-} from "react-accessible-accordion";
+
 import ContactForm1 from "../COMMON/ContactForm1";
 import whatsApp from "../../public/assets/whatsapp.png";
 import call from "../../public/assets/telephone.png"

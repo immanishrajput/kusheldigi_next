@@ -3,13 +3,7 @@ import React, { useState, useEffect } from 'react';
 // import { NavLink } from "react-router-dom";
 import Link from 'next/link';
 import sidhaTandi from '../../../public/assets/sidhaTandi.png';
-import {
-    Accordion,
-    AccordionItem,
-    AccordionItemHeading,
-    AccordionItemButton,
-    AccordionItemPanel,
-} from "react-accessible-accordion";
+
 import ServiceCommon from '../../COMMON/ServiceCommon';
 import Process from '../../COMMON/Process';
 import ContactForm3 from '../../COMMON/ContactForm3';

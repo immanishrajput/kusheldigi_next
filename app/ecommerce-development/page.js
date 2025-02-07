@@ -16,13 +16,7 @@ import a8 from '../../public/assets/a8.png'
 import a5 from '../../public/assets/a5.png'
 import b3 from '../../public/assets/b3.png'
 import '../globals.css'
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemHeading,
-  AccordionItemButton,
-  AccordionItemPanel,
-} from "react-accessible-accordion";
+
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 // import EcommerceImg from '../../../public/assets/EcommerceImg.png';

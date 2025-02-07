@@ -1,15 +1,7 @@
 "use client";
 import React, { useEffect } from "react";
 
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemHeading,
-  AccordionItemButton,
-  AccordionItemPanel,
-} from "react-accessible-accordion";
 
-import "react-accessible-accordion/dist/fancy-example.css";
 import cardone from "../../public/assets/card1.svg";
 import cardtwo from "../../public/assets/cards-image2.svg";
 import cardthree from "../../public/assets/cards3-image.svg";
