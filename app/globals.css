@@ -65656,6 +65656,7 @@ wordpress_cater_box p {
 }
 
 .bord {
+ font-family: 'sf-ui-display-medium',sans-serif !important;
     margin-top: 2.5rem;
     align-items: center;
     background-color: #0B56E4;
@@ -65767,6 +65768,7 @@ wordpress_cater_box p {
 }
 
 .apple {
+font-family: 'sf-ui-display-medium',sans-serif !important;
     margin-top: 40px;
     align-items: center;
     background-color: #0B56E4;
@@ -65894,6 +65896,7 @@ wordpress_cater_box p {
 }
 
 .scale {
+  font-family: 'sf-ui-display-medium',sans-serif !important;
     align-items: center;
     background-color: #0B56E4;
     border: none;
