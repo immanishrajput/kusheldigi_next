@@ -1,5 +1,5 @@
 // import "./header.css"
-
+"use client"
 const data = [
     {
         num:"01" , 

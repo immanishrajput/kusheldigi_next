@@ -1,3 +1,4 @@
+"use client"
 import React, { useEffect, useState } from 'react';
 import plus from '../../../public/assets/+.png';
 import minus from "../../../public/assets/-.png"

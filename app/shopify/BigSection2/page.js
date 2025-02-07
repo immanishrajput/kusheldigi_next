@@ -1,5 +1,5 @@
 // import "./header.css"
-
+"use client"
 function BigSection2() {
   return (
     <div className='bigsec22wrap'>

@@ -1,4 +1,5 @@
 // import "./big8.css";
+"use client"
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
