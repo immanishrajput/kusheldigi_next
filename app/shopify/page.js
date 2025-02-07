@@ -9,6 +9,7 @@ import Home2BrandSwiper from '../components/Home/Home2BrandSwiper';
 import Bigsection6 from './Bigsection6/page';
 import BigSection7 from './BigSection7/page';
 
+
 import Home2Section10 from '../components/Home/Home2Section10';
 import Home2Testimonial from '../components/Home/Home2Testimonial';
 import YourProject from './YourProject/page';

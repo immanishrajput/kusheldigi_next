@@ -1,3 +1,4 @@
+"use client"
 import { useState } from "react"
 // import "./big8.css"
 
