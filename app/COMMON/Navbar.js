@@ -629,9 +629,9 @@ const Navbar = () => {
                     </div>
                   </li>
 
-                  <Link href="/hire">
-                  <li className="mar" style={{ position: "relative" }}>
-                      <div className="flex items-center cursor-pointer nb-0 navLinks">
+                  {/* <Link  href="/hire"> */}
+                  <li  className="mar" style={{ position: "relative" }}>
+                      <div onClick={() => router.push("/hire")} className="flex items-center cursor-pointer nb-0 navLinks">
                         <p className="sar descfont textTransform-navbar" to="">
                           Hire
                         </p>
@@ -696,7 +696,7 @@ const Navbar = () => {
                         </div>
                       </div>
                     </li>
-                  </Link>
+                  {/* </Link> */}
                   <li className="mar">
                     <Link className="bts-naba" href="/contact-us">
                       <button className="sar contactusbtns tart">

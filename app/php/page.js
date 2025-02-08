@@ -94,21 +94,23 @@ const Php = () => {
         document.getElementById("developer").style.color = "#1B6BFF";
     };
     const generateMetadata = ({ params }) => ({
-            title: 'Best Affordable php development services by KushelDigi',
-            description: 'Kushel Digi Solutions provides excellent PHP development services to create dynamic, highly effective PHP portals and websites.',
-          });
-          
-        useEffect(() => {
-            const { title, description } = generateMetadata({ params: {} });
-            document.title = title;
-            let metaDescription = document.querySelector('meta[name="description"]');
-            metaDescription ? metaDescription.content = description : 
-              document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-          }, []);
+        title: 'Best Affordable php development services by KushelDigi',
+        description: 'Kushel Digi Solutions provides excellent PHP development services to create dynamic, highly effective PHP portals and websites.',
+        favicon:`<link rel="icon" type="image/x-icon" href="/images/favicon.ico">`
+    });
+
+    useEffect(() => {
+        const { title, description } = generateMetadata({ params: {} });
+        document.title = title;
+        let metaDescription = document.querySelector('meta[name="description"]');
+        metaDescription ? metaDescription.content = description :
+            document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+            document.favicon = favicon
+    }, []);
     return (
         <>
-        <Navbar/>
-         
+            <Navbar />
+
             <div className="ser-main">
                 <div className="php-mainback">
                     <div className="PHP-back phpbackk dine-123">
@@ -601,7 +603,7 @@ const Php = () => {
 
 
                 <ContactForm1 />
-                 <PhpFAQ/>
+                <PhpFAQ />
                 {/* <div className="home9 py-20 bigcom9">
                     <div className="home91 px-24 dine-1234">
                         <div className="home911 text-center">
@@ -692,7 +694,7 @@ const Php = () => {
                 </div>
 
             </div>
-            <Footer/>
+            <Footer />
         </>
     )
 }

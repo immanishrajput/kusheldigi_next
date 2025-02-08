@@ -49,6 +49,7 @@ const HomePage = ({props}) => {
         <meta property="og:image" content="/seo-image.jpg" />
         <meta property="og:url" content="https://yourwebsite.com" />
         <meta name="twitter:card" content="summary_large_image" />
+        <link rel="icon" type="image/x-icon" href="https://res.cloudinary.com/dgif730br/image/upload/v1737973044/CRONUS_PRO_WINDOWS_kq2oxs_rvhbif.png"></link>
       </Head>
       <div className="home-main">
      <Navbar/>

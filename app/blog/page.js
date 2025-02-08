@@ -237,7 +237,8 @@ console.log("featuredBlog" , featuredBlog);
             className="cursor-pointer"
             onClick={() => {
            
-             router.push(`blogdetails/${currAllBlogs[0]?._id}`);
+            //  router.push(`blogdetails/${currAllBlogs[0]?._id}`);
+            router.push(`blogdetails?id=${currAllBlogs[0]?.title}`)
             }}
           >
             {currAllBlogs[0]?.title?.length > 50 ? `${currAllBlogs[0]?.title?.slice(0,50)}...` : currAllBlogs[0]?.title} 
@@ -274,8 +275,8 @@ console.log("featuredBlog" , featuredBlog);
 
         <div className="allFeatures">
           {featuredBlog?.map((blog, index) => (
-            <>
-              <div key={blog?.id||index} className="singfeaturesb">
+            <div  key={index}>
+              <div className="singfeaturesb">
                 <img src={blog?.images} className="feimgablog" alt="" />
 
                 <div className="sifet_contet">
@@ -304,7 +305,7 @@ console.log("featuredBlog" , featuredBlog);
               </div>
 
               <hr />
-            </>
+            </div>
           ))}
         </div>
       </div>
