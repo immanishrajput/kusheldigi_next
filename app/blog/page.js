@@ -275,7 +275,7 @@ console.log("featuredBlog" , featuredBlog);
         <div className="allFeatures">
           {featuredBlog?.map((blog, index) => (
             <>
-              <div key={index} className="singfeaturesb">
+              <div key={blog?.id||index} className="singfeaturesb">
                 <img src={blog?.images} className="feimgablog" alt="" />
 
                 <div className="sifet_contet">

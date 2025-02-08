@@ -23,19 +23,7 @@ import surbhi from "../../public/assets/surbhi.png";
 // import whatsApp from "../images/whatap.png";
 import scrollUp from "../../public/assets/scrollUp.png";
 import newAbout from "../../public/assets/newAbout.png"
-import e6 from '../../public/assets/e6.png'
-import e9 from '../../public/assets/e9.png'
-import e10 from '../../public/assets/e10.png'
-import e14 from '../../public/assets/e14.png'
-import e15 from '../../public/assets/e15.png'
-import e20 from '../../public/assets/e20.png'
-import e18 from '../../public/assets/e18.png'
-import e17 from '../../public/assets/e17.png'
 
-import e12 from '../../public/assets/e12.png'
-import arrowRight from "../../public/assets/arrow-right-line.png"
-// import { Helmet } from "react-helmet";
-import whatsApp from "../../public/assets/whatsapp.png";
 import call from "../../public/assets/telephone.png"
 import Link from "next/link";
 import Navbar from "../COMMON/Navbar";
@@ -179,7 +167,7 @@ const About = ({ notify }) => {
               </h1>
               <p>With over 8 years of experience, Kushel Digi is committed to empower your business for digital success.</p>
             </div>
-            <Image className="absolute" src={e6} alt="kusheldigi About Us"  title="kusheldigi About Us"/>
+            <img className="absolute" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738934853/e6_jka61a.png' alt="kusheldigi About Us"  title="kusheldigi About Us"/>
             
           </div>
         </div>
@@ -193,7 +181,7 @@ const About = ({ notify }) => {
 
 {/* left side */}
 <div className="newAboutLeft">
-  <Image src={newAbout} alt="Experienced Professionals" title="Experienced Professionals" />
+  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990421/newAbout_caylko.png' alt="Experienced Professionals" title="Experienced Professionals" />
 </div>
 
 {/* roight side */}
@@ -256,9 +244,9 @@ const About = ({ notify }) => {
             <div className="about32">
               {/* <img src="/static/images/e7.png" alt="" /> */}
               <div className="about_vector">
-                <Image
+                <img
                   className="aboutVector animate__animated animate__pulse animate__infinite"
-                  src={aboutVector}
+                  src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990483/aboutVector_jn6suw.png'
                   alt="aboutVector1-kusheldigi"
                   title="aboutVector1-kusheldigi"
                 />
@@ -283,14 +271,14 @@ const About = ({ notify }) => {
             <h3 className="text-white text-center">desired tomorrow</h3>
             <div className="about4 flex justify-center">
               <div className="about41 text-center mr-1">
-                <Image src={e9} alt="kusheldigi Vision" title="kusheldigi Vision" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738935049/e9_oiwp7p.png' alt="kusheldigi Vision" title="kusheldigi Vision" />
                 <h5>Vision</h5>
                 <p>
                 Kushel Digi Solutions innovates to bring about a new world of better digital solutions to fuel business growth. The company is yet to be recognized as the prime mover for e-commerce and mobile app development services with BigCommerce and Shopify. Kushel Digi founded on a sole principle to empower businesses to realize their digital potential by delivering seamless, scalable, and user-centered solutions.
                 </p>
               </div>
               <div className="about41 text-center ml-1">
-                <Image src={e10} alt="Our Mission-kusheldigi"  title="Our Mission"/>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738935123/e10_fmgyec.png' alt="Our Mission-kusheldigi"  title="Our Mission"/>
                 <h5>Mission</h5>
                 <p>
                 At Kushel Digi Solutions, our mission is to become an innovative and dependable web development service that empowers businesses to grow in a changing digital environment. We aim at creating flawless and engaging digital experience with the help of cutting-edge technology, beautiful design, and excellent customer service.
@@ -519,14 +507,14 @@ const About = ({ notify }) => {
 
         <div className="about-main6 dine-1234">
           <div className="about-main61">
-            <Image src={e12} alt="Our Core Values" title="Our Core Values" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990253/e12_pklnpa.png' alt="Our Core Values" title="Our Core Values" />
           </div>
         </div>
 
         <div className="office-about">
           <div className="process-flex">
             <div className="process-flex1">
-              <Image src={e14} alt="Our Process" title="Our Process"  />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738935189/e14_yju55b.png' alt="Our Process" title="Our Process"  />
             </div>
             <div className="process-flex2">
               <h2>Our process</h2>
@@ -561,7 +549,7 @@ const About = ({ notify }) => {
               </Link>
             </div>
             <div className="office-flex2">
-              <Image src={e15} alt="Our Office"  title="Our Office"/>
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738989766/e15_mt2uzq.png' alt="Our Office"  title="Our Office"/>
             </div>
           </div>
         </div>
@@ -579,7 +567,7 @@ const About = ({ notify }) => {
                   </p>
                 </div>
                 <div className="about81">
-                  <Image src={e18} alt="Our history" title="Our history" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990052/e18_eaybpg.png' alt="Our history" title="Our history" />
                 </div>
               </div>
             )}
@@ -595,7 +583,7 @@ const About = ({ notify }) => {
                   </p>
                 </div>
                 <div className="about81">
-                  <Image src={e18} alt="our history" title="our history" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990052/e18_eaybpg.png' alt="our history" title="our history" />
                 </div>
               </div>
             )}
@@ -612,7 +600,7 @@ const About = ({ notify }) => {
                   </p>
                 </div>
                 <div className="about81">
-                  <Image src={e18} alt="our history" title="our history" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990052/e18_eaybpg.png' alt="our history" title="our history" />
                 </div>
               </div>
             )}
@@ -628,7 +616,7 @@ const About = ({ notify }) => {
                   </p>
                 </div>
                 <div className="about81">
-                  <Image src={e18} alt="our history" title="our history" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990052/e18_eaybpg.png' alt="our history" title="our history" />
                 </div>
               </div>
             )}
@@ -646,7 +634,7 @@ const About = ({ notify }) => {
                   </p>
                 </div>
                 <div className="about81">
-                  <Image src={e18} alt="our history" title="our history" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990052/e18_eaybpg.png' alt="our history" title="our history" />
                 </div>
               </div>
             )}
@@ -666,7 +654,7 @@ const About = ({ notify }) => {
                   </p>
                 </div>
                 <div className="about81">
-                  <Image src={e18} alt="our history" title="our history" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990052/e18_eaybpg.png' alt="our history" title="our history" />
                 </div>
               </div>
             )}
@@ -685,7 +673,7 @@ const About = ({ notify }) => {
                   </p>
                 </div>
                 <div className="about81">
-                  <Image src={e18} alt="our history" title="our history" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990052/e18_eaybpg.png' alt="our history" title="our history" />
                 </div>
               </div>
             )}
@@ -693,16 +681,16 @@ const About = ({ notify }) => {
               <div className="about802"></div>
               <div className="flex ininy justify-between">
                 <div className="about801">
-                  <Image id="aa" src={e20} alt="kds logo btn" title="kds logo btn" />
+                  <img id="aa" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738989860/e20_f1jkri.png' alt="kds logo btn" title="kds logo btn" />
                   <b className=" cursor-pointer" onClick={tabAnother}>
                     2017
                   </b>
                 </div>
                 <div className="about801">
-                  <Image
+                  <img
                     id="bb"
                     className="invisible"
-                    src={e20}
+                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738989860/e20_f1jkri.png'
                    alt="kds logo btn" title="kds logo btn"
                   />
                   <b className=" cursor-pointer" onClick={tabAnother1}>
@@ -710,10 +698,10 @@ const About = ({ notify }) => {
                   </b>
                 </div>
                 <div className="about801">
-                  <Image
+                  <img
                     id="cc"
                     className="invisible"
-                    src={e20}
+                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738989860/e20_f1jkri.png'
                     alt="kds logo btn" title="kds logo btn"
                   />
                   <b
@@ -725,10 +713,10 @@ const About = ({ notify }) => {
                   </b>
                 </div>
                 <div className="about801">
-                  <Image
+                  <img
                     id="dd"
                     className="invisible"
-                    src={e20}
+                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738989860/e20_f1jkri.png'
                     alt="kds logo btn" title="kds logo btn"
                   />
                   <b
@@ -740,10 +728,10 @@ const About = ({ notify }) => {
                   </b>
                 </div>
                 <div className="about801">
-                  <Image
+                  <img
                     id="ee"
                     className="invisible"
-                    src={e20}
+                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738989860/e20_f1jkri.png'
                     alt="kds logo btn" title="kds logo btn"
                   />
                   <b
@@ -755,10 +743,10 @@ const About = ({ notify }) => {
                   </b>
                 </div>
                 <div className="about801">
-                  <Image
+                  <img
                     id="ff"
                     className="invisible"
-                    src={e20}
+                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738989860/e20_f1jkri.png'
                     alt="kds logo btn" title="kds logo btn"
                   />
                   <b
@@ -770,10 +758,10 @@ const About = ({ notify }) => {
                   </b>
                 </div>
                 <div className="about801">
-                  <Image
+                  <img
                     id="gg"
                     className="invisible"
-                    src={e20}
+                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738989860/e20_f1jkri.png'
                     alt="kds logo btn" title="kds logo btn"
                   />
                   <b
@@ -785,10 +773,10 @@ const About = ({ notify }) => {
                   </b>
                 </div>
                 <div className="about801">
-                  <Image
+                  <img
                     id="gg"
                     className="invisible"
-                    src={e20}
+                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738989860/e20_f1jkri.png'
                     alt="kds logo btn" title="kds logo btn"
                   />
                   <b
@@ -816,7 +804,7 @@ const About = ({ notify }) => {
               </Link>
             </div>
             <div className="about-10">
-              <Image className="sersa" src={e17} alt="Join Kushel digi team" title="Join Kushel digi team"/>
+              <img className="sersa" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990178/e17_bwwmj0.png' alt="Join Kushel digi team" title="Join Kushel digi team"/>
             </div>
           </div>
         </div>
@@ -825,7 +813,7 @@ const About = ({ notify }) => {
 
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
             <Image src={call} alt="call-icon" title="call-icon" />
