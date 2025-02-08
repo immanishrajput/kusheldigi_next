@@ -93,16 +93,17 @@ const generateMetadata = ({ params }) => ({
               <div className="left-section-kids ">
                 <img src={"https://res.cloudinary.com/ecommerce-website/image/upload/v1725976506/image_75_1_aha5l9.svg"} id="plus-circle" className="ballistic" alt="img"></img>
                 <p className="shoots_premium">
-                Ballistic Dummy Lab is the leading developer of the most physiologically correct human analogues for the firearms testing, medical training, and special effects in film and television industries. It is recognized by its innovative products made of organic and synthetic ballistic gel, which have set the global standard of realism and accuracy.
+                Ballistic Dummy Lab is the leading developer of the most physiologically correct human analogues for the firearms testing, medical training, and special effects in film and television industries. It is recognized by its innovative products made of organic and synthetic 
+                 gel, which have set the global standard of realism and accuracy.
                 </p>
                 <h3>Technologies Used</h3>
                 <div className="main-box-logic flex">
-                  <Image src={opqweeeeeee} id="sim" alt="img"></Image>
-                  <Image src={opqweeeeeee2} id="rotat" alt="img"></Image>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995220/opqweeeeeee_azs2la.png' id="sim" alt="img"></img>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995270/opqweeeeeee2_vxdqbc.png' id="rotat" alt="img"></img>
                 </div>
               </div>
               <div className="right-section-kids">
-                <Image src={ballisticRi} className="ballisticRi" id="total-group" alt="img"></Image>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995743/balisticright_kdawdg.png' className="ballisticRi" id="total-group" alt="img"></img>
               </div>
             </div>
             {/* *********************************************** */}
@@ -110,7 +111,7 @@ const generateMetadata = ({ params }) => ({
               <div className="MadFish-back">
                 <div className="MadFish-back1">
                   <div className="MadFish_press_head">
-                    <Image src={madlogooooo} alt="madlogooooo" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995629/madlogooooo_xosnia.png' alt="madlogooooo" />
                   </div>
                   <div className="MadFish_press_para">
                     <p>
@@ -119,7 +120,7 @@ const generateMetadata = ({ params }) => ({
                   </div>
                 </div>
                 <div className="MadFish-back2">
-                  <Image src={elivaterig} alt="MadFish" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995792/elivateright_qh3tj3.png' alt="MadFish" />
                 </div>
               </div>
             </div>
@@ -128,15 +129,15 @@ const generateMetadata = ({ params }) => ({
               <p className="service-hinking">Services Provided</p>
               <div className="main-img-mighty">
                 <div className="bepolo">
-                  <Image src={img4} id="ux-safari" alt="img"></Image>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995461/Group_1000004718_ak9vhy.png' id="ux-safari" alt="img"></img>
                   <p>UX/UI Website Design</p>
                 </div>
                 <div className="bepolo">
-                  <Image src={img5} id="web-safari" alt="img"></Image>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995505/Group_1000004715_fycg7j.png' id="web-safari" alt="img"></img>
                   <p>Website Development</p>
                 </div>
                 <div className="bepolo">
-                  <Image src={img6} id="qa-safari" alt="img"></Image>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995546/Group_1000004716_wfdkyq.png' id="qa-safari" alt="img"></img>
                   <p>QA & Website Testing</p>
                 </div>
               </div>
@@ -167,13 +168,13 @@ const generateMetadata = ({ params }) => ({
               </div>
               <div className="sub-worm">
                 <p className="tool">Tools Use</p>
-                <Image src={img13} id="pals-circle" alt="img"></Image>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995586/Group_1000006500_1_fbbz4c.png' id="pals-circle" alt="img"></img>
               </div>
             </div>
           </div>
           <div className="right-card-omega">
             <p>Color Plate</p>
-            <Image src={colorplate} id="gang" alt="img" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995859/batcolorplate_wznd4z.png' id="gang" alt="img" />
           </div>
         </div>{" "}
 
@@ -196,9 +197,9 @@ const generateMetadata = ({ params }) => ({
             </div>
           </div>
           <div className="step-images flex  justify-center mt-20">
-            <Image className="batleft heightcum" src={batleft} alt="stepback" />
-            <Image className="batleft " src={batmiddle} alt="stepback1" />
-            <Image className="batleft heightcum" src={batright} alt="stepback1" />
+            <img className="batleft heightcum" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738996203/batleft_thcjdp.png' alt="stepback" />
+            <img className="batleft " src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995959/batmiddle_xjv0yf.png' alt="stepback1" />
+            <img className="batleft heightcum" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995916/batright_mxtkv1.png' alt="stepback1" />
           </div>
         </div>
 
@@ -304,20 +305,20 @@ const generateMetadata = ({ params }) => ({
                     <div className="kick-first kick-first222">
 
                         <div className="kickds">
-                            <Image width="210" src={ballistic} alt="kick5" />
+                            <img width="210" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995361/ballistic_zidjq3.png' alt="kick5" />
                         </div>
                     </div>
                     <div className="kick-second kick-second222 relative">
                         <div className="about165">
-                            <Image
+                            <img
                                 className="absolute about161 animate__animated animate__pulse animate__infinite"
-                                src={el44}
+                                src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738996335/ellipse44_ov7l61.png'
                                 alt=""
                             />
                         </div>
-                        <Image
+                        <img
                             className=" relative z-10 about162 pick222"
-                            src={recoil}
+                            src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738996280/mostrecoil_eust8k.png'
                             alt="aa"
                         />
                     </div>
@@ -338,15 +339,15 @@ const generateMetadata = ({ params }) => ({
 
                 <div className="azib-tech">
                   <h3>Technologies Used</h3>
-                  <Image className="conjun" src={opqweeeeeee3} alt="" />
+                  <img className="conjun" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995317/opqweeeeeee3_k1i3rr.png' alt="" />
                 </div>
               </div>
             </div>
 
             <div className="azib-images flex items-center justify-center">
-              <Image src={home2} alt="azib" />
-              <Image src={productdd} alt="azib" />
-              <Image src={catlog} alt="azib" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738996453/HOME32_w7ghbu.png' alt="azib" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738996501/PRODUCTdd_efgvyg.png' alt="azib" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738996392/CATALOG2_ab9mrk.png' alt="azib" />
             </div>
           </div>
         </div>
@@ -379,7 +380,7 @@ const generateMetadata = ({ params }) => ({
             <SplideSlide>
               <div className="other-card">
                 <div className="other-box">
-                  <Image src={rel1} alt="rel1" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995014/rel1_qw4omv.png' alt="rel1" />
                 </div>
                 <div className="other-tox-para">
                   <h3>RELY INNOVATION</h3>
@@ -397,7 +398,7 @@ const generateMetadata = ({ params }) => ({
             <SplideSlide>
               <div className="other-card">
                 <div className="other-box other-box1">
-                  <Image src={rel2} alt="rel1" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995139/rel2_godfrk.png' alt="rel1" />
                 </div>
                 <div className="other-tox-para">
                   <h3>PRO TRUCKS</h3>
@@ -414,7 +415,7 @@ const generateMetadata = ({ params }) => ({
             <SplideSlide>
               <div className="other-card">
                 <div className="other-box other-box3">
-                  <Image className="rel3" src={rel3} alt="rel1" />
+                  <img className="rel3" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991207/rel3_kus4kk.png' alt="rel1" />
                 </div>
                 <div className="other-tox-para">
                   <h3>SOLENOID NINJA</h3>
@@ -444,10 +445,10 @@ const generateMetadata = ({ params }) => ({
             <Link href="/contact-us">
               <button>
                 Request A Call{" "}
-                <Image
+                <img
                   width={13}
                   className=" inline ml-2"
-                  src={arrow4}
+                  src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738994962/arrow4_j4oot6.png'
                   alt="alik"
                 />
               </button>
@@ -461,10 +462,10 @@ const generateMetadata = ({ params }) => ({
         {/*  buttons  */}
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991783/telephone_k9aecl.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

@@ -92,7 +92,7 @@ const Android = ({ notify }) => {
               <h2 className="hideafter450">Development</h2>
               <h2 className="hideafter450">Solution</h2>
               <h2 className="hidetill450">Our Android App Development Solution</h2>
-              <Image className="ftp" src={androidSis} alt="under line" title="under line" />
+              <img className="ftp" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738994284/android-sis_gj4ulj.png' alt="under line" title="under line" />
               <Link className="letsy letsay" href="/contact-us">
                 <h5>
                   Discuss your goals with us{" "}
@@ -111,7 +111,7 @@ const Android = ({ notify }) => {
             <div className="android-card">
               <div className="android-box android-box1 android-card11">
                 <div className="android0-img flex ">
-                  <Image src={bulb1} alt="Custom App Development Consultation" title="Custom App Development Consultation" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738994369/bulb1_a25rdq.png' alt="Custom App Development Consultation" title="Custom App Development Consultation" />
                   <h4 className="ml-3">Custom App Development Consultation</h4>
                 </div>
                 <p>
@@ -119,7 +119,7 @@ const Android = ({ notify }) => {
               </div>
               <div className="android-box android-box2 android-card11">
                 <div className="android0-img flex ">
-                  <Image src={bulb2} alt=" Android UI/UX Design" title=" Android UI/UX Design" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738994430/bulb2_ktrp2s.png' alt=" Android UI/UX Design" title=" Android UI/UX Design" />
                   <h4 className="ml-3">
                     Android UI/UX Design
                   </h4>
@@ -131,7 +131,7 @@ const Android = ({ notify }) => {
             <div className="android-card">
               <div className="android-box android-box3 android-card11">
                 <div className="android0-img flex ">
-                  <Image src={bulb3} alt=" Custom Android Development" title=" Custom Android Development" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738994483/bulb3_gyehda.png' alt=" Custom Android Development" title=" Custom Android Development" />
                   <h4 className="ml-3"> Custom Android Development </h4>
                 </div>
                 <p>
@@ -139,7 +139,7 @@ const Android = ({ notify }) => {
               </div>
               <div className="android-box android-box4 android-card11">
                 <div className="android0-img flex ">
-                  <Image src={bulb4} alt="Android Software Testing" title="Android Software Testing" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738994524/bulb4_v2u35h.png' alt="Android Software Testing" title="Android Software Testing" />
                   <h4 className="ml-3">Android Software Testing</h4>
                 </div>
                 <p>
@@ -226,28 +226,28 @@ const Android = ({ notify }) => {
             <div className="android-process2 ml-52">
               <div className="prot-process mt-3">
                 <div className="prot-img">
-                  <Image src={prot1} alt="Multi-platform Development" title="Multi-platform Development" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738994572/prot1_l0pqsp.png' alt="Multi-platform Development" title="Multi-platform Development" />
                 </div>
                 <div className="prot">
 
                   <p>Multi-platform Development</p>
                 </div>
                 <div className="prot-img">
-                  <Image src={prot2} alt="Quality Assurance" title="Quality Assurance" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738994616/prot2_vx9mvp.png' alt="Quality Assurance" title="Quality Assurance" />
                 </div>
                 <div className="prot">
 
                   <p>Quality Assurance</p>
                 </div>
                 <div className="prot-img">
-                  <Image src={prot3} alt="App Store Submission" title="App Store Submission" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738994668/prot3_nvuhxx.png' alt="App Store Submission" title="App Store Submission" />
                 </div>
                 <div className="prot">
 
                   <p>App Store Submission</p>
                 </div>
                 <div className="prot-img">
-                  <Image src={prot4} alt="Post-launch Maintenance" title="Post-launch Maintenance" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738994717/prot4_m1rqsv.png' alt="Post-launch Maintenance" title="Post-launch Maintenance" />
                 </div>
                 <div className="prot">
 
