@@ -34,7 +34,7 @@ const Footer = () => {
           <div className="foot1 justify-between dine-123 footer-first-main">
             <div className="foot11 foot111">
               <div className="foot10 footsa">
-                <Image src={kdsKin} alt="KDS logo" title="KDS logo" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738997610/kdsKin_hydlf3.png' alt="KDS logo" title="KDS logo" />
                 <h4 className="text-start">
                   Revolutionizing your business <br />through Technology.
                 </h4>
@@ -146,19 +146,19 @@ const Footer = () => {
                       target="_blank"
                       href="https://www.linkedin.com/company/kusheldigisolutions/" rel="noopener"
                     >
-                      <Image src={dri5} alt="linkedin" />
+                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738997872/dri5_phq4zc.png' alt="linkedin" />
                     </a>
                     <a target="_blank" href="https://www.instagram.com/kusheldigi/" rel="noopener">
-                      <Image src={dri4} alt="iconm" />
+                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738997831/dri4_ohrihi.png' alt="iconm" />
                     </a>
                     <a
                       target="_blank"
                       href="https://www.facebook.com/kusheldigisolutions/" rel="noopener"
                     >
-                      <Image src={dri2} alt="icon" />
+                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738997696/dri2_kubanh.png' alt="icon" />
                     </a>
                     <a  target="_blank" href="https://twitter.com/KushelDigisoln" rel="noopener">
-                      <Image width="3000" height="2808" className="tyo" src={dri3} alt="young2" />
+                      <img width="3000" height="2808" className="tyo" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738997748/X-Logo_tvy32n.png' alt="young2" />
                     </a>
                     <a target="_blank" href="https://www.behance.net/kushelsolucti" rel="noopener">
                       <Image style={{ filter: "invert(1)" }} src={behance} alt="young1" />

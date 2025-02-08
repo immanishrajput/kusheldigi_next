@@ -138,7 +138,7 @@ const ContactForm = ({ notify }) => {
                 <button>
                   {
                     loading ? <div class="spinner33"></div> : <>
-                      Submit <Image className="tih" src={arrow1} alt="" />
+                      Submit <img className="tih" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738997264/arrow1_gofqri.png' alt="" />
                     </>
                   }
 
@@ -157,10 +157,10 @@ const ContactForm = ({ notify }) => {
               <Link href="/contact-us">
                 <button>
                   Request A Call{" "}
-                  <Image
+                  <img
                     width={12}
                     className="inline ml-1"
-                    src={arrow4}
+                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738997334/arrow4_ofqyoe.png'
                     alt="arrow4"
                   />
                 </button>
