@@ -47,19 +47,19 @@ function Home2BrandSwiper({title}) {
 
           <SplideSlide>
             <div>
-              <Image width="340" height="340" src={hl1} className='brandswipe' alt="Brand 1" />
+              <img width="340" height="340" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739013317/hl1_isda6v.png' className='brandswipe' alt="Brand 1" />
             </div>
           </SplideSlide>
 
           <SplideSlide>
             <div>
-              <Image width="340" height="340" src={hl2} className='brandswipe' alt="Brand 1" />
+              <img width="340" height="340" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739013367/hl2_lht5kl.png' className='brandswipe' alt="Brand 1" />
             </div>
           </SplideSlide>
 
           <SplideSlide>
             <div>
-              <Image width="340" height="340" src={hl4} className='brandswipe' alt="Brand 1" />
+              <img width="340" height="340" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739013402/hl4_wxf0tc.png' className='brandswipe' alt="Brand 1" />
             </div>
           </SplideSlide>
 

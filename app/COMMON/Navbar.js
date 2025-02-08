@@ -272,7 +272,7 @@ const Navbar = () => {
             <header className="header main-header-new">
               <div className="first-header">
                 <div className="noida">
-                  <Image src={location} alt="location" title="location" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012585/location_vq9szh.png' alt="location" title="location" />
                   <p className="g9fontsize">
                     First Floor, D242, F-32B, Sector 63 Rd, Noida, Uttar Pradesh
                     201301<span>|</span>
@@ -281,7 +281,7 @@ const Navbar = () => {
 
                 <a href="mailto:info@kusheldigi.com">
                   <div className="email">
-                    <Image src={mail} alt="mail" title="mail" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012652/mail_fbbpjl.png' alt="mail" title="mail" />
                     <p className="emailinfofont">info@kusheldigi.com</p>
                   </div>
                 </a>
@@ -376,9 +376,9 @@ const Navbar = () => {
             <nav className="navbar">
               <Link href="/">
                 <div className="logo">
-                  <Image
+                  <img
                     className="kdssslogo"
-                    src={logo}
+                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png'
                     alt="KushelDigi Solutions Logo"
                     title="KushelDigi Solutions Logo" />
                 </div>
@@ -400,9 +400,9 @@ const Navbar = () => {
                             <div className="second-compan mr-10">
                               <Link href="/career">
                                 <div className="flex items-center">
-                                  <Image
+                                  <img
                                     className="timi11"
-                                    src={letter3}
+                                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012730/letter3_gkhx9s.png'
                                     alt="lee"
                                     title="lee"
                                   />
@@ -425,8 +425,8 @@ const Navbar = () => {
                           </div>
                           <div className="second-compan112">
                             <div className="comapn-sect">
-                              <Image
-                                src={aboutimg}
+                              <img
+                                src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012802/aboutimg_ex5zsk.png'
                                 alt="about hover image"
                                 title="about hover image"
                               />

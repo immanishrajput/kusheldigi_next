@@ -47,7 +47,7 @@ function PhpFAQ() {
             <div key={i} className='singlquestion'>
               <div className='quetiobtn' onClick={() => toggleAnswer(i)}>
                 <p>{d.question}</p>
-                <Image className='cursor-pointer ' src={openIndex === i ? minus : plus} alt='Toggle' />
+                <img className='cursor-pointer ' src={openIndex === i ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1738997122/-_x52juq.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1738997032/bexi9p1tl5ahvuroe24b.png'} alt='Toggle' />
               </div>
 
               {/* Bottom answer */}

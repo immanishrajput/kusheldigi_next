@@ -105,7 +105,7 @@ function Home2Testimonial() {
         >
           <SplideSlide>
             <div className='testswipsingle'>
-              <Image src={stars} alt='Stars' />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
               <p className='reviewsss'>
                 Extremely satisfied with the website developed by Kushel Digi Solutions. The new site effectively presents our diverse slide offerings and makes it easy for users to find and purchase what they need. The sleek design and intuitive navigation have significantly improved engagement with our users.
               </p>
@@ -116,7 +116,7 @@ function Home2Testimonial() {
 
           <SplideSlide>
             <div className='testswipsingle'>
-              <Image src={stars} alt='Stars' />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
               <p className='reviewsss'>
                 Mithal Industries is highly impressed with the website development and social media management services taken up by Kushel Digi Solutions. Indeed, our new website is modern, efficient, and has increased our digital presence tremendously. Their strategies on social media work; brand awareness and engagement are increased.
               </p>
@@ -127,7 +127,7 @@ function Home2Testimonial() {
 
           <SplideSlide>
             <div className='testswipsingle'>
-              <Image src={stars} alt='Stars' />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
               <p className='reviewsss'>
                 SMV industries are satisfied with the efforts of Kushel Digi that have streamlined our service processes, making it easier for clients to access information and engage with us. The enhanced digital presence has boosted our operational efficiency and client interactions. Kushel Digi Solutions truly understands our industry needs and has delivered exceptional results.
               </p>
@@ -139,7 +139,7 @@ function Home2Testimonial() {
 
           <SplideSlide>
             <div className='testswipsingle'>
-              <Image src={stars} alt='Stars' />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
               <p className='reviewsss'>
                 Mithal Industries is highly impressed with the website development and social media management services taken up by Kushel Digi Solutions. Indeed, our new website is modern, efficient, and has increased our digital presence tremendously. Their strategies on social media work; brand awareness and engagement are increased.
               </p>
@@ -150,7 +150,7 @@ function Home2Testimonial() {
 
           <SplideSlide>
             <div className='testswipsingle'>
-              <Image src={stars} alt='Stars' />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
               <p className='reviewsss'>
                 SMV industries are satisfied with the efforts of Kushel Digi that have streamlined our service processes, making it easier for clients to access information and engage with us. The enhanced digital presence has boosted our operational efficiency and client interactions. Kushel Digi Solutions truly understands our industry needs and has delivered exceptional results.
               </p>
