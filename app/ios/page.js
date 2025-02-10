@@ -108,9 +108,9 @@ const generateMetadata = ({ params }) => ({
               <h2>Our Services for Developing iOS Apps</h2>
 
               {/* <h2>iOS Apps</h2> */}
-              <Image
+              <img
                 className="ftp"
-                src={androidSis}
+                src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739179701/android-sis_khrtor.png'
                 alt=" Describe your objectives to us "
                 title=" Describe your objectives to us "
               />
@@ -152,8 +152,8 @@ const generateMetadata = ({ params }) => ({
             <div className="android-card">
               <div className="android-box android-box1 android-boxes1">
                 <div className="android0-img flex items-center">
-                  <Image
-                    src={bulb1}
+                  <img
+                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739179562/bulb1_ggvrkd.png'
                     alt="OS App Development Consultation"
                     title="OS App Development Consultation"
                   />
@@ -167,8 +167,8 @@ const generateMetadata = ({ params }) => ({
               </div>
               <div className="android-box android-box2 android-boxes1">
                 <div className="android0-img flex items-center">
-                  <Image
-                    src={bulb2}
+                  <img
+                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739179607/bulb2_esfqpu.png'
                     alt="Custom iOS App Development"
                     title="Custom iOS App Development"
                   />
@@ -186,7 +186,7 @@ const generateMetadata = ({ params }) => ({
               <div className="android-box android-box3 android-boxes1">
                 <div className="android0-img flex items-center">
                   <Image
-                    src={bulb3}
+                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739179640/bulb3_akygup.png'
                     alt=" iOS UI/UX Design"
                     title=" iOS UI/UX Design"
                   />
@@ -201,8 +201,8 @@ const generateMetadata = ({ params }) => ({
               </div>
               <div className="android-box android-box4 android-boxes1">
                 <div className="android0-img flex items-center">
-                  <Image
-                    src={bulb4}
+                  <img
+                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739179666/bulb4_nidj4f.png'
                     alt=" iOS App Testing and Security"
                     title=" iOS App Testing and Security"
                   />

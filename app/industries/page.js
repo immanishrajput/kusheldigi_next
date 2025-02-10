@@ -53,7 +53,7 @@ const Ankitcrouser = [
     leftitle: "Top Brass Tactical",
     quote:
       "Top Brass resolutely back the front-line hero. We are spirited supporters of the 2nd Amendment. Moreover, we proclaim the values of diligence, fairness, and the standard American demeanour.",
-    rightimg: imager,
+    rightimg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176770/topbrass_rrqq1c.png',
     link: "https://topbrasstactical.com/",
   },
   {
@@ -75,7 +75,7 @@ const Ankitcrouser = [
     leftitle: "KICK-EEZ",
     quote:
       "KICK-EEZ® sells a wide selection of shotgun and rifle recoil pads and shooting supplies. Our products are proudly MADE IN AMERICA and utilize Sorbothane.",
-    rightimg: imager1,
+    rightimg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739179375/kickeez_vrv0rs.png',
     link: "https://kickeezproducts.com/",
   },
   {
@@ -97,7 +97,7 @@ const Ankitcrouser = [
     leftitle: "DigitalMnA",
     quote:
       "DigitalMnA is a full-service Merger and Acquisition company helping companies Sell and Buy assets by creating value.",
-    rightimg: imager2,
+    rightimg:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739179410/digitalmna_znwlsh.png',
     link: "https://www.digitalmna.com/",
   },
   {
@@ -119,7 +119,7 @@ const Ankitcrouser = [
     leftitle: "Slides365",
     quote:
       "Slides365, strive to help people tell their story effectively. Your invisible friend inside the PowerPoint helps you create the Professional Presentations. We are working towards creating an experience for you telling your story.",
-    rightimg: imager3,
+    rightimg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739179452/slide365_obxkik.png',
     link: "https://slides365.com/",
   },
   {
@@ -141,7 +141,7 @@ const Ankitcrouser = [
     leftitle: "Building Network",
     quote:
       "The world's top contractors for superior project collaboration. Most trusted reputation and customer experience platform for brands & local businesses",
-    rightimg: imager4,
+    rightimg:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739179481/btob_wzfkcg.png',
     link: "https://buildlinknetwork.com/",
   },
 ];

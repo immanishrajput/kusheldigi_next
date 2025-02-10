@@ -98,7 +98,7 @@ useEffect(() => {
           <div className="side-bg-trio">
             <div className="first-kick-pads">
               <div className="left-section-kids">
-                <Image src={img1} id="plus-circle" alt="img"></Image>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180844/Mask_group_nph9bb.png' id="plus-circle" alt="img"></img>
                 <p className="shoots_premium">
                   <span className="heightlisght_premium">
                     {" "}
@@ -109,12 +109,12 @@ useEffect(() => {
                 </p>
                 <h3>Technologies Used</h3>
                 <div className="main-box-logic flex">
-                  <Image src={opqweeeeeee} id="sim" alt="img"></Image>
-                  <Image src={opqweeeeeee2} id="rotat" alt="img"></Image>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180661/opqweeeeeee_o4siwu.png' id="sim" alt="img"></img>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180713/opqweeeeeee2_pktwlr.png' id="rotat" alt="img"></img>
                 </div>
               </div>
               <div className="right-section-kids">
-                <Image src={img0} id="total-group" alt="img"></Image>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739181014/Group_1000006637_mnbkzj.png' id="total-group" alt="img"></img>
               </div>
             </div>
                   {/* *********************************************** */}
@@ -144,7 +144,7 @@ useEffect(() => {
               <p className="service-hinking">Services Provided</p>
               <div className="main-img-mighty">
                 <div className="bepolo">
-                  <Image src={img4} id="ux-safari" alt="img"></Image>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739181059/Group_1000004718_a47xwg.png' id="ux-safari" alt="img"></img>
                   <p>UX/UI Website Design</p>
                 </div>
                 <div className="bepolo">
@@ -178,7 +178,7 @@ useEffect(() => {
               </div>
               <div className="triple-badge">
                 <div className="five-cross">
-                  <Image src={img10} id="pads-cats" alt="img"></Image>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180966/Group_1000006637_l5pmu6.png' id="pads-cats" alt="img"></img>
                 </div>
                 <div className="login-faire">
                   <Image src={img11} id="pads-cats" alt="img"></Image>
@@ -222,20 +222,20 @@ useEffect(() => {
           <div className="kick-first kick-first222">
            
             <div className="kickds">
-              <Image className="kick_mart" src={kick5} alt="kick5" />
+              <img className="kick_mart" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180216/kick5_xhzccf.png' alt="kick5" />
             </div>
           </div>
           <div className="kick-second kick-second222 relative">
             <div className="about165">
-              <Image
+              <img
                 className="absolute about161 animate__animated animate__pulse animate__infinite"
-                src={angrag}
+                src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739179872/angrag_za5zsc.png'
                 alt=""
               />
             </div>
-            <Image
+            <img
               className=" relative z-10 about162 pick222"
-              src={pick2}
+              src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739179766/pick2_ckac0c.png'
               alt="aa"
             />
           </div>
@@ -260,8 +260,8 @@ useEffect(() => {
             </div>
           </div>
           <div className="step-images flex items-center justify-center mt-20">
-            <Image className="stepback" src={stepback1} alt="stepback" />
-            <Image className="stepback1" src={stepback} alt="stepback1" />
+            <img className="stepback" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180180/stepback1_gj9wcz.png' alt="stepback" />
+            <img className="stepback1" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739179934/stepback_kybzwb.png' alt="stepback1" />
           </div>
         </div>
         <div className="challenge-story">
@@ -349,7 +349,7 @@ useEffect(() => {
       className="w-full h-auto"
     />
           <div className="overlay"></div>
-          <Image className="kini" src={kick5} alt="aa" />
+          <img className="kini" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180216/kick5_xhzccf.png' alt="aa" />
         </div>
         <div className="azib kickazib">
           <div className="azib1">
@@ -367,15 +367,15 @@ useEffect(() => {
            
                 <div className="azib-tech">
                   <h3>Technologies Used</h3>
-                  <Image className="conjun" src={opqweeeeeee3} alt="" />
+                  <img className="conjun" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180754/opqweeeeeee3_xujeli.png' alt="" />
                 </div>
               </div>
             </div>
 
             <div className="azib-images flex items-center justify-center">
-              <Image src={azib2} alt="azib" />
-              <Image src={azib3} alt="azib" />
-              <Image src={azib4} alt="azib" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180334/azib2_qrxwwx.png' alt="azib" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180392/azib3_bjoshw.png' alt="azib" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180429/azib4_hbae29.png' alt="azib" />
             </div>
           </div>
         </div>
@@ -406,7 +406,7 @@ useEffect(() => {
             <SplideSlide>
               <div className="other-card">
                 <div className="other-box">
-                  <Image src={rel1} alt="rel1" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180461/rel1_azwccy.png' alt="rel1" />
                 </div>
                 <div className="other-tox-para">
                   <h3>RELY INNOVATION</h3>
@@ -424,7 +424,7 @@ useEffect(() => {
             <SplideSlide>
               <div className="other-card">
                 <div className="other-box other-box1">
-                  <Image src={rel2} alt="rel1" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180527/rel2_up6uex.png' alt="rel1" />
                 </div>
                 <div className="other-tox-para">
                   <h3>PRO TRUCKS</h3>
@@ -441,7 +441,7 @@ useEffect(() => {
             <SplideSlide>
               <div className="other-card">
                 <div className="other-box other-box3">
-                  <Image className="rel3" src={rel3} alt="rel1" />
+                  <img className="rel3" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180622/rel3_calt2h.png' alt="rel1" />
                 </div>
                 <div className="other-tox-para">
                   <h3>SOLENOID NINJA</h3>
@@ -470,10 +470,10 @@ useEffect(() => {
             <Link href="/contact-us">
               <button>
                 Request A Call{" "}
-                <Image
+                <img
                   width={13}
                   className=" inline ml-2"
-                  src={arrow4}
+                  src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180293/arrow4_rxxlsw.png'
                   alt="alik"
                 />
               </button>
