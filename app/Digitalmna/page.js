@@ -286,9 +286,9 @@ useEffect(() => {
               </div>
             </div>
             <div className="azib-images flex items-center justify-center">
-              <Image src={pt5} alt="pt4" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739167245/mnaHome_Page_1_hov3cr.png' alt="pt4" />
               <Image src={pt6} alt="pt5" />
-              <Image src={pt4} alt="pt6" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739167179/mnaServices-3_1_amwov8.png' alt="pt6" />
             </div>
           </div>
         </div>
@@ -309,7 +309,7 @@ useEffect(() => {
             <SplideSlide>
               <div className="other-card">
                 <div className="other-box">
-                  <Image src={rel1} alt="rel1" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739167018/rel1_qlhqjj.png' alt="rel1" />
                 </div>
                 <div className="other-tox-para">
                   <h3>RELY INNOVATION</h3>
@@ -327,7 +327,7 @@ useEffect(() => {
             <SplideSlide>
               <div className="other-card">
                 <div className="other-box other-box1">
-                  <Image src={rel2} alt="rel1" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739167086/rel2_ki9opp.png' alt="rel1" />
                 </div>
                 <div className="other-tox-para">
                   <h3>PRO TRUCKS</h3>
@@ -344,7 +344,7 @@ useEffect(() => {
             <SplideSlide>
               <div className="other-card">
                 <div className="other-box other-box3">
-                  <Image className="rel3" src={rel3} alt="rel1" />
+                  <img className="rel3" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739167143/rel3_gkls1l.png' alt="rel1" />
                 </div>
                 <div className="other-tox-para">
                   <h3>SOLENOID NINJA</h3>
@@ -373,10 +373,10 @@ useEffect(() => {
             <Link href="/contact-us">
               <button>
                 Request A Call{" "}
-                <Image
+                <img
                   width={13}
                   className=" inline ml-2"
-                  src={arrow4}
+                  src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739166970/arrow4_mqeoqs.png'
                   alt="arrow"
                 />
               </button>

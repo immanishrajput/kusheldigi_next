@@ -1200,7 +1200,7 @@ function CustomSoftware() {
               </a>
           </div>
           <div className="css_content_img">
-            <Image src={custom_soft1} alt="Custom Software Development Company" title="Custom Software Development Company"/>
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739165579/custom_soft1_fjohxt.png' alt="Custom Software Development Company" title="Custom Software Development Company"/>
           </div>
         </div>
         </div>
@@ -1233,7 +1233,7 @@ function CustomSoftware() {
 
         {/* right side  */}
         <div className="service-back2">
-          <Image src={serviceImg} alt="Custom Software Development Services" title="Custom Software Development Services" />
+          <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164763/Group_1000009804_fpegu7.png' alt="Custom Software Development Services" title="Custom Software Development Services" />
 
         </div>
 
@@ -1263,20 +1263,20 @@ function CustomSoftware() {
                         <div className="bestSol_card">
                           
                             <div className="bestSol_box">
-                                <Image src={whyBestSol1} alt="customized solution" title="customized solution" />
+                                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739165226/whyReason1_njwb4h.png' alt="customized solution" title="customized solution" />
 
                             </div>
 
-                            <Image src={lineImg} className="lineImg" alt="" title="line-design" />
+                            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739165393/whyLine_uin3qa.png' className="lineImg" alt="" title="line-design" />
                            
 
                             <div className="bestSol_box">
-                                <Image src={whyBestSol2} alt="cuttindedge technology" title="Experienced  daily team" />
+                                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739165006/whyReason2_njusjr.png' alt="cuttindedge technology" title="Experienced  daily team" />
                             </div>
-                            <Image src={lineImg} className="lineImg" alt="line-design" title="line-design" />
+                            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739165393/whyLine_uin3qa.png' className="lineImg" alt="line-design" title="line-design" />
 
                             <div className="bestSol_box">
-                                <Image src={whyBestSol3} alt="Experienced  daily team" title="Experienced  daily team" />
+                                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164956/whyReason3_enlhbz.png' alt="Experienced  daily team" title="Experienced  daily team" />
 
                             </div>
 
@@ -1284,27 +1284,27 @@ function CustomSoftware() {
                         
                         <div className="bestSol_card">
                             <div className="bestSol_box">
-                                <Image src={whyBestSol5} alt=" user centric approch"  title="user centric approch"/>
+                                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739165146/whyBestSol5_rbv8vs.png' alt=" user centric approch"  title="user centric approch"/>
 
                             </div>
 
-                            <Image src={lineImg} className="lineImg" alt="line-design" title="line-design" />
+                            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739165393/whyLine_uin3qa.png' className="lineImg" alt="line-design" title="line-design" />
                             <div className="bestSol_box">
-                                <Image src={whyBestSol4} alt="Agile development methodology"  title="Agile development methodology"/>
+                                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739165104/whyBestSol4_kh3gee.png' alt="Agile development methodology"  title="Agile development methodology"/>
 
                             </div>
-                            <Image src={lineImg} className="lineImg" alt="line-design" title="line-design" />
+                            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739165393/whyLine_uin3qa.png' className="lineImg" alt="line-design" title="line-design" />
                             <div className="bestSol_box">
-                                <Image src={whyBestSol6} alt="Data security and complaince" title="Data security and complaince" />
+                                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739165187/whyBestSol6_t14piw.png' alt="Data security and complaince" title="Data security and complaince" />
                             </div>
                         </div>
 
                         <div className="bestSol_card">
                             <div className="bestSol_box">
-                                <Image src={whyBestSol7} alt="End to end support" title="End to end support" />
+                                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739165272/whyReason7_wcqnn1.png' alt="End to end support" title="End to end support" />
                             </div>
                             <div className="bestSol_box">
-                                <Image src={whyBestSol8} alt="cost effective solution" title="cost effective solution" />
+                                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739165360/whyReason8_qnn1jd.png' alt="cost effective solution" title="cost effective solution" />
                             </div>
                             
                         </div>
@@ -1321,8 +1321,8 @@ function CustomSoftware() {
                   <p>With the help of Kushel Digi Solution's custom software development services, take your company to new heights. Our dedication to scalability ensures that your software will be future-proof and able to evolve with your company's changing needs.In business, Kushel Digi Solution’s custom software development services offer businesses . It allows them to survive in competitive markets. In their unique commitment to provide value-based software solutions. We are the best choice for your company who look  custom software development services.</p>
                     </div>
 
-                    <Image src={firstCircle} alt="firstCircle-topleft" title="firstCircle-topleft" className="firstCircle" />
-                    <Image src={secondCircle} alt="secondCircle-bottomright" title="secondCircle-bottomright" className="secondCircle" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164851/Ellipse_572_z386si.png' alt="firstCircle-topleft" title="firstCircle-topleft" className="firstCircle" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164909/Ellipse_573_xnuusi.png' alt="secondCircle-bottomright" title="secondCircle-bottomright" className="secondCircle" />
 
                     <div className="css_all_benifits ">
             {customBenefitData.map((item, index) => (
@@ -1512,10 +1512,10 @@ Count on our dedicated support team for prompt assistance, ensuring smooth opera
     {/*  buttons  */}
     <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991783/telephone_k9aecl.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

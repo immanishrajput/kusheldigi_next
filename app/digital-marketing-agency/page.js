@@ -142,9 +142,9 @@ function DigitalMarketing({notify}) {
                 </div>
               </div>
               <div className="ourtalent-image">
-                <Image className="not_y" src={Rectangle17725} alt="Digital marketing agency"  title="Digital marketing agency"/>
-                <Image className="not_y1"  src={Rectangle17726} alt="bg-design" title="bg-design" />
-                <Image className="not_y1" src={Ellipse37} alt="bg-design" title="bg-design" />
+                <img className="not_y" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739165630/Rectangle_17725_o9zuna.png' alt="Digital marketing agency"  title="Digital marketing agency"/>
+                <img className="not_y1"  src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739165678/Rectangle_17726_huarsg.png' alt="bg-design" title="bg-design" />
+                <img className="not_y1" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739165728/Ellipse_37_bztsmo.png' alt="bg-design" title="bg-design" />
               </div>
             </div>
             </div>
@@ -161,7 +161,7 @@ function DigitalMarketing({notify}) {
                 </p>
               </div>
               <div className="package-cards w-full">
-                <Image className="w-full" src={d1} alt="Digital Marketing Services" title="Digital Marketing Services" />
+                <img className="w-full" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739166131/d1_zay26m.png' alt="Digital Marketing Services" title="Digital Marketing Services" />
               </div>
             </div>
           </section>
@@ -193,12 +193,12 @@ function DigitalMarketing({notify}) {
           <section>
             <div className="dmc-chart">
             <div className="charts dine-123">
-              <Image src={chart3} alt="individual tracker" title="individual tracker" />
-              <Image src={chart4} alt="Region wise lead tracker" title="Region wise lead tracker" />
-              <Image src={chart5} alt="Team performnce" title="Team performnce" />
-              <Image src={chart6} alt="revenue share" title="revenue share" />
-              <Image src={chart1} alt="sales rap individual tracker" title="sales rap individual tracker" />
-              <Image src={chart2} alt="lead-generation" title="lead-generation" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739166291/chart_3_gcypyv.svg' alt="individual tracker" title="individual tracker" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739166349/chart_4_ivlrvj.svg' alt="Region wise lead tracker" title="Region wise lead tracker" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739166385/chart_5_ggxv5g.svg' alt="Team performnce" title="Team performnce" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739166506/chart_6_oecbtn.svg' alt="revenue share" title="revenue share" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739166180/chart_1_cb22hd.svg' alt="sales rap individual tracker" title="sales rap individual tracker" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739166220/chart_2_sbyoir.svg' alt="lead-generation" title="lead-generation" />
             </div>
             </div>
           </section>
@@ -215,7 +215,7 @@ function DigitalMarketing({notify}) {
                 <div className="process-container__card">
                   <div className="process-container__card__heading">
                     <h3>Research</h3>
-                    <Image src={Group72437} alt="Research" title="Research" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739165757/Group_72437_v4grcd.svg' alt="Research" title="Research" />
                   </div>
                   <div className="process-container__card__text">
                     <p>
@@ -235,7 +235,7 @@ function DigitalMarketing({notify}) {
                 <div className="process-container__card">
                   <div className="process-container__card__heading">
                     <h3>Optimize</h3>
-                    <Image src={Speed1} alt="Optimize" title="Optimize" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739165822/speed_1_qdekvf.svg' alt="Optimize" title="Optimize" />
                   </div>
                   <div className="process-container__card__text">
                     <p>
@@ -259,7 +259,7 @@ function DigitalMarketing({notify}) {
                 <div className="process-container__card">
                   <div className="process-container__card__heading">
                     <h3>Content</h3>
-                    <Image src={ContentWriting1} alt="Content" title="Content" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739165872/content-writing_1_z9f9mb.svg' alt="Content" title="Content" />
                   </div>
                   <div className="process-container__card__text">
                     <p>
@@ -283,7 +283,7 @@ function DigitalMarketing({notify}) {
                 <div className="process-container__card">
                   <div className="process-container__card__heading">
                     <h3>Keywords</h3>
-                    <Image src={Search1} alt="Keywords" title="Keywords" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739165943/search_1_pe3zd7.svg' alt="Keywords" title="Keywords" />
                   </div>
                   <div className="process-container__card__text">
                     <p>
@@ -306,7 +306,7 @@ function DigitalMarketing({notify}) {
                 <div className="process-container__card">
                   <div className="process-container__card__heading">
                     <h3>Earned media & links</h3>
-                    <Image src={SaveMoney1} alt="Earned media & links" title="Earned media & links" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739165991/save-money_1_m3qkct.svg' alt="Earned media & links" title="Earned media & links" />
                   </div>
                   <div className="process-container__card__text">
                     <p>
@@ -328,7 +328,7 @@ function DigitalMarketing({notify}) {
                 <div className="process-container__card">
                   <div className="process-container__card__heading">
                     <h3>Testing</h3>
-                    <Image src={Test1} alt="Testing" title="Testing" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739166053/test_1_pagabw.svg' alt="Testing" title="Testing" />
                   </div>
                   <div className="process-container__card__text">
                     <p>
