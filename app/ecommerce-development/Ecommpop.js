@@ -56,7 +56,7 @@ const Ecommpop = ({setPop, notify}) => {
               <div className="main_eco_pop">
                 <div className="eco_pop_subcontainer">
                   <div className="left_eco_pop">
-                    <Image src={popupimage} alt="" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739168039/popupimage_vvmpoz.png' alt="" />
                   </div>
                   <form onSubmit={handleSubmit}>
                     <div className="right_eco_pop">

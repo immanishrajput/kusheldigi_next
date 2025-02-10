@@ -89,7 +89,7 @@ const Flutters = ({notify}) => {
 
          </div>
          <div className="android-back2 flutter-back2">
-           <Image className="animate__animated animate__pulse animate__infinite" src={fluting} alt="flutter app development services" title='flutter app development services' />
+           <img className="animate__animated animate__pulse animate__infinite" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169620/fluting_ya2haz.png' alt="flutter app development services" title='flutter app development services' />
          </div>
        </div>
        </div>
@@ -99,7 +99,7 @@ const Flutters = ({notify}) => {
              <h2>Custom flutter App</h2>
              <h2>Development</h2>
              <h2>Services</h2>
-             <Image className="ftp" src={androidSis} alt="underline-designed" />
+             <img className="ftp" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169674/android-sis_auympb.png' alt="underline-designed" />
              <Link className="letsy letsay" href="/contact-us">
                <h5>
                  Discuss your goals with us{" "}
@@ -123,7 +123,7 @@ const Flutters = ({notify}) => {
            <div className="android-card">
              <div className="android-box flutter-box android-box1 android-boxes1">
                <div className="android0-img flex items-center">
-                 <Image className="fluting1" width={40} src={fluting1} alt="Discovering flutter App Potential" title='Discovering flutter App Potential' />
+                 <img className="fluting1" width={40} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169722/fluting1_hct757.png' alt="Discovering flutter App Potential" title='Discovering flutter App Potential' />
                  <h4 className="ml-3">Discovering flutter App Potential
                  </h4>
                </div>
@@ -133,7 +133,7 @@ const Flutters = ({notify}) => {
              </div>
              <div className="android-box flutter-box android-box2 android-boxes1">
                <div className="android0-img flex items-center">
-                 <Image className="fluting2" width={30} src={fluting2} alt="flutter Power: Your App's Journey" title='flutter Power: Your Apps Journey' />
+                 <img className="fluting2" width={30} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169768/fluting2_ya7iky.png' alt="flutter Power: Your App's Journey" title='flutter Power: Your Apps Journey' />
                  <h4 className="ml-3">flutter Power: Your App's Journey
                  </h4>
                </div>
@@ -144,7 +144,7 @@ const Flutters = ({notify}) => {
              </div>
              <div className="android-box flutter-box android-box3 android-boxes1">
                <div className="android0-img flex items-center">
-                 <Image className="fluting3" width={30} src={fluting3} alt="flutter App Evolution" title='flutter App Evolution' />
+                 <img className="fluting3" width={30} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169805/fluting3_auyach.png' alt="flutter App Evolution" title='flutter App Evolution' />
                  <h4 className="ml-3">flutter App Evolution
                  </h4>
                </div>
@@ -161,7 +161,7 @@ const Flutters = ({notify}) => {
          <h2>
            Advantages of the outsource <br /> flutter app development
          </h2>
-         <Image className="linerar" src={ads1} alt="Advantages of the outsource" title='Advantages of the outsource' />
+         <img className="linerar" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169860/ads1_azyvie.png' alt="Advantages of the outsource" title='Advantages of the outsource' />
          <p className="linear-para">
            Our flutter iOS app development services harness the full potential of this framework, going far beyond cost efficiency. We capitalize on the SDK's innate ability to provide users with a native experience, its expressive capabilities, a dynamic and adaptable UI, and the lightning-fast 60 FPS loading speed. All these elements combine to create an application that stands as the epitome of cross-platform excellence.
 
@@ -274,7 +274,7 @@ const Flutters = ({notify}) => {
              <h5>Great performance</h5>
            </div>
            <div className="rightreview">
-             <Image src={fragment} alt="Code Review" title='Code Review' />
+             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169940/fragment_rkvxpo.png' alt="Code Review" title='Code Review' />
              <div className="codeReview">
                <h5><span className="oi">OI/</span>Code Review</h5>
                <p>Our team will perform end-to-end quality control of the code so that you will never encounter its incorrect operation.</p>
@@ -300,7 +300,7 @@ const Flutters = ({notify}) => {
            </p>
          </div>
          <div className="let-flutter2">
-           <Image src={gurav} alt="kusheldigi-project" title='kusheldigi-project' />
+           <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169903/gurav_nhcgzw.png' alt="kusheldigi-project" title='kusheldigi-project' />
          </div>
        </div>
        </div>
@@ -383,10 +383,10 @@ const Flutters = ({notify}) => {
 <FlutterFAQ/>
        <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991783/telephone_k9aecl.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

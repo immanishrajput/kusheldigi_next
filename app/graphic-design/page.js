@@ -83,7 +83,7 @@ const generateMetadata = ({ params }) => ({
                         </div>
                         <div className="grap12">
                             <div>
-                                <Image src={graphicImgee} alt="graphic design services" title="graphic design services" />
+                                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739170416/graphicImgee_fiztyj.png' alt="graphic design services" title="graphic design services" />
                             </div>
                         </div>
                     </div>
@@ -105,7 +105,7 @@ const generateMetadata = ({ params }) => ({
                         </div>
                         <div className="get_graphic2">
                             <div className="graphic_end_img">
-                                <Image src={sinki} alt="graphic design agency" title="graphic design agency" />
+                                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739170462/sinki_snpsbw.png' alt="graphic design agency" title="graphic design agency" />
                             </div>
                         </div>
 
@@ -119,7 +119,7 @@ const generateMetadata = ({ params }) => ({
                             <div className="design_cant">
                                 <div className="design_box">
                                     <div className="arts_img">
-                                        <Image src={art1} alt="Brand Logo Design" title='Brand Logo Design' />
+                                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739170493/art1_owd5n5.png' alt="Brand Logo Design" title='Brand Logo Design' />
                                     </div>
                                     <div className="arts-head arts-head-first">
                                         <h3>Brand Logo Design
@@ -129,7 +129,7 @@ const generateMetadata = ({ params }) => ({
                                 </div>
                                 <div className="design_box design_box1">
                                     <div className="arts_img">
-                                        <Image src={art2} alt="Catalog Design" title='Catalog Design' />
+                                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739170529/art2_tfrtdj.png' alt="Catalog Design" title='Catalog Design' />
                                     </div>
                                     <div className="arts-head arts-head-first">
                                         <h3>Catalog Design </h3>
@@ -140,7 +140,7 @@ const generateMetadata = ({ params }) => ({
 
                                 <div className="design_box design_box1">
                                     <div className="arts_img">
-                                        <Image src={art3} alt="Social Media Design" title='Social Media Design' />
+                                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739170576/art3_hjjkia.png' alt="Social Media Design" title='Social Media Design' />
                                     </div>
                                     <div className="arts-head">
                                         <h3>Social Media Design</h3>
@@ -153,7 +153,7 @@ const generateMetadata = ({ params }) => ({
                             <div className="design_cant">
                                 <div className="design_box">
                                     <div className="arts_img">
-                                        <Image src={art4} alt="Graphics for Website" title='Graphics for Website' />
+                                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739170620/art4_gimatm.png' alt="Graphics for Website" title='Graphics for Website' />
                                     </div>
                                     <div className="arts-head arts-head-firsttt">
                                         <h3>Graphics for Website
@@ -163,7 +163,7 @@ const generateMetadata = ({ params }) => ({
                                 </div>
                                 <div className="design_box design_box1">
                                     <div className="arts_img">
-                                        <Image src={art5} alt="Advertisement Design" title='Advertisement Design' />
+                                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739170663/art5_dmwdv0.png' alt="Advertisement Design" title='Advertisement Design' />
                                     </div>
                                     <div className="arts-head arts-head-second">
                                         <h3>Advertisement Design </h3>
@@ -173,7 +173,7 @@ const generateMetadata = ({ params }) => ({
 
                                 <div className="design_box design_box1">
                                     <div className="arts_img">
-                                        <Image src={art6} alt="Illustration Design" title='Illustration Design' />
+                                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739170698/art6_qb9jxv.png' alt="Illustration Design" title='Illustration Design' />
                                     </div>
                                     <div className="arts-head arts-head-second">
                                         <h3>Illustration Design</h3>
@@ -186,7 +186,7 @@ const generateMetadata = ({ params }) => ({
                             <div className="design_cant">
                                 <div className="design_box">
                                     <div className="arts_img">
-                                        <Image src={art7} alt="Branding Services" title='Branding Services' />
+                                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739170889/art7_ldkd4g.png' alt="Branding Services" title='Branding Services' />
                                     </div>
                                     <div className="arts-head">
                                         <h3>Branding Services </h3>
@@ -195,7 +195,7 @@ const generateMetadata = ({ params }) => ({
                                 </div>
                                 <div className="design_box design_box1">
                                     <div className="arts_img">
-                                        <Image src={art8} alt="Video Production" title='Video Production' />
+                                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739170925/art8_vv73nl.png' alt="Video Production" title='Video Production' />
                                     </div>
                                     <div className="arts-head">
                                         <h3>Video Production</h3>
@@ -205,7 +205,7 @@ const generateMetadata = ({ params }) => ({
 
                                 <div className="design_box design_box1">
                                     <div className="arts_img">
-                                        <Image src={art9} alt="Concept Creation" title='Concept Creation' />
+                                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171002/art9_zcyprl.png' alt="Concept Creation" title='Concept Creation' />
                                     </div>
                                     <div className="arts-head">
                                         <h3>Concept Creation</h3>
@@ -218,7 +218,7 @@ const generateMetadata = ({ params }) => ({
                             <div className="design_cant">
                                 <div className="design_box">
                                     <div className="arts_img">
-                                        <Image src={art10} alt="Print Design" title='Print Design' />
+                                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171048/art10_c6zrqr.png' alt="Print Design" title='Print Design' />
                                     </div>
                                     <div className="arts-head">
                                         <h3>Print Design</h3>
@@ -227,7 +227,7 @@ const generateMetadata = ({ params }) => ({
                                 </div>
                                 <div className="design_box design_box1">
                                     <div className="arts_img">
-                                        <Image src={art11} alt="Email Design" title='Email Design' />
+                                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171084/art11_davnlg.png' alt="Email Design" title='Email Design' />
                                     </div>
                                     <div className="arts-head">
                                         <h3>Email Design</h3>
@@ -237,7 +237,7 @@ const generateMetadata = ({ params }) => ({
 
                                 <div className="design_box design_box1">
                                     <div className="arts_img">
-                                        <Image src={art12} alt="eBooks & Reports Design" title='eBooks & Reports Design' />
+                                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171128/art12_xxvf7t.png' alt="eBooks & Reports Design" title='eBooks & Reports Design' />
                                     </div>
                                     <div className="arts-head">
                                         <h3>eBooks & Reports Design</h3>
@@ -381,10 +381,10 @@ const generateMetadata = ({ params }) => ({
 
                 <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991783/telephone_k9aecl.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

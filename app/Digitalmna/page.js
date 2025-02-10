@@ -75,7 +75,7 @@ useEffect(() => {
           <div className="side-bg-trio">
             <div className="first-kick-pads">
               <div className="left-section-kids">
-                <Image src={pru2} className="pru12" alt="img"></Image>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739167878/innermnalogoimgsmall_omnflp.png' className="pru12" alt="img"></img>
                 <p className="shoots_premium">
                   <span className="heightlisght_premium"> DigitalMnA</span>
                   is a full-service Merger and acquisition company helping
@@ -89,7 +89,7 @@ useEffect(() => {
                 </div>
               </div>
               <div className="right-section-kids">
-                <Image src={protruckss} id="total-group" alt="img"></Image>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739167642/digitalmna1_iyvlij.png' id="total-group" alt="img"></img>
               </div>
             </div>
 
@@ -98,15 +98,15 @@ useEffect(() => {
               <p className="service-hinking">Services Provided</p>
               <div className="main-img-mighty">
                 <div className="bepolo">
-                  <Image src={img4} id="ux-safari" alt="img"></Image>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739167535/Group_1000004718_zlrqda.png' id="ux-safari" alt="img"></img>
                   <p>UX/UI Website Design</p>
                 </div>
                 <div className="bepolo">
-                  <Image src={img5} id="web-safari" alt="img"></Image>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739167567/Group_1000004715_gputt3.png' id="web-safari" alt="img"></img>
                   <p>Website Development</p>
                 </div>
                 <div className="bepolo">
-                  <Image src={img6} id="qa-safari" alt="img"></Image>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739167604/Group_1000004716_qssz8d.png' id="qa-safari" alt="img"></img>
                   <p>QA & Website Testing</p>
                 </div>
               </div>
@@ -134,13 +134,13 @@ useEffect(() => {
               </div>
               <div className="sub-worm">
                 <p className="tool">Tools Use</p>
-                <Image src={img13} id="pals-circle" alt="img"></Image>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739167699/Group_1000006500_1_opb0um.png' id="pals-circle" alt="img"></img>
               </div>
             </div>
           </div>
           <div className="right-card-omega">
             <p>Color Plate</p>
-            <Image src={hh5} id="gang" alt="img" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739167732/mnncolurplates_dxjkbm.png' id="gang" alt="img" />
           </div>
         </div>{" "}
         <div className="back-story">
@@ -160,14 +160,14 @@ useEffect(() => {
             </div>
           </div>
           <div className="step-images flex items-center justify-center mt-20">
-            <Image
+            <img
               className="stepback solenoid-stepback1"
-              src={hh6}
+              src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739167767/mnadetail12_xmn3cd.png'
               alt="stepback"
             />
-            <Image
+            <img
               className="stepback1 solenoid-stepback1"
-              src={hh7}
+              src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739167805/mnadetail13_ls0qdv.png'
               alt="stepback1"
             />
           </div>
@@ -253,13 +253,13 @@ useEffect(() => {
           <div className="kick-first kick-first222">
            
             <div className="kickds">
-              <Image className="kick_mart" src={pru2} alt="kick5" />
+              <img className="kick_mart" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739167878/innermnalogoimgsmall_omnflp.png' alt="kick5" />
             </div>
           </div>
           <div className="kick-second kick-second222 relative">
-            <Image
+            <img
               className=" relative z-10 about162 pick222"
-              src={hh8}
+              src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739167842/mna123_drqwmx.png'
               alt="hh8"
             />
           </div>
@@ -287,7 +287,7 @@ useEffect(() => {
             </div>
             <div className="azib-images flex items-center justify-center">
               <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739167245/mnaHome_Page_1_hov3cr.png' alt="pt4" />
-              <Image src={pt6} alt="pt5" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739167486/mnaAbout_us_otr9d4.png' alt="pt5" />
               <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739167179/mnaServices-3_1_amwov8.png' alt="pt6" />
             </div>
           </div>
@@ -387,10 +387,10 @@ useEffect(() => {
         
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991783/telephone_k9aecl.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

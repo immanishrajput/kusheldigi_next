@@ -151,7 +151,7 @@ const IosHire = () => {
                         </div>
                         <div className='key_tanda'>
                             <div className="key_tanda1">
-                                <Image src={sidhaTandi} alt="straight line design" title='straight line design' />
+                                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172278/sidhaTandi_nlsoam.png' alt="straight line design" title='straight line design' />
                                 <div className='tandi_nav'>
                                     <p onClick={tabAnother1} id='pex1'>iOS App Development Insights
 </p>
@@ -366,10 +366,10 @@ const IosHire = () => {
                 
                 <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <Image className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <Image src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

@@ -1184,9 +1184,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusred1}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175877/006_1_nxufng.svg'
                       alt="nestohub"
                       title="nestohub"
                     />
@@ -1195,9 +1195,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusred2}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175921/013_1_ol5byc.svg'
                       alt="cronous"
                       title="cronous"
                     />
@@ -1206,9 +1206,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted3}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175957/015_1_zhd61k.svg'
                       alt="prime"
                       title="prime"
                     />
@@ -1217,9 +1217,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted4}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176045/017_1_tiv6mk.svg'
                       alt="aaa media"
                       title="aaa media"
                     />
@@ -1228,9 +1228,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted5}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176269/92945677531_1_tb9rkt.svg'
                       alt="probatical"
                       title="probatical"
                     />
@@ -1239,9 +1239,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted6}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176325/Black_White_1_pg2nmn.svg'
                       alt="codepxl"
                       title="codepxl"
                     />
@@ -1250,9 +1250,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted7}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176371/Group_2_1_zx1tqa.svg'
                       alt="auxible"
                       title="auxible"
                     />
@@ -1261,9 +1261,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted8}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176422/Group_2_2_yypji2.svg'
                       alt="the careerbeacon"
                       title="the careerbeacon"
                     />
@@ -1272,9 +1272,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted9}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176477/Group_3_1_xq1tod.svg'
                       alt="pinksky"
                       title="pinksky"
                     />
@@ -1283,9 +1283,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted10}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176533/Layer_1_3_wbxnkl.svg'
                       alt="slide365"
                       title="slide365"
                     />
@@ -1294,9 +1294,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted12}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176591/Layer_1_4_sqlymy.svg'
                       alt="DLF"
                       title="DLF"
                     />
@@ -1305,9 +1305,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted13}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176659/fishhead_pjhelz.svg'
                       alt="madfish"
                       title="madfish"
                     />
@@ -1316,9 +1316,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted14}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176714/images_1_xmbtva.svg'
                       alt="shikhar"
                       title="shikhar"
                     />
@@ -1342,9 +1342,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusred1}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175877/006_1_nxufng.svg'
                       alt="nestohub"
                       title="nestohub"
                     />
@@ -1353,9 +1353,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusred2}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175921/013_1_ol5byc.svg'
                       alt="cronous"
                       title="cronous"
                     />
@@ -1364,9 +1364,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted3}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175957/015_1_zhd61k.svg'
                       alt="prime"
                       title="prime"
                     />
@@ -1375,9 +1375,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted4}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176045/017_1_tiv6mk.svg'
                       alt="aaa media"
                       title="aaa media"
                     />
@@ -1386,9 +1386,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted5}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176269/92945677531_1_tb9rkt.svg'
                       alt="probatical"
                       title="probatical"
                     />
@@ -1397,9 +1397,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted6}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176325/Black_White_1_pg2nmn.svg'
                       alt="codepxl"
                       title="codepxl"
                     />
@@ -1408,9 +1408,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted7}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176371/Group_2_1_zx1tqa.svg'
                       alt="auxible"
                       title="auxible"
                     />
@@ -1419,9 +1419,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted8}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176422/Group_2_2_yypji2.svg'
                       alt="the careerbeacon"
                       title="the careerbeacon"
                     />
@@ -1430,9 +1430,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted9}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176477/Group_3_1_xq1tod.svg'
                       alt="pinksky"
                       title="pinksky"
                     />
@@ -1441,9 +1441,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted10}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176533/Layer_1_3_wbxnkl.svg'
                       alt="slide365"
                       title="slide365"
                     />
@@ -1452,9 +1452,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted12}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176591/Layer_1_4_sqlymy.svg'
                       alt="DLF"
                       title="DLF"
                     />
@@ -1463,9 +1463,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted13}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176659/fishhead_pjhelz.svg'
                       alt="madfish"
                       title="madfish"
                     />
@@ -1474,9 +1474,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted14}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176714/images_1_xmbtva.svg'
                       alt="shikhar"
                       title="shikhar"
                     />
@@ -1500,9 +1500,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusred1}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175877/006_1_nxufng.svg'
                       alt="nestohub"
                       title="nestohub"
                     />
@@ -1511,9 +1511,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusred2}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175921/013_1_ol5byc.svg'
                       alt="cronous"
                       title="cronous"
                     />
@@ -1522,9 +1522,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted3}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175957/015_1_zhd61k.svg'
                       alt="prime"
                       title="prime"
                     />
@@ -1533,9 +1533,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted4}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176045/017_1_tiv6mk.svg'
                       alt="aaa media"
                       title="aaa media"
                     />
@@ -1544,9 +1544,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted5}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176269/92945677531_1_tb9rkt.svg'
                       alt="probatical"
                       title="probatical"
                     />
@@ -1555,9 +1555,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted6}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176325/Black_White_1_pg2nmn.svg'
                       alt="codepxl"
                       title="codepxl"
                     />
@@ -1566,9 +1566,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted7}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176371/Group_2_1_zx1tqa.svg'
                       alt="auxible"
                       title="auxible"
                     />
@@ -1577,9 +1577,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted8}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176422/Group_2_2_yypji2.svg'
                       alt="the careerbeacon"
                       title="the careerbeacon"
                     />
@@ -1588,9 +1588,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted9}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176477/Group_3_1_xq1tod.svg'
                       alt="pinksky"
                       title="pinksky"
                     />
@@ -1599,9 +1599,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted10}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176533/Layer_1_3_wbxnkl.svg'
                       alt="slide365"
                       title="slide365"
                     />
@@ -1610,9 +1610,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted12}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176591/Layer_1_4_sqlymy.svg'
                       alt="DLF"
                       title="DLF"
                     />
@@ -1621,9 +1621,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted13}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176659/fishhead_pjhelz.svg'
                       alt="madfish"
                       title="madfish"
                     />
@@ -1632,9 +1632,9 @@ function Industries() {
                 <SplideSlide>
                   <div className="home-background-crouser-containt">
                     {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
-                    <Image
+                    <img
                       className="joki1"
-                      src={trusted14}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176714/images_1_xmbtva.svg'
                       alt="shikhar"
                       title="shikhar"
                     />
@@ -1762,15 +1762,15 @@ function Industries() {
       <IndustriesFAQ/>
       <div className="whtsApBtns">
         <button onClick={whatAppHandler}>
-          <Image
+          <img
             className="what-image-universal"
-            src={whatsApp}
+            src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172941/whatsapp_cowbb8.png'
             alt="whatsApp-kusheldigi"
             title="whatsApp-kusheldigi"
           />
         </button>
         <button onClick={callHandler}>
-          <Image src={call} alt="call-icon" title="call-icon" />
+          <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172987/telephone_qjoh3j.png' alt="call-icon" title="call-icon" />
         </button>
       </div>
       <Footer/>

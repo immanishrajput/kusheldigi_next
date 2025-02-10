@@ -251,41 +251,41 @@ useEffect(() => {
                         <div className="pnt_card">
                             <div className="pnt_card1">
                                 <div className="frenta">
-                                    <Image src={frema} alt="Skilled programmer" title='Skilled programmer' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172487/frema_utwyrm.png' alt="Skilled programmer" title='Skilled programmer' />
                                     <h4>Skilled programmers</h4>
                                 </div>
                                 <div className="frenta">
-                                    <Image src={frema} alt="Cost-effective project scope" title='Cost-effective project scope' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172487/frema_utwyrm.png' alt="Cost-effective project scope" title='Cost-effective project scope' />
                                     <h4>Cost-effective project scope</h4>
                                 </div>
                                 <div className="frenta">
-                                    <Image src={frema} alt="Protection of idea and IP rights" title='Protection of idea and IP rights' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172487/frema_utwyrm.png' alt="Protection of idea and IP rights" title='Protection of idea and IP rights' />
                                     <h4>Protection of idea and IP rights</h4>
                                 </div>
                                 <div className="frenta">
-                                    <Image src={frema} alt="Zero contract" title='Zero contract' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172487/frema_utwyrm.png' alt="Zero contract" title='Zero contract' />
                                     <h4>Zero contract lock-ins</h4>
                                 </div>
                                 <div className="frenta">
-                                    <Image src={frema} alt="High scalability" title='High scalability' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172487/frema_utwyrm.png' alt="High scalability" title='High scalability' />
                                     <h4>High scalability</h4>
                                 </div>
                             </div>
                             <div className="pnt_card2">
                                 <div className="frenta">
-                                    <Image src={frema} alt="Complete control" title='Complete control' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172487/frema_utwyrm.png' alt="Complete control" title='Complete control' />
                                     <h4>Complete control</h4>
                                 </div>
                                 <div className="frenta">
-                                    <Image src={frema} alt="time delivery" title='time delivery' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172487/frema_utwyrm.png' alt="time delivery" title='time delivery' />
                                     <h4>On time delivery</h4>
                                 </div>
                                 <div className="frenta">
-                                    <Image src={frema} alt="updates" title='updates' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172487/frema_utwyrm.png' alt="updates" title='updates' />
                                     <h4>Daily, weekly, and monthly updates</h4>
                                 </div>
                                 <div className="frenta">
-                                    <Image src={frema} alt="Flexible engagement model"  title='Flexible engagement model'/>
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172487/frema_utwyrm.png' alt="Flexible engagement model"  title='Flexible engagement model'/>
                                     <h4>Flexible engagement models</h4>
                                 </div>
                             </div>
@@ -401,10 +401,10 @@ useEffect(() => {
 
                 <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991783/telephone_k9aecl.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

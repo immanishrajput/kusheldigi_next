@@ -134,8 +134,8 @@ const Headless = () => {
                 <Slider {...settings}>
                   <div className="headless-commerce-cards-flex">
                     <div className="headless-commerce-cards-column">
-                      <Image
-                        src={cardone}
+                      <img
+                        src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171319/card1_per93j.svg'
                         alt="launch multichannel retail cost effectively"
                         title="launch multichannel retail cost effectively"
                       />
@@ -153,8 +153,8 @@ const Headless = () => {
                   </div>
                   <div className="headless-commerce-cards-flex">
                     <div className="headless-commerce-cards-column">
-                      <Image
-                        src={flexibility}
+                      <img
+                        src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171983/flexibility_ebbdks.svg'
                         alt="Greater design flexibility"
                         title="Greater design flexibility"
                       />
@@ -169,8 +169,8 @@ const Headless = () => {
                   </div>
                   <div className="headless-commerce-cards-flex">
                     <div className="headless-commerce-cards-column">
-                      <Image
-                        src={agileimg}
+                      <img
+                        src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171818/Agile-image1_ds9fdw.svg'
                         alt="Agility in the front-end design"
                         title="Agility in the front-end design"
                       />
@@ -185,8 +185,8 @@ const Headless = () => {
                   </div>
                   <div className="headless-commerce-cards-flex">
                     <div className="headless-commerce-cards-column">
-                      <Image
-                        src={agilebackend}
+                      <img
+                        src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171859/Agile-backend_dbmzyy.svg'
                         alt="Agility in the back-end"
                         title="Agility in the back-end"
                       />
@@ -496,24 +496,24 @@ const Headless = () => {
               <div className="design">
                 <div className="headless-commerce-cards-content-flex5">
                   <div className="headless-commerce-cards-main5">
-                    <Image
-                      src={cartcard}
+                    <img
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171627/cart-cards_czanq5.svg'
                       alt="Ecommerce Front End"
                       title="Ecommerce Front End"
                     />
                     <p>Ecommerce Front End </p>
                   </div>
                   <div className="headless-commerce-cards-main5">
-                    <Image
-                      src={cartcard}
+                    <img
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171627/cart-cards_czanq5.svg'
                       alt="Ecommerce Front End"
                       title="Ecommerce Front End"
                     />
                     <p>Ecommerce Front End </p>
                   </div>
                   <div className="headless-commerce-cards-main5">
-                    <Image
-                      src={cartcard}
+                    <img
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171627/cart-cards_czanq5.svg'
                       alt="Ecommerce Front End"
                       title="Ecommerce Front End"
                     />
@@ -523,7 +523,7 @@ const Headless = () => {
                 <div className="headless-commerce-cards-content5">
                   <div className="headless-commerce-cards-flex5">
                     <div className="headless-commerce-aero-images">
-                      <Image src={arrow} alt="arrow" title="arrow" />
+                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171702/aero_awb0gf.png' alt="arrow" title="arrow" />
                     </div>
                     <div>
                       <p>
@@ -534,8 +534,8 @@ const Headless = () => {
                   </div>
                   <div className="headless-commerce-cards-flex5">
                     <div className="headless-commerce-ccc">
-                      <Image
-                        src={arrow}
+                      <img
+                        src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171702/aero_awb0gf.png'
                         alt="arrow"
                         title="frontend-technology"
                       />
@@ -549,8 +549,8 @@ const Headless = () => {
                   </div>
                   <div className="headless-commerce-cards-flex5">
                     <div>
-                      <Image
-                        src={arrow}
+                      <img
+                        src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171702/aero_awb0gf.png'
                         alt="frontend-technology"
                         title="frontend-technology"
                       />
@@ -566,9 +566,9 @@ const Headless = () => {
                 <div className="headless-commerce-rest-api">
                   <div className="headless-commerce-card">
                     <div className="headless-commerce-card-content-main5">
-                      <Image
+                      <img
                         className="imhggg"
-                        src={apis}
+                        src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171763/api-s_wrye4k.svg'
                         alt="REST APIs"
                         title="REST APIs"
                       />
@@ -606,9 +606,9 @@ const Headless = () => {
                 <div className="headless-commerce-aero-third-section-main">
                   <div className="headless-commerce-aero-third-section">
                     <div className="headless-commerce-aero-third-section-part1">
-                      <Image
+                      <img
                         className="imhggg"
-                        src={backends}
+                        src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172100/backend-svg_uu0p18.svg'
                         alt="BACK-END"
                         title="BACK-END"
                       />
@@ -638,21 +638,21 @@ const Headless = () => {
                       </svg>
                     </div>
                     <div className="headless-commerce-aero-third-section-part3">
-                      <Image
+                      <img
                         className="imhggg"
-                        src={onlineimage}
+                        src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171907/onlineimage_cl79d6.svg'
                         alt="bar-graph"
                         title="bar-graph"
                       />
-                      <Image
+                      <img
                         className="imhggg"
-                        src={onlineimage}
+                        src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171907/onlineimage_cl79d6.svg'
                         alt="bar-graph"
                         title="bar-graph"
                       />
-                      <Image
+                      <img
                         className="imhggg"
-                        src={onlineimage}
+                        src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171907/onlineimage_cl79d6.svg'
                         alt="bar-graph"
                         title="bar-graph"
                       />
@@ -681,9 +681,9 @@ const Headless = () => {
                       </svg>
                     </div>
                     <div className="headless-commerce-aero-third-section-part4">
-                      <Image
+                      <img
                         className="imhggg"
-                        src={backends}
+                        src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172100/backend-svg_uu0p18.svg'
                         alt="DATA ANALYTICS"
                         title="DATA ANALYTICS"
                       />
@@ -720,19 +720,19 @@ const Headless = () => {
                     </div>
                     <div className="headless-commerce-api-nextstep">
                       <div className="headless-commerce-api-nextstep-partfirst">
-                        <Image src={apiname} alt="ERP" title="ERP" />
+                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172030/erps_jftc81.svg' alt="ERP" title="ERP" />
                         <p>ERP</p>
                       </div>
                       <div className="headless-commerce-api-nextstep-partfirst">
-                        <Image src={apiname} alt="ERP" title="ERP" />
+                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172030/erps_jftc81.svg'alt="ERP" title="ERP" />
                         <p>ERP</p>
                       </div>
                       <div className="headless-commerce-api-nextstep-partfirst">
-                        <Image src={apiname} alt="ERP" title="ERP" />
+                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172030/erps_jftc81.svg' alt="ERP" title="ERP" />
                         <p>ERP</p>
                       </div>
                       <div className="headless-commerce-api-nextstep-partfirst">
-                        <Image src={apiname} alt="ERP" title="ERP" />
+                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172030/erps_jftc81.svg' alt="ERP" title="ERP" />
                         <p>ERP</p>
                       </div>
                     </div>
@@ -758,44 +758,44 @@ const Headless = () => {
             <div className="headless-commerce-cards-content4">
               <div className="headless-commerce-cards-content-flex4">
                 <div className="headless-commerce-cards-content-main4">
-                  <Image
-                    src={cardthree}
+                  <img
+                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171382/cards3-image_fev7t7.svg'
                     alt="Informalytics"
                     title="Informalytics"
                   />
                   <p>Informalytics</p>
                 </div>
                 <div className="headless-commerce-cards-content-main4">
-                  <Image
-                    src={cardthree1}
+                  <img
+                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171436/card3-image2_wpj7lq.svg'
                     alt="Headless Theme Crafting"
                     title="Headless Theme Crafting"
                   />
                   <p>Wire planning</p>
                 </div>
                 <div className="headless-commerce-cards-content-main4">
-                  <Image src={cardthree2} alt="" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171474/cards3-images3_zn7kpm.svg' alt="" />
                   <p>Headless Theme Crafting</p>
                 </div>
                 <div className="headless-commerce-cards-content-main4">
-                  <Image
-                    src={cardthree3}
+                  <img
+                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171513/cards3-images4_wd1pme.svg'
                     alt="API Headway"
                     title="API Headway"
                   />
                   <p>API Headway</p>
                 </div>
                 <div className="headless-commerce-cards-content-main4">
-                  <Image
-                    src={cardthree4}
+                  <img
+                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171553/cards3-images5_iykjlz.svg'
                     alt="Headless Integration"
                     title="Headless Integration"
                   />
                   <p>Headless Integration</p>
                 </div>
                 <div className="headless-commerce-cards-content-main4">
-                  <Image
-                    src={cardthree5}
+                  <img
+                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171590/cards3-images6_btmqrt.svg'
                     alt="Headless Testing"
                     title="Headless Testing"
                   />
@@ -927,15 +927,15 @@ const Headless = () => {
       <HeadlessFAQ />
       <div className="whtsApBtns">
         <button onClick={whatAppHandler}>
-          <Image
+          <img
             className="what-image-universal"
-            src={whatsApp}
+            src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png'
             alt="whatsApp-kusheldigi"
             title="whatsApp-kusheldigi"
           />
         </button>
         <button onClick={callHandler}>
-          <Image src={call} alt="call-icon" title="call-icon" />
+          <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991783/telephone_k9aecl.png' alt="call-icon" title="call-icon" />
         </button>
       </div>
       <Footer />

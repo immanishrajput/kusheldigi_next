@@ -233,7 +233,7 @@ const generateMetadata = ({ params }) => ({
                         <SplideSlide>
                             <div className="kickta_big kickta_html">
                                 <div className="kickta_big1 kickta_html1">
-                                    <Image src={auxit} alt="Your Trusted Partner for Audio" title="Your Trusted Partner for Audio" />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175612/auxit_x3w8fs.png' alt="Your Trusted Partner for Audio" title="Your Trusted Partner for Audio" />
                                     <div className="headst_big">
                                         <h3>Your Trusted Partner for
                                         <br/>Audio Visual Solutions</h3>
@@ -258,7 +258,7 @@ const generateMetadata = ({ params }) => ({
                         <SplideSlide>
                             <div className="kickta_big kickta_htmls">
                                 <div className="kickta_big1 kickta_htmls1">
-                                    <Image src={doliwala1} alt="DOLIWALA Events" title="DOLIWALA Events" />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175643/doliwala1_fqfi0c.png' alt="DOLIWALA Events" title="DOLIWALA Events" />
                                     <div className="headst_big">
                                         <h3>DOLIWALA Events
                                         <br/>& Wedding</h3>
@@ -283,7 +283,7 @@ const generateMetadata = ({ params }) => ({
                         <SplideSlide>
                             <div className="kickta_big kickta_htmlsl">
                                 <div className="kickta_big1 kickta_htmlsl1">
-                                    <Image src={mpma1} alt="create the remarkable dimension" title='create the remarkable dimension' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175678/mpma1_lqhadw.png' alt="create the remarkable dimension" title='create the remarkable dimension' />
                                     <div className="headst_big">
                                         <h3>create the remarkable
                                         < br/>dimension with MPM</h3>
@@ -322,7 +322,7 @@ const generateMetadata = ({ params }) => ({
                     <div className="processt_html_card">
                         <div className="processt_html_box processs1-box1">
                             <div className="headof_tax">
-                                <Image src={erty} alt="Requirement Specification" title='Requirement Specification' />
+                                <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175713/erty_eisfdw.png" alt="Requirement Specification" title='Requirement Specification' />
                                 <h4>Requirement Specification</h4>
                             </div>
                             <p>
@@ -331,7 +331,7 @@ const generateMetadata = ({ params }) => ({
                         </div>
                         <div className="processt_html_box processs1-box2">
                             <div className="headof_tax">
-                                <Image src={erty} alt="Bespoke Development" title='' />
+                                <Image src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175713/erty_eisfdw.png' alt="Bespoke Development" title='' />
                                 <h4>Bespoke Development</h4>
                             </div>
                             <p>
@@ -340,7 +340,7 @@ const generateMetadata = ({ params }) => ({
                         </div>
                         <div className="processt_html_box processs1-box3">
                             <div className="headof_tax">
-                                <Image src={erty} alt="Requirement Analysis" title='Requirement Analysis' />
+                                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175713/erty_eisfdw.png' alt="Requirement Analysis" title='Requirement Analysis' />
                                 <h4>Requirement Analysis</h4>
                             </div>
                             <p>
@@ -349,7 +349,7 @@ const generateMetadata = ({ params }) => ({
                         </div>
                         <div className="processt_html_box processs1-box4">
                             <div className="headof_tax">
-                                <Image src={erty} alt="QA and Delivery" title='QA and Delivery' />
+                                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175713/erty_eisfdw.png' alt="QA and Delivery" title='QA and Delivery' />
                                 <h4>QA and Delivery</h4>
                             </div>
                             <p>
@@ -466,10 +466,10 @@ const generateMetadata = ({ params }) => ({
 
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172941/whatsapp_cowbb8.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172987/telephone_qjoh3j.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

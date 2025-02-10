@@ -323,7 +323,7 @@ const generateMetadata = ({ params }) => ({
                                 onMouseEnter={() => setHovered3(true)}
                                 onMouseLeave={() => setHovered3(false)}
                             >
-                                <img className="npp3_img" src={hovered3 ? dilll3 : npp3} alt="E-COMMERCE AND RETAIL" title='E-COMMERCE AND RETAIL' />
+                                <Image className="npp3_img" src={hovered3 ? dilll3 : npp3} alt="E-COMMERCE AND RETAIL" title='E-COMMERCE AND RETAIL' />
                                 <p>E-COMMERCE AND RETAIL</p>
                             </div>
                         </div>

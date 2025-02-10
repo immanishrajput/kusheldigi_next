@@ -149,7 +149,7 @@ const generateMetadata = ({ params }) => ({
                         </div>
                         <div className='key_tanda'>
                             <div className="key_tanda1">
-                                <Image src={sidhaTandi} alt="staright line design" title='staright line design' />
+                                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172278/sidhaTandi_nlsoam.png' alt="staright line design" title='staright line design' />
                                 <div className='tandi_nav'>
                                     <p onClick={tabAnother1} id='pex1'>Guidance and Assistance for React Native Apps</p>
                                     <p onClick={tabAnother2} id='pex2'>Powering Android & iOS with React Native</p>
@@ -367,10 +367,10 @@ const generateMetadata = ({ params }) => ({
 <ReactnativeHireFAQ/>
                 <div className="whtsApBtns">
                     <button onClick={whatAppHandler}>
-                        <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+                        <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172941/whatsapp_cowbb8.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
                     </button>
                     <button onClick={callHandler}>
-                        <Image src={call} alt="call-icon" title="call-icon" />
+                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172987/telephone_qjoh3j.png' alt="call-icon" title="call-icon" />
                     </button>
 
                 </div>

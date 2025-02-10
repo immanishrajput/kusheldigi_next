@@ -345,7 +345,7 @@ const generateMetadata = ({ params }) => ({
                         <div className="sing">
                             <div className="dedicated_singat">
                                 <div className="singi_img">
-                                    <Image src={frena1} alt="Dedicated development teanm" title='Dedicated development teanm' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172708/frena1_fbqxms.png' alt="Dedicated development teanm" title='Dedicated development teanm' />
                                     <h4>Dedicated <br /> development  team</h4>
                                 </div>
                                 <div className="singata-para">
@@ -354,7 +354,7 @@ const generateMetadata = ({ params }) => ({
                             </div>
                             <div className="dedicated_singat">
                                 <div className="singi_img">
-                                    <Image src={frena2} alt="Timely Completion" title='Timely Completion' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172747/frena2_vc7due.png' alt="Timely Completion" title='Timely Completion' />
                                     <h4>Timely Completion <br /> Assurance</h4>
                                 </div>
                                 <div className="singata-para">
@@ -363,7 +363,7 @@ const generateMetadata = ({ params }) => ({
                             </div>
                             <div className="dedicated_singat">
                                 <div className="singi_img">
-                                    <Image src={frena3} alt="Effortless Onboarding" title='Effortless Onboarding' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172781/frena3_a9dszs.png' alt="Effortless Onboarding" title='Effortless Onboarding' />
                                     <h4>Effortless Onboarding <br /> Process</h4>
                                 </div>
                                 <div className="singata-para">
@@ -374,7 +374,7 @@ const generateMetadata = ({ params }) => ({
                         <div className="sing">
                             <div className="dedicated_singat">
                                 <div className="singi_img">
-                                    <Image src={frena4} alt="Engagement Modes" title='Engagement Modes' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172821/frena4_pqxroh.png' alt="Engagement Modes" title='Engagement Modes' />
                                     <h4>Engagement Modes</h4>
                                 </div>
                                 <div className="singata-para">
@@ -383,7 +383,7 @@ const generateMetadata = ({ params }) => ({
                             </div>
                             <div className="dedicated_singat">
                                 <div className="singi_img">
-                                    <Image src={frena5} alt="No Hidden Costs" title='No Hidden Costs' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172853/frena5_mjqt2p.png' alt="No Hidden Costs" title='No Hidden Costs' />
                                     <h4>No Hidden Costs</h4>
                                 </div>
                                 <div className="singata-para">
@@ -392,7 +392,7 @@ const generateMetadata = ({ params }) => ({
                             </div>
                             <div className="dedicated_singat">
                                 <div className="singi_img">
-                                    <Image src={frena6} alt="Unhindered 24x7 " title='Unhindered 24x7 ' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172899/frena6_ku4rwu.png' alt="Unhindered 24x7 " title='Unhindered 24x7 ' />
                                     <h4>Unhindered 24x7 <br /> Support</h4>
                                 </div>
                                 <div className="singata-para">

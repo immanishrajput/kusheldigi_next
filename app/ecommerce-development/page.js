@@ -188,9 +188,9 @@ const USA = ({ notify }) => {
               >
                 <SplideSlide>
                   <Link href="/shopify"><div className="home4121">
-                    <Image
+                    <img
                       className=" block m-auto"
-                      src={a7}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739168276/a7_ve2lkd.png'
                       alt="Shopify" title="Shopify"
                     />
                     <p>Shopify</p>
@@ -198,9 +198,9 @@ const USA = ({ notify }) => {
                 </SplideSlide>
                 <SplideSlide>
                   <Link href="/woocommerce"><div className="home4121">
-                    <Image
+                    <img
                       className=" block m-auto"
-                      src={a5}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739168534/a5_dwu0as.png'
                       alt="Woo Commerce"
                       title="Woo Commerce"
                     />
@@ -209,9 +209,9 @@ const USA = ({ notify }) => {
                 </SplideSlide>
                 <SplideSlide>
                   <Link href="/bigcommerce-development"><div className="home4121">
-                    <Image
+                    <img
                       className=" block m-auto"
-                      src={bigcommercelogo}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169474/bigcommerce_logo_cemntj.png'
                       alt="Big Commerce"
                       title='Big Commerce'
                     />
@@ -220,9 +220,9 @@ const USA = ({ notify }) => {
                 </SplideSlide>
                 <SplideSlide>
                   <Link href="/magento"><div className="home4121">
-                    <Image
+                    <img
                       className=" block m-auto"
-                      src={a8}
+                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739168332/a8_fmbbmx.png'
                       alt="Magento"
                       title="Magento"
                     />
@@ -232,9 +232,9 @@ const USA = ({ notify }) => {
                 <SplideSlide>
                   <Link href="/wordpress">
                     <div className="home4121">
-                      <Image
+                      <img
                         className="block m-auto"
-                        src={b3}
+                        src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739168590/b3_amelfh.png'
                         alt="Wordpress"
                         title="Wordpress"
                       />
@@ -532,23 +532,23 @@ const USA = ({ notify }) => {
           </div>
           <div className="stacks-tex">
             <div className="stacks_shop">
-              <Image src={grinji1} alt="SHOPIFY" title="SHOPIFY" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169060/grinji1_unubef.png' alt="SHOPIFY" title="SHOPIFY" />
               <p>SHOPIFY</p>
             </div>
             <div className="stacks_shop">
-              <Image src={grinji2} alt="WOO COMMERCE" title="WOO COMMERCE" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169105/grinji2_jkfipe.png' alt="WOO COMMERCE" title="WOO COMMERCE" />
               <p>WOO COMMERCE</p>
             </div>
             <div className="stacks_shop">
-              <Image src={bigcommercelogo} alt="BIG COMMERCE" title="BIG COMMERCE" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169474/bigcommerce_logo_cemntj.png' alt="BIG COMMERCE" title="BIG COMMERCE" />
               <p>BIG COMMERCE</p>
             </div>
             <div className="stacks_shop">
-              <Image src={grinji4} alt="MAGENTO" title="MAGENTO" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169222/grinji4_rdtj9s.png' alt="MAGENTO" title="MAGENTO" />
               <p>MAGENTO</p>
             </div>
             <div className="stacks_shop">
-              <Image src={grinji5} alt="WORDPRESS" title="WORDPRESS" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169265/grinji5_qiimdq.png' alt="WORDPRESS" title="WORDPRESS" />
               <p>WORDPRESS</p>
             </div>
           </div>
@@ -558,7 +558,7 @@ const USA = ({ notify }) => {
           <h2>Why <span> eCommerce  Development</span> with <br />
             kushel digi solutions</h2>
           <div className="headings_para">
-            <Image src={ertia} alt="ecomerce design" title="ecomerce design" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739168235/ertia_kybfqs.png' alt="ecomerce design" title="ecomerce design" />
             <p>
               Selecting the right e-commerce development partner in the USA, particularly in cities like Chicago, is pivotal. <br />Seek companies that exhibit:
 
@@ -569,7 +569,7 @@ const USA = ({ notify }) => {
             <div className="ecoming_card">
               <div className="ecoming_box">
                 <div className="yt_img">
-                  <Image src={yt1} alt="Enhance Sales Potential" title="Enhance Sales Potential" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739168625/yt1_hrynze.png' alt="Enhance Sales Potential" title="Enhance Sales Potential" />
                 </div>
                 <div className="yt_heading">
                   <h3>Enhance Sales Potential</h3>
@@ -578,7 +578,7 @@ const USA = ({ notify }) => {
               </div>
               <div className="ecoming_box">
                 <div className="yt_img">
-                  <Image src={yt2} alt="Adaptable Scalability" title="Adaptable Scalability" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739168662/yt2_sqi8qz.png' alt="Adaptable Scalability" title="Adaptable Scalability" />
                 </div>
                 <div className="yt_heading">
                   <h3>Adaptable Scalability </h3>
@@ -587,7 +587,7 @@ const USA = ({ notify }) => {
               </div>
               <div className="ecoming_box">
                 <div className="yt_img">
-                  <Image src={yt3} alt="Draw In Customers" title="Draw In Customers" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739168724/yt3_azn7gd.png' alt="Draw In Customers" title="Draw In Customers" />
                 </div>
                 <div className="yt_heading">
                   <h3>Draw In Customers</h3>
@@ -598,7 +598,7 @@ const USA = ({ notify }) => {
             <div className="ecoming_card">
               <div className="ecoming_box">
                 <div className="yt_img">
-                  <Image src={yt4} alt="Boost System's Dependability" title="Boost System's Dependability" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739168775/yt4_mtbrrz.png' alt="Boost System's Dependability" title="Boost System's Dependability" />
                 </div>
                 <div className="yt_heading">
                   <h3>Boost System's Dependability </h3>
@@ -607,7 +607,7 @@ const USA = ({ notify }) => {
               </div>
               <div className="ecoming_box">
                 <div className="yt_img">
-                  <Image src={yt5} alt="Create Innovative Experiences" title="Create Innovative Experiences" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739168830/yt5_cccd74.png' alt="Create Innovative Experiences" title="Create Innovative Experiences" />
                 </div>
                 <div className="yt_heading">
                   <h3>Create Innovative Experiences</h3>
@@ -616,7 +616,7 @@ const USA = ({ notify }) => {
               </div>
               <div className="ecoming_box">
                 <div className="yt_img">
-                  <Image src={yt6} alt="Enhance Security Measures" title="Enhance Security Measures" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739168910/yt6_gvsvgn.png' alt="Enhance Security Measures" title="Enhance Security Measures" />
                 </div>
                 <div className="yt_heading">
                   <h3>Enhance Security Measures </h3>
@@ -627,7 +627,7 @@ const USA = ({ notify }) => {
             <div className="ecoming_card">
               <div className="ecoming_box">
                 <div className="yt_img">
-                  <Image src={yt7} alt="Fuel Up  Business " title="Fuel Up  Business " />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739168954/yt7_low4g0.png' alt="Fuel Up  Business " title="Fuel Up  Business " />
                 </div>
                 <div className="yt_heading">
                   <h3>Fuel Up  Business </h3>
@@ -636,7 +636,7 @@ const USA = ({ notify }) => {
               </div>
               <div className="ecoming_box">
                 <div className="yt_img">
-                  <Image src={yt8} alt="Enhance Conversion Metrics" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739168995/yt8_qvm6zm.png' alt="Enhance Conversion Metrics" />
                 </div>
                 <div className="yt_heading">
                   <h3>Enhance Conversion Metrics</h3>
@@ -645,7 +645,7 @@ const USA = ({ notify }) => {
               </div>
               <div className="ecoming_box">
                 <div className="yt_img">
-                  <Image src={yt9} alt="yt" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169029/yt9_nqppgm.png' alt="yt" />
                 </div>
                 <div className="yt_heading boosttt">
                   <h3>Boost Purchase Sizes </h3>
@@ -659,7 +659,7 @@ const USA = ({ notify }) => {
         <div className="sureee">
           <div className="suris dine-1234">
             <div className="frtsa">
-              <Image src={frtsa} alt="Not sure where to start?" title="Not sure where to start?" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169299/frtsa_gjyxmk.png' alt="Not sure where to start?" title="Not sure where to start?" />
             </div>
             <div className="suris_tech">
               <div className="suris_tech_left ">
@@ -696,7 +696,7 @@ const USA = ({ notify }) => {
         <div className="meet_theCom dine-123">
           <div className="theCom_left">
             <div className="lojo1">
-              <Image src={lojoFrame} alt="ecomerce desigsn" title="ecomerce desigsn" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169343/lojoFrame_nulunu.png' alt="ecomerce desigsn" title="ecomerce desigsn" />
             </div>
             {/* <img className="lojokk" src={lojo} alt="Our bussiness development team" title="Our bussiness development team" /> */}
             <img className="lojokk" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724756984/Rectangle_18259_blnpsx.png" alt="Our bussiness development team" title="Our bussiness development team" />
@@ -895,10 +895,10 @@ const USA = ({ notify }) => {
         {/*  buttons  */}
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991783/telephone_k9aecl.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>
