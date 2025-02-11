@@ -147,6 +147,9 @@ const ContactForm1 = ({ notify }) => {
                   onChange={handleChange}
                   type="text"
                   placeholder="First Name*"
+                  maxlength="45"
+                  onInput={(e) => e.target.value = e.target.value.replace(/[^A-Za-z]/g, '')}
+                  
                 />
                 <input
                   name="lastName"
@@ -155,6 +158,8 @@ const ContactForm1 = ({ notify }) => {
                   onChange={handleChange}
                   type="text"
                   placeholder="Last Name*"
+                  maxlength="45"
+                  onInput={(e) => e.target.value = e.target.value.replace(/[^A-Za-z]/g, '')}
                 />
               </div>
 
@@ -167,6 +172,7 @@ const ContactForm1 = ({ notify }) => {
                   value={value1.phone}
                   name="phone"
                   placeholder="Enter your phone"
+                   maxlength="10"
                   onChange={phone => {
                     setValue1({ phone });
                   }}
@@ -199,19 +205,19 @@ const ContactForm1 = ({ notify }) => {
                 name="service"
                 id="service"
                 required
-                value={value.service}
+                value={value.service || ""}
                 onChange={handleChange}
                 className="selectSERVICE"
               >
-                <option>Services*</option>
-                <option>UI/UX Design</option>
-                <option>E - Commerce Solutions</option>
-                <option>Web development</option>
-                <option>Mobile App Development</option>
-                <option>Digital Marketing</option>
-                <option>Graphic Design</option>
-                <option>Staff Augmntation</option>
-                <option>Other</option>
+                <option value="">Services*</option>
+                <option value="UI/UX Design">UI/UX Design</option>
+                <option value="E - Commerce Solutions">E - Commerce Solutions</option>
+                <option value="Web development">Web development</option>
+                <option value="Mobile App Development">Mobile App Development</option>
+                <option value="Digital Marketing">Digital Marketing</option>
+                <option  value="Graphic Design">Graphic Design</option>
+                <option value="Staff Augmentation">Staff Augmntation</option>
+                <option  value="Other">Other</option>
 
               </select>
 
