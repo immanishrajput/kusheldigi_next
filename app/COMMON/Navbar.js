@@ -21,6 +21,7 @@ import { useRouter } from "next/navigation";
 const data = [
   {
     title: "About",
+    navigate:"/about",
     subpart: [
       {
         title: "Careers",
@@ -34,6 +35,7 @@ const data = [
   },
   {
     title: "Services",
+    navigate:"/service",
     subpart: [
       {
         title: "Mobile App Development",
@@ -199,6 +201,7 @@ const data = [
   },
   {
     title: "Hire",
+    navigate:"/hire",
     subpart: [
       {
         title: "Hire PHP Developer",
@@ -731,13 +734,13 @@ const Navbar = () => {
                         <p
                           onClick={() => {
                             if (item?.subpart?.length > 0) {
-                              // navigate(item.navigate);
+                              router.push(item.navigate);
                             } else {
-                              navigate(item.navigate);
+                              router.push(item.navigate);
                               setToggle(false);
                               document
                                 .querySelector(".mob-nav2")
-                                .classList.toggle("mob-nav2-active");
+                                .classList?.toggle("mob-nav2-active");
                             }
                           }}
                           className={` cursor-pointer ${
@@ -771,17 +774,17 @@ const Navbar = () => {
                               <h4
                                 onClick={() => {
                                   if (item2?.subpart?.length > 0) {
-                                    navigate(item2.navigate);
+                                    router.push(item2.navigate);
                                     setToggle(false);
                                     document
                                       .querySelector(".mob-nav2")
-                                      .classList.toggle("mob-nav2-active");
+                                      .classList?.toggle("mob-nav2-active");
                                   } else {
-                                    navigate(item2.navigate);
+                                    router.push(item2.navigate);
                                     setToggle(false);
                                     document
                                       .querySelector(".mob-nav2")
-                                      .classList.toggle("mob-nav2-active");
+                                      .classList?.toggle("mob-nav2-active");
                                   }
                                 }}
                                 className="sinh4 cursor-pointer"
@@ -793,11 +796,11 @@ const Navbar = () => {
                                   {item2?.subpart?.map((item3, index3) => (
                                     <p
                                       onClick={() => {
-                                        navigate(item3.navigate);
+                                        router.push(item3.navigate);
                                         setToggle(false);
                                         document
                                           .querySelector(".mob-nav2")
-                                          .classList.toggle("mob-nav2-active");
+                                          .classList?.toggle("mob-nav2-active");
                                       }}
                                       key={index3}
                                       className="cursor-pointer"
