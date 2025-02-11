@@ -127,14 +127,14 @@ const Magento = () => {
           <div className="news_cards">
             <div className="megento_new2">
               <div className="megento_new3">
-                <Image className="g1-img" src={g11} alt="Magento Enterprise Edition" title="Magento Enterprise Edition" />
+                <img className="g1-img" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739254369/g1_zigloc.png' alt="Magento Enterprise Edition" title="Magento Enterprise Edition" />
                 <h3>Magento Enterprise Edition</h3>
                 <p>
                   Magento Enterprise Edition offers advanced functionalities and scalability, designed for medium to large enterprises in need of utmost effective ecommerce solutions.
                 </p>
               </div>
               <div className="megento_new3">
-                <Image className="g1-img" src={g12} alt=" Magento Community Edition" title=" Magento Community Edition" />
+                <img className="g1-img" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739254399/g2_zshlfm.png' alt=" Magento Community Edition" title=" Magento Community Edition" />
                 <h3> Magento Community Edition</h3>
                 <p>
                   This is a free version offered by Magento but is filled with a
@@ -143,7 +143,7 @@ const Magento = () => {
                 </p>
               </div>
               <div className="megento_new3">
-                <Image className="g1-img" src={g13} alt="Magento Extension Development" title="Magento Extension Development" />
+                <img className="g1-img" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739254429/g3_xfgiof.png' alt="Magento Extension Development" title="Magento Extension Development" />
                 <h3> Magento Extension Development</h3>
                 <p>
                   The development of Magento Extension allows creating custom functionalities. As well as integrations specifically for any business requirements  based web-stores more robust.
@@ -152,21 +152,21 @@ const Magento = () => {
             </div>
             <div className="megento_new4">
               <div className="megento_new3">
-                <Image className="g1-img" src={g14} alt="Magento Theme Developmen" title="Magento Theme Developmen" />
+                <img className="g1-img" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739254458/g4_edhftj.png' alt="Magento Theme Developmen" title="Magento Theme Developmen" />
                 <h3>Magento Theme Development</h3>
                 <p>
                   Magento theme Development gives businesses the ability to build visually attractive and user-friendly store fronts that represent the company brands and appeal to their target consumer group.
                 </p>
               </div>
               <div className="megento_new3">
-                <Image className="g1-img" src={g15} alt="Magento Customization" title="Magento Customization" />
+                <img className="g1-img" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739254487/g5_k7wauq.png' alt="Magento Customization" title="Magento Customization" />
                 <h3> Magento Customization</h3>
                 <p>
                   Magento customisation enables businesses to personalise their e-commerce stores so that customers can receive a distinctive and customised online shopping.
                 </p>
               </div>
               <div className="megento_new3">
-                <Image className="g1-img" src={g16} alt="Magento Commerce" title="Magento Commerce" />
+                <img className="g1-img" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739254523/g6_vrvjxv.png' alt="Magento Commerce" title="Magento Commerce" />
                 <h3>Magento Commerce</h3>
                 <p>
                   Magento Commerce offers the enterprise-level features, scalability and support for businesses to maximise their online ventures and gain edge in the digital global market.
@@ -205,12 +205,12 @@ const Magento = () => {
           <div className="server_merging">
             <div className="server_mergs">
               <div className="server_meg">
-                <Image src={poli1} alt="Consulting" title="Consulting" className="p22" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739254591/poli1_vgujs3.png' alt="Consulting" title="Consulting" className="p22" />
                 <h3>Consulting</h3>
                 <p>Magento consulting services provide businesses with strategic know-how and professional guidance to fully achieve the potential of this e-commerce platform. Our expeerts offer customised options that address specific business objectives </p>
               </div>
               <div className="server_meg_2">
-                <Image src={poli2} alt="Customization" title="Customization" className="p22" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739254636/poli2_o6urxj.png' alt="Customization" title="Customization" className="p22" />
                 <h3>Customization</h3>
                 <p>With Magento customisation solutions, companies can have their e-commerce platforms customised to their exact specifications and corporate identity. Businesses may streamline and customise their consumers' online purchasing experience</p>
               </div>
@@ -258,21 +258,21 @@ const Magento = () => {
           <div className="old_cards">
             <div className="megento_old2">
               <div className="megento_old3">
-                <Image className="n1-img" src={nn1} alt="Expertise and experience" title="Expertise and experience" />
+                <img className="n1-img" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739254074/n1_fqgi2b.png' alt="Expertise and experience" title="Expertise and experience" />
                 <h3>Expertise and experience</h3>
                 <p>
                   A team of enthusiastic developers in our company has been working on Magento modifications and extensions for at least ten years.
                 </p>
               </div>
               <div className="megento_old3">
-                <Image className="n1-img" src={nn2} alt="Customized solutions" title="Customized solutions" />
+                <img className="n1-img" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739254126/n2_nzrpqy.png' alt="Customized solutions" title="Customized solutions" />
                 <h3>Customized solutions</h3>
                 <p>
                   The personalised e-commerce solutions help online stores to dance to their own tunes for improving both the scalability and the overall functionality by specifying the features that fully suit their business objectives.
                 </p>
               </div>
               <div className="megento_old3">
-                <Image className="n1-img" src={nn3} alt="Comprehensive services" title="Comprehensive services" />
+                <img className="n1-img" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739254157/n3_u9wjzn.png' alt="Comprehensive services" title="Comprehensive services" />
                 <h3> Comprehensive services</h3>
                 <p>
                   We offer Magento development services that cover a broad spectrum. It comprises UK and US Magento website development and customisation.
@@ -281,7 +281,7 @@ const Magento = () => {
             </div>
             <div className="megento_old4">
               <div className="megento_old3">
-                <Image className="n1-img" src={nn4} alt="Quality and reliability" title="Quality and reliability" />
+                <img className="n1-img" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739254190/n4_u7nco3.png' alt="Quality and reliability" title="Quality and reliability" />
                 <h3>Quality and reliability</h3>
                 <p>
                   We’re committed to delivering high-
@@ -292,7 +292,7 @@ const Magento = () => {
                 </p>
               </div>
               <div className="megento_old3">
-                <Image className="n1-img" src={nn5} alt="Transparency and communication" title="Transparency and communication" />
+                <img className="n1-img" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739254224/n5_eub3n2.png' alt="Transparency and communication" title="Transparency and communication" />
                 <h3> Transparency and communication</h3>
                 <p>
                   We offer regular updates and progress
@@ -302,7 +302,7 @@ const Magento = () => {
                 </p>
               </div>
               <div className="megento_old3">
-                <Image className="n1-img" src={nn6} alt="Security" title="Security" />
+                <img className="n1-img" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739254295/n6_zzafi6.png' alt="Security" title="Security" />
                 <h3>Security</h3>
                 <p>
                   Your website security is well protected by
@@ -315,21 +315,21 @@ const Magento = () => {
             <div className="megento_old5">
 
               <div className="megento_old3">
-                <Image className="n1-img" src={nn5} alt="nnQuality assurance" title="Quality assurance" />
+                <img className="n1-img" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739254224/n5_eub3n2.png' alt="nnQuality assurance" title="Quality assurance" />
                 <h3>Quality assurance</h3>
                 <p>
                   Quality is above everything else that we value, as we are putting every project through such stringent stages of inspection and control that every project conforms to the best standards.
                 </p>
               </div>
               <div className="megento_old3">
-                <Image className="n1-img" src={nn6} alt="Flexible pricing" title="Flexible pricing" />
+                <img className="n1-img" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739254295/n6_zzafi6.png' alt="Flexible pricing" title="Flexible pricing" />
                 <h3> Flexible pricing</h3>
                 <p>
                   You will not have to worry about money since the conversion of our module is available in different packages and you can pick the suitable one for your needs.
                 </p>
               </div>
               <div className="megento_old3">
-                <Image className="n1-img" src={nn7} alt="Dedicated support" title="Dedicated support" />
+                <img className="n1-img" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739254340/n7_rlwohd.png' alt="Dedicated support" title="Dedicated support" />
                 <h3>Dedicated support</h3>
                 <p>
                   The service offers to every customer personalised assistance helps the issues to be resolved timely thus ensuring trust, reliability and customer satisfaction for all.
@@ -416,7 +416,7 @@ const Magento = () => {
             <SplideSlide>
               <div className="kickta_big kickta_mag2">
                 <div className="kickta_big1 kickta_magst2">
-                  <Image src={ghiradel} alt="ghirardelli" title="ghirardelli" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739254553/ghiradel_oct0yq.png' alt="ghirardelli" title="ghirardelli" />
                   <div className="headst_big">
                     <h3>Customize your‘S<br />mores with<br />ghirardelli</h3>
                   </div>

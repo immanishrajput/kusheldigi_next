@@ -109,7 +109,7 @@ const Kotlin = () => {
             </button></Link>
           </div>
           <div className="bigCommerce-back2 ">
-            <Image className="bigcompt kotling" src={koting} alt="Kotlin android development services" title="Kotlin android development services" />
+            <img className="bigcompt kotling" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253848/koting_nmkhjx.png' alt="Kotlin android development services" title="Kotlin android development services" />
           </div>
         </div>
         </div>
@@ -253,7 +253,7 @@ const Kotlin = () => {
 
         <div className="support-image dine-123">
           <div className="support-img1">
-            <Image src={mobilet} alt="kotlin mobile app using" title="kotlin mobile app using" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253890/mobilet_zzaiqg.png' alt="kotlin mobile app using" title="kotlin mobile app using" />
           </div>
           <div className="support-img2">
             <h2>
@@ -669,7 +669,7 @@ const Kotlin = () => {
 
         <div className="profis-kotlin">
           <div className="profis-kotlin1">
-            <Image src={proffessional} alt="Excellent for mobile" title="Excellent for mobile" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253928/proffessional_okouqw.png' alt="Excellent for mobile" title="Excellent for mobile" />
           </div>
           <div className="profis-kotlin2">
             <h2>Excellent for mobile: no necessity to introduce a novel language
@@ -705,7 +705,7 @@ const Kotlin = () => {
               </button>  </Link>
           </div>
           <div className="kotlin-platform2">
-            <Image src={kotliny} alt="kotlin platform" title="kotlin platform" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253972/kotliny_mjttid.png' alt="kotlin platform" title="kotlin platform" />
           </div>
         </div>
         </div>
@@ -793,10 +793,10 @@ const Kotlin = () => {
          <KotlinFAQ/>
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172941/whatsapp_cowbb8.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172987/telephone_qjoh3j.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

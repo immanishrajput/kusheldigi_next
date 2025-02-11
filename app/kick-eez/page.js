@@ -122,7 +122,7 @@ useEffect(() => {
           <div className="MadFish-back">
             <div className="MadFish-back1">
               <div className="MadFish_press_head">
-                <Image src={madlogooooo} alt="madlogooooo" />              
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253403/madlogooooo_be7bvx.png' alt="madlogooooo" />              
               </div>
               <div className="MadFish_press_para">
                 <p>
@@ -135,7 +135,7 @@ useEffect(() => {
               </div>
             </div>
             <div className="MadFish-back2">
-              <Image src={matsection} alt="MadFish" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253359/matsection_gir7lg.png' alt="MadFish" />
             </div>
           </div>
         </div>
@@ -148,11 +148,11 @@ useEffect(() => {
                   <p>UX/UI Website Design</p>
                 </div>
                 <div className="bepolo">
-                  <Image src={img5} id="web-safari" alt="img"></Image>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253073/Group_1000004715_fmnfpj.png' id="web-safari" alt="img"></img>
                   <p>Website Development</p>
                 </div>
                 <div className="bepolo">
-                  <Image src={img6} id="qa-safari" alt="img"></Image>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253113/Group_1000004716_iwby0b.png' id="qa-safari" alt="img"></img>
                   <p>QA & Website Testing</p>
                 </div>
               </div>
@@ -167,21 +167,21 @@ useEffect(() => {
             <div className="three-section-lab">
               <div className="double-camp">
                 <div className="on-img">
-                  <Image src={img7} id="pads-cats" alt="img"></Image>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253152/Aboust_us_sx_1_vrzkbk.png' id="pads-cats" alt="img"></img>
                 </div>
                 <div className="too-img">
-                  <Image src={img9} id="pads-cats" alt="img"></Image>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253222/Aboust_us_Header_1_nx4wfj.png' id="pads-cats" alt="img"></img>
                 </div>
               </div>
               <div className="single_big">
-                <Image src={img8} id="pads-cats" alt="img"></Image>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253186/HOME_2_1_bu8ods.png' id="pads-cats" alt="img"></img>
               </div>
               <div className="triple-badge">
                 <div className="five-cross">
                   <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180966/Group_1000006637_l5pmu6.png' id="pads-cats" alt="img"></img>
                 </div>
                 <div className="login-faire">
-                  <Image src={img11} id="pads-cats" alt="img"></Image>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253255/Login_Screen_1_1_je822c.png' id="pads-cats" alt="img"></img>
                 </div>
               </div>
             </div>
@@ -208,13 +208,13 @@ useEffect(() => {
               </div>
               <div className="sub-worm">
                 <p className="tool">Tools Use</p>
-                <Image src={img13} id="pals-circle" alt="img"></Image>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253323/Group_1000006500_1_tntuqq.png' id="pals-circle" alt="img"></img>
               </div>
             </div>
           </div>
           <div className="right-card-omega">
             <p>Color Plate</p>
-            <Image src={img12} id="gang" alt="img" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253286/Group_1000006505_1_ez6xxs.png' id="gang" alt="img" />
           </div>
         </div>{" "}
       
@@ -484,10 +484,10 @@ useEffect(() => {
                {/*  buttons  */}
                <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172941/whatsapp_cowbb8.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172987/telephone_qjoh3j.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>
