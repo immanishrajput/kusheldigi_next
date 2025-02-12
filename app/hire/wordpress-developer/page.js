@@ -205,7 +205,7 @@ const HireWordpress = () => {
                 <div className="get_in_php dine-1234">
                     <div className="get_mig">
                         <hr className="get_mig1" />
-                        <button onClick={()=>navigate("/contact-us")}>Sehedule a call with our Wordpress Developers</button>
+                        <button onClick={()=>router.push("/contact-us")}>Sehedule a call with our Wordpress Developers</button>
                         <hr className="get_mig2" />
                     </div>
                     <div className="engag_mod">

@@ -32560,7 +32560,7 @@ max-width: 34em;
 
       .bestSol_box img{
         width: 300px;
-      
+     
     }
 
 
@@ -39707,7 +39707,8 @@ width: 360px;
   font-size: 27.5px;
   line-height: 40px;
   font-weight: 500;
-  width: 24em
+  width: 24em;
+  text-transform: initial;
 }
 
 .first-ecom p {
@@ -65072,7 +65073,8 @@ wordpress_cater_box p {
 .about-btn:hover {
     background-color: #fff;
     border: 1px solid #0039ff;
-    color: #0B56E4
+    color: #0B56E4;
+    display: flex;
 }
 
 .about11 button {
@@ -73759,7 +73761,8 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .start_collapse {
-        flex-wrap: wrap
+        /* flex-wrap: wrap */
+        flex-direction: column;
     }
 
     .start_collapse p {
@@ -78441,7 +78444,8 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .who_left h4 {
-        font-size: 20px
+        font-size: 20px;
+        padding-top: 12px;
     }
 
     .who_cho_left {
@@ -78658,7 +78662,8 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .about-btn {
-        font-size: 14px !important
+        font-size: 14px !important;
+        display: flex;
     }
 
     .about-main4 {
@@ -79258,7 +79263,8 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
 
     .native-benifits1 h2 {
         font-size: 25px;
-        line-height: 32px
+        line-height: 32px;
+        text-align: center;
     }
 
     .native-boxs p {

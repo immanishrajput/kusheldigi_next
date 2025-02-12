@@ -46,7 +46,7 @@ const Solution = () => {
     });
   };
  const generateMetadata = ({ params }) => ({
-    title: 'Case Studies of Kushel Digi Solutions ',
+    title: 'eCommerce Solutions for Every Industry | Kushel Digi Solutions',
     description: 'Kushel Digi Solutions is most trusted Web Development company with 2000+ Satisfied clients across the globe.',
   });
   

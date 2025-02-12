@@ -91,6 +91,7 @@ const ContactForm = ({ notify }) => {
                       onChange={handleChange}
                       type="text"
                       placeholder="Name*"
+                      maxLength="32"
                     />
                   </div>
                   <div className="form-field mt-5">

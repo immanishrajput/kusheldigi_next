@@ -144,7 +144,7 @@ console.log("featuredBlog" , featuredBlog);
 
   },[filterBlog , allCatBlogs])
   const generateMetadata = ({ params }) => ({
-     title: 'Case Studies of Kushel Digi Solutions ',
+     title: 'eCommerce Growth & Development | Kushel Digi Solutions Blog',
      description: 'Kushel Digi Solutions is most trusted Web Development company with 2000+ Satisfied clients across the globe.',
    });
    

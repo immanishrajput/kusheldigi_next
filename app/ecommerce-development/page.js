@@ -251,7 +251,7 @@ const USA = ({ notify }) => {
 
           <div className="ecomm dine-123">
             <div className="first-ecom ecommerce-text">
-              <h2 className="mt-8"> Navigating the  <span>Intricacies of the</span>   the USA's Market for Ecommerce Development Services</h2>
+              <h2 className="mt-8"> Navigating the  <span>Intricacies of </span>   the USA's Market for Ecommerce Development Services</h2>
 
               <p>
                 In the rapidly evolving digital era, the demand for robust ecommerce website creation services is escalating, particularly within the dynamic economies of developed nations like the USA. Businesses, ranging from startups to well-established enterprises, seek proficient services to construct online stores that are intuitive, effective, and visually arresting. This surge is notably conspicuous in bustling urban hubs such as Chicago, where ecommerce development services are not merely a luxury but a vital component for the survival and expansion of businesses.

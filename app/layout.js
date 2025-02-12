@@ -1,9 +1,10 @@
 
 // app/layout.js
 export const metadata = {
-  title: 'Kushel Digi Solutions - Best Ecommerce Development Company',
-  description:
-    'Kushel Digi Solutions- Best E-commerce web Development Company that helps you attract massive traffic towards your website through our digital marketing.',
+  title: ' Kushel Digi Solutions | Expert eCommerce Development Service',
+  description:'Kushel Digi Solutions has over 8 years of experience in Shopify, BigCommerce, and custom eCommerce solutions to deliver high performing online stores'
+  ,
+  
     
 };
 

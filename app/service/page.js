@@ -37,7 +37,7 @@ const callHandler=()=>{
 
 const Service = () => {
   const generateMetadata = ({ params }) => ({
-    title: 'Service - Kushel Digi Solutions Ecommerce Web Development Company',
+    title: 'eCommerce Solutions | Shopify & BigCommerce Experts',
     description: 'Kushel Digi Solutions is most trusted Web Development company with 2000+ Satisfied clients across the globe.',
   });
   

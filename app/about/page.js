@@ -141,8 +141,8 @@ const About = ({ notify }) => {
   };
 
   const generateMetadata = ({ params }) => ({
-    title: 'About - Kushel Digi Solutions Ecommerce Web Development Company',
-    description: 'Kushel Digi Solutions is most trusted Web Development company with 2000+ Satisfied clients across the globe.',
+    title: 'About Kushel Digi Solutions | eCommerce Development Experts',
+    description: 'E-commerce Website Development',
   });
   
   useEffect(() => {

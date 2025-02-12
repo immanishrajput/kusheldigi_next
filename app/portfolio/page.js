@@ -558,7 +558,7 @@ const Portfolio = () => {
 
   const filteredCaseStudies = filteredCategory === "All" ? caseStudies : filteredCategory === "ecommerce" ? caseStudies.filter((data) => data.category.includes(filteredCategory.toLowerCase())).reverse() : caseStudies.filter((data) => data.category.includes(filteredCategory.toLowerCase()));
   const generateMetadata = ({ params }) => ({
-    title: 'Case Studies of Kushel Digi Solutions ',
+    title: 'Our eCommerce Projects | Kushel Digi Solutions Portfolio',
     description: 'Kushel Digi Solutions is most trusted Web Development company with 2000+ Satisfied clients across the globe.',
   });
 

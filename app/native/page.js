@@ -195,7 +195,7 @@ const generateMetadata = ({ params }) => ({
         <div className="native-benifits dine-123">
           <div className="native-benifits1">
             <h2>
-              React Native Benefits Go Beyond <br /> Cost-Saving
+              React Native Benefits Go Beyond Cost-Saving
             </h2>
             <Image className="ftp" src={androidSis} alt=" React Native Benefits Go Beyond" title=" React Native Benefits Go Beyond" />
             <p>
