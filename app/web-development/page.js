@@ -314,7 +314,7 @@ const generateMetadata = ({ params }) => ({
             </div>
             <div onClick={ChangeImage4} className="thir_img">
               <p>SEO Service</p>
-              <Image id="img4" src={thir2} alt="SEO Service" title="SEO Service" />
+              <Image id="img4" src={thir1} alt="SEO Service" title="SEO Service" />
             </div>
             <div onClick={ChangeImage5} className="thir_img" >
               <p>Website Maintenance</p>
@@ -622,7 +622,7 @@ const generateMetadata = ({ params }) => ({
                     </div>
                     <div className="homeswar-sect1">
 
-                      <button>Details</button>
+                      {/* <button>Details</button> */}
 
 
                       <a target="_blank" href="https://skknbykim.com/" rel="noopener">
@@ -641,7 +641,7 @@ const generateMetadata = ({ params }) => ({
                     </div>
                     <div className="homeswar-sect1">
 
-                      <button>Details</button>
+                      {/* <button>Details</button> */}
 
                       <a target="_blank" href="https://mpmoverseas.com/" rel="noopener">
                         <p>visit site</p>
@@ -657,7 +657,7 @@ const generateMetadata = ({ params }) => ({
                     </div>
                     <div className="homeswar-sect1">
 
-                      <button>Details</button>
+                      {/* <button>Details</button> */}
 
                       <a target="_blank" href="https://www.doliwala.com/" rel="noopener">
                         <p>visit site</p>
@@ -675,7 +675,7 @@ const generateMetadata = ({ params }) => ({
                     </div>
                     <div className="homeswar-sect1">
 
-                      <button>Details</button>
+                      {/* <button>Details</button> */}
 
 
                       <a target="_blank" href="https://spinning.com/" rel="noopener">
@@ -692,7 +692,7 @@ const generateMetadata = ({ params }) => ({
                     </div>
                     <div className="homeswar-sect1">
 
-                      <button>Details</button>
+                      {/* <button>Details</button> */}
 
                       <a target="_blank" href="https://speckproducts.com/" rel="noopener">
                         <p>visit site</p>
@@ -708,7 +708,7 @@ const generateMetadata = ({ params }) => ({
                     </div>
                     <div className="homeswar-sect1">
 
-                      <button>Details</button>
+                      {/* <button>Details</button> */}
 
                       <a target="_blank" href="https://www.bulletproof.com/" rel="noopener">
                         <p>visit site</p>

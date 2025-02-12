@@ -23736,6 +23736,9 @@ color: #222222;
     gap: 10px;
     justify-content: center;
 }
+.bs8itemsLink{
+  text-align: center !important;
+}
 .bigs8single h5{
     font-family: Poppins;
     font-size: 20px;
@@ -31830,11 +31833,12 @@ color: #FFFFFF;
 
 .bigheacont2 button{
     max-width: 200px;
-height: 48px;
+/* height: 48px; */
 width: 100%;
 border-radius: 32px ;
 border: 1px solid #FFFFFF;
 transition: all 0.4s;
+padding: 10px;
 }
 
 .bigheacont2 button:hover{
@@ -60606,7 +60610,8 @@ option {
   font-size: 17px;
   font-family: 'Poppins', sans-serif !important;
   font-weight: 800;
-  color: #101010
+  color: #101010;
+  line-height: 50px;
 }
 
 #hemesh-services .services-card-3 p {

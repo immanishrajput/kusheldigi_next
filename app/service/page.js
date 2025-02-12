@@ -327,7 +327,7 @@ const Service = () => {
                       business and their online presece thanks to our expertise
                       in user experience design(UX).
                     </p>
-                    <h3>Read More</h3>
+                <Link href="ui-ux-design">  <h3>Read More</h3> </Link>  
                     <div className="underline1">
                       <hr />
                     </div>
@@ -367,7 +367,7 @@ const Service = () => {
                       ,particularly within the dynamic economies of developed
                       nations like USA.
                     </p>
-                    <h3>Read More</h3>
+                 <Link href="ecommerce-development">  <h3>Read More</h3></Link> 
                     <div className="underline1">
                       <hr />
                     </div>
@@ -485,7 +485,7 @@ const Service = () => {
                   likewise to salesperson ,discussing your goods and services
                   and highlighting situations in which you surpass.
                 </p>
-                <h3>Read More</h3>
+             <Link href="web-development"> <h3>Read More</h3></Link>  
                 <div className="underline1">
                   <hr />
                 </div>
@@ -540,7 +540,7 @@ const Service = () => {
                   solutions to our clients that are not only carrying out but
                   also ingenious.
                 </p>
-                <h3>Read More</h3>
+              <Link href="digital-marketing-agency"> <h3>Read More</h3></Link> 
                 <div className="underline1">
                   <hr />
                 </div>

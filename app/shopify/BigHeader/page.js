@@ -1,4 +1,5 @@
 "use client"
+import Link from 'next/link'
 import React from 'react'
 // import "./header.css"
 
@@ -13,7 +14,7 @@ function BigHeader() {
          <h3>Your Trusted Partner in Shopify Store Development  Shopify Solutions For Your E-Commerce Success
          </h3>
 
-         <button><span>WORK WITH US</span></button>
+        <Link href="contact-us" className='bs8itemsLink'><button><span>WORK WITH US</span></button></Link> 
 
             
         </div>
