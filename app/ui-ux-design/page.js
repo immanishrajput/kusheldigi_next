@@ -5,6 +5,8 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import full from "../../public/assets/full.png";
 import full1 from "../../public/assets/full1.png";
+import Head from 'next/head';
+
 import full2 from "../../public/assets/full2.png";
 import full3 from "../../public/assets/full3.png";
 import pathji from "../../public/assets/pathji.png";

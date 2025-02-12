@@ -2,6 +2,8 @@
 import React,{useState,useEffect} from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
+import Head from 'next/head';
+
 import arrow4 from "../../public/assets/arrow4.png";
 import rel1 from "../../public/assets/rel1.png";
 import rel2 from "../../public/assets/rel2.png";

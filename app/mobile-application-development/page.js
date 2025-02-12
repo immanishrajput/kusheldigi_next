@@ -6,6 +6,8 @@ import swiftjs from "../../public/assets/swiftjs.png";
 import kotlinjs from "../../public/assets/kotlinjs.png";
 import java from "../../public/assets/java.png";
 // import MobileImage from "../../public/assets/MobileImage.png";
+import Head from 'next/head';
+
 // import doubleMob from "../../public/assets/doubleMob.png";
 // import { NavLink } from "react-router-dom";
 import Link from "next/link";

@@ -7,6 +7,8 @@ import pinnak1 from '../../public/assets/pinnak1.png';
 import pinnak2 from '../../public/assets/pinnak2.png';
 import pinnak3 from '../../public/assets/pinnak3.png';
 import pinnak4 from '../../public/assets/pinnak4.png';
+import Head from 'next/head';
+
 import pinnak5 from '../../public/assets/pinnak5.png';
 import pinnak6 from '../../public/assets/pinnak6.png';
 import recy from '../../public/assets/recy.png';

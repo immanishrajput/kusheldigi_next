@@ -6,6 +6,8 @@ import mobilet from "../../public/assets/mobilet.png";
 import proffessional from "../../public/assets/proffessional.png";
 import kotliny from "../../public/assets/kotliny.png";
 import Image from "next/image";
+import Head from 'next/head';
+
 import '../globals.css'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";

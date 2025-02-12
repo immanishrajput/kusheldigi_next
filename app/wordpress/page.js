@@ -17,6 +17,8 @@ import React, { useEffect, useState } from 'react';
 // import call from "../../public/assets/telephone.png"
 // import npp2 from '../../public/assets/npp2.avif';
 import npp3 from '../../public/assets/npp3.avif';
+import Head from 'next/head';
+
 import npp4 from '../../public/assets/npp4.avif';
 import npp5 from '../../public/assets/npp5.avif';
 import npp6 from '../../public/assets/npp6.avif';

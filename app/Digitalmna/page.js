@@ -9,6 +9,8 @@ import rel2 from "../../public/assets/rel2.png";
 import rel3 from "../../public/assets/rel3.png";
 // import { NavLink } from "react-router-dom";
 import Link from "next/link";
+import Head from 'next/head';
+
 import pt4 from "../../public/assets/mnaServices-3 1.png";
 import pt5 from "../../public/assets/mnaHome Page 1.png";
 import pt6 from "../../public/assets/mnaAbout us.png";

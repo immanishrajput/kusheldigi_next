@@ -7,6 +7,8 @@ import nn4 from "../../public/assets/n4.png";
 import nn5 from "../../public/assets/n5.png";
 import nn6 from "../../public/assets/n6.png";
 import nn7 from "../../public/assets/n7.png";
+import Head from 'next/head';
+
 import g11 from "../../public/assets/g1.png";
 import g12 from "../../public/assets/g2.png";
 import g13 from "../../public/assets/g3.png";

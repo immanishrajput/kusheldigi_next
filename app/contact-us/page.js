@@ -6,6 +6,8 @@ import whatsApp from "../../public/assets/whatsapp.png";
 import call from "../../public/assets/telephone.png";
 import '../globals.css';
 import Navbar from "../COMMON/Navbar";
+import Head from 'next/head';
+
 import Footer from "../COMMON/Footer";
 const Contact = () => {
   const phoneNumber = "9045301702";

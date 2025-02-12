@@ -5,6 +5,8 @@ import whatsApp from "../../public/assets/whatsapp.png";
 import call from "../../public/assets/telephone.png"
 import Image from "next/image";
 import Navbar from "../COMMON/Navbar";
+import Head from 'next/head';
+
 import '../globals.css'
 import Footer from "../COMMON/Footer";
 const Terms = () => {

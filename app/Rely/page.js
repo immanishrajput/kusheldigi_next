@@ -5,6 +5,8 @@ import React, { useEffect } from "react";
 import arrow4 from "../../public/assets/arrow4.png";
 import conjun from "../../public/assets/conjun.png";
 import Link from "next/link";
+import Head from 'next/head';
+
 // import { NavLink } from "react-router-dom";
 import trackent2 from "../../public/assets/trackent2.png";
 import img2 from "../../public/assets/1200x630wa (1) 1.png";

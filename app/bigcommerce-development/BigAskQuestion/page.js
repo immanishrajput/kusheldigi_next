@@ -2,6 +2,8 @@
 import React, { useState } from 'react';
 // import './askques.css';
 import plus from '../../../public/assets/+.png';
+import Head from 'next/head';
+
 import minus from "../../../public/assets/-.png"
 import Image from 'next/image';
 const data = [

@@ -4,6 +4,8 @@ import React,{useEffect, useState} from "react";
 import lonia from "../../public/assets/lonia.png";
 import lastdate4 from "../../public/assets/lasdate4.png";
 import fiking from "../../public/assets/fiking.png";
+import Head from 'next/head';
+
 import fiking2 from "../../public/assets/fiking2.png";
 import fiking3 from "../../public/assets/fiking3.png";
 // import { NavLink } from "react-router-dom";

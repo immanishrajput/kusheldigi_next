@@ -8,6 +8,8 @@ import nodejsicon3 from "../../public/assets/nodejsicon3.png";
 import nodejsicon4 from "../../public/assets/nodejsicon4.png";
 import nodejsicon5 from "../../public/assets/nodejsicon5.png";
 import nodejsicon6 from "../../public/assets/nodejsicon6.png";
+import Head from 'next/head';
+
 import nodejsicon7 from "../../public/assets/nodejsicon7.png";
 import callimageleft from "../../public/assets/callimageleft.avif";
 import img10 from "../../public/assets/dark-img.png";

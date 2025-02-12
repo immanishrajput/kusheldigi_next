@@ -4,6 +4,9 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 
 // import "../components/css/industries.css";
+
+import Head from 'next/head';
+
 import whatsApp from "../../public/assets/whatsapp.png";
 import call from "../../public/assets/telephone.png";
 import trusred1 from "../../public/assets/Homenew/006 1.svg";

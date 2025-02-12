@@ -6,6 +6,8 @@ import androidSis from "../../public/assets/android-sis.png";
 import arrowing from "../../public/assets/arrowing.png";
 import fluting1 from "../../public/assets/fluting1.png";
 import fluting2 from "../../public/assets/fluting2.png";
+import Head from 'next/head';
+
 import fluting3 from "../../public/assets/fluting3.png";
 import plan from "../../public/assets/plan.png";
 import plan1 from "../../public/assets/plan1.png";

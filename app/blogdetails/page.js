@@ -1,6 +1,8 @@
 // import { userouter.push, useParams } from "react-router-dom";
 "use client"
 import { useRouter } from "next/navigation";
+import Head from 'next/head';
+
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 // import "./blogdetail.css";
@@ -80,6 +82,7 @@ function BlogDetails() {
         <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
         <meta name="twitter:url" content="https://www.kusheldigi.com/" />
       </Head>
+
 
       <div className="aboutwrap">
         <div className="aboutcont">

@@ -3,6 +3,8 @@ import React, { useState, useEffect } from "react";
 import pick2 from "../../public/assets/pick2.png";
 import angrag from "../../public/assets/angrag.png";
 import stepback from "../../public/assets/stepback.png";
+import Head from 'next/head';
+
 import stepback1 from "../../public/assets/stepback1.png";
 import kick5 from "../../public/assets/kick5.png";
 import arrow4 from "../../public/assets/arrow4.png";

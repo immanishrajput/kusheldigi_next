@@ -4,6 +4,7 @@ import React, { useEffect } from "react";
 // import { NavLink } from "react-router-dom";
 import Link from "next/link";
 // import { Helmet } from "react-helmet";
+import Head from 'next/head';
 
 import smm1 from "../../public/assets/smmimage/social media image.png";
 import smm2 from "../../public/assets/smmimage/leads image.png";

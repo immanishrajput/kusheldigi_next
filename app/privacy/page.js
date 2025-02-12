@@ -5,6 +5,8 @@ import whatsApp from "../../public/assets/whatsapp.png";
 import call from "../../public/assets/telephone.png"
 import '../globals.css'
 import Navbar from '../COMMON/Navbar';
+import Head from 'next/head';
+
 import Footer from '../COMMON/Footer';
 import Image from 'next/image';
 const Privacy = () => {

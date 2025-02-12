@@ -7,6 +7,8 @@ import cardtwo from "../../public/assets/cards-image2.svg";
 import cardthree from "../../public/assets/cards3-image.svg";
 import cardthree1 from "../../public/assets/card3-image2.svg";
 import cardthree2 from "../../public/assets/cards3-images3.svg";
+import Head from 'next/head';
+
 import cardthree3 from "../../public/assets/cards3-images4.svg";
 import cardthree4 from "../../public/assets/cards3-images5.svg";
 import cardthree5 from "../../public/assets/cards3-images6.svg";

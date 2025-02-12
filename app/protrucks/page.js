@@ -8,6 +8,7 @@ import '../globals.css'
 import arrow4 from "../../public/assets/arrow4.png";
 
 import conjun from "../../public/assets/conjun.png";
+import Head from 'next/head';
 
 import trackent from "../../public/assets/trackent.png";
 

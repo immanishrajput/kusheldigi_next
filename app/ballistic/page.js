@@ -4,6 +4,8 @@
 import React, { useState, useEffect } from "react";
 import arrow4 from "../../public/assets/arrow4.png";
 import Link from "next/link";
+import Head from 'next/head';
+
 import rel1 from "../../public/assets/rel1.png";
 import rel2 from "../../public/assets/rel2.png";
 import rel3 from "../../public/assets/rel3.png";

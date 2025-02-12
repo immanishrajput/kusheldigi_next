@@ -4,6 +4,8 @@ import Image from "next/image";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 // import OutsideClickHandler from "react-outside-click-handler";
 // import OutsideClickHandler from 'react-outside-click-handler';
+import Head from 'next/head';
+
 const Ecommpop = ({setPop, notify}) => {
   const [user, setUser] = useState({
     technology: "",

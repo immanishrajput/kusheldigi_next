@@ -7,6 +7,8 @@ import zz1 from "../../public/assets/iii1.png";
 import zz2 from "../../public/assets/iii2.png";
 import zz3 from "../../public/assets/iii3.png";
 import zz4 from "../../public/assets/iii4.png";
+import Head from 'next/head';
+
 import zz5 from "../../public/assets/iii5.png";
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";

@@ -4,6 +4,8 @@ import iosji from "../../public/assets/iosji.png";
 import iospo from "../../public/assets/iospo.png";
 import arrow4 from "../../public/assets/arrow4.png";
 import androidSis from "../../public/assets/android-sis.png";
+import Head from 'next/head';
+
 import arrowing from "../../public/assets/arrowing.png";
 import bulb1 from "../../public/assets/bulb1.png";
 import bulb2 from "../../public/assets/bulb2.png";

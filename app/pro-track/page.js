@@ -9,6 +9,8 @@ import trackent from "../../public/assets/trackent.png";
 import pt4 from "../../public/assets/pt4.jpg";
 import pt5 from "../../public/assets/pt5.jpg";
 import pt6 from "../../public/assets/pt6.jpg";
+import Head from 'next/head';
+
 import img2 from "../../public/assets/1200x630wa (1) 1.png";
 import img3 from "../../public/assets/circle.png";
 import img4 from "../../public/assets/Group 1000004718.png";

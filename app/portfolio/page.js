@@ -13,6 +13,8 @@ import leftMost from "../../public/assets//leftmost.png";
 import gthj from '../../public/assets//gthj.png'
 import csRightMost from "../../public/assets//csRightMost.png"
 // import { Helmet } from "react-helmet";
+import Head from 'next/head';
+
 import { useEffect, useState } from "react";
 import hrmsname from "../../public/assets//hrmsname.png"
 import sainaimg from "../../public/assets//sainaimg.png"

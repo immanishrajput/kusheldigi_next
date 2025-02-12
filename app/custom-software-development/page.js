@@ -5,6 +5,8 @@ import firstCircle from "../../public/assets/customSoftware/Ellipse 572.png";
 import secondCircle from "../../public/assets/customSoftware/Ellipse 573.png";
 import { useEffect, useState } from "react";
 import whyBestSol3 from "../../public/assets/customSoftware/whyReason3.png";
+import Head from 'next/head';
+
 import whyBestSol2 from "../../public/assets/customSoftware/whyReason2.png";
 import whyBestSol4 from "../../public/assets/customSoftware/whyBestSol4.png";
 import whyBestSol5 from "../../public/assets/customSoftware/whyBestSol5.png";

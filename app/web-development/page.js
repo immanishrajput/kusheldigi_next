@@ -7,6 +7,8 @@ import phpos from "../../public/assets/phpos.png";
 import nodejs1 from "../../public/assets/nodejs1.png";
 import words from "../../public/assets/words.png";
 import vuejs1 from "../../public/assets/vuejs1.png";
+import Head from 'next/head';
+
 import mobileJi from "../../public/assets/mobilieji.png";
 import docu from "../../public/assets/docu.png";
 import setting from "../../public/assets/setting.png";

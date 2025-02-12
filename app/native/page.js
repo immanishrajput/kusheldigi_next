@@ -8,6 +8,8 @@ import fluting1 from "../../public/assets/fluting1.png";
 import fluting2 from "../../public/assets/fluting2.png";
 import fluting3 from "../../public/assets/fluting3.png";
 import piston from "../../public/assets/piston.png";
+import Head from 'next/head';
+
 import cost from "../../public/assets/cost.png";
 import cost1 from "../../public/assets/cost1.png";
 import cost2 from "../../public/assets/cost2.png";

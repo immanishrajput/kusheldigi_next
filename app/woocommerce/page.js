@@ -6,6 +6,8 @@ import gatr2 from "../../public/assets/gatr2.png";
 import gatr3 from "../../public/assets/gatr3.png";
 import gatr4 from "../../public/assets/gatr4.png";
 import gatr5 from "../../public/assets/gatr5.png";
+import Head from 'next/head';
+
 import framingts from "../../public/assets/framingts.png";
 import uin from "../../public/assets/uin.png";
 import uin1 from "../../public/assets/uin1.png";

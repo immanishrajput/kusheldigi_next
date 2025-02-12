@@ -7,6 +7,8 @@ import cardicon2 from "../../public/assets/card-icon2.svg"
 import cardicon3 from "../../public/assets/card-icon3.svg"
 import cardicon4 from "../../public/assets/card-icon4.svg"
 import cardicon5 from "../../public/assets/card-icon5.svg"
+import Head from 'next/head';
+
 import cardicon6 from "../../public/assets/card-icon6.svg"
 import multichannel from "../../public/assets/multichannelapproach.svg";
 import fasterpage from "../../public/assets/fasterpageloading.svg"

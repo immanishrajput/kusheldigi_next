@@ -5,6 +5,7 @@ import Link from 'next/link';
 import ContactForm1 from "../COMMON/ContactForm1";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
+import Head from 'next/head';
 
 import onring1 from '../../public/assets/onring1.png';
 // import { Helmet } from 'react-helmet';

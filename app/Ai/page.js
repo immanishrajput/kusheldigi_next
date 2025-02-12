@@ -8,6 +8,7 @@ import rel2 from "../../public/assets/rel2.png";
 import rel3 from "../../public/assets/rel3.png";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
+import Head from 'next/head';
 import opqweeeeeee3 from "../../public/assets/opqweeeeeee3.png";
 import img4 from "../../public/assets/Group 1000004718.png";
 import img5 from "../../public/assets/Group 1000004715.png";

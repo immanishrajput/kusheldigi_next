@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 
 import VectorArrow from "../../public/assets/Vector.svg";
+import Head from 'next/head';
 
 
 import Rectangle17725 from "../../public/assets/Rectangle 17725.png";

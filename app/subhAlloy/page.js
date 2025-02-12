@@ -9,6 +9,8 @@ import arrow4 from "../../public/assets/arrow4.png";
 // import { NavLink } from "react-router-dom";
 import Link from "next/link";
 import rel1 from "../../public/assets/rel1.png";
+import Head from 'next/head';
+
 import rel2 from "../../public/assets/rel2.png";
 import rel3 from "../../public/assets/rel3.png";
 import { Splide, SplideSlide } from "@splidejs/react-splide";

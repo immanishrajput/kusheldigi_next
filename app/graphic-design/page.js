@@ -6,6 +6,8 @@ import sinki from '../../public/assets/sinki.png';
 import art1 from '../../public/assets/art1.png';
 import art2 from '../../public/assets/art2.png';
 import art3 from '../../public/assets/art3.png';
+import Head from 'next/head';
+
 import art4 from '../../public/assets/art4.png';
 import art5 from '../../public/assets/art5.png';
 import art6 from '../../public/assets/art6.png';

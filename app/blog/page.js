@@ -5,6 +5,8 @@ import { GoArrowRight } from "react-icons/go";
 // import { useNavigate } from "react-router-dom";
 
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import Head from 'next/head';
+
 import { IoIosArrowDown } from "react-icons/io";
 import { RxCross2 } from "react-icons/rx";
 import '../globals.css'

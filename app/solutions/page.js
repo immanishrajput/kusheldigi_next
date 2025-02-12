@@ -5,6 +5,8 @@ import penda from "../../public/assets/penda.png";
 import ecommi from '../../public/assets/ecoomi.png';
 import ContactForm1 from '../COMMON/ContactForm1';
 import Link from "next/link";
+import Head from 'next/head';
+
 // import { NavLink } from "react-router-dom";
 import kikma from '../../public/assets/kikma.png';
 import whatsApp from "../../public/assets/whatsapp.png";

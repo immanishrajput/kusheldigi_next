@@ -8,6 +8,8 @@ import backImg from '../../public/assets/back-img.png';
 import sideImg from '../../public/assets/side-img.png';
 // import '../components/css/app4.css';
 import ik1 from '../../public/assets/ik1.png';
+import Head from 'next/head';
+
 import ik2 from '../../public/assets/ik2.png';
 import ik4 from '../../public/assets/ik4.png';
 import clockIn from '../../public/assets/clockIn.png';

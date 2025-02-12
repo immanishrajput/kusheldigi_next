@@ -11,6 +11,8 @@ import prot3 from '../../public/assets/prot3.png';
 import prot4 from '../../public/assets/prot4.png';
 import Image from "next/image";
 import '../globals.css'
+import Head from 'next/head';
+
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
 

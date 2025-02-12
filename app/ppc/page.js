@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 // import "../components/css/ppc.css";
 // import { Helmet } from "react-helmet";
 
+import Head from 'next/head';
 
 import whatsApp from "../../public/assets/whatsapp.png";
 import call from "../../public/assets/telephone.png"
