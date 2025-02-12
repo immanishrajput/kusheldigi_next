@@ -215,14 +215,14 @@ const Magento = () => {
                 <p>With Magento customisation solutions, companies can have their e-commerce platforms customised to their exact specifications and corporate identity. Businesses may streamline and customise their consumers' online purchasing experience</p>
               </div>
               <div className="server_meg_3">
-                <Image src={poli3} alt="UX And UI Design" title="UX And UI Design" className="p22" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739338958/poli3_mubzdu.png' alt="UX And UI Design" title="UX And UI Design" className="p22" />
                 <h3>UX And UI Design</h3>
                 <p>The main objective of the Magento UX and UI design services is to improve the user experience on e-Commerce sites by designing interfaces that are both pleasing to the eye . </p>
               </div>
             </div>
             <div className="server_mergs">
               <div className="server_meg_4">
-                <Image src={poli4} alt="PWA Development" title="PWA Development" className="p22" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739339032/poli4_rzx68m.png' alt="PWA Development" title="PWA Development" className="p22" />
                 <h3>PWA Development</h3>
                 <p>We create superior PWA solutions for
                   the Magento websites of our clients.
@@ -233,12 +233,12 @@ const Magento = () => {
                   Magento PWA.</p>
               </div>
               <div className="server_meg_5">
-                <Image src={poli5} alt="Migration" title="Migration" className="p22" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739339095/poli5_naqsfq.png' alt="Migration" title="Migration" className="p22" />
                 <h3>Migration</h3>
                 <p>By easily integrating Magento with a range of external systems and services, including payment gateways, ERP, CRM, and shipping companies, Magento Integration simplifies corporate operations. Businesses can  increase productivity, and improve the customer experience.</p>
               </div>
               <div className="server_meg_6">
-                <Image src={poli6} alt="Integration" title="Integration" className="p22" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739339122/poli6_ays3je.png' alt="Integration" title="Integration" className="p22" />
                 <h3>Integration</h3>
                 <p>By simply connecting Magento with a range of other systems and services, including payment gateways. Businesses can automate procedures, increase productivity, and improve the customer experience overall through combining these systems. </p>
               </div>

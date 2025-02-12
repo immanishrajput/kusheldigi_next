@@ -34526,6 +34526,7 @@ input[type=number] {
   position: fixed;
   left: 0;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
   top: 82vh;
@@ -58396,15 +58397,42 @@ width: 450px;
   justify-content: center;
   text-align: center
 }
+.nwABTknwMr{
+  align-items: center;
+  background-color: #0B56E4;
+  border: none;
+  border-radius: 28px;
+  color: #fff;
+  display: flex;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  gap: 5px;
+  justify-content: center;
+  line-height: 24px;
+  padding: 16px 30px;
+  text-align: center;
+  max-width: 260px;
+  width: 100%;
+
+}
+.nwABTknwMr:hover{
+  background-color: white;
+  border: 1px solid #0B56E4;
+  
+}
+
 
 .newAbout .nwABTknwMr a:hover {
   background-color: #fff;
-  border: 1px solid #0039ff
+  border: 1px solid #0039ff;
 }
 
 .newAbout .nwABTknwMr:hover span {
-  color: #0039ff
-}
+  color: #0039ff;
+  /* background-color: white; */
+  }
+
 
 .newAbout .nwABTknwMr:hover svg path {
   fill: #0039ff

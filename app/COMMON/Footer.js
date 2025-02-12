@@ -158,7 +158,7 @@ const Footer = () => {
                       <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738997696/dri2_kubanh.png' alt="icon" />
                     </a>
                     <a  target="_blank" href="https://twitter.com/KushelDigisoln" rel="noopener">
-                      <img width="3000" height="2808" className="tyo" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738997748/X-Logo_tvy32n.png' alt="young2" />
+                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738997748/X-Logo_tvy32n.png' alt="young2" />
                     </a>
                     <a target="_blank" href="https://www.behance.net/kushelsolucti" rel="noopener">
                       <Image style={{ filter: "invert(1)" }} src={behance} alt="young1" />

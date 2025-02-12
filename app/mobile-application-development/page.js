@@ -130,13 +130,13 @@ const MobileApp = ({ notify }) => {
               >
                 <SplideSlide>
                   <Link href="/react-native"><div className="home4121">
-                    <Image className=" block m-auto" src={reactjs} alt="react native" title="react native" />
+                    <img className=" block m-auto" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739339163/reactjs_fia8qf.png' alt="react native" title="react native" />
                     <p>REACT NATIVE</p>
                   </div></Link>
                 </SplideSlide>
                 <SplideSlide>
                   <Link href="/Flutter"><div className="home4121">
-                    <Image className=" block m-auto" src={flutterjs} alt="flutter" title="flutter" />
+                    <img className=" block m-auto" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739339202/fluterjs_optiue.png' alt="flutter" title="flutter" />
                     <p>flutter</p>
                   </div></Link>
                 </SplideSlide>
@@ -168,7 +168,7 @@ const MobileApp = ({ notify }) => {
 
         <div className="mobile-app dine-1234">
           <marquee behavior="scroll" direction="right" scrollamount="20">
-            <Image className="app" src={mobileApi} alt=" Custom App Development & Design Company" />
+            <img className="app" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739339829/mobileapi_z44pnl.png' alt=" Custom App Development & Design Company" />
           </marquee>
           <div className="deliver">
             <div className="first-delivery">
@@ -214,7 +214,7 @@ const MobileApp = ({ notify }) => {
           <div className="business-card flex-wrap dine-123">
             <div className="business-box relative text-center cursor-pointer">
               <div className="business-card-img">
-                <Image src={c5} alt="Native App Development" title="Native App Development" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739339608/c5_yz8nsm.png' alt="Native App Development" title="Native App Development" />
               </div>
               <h5>Native App Development</h5>
               <p>
@@ -224,7 +224,7 @@ const MobileApp = ({ notify }) => {
             </div>
             <div className="business-box relative text-center cursor-pointer">
               <div className="business-card-img">
-                <Image src={c5} alt="Web Application Development" title="Web Application Development" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739339608/c5_yz8nsm.png' alt="Web Application Development" title="Web Application Development" />
               </div>
               <h5>Web Application Development</h5>
               <p>
@@ -233,7 +233,7 @@ const MobileApp = ({ notify }) => {
             </div>
             <div className="business-box relative text-center cursor-pointer">
               <div className="business-card-img">
-                <Image src={c6} alt="Blockchain App Development" title="Blockchain App Development" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739339722/c6_fhju9u.png' alt="Blockchain App Development" title="Blockchain App Development" />
               </div>
               <h5>Blockchain App Development</h5>
               <p>
@@ -242,7 +242,7 @@ const MobileApp = ({ notify }) => {
             </div>
             <div className="business-box relative text-center cursor-pointer">
               <div className="business-card-img">
-                <Image src={c5} alt="Progressive Web App Development" title="Progressive Web App Development" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739339608/c5_yz8nsm.png' alt="Progressive Web App Development" title="Progressive Web App Development" />
               </div>
               <h5>Progressive Web App Development</h5>
               <p>
@@ -251,7 +251,7 @@ const MobileApp = ({ notify }) => {
             </div>
             <div className="business-box relative text-center cursor-pointer">
               <div className="business-card-img">
-                <Image src={c7} alt="Hybrid & Cross-Platform App Development" title="Hybrid & Cross-Platform App Development" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739339757/c7_o5y9to.png' alt="Hybrid & Cross-Platform App Development" title="Hybrid & Cross-Platform App Development" />
               </div>
               <h5>Hybrid & Cross-Platform App Development</h5>
               <p>
@@ -260,7 +260,7 @@ const MobileApp = ({ notify }) => {
             </div>
             <div className="business-box relative text-center cursor-pointer">
               <div className="business-card-img">
-                <Image src={c8} alt="flutter App Development" title="flutter App Development" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739339798/c8_ibnuqe.png' alt="flutter App Development" title="flutter App Development" />
               </div>
               <h5>flutter App Development</h5>
               <p>
