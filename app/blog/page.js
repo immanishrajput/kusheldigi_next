@@ -78,6 +78,8 @@ function Blog() {
       const response = await fetch(`${baseurl}/api/v1/auth/recentBlogs`);
       const data = await response.json();
 
+      console.log("data",data);
+
       if (response.ok) {
         setRecentBlog(data?.data);
       } else {
@@ -130,9 +132,6 @@ const handleRemoveCategory = () => {
   setFilterBlog([]);
 };
 
-
-console.log("featuredBlog" , featuredBlog);
-
   useEffect(()=>{
 
     if(filterBlog?.length === 0){
@@ -155,6 +154,8 @@ console.log("featuredBlog" , featuredBlog);
      metaDescription ? metaDescription.content = description : 
        document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
    }, []);
+
+
   return (
 
     <div className="kblogwrap pb-10">

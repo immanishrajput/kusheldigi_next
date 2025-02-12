@@ -2,6 +2,7 @@
 "use client"
 import { useRouter } from "next/navigation";
 import Head from 'next/head';
+import Navbar from "../../COMMON/Navbar";
 
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
@@ -15,7 +16,7 @@ import {
   EmailShareButton,
 } from "react-share";
 import { FaWhatsapp, FaFacebook, FaLinkedin, FaFacebookMessenger, FaTwitter, FaEnvelope } from "react-icons/fa";
-// import { Helmet } from "react-helmet";
+
 
 const baseurl = "https://backblog.kusheldigi.com";
 
@@ -26,7 +27,9 @@ function BlogDetails() {
 //   const { blogId } = useParams();
 // const router = useRouter();
 
-  const {blogId}  = router.query || {}
+  // const {blogId}  = router.query || {}
+  const { id } = useParams();
+
 
   const [recent, setRecent] = useState([]);
 
@@ -46,7 +49,7 @@ function BlogDetails() {
 
   const fetchBlogId = async () => {
     try {
-      const response = await fetch(`${baseurl}/api/v1/auth/singleblog/${blogId}`);
+      const response = await fetch(`${baseurl}/api/v1/auth/singleblog/${id}`);
       if (response.ok) {
         const resp = await response.json();
         setData(resp?.data);
@@ -63,7 +66,7 @@ function BlogDetails() {
   useEffect(() => {
     fetchRecentBlog();
     fetchBlogId();
-  }, [blogId]);
+  }, [id]);
 
   return (
     <div>
@@ -83,6 +86,7 @@ function BlogDetails() {
         <meta name="twitter:url" content="https://www.kusheldigi.com/" />
       </Head>
 
+<Navbar />
 
       <div className="aboutwrap">
         <div className="aboutcont">
