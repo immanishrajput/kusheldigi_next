@@ -46,7 +46,7 @@ const data = [
     title: "Creative and Design",
     para: "We are committed to grow your brand's visibility and engagement with focused digital marketing strategies.",
     showImg:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739013649/createdesign_yha69i.webp',
-    link: "/slidesdesign",
+    link: "Slidesdesign",
   },
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1724767149/Group_1171275917_jmaua6.png",

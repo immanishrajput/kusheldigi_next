@@ -677,7 +677,7 @@ const USA = ({ notify }) => {
 
         <div className="Ecommerce_sent dine-123">
           <div className="ecommerce_left our-ecommmmm">
-            <h2>Our eCommerce <br /> Development Process</h2>
+            <h2>Our e-Commerce <br /> Development Process</h2>
             <p>We take care of your projects with proven agile methods that are designed to get all stakeholders (even non-technical ones) in alignment. Our workflow amplifies collaboration and faster turnarounds to achieve even the most ambitious goals.</p>
             <Link href="/howWork" className="letsittt letii"><div className="see_workk mt-8 letsy letsay">
               <span>SEE HOW WE WORK</span>

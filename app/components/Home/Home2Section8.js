@@ -1,11 +1,11 @@
 import  './section8.css'; // Use CSS Modules
 import Link from 'next/link'; // Use Next.js Link component for routing
-
+import Image from 'next/image';
 const data = [
     {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1724770190/bgcoms8.b465562a07f65049cbad_j64pv6.webp", 
       para: "BigCommerce technology allows your store to scale seamlessly, easily handling increased traffic and sales. We harness its flexibility to develop tailor-made shopping experiences that are personal to your brand. With built-in SEO and marketing tools at your disposal, your store will be optimized for maximum visibility. This gives an e-commerce site that's powerful, easy to use, and in full compliance with business requirements.", 
-      link: "/bigcommerce", 
+      link: "/bigcommerce-development", 
       alt: "big-commerce logo"
     },
     {
