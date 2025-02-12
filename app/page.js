@@ -35,21 +35,50 @@ const HomePage = ({props}) => {
     window.open(callUrl, '_blank');
   };
 
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Website Development",
+    "provider": {
+      "@type": "Organization",
+      "name": "Kushel Digi Solutions",
+      "url": "https://www.kusheldigi.com/"
+    },
+    "areaServed": [
+      { "@type": "Country", "name": "India" },
+      { "@type": "Country", "name": "USA" },
+      { "@type": "Country", "name": "UAE" }
+    ],
+    "description": "We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "First Floor, D242, F-32B, Sector 63 Rd, Noida, 201301, Uttar Pradesh",
+      "addressLocality": "Noida",
+      "addressRegion": "Uttar Pradesh",
+      "postalCode": "201301",
+      "addressCountry": "IN"
+    },
+    "telephone": "+91-9045301702",
+    "url": "https://www.kusheldigi.com/",
+    "openingHours": "Mon-Sat 10:00AM-05:00PM",
+    "priceRange": ["$$", "INR"]
+  };
   
 
   return (
     <>
       <Head>
-        <title>{props?.title}</title>
-        <meta name="description" content="Learn how to optimize SEO in Next.js with meta tags, structured data, and performance improvements." />
-        <meta name="keywords" content="Next.js, SEO, Web Development" />
-        <meta name="author" content="Your Name" />
-        <meta property="og:title" content="Best SEO Practices in Next.js" />
-        <meta property="og:description" content="Learn how to optimize SEO in Next.js with meta tags, structured data, and performance improvements." />
-        <meta property="og:image" content="/seo-image.jpg" />
-        <meta property="og:url" content="https://yourwebsite.com" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <link rel="icon" type="image/x-icon" href="https://res.cloudinary.com/dgif730br/image/upload/v1737973044/CRONUS_PRO_WINDOWS_kq2oxs_rvhbif.png"></link>
+        <title>Website Development - Kushel Digi Solutions</title>
+        <meta name="description" content="Professional website development, eCommerce solutions, and SEO services." />
+        <script 
+          type="application/ld+json" 
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} 
+        />
+
+<link rel="canonical" href="https://www.kusheldigi.com/" />
+      
+       
       </Head>
       <div className="home-main">
      <Navbar/>

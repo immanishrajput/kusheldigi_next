@@ -65,15 +65,21 @@ function BlogDetails() {
 
   return (
     <div>
-      {/* <Helmet>
-        <title>{data?.title || "Default Blog Title"}</title>
-        <meta property="og:title" content={data?.title || "Default Blog Title"} />
-        <meta property="og:description" content={data?.description || "Blog description"} />
-        <meta property="og:image" content={data?.images || "https://res.cloudinary.com/dt2lhechn/image/upload/v1733573496/blog_images/fgtxw2bfzh7r1gc1q3yx.jpg"} />
-        <meta property="og:url" content={window.location.href} />
-        <meta property="og:type" content="article" />
-        <meta property="og:site_name" content="Kushel Digi Blogs" />
-      </Helmet> */}
+      <Head>
+        {/* Open Graph (OG) Meta Tags */}
+        <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
+        <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
+        <meta property="og:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
+        <meta property="og:url" content="https://www.kusheldigi.com/" />
+        <meta property="og:type" content="website" />
+
+        {/* Twitter Card Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Kushel Digi | Expert eCommerce Development Services" />
+        <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
+        <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
+        <meta name="twitter:url" content="https://www.kusheldigi.com/" />
+      </Head>
 
       <div className="aboutwrap">
         <div className="aboutcont">
