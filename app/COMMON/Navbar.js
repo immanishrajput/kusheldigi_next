@@ -274,13 +274,13 @@ const Navbar = () => {
           <div className="header1-main">
             <header className="header main-header-new">
               <div className="first-header">
-                <div className="noida">
+              <a href="https://www.google.com/maps/place/Kushel+Digi+Solutions+%7C+E-commerce+Web+Development+%7C+Web+Design+%26+App+Development+Company/@28.6290218,77.3841087,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce49f5d8cdc4b:0xedb207949cd07d2b!8m2!3d28.6290218!4d77.3841087!16s%2Fg%2F11hbvx7ls2?entry=ttu&g_ep=EgoyMDI1MDIwOS4wIKXMDSoASAFQAw%3D%3D" target="blank">  <div className="noida">
                   <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012585/location_vq9szh.png' alt="location" title="location" />
                   <p className="g9fontsize">
                     First Floor, D242, F-32B, Sector 63 Rd, Noida, Uttar Pradesh
                     201301<span>|</span>
                   </p>
-                </div>
+                </div> </a>
 
                 <a href="mailto:info@kusheldigi.com">
                   <div className="email">

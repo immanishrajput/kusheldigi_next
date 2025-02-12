@@ -1,4 +1,5 @@
 "use client"
+import Link from 'next/link'
 import React from 'react'
 // import "./header.css"
 
@@ -16,7 +17,7 @@ function BigHeader() {
             </h2>
             <p>Kushel Digi Solutions has a successful proven track record in offering modern BigCommerce solutions to grow your business. Our experts work to make sure that your online store is not  just functional but optimized for success. Let us help you leverage BigCommerce to its fullest potential and drive your eCommerce journey.            </p>
 
-            <button><span>CONNECT WITH US</span></button>
+          <Link href="contact-us"><button><span>CONNECT WITH US</span></button></Link> 
           </div>
 
         {/* right side  */}

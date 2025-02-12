@@ -23807,6 +23807,9 @@ border: 1px solid #000000;
 margin: 0 auto;
 
 }
+.discuprojectA{
+  text-align: center !important;
+}
 .discuproject span{
     font-family: Poppins;
     font-size: 18px;
@@ -24163,6 +24166,7 @@ color: #000000;
     padding: 50px 18px;
     max-width: 1000px;
     margin: 0 auto;
+    padding: 10px !important;
 }
 
 .yrcontentns h3{
@@ -24182,6 +24186,7 @@ color: #FFFFFF;
 color: #FFFFFF;    
 }
 .yrcontentns button{
+  padding: 10px;
     max-width: 302px;
     width: 100%;
     height: 64px;
@@ -24309,6 +24314,7 @@ color: #FFFFFF;
 color: #FFFFFF;    
 }
 .bigheleft button{
+  padding: 10px;
     max-width: 180px;
     width: 100%;
 height: 50px;
@@ -58419,7 +58425,7 @@ width: 450px;
 .nwABTknwMr:hover{
   background-color: white;
   border: 1px solid #0B56E4;
-  
+
 }
 
 

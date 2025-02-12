@@ -147,7 +147,7 @@ const ContactForm1 = ({ notify }) => {
                   onChange={handleChange}
                   type="text"
                   placeholder="First Name*"
-                  maxlength="45"
+                  maxlength="32"
                   onInput={(e) => e.target.value = e.target.value.replace(/[^A-Za-z]/g, '')}
                   
                 />
@@ -158,7 +158,7 @@ const ContactForm1 = ({ notify }) => {
                   onChange={handleChange}
                   type="text"
                   placeholder="Last Name*"
-                  maxlength="45"
+                  maxlength="32"
                   onInput={(e) => e.target.value = e.target.value.replace(/[^A-Za-z]/g, '')}
                 />
               </div>

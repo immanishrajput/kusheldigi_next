@@ -129,13 +129,13 @@ const MobileApp = ({ notify }) => {
                 }}
               >
                 <SplideSlide>
-                  <Link href="/react-native"><div className="home4121">
+                  <Link href="/native"><div className="home4121">
                     <img className=" block m-auto" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739339163/reactjs_fia8qf.png' alt="react native" title="react native" />
                     <p>REACT NATIVE</p>
                   </div></Link>
                 </SplideSlide>
                 <SplideSlide>
-                  <Link href="/Flutter"><div className="home4121">
+                  <Link href="/flutter"><div className="home4121">
                     <img className=" block m-auto" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739339202/fluterjs_optiue.png' alt="flutter" title="flutter" />
                     <p>flutter</p>
                   </div></Link>

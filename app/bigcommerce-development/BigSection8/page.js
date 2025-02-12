@@ -1,4 +1,5 @@
 "use client"
+import Link from "next/link";
 import { useState } from "react"
 // import "./big8.css"
 
@@ -80,7 +81,7 @@ function BigSection8() {
             </div>
 
 
-            <button className="discuproject"><span>Let’s Discuss your Project</span></button>
+          <Link href="contact-us" className="discuprojectA"><button className="discuproject"><span>Let’s Discuss your Project</span></button></Link>  
 
         </div>
 
