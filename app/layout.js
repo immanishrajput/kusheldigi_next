@@ -1,7 +1,7 @@
 
 // app/layout.js
 export const metadata = {
-  title: ' Kushel Digi Solutions | Expert eCommerce Development Service',
+  title: ' Kushel Digi Solutions | Expert eCommerce Development Services',
   description:'High performance Ecommerce solutions with specialized development strategies. Kushel Digi Solutions boosts conversion and builds scalable Shopify, BigCommerce and custom online stores.'
   ,
   keywords:[
