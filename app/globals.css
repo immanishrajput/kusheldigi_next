@@ -54345,6 +54345,7 @@ width: 450px;
 .kick_mart {
   max-width: 325px;
   width: 100%;
+  height: 120px !important;
   object-fit: cover
 }
 
