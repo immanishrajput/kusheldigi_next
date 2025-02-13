@@ -97,7 +97,7 @@ const Php = () => {
     const generateMetadata = ({ params }) => ({
         title: 'Best Affordable php development services by KushelDigi',
         description: 'Kushel Digi Solutions provides excellent PHP development services to create dynamic, highly effective PHP portals and websites.',
-        favicon:`<link rel="icon" type="image/x-icon" href="/images/favicon.ico">`
+        // favicon:`<link rel="icon" type="image/x-icon" href="/images/favicon.ico">`
     });
 
     useEffect(() => {
@@ -106,7 +106,7 @@ const Php = () => {
         let metaDescription = document.querySelector('meta[name="description"]');
         metaDescription ? metaDescription.content = description :
             document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-            document.favicon = favicon
+            // document.favicon = favicon
     }, []);
     return (
         <>
