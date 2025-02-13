@@ -55248,7 +55248,7 @@ width: 450px;
 
 .manbi-btn {
   position: absolute;
-  bottom: -40px;
+  bottom: -27px;
   left: 0;
   right: 0;
   display: flex;
@@ -59031,8 +59031,14 @@ width: 450px;
   object-fit: cover
 }
 
+
+@media(max-width:450px) {
 .left_eco_pop img{
   display: none;
+}
+.eco_pop i {
+  right: 1rem !important;
+}
 }
 .eco_pop i {
   color: #fff;
@@ -59047,7 +59053,7 @@ width: 450px;
   font-size: 20px;
   top: 3.5rem;
   z-index: 90;
-  right: 14rem;
+  right: 15rem;
   cursor: pointer
 }
 
