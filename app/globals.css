@@ -21429,6 +21429,7 @@ width: 520px;
 }
 
 #hemesh-seo-kushel .seo_flex2 h2 {
+  text-align: center;
   font-size: 32px;
   line-height: 40px;
   font-weight: 800;
@@ -62660,6 +62661,7 @@ option {
 }
 
 .digi-packages .package-types h3 {
+  text-align: center;
     font-size: 35px;
     color: #33475B;
     line-height: 46px;
