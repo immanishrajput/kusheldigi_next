@@ -161,19 +161,19 @@ const MobileApp = ({ notify }) => {
                 </SplideSlide>
                 <SplideSlide>
                   <div className="home4121">
-                    <Image className=" block m-auto" src={swiftjs} alt="SWIFT" title="SWIFT" />
+                    <img className=" block m-auto" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739423598/swiftjs_twq2kv.png' alt="SWIFT" title="SWIFT" />
                     <p>SWIFT</p>
                   </div>
                 </SplideSlide>
                 <SplideSlide>
                   <Link href="/kotlin"><div className="home4121">
-                    <Image className=" block m-auto" src={kotlinjs} alt="KOTLIN" title="KOTLIN" />
+                    <img className=" block m-auto" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739423646/kotlinjs_odlnty.png' alt="KOTLIN" title="KOTLIN" />
                     <p>KOTLIN</p>
                   </div></Link>
                 </SplideSlide>
                 <SplideSlide>
                   <div className="home4121">
-                    <Image className="block m-auto" src={java} alt="JAVA" title="JAVA" />
+                    <img className="block m-auto" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739423694/java_s4myhl.png' alt="JAVA" title="JAVA" />
                     <p>JAVA</p>
                   </div>
                 </SplideSlide>
@@ -292,7 +292,7 @@ const MobileApp = ({ notify }) => {
         <div className="unlock">
           <h2>How Mobile Apps Unlock</h2>
           <h2>your Business Potential</h2>
-          <Image src={process} alt="process" title="process" />
+          <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739423735/process_ucdmth.jpg' alt="process" title="process" />
         </div>
 
         <div className="custom-s">
@@ -326,10 +326,10 @@ const MobileApp = ({ notify }) => {
         {/*  buttons  */}
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739423798/whatsapp_yiaqit.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739423855/telephone_bcbfsw.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

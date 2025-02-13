@@ -101,7 +101,7 @@ function Seo2() {
               
               </div>
               <div className="seo_flex_right">
-                <Image src={Seobanerimg} alt="Best SEO Agency" title='Best SEO Agency'/>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739428530/Seobanerimg_o077vm.png' alt="Best SEO Agency" title='Best SEO Agency'/>
               </div>
             </div>
           </div>
@@ -687,7 +687,7 @@ function Seo2() {
                       </p>
                     </div>
                     <div className="image_right">
-                      <Image src={mainBusiness} alt="SEO Company in Noida" title='SEO Company in Noida' />
+                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739428080/mainBusiness_yhvdef.png' alt="SEO Company in Noida" title='SEO Company in Noida' />
                     </div>
                   </div>
                 </div>
@@ -708,7 +708,7 @@ function Seo2() {
             </div>
             <div className="seo_content123">
               <div className="left_image">
-                <Image src={seoExperts} alt="SEO Experts" title='SEO Experts' />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739428123/seoExperts_lqrx6j.png' alt="SEO Experts" title='SEO Experts' />
               </div>
               <div className="right_text">
                 <p>
@@ -1196,19 +1196,19 @@ function Seo2() {
             <div className="SEO_tools">
               <div className="seo_flex9">
                 <div className="seo_flex_content_icon">
-                  <Image src={google1} alt="google1" title='google1' />
-                  <Image src={ahref} alt="ahref" title='ahref' />
-                  <Image src={google2} alt="semrush" title='semrush' />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739428157/google1_o4jz0z.svg' alt="google1" title='google1' />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739428198/ahref_hs62bb.svg' alt="ahref" title='ahref' />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739428236/google2_qfk0xk.svg' alt="semrush" title='semrush' />
                 </div>
                 <div className="seo_flex_content_icon">
-                  <Image src={google3} alt="google anlytc" title='google anlytc' />
-                  <Image src={kwfinder} alt="kwfinderew" title='kwfinderew' />
-                  <Image src={google4} alt="screming frog" title='screming frog' />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739428283/google3_p5jcmp.svg' alt="google anlytc" title='google anlytc' />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739428456/kwfinder_awj6rg.svg' alt="kwfinderew" title='kwfinderew' />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739428324/google4_hxj8ky.svg' alt="screming frog" title='screming frog' />
                 </div>
                 <div className="seo_flex_content_icon">
-                  <Image src={google5} alt="google Ad word" title='google Ad word' />
-                  <Image src={google6} alt="woorank" title='woorank' />
-                  <Image src={google7} alt="google ternd" title='google ternd'/>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739428355/google5_i26txu.svg' alt="google Ad word" title='google Ad word' />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739428389/google6_tjmue8.svg' alt="woorank" title='woorank' />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739428423/google7_tcmdet.svg' alt="google ternd" title='google ternd'/>
               </div>
             </div>
           </div>
@@ -1360,7 +1360,7 @@ function Seo2() {
               </p>
             </div>
             <div className="right_image">
-              <Image src={business} alt="competitors all the traffic" title='competitors all the traffic' />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739428489/business_c2zwfy.png' alt="competitors all the traffic" title='competitors all the traffic' />
             </div>
           </div>
         </div>
@@ -1371,10 +1371,10 @@ function Seo2() {
         </div>
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739423798/whatsapp_yiaqit.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739423855/telephone_bcbfsw.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

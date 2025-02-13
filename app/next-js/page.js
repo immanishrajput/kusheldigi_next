@@ -145,7 +145,7 @@ const Next = () => {
         <div className="kushel-next-js-main-content">
           <div className="kushel-next-js-left-content2">
             <div className="kushel-next-js-left1-content">
-              <Image src={maskgroup} alt=" right-tick" title='right-tick' />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739425742/Mask-group_fmrem2.svg' alt=" right-tick" title='right-tick' />
               <p>
                 Performance: Next.js enables server-side rendering, optimizing
                 your web application's performance and improving user
@@ -153,14 +153,14 @@ const Next = () => {
               </p>
             </div>
             <div className="kushel-next-js-left1-content">
-              <Image src={maskgroup} alt="right-tick" title='right-tick'/>
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739425742/Mask-group_fmrem2.svg' alt="right-tick" title='right-tick'/>
               <p>
                 SEO Friendly: Next.js optimizes your web applications for search
                 engines and improve search engine visibility and ranking.
               </p>
             </div>
             <div className="kushel-next-js-left1-content">
-              <Image src={maskgroup} alt="right-tick" title='right-tick'/>
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739425742/Mask-group_fmrem2.svg' alt="right-tick" title='right-tick'/>
               <p>
                 Scalability: Next.js allows you to build scalable applications
                 that can handle growing user bases according to your business
@@ -170,21 +170,21 @@ const Next = () => {
           </div>
           <div className="kushel-next-js-left-content2">
             <div className="kushel-next-js-left1-content">
-              <Image src={maskgroup} alt="right-tick" title='right-tick' />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739425742/Mask-group_fmrem2.svg' alt="right-tick" title='right-tick' />
               <p>
                 Easy Integration: Next.js easily integrates with various APIs,
                 databases, and third-party services.{" "}
               </p>
             </div>
             <div className="kushel-next-js-left1-content">
-              <Image src={maskgroup} alt="right-tick" title='right-tick' />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739425742/Mask-group_fmrem2.svg' alt="right-tick" title='right-tick' />
               <p>
                 Cost-Effective: Next.js is the most affordable solution that can
                 reduce overall development and maintenance costs.
               </p>
             </div>
             <div className="kushel-next-js-left1-content">
-              <Image src={maskgroup} alt="right-tick" title='right-tick' />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739425742/Mask-group_fmrem2.svg' alt="right-tick" title='right-tick' />
               <p>
                 Excellent User Experience: It provides a a seamless and engaging
                 user experience by supporting dynamic and interactive UIs.
@@ -234,7 +234,7 @@ const Next = () => {
             </div>
           </div>
           <div className="kushel-next-js-cards-flex">
-            <Image src={cardicon2} alt="Next.js Custom Development" title='Next.js Custom Development'/>
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739425966/card-icon2_tolcah.svg' alt="Next.js Custom Development" title='Next.js Custom Development'/>
             <div className="kushel-next-js-cards-content">
               <h2>Next.js Custom Development</h2>
               <p>
@@ -246,7 +246,7 @@ const Next = () => {
             </div>
           </div>
           <div className="kushel-next-js-cards-flex">
-            <Image src={cardicon3} alt="Next.js Integration Services" title='Next.js Integration Services' />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426025/card-icon3_kygsw7.svg' alt="Next.js Integration Services" title='Next.js Integration Services' />
             <div className="kushel-next-js-cards-content">
               <h2>Next.js Integration Services</h2>
               <p>
@@ -262,7 +262,7 @@ const Next = () => {
       <div className="kushel-next-js-cards">
         <div className="kushel-next-js-cards-main">
           <div className="kushel-next-js-cards-flex">
-            <Image src={cardicon4} alt="Next.js Plugin Development" title='Next.js Plugin Development' />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426068/card-icon4_iyz4ei.svg' alt="Next.js Plugin Development" title='Next.js Plugin Development' />
             <div className="kushel-next-js-cards-content">
               <h2>Next.js Plugin Development</h2>
               <p>
@@ -274,7 +274,7 @@ const Next = () => {
             </div>
           </div>
           <div className="kushel-next-js-cards-flex">
-            <Image src={cardicon5} alt="Next.js Upgradation and Migration Services" title='Next.js Upgradation and Migration Services' />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426122/card-icon5_oetiao.svg' alt="Next.js Upgradation and Migration Services" title='Next.js Upgradation and Migration Services' />
             <div className="kushel-next-js-cards-content">
               <h2>Next.js Upgradation and Migration Services</h2>
               <p>
@@ -286,7 +286,7 @@ const Next = () => {
             </div>
           </div>
           <div className="kushel-next-js-cards-flex">
-            <Image src={cardicon6} alt="Next.js Maintenance and Support" title='Next.js Maintenance and Support' />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426161/card-icon6_m5g3l3.svg' alt="Next.js Maintenance and Support" title='Next.js Maintenance and Support' />
             <div className="kushel-next-js-cards-content">
               <h2>Next.js Maintenance and Support</h2>
               <p>
@@ -351,17 +351,17 @@ const Next = () => {
       <div className="kushel-next-js-card-technologies">
         <div className="kushel-next-js-card-flex">
           <div className="kushel-next-js-cards-content2">
-            <Image src={nodejs} alt="node js" title="node js" />
-            <Image src={react} alt="react" title="react" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426560/node.js_x784c8.svg' alt="node js" title="node js" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426608/react_pgtddr.svg' alt="react" title="react" />
             <Image src={nextjs} alt="nextjs" title="nextjs" />
             <Image src={tailwind} alt="tailwind" title="tailwind" />
           </div>
         </div>
         <div className="kushel-next-js-card-flex">
           <div className="kushel-next-js-cards-content2">
-            <Image src={laravel} alt="laravel" title="laravel" />
-            <Image src={stripe} alt="stripe" title="stripe" />
-            <Image src={openai} alt="openai" title="openai" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426437/laravel_loohmi.svg' alt="laravel" title="laravel" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426476/stripe_i1ioac.svg' alt="stripe" title="stripe" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426521/OpenAI_Logo_1_gwvlvo.svg' alt="openai" title="openai" />
           </div>
         </div>
       </div>
@@ -378,23 +378,23 @@ const Next = () => {
       <div className="kushel-next-js-cards-content3">
         <div className="kushel-next-js-cards-content-flex">
           <div className="kushel-next-js-cards-content-main3">
-            <Image src={highlyresposive}  alt="ighly Responsive Design" title="ighly Responsive Design" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426399/highly_responsive_1_lhgvzy.svg'  alt="ighly Responsive Design" title="ighly Responsive Design" />
             <p>Highly Responsive Design</p>
           </div>
           <div className="kushel-next-js-cards-content-main3">
-            <Image src={datafetching} alt="Easy data fetching"  title='Easy data fetching'/>
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426362/datafetchingintegration_m1cppc.svg' alt="Easy data fetching"  title='Easy data fetching'/>
             <p>Easy data fetching &amp; integration</p>
           </div>
           <div className="kushel-next-js-cards-content-main3">
-            <Image src={rapidgoto} alt="Rapid go-to-Market" title='Rapid go-to-Market'/>
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426322/rapidgotomarket_fiscq8.svg' alt="Rapid go-to-Market" title='Rapid go-to-Market'/>
             <p>Rapid go-to-Market</p>
           </div>
           <div className="kushel-next-js-cards-content-main3">
-            <Image src={fasterpage} alt="Faster Page Loading" title='Faster Page Loading' />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426260/fasterpageloading_efbdiu.svg' alt="Faster Page Loading" title='Faster Page Loading' />
             <p>Faster Page Loading</p>
           </div>
           <div className="kushel-next-js-cards-content-main3">
-            <Image src={multichannel} alt="Multichannel Approach" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426202/multichannelapproach_yopuaz.svg' alt="Multichannel Approach" />
             <p>Multichannel Approach</p>
           </div>
         </div>

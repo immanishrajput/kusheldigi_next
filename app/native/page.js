@@ -114,7 +114,7 @@ const generateMetadata = ({ params }) => ({
           </div>
           <div className="android-back2 native-back2">
             {/* <img className="" src={refant} alt="androids" /> */}
-            <Image src={reactNativeImgg} alt="react native app development services" title="react native app development services"/>
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739423901/reactNativeImgg_idx0h1.png' alt="react native app development services" title="react native app development services"/>
           </div>
         </div>
         </div>
@@ -123,7 +123,7 @@ const generateMetadata = ({ params }) => ({
             <h2>React Native App
             <br/>Development
             <br/>Services</h2>
-            <Image className="ftp" src={androidSis} alt="underline-design"  title="underline-design" />
+            <img className="ftp" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739423950/android-sis_unefho.png' alt="underline-design"  title="underline-design" />
             <Link className="tismart letsy letsay" href="/contact-us">
               <h5>
                 Discuss your goals with us{" "}
@@ -141,7 +141,7 @@ const generateMetadata = ({ params }) => ({
               <div className="android-card">
                 <div className="android-box flutter-box flyinh android-box1 native-box">
                   <div className="android0-img flex items-center ">
-                    <Image className="fluting1" width={40} src={fluting1} alt=" Crafting Success with React Native" title=" Crafting Success with React Native"/>
+                    <img className="fluting1" width={40} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739423992/fluting1_f5oqbc.png' alt=" Crafting Success with React Native" title=" Crafting Success with React Native"/>
                     <h4 className="ml-3">
                       Crafting Success with React Native
                     </h4>
@@ -152,7 +152,7 @@ const generateMetadata = ({ params }) => ({
                 </div>
                 <div className="android-box flyinh flutter-box android-box2 native-box native-box1">
                   <div className="android0-img flex items-center">
-                    <Image className="fluting2" width={30} src={fluting2} alt="Elevate with Full-Cycle React Native" title="Elevate with Full-Cycle React Native" />
+                    <img className="fluting2" width={30} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739424116/fluting2_mxpjhv.png' alt="Elevate with Full-Cycle React Native" title="Elevate with Full-Cycle React Native" />
                     <h4 className="ml-3">
                       Elevate with Full-Cycle React Native
 
@@ -167,7 +167,7 @@ const generateMetadata = ({ params }) => ({
               <div className="android-card">
                 <div className="android-box flyinh flutter-box android-box1 native-box native-box3">
                   <div className="android0-img flex items-center">
-                    <Image className="fluting3" width={30} src={fluting3} alt="Seamless App Transformation" title="Seamless App Transformation"/>
+                    <img className="fluting3" width={30} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739424153/fluting3_mtrmlg.png' alt="Seamless App Transformation" title="Seamless App Transformation"/>
                     <h4 className="ml-3">Seamless App Transformation
                     </h4>
                   </div>
@@ -177,7 +177,7 @@ const generateMetadata = ({ params }) => ({
                 </div>
                 <div className="android-box flyinh flutter-box android-box2 native-box native-box1 native-box4">
                   <div className="android0-img flex items-center">
-                    <Image className="fluting4" width={30} src={piston} alt=" fluttering Across Platforms" title=" fluttering Across Platforms" />
+                    <img className="fluting4" width={30} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739424248/piston_hjlzec.png' alt=" fluttering Across Platforms" title=" fluttering Across Platforms" />
                     <h4 className="ml-3">
                       fluttering Across Platforms
 
@@ -207,33 +207,33 @@ const generateMetadata = ({ params }) => ({
             <div className="native-cards w-full">
               <div className="native-card">
                 <div className="native-boxs native-boxs1">
-                  <Image src={cost} alt=" Blazing Fast Performance"  title=" Blazing Fast Performance" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739424309/cost_jokfta.png' alt=" Blazing Fast Performance"  title=" Blazing Fast Performance" />
                   <p>
                     Blazing Fast Performance <br /> and Speed
                   </p>
                 </div>
                 <div className="native-boxs native-boxs2">
-                  <Image src={cost1} alt="Reusable Code" title="Reusable Code" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739424648/cost1_lkl8b4.png' alt="Reusable Code" title="Reusable Code" />
                   <p>Reusable Code</p>
                 </div>
               </div>
               <div className="native-card native-card2">
                 <div className="native-boxs native-boxs3">
-                  <Image src={cost2} alt="Live Reload" title="Live Reload" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739424681/cost2_qmrvtk.png' alt="Live Reload" title="Live Reload" />
                   <p>Live Reload</p>
                 </div>
                 <div className="native-boxs native-boxs4">
-                  <Image src={cost3} alt="Open Source" title="Open Source" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739424715/cost3_lisg87.png' alt="Open Source" title="Open Source" />
                   <p>Open Source</p>
                 </div>
               </div>
               <div className="native-card native-card3">
                 <div className="native-boxs native-boxs5">
-                  <Image src={cost4} alt="Great Developer" title="Great Developer" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739424749/cost4_gnv0fa.png' alt="Great Developer" title="Great Developer" />
                   <p>Great Developer <br /> Tools</p>
                 </div>
                 <div className="native-boxs native-boxs6">
-                  <Image src={cost5} alt="Rapid Multi-platform" title="Rapid Multi-platform" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739424799/cost5_mdsvpl.png' alt="Rapid Multi-platform" title="Rapid Multi-platform" />
                   <p>Rapid Multi-platform <br /> Development</p>
                 </div>
               </div>
@@ -248,19 +248,19 @@ const generateMetadata = ({ params }) => ({
           <div className="native-whys">
             <div className="why-card">
               <div className="why-box wy-box-1">
-                <Image src={lok} alt="Experienced React.js" title="Experienced React.js" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739424835/lok_xaj3aq.png' alt="Experienced React.js" title="Experienced React.js" />
                 <p>Experienced React.js <br /> Team</p>
               </div>
               <div className="why-box wy-box-2">
-                <Image src={lok1} alt="No-Cost Project" title="No-Cost Project" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739424912/lok1_qjelq5.png' alt="No-Cost Project" title="No-Cost Project" />
                 <p>No-Cost Project <br /> Managers</p>
               </div>
               <div className="why-box wy-box-3">
-                <Image src={lok2} alt="Consistent" title="Consistent" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739424943/lok2_lfxejb.png' alt="Consistent" title="Consistent" />
                 <p>Consistent <br /> Delivery</p>
               </div>
               <div className="why-box wy-box-4">
-                <Image src={lok3} alt="Cu solutionstomized solution" title="Customized" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739424978/lok3_yyssfv.png' alt="Cu solutionstomized solution" title="Customized" />
                 <p>Customized <br /> Solutions</p>
               </div>
             </div>
@@ -279,31 +279,31 @@ const generateMetadata = ({ params }) => ({
           <div className="key-value-cards">
             <div className="key-value-card">
               <div className="key-value-box">
-                <Image className="key" src={key} alt="topleft-designed" title="topleft-designed" />
-                <Image className="keyst" src={keys} alt="Knowledge Amplified" title="Knowledge Amplified" />
+                <img className="key" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739425014/key_v8tblv.png' alt="topleft-designed" title="topleft-designed" />
+                <img className="keyst" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739425190/keys_hmnqx6.png' alt="Knowledge Amplified" title="Knowledge Amplified" />
                 <h4>Knowledge <br /> Amplified
                 </h4>
                 <p>We actively share wisdom within the community, among our client's teams, and internally. Our internal meetings and conferences serve as the bedrock for constant improvement among our team members.
                 </p>
-                <Image className="key1" src={key1} alt="bottomright-dsign" title="bottomright-dsign" />
+                <img className="key1" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739425128/key1_bzzfdb.png' alt="bottomright-dsign" title="bottomright-dsign" />
               </div>
               <div className="key-value-box">
-                <Image className="key" src={key} alt="topleft-designed" title="topleft-designed" />
-                <Image className="keyst" src={keys1} alt="Elevated Collaboration" title="Elevated Collaboration" />
+                <img className="key" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739425014/key_v8tblv.png' alt="topleft-designed" title="topleft-designed" />
+                <img className="keyst" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739425240/keys1_gkw2tu.png' alt="Elevated Collaboration" title="Elevated Collaboration" />
                 <h4>Elevated Collaboration <br /> Standards
                 </h4>
                 <p>We consistently showcase our best performance, whether partnering with clients, in projects, or during conferences and meetings. Upholding lofty standards and self-imposed demands keeps us at the pinnacle of global excellence.
                 </p>
-                <Image className="key1" src={key1} alt="bottomright-dsign" title="bottomright-dsign" />
+                <img className="key1" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739425128/key1_bzzfdb.png' alt="bottomright-dsign" title="bottomright-dsign" />
               </div>
               <div className="key-value-box">
-                <Image className="key" src={key} alt="topleft-designed" title="topleft-designed" />
-                <Image className="keyst" src={keys2} alt="Client-Centric" title="Client-Centric" />
+                <img className="key" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739425014/key_v8tblv.png' alt="topleft-designed" title="topleft-designed" />
+                <img className="keyst" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739425274/keys2_a19vhw.png' alt="Client-Centric" title="Client-Centric" />
                 <h4>Client-Centric
                   <br /> Dedication</h4>
                 <p>When we integrate into our client's projects, we fully immerse ourselves, becoming dedicated members of their development efforts. We actively participate in development meetings, offering unwavering support for product advancement.
                 </p>
-                <Image className="key1" src={key1} alt="bottomright-dsign" title="bottomright-dsign" />
+                <img className="key1" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739425128/key1_bzzfdb.png' alt="bottomright-dsign" title="bottomright-dsign" />
               </div>
             </div>
           </div>
@@ -317,7 +317,7 @@ const generateMetadata = ({ params }) => ({
           <div className="native-work-cards">
             <div className="native-work-card">
               <div className="native-work-box">
-                <Image className="pret" src={fantaji} alt="Tailored Solutions" title="Tailored Solutions" />
+                <img className="pret" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739425558/fantaJi_vun6kf.png' alt="Tailored Solutions" title="Tailored Solutions" />
                 <h4>Tailored Solutions <br /> Begin Here</h4>
                 <p>Share your requirements with us, and we'll curate a roster of skilled team members perfectly aligned with your project. Once approved, your tech team evaluates our candidates.
                 </p>
@@ -326,7 +326,7 @@ const generateMetadata = ({ params }) => ({
                 </div>
               </div>
               <div className="native-work-box">
-                <Image className="pret" src={pret} alt="Team Curation and" title="Team Curation and" />
+                <img className="pret" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739425308/pret_b5hjwt.png' alt="Team Curation and" title="Team Curation and" />
                 <h4>Team Curation and <br /> Proposal Review
                 </h4>
                 <p>We'll handpick the best-suited talents from our team based on your unique needs. Upon your acceptance, your tech team conducts a thorough review of our candidates.
@@ -336,7 +336,7 @@ const generateMetadata = ({ params }) => ({
                 </div>
               </div>
               <div className="native-work-box">
-                <Image className="pret1" src={pret1} alt="Seamless Team  integration" title='Seamless Team  integration' />
+                <img className="pret1" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739425380/pret1_yb7kbh.png' alt="Seamless Team  integration" title='Seamless Team  integration' />
                 <h4>Seamless Team  <br />Integration</h4>
                 <p>After your team's review and approval, we seamlessly integrate into your development team, functioning as an invaluable in-house asset.</p>
                 <div className="native-steps">
@@ -353,10 +353,10 @@ const generateMetadata = ({ params }) => ({
        
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739423798/whatsapp_yiaqit.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739423855/telephone_bcbfsw.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>
