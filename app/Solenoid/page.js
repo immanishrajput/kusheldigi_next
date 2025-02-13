@@ -1,7 +1,7 @@
 
 "use client"
 import React, { useEffect } from 'react'
-
+import Head from 'next/head';
 import arrow4 from "../../public/assets/arrow4.png";
 import conjun from "../../public/assets/conjun.png";
 import Link from "next/link";
