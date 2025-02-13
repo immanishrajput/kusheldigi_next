@@ -2,7 +2,7 @@
 // app/layout.js
 export const metadata = {
   title: ' Kushel Digi Solutions | Expert eCommerce Development Service',
-  description:'Kushel Digi Solutions has over 8 years of experience in Shopify, BigCommerce, and custom eCommerce solutions to deliver high performing online stores'
+  description:'High performance Ecommerce solutions with specialized development strategies. Kushel Digi Solutions boosts conversion and builds scalable Shopify, BigCommerce and custom online stores.'
   ,
   keywords:[
     'best ecommerce development companies',

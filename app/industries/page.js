@@ -202,7 +202,7 @@ function Industries() {
   };
    const generateMetadata = ({ params }) => ({
       title: 'Case Studies of Kushel Digi Solutions ',
-      description: 'Kushel Digi Solutions is most trusted Web Development company with 2000+ Satisfied clients across the globe.',
+      description: 'Kushel Digi Solutions offers full service and industry-specific solutions to enhance seamless user experiences and build a strong presence in their industry.',
     });
     
   useEffect(() => {

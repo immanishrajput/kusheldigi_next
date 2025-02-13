@@ -395,7 +395,7 @@ const Navbar = () => {
                         className="sar descfont textTransform-navbar"
                         href="/about"
                       >
-                        About-us
+                        About
                       </Link>
                       <div className="ser-nav10 hidden megaMenu">
                         <div className="compan flex items-start justify-between compan1">

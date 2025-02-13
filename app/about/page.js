@@ -142,7 +142,7 @@ const About = ({ notify }) => {
 
   const generateMetadata = ({ params }) => ({
     title: 'About Kushel Digi Solutions | eCommerce Development Experts',
-    description: 'E-commerce Website Development',
+    description: 'Kushel Digi Solutions empower businesses by delivering seamless, scalable as well as revenue-driven online stores to maximize growth in the eCommerce digital marketplace.',
   });
   
   useEffect(() => {
