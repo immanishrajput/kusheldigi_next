@@ -6,7 +6,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 // import OutsideClickHandler from 'react-outside-click-handler';
 import Head from 'next/head';
 
-const Ecommpop = ({setPop, notify}) => {
+const Ecommpop = ({setPop, notify = (type, message)=> console.log(type, message)}) => {
   const [user, setUser] = useState({
     technology: "",
     products: "",
@@ -115,7 +115,7 @@ const Ecommpop = ({setPop, notify}) => {
                       <hr />
                       <input value={user.Estore} name="Estore" onChange={handleChange} type="text" placeholder="Any current E-store?" />
                       <hr />
-                      <input value={user.name6} name="name6" onChange={handleChange} type="text" placeholder="Name*" />
+                      <input value={user.name6} name="name6" onChange={handleChange} type="text" placeholder="Name*" maxLength="32"/>
                       <hr />
                       <input value={user.mobile6} name="mobile6" onChange={handleChange} type="number" placeholder="Mobile*" />
                       <hr />

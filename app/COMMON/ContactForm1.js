@@ -147,7 +147,7 @@ const ContactForm1 = ({ notify }) => {
                   onChange={handleChange}
                   type="text"
                   placeholder="First Name*"
-                  maxlength="32"
+                  maxLength="32"
                   onInput={(e) => e.target.value = e.target.value.replace(/[^A-Za-z]/g, '')}
                   
                 />
@@ -158,7 +158,7 @@ const ContactForm1 = ({ notify }) => {
                   onChange={handleChange}
                   type="text"
                   placeholder="Last Name*"
-                  maxlength="32"
+                  maxLength="32"
                   onInput={(e) => e.target.value = e.target.value.replace(/[^A-Za-z]/g, '')}
                 />
               </div>
@@ -172,7 +172,7 @@ const ContactForm1 = ({ notify }) => {
                   value={value1.phone}
                   name="phone"
                   placeholder="Enter your phone"
-                   maxlength="10"
+                   maxLength="10"
                   onChange={phone => {
                     setValue1({ phone });
                   }}

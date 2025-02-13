@@ -59031,6 +59031,9 @@ width: 450px;
   object-fit: cover
 }
 
+.left_eco_pop img{
+  display: none;
+}
 .eco_pop i {
   color: #fff;
   background-color: #1265ff;
