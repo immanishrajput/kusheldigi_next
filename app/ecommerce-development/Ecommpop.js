@@ -6,7 +6,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 // import OutsideClickHandler from 'react-outside-click-handler';
 import Head from 'next/head';
 
-const Ecommpop = ({setPop, notify}) => {
+const Ecommpop = ({setPop, notify = (type, message)=> console.log(type, message)}) => {
   const [user, setUser] = useState({
     technology: "",
     products: "",
@@ -111,15 +111,15 @@ const Ecommpop = ({setPop, notify}) => {
                         <option>2</option>
                         <option>3</option>
                       </select> */}
-                        <input id="products" value={user.products} name="products" onChange={handleChange} type="number" placeholder="How many products" />
+                        <input id="products" value={user.products} name="products" onChange={handleChange} type="number" placeholder="How many products" required/>
                       <hr />
-                      <input value={user.Estore} name="Estore" onChange={handleChange} type="text" placeholder="Any current E-store?" />
+                      <input value={user.Estore} name="Estore" onChange={handleChange} type="text" placeholder="Any current E-store?" required />
                       <hr />
-                      <input value={user.name6} name="name6" onChange={handleChange} type="text" placeholder="Name*" />
+                      <input value={user.name6} name="name6" onChange={handleChange} type="text" placeholder="Name*" maxLength="32" required/>
                       <hr />
-                      <input value={user.mobile6} name="mobile6" onChange={handleChange} type="number" placeholder="Mobile*" />
+                      <input value={user.mobile6} name="mobile6" onChange={handleChange} type="number" placeholder="Mobile*" required/>
                       <hr />
-                      <input value={user.email6} name="email6" onChange={handleChange} type="email" placeholder="Email*" />
+                      <input value={user.email6} name="email6" onChange={handleChange} type="email" placeholder="Email*" required/>
                       <hr />
                       <button><span>Submit</span><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                         <path d="M8.46817 16.883L7.04466 15.4803L12.6388 9.86957H0.476562V7.86573H12.6388L7.04466 2.25498L8.46817 0.852295L16.4598 8.86765L8.46817 16.883Z" fill="white" />

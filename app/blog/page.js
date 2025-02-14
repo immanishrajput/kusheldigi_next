@@ -144,7 +144,7 @@ const handleRemoveCategory = () => {
   },[filterBlog , allCatBlogs])
   const generateMetadata = ({ params }) => ({
      title: 'eCommerce Growth & Development | Kushel Digi Solutions Blog',
-     description: 'Kushel Digi Solutions is most trusted Web Development company with 2000+ Satisfied clients across the globe.',
+     description:'Get the latest insights on optimization trends and unique development solutions and thereby unlock your Ecommerce success with Kushel Digi Solutions. Explore our blogs to scale your online store.',
    });
    
  useEffect(() => {
@@ -257,8 +257,8 @@ const handleRemoveCategory = () => {
             className="cursor-pointer"
             onClick={() => {
            
-            //  router.push(`blogdetails/${currAllBlogs[0]?._id}`);
-            router.push(`blogdetails?id=${currAllBlogs[0]?._id}`)
+             router.push(`blogdetails/${currAllBlogs[0]?._id}`);
+            // router.push(`blogdetails?id=${currAllBlogs[0]?._id}`)
             }}
           >
             {currAllBlogs[0]?.title?.length > 50 ? `${currAllBlogs[0]?.title?.slice(0,50)}...` : currAllBlogs[0]?.title} 

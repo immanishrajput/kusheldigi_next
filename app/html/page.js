@@ -331,7 +331,7 @@ const generateMetadata = ({ params }) => ({
                         </div>
                         <div className="processt_html_box processs1-box2">
                             <div className="headof_tax">
-                                <Image src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175713/erty_eisfdw.png' alt="Bespoke Development" title='' />
+                                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175713/erty_eisfdw.png' alt="Bespoke Development" title='' />
                                 <h4>Bespoke Development</h4>
                             </div>
                             <p>

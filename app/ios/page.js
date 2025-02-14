@@ -204,7 +204,7 @@ const generateMetadata = ({ params }) => ({
             <div className="android-card">
               <div className="android-box android-box3 android-boxes1">
                 <div className="android0-img flex items-center">
-                  <Image
+                  <img
                     src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739179640/bulb3_akygup.png'
                     alt=" iOS UI/UX Design"
                     title=" iOS UI/UX Design"

@@ -347,7 +347,7 @@ const generateMetadata = ({ params }) => ({
                         <SplideSlide>
                             <div className="other-card">
                                 <div className="other-box">
-                                    <Image src={rel1} alt="rel1" />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739428893/rel1_fffpuy.png' alt="rel1" />
                                 </div>
                                 <div className="other-tox-para">
                                     <h3>RELY INNOVATION</h3>
@@ -365,7 +365,7 @@ const generateMetadata = ({ params }) => ({
                         <SplideSlide>
                             <div className="other-card">
                                 <div className="other-box other-box1">
-                                    <Image src={rel2} alt="rel1" />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739428931/rel2_nclse2.png' alt="rel1" />
                                 </div>
                                 <div className="other-tox-para">
                                     <h3>PRO TRUCKS</h3>
@@ -411,10 +411,10 @@ const generateMetadata = ({ params }) => ({
                         <Link href="/contact-us">
                             <button>
                                 Request A Call{" "}
-                                <Image
+                                <img
                                     width={13}
                                     className=" inline ml-2"
-                                    src={arrow4}
+                                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739428861/arrow4_ig23cr.png'
                                     alt="alik"
                                 />
                             </button>

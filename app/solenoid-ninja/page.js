@@ -36,6 +36,7 @@ import Navbar from '../COMMON/Navbar';
 import Footer from '../COMMON/Footer';
 import Image from 'next/image';
 import '../globals.css'
+import Head from 'next/head';
 const Solenoid = () => {
 
 

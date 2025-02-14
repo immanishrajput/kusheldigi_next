@@ -9584,8 +9584,8 @@ animation-timing-function: ease-in-out;
 }
 
 .second-section-card {
-    width: 280px;
-    height: 340px;
+    width: 315px;
+    height: 337px;
     background-color: #fff;
     border-radius: 8px
 }
@@ -9762,7 +9762,7 @@ animation-timing-function: ease-in-out;
 
 .benefit-card {
     width: 315px;
-    height: 479px;
+    height:600px;
     margin-top: 25px;
     background-color: #fff;
     box-shadow: 0 4px 5px 0 rgb(0 0 0 / .1)
@@ -21313,6 +21313,7 @@ width: 520px;
 }
 
 #hemesh-seo-kushel .seo-second-heading h2 {
+  text-align: center;
   font-size: 32px;
   font-weight: 800;
   line-height: 40px;
@@ -21344,6 +21345,7 @@ width: 520px;
 }
 
 #hemesh-seo-kushel .seo-second-card-flex0 h4 {
+  text-align: center;
   font-weight: 700;
   font-size: 22px;
   line-height: 40px;
@@ -21368,6 +21370,7 @@ width: 520px;
 }
 
 #hemesh-seo-kushel .seo-second-card-flex1 h4 {
+  text-align: center;
   font-weight: 700;
   font-size: 22px;
   line-height: 40px;
@@ -21376,6 +21379,7 @@ width: 520px;
 }
 
 #hemesh-seo-kushel .seo-second-card-flex1 p {
+  text-align: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -21401,6 +21405,7 @@ width: 520px;
 }
 
 #hemesh-seo-kushel .seo-second-card-flex2 p {
+  text-align: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -21429,6 +21434,7 @@ width: 520px;
 }
 
 #hemesh-seo-kushel .seo_flex2 h2 {
+  text-align: center;
   font-size: 32px;
   line-height: 40px;
   font-weight: 800;
@@ -21454,7 +21460,7 @@ width: 520px;
 #hemesh-seo-kushel .seo-second-card-flex3 {
   max-width: 350px;
   width: 100%;
-  height: 310px;
+  height: 368px;
   background-color: #f9f9f9;
   display: flex;
   flex-direction: column;
@@ -21465,9 +21471,10 @@ width: 520px;
 }
 
 #hemesh-seo-kushel .seo-second-card-flex3 h4 {
+  text-align: center;
   font-weight: 800;
   font-size: 22px;
-  line-height: 44px;
+  line-height:37px;
   padding-bottom: 8px
 }
 
@@ -22193,6 +22200,7 @@ width: 480px;
   }
 
   #hemesh-seo-kushel .seo-second-heading h2 {
+   
     font-size: 32px;
     line-height: 26px
   }
@@ -22247,6 +22255,7 @@ width: 480px;
   }
 
   #hemesh-seo-kushel .seo-second-heading h2 {
+   
     font-size: 23px
   }
 
@@ -54336,6 +54345,7 @@ width: 450px;
 .kick_mart {
   max-width: 325px;
   width: 100%;
+  height: 120px !important;
   object-fit: cover
 }
 
@@ -55248,7 +55258,7 @@ width: 450px;
 
 .manbi-btn {
   position: absolute;
-  bottom: -40px;
+  bottom: -27px;
   left: 0;
   right: 0;
   display: flex;
@@ -59031,6 +59041,15 @@ width: 450px;
   object-fit: cover
 }
 
+
+@media(max-width:450px) {
+.left_eco_pop img{
+  display: none;
+}
+.eco_pop i {
+  right: 1rem !important;
+}
+}
 .eco_pop i {
   color: #fff;
   background-color: #1265ff;
@@ -59044,7 +59063,7 @@ width: 450px;
   font-size: 20px;
   top: 3.5rem;
   z-index: 90;
-  right: 14rem;
+  right: 15rem;
   cursor: pointer
 }
 
@@ -62651,6 +62670,7 @@ option {
 }
 
 .digi-packages .package-types h3 {
+  text-align: center;
     font-size: 35px;
     color: #33475B;
     line-height: 46px;

@@ -56,7 +56,7 @@ const Ankitcrouser = [
     leftitle: "Top Brass Tactical",
     quote:
       "Top Brass resolutely back the front-line hero. We are spirited supporters of the 2nd Amendment. Moreover, we proclaim the values of diligence, fairness, and the standard American demeanour.",
-    rightimg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176770/topbrass_rrqq1c.png',
+    rightimg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739430318/topbrass_x4lygw.png',
     link: "https://topbrasstactical.com/",
   },
   {
@@ -201,8 +201,8 @@ function Industries() {
     });
   };
    const generateMetadata = ({ params }) => ({
-      title: 'Case Studies of Kushel Digi Solutions ',
-      description: 'Kushel Digi Solutions is most trusted Web Development company with 2000+ Satisfied clients across the globe.',
+      title: 'eCommerce Solutions for Every Industry | Kushel Digi Solutions',
+      description: 'Kushel Digi Solutions offers full service and industry-specific solutions to enhance seamless user experiences and build a strong presence in their industry.',
     });
     
   useEffect(() => {
@@ -252,11 +252,11 @@ function Industries() {
                 </a>
               </div>
               <div className="indus-right-image">
-                <Image
+                <img
                   src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724930071/landImage.d48ec8dc6e76a4f980db_gnfiia.webp"
                   alt="banner image"
                   title="banner image"
-                  width={478} height={478}
+                  // width={478} height={478}
                 />
               </div>
             </div>
@@ -1174,7 +1174,7 @@ function Industries() {
                 </div>
               </div>
               <div className="USA-ourWork-right-image2">
-                <Image
+                <img
                   src={currentItem.rightimg}
                   alt={currentItem.leftitle}
                   title={currentItem.leftitle}

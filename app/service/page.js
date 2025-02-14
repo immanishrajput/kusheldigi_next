@@ -87,7 +87,7 @@ const Service = () => {
           <div className="services1">
             <div className="services-content1">
               <div className="left-image">
-                <Image src={Pic1} alt="ABOUT COMPANY"  title="ABOUT COMPANY"/>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739428578/group1_y9ck1i.png' alt="ABOUT COMPANY"  title="ABOUT COMPANY"/>
               </div>
               <div className="right-content">
                 <h3>ABOUT COMPANY</h3>
@@ -392,7 +392,7 @@ const Service = () => {
                 </div>
               </div>
               <div className="services-right-images">
-                <Image src={Pic2} alt="our services" title="our services" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739428619/group2_tdmgoh.png' alt="our services" title="our services" />
               
               </div>
             
@@ -571,7 +571,7 @@ const Service = () => {
               <div className="services-icons4">
                 <div className="services-icons-card">
                     <div className="group-iconsss">
-                    <Image src={pic3} alt="Our Technologies" title="Our Technologies" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739428649/services-group2345_ipa2bs.png' alt="Our Technologies" title="Our Technologies" />
                     </div>
                   {/* <img src="./images/services-group2345.png" alt="" /> */}
                 </div>
@@ -814,10 +814,10 @@ const Service = () => {
       </div>
       <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739423798/whatsapp_yiaqit.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739423855/telephone_bcbfsw.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

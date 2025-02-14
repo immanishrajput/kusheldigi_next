@@ -46,8 +46,8 @@ const Solution = () => {
     });
   };
  const generateMetadata = ({ params }) => ({
-    title: 'eCommerce Solutions for Every Industry | Kushel Digi Solutions',
-    description: 'Kushel Digi Solutions is most trusted Web Development company with 2000+ Satisfied clients across the globe.',
+    title: 'Our eCommerce Services | Build, Scale & Optimize Your Store',
+    description: 'For seamless integration and performance optimization, we provide custom Shopify and BigCommerce development solutions. Get end to end Ecommerce solutions for long-term success in platform development, UI/UX, and performance marketing.',
   });
   
 useEffect(() => {
