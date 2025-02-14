@@ -201,7 +201,7 @@ function Industries() {
     });
   };
    const generateMetadata = ({ params }) => ({
-      title: 'Case Studies of Kushel Digi Solutions ',
+      title: 'eCommerce Solutions for Every Industry | Kushel Digi Solutions',
       description: 'Kushel Digi Solutions offers full service and industry-specific solutions to enhance seamless user experiences and build a strong presence in their industry.',
     });
     

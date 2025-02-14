@@ -38,7 +38,7 @@ const callHandler=()=>{
 const Service = () => {
   const generateMetadata = ({ params }) => ({
     title: 'eCommerce Solutions | Shopify & BigCommerce Experts',
-    description: 'Get top-notch and expert eCommerce services from custom website development to improving conversion rates covering platform setup, design, development and sales-drive strategies.',
+    description: 'Kushel Digi Solutions is most trusted Web Development company with 2000+ Satisfied clients across the globe.',
   });
   
   
