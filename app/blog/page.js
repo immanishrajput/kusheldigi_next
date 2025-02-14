@@ -142,11 +142,12 @@ const handleRemoveCategory = () => {
     }
 
   },[filterBlog , allCatBlogs])
+  
   const generateMetadata = ({ params }) => ({
      title: 'eCommerce Growth & Development | Kushel Digi Solutions Blog',
      description:'Get the latest insights on optimization trends and unique development solutions and thereby unlock your Ecommerce success with Kushel Digi Solutions. Explore our blogs to scale your online store.',
    });
-   
+    
  useEffect(() => {
      const { title, description } = generateMetadata({ params: {} });
      document.title = title;

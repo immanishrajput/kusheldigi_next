@@ -143,11 +143,19 @@ const About = ({ notify }) => {
   const generateMetadata = ({ params }) => ({
     title: 'About Kushel Digi Solutions | eCommerce Development Experts',
     description: 'Kushel Digi Solutions empower businesses by delivering seamless, scalable as well as revenue-driven online stores to maximize growth in the eCommerce digital marketplace',
+    // openGraph: {
+    //   title: "Kushel Digi | Expert eCommerce Development Services",
+    //   description: "We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development.",
+    //   url: `"https://www.kusheldigi.com/`,
+    //   siteName: "https://www.kusheldigi.com/",
+    //   images: [{ url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png", width: 1200, height: 630 }], 
+    // }
   });
 
   useEffect(() => {
-    const { title, description } = generateMetadata({ params: {} });
+    const { title, description  , openGraph} = generateMetadata({ params: {} });
     document.title = title;
+    // document.openGraph = openGraph;
     let metaDescription = document.querySelector('meta[name="description"]');
     metaDescription ? metaDescription.content = description :
       document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);

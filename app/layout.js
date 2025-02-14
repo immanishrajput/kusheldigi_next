@@ -1,9 +1,8 @@
+import Script from "next/script";
 
 // app/layout.js
 export const metadata = {
-  title: ' Kushel Digi Solutions | Expert eCommerce Development Services',
-  description: 'High performance Ecommerce solutions with specialized development strategies. Kushel Digi Solutions boosts conversion and builds scalable Shopify, BigCommerce and custom online stores.'
-  ,
+
   keywords: [
     'best ecommerce development companies',
     'best ecommerce development platform',
@@ -30,13 +29,67 @@ export const metadata = {
     'Custom theme developement',
     'custom third-party integration',
     'Big commerce app developement'
-  ]
+  ],
+  metadataBase: new URL(`https://www.kusheldigi.com/`),
+  alternates: {
+      canonical: './',
+  },
+  openGraph: {
+    title: "Kushel Digi | Expert eCommerce Development Services",
+    description: "We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development.",
+    url: `"https://www.kusheldigi.com/`,
+    siteName: "https://www.kusheldigi.com/",
+    images: [{ url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png", width: 1200, height: 630 }], 
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Kushel Digi | Expert eCommerce Development Services",
+    description: "We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development.",
+    images: [{ url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png", width: 1200, height: 630 }],
+  },
+ 
+};
 
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Website Development",
+  "provider": {
+    "@type": "Organization",
+    "name": "Kushel Digi Solutions",
+    "url": "https://www.kusheldigi.com/"
+  },
+  "areaServed": [
+    { "@type": "Country", "name": "India" },
+    { "@type": "Country", "name": "USA" },
+    { "@type": "Country", "name": "UAE" }
+  ],
+  "description": "We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "First Floor, D242, F-32B, Sector 63 Rd, Noida, 201301, Uttar Pradesh",
+    "addressLocality": "Noida",
+    "addressRegion": "Uttar Pradesh",
+    "postalCode": "201301",
+    "addressCountry": "IN"
+  },
+  "telephone": "+91-9045301702",
+  "url": "https://www.kusheldigi.com/",
+  "openingHours": "Mon-Sat 10:00AM-05:00PM",
+  "priceRange": ["$$", "INR"]
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+       <Script
+        id="faq-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(jsonLd),
+        }}
+      />
       <body>{children}</body>
     </html>
   );
