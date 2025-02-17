@@ -299,7 +299,7 @@ const generateMetadata = ({ params }) => ({
           <div className="development">
             <div className="development1">
               <h3>
-                Web Development Solutions <br /> To Grow The Business
+                Web Development Solutions To Grow The Business
               </h3>
               <p className="knowrs">
                 Do you want your business to flourish in today's digital era? Then you'll require a website which is a key to establish your online presence and identity. Your website acts as an effective tool to highlight your strength by showcasing your products and services which will definitely excel your online presence. But to attract new customers and traffic to your site is also essential and for this Kushel Digi Solutions is here for you with extensive experience in delivering fast, innovative and user-friendly sites in few weeks
@@ -576,7 +576,7 @@ const generateMetadata = ({ params }) => ({
 
         <div className="ben-da">
           <h3>
-            Benefits Of Working With Us <br />
+            Benefits Of Working With Us 
             To Build Your Website
           </h3>
           <p>

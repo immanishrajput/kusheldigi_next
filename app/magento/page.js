@@ -267,8 +267,7 @@ const Magento = () => {
 
         <div className="php_portfolio">
           <div className="php_port php_oty">
-            <h2 className="our_php">Why Choose <span>Kushel Digi Magento</span>  <br />
-              Development Services?  </h2>
+            <h2 className="our_php">Why Choose <span>Kushel Digi Magento </span>Development Services?  </h2>
           </div>
         </div>
 

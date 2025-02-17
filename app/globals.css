@@ -41961,6 +41961,7 @@ form button:hover {
 }
 
 .development1 h3 {
+  width: 520px;
   color: #33475b;
   font-size: 34px;
   font-weight: 700;
@@ -42135,6 +42136,8 @@ form button:hover {
 }
 
 .ben-da h3 {
+  width: 505px;
+  margin: 0 auto;
   color: #33475b;
   opacity: .9;
   text-align: center;
@@ -52765,6 +52768,8 @@ width: 450px;
 }
 
 .php_port h2 {
+  width: 615px;
+  margin: 0 auto;
   color: #33475b !important;
   font-size: 34px !important;
   font-weight: bold !important
@@ -71529,6 +71534,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .php_port h2 {
+      width: 100%;
         font-size: 30px !important;
         line-height: 38px !important
     }
@@ -73455,6 +73461,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .ben-da h3 {
+      width: 100%;
         font-size: 30px;
         line-height: 38px
     }
@@ -73510,6 +73517,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .development1 h3 {
+      width: 100%;
         font-size: 30px;
         line-height: 38px
     }
@@ -78429,7 +78437,8 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .magento_back1 p {
-        font-size: 14px
+        font-size: 14px;
+        text-align: center;
     }
 
     .magento_back1 button {
@@ -78571,6 +78580,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .php_port h2 {
+      width: 100%;
         font-size: 25px !important;
         line-height: 32px !important
     }
@@ -79781,6 +79791,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .development1 h3 {
+      width: 100%;
         font-size: 25px;
         line-height: 32px
     }
@@ -79843,6 +79854,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .ben-da h3 {
+      width: 100%;
         font-size: 25px;
         line-height: 32px
     }
@@ -81307,7 +81319,8 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
 
     .magento_back1 h1 {
         font-size: 28px;
-        line-height: 36px
+        line-height: 36px;
+        text-align: center;
     }
 
     .php_backs1 {
@@ -81654,10 +81667,17 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .php_port h2 {
+      width: 100%;
         font-size: 25px !important;
         line-height: 32px !important
     }
-
+.megento_old3 h3{
+  line-height: 40px !important;
+  text-align: center !important;
+}
+.megento_old3 p {
+text-align: center;
+}
     .wordpress_agency {
         padding: 60px 20px !important
     }
