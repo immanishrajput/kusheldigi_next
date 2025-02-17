@@ -760,7 +760,7 @@ const Headless = () => {
               </div>
               {/* <div class="headless-commerce-handle">
                   <div class="headless-commerce-cards-backend">
-                        <img   src={backends} alt="">
+                        <img   src={backends} alt="kushel">
                   </div>
                   <div class="headless-commerce-cards-para">
                       <p>BACK-END</p>
@@ -793,7 +793,7 @@ const Headless = () => {
                   <p>Wire planning</p>
                 </div>
                 <div className="headless-commerce-cards-content-main4">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171474/cards3-images3_zn7kpm.svg' alt="" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171474/cards3-images3_zn7kpm.svg' alt="kushel" />
                   <p>Headless Theme Crafting</p>
                 </div>
                 <div className="headless-commerce-cards-content-main4">

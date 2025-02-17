@@ -86,7 +86,7 @@ function Home2Section4() {
                   onMouseLeave={() => setHoveredItem(null)}
                 >
                   <div className="weitemleft">
-                    <Image width={44} height={44} src={d.img} alt="" />
+                    <Image width={44} height={44} src={d.img} alt="kushel" />
                     <div className="itemconte">
                       <p className="ictitle">{d.title}</p>
                       {/* Show para only on hover with animation */}
@@ -109,7 +109,7 @@ function Home2Section4() {
                 <div className="sindardiv">
                   {/* left side */}
                   <div className="sdivleft">
-                    <Image width={23} height={23} src={d.img} alt="" />
+                    <Image width={23} height={23} src={d.img} alt="kushel" />
                     <span>{d.title}</span>
                   </div>
 

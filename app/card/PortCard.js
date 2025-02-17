@@ -1,7 +1,5 @@
+
 import React from 'react'
-// import  { useState, useEffect } from "react";
-// import { NavLink } from 'react-router-dom';
-import Link from 'next/link';
 import Image from 'next/image';
 const PortCard = (props) => {
     return (

@@ -130,19 +130,7 @@ function Page() {
     }, 300); // Time for the slide-out transition to complete
   };  /* Slide-out animation */
  
-const generateMetadata = ({ params }) => ({
-         title: 'Kusheldigi.com/2ndamendment',
-         description:"Web Development Company | Kushel Digi Solutions"
-       });
-       
-     useEffect(() => {
-         const { title, description } = generateMetadata({ params: {} });
-         document.title = title;
-         let metaDescription = document.querySelector('meta[name="description"]');
-         metaDescription ? metaDescription.content = description : 
-           document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-       }, []);
- 
+
   return (
     <div className="case1wrap home-main">
 
@@ -166,8 +154,8 @@ const generateMetadata = ({ params }) => ({
       {/* first sectino */}
       <section className="case1firsec">
 
-        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216400/case1fil_bwtual.png" alt="" className="case1fill" />
-        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216437/case1bg_j1tw2e.png" alt="" className="case1bg" />
+        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216400/case1fil_bwtual.png" alt="kushel" className="case1fill" />
+        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216437/case1bg_j1tw2e.png" alt="kushel" className="case1bg" />
 
         <div className="cas1cont1wrap">
           <div className="case1fircont">
@@ -175,7 +163,7 @@ const generateMetadata = ({ params }) => ({
             <div className="case1fifirco">
               {/* left  */}
               <div className="ca1firleft">
-                <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216471/case1s1_wisthd.png" alt="" />
+                <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216471/case1s1_wisthd.png" alt="kushel" />
                 <p>2ndamendment Armory</p>
               </div>
 
@@ -210,10 +198,10 @@ const generateMetadata = ({ params }) => ({
       {/* secon section  */}
       <section className="case2secsec">
         <div className="case2seccont">
-          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216503/case2imgs1_xngbpg.png" alt="" className="cs2i1" />
+          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216503/case2imgs1_xngbpg.png" alt="kushel" className="cs2i1" />
 
           <div className="sc2_main_content">
-            <h3>Client Background</h3>
+            <h1>Client Background</h1>
 
             <p>
             2nd Amendment Armory is known for being a leading provider of high-quality firearms and tactical equipment. They have a wide selection of firearms that includes big brands like Glock, Ruger, Smith & Wesson and Daniel Defense.The store caters to a wide variety of people, including hunters, outdoorsmen, recreational shooters, law enforcement, military servicemen, and responsible owners of firearms. 2nd Amendment Armory focuses on customer satisfaction by guaranteeing fair pricing, product knowledge, and exceptional post-purchase support. 
@@ -221,7 +209,7 @@ const generateMetadata = ({ params }) => ({
           </div>
         </div>
 
-        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216538/c2el1_ljp05j.png" alt="" className="c2el1" />
+        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216538/c2el1_ljp05j.png" alt="kushel" className="c2el1" />
       </section>
 
       {/* third section  */}
@@ -248,7 +236,7 @@ const generateMetadata = ({ params }) => ({
 
           </div>
 
-          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216571/case3ano_uv19e1.png" alt="" className="c3antoimg" />
+          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216571/case3ano_uv19e1.png" alt="kushel" className="c3antoimg" />
         </div>
       </section>
 
@@ -267,13 +255,13 @@ const generateMetadata = ({ params }) => ({
     >
       <SplideSlide>
         <section className="case3secfour">
-          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216738/c1bg1_pjbwvi.png" alt="" className="c1btimage" />
+          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216738/c1bg1_pjbwvi.png" alt="kushel" className="c1btimage" />
 
           <div className="cas3s4con">
 
    <div className="bgshowdb1">
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730447922/Group_1171279178_mudtzg.png" alt="" className="ca2insideimg adjustheighimg" />
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="" className="shadowbg1" />
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730447922/Group_1171279178_mudtzg.png" alt="kushel" className="ca2insideimg adjustheighimg" />
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" />
    </div>
 
             <div className="cas3circldata">
@@ -289,13 +277,13 @@ const generateMetadata = ({ params }) => ({
 
       <SplideSlide>
         <section className="case3secfour">
-          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216738/c1bg1_pjbwvi.png" alt="" className="c1btimage" />
+          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216738/c1bg1_pjbwvi.png" alt="kushel" className="c1btimage" />
 
           <div className="cas3s4con">
 
    <div className="bgshowdb1">
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730447919/Group_1171279179_d6pz1d.png" alt="" className="ca2insideimg adjustheighimg" />
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="" className="shadowbg1" />
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730447919/Group_1171279179_d6pz1d.png" alt="kushel" className="ca2insideimg adjustheighimg" />
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" />
    </div>
 
             <div className="cas3circldata">
@@ -310,13 +298,13 @@ const generateMetadata = ({ params }) => ({
 
       <SplideSlide>
         <section className="case3secfour">
-          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216738/c1bg1_pjbwvi.png" alt="" className="c1btimage" />
+          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216738/c1bg1_pjbwvi.png" alt="kushel" className="c1btimage" />
 
           <div className="cas3s4con">
 
    <div className="bgshowdb1">
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730447917/Group_1171279180_kw6axc.png" alt="" className="ca2insideimg addheightimage" />
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="" className="shadowbg1" />
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730447917/Group_1171279180_kw6axc.png" alt="kushel" className="ca2insideimg addheightimage" />
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" />
    </div>
 
             <div className="cas3circldata">
@@ -360,7 +348,7 @@ const generateMetadata = ({ params }) => ({
 
   {/* Right Section with Animation */}
   <div className={`c2fibbotrigh ${animationDirection} `}>
-    <img src={selectdata?.img} className="selectdataimg" alt=""/>
+    <img src={selectdata?.img} className="selectdataimg" alt="kushel"/>
     <div className="serigh_macont">
       <h4>
         <span>0{selectS4 + 1}/</span> {selectdata?.title}
@@ -399,7 +387,7 @@ const generateMetadata = ({ params }) => ({
 
           <div className={`c2fibbotrigh`}>
        
-       <img src={item?.data?.img} className="selectdataimg" alt=""/>
+       <img src={item?.data?.img} className="selectdataimg" alt="kushel"/>
        
        <div className="serigh_macont">
        
@@ -436,8 +424,8 @@ const generateMetadata = ({ params }) => ({
      {/* six section  */}
      <section className="cs2sexiesec">
 
-      <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216672/similarl1_kq1btu.png" alt="" className="similarl1" />
-      <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216703/similarl2_yt5kqi.png" alt=""  className="similarl2" />
+      <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216672/similarl1_kq1btu.png" alt="kushel" className="similarl1" />
+      <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216703/similarl2_yt5kqi.png" alt="kushel"  className="similarl2" />
 
        <div className="c2sixconta">
 
@@ -472,7 +460,7 @@ const generateMetadata = ({ params }) => ({
           {
             projects?.map((project , index)=>(
               <div key={index} className="singlprojseve">
-                   <img src={project?.img} alt=""/>
+                   <img src={project?.img} alt="kushel"/>
 
                     <div className="seven_titls">
                       <p className="sep1">{project?.title1}</p>

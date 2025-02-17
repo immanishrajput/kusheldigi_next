@@ -100,10 +100,9 @@ useEffect(() => {
                   is a full-service Merger and acquisition company helping
                   companies sell and buy assets by creating value
                 </p>
-                <h3>Technologies Used</h3>
+                <h1>Technologies Used</h1>
                 <div className="main-box-logic flex">
-                  {/* <img src={opqweeeeeee} id="sim" alt="img"></img> */}
-                  {/* <img src={opqweeeeeee2} id="rotat" alt="img"></img> */}
+                
                   <img src="https://res.cloudinary.com/ecommerce-website/image/upload/v1725955530/Group_1171276002_fjj8zz.svg" alt="alt" />
                 </div>
               </div>

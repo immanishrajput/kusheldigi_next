@@ -48,33 +48,19 @@ const Privacy = () => {
   return (
     <>
 
-<Head>
-        {/* Open Graph (OG) Meta Tags */}
-        <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
-        <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
-        <meta property="og:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
-        <meta property="og:url" content="https://www.kusheldigi.com/" />
-        <meta property="og:type" content="website" />
 
-        {/* Twitter Card Meta Tags */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Kushel Digi | Expert eCommerce Development Services" />
-        <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
-        <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
-        <meta name="twitter:url" content="https://www.kusheldigi.com/" />
-      </Head>
       
     <Navbar/>
    
      <div className="ser-main">
       <div className="privacy-back">
         <div className="privacy-sect">
-          <h2>privacy policy</h2>
+          <h1>privacy policy</h1>
         </div>
       </div>
       <div className="privacy-section">
         <div className="privacy-heading">
-          <h3>Privacy Policy</h3>
+          <h2>Privacy Policy</h2>
           <p className='mt-2'>
             At Kushel Digi, our core value is securing and protecting the privacy of our visitors. This privacy policy intends to explain what happens to the personal data that you provide us and the one that we collect from you when you visit our website. We periodically keep updating our privacy policy, so we recommend reviewing it from time to time. The primary purpose of the Information we collect is to run and maintain our website, The following
             <span>data is collected</span> and processed about you:

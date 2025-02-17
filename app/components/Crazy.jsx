@@ -1,49 +1,16 @@
 "use client"
 import React, { useState, useEffect } from "react";
-import arrow4 from "../../public/assets/arrow4.png";
-// import { NavLink } from "react-router-dom";
-import rel1 from "../../public/assets/rel1.png";
-import rel2 from "../../public/assets/rel2.png";
-import rel3 from "../../public/assets/rel3.png";
+import Head from 'next/head';
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import Head from 'next/head';
-
-import img4 from "../../public/assets/Group 1000004718.png";
-import img5 from "../../public/assets/Group 1000004715.png";
 import img6 from "../../public/assets/Group 1000004716.png";
-import img13 from "../../public/assets/Group 1000006500 (1).png";
-// import "../components/css/app2.css";
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png";
-import omis from "../../public/assets/omis.svg";
-import omis1 from "../../public/assets/omis1.svg";
-import omis2 from "../../public/assets/omis2.svg";
-import lies from "../../public/assets/lies.svg";
-import kpingq1 from "../../public/assets/kping1.svg";
-import kpingq11 from "../../public/assets/kping.svg";
-import crazy1 from "../../public/assets/crazy1.svg";
-import crazy2 from "../../public/assets/crazy2.svg";
-import fs from "../../public/assets/fs.svg";
-import lojj from "../../public/assets/lojj.svg";
-import ep44 from "../../public/assets/ellipse44.png";
-import viewimg from "../../public/assets/viewimg2.png"
-import img22 from "../../public/assets/img222.png"
-import woodview22 from "../../public/assets/woldview22.png"
-import colorplate from "../../public/assets/woodcolorplate.png"
-import ell451 from "../../public/assets/ellipse451.png"
-import woodlogo from "../../public/assets/logowood.png"
-import wooduser from "../../public/assets/woodadduser.png"
-import wooduser2 from "../../public/assets/woodadduser2.png"
-import renid from '../../public/assets/renid.svg';
-import Footer from "../COMMON/Footer";
 import Image from "next/image";
-import Navbar from "../COMMON/Navbar";
-import '../globals.css'
 import Link from "next/link";
-const WoodView = () => {
+import Navbar from "../COMMON/Navbar";
+import Footer from "../COMMON/Footer";
+import '../globals.css'
+const CrazyCMS = () => {
   const [perPage, setPerPage] = useState(3);
-
   useEffect(() => {
     if (window.matchMedia("(max-width: 800px)").matches) {
       setPerPage(2);
@@ -52,6 +19,7 @@ const WoodView = () => {
       setPerPage(1);
     }
   }, []);
+
 
   const phoneNumber = "9045301702";
 
@@ -62,10 +30,11 @@ const WoodView = () => {
   const callHandler = () => {
     const callUrl = `tel:${phoneNumber}`;
     window.open(callUrl, "_blank");
-  };
+  }
+
   const generateMetadata = ({ params }) => ({
-    title: 'Kusheldigi.com/woodView',
-    description:"Web Development Company | Kushel Digi Solutions"
+    title: 'Kusheldigi.com/crazyCMS',
+    description:"web agency, web design agency , best web design agency in the world, web design agency, web design services, web design and development agency"
   });
   
 useEffect(() => {
@@ -99,64 +68,62 @@ useEffect(() => {
      
 
       <div className="ser-main">
-
-        <div className="changebgcolor">
-          <div className="side-bg-trio ">
-
-            <div className="first-kick-pads incheingh  ">
+        <div>
+          <div className="side-bg-trio">
+            <div className="first-kick-pads incheingh">
               <div className="left-section-kids">
-                <Image
-                  src={viewimg}
-                  alt="img"
-                ></Image>
+                <img src={"https://res.cloudinary.com/ecommerce-website/image/upload/v1725976849/favicon_1_1_iprzaf.svg"} alt="img"></img>
                 <p className="shoots_premium kooo">
-                Wood View focuses on mental health, autism support, and counseling services for individual and family support. The programs offered help improve mental well-being through personalized care and professional guidance.
+                My Crazy Simple CMS is an user-friendly content management system which is designed to simplify website management for businesses of all sizes. It emowers users to create, edit, and manage content without any technical expertise.
+
                 </p>
                 <h3>Technologies Used</h3>
                 <div className="main-box-logic flex">
-                  <Image src={omis} id="sim" alt="img"></Image>
-                  {/* <img className="pokli" src={omis1} id="rotat" alt="img"></img> */}
-                  <Image src={omis2} id="rotat" alt="img"></Image>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164002/omis_n83hlt.svg' id="sim" alt="img"></img>
+                  <img className="pokli" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164078/omis1_bvorfv.svg' id="rotat" alt="img"></img>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164141/omis2_la92fb.svg' id="rotat" alt="img"></img>
                 </div>
               </div>
-              <div className="right-section-kids ramit">
-                <Image className="sotal-group" src={renid} id="total-group" alt="img"></Image>
+              <div className="right-section-kids">
+                <img className="trimmer" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739163389/trimer_apxb7o.svg' id="total-group" alt="img"></img>
               </div>
             </div>
             {/* *********************************************** */}
             <div className="MadFish_press">
-
-              <div className="MadFish-back crazy-back2">
-
+              <div className="MadFish-back crazy-back">
                 <div className="MadFish-back1">
-                
+                  {/* <div className="MadFish_press_head">
+                <img src={madlogooooo} alt="madlogooooo" />              
+              </div> */}
                   <div className="MadFish_press_para crazy_cms">
-           
-                    <p className="sociawrodfs">
-                    Kushel Digi Solutions is proud to contribute to Wood View to enhance their digital platform that aims to strengthen their online presence and help them to  deliver personalized care and guidance to individuals and families.
-                    </p>
+                    {/* <p>
+                  Elevate your shooting comfort with KICK-EEZ, offering premium
+                  American-made recoil pads and accessories. <span>MadFish</span>  Solutions
+                  played a key role in bringing KICK-EEZ to life. Together,
+                  we’ve redefined shooting comfort and precision, setting new
+                  industry standards.
+                </p> */}
+                    <h3>Manage Your Website 
+                    </h3>
+                    <h3>with Ease – No Tech</h3>
+                    <h3><span>Skills Required!</span></h3>
                   </div>
-
                 </div>
-
                 <div className="MadFish-back2">
-                  <Image src={woodview22} alt="MadFish" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164312/lies_knj48x.svg' alt="MadFish" />
                 </div>
-
               </div>
-
             </div>
-
             {/* ************************************************** */}
             <div className="second-service-conte">
               <p className="service-hinking">Services Provided</p>
               <div className="main-img-mighty">
                 <div className="bepolo">
-                  <Image src={img4} id="ux-safari" alt="img"></Image>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739163443/Group_1000004718_z5qvvk.png' id="ux-safari" alt="img"></img>
                   <p>UX/UI Website Design</p>
                 </div>
                 <div className="bepolo">
-                  <Image src={img5} id="web-safari" alt="img"></Image>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739163601/Group_1000004715_a72pso.png' id="web-safari" alt="img"></img>
                   <p>Website Development</p>
                 </div>
                 <div className="bepolo">
@@ -166,12 +133,11 @@ useEffect(() => {
               </div>
             </div>
           </div>
-
         </div>
 
         <div className="fourth-plate-juuls">
           <div className="left-card-hub">
-            <div className="vl-chic">
+            <div className="vl-chic vl-chic33">
               <p className="fila">Font</p>
               <div className="ywo-stem">
                 <div className="light-aa">
@@ -180,25 +146,49 @@ useEffect(() => {
                 </div>
                 <div className="dark-aa">
                   <p className="dark-canny">Aa</p>
-                  <p className="prompt-tip">Gilroy</p>
+                  <p className="prompt-tip">Desporm</p>
                 </div>
-             
+                {/* <div className="medium-aa">
+                  <p className="medium">Aa</p>
+                  <p className="node-tip">Roboto</p>
+                </div> */}
               </div>
               <div className="sub-worm">
                 <p className="tool">Tools Use</p>
-                <Image src={img13} id="pals-circle" alt="img"></Image>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739163658/Group_1000006500_1_yywdth.png' id="pals-circle" alt="img"></img>
               </div>
             </div>
           </div>
           <div className="right-card-omega">
             <p>Color Plate</p>
-            <Image
-              src={ colorplate}
-              id="gang"
-              alt="img"
+            <img src={"https://res.cloudinary.com/ecommerce-website/image/upload/v1725980437/Group_1000006505_nfqk7l.svg"} id="gang" alt="img" />
+          </div>
+        </div>{" "}
+
+
+
+        {/* <div className="kick-start kick-start22">
+          <div className="kick-first kick-first222">
+           
+            <div className="kickds">
+              <img className="kick_mart" src={kick5} alt="kick5" />
+            </div>
+          </div>
+          <div className="kick-second kick-second222 relative">
+            <div className="about165">
+              <img
+                className="absolute about161 animate__animated animate__pulse animate__infinite"
+                src={angrag}
+                alt="kushel"
+              />
+            </div>
+            <img
+              className=" relative z-10 about162 pick222"
+              src={pick2}
+              alt="aa"
             />
           </div>
-        </div>
+        </div> */}
 
         <div className="back-story">
           <div className="step1-back">
@@ -208,16 +198,18 @@ useEffect(() => {
             </div>
             <div className="step-backs2">
               <p>
-          
-              Wood View was relying on manual processes to collect feedback from clients participating in their various programs, such as mental health, autism support, and counseling services. Due to the gradual increase in the scale of the organization, it had now become difficult to handle and analyze the increasing amount of survey data. This was seriously impacting their ability to better respond to the needs of clients. They approached Kushel Digi Solutions to design an effective survey management system, which automated data collection for richer reporting and subsequently improved program outcomes.
 
+                My Crazy Simple CMS was created for ease and smoothness in managing websites by non-technical users and small businesses. This is supposed to be a platform where one may empower users to manage their websites without requiring any sort of coding, which in most circumstances is absent in the complex options available in CMS. They have chosen Kushel Digi Solutions to design and develop a scalable, intuitive CMS that could appeal to both beginners and advanced users.
 
               </p>
+
             </div>
           </div>
-       
+          {/* <div className="step-images flex items-center justify-center mt-20">
+            <img className="stepback" src={stepback1} alt="stepback" />
+            <img className="stepback1" src={stepback} alt="stepback1" />
+          </div> */}
         </div>
-
         <div className="challenge-story">
           <div className="challenge-story1">
             <h3 className="nila">02</h3>
@@ -231,13 +223,7 @@ useEffect(() => {
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  The collection and analysis of feedback were time-consuming and prone to errors, hindering decision-making.
-                  </p>
-                </div>
-                <div className="challenge-list1">
-                  <div className="nilust"></div>
-                  <p>
-                  Management of a continuous increase in volume of survey data across various programs with confidentiality.
+                    Designing an intuitive interface that would consider both the needs of the beginners and advanced users, without overwhelming either group.
 
 
                   </p>
@@ -245,7 +231,8 @@ useEffect(() => {
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  The new system had to be compatible with current operations and technologies in place at Wood View. 
+                    Ensuring the platform was highly scalable for more users and increased websites to be managed.
+
 
 
                   </p>
@@ -253,21 +240,32 @@ useEffect(() => {
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  As the process was manual, reports were not timely enough to make quick decisions or track the effectiveness of programs.
+                    Combining the powers of Python that allow more flexibility on the backend with the strong performance and functionality of Laravel.
+
+
 
                   </p>
                 </div>
+                <div className="challenge-list1">
+                  <div className="nilust"></div>
+                  <p>
+                    Creating a robust content editor that offers flexibility but remains easy to use, even for users with no technical background.
+
+
+                  </p>
+                </div>
+
               </div>
             </div>
             <div className="challenge-box challenge-box2  ">
               <h4>Solutions</h4>
               <div className="chal"></div>
               <div className="challenge-list mt-8">
+
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  We developed an extensive survey management system using Laravel, which automated the intake of data and allowed real-time analysis of the stored information. 
-
+                    We developed a user-centric interface that focuses on simplicity that can allow users to manage their websites easily along with advanced features for power users
 
                   </p>
                 </div>
@@ -275,45 +273,58 @@ useEffect(() => {
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  In-depth reporting capabilities were integrated that allowed Wood View to observe trends in feedback and create informed improvements to the programs.
-
-
+                    The CMS has been developed using Python and Laravel to ensure scalability of architecture, complementing the growth in the user base of the platform.
                   </p>
                 </div>
 
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  We ensured the new system had the capability to integrate seamlessly with their existing workflows, further streamlining operations.
-
+                    We have included a drag-and-drop content editor where no coding is needed. This gives a user total control over design and content on their website.
                   </p>
+
                 </div>
 
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  We have implemented automated reporting features displaying quick insights to enable Wood View to track the effectiveness of its programs.
-
-
+                    Our UX/UI team worked in such a way that the platform's dashboard should be intuitive, clean, and easy to navigate that can ensure  seamless user onboarding and management.
                   </p>
                 </div>
+
               </div>
             </div>
           </div>
         </div>
+        {/* <div className="goals-statgy">
+          <h2>Goals and Strategies</h2>
+          <ul>
+            <li>Make it easier for customers to reach our company.</li>
+            <li>
+            Minimize misunderstandings about returns, exchanges, especially when choosing replacement products.
+            </li>
+            <li>Enhance the efficiency and effectiveness of our client service.
+</li>
+          </ul>
+        </div> */}
 
-        <div className="bg_crazy4">
+        <div className="bg_crazy">
           <div className="bg_cms">
             <div className="bg_left">
-              <Image src={woodlogo} alt="lojj" />
+              <img className="kpiu" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164574/fs_f3frw2.svg' alt="lojj" />
             </div>
             <div className="bg_right">
-              <Image src={lojj} className="llgg" alt="lojj" />
-              <Image src={ell451} className="ep44" alt="kushel" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164623/lojj_i355y6.svg' className="llgg" alt="lojj" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164664/ellipse44_noomie.png' className="ep44" alt="kushel" />
             </div>
           </div>
         </div>
 
+        {/* <div className="bg-video-wrap">
+          <video src="/static/images/rima.mp4" loop muted autoPlay></video>
+          <div className="overlay"></div>
+          <img className="kini" src={kick5} alt="aa" />
+        </div> */}
         <div className="azib kickazib">
           <div className="azib1">
             <div className="azib1-sect">
@@ -323,19 +334,18 @@ useEffect(() => {
               </div>
               <div className="azib1-second">
                 <p>
-                The new survey management system has resulted in a massive turnabout for Wood View in its collection of clients' feedback to ensure that the program keeps improving. With automated data collection and reporting, they can now make quicker data-driven decisions in improving their service delivery across their mental health, autism, and counseling programs.
-
+                  This led to the development of My Crazy Simple CMS: an impressively user-friendly platform that saw user adoption increase by 30% in just a few months since the launch date.The combination of Python and Laravel ensured scalability, allowing the platform to seamlessly handle a growing user base Users have praised the intuitiveness in design and find it easy to navigate and manage the websites very easily without requiring technical expertise. The result of this project was a successful simplification of yet a powerful CMS which made the management of websites as easy as possible for the user.
                 </p>
 
                 <div className="azib-tech">
                   <h3>Technologies Used</h3>
                   <div className="fopping">
-                    {/* <div className="spoing">
-                      <img src={kpingq1} alt="kushel" />
+                    <div className="spoing">
+                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164356/kping1_bopri1.svg' alt="kushel" />
                       <p>Python</p>
-                    </div> */}
+                    </div>
                     <div className="spoing kint">
-                      <Image src={kpingq11} alt="kushel" />
+                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164437/kping_c2vncx.svg' alt="kushel" />
                       <p>Laravel</p>
                     </div>
                   </div>
@@ -344,13 +354,22 @@ useEffect(() => {
             </div>
 
             <div className="azib-images flex items-center justify-center">
-              <Image className="sohhh" src={wooduser} alt="azib" />
-              <Image className="sohhh" src={wooduser2} alt="azib" />
+              <img className="sohhh" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164493/crazy1_otsyod.svg' alt="azib" />
+              <img className="sohhh" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164534/crazy2_pdnjyu.svg' alt="azib" />
               {/* <img src={azib4} alt="azib" /> */}
             </div>
           </div>
         </div>
-
+        {/* <div className="client-apperication">
+          <h2>Client Appreciation</h2>
+          <p>
+            “Thank you Affle team for all your hardwork, patience and continuous
+            support. The app is getting positive reviews and we hope to continue
+            to improve and evolve the app. Looking forward to our continued
+            growth.”
+          </p>
+          <h4>Matt Reeder</h4>
+        </div> */}
         <div className="other-project">
           <h2 className="text-center ">OTHER PROJECTS</h2>
           <Splide
@@ -368,7 +387,7 @@ useEffect(() => {
             <SplideSlide>
               <div className="other-card">
                 <div className="other-box">
-                  <Image src={rel1} alt="rel1" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739163172/rel1_nqyk1x.png' alt="rel1" />
                 </div>
                 <div className="other-tox-para">
                   <h3>RELY INNOVATION</h3>
@@ -386,7 +405,7 @@ useEffect(() => {
             <SplideSlide>
               <div className="other-card">
                 <div className="other-box other-box1">
-                  <Image src={rel2} alt="rel1" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739163216/rel2_nrjco0.png' alt="rel1" />
                 </div>
                 <div className="other-tox-para">
                   <h3>PRO TRUCKS</h3>
@@ -403,7 +422,7 @@ useEffect(() => {
             <SplideSlide>
               <div className="other-card">
                 <div className="other-box other-box3">
-                  <Image className="rel3" src={rel3} alt="rel1" />
+                  <img className="rel3" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739163252/rel3_taz3o0.png' alt="rel1" />
                 </div>
                 <div className="other-tox-para">
                   <h3>SOLENOID NINJA</h3>
@@ -419,7 +438,6 @@ useEffect(() => {
             </SplideSlide>
           </Splide>
         </div>
-
         <div className="req">
           <div className="req-sect">
             <h2>
@@ -433,36 +451,31 @@ useEffect(() => {
             <Link href="/contact-us">
               <button>
                 Request A Call{" "}
-                <Image
+                <img
                   width={13}
                   className=" inline ml-2"
-                  src={arrow4}
+                  src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739163121/arrow4_l2xuyi.png'
                   alt="alik"
                 />
               </button>
             </Link>
           </div>
         </div>
-        
+
         {/*  buttons  */}
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image
-              className="what-image-universal"
-              src={whatsApp}
-              alt="whatsApp-kusheldigi"
-              title="whatsApp-kusheldigi"
-            />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991783/telephone_k9aecl.png' alt="call-icon" title="call-icon" />
           </button>
-        </div>
 
+        </div>
       </div>
       <Footer/>
     </>
   );
 };
 
-export default WoodView;
+export default CrazyCMS;

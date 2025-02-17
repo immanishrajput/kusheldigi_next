@@ -31,7 +31,7 @@ function Home2Section8() {
                     <Link key={i} href={d.link}>
                         <div className="singleEcoBox">
                             {/* Left side */}
-                            <img src={d.img} alt={d.alt} title={d?.alt} />
+                            <img src={d.img} alt="kushel" title={d?.alt} />
 
                             {/* Right side */}
                             <div className="sEcoRight">

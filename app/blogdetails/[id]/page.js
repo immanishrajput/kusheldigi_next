@@ -70,28 +70,13 @@ function BlogDetails() {
 
   return (
     <div>
-      <Head>
-        {/* Open Graph (OG) Meta Tags */}
-        <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
-        <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
-        <meta property="og:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
-        <meta property="og:url" content="https://www.kusheldigi.com/" />
-        <meta property="og:type" content="website" />
-
-        {/* Twitter Card Meta Tags */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Kushel Digi | Expert eCommerce Development Services" />
-        <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
-        <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
-        <meta name="twitter:url" content="https://www.kusheldigi.com/" />
-      </Head>
-
+     
 <Navbar />
 
       <div className="aboutwrap">
         <div className="aboutcont">
-          <img src={data?.banner} className="aboutbanner" alt="" />
-          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730457306/aboutfilter_qkl6e0.png" className="bannerfilter" alt="" />
+          <img src={data?.banner} className="aboutbanner" alt="kushel" />
+          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730457306/aboutfilter_qkl6e0.png" className="bannerfilter" alt="kushel" />
         </div>
       </div>
 
@@ -99,11 +84,11 @@ function BlogDetails() {
         <div className="blode2cont">
           <div className="blode2leftcon">
             <div>
-              <img src={data?.img} alt="" className="blogdtaimgmain" />
+              <img src={data?.img} alt="kushel" className="blogdtaimgmain" />
               <div className="blogbantitle">{data?.title}</div>
             </div>
             <div className="authodetail">
-              <p>Author: {data?.author || "Admin"}</p>
+              <h1>Author: {data?.author || "Admin"}</h1>
               <span>Reading Time :{data?.time}</span>
               <span>{new Date(data?.date).toLocaleDateString("en-GB", {
                 day: "numeric",
@@ -115,13 +100,13 @@ function BlogDetails() {
           </div>
 
           <div className="blode2rightc">
-            <h3>Recent Blogs</h3>
+            <h2>Recent Blogs</h2>
             {recent.map((item, index) => (
               <div key={index} className="singblosdarslidd">
-                <img src={item?.images} alt="" />
+                <img src={item?.images} alt="kushel" />
                 <h4 onClick={() => router.push(`/blogdetail/${item._id}`)}>{item?.title}</h4>
                 <p className="dateobje">
-                  <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730457651/Mask_group_reswkg.png" alt="" />
+                  <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730457651/Mask_group_reswkg.png" alt="kushel" />
                   {new Date(item?.date).toLocaleDateString("en-GB", {
                     day: "numeric",
                     month: "long",
@@ -135,7 +120,7 @@ function BlogDetails() {
       </div>
 
       <div className="shareblogoptns">
-        <h3>Don't forget to share this post!</h3>
+        <h2>Don't forget to share this post!</h2>
         <div className="iconsshar">
           <WhatsappShareButton  title="Check out this blog!">
             <div className="shareocciwrap">

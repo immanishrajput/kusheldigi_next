@@ -46,12 +46,7 @@ const HomePage = ({props}) => {
     description:'High performance Ecommerce solutions with specialized development strategies. Kushel Digi Solutions boosts conversion and builds scalable Shopify, BigCommerce and custom online stores.',
     metadataBase: new URL(`https://www.kusheldigi.com/`),
 
-        // twitter: {
-        //   card: "summary_large_image",
-        //   title: "Kushel Digi | Expert eCommerce Development Services",
-        //   description: "We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development.",
-        //   images: [{ url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png", width: 1200, height: 630 }],
-        // },
+       
     
     }
   };
@@ -69,14 +64,7 @@ const HomePage = ({props}) => {
   return (
     <>
       <Head>
-        {/* <title>Website Development - Kushel Digi Solutions</title>
-        <meta name="description" content="Professional website development, eCommerce solutions, and SEO services." /> */}
-        {/* <script 
-          type="application/ld+json" 
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} 
-        /> */}
-
-{/* <link rel="canonical" href="https://www.kusheldigi.com/" key="canonical" /> */}
+     
       
        
       </Head>

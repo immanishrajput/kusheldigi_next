@@ -65,8 +65,8 @@ function BigSection5() {
 
               {/* right side */}
               <div className="bg5rights2">
-                <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730449431/Background_Image_lqebet.jpg" className="blackscrebg" alt="" />
-                <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730449434/Group_1171279183_corgnq.png" className="brighimages122" alt="" />
+                <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730449431/Background_Image_lqebet.jpg" className="blackscrebg" alt="kushel" />
+                <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730449434/Group_1171279183_corgnq.png" className="brighimages122" alt="kushel" />
               </div>
             </div>
           </SplideSlide>
@@ -107,8 +107,8 @@ function BigSection5() {
   </div>
 
   <div className="bg5rights2">
-                <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730449431/Background_Image_lqebet.jpg" className="blackscrebg" alt="" />
-                <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730449413/Group_1171279192_qyxq2x.png" className="brighimages122" alt="" />
+                <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730449431/Background_Image_lqebet.jpg" className="blackscrebg" alt="kushel" />
+                <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730449413/Group_1171279192_qyxq2x.png" className="brighimages122" alt="kushel" />
               </div>
 
 </div>

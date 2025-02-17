@@ -38,7 +38,7 @@ const callHandler=()=>{
 const Service = () => {
   const generateMetadata = ({ params }) => ({
     title: 'eCommerce Solutions | Shopify & BigCommerce Experts',
-    description: 'Kushel Digi Solutions is most trusted Web Development company with 2000+ Satisfied clients across the globe.',
+    description: 'Looking for Expert Ecommerce solutions? Kushel Digi Solutions is the most trsuted ecommerce development company having 2000+ Satisfied clients across the globe.',
   });
   
   
@@ -573,7 +573,7 @@ const Service = () => {
                     <div className="group-iconsss">
                     <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739428649/services-group2345_ipa2bs.png' alt="Our Technologies" title="Our Technologies" />
                     </div>
-                  {/* <img src="./images/services-group2345.png" alt="" /> */}
+                  {/* <img src="./images/services-group2345.png" alt="kushel" /> */}
                 </div>
                 <div className="services-content4">
                   <h3>EXPERTISE</h3>

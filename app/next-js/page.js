@@ -1,33 +1,10 @@
 "use client"
 import React, { useEffect } from 'react'
-import banner from "../../public/assets/banner1img.png"
-import next2 from "../../public/assets/next2sect.png"
-import maskgroup from "../../public/assets/Mask-group.svg"
-import cardicon2 from "../../public/assets/card-icon2.svg"
-import cardicon3 from "../../public/assets/card-icon3.svg"
-import cardicon4 from "../../public/assets/card-icon4.svg"
-import cardicon5 from "../../public/assets/card-icon5.svg"
 import Head from 'next/head';
-
-import cardicon6 from "../../public/assets/card-icon6.svg"
-import multichannel from "../../public/assets/multichannelapproach.svg";
-import fasterpage from "../../public/assets/fasterpageloading.svg"
-import rapidgoto from "../../public/assets/rapidgotomarket.svg"
-import datafetching from "../../public/assets/datafetchingintegration.svg"
-import highlyresposive from "../../public/assets/highly_responsive 1.svg"
-import laravel from "../../public/assets/laravel.svg"
-import stripe from "../../public/assets/stripe.svg"
-import openai from "../../public/assets/OpenAI_Logo 1.svg"
-import nodejs from "../../public/assets/node.js.svg"
-import react from '../../public/assets/react.svg'
 import nextjs from "../../public/assets/next-js.svg"
 import tailwind from "../../public/assets/tailwindcss.svg"
-// import { Helmet } from 'react-helmet'
 import whatsApp from "../../public/assets/whatsapp.png";
 import call from "../../public/assets/telephone.png"
-// import "../components/css/Next.css"
-// import { NavLink } from 'react-router-dom'
-
 import Link from 'next/link'
 import Image from 'next/image'
 import Navbar from '../COMMON/Navbar'
@@ -141,7 +118,7 @@ const Next = () => {
   <div className="kushel-next-js-banner2">
     <div className="kushel-next-js-container2">
       <div className="kushel-next-js-content2">
-        <h2>Reasons to consider Next.js development</h2>
+        <h6>Reasons to consider Next.js development</h6>
         <div className="kushel-next-js-main-content">
           <div className="kushel-next-js-left-content2">
             <div className="kushel-next-js-left1-content">
@@ -198,7 +175,7 @@ const Next = () => {
   <div className="kushel-next-js-banner3">
     <div className="kushel-next-js-container3">
       <div className="kushel-next-js-content3">
-        <h2>Transforming Web Solutions with Next.js Expertise </h2>
+        <h6>Transforming Web Solutions with Next.js Expertise </h6>
         <p>
           When it comes to next.js development, Kushel Digi stands out as a
           trusted choice in excelling web solutions with our Next.js skills. Our
@@ -224,7 +201,7 @@ const Next = () => {
               />
             </svg>
             <div className="kushel-next-js-cards-content">
-              <h2>Next.js Server-Side Rendered Apps</h2>
+              <h6>Next.js Server-Side Rendered Apps</h6>
               <p>
                 With over 8 years of experience, our experts Next.js developers
                 have specialised experience in the successful development of
@@ -236,7 +213,7 @@ const Next = () => {
           <div className="kushel-next-js-cards-flex">
             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739425966/card-icon2_tolcah.svg' alt="Next.js Custom Development" title='Next.js Custom Development'/>
             <div className="kushel-next-js-cards-content">
-              <h2>Next.js Custom Development</h2>
+              <h6>Next.js Custom Development</h6>
               <p>
                 Our dedicated team of experts have excellence in developing APIs
                 using NET Core, enabling easy integration with third-party
@@ -248,7 +225,7 @@ const Next = () => {
           <div className="kushel-next-js-cards-flex">
             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426025/card-icon3_kygsw7.svg' alt="Next.js Integration Services" title='Next.js Integration Services' />
             <div className="kushel-next-js-cards-content">
-              <h2>Next.js Integration Services</h2>
+              <h6>Next.js Integration Services</h6>
               <p>
                 Next.js is a powerful analytics tool that can be seamlessly
                 integrated into your existing web app, providing valuable user
@@ -264,7 +241,7 @@ const Next = () => {
           <div className="kushel-next-js-cards-flex">
             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426068/card-icon4_iyz4ei.svg' alt="Next.js Plugin Development" title='Next.js Plugin Development' />
             <div className="kushel-next-js-cards-content">
-              <h2>Next.js Plugin Development</h2>
+              <h6>Next.js Plugin Development</h6>
               <p>
                 Our Next.js experts meticulously review projects to ensure
                 required plugins are incorporated, and if necessary, develop
@@ -276,7 +253,7 @@ const Next = () => {
           <div className="kushel-next-js-cards-flex">
             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426122/card-icon5_oetiao.svg' alt="Next.js Upgradation and Migration Services" title='Next.js Upgradation and Migration Services' />
             <div className="kushel-next-js-cards-content">
-              <h2>Next.js Upgradation and Migration Services</h2>
+              <h6>Next.js Upgradation and Migration Services</h6>
               <p>
                 We always assist you in updating existing applications to the
                 new version of Next.js along with updated features and. We also
@@ -288,7 +265,7 @@ const Next = () => {
           <div className="kushel-next-js-cards-flex">
             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426161/card-icon6_m5g3l3.svg' alt="Next.js Maintenance and Support" title='Next.js Maintenance and Support' />
             <div className="kushel-next-js-cards-content">
-              <h2>Next.js Maintenance and Support</h2>
+              <h6>Next.js Maintenance and Support</h6>
               <p>
                 We are committed to ensure continuous, smooth operation of your
                 web applications by providing ongoing support and maintenance
@@ -325,10 +302,10 @@ const Next = () => {
     <div className="kushel-next-js-container4">
       <div className="kushel-next-js-content4">
         <div className="kushel-next-js-left-content4">
-          <h2>
+          <h6>
             Looking for Retail software Developers to develop your Retail
             Solutions?
-          </h2>
+          </h6>
         </div>
         <div className="button-group2">
         <Link href={"/contact-us"}> <button type="submit">HIRE DEVELOPERS</button>  </Link>
@@ -339,7 +316,7 @@ const Next = () => {
   <div className="kushel-next-js-banner5">
     <div className="kushel-next-js-container5">
       <div className="kushel-next-js-content5">
-        <h2>Technologies we love to use</h2>
+        <h5>Technologies we love to use</h5>
         <p>
           We prioritize quality work that meets industry standards, ensuring
           top-notch service from our experienced team of software developers.
@@ -370,10 +347,10 @@ const Next = () => {
   <div className="kushel-next-js-banner6">
     <div className="kushel-next-js-container6">
       <div className="kushel-next-js-content6">
-        <h2>
+        <h5>
           Why Select&nbsp;NextJs Development&nbsp;Services To Build Modern Web
           Products?
-        </h2>
+        </h5>
       </div>
       <div className="kushel-next-js-cards-content3">
         <div className="kushel-next-js-cards-content-flex">
@@ -421,7 +398,7 @@ const Next = () => {
                   fill="white"
                 />
               </svg>
-              <h2>Requirement Gathering</h2>
+              <h5>Requirement Gathering</h5>
               <p>
                 We begin with a kick-off meeting to ensure we understand your
                 requirements and objectives.
@@ -441,7 +418,7 @@ const Next = () => {
                   fill="white"
                 />
               </svg>
-              <h2>Project Planning </h2>
+              <h5>Project Planning </h5>
               <p>
                 We initiate developing a project plan that outlines the
                 timeline, key milestones, and deliverables.
@@ -461,7 +438,7 @@ const Next = () => {
                   fill="white"
                 />
               </svg>
-              <h2> Software Development</h2>
+              <h5> Software Development</h5>
               <p>
                 Our NextJS developers write clean, concise, and scalable code
                 that meets your project requirements.
@@ -485,7 +462,7 @@ const Next = () => {
                 fill="white"
               />
             </svg>
-            <h2>Functionality Testing </h2>
+            <h5>Functionality Testing </h5>
             <p>
               We test your web application, ensuring its functionality and
               security whilst meeting your expectations.
@@ -505,7 +482,7 @@ const Next = () => {
                 fill="white"
               />
             </svg>
-            <h2>Going Live</h2>
+            <h5>Going Live</h5>
             <p>
               After the application is thoroughly tested and approved, it’s made
               available for live hosting on the server.
@@ -525,7 +502,7 @@ const Next = () => {
                 fill="white"
               />
             </svg>
-            <h2>App Maintenance</h2>
+            <h5>App Maintenance</h5>
             <p>
               We provide ongoing maintenance and support to make sure your web
               application runs smoothly.
@@ -554,7 +531,7 @@ const Next = () => {
                   fill="white"
                 />
               </svg>
-              <h2>Requirement Gathering</h2>
+              <h5>Requirement Gathering</h5>
               <p>
                 We begin with a kick-off meeting to ensure we understand your
                 requirements and objectives.
@@ -574,7 +551,7 @@ const Next = () => {
                   fill="white"
                 />
               </svg>
-              <h2>Project Planning </h2>
+              <h5>Project Planning </h5>
               <p>
                 We initiate developing a project plan that outlines the
                 timeline, key milestones, and deliverables.
@@ -598,7 +575,7 @@ const Next = () => {
                   fill="white"
                 />
               </svg>
-              <h2> Software Development</h2>
+              <h5> Software Development</h5>
               <p>
                 Our NextJS developers write clean, concise, and scalable code
                 that meets your project requirements.
@@ -618,7 +595,7 @@ const Next = () => {
                   fill="white"
                 />
               </svg>
-              <h2>Functionality Testing </h2>
+              <h5>Functionality Testing </h5>
               <p>
                 We test your web application, ensuring its functionality and
                 security whilst meeting your expectations.
@@ -642,7 +619,7 @@ const Next = () => {
                   fill="white"
                 />
               </svg>
-              <h2>Going Live</h2>
+              <h5>Going Live</h5>
               <p>
                 After the application is thoroughly tested and approved, it’s
                 made available for live hosting on the server.
@@ -662,7 +639,7 @@ const Next = () => {
                   fill="white"
                 />
               </svg>
-              <h2>App Maintenance</h2>
+              <h5>App Maintenance</h5>
               <p>
                 We provide ongoing maintenance and support to make sure your web
                 application runs very smoothly.
@@ -690,7 +667,7 @@ const Next = () => {
               fill="white"
             />
           </svg>
-          <h2>Requirement Gathering</h2>
+          <h5>Requirement Gathering</h5>
           <p>
             We begin with a kick-off meeting to ensure we understand your
             requirements and objectives.
@@ -710,7 +687,7 @@ const Next = () => {
               fill="white"
             />
           </svg>
-          <h2>Project Planning </h2>
+          <h5>Project Planning </h5>
           <p>
             We initiate developing a project plan that outlines the timeline,
             key milestones, and deliverables.
@@ -730,7 +707,7 @@ const Next = () => {
               fill="white"
             />
           </svg>
-          <h2> Software Development</h2>
+          <h5> Software Development</h5>
           <p>
             Our NextJS developers write clean, concise, and scalable code that
             meets your project requirements.
@@ -750,7 +727,7 @@ const Next = () => {
               fill="white"
             />
           </svg>
-          <h2>Functionality Testing </h2>
+          <h5>Functionality Testing </h5>
           <p>
             We test your web application, ensuring its functionality and
             security whilst meeting your expectations.
@@ -770,7 +747,7 @@ const Next = () => {
               fill="white"
             />
           </svg>
-          <h2>Going Live</h2>
+          <h5>Going Live</h5>
           <p>
             After the application is thoroughly tested and approved, it’s made
             available for live hosting on the server.
@@ -790,7 +767,7 @@ const Next = () => {
               fill="white"
             />
           </svg>
-          <h2>App Maintenance</h2>
+          <h5>App Maintenance</h5>
           <p>
             We provide ongoing maintenance and support to make sure your web
             application runs very smoothly.
@@ -802,7 +779,7 @@ const Next = () => {
   <div className="kushel-next-js-banner8">
     <div className="kushel-next-js-container8">
       <div className="kushel-next-js-content8">
-        <h2>Let’s Talk</h2>
+        <h3>Let’s Talk</h3>
         <p>
           Book a free call and have a no-strings-attached chat about your ideas.
         </p>

@@ -94,9 +94,9 @@ const ContactForm1 = ({ notify }) => {
         {/* left side */}
         <div className="getINleftSide">
           <h2 className="getInLefHead"> Ready to Build Next-Level Custom Digital Solutions?</h2>
-          <p className="getInPARA">
+          <h3 className="getInPARA">
             Please fill in the form and let’s chat understand how we can help you better
-          </p>
+          </h3>
           <div className="getInBox">
             <div className="getInSingleBox">
               <div className="getInMain">

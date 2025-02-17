@@ -58,7 +58,7 @@ function Bigsection6() {
                 data.map((item , index)=>(
                     <div key={index} className="singeles6">
 
-                        <img src={item.img} alt="" />
+                        <img src={item.img} alt="kushel" />
 
                         <h5>{item.title}</h5>
 

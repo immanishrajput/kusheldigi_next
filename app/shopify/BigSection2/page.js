@@ -6,7 +6,7 @@ function BigSection2() {
 
         <div className="gisec2conta2">
 
-          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730202612/shopifyshop_z2trao.png" alt="" />
+          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730202612/shopifyshop_z2trao.png" alt="kushel" />
 
           <h3>Grow Faster with Shopify</h3>
 

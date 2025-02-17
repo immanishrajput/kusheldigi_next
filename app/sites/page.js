@@ -70,22 +70,7 @@ const generateMetadata = ({ params }) => ({
     return (
         <>
 
-<Head>
-        {/* Open Graph (OG) Meta Tags */}
-        <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
-        <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
-        <meta property="og:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
-        <meta property="og:url" content="https://www.kusheldigi.com/" />
-        <meta property="og:type" content="website" />
 
-        {/* Twitter Card Meta Tags */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Kushel Digi | Expert eCommerce Development Services" />
-        <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
-        <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
-        <meta name="twitter:url" content="https://www.kusheldigi.com/" />
-      </Head>
-      
         <Navbar/>
            
             <div className="ser-main">
@@ -97,7 +82,7 @@ const generateMetadata = ({ params }) => ({
                                 <p className="shoots_premium mt_top">
                                     Sites and Scopes has specialized experience in delivering high performance optics and accessories for marksmen, hunters, and tactical professionals. All their aim is on delivering a precision-engineered product for utmost reliability and clearness in any environment.
                                 </p>
-                                <h3 >Technologies Used</h3>
+                                <h1 >Technologies Used</h1>
                                 <div className="main-box-logic flex">
                                     <Image src={tim1} id="sim" alt="img"></Image>
                                     <Image src={tim2} id="rotat" alt="img"></Image>
@@ -290,7 +275,7 @@ const generateMetadata = ({ params }) => ({
                             <img
                                 className="absolute about161 animate__animated animate__pulse animate__infinite"
                                 src={"https://res.cloudinary.com/ecommerce-website/image/upload/v1726206677/Ellipse_451_bi1imf.png"}
-                                alt=""
+                                alt="kushel"
                             />
                         </div>
                         <Image
@@ -315,7 +300,7 @@ const generateMetadata = ({ params }) => ({
 
                                 <div className="azib-tech">
                                     <h3>Technologies Used</h3>
-                                    <Image className="conjun" src={opqweeeeeee3} alt="" />
+                                    <Image className="conjun" src={opqweeeeeee3} alt="kushel" />
                                 </div>
                             </div>
                         </div>

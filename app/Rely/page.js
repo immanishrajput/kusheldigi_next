@@ -1,40 +1,8 @@
 "use client"
 import React, { useEffect } from "react";
-
-
-import arrow4 from "../../public/assets/arrow4.png";
-import conjun from "../../public/assets/conjun.png";
 import Link from "next/link";
 import Head from 'next/head';
-
-// import { NavLink } from "react-router-dom";
-import trackent2 from "../../public/assets/trackent2.png";
-import img2 from "../../public/assets/1200x630wa (1) 1.png";
-import img3 from "../../public/assets/circle.png";
-import img4 from "../../public/assets/Group 1000004718.png";
-import img5 from "../../public/assets/Group 1000004715.png";
-import img6 from "../../public/assets/Group 1000004716.png";
-import hh15 from "../../public/assets/hh15.png";
-import hh17 from "../../public/assets/hh17.png";
-import hh18 from "../../public/assets/hh18.png";
-import hh19 from "../../public/assets/hh19.png";
-import hh20 from "../../public/assets/hh20.png";
-import hh21 from "../../public/assets/hh21.png";
-import hh22 from "../../public/assets/hh22.png";
-import hh23 from "../../public/assets/hh23.png";
-import img13 from "../../public/assets/Group 1000006500 (1).png";
-
 import '../globals.css'
-import hh16 from "../../public/assets/hh16.png";
-import pouo from "../../public/assets/pouo.png";
-import opqweeeeeee from "../../public/assets/opqweeeeeee.png";
-import opqweeeeeee2 from "../../public/assets/opqweeeeeee2.png";
-import opqweeeeeee3 from "../../public/assets/opqweeeeeee3.png";
-import madlogooooo from "../../public/assets/madlogooooo.png";
-import mad3 from "../../public/assets/mad3.png";
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
-
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
 import Image from "next/image";
@@ -78,22 +46,6 @@ const generateMetadata = ({ params }) => ({
   return (
     <>
 
-<Head>
-        {/* Open Graph (OG) Meta Tags */}
-        <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
-        <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
-        <meta property="og:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
-        <meta property="og:url" content="https://www.kusheldigi.com/" />
-        <meta property="og:type" content="website" />
-
-        {/* Twitter Card Meta Tags */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Kushel Digi | Expert eCommerce Development Services" />
-        <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
-        <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
-        <meta name="twitter:url" content="https://www.kusheldigi.com/" />
-      </Head>
-      
     <Navbar/>
    
       <div className="ser-main">
@@ -105,12 +57,12 @@ const generateMetadata = ({ params }) => ({
                 <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739427666/pouo_qmi6uz.png' className="pru1" alt="img"></img>
                 <p className="shoots_premium">
                   <span className="heightlisght_premium">
-                    {" "}
+                  
                     Rely Innovation{" "}
-                  </span>{" "}
+                  </span>
                delivers cutting-edge and user-friendly safety technology solutions, empowering both organisations and individuals to safeguard their most vital assets.
                 </p>
-                <h3>Technologies Used</h3>
+                <h1>Technologies Used</h1>
                 <div className="main-box-logic flex">
                   <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739427697/opqweeeeeee_kmcs1y.png' id="sim" alt="img"></img>
                   <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739427745/opqweeeeeee2_zftyak.png' id="rotat" alt="img"></img>

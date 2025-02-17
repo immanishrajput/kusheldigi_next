@@ -100,7 +100,7 @@ const generateMetadata = ({ params }) => ({
                 <p className="shoots_premium">
                   1000+ Innovative Slides Design
                 </p>
-                <h3>Technologies Used</h3>
+                <h1>Technologies Used</h1>
                 <div className="main-box-logic flex">
                   <Image src={opqweeeeeee2} id="rotat" alt="img"></Image>
                 </div>
