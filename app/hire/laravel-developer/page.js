@@ -82,7 +82,7 @@ useEffect(() => {
                         <p>
                         With our team's experience, you can be sure that your tasks will be completed properly.Call our top-notch Laravel developers a chance to speak based on your requirements.
                         </p>
-                        <button onClick={()=>navigate("/contact-us")}>Hire Developer</button>
+                        <button onClick={()=>router.push("/contact-us")}>Hire Developer</button>
                     </div>
                     <div className="php-back2">
                        

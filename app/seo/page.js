@@ -1104,7 +1104,7 @@ function Seo2() {
                   <svg
                     width="66"
                     height="66"
-                    viewBox="0 0 86 86"
+                    viewBox="0 0 76 76"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >

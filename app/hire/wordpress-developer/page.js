@@ -80,7 +80,7 @@ const HireWordpress = () => {
                         <p>Seeking to build a front-end application that not only promotes but also enhances your cutting-edge concept? Choose Dian's ReactJS developers.
 
                         </p>
-                        <button onClick={()=>navigate("/contact-us")}>Hire Developer</button>
+                        <button onClick={()=>router.push("/contact-us")}>Hire Developer</button>
                     </div>
                     <div className="php-back2">
                       
@@ -260,7 +260,7 @@ const HireWordpress = () => {
                         <div className="pnt_card">
                             <div className="pnt_card1">
                                 <div className="frenta">
-                                    <image src={frema} alt="Skilled programmer" title='Skilled programmer' />
+                                    <Image src={frema} alt="Skilled programmer" title='Skilled programmer' />
                                     <h4>Skilled programmers</h4>
                                 </div>
                                 <div className="frenta">

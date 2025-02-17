@@ -298,7 +298,7 @@ const generateMetadata = ({ params }) => ({
           <div className="azib1">
             <div className="azib1-sect">
               <div className="azib1-first">
-                <h3 className="azib-pa">04</h3>
+                <h3 className="azib-pa">03</h3>
                 <h3>RESULT</h3>
               </div>
               <div className="azib1-second">
