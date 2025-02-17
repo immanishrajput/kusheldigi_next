@@ -9608,7 +9608,7 @@ animation-timing-function: ease-in-out;
 .card-content p {
     font-size: 16px;
     color: #33475B;
-    line-height: 22px
+    line-height: 24px
 }
 
 .second-section-card:hover {
@@ -9718,7 +9718,7 @@ animation-timing-function: ease-in-out;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     text-align: center
 }
 

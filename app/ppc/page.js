@@ -69,33 +69,33 @@ function Ppc() {
       
       <div className="ser-main">
         <div id="hemesh-ppc">
-          <div class="ppc">
-            <div class="ppccontainer">
-              <div class="ppccontent1">
-                <div class="left-content">
+          <div className="ppc">
+            <div className="ppccontainer">
+              <div className="ppccontent1">
+                <div className="left-content">
                   <h1>76%+ OF AD SPEND IS WASTED</h1>
                   <p>
                     Our team is ready to audit your PPC account and give you
                     actionable insights whether you end up working with us or not.
                   </p>
 
-                  <div class="Button">
+                  <div className="Button">
                     <Link href="/contact-us">
                       <button type="button">Get Your Free Audit</button>
                     </Link>
                   </div>
 
                 </div>
-                <div class="right-image">
+                <div className="right-image">
                   <Image src={Ppcrighta} alt="Best Ppc agency" title="Best Ppc agency" />
                 </div>
               </div>
             </div>
           </div>
-          <div class="ppc1">
-            <div class="container1">
-              <div class="content1">
-                <div class="left-content1">
+          <div className="ppc1">
+            <div className="container1">
+              <div className="content1">
+                <div className="left-content1">
                   <h2>
                     Improve your <span>ROI</span> with
                     <span> scalable PPC</span> marketing.
@@ -107,19 +107,19 @@ function Ppc() {
                     industry with a track record for growing successful businesses.
                   </p>
                 </div>
-                <div class="right-image1">
+                <div className="right-image1">
                   <Image src={ppcImgb} alt="ROI ppc marketing" title="ROI ppc marketing" />
                 </div>
               </div>
             </div>
           </div>
-          <div class="ppc2">
-            <div class="ppccontainer2">
-              <div class="content2">
-                <div class="right-image2">
+          <div className="ppc2">
+            <div className="ppccontainer2">
+              <div className="content2">
+                <div className="right-image2">
                   <Image src={PpcGoogleC} alt="PPC Organic Trafic" title="PPC Organic Trafic" />
                 </div>
-                <div class="left-content2">
+                <div className="left-content2">
                   <h2>Drive more <span>organic traffic</span> to your website.</h2>
                   <p>
                     Get more qualified traffic on the search terms that matter most
@@ -128,7 +128,7 @@ function Ppc() {
                     to maximize your visibility online. Set your business up for
                     long-term success.
                   </p>
-                  <div class="ppcheader">
+                  <div className="ppcheader">
                     <div>
                       <span>200%</span>
                     </div>
@@ -141,7 +141,7 @@ function Ppc() {
                </div> */}
                   </div>
 
-                  <div class="buttonn">
+                  <div className="buttonn">
                     <Link href="/contact-us">
                       <button type="button">Contact Us
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -155,9 +155,9 @@ function Ppc() {
               </div>
             </div>
           </div>
-          <div class="ppc7">
-            <div class="ppccontainer7">
-              <div class="content7">
+          <div className="ppc7">
+            <div className="ppccontainer7">
+              <div className="content7">
                 <h2>PPC Advertising <span>Awareness</span></h2>
                 <p>
                   A model in online marketing is Pay Per Click or PPC whereby
@@ -172,16 +172,16 @@ function Ppc() {
               </div>
             </div>
           </div>
-          <div class="ppc3"></div>
-          <div class="ppccontainer3">
-            <div class="content3">
+          <div className="ppc3"></div>
+          <div className="ppccontainer3">
+            <div className="content3">
               <h2>The Benefits of Using a <span>PPC Agency</span> </h2>
             </div>
-            <div class="card">
-              <div class="card_mattter">
-                <div class="card1 abc">
-                  <h3 class="underline-text">Certified Experts</h3>
-                  <div class="line">
+            <div className="card">
+              <div className="card_mattter">
+                <div className="card1 abc">
+                  <h3 className="underline-text">Certified Experts</h3>
+                  <div className="line">
                     <hr />
                   </div>
                   <p>
@@ -192,9 +192,9 @@ function Ppc() {
                     constantly prepared for peak performance.
                   </p>
                 </div>
-                <div class="card1 abc1">
-                  <h3 class="underline-text">Strategic Approach</h3>
-                  <div class="line">
+                <div className="card1 abc1">
+                  <h3 className="underline-text">Strategic Approach</h3>
+                  <div className="line">
                     <hr />
                   </div>
                   <p>
@@ -204,9 +204,9 @@ function Ppc() {
                     audience segmentation to help you maximize on your campaigns.
                   </p>
                 </div>
-                <div class="card1 abc2">
-                  <h3 class="underline-text">Communication and Collaboration</h3>
-                  <div class="line">
+                <div className="card1 abc2">
+                  <h3 className="underline-text">Communication and Collaboration</h3>
+                  <div className="line">
                     <hr />
                   </div>
                   <p>
@@ -218,10 +218,10 @@ function Ppc() {
                   </p>
                 </div>
               </div>
-              <div class="card_mattter">
-                <div class="card1 abc3">
-                  <h3 class="underline-text">Results Oriented Approach</h3>
-                  <div class="line">
+              <div className="card_mattter">
+                <div className="card1 abc3">
+                  <h3 className="underline-text">Results Oriented Approach</h3>
+                  <div className="line">
                     <hr />
                   </div>
                   <p>
@@ -233,9 +233,9 @@ function Ppc() {
                     should be avoided.
                   </p>
                 </div>
-                <div class="card1 abc4">
-                  <h3 class="underline-text">Continuous Optimization</h3>
-                  <div class="line">
+                <div className="card1 abc4">
+                  <h3 className="underline-text">Continuous Optimization</h3>
+                  <div className="line">
                     <hr />
                   </div>
                   <p>
@@ -249,16 +249,16 @@ function Ppc() {
               </div>
             </div>
           </div>
-          <div class="ppc4">
-            <div class="ppccontainer4">
-              <div class="content4">
+          <div className="ppc4">
+            <div className="ppccontainer4">
+              <div className="content4">
                 <h2>Next Steps to Get the PPC Results You Want</h2>
               </div>
-              <div class="card2">
-                <div class="ppccard-content">
-                  <div class="card-matter1">
+              <div className="card2">
+                <div className="ppccard-content">
+                  <div className="card-matter1">
                     <Image src={Ppcauditf} alt="PPC Free Audit" title="PPC Free Audit" />
-                    <div class="divider-content">
+                    <div className="divider-content">
                       <h4>Get Your Free Audit</h4>
                       <p>
                         Click the button below to request your free audit. We’ll
@@ -269,9 +269,9 @@ function Ppc() {
                       </p>
                     </div>
                   </div>
-                  <div class="card-matter1">
+                  <div className="card-matter1">
                     <Image src={PpcauditS} alt="PPC Our Team Expert" title="PPC Our Team Expert" />
-                    <div class="divider-content">
+                    <div className="divider-content">
                       <h4>Meet with Our Team</h4>
                       <p>
                         We'll show you the key areas we could optimize and enhance
@@ -281,9 +281,9 @@ function Ppc() {
                       </p>
                     </div>
                   </div>
-                  <div class="card-matter1">
+                  <div className="card-matter1">
                     <Image src={PpcauditT} alt="PPC Reach Your Goals" title="PPC Reach Your Goals" />
-                    <div class="divider-content">
+                    <div className="divider-content">
                       <h4>Reach Your Goals</h4>
                       <p>
                         Your PPC efforts are about to get dramatically easier! We’ll
@@ -295,7 +295,7 @@ function Ppc() {
                     </div>
                   </div>
                 </div>
-                <div class="button1">
+                <div className="button1">
                   <Link href="/contact-us">
                     <button type="button">Get Your Free Audit</button>
                   </Link>
@@ -303,10 +303,10 @@ function Ppc() {
               </div>
             </div>
           </div>
-          <div class="ppc5">
-            <div class="ppccontainer5">
-              <div class="flex-content">
-                <div class="content5">
+          <div className="ppc5">
+            <div className="ppccontainer5">
+              <div className="flex-content">
+                <div className="content5">
                   <h2>Why go for a pay-per- <span>click agency</span>?</h2>
                   <p>
                     The <span>benefits provided</span> to businesses that are
@@ -319,15 +319,15 @@ function Ppc() {
                     <span>noticeable results</span> .
                   </p>
                 </div>
-                <div class="right-image3">
+                <div className="right-image3">
                   <Image src={fifthimage} alt="PPC pay-per click agency" title="PPC pay-per click agency" />
                 </div>
               </div>
             </div>
           </div>
-          <div class="ppc6">
-            <div class="ppccontainer6">
-              <div class="content6">
+          <div className="ppc6">
+            <div className="ppccontainer6">
+              <div className="content6">
                 <h2>Let’s make things happen</h2>
                 <p>
                   Partner with the #1 ranked digital marketing agency - before your
@@ -335,7 +335,7 @@ function Ppc() {
                 </p>
               </div>
 
-              <div class="ppcbutton2">
+              <div className="ppcbutton2">
                 <Link href="/contact-us">
                   <button type="button">Let’s Connect</button>
                 </Link>
