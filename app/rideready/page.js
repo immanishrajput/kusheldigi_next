@@ -139,33 +139,18 @@ function rideready() {
   return (
     <div className="case1wrap home-main">
 
-<Head>
-        {/* Open Graph (OG) Meta Tags */}
-        <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
-        <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
-        <meta property="og:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
-        <meta property="og:url" content="https://www.kusheldigi.com/" />
-        <meta property="og:type" content="website" />
 
-        {/* Twitter Card Meta Tags */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Kushel Digi | Expert eCommerce Development Services" />
-        <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
-        <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
-        <meta name="twitter:url" content="https://www.kusheldigi.com/" />
-      </Head>
-      
         <Navbar/>
       {/* first sectino */}
       <section className="case1firsec">
         <img
           src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216400/case1fil_bwtual.png"
-          alt=""
+          alt="kushel"
           className="case1fill"
         />
         <img
           src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1732622058/flat-off-back_1_lbcald.png"
-          alt=""
+          alt="kushel"
           className="case1bg"
         />
 
@@ -177,7 +162,7 @@ function rideready() {
                 <div className="catficircle">
                   <img
                     src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1732622216/logo_1_1688114115__84399_2_x00biw.png"
-                    alt=""
+                    alt="kushel"
                   />
                 </div>
                 <p>Ride Ready</p>
@@ -211,12 +196,12 @@ function rideready() {
         <div className="case2seccont">
           <img
             src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216503/case2imgs1_xngbpg.png"
-            alt=""
+            alt="kushel"
             className="cs2i1"
           />
 
           <div className="sc2_main_content">
-            <h3>Client Background</h3>
+            <h1>Client Background</h1>
 
             <p>
             Ride Ready is one of the few trustworthy names in chainsaws and auto repair. The company provides excellent customer service and a wide range of quality products. Their product line is among the most in-demand brands in the industry, including Arctic Cat, Kawasaki, Stihl, Echo, Shindaiwa, Kioti, and N & N. Besides sales, Ride Ready also take care of maintaining and repairing work  ATVs and UTVs so their customers' vehicles run smoothly for years. The parts department is the largest in the area, offering a good inventory of new accessories and components.
@@ -227,7 +212,7 @@ function rideready() {
 
         <img
           src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1732622392/Ellipse_2616_doidsv.png"
-          alt=""
+          alt="kushel"
           className="c2el1"
         />
       </section>
@@ -256,7 +241,7 @@ function rideready() {
 
           <img
             src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1732631635/Group_1171279291_x7f8rs.png"
-            alt=""
+            alt="kushel"
             className="c3antoimg"
           />
         </div>
@@ -280,13 +265,13 @@ function rideready() {
             <img
               className="case4bggirl"
               src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1732632243/eeeeeeeeeee_1_cxsdo7.png"
-              alt=""
+              alt="kushel"
             />
             <div className="cas3s4con">
               <div className="bgshowdb2">
                 <img
                   src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1732631716/Group_1171279294_s4iyxb.png"
-                  alt=""
+                  alt="kushel"
                   className="shadowbg2"
                 />
               </div>
@@ -307,14 +292,14 @@ function rideready() {
             <img
               className="case4bggirl"
               src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1732632243/eeeeeeeeeee_1_cxsdo7.png"
-              alt=""
+              alt="kushel"
             />
 
             <div className="cas3s4con">
               <div className="bgshowdb2">
                 <img
                   src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1732631787/Group_1171279295_takm9k.png"
-                  alt=""
+                  alt="kushel"
                   className="shadowbg2"
                 />
               </div>
@@ -332,13 +317,13 @@ function rideready() {
 
         <SplideSlide>
           <section className="case3secfour2">
-          <img className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1732632243/eeeeeeeeeee_1_cxsdo7.png" alt="" />
+          <img className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1732632243/eeeeeeeeeee_1_cxsdo7.png" alt="kushel" />
 
             <div className="cas3s4con">
               <div className="bgshowdb2">
                 <img
                   src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1732631831/Group_1171279292_nljl1r.png"
-                  alt=""
+                  alt="kushel"
                   className="shadowbg2"
                 />
               </div>
@@ -386,7 +371,7 @@ function rideready() {
 
             {/* Right Section with Animation */}
             <div className={`c2fibbotrigh ${animationDirection} `}>
-              <img src={selectdata?.img} className="selectdataimg" alt="" />
+              <img src={selectdata?.img} className="selectdataimg" alt="kushel" />
               <div className="serigh_macont">
                 <h4>
                   <span>0{selectS4 + 1}/</span> {selectdata?.title}
@@ -424,7 +409,7 @@ function rideready() {
                     <img
                       src={item?.data?.img}
                       className="selectdataimg"
-                      alt=""
+                      alt="kushel"
                     />
 
                     <div className="serigh_macont">
@@ -457,12 +442,12 @@ function rideready() {
       <section className="cs2sexiesec">
         <img
           src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216672/similarl1_kq1btu.png"
-          alt=""
+          alt="kushel"
           className="similarl1"
         />
         <img
           src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216703/similarl2_yt5kqi.png"
-          alt=""
+          alt="kushel"
           className="similarl2"
         />
 
@@ -493,7 +478,7 @@ function rideready() {
           <div className="sc2_Sev_projects">
             {projects?.map((project, index) => (
               <div key={index} className="singlprojseve">
-                <img src={project?.img} alt="" />
+                <img src={project?.img} alt="kushel" />
 
                 <div className="seven_titls">
                   <p className="sep1">{project?.title1}</p>

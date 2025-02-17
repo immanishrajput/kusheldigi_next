@@ -73,7 +73,7 @@ function Home2Section6() {
           {data.map((d, index) => (
             <Link key={index} href={d.link}>
               <div className="singeldata">
-                <img src={d.img} alt={d.alt} title={d.alt} />
+                <img src={d.img} alt="kushel" title={d.alt} />
                 <div className="sdmid">
                   <span>{d.title}</span>
                   <div className="MdArrowOutwardbox">
@@ -108,7 +108,7 @@ function Home2Section6() {
             <SplideSlide key={index}>
               <Link href={d.link}>
                 <div className="singeldata addmarginauto">
-                  <img src={d.img} alt={d.alt} title={d.alt} />
+                  <img src={d.img} alt="kushel" title={d.alt} />
                   <div className="sdmid">
                     <span>{d.title}</span>
                     <div className="MdArrowOutwardbox">

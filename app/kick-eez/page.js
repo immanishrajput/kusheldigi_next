@@ -126,7 +126,7 @@ useEffect(() => {
                   Made in America recoil pads and accessories to make your
                   shooting experience more comfortable.
                 </p>
-                <h3>Technologies Used</h3>
+                <h1>Technologies Used</h1>
                 <div className="main-box-logic flex">
                   <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180661/opqweeeeeee_o4siwu.png' id="sim" alt="img"></img>
                   <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180713/opqweeeeeee2_pktwlr.png' id="rotat" alt="img"></img>
@@ -249,7 +249,7 @@ useEffect(() => {
               <img
                 className="absolute about161 animate__animated animate__pulse animate__infinite"
                 src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739179872/angrag_za5zsc.png'
-                alt=""
+                alt="kushel"
               />
             </div>
             <img
@@ -347,7 +347,7 @@ useEffect(() => {
           </div>
         </div>
         <div className="goals-statgy">
-          <h2>Goals and Strategies</h2>
+          <h3>Goals and Strategies</h3>
           <ul>
             <li>Make it easier for customers to reach our company.</li>
             <li>
@@ -386,7 +386,7 @@ useEffect(() => {
            
                 <div className="azib-tech">
                   <h3>Technologies Used</h3>
-                  <img className="conjun" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180754/opqweeeeeee3_xujeli.png' alt="" />
+                  <img className="conjun" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180754/opqweeeeeee3_xujeli.png' alt="kushel" />
                 </div>
               </div>
             </div>

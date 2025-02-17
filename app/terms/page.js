@@ -69,7 +69,7 @@ const generateMetadata = ({ params }) => ({
           <div className="ser-main">
       <div className="nda-back">
         <div className="nda-sect">
-          <h2>TERMS & CONDITIONS</h2>
+          <h1>TERMS & CONDITIONS</h1>
         </div>
       </div>
       <div className="nda-section termsi">

@@ -139,7 +139,7 @@ const ContactForm = ({ notify }) => {
                 <button>
                   {
                     loading ? <div class="spinner33"></div> : <>
-                      Submit <img className="tih" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738997264/arrow1_gofqri.png' alt="" />
+                      Submit <img className="tih" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738997264/arrow1_gofqri.png' alt="kushel" />
                     </>
                   }
 

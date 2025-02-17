@@ -65,7 +65,7 @@ const generateMetadata = ({ params }) => ({
                 Ballistic Dummy Lab is the leading developer of the most physiologically correct human analogues for the firearms testing, medical training, and special effects in film and television industries. It is recognized by its innovative products made of organic and synthetic 
                  gel, which have set the global standard of realism and accuracy.
                 </p>
-                <h1>Technologies Used</h1>
+                <h3>Technologies Used</h3>
                 <div className="main-box-logic flex">
                   <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995220/opqweeeeeee_azs2la.png' id="sim" alt="img"></img>
                   <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995270/opqweeeeeee2_vxdqbc.png' id="rotat" alt="img"></img>
@@ -298,7 +298,7 @@ const generateMetadata = ({ params }) => ({
           <div className="azib1">
             <div className="azib1-sect">
               <div className="azib1-first">
-                <h3 className="azib-pa">03</h3>
+                <h3 className="azib-pa">04</h3>
                 <h3>RESULT</h3>
               </div>
               <div className="azib1-second">
@@ -322,7 +322,14 @@ const generateMetadata = ({ params }) => ({
         </div>
 
         <div className="client-apperication">
-         
+          {/* <h2>Client Appreciation</h2>
+          <p>
+            “Thank you Affle team for all your hardwork, patience and continuous
+            support. The app is getting positive reviews and we hope to continue
+            to improve and evolve the app. Looking forward to our continued
+            growth.”
+          </p>
+          <h4>Matt Reeder</h4> */}
         </div>
 
         <div className="other-project ">

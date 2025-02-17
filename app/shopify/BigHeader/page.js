@@ -11,8 +11,8 @@ function BigHeader() {
 
         <p>FULL-SERVICE SHOPIFY PLUS AGENCY</p>
 
-         <h3>Your Trusted Partner in Shopify Store Development  Shopify Solutions For Your E-Commerce Success
-         </h3>
+         <h1>Your Trusted Partner in Shopify Store Development  Shopify Solutions For Your E-Commerce Success
+         </h1>
 
         <Link href="contact-us" className='bs8itemsLink'><button><span>WORK WITH US</span></button></Link> 
 

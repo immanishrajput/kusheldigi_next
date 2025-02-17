@@ -249,15 +249,16 @@ const handleRemoveCategory = () => {
             </span>
           </div>
 
-          <h1
+          <h2
             className="cursor-pointer"
             onClick={() => {
            
              router.push(`blogdetails/${currAllBlogs[0]?._id}`);
+            // router.push(`blogdetails?id=${currAllBlogs[0]?._id}`)
             }}
           >
             {currAllBlogs[0]?.title?.length > 50 ? `${currAllBlogs[0]?.title?.slice(0,50)}...` : currAllBlogs[0]?.title} 
-          </h1>
+          </h2>
 
           <p
             onClick={() => {

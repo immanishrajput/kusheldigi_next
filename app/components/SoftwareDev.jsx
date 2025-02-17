@@ -339,8 +339,8 @@ const customBenefitData = [
         </defs>
       </svg>
     ),
-    title: "Cost-Effectiveness",
-    para: "The initial costs in custom software development are high.  However, numerous installations using software licences can expire and incompatibilities. It can also occur that might not be immediately apparent. In the future, this can lead to major cost reduction.",
+    title: ". Cost-Effectiveness",
+    para: "   The initial costs in custom software development are high.  However, numerous installations using software licences can expire and incompatibilities. It can also occur that might not be immediately apparent. In the future, this can lead to major cost reduction.",
   },
   {
     img: (
@@ -1519,6 +1519,9 @@ Count on our dedicated support team for prompt assistance, ensuring smooth opera
           </button>
 
         </div>
+
+
+
 
     </div>
     <Footer/>

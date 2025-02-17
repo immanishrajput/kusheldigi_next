@@ -1,47 +1,14 @@
 "use client"
 import React, { useState, useEffect } from "react";
-import angrag from "../../public/assets/angrag.png";
-import arrow4 from "../../public/assets/arrow4.png";
-// import { NavLink } from "react-router-dom";
-import rel1 from "../../public/assets/rel1.png";
-import rel2 from "../../public/assets/rel2.png";
-import rel3 from "../../public/assets/rel3.png";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import Head from 'next/head';
-import opqweeeeeee3 from "../../public/assets/opqweeeeeee3.png";
-import img4 from "../../public/assets/Group 1000004718.png";
-import img5 from "../../public/assets/Group 1000004715.png";
-import img6 from "../../public/assets/Group 1000004716.png";
-import img13 from "../../public/assets/Group 1000006500 (1).png";
-// import "../components/css/app2.css";
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
-import ai from '../../public/assets/ai.svg';
-import testo from '../../public/assets/testo.png'
-import tim1 from '../../public/assets/tim1.svg';
-import tim2 from '../../public/assets/tim2.svg';
-import markanda from '../../public/assets/markanda.svg';
-import yosuf from '../../public/assets/yosuf.svg';
-import yosuf1 from '../../public/assets/yosuf1.svg';
-import platai from '../../public/assets/platai.svg';
-import tii1 from '../../public/assets/tii1.svg'
-import tii2 from '../../public/assets/tii2.svg'
-import tii3 from '../../public/assets/tii3.svg'
-import chanderi from '../../public/assets/chanderi.svg';
-import alisa from '../../public/assets/alisa.svg';
-import inki1 from '../../public/assets/inki1.svg'
-import inki2 from '../../public/assets/inki2.svg'
-import inki3 from '../../public/assets/inki3.svg'
-import gthj from '../../public/assets/gthj.png';
-import hghh from '../../public/assets/hghh.png'
 import Link from "next/link";
-import Image from "next/image";
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
 import '../globals.css'
 
-const Ai = () => {
+const Ai2 = () => {
     const [perPage, setPerPage] = useState(3);
     useEffect(() => {
         if (window.matchMedia("(max-width: 800px)").matches) {
@@ -110,7 +77,7 @@ const Ai = () => {
                                 A & I Parts Center was founded over 40 years ago by Bill Blain. From a local parts supplier, the firm has evolved into being a household name in the market. Today, A & I Parts Center is spread across several other towns in Texas, namely Texline, Dalhart, Guymon, Stratford, Amarillo, and Dumas. The firm sells top-grade parts and value for money to different communities with great care and professional skills.
 
                                 </p>
-                                <h3 >Technologies Used</h3>
+                                <h1 >Technologies Used</h1>
                                 <div className="main-box-logic flex">
                                     <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992050/tim1_fqlls7.svg' id="sim" alt="img"></img>
                                     <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992101/tim2_mg6etc.svg' id="rotat" alt="img"></img>
@@ -168,8 +135,8 @@ const Ai = () => {
                     <div className="inner-third-local yomni">
                         <p>Wireframes</p>
                         <div className="three-section-lab tree_sery">
-                            <img className="yosuf" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992273/yosuf_zhetss.svg' alt="" />
-                            <img className="yosuf1" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992370/yosuf1_vhw2ik.svg' alt="" />
+                            <img className="yosuf" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992273/yosuf_zhetss.svg' alt="kushel" />
+                            <img className="yosuf1" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992370/yosuf1_vhw2ik.svg' alt="kushel" />
                         </div>
                     </div>
                 </div>
@@ -318,7 +285,7 @@ const Ai = () => {
                             <img
                                 className="absolute about161 animate__animated animate__pulse animate__infinite"
                                 src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990949/angrag_uutvur.png'
-                                alt=""
+                                alt="kushel"
                             />
                         </div>
                         <img
@@ -343,7 +310,7 @@ const Ai = () => {
 
                                 <div className="azib-tech">
                                     <h3>Technologies Used</h3>
-                                    <img className="conjun" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991255/opqweeeeeee3_eg5uxy.png' alt="" />
+                                    <img className="conjun" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991255/opqweeeeeee3_eg5uxy.png' alt="kushel" />
                                 </div>
                             </div>
                         </div>
@@ -468,4 +435,4 @@ const Ai = () => {
     );
 };
 
-export default Ai;
+export default Ai2;

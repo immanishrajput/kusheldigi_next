@@ -96,7 +96,7 @@ const generateMetadata = ({ params }) => ({
               <span className="heightlisght_premium"> Given that </span>{" "}
                the materials market is highly volatile, we are currently facing extended lead times beyond the usual duration.
             </p>
-            <h3>Technologies Used</h3>
+            <h1>Technologies Used</h1>
             <div className="main-box-logic flex">
               <Image src={opqweeeeeee} id="sim" alt="img"></Image>
               <Image src={opqweeeeeee2} id="rotat" alt="img"></Image>

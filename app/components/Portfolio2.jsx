@@ -569,7 +569,21 @@ const Portfolio = () => {
   return (
     <>
 
+<Head>
+        {/* Open Graph (OG) Meta Tags */}
+        <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
+        <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
+        <meta property="og:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
+        <meta property="og:url" content="https://www.kusheldigi.com/" />
+        <meta property="og:type" content="website" />
 
+        {/* Twitter Card Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Kushel Digi | Expert eCommerce Development Services" />
+        <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
+        <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
+        <meta name="twitter:url" content="https://www.kusheldigi.com/" />
+      </Head>
       
       <Navbar />
       {/* <Helmet> */}
@@ -596,13 +610,14 @@ const Portfolio = () => {
             <div className="mwPS2_bttom">
 
               <Image src={csRightMost} className="csRightMost" alt="portfolio-design" title=" portfolio-design" />
-            
-              <h1 className="nwPs2head">Our Work</h1>
+
+              <h2 className="nwPs2head">Our Work</h2>
               <div className="our_btnii">
-                <button onClick={() => handleFilterChange("All")} className={`${filteredCategory === "All" && "addbgcclds"}`}>All </button>
+                <button onClick={() => handleFilterChange("All")} className={`${filteredCategory === "All" && "addbgcclds"}`}>All</button>
                 <button onClick={() => handleFilterChange("ecommerce")} className={`${filteredCategory === "ecommerce" && "addbgcclds"}`}>E-Commerce</button>
                 <button onClick={() => handleFilterChange("website")} className={`${filteredCategory === "website" && "addbgcclds"}`}>Custom Software</button>
                 <button onClick={() => handleFilterChange("software")} className={`${filteredCategory === "software" && "addbgcclds"}`}>Website</button>
+                {/* <button onClick={() => handleFilterChange("appdevelop")} className={`${filteredCategory === "appdevelop" && "addbgcclds"}`}>UI/UX</button> */}
                 <button onClick={() => handleFilterChange("appdevelop")} className={`${filteredCategory === "appdevelop" && "addbgcclds"}`}>Mobile Apps</button>
                 <button onClick={() => handleFilterChange("oddodevelop")} className={`${filteredCategory === "oddodevelop" && "addbgcclds"}`}>ODDO</button>
               </div>
@@ -619,14 +634,14 @@ const Portfolio = () => {
                         data?.img2 ?
                           <Image src={data?.img2} alt={data?.alt} title={data?.alt} height={data.height1} width={data.width1} />
                           :
-                          <h1></h1>
+                          <p></p>
                       }
                       <a target={data.target} href={data.link}>
                         {
                           data?.btnText &&
 
                           <button id={data?.id} className="viewCSbTN">
-                            <h2>{data?.btnText}</h2>
+                            <span>{data?.btnText}</span>
                             <svg width="14" height="14" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M12.175 9H0V7H12.175L6.575 1.4L8 0L16 8L8 16L6.575 14.6L12.175 9Z" fill="#101010" />
                             </svg>

@@ -69,12 +69,12 @@ const Ecommpop = ({setPop, notify = (type, message)=> console.log(type, message)
             <i onClick={() => setPop(false)} className="fa-solid fa-x"></i>
 
             <div className="eco_container">
-
+              
               {/* =============== */}
               <div className="main_eco_pop">
                 <div className="eco_pop_subcontainer">
                   <div className="left_eco_pop">
-                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739168039/popupimage_vvmpoz.png' alt="" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739168039/popupimage_vvmpoz.png' alt="kushel" />
                   </div>
                   <form onSubmit={handleSubmit}>
                     <div className="right_eco_pop">

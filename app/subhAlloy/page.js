@@ -110,7 +110,7 @@ useEffect(() => {
                 Shubhalloys buys and sells iron cuttings as per the demand requirement of their clients. Traditionally, the company was operating with manual processes for ordering and transactions, which was very time-consuming and tended to show several inefficiencies.
 
                 </p>
-                <h3>Technologies Used</h3>
+                <h1>Technologies Used</h1>
                 <div className="main-box-logic flex">
                   <Image src={omis} id="sim" alt="img"></Image>
                   <Image className="pokli" src={priyajan1} id="rotat" alt="img"></Image>
@@ -313,7 +313,7 @@ useEffect(() => {
             </div>
             <div className="bg_right">
               <Image src={prek2} className="llgg" alt="lojj" />
-              <Image src={prek3} className="ep44 ep455" alt="" />
+              <Image src={prek3} className="ep44 ep455" alt="kushel" />
             </div>
           </div>
         </div>
@@ -336,11 +336,11 @@ useEffect(() => {
                   <h3>Technologies Used</h3>
                   <div className="fopping">
                     <div className="spoing">
-                      <Image src={nodes11} alt="" />
+                      <Image src={nodes11} alt="kushel" />
                       <p>Node Js</p>
                     </div>
                     <div className="spoing kint">
-                      <Image src={react11} alt="" />
+                      <Image src={react11} alt="kushel" />
                       <p>React</p>
                     </div>
                   </div>

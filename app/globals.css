@@ -1912,7 +1912,7 @@
     font-weight: 600
 }
 
-.left-section-kids>h3 {
+.left-section-kids>h1 {
     font-size: 18px;
     margin-top: 35px;
     text-align: left;
@@ -17916,7 +17916,7 @@ fill: #0B56E4 !important;
     margin: auto
   }
   
-  #kushel-next-js .kushel-next-js-container2 h2 {
+  #kushel-next-js .kushel-next-js-container2 h6 {
     font-weight: 700;
     font-size: 30px;
     line-height: 44px;
@@ -17965,7 +17965,7 @@ fill: #0B56E4 !important;
     text-align: center
   }
   
-  #kushel-next-js .kushel-next-js-content3 h2 {
+  #kushel-next-js .kushel-next-js-content3 h6 {
     font-size: 34px;
     font-weight: 700;
     line-height: 44px;
@@ -17995,7 +17995,7 @@ fill: #0B56E4 !important;
     width: 100%
   }
   
-  #kushel-next-js .kushel-next-js-cards-content h2 {
+  #kushel-next-js .kushel-next-js-cards-content h6 {
     font-size: 21px;
     font-weight: 700;
     line-height: 28px;
@@ -18065,7 +18065,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     border-radius: 6px
   }
   
-  #kushel-next-js .kushel-next-js-left-content4 h2 {
+  #kushel-next-js .kushel-next-js-left-content4 h6 {
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
@@ -18100,7 +18100,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     text-align: center
   }
   
-  #kushel-next-js .kushel-next-js-content5 h2 {
+  #kushel-next-js .kushel-next-js-content5 h5 {
     font-size: 24px;
     font-weight: 600;
     line-height: 34px;
@@ -18154,7 +18154,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     align-items: center
   }
   
-  #kushel-next-js .kushel-next-js-content6 h2 {
+  #kushel-next-js .kushel-next-js-content6 h5 {
     font-size: 24px;
     font-weight: 700;
     line-height: 34px;
@@ -18219,7 +18219,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     align-items: center
   }
   
-  #kushel-next-js .kushel-next-js-content7 h2 {
+  #kushel-next-js .kushel-next-js-content7 h5 {
     font-size: 24px;
     font-weight: 700;
     line-height: 30px;
@@ -18433,7 +18433,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     border-radius: 8px
   }
   
-  #kushel-next-js .kushel-next-js-content8 h2 {
+  #kushel-next-js .kushel-next-js-content8 h3 {
     font-size: 40px;
     font-weight: 700;
     line-height: 24px;
@@ -18585,11 +18585,11 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
       line-height: 32px
     }
   
-    #kushel-next-js .kushel-next-js-container2 h2 {
+    #kushel-next-js .kushel-next-js-container2 h6 {
       font-size: 27px
     }
   
-    #kushel-next-js .kushel-next-js-content3 h2 {
+    #kushel-next-js .kushel-next-js-content3 h6 {
       font-size: 27px;
       line-height: 32px
     }
@@ -18613,7 +18613,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
   }
   
   @media(max-width:714px) {
-    #kushel-next-js .kushel-next-js-content8 h2 {
+    #kushel-next-js .kushel-next-js-content8 h3 {
       font-size: 32px;
       line-height: 10px
     }
@@ -18655,7 +18655,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
       width: 100%
     }
   
-    #kushel-next-js .kushel-next-js-container2 h2 {
+    #kushel-next-js .kushel-next-js-container2 h6 {
       font-size: 20px;
       line-height: 28px
     }
@@ -24311,7 +24311,7 @@ position: relative;
     margin-top: 40px;
     align-items: flex-start;
 }
-.bigheleft h2{
+.bigheleft h1{
     font-family: Poppins;
     font-size: 24px;
     font-weight: 400;
@@ -24552,13 +24552,13 @@ color: #555555;
 
 @media (max-width:600px) {
     .bigheleft button{
-       margin: 20px auto !important;
+       margin: 20px 77px !important;
     }
     
     .bigheleft{
         gap: 16px;
     }
-    .bigheleft h2{
+    .bigheleft h1{
         font-size: 20px ;
         line-height: 26px ;
         text-align: center ;
@@ -24995,7 +24995,7 @@ color: #101820;
       flex-direction: column;
       gap: 24px;
     }
-    .sc2_main_content h3{
+    .sc2_main_content h1{
       font-family: Poppins;
       font-size: 26px;
       font-weight: 600;
@@ -25706,7 +25706,7 @@ color: #101820;
        }
   
     @media (max-width:600px) {
-      .sc2_main_content h3{
+      .sc2_main_content h1{
         font-size: 22px;
         line-height: 32px;
       }
@@ -25725,7 +25725,7 @@ color: #101820;
       .singleca1bt{
         max-width: 200px;
       }
-      .sc2_main_content h3{
+      .sc2_main_content h1{
         font-size: 22px;
         line-height: 32px;
       }
@@ -25968,6 +25968,7 @@ color: #101820;
   
     .ca1firrigh{
       max-width: 500px;
+      color:white;
     }
   
     .case1secbot{
@@ -26057,7 +26058,7 @@ color: #101820;
       flex-direction: column;
       gap: 24px;
     }
-    .sc2_main_content h3{
+    .sc2_main_content h1{
       font-family: Poppins;
       font-size: 26px;
       font-weight: 600;
@@ -26745,7 +26746,7 @@ color: #101820;
        }
   
     @media (max-width:600px) {
-      .sc2_main_content h3{
+      .sc2_main_content h1{
         font-size: 22px;
         line-height: 32px;
       }
@@ -26764,7 +26765,7 @@ color: #101820;
       .singleca1bt{
         max-width: 200px;
       }
-      .sc2_main_content h3{
+      .sc2_main_content h1{
         font-size: 22px;
         line-height: 32px;
       }
@@ -31835,7 +31836,7 @@ line-height: 28px;
 color: #FFFFFF;
 }
 
-.bigheacont2 h3{
+.bigheacont2 h1{
     font-family: Poppins;
 font-size: 28px;
 font-weight: 400;
@@ -31892,7 +31893,7 @@ color: #FFFFFF;
     margin-top: 40px;
     align-items: flex-start;
 }
-.bigheleft2 h2{
+.bigheleft2 h1{
     font-family: Poppins;
     font-size: 24px;
     font-weight: 400;
@@ -32157,7 +32158,7 @@ color: #555555;
     .bigheleft2{
         gap: 16px;
     }
-    .bigheleft2 h2{
+    .bigheleft2 h1{
         font-size: 22px;
         line-height: 32px;
     }
@@ -32191,7 +32192,7 @@ color: #555555;
        line-height: 38px;
     }
     
-    .bigheacont2 h3{
+    .bigheacont2 h1{
         font-size: 22px;
         line-height: 32px;
     }
@@ -33320,12 +33321,12 @@ display: none;
   .nwPortSec2 .viewCSbTN:hover{
     background-color: #053BCB; border: 1px solid #0039ff; /* animation-name: vibrateText; */ color: #0B56E4;
   }
-  .nwPortSec2 .viewCSbTN span{
+  .nwPortSec2 .viewCSbTN h2{
     color: #101010;
     text-transform: uppercase;
   
   }
-  .nwPortSec2 .viewCSbTN:hover span{
+  .nwPortSec2 .viewCSbTN:hover h2{
   color: #FFFFFF;
   opacity: .9;
   
@@ -33439,7 +33440,7 @@ display: none;
           .nwPortSec2 .viewCSbTN{
             width: 135px;
           }
-          .nwPortSec2 .viewCSbTN span{
+          .nwPortSec2 .viewCSbTN h2{
             font-size: 10px;
           }
           .nwPortSec2 .nwPortSec2Cont {
@@ -33755,7 +33756,7 @@ display: none;
     color: #001D33;
   }
   
-  .kbsecright h2 {
+  .kbsecright h1 {
     font-family: Poppins !important;
     font-size: 25px;
     font-weight: 600;
@@ -34314,7 +34315,7 @@ display: none;
   }
   
   @media (max-width:600px) {
-    .kbsecright h2 {
+    .kbsecright h1 {
       font-size: 20px;
       line-height: 28px;
     }
@@ -36932,7 +36933,7 @@ hr {
   transform: translate(0%, -50%)
 }
 
-.contact-sect h2 {
+.contact-sect h1 {
   font-style: normal;
   font-family: 'Poppins', sans-serif !important;
   font-weight: 700;
@@ -40524,7 +40525,7 @@ form button:hover {
   transform: translate(-50%, -50%)
 }
 
-.privacy-sect h2 {
+.privacy-sect h1 {
   color: #fff;
   font-size: 38px;
   font-weight: 700;
@@ -40536,7 +40537,7 @@ form button:hover {
   padding: 90px 100px
 }
 
-.privacy-heading h3 {
+.privacy-heading h2 {
   color: #33475b;
   font-size: 35px;
   font-weight: 700
@@ -40831,7 +40832,7 @@ form button:hover {
   transform: translate(-50%, -50%)
 }
 
-.nda-sect h2 {
+.nda-sect h1 {
   color: #fff;
   font-size: 38px;
   font-weight: 700;
@@ -43285,7 +43286,7 @@ font-family: 'sf-ui-display-medium', sans-serif !important;
   position: relative
 }
 
-.goals-statgy h2 {
+.goals-statgy h3 {
   font-size: 34px;
   color: #33475b;
   opacity: .9;
@@ -48094,7 +48095,7 @@ width: 450px;
   max-width: 100%
 }
 
-.other-project h2 {
+.other-project h1 {
   color: #33475b;
   font-weight: 700;
   font-size: 30px;
@@ -54448,7 +54449,7 @@ width: 450px;
   padding: 60px 100px
 }
 
-.why_ecoming h1 {
+.why_ecoming h4 {
   text-align: center;
   font-weight: 400;
   font-size: 34px
@@ -54904,7 +54905,7 @@ width: 450px;
   font-size: 34px;
   line-height: 46px;
   color: #33475b;
-  font-weight: 700
+  font-weight: 700;
 }
 
 .learn-back1 p {
@@ -54916,7 +54917,11 @@ width: 450px;
   margin-top: 15px;
   text-align: left
 }
-
+@media (max-width:450px){
+  .learn-back1 h1{
+    text-align: center !important;
+  }
+}
 .learn-back1 button {
   max-width: 270px;
   width: 100%;
@@ -55012,7 +55017,7 @@ width: 450px;
   padding-top: 100px
 }
 
-.why_ecoming22 h1 {
+.why_ecoming22 h4 {
   font-weight: 700;
   color: #33475b
 }
@@ -55095,7 +55100,7 @@ width: 450px;
   position: relative
 }
 
-.poinyuj h1 {
+.poinyuj h3 {
   font-size: 80px;
   font-weight: 700;
   color: #000;
@@ -67745,7 +67750,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         width: 27em !important
     }
 
-    .left-section-kids>h3 {
+    .left-section-kids>h1 {
         margin-top: 5px !important
     }
 }
@@ -68359,7 +68364,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         text-align: center
     }
 
-    .nda-sect h2 {
+    .nda-sect h1 {
         font-size: 40px;
         text-align: center
     }
@@ -68874,7 +68879,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 15px
     }
 
-    .contact-sect h2 {
+    .contact-sect h1 {
         font-size: 40px
     }
 
@@ -68985,7 +68990,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         margin-left: 2rem
     }
 
-    .privacy-sect h2 {
+    .privacy-sect h1 {
         text-align: center;
         font-size: 40px
     }
@@ -71398,7 +71403,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         line-height: 38px
     }
 
-    .goals-statgy h2 {
+    .goals-statgy h3 {
         font-size: 30px;
         line-height: 38px
     }
@@ -73697,7 +73702,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 60px 40px
     }
 
-    .rdar_talk h1 {
+    .rdar_talk h5 {
         font-size: 30px
     }
 
@@ -73714,7 +73719,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         width: 100%
     }
 
-    .rdar_talk h1 {
+    .rdar_talk h5 {
         text-align: center;
         font-size: 30px;
         line-height: 36px
@@ -73793,7 +73798,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 60px 40px
     }
 
-    .why_ecoming h1 {
+    .why_ecoming h4 {
         font-size: 30px;
         line-height: 36px
     }
@@ -73960,7 +73965,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 90px 40px
     }
 
-    .privacy-heading h3 {
+    .privacy-heading h2 {
         font-size: 30px
     }
 
@@ -76583,7 +76588,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         height: 330px
     }
 
-    .left-section-kids>h3 {
+    .left-section-kids>h1 {
         margin-top: 20px !important
     }
 
@@ -80009,7 +80014,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 60px 20px
     }
 
-    .why_ecoming h1 {
+    .why_ecoming h4 {
         font-size: 25px;
         line-height: 32px
     }
@@ -80129,12 +80134,12 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 14px
     }
 
-    .privacy-sect h2 {
+    .privacy-sect h1 {
         text-align: center;
         font-size: 30px
     }
 
-    .privacy-heading h3 {
+    .privacy-heading h2 {
         font-size: 25px
     }
 
@@ -80202,7 +80207,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 30px
     }
 
-    .nda-sect h2 {
+    .nda-sect h1 {
         font-size: 25px;
         text-align: center;
         line-height: 32px
@@ -80794,7 +80799,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         width: 15px !important
     }
 
-    .contact-sect h2 {
+    .contact-sect h1 {
         font-size: 30px
     }
 
@@ -81248,7 +81253,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 60px 0
     }
 
-    .rdar_talk h1 {
+    .rdar_talk h5 {
         font-size: 20px;
         line-height: 28px
     }
@@ -81985,7 +81990,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         line-height: 24px !important
     }
 
-    .left-section-kids>h3 {
+    .left-section-kids>h1 {
         font-size: 16px !important
     }
 
@@ -82574,7 +82579,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 50px 20px
     }
 
-    .goals-statgy h2 {
+    .goals-statgy h3 {
         font-size: 25px;
         line-height: 32px
     }
@@ -82608,7 +82613,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 0 20px
     }
 
-    .other-project h2 {
+    .other-project h1 {
         font-size: 25px;
         line-height: 32px
     }
@@ -84581,7 +84586,7 @@ article h4 {
     line-height: 26px;
     color: black;
 }
-.authodetail p{
+.authodetail h1{
     font-family: Poppins;
     font-size: 16px;
     font-weight: 500;
@@ -84761,7 +84766,7 @@ textarea {
 
 }
 
-.blode2rightc h3 {
+.blode2rightc h2 {
     font-family: Poppins;
     font-size: 20px;
     font-weight: 600;
@@ -85149,7 +85154,7 @@ color: white;
 .shareocciwrap:hover{
     background-color: #1566FF;
 }
-.shareblogoptns h3{
+.shareblogoptns h2{
     font-family: Poppins;
 font-size: 18px;
 font-weight: 600;

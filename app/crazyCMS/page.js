@@ -1,46 +1,9 @@
 "use client"
 import React, { useState, useEffect } from "react";
-import pick2 from "../../public/assets/pick2.png";
-import angrag from "../../public/assets/angrag.png";
-import stepback from "../../public/assets/stepback.png";
-import stepback1 from "../../public/assets/stepback1.png";
-import kick5 from "../../public/assets/kick5.png";
-import arrow4 from "../../public/assets/arrow4.png";
-// import { NavLink } from "react-router-dom";
-import rel1 from "../../public/assets/rel1.png";
 import Head from 'next/head';
-
-import rel2 from "../../public/assets/rel2.png";
-import rel3 from "../../public/assets/rel3.png";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import trimmer from '../../public/assets/trimer.svg'
-import img4 from "../../public/assets/Group 1000004718.png";
-import img5 from "../../public/assets/Group 1000004715.png";
 import img6 from "../../public/assets/Group 1000004716.png";
-import img7 from "../../public/assets/Aboust us sx (1).png";
-import img8 from "../../public/assets/HOME 2 (1).png";
-import img9 from "../../public/assets/Aboust us Header (1).png";
-import img10 from "../../public/assets/Shop now Header 1 (1).png";
-import img11 from "../../public/assets/Login Screen 1 (1).png";
-import img12 from "../../public/assets/Group 1000006505 (1).png";
-import img13 from "../../public/assets/Group 1000006500 (1).png";
-// import "../components/css/app2.css";
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
-import omis from '../../public/assets/omis.svg';
-import omis1 from '../../public/assets/omis1.svg';
-import omis2 from '../../public/assets/omis2.svg';
-import lies from '../../public/assets/lies.svg';
-import kpingq1 from '../../public/assets/kping1.svg';
-import kpingq11 from '../../public/assets/kping.svg'
-import amk1 from '../../public/assets/amk1.svg';
-import amk2 from '../../public/assets/amk2.svg';
-import crazy1 from '../../public/assets/crazy1.svg'
-import crazy2 from '../../public/assets/crazy2.svg'
-import fs from '../../public/assets/fs.svg';
-import lojj from '../../public/assets/lojj.svg';
-import ep44 from "../../public/assets/ellipse44.png"
 import Image from "next/image";
 import Link from "next/link";
 import Navbar from "../COMMON/Navbar";
@@ -114,7 +77,7 @@ useEffect(() => {
                 My Crazy Simple CMS is an user-friendly content management system which is designed to simplify website management for businesses of all sizes. It emowers users to create, edit, and manage content without any technical expertise.
 
                 </p>
-                <h3>Technologies Used</h3>
+                <h1>Technologies Used</h1>
                 <div className="main-box-logic flex">
                   <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164002/omis_n83hlt.svg' id="sim" alt="img"></img>
                   <img className="pokli" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164078/omis1_bvorfv.svg' id="rotat" alt="img"></img>
@@ -216,7 +179,7 @@ useEffect(() => {
               <img
                 className="absolute about161 animate__animated animate__pulse animate__infinite"
                 src={angrag}
-                alt=""
+                alt="kushel"
               />
             </div>
             <img
@@ -352,7 +315,7 @@ useEffect(() => {
             </div>
             <div className="bg_right">
               <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164623/lojj_i355y6.svg' className="llgg" alt="lojj" />
-              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164664/ellipse44_noomie.png' className="ep44" alt="" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164664/ellipse44_noomie.png' className="ep44" alt="kushel" />
             </div>
           </div>
         </div>
@@ -378,11 +341,11 @@ useEffect(() => {
                   <h3>Technologies Used</h3>
                   <div className="fopping">
                     <div className="spoing">
-                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164356/kping1_bopri1.svg' alt="" />
+                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164356/kping1_bopri1.svg' alt="kushel" />
                       <p>Python</p>
                     </div>
                     <div className="spoing kint">
-                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164437/kping_c2vncx.svg' alt="" />
+                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164437/kping_c2vncx.svg' alt="kushel" />
                       <p>Laravel</p>
                     </div>
                   </div>

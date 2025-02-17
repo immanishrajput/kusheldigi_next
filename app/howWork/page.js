@@ -117,7 +117,7 @@ const HowWork = ({notify}) => {
           <Navbar/>
       <div className="learn-back">
         <div className='chanu'>
-          <Image src={studentsFrame} alt="" />
+          <Image src={studentsFrame} alt="kushel" />
         </div>
         <div className="learn-back1">
           <h1>Learn about our <br /> workflow</h1>
@@ -133,7 +133,7 @@ const HowWork = ({notify}) => {
       </div>
 
       <div className="why_ecoming  why_ecoming22">
-        <h1>Product building done right</h1>
+        <h4>Product building done right</h4>
         <div className="why_poinhy">
           <p>With over 450 completed projects, our project lifecycle is designed to</p>
           <p>help clients ship quality products at the speed of digital efficiency.</p>
@@ -219,7 +219,7 @@ const HowWork = ({notify}) => {
                 <div className="working_pnt">
                   <div className="working_pnt1">
                     <div className='poinyuj'>
-                      <h1>1.</h1>
+                      <h3>1.</h3>
                       <p>Workshops</p>
                     </div>
                   </div>
@@ -263,7 +263,7 @@ const HowWork = ({notify}) => {
                 <div className="working_pnt">
                   <div className="working_pnt1">
                     <div className='poinyuj'>
-                      <h1>2.</h1>
+                      <h3>2.</h3>
                       <p>Kick-off</p>
                     </div>
                   </div>
@@ -310,7 +310,7 @@ const HowWork = ({notify}) => {
                   <div className="flowa">
                     <div className="flowChartSec">
                       <div className='poinyuj'>
-                        <h1>3.</h1>
+                        <h3>3.</h3>
                         <p>Design</p>
                       </div>
 
@@ -349,7 +349,7 @@ const HowWork = ({notify}) => {
                   <div className="flowa">
                     <div className="flowChartSec">
                       <div className='poinyuj'>
-                        <h1>4.</h1>
+                        <h3>4.</h3>
                         <p>Development</p>
                       </div>
 
@@ -393,7 +393,7 @@ const HowWork = ({notify}) => {
                   <div className="flowa">
                     <div className="flowChartSec">
                       <div className='poinyuj'>
-                        <h1>5.</h1>
+                        <h3>5.</h3>
                         <p>Delivery & <br /> Support</p>
                       </div>
 
@@ -441,12 +441,12 @@ const HowWork = ({notify}) => {
         <div className="ready_folks">
           <div className="ready_left">
             <div className="rdar_talk">
-              <h1>Ready to talk about your</h1>
-              <h1>eCommerce project?</h1>
+              <h5>Ready to talk about your</h5>
+              <h5>eCommerce project?</h5>
               <div className="fantars">
                 <div className="tellUs">
                   <div className="tellUs_right">
-                    <h1>1.</h1>
+                    <h3>1.</h3>
                   </div>
                   <div className="tellUs_left">
                     <span>Tell us more</span>
@@ -456,7 +456,7 @@ const HowWork = ({notify}) => {
                 </div>
                 <div className="tellUs">
                   <div className="tellUs_right">
-                    <h1>2.</h1>
+                    <h3>2.</h3>
                   </div>
                   <div className="tellUs_left">
                     <span>Tell us more</span>
@@ -466,7 +466,7 @@ const HowWork = ({notify}) => {
                 </div>
                 <div className="tellUs">
                   <div className="tellUs_right">
-                    <h1>3.</h1>
+                    <h3>3.</h3>
                   </div>
                   <div className="tellUs_left">
                     <span>Tell us more</span>
