@@ -2,13 +2,14 @@
 
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 import  "./styles.css"; 
 
 
 function Home2Swiper() {
   const splideRef = useRef(null);
+  
 
   const goPrev = () => {
     splideRef.current.splide.go("-1");
