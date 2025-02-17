@@ -67430,7 +67430,11 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 20px 64px
     }
 }
-
+@media only screen and (max-width:450px){
+  .ser21{
+    padding: .5rem 6rem;
+  }
+}
 @media only screen and (max-width:1275px) {
     .business-box1 {
         height: 420px

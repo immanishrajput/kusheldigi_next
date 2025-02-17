@@ -257,13 +257,12 @@ const generateMetadata = ({ params }) => ({
                 <SplideSlide>
                   <Link href="/node-js">
                     <div className="w-full sis1  home4121">
-                      <img
-                        className=" block m-auto nodejs1"
+                      <img className="block m-auto"
                         src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724842774/png-transparent-node-js-javascript-computer-icons-github-angle-text-logo_1_iohy0b.png"
                         alt="Node"
                         title="Node"
                       />
-                      {/* <p>Node</p> */}
+                      <p>Node</p>
                     </div>
                   </Link>
                 </SplideSlide>
