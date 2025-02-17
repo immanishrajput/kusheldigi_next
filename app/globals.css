@@ -16920,7 +16920,8 @@ body{
     }
 
     .USA-ourWork-left-card p {
-        text-align: start
+        text-align: start;
+        height: auto !important;
     }
 }
 
@@ -85186,4 +85187,18 @@ line-height: 28px;
 text-align: center;
 color: #38475c;
 
+}
+
+
+
+/*  */
+
+
+@media (max-width:320px){
+  .indus-card2-main-flex h3{
+    text-align: center !important;
+  }
+  .USA-ourWork-left-card p {
+    height: auto !important;
+  }
 }
