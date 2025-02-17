@@ -1,71 +1,25 @@
-"use client";
-import React, { useEffect } from "react";
-import ContactForm1 from "../COMMON/ContactForm1";
-import '../globals.css';
-import Navbar from "../COMMON/Navbar";
-import Head from 'next/head';
+import '../globals.css'
+import Contact2 from "../components/Contact2";
 
-import Footer from "../COMMON/Footer";
-const Contact = () => {
-  const phoneNumber = "9045301702";
 
-  const whatAppHandler = () => {
-    const whatsappUrl = `https://wa.me/${phoneNumber}`;
-    window.open(whatsappUrl, "_blank");
-  };
+export const metadata = {
+  openGraph: {
+    title: "About Kushel Digi Solutions | eCommerce Development Experts",
+    description: "Kushel Digi Solutions empower businesses by delivering seamless, scalable as well as revenue-driven online stores to maximize growth in the eCommerce digital marketplace",
+    url: "https://www.kusheldigi.com/contact-us",
+    type:"website",
+    images: [{ url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png", width: 1200, height: 630 , alt:"kushel" }],
+  },
+}
 
-  const callHandler = () => {
-    const callUrl = `tel:${phoneNumber}`;
-    window.open(callUrl, "_blank");
-  };
- const generateMetadata = ({ params }) => ({
-    title: 'KushelDigi : Job Search Marketplace. Tech Job Hunting Simplified',
-    description: 'Discover your dream tech job effortlessly with KushelDigi! Our job search marketplace streamlines the process, connecting talented professionals with top tech companies. Simplify your job hunt today..',
-  });
+const Contact = ({ notify }) => {
   
-useEffect(() => {
-    const { title, description } = generateMetadata({ params: {} });
-    document.title = title;
-    let metaDescription = document.querySelector('meta[name="description"]');
-    metaDescription ? metaDescription.content = description : 
-      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-  }, []);
-
   return (
     <>
-
-    <Navbar/>
-      <div className="ser-main">
-        <div className="contact-back">
-          <div className="contact-sect">
-            <h1>Let's Connect</h1>
-            <p>We're here to assist you and answer your questions.</p>
-            <p>Feel free to get in touch with us anytime.</p>
-
-           
-
-           
-
-          </div>
-        </div>
-         {/* Contact Form Section (Ensuring it is BELOW the text & buttons) */}
-         <div className="contact-form-wrapper">
-              <ContactForm1 />
-            </div>
-
-             {/* Buttons for WhatsApp and Call */}
-             <div className="whtsApBtns">
-              <button onClick={whatAppHandler}>
-                <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="WhatsApp" title="Chat on WhatsApp" />
-              </button>
-              <button onClick={callHandler}>
-                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991783/telephone_k9aecl.png' alt="Call Us" title="Call Us" />
-              </button>
-            </div>
-      </div>
-      <Footer/>
+    <Contact2 notify={notify} />
     </>
   );
 };
 
 export default Contact;
+

@@ -17,7 +17,7 @@ export const metadata = {
 function page() {
   return (
     <div>
-      <Industries  />
+      <Industries/>
     </div>
   )
 }
