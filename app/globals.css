@@ -21475,7 +21475,7 @@ width: 520px;
   /* text-align: center; */
   font-weight: 800;
   font-size: 22px;
-  line-height:37px;
+  line-height:28px;
   padding-bottom: 8px
 }
 
@@ -21762,7 +21762,7 @@ width: 480px;
 #hemesh-seo-kushel .seo-second-card-flex6 h4 {
   font-weight: 800;
   font-size: 19px;
-  line-height: 26px;
+  line-height: 0px;
 
 }
 
@@ -64246,6 +64246,11 @@ wordpress_cater_box p {
         max-width: 100%;
         text-align: center
     }
+    .about-main11 {
+      padding-left: 0rem;
+      font-family: 'Poppins', sans-serif !important;
+      height: 100%
+  }
 }
 
 .about-main {
@@ -81996,6 +82001,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .inner-third-local>p {
+      text-align: center;
         font-size: 25px !important;
         line-height: 32px !important
     }
