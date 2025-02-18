@@ -90,9 +90,7 @@ const Flutters = ({notify}) => {
        <div className="flutter-bg">
        <div className="android-back android-back-flex1 flutter-back-section dine-123">
          <div className="android-back1 android_back_text_section">
-           {/* <h2>
-             fluter App <br /> Development Company
-           </h2> */}
+          
            <h1>Affordable flutter app <br /> development services</h1>
            <p className="android-son">
              Build Robust & Natively Compiled Experiences for Web, Mobile, and
@@ -115,9 +113,9 @@ const Flutters = ({notify}) => {
        <div className="android2-app dine-1234">
          <div className="android-fun ">
            <div className="android-fun1">
-             <h2>Custom flutter App</h2>
-             <h2>Development</h2>
-             <h2>Services</h2>
+             <h3>Custom flutter App</h3>
+             <h3>Development</h3>
+             <h3>Services</h3>
              <img className="ftp" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169674/android-sis_auympb.png' alt="underline-designed" />
              <Link className="letsy letsay" href="/contact-us">
                <h5>
@@ -229,7 +227,7 @@ const Flutters = ({notify}) => {
            <div className="flutter-ads-card">
              <div className="flutter-ads-box flutter-ad-bx1"> 
                <svg width="50" height="51" viewBox="0 0 50 51" fill="none" xmlns="http://www.w3.org/2000/svg">
-               <g clip-path="url(#clip0_2179_648)">
+               <g clipPath="url(#clip0_2179_648)">
                <path d="M43.4672 12.1661C43.4672 12.6658 43.4672 12.9469 43.4672 13.2124C43.4516 13.8526 43.0922 14.1961 42.4828 14.1805C41.9203 14.1649 41.561 13.837 41.561 13.228C41.561 11.9788 41.5453 10.7295 41.561 9.48032C41.5766 8.93379 41.8891 8.59025 42.436 8.59025C43.7328 8.57464 45.0453 8.57464 46.3422 8.59025C46.9047 8.60587 47.186 9.01186 47.186 9.52717C47.186 10.0425 46.8891 10.4172 46.3266 10.4485C45.8422 10.4797 45.3422 10.4485 44.7172 10.4485C45.0453 10.9325 45.3266 11.3229 45.5922 11.7133C48.9516 16.6633 50.3735 22.1131 49.9047 28.0937C49.0766 38.634 41.2797 47.5659 31.186 50.1424C17.811 53.5778 3.87346 45.2392 0.68596 31.7945C-2.39217 18.7714 5.15471 5.71705 17.9985 1.92255C21.2328 0.970017 24.5297 0.720173 27.8735 1.09494C28.5453 1.17301 29.0141 1.65709 28.8891 2.21924C28.7485 2.84385 28.3266 3.12492 27.686 3.04684C17.2797 1.92255 7.59221 7.63772 3.63908 17.2723C-1.70467 30.2954 6.12346 45.3173 19.8735 48.3935C32.2797 51.173 44.7016 43.4435 47.4672 31.0918C48.9203 24.6271 47.7641 18.5684 44.0922 13.0094C43.9516 12.7751 43.7797 12.5721 43.4672 12.1661Z" fill="#0B60FF"/>
                <path d="M6.38983 26.3601C6.3742 22.4719 7.26483 19.2707 9.0617 16.3195C9.26483 15.9915 9.6242 15.6792 9.96795 15.5699C10.2023 15.4919 10.7023 15.7105 10.8117 15.9291C10.968 16.2414 10.968 16.7255 10.843 17.069C10.2336 18.5993 9.3742 20.0671 8.9367 21.6443C6.5617 30.3576 11.6086 39.5549 20.6242 42.0065C29.6867 44.4737 39.0617 38.9928 41.2179 29.8891C43.4836 20.3638 37.3586 11.3382 28.1711 9.52683C24.1242 8.73046 20.3273 9.43314 16.7336 11.4319C16.5305 11.5412 16.3273 11.6661 16.1242 11.7754C15.5773 12.0565 15.0617 11.994 14.7805 11.4631C14.5148 10.9634 14.5773 10.4013 15.1398 10.1202C16.5617 9.43314 17.9523 8.60553 19.4523 8.15269C29.3742 5.15457 39.4523 10.3857 42.7336 20.1764C46.1711 30.4044 39.7023 41.7411 29.2336 44.0677C19.6086 46.207 10.2336 40.7105 7.29608 31.6849C6.6867 29.811 6.32733 27.906 6.38983 26.3601Z" fill="#0B60FF"/>
                <path d="M24.9178 29.249C22.6522 29.1709 21.1209 27.0472 21.8553 24.8767C22.0272 24.377 21.8866 24.1272 21.5741 23.8149C20.6678 22.956 19.8084 22.0503 18.9178 21.1759C18.4491 20.7074 18.2772 20.2234 18.7459 19.6768C19.1678 19.1928 19.7147 19.2396 20.2928 19.8174C21.1991 20.7074 22.1053 21.6131 22.9959 22.5188C23.2772 22.7999 23.4959 22.8623 23.9334 22.7843C24.6209 22.6593 25.3866 22.6125 26.0741 22.7686C26.5741 22.878 26.8084 22.7843 27.1366 22.472C29.0428 20.5513 30.9647 18.6462 32.8709 16.7255C33.0428 16.5538 33.1991 16.382 33.3866 16.2415C33.8241 15.9136 34.2928 15.9292 34.6678 16.2883C35.0428 16.6475 35.0584 17.1315 34.7616 17.5688C34.6366 17.7562 34.4491 17.9123 34.2772 18.0841C32.3709 19.9891 30.4491 21.9098 28.5272 23.8149C28.1834 24.1428 28.0584 24.4082 28.2303 24.9392C28.9178 27.1565 27.2303 29.327 24.9178 29.249ZM25.0116 27.3283C25.7459 27.3283 26.4022 26.7037 26.4178 25.9698C26.4334 25.2046 25.7772 24.5176 25.0116 24.5176C24.2772 24.5176 23.6209 25.1422 23.6053 25.8761C23.5897 26.6412 24.2459 27.3283 25.0116 27.3283Z" fill="#0B60FF"/>
@@ -276,7 +274,7 @@ const Flutters = ({notify}) => {
        <div className="container3 dine-12">
          <div className="approach">
            <div className="approacy1">
-             <h3>Our Approach</h3>
+             <h2>Our Approach</h2>
              <h5> Get qualified flutter services from <br /> Kushel Digi experts.</h5>
            </div>
            <hr className="divider2 w-full" />
@@ -326,79 +324,7 @@ const Flutters = ({notify}) => {
 
        <ContactForm1 notify={notify} />
 
-       {/* <div className="home9 mb-12 home278">
-         <div className="home91 px-24 dine-1234">
-           <div className="home911 text-center">
-             <h2 className="font-bold text-gray-700">Frequently Asked<br/> Questions</h2>
-           </div>
-           <div className="home912 FAQ-1">
-             <Accordion allowZeroExpanded>
-               <AccordionItem>
-                 <AccordionItemHeading>
-                   <AccordionItemButton>
-                   What are the Services offered for flutter app development?
-                   </AccordionItemButton>
-                 </AccordionItemHeading>
-                 <AccordionItemPanel>
-                   <p>
-                   Comprehensive services including design, development, testing, deployment, and support.
-                   </p>
-                 </AccordionItemPanel>
-               </AccordionItem>
-               <AccordionItem>
-                 <AccordionItemHeading>
-                   <AccordionItemButton>
-                   Give some Examples of flutter apps developed by you.
-
-                   </AccordionItemButton>
-                 </AccordionItemHeading>
-                 <AccordionItemPanel>
-                   <p>
-                   Yes, we can showcase our portfolio of past flutter projects.
-
-                   </p>
-                 </AccordionItemPanel>
-               </AccordionItem>
-               <AccordionItem>
-                 <AccordionItemHeading>
-                   <AccordionItemButton>
-                   What are the Benefits of using flutter?
-                   </AccordionItemButton>
-                 </AccordionItemHeading>
-                 <AccordionItemPanel>
-                   <p>
-                   Code reusability, single codebase for Android and iOS, customizable widgets, hot reload, and high performance.
-
-                   </p>
-                 </AccordionItemPanel>
-               </AccordionItem>
-               <AccordionItem>
-                 <AccordionItemHeading>
-                   <AccordionItemButton>
-                   Do you provide Experience with native device features in flutter?
-                   </AccordionItemButton>
-                 </AccordionItemHeading>
-                 <AccordionItemPanel>
-                   <p>
-                   Yes, our developers integrate native features seamlessly.
-                   </p>
-                 </AccordionItemPanel>
-               </AccordionItem>
-               <AccordionItem>
-                 <AccordionItemHeading>
-                   <AccordionItemButton>
-                   Do you provide Post-launch support for flutter apps?                    </AccordionItemButton>
-                 </AccordionItemHeading>
-                 <AccordionItemPanel>
-                   <p>
-                   Yes, we provide ongoing support to ensure app functionality and security.                    </p>
-                 </AccordionItemPanel>
-               </AccordionItem>
-             </Accordion>
-            
-           </div>
-         </div>
-       </div> */}
+     
 <FlutterFAQ/>
        <div className="whtsApBtns">
           <button onClick={whatAppHandler}>

@@ -243,8 +243,8 @@ const generateMetadata = ({ params }) => ({
 
         <div className="nat-why">
         <div className="native-why dine-1234">
-          <h2>Why Choose Kushel Digi as Your React JS</h2>
-          <h2>Development Services Partner?</h2>
+          <h3>Why Choose Kushel Digi as Your React JS</h3>
+          <h3>Development Services Partner?</h3>
           <div className="native-whys">
             <div className="why-card">
               <div className="why-box wy-box-1">
@@ -270,7 +270,7 @@ const generateMetadata = ({ params }) => ({
 
         <div className="key-value">
           <div className="keys-val">
-            <h2>Key values of Kushel Digi team</h2>
+            <h3>Key values of Kushel Digi team</h3>
             <Image className="key-images" src={androidSis} alt="unserline design" title="unserline design" />
             <p className="text-center ku-t">
               Your mission at Kushel Digi Team is to empower teams to deliver exceptional products by cultivating expertise in JavaScript technologies and continuously enhancing skills through internal gatherings and external conferences.
@@ -310,7 +310,7 @@ const generateMetadata = ({ params }) => ({
         </div>
 
         <div className="how-native-work">
-          <h2>How we can start working together?</h2>
+          <h3>How we can start working together?</h3>
           <Image className="how-nat-img" src={androidSis} alt="unserline-design" title="unserline-design" />
           <p className="dep-nat">We assemble a team of specialists tailored to your precise needs, ready to provide support for as long as you require.
           </p>

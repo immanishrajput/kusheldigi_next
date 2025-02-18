@@ -1218,7 +1218,7 @@ function CustomSoftware() {
         <div className="service_head">
                                
                             
-          <h2>Kushel Digi Solution - Custom Software Development Services</h2>
+          <h3>Kushel Digi Solution - Custom Software Development Services</h3>
            </div>
 
           <div className="line"></div>
@@ -1247,7 +1247,7 @@ function CustomSoftware() {
 
 <section className="css_khuBest_page">
 
-      <h2> Why is Kushel Digi Solution Custom Software Development the Best?</h2>
+      <h3> Why is Kushel Digi Solution Custom Software Development the Best?</h3>
 
                     <div className="css_khuBest_parat">
                         <p>Adopt a transformation process via a renowned custom software development company. Kushel Digi Solutions is the best custom software development company. Having the most skilled professionals working with commitment for hassle-free software development services. With professional teams, Kushel Digi Solution develops custom software programs that are customised.  We ensure your business needs that design for the specific organisation. They focus on custom satisfaction and act as a client’s guide in explaining what he or she wants. Quality, innovation, and swift delivery are the hallmarks that define Kushel Digi Solution.  As the top choice for  industries in seek of custom software development services .</p>
@@ -1315,7 +1315,7 @@ function CustomSoftware() {
 {/* fivth section */}
 <section className="css_benefit_page">
   <div className="css-bennn dine-1234">
-   <h2>Benefits of Kushel Digi Solution Custom Software Development</h2>
+   <h3>Benefits of Kushel Digi Solution Custom Software Development</h3>
 
    <div className="css_benefit_parat dine-1234">
                   <p>With the help of Kushel Digi Solution's custom software development services, take your company to new heights. Our dedication to scalability ensures that your software will be future-proof and able to evolve with your company's changing needs.In business, Kushel Digi Solution’s custom software development services offer businesses . It allows them to survive in competitive markets. In their unique commitment to provide value-based software solutions. We are the best choice for your company who look  custom software development services.</p>
@@ -1353,7 +1353,7 @@ function CustomSoftware() {
 {/* six section */}
 <section className="css_softS_page dine-1234">
 
-<h2>Our Custom Software Development Services</h2>
+<h3>Our Custom Software Development Services</h3>
 
 <div className="css_softS_parat">
 <p>With the custom software development services offered by Kushel Digi Solution, discover a wide range of options. Our wide range of services, which include cloud-based solutions and custom software development, are painstakingly designed to meet your specific company requirement.
@@ -1396,7 +1396,7 @@ function CustomSoftware() {
 <div className="joinCS_head">
                        
                     
-  <h2>Why Join Kushel Digi Solution for Custom Software Development?</h2>
+  <h3>Why Join Kushel Digi Solution for Custom Software Development?</h3>
    </div>
 
   <div className="joinCS_para">

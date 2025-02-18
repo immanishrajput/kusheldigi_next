@@ -284,7 +284,7 @@ const handleRemoveCategory = () => {
 
       <div className="feartureblogsc">
         <div className="article_head">
-          <h3>Featured Articles</h3>
+          <h2>Featured Articles</h2>
           <p className="arcl_line"></p>
         </div>
 

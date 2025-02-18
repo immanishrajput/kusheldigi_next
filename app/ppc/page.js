@@ -158,7 +158,7 @@ function Ppc() {
           <div className="ppc7">
             <div className="ppccontainer7">
               <div className="content7">
-                <h2>PPC Advertising <span>Awareness</span></h2>
+                <h3>PPC Advertising <span>Awareness</span></h3>
                 <p>
                   A model in online marketing is Pay Per Click or PPC whereby
                   advertisers are supposed to pay for each click on their ad. It’s
@@ -175,7 +175,7 @@ function Ppc() {
           <div className="ppc3"></div>
           <div className="ppccontainer3">
             <div className="content3">
-              <h2>The Benefits of Using a <span>PPC Agency</span> </h2>
+              <h3>The Benefits of Using a <span>PPC Agency</span> </h3>
             </div>
             <div className="card">
               <div className="card_mattter">
@@ -252,7 +252,7 @@ function Ppc() {
           <div className="ppc4">
             <div className="ppccontainer4">
               <div className="content4">
-                <h2>Next Steps to Get the PPC Results You Want</h2>
+                <h3>Next Steps to Get the PPC Results You Want</h3>
               </div>
               <div className="card2">
                 <div className="ppccard-content">
@@ -307,7 +307,7 @@ function Ppc() {
             <div className="ppccontainer5">
               <div className="flex-content">
                 <div className="content5">
-                  <h2>Why go for a pay-per- <span>click agency</span>?</h2>
+                  <h3>Why go for a pay-per- <span>click agency</span>?</h3>
                   <p>
                     The <span>benefits provided</span> to businesses that are
                     interested in running <span>successful campaigns</span> include
@@ -328,7 +328,7 @@ function Ppc() {
           <div className="ppc6">
             <div className="ppccontainer6">
               <div className="content6">
-                <h2>Let’s make things happen</h2>
+                <h3>Let’s make things happen</h3>
                 <p>
                   Partner with the #1 ranked digital marketing agency - before your
                   competitor does.

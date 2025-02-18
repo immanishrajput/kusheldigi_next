@@ -20,10 +20,12 @@ import { FaWhatsapp, FaFacebook, FaLinkedin, FaFacebookMessenger, FaTwitter, FaE
 
 const baseurl = "https://backblog.kusheldigi.com";
 
+
+
 function BlogDetails() {
   const [data, setData] = useState();
   const router = useRouter();
-  // const currentPageUrl = window.location.href;
+  const currentPageUrl = window.location.href;
 //   const { blogId } = useParams();
 // const router = useRouter();
 
@@ -122,32 +124,32 @@ function BlogDetails() {
       <div className="shareblogoptns">
         <h2>Don't forget to share this post!</h2>
         <div className="iconsshar">
-          <WhatsappShareButton  title="Check out this blog!">
+          <WhatsappShareButton url={currentPageUrl} title="Check out this blog!">
             <div className="shareocciwrap">
               <FaWhatsapp className="sheicon" />
             </div>
           </WhatsappShareButton>
-          <FacebookShareButton  quote="Check out this blog!">
+          <FacebookShareButton url={currentPageUrl} quote="Check out this blog!">
             <div className="shareocciwrap">
               <FaFacebook className="sheicon" />
             </div>
           </FacebookShareButton>
-          <LinkedinShareButton  title="Check out this blog!" summary="An interesting blog you must read!" source="https://www.kusheldigi.com">
+          <LinkedinShareButton url={currentPageUrl}  title="Check out this blog!" summary="An interesting blog you must read!" source="https://www.kusheldigi.com">
             <div className="shareocciwrap">
               <FaLinkedin className="sheicon" />
             </div>
           </LinkedinShareButton>
-          <FacebookMessengerShareButton  appId="YOUR_APP_ID">
+          <FacebookMessengerShareButton url={currentPageUrl} appId="YOUR_APP_ID">
             <div className="shareocciwrap">
               <FaFacebookMessenger className="sheicon" />
             </div>
           </FacebookMessengerShareButton>
-          <TwitterShareButton  title="Check out this blog!">
+          <TwitterShareButton url={currentPageUrl} title="Check out this blog!">
             <div className="shareocciwrap">
               <FaTwitter className="sheicon" />
             </div>
           </TwitterShareButton>
-          <EmailShareButton  subject="Check out this blog!" body="I found this blog interesting, check it out:">
+          <EmailShareButton url={currentPageUrl} subject="Check out this blog!" body="I found this blog interesting, check it out:">
             <div className="shareocciwrap">
               <FaEnvelope className="sheicon" />
             </div>

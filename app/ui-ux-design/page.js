@@ -148,7 +148,7 @@ const generateMetadata = ({ params }) => ({
         </div>
 
         <div className="uiux-process">
-          <h2>Our UI/UX Process</h2>
+          <h3>Our UI/UX Process</h3>
           <p>
             We Take A User-Centric Approach To UI/UX Design, Which Means That We
             Put The Needs Of Your Users First. Here Are The Significant Steps Of
@@ -160,10 +160,10 @@ const generateMetadata = ({ params }) => ({
         </div>
 
         <div className="perfect-choice dine-1234">
-          <h2>
+          <h3>
             Why Is kushel digi A Perfect Choice <br /> For UI/UX Design
             Services?
-          </h2>
+          </h3>
           <p className="perf-p">
             With years of experience in the field and a team of talented UI/UX
             designers, we are the perfect choice for all your UI/UX design
@@ -239,9 +239,9 @@ const generateMetadata = ({ params }) => ({
 
         <div className="how-ux dine-123">
           <div className="how-ux1">
-            <h2>
+            <h3>
               How is UX design valuable to my <br /> business?
-            </h2>
+            </h3>
             <p>
               Everyone wants to be customer-focused, but websites often serve
               splintered, internal agendas that don’t resonate with the intended
@@ -260,7 +260,7 @@ const generateMetadata = ({ params }) => ({
         </div>
 
         <div className="deliver-p dine-1234">
-          <h2>How We Deliver UI & UX Services</h2>
+          <h3>How We Deliver UI & UX Services</h3>
           <p>
             A decade in design has allowed our team to perfect the process of
             delivering UI and UX services. We follow established design
@@ -274,7 +274,7 @@ const generateMetadata = ({ params }) => ({
         </div>
 
         <div className="benifits-ui dine-1234">
-          <h2>Benefits Of Our UI & UX Services</h2>
+          <h3>Benefits Of Our UI & UX Services</h3>
           <p className="when-p">
             When you choose our services, you get everything to realise your
             product idea properly, from experience of working with Fortune 500
@@ -321,7 +321,7 @@ const generateMetadata = ({ params }) => ({
         <div className="home5     poty poty1">
           <div className="home51 px-24 dine-1234">
             <div className="home511 text-center ">
-              <h2 className="font-bold mb-2 mt-4">OUR PORTFOLIO</h2>
+              <h3 className="font-bold mb-2 mt-4">OUR PORTFOLIO</h3>
             </div>
             <div className="home512 flex flex-wrap justify-center mt-14">
               <PortCard pads={a9} heading={heading} link="" />
@@ -363,80 +363,7 @@ const generateMetadata = ({ params }) => ({
           </div>
         </div>
 
-        {/* <div className="home9 mb-12 home278">
-          <div className="home91 px-24 dine-1234">
-            <div className="home911 text-center">
-              <h2 className="font-bold text-gray-700">Frequently Asked<br/> Questions</h2>
-            </div> 
-            <div className="home912 FAQ-1">
-              <Accordion allowZeroExpanded>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    Why choose Kushel Digi Solutions for UI/UX design?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                    Kushel Digi Solutions excels in UI/UX design, offering a perfect blend of creativity, user-centricity, and a skilled team for crafting engaging and intuitive user experiences.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    How does Kushel Digi Solutions approach UI/UX to enhance digital products?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                    Kushel Digi prioritises a user-centric approach, combining research, creativity, and a deep understanding of user behaviours to design interfaces that captivate and delight users.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    What sets Kushel Digi apart in UI/UX design, and how does it benefit clients?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                    Kushel Digi distinguishes itself through a commitment to innovative design thinking, client-centric practices, and a proficient team dedicated to delivering aesthetically pleasing and functional user experiences.
-
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    Key considerations when selecting a UI/UX design service provider?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                    When choosing a UI/UX design provider, consider factors such as creativity, user research capabilities, and alignment with your brand values for a successful collaboration.
-
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    Insights into the latest UI/UX trends and practices?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                    Stay updated on UI/UX trends by exploring industry insights, and best practices, and engaging with online communities for valuable design perspectives.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-              </Accordion>
-            </div>
-          </div>
-        </div> */}
+        
         <UIUXFAQ/>
         <ContactForm notify={notify} />
       

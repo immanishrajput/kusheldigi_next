@@ -226,7 +226,7 @@ const Headless = () => {
         <div className="headless-commerce-banner2">
           <div className="headless-commerce-container2">
             <div className="headless-commerce-content2">
-              <h2>Types of Headless Architecture</h2>
+              <h3>Types of Headless Architecture</h3>
               <p>
                 At Kushel Digi, we distinguish headless architecture into three
                 types depending upon the construction of backend. We either put
@@ -238,7 +238,7 @@ const Headless = () => {
               <div className="headless-commerce-cards-main-flex">
                 <div className="headless-commerce-cards-main-content">
                   <div className="headless-commerce-cards-contain headless-commerce-cards-width">
-                    <h2>Based on API driven E-commerce platform</h2>
+                    <h3>Based on API driven E-commerce platform</h3>
                     <p>
                       This approach allows businesses to integrate various
                       technologies and deliver seamless user experiences across
@@ -262,7 +262,7 @@ const Headless = () => {
                 </div>
                 <div className="headless-commerce-cards-main-content">
                   <div className="headless-commerce-cards-contain">
-                    <h2>Unshackle Your E-commerce Freedom</h2>
+                    <h3>Unshackle Your E-commerce Freedom</h3>
                     <p>
                       Unlock the full potential of e-commerce with headless
                       commerce, where a modular decoupling the front-end and
@@ -283,10 +283,10 @@ const Headless = () => {
                 </div>
                 <div className="headless-commerce-cards-main-content">
                   <div className="headless-commerce-cards-contain">
-                    <h2>
+                    <h3>
                       Revolutionize E-commerce with Headless Commerce
                       Architecture
-                    </h2>
+                    </h3>
                     <p>
                       Revolutionize E-commerce with Headless Commerce
                       Architecture: Say goodbye to siloed thinking and hello to
@@ -314,7 +314,7 @@ const Headless = () => {
         <div className="headless-commerce-banner3">
           <div className="headless-commerce-container3">
             <div className="headless-commerce-content3">
-              <h2>Example of Headless Ecommerce Architecture</h2>
+              <h3>Example of Headless Ecommerce Architecture</h3>
               <p>Headless ecommerce solutions consist of:</p>
               <div className="headless-commerce-cards2">
                 <div className="headless-commerce-card2-flex2">
@@ -725,7 +725,7 @@ const Headless = () => {
                           x2="34"
                           y2="20"
                           stroke="#D2D2D2"
-                          stroke-width="4"
+                          strokeWidth="4"
                         />
                         <path
                           d="M182 40L182 -1.50804e-06L216.5 20.5L182 40Z"
@@ -772,7 +772,7 @@ const Headless = () => {
         <div className="headless-commerce-banner4">
           <div className="headless-commerce-container4">
             <div className="headless-commerce-content4">
-              <h2>Headless Commerce Development Life Cycle</h2>
+              <h3>Headless Commerce Development Life Cycle</h3>
             </div>
             <div className="headless-commerce-cards-content4">
               <div className="headless-commerce-cards-content-flex4">
@@ -827,7 +827,7 @@ const Headless = () => {
         <div className="headless-commerce-banner6">
           <div className="headless-commerce-container6">
             <div className="headless-commerce-content6">
-              <h2>Let’s Talk</h2>
+              <h3>Let’s Talk</h3>
               <p>
                 Book a free call and have a no-strings-attached chat about your
                 ideas.
@@ -856,93 +856,7 @@ const Headless = () => {
           </div>
         </div>
       </div>
-      {/* <div className="home9 mb-12">
-        <div className="home91 px-24 dine-1234">
-          <div className="home911 text-center newclasscentre">
-            <h2 className="font-bold text-gray-700">
-              Frequently Asked Questions
-            </h2>
-          </div>
-          <div className="home912 FAQ-1">
-            <Accordion allowZeroExpanded>
-              <AccordionItem>
-                <AccordionItemHeading>
-                  <AccordionItemButton>
-                    Q. What is headless commerce?
-                  </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel>
-                  <p>
-                    Headless E-commerce is an E-commerce architecture where the
-                    front-end is decoupled from the back-end.{" "}
-                  </p>
-                </AccordionItemPanel>
-              </AccordionItem>
-              <AccordionItem>
-                <AccordionItemHeading>
-                  <AccordionItemButton>
-                    Q. What are the benefits of using a headless commerce
-                    solution?
-                  </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel>
-                  <p>
-                    Benefits of using headless commerce are greater flexibility
-                    in design and user experience, improved performance, easier
-                    integration with other systems.
-                  </p>
-                </AccordionItemPanel>
-              </AccordionItem>
-              <AccordionItem>
-                <AccordionItemHeading>
-                  <AccordionItemButton>
-                    Q. How does headless commerce differ from traditional
-                    E-commerce platforms?
-                  </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel>
-                  <p>
-                    Traditional E-commerce platforms are monolithic, with the
-                    front-end and back-end tightly coupled whereas headless
-                    commerce separates these layers.
-                  </p>
-                </AccordionItemPanel>
-              </AccordionItem>
-              <AccordionItem>
-                <AccordionItemHeading>
-                  <AccordionItemButton>
-                    Q. Can headless commerce solutions integrate with existing
-                    systems and services?
-                  </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel>
-                  <p>
-                    Yes, headless commerce solutions are designed to integrate
-                    easily with various third-party systems and services such as
-                    payment gateways, shipping providers and other existing
-                    systems.
-                  </p>
-                </AccordionItemPanel>
-              </AccordionItem>
-              <AccordionItem>
-                <AccordionItemHeading>
-                  <AccordionItemButton>
-                    Q. What kind of businesses can benefit from headless
-                    commerce?
-                  </AccordionItemButton>
-                </AccordionItemHeading>
-                <AccordionItemPanel>
-                  <p>
-                    Headless commerce may be advantageous for businesses of all
-                    sizes, especially those seeking more performance and
-                    customisation.
-                  </p>
-                </AccordionItemPanel>
-              </AccordionItem>
-            </Accordion>
-          </div>
-        </div>
-      </div> */}
+     
       <HeadlessFAQ />
       <div className="whtsApBtns">
         <button onClick={whatAppHandler}>

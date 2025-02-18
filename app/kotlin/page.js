@@ -275,10 +275,10 @@ const Kotlin = () => {
             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253890/mobilet_zzaiqg.png' alt="kotlin mobile app using" title="kotlin mobile app using" />
           </div>
           <div className="support-img2">
-            <h2>
+            <h3>
               An enterprise mobile app using high-performance{" "}
               <span>Kotlin code and beacon technology</span>
-            </h2>
+            </h3>
             <h5>
               Creating a native Android application to furnish employees with vital workspace details.
 
@@ -299,11 +299,11 @@ const Kotlin = () => {
 
         <div className="support-modern support-modern1 dine-123">
           <div className="support-modern1">
-            <h2>
+            <h3>
               A versatile coding instrument
               <br />{" "}
               <span> that amplifies productivity</span>
-            </h2>
+            </h3>
             <p>
               Elevate productivity, developer contentment, and code safety <br /> with Kotlin.
 
@@ -373,7 +373,7 @@ const Kotlin = () => {
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <g clip-path="url(#clip0_3577_56)">
+                      <g clipPath="url(#clip0_3577_56)">
                         <path
                           d="M15.4863 22.7872C15.4863 23.3166 15.4863 23.8161 15.4863 24.3056C15.4863 25.954 15.4863 27.6023 15.4863 29.2507C15.4863 29.8401 15.3364 29.98 14.7468 29.98C14.1872 29.98 13.6176 29.98 13.018 29.98C13.018 29.6403 13.018 29.3406 13.018 29.0009C13.4877 29.0009 13.9474 29.0009 14.447 29.0009C14.467 28.8411 14.487 28.7112 14.487 28.5914C14.487 26.6933 14.477 24.7952 14.497 22.8971C14.497 22.5874 14.4071 22.4175 14.1173 22.3076C13.3178 21.998 12.9181 21.4385 12.978 20.5394C13.038 19.7102 12.988 18.8811 12.988 18.0119C12.0686 18.0119 11.1892 17.972 10.3098 18.0219C9.50034 18.0719 8.99068 18.7412 8.99068 19.6203C8.99068 21.6883 8.99068 23.7462 8.99068 25.8141C8.99068 27.4525 7.95137 28.4815 6.30247 28.4915C5.52299 28.4915 4.74351 28.4915 3.97402 28.4915C3.35443 29.7202 2.55497 30.1798 1.53565 29.93C0.596274 29.7003 -0.0133195 28.921 -0.00332614 27.972C0.0066672 27.0129 0.656234 26.2337 1.61559 26.0339C2.58495 25.8241 3.4044 26.3336 3.96403 27.4925C4.83345 27.4925 5.71286 27.5224 6.59228 27.4825C7.42172 27.4425 7.99134 26.7832 7.99134 25.904C8.00134 23.8361 7.99134 21.7782 7.99134 19.7102C7.99134 18.0319 9.02066 17.0129 10.6995 17.0029C11.449 17.0029 12.1885 17.0029 12.958 17.0029C12.958 16.3336 12.958 15.7042 12.958 15.0049C12.7881 15.0049 12.6183 15.0049 12.4384 15.0049C9.81013 15.0049 7.17189 15.0049 4.54364 15.0049C1.91539 15.0049 -0.0932662 12.927 -0.0133195 10.3096C0.0466405 8.24171 1.66556 6.41354 3.7142 6.10385C3.96403 6.06389 4.13392 6.01394 4.22386 5.69426C5.02332 2.85709 6.82212 0.968982 9.66023 0.259691C12.5683 -0.469579 15.0766 0.369581 17.1153 2.57737C17.1952 2.65729 17.2552 2.75719 17.3351 2.86708C18.8041 1.93801 20.2931 1.72822 21.8421 2.42752C23.3711 3.11683 24.2105 4.3556 24.4604 5.92403C25.2798 6.02393 26.0793 6.02393 26.8188 6.23372C28.8974 6.82313 30.2765 8.99096 29.9667 11.0289C29.6069 13.3766 27.7981 14.995 25.5097 15.0049C24.7002 15.0049 23.8808 15.0049 23.0013 15.0049C23.0013 15.6943 23.0013 16.3536 23.0013 17.0129C23.0013 17.6623 23.0013 18.3017 23.0013 19.0109C23.461 19.0109 23.8907 19.0109 24.3205 19.0109C25.3897 19.0109 25.9993 19.6103 25.9993 20.6693C25.9993 21.7682 25.9993 22.8571 25.9993 23.996C26.6689 23.996 27.2985 23.996 27.958 23.996C27.958 24.3356 27.958 24.6453 27.958 25.0049C27.1286 25.0049 26.2991 25.0249 25.4797 24.995C25.1099 24.985 25 24.7052 25 24.3656C25.01 23.1868 25 21.998 25 20.8191C25 20.1398 24.8701 20.0199 24.1805 20.0099C23.8008 20.0099 23.4211 20.0099 23.0013 20.0099C23.0013 20.2897 22.9813 20.5194 23.0013 20.7492C23.0613 21.4385 22.7315 21.958 22.1419 22.1778C21.3125 22.4975 20.433 22.6873 19.5736 22.907C19.2438 22.987 18.8841 22.987 18.5343 23.0269C18.5243 23.1168 18.5043 23.1768 18.5043 23.2467C18.5043 24.6453 18.5043 26.0439 18.5043 27.4825C19.8634 27.4825 21.2025 27.4825 22.5516 27.4825C23.1213 26.3236 23.9307 25.8441 24.93 26.0739C25.8894 26.2937 26.519 27.0829 26.509 28.0419C26.499 28.981 25.8794 29.7402 24.93 29.96C23.9307 30.1898 23.1213 29.7003 22.5317 28.5114C21.1526 28.5114 19.7535 28.5114 18.3544 28.5114C17.6249 28.5114 17.515 28.4016 17.505 27.6823C17.505 26.3036 17.505 24.915 17.505 23.5364C17.505 23.3766 17.505 23.2067 17.505 23.0369C16.8055 22.937 16.1759 22.8671 15.4863 22.7872ZM14.457 8.50145C14.3671 8.69126 14.3071 8.84111 14.2172 8.99096C13.5077 10.2197 11.7688 10.3596 10.9294 9.2507C10.4297 8.60135 10.3398 7.89206 10.6895 7.14281C11.0493 6.39356 11.6589 6.01394 12.4784 6.01394C13.2978 6.01394 13.9174 6.40355 14.2672 7.14281C14.3971 7.42253 14.547 7.52243 14.8568 7.51244C15.5363 7.48247 16.2259 7.50245 16.9054 7.50245C17.8448 7.51244 18.4644 8.13182 18.4843 9.07088C18.4943 9.38057 18.4843 9.69026 18.4843 9.95999C19.2838 10.0799 20.0233 10.1398 20.7328 10.3196C21.7122 10.5594 22.7315 10.8091 23.0313 11.988C23.3511 11.988 23.6409 11.988 23.9907 11.988C23.9907 11.3586 23.9907 10.7392 23.9907 10.1298C23.9907 9.80015 24.1006 9.56039 24.4404 9.52043C24.7802 9.49046 25.1199 9.51044 25.4597 9.51044C25.4597 9.87008 25.4597 10.1698 25.4597 10.4795C25.2998 10.4995 25.1599 10.5094 24.99 10.5294C24.99 11.1288 24.99 11.6883 24.99 12.2577C24.99 12.8571 24.8501 12.997 24.2605 12.997C23.8508 12.997 23.441 12.997 23.0213 12.997C23.0213 13.3566 23.0213 13.6663 23.0213 13.996C23.9507 13.996 24.8501 14.0559 25.7495 13.986C27.1386 13.8761 28.1579 13.1568 28.7075 11.8581C29.2572 10.5694 29.0473 9.34061 28.1679 8.26169C27.2085 7.09286 25.8994 6.89306 24.4704 7.03292C24.3105 7.8521 24.0806 8.6513 23.471 9.30065C23.2112 9.08087 22.9813 8.89106 22.7615 8.71124C23.8508 6.7532 23.6409 5.00495 22.2219 3.81614C20.9927 2.78716 19.1639 2.73721 18.0047 3.67628C18.2845 4.39556 18.5643 5.11484 18.8641 5.87408C18.4644 5.97398 18.1646 6.04391 17.8648 6.11384C16.8654 2.35759 13.5177 0.559392 10.2798 1.11883C7.84144 1.53841 5.22319 4.09586 5.24318 6.0539C7.53165 6.63332 9.15057 8.5514 8.94071 10.4795C8.63092 10.4795 8.32112 10.4795 8.02132 10.4795C7.98135 10.2597 7.94138 10.0599 7.9114 9.87008C7.59161 8.12183 5.99268 6.88307 4.24384 7.01294C2.44504 7.1528 1.02599 8.6513 0.996008 10.4395C0.966028 12.4075 2.52499 13.986 4.52366 13.996C7.22186 14.0059 9.92006 13.996 12.6183 13.996C12.7282 13.996 12.8381 13.976 12.988 13.966C12.988 13.3866 13.018 12.8371 12.978 12.2977C12.9281 11.5884 13.2578 11.1188 13.8474 10.8091C14.1672 10.6393 14.507 10.4795 14.8568 10.4095C15.7062 10.2197 16.5756 10.0899 17.475 9.92003C17.475 9.67028 17.475 9.39056 17.475 9.11084C17.475 8.70125 17.2652 8.50145 16.8554 8.50145C16.076 8.50145 15.2765 8.50145 14.457 8.50145ZM13.9873 13.2667C13.9873 13.7362 14.0173 14.1358 13.9774 14.5354C13.9274 15.0149 14.1372 15.2647 14.567 15.4245C15.996 15.984 17.475 16.1038 18.974 15.944C19.8235 15.8541 20.6529 15.6043 21.4823 15.3846C21.6822 15.3346 21.942 15.0849 21.972 14.905C22.042 14.3856 21.992 13.8561 21.992 13.2767C20.6729 13.7962 19.3638 14.0159 18.0047 14.0159C16.6356 14.0059 15.3364 13.7962 13.9873 13.2667ZM21.992 16.2837C19.2938 17.2727 16.6556 17.2527 13.9973 16.2937C13.9973 16.7532 14.0373 17.1528 13.9873 17.5424C13.9374 18.0319 14.1572 18.3116 14.5869 18.4215C15.3864 18.6213 16.1859 18.8611 17.0053 18.941C18.5043 19.1009 19.9833 18.981 21.4124 18.4315C21.8321 18.2717 22.062 18.0319 22.012 17.5424C21.952 17.1528 21.992 16.7532 21.992 16.2837ZM21.992 19.2907C19.2938 20.2697 16.6556 20.2697 13.9973 19.2907C13.9973 19.7602 14.0273 20.1798 13.9873 20.5894C13.9374 21.0389 14.1472 21.2987 14.537 21.3986C15.3464 21.6083 16.1659 21.8481 16.9953 21.938C18.4744 22.0979 19.9434 21.978 21.3524 21.4485C21.8121 21.2787 22.062 21.0289 22.002 20.4895C21.952 20.1198 21.992 19.7402 21.992 19.2907ZM21.982 11.988C20.7528 10.6293 14.8668 10.7292 14.0173 12.0079C15.0167 13.3166 20.9027 13.3366 21.982 11.988ZM13.4877 7.98197C13.4777 7.4525 13.018 7.00295 12.4883 7.00295C11.9387 7.00295 11.479 7.47248 11.489 8.02193C11.499 8.5514 11.9587 9.00095 12.4883 9.00095C13.038 9.00095 13.4977 8.53142 13.4877 7.98197ZM1.99534 26.993C1.46569 26.993 1.01599 27.4425 0.996008 27.972C0.986014 28.5214 1.44571 28.991 1.99534 28.991C2.52499 28.991 2.97469 28.5414 2.99467 28.0119C3.00467 27.4625 2.54497 26.993 1.99534 26.993ZM25.4797 28.0019C25.4797 27.4525 25.01 26.983 24.4604 26.993C23.9307 27.003 23.481 27.4625 23.481 27.982C23.481 28.5314 23.9507 29.001 24.5003 28.981C25.03 28.981 25.4797 28.5314 25.4797 28.0019Z"
                           fill="#085881"
@@ -487,7 +487,7 @@ const Kotlin = () => {
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <g clip-path="url(#clip0_3597_60)">
+                      <g clipPath="url(#clip0_3597_60)">
                         <path
                           d="M14.9719 26C11.1094 26 7.25625 26 3.39375 26C1.43438 26 0 24.5899 0 22.6636C0 16.2212 0 9.78802 0 3.35484C0 1.41935 1.43437 0 3.38437 0C11.1375 0 18.8813 0 26.6344 0C28.5563 0 30 1.41935 30 3.31797C30 9.76958 30 16.2212 30 22.6728C30 24.5806 28.5656 25.9908 26.6344 25.9908C22.7531 26.0092 18.8625 26 14.9719 26ZM1.04063 7.81567C1.03125 7.95392 1.0125 8.06452 1.0125 8.1659C1.0125 12.9862 1.0125 17.8157 1.0125 22.6359C1.0125 22.8756 1.02188 23.1336 1.09687 23.3641C1.43437 24.4885 2.31562 25.0691 3.66562 25.0691C11.2125 25.0691 18.75 25.0599 26.2969 25.0783C27.8531 25.0783 29.0344 24.1567 29.0156 22.4055C28.9594 17.7235 28.9969 13.0323 28.9969 8.35023C28.9969 8.18433 28.9969 8.01843 28.9969 7.82488C19.6594 7.81567 10.3781 7.81567 1.04063 7.81567ZM1.03125 6.78341C10.3781 6.78341 19.6594 6.78341 28.9688 6.78341C28.9688 5.43779 28.9781 4.11982 28.9594 2.80184C28.9594 2.59908 28.8375 2.3871 28.7344 2.20276C28.2188 1.24424 27.3563 0.940092 26.3156 0.940092C19.3313 0.940092 12.3469 0.940092 5.3625 0.940092C4.73438 0.940092 4.11562 0.930876 3.4875 0.940092C2.18438 0.967742 1.10625 1.75115 1.04063 2.83871C0.975 4.14747 1.03125 5.45622 1.03125 6.78341Z"
                           fill="#085881"
@@ -540,7 +540,7 @@ const Kotlin = () => {
           <div className="why-kotlinUse1">
             {tab === 1 && (
               <>
-                <h2>Why use Kotlin?</h2>
+                <h3>Why use Kotlin?</h3>
                 <div className="mt-4">
                   <p>
                     Kotlin stands as a cross-platform, statically typed, open-source programming language, functioning seamlessly on the Java virtual machine (JVM). Originating from JetBrains, the project's inception dates back to 2010, culminating in its official release in February 2016.
@@ -569,7 +569,7 @@ const Kotlin = () => {
             {tab === 2 && (
               <>
                 <div className="ts_file">
-                  <h2>Kotlin for business software development</h2>
+                  <h3>Kotlin for business software development</h3>
                   <div className="mt-4">
                     <p>
                       Being 100% compatible with the JVM, you can use Kotlin for
@@ -599,7 +599,7 @@ const Kotlin = () => {
 
             {tab === 3 && (
               <>
-                <h2>Advantages of Kotlin for Android development</h2>
+                <h3>Advantages of Kotlin for Android development</h3>
                 <div className="mt-4">
                   <p>
                     In 2017, Google made Kotlin a first-class language for
@@ -631,7 +631,7 @@ const Kotlin = () => {
 
             {tab === 4 && (
               <>
-                <h2>Hire top Kotlin app developers</h2>
+                <h3>Hire top Kotlin app developers</h3>
                 <div className="mt-4">
                   <p>
                     Kotlin developers at Netguru are on hand to share their
@@ -691,8 +691,8 @@ const Kotlin = () => {
             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253928/proffessional_okouqw.png' alt="Excellent for mobile" title="Excellent for mobile" />
           </div>
           <div className="profis-kotlin2">
-            <h2>Excellent for mobile: no necessity to introduce a novel language
-            </h2>
+            <h3>Excellent for mobile: no necessity to introduce a novel language
+            </h3>
             <p>
 
               You don't have to incorporate unfamiliar programming languages into your mobile codebase to achieve cross-platform compatibility. Kotlin's syntax aligns with the concepts commonly used in iOS development, making it easily accessible for iOS developers to pick up.
@@ -731,84 +731,7 @@ const Kotlin = () => {
 
         <ContactForm1 />
 
-        {/* <div className="home9 home967 homeee1 home278 dine-1234">
-          <div className="home91 px-24">
-            <div className="home911 text-center">
-              <h2 className="font-bold text-gray-700">Frequently Asked<br/> Questions</h2>
-            </div>
-            <div className="home912 FAQ-1">
-              <Accordion allowZeroExpanded>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    What are the services provided by your Kotlin development agency?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                    Our agency offers Android app development, web development with Spring Boot, backend development, Kotlin native app development, and Kotlin migration services.
-
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    Give some examples of Kotlin projects developed by you.
-
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                    Yes, we’re proud to showcase our diverse portfolio of past Kotlin projects.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    What are the advantages of using Kotlin for Android app development?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                    Kotlin offers concise syntax, null safety, seamless Java integration, improved readability, and reduced boilerplate code.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    Do you have experience in Kotlin multi-platform development?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                    Yes, our agency has expertise in Kotlin multi-platform development, sharing code between Android, iOS, and web platforms.
-
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    Do you give assistance with migrating Java code to Kotlin?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                    Absolutely! Our developers can seamlessly migrate existing Java code to Kotlin for enhanced productivity.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-              </Accordion>
-            </div>
-          </div>
-        </div>
-         */}
+       
          <KotlinFAQ/>
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>

@@ -179,9 +179,9 @@ const Php = () => {
 
                     <div className="php_benifits_flex">
                         <div className="php_ben1">
-                            <h2>
+                            <h3>
                                 Benefits Of <span>PHP</span> Development
-                            </h2>
+                            </h3>
                             <div className="php_navbar">
                                 <p onClick={openSource} id="open">
                                     Open - Source
@@ -262,7 +262,7 @@ const Php = () => {
 
 
                 <div className="why_phpDevr dine-1234 ">
-                    <h2 className="php-h22">Why Choose <span>Kushel Digi</span>  for <span>PHP</span>  Development?</h2>
+                    <h3 className="php-h22">Why Choose <span>Kushel Digi</span>  for <span>PHP</span>  Development?</h3>
                     <p className='kt_rd'>We provide affordable and high quality services with excellence and dedication. Our team continuously utilizes the latest technology and best development practices. We complete projects on time at competitive prices. Our aim is to provide users with customized solutions as per the requirements. It helps in the growth of their business. We are completely dedicated to providing unique and professional web solutions to our clients.</p>
                     <div className="php_stakflow">
                         <div className="php_stackflow_card">
@@ -404,10 +404,10 @@ const Php = () => {
                     <div id="hello">
                         <div className="content_sssnnnppp dine-123">
                             <div className="content1">
-                                <h2 className="heading">
+                                <h3 className="heading">
                                     Our PHP Development <br />
                                     Services
-                                </h2>
+                                </h3>
                                 <hr className="ha" />
                                 <p className="pra">
                                     Our development services fill your web applications with uniqueness and energy. We provide a team of expert developers with advanced technical knowledge who are committed to bringing your project to the highest standards. We provide unique and innovative solutions.
@@ -456,9 +456,9 @@ const Php = () => {
                     </div>
                     <div id="add" className="dine-1234">
                         <div className="content-2">
-                            <h2 className="heading-3">
+                            <h3 className="heading-3">
                                 Why Should You Go for <span> PHP </span> Web Development?
-                            </h2>
+                            </h3>
                             <p className="pra3">
                                 PHP is a popular programming language widely used for developing web
                                 applications. There are many reasons why businesses should opt for PHP
@@ -580,7 +580,7 @@ const Php = () => {
 
                 <div className="get_in_php get_in_php1 dine-1234">
                     <div className="engag_mod engag_mod11">
-                        <h2>Our Engagment Models</h2>
+                        <h3>Our Engagment Models</h3>
                         <div className="engag_php_card">
                             <div className="engag_php_box">
                                 <h3>Fix cost and time</h3>
@@ -622,84 +622,7 @@ const Php = () => {
 
                 <ContactForm1 />
                 <PhpFAQ />
-                {/* <div className="home9 py-20 bigcom9">
-                    <div className="home91 px-24 dine-1234">
-                        <div className="home911 text-center">
-                            <h2 className="font-bold text-gray-700">Frequently Asked<br /> Questions</h2>
-                        </div>
-                        <div className="home912 FAQ-1">
-                            <Accordion allowZeroExpanded>
-                                <AccordionItem>
-                                    <AccordionItemHeading>
-                                        <AccordionItemButton>
-                                            Why choose Kushel Digi for PHP development?
-                                        </AccordionItemButton>
-                                    </AccordionItemHeading>
-                                    <AccordionItemPanel>
-                                        <p>
-                                            Kushel Digi Solutions excels in PHP web development, offering a blend of innovation, client-centric focus, and a highly skilled team to deliver tailored solutions aligning with your business goals.
-
-                                        </p>
-                                    </AccordionItemPanel>
-                                </AccordionItem>
-                                <AccordionItem>
-                                    <AccordionItemHeading>
-                                        <AccordionItemButton>
-                                            How does Kushel Digi use React in PHP projects?
-
-                                        </AccordionItemButton>
-                                    </AccordionItemHeading>
-                                    <AccordionItemPanel>
-                                        <p>
-                                            In PHP web development, Kushel Digi harnesses React to enhance user interfaces, ensuring high performance and seamless user experiences across diverse platforms.
-
-                                        </p>
-                                    </AccordionItemPanel>
-                                </AccordionItem>
-                                <AccordionItem>
-                                    <AccordionItemHeading>
-                                        <AccordionItemButton>
-                                            Advantages of Native PHP and how does Kushel Digi use it?
-                                        </AccordionItemButton>
-                                    </AccordionItemHeading>
-                                    <AccordionItemPanel>
-                                        <p>
-                                            Native PHP development provides optimal performance and seamless integration. Kushel Digi leverages this to create robust, scalable, and efficient web solutions tailored to client needs.
-
-                                        </p>
-                                    </AccordionItemPanel>
-                                </AccordionItem>
-                                <AccordionItem>
-                                    <AccordionItemHeading>
-                                        <AccordionItemButton>
-                                            Key factors in choosing a PHP service provider?
-                                        </AccordionItemButton>
-                                    </AccordionItemHeading>
-                                    <AccordionItemPanel>
-                                        <p>
-                                            When choosing a PHP web development provider, consider factors such as expertise, proven track record, and alignment with your business objectives for a successful partnership.
-
-                                        </p>
-                                    </AccordionItemPanel>
-                                </AccordionItem>
-                                <AccordionItem>
-                                    <AccordionItemHeading>
-                                        <AccordionItemButton>
-                                            Insights into PHP's compatibility with web technologies?
-
-                                        </AccordionItemButton>
-                                    </AccordionItemHeading>
-                                    <AccordionItemPanel>
-                                        <p>
-                                            PHP is compatible with diverse web technologies, ensuring flexibility and seamless integration.
-
-                                        </p>
-                                    </AccordionItemPanel>
-                                </AccordionItem>
-                            </Accordion>
-                        </div>
-                    </div>
-                </div> */}
+              
 
                 <div className="whtsApBtns">
                     <button onClick={whatAppHandler}>

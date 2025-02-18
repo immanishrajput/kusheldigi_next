@@ -93,7 +93,7 @@ const ContactForm1 = ({ notify }) => {
       <div className="GetinTouchContain">
         {/* left side */}
         <div className="getINleftSide">
-          <h2 className="getInLefHead"> Ready to Build Next-Level Custom Digital Solutions?</h2>
+          <h3 className="getInLefHead"> Ready to Build Next-Level Custom Digital Solutions?</h3>
           <h3 className="getInPARA">
             Please fill in the form and let’s chat understand how we can help you better
           </h3>
@@ -117,7 +117,7 @@ const ContactForm1 = ({ notify }) => {
 
         {/* right side */}
         <div className="getInRight">
-          <h2 className="getInRigHead">Get Answers to your Questions</h2>
+          <h3 className="getInRigHead">Get Answers to your Questions</h3>
 
           <form onSubmit={handleSubmit} className="getInForm">
             <div className="getInTwo">

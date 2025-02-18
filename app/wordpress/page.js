@@ -156,7 +156,7 @@ useEffect(() => {
                 </div>
 
                 <div className="wordpress_serv dine-1234">
-                    <h2> WHAT IS THE SIGNIFICANCEOF WEB DEVELOPMENT AT  <span>KUSHELDIGI?</span></h2>
+                    <h3> WHAT IS THE SIGNIFICANCEOF WEB DEVELOPMENT AT  <span>KUSHELDIGI?</span></h3>
                     <div className="word_parat">
                         <p>WordPress is the world’s most- used Website builder and powers website for Some of the biggest brands in the world.It is the best way to build a website, In a modular ecosystem. The most
                             Significant advantage of WordPress is It’s unmatched potential for scalability, This means as businesses advance Or expands,there will be a powerful Platform,that can meet the requirements For growth.</p>
@@ -246,7 +246,7 @@ useEffect(() => {
 
                 <div className='word_benefits'>
                     <div className='wordnew dine-1234 addflex'>
-                        <h2 className='head'>Benefits of <span className='wordblue'>WordPress</span> Development Services</h2>
+                        <h3 className='head'>Benefits of <span className='wordblue'>WordPress</span> Development Services</h3>
                         <p className='pra'>Best WordPress Developers that astonish our clients with refinement and superiority</p>
                         <div className='word_benefits_main_section'>
                             <div className='word_benefits_section'>
@@ -286,7 +286,7 @@ useEffect(() => {
 
 
                 <div className='wordpress_cater'>
-                    <h2 className='h21'>WHAT INDUSTRIES CATER BY KUSHELDEGI?</h2>
+                    <h3 className='h21'>WHAT INDUSTRIES CATER BY KUSHELDEGI?</h3>
                     <p className='p2112'>Industries kusheldegi cater are:</p>
                     <div className='wordpress_cater_cards'>
                         <div className='wordpress_cater_card'>
@@ -472,7 +472,7 @@ useEffect(() => {
 
                 <div className='wordpress_agency'>
 
-                    <h2 className='h33'> Why choose Kushel Digi as a <span className='c1c1'> WordPress</span> developmental agency?</h2>
+                    <h3 className='h33'> Why choose Kushel Digi as a <span className='c1c1'> WordPress</span> developmental agency?</h3>
                     <div className="wordpress_agency_cards">
                         <div className="wordpress_agency_card">
                             <div className="wordpress_agency_box wordpress_agency_box1">
@@ -534,7 +534,7 @@ useEffect(() => {
 
                 <div className="one_stet">
                     <div className="one_stet_sect">
-                        <h2>you just one step away from making the right decision. Let’s get started, shall we?</h2>
+                        <h3>you just one step away from making the right decision. Let’s get started, shall we?</h3>
                         <Link href="/contact-us">  <button>Get Started</button> </Link>
                     </div>
                 </div>

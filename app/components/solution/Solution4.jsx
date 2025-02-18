@@ -132,7 +132,7 @@ useEffect(() => {
         <div className="ourrr-ecommm">
           <div className="our_ecommerce dine-1234">
             <div className="our_commerce1">
-              <h2>Our E-commerce Software Development Solutions</h2>
+              <h6>Our E-commerce Software Development Solutions</h6>
               <p>
                 Developing an eCommerce application gives access and power to
                 operate from anywhere at any time, which acts as an asset
@@ -237,9 +237,9 @@ useEffect(() => {
 
         <div className="skyRoket">
           <div className="skyRoket_sect">
-            <h2>
+            <h4>
               Want To Skyrocket Your <span>eCommerce</span> Business?
-            </h2>
+            </h4>
             <h3>Let’s Connect & Act Together!</h3>
             <Link href="/contact-us"><button>REQUEST DEMO</button></Link>
           </div>
@@ -352,7 +352,7 @@ useEffect(() => {
 
         <div className="solution_expertise dine-123">
           <div className="solution_expertise1">
-            <h2>Our Expertise</h2>
+            <h5>Our Expertise</h5>
             <p>
               The team at Kushel Digi develops scalable, next-gen, feature-rich
               eCommerce solutions to skyrocket your B2B & B2C businesses for
@@ -403,7 +403,7 @@ useEffect(() => {
 
             <div className="big_pint dine-1234">
               <p>We create success stories.</p>
-              <h2>BigCommerce Portfolio</h2>
+              <h3>BigCommerce Portfolio</h3>
             </div>
             <div className="mt-5">
               <div className="gting">
@@ -521,7 +521,7 @@ useEffect(() => {
 
         <div className="boost">
           <div className="boost_sect">
-            <h2>Boost Your E-commerce Business Experience With Kushel Digi</h2>
+            <h3>Boost Your E-commerce Business Experience With Kushel Digi</h3>
             <p>Build power-packed eCommerce apps & connect with global customers.</p>
             <div className="boost_button">
               <Link href="/contact-us"><button>Get in Touch</button></Link>

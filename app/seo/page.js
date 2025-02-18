@@ -700,7 +700,7 @@ function Seo2() {
         <div className="seo-container6">
           <div className="seo_flex7">
             <div className="seo_flex6">
-              <h2>Top <span>SEO experts</span> in the industry</h2>
+              <h3>Top <span>SEO experts</span> in the industry</h3>
               <p>
                 With Kushel digi, you'll get results 3–6 months faster than with
                 other companies.
@@ -731,7 +731,7 @@ function Seo2() {
         <div className="seo-container7">
           <div className="seo-second-card-flex5">
             <div className="services1">
-              <h2>Our <span>SEO</span> Services</h2>
+              <h3>Our <span>SEO</span> Services</h3>
             </div>
             <div className="seo-third-card-main2">
               <div className="seo-third-card-man2">
@@ -1218,10 +1218,10 @@ function Seo2() {
       <div className="SEO_experts">
         <div className="seocontainer10">
           <div className="seo_flex10">
-            <h2>
+            <h3>
               How our <span>SEO experts</span> help your business achieve
               success
-            </h2>
+            </h3>
           </div>
           <div className="abc">
             <div className="SEO_EXPERTS">
@@ -1351,9 +1351,9 @@ function Seo2() {
         <div className="seo-container11">
           <div className="main-div">
             <div className="left_seocontainer">
-              <h2>
+              <h3>
                 Don't let your competitors steal all the traffic (and customers)
-              </h2>
+              </h3>
               <p>
                 Book a free consultation with one of our SEO experts to see how
                 our services can help you outrank the competition!

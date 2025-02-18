@@ -779,7 +779,7 @@ const Next = () => {
   <div className="kushel-next-js-banner8">
     <div className="kushel-next-js-container8">
       <div className="kushel-next-js-content8">
-        <h3>Let’s Talk</h3>
+        <h2>Let’s Talk</h2>
         <p>
           Book a free call and have a no-strings-attached chat about your ideas.
         </p>

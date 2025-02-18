@@ -8720,11 +8720,11 @@ animation-timing-function: ease-in-out;
     flex-direction: column;
     justify-content: center;
 }
-.choose-first-section h2{
+.choose-first-section h3{
     font-size: 37px;
     color: #1F2937;
 }
-.choose-first-section h2 span{
+.choose-first-section h3 span{
     color: #0B60FF;
 }
 .choose-first-section p{
@@ -9197,7 +9197,7 @@ animation-timing-function: ease-in-out;
     .process-under-section {
         padding: 0px 40px 60px 40px;
     }
-    .strategy-first-section h2 {
+    .strategy-first-section h3 {
         font-size: 28px;
     }
     
@@ -9330,7 +9330,7 @@ animation-timing-function: ease-in-out;
     padding-bottom: 8px
 }
 
-.strategy-first-section h2 {
+.strategy-first-section h3 {
     font-size: 38px;
     color: #33475B;
     padding-bottom: 15px
@@ -9405,7 +9405,7 @@ animation-timing-function: ease-in-out;
     padding-top: 10px
 }
 
-.process-section h2 {
+.process-section h4 {
     color: #33475B;
     font-size: 38px;
     font-style: normal;
@@ -9647,12 +9647,12 @@ animation-timing-function: ease-in-out;
     justify-content: center
 }
 
-.choose-first-section h2 {
+.choose-first-section h3{
     font-size: 37px;
     color: #1F2937
 }
 
-.choose-first-section h2 span {
+.choose-first-section h3 span {
     color: #0B60FF
 }
 
@@ -9750,7 +9750,7 @@ animation-timing-function: ease-in-out;
     text-align: center
 }
 
-.benefit-heading h2 {
+.benefit-heading h3 {
     font-size: 38px;
     color: #33475B
 }
@@ -10228,7 +10228,7 @@ animation-timing-function: ease-in-out;
         padding: 0 40px 60px 40px
     }
 
-    .strategy-first-section h2 {
+    .strategy-first-section h3 {
         font-size: 28px
     }
 }
@@ -12214,7 +12214,7 @@ body{
   text-align: center;
 }
 
-#kushel-headless-commerce .headless-commerce-content3 h2 {
+#kushel-headless-commerce .headless-commerce-content3 h3 {
   font-size: 35px;
   font-weight: 700;
   line-height: 44px;
@@ -12339,7 +12339,7 @@ body{
 
 }
 
-#kushel-headless-commerce .headless-commerce-content4 h2 {
+#kushel-headless-commerce .headless-commerce-content4 h3 {
   font-size: 30px;
   font-weight: 700;
   line-height: 40px;
@@ -12694,7 +12694,7 @@ body{
       width: 100%;
       padding-top: 10px;
   }
-  #kushel-headless-commerce .headless-commerce-content3 h2{
+  #kushel-headless-commerce .headless-commerce-content3 h3{
       font-size: 25px;
       line-height: 35px;
   }
@@ -12719,7 +12719,7 @@ body{
       font-size: 15px;
       line-height: 20px;
   }
-  #kushel-headless-commerce .headless-commerce-content4 h2{
+  #kushel-headless-commerce .headless-commerce-content4 h3{
       font-size: 25px;
       line-height: 30px;
   }
@@ -13058,7 +13058,7 @@ body{
     text-align: center
   }
   
-  #kushel-headless-commerce .headless-commerce-content2 h2 {
+  #kushel-headless-commerce .headless-commerce-content2 h3 {
     font-size: 27px;
     font-weight: 700;
     line-height: 28px;
@@ -13090,7 +13090,7 @@ body{
     width: 370px
   }
   
-  #kushel-headless-commerce .headless-commerce-cards-contain h2 {
+  #kushel-headless-commerce .headless-commerce-cards-contain h3 {
     font-size: 20px;
     line-height: 32px;
     font-weight: 700;
@@ -13151,7 +13151,7 @@ body{
     text-align: center
   }
   
-  #kushel-headless-commerce .headless-commerce-content3 h2 {
+  #kushel-headless-commerce .headless-commerce-content3 h3 {
     font-size: 35px;
     font-weight: 700;
     line-height: 44px;
@@ -13280,7 +13280,7 @@ body{
     text-align: center
   }
   
-  #kushel-headless-commerce .headless-commerce-content4 h2 {
+  #kushel-headless-commerce .headless-commerce-content4 h3 {
     font-size: 30px;
     font-weight: 700;
     line-height: 40px;
@@ -13348,7 +13348,7 @@ body{
     gap: 18px
   }
   
-  #kushel-headless-commerce .headless-commerce-content6 h2 {
+  #kushel-headless-commerce .headless-commerce-content6 h3 {
     font-size: 33px;
     font-weight: 700;
     line-height: 44px;
@@ -13667,7 +13667,7 @@ body{
       padding: 35px 45px
     }
   
-    #kushel-headless-commerce .headless-commerce-content2 h2 {
+    #kushel-headless-commerce .headless-commerce-content2 h3 {
       font-size: 25px
     }
   
@@ -13679,7 +13679,7 @@ body{
       padding-top: 10px
     }
   
-    #kushel-headless-commerce .headless-commerce-content3 h2 {
+    #kushel-headless-commerce .headless-commerce-content3 h3 {
       font-size: 25px;
       line-height: 35px
     }
@@ -13710,7 +13710,7 @@ body{
       line-height: 20px
     }
   
-    #kushel-headless-commerce .headless-commerce-content4 h2 {
+    #kushel-headless-commerce .headless-commerce-content4 h3 {
       font-size: 25px;
       line-height: 30px
     }
@@ -13728,7 +13728,7 @@ body{
       line-height: 25px
     }
   
-    #kushel-headless-commerce .headless-commerce-content6 h2 {
+    #kushel-headless-commerce .headless-commerce-content6 h3{
       font-size: 32px;
       line-height: 40px
     }
@@ -15723,7 +15723,7 @@ body{
         font-size: 28px;
         line-height: 34px;
     }
-    .indus-content2 h2 {
+    .indus-content2 h3{
         font-size: 26px !important;
         line-height: 36px;
     }
@@ -15793,7 +15793,7 @@ body{
     padding: 60px 70px;
     margin: auto;
   }
-  .USA-ourWork-topleft h2{ 
+  .USA-ourWork-topleft h3{ 
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -15920,7 +15920,7 @@ body{
       flex-direction: column;
     }
    
-    .USA-ourWork-topleft h2{
+    .USA-ourWork-topleft h3{
         font-size: 37px !important;
         line-height: 42px;
     }
@@ -15932,7 +15932,7 @@ body{
       }
   }
   @media(max-width:450px){
-    .USA-ourWork-topleft h2{
+    .USA-ourWork-topleft h3{
       font-size: 28px;
     }
     .USA-ourWork-toprighty p{
@@ -16133,7 +16133,7 @@ body{
     text-align: start
 }
 
-.indus-content2 h2 {
+.indus-content2 h3{
     font-size: 40px;
     font-family: 'Poppins', sans-serif !important;
     font-weight: 700;
@@ -16541,7 +16541,7 @@ body{
         padding: 40px
     }
 
-    .indus-content2 h2 {
+    .indus-content2 h3{
         font-size: 35px !important
     }
 }
@@ -16604,7 +16604,7 @@ body{
         text-align: center
     }
 
-    .indus-content2 h2 {
+    .indus-content2 h3{
         font-size: 32px !important
     }
 }
@@ -16686,7 +16686,7 @@ body{
         line-height: 34px
     }
 
-    .indus-content2 h2 {
+    .indus-content2 h3{
         font-size: 26px !important;
         line-height: 36px
     }
@@ -16767,7 +16767,7 @@ body{
     margin: auto
 }
 
-.USA-ourWork-topleft h2 {
+.USA-ourWork-topleft h3 {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px
@@ -16911,7 +16911,7 @@ body{
         flex-direction: column
     }
 
-    .USA-ourWork-topleft h2 {
+    .USA-ourWork-topleft h3{
         font-size: 37px !important;
         line-height: 42px
     }
@@ -16927,7 +16927,7 @@ body{
 }
 
 @media(max-width:450px) {
-    .USA-ourWork-topleft h2 {
+    .USA-ourWork-topleft h3{
         font-size: 28px
     }
 
@@ -18435,7 +18435,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     border-radius: 8px
   }
   
-  #kushel-next-js .kushel-next-js-content8 h3 {
+  #kushel-next-js .kushel-next-js-content8 h2 {
     font-size: 40px;
     font-weight: 700;
     line-height: 24px;
@@ -18615,7 +18615,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
   }
   
   @media(max-width:714px) {
-    #kushel-next-js .kushel-next-js-content8 h3 {
+    #kushel-next-js .kushel-next-js-content8 h2 {
       font-size: 32px;
       line-height: 10px
     }
@@ -18910,7 +18910,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
   align-items: center;
   text-align: center;
 }
-#hemesh-ppc .content7 h2 {
+#hemesh-ppc .content7 h3 {
   font-weight: 800;
   font-size: 24px;
   line-height: 50px;
@@ -18941,12 +18941,12 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
   align-items: center;
   text-align: center;
 }
-#hemesh-ppc .content3 h2 {
+#hemesh-ppc .content3 h3 {
   font-weight: 800;
   font-size: 24px;
   line-height: 44px;
 }
-#hemesh-ppc .content3 h2 span {
+#hemesh-ppc .content3 h3 span {
   color: #0b60ff;
 }
 #hemesh-ppc .card_mattter {
@@ -19030,7 +19030,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
   padding-top: 40px;
   padding-bottom: 40px;
 }
-#hemesh-ppc .content4 h2 {
+#hemesh-ppc .content4 h3 {
   font-weight: 800;
   font-size: 29px;
   line-height: 44px;
@@ -19122,12 +19122,12 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
   align-items: center;
   text-align: center;
 }
-#hemesh-ppc .content5 h2 {
+#hemesh-ppc .content5 h3 {
   font-weight: 800;
   font-size: 24px;
   line-height: 80px;
 }
-#hemesh-ppc .content5 h2 span {
+#hemesh-ppc .content5 h3 span {
   font-size: 24px;
   color: #0c61ff;
 }
@@ -19167,7 +19167,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
   color: white;
   padding-top: 30px;
 }
-#hemesh-ppc .content6 h2 {
+#hemesh-ppc .content6 h3 {
   font-weight: 700;
   font-size: 22px;
   line-height: 48px;
@@ -19360,7 +19360,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
   #hemesh-ppc .left-content1 h2{
     font-size: 28px;
   }
-  #hemesh-ppc .content3 h2{
+  #hemesh-ppc .content3 h3{
     font-size: 28px;
   }
   #hemesh-ppc .left-content2 h2{
@@ -19373,13 +19373,13 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     padding: 0px;
     line-height: 32px;
   }
-  #hemesh-ppc .content5 h2 {
+  #hemesh-ppc .content5 h3 {
     line-height: 40px;
   }
-  #hemesh-ppc .content7 h2 {
+  #hemesh-ppc .content7 h3 {
     line-height: 32px;
   }
-  #hemesh-ppc .content3 h2 {
+  #hemesh-ppc .content3 h3{
     line-height: 32px;
   }
   #hemesh-ppc .content4 {
@@ -19679,7 +19679,7 @@ width: 520px;
   text-align: center
 }
 
-#hemesh-ppc .content7 h2 {
+#hemesh-ppc .content7 h3 {
   font-weight: 800;
   font-size: 24px;
   line-height: 50px
@@ -19715,13 +19715,13 @@ width: 520px;
   text-align: center
 }
 
-#hemesh-ppc .content3 h2 {
+#hemesh-ppc .content3 h3 {
   font-weight: 800;
   font-size: 24px;
   line-height: 44px
 }
 
-#hemesh-ppc .content3 h2 span {
+#hemesh-ppc .content3 h3 span {
   color: #0b60ff
 }
 
@@ -19821,7 +19821,7 @@ width: 520px;
   padding-bottom: 40px
 }
 
-#hemesh-ppc .content4 h2 {
+#hemesh-ppc .content4 h3 {
   font-weight: 800;
   font-size: 29px;
   line-height: 44px
@@ -19930,13 +19930,13 @@ width: 520px;
   text-align: center
 }
 
-#hemesh-ppc .content5 h2 {
+#hemesh-ppc .content5 h3 {
   font-weight: 800;
   font-size: 24px;
   line-height: 80px
 }
 
-#hemesh-ppc .content5 h2 span {
+#hemesh-ppc .content5 h3 span {
   font-size: 24px;
   color: #0c61ff
 }
@@ -19984,7 +19984,7 @@ width: 520px;
   padding-top: 30px
 }
 
-#hemesh-ppc .content6 h2 {
+#hemesh-ppc .content6 h3 {
   font-weight: 700;
   font-size: 22px;
   line-height: 48px
@@ -20221,7 +20221,7 @@ width: 520px;
     font-size: 28px
   }
 
-  #hemesh-ppc .content3 h2 {
+  #hemesh-ppc .content3 h3{
     font-size: 28px
   }
 
@@ -20238,15 +20238,15 @@ width: 520px;
     line-height: 32px
   }
 
-  #hemesh-ppc .content5 h2 {
+  #hemesh-ppc .content5 h3 {
     line-height: 40px
   }
 
-  #hemesh-ppc .content7 h2 {
+  #hemesh-ppc .content7 h3 {
     line-height: 32px
   }
 
-  #hemesh-ppc .content3 h2 {
+  #hemesh-ppc .content3 h3 {
     line-height: 32px
   }
 
@@ -20691,7 +20691,7 @@ width: 520px;
   align-items: center;
   gap: 10px;
 }
-#hemesh-seo-kushel .seo_flex6 h2 {
+#hemesh-seo-kushel .seo_flex6 h3 {
   font-weight: 400;
   font-size: 32px;
   line-height: 40px;
@@ -20750,7 +20750,7 @@ width: 520px;
   justify-content: center;
   align-items: center;
 }
-#hemesh-seo-kushel .services1 h2 {
+#hemesh-seo-kushel .services1 h3{
   font-weight: 400;
   font-size: 32px;
   line-height: 40px;
@@ -20866,7 +20866,7 @@ width: 520px;
   align-items: center;
   text-align: center;
 }
-#hemesh-seo-kushel .seo_flex10 h2 {
+#hemesh-seo-kushel .seo_flex10 h3 {
   max-width: 19em;
   font-weight: 400;
   font-size: 32px;
@@ -20933,7 +20933,7 @@ width: 520px;
   align-items: start;
   text-align: start;
 }
-#hemesh-seo-kushel .left_seocontainer h2 {
+#hemesh-seo-kushel .left_seocontainer h3 {
   max-width: 19em;
   width: 100%;
   font-weight: 800;
@@ -21059,7 +21059,7 @@ width: 520px;
     text-align: center;
     gap: 30px;
   }
-  #hemesh-seo-kushel .left_seocontainer h2{
+  #hemesh-seo-kushel .left_seocontainer h3{
     text-align: center;
   }
   #hemesh-seo-kushel .left_seocontainer p{
@@ -21173,10 +21173,10 @@ width: 520px;
     font-size: 16px;
     font-weight: 300;
   }
-  #hemesh-seo-kushel .seo_flex6 h2{
+  #hemesh-seo-kushel .seo_flex6 h3{
     font-size: 28px;
   }
-  #hemesh-seo-kushel .services1 h2{
+  #hemesh-seo-kushel .services1 h3{
     font-size: 28px;
   }
   #hemesh-seo-kushel .seo_flex_content h3{
@@ -21185,10 +21185,10 @@ width: 520px;
   #hemesh-seo-kushel .seo_flex_content_icon{
     gap: 30px;
   }
-  #hemesh-seo-kushel .seo_flex10 h2{
+  #hemesh-seo-kushel .seo_flex10 h3{
     font-size: 28px;
   }
-  #hemesh-seo-kushel .left_seocontainer h2{
+  #hemesh-seo-kushel .left_seocontainer h3{
     font-size: 28px;
   }
   #hemesh-seo-kushel .seo-second-heading h2 {
@@ -21659,7 +21659,7 @@ width: 520px;
   gap: 10px
 }
 
-#hemesh-seo-kushel .seo_flex6 h2 {
+#hemesh-seo-kushel .seo_flex6 h3{
   font-weight: 400;
   font-size: 32px;
   line-height: 40px;
@@ -21729,7 +21729,7 @@ width: 480px;
   align-items: center
 }
 
-#hemesh-seo-kushel .services1 h2 {
+#hemesh-seo-kushel .services1 h3 {
   font-weight: 400;
   font-size: 32px;
   line-height: 40px;
@@ -21866,7 +21866,7 @@ width: 480px;
   text-align: center
 }
 
-#hemesh-seo-kushel .seo_flex10 h2 {
+#hemesh-seo-kushel .seo_flex10 h3 {
   max-width: 19em;
   font-weight: 400;
   font-size: 32px;
@@ -21943,7 +21943,7 @@ width: 480px;
   text-align: start
 }
 
-#hemesh-seo-kushel .left_seocontainer h2 {
+#hemesh-seo-kushel .left_seocontainer h3 {
   max-width: 19em;
   width: 100%;
   font-weight: 800;
@@ -22091,7 +22091,7 @@ width: 480px;
     gap: 30px
   }
 
-  #hemesh-seo-kushel .left_seocontainer h2 {
+  #hemesh-seo-kushel .left_seocontainer h3 {
     text-align: center
   }
 
@@ -22235,11 +22235,11 @@ width: 480px;
     font-weight: 300
   }
 
-  #hemesh-seo-kushel .seo_flex6 h2 {
+  #hemesh-seo-kushel .seo_flex6 h3 {
     font-size: 28px
   }
 
-  #hemesh-seo-kushel .services1 h2 {
+  #hemesh-seo-kushel .services1 h3 {
     font-size: 28px
   }
 
@@ -22251,11 +22251,11 @@ width: 480px;
     gap: 30px
   }
 
-  #hemesh-seo-kushel .seo_flex10 h2 {
+  #hemesh-seo-kushel .seo_flex10 h3{
     font-size: 28px
   }
 
-  #hemesh-seo-kushel .left_seocontainer h2 {
+  #hemesh-seo-kushel .left_seocontainer h3{
     font-size: 28px
   }
 
@@ -22789,7 +22789,7 @@ color: #0E151D;
     padding: 60px 70px;
     margin: auto;
   }
-  .USA-ourWork-topleft h2{ 
+  .USA-ourWork-topleft h3{ 
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -22924,7 +22924,7 @@ color: #0E151D;
     .USA-ourWork-Top{
       flex-direction: column;
     }
-    .USA-ourWork-topleft h2{
+    .USA-ourWork-topleft h3{
       font-size: 37px !important;
       line-height: 42px;
     }
@@ -22936,7 +22936,7 @@ color: #0E151D;
     }
   }
   @media(max-width:450px){
-    .USA-ourWork-topleft h2{
+    .USA-ourWork-topleft h3{
       font-size: 28px;
     }
     .USA-ourWork-toprighty p{
@@ -23496,7 +23496,7 @@ color: #0E151D;
     margin: auto
   }
   
-  .USA-ourWork-topleft h2 {
+  .USA-ourWork-topleft h3 {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px
@@ -23650,7 +23650,7 @@ color: #0E151D;
       flex-direction: column
     }
   
-    .USA-ourWork-topleft h2 {
+    .USA-ourWork-topleft h3 {
       font-size: 37px !important;
       line-height: 42px
     }
@@ -23665,7 +23665,7 @@ color: #0E151D;
   }
   
   @media(max-width:450px) {
-    .USA-ourWork-topleft h2 {
+    .USA-ourWork-topleft h3 {
       font-size: 28px
     }
   
@@ -28312,7 +28312,7 @@ line-height: 20px;
     padding: 100px 0
 }
 
-.h2s4cont h3 {
+.h2s4cont h2 {
     font-family: sf-ui-display-medium, sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -28473,7 +28473,7 @@ line-height: 20px;
         display: none
     }
 
-    .h2s4cont h3 {
+    .h2s4cont h2 {
         font-size: 34px
     }
 
@@ -32492,7 +32492,7 @@ line-height: 47px;
     gap: 20px;
 }
 
-.service_head h2 {
+.service_head h3{
     color: #202020;
     font-size: 34px;
     font-weight: 700;
@@ -32532,7 +32532,7 @@ max-width: 34em;
         background-color: #ffffff;
       }
 
-      .css_khuBest_page h2 {
+      .css_khuBest_page h3 {
         color: #202020;
         font-weight: 700;
         font-size: 34px;
@@ -32600,7 +32600,7 @@ max-width: 400px;
     }
 
 
-     .css_benefit_page h2 {
+     .css_benefit_page h3 {
       color: #000000;
       font-weight: 700;
       font-size: 26px;
@@ -32681,7 +32681,7 @@ margin: 0px 0px;
 .css_softS_page{
   padding: 50px 80px;
 }
-.css_softS_page h2 {
+.css_softS_page h3{
   color: #000000;
   font-weight: 700;
   font-size: 26px;
@@ -32767,7 +32767,7 @@ margin: 0px 0px;
   padding: 200px 0px;
 }
 
-.joinCS_head h2 {
+.joinCS_head h3 {
   color: #FFFFFF;
   font-size: 26px;
   font-weight: 700;
@@ -32886,7 +32886,7 @@ display: none;
   }
   
   
-.joinCS_head h2 {
+.joinCS_head h3{
   width: 100%;
  
 }
@@ -32903,7 +32903,7 @@ display: none;
   .joinCS_back1{
     padding: 0px 0px;
   }
-  .joinCS_head h2 {
+  .joinCS_head h3{
     text-align: center;
   }
   .joinCS_para p {
@@ -32962,10 +32962,10 @@ display: none;
     gap: 30px;
 }
 
-.css_khuBest_page h2 {
+.css_khuBest_page h3{
  width: 95%;
 }
-.css_benefit_page h2 {
+.css_benefit_page h3 {
  width: 95%;
 }
 
@@ -33013,11 +33013,10 @@ display: none;
   }
   .joinCS_para p {
   width: 95%;
-   
-  }
+    }
 }
 @media (max-width:450px) {
-  .service_head h2{
+  .service_head h3{
     font-size: 28px;
     line-height: 38px;
     text-align: center;
@@ -33037,7 +33036,7 @@ display: none;
   font-size: 28px;
   line-height: 40px;
 }
-.css_khuBest_page h2 {
+.css_khuBest_page h3{
   font-size: 28px;
   line-height: 40px;
 }
@@ -33653,7 +33652,7 @@ display: none;
     gap: 3px;
   }
   
-  .article_head h3{
+  .article_head h2{
     font-family: 'Poppins' !important;
     font-size: 20px;
     font-weight: 600;
@@ -38613,7 +38612,7 @@ width: 360px;
   display: none
 }
 
-.home8 h2 {
+.home8 h3{
   font-size: 34px;
   font-weight: bold !important;
   color: #fff !important;
@@ -42462,7 +42461,7 @@ font-family: 'sf-ui-display-medium', sans-serif !important;
   padding: 50px 100px
 }
 
-.uiux-process h2 {
+.uiux-process h3 {
   font-size: 35px;
   opacity: .9;
   font-weight: 700;
@@ -42494,7 +42493,7 @@ font-family: 'sf-ui-display-medium', sans-serif !important;
   overflow: hidden !important
 }
 
-.perfect-choice h2 {
+.perfect-choice h3 {
   color: #33475b;
   opacity: .9;
   font-size: 35px;
@@ -42559,7 +42558,7 @@ font-family: 'sf-ui-display-medium', sans-serif !important;
   padding: 60px 100px
 }
 
-.deliver-p h2 {
+.deliver-p h3 {
   color: #33475b;
   opacity: .9;
   font-size: 34px;
@@ -42593,7 +42592,7 @@ font-family: 'sf-ui-display-medium', sans-serif !important;
   padding: 50px 0
 }
 
-.benifits-ui h2 {
+.benifits-ui h3 {
   color: #33475b;
   opacity: .9;
   font-size: 35px;
@@ -42859,7 +42858,7 @@ font-family: 'sf-ui-display-medium', sans-serif !important;
   justify-content: space-between
 }
 
-.how-ux1 h2 {
+.how-ux1 h3{
   font-size: 35px;
   line-height: 46px;
   color: #33475b;
@@ -43403,7 +43402,7 @@ font-family: 'sf-ui-display-medium', sans-serif !important;
   transform: translate(-50%, -50%)
 }
 
-.req-sect h2 {
+.req-sect h3 {
   color: #fff;
   font-size: 35px;
   font-weight: 700;
@@ -43944,7 +43943,7 @@ font-family: 'sf-ui-display-medium', sans-serif !important;
   padding: 80px 100px
 }
 
-.benifits-hire h2 {
+.benifits-hire h3 {
   text-align: center;
   font-size: 35px;
   font-family: 'Poppins', sans-serif !important;
@@ -44069,7 +44068,7 @@ font-family: 'sf-ui-display-medium', sans-serif !important;
   margin-right: 30px
 }
 
-.first-serve h2 {
+.first-serve h3{
   font-size: 35px;
   font-family: 'Poppins', sans-serif !important;
   color: #33475b !important;
@@ -44127,7 +44126,7 @@ font-family: 'sf-ui-display-medium', sans-serif !important;
   transform: translate(-50%, -50%)
 }
 
-.demo-hire-sect h2 {
+.demo-hire-sect h3{
   color: #fff;
   font-family: 'Poppins', sans-serif !important;
   text-align: center;
@@ -45712,7 +45711,7 @@ font-family: 'sf-ui-display-medium', sans-serif !important;
 
 .android-back1 p {
   color: #fff;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 400;
   width: 32em;
   letter-spacing: .5px;
@@ -46566,7 +46565,7 @@ video {
   padding: 50px 0
 }
 
-.approach h3 {
+.approach h2 {
   font-size: 40px;
   color: #fff;
   font-weight: 700;
@@ -47069,7 +47068,7 @@ video {
   height: 100%
 }
 
-.native-why h2 {
+.native-why h3 {
   text-align: center;
   color: #33475b;
   opacity: .9;
@@ -47131,7 +47130,7 @@ video {
   padding: 0 100px
 }
 
-.keys-val h2 {
+.keys-val h3{
   text-align: center;
   color: #33475b;
   opacity: .9;
@@ -47241,7 +47240,7 @@ video {
   background-color: #fff
 }
 
-.how-native-work h2 {
+.how-native-work h3 {
   text-align: center;
   color: #33475b;
   opacity: .9;
@@ -48257,7 +48256,7 @@ width: 450px;
   width: 100%
 }
 
-.support-modern1 h2 {
+.support-modern1 h3 {
   font-size: 34px;
   font-weight: 700;
   color: #33475b;
@@ -48265,7 +48264,7 @@ width: 450px;
 }
 
 @media (max-width:900px) {
-  .support-modern1 h2 {
+  .support-modern1 h3 {
     text-align: center
   }
 }
@@ -48373,7 +48372,7 @@ width: 450px;
   max-width: 34em
 }
 
-.support-img2 h2 {
+.support-img2 h3{
   font-size: 34px;
   color: #33475b !important;
   font-weight: bold !important;
@@ -48381,7 +48380,7 @@ width: 450px;
 }
 
 @media (max-width:900px) {
-  .support-img2 h2 {
+  .support-img2 h3 {
     text-align: center
   }
 }
@@ -48436,7 +48435,7 @@ width: 450px;
   line-height: 29px
 }
 
-.why-kotlinUse1 h2 {
+.why-kotlinUse1 h3 {
   color: #33475b;
   font-size: 34px;
   font-weight: bold !important
@@ -48487,7 +48486,7 @@ width: 450px;
   max-width: 100%
 }
 
-.profis-kotlin2 h2 {
+.profis-kotlin2 h3 {
   color: #33475b;
   font-size: 34px;
   font-weight: 700;
@@ -51029,7 +51028,7 @@ width: 450px;
   margin-top: 70px
 }
 
-.engag_mod h2 {
+.engag_mod h3 {
   color: #33475b;
   font-size: 32px;
   font-weight: 700;
@@ -51239,7 +51238,7 @@ width: 450px;
   padding: 0 80px
 }
 
-.php_ben1 h2 {
+.php_ben1 h3{
   color: #202020;
   font-size: 34px;
   font-weight: 600;
@@ -52446,7 +52445,7 @@ width: 450px;
   font-family: 'Poppins', sans-serif !important;
 }
 
-.our_commerce1 h2 {
+.our_commerce1 h6 {
   font-size: 26px;
   font-weight: 700;
   font-family: 'Poppins', sans-serif !important;
@@ -52481,7 +52480,7 @@ width: 450px;
   transform: translate(-50%, -50%)
 }
 
-.skyRoket_sect h2 {
+.skyRoket_sect h4 {
   color: #fff;
   text-align: center;
   font-size: 26px;
@@ -52572,7 +52571,7 @@ width: 450px;
   max-width: 100%
 }
 
-.solution_expertise1 h2 {
+.solution_expertise1 h5{
   font-weight: 700;
   font-family: 'Poppins', sans-serif !important;
   font-size: 26px;
@@ -52670,7 +52669,7 @@ width: 450px;
   transform: translate(-50%, -50%)
 }
 
-.boost_sect h2 {
+.boost_sect h3 {
   color: #fff;
   font-family: 'Poppins', sans-serif !important;
   font-size: 26px;
@@ -52756,7 +52755,7 @@ width: 450px;
   text-align: center;
 }
 
-.big_pint h2 {
+.big_pint h3{
   text-align: center;
   color: #33475b;
   font-size: 42px;
@@ -53716,7 +53715,7 @@ width: 450px;
   align-items: center
 }
 
-.gret-outcome1 h2 {
+.gret-outcome1 h3 {
   font-size: 26px;
   color: #fff;
   font-weight: 400;
@@ -53763,7 +53762,7 @@ width: 450px;
   padding: 0 100px
 }
 
-.make-head h2 {
+.make-head h3 {
   color: #33475b;
   font-weight: 700;
   font-size: 26px
@@ -55263,7 +55262,7 @@ width: 450px;
   margin: auto
 }
 
-.card-textj h2 {
+.card-textj h3{
   text-align: center;
   font-size: 34px;
   font-weight: 700;
@@ -55604,6 +55603,7 @@ width: 450px;
 }
 
 #add .heading-3 {
+  text-align: center;
   color: #33475b;
   font-family: Proxima Nova;
   font-size: 31px;
@@ -56188,7 +56188,7 @@ width: 450px;
   background-color: #fff
 }
 
-.wordpress_serv h2 {
+.wordpress_serv h3 {
   color: #33475b;
   font-weight: 700;
   font-size: 34px;
@@ -56219,7 +56219,7 @@ width: 450px;
   justify-content: center
 }
 
-.one_stet_sect h2 {
+.one_stet_sect h3 {
   color: #fff;
   font-weight: 700;
   font-size: 25px;
@@ -56276,7 +56276,7 @@ width: 450px;
   background-color: #fff
 }
 
-.benifits_html5 h2 {
+.benifits_html5 h3 {
   color: #33475b;
   font-weight: 700;
   font-size: 34px;
@@ -56313,7 +56313,7 @@ width: 450px;
   background-color: #fff
 }
 
-.processt_html h2 {
+.processt_html h3{
   text-align: center;
   color: #33475b;
   font-weight: 700;
@@ -56419,7 +56419,7 @@ width: 450px;
   margin-top: 10px
 }
 
-.why_hire_html h2 {
+.why_hire_html h3{
   text-align: center;
   color: #33475b;
   font-weight: 700;
@@ -56639,7 +56639,7 @@ width: 450px;
   background-color: #fff
 }
 
-.html_serv h2 {
+.html_serv h3 {
   color: #33475b;
   font-weight: 700;
   font-size: 34px;
@@ -56707,7 +56707,7 @@ width: 450px;
   background: #f9f9f9
 }
 
-.html_dev h2 {
+.html_dev h3 {
   color: #33475b;
   font-weight: 700;
   font-size: 34px;
@@ -57522,6 +57522,7 @@ width: 450px;
 }
 
 .reactjsdev_back1 h1 {
+  width: 683px;
   color: #fff;
   font-size: 38px;
   font-weight: 600;
@@ -57616,7 +57617,7 @@ width: 450px;
   width: 65.406px
 }
 
-.reactjsdev_box_s h2 {
+.reactjsdev_box_s h3 {
   color: #33475b;
   font-size: 19px;
   font-style: normal;
@@ -57792,7 +57793,7 @@ width: 450px;
   padding: 90px 100px
 }
 
-.node_dev_ss_about1 h2 {
+.node_dev_ss_about1 h3{
   color: #33475b;
   font-weight: 700;
   font-size: 34px;
@@ -57924,7 +57925,7 @@ width: 450px;
   background-color: #fff
 }
 
-.node_dev_ss_serv2 h2 {
+.node_dev_ss_serv2 h3 {
   color: #33475b;
   font-weight: 900;
   font-size: 39px;
@@ -58035,7 +58036,7 @@ width: 450px;
   line-height: 46px
 }
 
-.node_dev_ss1_head h2 {
+.node_dev_ss1_head h3 {
   color: #fff;
   font-size: 34px;
   font-weight: 700;
@@ -58253,7 +58254,7 @@ width: 450px;
   background-color: #f9f9f9
 }
 
-.node_dev_ss_serv4 h2 {
+.node_dev_ss_serv4 h3 {
   color: #33475b;
   font-size: 39px;
   text-align: center;
@@ -61010,7 +61011,7 @@ option {
   margin: auto
 }
 
-.USA-ourWork-topleft h2 {
+.USA-ourWork-topleft h3 {
   font-size: 50px;
   font-family: 'Poppins', sans-serif !important;
   font-weight: 700;
@@ -61168,7 +61169,7 @@ option {
     flex-direction: column
   }
 
-  .USA-ourWork-topleft h2 {
+  .USA-ourWork-topleft h3{
     font-size: 37px !important;
     line-height: 42px
   }
@@ -61183,7 +61184,7 @@ option {
 }
 
 @media(max-width:450px) {
-  .USA-ourWork-topleft h2 {
+  .USA-ourWork-topleft h3 {
     font-size: 28px
   }
 
@@ -61224,7 +61225,7 @@ option {
     line-height: 38px !important
   }
 
-  .indus-content2 h2 {
+  .indus-content2 h3{
     font-size: 36px !important;
     line-height: 40px !important
   }
@@ -61242,7 +61243,7 @@ option {
     text-align: center
   }
 
-  .indus-content2 h2 {
+  .indus-content2 h3{
     font-size: 29px !important;
     line-height: 35px !important
   }
@@ -62973,7 +62974,7 @@ option {
     color: var(--primary)
 }
 
-.bookus h2 {
+.bookus h3 {
     font-size: 34px;
     font-family: 'Manrope', sans-serif !important
 }
@@ -63051,7 +63052,7 @@ option {
     width: 100%
 }
 
-.improved h2 {
+.improved h3 {
     font-size: 35px;
     line-height: 46px;
     color: #33475B;
@@ -68422,7 +68423,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         margin-right: 0
     }
 
-    .home8 h2 {
+    .home8 h3{
         font-size: 35px
     }
 
@@ -70500,7 +70501,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 50px 40px !important
     }
 
-    .html_serv h2 {
+    .html_serv h3{
         font-size: 30px !important
     }
 
@@ -70520,7 +70521,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 16px !important
     }
 
-    .html_dev h2 {
+    .html_dev h3{
         font-size: 30px !important;
         line-height: 38px !important
     }
@@ -70529,7 +70530,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 16px !important
     }
 
-    .html_dev h2 {
+    .html_dev h3 {
         font-size: 25px !important
     }
 
@@ -70541,7 +70542,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 70px 40px !important
     }
 
-    .benifits_html5 h2 {
+    .benifits_html5 h3{
         font-size: 30px !important;
         line-height: 38px !important
     }
@@ -70562,7 +70563,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 60px 20px !important
     }
 
-    .why_hire_html h2 {
+    .why_hire_html h3{
         font-size: 30px !important;
         line-height: 38px !important
     }
@@ -70715,7 +70716,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         display: none
     }
 
-    .engag_mod h2 {
+    .engag_mod h3{
         font-size: 30px
     }
 
@@ -70887,7 +70888,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 16px
     }
 
-    .node_dev_ss_about1 h2 {
+    .node_dev_ss_about1 h3 {
         font-size: 30px
     }
 
@@ -70903,7 +70904,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 16px
     }
 
-    .node_dev_ss_serv2 h2 {
+    .node_dev_ss_serv2 h3 {
         font-size: 30px;
         line-height: 38px
     }
@@ -70912,7 +70913,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 16px
     }
 
-    .node_dev_ss_serv4 h2 {
+    .node_dev_ss_serv4 h3{
         font-size: 30px
     }
 
@@ -70953,7 +70954,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         align-items: center
     }
 
-    .card-textj h2 {
+    .card-textj h3{
         font-size: 30px;
         line-height: 38px
     }
@@ -71028,7 +71029,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 0 40px
     }
 
-    .our_commerce1 h2 {
+    .our_commerce1 h6{
         text-align: center
     }
 
@@ -71079,7 +71080,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 16px
     }
 
-    .big_pint h2 {
+    .big_pint h3{
         font-size: 30px
     }
 
@@ -71169,7 +71170,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 60px 40px
     }
 
-    .php_ben1 h2 {
+    .php_ben1 h3 {
         font-size: 30px
     }
 
@@ -71311,7 +71312,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         line-height: 38px !important
     }
 
-    .req-sect h2 {
+    .req-sect h3{
         font-size: 30px;
         line-height: 38px
     }
@@ -71508,7 +71509,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 50px 40px
     }
 
-    .wordpress_serv h2 {
+    .wordpress_serv h3 {
         font-size: 30px;
         line-height: 38px
     }
@@ -72352,7 +72353,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         margin-left: 0
     }
 
-    .why-kotlinUse1 h2 {
+    .why-kotlinUse1 h3 {
         text-align: center
     }
 
@@ -72434,7 +72435,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         gap: 20px
     }
 
-    .support-modern1 h2 {
+    .support-modern1 h3 {
         font-size: 30px;
         line-height: 38px
     }
@@ -72482,7 +72483,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 16px
     }
 
-    .approach h3 {
+    .approach h2{
         font-size: 30px;
         line-height: 38px
     }
@@ -72547,7 +72548,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         line-height: 38px
     }
 
-    .native-why h2 {
+    .native-why h3 {
         font-size: 30px;
         line-height: 38px
     }
@@ -72556,7 +72557,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 16px
     }
 
-    .keys-val h2 {
+    .keys-val h3 {
         font-size: 30px;
         line-height: 38px
     }
@@ -72581,7 +72582,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         margin: 12px 0
     }
 
-    .how-native-work h2 {
+    .how-native-work h3{
         font-size: 30px;
         line-height: 38px
     }
@@ -72918,7 +72919,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         float: initial
     }
 
-    .benifits-hire h2 {
+    .benifits-hire h3{
         font-size: 30px;
         line-height: 38px
     }
@@ -73042,7 +73043,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         flex-wrap: nowrap
     }
 
-    .first-serve h2 {
+    .first-serve h3{
         font-size: 30px;
         text-align: center
     }
@@ -73058,7 +73059,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 80px 20px
     }
 
-    .demo-hire-sect h2 {
+    .demo-hire-sect h3 {
         font-size: 30px
     }
 
@@ -73188,7 +73189,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 70px 40px !important
     }
 
-    .improved h2 {
+    .improved h3{
         font-size: 30px !important;
         line-height: 38px !important
     }
@@ -73201,7 +73202,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 16px !important
     }
 
-    .bookus h2 {
+    .bookus h3{
         font-size: 30px !important
     }
 
@@ -73281,7 +73282,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         text-align: center
     }
 
-    .how-ux1 h2 {
+    .how-ux1 h3 {
         font-size: 30px;
         line-height: 38px
     }
@@ -73291,7 +73292,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 16px
     }
 
-    .deliver-p h2 {
+    .deliver-p h3 {
         font-size: 30px
     }
 
@@ -73304,7 +73305,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         flex-direction: column
     }
 
-    .benifits-ui h2 {
+    .benifits-ui h3 {
         font-size: 30px;
         line-height: 38px
     }
@@ -73366,7 +73367,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 50px 40px
     }
 
-    .uiux-process h2 {
+    .uiux-process h3 {
         font-size: 30px;
         line-height: 38px
     }
@@ -73379,7 +73380,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 50px 40px
     }
 
-    .perfect-choice h2 {
+    .perfect-choice h3{
         font-size: 30px;
         line-height: 38px
     }
@@ -74107,7 +74108,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 16px
     }
 
-    .home8 h2 {
+    .home8 h3{
         font-size: 30px
     }
 
@@ -74672,7 +74673,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         margin-top: 30px
     }
 
-    .support-img2 h2 {
+    .support-img2 h3{
         font-size: 30px;
         line-height: 38px
     }
@@ -75572,7 +75573,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         text-align: center
     }
 
-    .profis-kotlin2 h2 {
+    .profis-kotlin2 h3 {
         text-align: center;
         font-size: 30px;
         line-height: 38px !important
@@ -75780,7 +75781,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 50px 20px
     }
 
-    .node_dev_ss_about1 h2 {
+    .node_dev_ss_about1 h3{
         font-size: 25px;
         line-height: 32px
     }
@@ -75815,7 +75816,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 50px 20px
     }
 
-    .node_dev_ss_serv2 h2 {
+    .node_dev_ss_serv2 h3 {
         font-size: 25px;
         line-height: 32px
     }
@@ -75836,7 +75837,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 60px 20px
     }
 
-    .node_dev_ss_serv4 h2 {
+    .node_dev_ss_serv4 h3 {
         font-size: 25px;
         line-height: 32px
     }
@@ -76699,7 +76700,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         margin-left: 0
     }
 
-    .boost_sect h2 {
+    .boost_sect h3{
         font-size: 17px;
         line-height: 32px
     }
@@ -77220,7 +77221,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         display: block !important
     }
 
-    .php_ben1 h2 {
+    .php_ben1 h3{
         font-size: 25px !important;
         line-height: 32px !important;
         text-align: center !important
@@ -77411,6 +77412,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .reactjsdev_back1 h1 {
+      width: 100%;
         font-size: 28px;
         line-height: 36px
     }
@@ -77573,11 +77575,11 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         align-items: center !important
     }
 
-    .html_dev h2 {
+    .html_dev h3{
         line-height: 32px !important
     }
 
-    .html_dev h2 {
+    .html_dev h3{
         font-size: 24px !important
     }
 
@@ -77585,7 +77587,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 70px 20px !important
     }
 
-    .benifits_html5 h2 {
+    .benifits_html5 h3{
         font-size: 25px !important;
         line-height: 32px !important
     }
@@ -77598,7 +77600,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 50px 20px !important
     }
 
-    .processt_html h2 {
+    .processt_html h3{
         font-size: 25px !important;
         line-height: 32px !important
     }
@@ -77608,7 +77610,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 14px !important
     }
 
-    .why_hire_html h2 {
+    .why_hire_html h3{
         font-size: 25px !important;
         line-height: 32px !important
     }
@@ -77662,7 +77664,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 50px 20px !important
     }
 
-    .html_serv h2 {
+    .html_serv h3 {
         font-size: 25px !important;
         line-height: 32px !important
     }
@@ -77814,7 +77816,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 16px
     }
 
-    .engag_mod h2 {
+    .engag_mod h3{
         font-size: 25px;
         line-height: 32px
     }
@@ -78059,7 +78061,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         line-height: 32px
     }
 
-    .our_commerce1 h2 {
+    .our_commerce1 h6{
         font-size: 25px;
         line-height: 32px
     }
@@ -78068,7 +78070,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 0 20px
     }
 
-    .skyRoket_sect h2 {
+    .skyRoket_sect h4 {
         font-size: 25px;
         line-height: 32px
     }
@@ -78108,7 +78110,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 60px 20px
     }
 
-    .solution_expertise1 h2 {
+    .solution_expertise1 h5{
         font-size: 25px;
         line-height: 32px
     }
@@ -78130,7 +78132,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 18px
     }
 
-    .big_pint h2 {
+    .big_pint h3{
         font-size: 25px;
         line-height: 32px
     }
@@ -78140,7 +78142,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         transform: translate(0, 0)
     }
 
-    .boost_sect h2 {
+    .boost_sect h3{
         font-size: 25px;
         line-height: 32px
     }
@@ -78375,7 +78377,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 50px 20px
     }
 
-    .wordpress_serv h2 {
+    .wordpress_serv h3 {
         font-size: 25px;
         line-height: 32px
     }
@@ -79109,7 +79111,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         line-height: 32px
     }
 
-    .support-modern1 h2 {
+    .support-modern1 h3 {
         font-size: 25px;
         line-height: 32px;
         text-align: center
@@ -79134,7 +79136,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         margin-left: 0
     }
 
-    .support-img2 h2 {
+    .support-img2 h3 {
         text-align: center;
         font-size: 25px
     }
@@ -79147,7 +79149,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         text-align: left
     }
 
-    .why-kotlinUse1 h2 {
+    .why-kotlinUse1 h3 {
         font-size: 25px;
         line-height: 32px
     }
@@ -79162,7 +79164,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 16px
     }
 
-    .profis-kotlin2 h2 {
+    .profis-kotlin2 h3{
         font-size: 25px;
         line-height: 32px !important
     }
@@ -79245,7 +79247,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         height: auto
     }
 
-    .approach h3 {
+    .approach h2 {
         font-size: 25px
     }
 
@@ -79286,7 +79288,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 0 20px
     }
 
-    .how-native-work h2 {
+    .how-native-work h3 {
         font-size: 25px;
         line-height: 32px
     }
@@ -79334,7 +79336,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 14px
     }
 
-    .native-why h2 {
+    .native-why h3 {
         font-size: 25px;
         line-height: 32px
     }
@@ -79634,7 +79636,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 50px 20px !important
     }
 
-    .improved h2 {
+    .improved h3{
         font-size: 20px !important;
         line-height: 32px !important
     }
@@ -79651,7 +79653,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 4rem 2rem !important
     }
 
-    .bookus h2 {
+    .bookus h3{
         font-size: 25px !important;
         line-height: 32px !important
     }
@@ -79691,7 +79693,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 14px
     }
 
-    .uiux-process h2 {
+    .uiux-process h3 {
         font-size: 25px;
         line-height: 32px
     }
@@ -79714,7 +79716,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         display: none !important
     }
 
-    .perfect-choice h2 {
+    .perfect-choice h3 {
         font-size: 25px;
         line-height: 32px
     }
@@ -79723,7 +79725,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 14px
     }
 
-    .how-ux1 h2 {
+    .how-ux1 h3{
         font-size: 25px;
         line-height: 32px
     }
@@ -79732,7 +79734,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 14px
     }
 
-    .deliver-p h2 {
+    .deliver-p h3{
         font-size: 25px;
         line-height: 32px
     }
@@ -79741,7 +79743,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 14px
     }
 
-    .benifits-ui h2 {
+    .benifits-ui h3 {
         font-size: 25px;
         line-height: 32px
     }
@@ -79913,7 +79915,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 60px 20px
     }
 
-    .make-head h2 {
+    .make-head h3 {
         font-size: 25px;
         line-height: 32px
     }
@@ -79926,7 +79928,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 14px
     }
 
-    .gret-outcome1 h2 {
+    .gret-outcome1 h3 {
         font-size: 25px
     }
 
@@ -79979,7 +79981,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding-bottom: 40px
     }
 
-    .gret-outcome1 h2 {
+    .gret-outcome1 h3{
         font-size: 25px
     }
 
@@ -80377,7 +80379,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 16px
     }
 
-    .home8 h2 {
+    .home8 h3 {
         font-size: 20px
     }
 
@@ -81402,7 +81404,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 20px
     }
 
-    .approach h3 {
+    .approach h2{
         font-size: 25px
     }
 
@@ -81509,7 +81511,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         text-align: center
     }
 
-    .support-modern1 h2 {
+    .support-modern1 .h3{
         font-size: 25px;
         line-height: 32px;
         text-align: center
@@ -81633,7 +81635,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 50px 20px
     }
 
-    .wordpress_serv h2 {
+    .wordpress_serv h3 {
         font-size: 25px;
         line-height: 32px
     }
@@ -81740,7 +81742,7 @@ text-align: center;
         padding: 60px 20px
     }
 
-    .native-why h2 {
+    .native-why h3{
         font-size: 25px;
         line-height: 32px
     }
@@ -81753,7 +81755,7 @@ text-align: center;
         padding: 0 20px
     }
 
-    .keys-val h2 {
+    .keys-val h3 {
         font-size: 25px;
         line-height: 32px
     }
@@ -81770,7 +81772,7 @@ text-align: center;
         padding: 60px 20px
     }
 
-    .how-native-work h2 {
+    .how-native-work h3 {
         font-size: 25px;
         line-height: 32px
     }
@@ -81847,7 +81849,7 @@ text-align: center;
         padding: 30px 20px
     }
 
-    .support-img2 h2 {
+    .support-img2 h3 {
         font-size: 25px;
         line-height: 32px
     }
@@ -82170,7 +82172,7 @@ text-align: center;
         padding: 80px 20px
     }
 
-    .benifits-hire h2 {
+    .benifits-hire h3 {
         font-size: 25px;
         line-height: 32px
     }
@@ -82183,7 +82185,7 @@ text-align: center;
         padding: 60px 20px
     }
 
-    .first-serve h2 {
+    .first-serve h3 {
         font-size: 25px;
         line-height: 32px
     }
@@ -82203,7 +82205,7 @@ text-align: center;
         height: 100% !important
     }
 
-    .demo-hire-sect h2 {
+    .demo-hire-sect h3{
         font-size: 20px;
         line-height: 32px
     }
@@ -83298,7 +83300,7 @@ text-align: center;
         padding: 3rem 0rem
     }
 
-    .req-sect h2 {
+    .req-sect h3{
         font-size: 26px;
         line-height: 34px
     }

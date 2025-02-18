@@ -272,7 +272,7 @@ const generateMetadata = ({ params }) => ({
                 <div className="greet-out">
                     <div className="gret-outcome dine-123">
                         <div className="gret-outcome1">
-                            <h2>DRIVING GREAT OUTCOMES</h2>
+                            <h3>DRIVING GREAT OUTCOMES</h3>
                             <p>#1 Creative-as-a-Service solution for marketing and creative teams</p>
                         </div>
 
@@ -289,10 +289,10 @@ const generateMetadata = ({ params }) => ({
                     <div className="what_makes1">
                         
                         <div className="make-head">
-                            <h2>
+                            <h3>
                                 How Graphic Designing help in Business
                                 <br />
-                            </h2>
+                            </h3>
                             <p>
                                 One of the best things you can do to improve your marketing plan is to use graphic design. An audience is drawn in and intrigued by visually striking content that promotes your brand and product. An informed audience is provided by graphics that are purposefully created. According to a common saying, an image speaks a thousand words. You can now express the tale of your business with your own photographs.
 
@@ -307,93 +307,7 @@ const generateMetadata = ({ params }) => ({
                     </div>
                    
                 </div>
-                {/* <div className="home9 mb-12 home278 home480 home481">
-                    <div className="home91 px-24 dine-1234">
-                        <div className="home911 text-center">
-                            <h2 className="font-bold text-gray-700">Frequently Asked<br /> Questions</h2>
-                        </div>
-                        <div className="home912 FAQ-1">
-                            <Accordion allowZeroExpanded>
-                                <AccordionItem>
-                                    <AccordionItemHeading>
-                                        <AccordionItemButton>
-                                            Why choose Kushel Digi for an ambitious brand graphic design?
-                                        </AccordionItemButton>
-                                    </AccordionItemHeading>
-                                    <AccordionItemPanel>
-                                        <p>
-                                            Being one of the top providers of graphic design services in Pune, we are experts in combining creativity and technology to provide our clients with unmatched value. We have a lot of expertise offering industry-specific graphic design services in the USA that help brands reach new heights, and we have a particular focus on small enterprises.
-                                            Everything that our design team does is entirely new, guaranteeing that every project is unique, genuine, and specifically tailored to your business and corporate objectives.
-                                            We collaborate with you to create graphic designs that captivate, excite, educate, and involve your intended audience. You can count on a team of highly competent marketers and designers from all around the world to complete your project quickly.
-
-                                        </p>
-                                    </AccordionItemPanel>
-                                </AccordionItem>
-                                <AccordionItem>
-                                    <AccordionItemHeading>
-                                        <AccordionItemButton>
-                                            How can I ensure budget-friendly graphic design services?
-
-
-                                        </AccordionItemButton>
-                                    </AccordionItemHeading>
-                                    <AccordionItemPanel>
-                                        <p>
-                                            From the conceptual phase to the curation of your design, we guarantee that every project is completed with style and enthusiasm. We examine your target market and your company objectives to make sure that every piece of work we produce advances your objectives. We can provide you with low-cost, effective graphic design services that will help you differentiate your company from the competitors.
-
-
-
-
-                                        </p>
-                                    </AccordionItemPanel>
-                                </AccordionItem>
-                                <AccordionItem>
-                                    <AccordionItemHeading>
-                                        <AccordionItemButton>
-                                            What role does creativity play in Kushel Digi's graphic design approach?
-
-
-
-                                        </AccordionItemButton>
-                                    </AccordionItemHeading>
-                                    <AccordionItemPanel>
-                                        <p>
-                                            We prioritise creative and innovative design strategies to make your brand stand out.
-                                        </p>
-                                    </AccordionItemPanel>
-                                </AccordionItem>
-                                <AccordionItem>
-                                    <AccordionItemHeading>
-                                        <AccordionItemButton>
-                                            What key elements make a graphic design successful for ambitious brands?
-
-                                        </AccordionItemButton>
-                                    </AccordionItemHeading>
-                                    <AccordionItemPanel>
-                                        <p>
-
-                                            The beauty of things draws people in. Amazing hues and imaginative visuals help to boost happiness and motivate consumers to take action. The user's experience is also improved by captivating graphic designs. While websites with captivating images and multiple methods to get information tend to make a stronger and more favorable initial impression, word-only pages can easily become dull.
-                                        </p>
-                                    </AccordionItemPanel>
-                                </AccordionItem>
-                                <AccordionItem>
-                                    <AccordionItemHeading>
-                                        <AccordionItemButton>
-                                            Why is professional graphic design crucial for ambitious brands?
-                                        </AccordionItemButton>
-                                    </AccordionItemHeading>
-                                    <AccordionItemPanel>
-                                        <p>
-                                            Professional design enhances brand identity, and credibility, and leaves a lasting impact on your audience.
-
-                                        </p>
-                                    </AccordionItemPanel>
-                                </AccordionItem>
-                            </Accordion>
-
-                        </div>
-                    </div>
-                </div> */}
+              
                 <GraphicFAQ/>
 
                 <ContactForm1 notify={notify} />

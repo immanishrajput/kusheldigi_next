@@ -91,7 +91,7 @@ const generateMetadata = ({ params }) => ({
                 </div>
 
                 <div className="html_serv dine-1234">
-                    <h2><span>HTML5</span>: A Tool For Build the Future </h2>
+                    <h3><span>HTML5</span>: A Tool For Build the Future </h3>
                     <div className="html_parat">
                         <p>The design reveals the transforming power of this multifunctional method. HTML5 takes use of the chances that developers take to push the envelope and use their imagination to create cutting-edge websites and applications that offer a change from the traditional online experience. The multifunctional features it offers, such cross-platform compatibility and multimedia integration, will help to shape the online world of the future.</p>
                     </div>
@@ -140,7 +140,7 @@ const generateMetadata = ({ params }) => ({
 
                 <div className='html_dev'>
 
-                    <h2 > Why you should Go for <span > HTML5</span> Development </h2>
+                    <h3> Why you should Go for <span > HTML5</span> Development </h3>
                     <div className='html_dev_pra'>
                         <p>Selecting HTML5-based development gives us all the tools we need to create new web pages. With HTML5's</p>
                             <p>abundance of features, cross-platform compatibility engaging websites and</p> 
@@ -306,7 +306,7 @@ const generateMetadata = ({ params }) => ({
                     </Splide>
                 </div>
                 <div className="benifits_html5">
-                    <h2><span>HTML5</span> Development. Benefits: - </h2>
+                    <h3><span>HTML5</span> Development. Benefits: - </h3>
                     <div className="benifit_html_para">
                         <p> With the help of better features for images and video, the user experience is enhanced. They can view images and videos in a much better way. - The rich content can also be added in the development.HTML5 development on choosing helps you to enjoy some attractive features. Media Queries gives a platform for multi-browser compatibility, blends media features and responsive design that header all the way users indeed. Besides that, HTML5 is a great deal easier to use and catalyses the general progress of Internet technologies.</p>
                     </div>
@@ -316,7 +316,7 @@ const generateMetadata = ({ params }) => ({
                     </div>
                 </div>
                 <div className="processt_html dine-1234">
-                    <h2>Our <span>Process</span> </h2>
+                    <h3>Our <span>Process</span> </h3>
                     <p className='htls'>First of all, let me mention that our website design process includes a detailed planning and layout phase. We use the technology that was found to be successful to create templates, include multimedia elements, and increase performance to create a better user experience.</p>
 
                     <div className="processt_html_card">
@@ -359,9 +359,9 @@ const generateMetadata = ({ params }) => ({
                     </div>
                 </div>
                 <div className="why_hire_html">
-                    <h2>
+                    <h3>
                     What Kinds of Digital Services Are Included in the <span>HTML5</span><br/> Development Offering by Kushel Digi?
-                    </h2>
+                    </h3>
                     <div className="why_hire_htmlCard mt-6">
                         <div className="why_hireHtml_left">
                             {/* <img src={blackkart} alt="HTML development offering by kushel digi" title='HTML development offering by kushel digi' /> */}
@@ -381,87 +381,7 @@ const generateMetadata = ({ params }) => ({
                             </button> </Link>
                     </div>
                 </div>
-                {/* <div className="home9 mb-12 home278 home480 home481">
-          <div className="home91 px-24 dine-1234">
-            <div className="home911 text-center">
-              <h2 className="font-bold text-gray-700">Frequently Asked<br/> Questions</h2>
-            </div>
-            <div className="home912 FAQ-1">
-              <Accordion allowZeroExpanded>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    Why choose Kushel Digi Solutions for HTML5 web development?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                    Kushel Digi Solutions excels in HTML5 development, offering a unique blend of innovation, client-centricity, and a skilled team for tailored solutions aligned with your business objectives.                 </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    How does Kushel Digi Solutions harness HTML5 to elevate web development projects?
-
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                    HTML5 is utilised by Kushel Digi to create modern and interactive web experiences, ensuring compatibility, responsiveness, and engaging user interfaces.
-
-
-</p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    What sets Kushel Digi apart in HTML5 development, and how does it benefit clients?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                    Kushel Digi distinguishes itself through a commitment to innovation, client-centric practices, and a proficient team dedicated to delivering customised, high-quality HTML5 solutions.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    Key considerations when selecting a service provider for HTML5 web development?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                    
-                    When choosing an HTML5 service provider, consider factors such as expertise, a proven track record, and alignment with your business goals for a successful partnership.
-
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    What are the latest trends and best practices in HTML5 development, irrespective of specific companies?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                    Stay informed about the dynamic landscape of HTML5 development by exploring industry trends, adhering to best practices, and actively engaging with online communities for valuable insights.
-
-
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-              </Accordion>
-            
-            </div>
-          </div>
-        </div> */}
+                
         <HtmlFAQ/>
 
         <div className="whtsApBtns">

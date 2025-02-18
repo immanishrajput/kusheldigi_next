@@ -74,7 +74,7 @@ function Home2Section4() {
         <div className="h2s4cont">
           <div className="dashspandiv">
             <span></span>
-            <h3>What We Do</h3>
+            <h2>What We Do</h2>
           </div>
 
           <div className="wedoitems">

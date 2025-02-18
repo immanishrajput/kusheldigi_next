@@ -134,7 +134,7 @@ const generateMetadata = ({ params }) => ({
             <div className="strategy-first-section">
               <div className="under-strategy-section">
                 <h4>Your Strategy, Amplified !</h4>
-                <h2>One Stop Shop For All Your Social Media Needs!</h2>
+                <h3>One Stop Shop For All Your Social Media Needs!</h3>
                 <p>
                   With our variety of services grow on social media in no time
                   without hassle.
@@ -188,7 +188,7 @@ const generateMetadata = ({ params }) => ({
         <div className="process-main-section">
           <div className="process-section">
             <h3>Process</h3>
-            <h2>It's Easier Than Making A Cup Of Tea !</h2>
+            <h4>It's Easier Than Making A Cup Of Tea !</h4>
             <p>
               Your social media success is largely dependent on the number of
               likes, comments <br />
@@ -375,9 +375,9 @@ const generateMetadata = ({ params }) => ({
         <div className="main-choose-section">
           <div className="choose-section dine-123">
             <div className="choose-first-section">
-              <h2>
+              <h3>
                 Why You Choose <span>kushel Digi</span>
-              </h2>
+              </h3>
               <p>
                 Picking Kushel Digi opens up to you a variety of knowledge and
                 uniquely personal solutions. Our goal is to achieve significant
@@ -430,7 +430,7 @@ const generateMetadata = ({ params }) => ({
         <div className="main-benefit-section">
           <div className="benefit-section">
             <div className="benefit-heading">
-              <h2>Benefit of using our SMM Services</h2>
+              <h3>Benefit of using our SMM Services</h3>
               <p>
                 Your social media success is largely dependent on the number of
                 likes, comments <br />

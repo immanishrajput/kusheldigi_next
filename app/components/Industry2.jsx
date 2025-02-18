@@ -557,7 +557,7 @@ function Industries() {
         <div className="indus-banner2">
           <div className="indus-container2">
             <div className="indus-content2">
-              <h2>Industries, we can deliver exceptional service</h2>
+              <h3>Industries, we can deliver exceptional service</h3>
               <p>
                 Our skill in creating unique online stores that attract, engage,
                 and increase sales is missing. Our ability to use technology
@@ -1017,7 +1017,7 @@ function Industries() {
           <div className="USA-ourWork-main-container">
             <div className="USA-ourWork-Top">
               <div className="USA-ourWork-topleft">
-                <h2>Our Works</h2>
+                <h3>Our Works</h3>
               </div>
               <div className="USA-ourWork-toprighty">
                 <a href={currentItem.link} target="blank">
@@ -1157,7 +1157,7 @@ function Industries() {
 
         <div className="home8 mb-20 px-8 home-background-crouser">
           <div className="home-background-crouser-container">
-            <h2 className="text-center">Our esteemed clients</h2>
+            <h3 className="text-center">Our esteemed clients</h3>
             <p className="text-center">Pleasure to work with</p>
             <div className="home8-img  px-4 w-full home-background-crouser-main">
               <Splide
@@ -1637,119 +1637,7 @@ function Industries() {
         </div>
       </div>
 
-      {/* <div className="home9 mb-12">
-        <div className="home91 px-24 dine-1234">
-          <div className="home911 text-center newclasscentre">
-            <h2 className="font-bold text-gray-700 mx-auto">
-              Frequently Asked Questions
-            </h2>
-          </div>
-          <div className="home912 FAQ-1">
-            <Accordion allowZeroExpanded>
-                            <AccordionItem>
-                                <AccordionItemHeading>
-                                    <AccordionItemButton>
-            Q- Ethical industrial website would have required what?
-            </AccordionItemButton>
-                                </AccordionItemHeading>
-                                <AccordionItemPanel>
-            <p>
-              Whether they are industry experts or new customers who are
-              knowledgeable with the field, every visitor should find it easy to
-              get around the website thanks to its clear, simple form.
-            </p>
-            </AccordionItemPanel>
-                            </AccordionItem>
-                            <AccordionItem>
-                                <AccordionItemHeading>
-                                    <AccordionItemButton>
-            Q- How can the effectiveness of an industrial website be increased
-            with thorough product information?
-            </AccordionItemButton>
-                                </AccordionItemHeading>
-                                <AccordionItemPanel>
-            <p>
-              Accurate product details minimizes the demand for extra service to
-              customers, develops user confidence in the business, and helps
-              users to make well-informed decisions. Technical data, details,
-              videos, and printable materials like instructions and papers
-              should all be available
-            </p>
-            </AccordionItemPanel>
-                            </AccordionItem>
-                            <AccordionItem>
-                                <AccordionItemHeading>
-                                    <AccordionItemButton>
-            Q- Why is an industrialized website's flexible layout relevant?
-            </AccordionItemButton>
-                                </AccordionItemHeading>
-                                <AccordionItemPanel>
-            <p>
-              The website will work properly on every device, both PCs and
-              mobile phones, thanks to its responsive layout. Increased
-              participation and rate of conversion result from this improved
-              experience for users, improved accessibility, and ensuring
-              potential consumers may access data at any time, anywhere.
-            </p>
-            </AccordionItemPanel>
-                            </AccordionItem>
-                            <AccordionItem>
-                                <AccordionItemHeading>
-                                    <AccordionItemButton>
-            Q- What are the benefits of SEO optimization for an industrial
-            website?
-            </AccordionItemButton>
-                                </AccordionItemHeading>
-                                <AccordionItemPanel>
-            <p>
-              SEO optimization increases the website's exposure on search engine
-              results pages, resulting in natural traffic. In order to get
-              better search engine results, this involves using appropriate
-              keywords, optimizing meta tags, making sure the site has a solid
-              foundation, and producing high-quality content that speaks to the
-              target audience.
-          
-            </p>
-                                </AccordionItemPanel>
-                            </AccordionItem>
-                            <AccordionItem>
-                                <AccordionItemHeading>
-                                    <AccordionItemButton>
-            Q- Can you help with search engine optimization (SEO)?
-            </AccordionItemButton>
-                                </AccordionItemHeading>
-                                <AccordionItemPanel>
-            <p>
-              Yes we offer SEO services during the development of website which
-              includes keyword research, on-page optimization, content strategy,
-              and link building to improve search engine rankings and drive
-              organic traffic.
-            </p>
-            </AccordionItemPanel>
-                            </AccordionItem>
-                            <AccordionItem>
-                                <AccordionItemHeading>
-            <AccordionItemButton>
-            Q- What purpose do comments and case studies play on an industrial
-            website?
-            </AccordionItemButton>
-                                </AccordionItemHeading>
-                                <AccordionItemPanel>
-            <p>
-              Testimonials and case studies show the company's success and
-              expertise in project management and offer social proof. By showing
-              real applications for the company's products and services as well
-              as positive feedback from pleased buyers, they assist in creating
-              trust and credibility with new customers.
-            </p>
-            </AccordionItemPanel>
-            </AccordionItem>
-
-
-        </Accordion>
-          </div>
-        </div>
-      </div> */}
+     
       <IndustriesFAQ/>
       <div className="whtsApBtns">
         <button onClick={whatAppHandler}>

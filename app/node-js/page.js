@@ -169,7 +169,7 @@ const generateMetadata = ({ params }) => ({
 
         <div className="node_dev_ss_about dine-123">
           <div className="node_dev_ss_about1">
-            <h2> Node.js Development Services</h2>
+            <h3> Node js Development Services</h3>
             <p>
               We consider Node.js as a unique service capable of providing top performance, big scalability, and much more for our customers when building web applications. Our engineering team will provide you with the custom-tailored solution, ensure a smooth integration, process data in real-time, and do a comprehensive performance optimization.
             </p>
@@ -183,7 +183,7 @@ const generateMetadata = ({ params }) => ({
         <div className="node_dev_ss_serv dine-1234">
           <h2>
             {" "}
-            <span>Node.js </span>Services Offerings
+            <span>Node js </span>Services Offerings
           </h2>
           <p>We Provide custom Node.js Development: Our Node.js solutions are unique parts, due to its uniformity are serving-the-purpose processes and with this end in mind, they should suit your aims and requirements perfectly. Customers are provided with modules exclusively discussed during the consulting which are developed by our team of software developers.</p>
           <div className="node_dev_ss_cards">
@@ -282,10 +282,10 @@ const generateMetadata = ({ params }) => ({
         </div>
 
         <div className="node_dev_ss_serv2">
-          <h2>
+          <h3>
             {" "}
-            Why <span>Clients Hire</span> us as a Node.js Development Company
-          </h2>
+            Why <span>Clients Hire</span> us as a Node js Development Company
+          </h3>
           <div className="node_dev_ss_serv_parat">
             <p>
               Built on top of JavaScript, Node.js is a back-end runtime
@@ -350,9 +350,9 @@ const generateMetadata = ({ params }) => ({
         </div>
 
         <div className="node_dev_ss_serv4">
-          <h2>
+          <h3>
             What can you build with <span>Node js?</span>
-          </h2>
+          </h3>
           <div className="node_dev_ss_cards4">
             <div className="node_dev_ss_card4">
               <div className="node_dev_ss_box5">
@@ -458,7 +458,7 @@ const generateMetadata = ({ params }) => ({
           <div className="node_dev_ss1-back dine-123">
             <div className="node_dev_ss1-back1">
               <div className="node_dev_ss1_head">
-                <h2>Not sure where to start?</h2>
+                <h3>Not sure where to start?</h3>
               </div>
               <div className="node_dev_ss1_para">
                 <p>
@@ -480,8 +480,7 @@ const generateMetadata = ({ params }) => ({
           <h2>
             {" "}
             Why are <span>Kushel Digi</span> the best Node.js development services for your business?
-          </h2>
-          <h2>development services? </h2>
+          development services? </h2>
           <div className="node_dev_ss_cards3">
             <div className="node_dev_ss_card3">
               <div className="node_dev_ss_box3">
@@ -521,7 +520,7 @@ const generateMetadata = ({ params }) => ({
             <div className="node_dev_ss_card3">
               <div className="node_dev_ss_box3">
                 <div className="node_dev_ss_box3_flex">
-                  <hr class="node_dev_ss_box3_hr" />
+                  <hr className="node_dev_ss_box3_hr" />
                   <p>04</p>
                 </div>
 
@@ -570,7 +569,7 @@ const generateMetadata = ({ params }) => ({
               <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724848869/dark-img.459eeb5fcd3172712298_pfavni.png" alt="Lets talk kusheldigi" title="Lets talk kusheldigi" />
             </div>
             <div className="card-textj">
-              <h2>Got a preferred workflow? We’ll <br /> adapt to your needs.</h2>
+              <h3>Got a preferred workflow? We’ll <br /> adapt to your needs.</h3>
               <p>We’re always flexible to fit your style of working.</p>
             </div>
             <div className="manbi-btn">
@@ -578,88 +577,7 @@ const generateMetadata = ({ params }) => ({
             </div>
           </div>
         </div>
-        {/* <div className="home9 mb-12 home278 home480 home481">
-          <div className="home91 px-24 dine-1234">
-            <div className="home911 text-center">
-              <h2 className="font-bold text-gray-700">Frequently Asked<br /> Questions</h2>
-            </div>
-            <div className="home912 FAQ-1">
-              <Accordion allowZeroExpanded>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      Why Kushel Digi for Node.js development?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Kushel Digi excels in Node.js, offering innovation, client focus, and a skilled team for tailored solutions.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      How does Kushel Digi use Node.js for web projects?
-
-
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Node.js empowers Kushel Digi to build scalable, high-performance web applications through its non-blocking, event-driven architecture.
-
-
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      What sets Kushel Digi apart in Node.js development?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Kushel Digi's commitment to innovation, client-centric practices, and a skilled team ensures customised, high-quality Node.js solutions.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      Key considerations for selecting a Node.js service provider?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-
-                      Consider expertise, a proven track record, and alignment with business goals when choosing a Node.js service provider.
-
-
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      Insights into Node.js trends and best practices?                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Stay informed about the dynamic Node.js landscape by exploring industry trends, adhering to best practices, and actively engaging with online communities.
-
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-              </Accordion>
-
-            </div>
-          </div>
-        </div> */}
+       
         <NodejsFAQ/>
 
         <div className="whtsApBtns">
