@@ -70,10 +70,7 @@ const Android = ({ notify }) => {
         <div className="android_next_class">
           <div className="android-back  android-back-flex1 flutter-back-flex1 dine-123 andoidd-pad">
             <div className="android-back1 android_back_text_section">
-              {/* <h2>
-              Android App <br />
-              Development Company
-            </h2> */}
+             
               <h1>Custom Android App <br /> Development Company</h1>
               <p className="android-son">
                 We pride ourselves on being a top Android app development agency.  Our company provide high quality deliverables and premier functionality. We complete and deliver your project on exact time.
@@ -94,9 +91,9 @@ const Android = ({ notify }) => {
         <div className="android2-app dine-1234">
           <div className="android-fun">
             <div className="android-fun1">
-              <h2 className="hideafter450">Our Android App</h2>
-              <h2 className="hideafter450">Development</h2>
-              <h2 className="hideafter450">Solution</h2>
+              <h3 className="hideafter450">Our Android App</h3>
+              <h3 className="hideafter450">Development</h3>
+              <h3 className="hideafter450">Solution</h3>
               <h2 className="hidetill450">Our Android App Development Solution</h2>
               <img className="ftp" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738994284/android-sis_gj4ulj.png' alt="under line" title="under line" />
               <Link className="letsy letsay" href="/contact-us">
@@ -268,15 +265,15 @@ const Android = ({ notify }) => {
           <div className="android-perform add_78541254789856">
             <div className="andoid-perform-flex">
               <div className="android-pflex">
-                <h2>250+</h2>
+                <h3>250+</h3>
                 <p>Android developers <br /> in-house</p>
               </div>
               <div className="android-pflex">
-                <h2>500+</h2>
+                <h3>500+</h3>
                 <p>Android projects <br /> in-house</p>
               </div>
               <div className="android-pflex">
-                <h2>30+</h2>
+                <h3>30+</h3>
                 <p>industries brought <br /> on Android</p>
               </div>
             </div>

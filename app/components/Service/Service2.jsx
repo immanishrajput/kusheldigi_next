@@ -286,7 +286,7 @@ const Service = () => {
             <div className="services-content3">
               <div className="services-test">
                 <span>GET A TECHNOLOGY</span>
-                <h2>Our Services</h2>
+                <h3>Our Services</h3>
                 <p>
                   From software development and digital transformation to
                   consulting and support, we empower organizations to thrive in
@@ -329,7 +329,7 @@ const Service = () => {
                         fill="#3C83CB"
                       />
                     </svg>
-                    <h2>UX/UI DESIGN:</h2>
+                    <h4>UX/UI DESIGN:</h4>
                     <p>
                       we have been adept to streamline and improve the
                       interaction between the target customers of our clients,
@@ -369,7 +369,7 @@ const Service = () => {
                         fill="#3C83CB"
                       />
                     </svg>
-                    <h2>ECOMMERCE DEVELOPMENT:</h2>
+                    <h4>ECOMMERCE DEVELOPMENT:</h4>
                     <p>
                       In the apace evolving digital epoch,the exaction for
                       robust ecommerce website creation services is escalating
@@ -430,7 +430,7 @@ const Service = () => {
                     fill="#3C83CB"
                   />
                 </svg>
-                <h2>APP DESIGN AND DEVELOPMENT:</h2>
+                <h4>APP DESIGN AND DEVELOPMENT:</h4>
                 <p>
                   Our mobile developers have nimble thinking and coding skills.
                   They surpass in creating mobile apps in any language whether
@@ -486,7 +486,7 @@ const Service = () => {
                     fill="#3C83CB"
                   />
                 </svg>
-                <h2>WEBSITE DEVELOPMENT:</h2>
+                <h4>WEBSITE DEVELOPMENT:</h4>
                 <p>
                   In the digital era of today, do you want your business to be
                   successful ? In the digital presence ,to develop your online
@@ -543,7 +543,7 @@ const Service = () => {
                     fill="#3C83CB"
                   />
                 </svg>
-                <h2>DIGITAL MARKETING:</h2>
+                <h4>DIGITAL MARKETING:</h4>
                 <p>
                   we use our years of competence and knowledge to provide
                   solutions to our clients that are not only carrying out but
@@ -569,7 +569,7 @@ const Service = () => {
                 </div>
                 <div className="services-content4">
                   <h3>EXPERTISE</h3>
-                  <h2>Our Technologies</h2>
+                  <h4>Our Technologies</h4>
                   <p>
                     We leverage cutting-edge technologies for efficiency,
                     productivity, and growth opportunities.
@@ -784,25 +784,7 @@ const Service = () => {
             </div>
           </div>
         </div>
-        {/* <div className="services-Banner5">
-          <div className="services5">
-            <div className="services-content5">
-                <div>
-                    <h2>Want to collaborate on a future-forward project?</h2>
-
-                    <h2 id="letsTalk">Let's Talk </h2>
-                    
-                </div>
-              
-              <p>
-                We collaborate with innovative brands to create cutting-edge
-                digital experiences. Let's connect.
-              </p>
-            </div>
-          </div>
-        </div> */}
-          {/* <ContactForm1 notify={notify} /> */}
-        
+       
       </div>
       <div className="whtsApBtns">
           <button onClick={whatAppHandler}>

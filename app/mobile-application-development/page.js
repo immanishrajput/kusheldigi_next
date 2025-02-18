@@ -296,9 +296,9 @@ const MobileApp = ({ notify }) => {
         </div>
 
         <div className="custom-s">
-          <h2>
+          <h3>
             Why choose our custom application <br /> development service?
-          </h2>
+          </h3>
           <p>
             A quality website provides numerous opportunities to showcase your authenticity. Choose us for  <Link href="/web-development"> <span className="raja_hoverrrr"> web development company, </span>  </Link> and <Link href="/seo"> <span className="raja_hoverrrr"> Seo agency </span>  </Link> to boost your website's ranking.
           </p>

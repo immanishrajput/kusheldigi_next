@@ -524,7 +524,7 @@ const USA = ({ notify }) => {
           }
         </div>
         <div className="tech_stacksEcom tech-stackkk ustechh">
-          <h2>Our <span>eCommerce</span>  technology stack</h2>
+          <h4>Our <span>eCommerce</span>  technology stack</h4>
           <div className="mxg">
             <p className="mx mx11">Make your next online project go smoothly with our battle-tested </p>
             <p className="mx mx11">eCommerce development services.</p>
@@ -555,8 +555,8 @@ const USA = ({ notify }) => {
         </div>
 
         <div className="why_ecoming tech-stackkk ustechh">
-          <h2>Why <span> eCommerce  Development</span> with <br />
-            kushel digi solutions</h2>
+          <h4>Why <span> eCommerce  Development</span> with <br />
+            kushel digi solutions</h4>
           <div className="headings_para">
             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739168235/ertia_kybfqs.png' alt="ecomerce design" title="ecomerce design" />
             <p>
@@ -663,7 +663,7 @@ const USA = ({ notify }) => {
             </div>
             <div className="suris_tech">
               <div className="suris_tech_left ">
-                <h2>Not sure where to start?</h2>
+                <h3>Not sure where to start?</h3>
                 <p>Take free consultation with our expert eCommerce consultant to get project go Smooth.</p>
                 <Link href="/contact-us"><button>LET’S TALK</button></Link>
               </div>
@@ -677,7 +677,7 @@ const USA = ({ notify }) => {
 
         <div className="Ecommerce_sent dine-123">
           <div className="ecommerce_left our-ecommmmm">
-            <h2>Our e-Commerce <br /> Development Process</h2>
+            <h3>Our e-Commerce <br /> Development Process</h3>
             <p>We take care of your projects with proven agile methods that are designed to get all stakeholders (even non-technical ones) in alignment. Our workflow amplifies collaboration and faster turnarounds to achieve even the most ambitious goals.</p>
             <Link href="/howWork" className="letsittt letii"><div className="see_workk mt-8 letsy letsay">
               <span>SEE HOW WE WORK</span>
@@ -702,7 +702,7 @@ const USA = ({ notify }) => {
             <img className="lojokk" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724756984/Rectangle_18259_blnpsx.png" alt="Our bussiness development team" title="Our bussiness development team" />
           </div>
           <div className="theCom_right our-ecommmmm">
-            <h2>Meet our people</h2>
+            <h3>Meet our people</h3>
             <p>In kushel digi, we keep our minds free from any boundaries so that they can imagine and conceive great ideas which can be loved by your clients. We know the value of your trust which you put on us and kushel digi always do its best to safeguard that trust by going beyond than client’s expectation.</p>
             <Link href="/about"><button>ABOUT US</button></Link>
           </div>
@@ -713,8 +713,8 @@ const USA = ({ notify }) => {
           <div className="ready_folks">
             <div className="ready_left">
               <div className="rdar_talk">
-                <h2>Ready to talk about your </h2>
-                <h2>eCommerce project?</h2>
+                <h3>Ready to talk about your </h3>
+                <h3>eCommerce project?</h3>
                 <div className="fantars">
                   <div className="tellUs">
                     <div className="tellUs_right">
@@ -763,7 +763,7 @@ const USA = ({ notify }) => {
         <div className="home5 poty poty1">
           <div className="home51 px-24 dine-1234">
             <div className="home511 text-center ">
-              <h2 className="font-bold mb-2 mt-4">OUR PORTFOLIO</h2>
+              <h3 className="font-bold mb-2 mt-4">OUR PORTFOLIO</h3>
               <p className="view">
                 View our custom online Ecommerce solutions and get amazed
               </p>
@@ -802,85 +802,7 @@ const USA = ({ notify }) => {
             </button></Link>
           </div>
         </div>
-        {/* <Certified /> */}
-        {/* <div className="home9 mb-12 home278 home480 home481 dine-1234 ussfaq">
-          <div className="home91 px-24 py-12 usaque">
-            <div className="home911 text-center">
-              <h2 className="font-bold text-gray-700">Frequently Asked<br /> Questions</h2>
-            </div>
-            <div className="home912 FAQ-1">
-              <Accordion allowZeroExpanded>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      Why choose Kushel Digi for e-commerce development?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Kushel Digi Solution combines expertise in e-commerce development with a commitment to budget-friendly solutions, ensuring a seamless online shopping experience for your customers.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      How to ensure the best budget e-commerce development?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Our approach involves optimising development processes, utilising cost-effective technologies, and tailoring solutions to provide affordable e-commerce development without compromising quality.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      Advantages of React Native in mobile shopping, and how utilised?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      React Native ensures cross-platform compatibility, allowing the development of efficient and cost-effective e-commerce mobile apps for both iOS and Android platforms. Kushel Digi Solution harnesses this technology to enhance the mobile shopping experience.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      Key features for an e-commerce site, regardless of provider?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-
-                      Key features include a user-friendly interface, secure payment gateways, responsive design, robust inventory management, and seamless navigation to enhance the overall online shopping experience.
-
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      How important is mobile responsiveness in the success of an e-commerce website?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Mobile responsiveness is crucial, as a significant portion of online shopping occurs on mobile devices. Ensuring a seamless experience across various screen sizes enhances customer satisfaction and conversion rates.
-
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-              </Accordion>
-
-            </div>
-          </div>
-        </div> */}
+      
 
         <UseAccorrodian/>
 

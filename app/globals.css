@@ -1992,6 +1992,7 @@
 }
 
 .inner-third-local>p {
+  text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 30px;
     font-weight: 400;
@@ -38375,7 +38376,7 @@ width: 360px;
   max-width: 100%
 }
 
-.home511 h2 {
+.home511 h3{
   font-size: 35px;
   color: #fff !important;
   font-weight: 700;
@@ -40413,7 +40414,7 @@ form button:hover {
   padding: 60px 100px
 }
 
-.custom-s h2 {
+.custom-s h3 {
   font-size: 35px;
   font-weight: 700;
   color: #33475b;
@@ -45804,7 +45805,7 @@ font-family: 'sf-ui-display-medium', sans-serif !important;
   justify-content: space-between
 }
 
-.android-fun1 h2 {
+.android-fun1 h3 {
   color: #33475b;
   opacity: .9;
   font-size: 34px;
@@ -45813,7 +45814,7 @@ font-family: 'sf-ui-display-medium', sans-serif !important;
 }
 
 @media (max-width:900px) {
-  .android-fun1 h2 {
+  .android-fun1 h3 {
     text-align: left
   }
 }
@@ -46179,7 +46180,7 @@ video {
   margin: 20px 100px
 }
 
-.android-pflex h2 {
+.android-pflex h3 {
   font-weight: 700;
   color: #33475b;
   font-size: 64px
@@ -46292,7 +46293,7 @@ video {
   align-items: center
 }
 
-.kickstart-sect h2 {
+.kickstart-sect h3 {
   color: #fff;
   font-size: 33px;
   font-weight: 700;
@@ -54535,14 +54536,14 @@ width: 450px;
   font-weight: 400
 }
 
-.tech-stackkk h2 {
+.tech-stackkk h4 {
   color: #33475b;
   text-align: center;
   font-size: 34px;
   font-weight: 400
 }
 
-.tech-stackkk h2 span {
+.tech-stackkk h4 span {
   color: #1265ff;
   font-weight: 700
 }
@@ -54617,7 +54618,7 @@ width: 450px;
   object-fit: cover
 }
 
-.suris_tech_left h2 {
+.suris_tech_left h3{
   color: #fff;
   font-weight: 700;
   font-size: 34px
@@ -54671,7 +54672,7 @@ width: 450px;
   line-height: 46px
 }
 
-.our-ecommmmm h2 {
+.our-ecommmmm h3 {
   font-size: 34px;
   font-weight: 700;
   color: #33475b;
@@ -54810,7 +54811,7 @@ width: 450px;
   color: #fff
 }
 
-.rdar_talk h2 {
+.rdar_talk h3 {
   color: #fff;
   font-size: 34px;
   font-weight: 700
@@ -60606,7 +60607,7 @@ option {
   color: #0f63ff
 }
 
-#hemesh-services .services-content3 h2 {
+#hemesh-services .services-content3 h3 {
   font-size: 34px;
   font-weight: 800;
   font-family: 'Poppins', sans-serif !important;
@@ -60649,7 +60650,7 @@ option {
   align-items: start
 }
 
-#hemesh-services .services-card-3 h2 {
+#hemesh-services .services-card-3 h4 {
   font-size: 17px;
   font-family: 'Poppins', sans-serif !important;
   font-weight: 800;
@@ -60738,7 +60739,7 @@ option {
   color: #0f63ff
 }
 
-#hemesh-services .services-content4 h2 {
+#hemesh-services .services-content4 h4 {
   max-width: 1em;
   font-family: 'Poppins', sans-serif !important;
   width: 100%;
@@ -61681,7 +61682,7 @@ option {
     width: 100% !important;
   }
 
-  .android-fun1 h2 {
+  .android-fun1 h3 {
     max-width: 100% !important;
     width: 100% !important;
     font-size: 22px !important;
@@ -64183,7 +64184,7 @@ wordpress_cater_box p {
     padding: 70px 90px !important
 }
 
-.about-main h2 {
+.about-main h3 {
     font-size: 30px;
     font-weight: 700;
     font-family: 'Poppins', sans-serif !important;
@@ -64469,7 +64470,7 @@ wordpress_cater_box p {
     z-index: -1
 }
 
-.about-main4 h2 {
+.about-main4 h3 {
     font-size: 34px;
     font-family: "Poppins", sans-serif !important;
     color: #fff;
@@ -64534,7 +64535,7 @@ wordpress_cater_box p {
     background-color: #F6F3F3
 }
 
-.about-main5 h2 {
+.about-main5 h3 {
     color: #33475B;
     opacity: .9;
     font-size: 34px;
@@ -64895,7 +64896,7 @@ wordpress_cater_box p {
     justify-content: center
 }
 
-.office-flex1 h2 {
+.office-flex1 h3 {
     color: #33475B;
     font-family: 'Poppins', sans-serif !important;
     opacity: .9;
@@ -72022,7 +72023,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 16px !important
     }
 
-    .office-flex1 h2 {
+    .office-flex1 h3 {
         font-size: 30px !important;
         line-height: 38px !important
     }
@@ -72132,7 +72133,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 16px !important
     }
 
-    .about-main5 h2 {
+    .about-main5 h3 {
         font-size: 30px !important;
         line-height: 38px !important;
         font-family: 'Poppins', sans-serif;
@@ -72655,7 +72656,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         align-items: center
     }
 
-    .android-fun1 h2 {
+    .android-fun1 h3 {
         text-align: center
     }
 
@@ -72795,7 +72796,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         line-height: 38px
     }
 
-    .android-fun1 h2 {
+    .android-fun1 h3 {
         font-size: 30px;
         line-height: 38px
     }
@@ -72874,7 +72875,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         flex-direction: column
     }
 
-    .kickstart-sect h2 {
+    .kickstart-sect h3{
         font-size: 30px;
         line-height: 38px
     }
@@ -73948,7 +73949,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 60px 40px
     }
 
-    .custom-s h2 {
+    .custom-s h3 {
         font-size: 30px;
         line-height: 40px
     }
@@ -78746,7 +78747,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         margin: 20px 0px !important
     }
 
-    .about-main5 h2 {
+    .about-main5 h3 {
         font-size: 25px !important;
         line-height: 32px !important
     }
@@ -78770,7 +78771,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 14px !important
     }
 
-    .office-flex1 h2 {
+    .office-flex1 h3 {
         font-size: 25px !important;
         line-height: 32px !important
     }
@@ -79426,7 +79427,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         text-align: center
     }
 
-    .android-pflex h2 {
+    .android-pflex h3 {
         font-size: 40px;
         text-align: center
     }
@@ -79435,7 +79436,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 15px
     }
 
-    .kickstart-sect h2 {
+    .kickstart-sect h3 {
         font-size: 25px;
         line-height: 32px
     }
@@ -79483,7 +79484,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 60px 20px
     }
 
-    .android-fun1 h2 {
+    .android-fun1 h3 {
         font-size: 25px;
         line-height: 32px
     }
@@ -81176,7 +81177,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 60px 20px
     }
 
-    .custom-s h2 {
+    .custom-s h3 {
         font-size: 25px;
         line-height: 32px
     }
@@ -81868,7 +81869,7 @@ text-align: center;
         font-size: 14px
     }
 
-    .android-fun1 h2 {
+    .android-fun1 h3 {
         font-size: 25px;
         line-height: 32px
     }
@@ -81910,7 +81911,7 @@ text-align: center;
         text-align: center
     }
 
-    .android-pflex h2 {
+    .android-pflex h3 {
         font-size: 40px;
         text-align: center
     }
@@ -82348,7 +82349,7 @@ text-align: center;
         line-height: 26px
     }
 
-    .rdar_talk h2 {
+    .rdar_talk h3 {
         text-align: center
     }
 
@@ -83043,7 +83044,7 @@ text-align: center;
 
     #hemesh-services .services-content3 p,
     #hemesh-services .services-card-3 p,
-    #hemesh-services .services-content4 h2,
+    #hemesh-services .services-content4 h4,
     #hemesh-services .services-content4 h3,
     #hemesh-services .services-content4 p {
         max-width: 100%;
@@ -83899,7 +83900,7 @@ article h4 {
         margin-top: 30px !important;
     }
 
-    .rdar_talk h2 {
+    .rdar_talk h3 {
         text-align: center;
     }
 
@@ -83952,7 +83953,7 @@ article h4 {
         padding: 30px 20px !important;
     }
 
-    .custom-s h2 {
+    .custom-s h3 {
         font-size: 22px !important;
         line-height: 28px !important;
     }
@@ -83989,7 +83990,7 @@ article h4 {
         margin-top: 15px !important;
     }
 
-    .tech-stackkk h2 {
+    .tech-stackkk h4 {
         font-size: 25px !important;
         line-height: 32px !important;
     }
@@ -84002,7 +84003,7 @@ article h4 {
         display: block;
     }
 
-    .suris_tech_left h2 {
+    .suris_tech_left h3 {
         font-size: 25px;
         line-height: 32px;
     }
@@ -84013,7 +84014,7 @@ article h4 {
         margin-top: 30px !important;
     }
 
-    .our-ecommmmm h2 {
+    .our-ecommmmm h3 {
         font-size: 25px !important;
         line-height: 32px !important;
     }
@@ -84024,7 +84025,7 @@ article h4 {
         margin-top: 30px !important;
     }
 
-    .rdar_talk h2 {
+    .rdar_talk h3 {
         font-size: 25px !important;
         line-height: 32px !important;
     }

@@ -240,7 +240,7 @@ const About2 = ({ notify }) => {
         </div>
         <div className="about-main-3">
           <div className="about-main-31 flex justify-between dine-123">
-            <h2>What We Do?</h2>
+            <h3>What We Do?</h3>
             <p>
               As a leading ecommerce web development agency, we remain committed to help our clients to establish their online presence and increase visibility through SEO, content marketing, social media management and paid advertising.
             </p>
@@ -248,9 +248,9 @@ const About2 = ({ notify }) => {
         </div>
         <div className="about-main4">
           <div className="about-main41 dine-1234">
-            <h2 className="text-white text-center">
+            <h3 className="text-white text-center">
               Be Fair With Today to build
-            </h2>
+            </h3>
             <h3 className="text-white text-center">desired tomorrow</h3>
             <div className="about4 flex justify-center">
               <div className="about41 text-center mr-1">
@@ -272,7 +272,7 @@ const About2 = ({ notify }) => {
         </div>
         <div className="about-main5">
           <div className="about-main51 dine-1234">
-            <h2 className="text-center">Our Values</h2>
+            <h3 className="text-center">Our Values</h3>
             <p className="over">
               Over the past 10 Years our values have been the driving force that{" "}
               <br /> keeps us on right path
@@ -320,174 +320,6 @@ const About2 = ({ notify }) => {
             </div>
           </div>
         </div>
-
-
-        {/* <div className="about-main7 dine-1234">
-          <h2 className="text-center okkkk">Meet Our Team</h2>
-          <div className="about-main71 flex flex-wrap  justify-center">
-            <div className="about72">
-              <div className="about7 relative">
-                <img src={shubhamGupta} alt="CEO shubhamGupta-kusheldigi" title="CEO shubhamGupta-kusheldigi" />
-                <div className="absolute flex flex-col">
-                  <div className="chief">
-                    <h3 className="text-center">CHIEF</h3>
-                    <div className="flex linkj1  items-center justify-center">
-                      <a
-                        target="_blank"
-                        href="https://www.linkedin.com/in/shubham-gupta-digital/"
-                        rel="noopener"
-                      >
-                        <img className="linkj" src={link} alt="linkedin CEO" title="linkedin CEO" />
-                      </a>
-                      <a
-                        target="_blank"
-                        href="https://www.instagram.com/up15_wale_guptaji/"
-                        rel="noopener"
-                      >
-                        <img className="linkj" src={young3} alt="Insta CEO" title="Insta CEO" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h4>Shubham Gupta</h4>
-              <p>(CEO)</p>
-            </div>
-            <div className="about72">
-              <div className="about7 relative w-full">
-                <img src={sijo1} alt="BDM sijo-kusheldigi"  title="BDM sijo-kusheldigi"/>
-                <div className="absolute flex flex-col">
-                  <div className="chief">
-                    <h3 className="text-center">SALES</h3>
-                    <div className="flex linkj1  items-center justify-center">
-                      <a
-                        target="_blank"
-                        href="https://www.linkedin.com/in/sijo-jose-5b56b651/"
-                        rel="noopener"
-                      >
-                        <img className="linkj" src={link} alt="linkedin bdm" title="linkedin bdm" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h4>Sijo Jose</h4>
-              <p>Business Development Manager</p>
-            </div>
-            <div className="about72">
-              <div className="about7 relative w-full">
-                <img src={chiragNegi} alt="Manager chiragNegi-kusheldigi" title="Manager chiragNegi-kusheldigi" />
-                <div className="absolute flex flex-col">
-                  <div className="chief">
-                    <h3 className="text-center">MANAGER</h3>
-                    <div className="flex linkj1  items-center justify-center">
-                      <a
-                        target="_blank"
-                        href="https://www.linkedin.com/in/chirag-negi-423566255/"
-                        rel="noopener"
-                      >
-                        <img className="linkj" src={link} alt="linkedin-manager" title="linkedin-manager" />
-                      </a>
-                      <a
-                        target="_blank"
-                        href="https://www.instagram.com/chirag__2022/"
-                        rel="noopener"
-                      >
-                        <img className="linkj" src={young3} alt="insta manager" title="insta manager" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h4>Chirag Negi</h4>
-              <p>Administrative assistant</p>
-            </div>
-            <div className="about72">
-              <div className="about7 relative w-full">
-                <img src={asitMandal} alt="asitMandal senior developer-kusheldigi" title="asitMandal senior developer-kusheldigi" />
-                <div className="absolute flex flex-col">
-                  <div className="chief">
-                    <h3 className="text-center">DEVELOPER</h3>
-                    <div className="flex linkj1  items-center justify-center">
-                      <a
-                        target="_blank"
-                        href="https://www.linkedin.com/in/asit-mandal-059152214/"
-                        rel="noopener"
-                      >
-                        <img className="linkj" src={link} alt="linkedin-developer" title="linkedin-developer" />
-                      </a>
-                      <a
-                        target="_blank"
-                        href="https://github.com/Asit-website"
-                        rel="noopener"
-                      >
-                        <img className="linkj" src={github} alt="github-developer" title="github-developer" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h4>Asit Mandal</h4>
-              <p>Developer</p>
-            </div>
-           
-
-            <div className="about72">
-              <div className="about7 relative">
-                <img src={akashNegi} alt="akashNegi UI/UX Designer-kusheldigi" title="akashNegi UI/UX Designer-kusheldigi" />
-                <div className="absolute flex flex-col">
-                  <div className="chief">
-                    <h3 className="text-center">ECOMMERCE SPECIALIST</h3>
-                    <div className="flex linkj1  items-center justify-center">
-                      <a
-                        target="_blank"
-                        href="https://www.linkedin.com/in/akash-negi-6a89a2199/"
-                        rel="noopener"
-                      >
-                        <img className="linkj" src={link} alt="linkedin-UIUX"  title="linkedin-UIUX"/>
-                      </a>
-                      <a
-                        target="_blank"
-                        href="https://www.instagram.com/art_beast_creative/"
-                        rel="noopener"
-                      >
-                        <img className="linkj" src={young3} alt="insta UIUX" title="insta UIUX" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h4>Akash Negi</h4>
-              <p>UI / UX Designer</p>
-            </div>
-            <div className="about72">
-              <div className="about7 relative w-full">
-                <img src={surbhi} alt="surbhi senior developer-kusheldigi"  title="surbhi senior developer-kusheldigi"/>
-                <div className="absolute flex flex-col">
-                  <div className="chief">
-                    <h3 className="text-center">DEVELOPER</h3>
-                    <div className="flex linkj1  items-center justify-center">
-                      <a
-                        target="_blank"
-                        href="https://www.linkedin.com/in/surbhi-rajwanshi-89b829209"
-                        rel="noopener"
-                      >
-                        <img className="linkj" src={link} alt="linkedin senior dev" title="linkedin senior dev" />
-                      </a>
-                   
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h4>Surbhi Rajwanshi</h4>
-              <p>Developer</p>
-            </div>
-          </div>
-        </div> */}
-
-
-        {/* =========bhfbfhf[=========] */}
-
         <div className="about-main6 dine-1234">
           <div className="about-main61">
             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990253/e12_pklnpa.png' alt="Our Core Values" title="Our Core Values" />
@@ -516,7 +348,7 @@ const About2 = ({ notify }) => {
           </div>
           <div className="office-flex mt-5">
             <div className="office-flex1">
-              <h2>Our Office</h2>
+              <h3>Our Office</h3>
               <p>
                 Our office is fully equipped with the latest technology and system which enables our expert professionals to deliver your project efficiently.
 

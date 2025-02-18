@@ -54,7 +54,7 @@ function BigSection3() {
 
         <div className="bigcosec3cont">
 
-            {/* <h2>Our BigCommerce <span>Web Development</span> Services</h2> */}
+           
             <h2>OUR BIGCOMMERCE SERVICES FOR YOUR BUSINESS GROWTH
             </h2>
 
