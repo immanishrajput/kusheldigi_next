@@ -49452,7 +49452,7 @@ width: 450px;
   padding-top: 100px
 }
 
-.process_bigt h2 {
+.process_bigt h3 {
   color: #33475b;
   font-size: 34px;
   font-weight: 700;
@@ -50180,7 +50180,7 @@ width: 450px;
   width: 100%
 }
 
-.magento_services2 h2 {
+.magento_services2 h3 {
   color: #33475b;
   font-weight: 700;
   font-size: 34px;
@@ -50416,7 +50416,7 @@ width: 450px;
   position: relative
 }
 
-.woo_comerce_dev h2 {
+.woo_comerce_dev h3{
   font-weight: 500;
   font-size: 34px;
   line-height: 46px;
@@ -50594,14 +50594,14 @@ width: 450px;
   padding: 0 25px
 }
 
-.solution_test_box h2 {
+.solution_test_box h3 {
   font-size: 48px;
   font-weight: 600;
   color: #33475b;
   padding: 0 40px
 }
 
-.solution_test_box h2 {
+.solution_test_box h3 {
   font-size: 48px;
   font-weight: 600;
   color: #33475b;
@@ -52769,7 +52769,7 @@ width: 450px;
   display: none !important
 }
 
-.php_port h2 {
+.php_port h3 {
   width: 615px;
   margin: 0 auto;
   color: #33475b !important;
@@ -63602,7 +63602,7 @@ option {
     padding: 60px 100px
 }
 
-.server_megy h2 {
+.server_megy h3{
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -71261,7 +71261,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 30px !important
     }
 
-    .server_megy h2 {
+    .server_megy h3{
         font-size: 30px !important;
         line-height: 38px !important
     }
@@ -71539,7 +71539,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         line-height: 38px !important
     }
 
-    .php_port h2 {
+    .php_port h3{
       width: 100%;
         font-size: 30px !important;
         line-height: 38px !important
@@ -71611,7 +71611,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 38px
     }
 
-    .solution_test_box h2 {
+    .solution_test_box h3 {
         font-size: 38px
     }
 
@@ -71655,7 +71655,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 60px 40px
     }
 
-    .magento_services2 h2 {
+    .magento_services2 h3 {
         font-size: 30px;
         line-height: 38px
     }
@@ -71669,7 +71669,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 60px 40px
     }
 
-    .woo_comerce_dev h2 {
+    .woo_comerce_dev h3{
         font-size: 30px !important;
         line-height: 38px !important
     }
@@ -71704,7 +71704,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 16px
     }
 
-    .process_bigt h2 {
+    .process_bigt h3 {
         font-size: 30px;
         line-height: 38px
     }
@@ -78301,7 +78301,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 30px 20px !important
     }
 
-    .server_megy h2 {
+    .server_megy h3{
         font-size: 25px !important;
         line-height: 32px !important
     }
@@ -78469,7 +78469,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 60px 20px
     }
 
-    .magento_services2 h2 {
+    .magento_services2 h3 {
         font-size: 25px;
         line-height: 32px
     }
@@ -78483,7 +78483,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 60px 20px
     }
 
-    .woo_comerce_dev h2 {
+    .woo_comerce_dev h3{
         font-size: 25px !important;
         line-height: 32px !important
     }
@@ -78524,7 +78524,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 14px
     }
 
-    .process_bigt h2 {
+    .process_bigt h3{
         text-align: center;
         font-size: 25px;
         line-height: 32px
@@ -78585,7 +78585,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         line-height: 22px !important
     }
 
-    .php_port h2 {
+    .php_port h3{
       width: 100%;
         font-size: 25px !important;
         line-height: 32px !important
@@ -81460,10 +81460,10 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .magento_services {
-        padding: 40px 20px
+        padding: 40px 20px;
     }
 
-    .magento_services2 h2 {
+    .magento_services2 h3 {
         font-size: 25px;
         line-height: 32px
     }
@@ -81477,7 +81477,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 60px 20px
     }
 
-    .woo_comerce_dev h2 {
+    .woo_comerce_dev h3{
         font-size: 25px !important;
         line-height: 32px !important
     }
@@ -81503,7 +81503,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 14px
     }
 
-    .process_bigt h2 {
+    .process_bigt h3 {
         font-size: 25px;
         line-height: 32px;
         text-align: center
@@ -81672,7 +81672,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         line-height: 32px !important
     }
 
-    .php_port h2 {
+    .php_port h3{
       width: 100%;
         font-size: 25px !important;
         line-height: 32px !important

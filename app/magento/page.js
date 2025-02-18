@@ -206,10 +206,10 @@ const Magento = () => {
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724838301/misad.3aa7b4591532192d6ecb_kazph7.png" alt="Magento ecommerce solutions" title="Magento ecommerce solutions" />
           </div>
           <div className="magento_services2">
-            <h2>
+            <h3>
               {" "}
               Why<span> Magento E-commerce</span> Solution  is better to choose?
-            </h2>
+            </h3>
             <p>
               Pick Magento as your ecommerce solution and you have got many benefits to enjoy. To begin with, it offers a highly customizable platform which lets businesses develop their online shops according to their special needs and brand identities. Magento provides a powerful set of capabilities, such as best catalogue management, flexible product options, and strong marketing tools which enable businesses to develop truly immersive stores. Furthermore, it is scalable and can therefore flexibly meet your growing needs, allowing it to accommodate higher traffic and transactions without burdening the performance.
 
@@ -220,7 +220,7 @@ const Magento = () => {
 
 
         <div className="server_megy">
-          <h2>Magento Development Services</h2>
+          <h3>Magento Development Services</h3>
           <div className="server_merging">
             <div className="server_mergs">
               <div className="server_meg">
@@ -267,7 +267,7 @@ const Magento = () => {
 
         <div className="php_portfolio">
           <div className="php_port php_oty">
-            <h2 className="our_php">Why Choose <span>Kushel Digi Magento </span>Development Services?  </h2>
+            <h3 className="our_php">Why Choose <span>Kushel Digi Magento </span>Development Services?  </h3>
           </div>
         </div>
 
@@ -357,16 +357,9 @@ const Magento = () => {
           </div>
         </div>
 
-
-
-
-
-
-
-
-        <div className="php_portfolio">
+ <div className="php_portfolio">
           <div className="php_port">
-            <h2 className="our_php">Our <span>Megento</span>  Web Development <span>Portfolio</span> </h2>
+            <h3 className="our_php">Our <span>Megento</span>  Web Development <span>Portfolio</span> </h3>
           </div>
         </div>
         <div className="gting">
@@ -390,7 +383,7 @@ const Magento = () => {
                   <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724838765/Group_1000007518_1_ui4ia1.png" alt="Semi-annual" title="Semi-annual" />
                   <div className="headst_big">
                     <h3>Semi-annual<br />sale</h3>
-                    {/* <h2>recoil pads</h2> */}
+                
                   </div>
                   <div className="kickma-arrow view-web">
                     {/* <p>View Website</p> */}
@@ -488,142 +481,7 @@ const Magento = () => {
 
         <ContactForm1 />
 
-        {/* <div className="home9 py-20 bigcom9">
-          <div className="home91 px-20 dine-1234">
-            <div className="home911 text-center">
-              <h2 className="font-bold text-gray-700">Frequently Asked<br /> Questions</h2>
-            </div>
-            <div className="home912 FAQ-1">
-              <Accordion allowZeroExpanded>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      Why is Magento a popular choice for e-commerce development?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Magento is chosen for flexibility, scalability, and extensive customization options.
-
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      Give some examples of Magento e-commerce websites developed?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Certainly! Our portfolio includes successful Magento e-commerce websites.
-
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      Do you provide both Magento 1 and Magento 2 development services?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Yes, our agency offers development services for both Magento 1 and Magento 2, including migration.                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      What are the advantages of using Magento for e-commerce development?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Magento offers a wide range of features, extensions, themes, multi-store capability, mobile responsiveness, and robust SEO.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      Do you provide integration of third-party extensions and APIs into Magento stores?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Yes, our developers have experience integrating various third-party extensions and APIs for enhanced functionality.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      Do you provide Post-launch support and upgrades for Magento websites?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Yes, we provide ongoing support and maintenance to keep your Magento website secure and up-to-date.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      Do you give assistance with data migration to Magento?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Yes, we can help seamlessly migrate data from your existing e-commerce platform to Magento.                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem> <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      How is the security of Magento websites ensured?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      We prioritise security through SSL certificates, secure payment gateways, and regular security audits.
-
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem> <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      What is the cost structure for Magento development projects?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Costs vary based on project specifics; we provide a transparent cost estimate during the initial consultation.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem> <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      How to get started with hiring your Magento development agency?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Simply reach out to us through our contact form, email, or phone, and our team will guide you through the process.
-
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-              </Accordion>
-            </div>
-          </div>
-        </div> */}
+       
            <MagentoFAQ/>
 
 

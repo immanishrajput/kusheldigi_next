@@ -150,7 +150,7 @@ const WooCommerce = () => {
 
         <div className="woo-comercc">
           <div className="woo_comerce_dev dine-1234">
-            <h2>Woo Commerce Development Services We Offer</h2>
+            <h3>Woo Commerce Development Services We Offer</h3>
             <div className="mt-2">
               <p className="at_kushel">Kushel Digi offer a wide selection of WooCommerce development services to meet your particular requirements. Among our specialties are:</p>
             </div>
@@ -270,7 +270,7 @@ const WooCommerce = () => {
 
         <div className="processs-bg">
           <div className="process_bigt dine-1234">
-            <h2>Process We Follow</h2>
+            <h3>Process We Follow</h3>
             <div className="paperbox">
               <div
                 className="first1 first11"
@@ -383,7 +383,7 @@ const WooCommerce = () => {
           <div className="solution_test_card">
             <div className="solution_test_box">
               <h5>Solution for</h5>
-              <h2>Enterprise</h2>
+              <h3>Enterprise</h3>
               <div>
                 {/* <img src={enterprise} alt="enterprise" title="Enterprise" /> */}
                 <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724840423/enterprise.1d1658deae918eb02c43_nhq7at.png
@@ -406,7 +406,7 @@ const WooCommerce = () => {
             </div>
             <div className="solution_test_box soution_test_box1">
               <h5>Solution for</h5>
-              <h2>Startup</h2>
+              <h3>Startup</h3>
               <div>
                 {/* <img src={startups1} alt="kusheldigi startups" title="Startup" /> */}
                 <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724840422/download_kuzsbz.png" alt="kusheldigi startups" title="Startup" />
@@ -437,83 +437,6 @@ const WooCommerce = () => {
         </div>
 
         <ContactForm1 />
-
-        {/* <div className="home9 py-20 bigcom9">
-          <div className="home91 px-20 dine-1234">
-            <div className="home911 text-center">
-              <h2 className="font-bold text-gray-700">Frequently Asked<br /> Questions</h2>
-            </div>
-            <div className="home912 FAQ-1">
-              <Accordion allowZeroExpanded>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      Why choose Kushel Digi for Woocommerce development in India?                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Our expertise ensures top-notch solutions tailored to your Woocommerce needs.
-
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      How to get budget-friendly Woocommerce services in India?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Explore cost-effective solutions achieved through optimised processes and technologies.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      What advantages does React Native bring to Woocommerce mobile app development?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      React Native ensures cross-platform compatibility, delivering efficient and cost-effective mobile shopping experiences.
-
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      What key features contribute to a successful Woocommerce website?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      A user-friendly interface, secure payments, responsive design, robust inventory, and seamless navigation are essential.
-
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      Why is mobile responsiveness crucial for a successful Woocommerce site?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Critical for enhancing user satisfaction and boosting conversion rates in the mobile shopping experience.
-
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-              </Accordion>
-            </div>
-          </div>
-        </div> */}
         <WooCommereceFAQ/>
 
 

@@ -192,7 +192,7 @@ const generateMetadata = ({ params }) => ({
         <div className="ser1 serji serji1 ">
           <div className="ser11  flex items-center justify-between webDoveeee dine-123">
             <div className="ser111 webbb-paraag">
-              {/* <h2 className="seru"></h2> */}
+          
               <h1 className="blue change_web" id="change_x">Web development services to lead<br /> the industry</h1>
               <p className="ac">
                 Solution based Web development services to skyrocket the growth
@@ -621,7 +621,7 @@ const generateMetadata = ({ params }) => ({
         <div className="home5     poty poty1">
           <div className="home51 px-24 dine-1234">
             <div className="home511 text-center ">
-              <h2 className="font-bold mb-2 mt-4">OUR PORTFOLIO</h2>
+              <h3 className="font-bold mb-2 mt-4">OUR PORTFOLIO</h3>
             </div>
 
 
@@ -823,86 +823,6 @@ const generateMetadata = ({ params }) => ({
         </div>
         {/* <Certified /> */}
 
-        {/* <div className="home9 mb-12 home278">
-          <div className="home91 px-24 dine-1234">
-            <div className="home911 text-center">
-              <h2 className="font-bold text-gray-700">Frequently Asked<br /> Questions</h2>
-            </div>
-            <div className="home912 FAQ-1">
-              <Accordion allowZeroExpanded>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      Why Kushel Digi for US web development?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Approximately 89% of consumers prefer to browse websites before making a purchase, according to recent research. Therefore, websites can be a great way to increase the number of people who see your business.
-
-                      A well-designed website can boost sales, enhance brand awareness, and draw in new customers for the company. A seasoned web development firm understands how to make a website that is easy to use and converts effectively. Your website can be made to be both user- and search engine-friendly by Kushel Didi Solutions' team of skilled website developers, graphic designers, content writers, and SEO specialists.
-
-
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      What sets Kushel Digi apart in web development?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Kushel Digi differentiates itself through unwavering dedication to innovation, client-centric practices, and a proficient team committed to delivering customised, high-quality solutions.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      How does Kushel Digi ensure cutting-edge solutions?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Kushel Digi ensures cutting-edge solutions by staying abreast of the latest technologies, incorporating industry best practices, and maintaining an unwavering focus on client satisfaction.
-
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      Key factors for choosing a web development provider?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      When selecting a web development provider, it's essential to consider factors such as expertise, client reviews, and alignment with your business needs and goals.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                      Insights into the latest USA web development trends?
-
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Stay informed about the latest trends in USA web development by exploring industry publications, participating in conferences, and actively engaging with online communities for valuable insights.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-              </Accordion>
-            </div>
-          </div>
-        </div> */}
         <WebdevelopmentFAQ/>
 
         <ContactForm notify={notify} />
