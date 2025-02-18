@@ -86,7 +86,7 @@ function BlogDetails() {
         <div className="blode2cont">
           <div className="blode2leftcon">
             <div>
-              <img src={data?.img} alt="kushel" className="blogdtaimgmain" />
+              {/* <img src={data?.img} alt="kushel" className="blogdtaimgmain" /> */}
               <div className="blogbantitle">{data?.title}</div>
             </div>
             <div className="authodetail">

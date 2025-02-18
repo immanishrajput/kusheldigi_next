@@ -93,6 +93,15 @@ export default function RootLayout({ children }) {
           __html: JSON.stringify(jsonLd),
         }}
       />
+       <script async src={`https://www.googletagmanager.com/gtag/js?id=G-K7DSK87RV0`}></script>
+        <script dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-K7DSK87RV0', { page_path: window.location.pathname });
+          `
+        }} />
       <body>{children}</body>
     </html>
   );

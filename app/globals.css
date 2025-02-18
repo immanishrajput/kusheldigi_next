@@ -84663,7 +84663,7 @@ textarea {
 .blogbantitle {
     width: 100%;
     height: fit-content;
-    background: #1566FF;
+    /* background: #1566FF; */
     display: flex;
     align-items: center;
     padding: 5px 0px 5px 20px;
@@ -84672,7 +84672,7 @@ textarea {
     font-weight: 600;
     line-height: 27px;
     text-align: left;
-    color: white;
+    color: black;
 
 }
 
