@@ -93,7 +93,7 @@ export default function RootLayout({ children }) {
           __html: JSON.stringify(jsonLd),
         }}
       />
-       <script async src={`https://www.googletagmanager.com/gtag/js?id=G-K7DSK87RV0`}></script>
+       <Script async src={`https://www.googletagmanager.com/gtag/js?id=G-K7DSK87RV0`}></Script>
         <script dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];

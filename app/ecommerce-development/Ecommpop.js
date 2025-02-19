@@ -5,7 +5,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 // import OutsideClickHandler from "react-outside-click-handler";
 // import OutsideClickHandler from 'react-outside-click-handler';
 import Head from 'next/head';
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const Ecommpop = ({setPop, notify = (type, message)=> console.log(type, message)}) => {
   const [user, setUser] = useState({
@@ -191,9 +191,9 @@ const Ecommpop = ({setPop, notify = (type, message)=> console.log(type, message)
   required
 />
                       <hr />
-                    <a href="/success"> <button><span>Submit</span><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                    <Link href="/success"> <a><button><span>Submit</span><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                         <path d="M8.46817 16.883L7.04466 15.4803L12.6388 9.86957H0.476562V7.86573H12.6388L7.04466 2.25498L8.46817 0.852295L16.4598 8.86765L8.46817 16.883Z" fill="white" />
-                      </svg></button></a> 
+                      </svg></button> </a></Link> 
 
                     </div>
                   </form>
