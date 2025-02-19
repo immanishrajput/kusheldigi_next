@@ -271,7 +271,7 @@ const Service = () => {
                   </div>
                   <div className="services-card-theory">
                     <p>
-                      cordinate , grapple and impregnable your business
+                      cordinate, grapple and impregnable your business
                       -critical content effectively with our enterprise content
                       management service.
                     </p>
@@ -438,7 +438,7 @@ const Service = () => {
                   it is indigene or cross platform ,and can seamster them to
                   your specific customization and requirements.
                 </p>
-                <Link href="native"><h3>Read More</h3></Link>
+                <Link href="mobile-application-development"><h3>Read More</h3></Link>
                 <div className="underline1">
                   <hr />
                 </div>

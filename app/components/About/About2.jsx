@@ -614,7 +614,7 @@ const About2 = ({ notify }) => {
                 Innovate with the latest technologies & get to work on some of
                 the coolest projects you can imagine.
               </p>
-              <Link href="/career" className="buttann">
+              <Link href="/contact-us" className="buttann">
                 <button>Apply Now</button>
               </Link>
             </div>

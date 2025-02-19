@@ -369,7 +369,7 @@ const handleRemoveCategory = () => {
                   <h4
                     className="cursor-pointer"
                     onClick={() => {
-                      router.push(`/blogdetail/${data?._id}`);
+                      router.push(`/blogdetails/${data?._id}`);
                     }}
                   >
                     {data?.title?.length > 50

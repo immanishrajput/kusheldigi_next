@@ -294,7 +294,7 @@ const generateMetadata = ({ params }) => ({
               <div className="android-usas1">
                 <div className="android-usast1 w-full">
                   <h3>1</h3>
-                  <p>multi-platform presence</p>
+                  <p>Multi-platform presence</p>
                 </div>
 
                 <div className="android-usast1 android-usast2 w-full">

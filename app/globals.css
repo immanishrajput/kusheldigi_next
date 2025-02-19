@@ -23789,7 +23789,7 @@ color: #33475B;
 
 }
 .addwidths{
-    width: 28%;
+    width: 19%;
 
 }
 .singnum span{
@@ -27803,8 +27803,8 @@ color: #0E151D;
 }
 
 .singles1item img {
-    max-width: 48px;
-    max-height: 48px
+    width: 48px;
+    height: 48px
 }
 
 .itemdata {
@@ -48319,7 +48319,7 @@ width: 450px;
   height: 250px;
   max-height: 100%;
   width: 100%;
-  padding: 20px 0
+  /* padding: 20px 0 */
 }
 
 .box-kotlin h4 {
@@ -60331,6 +60331,7 @@ option {
 }
 
 #hemesh-services .services-content h1 {
+  text-align: center;
   font-family: 'Poppins', sans-serif !important;
   font-size: 30px;
   font-weight: 600;
@@ -60339,6 +60340,8 @@ option {
 }
 
 #hemesh-services .services-content p {
+  margin: 0 auto;
+
   max-width: 35em;
   font-family: 'Poppins', sans-serif !important;
   width: 100%;
@@ -60346,7 +60349,7 @@ option {
   font-weight: 300;
   color: #fff;
   padding-top: 10px;
-  text-align: left;
+  text-align: center;
 }
 
 #hemesh-services .services1 {
@@ -60534,8 +60537,8 @@ option {
   display: flex;
   justify-content: center;
   font-family: 'Poppins', sans-serif !important;
-  gap: 30px;
-  padding-top: 20px
+  gap: 25px;
+  padding-top: 25px
 }
 
 #hemesh-services .services-cards-main-content {
@@ -60543,7 +60546,7 @@ option {
   font-family: 'Poppins', sans-serif !important;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   text-align: start;
   align-items: start;
   background-color: #fff
@@ -60678,6 +60681,7 @@ option {
 }
 
 #hemesh-services .services-card-3 p {
+  color: #404040;
   font-size: 15px;
   font-weight: 500;
   font-family: 'Poppins', sans-serif !important;

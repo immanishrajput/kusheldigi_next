@@ -5,6 +5,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 // import OutsideClickHandler from "react-outside-click-handler";
 // import OutsideClickHandler from 'react-outside-click-handler';
 import Head from 'next/head';
+import { Link } from "react-router-dom";
 
 const Ecommpop = ({setPop, notify = (type, message)=> console.log(type, message)}) => {
   const [user, setUser] = useState({
@@ -95,16 +96,22 @@ const Ecommpop = ({setPop, notify = (type, message)=> console.log(type, message)
                         Let us know your requirements and we’ll get back to you as
                         soon as possible
                       </p>
-                      <select name="technology" id="technology" value={user.technology} onChange={handleChange}>
-                        <option>What technology Are you looking for*?</option>
-                        <option>SHOPIFY</option>
-                        <option>WOO COMMERCE</option>
-                        <option>BIG COMMERCE</option>
-                        <option>MAGENTO</option>
-                        <option>WORDPRESS</option>
-                        {/* <option>Graphic Design</option>
-                        <option>Staff Augmntation</option> */}
-                      </select>
+                      
+                      <select
+                             name="technology"
+                                  id="technology"
+                     value={user.technology}
+           onChange={handleChange}
+                  required>
+                             <option value="" disabled>
+                              What technology are you looking for?*
+                              </option>
+               <option value="SHOPIFY">SHOPIFY</option>
+                   <option value="WOO COMMERCE">WOO COMMERCE</option>
+              <option value="BIG COMMERCE">BIG COMMERCE</option>
+                <option value="MAGENTO">MAGENTO</option>
+                <option value="WORDPRESS">WORDPRESS</option>
+                            </select>
                       <hr />
                       {/* <select name="products" id="products" value={user.products} onChange={handleChange}>
                         <option>How many products*?</option>
@@ -114,17 +121,49 @@ const Ecommpop = ({setPop, notify = (type, message)=> console.log(type, message)
                       </select> */}
                         <input id="products" value={user.products} name="products" onChange={handleChange} type="number" placeholder="How many products" required/>
                       <hr />
-                      <input value={user.Estore} name="Estore" onChange={handleChange} type="text" placeholder="Any current E-store?" required />
+                      {/* <input value={user.Estore} name="Estore" onChange={handleChange} type="text" placeholder="Any current E-store?" required/> */}
+                      <input
+                          value={user.Estore}
+                             name="Estore"
+                   onChange={(e) => {
+                const regex = /^[a-zA-Z\s]*$/; 
+                              if (regex.test(e.target.value)) {
+                                handleChange(e); 
+                               }
+                                           }}
+  type="text"
+  placeholder="Any current E-store?"
+  required
+/>
                       <hr />
-                      <input value={user.name6} name="name6" onChange={handleChange} type="text" placeholder="Name*" maxLength="32" required/>
+                      
+  
+                      <input value={user.name6} name="name6"  onChange={(e) => {
+                const regex = /^[a-zA-Z\s]*$/; 
+                              if (regex.test(e.target.value)) {
+                                handleChange(e); 
+                               }
+                                           }} type="text" placeholder="Name*" maxLength="32" required/>
                       <hr />
-                      <input value={user.mobile6} name="mobile6" onChange={handleChange} type="number" maxLength="10" placeholder="Mobile*" required/>
+                      {/* <input value={user.mobile6} name="mobile6" onChange={handleChange} type="tel" maxLength="10" placeholder="Mobile*" required/> */}
+                      <input value={user.mobile6} name="mobile6" onChange={(e) => {
+                          const value = e.target.value;
+                         if (/^\d{0,10}$/.test(value)) {
+                            handleChange(e);
+                                  }
+                                 }}
+                        type="tel"
+                  maxLength="10"
+                placeholder="Mobile*"
+            pattern="\d{10}"  
+                     required
+                           />
                       <hr />
                       <input value={user.email6} name="email6" onChange={handleChange} type="email" placeholder="Email*" required/>
                       <hr />
-                      <button><span>Submit</span><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                    <a href="/success"> <button><span>Submit</span><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                         <path d="M8.46817 16.883L7.04466 15.4803L12.6388 9.86957H0.476562V7.86573H12.6388L7.04466 2.25498L8.46817 0.852295L16.4598 8.86765L8.46817 16.883Z" fill="white" />
-                      </svg></button>
+                      </svg></button></a> 
 
                     </div>
                   </form>

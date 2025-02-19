@@ -32,7 +32,7 @@ const data = [
     title: "Website Design & Development",
     para: "Kushel Digi known for designing highly functional websites that will increase your online presence.",
     showImg:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739013618/webdesignand_aywfy3.webp',
-    link: "/graphic-design",
+    link: "/web-development",
   },
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1724767148/Group_1171275911_fpvash.png",
@@ -46,7 +46,7 @@ const data = [
     title: "Creative and Design",
     para: "We are committed to grow your brand's visibility and engagement with focused digital marketing strategies.",
     showImg:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739013649/createdesign_yha69i.webp',
-    link: "Slidesdesign",
+    link: "/graphic-design",
   },
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1724767149/Group_1171275917_jmaua6.png",
