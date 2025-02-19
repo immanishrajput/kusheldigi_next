@@ -84,7 +84,7 @@ const ContactForm = ({ notify }) => {
               <div className=" flex items-start common-form">
                 <div className="first-form">
                   <div className="form-field">
-                    <input
+                    {/* <input
                       required
                       name="name2"
                       value={user.name2}
@@ -92,10 +92,27 @@ const ContactForm = ({ notify }) => {
                       type="text"
                       placeholder="Name*"
                       maxLength="32"
-                    />
+                    /> */}
+                    <input
+  required
+  name="name2"
+  value={user.name2}
+  onChange={(e) => {
+    const { value } = e.target;
+
+    const regex = /^[A-Za-z]+(?: [A-Za-z]*)?$/;
+
+    if (value === "" || regex.test(value)) {
+      setUser((prev) => ({ ...prev, name2: value }));
+    }
+  }}
+  type="text"
+  placeholder="Name*"
+  maxLength="32"
+/>
                   </div>
                   <div className="form-field mt-5">
-                    <input
+                    {/* <input
                       id="funts"
                       // onKeyUp={funt}
                       maxLength="10"
@@ -108,17 +125,49 @@ const ContactForm = ({ notify }) => {
                       required
                       title="Please enter a 10-digit phone number "
                       placeholder="Phone number*"
-                    />
+                    /> */}
+                    <input
+  id="funts"
+  maxLength="10"
+  name="phone2"
+  value={user1.phone2}
+  onChange={(e) => {
+    const value = e.target.value.replace(/\s/g, ''); // Remove spaces if pasted
+    if (/^\d*$/.test(value)) { // Allow only digits
+      handleChange1({ target: { name: 'phone2', value } });
+    }
+  }}
+  onKeyDown={(e) => {
+    if (e.key === ' ') {
+      e.preventDefault(); // Prevent space input
+    }
+  }}
+  type="tel"
+  pattern="\d{10}"
+  required
+  title="Please enter a 10-digit phone number"
+  placeholder="Phone number*"
+/>
+
                   </div>
                   <div className="form-field mt-5">
-                    <input
+                    {/* <input
                       required
                       name="email2"
                       value={user.email2}
                       onChange={handleChange}
                       type="email"
                       placeholder="Email Address*"
-                    />
+                    /> */}
+                    <input
+  required
+  name="email2"
+  value={user.email2}
+  onChange={handleChange}
+  onInput={(e) => (e.target.value = e.target.value.replace(/\s/g, ""))}
+  type="email"
+  placeholder="Email Address*"
+/>
                   </div>
                 </div>
                 <div className="second-form">

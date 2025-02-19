@@ -137,9 +137,9 @@ const WooCommerce = () => {
           </div>
           <div className="magento_services2">
             <div>
-              <h2>
+              <h3>
                 Why Choose <span>WooCommerce</span>  Solution?
-              </h2>
+              </h3>
               <p>
                 There are numerous benefits to using WooCommerce for organisations wishing to enter the e-commerce space. First and foremost, WooCommerce is an incredibly adaptable and customisable platform that allows companies to build online stores with the functionality they require. Additionally, it has a strong integration with WordPress, a popular content management system (CMS) that provides a user-friendly interface for managing orders, goods, and content. Moreover, companies can utilise the extensive plugin ecosystem that comes with it to expand the functionality of their store while it continues to grow. Furthermore, WooCommerce is affordable since there are no setup costs and reasonably priced extensions available, making it a viable choice for even small businesses. Lastly, WooCommerce offers frequent upgrades and quite robust security features.
               </p>
@@ -150,7 +150,7 @@ const WooCommerce = () => {
 
         <div className="woo-comercc">
           <div className="woo_comerce_dev dine-1234">
-            <h3>Woo Commerce Development Services We Offer</h3>
+            <h2>Woo Commerce Development Services We Offer</h2>
             <div className="mt-2">
               <p className="at_kushel">Kushel Digi offer a wide selection of WooCommerce development services to meet your particular requirements. Among our specialties are:</p>
             </div>

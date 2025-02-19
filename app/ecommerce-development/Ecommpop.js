@@ -138,12 +138,29 @@ const Ecommpop = ({setPop, notify = (type, message)=> console.log(type, message)
                       <hr />
                       
   
-                      <input value={user.name6} name="name6"  onChange={(e) => {
+                      {/* <input value={user.name6} name="name6"  onChange={(e) => {
                 const regex = /^[a-zA-Z\s]*$/; 
                               if (regex.test(e.target.value)) {
                                 handleChange(e); 
                                }
-                                           }} type="text" placeholder="Name*" maxLength="32" required/>
+                                           }} type="text" placeholder="Name*" maxLength="32" required/> */}
+                                            <input
+  required
+  name="name6"
+  value={user.name6}
+  onChange={(e) => {
+    const { value } = e.target;
+
+    const regex = /^[A-Za-z]+(?: [A-Za-z]*)?$/;
+
+    if (value === "" || regex.test(value)) {
+      setUser((prev) => ({ ...prev, name6: value }));
+    }
+  }}
+  type="text"
+  placeholder="Name*"
+  maxLength="32"
+/>
                       <hr />
                       {/* <input value={user.mobile6} name="mobile6" onChange={handleChange} type="tel" maxLength="10" placeholder="Mobile*" required/> */}
                       <input value={user.mobile6} name="mobile6" onChange={(e) => {
@@ -159,7 +176,20 @@ const Ecommpop = ({setPop, notify = (type, message)=> console.log(type, message)
                      required
                            />
                       <hr />
-                      <input value={user.email6} name="email6" onChange={handleChange} type="email" placeholder="Email*" required/>
+                      {/* <input value={user.email6} name="email6" onChange={handleChange} type="email" placeholder="Email*" required/> */}
+                      <input
+  value={user.email6}
+  name="email6"
+  onChange={handleChange}
+  onKeyDown={(e) => {
+    if (e.key === ' ') {
+      e.preventDefault(); // Space enter hone se rokta hai
+    }
+  }}
+  type="email"
+  placeholder="Email*"
+  required
+/>
                       <hr />
                     <a href="/success"> <button><span>Submit</span><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                         <path d="M8.46817 16.883L7.04466 15.4803L12.6388 9.86957H0.476562V7.86573H12.6388L7.04466 2.25498L8.46817 0.852295L16.4598 8.86765L8.46817 16.883Z" fill="white" />

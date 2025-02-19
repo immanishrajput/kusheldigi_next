@@ -156,7 +156,7 @@ useEffect(() => {
                 </div>
 
                 <div className="wordpress_serv dine-1234">
-                    <h3> WHAT IS THE SIGNIFICANCEOF WEB DEVELOPMENT AT  <span>KUSHELDIGI?</span></h3>
+                    <h3> WHAT IS THE SIGNIFICANCE OF WEB DEVELOPMENT AT  <span>KUSHELDIGI?</span></h3>
                     <div className="word_parat">
                         <p>WordPress is the world’s most- used Website builder and powers website for Some of the biggest brands in the world.It is the best way to build a website, In a modular ecosystem. The most
                             Significant advantage of WordPress is It’s unmatched potential for scalability, This means as businesses advance Or expands,there will be a powerful Platform,that can meet the requirements For growth.</p>

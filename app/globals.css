@@ -5832,7 +5832,7 @@ animation-timing-function: ease-in-out;
   
   .first1>h5 {
     font-size: 17px;
-    padding-top: 20px;
+    padding-top: 11px;
     align-self: start;
     line-height: 22px;
     color: #33475b;
@@ -12918,14 +12918,15 @@ body{
     width: 100%
   }
   
-  #kushel-headless-commerce .headless-commerce-content P {
+  #kushel-headless-commerce .headless-commerce-content P{
+    text-align: center !important;
     font-size: 19px;
     font-weight: 500;
     line-height: 26px;
     color: #0E151D;
     max-width: 39em;
     width: 100%;
-    padding-top: 26px
+    padding-top: 26px;
   }
   
   #kushel-headless-commerce .headless-commerce-button-group {
@@ -12993,6 +12994,7 @@ body{
   }
   
   #kushel-headless-commerce .headless-commerce-content1 p {
+    text-align: center;
     font-size: 18px;
     font-weight: 500;
     line-height: 26px;
@@ -13066,6 +13068,7 @@ body{
   }
   
   #kushel-headless-commerce .headless-commerce-content2 p {
+    text-align: center;
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
@@ -13215,6 +13218,7 @@ body{
   }
   
   #kushel-headless-commerce .headless-commerce-cards2-column2 h3 {
+    text-align: center;
     font-size: 21px;
     font-weight: 600;
     line-height: 30px;
@@ -13224,6 +13228,7 @@ body{
   }
   
   #kushel-headless-commerce .headless-commerce-cards2-column2 p {
+    text-align: center;
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
@@ -13316,6 +13321,7 @@ body{
   }
   
   #kushel-headless-commerce .headless-commerce-cards-content-main4 p {
+    text-align: center;
     padding-top: 10px;
     font-size: 20px;
     font-weight: 600;
@@ -17975,6 +17981,7 @@ fill: #0B56E4 !important;
   }
   
   #kushel-next-js .kushel-next-js-content3 p {
+    text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -18001,7 +18008,8 @@ fill: #0B56E4 !important;
     font-size: 21px;
     font-weight: 700;
     line-height: 28px;
-    color: #33475B
+    color: #33475B;
+    margin-top: 10px;
   }
   
   #kushel-next-js .kushel-next-js-cards-content p {
@@ -18597,6 +18605,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
   
     #kushel-next-js .kushel-next-js-content3 p {
+
       font-size: 17px;
       line-height: 26px;
       max-width: 35em;
@@ -23730,7 +23739,7 @@ color: #33475B;
 }
 
 .bigs8single{
-    max-width: 300px;
+    width: 20%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -23789,7 +23798,7 @@ color: #33475B;
 
 }
 .addwidths{
-    width: 19%;
+    width: 20%;
 
 }
 .singnum span{
@@ -23822,6 +23831,7 @@ height: 64px;
 border-radius: 32px ;
 border: 1px solid #000000;
 margin: 0 auto;
+display: inline !important;
 
 }
 .discuprojectA{
@@ -24706,7 +24716,7 @@ gap: 20px;
     font-family: Poppins;
     font-size: 22px;
     font-weight: 500;
-    max-width: 90%;
+    /* max-width: 90%; */
     line-height: 32px;
     text-align: center;
 color: #222222;    
@@ -31291,7 +31301,7 @@ color: #33475B;
 }
 
 .bigs8single{
-    max-width: 300px;
+    max-width: 20%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -31347,7 +31357,7 @@ color: #33475B;
 
 }
 .addwidths{
-    width: 28%;
+    width: 20%;
 
 }
 .singnum span{
@@ -32301,7 +32311,7 @@ gap: 20px;
     font-family: Poppins;
     font-size: 22px;
     font-weight: 500;
-    max-width: 90%;
+    /* max-width: 90%; */
     line-height: 32px;
     text-align: center;
 color: #222222;    
@@ -40280,10 +40290,10 @@ width: 360px;
 .business-box h5 {
   margin-bottom: 13px;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500 !important;
   font-family: "Manrope", sans-serif !important;
-  color: #33475b
+  color: black;
 }
 
 .business-box p {
@@ -42246,6 +42256,7 @@ form button:hover {
 }
 
 .indu-box img {
+  height: 75px;
   width: 75px;
   display: block;
   margin: auto
@@ -44965,14 +44976,14 @@ font-family: 'sf-ui-display-medium', sans-serif !important;
   border: none;
   border-radius: 28px;
   color: #fff;
-  display: flex;
+  display: inline;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
   gap: 5px;
   justify-content: center;
   line-height: 24px;
-  padding: 16px 30px;
+  /* padding: 16px 30px; */
   text-align: center;
   dth: 278px;
   margin-top: 4rem
@@ -47886,7 +47897,7 @@ video {
   text-align: center;
   font-weight: 300;
   color: #33475b;
-  margin-top: 1rem
+  /* margin-top: 1rem */
 }
 
 .startup {
@@ -48551,7 +48562,7 @@ width: 450px;
   border: none;
   border-radius: 28px;
   color: #fff;
-  display: flex;
+  display:inline;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
@@ -49467,11 +49478,12 @@ width: 450px;
 }
 
 .process_bigt h3 {
+  text-align: center;
   color: #33475b;
   font-size: 34px;
   font-weight: 700;
-  line-height: 46px;
-  padding: 0 100px
+  line-height: 28px;
+  /* padding: 0 100px */
 }
 
 .why_bigt1 h2 {
@@ -49654,6 +49666,7 @@ width: 450px;
 }
 
 .megento_old3 h3 {
+text-align: center;
   font-size: 20px;
   line-height: 28px;
   font-weight: 600
@@ -50430,7 +50443,7 @@ width: 450px;
   position: relative
 }
 
-.woo_comerce_dev h3{
+.woo_comerce_dev h2{
   font-weight: 500;
   font-size: 34px;
   line-height: 46px;
@@ -51265,6 +51278,7 @@ width: 450px;
 }
 
 .php_ben1 button {
+  display: inline !important;
   font-family: 'sf-ui-display-medium',sans-serif !important;
   max-width: 270px;
   width: 100%;
@@ -53577,7 +53591,7 @@ width: 450px;
   border: none;
   border-radius: 28px;
   color: #fff;
-  display: flex;
+  display: inline;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
@@ -53799,7 +53813,7 @@ width: 450px;
   border: none;
   border-radius: 28px;
   color: #fff;
-  display: flex;
+  display: inline;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
@@ -56179,7 +56193,7 @@ width: 450px;
   border: none;
   border-radius: 28px;
   color: #fff;
-  display: flex;
+  display:inline;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
@@ -56360,7 +56374,7 @@ width: 450px;
 .processt_html_box {
   border: 1px solid #1265ff;
   width: 100%;
-  height: 270px;
+  height: 284px;
   max-height: 100%;
   padding: 13px;
   border-radius: 10px;
@@ -56385,7 +56399,8 @@ width: 450px;
   color: #33475b;
   font-weight: 700;
   font-size: 17px;
-  margin-left: 10px
+  margin-left: 10px;
+  margin-top: 8px;
 }
 
 .processt_html_box p {
@@ -56591,7 +56606,7 @@ width: 450px;
   border: none;
   border-radius: 28px;
   color: #fff;
-  display: flex;
+  display: inline;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
@@ -56694,6 +56709,7 @@ width: 450px;
 }
 
 .html_box h3 {
+  text-align: left;
   color: #33475b;
   font-size: 21px;
   font-style: normal;
@@ -56761,7 +56777,7 @@ width: 450px;
   box-shadow: 0 0 12px 0 rgb(0 0 0 / .1);
   display: flex;
   width: 346px;
-  height: 340px;
+  height: 372px;
   padding: 30px 30px 25px 30px;
   flex-direction: column;
   align-items: center;
@@ -57620,7 +57636,7 @@ width: 450px;
   box-shadow: 0 0 12px 0 rgb(0 0 0 / .1);
   display: flex;
   width: 346px;
-  height: 336px;
+  height: 351px;
   padding: 30px 30px 25px 30px;
   flex-direction: column;
   align-items: center;
@@ -57862,7 +57878,7 @@ width: 450px;
   border-radius: 20px;
   border: 1px solid;
   width: 435px;
-  height: 372px;
+  height: 385px;
   overflow-y: scroll;
   margin-left: 24px;
   margin-top: 25px;
@@ -57906,7 +57922,7 @@ width: 450px;
   font-size: 21px;
   font-style: normal;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 27px;
   margin-bottom: 8px;
   margin-top: 5px
 }
@@ -57917,7 +57933,8 @@ width: 450px;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 22px
+  line-height: 22px;
+  margin-top: 10px;
 }
 
 .node_dev_ss_serv span {
@@ -62727,6 +62744,7 @@ option {
 }
 
 .digi-packages .package-types p {
+  text-align: center;
     margin: auto;
     font-size: 19px;
     margin-top: 15px;
@@ -63575,7 +63593,8 @@ option {
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    margin-top: 10px
+    margin-top: 10px;
+    /* line-height: 40px; */
 }
 
 .megento_new3 p {
@@ -63583,8 +63602,9 @@ option {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px;
-    text-align: left !important
+    line-height: 24px;
+    text-align: left !important;
+    margin-top: 10px;
 }
 
 .g1-img {
@@ -63649,7 +63669,8 @@ option {
     font-size: 18.5px;
     font-style: normal;
     font-weight: 700;
-    line-height: 56px
+    line-height: 56px;
+    text-align: left;
 }
 
 .server_mergs p {
@@ -63721,7 +63742,7 @@ option {
 .server_meg_4 {
     width: 100%;
     padding: 22px 40px;
-    height: 338px;
+    height: 350px;
     max-width: 304px;
     background-color: #fff;
     box-shadow: 0 0 1px 1px #0C61FF
@@ -63730,7 +63751,7 @@ option {
 .server_meg_5 {
     width: 100%;
     padding: 22px 40px;
-    height: 338px;
+    height: 350px;
     max-width: 304px;
     background-color: #fff;
     box-shadow: 0 0 1px 1px #0C61FF
@@ -63739,7 +63760,7 @@ option {
 .server_meg_6 {
     width: 100%;
     padding: 22px 40px;
-    height: 338px;
+    height: 350px;
     max-width: 304px;
     background-color: #fff;
     box-shadow: 0 0 1px 1px #0C61FF
@@ -63781,7 +63802,7 @@ option {
 }
 
 .megento_old {
-    padding: 20px 100px 0 100px;
+    padding: 0px 100px 0 100px;
     text-align: center
 }
 
@@ -63813,7 +63834,7 @@ option {
     max-width: 311px;
     width: 100%;
     margin-right: 55px;
-    height: 212px
+    height: 235px
 }
 
 .megento_old3 h1 {
@@ -63826,6 +63847,8 @@ option {
 }
 
 .megento_old3 p {
+  margin-top: 10px;
+  text-align: center;
     color: #33475B;
     font-size: 16px;
     font-style: normal;
@@ -63883,12 +63906,12 @@ option {
     border-radius: 20px;
     border: 1px solid #000;
     width: 355px;
-    height: 370px;
+    height: 310px;
     margin-left: 30px;
     margin-top: 25px;
     padding: 15px;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     display: flex
 }
@@ -71693,7 +71716,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 60px 40px
     }
 
-    .woo_comerce_dev h3{
+    .woo_comerce_dev h2{
         font-size: 30px !important;
         line-height: 38px !important
     }
@@ -78508,7 +78531,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 60px 20px
     }
 
-    .woo_comerce_dev h3{
+    .woo_comerce_dev h2{
         font-size: 25px !important;
         line-height: 32px !important
     }
@@ -81502,7 +81525,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 60px 20px
     }
 
-    .woo_comerce_dev h3{
+    .woo_comerce_dev h2{
         font-size: 25px !important;
         line-height: 32px !important
     }
@@ -81531,7 +81554,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     .process_bigt h3 {
         font-size: 25px;
         line-height: 32px;
-        text-align: center
+        text-align: center;
     }
 
     .support-modern1 .h3{
@@ -81703,6 +81726,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         line-height: 32px !important
     }
 .megento_old3 h3{
+
   line-height: 40px !important;
   text-align: center !important;
 }
