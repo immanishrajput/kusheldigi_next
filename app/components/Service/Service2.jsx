@@ -203,7 +203,7 @@ const Service = () => {
                     <div className="underline">
                       <hr />
                     </div>
-                    <h3>BUSINESS PROCESS AUTOMATION</h3>
+                    <h3>BUSINESS PROCESS AUTOMATION:</h3>
                   </div>
                   <div className="services-card-theory">
                     <p>
@@ -431,13 +431,14 @@ const Service = () => {
                   />
                 </svg>
                 <h4>APP DESIGN AND DEVELOPMENT:</h4>
+                
                 <p>
                   Our mobile developers have nimble thinking and coding skills.
                   They surpass in creating mobile apps in any language whether
                   it is indigene or cross platform ,and can seamster them to
                   your specific customization and requirements.
                 </p>
-                <h3>Read More</h3>
+                <Link href="native"><h3>Read More</h3></Link>
                 <div className="underline1">
                   <hr />
                 </div>

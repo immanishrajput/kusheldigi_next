@@ -19,6 +19,7 @@ const Ecommpop = ({setPop, notify = (type, message)=> console.log(type, message)
   const handleChange = (e) => {
     setUser({ ...user, [e.target.name]: e.target.value });
   };
+  
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -117,7 +118,7 @@ const Ecommpop = ({setPop, notify = (type, message)=> console.log(type, message)
                       <hr />
                       <input value={user.name6} name="name6" onChange={handleChange} type="text" placeholder="Name*" maxLength="32" required/>
                       <hr />
-                      <input value={user.mobile6} name="mobile6" onChange={handleChange} type="number" placeholder="Mobile*" required/>
+                      <input value={user.mobile6} name="mobile6" onChange={handleChange} type="number" maxLength="10" placeholder="Mobile*" required/>
                       <hr />
                       <input value={user.email6} name="email6" onChange={handleChange} type="email" placeholder="Email*" required/>
                       <hr />

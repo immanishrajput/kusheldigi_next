@@ -48,7 +48,7 @@ const data = [
     para: "Rely products give you clarity and peace of mind. More than just beeps - Rely helps you understand what’s occurring in your home and what to do next.",
     type: "B2B",
     type2: "Gunshop",
-    link: "/rely",
+    link: "/Rely",
     alt: "Rely Innovation"
   },
   {
