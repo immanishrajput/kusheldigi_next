@@ -16,7 +16,7 @@ const Ecommpop = ({setPop, notify = (type, message)=> console.log(type, message)
     mobile6: "",
     email6: "",
   });
-
+  const [message, setMessage] = useState("");
   const handleChange = (e) => {
     setUser({ ...user, [e.target.name]: e.target.value });
   };
@@ -24,6 +24,7 @@ const Ecommpop = ({setPop, notify = (type, message)=> console.log(type, message)
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    try {
 
     const res = await fetch("https://backend.kusheldigi.com/contact5", {
       method: "POST",
@@ -36,6 +37,7 @@ const Ecommpop = ({setPop, notify = (type, message)=> console.log(type, message)
     // console.log(data);
     // alert(data.message);
     notify( "success", data.message);
+    setMessage(data.message); 
     setUser({
       technology: "",
       products: "",
@@ -44,6 +46,9 @@ const Ecommpop = ({setPop, notify = (type, message)=> console.log(type, message)
       mobile6: "",
       email6: "",
     });
+  } catch (error) {
+    setMessage("Something went wrong. Please try again.");
+  }
   };
   return (
     <>
@@ -191,10 +196,14 @@ const Ecommpop = ({setPop, notify = (type, message)=> console.log(type, message)
   required
 />
                       <hr />
-                    <Link href="/success"> <a><button><span>Submit</span><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                   <button><span>Submit</span><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                         <path d="M8.46817 16.883L7.04466 15.4803L12.6388 9.86957H0.476562V7.86573H12.6388L7.04466 2.25498L8.46817 0.852295L16.4598 8.86765L8.46817 16.883Z" fill="white" />
-                      </svg></button> </a></Link> 
-
+                      </svg></button> 
+                      {message && (
+                      <div className="popup-message">
+                        {message}
+                      </div>
+                    )}
                     </div>
                   </form>
                 </div>
