@@ -19489,7 +19489,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
   border: none;
   border-radius: 28px;
   color: #fff;
-  display: flex;
+  display:inline;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
@@ -19644,7 +19644,7 @@ width: 520px;
   border: none;
   border-radius: 28px;
   color: #fff;
-  display: flex;
+  display: inline-flex;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
@@ -19699,6 +19699,7 @@ width: 520px;
 }
 
 #hemesh-ppc .content7 p {
+  text-align: center;
   max-width: 616px;
   font-weight: 600;
   font-size: 17px;
@@ -19744,7 +19745,7 @@ width: 520px;
 #hemesh-ppc .ppccard-content {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   text-align: center;
   gap: 40px
 }
@@ -19951,6 +19952,7 @@ width: 520px;
 }
 
 #hemesh-ppc .content5 p {
+  text-align: center;
   max-width: 671px;
   font-weight: 400;
   font-size: 19px;
@@ -21291,7 +21293,7 @@ width: 520px;
   border: none;
   border-radius: 28px;
   color: #fff;
-  display: flex;
+  display: inline;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
@@ -21366,6 +21368,7 @@ width: 520px;
 }
 
 #hemesh-seo-kushel .seo-second-card-flex0 p {
+  text-align: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -21876,6 +21879,7 @@ width: 480px;
 }
 
 #hemesh-seo-kushel .seo_flex10 h3 {
+  text-align: center;
   max-width: 19em;
   font-weight: 400;
   font-size: 32px;
@@ -32641,10 +32645,10 @@ max-width: 400px;
 }
 
 .css_single_benifit{
-  width: 250px;
+  width: 320px;
   display: flex;
  flex-direction: column;
- gap: 16px;
+ /* gap: 16px; */
  align-items: center; 
  background-color: white;
  padding: 20px 16px;
@@ -32666,6 +32670,7 @@ color: white;
 color: white;
 }
 .css_single_benifit h2{
+  margin-top: 10px !important;
 font-family: Manrope;
 font-weight: 700;
 font-size: 20px;
@@ -32698,7 +32703,7 @@ margin: 0px 0px;
   line-height: 30px;
   font-family: Manrope;
   text-align: center;
-  margin: 20px auto;
+  /* margin: 20px auto; */
 }
  
 .css_softS_parat p {
@@ -32756,6 +32761,7 @@ margin: 0px 0px;
 }
 
 .css_softS_singleServ h3{
+  text-align: left;
  font-weight: 400;
  font-family: Manrope;
  color: #183646;
@@ -42441,7 +42447,7 @@ font-family: 'sf-ui-display-medium', sans-serif !important;
   border: none;
   border-radius: 28px;
   color: #fff;
-  display: flex;
+  display:inline-flex;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
@@ -42839,7 +42845,7 @@ font-family: 'sf-ui-display-medium', sans-serif !important;
   border: none;
   border-radius: 28px;
   color: #fff;
-  display: flex;
+  display:inline-flex;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;

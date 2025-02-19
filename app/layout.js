@@ -100,7 +100,7 @@ export default function RootLayout({ children }) {
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-K7DSK87RV0', { page_path: window.location.pathname });
-          `
+          `  
         }} />
       <body>{children}</body>
     </html>

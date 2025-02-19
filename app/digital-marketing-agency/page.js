@@ -392,8 +392,8 @@ What are you waiting for- get a free consultation; book and appointment
 with their team through google meet/ zoom call and get a 15 day free trial
 as well!</p>
               <div className="improved-btn flex items-center justify-center">
-              <Link href="/contact-us">
-                <button className="sign">SIGN UP FOR FREE</button> </Link>
+              {/* <Link href="/contact-us">
+                <button className="sign">SIGN UP FOR FREE</button> </Link> */}
                 <Link href="/contact-us"><button className="plans">SEE PLANS AND PRICING</button></Link> 
               </div>
             </div>
