@@ -1,4 +1,3 @@
-// import { userouter.push, useParams } from "react-router-dom";
 "use client"
 import { useRouter } from "next/navigation";
 import Head from 'next/head';
@@ -6,7 +5,6 @@ import Navbar from "../../COMMON/Navbar";
 
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
-// import "./blogdetail.css";
 import {
   WhatsappShareButton,
   FacebookShareButton,
@@ -25,13 +23,16 @@ const baseurl = "https://backblog.kusheldigi.com";
 function BlogDetails() {
   const [data, setData] = useState();
   const router = useRouter();
-  const currentPageUrl = window.location.href;
-//   const { blogId } = useParams();
-// const router = useRouter();
+  const [currentPageUrl, setCurrentPageUrl] = useState(""); 
 
-  // const {blogId}  = router.query || {}
+
   const { id } = useParams();
 
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setCurrentPageUrl(window.location.href);
+    }
+  }, []);
 
   const [recent, setRecent] = useState([]);
 
@@ -156,6 +157,8 @@ function BlogDetails() {
           </EmailShareButton>
         </div>
       </div>
+
+
     </div>
   );
 }

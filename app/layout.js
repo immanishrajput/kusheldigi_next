@@ -1,4 +1,5 @@
 import Script from "next/script";
+import "./globals.css"
 
 // app/layout.js
 export const metadata = {
