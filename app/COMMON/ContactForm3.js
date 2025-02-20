@@ -38,7 +38,7 @@ const ContactForm3 = () => {
               <p>Hire india’s best pre-vetted software developers on -demand</p>
               <form onSubmit={handleSubmit}>
                 <div className="form_exam w-full">
-                  <label htmlFor="name4">Your Name</label>
+                  {/* <label htmlFor="name4">Your Name</label>
                   <input
                     className="w-full mt-3"
                     type="text"
@@ -49,7 +49,25 @@ const ContactForm3 = () => {
                     onChange={handleChange}
                     id='name4'
                   maxLength="32"
-                  />
+                  /> */}
+                  <label htmlFor="name4">Your Name</label>
+                 <input
+            className="w-full mt-3"
+       type="text"
+    placeholder="Enter your name"
+     required
+      name="name4"
+       value={user1.name4}
+       onChange={(e) => {
+                    let value = e.target.value;
+      value = value.replace(/^\s+/, "").replace(/\s{2,}/g, " ");
+
+                   setUser1({ ...user1, name4: value });
+                }}
+                 id="name4"
+          maxLength="32"
+                 />
+
                 </div>
                 <div className="form_exam w-full mt-5">
                   <label htmlFor="email4">Your Email</label>

@@ -30,6 +30,7 @@ const Ankitcrouser = [
       "Top Brass resolutely back the front-line hero. We are spirited supporters of the 2nd Amendment. Moreover, we proclaim the values of diligence, fairness, and the standard American demeanour.",
     rightimg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739430318/topbrass_x4lygw.png',
     link: "https://topbrasstactical.com/",
+    target:"_blank"
   },
   {
     // rightitle: "Visit link",
@@ -52,6 +53,7 @@ const Ankitcrouser = [
       "KICK-EEZ® sells a wide selection of shotgun and rifle recoil pads and shooting supplies. Our products are proudly MADE IN AMERICA and utilize Sorbothane.",
     rightimg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739179375/kickeez_vrv0rs.png',
     link: "https://kickeezproducts.com/",
+    target:"_blank"
   },
   {
     // rightitle: "Visit link",
@@ -74,6 +76,7 @@ const Ankitcrouser = [
       "DigitalMnA is a full-service Merger and Acquisition company helping companies Sell and Buy assets by creating value.",
     rightimg:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739179410/digitalmna_znwlsh.png',
     link: "https://www.digitalmna.com/",
+    target:"_blank"
   },
   {
     // rightitle: "Visit link",
@@ -96,6 +99,7 @@ const Ankitcrouser = [
       "Slides365, strive to help people tell their story effectively. Your invisible friend inside the PowerPoint helps you create the Professional Presentations. We are working towards creating an experience for you telling your story.",
     rightimg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739179452/slide365_obxkik.png',
     link: "https://slides365.com/",
+    target:"_blank"
   },
   {
     // rightitle: "Visit link",
@@ -118,6 +122,7 @@ const Ankitcrouser = [
       "The world's top contractors for superior project collaboration. Most trusted reputation and customer experience platform for brands & local businesses",
     rightimg:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739179481/btob_wzfkcg.png',
     link: "https://buildlinknetwork.com/",
+    target:"_blank"
   },
 ];
 function Industries() {
@@ -1020,7 +1025,7 @@ function Industries() {
                 <h3>Our Works</h3>
               </div>
               <div className="USA-ourWork-toprighty">
-                <a href={currentItem.link} target="blank">
+                <a href={currentItem.link} target={currentItem.target}>
                   <p>Visit Link</p>
                   <svg
                     width="70"
