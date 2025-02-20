@@ -341,9 +341,9 @@ const ProTrucks = () => {
         </div>
         <div className="req">
           <div className="req-sect">
-            <h3>
+            <h2>
               Would You Like To Talk To <br /> About Your Project?
-            </h3>
+            </h2>
             <p>
               {" "}
               You can send us the details of your project, and a member of our
