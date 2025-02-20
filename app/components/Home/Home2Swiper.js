@@ -137,7 +137,7 @@ function Home2Swiper() {
           </svg>
         </button>
 
-        <button
+        {/* <button
           name="next"
           className={`rounded rightArrow`}
           onClick={goNext}
@@ -163,8 +163,10 @@ function Home2Swiper() {
               strokeLinejoin="round"
             />
           </svg>
-        </button>
+        </button> */}
+       
       </div>
+      
     </div>
   );
 }

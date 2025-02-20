@@ -14464,7 +14464,20 @@ body{
     }
 } */
 
+.home2Div{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
+  background-color: rgba(250, 250, 250, 1);
+margin:10px;
+}
+.home2Div p{
+  font-weight: 500;
+  font-size: 30px;
+  width: 360px;
 
+}
 .homes_banner {
     background-color: #f8faf9
 }
@@ -32474,6 +32487,11 @@ line-height: 47px;
 }
 .css_content_img{
    padding: 70px 0px 70px 0px;
+}
+.text-center{
+  font-weight: 500;
+  font-size: 30px;
+      color: #33475b;
 }
 .text-center01 button{
   align-items: center;
@@ -54425,7 +54443,7 @@ width: 230px;
 }
 
 .kick_mart {
-  max-width: 325px;
+  /* max-width: 325px; */
   width: 100%;
   height: 120px !important;
   object-fit: cover
@@ -56873,6 +56891,7 @@ width: 230px;
 }
 
 .inner-third-local-PRO-TRUCKS>p {
+  text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 30px;
   font-weight: 400;
@@ -71442,7 +71461,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
 
     .kick_mart {
         max-width: 300px;
-        width: 100%
+        width: 100%;
     }
 
     .kick-second {

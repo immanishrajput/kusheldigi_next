@@ -409,7 +409,7 @@ useEffect(() => {
           <h4>Matt Reeder</h4>
         </div>
         <div className="other-project">
-          <h2 className="text-center ">OTHER PROJECTS</h2>
+          <h3 className="text-center">OTHER PROJECTS</h3>
           <Splide
             aria-label="Our Services"
             options={{

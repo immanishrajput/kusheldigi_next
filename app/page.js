@@ -23,6 +23,7 @@ import './globals.css'
 import Footer from './COMMON/Footer';
 import Navbar from './COMMON/Navbar';
 import { useEffect } from 'react';
+import Home2 from './components/Home/Home2';
 const HomePage = ({props}) => {
   const phoneNumber = '9045301702';
 
@@ -72,6 +73,7 @@ const HomePage = ({props}) => {
      <Navbar/>
         <Home2Banner />
         <Home2Swiper />
+        <Home2/>
         <Home2Section3 />
         <Home2Section4 />
         <Home2Section5 />
