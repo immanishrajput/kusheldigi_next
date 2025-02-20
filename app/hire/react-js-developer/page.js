@@ -146,7 +146,7 @@ const ReactJsHire = () => {
                                         <h4>1</h4>
                                     </div>
                                     <div className="mig2">
-                                        <h3>ReactJS Consultancy</h3>
+                                        <h3>React JS Consultancy</h3>
                                         <p>
                                             Looking for a front-end ReactJS solution? Our senior ReactJS executives may assist you to clarify all your concerns and queries while helping to create scalable solutions. We don’t just sketch your business workflows but also find various tactics & proposals to make sure the brand is ready to rank from day one of its releases.
                                         </p>
@@ -246,7 +246,7 @@ const ReactJsHire = () => {
                         
                         <Link href="/contact-us">
 
-                        <button>Get in Touch with our React Js Developers</button> </Link>
+                        <button>Let's Connect</button> </Link>
 
                         <hr className="get_mig2" />
                     </div>
@@ -294,13 +294,13 @@ const ReactJsHire = () => {
                     <div className="why_pnt1 dine-1234">
                         <div className="why_php_h">
                             <h2>
-                                Why Hire ReactJS
+                                Why Hire React JS
                                 Developers <br />
                                 From  <span>Kushel Digi?</span>
                             </h2>
                         </div>
                         <p>
-                            Hire professional ReactJS engineers from DianApps to transform your company ideas into dependable and lucrative software solutions.
+                            Hire professional React JS engineers from DianApps to transform your company ideas into dependable and lucrative software solutions.
                             Let's have a look at some of the reasons why you should engage our developers for your project:
                         </p>
                         <div className="pnt_card">
@@ -348,7 +348,7 @@ const ReactJsHire = () => {
                     </div>
                     <div className="why_pnt2 dine-1234">
                         <div className="hire_steps_php">
-                            <h2>Hire ReactJS Developers From kushel Digi  In 4 Steps</h2>
+                            <h2>Hire React JS Developers From kushel Digi  In 4 Steps</h2>
                             <p>
                                 Hiring a PHP developer from DianApps is simple. Follow 4 easy
                                 steps to employ a team for your innovative web application.

@@ -273,7 +273,7 @@ const FluterHire = () => {
 
                 <div className="boost boost1">
                     <div className="boost_sect boost_sect1 boost_sect2">
-                        <h2>We hold the key to making your app rule the digital space</h2>
+                        <h3>We hold the key to making your app rule the digital space</h3>
                         <p>Let's work together</p>
                         <div className="boost_button boost_button1">
                         <Link href="/contact-us">

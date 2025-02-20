@@ -44042,9 +44042,11 @@ font-family: 'sf-ui-display-medium', sans-serif !important;
 }
 
 .benifits-hire a {
-  display: inline-flex;
- margin-left: 630px;
-  place-items: center;
+  display:block;
+  width: 290px;
+  margin: 0px auto;
+ /* margin-left: 630px; */
+  /* place-items: center; */
   align-items: center;
   font-family: 'Poppins', sans-serif !important;
   justify-content: center
@@ -44052,7 +44054,7 @@ font-family: 'sf-ui-display-medium', sans-serif !important;
 @media (max-width:450px){
   .benifits-hire a{
     width: 100%;
-    display: inline;
+    /* display: inline; */
     /* margin-left: 80px; */
   }
 }
@@ -44189,7 +44191,9 @@ font-family: 'sf-ui-display-medium', sans-serif !important;
 }
 
 .demo-hire-sect a {
-  display: table;
+margin: 0 auto;
+  width: 250px;
+  display: block;
   align-items: center;
   font-family: 'Poppins', sans-serif !important;
   justify-content: center
@@ -50950,7 +50954,7 @@ text-align: center;
   color: #33475b;
   font-weight: 400;
   margin-top: 30px;
-  text-align: left !important
+  text-align: center !important
 }
 
 .migartion_card {
@@ -51056,14 +51060,14 @@ text-align: center;
 
 .get_mig button {
   font-family: 'sf-ui-display-medium', sans-serif !important;
-  max-width: 420px;
+width: 230px;
   padding: 10px 45px;
   background-color: #0B56E4;
   color: #fff;
   font-weight: 400;
   font-size: 18.5px;
   border-radius: 30px;
-  width: 100%;
+  /* width: 100%; */
   border: 1px solid #085881
 }
 
@@ -52751,7 +52755,9 @@ text-align: center;
 }
 
 .boost_sect a {
-  display: flex;
+  display:block;
+  width: 250px;
+  margin: 0 auto;
   align-items: center;
   justify-content: center
 }
@@ -59235,7 +59241,11 @@ text-align: center;
   font-weight: 700;
   line-height: 41px
 }
-
+@media(max-width:450px) {
+  .mlm_service1 h2{
+    text-align: center;
+  }
+}
 .mlm_service1 p {
   color: #33475b;
   font-family: Proxima Nova;
@@ -63544,7 +63554,7 @@ option {
     border: none;
     border-radius: 28px;
     color: #fff;
-    display: flex;
+    display: inline;
     font-size: 17px;
     font-style: normal;
     font-weight: 500;

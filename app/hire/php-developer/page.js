@@ -239,7 +239,7 @@ useEffect(() => {
           <div className="get_mig">
             <hr className="get_mig1" />
             <Link href="/contact-us">
-              <button>Get in Touch with our PHP Developers</button> </Link>
+              <button>Let's Connect</button> </Link>
             <hr className="get_mig2" />
           </div>
           <div className="engag_mod">

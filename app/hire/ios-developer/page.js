@@ -278,7 +278,7 @@ const IosHire = () => {
 
                 <div className="boost boost1">
                     <div className="boost_sect boost_sect1 boost_sect2">
-                        <h2>We hold the key to making your app rule the digital space</h2>
+                        <h3>We hold the key to making your app rule the digital space</h3>
                         <p>Let's work together</p>
                         <div className="boost_button boost_button1">
                         <Link href="/contact-us">
@@ -369,7 +369,7 @@ const IosHire = () => {
             <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="call-icon" title="call-icon" />
+            <Image src={call} alt="call-icon" title="call-icon" />
           </button>
 
         </div>
