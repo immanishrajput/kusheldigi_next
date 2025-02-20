@@ -397,9 +397,9 @@ const Ai2 = () => {
                 </div>
                 <div className="req">
                     <div className="req-sect">
-                        <h2>
+                        <h3>
                             Would You Like To Talk To <br /> About Your Project?
-                        </h2>
+                        </h3>
                         <p>
                             {" "}
                             You can send us the details of your project, and a member of our

@@ -98,17 +98,21 @@ const projects = [
   {
      img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216954/down1_kgzcrg.png" , 
      title1:"Topbrass tactical" , 
-     title2:"E-commerce, Bigcomerce "
+     title2:"E-commerce, Bigcomerce ",
+     link:"TopBrass"
   } , 
   {
      img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216979/down2_m0c8fa.png" , 
      title1:"Kickeez" , 
-     title2:"E-commerce, Bigcomerce "
+     title2:"E-commerce, Bigcomerce ",
+     link:"/kick-eez"
+
   } , 
   {
      img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217009/down3_ucxpri.png" , 
      title1:"Sights & Scopes" , 
-     title2:"E-commerce, Bigcomerce "
+     title2:"E-commerce, Bigcomerce ",
+     link:"sites"
   } , 
 ]
 
@@ -435,7 +439,7 @@ function Page() {
           </div>
 
           <div className="csizbot">
-            <button><span>Get A Quote For Your Project</span></button>
+           <a href="/contact-us"><button><span>Get A Quote For Your Project</span></button></a> 
             <p>Or Start a conversation</p>
           </div>
 
@@ -467,8 +471,7 @@ function Page() {
                       <p className="sep2">{project?.title2}</p>
                     </div>
 
-                   <button><span>Case study</span></button>
-
+               <a href={project?.link}><button><span>Case study</span></button></a> 
               </div>
             ))
           }

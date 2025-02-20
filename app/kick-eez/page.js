@@ -490,7 +490,7 @@ useEffect(() => {
               <button>
                 Request A Call{" "}
                 <img
-                  width={13}
+                  // width={13}
                   className=" inline ml-2"
                   src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180293/arrow4_rxxlsw.png'
                   alt="alik"

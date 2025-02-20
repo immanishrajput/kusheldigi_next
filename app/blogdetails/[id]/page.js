@@ -107,7 +107,7 @@ function BlogDetails() {
             {recent.map((item, index) => (
               <div key={index} className="singblosdarslidd">
                 <img src={item?.images} alt="kushel" />
-                <h4 onClick={() => router.push(`/blogdetail/${item._id}`)}>{item?.title}</h4>
+                <h4 onClick={() => router.push(`/blogdetails/${item._id}`)}>{item?.title}</h4>
                 <p className="dateobje">
                   <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730457651/Mask_group_reswkg.png" alt="kushel" />
                   {new Date(item?.date).toLocaleDateString("en-GB", {

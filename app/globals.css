@@ -25347,8 +25347,8 @@ color: #101820;
       gap: 20px;
     }
     .csizbot button{
-    max-width: 302px;
-    width: 100%;
+    /* max-width: 302px; */
+    width: 302px;
       height: 64px;
       border-radius: 32px ;
       border: 1px solid #FFFFFF;
@@ -26410,8 +26410,8 @@ color: #101820;
       gap: 20px;
     }
     .csizbot button{
-    max-width: 302px;
-    width: 100%;
+    /* max-width: 302px; */
+    width: 302px;
       height: 64px;
       border-radius: 32px ;
       border: 1px solid #FFFFFF;
@@ -33824,7 +33824,8 @@ display: none;
   }
   
   .readmorekb {
-    display: flex;
+    display:inline-flex;
+    width: 112px;
     align-items: center;
     gap: 10px;
     cursor: pointer;
@@ -43441,7 +43442,8 @@ font-family: 'sf-ui-display-medium', sans-serif !important;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
+
 }
 
 .req-sect h3 {
@@ -43476,8 +43478,9 @@ font-family: 'sf-ui-display-medium', sans-serif !important;
   border: 1px solid #fff;
   margin-top: 35px !important;
   border-radius: 2px;
-  display: block;
-  margin: auto
+  display:block;
+  text-align: center;
+  margin:0px auto
 }
 
 .req-sect button:hover {
@@ -48082,7 +48085,7 @@ width: 450px;
 }
 
 .other-project {
-  padding: 50px 100px;
+  padding: 170px 100px;
   padding-bottom: 120px
 }
 
