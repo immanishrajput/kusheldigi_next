@@ -428,7 +428,7 @@ const HowWork = ({notify}) => {
             <Image src={manbiTui} alt="manbi" />
           </div>
           <div className="card-textj">
-            <h2>Got a preferred workflow? We’ll <br /> adapt to your needs.</h2>
+            <h3>Got a preferred workflow? We’ll <br /> adapt to your needs.</h3>
             <p>We’re always flexible to fit your style of working.</p>
           </div>
           <div className="manbi-btn">
@@ -441,8 +441,8 @@ const HowWork = ({notify}) => {
         <div className="ready_folks">
           <div className="ready_left">
             <div className="rdar_talk">
-              <h5>Ready to talk about your</h5>
-              <h5>eCommerce project?</h5>
+              <h3>Ready to talk about your</h3>
+              <h3>eCommerce project?</h3>
               <div className="fantars">
                 <div className="tellUs">
                   <div className="tellUs_right">
