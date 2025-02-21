@@ -183,7 +183,7 @@ const generateMetadata = ({ params }) => ({
         <hr className="hr-quality hr-quality1" />
 
         <div className="nda-header nda-header1">
-          <h2>Once you agree to work with Kushel Digi , you also agree to:</h2>
+          <h2>Once you agree to work with Kushel Digi, you also agree to:</h2>
           <div className="nda-para mt-1">
             <ul className="nda-ul">
               <li>

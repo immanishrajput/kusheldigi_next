@@ -222,7 +222,7 @@ const Service = () => {
                   </div>
                   <div className="services-card-theory">
                     <p>
-                      unlock the prepondence of data insight to drive informed
+                      Unlock the prepondence of data insight to drive informed
                       decision-making and gain a competitive edge with our
                       business intelligence solutions.
                     </p>
@@ -271,7 +271,7 @@ const Service = () => {
                   </div>
                   <div className="services-card-theory">
                     <p>
-                      cordinate, grapple and impregnable your business
+                      Cordinate, grapple and impregnable your business
                       -critical content effectively with our enterprise content
                       management service.
                     </p>

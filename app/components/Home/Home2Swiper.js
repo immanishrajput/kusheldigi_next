@@ -108,7 +108,7 @@ function Home2Swiper() {
       </div>
 
       {/* Navigation Buttons */}
-      <div className="swipebtns32">
+      {/* <div className="swipebtns32">
         <button
           name="prev"
           className={`rounded leftArrow`}
@@ -135,7 +135,7 @@ function Home2Swiper() {
               strokeLinejoin="round"
             />
           </svg>
-        </button>
+        </button> */}
 
         {/* <button
           name="next"
@@ -165,7 +165,7 @@ function Home2Swiper() {
           </svg>
         </button> */}
        
-      </div>
+      {/* </div> */}
       
     </div>
   );

@@ -147,7 +147,7 @@ function BlogDetails() {
           </FacebookMessengerShareButton>
           <TwitterShareButton url={currentPageUrl} title="Check out this blog!">
             <div className="shareocciwrap">
-              <FaTwitter className="sheicon" />
+           <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1740125157/Layer_1_mexpbv.png" className="sheicon"/>
             </div>
           </TwitterShareButton>
           <EmailShareButton url={currentPageUrl} subject="Check out this blog!" body="I found this blog interesting, check it out:">

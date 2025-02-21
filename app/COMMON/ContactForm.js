@@ -10,6 +10,7 @@ const ContactForm = ({ notify }) => {
   const pattern = new RegExp(/^\d{1,9}$/);
   const [isError, setIsError] = useState(false);
   const [loading, setloading] = useState(false);
+  const [showPopup, setShowPopup] = useState(false);
   const router = useRouter();
 
   const [user, setUser] = useState({
@@ -35,34 +36,61 @@ const ContactForm = ({ notify }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setloading(true);
-    setTimeout(() => {
-      //  notify("success" , "Successfully Submitted");
-      navigate("/success");
-      setloading(false);
-    }, 1500)
-    const res = await fetch("https://backend.kusheldigi.com/contact2", {
-      method: "POST",
-      headers: {
-        "content-type": "application/json",
-      },
-      body: JSON.stringify({ ...user, ...user1 }),
-    });
-    const data = await res.json();
-    // console.log(data);
-    // alert(data.message);
-    // notify("success", data.message);
-    setTimeout(() => {
-      window.location.href = "/";
-    }, 1000);
+    try {
+      const res = await fetch("https://backend.kusheldigi.com/contact2", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ ...user, ...user1 }),
+      });
+      const data = await res.json();
 
-    setUser({
-      name2: "",
-      phone2: "",
-      email2: "",
-      message2: "",
-    });
+      if (res.ok) {
+        setShowPopup(true); // ✅ Show popup on success
+        setUser({ name2: "", email2: "", message2: "" });
+        setUser1({ phone2: "" });
+
+        setTimeout(() => {
+          setShowPopup(false); // Hide popup after 2 seconds
+          router.push("/success");
+        }, 1000);
+      } else {
+        alert(data.message || "Submission failed");
+      }
+    } catch (error) {
+      alert("Something went wrong. Please try again.");
+    }
+
     setloading(false);
   };
+
+  //   setTimeout(() => {
+  //     //  notify("success" , "Successfully Submitted");
+  //     navigate("/success");
+  //     setloading(false);
+  //   }, 1500)
+  //   const res = await fetch("https://backend.kusheldigi.com/contact2", {
+  //     method: "POST",
+  //     headers: {
+  //       "content-type": "application/json",
+  //     },
+  //     body: JSON.stringify({ ...user, ...user1 }),
+  //   });
+  //   const data = await res.json();
+  //   // console.log(data);
+  //   // alert(data.message);
+  //   // notify("success", data.message);
+  //   setTimeout(() => {
+  //     window.location.href = "/";
+  //   }, 1000);
+
+  //   setUser({
+  //     name2: "",
+  //     phone2: "",
+  //     email2: "",
+  //     message2: "",
+  //   });
+  //   setloading(false);
+  // };
 
   // const funt = () => {
   //   if (user1.phone2.length > 9) {
@@ -76,6 +104,14 @@ const ContactForm = ({ notify }) => {
 
   return (
     <>
+     {/* {showPopup && (
+        <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center z-50">
+          <div className="bg-white p-6 rounded-2xl shadow-lg text-center">
+            <h2 className="text-xl font-semibold mb-2">Successfully Submitted!</h2>
+          
+          </div>
+        </div>
+      )} */}
       <div>
         <div className="flex items-start justify-center discusion-form discusion-form1 dine-123">
           <div className="w-full  mrs mrs1">
@@ -185,14 +221,14 @@ const ContactForm = ({ notify }) => {
                 </div>
               </div>
               <div>
-                <button>
+            <button>
                   {
                     loading ? <div class="spinner33"></div> : <>
                       Submit <img className="tih" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738997264/arrow1_gofqri.png' alt="kushel" />
                     </>
                   }
 
-                </button>
+                </button>  
               </div>
             </form>
           </div>

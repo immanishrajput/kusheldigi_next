@@ -14463,20 +14463,56 @@ body{
         padding: 50px 20px 35px 20px;
     }
 } */
+.home22div{
+  height: 130px;
 
+}
 .home2Div{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 100px;
-  background-color: rgba(250, 250, 250, 1);
-margin:10px;
+  height: 140px;
+  /* background-color: rgba(250, 250, 250, 1); */
 }
 .home2Div p{
   font-weight: 500;
   font-size: 30px;
   width: 360px;
 
+}
+@media (max-width: 768px) {
+  .home2Div {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  
+height: 189px;
+  background-color: rgba(250, 250, 250, 1);
+
+    /* margin-top: 20px; */
+  }
+
+  .home2Div p {
+    font-size: 1.5rem;
+  }
+
+  .image-container {
+    width: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .home2Div p {
+    /* background-color: rgba(250, 250, 250, 1); */
+    height: 120px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .image-container {
+    width: 100px;
+  }
 }
 .homes_banner {
     background-color: #f8faf9
@@ -31233,7 +31269,7 @@ height: fit-content;
    }
  
    .sec3cont {
-     padding: 40px 20px !important
+     padding: 70px 20px !important
    }
  
    .mySwiper32 {
@@ -33055,6 +33091,9 @@ display: none;
     }
 }
 @media (max-width:450px) {
+  .css_bestSol_page{
+    background-color: #bae0f3 !important;
+  }
   .service_head h3{
     font-size: 28px;
     line-height: 38px;
@@ -33072,6 +33111,7 @@ display: none;
   padding:50px 20px 0px 20px;
 }
 .ccs_content h1 {
+  text-align: center;
   font-size: 28px;
   line-height: 40px;
 }
@@ -57859,7 +57899,7 @@ width: 230px;
 
 .buttunn {
   display: block;
-  width: 205px
+  width: 198px
 }
 
 .node_dev_ss-back2 img {
@@ -58218,7 +58258,7 @@ width: 230px;
   max-width: 1440px;
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items:start;
   gap: 20px;
   margin: auto
 }
@@ -59370,6 +59410,7 @@ width: 230px;
 }
 
 .softwareProduct .products {
+  align-items: self-start;
   display: flex;
   gap: 20px;
   background-color: #fbfbfb;
@@ -59384,7 +59425,7 @@ width: 230px;
   display: flex;
   flex-direction: column;
   gap: 7px;
-  width: 270px;
+  width: 277px;
   color: #000;
   border-radius: 7px
 }
@@ -59443,6 +59484,7 @@ width: 230px;
 .benefits {
   display: flex;
   flex-wrap: wrap;
+  align-items: self-start;
   justify-content: center;
   gap: 30px
 }
@@ -59452,6 +59494,7 @@ width: 230px;
 }
 
 .benefits .singleBenefit {
+  height: 350px;
   width: 330px;
   padding: 25px;
   display: flex;
@@ -59527,6 +59570,7 @@ width: 230px;
 
 .mlmourService .leftContainer h3 {
   width: 40em;
+  text-align: center;
   font-weight: 400;
   color: #0D1E27;
   font-size: 18px;
@@ -61102,6 +61146,21 @@ option {
   #hemesh-services .services3 {
     padding: 60px 40px !important
   }
+  #hemesh-services .right-content h2 {
+    font-size: 20px;
+  }
+  #hemesh-services .right-content h3{
+    font-size: 25px;
+  }
+  #hemesh-services .services-card-3 h4{
+  text-align: center;
+}
+#hemesh-services .services-content3 h3{
+  text-align: center;
+}
+#hemesh-services .services-content3 span {
+  text-align: center;
+}
 }
 
 .USA-ourWork-main-container {
@@ -64888,7 +64947,7 @@ wordpress_cater_box p {
 }
 
 .about-11 button {
-    display: flex;
+    display: inline;
     justify-content: center;
     align-items: center;
     gap: 5px
@@ -65172,7 +65231,7 @@ wordpress_cater_box p {
     border: none;
     border-radius: 28px;
     color: #fff;
-    display: flex;
+    display:inline-flex;
     font-size: 17px;
     font-style: normal;
     font-weight: 500;
@@ -65864,7 +65923,7 @@ wordpress_cater_box p {
     border: none;
     border-radius: 28px;
     color: #fff;
-    display: flex;
+    display:inline;
     font-size: 17px;
     font-style: normal;
     font-weight: 500;
@@ -65912,6 +65971,7 @@ wordpress_cater_box p {
     margin-left: auto;
     margin-right: auto;
     color: #33475b;
+   
     padding-top: 10px;
     opacity: .8
 }
@@ -65963,7 +66023,7 @@ wordpress_cater_box p {
 }
 
 .local-img a {
-    display: flex;
+    display:inline;
     align-items: center;
     justify-content: center
 }
@@ -65976,7 +66036,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     border: none;
     border-radius: 28px;
     color: #fff;
-    display: flex;
+    display:inline;
     font-size: 17px;
     font-style: normal;
     font-weight: 500;
@@ -66093,7 +66153,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     display: flex;
     align-items: center;
     justify-content: left;
-    margin-top: 2rem
+    margin-top:7px;
 }
 
 .scale {
@@ -69830,7 +69890,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .about-main-130 .about-11 a {
-        display: flex;
+        display: inline-flex;
         justify-content: center
     }
 
@@ -72184,7 +72244,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .about-main-12 .about-11 a {
-        display: flex;
+        display: inline;
         justify-content: center
     }
 
@@ -78864,6 +78924,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .about-main h1 {
+      padding-top: 123px;
         font-size: 25px !important;
         line-height: 32px !important
     }
@@ -79194,6 +79255,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .about-main-130 h3 {
+      text-align: center;
         font-size: 25px !important;
         line-height: 32px !important
     }
@@ -84690,7 +84752,7 @@ article h4 {
   }
   
   .whtsApBtns {
-    margin-top: 20px;  /* Space between text and buttons */
+    margin-top: -18px;  /* Space between text and buttons */
     display: flex;
     gap: 10px;
   }

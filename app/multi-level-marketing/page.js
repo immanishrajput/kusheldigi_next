@@ -766,7 +766,7 @@ function Mlm() {
                 Join us on this digital journey. Discover our packages and let's
                 kick-start it now!
               </h2>
-              <Link href="/contact-us">
+              <Link href="/contact-us" style={{display:"inline", width:"206px"}}>
                 <button>
                   <span>Discover Now</span>
                 </button>
