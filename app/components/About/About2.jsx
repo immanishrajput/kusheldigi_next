@@ -250,8 +250,7 @@ const About2 = ({ notify }) => {
           <div className="about-main41 dine-1234">
             <h3 className="text-white text-center">
               Be Fair With Today to build
-            </h3>
-            <h3 className="text-white text-center">desired tomorrow</h3>
+           desired tomorrow</h3>
             <div className="about4 flex justify-center">
               <div className="about41 text-center mr-1">
                 <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738935049/e9_oiwp7p.png' alt="kusheldigi Vision" title="kusheldigi Vision" />

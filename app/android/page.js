@@ -177,9 +177,9 @@ const Android = ({ notify }) => {
           <div className="android-usa1">
             <h3>
               Use Cases That Make
-            </h3>
-            <h3>Android Development The First Choice</h3>
-            <h3>of SMEs and
+          
+           Android Development The First Choice
+            of SMEs and
               Enterprises</h3>
             <p>
               Our custom Android app development delivers numerous Android advantages.

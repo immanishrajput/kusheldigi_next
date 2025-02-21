@@ -14472,7 +14472,7 @@ body{
   justify-content: space-evenly;
   align-items: center;
   height: 140px;
-  /* background-color: rgba(250, 250, 250, 1); */
+  background-color: rgba(250, 250, 250, 1);
 }
 .home2Div p{
   font-weight: 500;
@@ -24078,8 +24078,21 @@ justify-content: center;
         align-items: center;
         padding: 0px;
     }
-
-    
+/* 
+    @media (max-width:450px){
+      .numfilters{
+        display: none !important;
+      }
+      .bs8items{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100% !important;
+      }
+      .bigs8single h5 {
+        text-align: center;
+      }
+    } */
     .bg5rights{
         position: relative;
            
@@ -30807,7 +30820,7 @@ height: fit-content;
  .h2swiperwrap {
    display: flex;
    flex-direction: column;
-   max-height: 350px;
+   max-height: 250px;
    background-color: rgba(11, 86, 228, .05);
    max-width: 100%;
    margin: 0 auto
@@ -46064,6 +46077,7 @@ margin: 0 auto;
 }
 
 .android-usa1 h3 {
+  width: 587px;
   color: #33475b;
   opacity: .9;
   font-size: 34.5px;
@@ -46083,6 +46097,7 @@ margin: 0 auto;
 }
 
 .android-usa h5 {
+  display: inline-flex;
   color: #085881;
   opacity: .9;
   font-weight: 700;
@@ -50868,7 +50883,7 @@ text-align: center;
 
 .exam_form input {
   border: 1px solid #085881;
-  color: #33475b;
+  color: #19191a;
   font-size: 13px;
   font-weight: 400;
   padding: 8px 14px;
@@ -54764,7 +54779,7 @@ width: 230px;
   border: none;
   border-radius: 28px;
   color: #fff;
-  display: flex;
+  display:inline;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
@@ -54813,7 +54828,7 @@ width: 230px;
 }
 
 .see_workk {
-  display: flex;
+  display:inline-flex;
   align-items: center
 }
 
@@ -55618,6 +55633,18 @@ width: 230px;
   }
 }
 
+@media(max-width:450px){
+  .studentFrame img{
+    display: none;
+  }
+  .working_pnt2 h4{
+    font-size: 15px;
+  }
+  .flowChartSec11 p{
+    font-size: 15px;
+    width: 100%;
+  }
+}
 #hello .ha {
   width: 126px;
   border: 1.5px solid #1265ff;
@@ -58258,7 +58285,7 @@ width: 230px;
   max-width: 1440px;
   width: 100%;
   display: flex;
-  align-items:start;
+  align-items:center;
   gap: 20px;
   margin: auto
 }
@@ -61644,6 +61671,7 @@ option {
 }
 
 .letii {
+  display: inline;
   width: auto !important;
 }
 
@@ -64640,6 +64668,8 @@ wordpress_cater_box p {
 }
 
 .about-main4 h3 {
+  width: 508px;
+  margin: 0 auto;
     font-size: 34px;
     font-family: "Poppins", sans-serif !important;
     color: #fff;
@@ -70855,6 +70885,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .php-back1 h1 {
+      text-align: center;
         font-size: 25px;
         line-height: 32px
     }
@@ -74086,6 +74117,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .left_selling h3 {
+      text-align: center;
         font-size: 30px
     }
 
@@ -77963,11 +77995,13 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .hire_line h2 {
+      text-align: center;
         font-size: 25px;
         line-height: 32px
     }
 
     .php-back1 p {
+      text-align: center;
         font-size: 14px
     }
 
@@ -78910,6 +78944,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .about-main4 h3 {
+      width: 100%;
         font-size: 25px !important;
         line-height: 32px !important
     }
@@ -78924,7 +78959,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .about-main h1 {
-      padding-top: 123px;
+      /* padding-top: 123px; */
         font-size: 25px !important;
         line-height: 32px !important
     }
@@ -79685,6 +79720,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .android-usa1 h3 {
+      width: 100%;
         font-size: 25px;
         line-height: 32px
     }
@@ -80193,11 +80229,14 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .left_selling p {
+      text-align: center;
         width: 100%;
         font-size: 14px
     }
 
     .left_selling button {
+      margin: 0 auto;
+      margin-top: 10px;
         font-size: 14px
     }
 
@@ -81334,7 +81373,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .home412 {
-        padding: 0 20px
+        padding: 0 19px
     }
 
     .ser111 p {
@@ -81361,7 +81400,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .ser111 {
-        width: 90%
+        width: 100%
     }
 
     .tech_stacksEcom {
@@ -82100,6 +82139,7 @@ text-align: center;
     }
 
     .android-back1 h1 {
+      text-align: center;
         font-size: 25px;
         line-height: 32px
     }
@@ -82110,9 +82150,19 @@ text-align: center;
     }
 
     .android-back1 p {
+      text-align: center;
         font-size: 14px
     }
-
+    .android-usas1{
+display: flex;
+align-items: self-start;
+height: 90px;
+    }
+    .android-fun1 h2{
+      width: 100%;
+      font-size: 25px;
+      text-align: center;
+    }
     .android-back1 button {
         font-size: 14px
     }
@@ -83138,7 +83188,7 @@ text-align: center;
     }
 
     .letsittt {
-        display: block;
+        display:inline-block;
         margin: auto
     }
 
@@ -83455,8 +83505,11 @@ text-align: center;
     .native_box {
         height: auto
     }
-
+    .chanu img{
+      display: none;
+    }
     .learn-back1 p {
+      text-align: center;
         width: 100%
     }
 
@@ -84142,6 +84195,8 @@ article h4 {
     }
 
     .ecommerce-text h2 {
+      text-align: center;
+      width: 100%;
         font-size: 25px !important;
         line-height: 32px !important;
     }
@@ -84183,7 +84238,7 @@ article h4 {
     }
 
     .suris_tech_left button {
-        display: block !important;
+        display: inline-block !important;
         margin: auto !important;
         margin-top: 30px !important;
     }
@@ -84752,7 +84807,7 @@ article h4 {
   }
   
   .whtsApBtns {
-    margin-top: -18px;  /* Space between text and buttons */
+    margin-top: -30px;  /* Space between text and buttons */
     display: flex;
     gap: 10px;
   }
