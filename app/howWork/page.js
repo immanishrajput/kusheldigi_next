@@ -449,9 +449,10 @@ const HowWork = ({notify}) => {
                     <h3>1.</h3>
                   </div>
                   <div className="tellUs_left">
-                    <span>Tell us more</span>
-                    <p>Fill out a quick form describing your needs. You can always add details later on and we’ll reply within a day!</p>
-                    <Link href="/contact-us"><button>GET IN TOUCH</button></Link>
+                    <span> Share Your Idea
+                    </span>
+                    <p>Want to start or scale your online store? Tell us about  your vision, and we’ll help you to shape it into a successful eCommerce platform.</p>
+                  
                   </div>
                 </div>
                 <div className="tellUs">
@@ -459,8 +460,10 @@ const HowWork = ({notify}) => {
                     <h3>2.</h3>
                   </div>
                   <div className="tellUs_left">
-                    <span>Tell us more</span>
-                    <p>Fill out a quick form describing your needs. You can always add details later on and we’ll reply within a day!</p>
+                    <span>Get a Custom Plan
+                    </span>
+                    <p>Our team will analyze your needs and suggest the right features, technology, and strategies to boost sales and engagement.
+                    </p>
 
                   </div>
                 </div>
@@ -469,9 +472,10 @@ const HowWork = ({notify}) => {
                     <h3>3.</h3>
                   </div>
                   <div className="tellUs_left">
-                    <span>Tell us more</span>
-                    <p>Fill out a quick form describing your needs. You can always add details later on and we’ll reply within a day!</p>
-
+                    <span>Launch & Scale Your Store
+                    </span>
+                    <p>Our team will be there for you from development to marketing to help you grow a high-performing online business.</p>
+                    <Link href="/contact-us"><button>GET IN TOUCH</button></Link>
                   </div>
                 </div>
               </div>

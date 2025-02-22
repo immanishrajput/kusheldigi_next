@@ -251,7 +251,7 @@ const ReactJsHire = () => {
                         <hr className="get_mig2" />
                     </div>
                     <div className="engag_mod">
-                        <h2>Our Engagement Models</h2>
+                        <h3>Our Engagement Models</h3>
                         <div className="engag_php_card">
                             <div className="engag_php_box">
                                 <h2>Fix cost and time</h2>

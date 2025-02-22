@@ -105,7 +105,7 @@ const TopBrass = () => {
 
 
 const generateMetadata = ({ params }) => ({
-         title: 'Kusheldigi.com/TopBrass',
+         title: 'Kusheldigi.com/topbrass',
          description:"web agency, web design agency , best web design agency in the world, web design agency, web design services, web design and development agency"
        });
        
@@ -484,4 +484,4 @@ const generateMetadata = ({ params }) => ({
     );
 };
 
-export default TopBrass;
+export default TopBrass ;

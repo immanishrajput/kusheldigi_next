@@ -305,7 +305,7 @@ const generateMetadata = ({ params }) => ({
               </p>
               <p className="knowrs">
                 While its roots in India, Kushel Digi Solutions
-                also emerged as a leading <a href="/web-development-in-usa" className="redirect-to-USA"> web development company in USA</a>  by extending its premier web development services to clients in the USA. Our global approach ensures global service standards to deliver outstanding results. Let us help you succeed online.
+                also emerged as a leading  web development company in USA  by extending its premier web development services to clients in the USA. Our global approach ensures global service standards to deliver outstanding results. Let us help you succeed online.
               </p>
 
             </div>

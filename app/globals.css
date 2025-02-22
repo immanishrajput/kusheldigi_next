@@ -2319,6 +2319,11 @@
         height: auto !important
     }
 }
+@media only screen and (max-width:450px){
+  .project{
+width: 100%;
+  }
+}
 
 /* .asit .heading{   
     line-height: 56px; 
@@ -18654,8 +18659,12 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
   
     #kushel-next-js .kushel-next-js-content3 h6 {
+      text-align: center;
       font-size: 27px;
       line-height: 32px
+    }
+    #kushel-next-js .kushel-next-js-left-content4 h6 {
+      text-align: center;
     }
   
     #kushel-next-js .kushel-next-js-content3 p {
@@ -32600,6 +32609,7 @@ max-width: 34em;
   }
 
 .service-back1 .line{
+
     background-color: #1265FF;
     width: 350px;
     height: 5px;
@@ -33138,9 +33148,11 @@ display: none;
 }
 @media (max-width:390px) {
   .service-back1 .line {
+    display:none;
     width:280px;
     height: 5px;
     margin: 20px 20px;
+   
 }
 .service-back1 {
   padding: 50px 0px;
@@ -37956,7 +37968,7 @@ width: 360px;
 }
 
 .usa-btn1 button {
-  display: flex;
+  display:inline-flex;
   justify-content: center
 }
 
@@ -38409,7 +38421,13 @@ width: 360px;
     align-items: center;
     gap: 10px
   }
-
+  .numfilters{
+    display: none;
+  }
+  .bigs8single {
+    display: flex;
+    flex-direction: column;
+  }
   .new-portfolio2-heading1 h2 {
     display: flex;
     justify-content: center;
@@ -41149,8 +41167,8 @@ form button:hover {
 }
 
 .foot151 img {
-  margin-right: 16px;
-  width: 16px
+  margin-right:8px;
+  width:35px
 }
 
 .foot151 img:hover {
@@ -44244,7 +44262,8 @@ font-family: 'sf-ui-display-medium', sans-serif !important;
 }
 
 .letsay h5 {
-  display: flex;
+  display:inline-flex;
+  width:180px;
   font-family: 'Poppins', sans-serif !important;
   align-items: center
 }
@@ -45940,9 +45959,11 @@ margin: 0 auto;
 }
 
 .android-fun1 h5 {
+  display: inline-flex;
   color: #085881;
   font-size: 18px;
   font-weight: 500;
+  width: 310px;
   letter-spacing: .5px;
   margin-top: 10px
 }
@@ -46860,6 +46881,7 @@ video {
 }
 
 .native-app1 h5 {
+  display: inline-flex;
   color: #085881;
   font-size: 18px;
   font-weight: 500;
@@ -50194,7 +50216,7 @@ text-align: center;
   border: none;
   border-radius: 28px;
   color: #fff;
-  display: flex;
+  display:inline-flex;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
@@ -50675,7 +50697,7 @@ text-align: center;
   border: none;
   border-radius: 28px;
   color: #fff;
-  display: flex;
+  display:inline-flex;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
@@ -50883,7 +50905,7 @@ text-align: center;
 
 .exam_form input {
   border: 1px solid #085881;
-  color: #19191a;
+  color: #0c0c0d;
   font-size: 13px;
   font-weight: 400;
   padding: 8px 14px;
@@ -54893,7 +54915,7 @@ width: 230px;
   border: none;
   border-radius: 28px;
   color: #fff;
-  display: flex;
+  display:inline-flex;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
@@ -54985,7 +55007,7 @@ width: 230px;
   color: #fff;
   font-weight: 400;
   opacity: 92%;
-  margin-top: 15px;
+  margin-top:5px;
   width: 30em;
   max-width: 100%
 }
@@ -56372,12 +56394,28 @@ width: 230px;
 }
 
 .one_stet_sect h3 {
+  width: 647px;
   color: #fff;
   font-weight: 700;
   font-size: 25px;
   text-align: center
 }
-
+@media (max-width:450px){
+  .one_stet_sect h3{
+    width: 100%;
+  }
+  #kushel-next-js .kushel-next-js-left-content h1{
+    text-align: center;
+  
+  }
+  #kushel-next-js .kushel-next-js-left-content p {
+    text-align: center;
+    margin-top: 10px;
+  }
+  #kushel-next-js .kushel-next-js-content1 img {
+    display: none;
+  }
+}
 .one_stet_sect button {
   max-width: 172px;
   font-family: 'sf-ui-display-medium',sans-serif !important;
@@ -56396,7 +56434,7 @@ width: 230px;
   line-height: 24px;
   padding: 18px;
   text-align: center;
-  margin-top: 30px
+  margin-top: 10px
 }
 
 .one_stet_sect button:hover {
@@ -56614,7 +56652,7 @@ width: 230px;
   line-height: 24px;
   padding: 19px;
   text-align: center;
-  margin-top: 60px
+  margin-top: 10px
 }
 
 .kay_btn button:hover {
@@ -58220,7 +58258,7 @@ width: 230px;
   border: none;
   border-radius: 28px;
   color: #fff;
-  display: flex;
+  display:inline-flex;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
@@ -61913,6 +61951,7 @@ option {
   }
 
   .android-fun1 h5 {
+    margin-left: 40px !important;
     text-align: center !important;
     margin: 0 auto !important;
     width: fit-content !important;
@@ -63762,7 +63801,7 @@ option {
 }
 
 .megento_new_ptn a {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center
 }
@@ -70533,7 +70572,12 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         display: flex;
         justify-content: center
     }
-
+    @media (max-width:450px){
+      .woo-btnn{
+        display: inline !important;
+      margin-left: 50px !important;
+      }
+    }
     .btn-all {
         display: flex !important;
         flex-direction: column !important;
@@ -72541,7 +72585,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .why-kotlinUse {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center
     }
 
@@ -75970,10 +76014,13 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .node_dev_ss_head h1 {
+      text-align: center;
         font-size: 25px;
         line-height: 32px
     }
-
+    .node_dev_ss_para p{
+      text-align: center;
+    }
     .node_dev_ss-back1 button {
         font-size: 14px
     }
@@ -77173,6 +77220,8 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .triple-mainbox {
+      padding: 0;
+      margin: 0;
         flex-direction: column !important
     }
 
@@ -77613,6 +77662,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .reactjsdev_back1 h1 {
+      text-align: center;
       width: 100%;
         font-size: 28px;
         line-height: 36px
@@ -77835,6 +77885,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .html_head h1 {
+      text-align: center;
         font-size: 25px !important;
         line-height: 32px !important
     }
@@ -77845,6 +77896,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .html_head_para p {
+      text-align: center;
         font-size: 14px !important
     }
 
@@ -77879,10 +77931,12 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .reactjsdev_back1 p {
+      text-align: center;
         font-size: 14px !important
     }
-
+   
     .reactjsdev_back1 button {
+      width: 205px;
         font-size: 14px !important
     }
 
@@ -77918,6 +77972,8 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .toggle-gap {
+      padding: 5px;
+      margin-top: 10px;
         font-size: 16px !important
     }
 
@@ -78237,11 +78293,13 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .solution_back1 h1 {
+      text-align: center;
         font-size: 25px;
         line-height: 32px
     }
 
     .solution_back1 p {
+      text-align: center;
         font-size: 14px;
         line-height: 24px;
         border-left: none
@@ -78546,6 +78604,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .word_press_head h1 {
+      text-align: center;
         font-size: 25px;
         line-height: 32px
     }
@@ -78556,6 +78615,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .word_press_para p {
+      text-align: center;
         font-size: 14px
     }
 
@@ -78653,9 +78713,18 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .magento_back1 button {
+      display: inline-flex;
         font-size: 14px
     }
-
+    .main_php_para p{
+      text-align: center !important;
+    }
+    #hello .pre2 {
+      text-align: center;
+    }
+    #hello .pre1 {
+      text-align: center;
+    }
     .magento_service {
         padding: 70px 20px
     }
@@ -79339,6 +79408,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .box-kotlin1 {
+      padding-top: 30px;
         margin-left: 0
     }
 
@@ -79389,11 +79459,14 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .kotlin-platform1 h3 {
+      text-align: center;
+  
         font-size: 25px;
         line-height: 32px
     }
 
     .kotlin-platform1 button {
+      margin-top: 10px;
         font-size: 14px
     }
 
@@ -79539,6 +79612,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .native-benifits1 p {
+      text-align: center;
         font-size: 14px
     }
 
@@ -79681,9 +79755,14 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .android-back1 {
+      width: 100%;
         margin-bottom: 0
     }
-
+    .support-modern1 h2{
+      text-align: center;
+      font-size: 25px;
+    }
+    
     .android_back_text_section {
         padding-bottom: 10px
     }
@@ -81030,6 +81109,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .contact-sect h1 {
+      text-align: center;
         font-size: 30px
     }
 
@@ -82164,6 +82244,10 @@ height: 90px;
       text-align: center;
     }
     .android-back1 button {
+      display: inline-flex;
+   
+      margin: 0 auto;
+margin-top: 10px;
         font-size: 14px
     }
 
@@ -82183,8 +82267,12 @@ height: 90px;
     .native-app1 p {
         font-size: 14px
     }
-
+    .tismart{
+      display: inline-flex;
+      margin-left: 40px;
+    }
     .native-app1 h5 {
+      display: inline-flex !important;
         font-size: 16px
     }
 
@@ -82206,6 +82294,7 @@ height: 90px;
     }
 
     .android-fun1 h5 {
+      margin-left: 40px !important;
         font-size: 16px
     }
 
@@ -84122,7 +84211,7 @@ article h4 {
     }
 
     .theCom_right button {
-        display: block !important;
+        display: inline-block !important;
         margin: auto !important;
         margin-top: 30px !important;
     }
@@ -84249,7 +84338,7 @@ article h4 {
     }
 
     .theCom_right button {
-        display: block !important;
+        display: inline-block !important;
         margin: auto !important;
         margin-top: 30px !important;
     }
@@ -84289,6 +84378,7 @@ article h4 {
     }
 
     .newbtn {
+      display: inline !important;
         max-width: 216px !important;
     }
 

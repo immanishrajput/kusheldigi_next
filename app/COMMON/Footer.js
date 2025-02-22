@@ -146,22 +146,22 @@ const Footer = () => {
                       target="_blank"
                       href="https://www.linkedin.com/company/kusheldigisolutions/" rel="noopener"
                     >
-                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738997872/dri5_phq4zc.png' alt="linkedin" />
+                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740224179/linkedin_logo-01_gvkq3i.png' alt="linkedin" />
                     </a>
                     <a target="_blank" href="https://www.instagram.com/kusheldigi/" rel="noopener">
-                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738997831/dri4_ohrihi.png' alt="iconm" />
+                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740224179/instagram_logo-01_dzqg3b.png' alt="iconm" />
                     </a>
                     <a
                       target="_blank"
                       href="https://www.facebook.com/kusheldigisolutions/" rel="noopener"
                     >
-                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738997696/dri2_kubanh.png' alt="icon" />
+                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740224178/facebook_logo-01_b88kjo.png' alt="icon" />
                     </a>
                     <a  target="_blank" href="https://twitter.com/KushelDigisoln" rel="noopener">
-                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738997748/X-Logo_tvy32n.png' alt="young2" />
+                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740224179/twitter_logo-01_xh3vqk.png' alt="young2" />
                     </a>
                     <a target="_blank" href="https://www.behance.net/kushelsolucti" rel="noopener">
-                      <Image style={{ filter: "invert(1)" }} src={behance} alt="young1" />
+                      <img style={{ filter: "invert(1)" }} src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1740224178/behance_logo-01_x6vc9l.png" alt="young1" />
                     </a>
                   
                   </div>

@@ -103,7 +103,7 @@ const Magento = () => {
           <div className="magento-back dine-123">
             <div className="magento_back1 magento-texted">
               <h1>
-                Get your ecomeerce business <br /> on Magento
+                Get your e-Commerce business <br /> on Magento
               </h1>
               <p>
                 If you want to develop your website with the help of field experts, just tell us.
