@@ -110,7 +110,7 @@ function DigitalMarketing({notify}) {
               <div className="hero-content">
                
                 <h1>
-                 Complete Digital Marketing services to <br /> sky rocket your online business
+                 Complete Digital Marketing services to sky rocket your online business
                 </h1>
                 <hr className="blueLine" />
                 <p>
