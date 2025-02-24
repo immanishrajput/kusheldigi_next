@@ -79050,7 +79050,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
 
     .about-main h1 {
       /* padding-top: 123px; */
-        font-size: 25px !important;
+        font-size: 20px !important;
         line-height: 32px !important
     }
 
@@ -85568,5 +85568,13 @@ color: #38475c;
   }
   .USA-ourWork-left-card p {
     height: auto !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .about-main p {
+      font-size: 14px !important;
+      padding: 10px;
+      
   }
 }

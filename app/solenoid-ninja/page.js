@@ -338,10 +338,12 @@ const generateMetadata = ({ params }) => ({
               You can send us the details of your project, and a member of our
               team will contact you shortly.
             </p>
-          <Link href="/contact-us"><button>
+          <button>
+          <Link href="/contact-us">
               Request A Call{" "}
               <Image width={13} className=" inline ml-2" src={arrow4} alt="ml" />
-            </button></Link>
+              </Link>
+            </button>
           </div>
         </div>
 
