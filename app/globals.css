@@ -18687,6 +18687,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
   
     #kushel-next-js .kushel-next-js-content8 p {
+      text-align: center;
       font-size: 17px;
       padding: 14px
     }
@@ -18726,6 +18727,12 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     #kushel-next-js .kushel-next-js-container2 h6 {
       font-size: 20px;
       line-height: 28px
+    }
+    #kushel-next-js .kushel-next-js-cards-content-main3 p{
+      text-align: center;
+    }
+    #kushel-next-js .kushel-next-js-content8 p {
+      text-align: center;
     }
   }
   
@@ -52602,6 +52609,7 @@ width: 230px;
 }
 
 .our_commerce1 h6 {
+  text-align: center;
   font-size: 26px;
   font-weight: 700;
   font-family: 'Poppins', sans-serif !important;
@@ -52609,6 +52617,8 @@ width: 230px;
 }
 
 .our_commerce1 p {
+  text-align: center;
+  margin: 0 auto;
   font-size: 18.5px;
   width: 49em;
   line-height: 30px;
@@ -52658,12 +52668,13 @@ width: 230px;
 }
 
 .skyRoket a {
-  display: inline-flex;
+  display:flex;
   text-align: center;
   /* margin-left: 250px; */
   /* margin: 0 auto; */
   align-items:center;
   justify-content: center
+  
 }
 
 .skyRoket button {
