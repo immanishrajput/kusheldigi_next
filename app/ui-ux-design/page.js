@@ -186,7 +186,7 @@ const generateMetadata = ({ params }) => ({
               <SplideSlide>
                 <div className="business-box business-box20 relative text-center cursor-pointer">
                   <div className="business-card-img">
-                    <Image src={full} alt="Excellent User Experience" title="Excellent User Experience" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740402780/full_tme7lk.png' alt="Excellent User Experience" title="Excellent User Experience" />
                   </div>
                   <h5>Excellent User Experience</h5>
                   <p>

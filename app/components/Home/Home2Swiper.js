@@ -5,7 +5,7 @@ import "@splidejs/react-splide/css";
 import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 import  "./styles.css"; 
-
+import Link from "next/link";
 
 function Home2Swiper() {
   const splideRef = useRef(null);
@@ -56,11 +56,13 @@ function Home2Swiper() {
               src: "https://res.cloudinary.com/ecommerce-website/image/upload/v1724771692/r3_jrfuwm.webp",
               title: "Slides 365",
               buttons: ["D2C", "E-commerce"],
+              link:"Slidesdesign"
             },
             {
               src: "https://res.cloudinary.com/ecommerce-website/image/upload/v1724771660/r2_lrfwa7.webp",
               title: "Sights and Scopes",
               buttons: ["B2B", "Drop Shipping"],
+              link:"sites"
             },
             {
               src: "https://res.cloudinary.com/ecommerce-website/image/upload/v1724771731/r5_ncdkkn.webp",
@@ -71,11 +73,13 @@ function Home2Swiper() {
               src: "https://res.cloudinary.com/ecommerce-website/image/upload/v1724771748/r6_seznmz.webp",
               title: "2nd Amendment Armory",
               buttons: ["Ecommerce", "Firearms"],
+              link:"2ndamendment"
             },
             {
               src: "https://res.cloudinary.com/ecommerce-website/image/upload/v1724771142/r7.9b674d792052fc0e3f5d_gmneu5.webp",
               title: "Top Brass Tactical",
               buttons: ["Ecommerce", "Tactical Gear"],
+              link:"topbrass"
             },
             {
               src: "https://res.cloudinary.com/ecommerce-website/image/upload/v1724771718/r4_ltvw73.webp",
@@ -85,7 +89,8 @@ function Home2Swiper() {
           ].map((slide, index) => (
             <SplideSlide key={index}>
               <div className="singswiperdiv">
-                <Image
+               <a href={slide.link}>
+               <Image
                   src={slide.src}
                   alt={slide.title}
                   title={slide.title}
@@ -93,6 +98,7 @@ function Home2Swiper() {
                   height={200}
                   className="swiperImage"
                 />
+               </a>
                 <div className="swiplidebtn">
                   <div className="insidebtns">
                     {slide.buttons.map((btn, i) => (

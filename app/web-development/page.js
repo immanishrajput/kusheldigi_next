@@ -586,12 +586,14 @@ const generateMetadata = ({ params }) => ({
           </p>
 
           <img className="ben-img" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724844335/vertical.036b19ce6d8d5d31e526_1_tihxl4.png" alt="Benefits Of Working With Us" title="Benefits Of Working With Us" />
-          <Link href="/contact-us">
+       
             <button>
+            <Link href="/contact-us">
               Request A Call{" "}
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 24L9.8625 21.9L18.2625 13.5H0V10.5H18.2625L9.8625 2.1L12 0L24 12L12 24Z" fill="white" /> </svg>
+              </Link>
             </button>
-          </Link>
+     
         </div>
 
         <div className="development-process dine-1234">

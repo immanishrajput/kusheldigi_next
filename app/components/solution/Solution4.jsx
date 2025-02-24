@@ -98,7 +98,7 @@ useEffect(() => {
                 Entice buyers and generate more leads through our top-notch
                 interactive eCommerce business development solutions.
               </p>
-              <Link href="/contact-us"><button>REQUEST DEMO</button></Link>
+          <button>    <Link href="/contact-us"> REQUEST DEMO </Link></button>
             </div>
             <div className="solution_back2">
               <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724930471/timery.27da1d0b3f753b1420e9_auwua2.png" alt="E-commerce Development Solutions" title="E-commerce Development Solutions" />
@@ -288,7 +288,7 @@ useEffect(() => {
                   <div className="faltu-head">
                     <h4>Brand Recognition</h4>
                     <p>
-                      eCommerce apps leads to enhanced brand awareness &
+                      E-Commerce apps leads to enhanced brand awareness &
                       marketing while also empowering relationships with your
                       customers.
                     </p>
@@ -524,7 +524,7 @@ useEffect(() => {
             <h3>Boost Your E-commerce Business Experience With Kushel Digi</h3>
             <p>Build power-packed eCommerce apps & connect with global customers.</p>
             <div className="boost_button">
-              <Link href="/contact-us"><button>Get in Touch</button></Link>
+            <button>  <Link href="/contact-us">Get in Touch </Link></button>
             </div>
           </div>
         </div>

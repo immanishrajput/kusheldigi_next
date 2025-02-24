@@ -19,6 +19,16 @@ import Navbar from '../COMMON/Navbar'
 import Footer from '../COMMON/Footer'
 // import { Helmet } from 'react-helmet';
 
+const phoneNumber = "9045301702";
+
+  const whatAppHandler = () => {
+    const whatsappUrl = `https://wa.me/${phoneNumber}`;
+    window.open(whatsappUrl, "_blank");
+  };
+  const callHandler = () => {
+    const callUrl = `tel:${phoneNumber}`;
+    window.open(callUrl, "_blank");
+  }
 function BigCommerce3({ notify }) {
    const generateMetadata = ({ params }) => ({
                 title: 'Top-notch Big commerce development services',
@@ -70,7 +80,15 @@ function BigCommerce3({ notify }) {
         <ContactForm1 notify={notify} />
 
 
+        <div className="whtsApBtns">
+          <button onClick={whatAppHandler}>
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+          </button>
+          <button onClick={callHandler}>
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991783/telephone_k9aecl.png' alt="call-icon" title="call-icon" />
+          </button>
 
+        </div>
       </div>
       <Footer/>
     </>

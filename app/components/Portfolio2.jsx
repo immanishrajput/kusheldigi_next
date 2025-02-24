@@ -171,7 +171,7 @@ const caseStudies = [
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730459192/image_pknari.png",
     img2: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730459236/Group_1171275966_xq0qb4.png",
-    btnText: "VIEW LIVE SITE",
+    btnText: "VIEW CASE STUDY",
     link: "/2ndamendment",
     width: 500,
     height: 200,

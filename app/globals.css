@@ -33349,6 +33349,7 @@ display: none;
    right: 0;
    top: 0;
    transform: translateY(364px);
+   display: none;
   }
   
   .nwPortSec2 .mwPS2_bttom .nwPs2head{
@@ -42288,12 +42289,14 @@ form button:hover {
 }
 
 .ben-da a {
+  gap: 10px;
   display: flex;
   align-items: center;
   justify-content: center
 }
 
 .ben-da button {
+  margin: 0 auto;
   font-family: 'sf-ui-display-medium',sans-serif !important;
   max-width: 270px;
   width: 100%;
@@ -52669,6 +52672,8 @@ width: 230px;
 
 .skyRoket a {
   display:flex;
+  width: 200px;
+  margin: 0 auto;
   text-align: center;
   /* margin-left: 250px; */
   /* margin: 0 auto; */
@@ -52865,8 +52870,8 @@ width: 230px;
 }
 
 .boost_sect a {
-  display:block;
-  width: 250px;
+  display:flex;
+  width: 109px;
   margin: 0 auto;
   align-items: center;
   justify-content: center
@@ -52879,6 +52884,7 @@ width: 230px;
   border: none;
   border-radius: 28px;
   color: #fff;
+  margin: 0 auto;
   display: flex;
   font-size: 17px;
   font-style: normal;
@@ -55285,7 +55291,7 @@ width: 230px;
   font-weight: 700;
   color: #000;
   opacity: 20%;
-  top: -50px;
+  top: -75px;
   position: absolute
 }
 
@@ -55305,6 +55311,12 @@ width: 230px;
   display: flex;
   align-items: flex-start
 }
+@media (max-width:901px){
+  .flowa {
+    display: block !important;
+  }
+}
+
 
 .flowChartSec1 {
   margin-left: 50px
@@ -77312,7 +77324,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .noida p {
-        margin-left: 2px
+        margin-left: 0px
     }
 
     .email {
@@ -78398,6 +78410,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .solution_expertise1 p {
+      text-align: center;
         font-size: 14px
     }
 
@@ -79050,7 +79063,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
 
     .about-main h1 {
       /* padding-top: 123px; */
-        font-size: 20px !important;
+        font-size: 25px !important;
         line-height: 32px !important
     }
 
@@ -85568,13 +85581,5 @@ color: #38475c;
   }
   .USA-ourWork-left-card p {
     height: auto !important;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .about-main p {
-      font-size: 14px !important;
-      padding: 10px;
-      
   }
 }
