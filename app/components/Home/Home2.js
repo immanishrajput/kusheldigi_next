@@ -8,7 +8,7 @@ const Home2 = () => {
         <div className='home2Div'>
                 <p>Award-winning Agency Partner</p>
                 <div>
-                  <Image src={certified} alt='certified'></Image>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740481216/full-badge-bc-certified_krjod2.svg' alt='certified'></img>
                 </div>
                 <div><Image src={partner} alt='partner'></Image> </div>
               </div>

@@ -73,7 +73,7 @@ function BigAskQuestion() {
               {/* Top question */}
               <div className='quetiobtn' onClick={() => toggleAnswer(i)}>
                 <p>{d.question}</p>
-                <Image className='cursor-pointer ' src={openIndex === i ? minus : plus} alt='Toggle' />
+                <img className='cursor-pointer ' src={openIndex === i ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740481940/-_j8sfvf.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740481904/zt00wkerhyfn1qbvqc5j.png'} alt='Toggle' />
               </div>
 
               {/* Bottom answer */}

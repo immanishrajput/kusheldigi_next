@@ -146,7 +146,7 @@ useEffect(() => {
             <div className="business-card flex-wrap">
               <div className="business-box busi-box relative text-center cursor-pointer">
                 <div className="business-card-img">
-                  <Image src={penda} alt="E-commerce Consulting" title="E-commerce Consulting" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740481029/penda_b2myld.png' alt="E-commerce Consulting" title="E-commerce Consulting" />
                 </div>
                 <h5>E-commerce Consulting</h5>
                 <p>
@@ -157,7 +157,7 @@ useEffect(() => {
               </div>
               <div className="business-box busi-box relative text-center cursor-pointer">
                 <div className="business-card-img">
-                  <Image src={penda} alt="Custom E-commerce Apps" title="Custom E-commerce Apps" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740481029/penda_b2myld.png' alt="Custom E-commerce Apps" title="Custom E-commerce Apps" />
                 </div>
                 <h5>Custom E-commerce Apps</h5>
                 <p>
@@ -168,7 +168,7 @@ useEffect(() => {
               </div>
               <div className="business-box busi-box relative text-center cursor-pointer">
                 <div className="business-card-img">
-                  <Image src={penda} alt="Retail Software" title="Retail Software" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740481029/penda_b2myld.png' alt="Retail Software" title="Retail Software" />
                 </div>
                 <h5>Retail Software</h5>
                 <p>
@@ -179,7 +179,7 @@ useEffect(() => {
               </div>
               <div className="business-box busi-box relative text-center cursor-pointer">
                 <div className="business-card-img">
-                  <Image src={penda} alt="Digital Transformation" title="Digital Transformation" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740481029/penda_b2myld.png' alt="Digital Transformation" title="Digital Transformation" />
                 </div>
                 <h5>Digital Transformation</h5>
                 <p>
@@ -189,7 +189,7 @@ useEffect(() => {
               </div>
               <div className="business-box busi-box relative text-center cursor-pointer">
                 <div className="business-card-img">
-                  <Image src={penda} alt="Mobility Solutions" title="Mobility Solutions" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740481029/penda_b2myld.png' alt="Mobility Solutions" title="Mobility Solutions" />
                 </div>
                 <h5>Mobility Solutions</h5>
                 <p>
@@ -200,7 +200,7 @@ useEffect(() => {
               </div>
               <div className="business-box busi-box relative text-center cursor-pointer">
                 <div className="business-card-img">
-                  <Image src={penda} alt="Custom AppIntegration" title="Custom AppIntegration" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740481029/penda_b2myld.png' alt="Custom AppIntegration" title="Custom AppIntegration" />
                 </div>
                 <h5>Custom AppIntegration</h5>
                 <p>
@@ -211,7 +211,7 @@ useEffect(() => {
               </div>
               <div className="business-box busi-box relative text-center cursor-pointer">
                 <div className="business-card-img">
-                  <Image src={penda} alt="Platform Migration" title="Platform Migration" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740481029/penda_b2myld.png' alt="Platform Migration" title="Platform Migration" />
                 </div>
                 <h5>Platform Migration</h5>
                 <p>
@@ -223,7 +223,7 @@ useEffect(() => {
 
               <div className="business-box busi-box relative text-center cursor-pointer">
                 <div className="business-card-img">
-                  <Image src={penda} alt="E-commerce App Design" title="E-commerce App Design" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740481029/penda_b2myld.png' alt="E-commerce App Design" title="E-commerce App Design" />
                 </div>
                 <h5>E-commerce App Design</h5>
                 <p>
@@ -399,7 +399,7 @@ useEffect(() => {
 
         <div className="ecomeee-solll">
           <div className="ecoome_sol_port pt-10">
-            <Image className="ecommi" src={ecommi} alt="BigCommerce Portfolio" title="BigCommerce Portfolio" />
+            <img className="ecommi" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740481132/ecoomi_ip4moz.png' alt="BigCommerce Portfolio" title="BigCommerce Portfolio" />
 
             <div className="big_pint dine-1234">
               <p>We create success stories.</p>
@@ -423,7 +423,7 @@ useEffect(() => {
                   <SplideSlide>
                     <div className="kickta_big">
                       <div className="kickta_big1">
-                        <Image src={kikma} alt="the most compfortable recoil"  title="the most compfortable recoil"/>
+                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480864/kikma_dyc44r.png' alt="the most compfortable recoil"  title="the most compfortable recoil"/>
                         <div className="headst_big">
                           <h3>the most <br />
                             compfortable<br />
@@ -446,7 +446,7 @@ useEffect(() => {
                   <SplideSlide>
                     <div className="kickta_big kickta_big11">
                       <div className="kickta_big1 kickta_big22">
-                        <Image src={worlich22} alt="Fall/winter" title="Fall/winter" />
+                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480926/worlich22_vkemor.png' alt="Fall/winter" title="Fall/winter" />
                         <div className="headst_big">
                           <h3>Fall/winter<br />
                             2023</h3>
@@ -471,7 +471,7 @@ useEffect(() => {
                   <SplideSlide>
                     <div className="kickta_big kickta_big111">
                       <div className="kickta_big1 kickta_big222">
-                        <Image src={spiti} alt="Mix it up" title="Mix it up" />
+                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480961/spiti_ovw7h0.png' alt="Mix it up" title="Mix it up" />
                         <div className="headst_big">
                           <h3>Mix it up</h3>
                           <p>Find your look for your iPhone 14</p>
@@ -493,7 +493,7 @@ useEffect(() => {
                   <SplideSlide>
                     <div className="kickta_big kickta_big1111">
                       <div className="kickta_big1 kickta_big2222">
-                        <Image className="travisi" src={travisi} alt="SHORT RESPONSE" title="SHORT RESPONSE" />
+                        <img className="travisi" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480992/travisi_meoxum.png' alt="SHORT RESPONSE" title="SHORT RESPONSE" />
                         <div className="headst_big">
                           <h3>SHORT RESPONSE</h3>
                           <p>New colors have arrived in your</p>
@@ -533,10 +533,10 @@ useEffect(() => {
 
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480684/whatsapp_fuwawo.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480725/telephone_h8clxy.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

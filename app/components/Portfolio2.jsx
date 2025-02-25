@@ -50,7 +50,7 @@ const caseStudies = [
   // one
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/q_auto:best/v1724927291/Group_1000010192_izwiae.png",
-    img2: abimg1,
+    img2: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477030/abImg1_vyhxn6.png',
     btnText: "VIEW CASE STUDY",
     link: "/kick-eez",
     alt: "kusheldigi case study-KICK-EEZ",
@@ -66,7 +66,7 @@ const caseStudies = [
   // two
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/q_auto:best/v1724927287/Group_1000010193_geczey.png",
-    img2: abimg2,
+    img2: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477086/abimg2_vksyx7.png',
     btnText: "VIEW CASE STUDY",
     link: "/pro-track",
     alt: "kusheldigi Our Portfolio-PRO",
@@ -82,7 +82,7 @@ const caseStudies = [
   // three
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1724927284/Group_1000010194_a1kfrj.png",
-    img2: abimg3,
+    img2: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477117/abimg3_tsrgwp.png',
     btnText: "VIEW CASE STUDY",
     link: "/rely",
     width: 500,
@@ -95,7 +95,7 @@ const caseStudies = [
   // four
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1725880369/image_2_jkmhgr.png",
-    img2: abimg5,
+    img2: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477144/abimg5_wfhlp8.png',
     btnText: "VIEW CASE STUDY",
     link: "/solenoid-ninja",
     width: 500,
@@ -184,7 +184,7 @@ const caseStudies = [
   // ten
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730447686/home-slider-1_ujqnho.png",
-    img2: gthj,
+    img2: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477264/gthj_dwz6nv.png',
     btnText: "VIEW CASE STUDY",
     link: "/Ai",
     width: 500,
@@ -216,7 +216,7 @@ const caseStudies = [
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1725886340/Group_1171275991_nrwbso.png",
     btnText: "VIEW CASE STUDY",
     link: "/crazyCMS",
-    img2: mycms,
+    img2: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477196/mycms_dc994l.png',
     width: 500,
     height: 200,
     alt: "case study-CEO Wheels",
@@ -258,7 +258,7 @@ const caseStudies = [
 
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1725886339/Group_1171275992_lfqyjn.png",
-    img2: hrmsname,
+    img2: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477326/hrmsname_ljnty9.png',
     btnText: "VIEW CASE STUDY",
     // link:"https://skknbykim.com/",
     target: "_blank",
@@ -287,9 +287,9 @@ const caseStudies = [
   },
   // seventy
   {
-    img: jk11,
+    img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478552/jkki1_hzx3ni.png',
 
-    img2: custom11,
+    img2: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478580/custom11_kznig4.png',
     btnText: "VIEW LIVE SITE",
     // link: "/Digitalmna",
     alt: "case study-DigitalMnA Partners",
@@ -301,9 +301,9 @@ const caseStudies = [
   },
   // eighty
   {
-    img: weba1,
+    img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478887/weba1_iukjgl.png',
 
-    img2: webinstal,
+    img2: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478756/webinstalogo_rutcoc.png',
     // btnText: "VIEW CASE STUDY",
     link: "/Digitalmna",
     alt: "case study-DigitalMnA Partners",
@@ -315,9 +315,9 @@ const caseStudies = [
   },
   // ninty
   {
-    img: weba2,
+    img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478926/weba2_keogkb.png',
 
-    img2: objtech,
+    img2: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478856/webobtech_km5zcs.png',
     // btnText: "VIEW CASE STUDY",
     link: "/Digitalmna",
     alt: "case study-DigitalMnA Partners",
@@ -329,9 +329,9 @@ const caseStudies = [
   },
   // twenty
   {
-    img: weba3,
+    img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478952/weba3_uwesfv.png',
 
-    img2: abimg11,
+    img2: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477171/abimg11_aiqpei.png',
     btnText: "VIEW CASE STUDY",
     link: "/Digitalmna",
     alt: "case study-DigitalMnA Partners",
@@ -343,9 +343,9 @@ const caseStudies = [
   },
   // twentyOne
   {
-    img: weba4,
+    img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478983/weba4_cdbo0c.png',
 
-    img2: webauxil,
+    img2: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478612/webauxlogo_sxf2ww.png',
     // btnText: "VIEW CASE STUDY",
     link: "/Digitalmna",
     alt: "case study-DigitalMnA Partners",
@@ -357,9 +357,9 @@ const caseStudies = [
   },
   // twentytwo
   {
-    img: weba5,
+    img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740479013/weba5_bhswgw.png',
 
-    img2: webjuniorl,
+    img2: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478786/webjuniorlogo_pvlv7i.png',
     // btnText: "VIEW CASE STUDY",
     link: "/Digitalmna",
     alt: "case study-DigitalMnA Partners",
@@ -371,9 +371,9 @@ const caseStudies = [
   },
   // twentyThree
   {
-    img: weba6,
+    img:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740479062/weba6_v2eo0r.png',
 
-    img2: websurvinl,
+    img2: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478645/websuvrinlogo_cdrlkl.png',
     // btnText: "VIEW CASE STUDY",
     link: "/Digitalmna",
     alt: "case study-DigitalMnA Partners",
@@ -384,9 +384,9 @@ const caseStudies = [
     width1: 129
   },
   {
-    img: weba7,
+    img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740479095/weba7_vvtmlr.png',
 
-    img2: toffle,
+    img2: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478824/touffle_le6ygd.png',
     // btnText: "VIEW CASE STUDY",
     link: "/Digitalmna",
     alt: "case study-DigitalMnA Partners",
@@ -397,9 +397,9 @@ const caseStudies = [
     width1: 129
   },
   {
-    img: weba8,
+    img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740479448/weba8_fbfhjw.png',
 
-    img2: webmajorl,
+    img2: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478721/webmajorlogo_ejcx63.png',
     // btnText: "VIEW CASE STUDY",
     link: "/Digitalmna",
     alt: "case study-DigitalMnA Partners",
@@ -410,9 +410,9 @@ const caseStudies = [
     width1: 129
   },
   {
-    img: weba9,
+    img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740479486/weba9_f7dqri.png',
 
-    img2: webushal,
+    img2: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
     // btnText: "VIEW CASE STUDY",
     link: "/Digitalmna",
     alt: "case study-DigitalMnA Partners",
@@ -423,7 +423,7 @@ const caseStudies = [
     width1: 129
   },
   {
-    img: sainaimg,
+    img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477358/sainaimg_qz7gww.png',
     // img2: "",
     btnText: "VIEW LIVE SITE",
     // link: "/Slidesdesign",
@@ -436,7 +436,7 @@ const caseStudies = [
   },
 
   {
-    img: saka,
+    img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477414/SAKA_jedqtc.png',
     // img2: "",
     btnText: "VIEW LIVE SITE",
     // link: "/Slidesdesign",
@@ -449,7 +449,7 @@ const caseStudies = [
   },
 
   {
-    img: tikus11,
+    img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477440/tikus11_wi6idq.png',
     // img2: "",
     btnText: "VIEW LIVE SITE",
     // link: "/Slidesdesign",
@@ -461,7 +461,7 @@ const caseStudies = [
     id1: "st1"
   },
   {
-    img: test111,
+    img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477470/tset111_h3nk87.png',
     // img2: "",
     btnText: "VIEW LIVE SITE",
     // link: "/Slidesdesign",
@@ -473,7 +473,7 @@ const caseStudies = [
     id1: "st1"
   },
   {
-    img: ikk1,
+    img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478500/likk1_tjbxdr.png',
     // img2: "",
     btnText: "VIEW LIVE SITE",
     // link: "/Slidesdesign",
@@ -486,7 +486,7 @@ const caseStudies = [
   },
 
   {
-    img: vrott,
+    img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477385/vrott_sqapt9.png',
     btnText: "VIEW LIVE SITE",
     // link: "/Slidesdesign",
     alt: "case study-Slides365",
@@ -498,10 +498,10 @@ const caseStudies = [
   },
 
   {
-    img: oddo1,
+    img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740479511/oddo1_elihiu.png',
     // btnText: "VIEW LIVE SITE",
     // link: "/Slidesdesign",
-    img2: ushalogo,
+    img2: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740479541/ushalogo_cxq0og.png',
     alt: "case study-Slides365",
     category: ["oddodevelop"],
     width: 500,
@@ -600,7 +600,7 @@ const Portfolio = () => {
         {/* second section  */}
         <div className="nwPortSec2">
 
-          <Image src={leftMost} className="leftMost" alt="portfolio-design" title=" portfolio-design" />
+          <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477224/leftmost_hzotm8.png' className="leftMost" alt="portfolio-design" title=" portfolio-design" />
 
           <div className="nwPortSec2Cont">
             {/* top  */}
@@ -609,7 +609,7 @@ const Portfolio = () => {
 
             <div className="mwPS2_bttom">
 
-              <Image src={csRightMost} className="csRightMost" alt="portfolio-design" title=" portfolio-design" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477289/csRightMost_di9uzd.png' className="csRightMost" alt="portfolio-design" title=" portfolio-design" />
 
               <h2 className="nwPs2head">Our Work</h2>
               <div className="our_btnii">
@@ -626,13 +626,13 @@ const Portfolio = () => {
                 {filteredCaseStudies.map((data, index) => (
 
                   <div id={data?.id1} className="sinCaseStudy" key={index}>
-                    <Image src={data.img} className="sinCaseStudyimg" alt={data.alt} title={data.alt} height={data.height} width={data.width}
+                    <img src={data.img} className="sinCaseStudyimg" alt={data.alt} title={data.alt} height={data.height} width={data.width}
                     />
 
                     <div className="csInsiImg">
                       {
                         data?.img2 ?
-                          <Image src={data?.img2} alt={data?.alt} title={data?.alt} height={data.height1} width={data.width1} />
+                          <img src={data?.img2} alt={data?.alt} title={data?.alt} height={data.height1} width={data.width1} />
                           :
                           <p></p>
                       }
@@ -664,10 +664,10 @@ const Portfolio = () => {
 
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469695/whatsapp_ubh9of.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469745/telephone_twhjto.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

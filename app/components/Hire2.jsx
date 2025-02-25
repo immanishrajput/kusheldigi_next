@@ -142,9 +142,9 @@ useEffect(() => {
             </div>
             <div className="second-hiring">
               <div className="about165">
-                <Image className="hiredEllipse" src={hiredEllipse} alt="hiredEllipse-desgin" title="hiredEllipse-desigm" />
+                <img className="hiredEllipse" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740479853/hiredEllipse_avoyyq.png' alt="hiredEllipse-desgin" title="hiredEllipse-desigm" />
               </div>
-              <Image className="hiper" src={hiper} alt="Build Your Business" title="Build Your Business" />
+              <img className="hiper" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740479792/hiper_sdrvuw.png' alt="Build Your Business" title="Build Your Business" />
             </div>
           </div>
         </div>
@@ -156,19 +156,19 @@ useEffect(() => {
             <h2>GET YOUR TEAM HIRED</h2>
             <div className="list-hired">
               <div className="listing-hired">
-                <Image src={watta} alt="TEAM HIRED with right point" title="TEAM HIRED with right point" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740479896/watta_kajy5c.png' alt="TEAM HIRED with right point" title="TEAM HIRED with right point" />
                 <p>Our skilled recruiters through our Team Hired Virtual Hiring Events can help get you hired fast build your team fast</p>
               </div>
               <div className="listing-hired">
-                <Image src={watta} alt="TEAM HIRED with right point" title="TEAM HIRED with right point" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740479896/watta_kajy5c.png' alt="TEAM HIRED with right point" title="TEAM HIRED with right point" />
                 <p>Learn tips and tricks on how to refine your hiring process</p>
               </div>
               <div className="listing-hired">
-                <Image src={watta} alt="TEAM HIRED with right point" title="TEAM HIRED with right point" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740479896/watta_kajy5c.png' alt="TEAM HIRED with right point" title="TEAM HIRED with right point" />
                 <p>Expert Coaching & Consulting to support your business</p>
               </div>
               <div className="listing-hired">
-                <Image src={watta} alt="TEAM HIRED with right point" title="TEAM HIRED with right point" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740479896/watta_kajy5c.png' alt="TEAM HIRED with right point" title="TEAM HIRED with right point" />
                 <p>Let Team Hired become an extension of your brand to help scale your business to the next level.</p>
               </div>
             </div>
@@ -185,25 +185,25 @@ useEffect(() => {
             <div className="hired-card">
               <div className="hired-box">
                 <div className="hired-sard">
-                  <Image src={hf2} alt="hSave time finding talent" title="Save time finding talent" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740479967/hf2_ypdcb8.png' alt="hSave time finding talent" title="Save time finding talent" />
                   <p>Save time finding talent</p>
                 </div>
               </div>
               <div className="hired-box">
                 <div className="hired-sard">
-                  <Image src={hf2} alt="Save money spent on sorcing talent" title="Save money spent on sorcing talent" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740479967/hf2_ypdcb8.png' alt="Save money spent on sorcing talent" title="Save money spent on sorcing talent" />
                   <p>Save money spent on <br /> sourcing talent</p>
                 </div>
               </div>
               <div className="hired-box">
                 <div className="hired-sard">
-                  <Image src={hf3} alt="productive team" title="productive team" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480039/hf3_dwd1vh.png' alt="productive team" title="productive team" />
                   <p>Work with a <br /> productive team</p>
                 </div>
               </div>
               <div className="hired-box">
                 <div className="hired-sard">
-                  <Image src={hf4} alt="finalized by you" title="finalized by you" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480069/hf4_erwf57.png' alt="finalized by you" title="finalized by you" />
                   <p>Team members are <br /> finalized by you</p>
                 </div>
               </div>
@@ -211,25 +211,25 @@ useEffect(() => {
             <div className="hired-card">
               <div className="hired-box">
                 <div className="hired-sard">
-                  <Image src={hf5} alt="talented professionals" title="talented professionals" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480102/hf5_j6amnq.png' alt="talented professionals" title="talented professionals" />
                   <p>Access to a pool of <br /> talented professionals</p>
                 </div>
               </div>
               <div className="hired-box">
                 <div className="hired-sard">
-                  <Image src={hf6} alt="comfortable with" title="comfortable with" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480128/hf6_qxgbpf.png' alt="comfortable with" title="comfortable with" />
                   <p>Work with people you <br /> are comfortable with</p>
                 </div>
               </div>
               <div className="hired-box">
                 <div className="hired-sard">
-                  <Image src={hf7} alt="igher resource" title="igher resource" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480158/hf7_eevnq8.png' alt="igher resource" title="igher resource" />
                   <p>Higher resource <br /> efficiency since teams <br /> work remotely</p>
                 </div>
               </div>
               <div className="hired-box">
                 <div className="hired-sard">
-                  <Image src={hf8} alt="Faster and better" title="Faster and better" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480185/hf8_mw1crt.png' alt="Faster and better" title="Faster and better" />
                   <p>Faster and better <br /> outcomes</p>
                 </div>
               </div>
@@ -251,21 +251,21 @@ useEffect(() => {
                     onMouseEnter={() => setHovered(true)}
                     onMouseLeave={() => setHovered(false)}
                   >
-                    <Image src={hovered ? posis10 : dilkush} alt="Healthcare & Wellness" title="Healthcare & Wellness" />
+                    <img src={hovered ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480660/posis10_wcvrvl.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480435/dilkush_hh8ycu.png'} alt="Healthcare & Wellness" title="Healthcare & Wellness" />
                     <p>Healthcare & Wellness</p>
                   </div>
                   <div className="indu-box"
                     onMouseEnter={() => setHovered2(true)}
                     onMouseLeave={() => setHovered2(false)}
                   >
-                    <Image src={hovered2 ? posis2 : dec1} alt="Real Estate" title="Real Estate" />
+                    <img src={hovered2 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480470/posis2_nsg7aw.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480216/dec1_ljtd5g.png'} alt="Real Estate" title="Real Estate" />
                     <p>Real Estate</p>
                   </div>
                   <div className="indu-box"
                     onMouseEnter={() => setHovered3(true)}
                     onMouseLeave={() => setHovered3(false)}
                   >
-                    <Image src={hovered3 ? posis3 : dec2} alt="Software & Internet Marketing" title="Software & Internet Marketing" />
+                    <img src={hovered3 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480503/posis3_i20kgv.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480251/dec2_cs0fuw.png'} alt="Software & Internet Marketing" title="Software & Internet Marketing" />
                     <p>IT, Software & Internet Marketing</p>
                   </div>
 
@@ -276,14 +276,14 @@ useEffect(() => {
                     onMouseEnter={() => setHovered4(true)}
                     onMouseLeave={() => setHovered4(false)}
                   >
-                    <Image src={hovered4 ? posis4 : dec3} alt="Finance & Banking" title="Finance & Banking" />
+                    <img src={hovered4 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480528/posis4_gtmcsr.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480279/dec3_kupbmp.png'} alt="Finance & Banking" title="Finance & Banking" />
                     <p>Finance & Banking</p>
                   </div>
                   <div className="indu-box"
                     onMouseEnter={() => setHovered5(true)}
                     onMouseLeave={() => setHovered5(false)}
                   >
-                    <Image src={hovered5 ? posis5 : dec4} alt="Government & Public" title="Government & Public" />
+                    <img src={hovered5 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480551/posis5_kcgm4z.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480309/dec4_gx77em.png'} alt="Government & Public" title="Government & Public" />
                     <p>
                       Government & Public <br /> Sector Enterprises
                     </p>
@@ -292,7 +292,7 @@ useEffect(() => {
                     onMouseEnter={() => setHovered6(true)}
                     onMouseLeave={() => setHovered6(false)}
                   >
-                    <Image src={hovered6 ? posis6 : dec5} alt="Travel & Tour" title="Travel & Tour" />
+                    <img src={hovered6 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480580/posis6_velzqq.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480336/dec5_juy6ud.png'} alt="Travel & Tour" title="Travel & Tour" />
                     <p>Travel & Tour</p>
                   </div>
 
@@ -304,20 +304,20 @@ useEffect(() => {
                     onMouseEnter={() => setHovered7(true)}
                     onMouseLeave={() => setHovered7(false)}
                   >
-                    <Image src={hovered7 ? posis7 : dec6} alt="Retail" title="Retail" />
+                    <img src={hovered7 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480605/posis7_xj147r.png': 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480376/dec6_c6oc4v.png'} alt="Retail" title="Retail" />
                     <p>Retail</p>
                   </div>
                   <div className="indu-box"
                     onMouseEnter={() => setHovered8(true)}
                     onMouseLeave={() => setHovered8(false)}
                   >
-                    <Image src={hovered8 ? posis8 : dec7} alt="SPORTS ( outdoor & indoor )" title="SPORTS ( outdoor & indoor )" />
+                    <img src={hovered8 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480633/posis8_piomxi.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480406/dec7_xex8ro.png'} alt="SPORTS ( outdoor & indoor )" title="SPORTS ( outdoor & indoor )" />
                     <p>SPORTS ( outdoor & indoor )</p>
                   </div>
                   <div className="indu-box indus-trust"
 
                   >
-                    <Image src={dec5} alt="Travel & Tour" title="Travel & Tour" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480336/dec5_juy6ud.png' alt="Travel & Tour" title="Travel & Tour" />
                     <p>Travel & Tour</p>
                   </div>
                 </div>
@@ -341,10 +341,10 @@ useEffect(() => {
         {/*  buttons  */}
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480684/whatsapp_fuwawo.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480725/telephone_h8clxy.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

@@ -474,7 +474,7 @@ const Php = () => {
                                 <div className="inr-div">
                                     <div>
                                         {" "}
-                                        <Image src={onring1} alt="Scalability" title='Scalability' className="icon" />
+                                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740473141/onring1_grimwo.png' alt="Scalability" title='Scalability' className="icon" />
                                     </div>
                                     <div>
                                         <h3 className="heading-2">Scalability</h3>
@@ -490,7 +490,7 @@ const Php = () => {
                                 <div className="inr-div">
                                     <div>
                                         {" "}
-                                        <Image src={onring1} alt="Open-source" title="Open-source" className="icon" />
+                                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740473141/onring1_grimwo.png' alt="Open-source" title="Open-source" className="icon" />
                                     </div>
                                     <div>
                                         <h3 className="heading-2">Open-source &amp; Free</h3>
@@ -506,7 +506,7 @@ const Php = () => {
                                 <div className="inr-div">
                                     <div>
                                         {" "}
-                                        <Image src={onring1} alt="Accessibility" title="Accessibility" className="icon" />
+                                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740473141/onring1_grimwo.png' alt="Accessibility" title="Accessibility" className="icon" />
                                     </div>
                                     <div>
                                         <h3 className="heading-2">Accessibility</h3>
@@ -524,7 +524,7 @@ const Php = () => {
                                 <div className="inr-div">
                                     <div>
                                         {" "}
-                                        <Image src={onring1} alt="Security" title="Security" className="icon" />
+                                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740473141/onring1_grimwo.png' alt="Security" title="Security" className="icon" />
                                     </div>
                                     <div>
                                         <h3 className="heading-2">Security</h3>
@@ -541,7 +541,7 @@ const Php = () => {
                                 <div className="inr-div">
                                     <div>
                                         {" "}
-                                        <Image src={onring1} alt="Fast Development" title="Fast Development" className="icon" />
+                                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740473141/onring1_grimwo.png' alt="Fast Development" title="Fast Development" className="icon" />
                                     </div>
                                     <div>
                                         <h3 className="heading-2">Fast Development</h3>
@@ -558,7 +558,7 @@ const Php = () => {
                                 <div className="inr-div">
                                     <div>
                                         {" "}
-                                        <Image src={onring1} alt="Large Development Community" title="Large Development Community" className="icon" />
+                                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740473141/onring1_grimwo.png' alt="Large Development Community" title="Large Development Community" className="icon" />
                                     </div>
                                     <div>
                                         <h3 className="heading-2">Large Development Community</h3>
@@ -626,10 +626,10 @@ const Php = () => {
 
                 <div className="whtsApBtns">
                     <button onClick={whatAppHandler}>
-                        <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+                        <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469695/whatsapp_ubh9of.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
                     </button>
                     <button onClick={callHandler}>
-                        <Image src={call} alt="call-icon" title="call-icon" />
+                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469745/telephone_twhjto.png' alt="call-icon" title="call-icon" />
                     </button>
 
                 </div>
