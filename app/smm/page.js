@@ -107,7 +107,7 @@ const generateMetadata = ({ params }) => ({
               </p>
             </div>
             <div className="social-media-second-section">
-              <Image src={smm1} alt="Social Media Marketing" title="Social Media Marketing" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740467586/social_media_image_zm9yn3.png' alt="Social Media Marketing" title="Social Media Marketing" />
             </div>
           </div>
         </div>
@@ -123,7 +123,7 @@ const generateMetadata = ({ params }) => ({
               </p>
             </div>
             <div className="lead-second-section">
-              <Image src={smm2} alt="SMM can drive your success" title="SMM can drive your success" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740467628/leads_image_v6pxov.png' alt="SMM can drive your success" title="SMM can drive your success" />
             </div>
           </div>
         </div>
@@ -142,7 +142,7 @@ const generateMetadata = ({ params }) => ({
               </div>
               <div className="strategy-icon-section">
                 <div className="icon">
-                  <Image src={smm3} alt="Real Followers" title="Real Followers" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740467674/strategy_icon-1_hz7kfm.svg' alt="Real Followers" title="Real Followers" />
                 </div>
                 <div className="text">
                   <h3>Real Followers</h3>
@@ -155,7 +155,7 @@ const generateMetadata = ({ params }) => ({
               </div>
               <div className="strategy-icon-section">
                 <div className="icon-2">
-                  <Image src={smm4} alt="Real Like" title="Real Like" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740467714/strategy_icon-2_vvwdyk.svg' alt="Real Like" title="Real Like" />
                 </div>
                 <div className="text">
                   <h3>Real Likes</h3>
@@ -167,7 +167,7 @@ const generateMetadata = ({ params }) => ({
               </div>
               <div className="strategy-icon-section">
                 <div className="icon">
-                  <Image src={smm5} alt="Real Views" title="Real Views" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740467748/strategy_icon-3_jsonp6.svg' alt="Real Views" title="Real Views" />
                 </div>
                 <div className="text">
                   <h3>Real Views</h3>
@@ -179,7 +179,7 @@ const generateMetadata = ({ params }) => ({
               </div>
             </div>
             <div className="strategy-second-section">
-              <Image src={smm6} alt="Social Media Needs" title="Social Media Needs" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740467780/strategy_image_yvbu7e.png' alt="Social Media Needs" title="Social Media Needs" />
             </div>
           </div>
         </div>
@@ -197,13 +197,13 @@ const generateMetadata = ({ params }) => ({
           </div>
           <div className="process-under-section dine-123">
             <div className="process-first-section">
-              <Image src={smm7} alt="Social Media Process" title="Social Media Process" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740467812/process_image_ow0o6r.png' alt="Social Media Process" title="Social Media Process" />
             </div>
             <div className="process-second-section">
 
               <div className="process-icon-section">
                 <div className="icon-1">
-                  <Image src={smm8} alt="Sign Up To Create New Accoun" title="Sign Up To Create New Accoun" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740467847/process_icon-1_ec7s9g.svg' alt="Sign Up To Create New Accoun" title="Sign Up To Create New Accoun" />
                   <div className="line-1">
                     <hr />
                   </div>
@@ -221,7 +221,7 @@ const generateMetadata = ({ params }) => ({
 
               <div className="process-icon-section">
                 <div className="icon-1">
-                  <Image src={smm9} alt="Add Funds To Account" title="Add Funds To Account" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740467886/process_icon-2_njbg0l.svg' alt="Add Funds To Account" title="Add Funds To Account" />
                   <div className="line-1">
                     <hr />
                   </div>
@@ -239,7 +239,7 @@ const generateMetadata = ({ params }) => ({
 
               <div className="process-icon-section">
                 <div className="icon-1">
-                  <Image src={smm10} alt="Select Service You Want To Order" title="Select Service You Want To Order" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740467923/process_icon-3_h57mla.svg' alt="Select Service You Want To Order" title="Select Service You Want To Order" />
                   <div className="line-1 line-3">
                     <hr />
                   </div>
@@ -257,7 +257,7 @@ const generateMetadata = ({ params }) => ({
 
               <div className="process-icon-section">
                 <div className="icon-1">
-                  <Image src={smm11} alt="Sit Back Enjoy" title="Sit Back Enjoy" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740467961/process_icon-4_wodf2x.svg' alt="Sit Back Enjoy" title="Sit Back Enjoy" />
                   <div className="line-1 line-2">
                     <hr className="extraheight" />
                   </div>
@@ -299,7 +299,7 @@ const generateMetadata = ({ params }) => ({
               <div className="second-section">
                 <div className="second-section-card">
                   <div className="card-content">
-                    <Image src={smm12} alt="Social Media Management" title="Social Media Management" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740467997/services_icon-1_eprcha.svg' alt="Social Media Management" title="Social Media Management" />
                     <h3>Social Media Management</h3>
                     <p>
                       Day-to-day maintenance of social network accounts,
@@ -311,7 +311,7 @@ const generateMetadata = ({ params }) => ({
                 </div>
                 <div className="second-section-card">
                   <div className="card-content">
-                    <Image src={smm13} alt="Social Media Advertising" title="Social Media Advertising" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468033/services_icon-2_igamop.svg' alt="Social Media Advertising" title="Social Media Advertising" />
                     <h3>Social Media Advertising</h3>
                     <p>
                       Using paid ad campaigns on sites that include but are not
@@ -324,7 +324,7 @@ const generateMetadata = ({ params }) => ({
                 </div>
                 <div className="second-section-card">
                   <div className="card-content">
-                    <Image src={smm14} alt="Influencer Marketing" title="Influencer Marketing" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468074/services_icon-3_stfvxp.svg' alt="Influencer Marketing" title="Influencer Marketing" />
                     <h3>Influencer Marketing</h3>
                     <p>
                       Influencer marketing involves social media influencers in
@@ -336,7 +336,7 @@ const generateMetadata = ({ params }) => ({
               <div className="second-section">
                 <div className="second-section-card">
                   <div className="card-content">
-                    <Image src={smm15} alt="Reputation Management" title="Reputation Management" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468118/services_icon-4_na3ftc.svg' alt="Reputation Management" title="Reputation Management" />
                     <h3>Reputation Management</h3>
                     <p>
                       Keeping track of online reviews, feedback, and brand
@@ -347,7 +347,7 @@ const generateMetadata = ({ params }) => ({
                 </div>
                 <div className="second-section-card">
                   <div className="card-content">
-                    <Image src={smm16} alt="Community Buildingt" title="Community Buildingt" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468159/services_icon-5_mdwjnc.svg' alt="Community Buildingt" title="Community Buildingt" />
                     <h3 style={{ marginTop: 15 }}>Community Buildingt </h3>
                     <p>
                       Establishing and cultivating an engaged online community
@@ -357,7 +357,7 @@ const generateMetadata = ({ params }) => ({
                 </div>
                 <div className="second-section-card">
                   <div className="card-content">
-                    <Image src={smm17} alt="Crisis Management" title="Crisis Management" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468203/services_icon-6_pxeclp.svg' alt="Crisis Management" title="Crisis Management" />
                     <h3>Crisis Management</h3>
                     <p>
                       Coming up with different approaches or strategies to
@@ -393,14 +393,14 @@ const generateMetadata = ({ params }) => ({
               <div className="upper-second-section-card">
                 <div className="choose-second-section-card">
                   <div className="card-content">
-                    <Image src={smm18} alt="Expertise" title="Expertise" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468249/choose_icon-1_jxhdw5.svg' alt="Expertise" title="Expertise" />
 
                     <h3>Expertise</h3>
                   </div>
                 </div>
                 <div className="choose-second-section-card next-card">
                   <div className="card-content">
-                    <Image src={smm19} alt="Creative Content" title="Creative Content" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468286/choose_icon-2_wmlhwb.svg' alt="Creative Content" title="Creative Content" />
 
                     <h3>Creative Content</h3>
                   </div>
@@ -409,14 +409,14 @@ const generateMetadata = ({ params }) => ({
               <div className="upper-second-section-card">
                 <div className="choose-second-section-card">
                   <div className="card-content">
-                    <Image src={smm20} alt="Tailored Strategies" title="Tailored Strategies" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468328/choose_icon-3_ezfk9m.svg' alt="Tailored Strategies" title="Tailored Strategies" />
 
                     <h3>Tailored Strategies</h3>
                   </div>
                 </div>
                 <div className="choose-second-section-card next-card">
                   <div className="card-content">
-                    <Image src={smm21} alt="Result-Driven Approach" title="Result-Driven Approach" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468371/choose_icon-4_rey6ee.svg' alt="Result-Driven Approach" title="Result-Driven Approach" />
 
                     <h3>Result-Driven Approach</h3>
                   </div>
@@ -440,7 +440,7 @@ const generateMetadata = ({ params }) => ({
             <div className="benefit-main-card dine-123">
               <div className="benefit-card">
                 <div className="card-img">
-                  <Image src={smm22} alt="SMM consistent branding" title="Consistent Branding" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468455/branding_image-1_zjvtru.png' alt="SMM consistent branding" title="Consistent Branding" />
 
                 </div>
                 <div className="card-text">
@@ -454,7 +454,7 @@ const generateMetadata = ({ params }) => ({
               </div>
               <div className="benefit-card">
                 <div className="card-img">
-                  <Image src={smm23} alt="SMM consistent branding" title="SMM consistent branding" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468496/branding_image-2_auokrk.png' alt="SMM consistent branding" title="SMM consistent branding" />
 
                 </div>
                 <div className="card-text">
@@ -468,7 +468,7 @@ const generateMetadata = ({ params }) => ({
               </div>
               <div className="benefit-card">
                 <div className="card-img">
-                  <Image src={smm24} alt="SMM consistent branding" title="SMM consistent branding" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468535/branding_image-3_jnjp9s.png' alt="SMM consistent branding" title="SMM consistent branding" />
 
                 </div>
                 <div className="card-text">
@@ -483,7 +483,7 @@ const generateMetadata = ({ params }) => ({
               </div>
               <div className="benefit-card">
                 <div className="card-img">
-                  <Image src={smm25} alt="SMM consistent branding" title="SMM consistent branding" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468576/branding_image-4_m3sbml.png' alt="SMM consistent branding" title="SMM consistent branding" />
 
                 </div>
                 <div className="card-text">
@@ -500,10 +500,10 @@ const generateMetadata = ({ params }) => ({
 
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740466393/whatsapp_onug09.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740466433/telephone_g3zvoj.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

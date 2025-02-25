@@ -109,7 +109,7 @@ const generateMetadata = ({ params }) => ({
             </a>
             </div>
             <div className="ser112 uiuximggg">
-              <Image src={UIUXimg} alt="UI/UX design" title="UI/UX design" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740459771/UIUXimg_zvttqy.png' alt="UI/UX design" title="UI/UX design" />
             </div>
           </div>
         </div>
@@ -143,7 +143,7 @@ const generateMetadata = ({ params }) => ({
             </button> </Link>
           </div>
           <div className="second-experiencedji">
-            <Image src={ustu} alt="UI/UX design services" title="UI/UX design services" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740459727/ustu_ehvgky.png' alt="UI/UX design services" title="UI/UX design services" />
           </div>
         </div>
 
@@ -155,7 +155,7 @@ const generateMetadata = ({ params }) => ({
             Our UI/UX Design Process:
           </p>
           <div>
-            <Image src={stand} alt="process" title="process" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740459811/stand_exszfo.png' alt="process" title="process" />
           </div>
         </div>
 
@@ -197,7 +197,7 @@ const generateMetadata = ({ params }) => ({
               <SplideSlide>
                 <div className="business-box business-box20 relative text-center cursor-pointer">
                   <div className="business-card-img">
-                    <Image src={full1} alt="Increased Engagement And Conversion Rates" title="Increased Engagement And Conversion Rates" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740459322/full1_jjmowk.png' alt="Increased Engagement And Conversion Rates" title="Increased Engagement And Conversion Rates" />
                   </div>
                   <h5>Increased Engagement And Conversion Rates</h5>
                   <p>
@@ -208,7 +208,7 @@ const generateMetadata = ({ params }) => ({
               <SplideSlide>
                 <div className="business-box business-box20 relative text-center cursor-pointer">
                   <div className="business-card-img">
-                    <Image src={full2} alt="Comprehensive Design Services" title="Comprehensive Design Services" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740459361/full2_qlynmq.png' alt="Comprehensive Design Services" title="Comprehensive Design Services" />
                   </div>
                   <h5>Comprehensive Design Services</h5>
                   <p>
@@ -222,7 +222,7 @@ const generateMetadata = ({ params }) => ({
               <SplideSlide>
                 <div className="business-box business-box20 relative text-center cursor-pointer">
                   <div className="business-card-img">
-                    <Image src={full3} alt="Vast Industry Expertise" title="Vast Industry Expertise" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740459392/full3_gooi7c.png' alt="Vast Industry Expertise" title="Vast Industry Expertise" />
                   </div>
                   <h5>Vast Industry Expertise</h5>
                   <p>
@@ -255,7 +255,7 @@ const generateMetadata = ({ params }) => ({
             </p>
           </div>
           <div className="how-ux2">
-            <Image src={howux} alt="UI/UX design valuable" title="UI/UX design valuable" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740459865/howux_tgn4me.png' alt="UI/UX design valuable" title="UI/UX design valuable" />
           </div>
         </div>
 
@@ -269,7 +269,7 @@ const generateMetadata = ({ params }) => ({
           </p>
 
           <div className="deliver-p-img">
-            <Image src={pathji} alt="UI/UX Services" title="UI/UX Services" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740459451/pathji_voerq1.png' alt="UI/UX Services" title="UI/UX Services" />
           </div>
         </div>
 
@@ -324,9 +324,9 @@ const generateMetadata = ({ params }) => ({
               <h3 className="font-bold mb-2 mt-4">OUR PORTFOLIO</h3>
             </div>
             <div className="home512 flex flex-wrap justify-center mt-14">
-              <PortCard pads={a9} heading={heading} link="/2ndamendment" />
-              <PortCard pads={pads} heading={heading1} link="/kick-eez" />
-              <PortCard heading={heading2} pads={bds} link="/pro-track" />
+              <PortCard pads='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740459517/a9_d6mwrh.png' heading={heading} link="/2ndamendment" />
+              <PortCard pads='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740459558/pads_djmmp8.png' heading={heading1} link="/kick-eez" />
+              <PortCard heading={heading2} pads='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740459598/bds_j6udgd.png' link="/pro-track" />
               {/* <PortCard heading={heading3} pads={jones} link="" /> */}
             </div>
           </div>
@@ -335,7 +335,7 @@ const generateMetadata = ({ params }) => ({
 
         <div className="how-did flex items-start justify-center">
           <div className="how-did-first">
-            <Image src={bhojan} alt="UI/UX work" title="UI/UX work" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740459630/bhojan_zygdht.png' alt="UI/UX work" title="UI/UX work" />
           </div>
           <div className="how-did-second">
             <h3>How do we work?</h3>
@@ -371,10 +371,10 @@ const generateMetadata = ({ params }) => ({
     {/*  buttons  */}
     <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740401400/whatsapp_qknuap.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740401442/telephone_rg2izx.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

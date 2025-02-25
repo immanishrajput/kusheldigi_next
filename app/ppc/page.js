@@ -87,7 +87,7 @@ function Ppc() {
 
                 </div>
                 <div className="right-image">
-                  <Image src={Ppcrighta} alt="Best Ppc agency" title="Best Ppc agency" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472628/Ppcrighta_qqxk8f.png' alt="Best Ppc agency" title="Best Ppc agency" />
                 </div>
               </div>
             </div>
@@ -108,7 +108,7 @@ function Ppc() {
                   </p>
                 </div>
                 <div className="right-image1">
-                  <Image src={ppcImgb} alt="ROI ppc marketing" title="ROI ppc marketing" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472706/ppcImgb_ycdcmr.png' alt="ROI ppc marketing" title="ROI ppc marketing" />
                 </div>
               </div>
             </div>
@@ -117,7 +117,7 @@ function Ppc() {
             <div className="ppccontainer2">
               <div className="content2">
                 <div className="right-image2">
-                  <Image src={PpcGoogleC} alt="PPC Organic Trafic" title="PPC Organic Trafic" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472736/PpcGoogleC_oxlwly.png' alt="PPC Organic Trafic" title="PPC Organic Trafic" />
                 </div>
                 <div className="left-content2">
                   <h2>Drive more <span>organic traffic</span> to your website.</h2>
@@ -257,7 +257,7 @@ function Ppc() {
               <div className="card2">
                 <div className="ppccard-content">
                   <div className="card-matter1">
-                    <Image src={Ppcauditf} alt="PPC Free Audit" title="PPC Free Audit" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472775/Ppcauditf_yj0rqj.png' alt="PPC Free Audit" title="PPC Free Audit" />
                     <div className="divider-content">
                       <h4>Get Your Free Audit</h4>
                       <p>
@@ -270,7 +270,7 @@ function Ppc() {
                     </div>
                   </div>
                   <div className="card-matter1">
-                    <Image src={PpcauditS} alt="PPC Our Team Expert" title="PPC Our Team Expert" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472810/PpcauditS_sywkk8.png' alt="PPC Our Team Expert" title="PPC Our Team Expert" />
                     <div className="divider-content">
                       <h4>Meet with Our Team</h4>
                       <p>
@@ -282,7 +282,7 @@ function Ppc() {
                     </div>
                   </div>
                   <div className="card-matter1">
-                    <Image src={PpcauditT} alt="PPC Reach Your Goals" title="PPC Reach Your Goals" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472943/PpcauditT_djqjin.png' alt="PPC Reach Your Goals" title="PPC Reach Your Goals" />
                     <div className="divider-content">
                       <h4>Reach Your Goals</h4>
                       <p>
@@ -320,7 +320,7 @@ function Ppc() {
                   </p>
                 </div>
                 <div className="right-image3">
-                  <Image src={fifthimage} alt="PPC pay-per click agency" title="PPC pay-per click agency" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472975/fifthimage_esx0rq.svg' alt="PPC pay-per click agency" title="PPC pay-per click agency" />
                 </div>
               </div>
             </div>
@@ -347,10 +347,10 @@ function Ppc() {
       </div>
       <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469695/whatsapp_ubh9of.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469745/telephone_twhjto.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

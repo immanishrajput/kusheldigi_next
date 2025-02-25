@@ -338,7 +338,7 @@ useEffect(() => {
                                 onMouseEnter={() => setHovered3(true)}
                                 onMouseLeave={() => setHovered3(false)}
                             >
-                                <Image className="npp3_img" src={hovered3 ? dilll3 : npp3} alt="E-COMMERCE AND RETAIL" title='E-COMMERCE AND RETAIL' />
+                                <img className="npp3_img" src={hovered3 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464035/dilll3_pbwdix.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463810/npp3_aaugnx.avif'} alt="E-COMMERCE AND RETAIL" title='E-COMMERCE AND RETAIL' />
                                 <p>E-COMMERCE AND RETAIL</p>
                             </div>
                         </div>
@@ -362,7 +362,7 @@ useEffect(() => {
                                 onMouseEnter={() => setHovered5(true)}
                                 onMouseLeave={() => setHovered5(false)}
                             >
-                                <Image src={hovered5 ? dilll5 : npp5} alt="SOCIAL NETWORKING" title='SOCIAL NETWORKING' />
+                                <img src={hovered5 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464068/dilll5_qnexhe.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463849/npp5_q2cmy4.avif'} alt="SOCIAL NETWORKING" title='SOCIAL NETWORKING' />
                                 <p>SOCIAL NETWORKING</p>
 
                             </div>
@@ -370,7 +370,7 @@ useEffect(() => {
                                 onMouseEnter={() => setHovered6(true)}
                                 onMouseLeave={() => setHovered6(false)}
                             >
-                                <Image src={hovered6 ? dilll6 : npp6} alt="BANKING AND FINANCE" title='BANKING AND FINANCE' />
+                                <img src={hovered6 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464097/dilll6_shk9rg.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463888/npp6_qmcju4.avif'} alt="BANKING AND FINANCE" title='BANKING AND FINANCE' />
                                 <p>BANKING AND FINANCE</p>
 
                             </div>
@@ -391,7 +391,7 @@ useEffect(() => {
                                 onMouseEnter={() => setHovered8(true)}
                                 onMouseLeave={() => setHovered8(false)}
                             >
-                                <Image src={hovered8 ? dilll8 : npp8} alt="MANUFACTURING" />
+                                <img src={hovered8 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464123/dilll8_svknnh.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463921/npp8_pdq7f0.avif'} alt="MANUFACTURING" />
                                 <p>MANUFACTURING</p>
 
                             </div>
@@ -399,7 +399,7 @@ useEffect(() => {
                                 onMouseEnter={() => setHovered9(true)}
                                 onMouseLeave={() => setHovered9(false)}
                             >
-                                <Image src={hovered9 ? dilll9 : npp9} alt="MEDIA AND ENTERTAINMENT" />
+                                <img src={hovered9 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464156/dilll9_dbvfrl.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463952/npp9_scyppc.avif'} alt="MEDIA AND ENTERTAINMENT" />
                                 <p>MEDIA AND ENTERTAINMENT</p>
 
                             </div>
@@ -431,7 +431,7 @@ useEffect(() => {
                         <SplideSlide>
                             <div className="kickta_big kickta_bigggt">
                                 <div className="kickta_big1 kickta_biggst">
-                                    <Image src={maxoworld} alt="Technology expand your potential" title='Technology expand your potential' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463982/maxoworld_aezr6h.png' alt="Technology expand your potential" title='Technology expand your potential' />
                                     <div className="headst_big">
                                         <h3>Technology should
                                             <br />expand your potential,
@@ -450,7 +450,7 @@ useEffect(() => {
                         <SplideSlide>
                             <div className="kickta_big kickta_bigggt">
                                 <div className="kickta_big1 kickta_biggst">
-                                    <Image src={maxoworld} alt="Technology should expand your potential" title='Technology should expand your potential' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463982/maxoworld_aezr6h.png' alt="Technology should expand your potential" title='Technology should expand your potential' />
                                     <div className="headst_big">
                                         <h3>Technology should
                                             <br />expand your potential,

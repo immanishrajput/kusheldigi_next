@@ -101,40 +101,40 @@ const WebDevelopmentUSA = ({ notify }) => {
 
   const ChangeImage1 = () => {
     setTab(1);
-    document.getElementById("img1").src = `${thir2}`;
-    document.getElementById("img3").src = `${thir1}`;
-    document.getElementById("img4").src = `${thir1}`;
-    document.getElementById("img5").src = `${thir1}`;
+    document.getElementById("img1").src = `https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462387/thir1_z1wk7c.png`;
+    document.getElementById("img3").src = `https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462387/thir1_z1wk7c.png`;
+    document.getElementById("img4").src = `https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462387/thir1_z1wk7c.png`;
+    document.getElementById("img5").src = `https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462387/thir1_z1wk7c.png`;
   }
   const ChangeImage2 = () => {
     setTab(2);
-    document.getElementById("img1").src = `${thir1}`;
-    document.getElementById("img3").src = `${thir1}`;
-    document.getElementById("img4").src = `${thir1}`;
-    document.getElementById("img5").src = `${thir1}`;
+    document.getElementById("img1").src = `https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462387/thir1_z1wk7c.png`;
+    document.getElementById("img3").src = `https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462387/thir1_z1wk7c.png`;
+    document.getElementById("img4").src = `https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462387/thir1_z1wk7c.png`;
+    document.getElementById("img5").src = `https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462387/thir1_z1wk7c.png`;
   }
   const ChangeImage3 = () => {
     setTab(3);
-    document.getElementById("img1").src = `${thir1}`;
-    document.getElementById("img3").src = `${thir2}`;
-    document.getElementById("img4").src = `${thir1}`;
-    document.getElementById("img5").src = `${thir1}`;
+    document.getElementById("img1").src = `https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462387/thir1_z1wk7c.png`;
+    document.getElementById("img3").src = `https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462641/thir2_c5altu.png`;
+    document.getElementById("img4").src = `https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462387/thir1_z1wk7c.png`;
+    document.getElementById("img5").src = `https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462387/thir1_z1wk7c.png`;
   }
 
   const ChangeImage4 = () => {
     setTab(4);
-    document.getElementById("img1").src = `${thir1}`;
-    document.getElementById("img3").src = `${thir1}`;
-    document.getElementById("img4").src = `${thir2}`;
-    document.getElementById("img5").src = `${thir1}`;
+    document.getElementById("img1").src = `https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462387/thir1_z1wk7c.png`;
+    document.getElementById("img3").src = `https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462387/thir1_z1wk7c.png`;
+    document.getElementById("img4").src = `https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462641/thir2_c5altu.png`;
+    document.getElementById("img5").src = `https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462387/thir1_z1wk7c.png`;
   }
 
   const ChangeImage5 = () => {
     setTab(5);
-    document.getElementById("img1").src = `${thir1}`;
-    document.getElementById("img3").src = `${thir1}`;
-    document.getElementById("img4").src = `${thir1}`;
-    document.getElementById("img5").src = `${thir2}`;
+    document.getElementById("img1").src = `https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462387/thir1_z1wk7c.png`;
+    document.getElementById("img3").src = `https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462387/thir1_z1wk7c.png`;
+    document.getElementById("img4").src = `https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462387/thir1_z1wk7c.png`;
+    document.getElementById("img5").src = `https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462641/thir2_c5altu.png`;
   }
 
 
@@ -322,21 +322,21 @@ const generateMetadata = ({ params }) => ({
           <div className="thir_button_flex">
             <div onClick={ChangeImage1} className="thir_img">
               <p>Customized design</p>
-              <Image id="img1" src={thir1} alt="Customized design" title="Customized design" />
+              <img id="img1" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462387/thir1_z1wk7c.png' alt="Customized design" title="Customized design" />
             </div>
             <div onClick={ChangeImage2} className="thir_img">
             </div>
             <div onClick={ChangeImage3} className="thir_img">
               <p>Contact & Graphics</p>
-              <Image id="img3" src={thir1} alt="Contact & Graphics" title="Contact & Graphics" />
+              <img id="img3" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462387/thir1_z1wk7c.png' alt="Contact & Graphics" title="Contact & Graphics" />
             </div>
             <div onClick={ChangeImage4} className="thir_img">
               <p>SEO Service</p>
-              <Image id="img4" src={thir1} alt="SEO Service" title="SEO Service" />
+              <img id="img4" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462387/thir1_z1wk7c.png' alt="SEO Service" title="SEO Service" />
             </div>
             <div onClick={ChangeImage5} className="thir_img" >
               <p>Website Maintenance</p>
-              <Image id="img5" src={thir1} alt="Website Maintenance" title="Website Maintenance" />
+              <img id="img5" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462387/thir1_z1wk7c.png' alt="Website Maintenance" title="Website Maintenance" />
             </div>
           </div>
 
@@ -390,7 +390,7 @@ const generateMetadata = ({ params }) => ({
                     </div>
                   </div>
                   <div className="right_website">
-                    <Image src={webMinar} alt="contact and graphics" title="contact and graphics" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462523/webMinar_syav7o.png' alt="contact and graphics" title="contact and graphics" />
                   </div>
                 </>
               )
@@ -417,7 +417,7 @@ const generateMetadata = ({ params }) => ({
                     </div>
                   </div>
                   <div className="right_website">
-                    <Image src={conGraphic} alt="SEO services" title="SEO services" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462559/conGraphic_v7v8rv.png' alt="SEO services" title="SEO services" />
                   </div>
                 </>
               )
@@ -443,7 +443,7 @@ const generateMetadata = ({ params }) => ({
                     </div>
                   </div>
                   <div className="right_website">
-                    <Image src={secService} alt="Website maintenance" title="Website maintenance" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462598/secService_dqv6gv.png' alt="Website maintenance" title="Website maintenance" />
                   </div>
                 </>
               )
@@ -466,7 +466,7 @@ const generateMetadata = ({ params }) => ({
           <div className="step-card">
             <div className="step-box">
               <div className="step-img">
-                <Image src={setting} alt="Choose the Services" title="Choose the Services" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461436/setting_ijlq27.png' alt="Choose the Services" title="Choose the Services" />
               </div>
               <div className="step-head">
                 <h4>Choose the Services</h4>
@@ -478,7 +478,7 @@ const generateMetadata = ({ params }) => ({
             </div>
             <div className="step-box">
               <div className="step-img">
-                <Image src={docu} alt="Give us your Requirement" title="Give us your Requirement" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461388/docu_oiaxep.png' alt="Give us your Requirement" title="Give us your Requirement" />
               </div>
               <div className="step-head">
                 <h4>Give us your Requirement</h4>
@@ -490,7 +490,7 @@ const generateMetadata = ({ params }) => ({
             </div>
             <div className="step-box">
               <div className="step-img">
-                <Image src={sign} alt="Relax and Rest" title="Relax and Rest" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461473/sign_ny3aps.png' alt="Relax and Rest" title="Relax and Rest" />
               </div>
               <div className="step-head">
                 <h4>Relax and Rest</h4>
@@ -520,7 +520,7 @@ const generateMetadata = ({ params }) => ({
             <div className="business-card">
               <div className="business-box business-box3 relative text-center cursor-pointer usaCard1">
                 <div className="business-card-img bus-card-img1">
-                  <Image src={track} alt="Make a decision about your website" title="Make a decision about your website" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461630/track_hacdsj.png' alt="Make a decision about your website" title="Make a decision about your website" />
                 </div>
 
                 <h5>Make a decision about your website's architecture, framework, and navigation:</h5>
@@ -533,7 +533,7 @@ const generateMetadata = ({ params }) => ({
               </div>
               <div className="business-box business-box3 relative text-center cursor-pointer usaCard1">
                 <div className="business-card-img bus-card-img1">
-                  <Image src={admi} alt="Choose your website" title="Choose your website" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461520/admi_bavkwt.png' alt="Choose your website" title="Choose your website" />
                 </div>
 
                 <h5>Choose your website's optimal code language: </h5>
@@ -547,7 +547,7 @@ const generateMetadata = ({ params }) => ({
             <div className="business-card">
               <div className="business-box business-box3 relative text-center cursor-pointer usaCard1">
                 <div className="business-card-img bus-card-img1">
-                  <Image src={admi1} alt="Write code for your website" title="Write code for your website" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461559/admi1_wxxwd8.png' alt="Write code for your website" title="Write code for your website" />
                 </div>
 
                 <h5>Write code for your website's backend</h5>
@@ -559,7 +559,7 @@ const generateMetadata = ({ params }) => ({
               </div>
               <div className="business-box business-box3 relative text-center cursor-pointer usaCard1">
                 <div className="business-card-img bus-card-img1">
-                  <Image src={admi2} alt="Create the user interface and user experience for the front end:" title="Create the user interface and user experience for the front end:" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461593/admi2_hpdrgb.png' alt="Create the user interface and user experience for the front end:" title="Create the user interface and user experience for the front end:" />
                 </div>
 
                 <h5>Create the user interface and user experience for the front end:</h5>
@@ -607,15 +607,15 @@ const generateMetadata = ({ params }) => ({
             by turning the usability to the max.
           </p>
 
-          <Image src={process2} alt="our development process" title="our development process" />
+          <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461928/process2_cxoycz.png' alt="our development process" title="our development process" />
 
           {/* mobile view image */}
           <div className="mobileview-imgg">
-            <Image src={ProcessMobView1} alt="our development process" title="our development process" />
-            <Image src={ProcessMobView2} alt="our development process" title="our development process" />
-            <Image src={ProcessMobView3} alt="our development process" title="our development process" />
-            <Image src={ProcessMobView4} alt="our development process" title="our development process" />
-            <Image src={ProcessMobView5} alt="our development process" title="our development process" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461965/ProcessMobView1_ukordf.png' alt="our development process" title="our development process" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462029/ProcessMobView2_l7yciz.png' alt="our development process" title="our development process" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462061/ProcessMobView3_zf9pi6.png' alt="our development process" title="our development process" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462090/ProcessMobView4_yffpxr.png' alt="our development process" title="our development process" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462116/ProcessMobView5_ftxbfk.png' alt="our development process" title="our development process" />
           </div>
 
         </div>
@@ -757,7 +757,7 @@ const generateMetadata = ({ params }) => ({
                 onMouseEnter={() => setHovered(true)}
                 onMouseLeave={() => setHovered(false)}
               >
-                <Image src={hovered ? posis10 : dilkush} alt="Healthcare & Wellness" title="Healthcare & Wellness" />
+                <img src={hovered ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462353/posis10_yfdb3x.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461895/dilkush_usgpzb.png'} alt="Healthcare & Wellness" title="Healthcare & Wellness" />
                 <p>Healthcare & Wellness</p>
               </div>
               <div
@@ -765,7 +765,7 @@ const generateMetadata = ({ params }) => ({
                 onMouseEnter={() => setHovered2(true)}
                 onMouseLeave={() => setHovered2(false)}
               >
-                <Image src={hovered2 ? posis2 : dec1} alt="Real Estate" title="Real Estate" />
+                <img src={hovered2 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462143/posis2_wsomhp.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461663/dec1_gboppw.png'} alt="Real Estate" title="Real Estate" />
                 <p>Real Estate</p>
               </div>
               <div
@@ -773,7 +773,7 @@ const generateMetadata = ({ params }) => ({
                 onMouseEnter={() => setHovered3(true)}
                 onMouseLeave={() => setHovered3(false)}
               >
-                <Image src={hovered3 ? posis3 : dec2} alt="Software & Internet Marketing" title="Software & Internet Marketing" />
+                <img src={hovered3 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462176/posis3_oygvtx.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461703/dec2_hht65c.png'} alt="Software & Internet Marketing" title="Software & Internet Marketing" />
                 <p>IT, Software & Internet Marketing</p>
               </div>
               <div
@@ -781,7 +781,7 @@ const generateMetadata = ({ params }) => ({
                 onMouseEnter={() => setHovered4(true)}
                 onMouseLeave={() => setHovered4(false)}
               >
-                <Image src={hovered4 ? posis4 : dec3} alt="Finance & Banking" title="Finance & Banking" />
+                <img src={hovered4 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462208/posis4_l3zo4i.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461736/dec3_mzm2pd.png'} alt="Finance & Banking" title="Finance & Banking" />
                 <p>Finance & Banking</p>
               </div>
             </div>
@@ -791,7 +791,7 @@ const generateMetadata = ({ params }) => ({
                 onMouseEnter={() => setHovered5(true)}
                 onMouseLeave={() => setHovered5(false)}
               >
-                <Image src={hovered5 ? posis5 : dec4} alt="Government & Public" title="Government & Public" />
+                <img src={hovered5 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462235/posis5_qt6fyh.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461767/dec4_ao6cna.png'} alt="Government & Public" title="Government & Public" />
                 <p>
                   Government & Public <br /> Sector Enterprises
                 </p>
@@ -801,7 +801,7 @@ const generateMetadata = ({ params }) => ({
                 onMouseEnter={() => setHovered6(true)}
                 onMouseLeave={() => setHovered6(false)}
               >
-                <Image src={hovered6 ? posis6 : dec5} alt="Travel & Tour" title="Travel & Tour" />
+                <img src={hovered6 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462262/posis6_jhegba.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461799/dec5_fajt86.png'} alt="Travel & Tour" title="Travel & Tour" />
                 <p>Travel & Tour</p>
               </div>
               <div
@@ -809,7 +809,7 @@ const generateMetadata = ({ params }) => ({
                 onMouseEnter={() => setHovered7(true)}
                 onMouseLeave={() => setHovered7(false)}
               >
-                <Image src={hovered7 ? posis7 : dec6} alt="Retail" title="Retail" />
+                <img src={hovered7 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462292/posis7_h1ckuz.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461833/dec6_x71dob.png'} alt="Retail" title="Retail" />
                 <p>Retail</p>
               </div>
               <div
@@ -817,7 +817,7 @@ const generateMetadata = ({ params }) => ({
                 onMouseEnter={() => setHovered8(true)}
                 onMouseLeave={() => setHovered8(false)}
               >
-                <Image src={hovered8 ? posis8 : dec7} alt="SPORTS" title="SPORTS" />
+                <img src={hovered8 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462317/posis8_bmwskf.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461862/dec7_xhtkrl.png'} alt="SPORTS" title="SPORTS" />
                 <p>SPORTS ( outdoor & indoor )</p>
               </div>
             </div>
@@ -833,10 +833,10 @@ const generateMetadata = ({ params }) => ({
         {/*  buttons  */}
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740401400/whatsapp_qknuap.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740401442/telephone_rg2izx.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

@@ -98,7 +98,7 @@ const ProTrucks = () => {
           <div className="side-bg-trio">
             <div className="first-kick-pads">
               <div className="left-section-kids">
-                <Image src={pru} className="pru" alt="img"></Image>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472140/pru_yxgfwt.png' className="pru" alt="img"></img>
                 <p className="shoots_premium">
                   <span className="heightlisght_premium"> Pro Trucks,</span> a
                   family-owned business, is here to turn your dream vehicle into
@@ -108,12 +108,12 @@ const ProTrucks = () => {
                 </p>
                 <h3>Technologies Used</h3>
                 <div className="main-box-logic flex">
-                  <Image src={opqweeeeeee} id="sim" alt="img"></Image>
-                  <Image src={opqweeeeeee2} id="rotat" alt="img"></Image>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472204/opqweeeeeee_cu9os9.png' id="sim" alt="img"></img>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472246/opqweeeeeee2_h8sne3.png' id="rotat" alt="img"></img>
                 </div>
               </div>
               <div className="right-section-kids">
-                <Image src={protruckss} id="total-group" alt="ProTrucks bussiness"></Image>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740471895/pro-trucks-s_lpnj4a.png' id="total-group" alt="ProTrucks bussiness"></img>
               </div>
             </div>
             {/* ........................................ */}
@@ -121,7 +121,7 @@ const ProTrucks = () => {
               <div className="MadFish-back">
                 <div className="MadFish-back1">
                   <div className="MadFish_press_head">
-                    <Image src={madlogooooo} alt="madlogooooo" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472327/madlogooooo_ujlity.png' alt="madlogooooo" />
                   </div>
                   <div className="MadFish_press_para">
                     <p>
@@ -135,7 +135,7 @@ const ProTrucks = () => {
                   </div>
                 </div>
                 <div className="MadFish-back2">
-                  <Image src={mad2} alt="MadFish" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472364/mad2_yqpzdu.png' alt="MadFish" />
                 </div>
               </div>
             </div>
@@ -145,15 +145,15 @@ const ProTrucks = () => {
               <p className="service-hinking">Services Provided</p>
               <div className="main-img-mighty">
                 <div className="bepolo">
-                  <Image src={img4} id="ux-safari" alt="img"></Image>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740471802/Group_1000004718_lmr8qb.png' id="ux-safari" alt="img"></img>
                   <p>UX/UI Website Design</p>
                 </div>
                 <div className="bepolo">
-                  <Image src={img5} id="web-safari" alt="img"></Image>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740471834/Group_1000004715_scfvbs.png' id="web-safari" alt="img"></img>
                   <p>Website Development</p>
                 </div>
                 <div className="bepolo">
-                  <Image src={img6} id="qa-safari" alt="img"></Image>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740471863/Group_1000004716_crcvh6.png' id="qa-safari" alt="img"></img>
                   <p>QA & Website Testing</p>
                 </div>
               </div>
@@ -166,7 +166,7 @@ const ProTrucks = () => {
             <p>Wireframes</p>
             <div className="three-section-lab-PRO-TRUCKS">
               <div className="single_big-PRO-TRUCKS">
-                <Image src={mnop1} id="pads-cats" alt="img"></Image>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740471993/mnop1_weym0u.png' id="pads-cats" alt="img"></img>
               </div>
             </div>
           </div>
@@ -188,13 +188,13 @@ const ProTrucks = () => {
               </div>
               <div className="sub-worm">
                 <p className="tool">Tools Use</p>
-                <Image src={img13} id="pals-circle" alt="img"></Image>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740471932/Group_1000006500_1_iwrrru.png' id="pals-circle" alt="img"></img>
               </div>
             </div>
           </div>
           <div className="right-card-omega">
             <p>Color Plate</p>
-            <Image src={hh5} id="gang" alt="img" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740471960/hh5_dhnp6b.png' id="gang" alt="img" />
           </div>
         </div>{" "}
       
@@ -219,14 +219,14 @@ const ProTrucks = () => {
             </div>
           </div>
           <div className="step-images flex items-center justify-center mt-20">
-            <Image
+            <img
               className="stepback solenoid-stepback1"
-              src={hh6}
+              src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472046/hh6_n2xwok.png'
               alt="stepback"
             />
-            <Image
+            <img
               className="stepback1 solenoid-stepback1"
-              src={hh7}
+              src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472076/hh7_g47ct7.png'
               alt="stepback1"
             />
           </div>
@@ -290,13 +290,13 @@ const ProTrucks = () => {
         <div className="kick-start kick-start22">
           <div className="kick-first kick-first222">
             <div className="kickds">
-              <Image className="kick_mart" src={trackent} alt="kick5" />
+              <img className="kick_mart" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740471646/trackent_mkilsg.png' alt="kick5" />
             </div>
           </div>
           <div className="kick-second kick-second222 relative">
-            <Image
+            <img3
               className=" relative z-10 about162 pick222"
-              src={hh8}
+              src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472105/hh8_g9ouy9.png'
               alt="hh8"
             />
           </div>
@@ -315,14 +315,14 @@ const ProTrucks = () => {
                 </p>
                 <div className="azib-tech">
                   <h3>Technologies Used</h3>
-                  <Image className="conjun" src={opqweeeeeee3} alt="conjun" />
+                  <img className="conjun" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472284/opqweeeeeee3_kgmddp.png' alt="conjun" />
                 </div>
               </div>
             </div>
             <div className="azib-images flex items-center justify-center">
-              <Image src={pt5} alt="pt4" />
-              <Image src={pt6} alt="pt5" />
-              <Image src={pt4} alt="pt6" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740471744/pt5_laoigm.jpg' alt="pt4" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740471772/pt6_acyz4q.jpg' alt="pt5" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740471716/pt4_c1gon0.jpg' alt="pt6" />
             </div>
           </div>
         </div>
@@ -348,10 +348,10 @@ const ProTrucks = () => {
               <button>
               <Link href="/contact-us">
                 Request A Call{" "}
-                <Image
+                <img
                   width={13}
                   className=" inline ml-2"
-                  src={arrow4}
+                  src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740471608/arrow4_o2tnbw.png'
                   alt="arrow"
                 />
                 </Link>
@@ -362,10 +362,10 @@ const ProTrucks = () => {
                        {/*  buttons  */}
                        <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469695/whatsapp_ubh9of.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469745/telephone_twhjto.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

@@ -105,20 +105,20 @@ useEffect(() => {
           <div className="side-bg-trio">
             <div className="first-kick-pads last-kick-pad incheingh">
               <div className="left-section-kids">
-                <Image src={subh} alt="img"></Image>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460708/subh_tobjrf.svg' alt="img"></img>
                 <p className="shoots_premium kooo">
                 Shubhalloys buys and sells iron cuttings as per the demand requirement of their clients. Traditionally, the company was operating with manual processes for ordering and transactions, which was very time-consuming and tended to show several inefficiencies.
 
                 </p>
                 <h1>Technologies Used</h1>
                 <div className="main-box-logic flex">
-                  <Image src={omis} id="sim" alt="img"></Image>
-                  <Image className="pokli" src={priyajan1} id="rotat" alt="img"></Image>
-                  <Image src={priyajan2} id="rotat" alt="img"></Image>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460629/omis_vemej2.svg' id="sim" alt="img"></img>
+                  <img className="pokli" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461094/priyajan1_x4oaox.svg' id="rotat" alt="img"></img>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461134/priyajan2_xz7lcm.svg' id="rotat" alt="img"></img>
                 </div>
               </div>
               <div className="right-section-kids ramit">
-                <Image className="sotal-group fotal-group" src={fast} id="total-group" alt="img"></Image>
+                <img className="sotal-group fotal-group" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460669/fast_br7yb2.svg' id="total-group" alt="img"></img>
               </div>
             </div>
             {/* *********************************************** */}
@@ -137,7 +137,7 @@ useEffect(() => {
                   </div>
                 </div>
                 <div className="MadFish-back2">
-                  <Image className="subh_img" src={testjpg} alt="MadFish" />
+                  <img className="subh_img" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460775/testjpg_olkdwb.svg' alt="MadFish" />
                 </div>
               </div>
             </div>
@@ -146,15 +146,15 @@ useEffect(() => {
               <p className="service-hinking">Services Provided</p>
               <div className="main-img-mighty">
                 <div className="bepolo">
-                  <Image src={img4} id="ux-safari" alt="img"></Image>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460334/Group_1000004718_sj24jc.png' id="ux-safari" alt="img"></img>
                   <p>UX/UI Website Design</p>
                 </div>
                 <div className="bepolo">
-                  <Image src={img5} id="web-safari" alt="img"></Image>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460375/Group_1000004715_ggew67.png' id="web-safari" alt="img"></img>
                   <p>Website Development</p>
                 </div>
                 <div className="bepolo">
-                  <Image src={img6} id="qa-safari" alt="img"></Image>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460409/Group_1000004716_qd1fj4.png' id="qa-safari" alt="img"></img>
                   <p>QA & Website Testing</p>
                 </div>
               </div>
@@ -182,13 +182,13 @@ useEffect(() => {
               </div>
               <div className="sub-worm">
                 <p className="tool">Tools Use</p>
-                <Image src={img13} id="pals-circle" alt="img"></Image>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460442/Group_1000006500_1_rhvxs0.png' id="pals-circle" alt="img"></img>
               </div>
             </div>
           </div>
           <div className="right-card-omega">
             <p>Color Plate</p>
-            <Image src={mr} id="gang" alt="img" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460815/mr_ve3pgb.svg' id="gang" alt="img" />
           </div>
         </div>{" "}
 
@@ -309,11 +309,11 @@ useEffect(() => {
         <div className="bg_crazy11">
           <div className="bg_cms">
             <div className="bg_left">
-              <Image className="kpiu11" src={prek1} alt="lojj" />
+              <img className="kpiu11" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460848/prek1_jjt5jh.svg' alt="lojj" />
             </div>
             <div className="bg_right">
-              <Image src={prek2} className="llgg" alt="lojj" />
-              <Image src={prek3} className="ep44 ep455" alt="kushel" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460891/prek2_nk7mb9.svg' className="llgg" alt="lojj" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460923/prek3_x7v8r4.svg' className="ep44 ep455" alt="kushel" />
             </div>
           </div>
         </div>
@@ -336,11 +336,11 @@ useEffect(() => {
                   <h3>Technologies Used</h3>
                   <div className="fopping">
                     <div className="spoing">
-                      <Image src={nodes11} alt="kushel" />
+                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460954/nodes11_enp8zn.svg' alt="kushel" />
                       <p>Node Js</p>
                     </div>
                     <div className="spoing kint">
-                      <Image src={react11} alt="kushel" />
+                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460988/reacts11_nymoom.svg' alt="kushel" />
                       <p>React</p>
                     </div>
                   </div>
@@ -349,8 +349,8 @@ useEffect(() => {
             </div>
 
             <div className="azib-images flex items-center justify-center">
-              <Image className="sohhh" src={srikant} alt="azib" />
-              <Image className="sohhh" src={srikant1} alt="azib" />
+              <img className="sohhh" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461028/srikant_euqrgi.svg' alt="azib" />
+              <img className="sohhh" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461063/srikant1_e0evmu.svg' alt="azib" />
               {/* <img src={azib4} alt="azib" /> */}
             </div>
           </div>
@@ -382,7 +382,7 @@ useEffect(() => {
             <SplideSlide>
               <div className="other-card">
                 <div className="other-box">
-                  <Image src={rel1} alt="rel1" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460223/rel1_j208ol.png' alt="rel1" />
                 </div>
                 <div className="other-tox-para">
                   <h3>RELY INNOVATION</h3>
@@ -400,7 +400,7 @@ useEffect(() => {
             <SplideSlide>
               <div className="other-card">
                 <div className="other-box other-box1">
-                  <Image src={rel2} alt="rel1" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460263/rel2_i8y9cn.png' alt="rel1" />
                 </div>
                 <div className="other-tox-para">
                   <h3>PRO TRUCKS</h3>
@@ -417,7 +417,7 @@ useEffect(() => {
             <SplideSlide>
               <div className="other-card">
                 <div className="other-box other-box3">
-                  <Image className="rel3" src={rel3} alt="rel1" />
+                  <img className="rel3" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460298/rel3_f3zql8.png' alt="rel1" />
                 </div>
                 <div className="other-tox-para">
                   <h3>SOLENOID NINJA</h3>
@@ -435,9 +435,9 @@ useEffect(() => {
         </div>
         <div className="req">
           <div className="req-sect">
-            <h2>
+            <h3>
               Would You Like To Talk To <br /> About Your Project?
-            </h2>
+            </h3>
             <p>
               {" "}
               You can send us the details of your project, and a member of our
@@ -446,10 +446,10 @@ useEffect(() => {
             <Link href="/contact-us">
               <button>
                 Request A Call{" "}
-                <Image
+                <img
                   width={13}
                   className=" inline ml-2"
-                  src={arrow4}
+                  src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460181/arrow4_mwiyiu.png'
                   alt="alik"
                 />
               </button>
@@ -460,10 +460,10 @@ useEffect(() => {
         {/*  buttons  */}
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740401400/whatsapp_qknuap.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740401442/telephone_rg2izx.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

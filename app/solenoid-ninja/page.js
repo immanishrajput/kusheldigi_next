@@ -91,19 +91,19 @@ const generateMetadata = ({ params }) => ({
       <div className="side-bg-trio">
         <div className="first-kick-pads">
           <div className="left-section-kids">
-            <Image src={pru3} className='pru3'  alt="img"></Image>
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740466127/pru3_g5s5nh.png' className='pru3'  alt="img"></img>
             <p className="shoots_premium">
               <span className="heightlisght_premium"> Given that </span>{" "}
                the materials market is highly volatile, we are currently facing extended lead times beyond the usual duration.
             </p>
             <h1>Technologies Used</h1>
             <div className="main-box-logic flex">
-              <Image src={opqweeeeeee} id="sim" alt="img"></Image>
-              <Image src={opqweeeeeee2} id="rotat" alt="img"></Image>
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740466166/opqweeeeeee_sk342j.png' id="sim" alt="img"></img>
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740466215/opqweeeeeee2_ifxf28.png' id="rotat" alt="img"></img>
             </div>
           </div>
           <div className="right-section-kids">
-            <Image src={solenoidfff} id="total-group" alt="img"></Image>
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740465585/solenoidfff_kuelry.png' id="total-group" alt="img"></img>
           </div>
         </div>
         {/* ........................................ */}
@@ -111,7 +111,7 @@ const generateMetadata = ({ params }) => ({
               <div className="MadFish-back">
                 <div className="MadFish-back1">
                   <div className="MadFish_press_head">
-                    <Image src={madlogooooo} alt="madlogooooo" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740466295/madlogooooo_qfa43j.png' alt="madlogooooo" />
                   </div>
                   <div className="MadFish_press_para">
                     <p>
@@ -121,7 +121,7 @@ const generateMetadata = ({ params }) => ({
                   </div>
                 </div>
                 <div className="MadFish-back2">
-                  <Image src={mad5} alt="MadFish" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740466353/mad5_zfip4i.png' alt="MadFish" />
                 </div>
               </div>
             </div>
@@ -130,15 +130,15 @@ const generateMetadata = ({ params }) => ({
           <p className="service-hinking">Services Provided</p>
           <div className="main-img-mighty">
             <div className="bepolo">
-              <Image src={img4} id="ux-safari" alt="img"></Image>
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740465812/Group_1000004718_i84dou.png' id="ux-safari" alt="img"></img>
               <p>UX/UI Website Design</p>
             </div>
             <div className="bepolo">
-              <Image src={img5} id="web-safari" alt="img"></Image>
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740465850/Group_1000004715_tpdkn9.png' id="web-safari" alt="img"></img>
               <p>Website Development</p>
             </div>
             <div className="bepolo">
-              <Image src={img6} id="qa-safari" alt="img"></Image>
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740465883/Group_1000004716_kcepfr.png' id="qa-safari" alt="img"></img>
               <p>QA & Website Testing</p>
             </div>
           </div>
@@ -152,7 +152,7 @@ const generateMetadata = ({ params }) => ({
           <div className="three-section-lab-solenoid-s">
            
             <div className="single_big-solenoid-s">
-            <Image src={hh9} id="pads-cats" alt="img"></Image>
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740466082/hh9_kord2h.png' id="pads-cats" alt="img"></img>
             </div>
            
           </div>
@@ -177,13 +177,13 @@ const generateMetadata = ({ params }) => ({
             </div>
             <div className="sub-worm">
               <p className="tool">Tools Use</p>
-              <Image src={img13} id="pals-circle" alt="img"></Image>
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740465913/Group_1000006500_1_ugrnng.png' id="pals-circle" alt="img"></img>
             </div>
           </div>
         </div>
         <div className="right-card-omega">
           <p>Color Plate</p>
-          <Image src={hh10} id="gang" alt="img" />
+          <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740465943/hh10_hqhqt1.png' id="gang" alt="img" />
         </div>
       </div>{" "}
 
@@ -204,8 +204,8 @@ const generateMetadata = ({ params }) => ({
             </div>
           </div>
           <div className="step-images flex items-center justify-center mt-20">
-            <Image className="stepback solenoid-stepback" src={hh13} alt="stepback" />
-            <Image className="stepback1 solenoid-stepback1" src={hh12} alt="stepback1" />
+            <img className="stepback solenoid-stepback" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740466009/hh13_huc3c1.png' alt="stepback" />
+            <img className="stepback1 solenoid-stepback1" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740465975/hh12_ij0naa.png' alt="stepback1" />
           </div>
         </div>
 
@@ -281,12 +281,12 @@ const generateMetadata = ({ params }) => ({
           <div className="kick-first kick-first222">
         
             <div className="kickds">
-                <Image className="kick_mart" src={trackent1} alt="kick5" />
+                <img className="kick_mart" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740465534/trackent1_go22cp.png' alt="kick5" />
             </div>
           </div>
           <div className="kick-second kick-second222 relative">
           
-            <Image className=" relative z-10 about162 pick222" src={hh14} alt="pick" />
+            <img className=" relative z-10 about162 pick222" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740466045/hh14_pshfou.png' alt="pick" />
           </div>
         </div>
 
@@ -304,15 +304,15 @@ const generateMetadata = ({ params }) => ({
                 
                 <div className="azib-tech">
                     <h3>Technologies Used</h3>
-                    <Image className="conjun" src={opqweeeeeee3} alt="conjun" />
+                    <img className="conjun" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740466249/opqweeeeeee3_i2cpk8.png' alt="conjun" />
                 </div>
               </div>
             </div>
 
               <div className="azib-images flex items-center justify-center">
-                  <Image className='soling1' src={soling1} alt="soli" />
-                  <Image className='soling1' src={soling2} alt="soli" />
-                  <Image className='soling1' src={soling3} alt="soli" />
+                  <img className='soling1' src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740465629/soling1_ebqfkl.jpg' alt="soli" />
+                  <img className='soling1' src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740465671/soling2_zdmrks.jpg' alt="soli" />
+                  <img className='soling1' src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740465743/soling3_wzj01p.jpg' alt="soli" />
               </div>
           </div>
         </div>
@@ -341,7 +341,7 @@ const generateMetadata = ({ params }) => ({
           <button>
           <Link href="/contact-us">
               Request A Call{" "}
-              <Image width={13} className=" inline ml-2" src={arrow4} alt="ml" />
+              <img width={13} className=" inline ml-2" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740465487/arrow4_yl0q6s.png' alt="ml" />
               </Link>
             </button>
           </div>
@@ -350,10 +350,10 @@ const generateMetadata = ({ params }) => ({
                {/*  buttons  */}
                <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740466393/whatsapp_onug09.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740466433/telephone_g3zvoj.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

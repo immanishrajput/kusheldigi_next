@@ -118,7 +118,7 @@ const generateMetadata = ({ params }) => ({
             </a>
           </div>
           <div className="staffimg1">
-            <Image src={stafaAudgeImg} alt="staff augmentation"/>
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464709/stafaAudgeImg_ccbmlq.png' alt="staff augmentation"/>
           </div>
         </div>
         </div>
@@ -133,7 +133,7 @@ const generateMetadata = ({ params }) => ({
                   </h3>
                   <h2>Engineering</h2>
                 </div>
-                <Image src={digital} alt="digital" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464322/digital_kyj2lk.png' alt="digital" />
               </div>
               <div className="staff-para">
                 <p>UI/UX | Frontend | API | Web | Mobile | Dev</p>
@@ -147,7 +147,7 @@ const generateMetadata = ({ params }) => ({
                   </h3>
                   <h2>Transformation</h2>
                 </div>
-                <Image src={digital2} alt="digital2" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464364/digital2_hv4bgf.png' alt="digital2" />
               </div>
               <div className="staff-para">
                 <p>
@@ -164,7 +164,7 @@ const generateMetadata = ({ params }) => ({
                   </h3>
                   <h2>Engineering</h2>
                 </div>
-                <Image src={quality} alt="quality" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464397/quality_huvs2f.png' alt="quality" />
               </div>
               <div className="staff-para">
                 <p>UI/UX | Frontend | API | Web | Mobile | Dev</p>
@@ -173,7 +173,7 @@ const generateMetadata = ({ params }) => ({
             <div className=" box1212">
               <div className="sard">
                 <h3 className="e-com">E-Commerce</h3>
-                <Image src={cart} alt="cart" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464438/cart_zxugxv.png' alt="cart" />
               </div>
               <div className="staff-para">
                 <p>UI/UX | Frontend | API Web | Mobile | Dev</p>
@@ -202,9 +202,9 @@ const generateMetadata = ({ params }) => ({
               </div>
               <div className="content-2">
                 <div className="con">
-                  <Image src={backImg} alt="back" className="img-2" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464477/back-img_iswvtw.png' alt="back" className="img-2" />
                 </div>
-                <Image src={sideImg} alt="staff augmentation" className="img" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464518/side-img_fyvkfo.png' alt="staff augmentation" className="img" />
               </div>
             </div>
           </div>
@@ -214,7 +214,7 @@ const generateMetadata = ({ params }) => ({
             <div className="content1 dine-123">
               <div className="content-1-1 content45">
                 <div>
-                  <Image src={ik1} alt="ik1" className="icon1 " />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464559/ik1_imevje.png' alt="ik1" className="icon1 " />
                 </div>
                 <div className="hee">
                   <h2 className="hr2">Streamline communications</h2>
@@ -227,7 +227,7 @@ const generateMetadata = ({ params }) => ({
               <div className="content-1-2 content45">
                 <div>
                   {" "}
-                  <Image src={ik2} alt="ik2" className="icon2 " />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464597/ik2_lvse2p.png' alt="ik2" className="icon2 " />
                 </div>
                 <div className="hee">
                   <h2 className="hr2">Create healthy teams</h2>
@@ -241,7 +241,7 @@ const generateMetadata = ({ params }) => ({
             <div className="content1 dine-123">
               <div className="content-1-2 content-2-2442 content45">
                 <div>
-                  <Image src={clockIn} alt="clockin" className="icon1 " />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464673/clockIn_r0chre.png' alt="clockin" className="icon1 " />
                 </div>
                 <div className="hee">
                   <h2 className="hr2">Skip recruitment delays</h2>
@@ -254,7 +254,7 @@ const generateMetadata = ({ params }) => ({
               <div className="content-2-2 content45">
                 <div>
                   {" "}
-                  <Image src={ik4} alt="ik4" className="icon2" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464638/ik4_umjz4a.png' alt="ik4" className="icon2" />
                 </div>
                 <div className="hee">
                   <h2 className="hr2">Access high-quality, pre-vetted talent</h2>
@@ -278,19 +278,19 @@ const generateMetadata = ({ params }) => ({
         </div>
         <div className="local-right">
           <div className="dove-bb">
-            <Image src={img1} className="jorry" alt="logo"></Image>
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464751/Layer_0_1_xm5shp.png' className="jorry" alt="logo"></img>
             <hr className="dark-line" />
-            <Image src={img2} className="kick" alt="logo"></Image>
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464795/Mask_group_1_swmsgb.png' className="kick" alt="logo"></img>
           </div>
           <div className="Dment">
-            <Image src={img7} className="guns" alt="guns"></Image>
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464826/Layer_1_1_g3yxrv.png' className="guns" alt="guns"></img>
             <hr className="dark-line" />
-            <Image src={img8} className="nijia" alt="niji"></Image>
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464858/Group_71929_1_mcjcjc.png' className="nijia" alt="niji"></img>
           </div>
           <div className="trunks">
-            <Image src={img9} className="rely" alt="rel"></Image>
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464893/Layer_1_6_1_nwympm.png' className="rely" alt="rel"></img>
             <hr className="dark-line" />
-            <Image src={img10} className="pro" alt="pro"></Image>
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464931/protrucks_1_1_kihq2v.png' className="pro" alt="pro"></img>
           </div>
         </div>
       </div>
@@ -325,7 +325,7 @@ const generateMetadata = ({ params }) => ({
               Dedicated Software <br /> Development Teams
             </p>
           </div>
-          <Image className="tik_untik" src={img16} alt="img"></Image>
+          <img className="tik_untik" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740465116/Group_1000007395_nic4ux.jpg' alt="img"></img>
           <p className="status">Let's discuss how your setup should look.</p>
          <Link href="/contact-us"><button className="apple">Schedule a Call</button></Link>
         </div>
@@ -335,15 +335,15 @@ const generateMetadata = ({ params }) => ({
       <div className="our-hightlight dine-123">
         <div className="safolo-left">
           <p className="seamless">Our process. Simple, seamless, streamlined</p>
-          <Image src={img12} id="group-men" alt="Our Process"></Image>
+          <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464972/Rectangle_18298_b8xjtd.png' id="group-men" alt="Our Process"></img>
         </div>
         <div className="safolo-right">
           <div className="circle-part">
-            <Image src={img13} className="phone-box" alt="logo"></Image>
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740465006/Group_1000007475_qcq99c.png' className="phone-box" alt="logo"></img>
             <hr className="dotted" />
-            <Image src={img14} className="phone-box" alt="logo"></Image>
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740465038/Group_1000007474_kymofy.png' className="phone-box" alt="logo"></img>
             <hr className="dotted" />
-            <Image src={img15} className="phone-box" alt="logo"></Image>
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740465072/Group_1000007473_h6incg.png' className="phone-box" alt="logo"></img>
             <hr className="dotted" />
             <hr id="horn" />
           </div>
@@ -469,10 +469,10 @@ const generateMetadata = ({ params }) => ({
     {/*  buttons  */}
     <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740401400/whatsapp_qknuap.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740401442/telephone_rg2izx.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

@@ -277,8 +277,8 @@ const WooCommerce = () => {
                 onMouseEnter={() => setHovered(true)}
                 onMouseLeave={() => setHovered(false)}
               >
-                <Image
-                  src={hovered ? uin : framingts}
+                <img
+                  src={hovered ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463448/uin_phxkpv.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463417/framingts_k5ourq.png'}
                   className="startup"
                   alt="Gathering Project Specifications"
                   title="Gathering Project Specifications"
@@ -294,7 +294,7 @@ const WooCommerce = () => {
                 onMouseEnter={() => setHovered2(true)}
                 onMouseLeave={() => setHovered2(false)}
               >
-                <Image src={hovered2 ? uin1 : gatr} className="startup" alt="UI/UX Design" title="UI/UX Design" />
+                <img src={hovered2 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463494/uin1_fwvcqo.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463158/gatr_a6jgon.png'} className="startup" alt="UI/UX Design" title="UI/UX Design" />
                 <h3>2. UI/UX Design </h3>
                 <h5>
                   Our UI/UX designs aim at developing user interfaces which is simple to use and provide for an unique experience .
@@ -305,8 +305,8 @@ const WooCommerce = () => {
                 onMouseEnter={() => setHovered3(true)}
                 onMouseLeave={() => setHovered3(false)}
               >
-                <Image
-                  src={hovered3 ? uin2 : gatr1}
+                <img
+                  src={hovered3 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463524/uin2_osw7rr.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463197/gatr1_rd9nvc.png'}
                   className="startup"
                   alt="Prototype" title="Prototype"
                 />
@@ -320,8 +320,8 @@ const WooCommerce = () => {
                 onMouseEnter={() => setHovered4(true)}
                 onMouseLeave={() => setHovered4(false)}
               >
-                <Image
-                  src={hovered4 ? uin3 : gatr2}
+                <img
+                  src={hovered4 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463549/uin3_rvvjm9.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463237/gatr2_h2fho5.png'}
                   className="startup"
                   alt="Progress" title="Progress"
                 />
@@ -335,8 +335,8 @@ const WooCommerce = () => {
                 onMouseEnter={() => setHovered5(true)}
                 onMouseLeave={() => setHovered5(false)}
               >
-                <Image
-                  src={hovered5 ? uin4 : gatr3}
+                <img
+                  src={hovered5 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463573/uin4_l2hqvx.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463292/gatr3_gtfi0x.png'}
                   className="startup"
                   alt="Quality Control" title="Quality Control"
                 />
@@ -349,8 +349,8 @@ const WooCommerce = () => {
                 onMouseEnter={() => setHovered6(true)}
                 onMouseLeave={() => setHovered6(false)}
               >
-                <Image
-                  src={hovered6 ? uin5 : gatr4}
+                <img
+                  src={hovered6 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463599/uin5_xepwt2.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463348/gatr4_alq55r.png'}
                   className="startup"
                   alt="Implementation" title="Implementation"
                 />
@@ -364,8 +364,8 @@ const WooCommerce = () => {
                 onMouseEnter={() => setHovered7(true)}
                 onMouseLeave={() => setHovered7(false)}
               >
-                <Image
-                  src={hovered7 ? uin6 : gatr5}
+                <img
+                  src={hovered7 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463631/uin6_a7hkvt.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463379/gatr5_no9bqh.png'}
                   className="startup"
                   alt="Ongoing Assistance & Upkeep" title="Ongoing Assistance & Upkeep"
                 />
@@ -442,10 +442,10 @@ const WooCommerce = () => {
 
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740401400/whatsapp_qknuap.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740401442/telephone_rg2izx.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>
