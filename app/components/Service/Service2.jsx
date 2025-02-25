@@ -98,6 +98,7 @@ const Service = () => {
                     viewBox="0 0 20 20"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
+                    style={{marginTop:"4px"}}
                   >
                     <circle
                       opacity="0.2"
@@ -120,6 +121,7 @@ const Service = () => {
                     viewBox="0 0 20 20"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
+                    style={{marginTop:"4px"}}
                   >
                     <circle
                       opacity="0.2"
@@ -142,6 +144,7 @@ const Service = () => {
                     viewBox="0 0 20 20"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
+                    style={{marginTop:"4px"}}
                   >
                     <circle
                       opacity="0.2"

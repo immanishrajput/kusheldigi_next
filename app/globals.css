@@ -14492,6 +14492,7 @@ height: 189px;
   }
 
   .home2Div p {
+    width: auto;
     font-size: 1.5rem;
   }
 
@@ -39285,7 +39286,7 @@ width: 360px;
 }
 
 .uiux_padd {
-  padding: 90px 40px 0 100px
+  /* padding: 90px 40px 0 100px */
 }
 
 .serji2 h2 {
@@ -55107,10 +55108,14 @@ width: 230px;
   .learn-back1 h1{
     text-align: center !important;
   }
+  .learn-back1 button {
+  
+    width: 100% !important;
+  }
 }
 .learn-back1 button {
-  max-width: 270px;
-  width: 100%;
+  width: 270px; 
+  /* width: 100%; */
   height: 65px;
   background-color: #1265ff;
   font-size: 16px;
@@ -77130,7 +77135,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
 
 @media (max-width:560px) {
     .azibbb {
-        height:86rem
+        /* height:86rem */
     }
 
     #total-group {
@@ -77288,7 +77293,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .azib {
-        height:86rem !important;
+        /* height:86rem !important; */
     }
 
     .azibbb {
@@ -81584,6 +81589,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .ecommerce_left p {
+      text-align: center;
         font-size: 14px
     }
 
@@ -83529,6 +83535,9 @@ margin-top: 10px;
 }
 
 @media (max-width:700px) {
+  .uiux-btn h1{
+    font-size: 20px;
+  }
     .mlmourService {
         display: flex;
         padding: 60px 20px;
@@ -84394,6 +84403,7 @@ article h4 {
     }
 
     .our-ecommmmm h3 {
+      text-align: center;
         font-size: 25px !important;
         line-height: 32px !important;
     }

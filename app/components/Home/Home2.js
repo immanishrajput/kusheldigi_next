@@ -10,7 +10,7 @@ const Home2 = () => {
                 <div>
                   <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740481216/full-badge-bc-certified_krjod2.svg' alt='certified'></img>
                 </div>
-                <div><Image src={partner} alt='partner'></Image> </div>
+                <div><img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740481245/full-badge-bc-partner_af2b3i.svg' alt='partner' height={170} width={170}></img> </div>
               </div>
     // </div>
   )
