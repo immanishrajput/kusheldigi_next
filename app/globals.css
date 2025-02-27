@@ -29674,6 +29674,9 @@ height: fit-content;
   }
   
   @media (max-width:992px) {
+    .s5wrap img{
+display: none;
+    }
     .s8doots {
       display: none;
     }
@@ -40401,6 +40404,7 @@ width: 360px;
 }
 
 .business-box h5 {
+  text-align: center;
   margin-bottom: 13px;
   font-weight: 700;
   font-size: 22px;
@@ -40410,6 +40414,7 @@ width: 360px;
 }
 
 .business-box p {
+  text-align: center;
   font-size: 17px;
   color: #33475b;
   font-weight: 400
@@ -44290,6 +44295,7 @@ font-family: 'sf-ui-display-medium', sans-serif !important;
 }
 
 .letsit {
+  margin: 0 auto;
   display: flex;
   font-family: 'Poppins', sans-serif !important;
   align-items: center
@@ -61119,6 +61125,12 @@ option {
 }
 
 @media (max-width:900px) {
+  #hemesh-services .services-content3 span{
+    text-align: center;
+  }
+  #hemesh-services .services-content3 h3{
+    text-align: center;
+  }
   #hemesh-services .services-content1 {
     display: flex;
     flex-direction: column;
@@ -66392,11 +66404,11 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
 
 @media only screen and (max-width:1404px) {
     .navbar ul .sar {
-        margin-left: 30px
+        margin-left: 30px;
     }
 
     .native_box h3 {
-        line-height: 34px
+        line-height: 34px;
     }
 
     .megento_new3 {
@@ -66533,7 +66545,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
 
     .navbar ul li p,
     .navbar ul li a {
-        font-size: 13px
+        font-size: 13px;
     }
 
     .right-head-services a p,
@@ -66700,27 +66712,27 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
 
 @media screen and (max-width:1300px) {
     .navbar {
-        padding: 12px 60px
+        padding: 12px 60px;
     }
 
     .nodes_ben {
-        padding: 60px 64px
+        padding: 60px 64px;
     }
 
     .tag1 h4 {
-        font-size: 13px
+        font-size: 13px;
     }
 
     .yamini .sonji {
-        font-size: 13px !important
+        font-size: 13px !important;
     }
 
     .Services_heading {
-        width: 100% !important
+        width: 100% !important;
     }
 
     .service_img {
-        width: 100% !important
+        width: 100% !important;
     }
 
     .service_img img {
@@ -67505,17 +67517,17 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .navbar ul .sar {
-        margin-left: 30px
+        margin-left: 30px;
     }
 
     .navbar ul li a {
-        font-size: 15px
+        font-size: 15px;
     }
 
     .navbar ul li button {
         width: 135px;
         height: 40px;
-        font-size: 17px
+        font-size: 17px;
     }
 
     .home21 {
@@ -68118,72 +68130,72 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
 
 @media only screen and (max-width:1142px) {
     .navbar ul .sar {
-        margin-left: 25px
+        margin-left: 25px;
     }
 
     .php_service1 {
-        margin-right: 20px
+        margin-right: 20px;
     }
 
     .php_service2 {
-        margin-left: 20px
+        margin-left: 20px;
     }
 
     .greenish {
-        display: none
+        display: none;
     }
 
     .step-images .stepback {
         max-width: 450px;
-        width: 100%
+        width: 100%;
     }
 
     .step-images .stepback1 {
         max-width: 450px;
-        width: 100%
+        width: 100%;
     }
 
     .word_press_para p {
-        width: 30em
+        width: 30em;
     }
 
     .wordpress-paras p {
-        width: 28em
+        width: 28em;
     }
 
     .wordpress_about_left {
-        margin-right: 20px
+        margin-right: 20px;
     }
 
     .wordpress_about_right {
-        margin-left: 20px
+        margin-left: 20px;
     }
 
     .business-box1 {
         height: 450px;
-        max-height: 100%
+        max-height: 100%;
     }
 
     .arts-head {
-        height: 240px
+        height: 240px;
     }
 
     .chain-card {
-        flex-wrap: wrap
+        flex-wrap: wrap;
     }
 
     .ser-tag {
-        flex-wrap: wrap
+        flex-wrap: wrap;
     }
 
     .tag1 {
         margin-left: 0;
-        margin-top: 20px
+        margin-top: 20px;
     }
 
     .teal {
         flex-direction: column;
-        padding: 20px 20px
+        padding: 20px 20px;
     }
 
     .tael-head h3 {
@@ -68246,12 +68258,17 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 }
 
+
+  
+
+
 @media screen and (max-width:1100px) {
     .wordpress_agency_box {
         height: 350px
     }
 
     .ecommerce-text h2 {
+      text-align: center;
         width: 100%
     }
 
@@ -68713,7 +68730,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .navbar ul li p {
-        font-size: 13px
+        font-size: 13px;
     }
 
     .looking p {
@@ -68864,7 +68881,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .navbar {
-        padding: 16px 30px 12px 30px
+        padding: 16px 30px 12px 30px;
     }
 
     .logo img {
@@ -68872,17 +68889,17 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .navbar ul li a {
-        font-size: 13px
+        font-size: 13px;
     }
 
     .navbar ul .sar {
-        margin-left: 20px
+        margin-left: 20px;
     }
 
     .navbar ul li button {
         width: 110px;
         height: 35px;
-        font-size: 15px
+        font-size: 15px;
     }
 
     .home1111 h2 {
@@ -69435,6 +69452,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .android-usa1 h3 {
+      margin: 0 auto;
         text-align: center
     }
 
@@ -69580,6 +69598,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .ios-back1 p {
+      text-align: center;
         width: 100% !important
     }
 
@@ -70208,7 +70227,12 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         height: 418px
     }
 }
-
+@media only screen and (max-width:1009px){
+  .android-back1 h1 {
+    text-align:center !important;
+  }
+ 
+}
 @media only screen and (max-width:953px) {
     .flex-thing p {
         font-size: 16px;
@@ -70331,20 +70355,20 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
 
     .navbar ul li p,
     .navbar ul li a {
-        font-size: 11px
+        font-size: 11px;
     }
 
     .right-head-services a p,
     .left-head-services a p {
-        font-size: 14px !important
+        font-size: 14px !important;
     }
 
     .left-containt-services a {
-        font-size: 12px !important
+        font-size: 12px !important;
     }
 
     .navbar ul li button {
-        font-size: 13px
+        font-size: 13px;
     }
 
     .flex-thing {
@@ -70440,7 +70464,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .navbar {
-        padding: 21px 30px 12px 30px
+        padding: 41px 30px 12px 30px !important;
     }
 
     .leftreview,
@@ -71004,7 +71028,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
 
     .navbar ul li a,
     .navbar ul li p {
-        text-transform: initial !important
+        text-transform: initial !important;
     }
 
     .why_pnt {
@@ -73115,6 +73139,9 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         font-size: 30px;
         line-height: 38px
     }
+    .android-fun1 h2{
+      text-align: center;
+    }
 
     .android-usa1 h3 {
         font-size: 30px;
@@ -74928,7 +74955,8 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .first-delivery h3 {
-        font-size: 30px
+      text-align: center;
+        font-size: 30px;
     }
 
     .mobile-app .part {
@@ -77129,7 +77157,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .navbar {
-        padding: 48px 30px 12px 30px !important
+        padding: 48px 30px 12px 30px !important;
     }
 }
 
@@ -77213,16 +77241,16 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .navbar {
-        padding: 25px 30px 12px 30px !important
+        padding: 25px 30px 12px 30px !important;
     }
 
     .experience-user {
-        height: 300px
+        height: 300px;
     }
 
     .homepage-main-slider-left h1 {
         font-size: 27px;
-        line-height: 35px
+        line-height: 35px;
     }
 }
 
@@ -82782,7 +82810,7 @@ margin-top: 10px;
     }
 
     .navbar {
-        padding: 21px 30px 12px 30px !important
+        padding: 21px 30px 12px 30px !important;
     }
 }
 
@@ -83508,10 +83536,14 @@ margin-top: 10px;
     }
 
     .navbar {
-        padding: 31px 30px 12px 30px
+        padding:55px 30px 12px 30px !important;
     }
 }
-
+@media (max-width:450px){
+  .navbar {
+    padding: 28px 30px 12px 30px !important;
+}
+}
 @media (max-width:800px) {
     .softwareProduct {
         padding: 60px 20px;
@@ -84922,7 +84954,7 @@ article h4 {
     }
   
     .s5cont {
-      height: 500px;
+      /* height: 500px; */
     }
   
     .s7cont h3 {
