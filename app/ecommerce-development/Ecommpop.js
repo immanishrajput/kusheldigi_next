@@ -73,10 +73,11 @@ const Ecommpop = ({setPop, notify = (type, message)=> console.log(type, message)
         {/* <OutsideClickHandler onOutsideClick={() => setPop(false)}> */}
           <div className="eco_pop">
 
-            <i onClick={() => setPop(false)} className="fa-solid fa-x"></i>
 
             <div className="eco_container">
               
+            <i onClick={() => setPop(false)} className="fa-solid fa-x"></i>
+
               {/* =============== */}
               <div className="main_eco_pop">
                 <div className="eco_pop_subcontainer">

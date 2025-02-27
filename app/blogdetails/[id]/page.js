@@ -25,6 +25,7 @@ function BlogDetails() {
   const router = useRouter();
   const [currentPageUrl, setCurrentPageUrl] = useState(""); 
 
+  //  console.log("currentPageUrl" , currentPageUrl); 
 
   const { id } = useParams();
 
@@ -153,14 +154,18 @@ function BlogDetails() {
 
 
 
-          <EmailShareButton url={currentPageUrl} subject="Check out this blog!" body="I found this blog interesting, check it out:">
+          {/* <EmailShareButton url={currentPageUrl} subject="Check out this blog!" body="I found this blog interesting, check it out:"  separator=" - " >
             <div className="shareocciwrap">
               <FaEnvelope className="sheicon" />
             </div>
-          </EmailShareButton>
+          </EmailShareButton> */}
 
-          
-          
+          <a href={`mailto:?subject=Check out this blog!&body=I found this blog interesting, check it out: ${currentPageUrl}`}>
+    <div className="shareocciwrap">
+        <FaEnvelope className="sheicon" />
+    </div>
+</a>
+
 
         </div>
       </div>

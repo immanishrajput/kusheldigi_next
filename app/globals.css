@@ -44057,12 +44057,13 @@ font-family: 'sf-ui-display-medium', sans-serif !important;
 }
 
 .eco_container {
-  max-width: 1200px;
+  max-width: 1000px;
   width: 100%;
   background: #fff;
   font-family: 'Poppins', sans-serif !important;
   border-radius: 39px;
-  margin: 40px auto
+  margin: 40px auto;
+  position: relative;
 }
 
 .hired-help-sect button {
@@ -55343,7 +55344,7 @@ width: 230px;
 .flowChart3 {
   display: flex;
   align-items: center;
-  justify-content: space-around
+  justify-content: space-around;
 }
 
 .flowa {
@@ -55406,8 +55407,9 @@ width: 230px;
 }
 
 .flowsr p {
-  width: 23em;
-  max-width: 100%
+  max-width: 23em;
+  /* max-width: 100% */
+  width:100%;
 }
 
 .kesa_process div {
@@ -59070,7 +59072,7 @@ width: 230px;
 
 .eco_pop_subcontainer {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
   height:90vh;
 }
@@ -59090,7 +59092,7 @@ width: 230px;
 }
 
 .right_eco_pop {
-  margin: 40px
+  margin: 20px;
 }
 
 .right_eco_pop p {
@@ -59128,7 +59130,8 @@ width: 230px;
   justify-content: center;
   align-items: center;
   gap:8px !important;
-  margin: 60px 0
+  /* margin: 20px 0; */
+  margin-top:20px;
 }
 
 .right_eco_pop button span {
@@ -59328,14 +59331,6 @@ width: 230px;
 }
 
 
-@media(max-width:450px) {
-.left_eco_pop img{
-  display: none;
-}
-.eco_pop i {
-  right: 1rem !important;
-}
-}
 .eco_pop i {
   color: #fff;
   background-color: #1265ff;
@@ -59347,11 +59342,20 @@ width: 230px;
   border-radius: 50%;
   position: absolute;
   font-size: 20px;
-  top: 3.5rem;
+  top: 20px;
   z-index: 90;
-  right: 15rem;
+  right: 20px;
   cursor: pointer
 }
+
+@media(max-width:450px) {
+  .left_eco_pop img{
+    display: none;
+  }
+  .eco_pop i {
+    right: 1rem !important;
+  }
+  }
 
 .mlm {
   background-image: url(../public/assets/MLM_bg_img.png);
@@ -75355,7 +75359,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .workFolow {
-        padding: 0 60px
+        padding: 0 20px
     }
 
     .procct_img {
@@ -85659,5 +85663,31 @@ color: #38475c;
   }
   .USA-ourWork-left-card p {
     height: auto !important;
+  }
+}
+
+
+@media (max-width:500px) {
+  .poinyuj{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap:5px;
+  }
+  .flowChartSec11 p{
+    margin: 0 auto;
+    text-align: center;
+  }
+  .kesa_process{
+    flex-direction: column;
+  }
+  .kesa_process div{
+    height: 30px;
+    width: 0.5px;
+  }
+  .poinyuj p{
+    margin-top:10px;
+    margin-left:0px;
+    text-align: center;
   }
 }

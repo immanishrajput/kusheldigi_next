@@ -8,7 +8,6 @@ import pinnak2 from '../../public/assets/pinnak2.png';
 import pinnak3 from '../../public/assets/pinnak3.png';
 import pinnak4 from '../../public/assets/pinnak4.png';
 import Head from 'next/head';
-
 import pinnak5 from '../../public/assets/pinnak5.png';
 import pinnak6 from '../../public/assets/pinnak6.png';
 import recy from '../../public/assets/recy.png';
@@ -203,9 +202,7 @@ const HowWork = ({notify}) => {
 
       <div className="workShop">
         <div className="workshop_nav">
-          <p onClick={tabAnother1} id='track1'>
-            Workshops
-          </p>
+          <p onClick={tabAnother1} id='track1'> Workshops </p>
           <p onClick={tabAnother2} id='track2'>Kick-off</p>
           <p onClick={tabAnother3} id='track3'>UX/UI Design</p>
           <p onClick={tabAnother4} id='track4'>Development</p>
@@ -502,6 +499,7 @@ const HowWork = ({notify}) => {
           </button>
 
         </div>
+
 <Footer/>
     </div>
   )
