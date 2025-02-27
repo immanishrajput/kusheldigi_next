@@ -66287,17 +66287,27 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
 }
 
 .onbord-main {
-    margin-top: 2.5rem;
+    margin-top: 1rem;
     margin-left: 3rem;
     margin-right: .5rem;
     padding-right: 8rem
 }
 
+.step-part{
+/* background-color: red; */
+}
 .line_btn {
     display: flex;
     align-items: center;
     justify-content: left;
-    margin-top:7px;
+    /* margin-top:15px; */
+    transform: translateY(28px);
+  }
+  
+  @media (max-width:1400px){
+    .line_btn{
+      transform: translateY(16px);
+  }
 }
 
 .scale {

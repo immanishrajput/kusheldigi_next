@@ -164,7 +164,7 @@ const generateMetadata = ({ params }) => ({
                   </h3>
                   <h2>Engineering</h2>
                 </div>
-                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464397/quality_huvs2f.png' alt="quality" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464397/quality_huvs2f.png' alt="quality" />
               </div>
               <div className="staff-para">
                 <p>UI/UX | Frontend | API | Web | Mobile | Dev</p>
