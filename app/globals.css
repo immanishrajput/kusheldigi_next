@@ -66310,6 +66310,24 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
   }
 }
 
+@media (max-width:1250px){
+  .toggle{
+    padding-top:10px;
+  }
+  .dotted{
+    height:144.5px;
+  }
+}
+@media (max-width:1217px){
+  .circle-part{
+    display: none;
+  }
+  #short{
+    display:none;
+  }
+}
+
+
 .scale {
   font-family: 'sf-ui-display-medium',sans-serif !important;
     align-items: center;
