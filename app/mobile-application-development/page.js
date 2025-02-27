@@ -281,7 +281,7 @@ const MobileApp = ({ notify }) => {
               <div className="business-card-img">
                 <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739339798/c8_ibnuqe.png' alt="flutter App Development" title="flutter App Development" />
               </div>
-              <h5>flutter App Development</h5>
+              <h5>Flutter App Development</h5>
               <p>
                 Creating visually appealing flutter apps for iOS, Android, and more.
               </p>

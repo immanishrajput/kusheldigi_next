@@ -206,7 +206,7 @@ const Service = () => {
                     <div className="underline">
                       <hr />
                     </div>
-                    <h3>BUSINESS PROCESS AUTOMATION:</h3>
+                    <h3>BUSINESS PROCESS AUTOMATION</h3>
                   </div>
                   <div className="services-card-theory">
                     <p>
@@ -221,7 +221,7 @@ const Service = () => {
                     <div className="underline">
                       <hr />
                     </div>
-                    <h3>BUSINESS INTELLIGENCE SOLUTIONS:</h3>
+                    <h3>BUSINESS INTELLIGENCE SOLUTIONS</h3>
                   </div>
                   <div className="services-card-theory">
                     <p>
@@ -237,7 +237,7 @@ const Service = () => {
                     <div className="underline">
                       <hr />
                     </div>
-                    <h3>ECOMMERCE DEVELOPMENT:</h3>
+                    <h3>ECOMMERCE DEVELOPMENT</h3>
                   </div>
                   <div className="services-card-theory">
                     <p>
@@ -255,7 +255,7 @@ const Service = () => {
                     <div className="underline">
                       <hr />
                     </div>
-                    <h3>CUSTOMER RELATIONSHIP MANAGEMENT:</h3>
+                    <h3>CUSTOMER RELATIONSHIP MANAGEMENT</h3>
                   </div>
                   <div className="services-card-theory">
                     <p>
@@ -270,7 +270,7 @@ const Service = () => {
                     <div className="underline">
                       <hr />
                     </div>
-                    <h3>ENTERPRISE CONTENT MANAGEMENT:</h3>
+                    <h3>ENTERPRISE CONTENT MANAGEMENT</h3>
                   </div>
                   <div className="services-card-theory">
                     <p>
@@ -332,7 +332,7 @@ const Service = () => {
                         fill="#3C83CB"
                       />
                     </svg>
-                    <h4>UX/UI DESIGN:</h4>
+                    <h4>UX/UI DESIGN</h4>
                     <p>
                       we have been adept to streamline and improve the
                       interaction between the target customers of our clients,
@@ -372,7 +372,7 @@ const Service = () => {
                         fill="#3C83CB"
                       />
                     </svg>
-                    <h4>ECOMMERCE DEVELOPMENT:</h4>
+                    <h4>ECOMMERCE DEVELOPMENT</h4>
                     <p>
                       In the apace evolving digital epoch,the exaction for
                       robust ecommerce website creation services is escalating
@@ -433,7 +433,7 @@ const Service = () => {
                     fill="#3C83CB"
                   />
                 </svg>
-                <h4>APP DESIGN AND DEVELOPMENT:</h4>
+                <h4>APP DESIGN AND DEVELOPMENT</h4>
                 
                 <p>
                   Our mobile developers have nimble thinking and coding skills.
@@ -490,7 +490,7 @@ const Service = () => {
                     fill="#3C83CB"
                   />
                 </svg>
-                <h4>WEBSITE DEVELOPMENT:</h4>
+                <h4>WEBSITE DEVELOPMENT</h4>
                 <p>
                   In the digital era of today, do you want your business to be
                   successful ? In the digital presence ,to develop your online
@@ -547,7 +547,7 @@ const Service = () => {
                     fill="#3C83CB"
                   />
                 </svg>
-                <h4>DIGITAL MARKETING:</h4>
+                <h4>DIGITAL MARKETING</h4>
                 <p>
                   we use our years of competence and knowledge to provide
                   solutions to our clients that are not only carrying out but
@@ -600,7 +600,7 @@ const Service = () => {
                     fill="#0B60FF"
                   />
                 </svg>
-                <h3>MOBILE:</h3>
+                <h3>MOBILE</h3>
                 <div className="service-underline">
                   <hr />
                 </div>
@@ -647,7 +647,7 @@ const Service = () => {
                     </clipPath>
                   </defs>
                 </svg>
-                <h3>BACKEND:</h3>
+                <h3>BACKEND</h3>
                 <div className="service-underline">
                   <hr />
                 </div>

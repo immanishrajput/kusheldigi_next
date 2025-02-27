@@ -39912,7 +39912,7 @@ width: 360px;
   border: none;
   border-radius: 28px;
   color: #fff;
-  display: flex;
+  display:inline-flex;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
@@ -45907,7 +45907,7 @@ margin: 0 auto;
   border: none;
   border-radius: 28px;
   color: #fff;
-  display: flex;
+  display:inline-flex;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
@@ -46010,7 +46010,7 @@ margin: 0 auto;
   color: #085881;
   font-size: 18px;
   font-weight: 500;
-  width: 310px;
+  width:274px;
   letter-spacing: .5px;
   margin-top: 10px
 }
@@ -46165,6 +46165,7 @@ margin: 0 auto;
 }
 
 .android-usa h5 {
+  width: 226px;
   display: inline-flex;
   color: #085881;
   opacity: .9;
@@ -77401,6 +77402,14 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 }
 
+/* @media screen and (max-width:679px)
+{
+  .noida p{
+    font-size: 15px !important;
+  }
+
+} */
+
 @media screen and (max-width:520px) {
     .new-portfolio2-heading1 h2 {
         text-align: center !important
@@ -85527,7 +85536,9 @@ textarea {
 }
 
 @media (max-width:700px) {
-
+  .aboutcont{
+    height: auto !important;
+  }
     .aboutcontent3s span {
         font-size: 22px;
         line-height: 32px;
@@ -85541,7 +85552,9 @@ textarea {
         padding: 7px 15px;
 
     }
-
+    .aboutcont{
+      height: auto !important;
+    }
     .vvlogfilters span {
 
         font-size: 10px;
@@ -85567,6 +85580,9 @@ textarea {
     .allbolgs {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+    .aboutcont{
+      height: auto !important;
     }
 }
 
@@ -85597,7 +85613,9 @@ textarea {
         flex-direction: column;
         align-items: center;
     }
-
+    .aboutcont{
+      height: auto !important;
+    }
     .blode2rightc {
         max-width: 100%;
         width: 100%;
