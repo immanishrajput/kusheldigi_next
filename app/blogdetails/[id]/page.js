@@ -150,21 +150,17 @@ function BlogDetails() {
            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1740125157/Layer_1_mexpbv.png" className="sheicon"/>
             </div>
           </TwitterShareButton>
-          {/* <EmailShareButton url={currentPageUrl} subject="Check out this blog!" body="I found this blog interesting, check it out:">
+
+
+
+          <EmailShareButton url={currentPageUrl} subject="Check out this blog!" body="I found this blog interesting, check it out:">
             <div className="shareocciwrap">
               <FaEnvelope className="sheicon" />
             </div>
-          </EmailShareButton> */}
-          <EmailShareButton
-  url={currentPageUrl}
-  subject="Check out this blog!"
-  body={`I found this blog interesting, check it out: ${currentPageUrl}`}
-  separator="%0A"  // Ensures line breaks work in email body
->
-  <div className="shareocciwrap">
-    <FaEnvelope className="sheicon" />
-  </div>
-</EmailShareButton>
+          </EmailShareButton>
+
+          
+          
 
         </div>
       </div>
