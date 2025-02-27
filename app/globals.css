@@ -33826,7 +33826,7 @@ display: none;
   .singfeaturesb{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 31px !important;
     width: 100%;
     /* justify-content: space-between; */
   
@@ -68238,9 +68238,9 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         max-height: 100%;
     }
 
-    .arts-head {
+    /* .arts-head {
         height: 240px;
-    }
+    } */
 
     .chain-card {
         flex-wrap: wrap;
@@ -70411,9 +70411,9 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         width: 100% !important
     }
 
-    .arts-head {
+    /* .arts-head {
         height: 270px
-    }
+    } */
 
     .navbar ul li p,
     .navbar ul li a {
@@ -73991,7 +73991,8 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .arts_img img {
-        width: 100%
+        width: 100%;
+        height: auto;
     }
 
     .design_box {
@@ -84594,7 +84595,11 @@ article h4 {
 
 
 /* section7 */
-
+@media(max-width:1290px){
+  .image-container img{
+    display: none;
+  }
+}
 
 .h2sec7wrap {
     position: relative;

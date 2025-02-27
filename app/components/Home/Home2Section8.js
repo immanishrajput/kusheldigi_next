@@ -28,7 +28,7 @@ function Home2Section8() {
 
             <div className="ecoTechBoxes">
                 {data?.map((d, i) => (
-                    <Link key={i} href={d.link}>
+                    // <Link key={i} href={d.link}>
                         <div className="singleEcoBox">
                             {/* Left side */}
                             <img src={d.img} alt="kushel" title={d?.alt} />
@@ -37,12 +37,14 @@ function Home2Section8() {
                             <div className="sEcoRight">
                                 <p className="scoripara1">{d.para}</p>
                                 <div className="leamorediv">
+                                <Link key={i} href={d.link}>
                                     <p className="text32">LEARN MORE</p>
+                                    </Link>
                                     <p className="textbelowline"></p>
                                 </div>
                             </div>
                         </div>
-                    </Link>
+                   
                 ))}
             </div>
         </div>

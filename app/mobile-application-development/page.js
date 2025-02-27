@@ -137,7 +137,7 @@ const MobileApp = ({ notify }) => {
                 className=" w-full"
                 aria-label="Our Services"
                 options={{
-                  perPage,
+                  perPage:5,
                   perMove: 1,
                   autoplay: true,
                   pauseOnHover: true,
