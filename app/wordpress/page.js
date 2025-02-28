@@ -122,6 +122,7 @@ useEffect(() => {
                             <div className="word_press_para">
                                 <p>WordPress development is the building as well as maintenance of WordPress websites. It is an open-source platform ,to design In India. Migrate or maintain outstanding WordPress Website at a great price.</p>
                             </div>
+                        <br/>
                             <Link href="/contact-us" className="buttunn buttunn1"><button>Lets get started
                                 <svg className="ml-2" width="15" height="13" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M15.0811 10.0655C14.8304 10.0655 14.6785 10.0655 14.5342 10.0655C10.1051 10.0655 5.6761 10.0655 1.24707 10.0655C0.35823 10.0655 -0.203945 9.33411 0.0695453 8.54173C0.236678 8.07696 0.578542 7.83316 1.06475 7.77982C1.20149 7.76458 1.34583 7.77982 1.48258 7.77982C5.85083 7.77982 10.2115 7.77982 14.5797 7.77982C14.7165 7.77982 14.8532 7.77982 15.0735 7.77982C14.9368 7.62744 14.8532 7.52839 14.7621 7.43696C13.2883 5.95887 11.8144 4.47316 10.333 2.99506C9.99118 2.6522 9.78606 2.27125 9.9228 1.76839C10.1431 0.976012 11.0548 0.663631 11.7081 1.15887C11.8296 1.2503 11.936 1.36458 12.0424 1.47125C14.2303 3.66554 16.4106 5.8522 18.5985 8.03887C19.1303 8.5722 19.1455 9.25792 18.6137 9.78363C16.3878 12.016 14.1543 14.2484 11.9284 16.4808C11.5865 16.8236 11.1991 17.0141 10.6977 16.8617C9.9228 16.6255 9.62652 15.7341 10.1127 15.0865C10.2039 14.9646 10.3178 14.8579 10.4242 14.7513C11.8676 13.3036 13.3035 11.8636 14.7469 10.416C14.838 10.3246 14.9292 10.2255 15.0811 10.0655Z" fill="white" />
@@ -158,7 +159,7 @@ useEffect(() => {
                 <div className="wordpress_serv dine-1234">
                     <h3> WHAT IS THE SIGNIFICANCE OF WEB DEVELOPMENT AT  <span>KUSHELDIGI?</span></h3>
                     <div className="word_parat">
-                        <p>WordPress is the world’s most- used Website builder and powers website for Some of the biggest brands in the world.It is the best way to build a website, In a modular ecosystem. The most
+                        <p>WordPress is the world’s most- used Website builder and powers website for Some of the biggest brands in the world. It is the best way to build a website, In a modular ecosystem. The most
                             Significant advantage of WordPress is It’s unmatched potential for scalability, This means as businesses advance Or expands,there will be a powerful Platform,that can meet the requirements For growth.</p>
                     </div>
 
@@ -170,14 +171,14 @@ useEffect(() => {
                                     <path d="M0 0C61.7545 0 47.3839 41.1696 47.5134 47.5134L58 58H54.6339L45.442 48.808C40.3929 49.3259 29.3884 53.3393 17.7366 44.0179C6.08482 34.8259 6.73214 23.692 0 0ZM10.2277 5.95536C3.88393 2.97768 9.58036 7.25 9.58036 7.25C15.4062 11.2634 18.125 16.7009 21.2321 22.7857C25.375 30.5536 31.4598 40.7812 39.875 44.4062C48.2902 48.0312 44.4062 46.0893 40.6518 43.3705C37.0268 40.6518 31.8482 32.1071 28.8705 26.5402C24.8571 18.7723 20.9732 11.1339 10.2277 5.95536Z" fill="#0E52FC" />
                                 </svg>
                                 <h3>Modern UX/UI Design</h3>
-                                <p>kusheldegi does exceptional custom design and also modify the theme of our choice.</p>
+                                <p>kushel digi does exceptional custom design and also modify the theme of our choice.</p>
                             </div>
                             <div className="wordPressji_box">
                                 <svg width="58" height="55" viewBox="0 0 58 55" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M19.2944 44.2895C19.2944 44.5166 19.0605 44.6302 18.7097 44.6302C18.3589 44.7438 18.125 44.5166 18.125 44.2895C18.125 44.0624 18.3589 43.8353 18.7097 43.8353C19.0605 43.8353 19.2944 44.0624 19.2944 44.2895ZM15.6694 43.7217C15.7863 43.4946 16.1371 43.381 16.4879 43.4946C16.8387 43.6081 16.9556 43.8353 16.9556 44.0624C16.8387 44.2895 16.4879 44.4031 16.254 44.2895C15.9032 44.2895 15.6694 43.9488 15.6694 43.7217ZM20.9315 43.6081C21.1653 43.4946 21.5161 43.7217 21.5161 43.9488C21.6331 44.176 21.3992 44.2895 21.0484 44.4031C20.6976 44.5166 20.3468 44.4031 20.3468 44.176C20.3468 43.8353 20.5806 43.6081 20.9315 43.6081ZM28.5323 0C44.7863 0 58 12.0377 58 27.7093C58 40.3148 50.0484 51.1033 38.3548 54.8509C36.8347 55.1916 36.25 54.2831 36.25 53.4881C36.25 52.5796 36.3669 47.81 36.3669 44.0624C36.3669 41.3369 35.4315 39.6334 34.379 38.7249C40.9274 38.0436 47.8266 37.1351 47.8266 26.233C47.8266 23.0533 46.6573 21.5769 44.7863 19.5328C45.0202 18.7379 46.0726 15.7852 44.4355 11.8105C41.9798 11.0156 36.3669 14.8767 36.3669 14.8767C34.0282 14.1954 31.5726 13.9682 29 13.9682C26.5444 13.9682 24.0887 14.1954 21.75 14.8767C21.75 14.8767 16.0202 11.1292 13.6815 11.8105C12.0444 15.7852 12.9798 18.7379 13.3306 19.5328C11.4597 21.5769 10.5242 23.0533 10.5242 26.233C10.5242 37.1351 17.1895 38.0436 23.7379 38.7249C22.8024 39.5199 22.1008 40.7691 21.8669 42.5861C20.1129 43.381 15.9032 44.6302 13.3306 40.2013C11.6935 37.4757 8.77016 37.2486 8.77016 37.2486C5.96371 37.2486 8.65323 39.0656 8.65323 39.0656C10.5242 39.8606 11.8105 43.1539 11.8105 43.1539C13.5645 48.2642 21.75 46.5608 21.75 46.5608C21.75 48.9456 21.75 52.8067 21.75 53.6017C21.75 54.2831 21.2823 55.1916 19.7621 54.9644C8.06855 51.1033 0 40.3148 0 27.7093C0 12.0377 12.3952 0 28.5323 0ZM11.3427 39.1792C11.4597 39.0656 11.6935 39.1792 11.9274 39.2928C12.1613 39.5199 12.1613 39.8606 12.0444 39.9741C11.8105 40.0877 11.5766 39.9741 11.3427 39.8606C11.2258 39.6334 11.1089 39.2928 11.3427 39.1792ZM10.0565 38.2707C10.1734 38.1571 10.2903 38.1571 10.5242 38.2707C10.7581 38.3842 10.875 38.4978 10.875 38.6114C10.7581 38.8385 10.5242 38.8385 10.2903 38.7249C10.0565 38.6114 9.93952 38.4978 10.0565 38.2707ZM13.7984 42.3589C14.0323 42.1318 14.3831 42.2454 14.6169 42.4725C14.8508 42.6996 14.8508 43.0403 14.7339 43.1539C14.6169 43.381 14.2661 43.2675 14.0323 43.0403C13.6815 42.8132 13.6815 42.4725 13.7984 42.3589ZM12.5121 40.6555C12.746 40.5419 12.9798 40.6555 13.2137 40.8826C13.3306 41.1098 13.3306 41.4504 13.2137 41.564C12.9798 41.6776 12.746 41.564 12.5121 41.3369C12.2782 41.1098 12.2782 40.7691 12.5121 40.6555Z" fill="#0E52FC" />
                                 </svg>
                                 <h3>Plugins and Functionality</h3>
-                                <p>The experts of Kushi degi can equip the website with the best plugins in the market.</p>
+                                <p>The experts of Kushel digi can equip the website with the best plugins in the market.</p>
                             </div>
                             <div className="wordPressji_box">
                                 <svg width="43" height="57" viewBox="0 0 43 57" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -267,13 +268,13 @@ useEffect(() => {
                                 </div>
                                 <div className='word_benefits_box-2'>
                                     <h3>Agile Development</h3>
-                                    <p>kusheldegi offers coordinated web assessment to meet particular business needs.</p>
+                                    <p>kusheldigi offers coordinated web assessment to meet particular business needs.</p>
                                 </div>
                             </div>
                             <div className='word_benefits_section'>
                                 <div className='word_benefits_box'>
                                     <h3>Psychology Driven</h3>
-                                    <p>kusheldegi offers UI/UX configuration depending on the client's brain size to construct habit-forming web applications and dashboards.</p>
+                                    <p>kusheldigi offers UI/UX configuration depending on the client's brain size to construct habit-forming web applications and dashboards.</p>
                                 </div>
                                 <div className='word_benefits_box-2'>
                                     <h3>Failproof</h3>
@@ -286,8 +287,8 @@ useEffect(() => {
 
 
                 <div className='wordpress_cater'>
-                    <h3 className='h21'>WHAT INDUSTRIES CATER BY KUSHELDEGI?</h3>
-                    <p className='p2112'>Industries kusheldegi cater are:</p>
+                    <h3 className='h21'>WHAT INDUSTRIES CATER BY kusheldigi?</h3>
+                    <p className='p2112'>Industries kusheldigi cater are:</p>
                     <div className='wordpress_cater_cards'>
                         <div className='wordpress_cater_card'>
 
@@ -477,7 +478,7 @@ useEffect(() => {
                         <div className="wordpress_agency_card">
                             <div className="wordpress_agency_box wordpress_agency_box1">
                                 <h3>Experienced Developers</h3>
-                                <p>Kusal degi is enriched with experienced WordPress developers who have a profound comprehension of the platform
+                                <p>kusheldigi is enriched with experienced WordPress developers who have a profound comprehension of the platform
                                     .They can achieve WordPress advancement
                                     Project with absolute flawlessness independent of the intricacy.
                                 </p>
@@ -492,7 +493,7 @@ useEffect(() => {
                             <div className="wordpress_agency_box wordpress_agency_box1">
                                 <h3>Instinctive Admin Panel</h3>
                                 <p>INSTINCTIVE ADMIN PANEL
-                                    Kushi degi makes transparent and
+                                    kusheldigi makes transparent and
                                     Natural admin management that
                                     Is not difficult to use for a website
                                     admins.
@@ -506,7 +507,7 @@ useEffect(() => {
                                 <p>As a dependable WordPress
                                     Organisation, we give the highest improvement administrations.
                                     If one discovers any bugs with their site,
-                                    Reach at kushel degi and they will fix the issue.
+                                    Reach at kusheldigi and they will fix the issue.
                                 </p>
                             </div>
                             <div className="wordpress_agency_box wordpress_agency_box1">

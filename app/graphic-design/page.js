@@ -296,7 +296,7 @@ const generateMetadata = ({ params }) => ({
                             <p>
                                 One of the best things you can do to improve your marketing plan is to use graphic design. An audience is drawn in and intrigued by visually striking content that promotes your brand and product. An informed audience is provided by graphics that are purposefully created. According to a common saying, an image speaks a thousand words. You can now express the tale of your business with your own photographs.
 
-                                You may attract readers' attention to content you want to stand out by using informative images on your website. Awe-inspiring pictures are used to break up dense text and to visually illustrate concepts. Generally speaking, images increase user engagement, which increases traffic to websites.
+                                You may attract reader's attention to content you want to stand out by using informative images on your website. Awe-inspiring pictures are used to break up dense text and to visually illustrate concepts. Generally speaking, images increase user engagement, which increases traffic to websites.
 
                             </p>
                             <Link href="/contact-us">

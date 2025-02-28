@@ -192,6 +192,7 @@ const Magento = () => {
                 </p>
               </div>
             </div>
+            <br/>
             <div className="megento_new_ptn">
               <a href="contact-us"><button>Let’s Get Started</button></a>
 

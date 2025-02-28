@@ -64,6 +64,7 @@ const generateMetadata = ({ params }) => ({
                             <div className="html_head_para">
                                 <p>HTML5 is the latest version of Hypertext Markup Language consisting of HTML, CSS, and JavaScript. HTML5 development enables developers to develop value-added apps and websites.</p>
                             </div>
+                          
                             <Link href="/contact-us"><button>LET’S TALK</button></Link>
 
                         </div>
