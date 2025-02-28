@@ -8,7 +8,7 @@ import ReCAPTCHA from "react-google-recaptcha";
 
 const ContactForm1 = ({ notify }) => {
   const router = useRouter();
-  const [captchaValue, setCaptchaValue] = useState(null);
+  const [captchaValue2, setCaptchaValue2] = useState(null);
 
   const pattern = new RegExp(/^\d{1,9}$/);
   const [isError, setIsError] = useState(false);
@@ -22,7 +22,7 @@ const ContactForm1 = ({ notify }) => {
 
   const handleCaptchaChange = (value) => {
     console.log("Captcha Value:", value);
-    setCaptchaValue(value);
+    setCaptchaValue2(value);
   };
 
   const [value1, setValue1] = useState({
@@ -44,7 +44,7 @@ const ContactForm1 = ({ notify }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (!captchaValue) {
+    if (!captchaValue2) {
       alert("Please complete the reCAPTCHA verification.");
       return;
     }
