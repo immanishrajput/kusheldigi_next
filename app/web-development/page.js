@@ -258,7 +258,7 @@ const generateMetadata = ({ params }) => ({
                   <Link href="/node-js">
                     <div className="w-full sis1  home4121">
                       <img className="block m-auto"
-                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724842774/png-transparent-node-js-javascript-computer-icons-github-angle-text-logo_1_iohy0b.png"
+                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1740728606/node_odqwlf.jpg"
                         alt="Node"
                         title="Node"
                       />
@@ -278,8 +278,7 @@ const generateMetadata = ({ params }) => ({
                 <SplideSlide>
                   <Link href="">
                     <div className="home4121">
-                      <img className="block m-auto" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724842772/Vue.js_Logo_2_1_v30zi8.png
-" alt=" PYTHON" title="PYTHON" />
+                      <img className="block m-auto" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1740728606/pyton_tpf5u2.jpg" alt=" PYTHON" title="PYTHON" />
                       <p>PYTHON</p>
                     </div>
                   </Link>

@@ -95,10 +95,10 @@ const generateMetadata = ({ params }) => ({
                             <p>
                                 Kushel Digi Solution is a creative and professional graphic design company. Our team specializes in crafting and making a unique digital design for websites which make your business stand out. We are providing graphic designing services in the USA and all over the world.
                             </p>
-                            <Link href="/contact-us">   <button>Lets get started<svg width="13" height="13" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <button>    <Link href="/contact-us"> Lets get started<svg width="13" height="13" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8 16L6.575 14.6L12.175 9H0V7H12.175L6.575 1.4L8 0L16 8L8 16Z" fill="white" />
                             </svg>
-                            </button></Link>
+                            </Link>  </button>
                         </div>
                         <div className="grap12">
                             <div>

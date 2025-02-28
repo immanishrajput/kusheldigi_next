@@ -12920,6 +12920,7 @@ body{
     font-weight: 600;
     line-height: 44px;
     color: #0E151D;
+    text-align: center;
     max-width: 17em;
     width: 100%
   }
@@ -13261,6 +13262,7 @@ body{
     font-size: 18px;
     font-weight: 500;
     line-height: 28px;
+    text-align: center;
     max-width: 52em;
     width: 100%;
     color: #0E151D
@@ -13626,6 +13628,12 @@ body{
     #kushel-headless-commerce .headless-commerce-cards-content-flex4 {
       flex-wrap: wrap
     }
+    #kushel-headless-commerce .headless-commerce-content1 h2{
+      text-align: center;
+    }
+    #kushel-headless-commerce .headless-commerce-content3 h3{
+      text-align: center;
+    }
   }
   
   @media(max-width:640px) {
@@ -13658,6 +13666,7 @@ body{
     }
   
     #kushel-headless-commerce .headless-commerce-content1 h2 {
+      text-align: center;
       font-size: 25px;
       line-height: 30px
     }
@@ -13674,6 +13683,7 @@ body{
     }
   
     #kushel-headless-commerce .headless-commerce-content2 h3 {
+      text-align: center;
       font-size: 25px
     }
   
@@ -13686,11 +13696,13 @@ body{
     }
   
     #kushel-headless-commerce .headless-commerce-content3 h3 {
+      text-align: center;
       font-size: 25px;
       line-height: 35px
     }
   
     #kushel-headless-commerce .headless-commerce-content3 p {
+      text-align: center;
       font-size: 16px;
       line-height: 25px;
       padding-top: 5px
@@ -13717,6 +13729,7 @@ body{
     }
   
     #kushel-headless-commerce .headless-commerce-content4 h3 {
+      text-align: center;
       font-size: 25px;
       line-height: 30px
     }
@@ -13730,6 +13743,7 @@ body{
     }
   
     #kushel-headless-commerce .headless-commerce-content6 p {
+      text-align: center;
       font-size: 15px;
       line-height: 25px
     }
@@ -13751,6 +13765,7 @@ body{
   
   @media(max-width:450px) {
     #kushel-headless-commerce .headless-commerce-content h1 {
+      text-align: center;
       font-size: 20px;
       line-height: 30px
     }
@@ -18254,6 +18269,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
   }
   
   #kushel-next-js .kushel-next-js-cards-content-main3 p {
+    text-align: center;
     font-size: 17px;
     font-weight: 700;
     line-height: 22px;
@@ -18609,6 +18625,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
   
     #kushel-next-js .kushel-next-js-left-content p {
+      /* text-align: center; */
       font-size: 16px;
       max-width: 32em;
       width: 100%;
@@ -18636,7 +18653,11 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
   
     #kushel-next-js .kushel-next-js-left-content h1 {
+      text-align: center;
       max-width: 100%
+    }
+    #kushel-next-js .kushel-next-js-left-content p {
+      text-align: center;
     }
   
     #kushel-next-js .kushel-next-js-right-images img {
@@ -18680,7 +18701,11 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
       display: block
     }
   }
-  
+  @media(max-width:914px){
+    #kushel-next-js .kushel-next-js-content8 p{
+      text-align: center;
+    }
+  }
   @media(max-width:714px) {
     #kushel-next-js .kushel-next-js-content8 h2 {
       font-size: 32px;
@@ -21840,7 +21865,7 @@ width: 480px;
 
 #hemesh-seo-kushel .seo-second-card-flex6 h4 {
   font-weight: 800;
-  font-size: 19px;
+  font-size: 1.2rem;
   line-height: 0px;
 
 }
@@ -22343,6 +22368,7 @@ width: 480px;
   }
 
   #hemesh-seo-kushel .seo-second-heading p {
+    text-align: center;
     font-size: 15px;
     line-height: 25px
   }
@@ -24649,7 +24675,8 @@ color: #555555;
 
 @media (max-width:600px) {
     .bigheleft button{
-       margin: 20px 77px !important;
+      margin: 0 auto;
+       /* margin: 20px 77px !important; */
     }
     
     .bigheleft{
@@ -30098,7 +30125,8 @@ color: #33475B;
 }
 
 .leamorediv{
-    display: flex;
+    display: inline-flex;
+    width: 100px;
     flex-direction: column;
     gap: 16px;
     justify-content: flex-start !important;
@@ -38530,6 +38558,7 @@ width: 360px;
 }
 
 .home511 h3{
+  text-align: center;
   font-size: 35px;
   color: #fff !important;
   font-weight: 700;
@@ -39934,6 +39963,7 @@ width: 360px;
 }
 
 .poty .view {
+  text-align: center;
   color: #fff;
   font-size: 27px;
   font-weight: 500;
@@ -53896,7 +53926,7 @@ width: 230px;
 
 .arts-head {
   padding: 20px 0;
-  border-bottom: 4.5px solid #2b435c;
+  /* border-bottom: 4.5px solid #2b435c; */
   padding-bottom: 47px
 }
 
@@ -61954,7 +61984,7 @@ option {
 
 @media (max-width:815px) {
   .navbar {
-    padding: 44px 30px 12px 30px !important;
+    /* padding: 44px 30px 12px 30px !important; */
   }
 
   .usa_imkk {
@@ -65937,7 +65967,8 @@ wordpress_cater_box p {
 }
 
 .staff-paper {
-    display: flex
+    display: flex;
+    align-items: self-start;
 }
 
 .local-left {
@@ -66302,7 +66333,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     align-items: center;
     justify-content: left;
     /* margin-top:15px; */
-    transform: translateY(28px);
+    transform: translateY(15px);
   }
   
   @media (max-width:1400px){
@@ -67257,6 +67288,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .support-modern {
+      flex-direction: column;
         padding: 60px 64px
     }
 
@@ -68359,9 +68391,13 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .html_head_para p {
+      text-align: center;
         width: 100% !important
     }
-
+    .html_head h1{
+      text-align: center;
+      width: 100%;
+    }
     .why_hireHtml_right p {
         width: 100% !important
     }
@@ -69675,11 +69711,15 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     .home1112 ul {
         bottom: 20px
     }
-
+   
     .reactjsdev_back1 p {
+      text-align: center;
         width: 100% !important
     }
-
+    .reactjsdev_back1 h1{
+      width: 100% !important;
+      text-align: center;
+    }
     .reactjsdev-paras p {
         width: 100% !important
     }
@@ -69876,9 +69916,14 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .word_press_para p {
-        width: 100%
-    }
+      text-align: center;
+        width: 100%;
 
+    }
+    .word_press_head h1{
+      text-align: center;
+      width: 100%;
+    }
     .wordpress_about {
         flex-direction: column-reverse;
         align-items: center
@@ -70289,11 +70334,12 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         height: 418px
     }
 }
-@media only screen and (max-width:1009px){
-  .android-back1 h1 {
-    text-align:center !important;
+
+
+@media only screen and (max-width:630px){
+  .one_stet_sect h3{
+    width: 100%;
   }
- 
 }
 @media only screen and (max-width:953px) {
     .flex-thing p {
@@ -70483,9 +70529,12 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .magento_service1 p {
-        margin-right: 0
+        margin-right: 0;
+        text-align: center;
     }
-
+    .magento_service1 h2{
+      text-align: center;
+    }
     .magento_service1 {
         text-align: center;
         margin-top: 30px
@@ -70517,7 +70566,11 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
 
 
 
-
+@media (max-width:681px){
+  .noida p{
+    font-size: 12px !important;
+  }
+}
 @media (max-width:909px) {
     .review {
         flex-direction: column
@@ -70529,7 +70582,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .navbar {
-        padding: 41px 30px 12px 30px !important;
+        /* padding: 41px 30px 12px 30px !important; */
     }
 
     .leftreview,
@@ -70693,8 +70746,10 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
     @media (max-width:450px){
       .woo-btnn{
+
         display: inline !important;
-      margin-left: 50px !important;
+      
+      margin-left: 70px !important;
       }
     }
     .btn-all {
@@ -71240,10 +71295,12 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .node_dev_ss_head h1 {
-        font-size: 30px
+      text-align: center;
+        font-size: 30px;
     }
 
     .node_dev_ss_para p {
+      text-align: center;
         font-size: 16px
     }
 
@@ -74005,6 +74062,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .arts-head p {
+      text-align: center;
         font-size: 16px
     }
 
@@ -75260,6 +75318,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .php_backs1 p {
+      text-align: center;
         max-width: 100% !important;
         font-family: 'Poppins', sans-serif !important;
     }
@@ -76078,7 +76137,9 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         text-align: center;
         justify-content: center
     }
-
+    .android-back1 h1{
+      text-align: center;
+    }
     .android-back1 {
         margin-top: 0
     }
@@ -76930,7 +76991,9 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     .gret-outcome1 p {
         text-align: center
     }
-
+    .gret-outcome1 h3{
+      text-align: center;
+    }
     .azib {
         height: 132rem
     }
@@ -77771,7 +77834,11 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
         padding: 0 10px 0 0
     }
 }
-
+@media screen and (max-width:685px){
+  .hero-content h1 {
+    text-align: center;
+  }
+}
 @media screen and (max-width:450px) {
     .noida img {
         width: 16px
@@ -78329,14 +78396,12 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .node_dev_ss_box6 p {
+      text-align: center;
         font-size: 14px;
         line-height: 22px
     }
 
-    .node_dev_ss_box6 p {
-        font-size: 14px
-    }
-
+    
     .node_dev_ss_box {
         height: auto
     }
@@ -80081,11 +80146,13 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .bookus h3{
+      text-align: center;
         font-size: 25px !important;
         line-height: 32px !important
     }
 
     .bookus p {
+      text-align: center;
         font-size: 14px !important
     }
 
@@ -80378,15 +80445,19 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     }
 
     .graphic_back1 h1 {
+      text-align: center;
         font-size: 25px;
         line-height: 32px
     }
 
     .graphic_back1 p {
+      text-align: center;
         font-size: 14px
     }
 
     .graphic_back1 button {
+      display:flex;
+      margin: 10px auto;
         font-size: 14px
     }
 
@@ -83613,11 +83684,8 @@ margin-top: 10px;
         padding:55px 30px 12px 30px !important;
     } */
 }
-@media (max-width:450px){
-  /* .navbar {
-     padding: 0px 0px 0px 0px !important;
-} */
-}
+
+
 
 
 

@@ -776,7 +776,7 @@ const USA = ({ notify }) => {
             <div className="home512 flex flex-wrap justify-center mt-14">
               <PortCard heading={heading} pads={"https://res.cloudinary.com/dgif730br/image/upload/v1732807218/image_ak8xup.png"} para={para1} link="/rideready" target="_self"/>
               {/* https://res.cloudinary.com/dd9tagtiw/image/upload/v1724756981/Rectangle_17701_rgm3pb.png */}
-              <PortCard heading={heading1} pads={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1725886339/Group_1000010185_1_h1dk25.png"} para={para2} link="/Slidesdesign" target="_blank" />
+              <PortCard heading={heading1} pads={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1725886339/Group_1000010185_1_h1dk25.png"} para={para2} link="/Slidesdesign" target="_self" />
               {/* https://res.cloudinary.com/dd9tagtiw/image/upload/v1724756978/HOME_1_dgsuqj.png */}
               <PortCard heading={heading2} pads={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1725886338/image_6_s5p9p0.png"} para={para3} link="/topbrass" target="_self"/>
               {/* https://res.cloudinary.com/dd9tagtiw/image/upload/v1724758481/jones.0d98683e5468971b2f7d_taeqvk.png */}

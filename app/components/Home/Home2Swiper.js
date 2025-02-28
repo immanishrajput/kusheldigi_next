@@ -68,6 +68,7 @@ function Home2Swiper() {
               src: "https://res.cloudinary.com/ecommerce-website/image/upload/v1724771731/r5_ncdkkn.webp",
               title: "Servapure",
               buttons: ["E-commerce", "D2C"],
+              link:"#"
             },
             {
               src: "https://res.cloudinary.com/ecommerce-website/image/upload/v1724771748/r6_seznmz.webp",
@@ -85,6 +86,7 @@ function Home2Swiper() {
               src: "https://res.cloudinary.com/ecommerce-website/image/upload/v1724771718/r4_ltvw73.webp",
               title: "2nd Amendment Guns",
               buttons: ["Ecommerce", "Firearms"],
+              link:"#"
             },
           ].map((slide, index) => (
             <SplideSlide key={index}>
