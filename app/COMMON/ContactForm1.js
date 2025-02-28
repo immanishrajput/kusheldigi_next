@@ -4,9 +4,12 @@ import React, { useState } from "react";
 import PhoneInput from "react-phone-input-2";
 import 'react-phone-input-2/lib/style.css';
 import { useRouter } from 'next/navigation';
+import ReCAPTCHA from "react-google-recaptcha";
 
 const ContactForm1 = ({ notify }) => {
   const router = useRouter();
+  const [captchaValue, setCaptchaValue] = useState(null);
+
   const pattern = new RegExp(/^\d{1,9}$/);
   const [isError, setIsError] = useState(false);
   const [value, setValue] = useState({
@@ -16,6 +19,11 @@ const ContactForm1 = ({ notify }) => {
     service: "",
     message: "",
   });
+
+  const handleCaptchaChange = (value) => {
+    console.log("Captcha Value:", value);
+    setCaptchaValue(value);
+  };
 
   const [value1, setValue1] = useState({
     phone: "",
@@ -35,6 +43,12 @@ const ContactForm1 = ({ notify }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    if (!captchaValue) {
+      alert("Please complete the reCAPTCHA verification.");
+      return;
+    }
+
     setLoading(true);
 
     setTimeout(() => {
@@ -66,9 +80,10 @@ const ContactForm1 = ({ notify }) => {
 
     const data = await res.json();
 
+     
     setTimeout(() => {
       router.push("/");
-    }, 1000);
+    }, 300);
     setValue({
       firstName: "",
       lastName: "",
@@ -198,6 +213,11 @@ const ContactForm1 = ({ notify }) => {
               placeholder="Message"
               className="letConTextarea"
             />
+
+<ReCAPTCHA
+          sitekey="6Lf4VeUqAAAAABe111qhMVNBq4dMMBXfs2YXh_TR"  
+          onChange={handleCaptchaChange}
+        />
 
             <button type="submit" className="letConnecBtn">
               {loading ? <div className="spinner33"></div> : <span>Lets Connect</span>}
