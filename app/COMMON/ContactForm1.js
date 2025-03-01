@@ -214,7 +214,7 @@ const ContactForm1 = ({ notify }) => {
               className="letConTextarea"
             />
 
-<ReCAPTCHA
+<ReCAPTCHA className=""
           sitekey="6Lf4VeUqAAAAABe111qhMVNBq4dMMBXfs2YXh_TR"  
           onChange={handleCaptchaChange}
         />

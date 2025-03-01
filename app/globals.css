@@ -20428,6 +20428,7 @@ margin-left: 40px;
   }
 
   #hemesh-seo-kushel .seo_flex_left h1 {
+  text-align: center !important;
     max-width: 100% !important;
     font-size: 28px;
     font-weight: 600;
@@ -20489,6 +20490,7 @@ margin-left: 40px;
   }
 
   #hemesh-seo-kushel .seo_flex_left1 p {
+    text-align: center !important;
     max-width: 100% !important;
     font-size: 19px
   }
@@ -41855,7 +41857,7 @@ font-family: 'sf-ui-display-medium', sans-serif !important;
 
 .azib-tech .conjun {
   max-width: 200px;
-  width: 100%;
+  /* width: 100%; */
   margin-top: 10px
 }
 
@@ -49424,7 +49426,11 @@ width: 230px;
   color: #33475b;
   margin-top: 35px
 }
-
+@media (max-width:1138px){
+  .engag_php_box p{
+    font-size: 15px;
+  }
+}
 .why_pnt {
   background-color: #101214;
   padding: 0 100px;
@@ -54867,7 +54873,7 @@ width: 230px;
   line-height: 24px;
   padding: 19px;
   text-align: center;
-  margin-top: 10px
+  /* margin-top: 10px */
 }
 
 .kay_btn button:hover {
@@ -65926,6 +65932,11 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
     padding: .5rem 6rem;
   }
 }
+@media (max-width:375px){
+  .ser21{
+    padding:0rem 4rem ;
+  }
+}
 @media only screen and (max-width:1275px) {
     .business-box1 {
         height: 420px
@@ -66114,7 +66125,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
 
     .exam_form {
         position: initial;
-        height: 635px;
+        height: 657px;
         max-height: 100%;
         width: 100%;
         max-width: 100%
@@ -69231,7 +69242,7 @@ margin: 0 auto;
     }
 
     .reactnativehireee a {
-        display: flex;
+        display:inline;
         align-items: center;
         justify-content: center
     }
@@ -69320,7 +69331,8 @@ margin: 0 auto;
     }
 
     .pnt_card2 {
-        width: 100%
+        width: 100%;
+        margin-top: -32px;
     }
 
     .hire_steps_php h2 {
@@ -73418,7 +73430,9 @@ margin: 0 auto;
     .why_chose_ios h2 {
         text-align: center
     }
-
+    .why_chose_ios .why_chst{
+      text-align: center;
+    }
     .compliance_fact_box p {
         text-align: start
     }
@@ -75487,7 +75501,8 @@ margin: 0 auto;
 
 @media (max-width:545px) {
     .header {
-        width: 100% !important
+        width: 100% !important;
+        padding: 10px;
     }
 
     .first-header {
@@ -76456,9 +76471,11 @@ margin: 0 auto;
         font-size: 25px;
         line-height: 32px
     }
+  
 
     .hire_steps_php p {
-        font-size: 14px
+      text-align: center;
+        font-size: 14px;
     }
 
     .confused {
@@ -80827,7 +80844,8 @@ margin-top: 10px;
     }
 
     .hiring-status p {
-        font-size: 14px !important
+      text-align: center;
+        font-size: 14px !important;
     }
 
     .first-hiring h2 {
@@ -81186,7 +81204,7 @@ margin-top: 10px;
     }
 
     .azib-images {
-        /* top: -46px; */
+        top: -7px;
     }
 
     .on-img>img {
@@ -81264,8 +81282,9 @@ margin-top: 10px;
         margin-top: 0px !important
     }
     .ywo-stem{
+      gap: 0px;
       /* margin: 0 auto; */
-      padding-left: 49px !important;
+      /* padding-left: 49px !important; */
     }
     .right-card-omega>p {
         font-size: 25px !important
@@ -81607,14 +81626,18 @@ margin-top: 10px;
 }
 @media (max-width:1150px) {
     .mlm_service1 p {
-        width: 26em
+        width: 26em;
     }
 
     .second-header p {
-        font-size: 12px;
+        font-size: 10px !important;
     }
 }
-
+@media (max-width:816px){
+  .second-header p{
+  font-size: 10px !important;
+  }
+}
 @media (max-width:900px) {
     .uiux_padd {
         display: flex;
@@ -83955,4 +83978,42 @@ color: #38475c;
     margin-left:0px;
     text-align: center;
   }
+}
+
+/* .captcha {
+  margin: 0 auto;
+  width: 65%;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .captcha {
+      width: 70%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .captcha {
+      width: 80%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .captcha {
+      width: 93%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .captcha {
+      width: 100%;
+      float: left;
+  }
+} */
+
+#rc-anchor rc-anchor-normal rc-anchor-light{
+  display: none !important;
+}
+.rc-anchor-aria-status{
+  display: none !important;
 }

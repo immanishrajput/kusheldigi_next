@@ -374,7 +374,8 @@ const generateMetadata = ({ params }) => ({
                             HTML5 development skills including imaging and formatting, positioning, using the latest HTML features, CSS3 styling, and JavaScript functionality in modern web, is the by-product of HTML5 training. Experts manage to bring this thorough knowledge into practice by developing fast and responsive sites, exchanging information through installed applications and creating multimedia content. They have a thorough knowledge of cross-browser compatibility and  standards and they’re making sure that the user gets good web experiences even while using different devices. Through an experienced eye for optimization, innovation, together with the use of HTML5 development, digital transformation is the key to an exciting future. HTML5 development experts attract the audience, enriching them with solutions that are continuously evolving the digital scene.
                             </p>
                         </div>
-                    </div>
+                    </div> 
+                    <br/>
                     <div className="kay_btn">
                         <Link href="/contact-us">
                             <button>

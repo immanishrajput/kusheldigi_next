@@ -185,7 +185,7 @@ const Footer = () => {
               <div className="flex items-center footer_icon">
           
               </div>
-              <p> <span>©</span>  2023 Kusheldigi. All rights reserved.</p>
+              <p> <span>©</span>  2025 Kusheldigi. All rights reserved.</p>
             </div>
           </div>
         </div>
