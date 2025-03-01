@@ -44,10 +44,10 @@ const ContactForm1 = ({ notify }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (!captchaValue2) {
-      alert("Please complete the reCAPTCHA verification.");
-      return;
-    }
+    // if (!captchaValue2) {
+    //   alert("Please complete the reCAPTCHA verification.");
+    //   return;
+    // }
 
     setLoading(true);
 
@@ -214,10 +214,10 @@ const ContactForm1 = ({ notify }) => {
               className="letConTextarea"
             />
 
-<ReCAPTCHA className=""
+{/* <ReCAPTCHA className=""
           sitekey="6Lf4VeUqAAAAABe111qhMVNBq4dMMBXfs2YXh_TR"  
           onChange={handleCaptchaChange}
-        />
+        /> */}
 
             <button type="submit" className="letConnecBtn">
               {loading ? <div className="spinner33"></div> : <span>Lets Connect</span>}
