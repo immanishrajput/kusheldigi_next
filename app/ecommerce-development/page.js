@@ -1,51 +1,20 @@
 "use client"
 import React, { useState, useEffect } from "react";
 import PortCard from "../card/PortCard";
-// import a9 from "../../public/assets/a9.png";
-// import pads from "../../public/assets/pads.png";
-// import bds from "../../../public/assets/bds.png";
-// import jones from "../../public/assets/jones.png";
-import ContactForm from "../COMMON/ContactForm";
+
 import ContactForm1 from "../COMMON/ContactForm1";
-// import { NavLink } from "react-router-dom";
+
 import Link from "next/link";
-// import lohta from '../../public/assets/lohta.png';
-import ertia from '../../public/assets/ertia.png';
-import a7 from '../../public/assets/a7.png'
-import a8 from '../../public/assets/a8.png'
-import a5 from '../../public/assets/a5.png'
-import b3 from '../../public/assets/b3.png'
+
 import '../globals.css'
 
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-// import EcommerceImg from '../../../public/assets/EcommerceImg.png';
-import yt1 from '../../public/assets/yt1.png';
-import yt2 from "../../public/assets/yt2.png";
-import yt3 from '../../public/assets/yt3.png';
-import yt4 from '../../public/assets/yt4.png';
-import yt5 from '../../public/assets/yt5.png';
-import yt6 from '../../public/assets/yt6.png';
-import yt7 from '../../public/assets/yt7.png';
-import yt8 from '../../public/assets/yt8.png';
-import yt9 from '../../public/assets/yt9.png';
-import grinji1 from '../../public/assets/grinji1.png';
-import grinji2 from '../../public/assets/grinji2.png';
-// import grinji3 from '../../public/assets/grinji3.png';
-import grinji4 from '../../public/assets/grinji4.png';
-import grinji5 from '../../public/assets/grinji5.png';
-// import fourPeople from '../../public/assets/fourPeople.png';
-import frtsa from '../../public/assets/frtsa.png';
-// import canocialJi from '../../public/assets/cannocialji.png';
-// import lojo from '../../public/assets/lojo.png';
-import lojoFrame from '../../public/assets/lojoFrame.png';
-// import womanMan from '../../public/assets/womanMan.png';
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
+
+
+
 import Ecommpop from "./Ecommpop";
-// import { Helmet } from "react-helmet";
-import bigcommercelogo from "../../public/assets/bigcommerce_logo.png"
-import Image from "next/image";
+
 import UseAccorrodian from "../COMMON/UseAccorrodian";
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";

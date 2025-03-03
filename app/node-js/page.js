@@ -1,26 +1,16 @@
 "use client"
 import React, { useEffect, useState } from "react";
-import nodejsfirsts from "../../public/assets/nodejsfirsts.avif";
-import nodejsImage from "../../public/assets/nodejsImage.png";
-import nodejsleftss from "../../public/assets/nodejsleftss.png";
-import nodejsicon2 from "../../public/assets/nodejsicon2.png";
-import nodejsicon3 from "../../public/assets/nodejsicon3.png";
-import nodejsicon4 from "../../public/assets/nodejsicon4.png";
-import nodejsicon5 from "../../public/assets/nodejsicon5.png";
-import nodejsicon6 from "../../public/assets/nodejsicon6.png";
+
+
 import Head from 'next/head';
 
-import nodejsicon7 from "../../public/assets/nodejsicon7.png";
-import callimageleft from "../../public/assets/callimageleft.avif";
-import img10 from "../../public/assets/dark-img.png";
+
 import '../globals.css'
 
-// import { Helmet } from "react-helmet";
-// import { NavLink } from "react-router-dom";
+
 import Link from "next/link";
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
-import Image from "next/image";
+
+
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
 import NodejsFAQ from "../COMMON/NodejsFAQ";
@@ -303,7 +293,7 @@ const generateMetadata = ({ params }) => ({
           <div className="node_dev_ss_cards2">
             <div className="node_dev_ss_card2">
               <div className="node_dev_ss_box2 node-dev-sss-boxe1">
-                <Image src={nodejsicon5} alt="Qualified IT Specialists" title="Qualified IT Specialists" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741000409/nodejsicon5_ddi93n.png' alt="Qualified IT Specialists" title="Qualified IT Specialists" />
 
                 <h3>Qualified IT Specialists</h3>
                 <p>
@@ -314,7 +304,7 @@ const generateMetadata = ({ params }) => ({
                 </p>
               </div>
               <div className="node_dev_ss_box2 node-dev-sss-boxe2">
-                <Image src={nodejsicon5} alt="Cost Savings" title="Cost Savings" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741000409/nodejsicon5_ddi93n.png' alt="Cost Savings" title="Cost Savings" />
 
                 <h3>Cost Savings</h3>
                 <p>
@@ -325,7 +315,7 @@ const generateMetadata = ({ params }) => ({
                 </p>
               </div>
               <div className="node_dev_ss_box2 node-dev-sss-boxe3">
-                <Image src={nodejsicon5} alt="Good Command of English" title="Good Command of English" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741000409/nodejsicon5_ddi93n.png' alt="Good Command of English" title="Good Command of English" />
                 <h3>Good Command of English</h3>
                 <p>
                   SCAND Node.JS developers are fluent in English. Although we
@@ -334,7 +324,7 @@ const generateMetadata = ({ params }) => ({
                 </p>
               </div>
               <div className="node_dev_ss_box2 node-dev-sss-boxe4">
-                <Image src={nodejsicon5} alt="Zero Billing Guarantee" title="Zero Billing Guarantee" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741000409/nodejsicon5_ddi93n.png' alt="Zero Billing Guarantee" title="Zero Billing Guarantee" />
                 <h3>1 Month Zero Billing Guarantee</h3>
                 <p>
                   If you are not satisfied with our work after the first month
@@ -582,10 +572,10 @@ const generateMetadata = ({ params }) => ({
 
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999651/whatsapp_gqgicq.png" alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999664/telephone_fxcxxc.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

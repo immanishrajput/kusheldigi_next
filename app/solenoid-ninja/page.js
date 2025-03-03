@@ -1,40 +1,14 @@
 "use client"
 import React, { useEffect } from 'react'
 
-import arrow4 from "../../public/assets/arrow4.png";
-import conjun from '../../public/assets/conjun.png';
+
 import Link from 'next/link';
-// import { NavLink } from "react-router-dom";
-import trackent1 from "../../public/assets/trackent1.png";
-import solenoidfff from "../../public/assets/solenoidfff.png";
-import soling1 from '../../public/assets/soling1.jpg';
-import soling2 from '../../public/assets/soling2.jpg';
-import soling3 from '../../public/assets/soling3.jpg';
 
-import img2 from "../../public/assets/1200x630wa (1) 1.png";
-import img3 from "../../public/assets/circle.png";
-import img4 from "../../public/assets/Group 1000004718.png";
-import img5 from "../../public/assets/Group 1000004715.png";
-import img6 from "../../public/assets/Group 1000004716.png";
-import img13 from "../../public/assets/Group 1000006500 (1).png";
-import hh10 from "../../public/assets/hh10.png";
-import hh12 from "../../public/assets/hh12.png";
-import hh13 from "../../public/assets/hh13.png";
-import hh14 from "../../public/assets/hh14.png";
 
-import hh9 from "../../public/assets/hh9.png";
-import pru3 from '../../public/assets/pru3.png';
-import opqweeeeeee from "../../public/assets/opqweeeeeee.png";
-import opqweeeeeee2 from "../../public/assets/opqweeeeeee2.png";
-import opqweeeeeee3 from "../../public/assets/opqweeeeeee3.png";
-import madlogooooo from "../../public/assets/madlogooooo.png";
-import mad5 from "../../public/assets/mad5.png";
 
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
 import Navbar from '../COMMON/Navbar';
 import Footer from '../COMMON/Footer';
-import Image from 'next/image';
+
 import '../globals.css'
 import Head from 'next/head';
 const Solenoid = () => {

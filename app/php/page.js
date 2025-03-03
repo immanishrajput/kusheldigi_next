@@ -7,13 +7,10 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import Head from 'next/head';
 
-import onring1 from '../../public/assets/onring1.png';
-// import { Helmet } from 'react-helmet';
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
+
 import Footer from '../COMMON/Footer';
 import Navbar from '../COMMON/Navbar';
-import Image from 'next/image';
+
 import '../globals.css'
 import PhpFAQ from '../COMMON/PhpFAQ';
 const Php = () => {

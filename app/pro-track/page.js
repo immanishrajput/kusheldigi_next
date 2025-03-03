@@ -1,41 +1,11 @@
 "use client"
 import React, { useEffect } from "react";
 import '../globals.css'
-import arrow4 from "../../public/assets/arrow4.png";
 
-import conjun from "../../public/assets/conjun.png";
-// import { NavLink } from "react-router-dom";
-import trackent from "../../public/assets/trackent.png";
-import pt4 from "../../public/assets/pt4.jpg";
-import pt5 from "../../public/assets/pt5.jpg";
-import pt6 from "../../public/assets/pt6.jpg";
 import Head from 'next/head';
-
-import img2 from "../../public/assets/1200x630wa (1) 1.png";
-import img3 from "../../public/assets/circle.png";
-import img4 from "../../public/assets/Group 1000004718.png";
-import img5 from "../../public/assets/Group 1000004715.png";
-import img6 from "../../public/assets/Group 1000004716.png";
-import protruckss from "../../public/assets/pro-trucks-s.png";
-import img13 from "../../public/assets/Group 1000006500 (1).png";
-import hh5 from "../../public/assets/hh5.png";
-import mnop1 from "../../public/assets/mnop1.png";
-import hh6 from "../../public/assets/hh6.png";
-import hh7 from "../../public/assets/hh7.png";
-import hh8 from "../../public/assets/hh8.png";
-import pru from "../../public/assets/pru.png";
-import opqweeeeeee from "../../public/assets/opqweeeeeee.png";
-import opqweeeeeee2 from "../../public/assets/opqweeeeeee2.png";
-import opqweeeeeee3 from "../../public/assets/opqweeeeeee3.png";
-import matsection from "../../public/assets/matsection.png";
-import madlogooooo from "../../public/assets/madlogooooo.png";
-import mad2 from "../../public/assets/mad2.png";
-
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
 import Footer from "../COMMON/Footer";
 import Navbar from "../COMMON/Navbar";
-import Image from "next/image";
+
 import Link from "next/link";
 
 const ProTrucks = () => {

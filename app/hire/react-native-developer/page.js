@@ -2,15 +2,12 @@
 import React, { useState, useEffect } from 'react';
 // import { NavLink } from "react-router-dom";
 import Link from 'next/link';
-import sidhaTandi from '../../../public/assets/sidhaTandi.png';
+
 
 import ServiceCommon from '../../COMMON/ServiceCommon';
 import Process from '../../COMMON/Process';
 import ContactForm3 from '../../COMMON/ContactForm3';
-import whatsApp from "../../../public/assets/whatsapp.png";
-import call from "../../../public/assets/telephone.png"
-// import { Helmet } from 'react-helmet';
-import Image from 'next/image';
+
 import Navbar from '@/app/COMMON/Navbar';
 import Footer from '@/app/COMMON/Footer';
 import '../../globals.css'

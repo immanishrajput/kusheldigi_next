@@ -1,12 +1,10 @@
 "use client"
 import React, { useEffect } from 'react'
 import Head from 'next/head';
-import nextjs from "../../public/assets/next-js.svg"
-import tailwind from "../../public/assets/tailwindcss.svg"
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
+
+
 import Link from 'next/link'
-import Image from 'next/image'
+
 import Navbar from '../COMMON/Navbar'
 import Footer from '../COMMON/Footer'
 import '../globals.css'
@@ -330,8 +328,8 @@ const Next = () => {
           <div className="kushel-next-js-cards-content2">
             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426560/node.js_x784c8.svg' alt="node js" title="node js" />
             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426608/react_pgtddr.svg' alt="react" title="react" />
-            <Image src={nextjs} alt="nextjs" title="nextjs" />
-            <Image src={tailwind} alt="tailwind" title="tailwind" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741000221/next-js_hrhdpn.svg' alt="nextjs" title="nextjs" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741000256/tailwindcss_ql1eok.svg' alt="tailwind" title="tailwind" />
           </div>
         </div>
         <div className="kushel-next-js-card-flex">
@@ -807,10 +805,10 @@ const Next = () => {
   
   <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999651/whatsapp_gqgicq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999664/telephone_fxcxxc.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

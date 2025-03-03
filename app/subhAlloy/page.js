@@ -1,43 +1,15 @@
 "use client"
 import React, { useState, useEffect } from "react";
-import pick2 from "../../public/assets/pick2.png";
-import angrag from "../../public/assets/angrag.png";
-import stepback from "../../public/assets/stepback.png";
-import stepback1 from "../../public/assets/stepback1.png";
-import kick5 from "../../public/assets/kick5.png";
-import arrow4 from "../../public/assets/arrow4.png";
-// import { NavLink } from "react-router-dom";
+
 import Link from "next/link";
-import rel1 from "../../public/assets/rel1.png";
+
 import Head from 'next/head';
 
-import rel2 from "../../public/assets/rel2.png";
-import rel3 from "../../public/assets/rel3.png";
+
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import trimmer from '../../public/assets/trimer.svg'
-import img4 from "../../public/assets/Group 1000004718.png";
-import img5 from "../../public/assets/Group 1000004715.png";
-import img6 from "../../public/assets/Group 1000004716.png";
-import img13 from "../../public/assets/Group 1000006500 (1).png";
-// import "../components/css/app2.css";
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
-import omis from '../../public/assets/omis.svg';
-import fast from '../../public/assets/fast.svg'
-import subh from '../../public/assets/subh.svg'
-import testjpg from '../../public/assets/testjpg.svg'
-import mr from '../../public/assets/mr.svg';
-import prek1 from '../../public/assets/prek1.svg'
-import prek2 from '../../public/assets/prek2.svg'
-import prek3 from '../../public/assets/prek3.svg'
-import nodes11 from '../../public/assets/nodes11.svg';
-import react11 from '../../public/assets/reacts11.svg';
-import srikant from '../../public/assets/srikant.svg'
-import srikant1 from '../../public/assets/srikant1.svg';
-import priyajan1 from '../../public/assets/priyajan1.svg';
-import priyajan2 from '../../public/assets/priyajan2.svg'
-import Image from "next/image";
+
+
 import '../globals.css'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";

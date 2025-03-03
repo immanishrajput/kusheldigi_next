@@ -5,18 +5,9 @@ import React, { useEffect, useState } from "react";
 
 import Head from 'next/head';
 
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
-import Ppcrighta from "../../public/assets/PPC/Ppcrighta.png";
-import ppcImgb from "../../public/assets/PPC/ppcImgb.png";
-import PpcGoogleC from "../../public/assets/PPC/PpcGoogleC.png";
-import Ppcauditf from "../../public/assets/PPC/Ppcauditf.png";
-import PpcauditS from "../../public/assets/PPC/PpcauditS.png";
-import PpcauditT from "../../public/assets/PPC/PpcauditT.png";
-import fifthimage from "../../public/assets/PPC/fifthimage.svg";
-// import { NavLink } from "react-router-dom";
+
 import Link from "next/link";
-import Image from "next/image";
+
 import Footer from "../COMMON/Footer";
 import Navbar from "../COMMON/Navbar";
 import '../globals.css'

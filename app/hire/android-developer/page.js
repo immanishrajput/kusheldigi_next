@@ -1,14 +1,11 @@
 "use client"
 import React, { useState, useEffect } from 'react';
-import sidhaTandi from '../../../public/assets/sidhaTandi.png';
-import whatsApp from "../../../public/assets/whatsapp.png";
-import call from "../../../public/assets/telephone.png"
-// import { Helmet } from 'react-helmet';
+
 import "@splidejs/react-splide/css";
 // import { NavLink } from "react-router-dom";
 import Navbar from '@/app/COMMON/Navbar';
 import Footer from '@/app/COMMON/Footer';
-import Image from 'next/image';
+
 import Link from 'next/link';
 import '../../globals.css'
 

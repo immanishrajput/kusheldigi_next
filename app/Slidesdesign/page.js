@@ -4,30 +4,9 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import Head from 'next/head';
 
-import arrow4 from "../../public/assets/arrow4.png";
-import rel1 from "../../public/assets/rel1.png";
-import rel2 from "../../public/assets/rel2.png";
-import rel3 from "../../public/assets/rel3.png";
-// import { NavLink } from "react-router-dom";
+
 import Link from "next/link";
-import pt4 from "../../public/assets/slidesPLP Page.png";
-import pt5 from "../../public/assets/slidesHome page design.png";
-import pt6 from "../../public/assets/slidesaboutPLP Page z.png";
-import img4 from "../../public/assets/Group 1000004718.png";
-import img5 from "../../public/assets/Group 1000004715.png";
-import img6 from "../../public/assets/Group 1000004716.png";
-import protruckss from "../../public/assets/Slidesrightimg.png";
-import img13 from "../../public/assets/Group 1000006500 (1).png";
-import hh5 from "../../public/assets/slidescolorplat.png";
-import hh6 from "../../public/assets/slidesfirst1.png";
-import hh7 from "../../public/assets/slidesfirst2.png";
-import hh8 from "../../public/assets/slidesfirst3.png";
-import pru2 from '../../public/assets/shshhshshshsshshshshsh.png';
-import opqweeeeeee2 from "../../public/assets/opqweeeeeee2.png";
-import opqweeeeeee3 from "../../public/assets/opqweeeeeee3.png";
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
-import Image from "next/image";
+
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
 import '../globals.css'

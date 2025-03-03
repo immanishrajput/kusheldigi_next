@@ -1,37 +1,17 @@
 "use client"
 
 import React, { useState, useEffect } from "react";
-import arrow4 from "../../public/assets/arrow4.png";
-import Link from "next/link";
-import Head from 'next/head';
 
-// import { NavLink } from "react-router-dom";
-import rel1 from "../../public/assets/rel1.png";
-import rel2 from "../../public/assets/rel2.png";
-import rel3 from "../../public/assets/rel3.png";
+import Link from "next/link";
+
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import opqweeeeeee3 from "../../public/assets/opqweeeeeee.png";
-import img4 from "../../public/assets/Group 1000004718.png";
-import img5 from "../../public/assets/Group 1000004715.png";
-import img6 from "../../public/assets/Group 1000004716.png";
-import img13 from "../../public/assets/Group 1000006500 (1).png";
-// import "../components/css/app2.css";
+
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
 
-// import "../components/css/app2.css";
 import '../globals.css'
-import tim1 from '../../public/assets/tim1.svg';
-import tim2 from '../../public/assets/tim2.svg';
-import sambar from '../../public/assets/sambar.svg';
-import lk11 from '../../public/assets/lk11.svg';
-import lk22 from '../../public/assets/lk22.svg';
-import lk33 from '../../public/assets/lk33.svg';
-import simar from '../../public/assets/simar.png';
-import Image from "next/image";
+
 const Sites = () => {
     const [perPage, setPerPage] = useState(3);
     useEffect(() => {

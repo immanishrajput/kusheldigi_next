@@ -1,15 +1,14 @@
 "use client"
 import React, { useState, useEffect } from 'react'
 
-import frema from "../../../public/assets/frema.png";
+
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import whatsApp from "../../../public/assets/whatsapp.png";
-import call from "../../../public/assets/telephone.png"
+
 import ServiceCommon from '../../COMMON/ServiceCommon';
 import ContactForm3 from '../../COMMON/ContactForm3';
 import { useRouter } from 'next/navigation';
-import Image from 'next/image';
+
 import Link from 'next/link';
 import '../../globals.css'
 import Footer from '@/app/COMMON/Footer';
@@ -260,46 +259,46 @@ const HireWordpress = () => {
                         <div className="pnt_card">
                             <div className="pnt_card1">
                                 <div className="frenta">
-                                    <Image src={frema} alt="Skilled programmer" title='Skilled programmer' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741002499/frema_nyozfz.png' alt="Skilled programmer" title='Skilled programmer' />
                                     <h4>Skilled programmers</h4>
                                 </div>
                                 <div className="frenta">
-                                    <Image src={frema} alt="Cost-Effective" title='Cost-Effective' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741002499/frema_nyozfz.png' alt="Cost-Effective" title='Cost-Effective' />
                                     <h4>Cost-Effective Solutions </h4>
                                 </div>
                                 <div className="frenta">
-                                    <Image src={frema} alt="Intellectual Property " title='Intellectual Property ' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741002499/frema_nyozfz.png' alt="Intellectual Property " title='Intellectual Property ' />
                                     <h4>Intellectual Property Protectio</h4>
                                 </div>
                                 <div className="frenta">
-                                    <Image src={frema} alt="Contract Lock-In" title='Contract Lock-In' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741002499/frema_nyozfz.png' alt="Contract Lock-In" title='Contract Lock-In' />
                                     <h4>No Contract Lock-Ins 
 </h4>
                                 </div>
                                 <div className="frenta">
-                                    <Image src={frema} alt="Scalability" title='Scalability' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741002499/frema_nyozfz.png' alt="Scalability" title='Scalability' />
                                     <h4> Scalability
 </h4>
                                 </div>
                             </div>
                             <div className="pnt_card2">
                                 <div className="frenta">
-                                    <Image src={frema} alt="Complete Project Control" title='Complete Project Control' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741002499/frema_nyozfz.png' alt="Complete Project Control" title='Complete Project Control' />
                                     <h4>Complete Project Control
 </h4>
                                 </div>
                                 <div className="frenta">
-                                    <Image src={frema} alt="Timely Deliveries"  title='Timely Deliveries'/>
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741002499/frema_nyozfz.png' alt="Timely Deliveries"  title='Timely Deliveries'/>
                                     <h4> Timely Deliveries
 </h4>
                                 </div>
                                 <div className="frenta">
-                                    <Image src={frema} alt="Regular Updates" title='Regular Updates' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741002499/frema_nyozfz.png' alt="Regular Updates" title='Regular Updates' />
                                     <h4>Regular Updates
 </h4>
                                 </div>
                                 <div className="frenta">
-                                    <Image src={frema} alt="Flexible Engagement Models" title='Flexible Engagement Models' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741002499/frema_nyozfz.png' alt="Flexible Engagement Models" title='Flexible Engagement Models' />
                                     <h4>
 Flexible Engagement Models
 </h4>
@@ -346,10 +345,10 @@ Flexible Engagement Models
 
                  <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741002631/whatsapp_qq9ps8.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741002636/telephone_u04gjn.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

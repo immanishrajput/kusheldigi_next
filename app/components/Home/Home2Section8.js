@@ -1,6 +1,6 @@
 import  './section8.css'; // Use CSS Modules
 import Link from 'next/link'; // Use Next.js Link component for routing
-import Image from 'next/image';
+
 const data = [
     {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1724770190/bgcoms8.b465562a07f65049cbad_j64pv6.webp", 

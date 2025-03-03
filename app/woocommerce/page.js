@@ -1,27 +1,13 @@
 "use client"
 import React, { useEffect, useState } from "react";
-import gatr from "../../public/assets/gatr.png";
-import gatr1 from "../../public/assets/gatr1.png";
-import gatr2 from "../../public/assets/gatr2.png";
-import gatr3 from "../../public/assets/gatr3.png";
-import gatr4 from "../../public/assets/gatr4.png";
-import gatr5 from "../../public/assets/gatr5.png";
+
 import Head from 'next/head';
 
-import framingts from "../../public/assets/framingts.png";
-import uin from "../../public/assets/uin.png";
-import uin1 from "../../public/assets/uin1.png";
-import uin2 from "../../public/assets/uin2.png";
-import uin3 from "../../public/assets/uin3.png";
-import uin4 from "../../public/assets/uin4.png";
-import uin5 from "../../public/assets/uin5.png";
-import uin6 from "../../public/assets/uin6.png";
+
 import ContactForm1 from "../COMMON/ContactForm1";
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
-// import { NavLink } from "react-router-dom";
+
 import Link from "next/link";
-import Image from "next/image";
+
 import Footer from "../COMMON/Footer";
 import '../globals.css'
 import Navbar from "../COMMON/Navbar";

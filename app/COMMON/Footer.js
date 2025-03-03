@@ -1,21 +1,8 @@
 "use client"
 import React, { useState } from "react";
 
-import india from "../../public/assets/india.png";
-// import { Link } from "react-router-dom";
 import Link from "next/link";
-import behance from "../../public/assets/behance.png";
 
-import icon1 from '../../public/assets/icon1.png';
-import icon2 from '../../public/assets/icon2.png';
-import icon3 from '../../public/assets/icon3.png';
-import kdsKin from '../../public/assets/kdsKin.png';
-
-import dri2 from '../../public/assets/dri2.png';
-import dri3 from '../../public/assets/Homenew/X-Logo.png';
-import dri4 from '../../public/assets/dri4.png';
-import dri5 from '../../public/assets/dri5.png';
-import Image from "next/image";
 const Footer = () => {
   const [cont, setCont] = useState(1);
 

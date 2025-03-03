@@ -5,8 +5,7 @@ import Head from 'next/head';
 import '../globals.css'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
-import arrow4 from '../../public/assets/arrow4.png'
-import Image from "next/image";
+
 const Rely = () => {
 
   

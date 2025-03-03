@@ -3,31 +3,14 @@ import React, { useEffect } from 'react'
 // import { Helmet } from "react-helmet";
 
 
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
-// import "../components/css/seo.css";
-import mainBusiness from "../../public/assets/SEO/mainBusiness.png";
-import seoExperts from "../../public/assets/SEO/seoExperts.png";
-import google1 from "../../public/assets/SEO/google1.svg";
-import ahref from "../../public/assets/SEO/ahref.svg";
-import google2 from "../../public/assets/SEO/google2.svg";
-import google3 from "../../public/assets/SEO/google3.svg";
-import google4 from "../../public/assets/SEO/google4.svg";
-import google5 from "../../public/assets/SEO/google5.svg";
-import google6 from "../../public/assets/SEO/google6.svg";
-import google7 from "../../public/assets/SEO/google7.svg";
-import kwfinder from "../../public/assets/SEO/kwfinder.svg";
-import business from "../../public/assets/SEO/business.png";
-import Seobanerimg from "../../public/assets/SEO/Seobanerimg.png";
-// import { NavLink } from 'react-router-dom';
+
 import Link from 'next/link';
-import Image from 'next/image';
+
 import Navbar from '../COMMON/Navbar';
 import Footer from '../COMMON/Footer';
 import '../globals.css';
 import Head from "next/head";
-import { NextSeo } from "next-seo";
-import HeadSEO from "../COMMON/HeadSeo";
+
 
 
 const phoneNumber = "9045301702";

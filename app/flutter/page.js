@@ -1,30 +1,15 @@
 "use client"
 import React, { useEffect } from 'react'
-import arrow4 from "../../public/assets/arrow4.png";
-import fluting from "../../public/assets/fluting.png";
-import androidSis from "../../public/assets/android-sis.png";
-import arrowing from "../../public/assets/arrowing.png";
-import fluting1 from "../../public/assets/fluting1.png";
-import fluting2 from "../../public/assets/fluting2.png";
+
 import Head from 'next/head';
 
-import fluting3 from "../../public/assets/fluting3.png";
-import plan from "../../public/assets/plan.png";
-import plan1 from "../../public/assets/plan1.png";
-import plan2 from "../../public/assets/plan2.png";
-import plan3 from "../../public/assets/plan3.png";
-import ads1 from "../../public/assets/ads1.png";
-import gurav from '../../public/assets/gurav.png';
-import fragment from '../../public/assets/fragment.png';
+
 import '../globals.css'
 
 import ContactForm1 from "../COMMON/ContactForm1";
-// import { NavLink } from "react-router-dom";
+
 import Link from 'next/link';
-// import { Helmet } from "react-helmet";
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
-import Image from 'next/image';
+
 import Footer from '../COMMON/Footer';
 import Navbar from '../COMMON/Navbar';
 import FlutterFAQ from '../COMMON/FlutterFAQ';

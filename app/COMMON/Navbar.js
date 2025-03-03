@@ -1,18 +1,10 @@
 "use client"
-// import React from "react";
-import next from "next";
-import Image from "next/image";
+
+
 import Link from "next/link";
-import location from "../../public/assets/location.png";
-import mail from "../../public/assets/mail.png";
-import logo from "../../public/assets/logo.png";
-// import { NavLink, useNavigate } from "react-router-dom";
+
 import { useState } from "react";
-// import OutsideClickHandler from "react-outside-click-handler";
-import letter2 from "../../public/assets/letter2.png";
-import letter3 from "../../public/assets/letter3.png";
-import aboutimg from "../../public/assets/aboutimg.png";
-import layer from "../../public/assets/Layer_1.png";
+
 import { FiPlus, FiMinus } from "react-icons/fi";
 import { RxCross2 } from "react-icons/rx";
 import { IoReorderThreeOutline } from "react-icons/io5";

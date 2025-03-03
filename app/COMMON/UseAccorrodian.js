@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import '../components/Home/askques.css'; 
-import plus from '../../public/assets/+.png';
-import minus from "../../public/assets/-.png"
-import Image from 'next/image';
+
 
 const data = [
   {

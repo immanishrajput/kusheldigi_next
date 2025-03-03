@@ -1,12 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import showImg1 from "../../../public/assets/showimg1.webp";
-import ecodev from "../../../public/assets/ecodev.webp";
-import mobileapp from "../../../public/assets/mobileapp.webp";
-import webdesignand from "../../../public/assets/webdesignand.webp";
-import createdesign from "../../../public/assets/createdesign.webp";
-import softwaraedesign from "../../../public/assets/softwaraedesign.webp";
-import staffaug from "../../../public/assets/staffaug.webp";
+
 import Link from "next/link";  
 import { MdArrowOutward } from "react-icons/md";
 import { FaArrowDown } from "react-icons/fa";

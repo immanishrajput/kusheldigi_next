@@ -1,48 +1,10 @@
 "use client"
 import React, { useEffect } from "react";
-
-import VectorArrow from "../../public/assets/Vector.svg";
 import Head from 'next/head';
-
-
-import Rectangle17725 from "../../public/assets/Rectangle 17725.png";
-import Rectangle17726 from "../../public/assets/Rectangle 17726.png";
-import Ellipse37 from "../../public/assets/Ellipse 37.png";
-
-import Group72437 from "../../public/assets/Group 72437.svg";
-import Speed1 from "../../public/assets/speed 1.svg";
-import ContentWriting1 from "../../public/assets/content-writing 1.svg";
-import Search1 from "../../public/assets/search 1.svg";
-import SaveMoney1 from "../../public/assets/save-money 1.svg";
-import Test1 from "../../public/assets/test 1.svg";
-import d1 from '../../public/assets/d1.png'
-
-import Arrow from "../../public/assets/arrow.svg";
-
-
-import chart1 from "../../public/assets/chart (1).svg";
-import chart2 from "../../public/assets/chart (2).svg";
-import chart3 from "../../public/assets/chart (3).svg";
-import chart4 from "../../public/assets/chart (4).svg";
-import chart5 from "../../public/assets/chart (5).svg";
-import chart6 from "../../public/assets/chart (6).svg";
-import Image from "next/image";
-// import { NavLink } from "react-router-dom";
 import Link from "next/link";
 import '../globals.css'
 import Footer from "../COMMON/Footer";
 import Navbar from "../COMMON/Navbar";
-// import { Helmet } from "react-helmet";
-
-// import {
-//   Accordion,
-//   AccordionItem,
-//   AccordionItemHeading,
-//   AccordionItemButton,
-//   AccordionItemPanel,
-// } from "react-accessible-accordion";
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
 
 import ContactForm from "../COMMON/ContactForm";
 import DigitalFAQ from "../COMMON/DigitalFAQ";
@@ -432,10 +394,10 @@ as well!</p>
     
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png" alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991783/telephone_k9aecl.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

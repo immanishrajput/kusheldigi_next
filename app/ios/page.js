@@ -1,22 +1,8 @@
 
 "use client";
 import React, { useEffect } from "react";
-import iosji from "../../public/assets/iosji.png";
-import iospo from "../../public/assets/iospo.png";
-import arrow4 from "../../public/assets/arrow4.png";
-import androidSis from "../../public/assets/android-sis.png";
-import Head from 'next/head';
 
-import arrowing from "../../public/assets/arrowing.png";
-import bulb1 from "../../public/assets/bulb1.png";
-import bulb2 from "../../public/assets/bulb2.png";
-import bulb3 from "../../public/assets/bulb3.png";
-import bulb4 from "../../public/assets/bulb4.png";
-import prot1 from "../../public/assets/lklk1.webp";
-import prot2 from "../../public/assets/prot2.png";
-import prot3 from "../../public/assets/prot3.png";
-import prot4 from "../../public/assets/prot4.png";
-import Image from "next/image";
+import Head from 'next/head';
 import '../globals.css'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
@@ -24,9 +10,7 @@ import Footer from "../COMMON/Footer";
 import ContactForm1 from "../COMMON/ContactForm1";
 // import { NavLink } from "react-router-dom";
 import Link from "next/link";
-// import { Helmet } from "react-helmet";
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png";
+
 const Ios = () => {
   const phoneNumber = "9045301702";
 
@@ -543,15 +527,15 @@ const generateMetadata = ({ params }) => ({
 
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image
+            <img
               className="what-image-universal"
-              src={whatsApp}
+              src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999651/whatsapp_gqgicq.png'
               alt="whatsApp-kusheldigi"
               title="whatsApp-kusheldigi"
             />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999664/telephone_fxcxxc.png" alt="call-icon" title="call-icon" />
           </button>
         </div>
       

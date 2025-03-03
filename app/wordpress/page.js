@@ -1,48 +1,15 @@
 "use client"
 import React, { useEffect, useState } from 'react';
-// import wordpressDev from '../../public/assets/wordpress__Development.png.png';
-// import wordpressfimg from "../../public/assets/wordpressfimg.png";
-// import wordtu from '../../public/assets/wordtu.png';
-// import wordtuI from '../../public/assets/wordtuI.png';
-// import svgSlider from '../../public/assets/div.svg__holder.png';
-// import svgSlider1 from '../../public/assets/div.svg__holder (1).png';
-// import svgSlider2 from '../../public/assets/div.svg__holder (2).png';
-// import svgSlider3 from '../../public/assets/div.svg__holder (3).png';
-// import svgSlider4 from '../../public/assets/div.svg__holder (4).png';
-// import svgSlider5 from '../../public/assets/div.svg__holder (5).png';
-// import svgSlider6 from '../../public/assets/div.svg__holder (6).png';
-// import svgSlider7 from '../../public/assets/div.svg__holder (7).png';
-// import svgSlider8 from '../../public/assets/div.svg__holder (8).png';
-// import whatsApp from "../../public/assets/whatsapp.png";
-// import call from "../../public/assets/telephone.png"
-// import npp2 from '../../public/assets/npp2.avif';
-import npp3 from '../../public/assets/npp3.avif';
+
 import Head from 'next/head';
 
-import npp4 from '../../public/assets/npp4.avif';
-import npp5 from '../../public/assets/npp5.avif';
-import npp6 from '../../public/assets/npp6.avif';
-import npp7 from '../../public/assets/npp7.avif';
-import npp8 from '../../public/assets/npp8.avif';
-// import { NavLink } from "react-router-dom";
+
 import Link from 'next/link';
-import npp9 from '../../public/assets/npp9.avif';
-import maxoworld from '../../public/assets/maxoworld.png';
-import kiktas from '../../public/assets/kiktas.png';
+
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import ContactForm1 from '../COMMON/ContactForm1';
-import Image from 'next/image';
-import dilll1 from '../../public/assets/dilll1.png';
-import dilll2 from '../../public/assets/dilll2.png';
-import dilll3 from '../../public/assets/dilll3.png';
-import dilll4 from '../../public/assets/dilll4.png';
-import dilll5 from '../../public/assets/dilll5.png';
-import dilll6 from '../../public/assets/dilll6.png';
-import dilll7 from '../../public/assets/dilll7.png';
-import dilll8 from '../../public/assets/dilll8.png';
-import dilll9 from '../../public/assets/dilll9.png';
-import kotli from '../../public/assets/kotli.png';
+
 import WordpressFAQ from '../COMMON/WordpressFAQ';
 import '../globals.css'
 import Navbar from '../COMMON/Navbar';

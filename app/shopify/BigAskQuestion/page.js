@@ -1,11 +1,6 @@
 "use client"
 import React, { useEffect, useState } from 'react';
-import plus from '../../../public/assets/+.png';
-import minus from "../../../public/assets/-.png"
-import Image from 'next/image';
-import Head from "next/head";
-import { NextSeo } from "next-seo";
-// import HeadSEO from "../COMMON/HeadSeo";
+
 const data = [
   {
     question: 'What is Shopify, and how does it work?',

@@ -2,11 +2,10 @@
 import React, { useState, useEffect } from 'react';
 // import { NavLink } from "react-router-dom";
 import Link from 'next/link';
-import frema from "../../../public/assets/frema.png";
+
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import whatsApp from "../../../public/assets/whatsapp.png";
-import call from "../../../public/assets/telephone.png"
+
 
 import ServiceCommon from '../../COMMON/ServiceCommon';
 import ContactForm3 from '../../COMMON/ContactForm3';
@@ -14,7 +13,7 @@ import ContactForm3 from '../../COMMON/ContactForm3';
 import Footer from '@/app/COMMON/Footer';
 import Navbar from '@/app/COMMON/Navbar';
 import '../../globals.css'
-import Image from 'next/image';
+
 import ReactHireFAQ from '@/app/COMMON/ReactHireFAQ';
 const ReactJsHire = () => {
     const [perPage, setPerPage] = useState(3);
@@ -306,41 +305,41 @@ const ReactJsHire = () => {
                         <div className="pnt_card">
                             <div className="pnt_card1">
                                 <div className="frenta">
-                                    <Image src={frema} alt="killed programmers" title='killed programmers' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741002499/frema_nyozfz.png' alt="killed programmers" title='killed programmers' />
                                     <h4>Skilled programmers</h4>
                                 </div>
                                 <div className="frenta">
-                                    <Image src={frema} alt="Cost-effective projec" title='Cost-effective projec' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741002499/frema_nyozfz.png' alt="Cost-effective projec" title='Cost-effective projec' />
                                     <h4>Cost-effective project scope</h4>
                                 </div>
                                 <div className="frenta">
-                                    <Image src={frema} alt="Protection of idea" title='Protection of idea' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741002499/frema_nyozfz.png' alt="Protection of idea" title='Protection of idea' />
                                     <h4>Protection of idea and IP rights</h4>
                                 </div>
                                 <div className="frenta">
-                                    <Image src={frema} alt="Zero contract lock-ins" title='Zero contract lock-ins' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741002499/frema_nyozfz.png' alt="Zero contract lock-ins" title='Zero contract lock-ins' />
                                     <h4>Zero contract lock-ins</h4>
                                 </div>
                                 <div className="frenta">
-                                    <Image src={frema} alt="High scalability" title='High scalability' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741002499/frema_nyozfz.png' alt="High scalability" title='High scalability' />
                                     <h4>High scalability</h4>
                                 </div>
                             </div>
                             <div className="pnt_card2">
                                 <div className="frenta">
-                                    <Image src={frema} alt="Complete control" title='Complete control' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741002499/frema_nyozfz.png' alt="Complete control" title='Complete control' />
                                     <h4>Complete control</h4>
                                 </div>
                                 <div className="frenta">
-                                    <Image src={frema} alt="time delivery" title='time delivery' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741002499/frema_nyozfz.png' alt="time delivery" title='time delivery' />
                                     <h4>On time delivery</h4>
                                 </div>
                                 <div className="frenta">
-                                    <Image src={frema} alt="monthly updates" title='monthly updates' />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741002499/frema_nyozfz.png' alt="monthly updates" title='monthly updates' />
                                     <h4>Daily, weekly, and monthly updates</h4>
                                 </div>
                                 <div className="frenta" >
-                                    <Image src={frema} alt="Flexible engagement models"  title='Flexible engagement models'/>
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741002499/frema_nyozfz.png' alt="Flexible engagement models"  title='Flexible engagement models'/>
                                     <h4>Flexible engagement models</h4>
                                 </div>
                             </div>

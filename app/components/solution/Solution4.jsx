@@ -1,21 +1,13 @@
 "use client"
 import React from "react";
-import penda from "../../../public/assets/penda.png";
-// import { Helmet } from "react-helmet";
-import ecommi from '../../../public/assets/ecoomi.png';
+
 import ContactForm1 from '../../COMMON/ContactForm1';
 import Link from "next/link";
 import Head from 'next/head';
 
-// import { NavLink } from "react-router-dom";
-import kikma from '../../../public/assets/kikma.png';
-import whatsApp from "../../../public/assets/whatsapp.png";
-import call from "../../../public/assets/telephone.png"
-import worlich22 from '../../../public/assets/worlich22.png';
-import spiti from '../../../public/assets/spiti.png';
-import travisi from '../../../public/assets/travisi.png';
+
 import { Splide, SplideSlide } from "@splidejs/react-splide";
-import Image from "next/image";
+
 
 import "@splidejs/react-splide/css";
 import Navbar from "../../COMMON/Navbar";

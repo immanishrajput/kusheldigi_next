@@ -2,8 +2,8 @@ import React, { useRef } from 'react';
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import './styles.css';
-import stars from '../../../public/assets/h2stars.webp';
-import Image from 'next/image';
+
+
 function Home2Testimonial() {
   const splideRef = useRef(null);
 

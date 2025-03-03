@@ -1,9 +1,5 @@
 import React from "react";
-import Image from "next/image";  // Use Image from Next.js for optimized images
-import s8img from "../../../public/assets/s8img.webp";
-import doots from "../../../public/assets/dotslines.webp";
-import bluecir from "../../../public/assets/bluecir.webp";
-import graycirl from "../../../public/assets/graycirl.webp";
+
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import "./section7.css"
 import '@splidejs/react-splide/css';

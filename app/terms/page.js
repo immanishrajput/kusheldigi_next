@@ -1,9 +1,8 @@
 "use client"
 import React, { useEffect } from "react";
 import ContatForm1 from "../COMMON/ContactForm1";
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
-import Image from "next/image";
+
+
 import Navbar from "../COMMON/Navbar";
 import Head from 'next/head';
 

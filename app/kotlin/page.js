@@ -1,11 +1,7 @@
 "use client"
 import React, { useEffect, useState } from "react";
-import arrow4 from "../../public/assets/arrow4.png";
-import koting from "../../public/assets/koting.png";
-import mobilet from "../../public/assets/mobilet.png";
-import proffessional from "../../public/assets/proffessional.png";
-import kotliny from "../../public/assets/kotliny.png";
-import Image from "next/image";
+
+
 import Head from 'next/head';
 
 import '../globals.css'
@@ -15,9 +11,7 @@ import Footer from "../COMMON/Footer";
 import ContactForm1 from "../COMMON/ContactForm1";
 // import { NavLink } from "react-router-dom";
 import Link from "next/link";
-// import { Helmet } from "react-helmet";
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
+
 import KotlinFAQ from "../COMMON/KotlinFAQ";
 const Kotlin = () => {
   const [tab, setTab] = useState(1);

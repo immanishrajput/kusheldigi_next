@@ -1,19 +1,16 @@
 "use client"
 import React, { useState, useEffect } from 'react';
-import frema from "../../../public/assets/frema.png";
+
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-// import { Helmet } from "react-helmet";
+
 
 import ServiceCommon from '../../COMMON/ServiceCommon';
 import ContactForm3 from '../../COMMON/ContactForm3';
-import whatsApp from "../../../public/assets/whatsapp.png";
-import call from "../../../public/assets/telephone.png"
-// import { useNavigate } from 'react-router-dom';
-// import { Router } from 'next/navigation';
+
 import { useRouter } from 'next/navigation';
 import Footer from '@/app/COMMON/Footer';
-import Image from 'next/image';
+
 import '../../globals.css'
 import Navbar from '@/app/COMMON/Navbar';
 import LaravelHireFAQ from '@/app/COMMON/LaravelHireFAQ';

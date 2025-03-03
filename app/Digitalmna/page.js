@@ -2,35 +2,8 @@
 import React,{useState,useEffect} from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import arrow4 from "../../public/assets/arrow4.png";
-
-import rel1 from "../../public/assets/rel1.png";
-import rel2 from "../../public/assets/rel2.png";
-import rel3 from "../../public/assets/rel3.png";
-// import { NavLink } from "react-router-dom";
 import Link from "next/link";
 import Head from 'next/head';
-
-import pt4 from "../../public/assets/mnaServices-3 1.png";
-import pt5 from "../../public/assets/mnaHome Page 1.png";
-import pt6 from "../../public/assets/mnaAbout us.png";
-import img4 from "../../public/assets/Group 1000004718.png";
-import img5 from "../../public/assets/Group 1000004715.png";
-import img6 from "../../public/assets/Group 1000004716.png";
-import protruckss from "../../public/assets/digitalmna1.png";
-import img13 from "../../public/assets/Group 1000006500 (1).png";
-import hh5 from "../../public/assets/mnncolurplates.png";
-import mnop1 from "../../public/assets/mnop1.png";
-import hh6 from "../../public/assets/mnadetail12.png";
-import hh7 from "../../public/assets/mnadetail13.png";
-import hh8 from "../../public/assets/mna123.png";
-import pru2 from "../../public/assets/innermnalogoimgsmall.png";
-import opqweeeeeee2 from "../../public/assets/opqweeeeeee2.png";
-import opqweeeeeee3 from "../../public/assets/opqweeeeeee3.png";
-
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
-import Image from "next/image";
 import Footer from "../COMMON/Footer";
 import Navbar from "../COMMON/Navbar";
 import '../globals.css'

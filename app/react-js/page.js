@@ -1,24 +1,16 @@
 "use client"
 import React, { useEffect } from "react";
-import img9 from "../../public/assets/group-part.png";
-import mnop from "../../public/assets/nmop.png";
-import nmop2 from "../../public/assets/nmop1.png";
-import zz1 from "../../public/assets/iii1.png";
-import zz2 from "../../public/assets/iii2.png";
-import zz3 from "../../public/assets/iii3.png";
-import zz4 from "../../public/assets/iii4.png";
+
+
 import Head from 'next/head';
 
-import zz5 from "../../public/assets/iii5.png";
+
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
-import Image from "next/image";
-import ReactFAQ from "../COMMON/ReactFAQ";
+
 import '../globals.css'
 
-// import { Helmet } from "react-helmet";
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
+
 const Reactjsdev = () => {
 
 
@@ -349,10 +341,10 @@ const Reactjsdev = () => {
       
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999651/whatsapp_gqgicq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999664/telephone_fxcxxc.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

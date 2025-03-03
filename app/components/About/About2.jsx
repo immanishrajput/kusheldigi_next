@@ -1,9 +1,9 @@
 "use client"
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
+
 import ContactForm1 from "../../COMMON/ContactForm1";
 import SmallApproach from "../../COMMON/SmallApproach";
-import call from "../../../public/assets/telephone.png"
+
 import Link from "next/link";
 import Navbar from "../../COMMON/Navbar";
 import Footer from "../../COMMON/Footer";

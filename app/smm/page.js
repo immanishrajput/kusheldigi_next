@@ -6,34 +6,8 @@ import Link from "next/link";
 // import { Helmet } from "react-helmet";
 import Head from 'next/head';
 
-import smm1 from "../../public/assets/smmimage/social media image.png";
-import smm2 from "../../public/assets/smmimage/leads image.png";
-import smm3 from "../../public/assets/smmimage/strategy icon-1.svg";
-import smm4 from "../../public/assets/smmimage/strategy icon-2.svg";
-import smm5 from "../../public/assets/smmimage/strategy icon-3.svg";
-import smm6 from "../../public/assets/smmimage/strategy image.png";
-import smm7 from "../../public/assets/smmimage/process image.png";
-import smm8 from "../../public/assets/smmimage/process icon-1.svg";
-import smm9 from "../../public/assets/smmimage/process icon-2.svg";
-import smm10 from "../../public/assets/smmimage/process icon-3.svg";
-import smm11 from "../../public/assets/smmimage/process icon-4.svg";
-import smm12 from "../../public/assets/smmimage/services icon-1.svg";
-import smm13 from "../../public/assets/smmimage/services icon-2.svg";
-import smm14 from "../../public/assets/smmimage/services icon-3.svg";
-import smm15 from "../../public/assets/smmimage/services icon-4.svg";
-import smm16 from "../../public/assets/smmimage/services icon-5.svg";
-import smm17 from "../../public/assets/smmimage/services icon-6.svg";
-import smm18 from "../../public/assets/smmimage/choose icon-1.svg";
-import smm19 from "../../public/assets/smmimage/choose icon-2.svg";
-import smm20 from "../../public/assets/smmimage/choose icon-3.svg";
-import smm21 from "../../public/assets/smmimage/choose icon-4.svg";
-import smm22 from "../../public/assets/smmimage/branding image-1.png";
-import smm23 from "../../public/assets/smmimage/branding image-2.png";
-import smm24 from "../../public/assets/smmimage/branding image-3.png";
-import smm25 from "../../public/assets/smmimage/branding image-4.png";
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
-import Image from "next/image";
+
+
 import '../globals.css'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";

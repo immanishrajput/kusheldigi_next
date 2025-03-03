@@ -1,14 +1,13 @@
 "use client"
 import React, { useEffect } from 'react'
 import ContactForm1 from '../COMMON/ContactForm1'
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
+
 import '../globals.css'
 import Navbar from '../COMMON/Navbar';
-import Head from 'next/head';
+
 
 import Footer from '../COMMON/Footer';
-import Image from 'next/image';
+
 const Privacy = () => {
 
   

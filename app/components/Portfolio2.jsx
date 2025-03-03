@@ -1,49 +1,13 @@
 "use client"
 import ContactForm1 from "../COMMON/ContactForm1";
-import whatsApp from "../../public/assets//whatsapp.png";
-import call from "../../public/assets//telephone.png"
-import abimg1 from "../../public/assets//abImg1.png";
-import abimg2 from "../../public/assets//abimg2.png";
-import abimg3 from "../../public/assets//abimg3.png";
-import abimg5 from "../../public/assets//abimg5.png";
-import abimg11 from "../../public/assets//abimg11.png";
-import mycms from "../../public/assets//mycms.png"
-import leftMost from "../../public/assets//leftmost.png";
-import gthj from '../../public/assets//gthj.png'
-import csRightMost from "../../public/assets//csRightMost.png"
+
 import Head from 'next/head';
 import { useEffect, useState } from "react";
-import hrmsname from "../../public/assets//hrmsname.png"
-import sainaimg from "../../public/assets//sainaimg.png"
-import vrott from "../../public/assets//vrott.png"
-import saka from '../../public/assets//SAKA.png';
-import tikus11 from '../../public/assets//tikus11.png';
-import test111 from '../../public/assets//tset111.png';
-import ikk1 from '../../public/assets//likk1.png';
-import jk11 from '../../public/assets//jkki1.png';
-import custom11 from '../../public/assets//custom11.png';
-import webauxil from "../../public/assets/webauxlogo.png"
-import websurvinl from "../../public/assets/websuvrinlogo.png"
-import webushal from "../../public/assets/webushalogo.png"
-import webmajorl from "../../public/assets/webmajorlogo.png"
-import webinstal from "../../public/assets/webinstalogo.png"
-import webjuniorl from "../../public/assets/webjuniorlogo.png"
-import toffle from "../../public/assets/touffle.png"
-import objtech from "../../public/assets/webobtech.png"
-import weba1 from "../../public/assets/weba1.png"
-import weba2 from "../../public/assets/weba2.png"
-import weba3 from "../../public/assets/weba3.png"
-import weba4 from "../../public/assets/weba4.png"
-import weba5 from "../../public/assets/weba5.png"
-import weba6 from "../../public/assets/weba6.png"
-import weba7 from "../../public/assets/weba7.png"
-import weba8 from "../../public/assets/weba8.png"
-import weba9 from "../../public/assets/weba9.png"
-import oddo1 from "../../public/assets/oddo1.png"
-import ushalogo from "../../public/assets/ushalogo.png"
+
+
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
-import Image from "next/image";
+
 import '../globals.css'
 
 const caseStudies = [

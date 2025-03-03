@@ -1,59 +1,13 @@
 "use client"
 import React, { useState, useEffect } from "react";
-import website from "../../public/assets/website.png";
-import reactjs1 from "../../public/assets/reactjs.png";
-import htmls from "../../public/assets/htmls.png";
-import phpos from "../../public/assets/phpos.png";
-import nodejs1 from "../../public/assets/nodejs1.png";
-import words from "../../public/assets/words.png";
-import vuejs1 from "../../public/assets/vuejs1.png";
+
 import Head from 'next/head';
 
-import mobileJi from "../../public/assets/mobilieji.png";
-import docu from "../../public/assets/docu.png";
-import setting from "../../public/assets/setting.png";
-import sign from "../../public/assets/sign.png";
-import admi from "../../public/assets/admi.png";
-import admi1 from "../../public/assets/admi1.png";
-import admi2 from "../../public/assets/admi2.png";
-import track from "../../public/assets/track.png";
-import vertical from "../../public/assets/vertical.png";
-import arrow1 from "../../public/assets/arrow1.png";
-import dec1 from "../../public/assets/dec1.png";
-import dec2 from "../../public/assets/dec2.png";
-import dec3 from "../../public/assets/dec3.png";
-import dec4 from "../../public/assets/dec4.png";
-import dec5 from "../../public/assets/dec5.png";
-import dec6 from "../../public/assets/dec6.png";
-import dec7 from "../../public/assets/dec7.png";
-import dilkush from "../../public/assets/dilkush.png";
-import punto from "../../public/assets/punto.png";
-import process2 from "../../public/assets/process2.png";
-import ProcessMobView1 from "../../public/assets/ProcessMobView1.png";
-import ProcessMobView2 from "../../public/assets/ProcessMobView2.png";
-import ProcessMobView3 from "../../public/assets/ProcessMobView3.png";
-import ProcessMobView4 from "../../public/assets/ProcessMobView4.png";
-import ProcessMobView5 from "../../public/assets/ProcessMobView5.png";
-import posis2 from "../../public/assets/posis2.png";
-import posis3 from "../../public/assets/posis3.png";
-import posis4 from "../../public/assets/posis4.png";
-import posis5 from "../../public/assets/posis5.png";
-import posis6 from "../../public/assets/posis6.png";
-import posis7 from "../../public/assets/posis7.png";
-import posis8 from "../../public/assets/posis8.png";
-import posis10 from "../../public/assets/posis10.png";
-import tweb from "../../public/assets/tewb.png";
-import thir1 from "../../public/assets/thir1.png";
-import webMinar from "../../public/assets/webMinar.png";
-import conGraphic from "../../public/assets/conGraphic.png";
-import secService from "../../public/assets/secService.png";
-// import { NavLink } from "react-router-dom";
+
+
+
 import Link from "next/link";
-import thir2 from '../../public/assets/thir2.png';
-import CustemslImg from "../../public/assets/CustemslImg.png";
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
-import Image from "next/image";
+
 import '../globals.css'
 import WebdevelopmentFAQ from '../COMMON/WebdevelopmentFAQ'
 import Navbar from "../COMMON/Navbar";

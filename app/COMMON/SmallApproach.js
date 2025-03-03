@@ -1,6 +1,6 @@
 import React from "react";
-import arrow4 from '../../public/assets/arrow4.png';
-// import { NavLink } from "react-router-dom";
+
+
 import Link from "next/link";
 import Image from "next/image";
 const SmallApproach = () => {

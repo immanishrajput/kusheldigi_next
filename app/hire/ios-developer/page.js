@@ -1,9 +1,6 @@
 "use client"
 import React, { useState, useEffect } from 'react'
-import sidhaTandi from '../../../public/assets/sidhaTandi.png';
-// import { NavLink } from "react-router-dom";
-import whatsApp from "../../../public/assets/whatsapp.png";
-import call from "../../../public/assets/telephone.png"
+
 import "@splidejs/react-splide/css";
 
 
@@ -13,7 +10,7 @@ import ContactForm3 from '../../COMMON/ContactForm3';
 import Link from 'next/link';
 import Footer from '@/app/COMMON/Footer';
 import Navbar from '@/app/COMMON/Navbar';
-import Image from 'next/image';
+
 import '../../globals.css'
 import IosHireFAQ from '@/app/COMMON/IosHireFAQ';
 // import { Helmet } from 'react-helmet';

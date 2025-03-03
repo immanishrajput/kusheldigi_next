@@ -3,8 +3,7 @@ import React, { useState, useEffect } from "react";
 import Head from 'next/head';
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import img6 from "../../public/assets/Group 1000004716.png";
-import Image from "next/image";
+
 import Link from "next/link";
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";

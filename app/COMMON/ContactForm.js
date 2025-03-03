@@ -1,11 +1,9 @@
 import React, { useState } from "react";
-import arrow1 from "../../public/assets/arrow1.png";
-import arrow4 from "../../public/assets/arrow4.png";
-// import { NavLink, useNavigate } from "react-router-dom";
+
 import Link from "next/link";
 
 import { useRouter } from 'next/navigation';
-import Image from "next/image";
+
 const ContactForm = ({ notify }) => {
   const pattern = new RegExp(/^\d{1,9}$/);
   const [isError, setIsError] = useState(false);

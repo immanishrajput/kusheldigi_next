@@ -1,19 +1,12 @@
 "use client"
 import React, { useEffect } from 'react'
 import { Splide, SplideSlide } from "@splidejs/react-splide";
-import auxit from '../../public/assets/auxit.png';
-import doliwala1 from '../../public/assets/doliwala1.png';
-import mpma1 from '../../public/assets/mpma1.png';
 
-import erty from '../../public/assets/erty.png';
-// import { NavLink } from "react-router-dom";
 import Link from 'next/link';
-// import { Helmet } from "react-helmet";
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
+
 import '../globals.css'
 import HtmlFAQ from '../COMMON/HtmlFAQ';
-import Image from 'next/image';
+
 import Navbar from '../COMMON/Navbar';
 import Footer from '../COMMON/Footer';
 const Html = () => {

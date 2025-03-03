@@ -1,20 +1,12 @@
 "use client"
 import React, { useState } from "react";
 
-import multi from "../../public/assets/multiLevel.png";
-import revol from "../../public/assets/revolution.png";
-import customer from "../../public/assets/customer.png"
-import affortable from "../../public/assets/affortable.png"
-import highQuality from "../../public/assets/highQuality.png"
+
 import Link from "next/link";
-// import { NavLink } from "react-router-dom";
-import skill from "../../public/assets/skill.png"
-import joinUs from "../../public/assets/mlmjoin2.png";
-// import { Helmet } from "react-helmet";
-import whatsApp from "../../public/assets/whatsapp.png";
-import Image from "next/image";
+
+
 import '../globals.css'
-import call from "../../public/assets/telephone.png"
+
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
 export const softwareProduct = [
@@ -290,22 +282,22 @@ export const ourService = [
 ]
 export const whyUsData = [
   {
-    img: skill,
+    img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999998/skill_gi1v6c.png',
     title: "Skilled Professionals",
     para: "We hold pride in emphasizing the years of extensive experience our team members have in network marketing, underscoring their in-depth knowledge and accelerating growth with our skilled experts."
   },
   {
-    img: customer,
+    img:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999905/customer_bjqfvy.png',
     title: "Customer Satisfaction",
     para: "Our customer feedback over time reflects that we have always tried to exceed the expectations of our customers creating long-term relations based on trust with them."
   },
   {
-    img: highQuality,
+    img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999970/highQuality_sk7swv.png',
     title: "High-Quality Products",
     para: "We are firm in ensuring we offer only goods of excellent standards that go beyond what our clients had hoped for. This is how essential we comprehend it is to supply items that are trustworthy, lasting, and work excellently."
   },
   {
-    img: affortable,
+    img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999944/affortable_ykbzgp.png',
     title: "Affordable Services Tailored to Your Budget",
     para: "we appreciate how crucial it is for us to bring you quality and friendly services at your preferred pricing levels. We understand that anyone who needs premium products should have access to them at reasonable prices."
   },
@@ -391,7 +383,7 @@ function Mlm() {
               </div>
             </div>
             <div className="mlm-back2">
-              <Image src={multi} alt="MLM Software Development company" title="MLM Software Development company" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999838/multiLevel_sv99yr.png' alt="MLM Software Development company" title="MLM Software Development company" />
             </div>
           </div>
         </div>
@@ -411,7 +403,7 @@ function Mlm() {
               <button className="newbtn">Get in Touch</button> </Link>
           </div>
           <div className="mlm_service2">
-            <Image src={revol} alt="MLM Software Development services" title="MLM Software Development services" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999875/revolution_srxxwe.png' alt="MLM Software Development services" title="MLM Software Development services" />
           </div>
         </div>
 
@@ -749,7 +741,7 @@ function Mlm() {
           <div className="whyUsBoxes">
             {whyUsData.map((item, index) => (
               <div key={index} className="singleBox">
-                <Image src={item.img} alt={item.title} title={item.title} />
+                <img src={item.img} alt={item.title} title={item.title} />
                 <h2>{item.title}</h2>
                 <h3>{item.para}</h3>
               </div>
@@ -775,17 +767,17 @@ function Mlm() {
 
             {/* right side  */}
             <div className="rightContainer">
-              <Image src={joinUs} alt="Digital MLM journey" title="Digital MLM journey" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741000024/mlmjoin2_in8xb3.png' alt="Digital MLM journey" title="Digital MLM journey" />
             </div>
           </div>
         </div>
 
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999651/whatsapp_gqgicq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999664/telephone_fxcxxc.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

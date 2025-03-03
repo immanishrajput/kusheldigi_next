@@ -1,28 +1,15 @@
 "use client"
 import React, { useState, useEffect } from "react";
-import arrow from "../../public/assets/arrow.png";
+
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import full from "../../public/assets/full.png";
-import full1 from "../../public/assets/full1.png";
+
 import Head from 'next/head';
 
-import full2 from "../../public/assets/full2.png";
-import full3 from "../../public/assets/full3.png";
-import pathji from "../../public/assets/pathji.png";
+
 import PortCard from "../card/PortCard";
-import a9 from "../../public/assets/a9.png";
-import pads from "../../public/assets/pads.png";
-import bds from "../../public/assets/bds.png";
-import jones from "../../public/assets/jones.png";
-import bhojan from "../../public/assets/bhojan.png";
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
-import ustu from "../../public/assets/ustu.png";
-import UIUXimg from "../../public/assets/UIUXimg.png";
-import stand from "../../public/assets/stand.png";
-import howux from "../../public/assets/howux.png";
-import Image from "next/image";
+
+
 import '../globals.css'
 import Footer from "../COMMON/Footer";
 // import { Helmet } from "react-helmet";

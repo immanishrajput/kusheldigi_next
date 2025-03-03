@@ -1,30 +1,15 @@
 "use client"
 import React, { useState } from 'react'
-import student from '../../public/assets/students.png';
-import studentsFrame from '../../public/assets/studentFrame.png';
-// import { NavLink } from 'react-router-dom';
-import pinnak1 from '../../public/assets/pinnak1.png';
-import pinnak2 from '../../public/assets/pinnak2.png';
-import pinnak3 from '../../public/assets/pinnak3.png';
-import pinnak4 from '../../public/assets/pinnak4.png';
+
 import Head from 'next/head';
-import pinnak5 from '../../public/assets/pinnak5.png';
-import pinnak6 from '../../public/assets/pinnak6.png';
-import recy from '../../public/assets/recy.png';
-import remix from '../../public/assets/remix.png';
-import grimta from '../../public/assets/grimta.png';
-import pixelArt from '../../public/assets/pixelArt.png';
-import richa from '../../public/assets/richa.png';
-import manbiTui from '../../public/assets/manbiTui.png';
-import call from "../../public/assets/telephone.png"
-// import womanMan from '../../public/assets/womanMan.png';
+
+
 import ContactForm1 from '../COMMON/ContactForm1'
-import Image from 'next/image';
+
 import Navbar from '../COMMON/Navbar';
 import Footer from '../COMMON/Footer';
 import '../globals.css'
-import whatsApp from "../../public/assets/whatap.png"
-import scrollUp from "../../public/assets/scrollUp.png"
+
 import Link from 'next/link';
 
 const HowWork = ({notify}) => {
@@ -116,7 +101,7 @@ const HowWork = ({notify}) => {
           <Navbar/>
       <div className="learn-back">
         <div className='chanu'>
-          <Image src={studentsFrame} alt="kushel" />
+          <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999228/studentFrame_qjy2bw.png' alt="kushel" />
         </div>
         <div className="learn-back1">
           <h1>Learn about our <br /> workflow</h1>
@@ -125,9 +110,9 @@ const HowWork = ({notify}) => {
         </div>
         <div className="learn-back2">
           <div className="studentFrame">
-            <Image src={studentsFrame} alt="student" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999228/studentFrame_qjy2bw.png' alt="student" />
           </div>
-          <Image className='student22' src={student} alt="student" />
+          <img className='student22' src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999165/students_vka29m.png' alt="student" />
         </div>
       </div>
 
@@ -141,7 +126,7 @@ const HowWork = ({notify}) => {
           <div className="ecoming_card">
             <div className="ecoming_box">
               <div className="yt_img">
-                <Image src={pinnak1} alt="pinnak" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999265/pinnak1_qfssk3.png' alt="pinnak" />
               </div>
               <div className="yt_heading">
                 <h3>Communication</h3>
@@ -150,7 +135,7 @@ const HowWork = ({notify}) => {
             </div>
             <div className="ecoming_box">
               <div className="yt_img">
-                <Image src={pinnak2} alt="pinnak" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999294/pinnak2_wju73g.png' alt="pinnak" />
               </div>
               <div className="yt_heading">
                 <h3>Ideation</h3>
@@ -159,7 +144,7 @@ const HowWork = ({notify}) => {
             </div>
             <div className="ecoming_box">
               <div className="yt_img">
-                <Image src={pinnak3} alt="pinnak" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999321/pinnak3_uczoqm.png' alt="pinnak" />
               </div>
               <div className="yt_heading">
                 <h3>Transparency</h3>
@@ -170,7 +155,7 @@ const HowWork = ({notify}) => {
           <div className="ecoming_card">
             <div className="ecoming_box">
               <div className="yt_img">
-                <Image src={pinnak4} alt="pinak" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999347/pinnak4_mzchfi.png' alt="pinak" />
               </div>
               <div className="yt_heading">
                 <h3>Quick Kickoff</h3>
@@ -179,7 +164,7 @@ const HowWork = ({notify}) => {
             </div>
             <div className="ecoming_box">
               <div className="yt_img">
-                <Image src={pinnak5} alt="pinak" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999372/pinnak5_pqapj5.png' alt="pinak" />
               </div>
               <div className="yt_heading">
                 <h3>Excellence</h3>
@@ -188,7 +173,7 @@ const HowWork = ({notify}) => {
             </div>
             <div className="ecoming_box">
               <div className="yt_img">
-                <Image src={pinnak6} alt="pianak" />
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999399/pinnak6_wo8s4f.png' alt="pianak" />
               </div>
               <div className="yt_heading">
                 <h3>Flexibility</h3>
@@ -244,7 +229,7 @@ const HowWork = ({notify}) => {
                           your users’ needs, and enable the users to navigate the platform easily.</p>
                       </div>
                       <div className="proccet_img_right">
-                        <Image src={recy} alt="recy" />
+                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999424/recy_gup37g.png' alt="recy" />
                       </div>
                     </div>
                   </div>
@@ -288,7 +273,7 @@ const HowWork = ({notify}) => {
                           your users’ needs, and enable the users to navigate the platform easily.</p>
                       </div>
                       <div className="proccet_img_right">
-                        <Image src={remix} alt="recy" />
+                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999454/remix_rmv3ed.png' alt="recy" />
                       </div>
                     </div>
                   </div>
@@ -330,7 +315,7 @@ const HowWork = ({notify}) => {
                 </div>
                 <div className="flowChart33_right">
                   <div className="grimta">
-                    <Image src={grimta} alt="grimta" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999480/grimta_o0ourv.png' alt="grimta" />
                   </div>
                 </div>
               </div>
@@ -373,7 +358,7 @@ const HowWork = ({notify}) => {
                 </div>
                 <div className="flowChart33_right">
                   <div className="grimta">
-                    <Image src={pixelArt} alt="grimta" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999513/pixelArt_oew1hg.png' alt="grimta" />
                   </div>
                 </div>
               </div>
@@ -409,7 +394,7 @@ const HowWork = ({notify}) => {
                 </div>
                 <div className="flowChart33_right">
                   <div className="grimta">
-                    <Image src={richa} alt="grimta" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999543/richa_edvgo2.png' alt="grimta" />
                   </div>
                 </div>
               </div>
@@ -422,7 +407,7 @@ const HowWork = ({notify}) => {
       <div className="manbi">
         <div className="manbi_card">
           <div className="manbi_img">
-            <Image src={manbiTui} alt="manbi" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999570/manbiTui_dkujxx.png' alt="manbi" />
           </div>
           <div className="card-textj">
             <h3>Got a preferred workflow? We’ll <br /> adapt to your needs.</h3>

@@ -6,7 +6,7 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
 import '../globals.css'
 import Navbar from "../COMMON/Navbar";
-import Image from "next/image";
+
 import Footer from "../COMMON/Footer";
 import Head from 'next/head';
 

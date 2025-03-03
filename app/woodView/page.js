@@ -1,43 +1,14 @@
 "use client"
 import React, { useState, useEffect } from "react";
-import arrow4 from "../../public/assets/arrow4.png";
-// import { NavLink } from "react-router-dom";
-import rel1 from "../../public/assets/rel1.png";
-import rel2 from "../../public/assets/rel2.png";
-import rel3 from "../../public/assets/rel3.png";
+
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import Head from 'next/head';
 
-import img4 from "../../public/assets/Group 1000004718.png";
-import img5 from "../../public/assets/Group 1000004715.png";
-import img6 from "../../public/assets/Group 1000004716.png";
-import img13 from "../../public/assets/Group 1000006500 (1).png";
-// import "../components/css/app2.css";
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png";
-import omis from "../../public/assets/omis.svg";
-import omis1 from "../../public/assets/omis1.svg";
-import omis2 from "../../public/assets/omis2.svg";
-import lies from "../../public/assets/lies.svg";
-import kpingq1 from "../../public/assets/kping1.svg";
-import kpingq11 from "../../public/assets/kping.svg";
-import crazy1 from "../../public/assets/crazy1.svg";
-import crazy2 from "../../public/assets/crazy2.svg";
-import fs from "../../public/assets/fs.svg";
-import lojj from "../../public/assets/lojj.svg";
-import ep44 from "../../public/assets/ellipse44.png";
-import viewimg from "../../public/assets/viewimg2.png"
-import img22 from "../../public/assets/img222.png"
-import woodview22 from "../../public/assets/woldview22.png"
-import colorplate from "../../public/assets/woodcolorplate.png"
-import ell451 from "../../public/assets/ellipse451.png"
-import woodlogo from "../../public/assets/logowood.png"
-import wooduser from "../../public/assets/woodadduser.png"
-import wooduser2 from "../../public/assets/woodadduser2.png"
-import renid from '../../public/assets/renid.svg';
+
+
 import Footer from "../COMMON/Footer";
-import Image from "next/image";
+
 import Navbar from "../COMMON/Navbar";
 import '../globals.css'
 import Link from "next/link";

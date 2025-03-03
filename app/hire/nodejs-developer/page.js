@@ -1,22 +1,15 @@
 "use client"
 import React, { useState, useEffect } from 'react'
-// import { NavLink } from "react-router-dom";
-import frena1 from '../../../public/assets/frena1.png';
-import frena2 from '../../../public/assets/frena2.png';
-import frena3 from '../../../public/assets/frena3.png';
-import frena4 from '../../../public/assets/frena4.png';
-import frena5 from '../../../public/assets/frena5.png';
-import frena6 from '../../../public/assets/frena6.png';
+
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 
 
 import ServiceCommon from '../../COMMON/ServiceCommon';
-import whatsApp from "../../../public/assets/whatsapp.png";
-import call from "../../../public/assets/telephone.png"
+
 import ContactForm3 from '../../COMMON/ContactForm3';
-// import { Helmet } from 'react-helmet';
-import Image from 'next/image';
+
+
 import Link from 'next/link';
 import '../../globals.css'
 import Footer from '@/app/COMMON/Footer';

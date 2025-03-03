@@ -1,39 +1,15 @@
 "use client"
 import React, { useEffect } from "react";
-import reactNativeImgg from "../../public/assets/reactNativeImgg.png";
-import arrow4 from "../../public/assets/arrow4.png";
-import androidSis from "../../public/assets/android-sis.png";
-import arrowing from "../../public/assets/arrowing.png";
-import fluting1 from "../../public/assets/fluting1.png";
-import fluting2 from "../../public/assets/fluting2.png";
-import fluting3 from "../../public/assets/fluting3.png";
-import piston from "../../public/assets/piston.png";
+
+
 import Head from 'next/head';
 
-import cost from "../../public/assets/cost.png";
-import cost1 from "../../public/assets/cost1.png";
-import cost2 from "../../public/assets/cost2.png";
-import cost3 from "../../public/assets/cost3.png";
-import cost4 from "../../public/assets/cost4.png";
-import cost5 from "../../public/assets/cost5.png";
-import lok from '../../public/assets/lok.png';
-import lok1 from '../../public/assets/lok1.png';
-import lok2 from '../../public/assets/lok2.png';
-import lok3 from '../../public/assets/lok3.png';
-import key from '../../public/assets/key.png';
-import key1 from '../../public/assets/key1.png';
-import keys from '../../public/assets/keys.png';
-import keys1 from '../../public/assets/keys1.png';
-import keys2 from '../../public/assets/keys2.png';
-import pret from '../../public/assets/pret.png';
-import pret1 from '../../public/assets/pret1.png';
-import fantaji from '../../public/assets/fantaJi.png';
+
 import ReactNativeFAQ from "../COMMON/ReactNativeFAQ";
-import Image from "next/image";
+
 
 import ContactForm1 from "../COMMON/ContactForm1";
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
+
 // import { NavLink } from "react-router-dom";
 import Link from "next/link";
 import '../globals.css'
@@ -197,7 +173,7 @@ const generateMetadata = ({ params }) => ({
             <h2>
               React Native Benefits Go Beyond Cost-Saving
             </h2>
-            <Image className="ftp" src={androidSis} alt=" React Native Benefits Go Beyond" title=" React Native Benefits Go Beyond" />
+            <img className="ftp" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741000147/android-sis_uuiqp2.png' alt=" React Native Benefits Go Beyond" title=" React Native Benefits Go Beyond" />
             <p>
               Our React Native mobile development goes beyond budget considerations. We deliver quality, open communication, transparency, and a human touch, all within a cost-effective framework.
 
@@ -271,7 +247,7 @@ const generateMetadata = ({ params }) => ({
         <div className="key-value">
           <div className="keys-val">
             <h3>Key values of Kushel Digi team</h3>
-            <Image className="key-images" src={androidSis} alt="unserline design" title="unserline design" />
+            <img className="key-images" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741000147/android-sis_uuiqp2.png' alt="unserline design" title="unserline design" />
             <p className="text-center ku-t">
               Your mission at Kushel Digi Team is to empower teams to deliver exceptional products by cultivating expertise in JavaScript technologies and continuously enhancing skills through internal gatherings and external conferences.
             </p>
@@ -311,7 +287,7 @@ const generateMetadata = ({ params }) => ({
 
         <div className="how-native-work">
           <h3>How we can start working together?</h3>
-          <Image className="how-nat-img" src={androidSis} alt="unserline-design" title="unserline-design" />
+          <img className="how-nat-img" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741000147/android-sis_uuiqp2.png' alt="unserline-design" title="unserline-design" />
           <p className="dep-nat">We assemble a team of specialists tailored to your precise needs, ready to provide support for as long as you require.
           </p>
           <div className="native-work-cards">

@@ -1,38 +1,17 @@
 "use client"
 import React, { useEffect, useState } from "react";
-import nn1 from "../../public/assets/n1.png";
-import nn2 from "../../public/assets/n2.png";
-import nn3 from "../../public/assets/n3.png";
-import nn4 from "../../public/assets/n4.png";
-import nn5 from "../../public/assets/n5.png";
-import nn6 from "../../public/assets/n6.png";
-import nn7 from "../../public/assets/n7.png";
+
 import Head from 'next/head';
 
-import g11 from "../../public/assets/g1.png";
-import g12 from "../../public/assets/g2.png";
-import g13 from "../../public/assets/g3.png";
-import g14 from "../../public/assets/g4.png";
-import g15 from "../../public/assets/g5.png";
-import g16 from "../../public/assets/g6.png";
-import ghiradel from "../../public/assets/ghiradel.png";
-import poli1 from '../../public/assets/poli1.png';
-import poli2 from '../../public/assets/poli2.png';
-import poli3 from '../../public/assets/poli3.png';
-import poli4 from '../../public/assets/poli4.png';
-import poli5 from '../../public/assets/poli5.png';
-import poli6 from '../../public/assets/poli6.png';
+
 import '../globals.css'
-import Image from "next/image";
+
 
 import ContactForm1 from "../COMMON/ContactForm1";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import Link from "next/link";
-// import { NavLink } from "react-router-dom";
-// import { Helmet } from "react-helmet";
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
+
 import Navbar from "../COMMON/Navbar";
 import MagentoFAQ from '../COMMON/MagentoFAQ'
 import Footer from "../COMMON/Footer";
@@ -488,10 +467,10 @@ const Magento = () => {
 
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <Image className="what-image-universal" src={whatsApp} alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999651/whatsapp_gqgicq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <Image src={call} alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740999664/telephone_fxcxxc.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

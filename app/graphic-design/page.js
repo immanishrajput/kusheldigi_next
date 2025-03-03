@@ -1,38 +1,21 @@
 "use client"
 import React, { useEffect } from 'react'
-import graphic1 from '../../public/assets/graphic1.png';
-import graphicImgee from "../../public/assets/graphicImgee.png";
-import sinki from '../../public/assets/sinki.png';
-import art1 from '../../public/assets/art1.png';
-import art2 from '../../public/assets/art2.png';
-import art3 from '../../public/assets/art3.png';
+
 import Head from 'next/head';
 
-import art4 from '../../public/assets/art4.png';
-import art5 from '../../public/assets/art5.png';
-import art6 from '../../public/assets/art6.png';
-import art7 from '../../public/assets/art7.png';
-import art8 from '../../public/assets/art8.png';
-import art9 from '../../public/assets/art9.png';
-import art10 from '../../public/assets/art10.png';
-import art11 from '../../public/assets/art11.png';
+
 import '../globals.css'
-
-import art12 from '../../public/assets/art12.png';
-
-// import { NavLink } from "react-router-dom";
 import Link from 'next/link';
 
 import "@splidejs/react-splide/css";
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
+
 import ContactForm1 from '../COMMON/ContactForm1'
-import Image from 'next/image';
+
 import Navbar from '../COMMON/Navbar';
 import Footer from '../COMMON/Footer';
-import { IMAGES_MANIFEST } from 'next/dist/shared/lib/constants';
+
 import GraphicFAQ from '../COMMON/GraphicFAQ';
-// import { Helmet } from 'react-helmet';
+
 const GraphicDesign = ({ notify }) => {
 
     const phoneNumber = "9045301702";

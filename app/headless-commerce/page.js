@@ -2,36 +2,18 @@
 import React, { useEffect } from "react";
 
 
-import cardone from "../../public/assets/card1.svg";
-import cardtwo from "../../public/assets/cards-image2.svg";
-import cardthree from "../../public/assets/cards3-image.svg";
-import cardthree1 from "../../public/assets/card3-image2.svg";
-import cardthree2 from "../../public/assets/cards3-images3.svg";
+
 import Head from 'next/head';
 
-import cardthree3 from "../../public/assets/cards3-images4.svg";
-import cardthree4 from "../../public/assets/cards3-images5.svg";
-import cardthree5 from "../../public/assets/cards3-images6.svg";
-import cartcard from "../../public/assets/cart-cards.svg";
-import arrow from "../../public/assets/aero.png";
-import apis from "../../public/assets/api-s.svg";
-import agileimg from "../../public/assets/Agile-image1.svg";
-import agilebackend from "../../public/assets/Agile-backend.svg";
-import onlineimage from "../../public/assets/onlineimage.svg";
-import flexibility from "../../public/assets/flexibility.svg";
-import apiname from "../../public/assets/erps.svg";
-import backends from "../../public/assets/backend-svg.svg";
+
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// import { Helmet } from 'react-helmet';
-// import "../components/css/headless.css"
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png";
+
 // import { NavLink } from 'react-router-dom';
 import Footer from "../COMMON/Footer";
 import Navbar from "../COMMON/Navbar";
-import Image from "next/image";
+
 import "../globals.css";
 import Link from "next/link";
 import HeadlessFAQ from "../COMMON/HeadlessFAQ";

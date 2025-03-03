@@ -1,40 +1,10 @@
 "use client"
 import React, { useEffect, useState } from "react";
-// import hireTeam from "../../public/assets/hireTeam.png";
-import arrow from "../../public/assets/arrow.png";
-import hiper from "../../public/assets/hiper.png";
-import hiredEllipse from '../../public/assets/hiredEllipse.png';
-import watta from '../../public/assets/watta.png';
-import arrow4 from '../../public/assets/arrow4.png';
+
 // import { NavLink } from "react-router-dom";
 import Link from "next/link";
-import hf2 from '../../public/assets/hf2.png';
-import hf3 from '../../public/assets/hf3.png';
-import hf4 from '../../public/assets/hf4.png';
-import hf5 from '../../public/assets/hf5.png';
-import hf6 from '../../public/assets/hf6.png';
-import hf7 from '../../public/assets/hf7.png';
-import hf8 from '../../public/assets/hf8.png';
-import dec1 from "../../public/assets/dec1.png";
-import dec2 from "../../public/assets/dec2.png";
-import dec3 from "../../public/assets/dec3.png";
-import dec4 from "../../public/assets/dec4.png";
-import dec5 from "../../public/assets/dec5.png";
-import dec6 from "../../public/assets/dec6.png";
-import dec7 from "../../public/assets/dec7.png";
-import dilkush from "../../public/assets/dilkush.png";
-import posis2 from "../../public/assets/posis2.png";
-import posis3 from "../../public/assets/posis3.png";
-import posis4 from "../../public/assets/posis4.png";
-import posis5 from "../../public/assets/posis5.png";
-import posis6 from "../../public/assets/posis6.png";
-import posis7 from "../../public/assets/posis7.png";
-import posis8 from "../../public/assets/posis8.png";
-import posis10 from '../../public/assets/posis10.png';
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
 import '../globals.css'
-import Image from "next/image";
+
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
 // import { Helmet } from "react-helmet";

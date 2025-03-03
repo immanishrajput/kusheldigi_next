@@ -1,9 +1,7 @@
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import './styles.css';
-import hl1 from '../../../public/assets/hl1.png';
-import hl2 from '../../../public/assets/hl2.png';
-import hl4 from '../../../public/assets/hl4.png';
+
 import Link from 'next/link';  // Use Link from Next.js
 import Image from 'next/image';
 function Home2BrandSwiper({title}) {

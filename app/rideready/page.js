@@ -4,8 +4,7 @@ import { useEffect, useState } from "react";
 import { TiTick } from "react-icons/ti";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
-import Image from "next/image";
-import Head from 'next/head';
+
 
 import '../globals.css'
 import Navbar from "../COMMON/Navbar";

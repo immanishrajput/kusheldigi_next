@@ -1,6 +1,4 @@
 import React,{useState} from "react";
-import popupimage from "../../public/assets/popupimage.png";
-import Image from "next/image";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 // import OutsideClickHandler from "react-outside-click-handler";
 // import OutsideClickHandler from 'react-outside-click-handler';

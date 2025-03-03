@@ -3,8 +3,7 @@ import React, { useState, useEffect } from "react";
 import Head from 'next/head';
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import img6 from "../../public/assets/Group 1000004716.png";
-import Image from "next/image";
+
 import Link from "next/link";
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
@@ -127,7 +126,7 @@ useEffect(() => {
                   <p>Website Development</p>
                 </div>
                 <div className="bepolo">
-                  <Image src={img6} id="qa-safari" alt="img"></Image>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741002825/Group_1000004716_ca5ind.png' id="qa-safari" alt="img"></img>
                   <p>QA & Website Testing</p>
                 </div>
               </div>

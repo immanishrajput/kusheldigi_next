@@ -1,14 +1,13 @@
 "use client"
 import React, { useEffect } from "react";
-import Image from "next/image";
+
 import '../globals.css'
 import Head from 'next/head';
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
 import ContactForm1 from "../COMMON/ContactForm1";
 import Link from "next/link";
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
+
 import AndroidFAQ from "../COMMON/AndroidFAQ";
 const Android = ({ notify }) => {
 

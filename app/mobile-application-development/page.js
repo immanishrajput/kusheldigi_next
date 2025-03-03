@@ -1,29 +1,11 @@
 "use client"
 import React, { useState, useEffect } from "react";
-import reactjs from "../../public/assets/reactjs.png";
-import flutterjs from "../../public/assets/fluterjs.png";
-import swiftjs from "../../public/assets/swiftjs.png";
-import kotlinjs from "../../public/assets/kotlinjs.png";
-import java from "../../public/assets/java.png";
-// import MobileImage from "../../public/assets/MobileImage.png";
+
 import Head from 'next/head';
 
-// import doubleMob from "../../public/assets/doubleMob.png";
-// import { NavLink } from "react-router-dom";
 import Link from "next/link";
-// import arrow1 from "../../public/assets/arrow1.png";
-import process from "../../public/assets/process.jpg";
-// import col1 from "../../public/assets/col1.png";
-// import col2 from "../../public/assets/col2.png";
-// import col3 from "../../public/assets/col3.png";
-// import col4 from "../../public/assets/col4.png";
-// import usto from '../../public/assets/usto.png';
-import c5 from '../../public/assets/c5.png'
-import c6 from '../../public/assets/c6.png'
-import c7 from '../../public/assets/c7.png'
-import c8 from '../../public/assets/c8.png'
-import Image from "next/image";
-import mobileApi from '../../public/assets/mobileapi.png';
+
+
 import '../globals.css'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
@@ -31,10 +13,9 @@ import Footer from "../COMMON/Footer";
 
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import ContactForm from "../COMMON/ContactForm";
-// import { Helmet } from "react-helmet";
+
 import "@splidejs/react-splide/css";
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
+
 import MobileFAQ from "../COMMON/MobileFAQ";
 const MobileApp = ({ notify }) => {
   const [perPage, setPerPage] = useState(6);

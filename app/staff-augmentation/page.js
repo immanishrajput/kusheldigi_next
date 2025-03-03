@@ -1,48 +1,17 @@
 "use client"
 import React, { useEffect } from "react";
-import digital from "../../public/assets/digital.png";
-import digital2 from "../../public/assets/digital2.png";
-import quality from "../../public/assets/quality.png";
-import cart from "../../public/assets/cart.png";
-import backImg from '../../public/assets/back-img.png';
-import sideImg from '../../public/assets/side-img.png';
-// import '../components/css/app4.css';
-import ik1 from '../../public/assets/ik1.png';
+
 import Head from 'next/head';
 
-import ik2 from '../../public/assets/ik2.png';
-import ik4 from '../../public/assets/ik4.png';
-import clockIn from '../../public/assets/clockIn.png';
-import stafaAudgeImg from "../../public/assets/stafaAudgeImg.png";
-import img1 from "../../public/assets/Layer 0 (1).png";
-import img2 from "../../public/assets/Mask group (1).png";
-import img7 from "../../public/assets/Layer 1 (1).png";
-import img8 from "../../public/assets/Group 71929 (1).png";
-import img9 from "../../public/assets/Layer 1 6 (1).png";
-import img10 from "../../public/assets/protrucks 1 (1).png";
-import img12 from "../../public/assets/Rectangle 18298.png";
-import img13 from "../../public/assets/Group 1000007475.png";
-import img14 from "../../public/assets/Group 1000007474.png";
-import img15 from "../../public/assets/Group 1000007473.png";
-import img16 from "../../public/assets/Group 1000007395.jpg";
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
-import Image from "next/image";
+
 import Footer from "../COMMON/Footer";
 import Navbar from "../COMMON/Navbar";
 import '../globals.css'
-// import {
-//   Accordion,
-//   AccordionItem,
-//   AccordionItemHeading,
-//   AccordionItemButton,
-//   AccordionItemPanel,
-// } from 'react-accessible-accordion';
+
 import ContactForm from "../COMMON/ContactForm";
 import Link from "next/link";
 import StaffFAQ from "../COMMON/StaffFAQ";
-// import { NavLink } from "react-router-dom";
-// import { Helmet } from "react-helmet";
+
 const StafArgu = ({notify}) => {
 
 

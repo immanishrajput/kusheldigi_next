@@ -1,12 +1,6 @@
 "use client"
 import React from 'react'
-// import "./section6.css"
-import settingImg from "../../../public/assets/setingimg.png"
-import settingImg2 from "../../../public/assets/settingImg2.png"
-import settingImg3 from "../../../public/assets/settingImg3.png"
-import settingImg4 from "../../../public/assets/settingImg4.png"
-import settingImg5 from "../../../public/assets/settingImg5.png"
-import settingImg6 from "../../../public/assets/settingImg6.png"
+
 
 const data = [
     {

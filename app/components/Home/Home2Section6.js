@@ -4,7 +4,7 @@ import { MdArrowOutward } from "react-icons/md";
 import Link from 'next/link';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
-import Image from "next/image";
+
 const data = [
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1724767163/Rectangle_30182_1_ynn34p.png",

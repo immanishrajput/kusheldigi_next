@@ -1,9 +1,5 @@
 import React from 'react'
-import img14 from "../../public/assets/earthpap.png";
-import img15 from "../../public/assets/Group 1000006826.png";
-import img16 from "../..//public/assets/shot.png";
-import img18 from "../../public/assets/Group 1000006829.png";
-import img19 from "../../public/assets/Frame (1).png";
+
 
 const Process = () => {
   return (

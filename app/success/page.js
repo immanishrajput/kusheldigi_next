@@ -1,7 +1,6 @@
 "use client"
 import React from 'react'
-import tge from '../../public/assets/tge.png'
-import Image from 'next/image'
+
 import Link from 'next/link'
 import "../globals.css"
 

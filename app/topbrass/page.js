@@ -2,44 +2,17 @@
 "use client"
 
 import React, { useState, useEffect } from "react";
-import pick2 from "../../public/assets/pick2.png";
-import angrag from "../../public/assets/angrag.png";
-import stepback from "../../public/assets/stepback.png";
-import stepback1 from "../../public/assets/stepback1.png";
-import kick5 from "../../public/assets/kick5.png";
-import arrow4 from "../../public/assets/arrow4.png";
-import conjun from "../../public/assets/conjun.png";
-import azib2 from "../../public/assets/azib2.png";
-import azib3 from "../../public/assets/azib3.png";
-import azib4 from "../../public/assets/azib4.png";
+
 
 // import { NavLink } from "react-router-dom";
 
 import Link from "next/link";
-import rel1 from "../../public/assets/rel1.png";
-import rel2 from "../../public/assets/rel2.png";
-import rel3 from "../../public/assets/rel3.png";
+;
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import opqweeeeeee from "../../public/assets/opqweeeeeee.png";
-import opqweeeeeee2 from "../../public/assets/opqweeeeeee2.png";
-import opqweeeeeee3 from "../../public/assets/opqweeeeeee3.png";
-import img1 from "../../public/assets/Mask group.png";
-import img0 from "../../public/assets/Group 1000006637.png";
 
-import img2 from "../../public/assets/1200x630wa (1) 1.png";
-import img3 from "../../public/assets/circle.png";
-import img4 from "../../public/assets/Group 1000004718.png";
-import img5 from "../../public/assets/Group 1000004715.png";
-import img6 from "../../public/assets/Group 1000004716.png";
-import img7 from "../../public/assets/Aboust us sx (1).png";
-import img8 from "../../public/assets/HOME 2 (1).png";
-import img9 from "../../public/assets/Aboust us Header (1).png";
-import img10 from "../../public/assets/Shop now Header 1 (1).png";
-import img11 from "../../public/assets/Login Screen 1 (1).png";
-import img12 from "../../public/assets/Group 1000006505 (1).png";
-import img13 from "../../public/assets/Group 1000006500 (1).png";
-import matsection from "../../public/assets/matsection.png";
+
+
 
 
 // import "../components/css/app2.css";
@@ -47,36 +20,8 @@ import matsection from "../../public/assets/matsection.png";
 
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
-import whatsApp from "../../public/assets/whatsapp.png";
-import call from "../../public/assets/telephone.png"
 
 
-import ai from "../../public/assets/ai.svg";
-import testo from '../../public/assets/testo.png'
-import tim1 from '../../public/assets/tim1.svg';
-import tim2 from '../../public/assets/tim2.svg';
-import markanda from '../../public/assets/markanda.svg';
-import yosuf from '../../public/assets/yosuf.svg';
-import yosuf1 from '../../public/assets/yosuf1.svg';
-import platai from '../../public/assets/platai.svg';
-import tii1 from '../../public/assets/tii1.svg'
-import tii2 from '../../public/assets/tii2.svg'
-import tii3 from '../../public/assets/tii3.svg'
-import chanderi from '../../public/assets/chanderi.svg';
-import alisa from '../../public/assets/alisa.svg';
-import inki1 from '../../public/assets/inki1.svg'
-import inki2 from '../../public/assets/inki2.svg'
-import inki3 from '../../public/assets/inki3.svg'
-import Topo from '../../public/assets/topo.svg';
-import logowh from '../../public/assets/logoWh.svg';
-import tele from '../../public/assets/tele.svg';
-import zva from '../../public/assets/zva.svg';
-import seto from '../../public/assets/seto.svg';
-import ele from '../../public/assets/elle.svg';
-import skl1 from '../../public/assets/skl1.svg';
-import skl2 from '../../public/assets/skl2.svg';
-import skl3 from '../../public/assets/skl3.svg';
-import Image from "next/image";
 import '../globals.css'
 
 const TopBrass = () => {
