@@ -21,6 +21,7 @@ function Home2Section3() {
 
         {/* right side */}
         <div className="h2sec3right">
+          <picture>
           <Image
             src="https://res.cloudinary.com/ecommerce-website/image/upload/v1724772165/h2eyecircle.fcd4d72cd47863e08805_owlam2.webp"
             alt="Eye Circle"
@@ -28,6 +29,7 @@ function Home2Section3() {
             width={475}
             height={475}
           />
+          </picture>
           <Image
             src="https://res.cloudinary.com/ecommerce-website/image/upload/v1724772257/h2eye.49d420b021e30ddb51ab_xrmd6o.webp"
             alt="about kushel digi solutions"
