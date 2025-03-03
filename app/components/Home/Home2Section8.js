@@ -37,7 +37,7 @@ function Home2Section8() {
                             <div className="sEcoRight">
                                 <p className="scoripara1">{d.para}</p>
                                 <div className="leamorediv">
-                                <Link key={i} href={d.link}>
+                                <Link aria-label='bigcommerce development' key={i} href={d.link}>
                                     <p className="text32">LEARN MORE</p>
                                     </Link>
                                     <p className="textbelowline"></p>

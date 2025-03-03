@@ -88,7 +88,7 @@ function Home2Banner() {
             />
           </div>
 
-          <Link href="/contact-us">
+          <Link aria-label="contat-us" href="/contact-us">
             <div className="h2bantakCir">
               <MdArrowOutward className="mdarrwouward" />
               <p>Let’s Talk</p>
@@ -98,7 +98,7 @@ function Home2Banner() {
       </div>
 
       <div className="hoebancon2">
-        <Link href="/contact-us">
+        <Link aria-label="contact-us" href="/contact-us">
           <div className="h2bantakCir2">
             <MdArrowOutward className="mdarrwouward2" />
             <p>Let’s Talk</p>

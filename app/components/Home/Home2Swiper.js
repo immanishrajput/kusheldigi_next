@@ -23,6 +23,7 @@ function Home2Swiper() {
     <div className="h2swiperwrap">
       <div className="h2swipcont">
         <Splide
+        aria-label='image-slider'
           ref={splideRef}
           options={{
             type: "loop",
@@ -33,6 +34,7 @@ function Home2Swiper() {
             autoplay: true,
             pagination: false,
             arrows: false,
+            accessibility: false,
             breakpoints: {
               550: {
                 perPage: 7,
@@ -89,7 +91,7 @@ function Home2Swiper() {
               link:"#"
             },
           ].map((slide, index) => (
-            <SplideSlide key={index}>
+            <SplideSlide aria-hidden="false" key={index}>
               <div className="singswiperdiv">
                <a href={slide.link}>
                <Image
