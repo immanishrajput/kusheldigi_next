@@ -20280,7 +20280,7 @@ width: 480px;
 
 @media (max-width:800px) {
   #hemesh-seo-kushel .seo_flex_left p {
-    text-align: center !important
+    text-align: left !important
   }
 
   #hemesh-seo-kushel .seo_flex {
@@ -20434,7 +20434,9 @@ margin-left: 40px;
     font-weight: 600;
     line-height: 32px
   }
-
+  #hemesh-seo-kushel .button1{
+    text-align: center;
+  }
   #hemesh-seo-kushel .seo_flex_left h1 span {
     font-size: 28px
   }
@@ -20446,7 +20448,8 @@ margin-left: 40px;
   #hemesh-seo-kushel .seo_flex_left p {
     max-width: 100% !important;
     font-size: 16px;
-    font-weight: 300
+    font-weight: 300;
+    text-align: center !important;
   }
 
   #hemesh-seo-kushel .seo_flex6 h3 {
