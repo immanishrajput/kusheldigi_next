@@ -133,22 +133,27 @@ const Footer = () => {
                       target="_blank"
                       href="https://www.linkedin.com/company/kusheldigisolutions/" rel="noopener"
                     >
-                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740224179/linkedin_logo-01_gvkq3i.png' alt="linkedin" />
+                       {/* https://res.cloudinary.com/dd9tagtiw/image/upload/v1740224179/linkedin_logo-01_gvkq3i.png */}
+                      <img width={20} height={15} src='https://res.cloudinary.com/dgif730br/image/upload/v1741074958/linkedin_logo-01_gvkq3i_ccm6sd.png' alt="linkedin" />
                     </a>
                     <a target="_blank" href="https://www.instagram.com/kusheldigi/" rel="noopener">
-                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740224179/instagram_logo-01_dzqg3b.png' alt="iconm" />
+                    {/* https://res.cloudinary.com/dd9tagtiw/image/upload/v1740224179/instagram_logo-01_dzqg3b.png */}
+                      <img width={20} height={15} src='https://res.cloudinary.com/dgif730br/image/upload/v1741075336/instagram_logo-01_dzqg3b_xzp4ys.png' alt="iconm" />
                     </a>
                     <a
                       target="_blank"
                       href="https://www.facebook.com/kusheldigisolutions/" rel="noopener"
                     >
-                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740224178/facebook_logo-01_b88kjo.png' alt="icon" />
+                      {/* https://res.cloudinary.com/dd9tagtiw/image/upload/v1740224178/facebook_logo-01_b88kjo.png */}
+                      <img width={20} height={15} src='https://res.cloudinary.com/dgif730br/image/upload/v1741075570/facebook_logo-01_b88kjo_mhhfn3.png' alt="icon" />
                     </a>
                     <a  target="_blank" href="https://twitter.com/KushelDigisoln" rel="noopener">
-                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740224179/twitter_logo-01_xh3vqk.png' alt="young2" />
+                    {/* https://res.cloudinary.com/dd9tagtiw/image/upload/v1740224179/twitter_logo-01_xh3vqk.png */}
+                      <img width={20} height={15} src='https://res.cloudinary.com/dgif730br/image/upload/v1741075813/twitter_logo-01_xh3vqk_ksousv.png' alt="young2" />
                     </a>
                     <a target="_blank" href="https://www.behance.net/kushelsolucti" rel="noopener">
-                      <img style={{ filter: "invert(1)" }} src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1740224178/behance_logo-01_x6vc9l.png" alt="young1" />
+                    {/* https://res.cloudinary.com/dd9tagtiw/image/upload/v1740224178/behance_logo-01_x6vc9l.png */}
+                      <img width={20} height={15} style={{ filter: "invert(1)" }} src="https://res.cloudinary.com/dgif730br/image/upload/v1741076143/behance_logo-01_x6vc9l_kqf8gs.png" alt="young1" />
                     </a>
                   
                   </div>
