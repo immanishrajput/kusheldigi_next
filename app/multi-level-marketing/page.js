@@ -350,15 +350,7 @@ function Mlm() {
   return (
     <>
     <Navbar/>
-      {/* <Helmet>
-
-        <title>Your stop for best MLM Software Development Company</title>
-        <meta
-          name="description"
-          content="Kushel Digi Solutions is one of the best MLM Software development company with unique services such as Uni-Level Plan, Binary Plan, Single-Leg Plan, and more."
-        />
-        <link rel="canonical" href="https://www.kusheldigi.com/multi-level-marketing" />
-      </Helmet> */}
+      
 
 
       <div className="ser-main">

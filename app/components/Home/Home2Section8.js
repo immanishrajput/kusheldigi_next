@@ -1,6 +1,6 @@
 import  './section8.css'; // Use CSS Modules
 import Link from 'next/link'; // Use Next.js Link component for routing
-
+import { useRouter } from 'next/navigation';
 const data = [
     {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1724770190/bgcoms8.b465562a07f65049cbad_j64pv6.webp", 
@@ -17,6 +17,7 @@ const data = [
 ];
 
 function Home2Section8() {
+  const navigate = useRouter()
   return (
     <div className="h2s8wrap">
         <div className="h2s8cont">
@@ -29,7 +30,7 @@ function Home2Section8() {
             <div className="ecoTechBoxes">
                 {data?.map((d, i) => (
                     // <Link key={i} href={d.link}>
-                        <div className="singleEcoBox">
+                        <div key={i} className="singleEcoBox">
                             {/* Left side */}
                             <img src={d.img} alt="kushel" title={d?.alt} />
 
@@ -37,9 +38,9 @@ function Home2Section8() {
                             <div className="sEcoRight">
                                 <p className="scoripara1">{d.para}</p>
                                 <div className="leamorediv">
-                                <Link aria-label='bigcommerce development' key={i} href={d.link}>
-                                    <p className="text32">LEARN MORE</p>
-                                    </Link>
+                                
+                                    <p onClick={() => navigate.push(`${d?.link}`)} className="text32">LEARN MORE</p>
+                                  
                                     <p className="textbelowline"></p>
                                 </div>
                             </div>

@@ -87,7 +87,8 @@ const jsonLd = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-       <Script
+     <head>
+     <Script
         id="faq-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -103,6 +104,7 @@ export default function RootLayout({ children }) {
             gtag('config', 'G-K7DSK87RV0', { page_path: window.location.pathname });
           `  
         }} />
+     </head>
       <body>{children}</body>
     </html>
   );
