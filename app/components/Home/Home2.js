@@ -7,9 +7,9 @@ const Home2 = () => {
       <p>Award-winning Agency Partner</p>
       <div>
         <a href="https://partners.bigcommerce.com/directory/partner/1983347/kushel-digi-solutions">
-        <img src='https://res.cloudinary.com/dgif730br/image/upload/v1741089039/asit-sir-C-01_vj8heh.png' alt='certified' height={170} width={170}></img></a>
+        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741249234/bigcommer_certified_logo-01_sxbcde.svg' alt='certified' height={55} width={170}></img></a>
       </div>
-      <div><img src='https://res.cloudinary.com/dgif730br/image/upload/v1741089039/asit-sir-B-01_rytq2t.png' alt='partner' height={170} width={170}></img> </div>
+      <div><img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741249233/big_commerce_partner_logo-01_qscsrf.svg' alt='partner' height={55} width={170}></img> </div>
     </div>
     // </div>
   )

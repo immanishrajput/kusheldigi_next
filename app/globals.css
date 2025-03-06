@@ -81041,8 +81041,8 @@ textarea {
 .aboutcont {
     position: relative;
     width: 100%;
-    height: 100%;
-    height: 444px;
+    /* height: 100%; */
+    height: 440px;
     display: flex;
     align-items: center;
     justify-content: center;
