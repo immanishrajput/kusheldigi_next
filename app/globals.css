@@ -81036,7 +81036,11 @@ textarea {
     /* position: relative; */
     /* z-index: 100; */
 }
-
+@media (max-width:564px){
+  .aboutwrap {
+    padding-top: 10rem;
+  }
+}
 
 .aboutcont {
     position: relative;
