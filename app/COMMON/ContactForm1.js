@@ -247,14 +247,16 @@ const ContactForm1 = ({ notify }) => {
           onChange={handleCaptchaChange}
         /> */}
                        <div className="captchaArea">
-                            <span className="captchaBox">{firstCaptchaNo}</span>
+                           <div>
+                           <span className="captchaBox">{firstCaptchaNo}</span>
                             <span className="operator">+</span>
                             <span className="captchaBox">{secondCaptchaNo}</span>
                             <span className="operator">=</span>
                             <input className="captchaInputBox" onChange={(e)=> setCaptchaAns(e.target.value)} type="number" maxLength={2}/>
+                           </div>
+                        <span className="captchaButton" onClick={handleVerifyCaptcha}>Verify Captcha</span>
                         </div> 
                         
-                        <button className="captchaButton" onClick={handleVerifyCaptcha}>Verify Captcha</button>
 
                         <button type="submit" className="letConnecBtn">
                             {loading ? <div className="spinner33"></div> : <span>Lets Connect</span>}
