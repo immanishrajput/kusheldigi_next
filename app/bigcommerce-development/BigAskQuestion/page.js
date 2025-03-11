@@ -1,10 +1,9 @@
 "use client"
-import React, { useState } from 'react';
+import React, { useState } from "react";
+import '../../COMMON/FAQ.css'
+import Head from "next/head";
 
-import Head from 'next/head';
-
-
-const data = [
+const FaqData = [
   {
     question: 'What is the timeline for a BigCommerce development project?',
     answer: 'The timeline varies based on the complexity of the project, but a standard BigCommerce store can take anywhere from 4 to 8 weeks from discovery to deployment.',
@@ -35,17 +34,16 @@ const data = [
   },
 ];
 
-function BigAskQuestion() {
-  const [openIndex, setOpenIndex] = useState(null);
+const FAQ = () => {
+  const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleAnswer = (index) => {
-    setOpenIndex(openIndex === index ? null : index);
+    setActiveIndex(activeIndex === index ? null : index);
   };
 
   return (
-    <div className='home2asqueswrap'>
-
-<Head>
+    <section className="faqr-section">
+      <Head>
         {/* Open Graph (OG) Meta Tags */}
         <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
         <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
@@ -60,29 +58,26 @@ function BigAskQuestion() {
         <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
         <meta name="twitter:url" content="https://www.kusheldigi.com/" />
       </Head>
-      
-      <div className='h2asqucont'>
-        
-        <h3>Frequently Asked Questions</h3>
-
-        <div className='questionss'>
-          {data.map((d, i) => (
-            <div key={i} className='singlquestion'>
-              {/* Top question */}
-              <div className='quetiobtn' onClick={() => toggleAnswer(i)}>
-                <p>{d.question}</p>
-                <img className='cursor-pointer ' src={openIndex === i ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740481940/-_j8sfvf.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740481904/zt00wkerhyfn1qbvqc5j.png'} alt='Toggle' />
-              </div>
-
-              {/* Bottom answer */}
-              <p className={`answer  ${openIndex === i ? 'visible' : ''}`}>{d.answer}</p>
+      <h2>Frequently Asked Questions ?</h2>
+      <div className="faqr-container">
+        {FaqData.map((item, index) => (
+          <div className={`faqr-item ${activeIndex === index ? "expanded" : ""}`} key={index}>
+            <div className="faqr-question">
+              <h4 className="questionFAQR">{item.question}</h4>
+              <button className="toggle-btn" onClick={() => toggleAnswer(index)}>
+                {activeIndex === index ? "-" : "+"}
+              </button>
             </div>
-          ))}
-        </div>
-
+            <p className="faqr-answer">
+              {item.answer}
+            </p>
+          </div>
+        ))}
       </div>
-    </div>
+    </section>
   );
-}
+};
 
-export default BigAskQuestion;
+export default FAQ;
+
+

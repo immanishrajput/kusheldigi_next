@@ -382,75 +382,7 @@ const ReactJsHire = () => {
 
                 <ServiceCommon/>
 
-                {/* <div className="home9 py-12 bigcom9">
-                    <div className="home91 flex px-24 dine-1234">
-                        <div className="home911 text-center FAQ-1">
-                            <h2 className="font-bold text-gray-700">Frequently Asked<br/> Questions</h2>
-                        </div>
-                        <div className="home912 FAQ-1">
-                            <Accordion allowZeroExpanded>
-                                <AccordionItem>
-                                    <AccordionItemHeading>
-                                        <AccordionItemButton>
-                                        How do I hire ReactJS developers?
-                                        </AccordionItemButton>
-                                    </AccordionItemHeading>
-                                    <AccordionItemPanel>
-                                        <p>
-                                            Exercitation in fugiat est ut ad ea cupidatat ut in
-                                            cupidatat occaecat ut occaecat consequat est minim minim
-                                            esse tempor laborum consequat esse adipisicing eu
-                                            reprehenderit enim.
-                                        </p>
-                                    </AccordionItemPanel>
-                                </AccordionItem>
-                                <AccordionItem>
-                                    <AccordionItemHeading>
-                                        <AccordionItemButton>
-                                        Are ReactJS Developers in demand?
-                                        </AccordionItemButton>
-                                    </AccordionItemHeading>
-                                    <AccordionItemPanel>
-                                        <p>
-                                            In ad velit in ex nostrud dolore cupidatat consectetur ea
-                                            in ut nostrud velit in irure cillum tempor laboris sed
-                                            adipisicing eu esse duis nulla non.
-                                        </p>
-                                    </AccordionItemPanel>
-                                </AccordionItem>
-                                <AccordionItem>
-                                    <AccordionItemHeading>
-                                        <AccordionItemButton>
-                                        What is the cost of hiring a ReactJS developer?
-                                        </AccordionItemButton>
-                                    </AccordionItemHeading>
-                                    <AccordionItemPanel>
-                                        <p>
-                                            In ad velit in ex nostrud dolore cupidatat consectetur ea
-                                            in ut nostrud velit in irure cillum tempor laboris sed
-                                            adipisicing eu esse duis nulla non.
-                                        </p>
-                                    </AccordionItemPanel>
-                                </AccordionItem>
-                                <AccordionItem>
-                                    <AccordionItemHeading>
-                                        <AccordionItemButton>
-                                        Why should I hire a ReactJS developer from Kushel Digi?
-                                        </AccordionItemButton>
-                                    </AccordionItemHeading>
-                                    <AccordionItemPanel>
-                                        <p>
-                                            In ad velit in ex nostrud dolore cupidatat consectetur ea
-                                            in ut nostrud velit in irure cillum tempor laboris sed
-                                            adipisicing eu esse duis nulla non.
-                                        </p>
-                                    </AccordionItemPanel>
-                                </AccordionItem>
-                               
-                            </Accordion>
-                        </div>
-                    </div>
-                </div> */}
+              
                 <ReactHireFAQ/>
 
                 <div className="whtsApBtns">

@@ -1,7 +1,7 @@
 "use client"
-import React, { useEffect, useState } from 'react';
-
-const data = [
+import React, { useEffect, useState } from "react";
+import '../../COMMON/FAQ.css'
+const FaqData = [
   {
     question: 'What is Shopify, and how does it work?',
     answer: 'Shopify is an eCommerce platform that allows businesses to create, customize, and manage their online stores more efficiently. It provides an easy interface, multiple design templates, and integrations to make the process of selling your products online much easier.',
@@ -30,15 +30,15 @@ const data = [
     question: 'Is Shopify SEO-friendly?',
     answer: "Yes, Shopify is SEO-friendly and includes built-in features like customizable meta tags, sitemaps, and URL structures to help improve your store's visibility on search engines.",
   },
+ 
 ];
 
-function BigAskQuestion() {
-  const [openIndex, setOpenIndex] = useState(null);
+const FAQ = () => {
+  const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleAnswer = (index) => {
-    setOpenIndex(openIndex === index ? null : index);
+    setActiveIndex(activeIndex === index ? null : index);
   };
-
   const generateMetadata = ({ params }) => ({
     title: 'KushelDigi Solutions- Top shopify development company',
     description:"Kushel Digi Solutions experience, you can unlock Shopify's full potential Put your trust in the Shopify development services to build your online success."
@@ -52,32 +52,26 @@ function BigAskQuestion() {
     metaDescription ? metaDescription.content = description : 
       document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
   }, []);
-
-
   return (
-    <div className='home2asqueswrap'>
-      <div className='h2asqucont'>
-        
-        <h3>Frequently Asked Questions</h3>
-
-        <div className='questionss'>
-          {data.map((d, i) => (
-            <div key={i} className='singlquestion'>
-              {/* Top question */}
-              <div className='quetiobtn' onClick={() => toggleAnswer(i)}>
-                <p>{d.question}</p>
-                <img className='cursor-pointer ' src={openIndex === i ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739428804/-_juirhp.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739428756/tmw6o1ekaq7hnjynfl9a.png'} alt='Toggle' />
-              </div>
-
-              {/* Bottom answer */}
-              <p className={`answer  ${openIndex === i ? 'visible' : ''}`}>{d.answer}</p>
+    <section className="faqr-section">
+      <h2>Frequently Asked Questions ?</h2>
+      <div className="faqr-container">
+        {FaqData.map((item, index) => (
+          <div className={`faqr-item ${activeIndex === index ? "expanded" : ""}`} key={index}>
+            <div className="faqr-question">
+              <h4 className="questionFAQR">{item.question}</h4>
+              <button className="toggle-btn" onClick={() => toggleAnswer(index)}>
+                {activeIndex === index ? "-" : "+"}
+              </button>
             </div>
-          ))}
-        </div>
-
+            <p className="faqr-answer">
+              {item.answer}
+            </p>
+          </div>
+        ))}
       </div>
-    </div>
+    </section>
   );
-}
+};
 
-export default BigAskQuestion;
+export default FAQ;

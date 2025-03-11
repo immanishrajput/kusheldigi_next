@@ -17,7 +17,7 @@ import Home2BrandSwiper from './components/Home/Home2BrandSwiper';
 import Home2Testimonial from './components/Home/Home2Testimonial';
 import Home2AskQuestion from './components/Home/Home2AskQuestion';
 
-
+import HomeTech from './components/Home/HomeTech';
 // import Navbar from './components/Home/Navbar';
 import './globals.css'
 import Footer from './COMMON/Footer';
@@ -79,6 +79,7 @@ const HomePage = ({props}) => {
         <Home2Section5 />
         <Home2Section6 />
         <Home2Section7 />
+        {/* <HomeTech/> */}
         <Home2Section8 />
         <Home2Section9 />
         <Home2Section10

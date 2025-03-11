@@ -48505,7 +48505,7 @@ width: 230px;
 
 .boost_sect a {
   display:flex;
-  width: 109px;
+  width: 100%;
   margin: 0 auto;
   align-items: center;
   justify-content: center
@@ -49358,7 +49358,11 @@ width: 230px;
   width: 100%;
   width: 540px;
 }
-
+@media (max-width:450px){
+.grap12 img{
+  width: 100%;
+}
+}
 .graphic_back1 p {
   color: #fff;
   font-size: 18.5px;
@@ -79013,10 +79017,10 @@ margin-top: 10px;
         height: 18vh !important
     }
 }
-
+/* 
 .ser-main {
     overflow-x: hidden
-}
+} */
 
 @media (max-width:1400px) {
     .softwareProduct .products {

@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
-
-
-
-const data = [
+import React, { useState } from "react";
+import './FAQ.css'
+const FaqData = [
+ 
   {
     question: 'What does your Android development agency have to offer?',
     answer: 'Comprehensive Solutions are the key. We are an Android development agency providing full service, from concept to conclusion. Your mobile applications will pass seamlessly through the thick and thin of a complex process, smoothly transformed at every level.',
@@ -23,40 +22,36 @@ const data = [
     question: 'Is post-launch support and maintenance offered for developed apps?',
     answer: "Yes, Continuous Assistance is provided. Post-release support and maintenance services ensure your app remains up-to-date, running optimally in the ever-changing Android ecosystem.",
   },
- 
-  
 ];
 
-function AndroidHireFAQ() {
-  const [openIndex, setOpenIndex] = useState(null);
+const FAQ = () => {
+  const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleAnswer = (index) => {
-    setOpenIndex(openIndex === index ? null : index);
+    setActiveIndex(activeIndex === index ? null : index);
   };
 
   return (
-    <div className='home2asqueswrap'>
-      <div className='h2asqucont'>
-        
-        <h3>Frequently Asked Questions</h3>
-
-        <div className='questionss'>
-          {data.map((d, i) => (
-            <div key={i} className='singlquestion'>
-              <div className='quetiobtn' onClick={() => toggleAnswer(i)}>
-                <p>{d.question}</p>
-                <img className='cursor-pointer ' src={openIndex === i ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1738997122/-_x52juq.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1738997032/bexi9p1tl5ahvuroe24b.png'} alt='Toggle' />
-              </div>
-
-              {/* Bottom answer */}
-              <p className={`answer ${openIndex === i ? 'visible' : ''}`}>{d.answer}</p>
+    <section className="faqr-section">
+      <h2>Frequently Asked Questions ?</h2>
+      <div className="faqr-container">
+        {FaqData.map((item, index) => (
+          <div className={`faqr-item ${activeIndex === index ? "expanded" : ""}`} key={index}>
+            <div className="faqr-question">
+              <h4 className="questionFAQR">{item.question}</h4>
+              <button className="toggle-btn" onClick={() => toggleAnswer(index)}>
+                {activeIndex === index ? "-" : "+"}
+              </button>
             </div>
-          ))}
-        </div>
-
+            <p className="faqr-answer">
+              {item.answer}
+            </p>
+          </div>
+        ))}
       </div>
-    </div>
+    </section>
   );
-}
+};
 
-export default AndroidHireFAQ;
+export default FAQ;
+

@@ -274,6 +274,7 @@ const FluterHire = () => {
                         <h3>We hold the key to making your app rule the digital space</h3>
                         <p>Let's work together</p>
                         <div className="boost_button boost_button1">
+                          
                         <Link href="/contact-us">
                             <button>HIRE NOW</button> </Link>
                         </div>

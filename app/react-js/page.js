@@ -7,7 +7,7 @@ import Head from 'next/head';
 
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
-
+import ReactFAQ from '../COMMON/ReactFAQ'
 import '../globals.css'
 
 
@@ -350,6 +350,7 @@ const Reactjsdev = () => {
         </div>
 
       </div>
+      <ReactFAQ/>
       <Footer/>
     </>
   );
