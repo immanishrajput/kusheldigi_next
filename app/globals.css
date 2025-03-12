@@ -4,7 +4,7 @@
 @import "animate.css";
 
 
- @font-face{
+ /* @font-face{
   font-family: "sf-ui-display-medium";
   src:local("sf-ui-display-medium")
     url("../public/font/sf-ui-display-cufonfonts/sf-ui-display-medium-58646be638f96.otf") format("truetype")
@@ -13,7 +13,7 @@
   font-family: "sf-ui-display-regular";
   src:local("sf-ui-display-regular")
     url("../public/font/SF-UI-Display-Regular/SF_UI_Display_Regular.ttf") format("truetype")
- }
+ } */
 *{
   font-family: "Poppins", sans-serif !important;
   box-sizing: border-box;
@@ -45,13 +45,13 @@
 
 .change {
     color: #0142E1;
-    font-family: Proxima Nova Alt;
+    /* font-family: Proxima Nova Alt; */
     font-size: 35px;
     font-weight: 300
 }
 
 .bold {
-    font-family: Proxima Nova Alt;
+    /* font-family: Proxima Nova Alt; */
     font-size: 35px;
     font-weight: 700
 }
@@ -65,7 +65,7 @@
 
 .paragraph {
     color: #33475B;
-    font-family: Proxima Nova;
+    /* font-family: Proxima Nova; */
     font-size: 18.5px;
     font-style: normal;
     font-weight: 400;
@@ -786,7 +786,7 @@
 }
 
 .shoots_premium {
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
     font-size: 19px;
     letter-spacing: 1.2px;
     text-align: left;
@@ -832,7 +832,7 @@
 }
 
 .service-hinking {
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
     font-size: 32px;
     font-weight: 700;
     letter-spacing: .01em;
@@ -880,7 +880,7 @@
 
 .inner-third-local>p {
   text-align: center;
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
     font-size: 30px;
     font-weight: 400;
     margin-bottom: 2.5rem;
@@ -959,7 +959,7 @@
 .hoo {
     font-size: 40px;
     color: #33475b;
-    font-family: "Arial";
+    /* font-family: "Arial"; */
     font-weight: 400;
     margin-right: 5rem
 }
@@ -967,7 +967,7 @@
 .dark-canny {
     font-size: 47px;
     color: #33475b;
-    font-family: "Arial";
+    /* font-family: "Arial"; */
     font-weight: 700;
     margin-right: 5rem
 }
@@ -975,14 +975,14 @@
 .medium {
     font-size: 40px;
     color: #33475b;
-    font-family: "Arial";
+    /* font-family: "Arial"; */
     font-weight: 600
 }
 
 .tool {
     padding-top: 4rem;
     font-size: 30px;
-    font-family: "Arial";
+    /* font-family: "Arial"; */
     font-weight: 700;
     line-height: 50px;
     letter-spacing: 0em;
@@ -1078,7 +1078,7 @@
 
 .intutive {
   text-align: center;
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
     font-size: 30px;
     font-weight: 700;
     letter-spacing: .04em;
@@ -1596,7 +1596,7 @@ width: 100%;
 }
 
 .hr111 {
-    font-family: Proxima Nova;
+    /* font-family: Proxima Nova; */
     font-size: 34px;
     font-style: normal;
     font-weight: 700;
@@ -1605,7 +1605,7 @@ width: 100%;
 }
 
 .pr1 {
-    font-family: Proxima Nova;
+    /* font-family: Proxima Nova; */
     font-size: 19px;
     font-style: normal;
     font-weight: 400;
@@ -1618,7 +1618,7 @@ width: 100%;
 }
 
 .pr2 {
-    font-family: Proxima Nova;
+    /* font-family: Proxima Nova; */
     font-size: 19px;
     font-style: normal;
     line-height: 30px;
@@ -1648,7 +1648,7 @@ width: 100%;
 }
 
 .hr2 {
-    font-family: Proxima Nova;
+    /* font-family: Proxima Nova; */
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -1656,7 +1656,7 @@ width: 100%;
 }
 
 .pr3 {
-    font-family: Proxima Nova;
+    /* font-family: Proxima Nova; */
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1683,7 +1683,7 @@ width: 100%;
 }
 
 .hr3 {
-    font-family: Proxima Nova;
+    /* font-family: Proxima Nova; */
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -48317,7 +48317,7 @@ width: 230px;
 }
 
 .skyRoket button {
-  font-family: 'sf-ui-display-medium', sans-serif !important;
+  /* font-family: 'sf-ui-display-medium', sans-serif !important;- */
   align-items: center;
   background-color: #0B56E4;
   border: none;
@@ -48512,7 +48512,7 @@ width: 230px;
 }
 
 .boost_sect button {
-  font-family: 'sf-ui-display-medium', sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   align-items: center;
   background-color: #0B56E4;
   border: none;
@@ -48721,7 +48721,7 @@ width: 230px;
 }
 
 .premium {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 19px;
   letter-spacing: 1.2px;
   text-align: left;
@@ -48741,7 +48741,7 @@ width: 230px;
   text-align: left;
   letter-spacing: 1px;
   color: whitesmoke;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-weight: 100
 }
 
@@ -48771,7 +48771,7 @@ width: 230px;
 }
 
 .service {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 32px;
   font-weight: 700;
   font-family: 'Poppins', sans-serif !important;
@@ -48823,7 +48823,7 @@ width: 230px;
 }
 
 .inner_third>p {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 30px;
   font-weight: 400;
   margin-bottom: 2.5rem;
@@ -48903,7 +48903,7 @@ width: 230px;
 .hoo {
   font-size: 40px;
   color: #33475b;
-  font-family: "Arial";
+  font-family:'Poppins', sans-serif !important;
   font-weight: 400;
   margin-right: 5rem
 }
@@ -48911,7 +48911,7 @@ width: 230px;
 .dark {
   font-size: 47px;
   color: #33475b;
-  font-family: "Arial";
+  font-family: 'Poppins', sans-serif !important;
   font-weight: 700;
   margin-right: 5rem
 }
@@ -48919,14 +48919,14 @@ width: 230px;
 .medium {
   font-size: 40px;
   color: #33475b;
-  font-family: "Arial";
+  font-family: 'Poppins', sans-serif !important;
   font-weight: 600
 }
 
 .tool {
   padding-top: 4rem;
   font-size: 30px;
-  font-family: "Arial";
+  font-family: 'Poppins', sans-serif !important;
   font-weight: 700;
   line-height: 50px;
   letter-spacing: 0em;
@@ -50230,7 +50230,7 @@ width: 230px;
 }
 
 .left_selling button {
-  font-family: 'sf-ui-display-medium',sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   align-items: center;
   background-color: #0B56E4;
   border: none;
@@ -50249,7 +50249,7 @@ width: 230px;
 }
 
 .left_selling button:hover {
-  font-family: 'sf-ui-display-medium',sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   background-color: #fff;
   border: 1px solid #0039ff;
   color: #0B56E4
@@ -50451,7 +50451,7 @@ width: 230px;
 }
 
 .suris_tech_left button {
-  font-family: 'sf-ui-display-medium',sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   align-items: center;
   background-color: #0B56E4;
   border: none;
@@ -50565,7 +50565,7 @@ width: 230px;
 }
 
 .theCom_right button {
-  font-family: 'sf-ui-display-medium',sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   align-items: center;
   background-color: #0B56E4;
   border: none;
@@ -50669,7 +50669,7 @@ width: 230px;
 }
 
 .tellUs_left button {
-  font-family: 'sf-ui-display-medium',sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   align-items: center;
   background-color: #0B56E4;
   border: none;
@@ -51118,7 +51118,7 @@ width: 230px;
 }
 
 .manbi-btn button {
-  font-family: 'sf-ui-display-medium',sans-serif !important;
+  font-family:'Poppins', sans-serif !important;
   max-width: 270px;
   width: 100%;
   align-items: center;
@@ -51138,7 +51138,7 @@ width: 230px;
 }
 
 .manbi-btn button:hover {
-  font-family: 'sf-ui-display-medium',sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   background-color: #fff;
   border: 1px solid #0039ff;
   color: #0B56E4
@@ -51409,7 +51409,7 @@ width: 230px;
 
 #add .pra2 {
   color: #33475b;
-  font-family: Proxima Nova;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -51446,7 +51446,7 @@ width: 230px;
 #add .heading-3 {
   text-align: center;
   color: #33475b;
-  font-family: Proxima Nova;
+  /* font-family: 'Poppins', sans-serif !important; */
   font-size: 31px;
   font-style: normal;
   font-weight: 700;
@@ -51456,7 +51456,7 @@ width: 230px;
 #add .pra3 {
   color: #33475b;
   text-align: center;
-  font-family: Proxima Nova;
+  /* font-family: 'Poppins', sans-serif !important; */
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -51471,7 +51471,7 @@ width: 230px;
 
 #hello .pre1 {
   color: #33475b;
-  font-family: Proxima Nova;
+  /* font-family: Proxima Nova; */
   font-size: 17px;
   font-style: normal;
   font-weight: 700
@@ -51479,7 +51479,7 @@ width: 230px;
 
 #hello .pre2 {
   color: #33475b;
-  font-family: Proxima Nova;
+  /* font-family: Proxima Nova; */
   font-size: 17px;
   font-style: normal;
   font-weight: 700
@@ -51567,7 +51567,7 @@ width: 230px;
 }
 
 .wordpress-back1 button {
-  font-family: 'sf-ui-display-medium',sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   max-width: 205px;
   width: 100%;
   /* margin-top: 30px; */
@@ -51588,7 +51588,7 @@ width: 230px;
 }
 
 .wordpress-back1 button:hover {
-  font-family: 'sf-ui-display-medium',sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   background-color: #fff;
   border: 1px solid #0039ff;
   color: #0B56E4
@@ -51613,13 +51613,13 @@ width: 230px;
   font-size: 34px;
   font-weight: 700;
   line-height: 40px;
-  font-family: Manrope;
+  font-family: 'Poppins', sans-serif !important;
   max-width: 16em;
   color: #1F2937
 }
 
 .amBran_para p {
-  font-family: Manrope;
+  font-family: 'Poppins', sans-serif !important;
   max-width: 38em;
   color: #404040;
   margin: 20px 0;
@@ -51653,7 +51653,7 @@ width: 230px;
   color: #FFF;
   font-weight: 700;
   font-size: 18px;
-  font-family: Manrope
+  /* font-family: Manrope */
 }
 
 .amBran-back1 button:hover {
@@ -51728,13 +51728,13 @@ width: 230px;
   line-height: 28.6px;
   letter-spacing: -.22 px;
   text-align: center;
-  font-family: Manrope;
+  /* font-family: Manrope; */
   width: 100%;
   margin: 0
 }
 
 .single_needBox h3 {
-  font-family: Manrope;
+  /* font-family: Manrope; */
   font-weight: 400;
   font-size: 14px;
   line-height: 30px;
@@ -51753,7 +51753,7 @@ width: 230px;
   letter-spacing: -.79 px;
   line-height: 44px;
   margin: 20px auto;
-  font-family: Manrope;
+  /* font-family: Manrope; */
   text-align: center;
   width: 18em
 }
@@ -51764,7 +51764,7 @@ width: 230px;
   font-weight: 400;
   text-align: center;
   line-height: 30px;
-  font-family: Manrope;
+  /* font-family: Manrope; */
   width: 40em;
   margin: 0 auto
 }
@@ -51789,14 +51789,14 @@ width: 230px;
   font-weight: 700;
   line-height: 28.6px;
   letter-spacing: -.22 px;
-  font-family: Manrope;
+  /* font-family: Manrope; */
   text-align: left;
   margin: 15px 0;
   width: 100%
 }
 
 .smo_singleSocial h3 {
-  font-family: Manrope;
+  /* font-family: Manrope; */
   font-weight: 400;
   font-size: 14px;
   line-height: 30px;
@@ -51815,7 +51815,7 @@ width: 230px;
   letter-spacing: -.79 px;
   line-height: 44px;
   margin: 20px auto;
-  font-family: Manrope;
+  /* font-family: Manrope; */
   text-align: center;
   width: 18em
 }
@@ -51826,7 +51826,7 @@ width: 230px;
   font-weight: 400;
   text-align: center;
   line-height: 30px;
-  font-family: Manrope;
+  /* font-family: Manrope; */
   width: 43em;
   margin: 0 auto
 }
@@ -51852,7 +51852,7 @@ width: 230px;
   font-weight: 700;
   line-height: 28.6px;
   letter-spacing: -.22 px;
-  font-family: Manrope;
+  /* font-family: Manrope; */
   text-align: left;
   margin: 15px 0;
   padding: 5px 20px;
@@ -51860,7 +51860,7 @@ width: 230px;
 }
 
 .smo_hireBox h3 {
-  font-family: Manrope;
+  /* font-family: Manrope; */
   font-weight: 400;
   font-size: 14px;
   line-height: 25px;
@@ -51881,7 +51881,7 @@ width: 230px;
 
 .word_press #SMOHireUsSec .smoHireUsWrapper h2 {
   color: #33475B;
-  font-family: Manrope;
+  /* font-family: Manrope; */
   font-weight: 700;
   font-size: 33px;
   line-height: 48px;
@@ -51891,7 +51891,7 @@ width: 230px;
 
 .word_press #SMOHireUsSec .smoHireUsWrapper p {
   color: #33475B;
-  font-family: Manrope;
+  /* font-family: Manrope; */
   font-weight: 400;
   font-size: 18px;
   line-height: 34px;
@@ -51916,7 +51916,7 @@ width: 230px;
 }
 
 .word_press #SMOHireUsSec .smoHireUsWrapper .SMOhireUsBoxes .singleSMOHireBox h3 {
-  font-family: Manrope;
+  /* font-family: Manrope; */
   font-weight: 700;
   font-size: 18px;
   line-height: 28.6px;
@@ -51926,7 +51926,7 @@ width: 230px;
 }
 
 .word_press #SMOHireUsSec .smoHireUsWrapper .SMOhireUsBoxes .singleSMOHireBox p {
-  font-family: Manrope;
+  /* font-family: Manrope; */
   font-weight: 400;
   font-size: 14px;
   line-height: 25px;
@@ -51997,7 +51997,7 @@ width: 230px;
 }
 
 .wordpress_about_left button {
-  font-family: 'sf-ui-display-medium',sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   max-width: 270px;
   width: 100%;
   align-items: center;
@@ -52019,7 +52019,7 @@ width: 230px;
 
 .wordpress_about_left button:hover {
   background-color: #fff;
-  font-family: 'sf-ui-display-medium',sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   border: 1px solid #0039ff;
   color: #0B56E4
 }
@@ -52085,7 +52085,7 @@ width: 230px;
 }
 .one_stet_sect button {
   max-width: 172px;
-  font-family: 'sf-ui-display-medium',sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   width: 100%;
   align-items: center;
   background-color: #0B56E4;
@@ -52105,7 +52105,7 @@ width: 230px;
 }
 
 .one_stet_sect button:hover {
-  font-family: 'sf-ui-display-medium',sans-serif !important;
+  font-family:'Poppins', sans-serif !important;
   background-color: #fff;
   border: 1px solid #0039ff;
   color: #0B56E4
@@ -52306,7 +52306,7 @@ width: 230px;
 }
 
 .kay_btn button {
-  font-family: 'sf-ui-display-medium',sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   max-width: 380px;
   width: 100%;
   align-items: center;
@@ -52429,7 +52429,7 @@ width: 230px;
 }
 
 .html_back1 button {
-  font-family: 'sf-ui-display-medium',sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   max-width: 270px;
   width: 100%;
   height: 64px;
@@ -52671,7 +52671,7 @@ width: 230px;
 
 .inner-third-local-PRO-TRUCKS>p {
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 30px;
   font-weight: 400;
   margin-bottom: 2.5rem;
@@ -52707,7 +52707,7 @@ width: 230px;
 }
 
 .inner-third-local-solenoid-s>p {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 30px;
   font-weight: 400;
   margin-bottom: 2.5rem;
@@ -53597,7 +53597,7 @@ width: 230px;
 }
 
 .node_dev_ss-back1 button {
-  font-family: 'sf-ui-display-medium',sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   max-width: 205px;
   width: 100%;
   align-items: center;
@@ -53618,7 +53618,7 @@ width: 230px;
 }
 
 .node_dev_ss-back1 button:hover {
-  font-family: 'sf-ui-display-medium',sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   background-color: #fff;
   border: 1px solid #0039ff;
   color: #0B56E4
@@ -53852,7 +53852,7 @@ width: 230px;
 }
 
 .node_dev_ss_ser_btn button {
-  font-family: 'sf-ui-display-medium',sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   align-items: center;
   background-color: #0B56E4;
   border: none;
@@ -53916,7 +53916,7 @@ width: 230px;
 }
 
 .node_dev_ss1-back1 button {
-  font-family: 'sf-ui-display-medium',sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   max-width: 270px;
   width: 100%;
   align-items: center;
@@ -54276,7 +54276,7 @@ width: 230px;
 
 .newAbout .ATeamParaBold {
   color: #0B56E4;
-  font-family: Manrope;
+  /* font-family: Manrope; */
   font-size: 40px;
   font-style: normal;
   font-weight: 800;
@@ -54348,7 +54348,7 @@ width: 230px;
 
 .newAbout .nwABTknwMr span {
   color: #FFF;
-  font-family: Manrope;
+  /* font-family: Manrope; */
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -54453,7 +54453,7 @@ width: 230px;
 
 .hoNwOurSerivce .HNSeLHead {
   color: #33475B;
-  font-family: Manrope;
+  /* font-family: Manrope; */
   font-size: 40px;
   font-style: normal;
   font-weight: 800;
@@ -54462,7 +54462,7 @@ width: 230px;
 
 .hoNwOurSerivce .hNSeLPa {
   color: #33475B;
-  font-family: Manrope;
+  /* font-family: Manrope; */
   font-size: 22px;
   font-style: normal;
   font-weight: 500;
@@ -54478,7 +54478,7 @@ width: 230px;
 
 .hoNwOurSerivce .caseStud span {
   color: #0E67F4;
-  font-family: Manrope;
+  /* font-family: Manrope; */
   font-size: 22px;
   font-style: normal;
   font-weight: 600;
@@ -54558,7 +54558,7 @@ width: 230px;
 
 .hoNwOurSerivce .sinOrSeLefr .OStitle {
   color: #0b60ff;
-  font-family: Manrope;
+  /* font-family: Manrope; */
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -54600,7 +54600,7 @@ width: 230px;
 
 .hoNwOurSerivce .sinSol1pA {
   color: #101010;
-  font-family: Manrope;
+  /* font-family: Manrope; */
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -54706,7 +54706,7 @@ width: 230px;
 
 .right_eco_pop select option {
   color: #6B7280 !important;
-  font-family: Manrope;
+  /* font-family: Manrope; */
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -54974,7 +54974,7 @@ width: 230px;
 
 .mlm_head h1 {
   color: #fff;
-  font-family: Proxima Nova;
+  /* font-family: Proxima Nova; */
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -54987,7 +54987,7 @@ width: 230px;
 
 .mlm_para p {
   color: #fff;
-  font-family: Proxima Nova;
+  /* font-family: Proxima Nova; */
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -55031,7 +55031,7 @@ width: 230px;
 
 .mlm_service1 h2 {
   color: #33475b;
-  font-family: Proxima Nova;
+  /* font-family: Proxima Nova; */
   font-size: 31px;
   font-style: normal;
   font-weight: 700;
@@ -55044,7 +55044,7 @@ width: 230px;
 }
 .mlm_service1 p {
   color: #33475b;
-  font-family: Proxima Nova;
+  /* font-family: Proxima Nova; */
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -55076,7 +55076,7 @@ width: 230px;
 
 .mlm_help_detail_head h2 {
   color: #fff;
-  font-family: Proxima Nova;
+  /* font-family: Proxima Nova; */
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
@@ -55085,7 +55085,7 @@ width: 230px;
 
 .mlm_help_detail_head p {
   color: #fff;
-  font-family: Proxima Nova;
+  /* font-family: Proxima Nova; */
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -55103,7 +55103,7 @@ width: 230px;
 
 .inner_mml p {
   color: #fff;
-  font-family: Gilroy-Medium;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -55129,7 +55129,7 @@ width: 230px;
 
 .softwareProduct .productDetail h2 {
   color: #183646;
-  font-family: Proxima Nova;
+  /* font-family: Proxima Nova; */
   font-weight: 700;
   font-size: 24px;
   line-height: 30px
@@ -55137,7 +55137,7 @@ width: 230px;
 
 .softwareProduct .productDetail h3 {
   color: #0d1e27;
-  font-family: Proxima Nova;
+  /* font-family: Proxima Nova; */
   font-weight: 400;
   font-size: 16px;
   line-height: 22px
@@ -55171,24 +55171,24 @@ width: 230px;
 
 .softwareProduct .products .single_product:hover h2 {
   color: #fff;
-  font-family: 'Proxima Nova', sans-serif
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .softwareProduct .products .single_product:hover h3 {
   color: #fff;
-  font-family: 'Proxima Nova', sans-serif
+  font-family:'Poppins', sans-serif !important;
 }
 
 .softwareProduct .products .single_product h2 {
   color: #0d1e27;
-  font-family: Proxima Nova;
+  /* font-family: Proxima Nova; */
   font-weight: 700;
   font-size: 17px
 }
 
 .softwareProduct .products .single_product h3 {
   color: #0d1e27;
-  font-family: Proxima Nova;
+  /* font-family: Proxima Nova; */
   font-weight: 400;
   font-size: 15px;
   line-height: 23px
@@ -55206,7 +55206,7 @@ width: 230px;
 .hireBenefit h2 {
   color: #0d1e27;
   font-weight: 700;
-  font-family: Proxima Nova;
+  /* font-family: Proxima Nova; */
   font-size: 28px;
   text-align: center
 }
@@ -55253,14 +55253,14 @@ width: 230px;
 
 .benefits .singleBenefit h2 {
   color: #183646;
-  font-family: Proxima Nova;
+  /* font-family: Proxima Nova; */
   font-weight: 700;
   font-size: 18px
 }
 
 .benefits .singleBenefit h3 {
   color: #0d1e27;
-  font-family: Proxima Nova;
+  /* font-family: Proxima Nova; */
   font-weight: 400;
   font-size: 16px;
   line-height: 23px
@@ -55295,7 +55295,7 @@ width: 230px;
   font-weight: 700;
   font-size: 32px;
   line-height: 54px;
-  font-family: Proxima Nova
+  /* font-family: Proxima Nova */
 }
 
 .mlmourService .leftContainer .colorText {
@@ -55358,7 +55358,7 @@ width: 230px;
   font-weight: 700;
   font-size: 18px;
   line-height: 28px;
-  font-family: Proxima Nova
+  /* font-family: Proxima Nova */
 }
 
 .mlmourService .services .singleService h3 {
@@ -55366,7 +55366,7 @@ width: 230px;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
-  font-family: Proxima Nova
+  /* font-family: Proxima Nova */
 }
 
 .mlmwhyUs {
@@ -55382,7 +55382,7 @@ width: 230px;
   font-weight: 700;
   font-size: 27px;
   line-height: 54px;
-  font-family: Proxima Nova
+  /* font-family: Proxima Nova */
 }
 
 .mlmwhyUs h3 {
@@ -55390,7 +55390,7 @@ width: 230px;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
-  font-family: Proxima Nova;
+  /* font-family: Proxima Nova; */
   text-align: center;
   max-width: 891px
 }
@@ -55418,7 +55418,7 @@ width: 230px;
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
-  font-family: Proxima Nova;
+  /* font-family: Proxima Nova; */
   padding: 0 20px;
   color: #33475B
 }
@@ -55427,7 +55427,7 @@ width: 230px;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  font-family: Proxima Nova;
+  /* font-family: Proxima Nova; */
   padding: 0 20px;
   color: #33475B;
   text-align: left
@@ -55454,7 +55454,7 @@ width: 230px;
 }
 
 .mlmjoinUs .joinUsContent h2 {
-  font-family: Proxima Nova;
+  /* font-family: Proxima Nova; */
   font-weight: 700;
   font-size: 33px;
   line-height: 42px
@@ -55490,7 +55490,7 @@ width: 230px;
 .mlmjoinUs .joinUsContent button span {
   font-size: 20px;
   font-weight: 700;
-  font-family: Proxima Nova;
+  /* font-family: Proxima Nova; */
   color: #fff
 }
 
@@ -55605,7 +55605,7 @@ width: 230px;
 
 .hoGet_inTouchWrap .getInCallus {
   color: #FFF;
-  font-family: Manrope;
+  /* font-family: Manrope; */
   font-size: 18px;
   font-style: normal;
   font-weight: 500
@@ -55613,7 +55613,7 @@ width: 230px;
 
 .hoGet_inTouchWrap .getInNUM {
   color: #FFF;
-  font-family: Manrope;
+  /* font-family: Manrope; */
   font-size: 29px;
   font-style: normal;
   font-weight: 800
@@ -55628,7 +55628,7 @@ width: 230px;
 
 .hoGet_inTouchWrap .usText {
   color: #FFF;
-  font-family: Manrope;
+  /* font-family: Manrope; */
   font-size: 18px;
   font-style: normal;
   font-weight: 500
@@ -55688,7 +55688,7 @@ option {
 
 .hoGet_inTouchWrap .selecCode option {
   color: #33475B;
-  font-family: Manrope;
+  /* font-family: Manrope; */
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -55696,7 +55696,7 @@ option {
 }
 
 .hoGet_inTouchWrap .getInRight .getInRigHead {
-  font-family: Raleway;
+  /* font-family: Raleway; */
   font-size: 35px;
   font-weight: 700;
   line-height: 40.35px;
@@ -55776,7 +55776,7 @@ option {
   padding: 10px;
   resize: none;
   color: #33475B;
-  font-family: Manrope;
+  /* font-family: Manrope; */
   font-style: normal;
   font-weight: 400;
   border: none;
@@ -55796,7 +55796,7 @@ option {
 
 .hoGet_inTouchWrap .selectSERVICE option {
   color: #33475B;
-  font-family: Manrope;
+  /* font-family: Manrope; */
   font-style: normal;
   font-weight: 400;
   line-height: normal
@@ -55864,7 +55864,7 @@ option {
 
 .Services_heading {
   width: 361px;
-  font-family: Poppins;
+  font-family:'Poppins', sans-serif !important;
   font-size: 20px;
   font-weight: 700;
   line-height: 30px;
@@ -57179,7 +57179,7 @@ option {
 
 .hired-left span,
 .hired-right span {
-  font-family: SF UI Display;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 16px !important;
   font-weight: 400 !important;
   line-height: 48px !important;
@@ -57201,7 +57201,7 @@ option {
 }
 
 .left-head-services span {
-  font-family: SF UI Display;
+  font-family:'Poppins', sans-serif !important;
   font-size: 16px !important;
   font-weight: 500 !important;
   line-height: 42px !important;
@@ -57219,7 +57219,7 @@ option {
 }
 
 .left-containt-services a {
-  font-family: SF UI Display;
+  /* font-family: SF UI Display; */
   font-size: 14px !important;
   font-weight: 400 !important;
   line-height: 35px !important;
@@ -57232,7 +57232,7 @@ option {
 }
 
 .left-containt-services span {
-  font-family: SF UI Display;
+  /* font-family: SF UI Display; */
   font-size: 15px !important;
   font-weight: 400 !important;
   line-height: 35px !important;
@@ -57638,7 +57638,7 @@ option {
   }
 
   .web-button button {
-    font-family: 'sf-ui-display-medium',sans-serif !important;
+    font-family: 'Poppins', sans-serif !important;
     font-size: 16px !important;
   }
 
@@ -57725,7 +57725,7 @@ option {
 
 .selectSERVICE option {
   color: #33475B !important;
-  font-family: Manrope;
+  /* font-family: Manrope; */
   font-style: normal;
   font-weight: 400;
   line-height: normal
@@ -57750,7 +57750,7 @@ option {
     color: #000;
     font-weight: 500;
     font-size: 43px;
-    font-family: "Value Sans Medium" !important;
+    /* font-family: "Value Sans Medium" !important; */
     text-align: center;
     opacity: .95
 }
@@ -57894,7 +57894,7 @@ option {
 .staff-process .aug {
     color: #000;
     font-size: 45px;
-    font-family: "Value Sans Pro" !important;
+    font-family: 'Poppins', sans-serif !important;
     font-weight: 400;
     opacity: .95;
     text-align: center
@@ -57938,7 +57938,7 @@ option {
     color: #101010;
     font-size: 36px;
     font-weight: 400;
-    font-family: "Value Sans Pro" !important;
+    font-family:'Poppins', sans-serif !important;
     opacity: .9
 }
 
@@ -57973,20 +57973,20 @@ option {
 
 .staff-service h2 {
     color: #fff;
-    font-family: "Value Sans Medium" !important;
+    font-family: 'Poppins', sans-serif !important;
     font-size: 45px;
     line-height: 60px
 }
 
 .staff-service span {
     color: #fff;
-    font-family: "Value Sans Pro" !important;
+    font-family: 'Poppins', sans-serif !important;
     font-size: 45px;
     font-weight: 400
 }
 
 .staff-service p {
-    font-family: "Value Sans Pro" !important;
+    font-family: 'Poppins', sans-serif !important;
     color: #fff;
     font-size: 19.5px;
     width: 26em;
@@ -57998,7 +57998,7 @@ option {
     width: 280px;
     height: 75px;
     color: #fff;
-    font-family: "Value Sans Pro" !important;
+    font-family: 'Poppins', sans-serif !important;
     font-weight: 500;
     font-size: 17.5px;
     border: none;
@@ -58032,7 +58032,7 @@ option {
 
 .staff-market1 h2 {
     color: #101010;
-    font-family: "Value Sans Pro" !important;
+    font-family: 'Poppins', sans-serif !important;
     font-weight: 400;
     font-size: 36px;
     opacity: .9;
@@ -58040,7 +58040,7 @@ option {
 }
 
 .staff-market span {
-    font-family: "Value Sans Medium" !important;
+    font-family: 'Poppins', sans-serif !important;
     font-size: 36px;
     color: #101010
 }
@@ -58063,12 +58063,12 @@ option {
     font-size: 20px;
     font-weight: 400;
     color: #33475B !important;
-    font-family: 'Manrope', sans-serif !important;
+    font-family: 'Poppins', sans-serif !important;
     max-width: 100%
 }
 
 .howItWorks h1 {
-    font-family: 'Manrope', sans-serif !important;
+    font-family: 'Poppins', sans-serif !important;
     font-size: 1.75rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -58091,7 +58091,7 @@ option {
     font-size: .94rem;
     width: 30%;
     max-width: 27rem;
-    font-family: 'Manrope', sans-serif !important
+    font-family: 'Poppins', sans-serif !important;
 }
 
 .howItWorks-icons {
@@ -58188,7 +58188,7 @@ option {
     padding: .5rem 1rem;
     color: var(--primary);
     font-size: .9rem;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Poppins', sans-serif !important;
     font-weight: 500;
     cursor: pointer
 }
@@ -58261,7 +58261,7 @@ option {
     font-weight: 400;
     margin-bottom: .7rem;
     font-size: 2.8rem;
-    font-family: 'Manrope', sans-serif !important;
+    font-family: 'Poppins', sans-serif !important;
     line-height: 3.75rem
 }
 
@@ -58286,7 +58286,7 @@ option {
 .hero-content p {
     font-size: 27px;
     margin: 2rem;
-    font-family: 'Manrope', sans-serif !important
+    
 }
 
 .input {
@@ -58298,7 +58298,7 @@ option {
 }
 
 .input>input {
-    font-family: 'Manrope', sans-serif !important;
+    /* font-family: 'Manrope', sans-serif !important; */
     background-color: var(--primary);
     padding-left: .8rem;
     margin-right: 1.5rem;
@@ -58324,7 +58324,7 @@ option {
     border-radius: 2px;
     border: #fff0;
     font-weight: 500;
-    font-family: 'Manrope', sans-serif !important
+    /* font-family: 'Manrope', sans-serif !important */
 }
 
 .input button:hover {
@@ -58455,7 +58455,7 @@ option {
 }
 
 .package-card__price>p {
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
     font-weight: 700;
     opacity: .5
 }
@@ -58470,7 +58470,7 @@ option {
     border: none;
     padding: 10px 40px;
     margin: 0 0 1rem 0;
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
     color: var(--primary);
     cursor: pointer
 }
@@ -58562,7 +58562,7 @@ option {
     opacity: .9;
     font-size: 1.6rem;
     font-weight: 700;
-    font-family: 'Manrope', sans-serif !important
+    /* font-family: 'Manrope', sans-serif !important */
 }
 
 .ourtalent-text__heading h2 span {
@@ -58605,7 +58605,7 @@ option {
     font-size: 35px;
     color: #33475B;
     line-height: 46px;
-    font-family: 'Manrope', sans-serif !important
+    /* font-family: 'Manrope', sans-serif !important */
 }
 
 .digi-packages .package-types p {
@@ -58615,7 +58615,7 @@ option {
     margin-top: 15px;
     color: #33475B !important;
     width: 70%;
-    font-family: 'Manrope', sans-serif !important;
+    /* font-family: 'Manrope', sans-serif !important; */
     max-width: 100%
 }
 
@@ -58882,15 +58882,15 @@ option {
 
 .bookus h3 {
     font-size: 34px;
-    font-family: 'Manrope', sans-serif !important
+    /* font-family: 'Manrope', sans-serif !important */
 }
 
 .bookus-heading p {
     opacity: .8;
     font-size: 24px;
-    font-family: 300;
+    font-weight: 300;
     margin-bottom: 2rem;
-    font-family: 'Manrope', sans-serif !important
+    /* font-family: 'Manrope', sans-serif !important */
 }
 
 .bookus-button button {
@@ -58963,7 +58963,7 @@ option {
     line-height: 46px;
     color: #33475B;
     opacity: .9;
-    font-family: 'Manrope', sans-serif !important;
+    /* font-family: 'Manrope', sans-serif !important; */
     font-weight: 700;
     text-align: center
 }
@@ -58974,7 +58974,7 @@ option {
     font-size: 19px;
     font-weight: 500;
     margin-top: 8px;
-    font-family: 'Manrope', sans-serif !important
+    /* font-family: 'Manrope', sans-serif !important */
 }
 
 .improved button {
@@ -59003,7 +59003,7 @@ option {
 
 .connectus p {
     font-size: 25px;
-    font-family: 'Manrope', sans-serif !important
+    /* font-family: 'Manrope', sans-serif !important */
 }
 
 .home568 {
@@ -59054,13 +59054,13 @@ option {
 }
 
 .contactus-heading {
-    font-family: "Roboto", sans-serif
+    /* font-family: "Roboto", sans-serif */
 }
 
 .contactus-heading h2 {
     font-size: 34px;
     font-weight: 700;
-    font-family: 'Manrope', sans-serif !important;
+    /* font-family: 'Manrope', sans-serif !important; */
     color: #33475B !important;
     margin-bottom: .3rem;
     text-align: center;
@@ -59203,7 +59203,7 @@ option {
 }
 
 .contactus-container__right__Address__details__text {
-    font-family: "Prompt", sans-serif;
+    /* font-family: "Prompt", sans-serif; */
     padding-left: 12px
 }
 
@@ -59238,7 +59238,7 @@ option {
 
 .footer-top p {
     font-size: 12px;
-    font-family: "Prompt", sans-serif;
+    /* font-family: "Prompt", sans-serif; */
     margin: 0
 }
 
@@ -59261,7 +59261,7 @@ option {
 
 .footer-mid p {
     font-size: 12px;
-    font-family: "Prompt", sans-serif;
+    /* font-family: "Prompt", sans-serif; */
     font-weight: 600;
     font-style: italic;
     margin: 0 4rem
@@ -59276,7 +59276,7 @@ option {
 
 .footer-bottom p {
     font-size: 12px;
-    font-family: "Prompt", sans-serif;
+    /* font-family: "Prompt", sans-serif; */
     font-weight: 400;
     margin: 0 4rem
 }
@@ -59350,7 +59350,7 @@ option {
 .hire-nav__container__header h3 {
     font-size: .75rem;
     color: var(--primary);
-    font-family: 'Manrope', sans-serif !important;
+    /* font-family: 'Manrope', sans-serif !important; */
     font-weight: 500
 }
 
@@ -59530,7 +59530,7 @@ option {
 
 .server_mergs h3 {
     color: #33475B;
-    font-family: Proxima Nova;
+    /* font-family: Proxima Nova; */
     font-size: 18.5px;
     font-style: normal;
     font-weight: 700;
@@ -59540,7 +59540,7 @@ option {
 
 .server_mergs p {
     color: #6A6A6A;
-    font-family: Proxima Nova;
+    /* font-family: Proxima Nova; */
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -60437,7 +60437,7 @@ wordpress_cater_box p {
 
 .okkkk {
     color: #202020 !important;
-    font-family: Value Sans Pro;
+    /* font-family: Value Sans Pro; */
     font-size: 44px;
     font-style: normal;
     font-weight: 700;
@@ -60763,7 +60763,7 @@ wordpress_cater_box p {
 
 .process-flex2 button {
   width: 275px;
-  font-family: "sf-ui-display-medium",sans-serif !important;
+  /* font-family: "sf-ui-display-medium",sans-serif !important; */
     /* width: 100%; */
     height: 64px;
     margin-top: 30px;
@@ -60832,7 +60832,7 @@ wordpress_cater_box p {
 
 .office-flex1 button {
   width: 275px;
-  font-family: "sf-ui-display-medium",sans-serif !important;
+  /* font-family: "sf-ui-display-medium",sans-serif !important; */
     /* width: 100%; */
     height: 64px;
     margin-top: 30px;
@@ -60950,7 +60950,7 @@ wordpress_cater_box p {
     font-weight: 500;
     line-height: 24px;
     padding: 16px 30px;
-    font-family: 'sf-ui-display-medium', sans-serif;
+    /* font-family: 'sf-ui-display-medium', sans-serif; */
     text-align: center
 }
 
@@ -60970,7 +60970,7 @@ wordpress_cater_box p {
 }
 
 .about-main-13 button {
-  font-family: 'sf-ui-display-medium',sans-serif !important;
+  /* font-family: 'sf-ui-display-medium',sans-serif !important; */
     align-items: center;
     background-color: #0B56E4;
     border: none;
@@ -61019,7 +61019,7 @@ wordpress_cater_box p {
     width: 298px;
     max-width: 100%;
     height: 68px;
-    font-family: "Roboto", sans-serif !important;
+    /* font-family: "Roboto", sans-serif !important; */
     font-weight: 600;
     font-size: 15.5px
 }
@@ -61491,7 +61491,7 @@ wordpress_cater_box p {
 .section-2 li {
     color: #fff;
     list-style-type: disc;
-    font-family: Proxima Nova;
+    /* font-family: Proxima Nova; */
     font-size: 19px;
     font-weight: 400;
     line-height: 31px;
@@ -61512,7 +61512,7 @@ wordpress_cater_box p {
     100% {
         color: #085881;
         margin-left: 24.9px;
-        font-family: Proxima Nova;
+        /* font-family: Proxima Nova; */
         font-size: 19px;
         font-weight: 400;
         line-height: 31px;
@@ -61662,7 +61662,7 @@ wordpress_cater_box p {
 }
 
 .bord {
- font-family: 'sf-ui-display-medium',sans-serif !important;
+ /* font-family: 'sf-ui-display-medium',sans-serif !important; */
     margin-top: 2.5rem;
     align-items: center;
     background-color: #0B56E4;
@@ -61775,7 +61775,7 @@ wordpress_cater_box p {
 }
 
 .apple {
-font-family: 'sf-ui-display-medium',sans-serif !important;
+/* font-family: 'sf-ui-display-medium',sans-serif !important; */
     margin-top: 40px;
     align-items: center;
     background-color: #0B56E4;
@@ -61931,7 +61931,7 @@ font-family: 'sf-ui-display-medium',sans-serif !important;
 
 
 .scale {
-  font-family: 'sf-ui-display-medium',sans-serif !important;
+  /* font-family: 'sf-ui-display-medium',sans-serif !important; */
     align-items: center;
     background-color: #0B56E4;
     border: none;
@@ -79647,7 +79647,7 @@ article h4 {
 }
 
 .titel2 p {
-    font-family: Raleway;
+    /* font-family: Raleway; */
     font-size: 34px;
     font-weight: 700;
     line-height: 75.14px;
@@ -79730,7 +79730,7 @@ h4 {
 }
 
 .owRtop-left p {
-    font-family: Raleway;
+    /* font-family: Raleway; */
     font-size: 22px;
     font-weight: 700;
     line-height: 37.57px;
@@ -79749,7 +79749,7 @@ h4 {
 }
 
 .slideTitl {
-    font-family: Raleway;
+    /* font-family: Raleway; */
     font-size: 24px;
     font-weight: 700;
     line-height: 46.96px;
@@ -79845,7 +79845,7 @@ article h4 {
 }
 
 .title p {
-    font-family: Raleway;
+    /* font-family: Raleway; */
     font-size: 34px;
     font-weight: 700;
     line-height: 75.14px;
@@ -80330,7 +80330,7 @@ article h4 {
   }
   
   .s7cont h3 {
-    font-family: sf-ui-display-medium, sans-serif;
+    /* font-family: sf-ui-display-medium, sans-serif; */
     font-size: 40px;
     font-weight: 600;
     line-height: 50px;
@@ -80380,7 +80380,7 @@ article h4 {
   }
   
   .s8heading {
-    font-family: sf-ui-display-medium, sans-serif;
+    /* font-family: sf-ui-display-medium, sans-serif; */
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
@@ -80393,7 +80393,7 @@ article h4 {
   }
   
   .s8apra {
-    font-family: sf-ui-display-medium, sans-serif;
+    /* font-family: sf-ui-display-medium, sans-serif; */
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -80473,7 +80473,7 @@ article h4 {
   }
   
   .s5content h3 {
-    font-family: sf-ui-display-medium, sans-serif;
+    /* font-family: sf-ui-display-medium, sans-serif; */
     font-size: 44px;
     font-weight: 400;
     line-height: 54px;
@@ -80486,7 +80486,7 @@ article h4 {
   }
   
   .s5content h3 span {
-    font-family: sf-ui-display-medium, sans-serif;
+    /* font-family: sf-ui-display-medium, sans-serif; */
     font-size: 44px;
     font-weight: 800;
     line-height: 60px;
@@ -80495,7 +80495,7 @@ article h4 {
   }
   
   .s5content p {
-    font-family: Inter;
+    /* font-family: Inter; */
     font-size: 20px;
     font-weight: 400;
     z-index: 10;
@@ -80520,7 +80520,7 @@ article h4 {
   }
   
   .s5cont button span {
-    font-family: sf-ui-display-medium, sans-serif;
+    /* font-family: sf-ui-display-medium, sans-serif; */
     font-size: 18px;
     font-weight: 400;
     line-height: 31.97px;
@@ -80679,7 +80679,7 @@ article h4 {
   @media (max-width:900px) {
   
     .s5content h3 {
-      font-family: sf-ui-display-medium, sans-serif;
+      /* font-family: sf-ui-display-medium, sans-serif; */
       font-size: 44px;
       font-weight: 400;
       line-height: 70px;
@@ -80688,7 +80688,7 @@ article h4 {
     }
   
     .s5content h3 span {
-      font-family: sf-ui-display-medium, sans-serif;
+      /* font-family: sf-ui-display-medium, sans-serif; */
       font-size: 44px;
       font-weight: 700;
       line-height: 70px;
@@ -80697,7 +80697,7 @@ article h4 {
     }
   
     .s5content p {
-      font-family: Inter;
+      /* font-family: Inter; */
       font-size: 20px;
       font-weight: 400;
       line-height: 35px;
@@ -80707,7 +80707,7 @@ article h4 {
   
   
     .s5cont button span {
-      font-family: sf-ui-display-medium, sans-serif;
+      /* font-family: sf-ui-display-medium, sans-serif; */
       font-size: 20px;
       font-weight: 400;
       line-height: 31.97px;
