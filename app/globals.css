@@ -2058,7 +2058,7 @@ animation-timing-function: ease-in-out;
 
     .blue {
         color: #1265FF;
-        font-family: Proxima Nova;
+        /* font-family: Proxima Nova; */
         font-size: 32px
     }
     
@@ -2089,7 +2089,7 @@ animation-timing-function: ease-in-out;
     
     .heading-1 {
         color: #33475B;
-        font-family: Proxima Nova !important;
+        /* font-family: Proxima Nova !important; */
         font-size: 32px;
         text-align: center
     }
@@ -2270,7 +2270,7 @@ animation-timing-function: ease-in-out;
     
     .pra-1 {
         color: #33475B;
-        font-family: Proxima Nova;
+        /* font-family: Proxima Nova; */
         font-size: 17px;
         font-style: normal;
         font-weight: 400;
@@ -2280,7 +2280,7 @@ animation-timing-function: ease-in-out;
     
     .heading-2 {
         color: #33475B;
-        font-family: Proxima Nova;
+        /* font-family: Proxima Nova; */
         font-size: 17px;
         font-style: normal;
         font-weight: 700;
@@ -2412,7 +2412,7 @@ animation-timing-function: ease-in-out;
   }
   
   .intutive {
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
     font-size: 21px;
     font-weight: 700;
     letter-spacing: .04em;
@@ -3045,7 +3045,7 @@ animation-timing-function: ease-in-out;
   .Ambitious {
     font-size: 30px;
     color: #fff;
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
     max-width: 35%;
     font-weight: 600;
     line-height: 44px;
@@ -3496,7 +3496,7 @@ animation-timing-function: ease-in-out;
     top: 250px;
     left: 25px;
     color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: 18px;
     font-weight: 600
   }
@@ -3510,7 +3510,7 @@ animation-timing-function: ease-in-out;
     top: 140px;
     left: 30px;
     color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: 18px;
     font-weight: 600
   }
@@ -3571,7 +3571,7 @@ animation-timing-function: ease-in-out;
   }
   
   .fortly {
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: 32px;
     font-weight: 700;
     line-height: 40px;
@@ -3586,7 +3586,7 @@ animation-timing-function: ease-in-out;
     text-align: center;
     padding: 20px 45px;
     color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: 20px;
     font-weight: 500;
     display: inline-block;
@@ -4161,7 +4161,7 @@ animation-timing-function: ease-in-out;
   
   .groom {
     color: #33475b;
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
     font-size: 28px;
     font-weight: 700;
     line-height: 44px;
@@ -4169,7 +4169,7 @@ animation-timing-function: ease-in-out;
   }
   
   .motion {
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
     font-size: 27px;
     font-weight: 600;
     line-height: 44px;
