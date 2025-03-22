@@ -1,178 +1,244 @@
-"use client"
-import { useRouter } from "next/navigation";
-import Head from 'next/head';
-import Navbar from "../../COMMON/Navbar";
+"use client";
 
-import { useEffect, useState } from "react";
+import Image from "next/image";
+import Head from "next/head";
+import Link from "next/link";
+import { useEffect, useRef, useState } from "react";
+import { FaTwitterSquare, FaLinkedin, FaFacebook } from "react-icons/fa";
+import { MdCelebration } from "react-icons/md";
 import { useParams } from "next/navigation";
-import {
-  WhatsappShareButton,
-  FacebookShareButton,
-  LinkedinShareButton,
-  FacebookMessengerShareButton,
-  TwitterShareButton,
-  EmailShareButton,
-} from "react-share";
-import { FaWhatsapp, FaFacebook, FaLinkedin, FaFacebookMessenger, FaTwitter, FaEnvelope } from "react-icons/fa";
-
-
-const baseurl = "https://backblog.kusheldigi.com";
-
-
-
-function BlogDetails() {
-  const [data, setData] = useState();
-  const router = useRouter();
-  const [currentPageUrl, setCurrentPageUrl] = useState(""); 
-
-  //  console.log("currentPageUrl" , currentPageUrl); 
-
+// import confetti from "canvas-confetti";
+// import Navbar from "../../COMMON/Navbar";
+export default function BlogDetails() {
+  const baseurl = "https://backblog.kusheldigi.com";
   const { id } = useParams();
+
+  const [currentBlog, setCurrentBlog] = useState(null);
+  const [recentBlogs, setRecentBlogs] = useState([]);
+  const [currentPageUrl, setCurrentPageUrl] = useState("");
 
   useEffect(() => {
     if (typeof window !== "undefined") {
       setCurrentPageUrl(window.location.href);
     }
   }, []);
-
-  const [recent, setRecent] = useState([]);
-
-  const fetchRecentBlog = async () => {
-    try {
-      const response = await fetch(`${baseurl}/api/v1/auth/getRecentBlog`);
-      if (response.ok) {
-        const data = await response.json();
-        setRecent(data?.blogs);
-      } else {
-        console.error("Failed to fetch recent blogs:", response.statusText);
-      }
-    } catch (error) {
-      console.error("Error fetching recent blogs:", error);
-    }
-  };
-
-  const fetchBlogId = async () => {
-    try {
-      const response = await fetch(`${baseurl}/api/v1/auth/singleblog/${id}`);
-      if (response.ok) {
-        const resp = await response.json();
-        setData(resp?.data);
-      } else {
-        console.error("Failed to fetch blog details:", response.statusText);
-        // router.push("/blog");
-      }
-    } catch (error) {
-      console.error("Error fetching blog details:", error);
-    //   router.push("/blog");
-    }
-  };
+  const [confetti, setConfetti] = useState(null);
 
   useEffect(() => {
-    fetchRecentBlog();
-    fetchBlogId();
+    import("canvas-confetti").then((module) =>
+      setConfetti(() => module.default)
+    );
+  }, []);
+
+  useEffect(() => {
+    async function fetchBlogData() {
+      try {
+        const [blogRes, recentRes] = await Promise.all([
+          fetch(`${baseurl}/api/v1/auth/singleblog/${id}`),
+          fetch(`${baseurl}/api/v1/auth/getRecentBlog`),
+        ]);
+
+        if (blogRes.ok) {
+          const blogData = await blogRes.json();
+          setCurrentBlog(blogData?.data);
+        } else {
+          console.error("Failed to fetch blog details");
+        }
+
+        if (recentRes.ok) {
+          const recentData = await recentRes.json();
+          setRecentBlogs(recentData?.blogs || []);
+        } else {
+          console.error("Failed to fetch recent blogs");
+        }
+      } catch (error) {
+        console.error("Error fetching blog data:", error);
+      }
+    }
+
+    if (id) fetchBlogData();
   }, [id]);
 
+  const socialIconRef = useRef(null);
+  const thirdSectionRef = useRef(null);
+  const cardSocialRef = useRef(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (
+        !thirdSectionRef.current ||
+        !socialIconRef.current ||
+        !cardSocialRef.current
+      )
+        return;
+
+      let sectionTop = thirdSectionRef.current.getBoundingClientRect().top;
+      let windowHeight = window.innerHeight;
+      let cardSectionTop = cardSocialRef.current.getBoundingClientRect().top;
+      let halfSectionScrolled = cardSectionTop < windowHeight;
+
+      socialIconRef.current.classList.toggle(
+        "fixed",
+        sectionTop <= windowHeight / 2 && !halfSectionScrolled
+      );
+      socialIconRef.current.classList.toggle("hidden", halfSectionScrolled);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const handleClick = (id, textClass) => {
+    const popAnimation = document.getElementById(id);
+    const thanksTxt = document.querySelector(`.${textClass}`);
+
+    if (!popAnimation || !thanksTxt) return;
+
+    thanksTxt.classList.add("displayBlock");
+    popAnimation.style.width = "112px";
+
+    confetti({
+      particleCount: 100,
+      spread: 70,
+      origin: { y: 0.6 },
+    });
+
+    setTimeout(() => {
+      thanksTxt.classList.remove("displayBlock");
+      thanksTxt.classList.add("displayNone");
+      popAnimation.style.width = "38px";
+    }, 2000);
+  };
+
   return (
-    <div>
-     
-<Navbar />
+    <>
+      <section className="MainBloggSeC">
+        {/* <Navbar/> */}
+        {currentBlog ? (
+          <div>
 
-      <div className="aboutwrap">
-        <div className="aboutcont">
-          <img src={data?.banner} className="aboutbanner" alt="kushel" />
-          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730457306/aboutfilter_qkl6e0.png" className="bannerfilter" alt="kushel" />
-        </div>
-      </div>
-
-      <div className="blgdeta2wrap">
-        <div className="blode2cont">
-          <div className="blode2leftcon">
-            <div>
-              {/* <img src={data?.img} alt="kushel" className="blogdtaimgmain" /> */}
-              <div className="blogbantitle">{data?.title}</div>
+            <h3 className="MainBloggSeCh3">{currentBlog.title}</h3>
+            <div className="MainBloggSeCh3Img">
+              <img src={currentBlog.images?.[0]} alt={currentBlog.title} />
             </div>
-            <div className="authodetail">
-              <h1>Author: {data?.author || "Admin"}</h1>
-              <span>Reading Time :{data?.time}</span>
-              <span>{new Date(data?.date).toLocaleDateString("en-GB", {
-                day: "numeric",
-                month: "long",
-                year: "numeric",
-              })}</span>
-            </div>
-            <div className="makepoppinsfont" dangerouslySetInnerHTML={{ __html: data?.description }} />
           </div>
+        ) : (
+          <p>Loading blog...</p>
+        )}
 
-          <div className="blode2rightc">
-            <h2>Recent Blogs</h2>
-            {recent.map((item, index) => (
-              <div key={index} className="singblosdarslidd">
-                <img src={item?.images} alt="kushel" />
-                <h4 onClick={() => router.push(`/blogdetails/${item._id}`)}>{item?.title}</h4>
-                <p className="dateobje">
-                  <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730457651/Mask_group_reswkg.png" alt="kushel" />
-                  {new Date(item?.date).toLocaleDateString("en-GB", {
+        {/* Social Icons */}
+        <section className="third-section" ref={thirdSectionRef}>
+          <div className="thirddd">
+            <div className="social-icon" ref={socialIconRef}>
+              <div className="icon">
+                <FaFacebook />
+              </div>
+              <div className="icon">
+                <FaLinkedin />
+              </div>
+              <div className="icon">
+                <FaTwitterSquare />
+              </div>
+              <div
+                className="icon"
+                id="iconPop"
+                onClick={() => handleClick("iconPop", "thanksTxt1")}
+              >
+                <span className="thanksTxt1 displayNone">Thanks</span>
+                <MdCelebration />
+              </div>
+            </div>
+
+            <div className="mainBloContentSt">
+              <div className="mainBloContentStPara">
+            
+                  
+                <div className="profileDate">
+            {
+            new Date(currentBlog?.date).toLocaleDateString("en-GB", {
                     day: "numeric",
                     month: "long",
                     year: "numeric",
-                  })}
-                </p>
+                  })
+            }
+        </div>
+                
+                
               </div>
-            ))}
+
+              {/* Blog Content */}
+              <div className="mainBloContentDiv">
+                <p
+                  className="mainBloContentPa"
+                  dangerouslySetInnerHTML={{ __html: currentBlog?.description }}
+                ></p>
+              </div>
+            </div>
+            <div ref={cardSocialRef} className="cardSocial1">
+              <div className="profile">
+                {/* <img src="assets/Cybersecurity_chalanges_2025-blog-hero-min.webp" alt="Author" /> */}
+                <div className="profile-info">
+                  <h4>{currentBlog?.author}</h4>
+                  
+                </div>
+              </div>
+              <div className="social-icons">
+                <div className="icon">
+                  <FaFacebook />
+                </div>
+                <div className="icon">
+                  <FaLinkedin />
+                </div>
+                <div className="icon">
+                  <FaTwitterSquare />
+                </div>
+                <div
+                  id="popAni"
+                  className="icon"
+                  onClick={() => handleClick("popAni", "thanksTxt1")}
+                >
+                  <span className="thanksTxt displayNone">Thanks</span>
+                  <MdCelebration />
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
+        </section>
 
-      <div className="shareblogoptns">
-        <h2>Don't forget to share this post!</h2>
-        <div className="iconsshar">
-          <WhatsappShareButton url={currentPageUrl} title="Check out this blog!">
-            <div className="shareocciwrap">
-              <FaWhatsapp className="sheicon" />
+        {/* More Blogs Section */}
+        <section className="cardsectFiveMain">
+          <div className="moreee">
+            <div className="cardsectFive">
+              <p>More in Culture</p>
+              <hr />
             </div>
-          </WhatsappShareButton>
-          <FacebookShareButton url={currentPageUrl} quote="Check out this blog!">
-            <div className="shareocciwrap">
-              <FaFacebook className="sheicon" />
-            </div>
-          </FacebookShareButton>
-          <LinkedinShareButton url={currentPageUrl}  title="Check out this blog!" summary="An interesting blog you must read!" source="https://www.kusheldigi.com">
-            <div className="shareocciwrap">
-              <FaLinkedin className="sheicon" />
-            </div>
-          </LinkedinShareButton>
-          <FacebookMessengerShareButton url={currentPageUrl} appId="YOUR_APP_ID">
-            <div className="shareocciwrap">
-              <FaFacebookMessenger className="sheicon" />
-            </div>
-          </FacebookMessengerShareButton>
-          <TwitterShareButton url={currentPageUrl} title="Check out this blog!">
-            <div className="shareocciwrap">
-           <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1740125157/Layer_1_mexpbv.png" className="sheicon"/>
-            </div>
-          </TwitterShareButton>
 
-
-
-          {/* <EmailShareButton url={currentPageUrl} subject="Check out this blog!" body="I found this blog interesting, check it out:"  separator=" - " >
-            <div className="shareocciwrap">
-              <FaEnvelope className="sheicon" />
-            </div>
-          </EmailShareButton> */}
-
-          <a href={`mailto:?subject=Check out this blog!&body=I found this blog interesting, check it out: ${currentPageUrl}`}>
-    <div className="shareocciwrap">
-        <FaEnvelope className="sheicon" />
-    </div>
-</a>
-
-
-        </div>
-      </div>
-
-
-    </div>
+            <section className="cardMainBlogSec">
+              {recentBlogs.length > 0 ? (
+                recentBlogs.map((item, index) => (
+                  <Link href={`/blogdetails/${item._id}`} key={index} className="cardBlogSt">
+                    <div className="cardBlogStImg">
+                      <img src={item.images?.[0]} alt={item.title} />
+                    </div>
+                    <p className="cardBlogStpaa">
+                      {new Date(item?.date).toLocaleDateString("en-GB", {
+                        day: "numeric",
+                        month: "long",
+                        year: "numeric",
+                      })}
+                    </p>
+                    <p className="cardBlogStpaara">{item.title}</p>
+                    <p className="cardBlogStpaaragr">{item.subdescription}</p>
+                    <p className="cardBlogStpaarw">Read More</p>
+                  </Link>
+                ))
+              ) : (
+                <p>Loading recent blogs...</p>
+              )}
+            </section>
+          </div>
+        </section>
+      </section>
+    </>
   );
 }
-
-export default BlogDetails;
