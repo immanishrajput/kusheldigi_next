@@ -107,31 +107,6 @@ const Page = () => {
     fetchLatestBlog();
   }, []);
 
-  // useEffect(() => {
-  //   console.log("Updated getAllBlogs:", getAllBlogs);
-  //   console.log("All Category", allCatBlogs);
-  //   console.log("Recent Blog", recentBlog);
-  //   console.log("Ecommerce", ecommerceBlog);
-  //   console.log("Seo", seoBlog);
-  //   console.log("digital", digitalBlog);
-  //   console.log("Web Development", webBlog);
-  //   console.log("Business", businessBlog);
-  //   console.log("get all blog one-->", getAllBlogs[0]);
-  // }, [
-  //   getAllBlogs,
-  //   allCatBlogs,
-  //   recentBlog,
-  //   ecommerceBlog,
-  //   seoBlog,
-  //   digitalBlog,
-  //   webBlog,
-  //   businessBlog,
-  // ]);
-
-  // useEffect(() => {
-  //   fetchCatBlogs();
-  // }, []);
-
   const [currentPage, setCurrentPage] = useState(1);
   const tasksPerPage = 5;
 
@@ -302,8 +277,6 @@ useEffect(()=>{
           )
         }
         {/* first section end */}
-        {/* second row start */}
-        {/* second row end */}
         {/* third section start */}
         {(!showOnlyEcommerce && !showOnlySeo && !showOnlyDigital && !showOnlyWeb && !showOnlyBusiness) && (
           <section className="newMainSec">
@@ -592,32 +565,44 @@ useEffect(()=>{
           <div className="ALLt">
             <p>All</p>
             <hr />
+            <br/>
           </div>
 
           {currentTasks.length > 0 && (
-            <div className="eightBlogSMainContainer">
-              {/* Left Side - Big Image */}
-              <div className="bigImageContainer">
-                {currentTasks[0]?.images?.[0] ? (
-                  <img
-                    src={currentTasks[0].images[0]}
-                    alt={currentTasks[0].title || "Main Blog"}
-                  />
-                ) : (
-                  <p>No Image Available</p>
-                )}
-              </div>
+            // currentTasks.map((item,index)=>{
+              // <Link href={`/blogdetails/${item._id}`}
+              // key={index}>
+                      <div className="bimagelogMain">
+             
+             <div className="bimagelog">
+               {currentTasks[0]?.images?.[0] ? (
+                 <img
+                   src={currentTasks[0].images[0]}
+                   alt={currentTasks[0].title || "Main Blog"}
+                 />
+               ) : (
+                 <p>No Image Available</p>
+               )}
+             </div>
+             
+             
+             <div className="bimageloDi">
+               
+             <div className="bimageloDiPARa12">
+             <h2 className="bimageloDiPara">{currentTasks[0]?.title || "No Title"}</h2>
+             
+             </div>
+             
+               <p className="bimageloDiParra">
+                 {currentTasks[0]?.subdescription ||
+                   "No Description Available"}
+               </p>
+             </div>
+             </div>
+              //  </Link>
 
-              {/* Right Side - Title & Description */}
-              <div className="blogTextContainer">
-              <h2>{currentTasks[0]?.title || "No Title"}</h2>
+            // })
             
-                <p>
-                  {currentTasks[0]?.subdescription ||
-                    "No Description Available"}
-                </p>
-              </div>
-            </div>
           )}
 
           {/* Small Blog Images Section */}

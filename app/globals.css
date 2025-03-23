@@ -81985,10 +81985,6 @@ font-family: 'Poppins', sans-serif;
   color: black !important;
 }
 
-.bimagelog img {
-  transition: transform 0.4s ease-in-out;
-}
-
 
 .bimageloDiPara:hover::after,
 .bimageloDiPARa12:hover .bimageloDiPara::after {
@@ -82012,7 +82008,9 @@ font-family: 'Poppins', sans-serif;
   height: auto;
   transition: transform 0.4s ease-in-out;
 }
-
+.bimagelog img:hover{
+transform: scale(1.02) !important;
+}
 /* Underline Animation */
 .bimageloDiPara {
   font-size: 42px;
@@ -82044,7 +82042,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 .mainsecBlo {
-  padding-top: 20px;
+  padding: 20px 5px 5px 5px;
 }
 
 .bimagelogMain {
@@ -82146,7 +82144,7 @@ font-family: 'Poppins', sans-serif;
 
 @media (max-width: 480px) {
   .bimageloDiPara {
-      font-size: 24px;
+      font-size: 23px;
       line-height: 35px;
   }
 
@@ -82477,7 +82475,9 @@ font-family: 'Poppins', sans-serif;
       flex-direction: column;
       align-items: flex-start;
   }
-
+  .latest-container{
+    padding: 5 !important;
+  }
   .news-grid {
       grid-template-columns: 1fr;
   }
@@ -82727,6 +82727,9 @@ font-family: 'Poppins', sans-serif;
   flex-direction: column;
   align-items: flex-start;
 }
+.cardsectFiveMain{
+  padding: 80px 0px 40px 0px !important;
+}
 }
 @media (max-width: 600px) {
   .event-grid {
@@ -82737,7 +82740,7 @@ font-family: 'Poppins', sans-serif;
 /* forth end- */
 /* fifth row start */
 .cardsectFiveMain{
-  /* padding-left: 90px; */
+  
 padding: 80px 0px 136px 0px;
   max-width: 1380px;
   margin: auto;
@@ -82948,13 +82951,18 @@ font-weight: 600;
 
 .smallBlogCard {
   flex: 1;
+  
 }
 
 .smallBlogCard img {
+  transition: transform 0.3s ease-in-out;
   width: 100%;
   height: 100%;
   max-height: 200px;
   display: block;
+}
+.smallBlogCard img:hover{
+  transform: scale(1.02);
 }
 @media (max-width: 780px){
   .smallBlogCard img{
@@ -83091,10 +83099,13 @@ width: 100%;
       line-height: 35px;
       font-size: 25px;
   }
+  .blogSixMaiDivBImgS img {
+    width: 100%;
+}
 }
 @media (max-width:374px){
   .blogSixMaiDivBImgS img {
-      width: 272px;
+      width: 100%;
   }
 }
 
@@ -83127,7 +83138,7 @@ width: 100%;
 }
 
 .MainBloggSeCh3 {
-  margin-top: 50px !important;
+  margin-top: 160px !important;
   line-height: 75px;
   font-size: 65px;
   
@@ -83600,7 +83611,8 @@ width: 100%;
   }
 
   .MainBloggSeCh3 {
-      font-size: 2.5rem;
+    line-height:36px;
+      font-size: 1.5rem;
       width: 100%;
       text-align: left;
   }
@@ -83627,7 +83639,7 @@ width: 100%;
 
   .mainBloContentPa {
       margin-top: 20px;
-      font-size: 30px;
+      font-size: 20px;
       width: 100%;
   }
 
@@ -83768,9 +83780,6 @@ width: 100%;
 }
 
 /* last section */
-.cardsectFiveMain {
-  padding-top: 80px;
-}
 
 .moreee {
   max-width: 1369px;
@@ -83843,7 +83852,7 @@ width: 100%;
 .cardBlogStpaarw {
   font-weight: 600;
   font-size: 17px;
-  line-height: 24px;
+  line-height: 40px;
   color: #222;
   margin-top: 10px;
 }

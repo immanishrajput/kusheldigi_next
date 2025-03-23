@@ -4,11 +4,19 @@ import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
+import {
+  WhatsappShareButton,
+  FacebookShareButton,
+  LinkedinShareButton,
+  FacebookMessengerShareButton,
+  TwitterShareButton,
+  EmailShareButton,
+} from "react-share";
 import { FaTwitterSquare, FaLinkedin, FaFacebook } from "react-icons/fa";
 import { MdCelebration } from "react-icons/md";
 import { useParams } from "next/navigation";
 // import confetti from "canvas-confetti";
-// import Navbar from "../../COMMON/Navbar";
+import Navbar from "../../COMMON/Navbar";
 export default function BlogDetails() {
   const baseurl = "https://backblog.kusheldigi.com";
   const { id } = useParams();
@@ -110,10 +118,34 @@ export default function BlogDetails() {
     }, 2000);
   };
 
+  const popAniRef = useRef(null);
+  const [showThanks, setShowThanks] = useState(false);
+
+  const handleClick1 = () => {
+    setShowThanks(true);
+    if (popAniRef.current) {
+      popAniRef.current.style.width = "112px";
+    }
+
+    confetti({
+      particleCount: 100,
+      spread: 70,
+      origin: { y: 0.6 },
+    });
+
+    setTimeout(() => {
+      setShowThanks(false);
+      if (popAniRef.current) {
+        popAniRef.current.style.width = "38px";
+      }
+    }, 2000);
+  };
   return (
     <>
+    <Navbar/>
+    
       <section className="MainBloggSeC">
-        {/* <Navbar/> */}
+       
         {currentBlog ? (
           <div>
 
@@ -130,15 +162,21 @@ export default function BlogDetails() {
         <section className="third-section" ref={thirdSectionRef}>
           <div className="thirddd">
             <div className="social-icon" ref={socialIconRef}>
+            <FacebookShareButton url={currentPageUrl} quote="Check out this blog!">
               <div className="icon">
                 <FaFacebook />
               </div>
+              </FacebookShareButton>
+              <LinkedinShareButton url={currentPageUrl} title="Check out this blog!" summary="An interesting blog you must read!" source="https://www.kusheldigi.com">
               <div className="icon">
                 <FaLinkedin />
               </div>
+              </LinkedinShareButton>
+              <TwitterShareButton url={currentPageUrl} title="Check out this blog!">
               <div className="icon">
                 <FaTwitterSquare />
               </div>
+              </TwitterShareButton>
               <div
                 className="icon"
                 id="iconPop"
@@ -183,21 +221,30 @@ export default function BlogDetails() {
                 </div>
               </div>
               <div className="social-icons">
+              <FacebookShareButton url={currentPageUrl} quote="Check out this blog!">
                 <div className="icon">
                   <FaFacebook />
+                
                 </div>
+                </FacebookShareButton>
+                <LinkedinShareButton url={currentPageUrl} title="Check out this blog!" summary="An interesting blog you must read!" source="https://www.kusheldigi.com">
                 <div className="icon">
                   <FaLinkedin />
                 </div>
+                </LinkedinShareButton>
+                <TwitterShareButton url={currentPageUrl} title="Check out this blog!">
                 <div className="icon">
-                  <FaTwitterSquare />
+                  <FaTwitterSquare/>
+                  
                 </div>
+                </TwitterShareButton>
                 <div
                   id="popAni"
                   className="icon"
-                  onClick={() => handleClick("popAni", "thanksTxt1")}
+                  ref={popAniRef}
+                  onClick={() => handleClick1("popAni", "thanksTxt1")}
                 >
-                  <span className="thanksTxt displayNone">Thanks</span>
+                  <span className={`thanksTxt ${showThanks ? "displayBlock" : "displayNone"}`}>Thanks</span>
                   <MdCelebration />
                 </div>
               </div>
@@ -227,7 +274,10 @@ export default function BlogDetails() {
                         year: "numeric",
                       })}
                     </p>
-                    <p className="cardBlogStpaara">{item.title}</p>
+                   <div className="cardBlogStpaara1">
+                   <p className="cardBlogStpaara">{item.title.slice(0,27)}...</p>
+                  
+                   </div>
                     <p className="cardBlogStpaaragr">{item.subdescription}</p>
                     <p className="cardBlogStpaarw">Read More</p>
                   </Link>
