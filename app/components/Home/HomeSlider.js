@@ -200,10 +200,10 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
             <SwiperSlide>
             <div className="carousel-item">
                 <div className="left-carousel-item">
-                  <img src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1725880369/image_1_mxn7ml.png"} alt="carousel-image" />
+                  <img src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1725880370/image_cyhgfn.png"} alt="carousel-image" />
                   <div className="left-carousel-btn-div">
                   <div className="left-carousel-btn ">B2B</div>
-                    <div className="left-carousel-btn blue-bg">Military & Tactical Industry</div>
+                    <div className="left-carousel-btn blue-bg">Gunshop</div>
                   </div>
                 </div>
                 <div className="right-carousel-item">
@@ -228,7 +228,49 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
                     </div>
                   </div>
                   <p className="right-carousel-para">
-        Aftermarket suspension lift kits, leveling kits and accessories for 4X4 off-road truck and jeep enthusiasts
+                 
+                  Rely products give you clarity and peace of mind. More than just beeps - Rely helps you understand what’s occurring in your home and what to do next.
+                  </p>
+                  <button className="left-carousel-btn blue-bg right-carousel-inner-btn">
+                    View Case Study
+                  </button>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            <div className="carousel-item">
+                <div className="left-carousel-item">
+                  <img src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1725880369/image_2_jkmhgr.png"} alt="carousel-image" />
+                  <div className="left-carousel-btn-div">
+                  <div className="left-carousel-btn ">B2B</div>
+                    <div className="left-carousel-btn blue-bg">E-commerce</div>
+                  </div>
+                </div>
+                <div className="right-carousel-item">
+                  <h2 className="right-carousel-heading">
+                  Solenoid Ninja
+                  </h2>
+                  <div className="right-service-stack-div">
+                    <div className="right-service-stack">
+                      <h3 className="service-stack-heading">Services</h3>
+                      <ul>
+                        <li>UX/UI Website Design</li>
+                        <li>Website Development</li>
+                        <li>B2B eCommerce</li>
+                        <li>QA & Website Testing</li>
+                      </ul>
+                    </div>
+                    <div className="right-service-stack">
+                      <h3 className="service-stack-heading">Tech Stack</h3>
+                      <ul>
+                        <li>BigCommerce</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <p className="right-carousel-para">
+                 
+                  The idea of our webstore started small, but quickly gathered speed after we encountered frequent requests from individuals and companies looking for small quantity, high-quality electromagnetic components.
                   </p>
                   <button className="left-carousel-btn blue-bg right-carousel-inner-btn">
                     View Case Study

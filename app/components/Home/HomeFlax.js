@@ -14,12 +14,12 @@ function Flagship() {
         </div>
         <h3>Ecommerce development</h3>
         <ul className="flagship-ul">
-          <li className="flagship-li">E-commerce and retail specialization</li>
-          <li className="flagship-li">Certified ecommerce developers</li>
-          <li className="flagship-li">Product-centric approach</li>
-          <li className="flagship-li">Full process transparency</li>
-          <li className="flagship-li">Technology excellence</li>
-          <li className="flagship-li">Payment gateway integration</li>
+          <li className="flagship-li">Expertise in ecommerce </li>
+          <li className="flagship-li">Certified developers </li>
+          <li className="flagship-li">Transparent development process </li>
+          <li className="flagship-li">Product-centric approach </li>
+          <li className="flagship-li">Technology integration </li>
+          <li className="flagship-li">Secure payment gateway integration</li>
         </ul>
         <a href="#" className="flagship-btn">
           Learn More <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />
@@ -32,15 +32,16 @@ function Flagship() {
         <h3>Ecommerce consulting</h3>
         <ul className="flagship-ul">
           <li className="flagship-li">
-            Ecommerce website audit and improvement strategy
+          Comprehensive website audit 
           </li>
-          <li className="flagship-li">Code review</li>
+          <li className="flagship-li">In-depth code review </li>
           <li className="flagship-li">UX audit</li>
           <li className="flagship-li">
-            Ecommerce website redesign and performance optimization{" "}
+          UX/UI analysis 
           </li>
-          <li className="flagship-li"> POC development</li>
-          <li className="flagship-li"> Ecommerce experience improvements</li>
+          <li className="flagship-li"> Custom ecommerce redesign </li>
+          <li className="flagship-li">Conversion rate optimisation</li>
+          <li>Data-driven recommendations </li>
         </ul>
         <a href="#" className="flagship-btn">
           Learn More <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />
@@ -52,15 +53,15 @@ function Flagship() {
         </div>
         <h3>Replatforming</h3>
         <ul className="flagship-ul">
-          <li className="flagship-li">Ecommerce platform</li>
+          <li className="flagship-li">Seamless migration </li>
           <li className="flagship-li">
-            Detailed migration roadmaps for custom ecommerce soltuions
+          Customized migration roadmap 
           </li>
-          <li className="flagship-li">Risk management</li>
-          <li className="flagship-li">Backup policy for your ecommerce store</li>
-          <li className="flagship-li">Database and storage migration</li>
+          <li className="flagship-li">Risk assessment </li>
+          <li className="flagship-li">Backup and recovery planning </li>
+          <li className="flagship-li">Database migration</li>
           <li className="flagship-li">Product list transfer</li>
-          <li className="flagship-li">Data consistency</li>
+          {/* <li className="flagship-li">Data consistency</li> */}
         </ul>
         <a href="#" className="flagship-btn">
           Learn More <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />
@@ -74,14 +75,17 @@ function Flagship() {
         </div>
         <h3>Mobile development</h3>
         <ul className="flagship-ul">
-          <li className="flagship-li">Optimized for m-commerce</li>
+          <li className="flagship-li">Mobile commerce Optimization</li>
           <li className="flagship-li">
-            On-the-go shopping experience with custom mobile apps
+          Excellent shopping experience.
           </li>
-          <li className="flagship-li">Enhanced mobile checkout</li>
-          <li className="flagship-li">Cross-platform compatibility</li>
+          <li className="flagship-li">Custom mobile app integration </li>
+          <li className="flagship-li">Easy checkout </li>
           <li className="flagship-li">
-            Integration with mobile wallets and payment systems
+          Cross-platform compatibility 
+          </li>
+          <li>
+          Payment gateway
           </li>
         </ul>
         <a href="#" className="flagship-btn">
@@ -94,10 +98,14 @@ function Flagship() {
         </div>
         <h3>Technical support</h3>
         <ul className="flagship-ul">
-          <li className="flagship-li"> Expert assistance for complex issues</li>
-          <li className="flagship-li">Proactive monitoring and maintenance</li>
-          <li className="flagship-li">Rapid response and resolution</li>
-          <li className="flagship-li">Data backup and recovery services</li>
+          <li className="flagship-li">24/7 expert assistance </li>
+          <li className="flagship-li">Proactive monitoring </li>
+          <li className="flagship-li">Quick response </li>
+          <li className="flagship-li">Secure data backup </li>
+          <li>
+          Performance optimization 
+          </li>
+          <li>Scalability support </li>
         </ul>
         <a href="#" className="flagship-btn">
           Learn More <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />
@@ -110,16 +118,16 @@ function Flagship() {
         <h3>Ecommerce design</h3>
         <ul className="flagship-ul">
           <li className="flagship-li">
-            User-centric design for an enhanced user experience
+          User-centric designs 
           </li>
           <li className="flagship-li">
-            Custom web design themes to reflect brand identity
+          Customized UI/UX 
           </li>
-          <li className="flagship-li">Modern aesthetics and responsive design</li>
+          <li className="flagship-li">Modern aesthetics </li>
           <li className="flagship-li">
-            Flat load times for improved user engagement
+          Optimized load times
           </li>
-          <li className="flagship-li">Integration of advanced visuals</li>
+          <li className="flagship-li">Mobile-friendly design </li>
         </ul>
         <a href="#" className="flagship-btn">
           Learn More <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />

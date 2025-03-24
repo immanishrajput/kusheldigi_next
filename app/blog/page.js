@@ -574,23 +574,28 @@ useEffect(()=>{
               // key={index}>
                       <div className="bimagelogMain">
              
-             <div className="bimagelog">
+           
+           <div className="bimagelog">
                {currentTasks[0]?.images?.[0] ? (
+                <Link href={`/blogdetails/${currentTasks[0]._id}`}>
                  <img
                    src={currentTasks[0].images[0]}
                    alt={currentTasks[0].title || "Main Blog"}
                  />
+                 </Link>
                ) : (
                  <p>No Image Available</p>
                )}
              </div>
+          
              
              
              <div className="bimageloDi">
                
              <div className="bimageloDiPARa12">
+              <Link href={`/blogdetails/${currentTasks[0]._id}`}>
              <h2 className="bimageloDiPara">{currentTasks[0]?.title || "No Title"}</h2>
-             
+             </Link>
 
              </div>
              

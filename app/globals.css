@@ -82741,7 +82741,7 @@ font-family: 'Poppins', sans-serif;
 /* fifth row start */
 .cardsectFiveMain{
   
-padding: 80px 0px 136px 0px;
+padding: 80px 0px 78px 0px;
   max-width: 1380px;
   margin: auto;
 }
@@ -84278,7 +84278,9 @@ width: 100%;
     }
 
     .left-carousel-item > img {
+      object-fit: content;
         aspect-ratio: 1/1;
+
     }
 
     .left-carousel-btn-div {

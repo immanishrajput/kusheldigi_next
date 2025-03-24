@@ -16,6 +16,7 @@ import { FaTwitterSquare, FaLinkedin, FaFacebook } from "react-icons/fa";
 import { MdCelebration } from "react-icons/md";
 import { useParams } from "next/navigation";
 // import confetti from "canvas-confetti";
+import Footer from '../../COMMON/Footer'
 import Navbar from "../../COMMON/Navbar";
 export default function BlogDetails() {
   const baseurl = "https://backblog.kusheldigi.com";
@@ -288,6 +289,7 @@ export default function BlogDetails() {
             </section>
           </div>
         </section>
+        <Footer/>
       </section>
     </>
   );
