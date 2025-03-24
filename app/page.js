@@ -20,8 +20,9 @@ import HomeForm from './components/Home/HomeForm'
 import HomeCardSection from './components/Home/HomeCardSection'
 import HomeSecCard from './components/Home/HomeSecCard'
 import HomeFlax from './components/Home/HomeFlax'
-import HomeVision from './components/Home/HomeVision'
+// import HomeVision from './components/Home/HomeVision'
 import HomeTech from './components/Home/HomeTech';
+import HomeVision from './components/Home/Vision/HomeVision'
 // import Navbar from './components/Home/Navbar';
 import './globals.css'
 import Footer from './COMMON/Footer';
@@ -77,20 +78,28 @@ const HomePage = ({props}) => {
       <div className="home-main">
      <Navbar/>
         <Home2Banner />
-        <Home2Swiper />
-        <Home2/>
-        <Home2Section3 />
-        <Home2Section4 />
-        <Home2Section5 />
-        <Home2Section6 />
-
-        <Home2Section7 />
-        <HomeCardSection/>
-        <HomeSecCard/>
         <HomeTech/> 
+        {/* <Home2Swiper /> */}
+        {/* <Home2/> */}
+      
+        {/* <Home2Section3 /> */}
       
         <HomeSlider/>
-       <HomeFlax/>
+        <HomeVision/>
+        {/* <Home2Section4 /> */}
+     
+        <Home2Section5 />
+
+        {/* <Home2Section6 /> */}
+   <HomeFlax/>
+        <Home2Section7 />
+        <HomeCardSection/>
+       
+        <HomeSecCard/>
+        
+      
+        
+  
         {/* <HomeVision/> */}
         <Home2Section8 />
         <Home2Section9 />

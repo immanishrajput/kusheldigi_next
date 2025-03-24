@@ -5,22 +5,21 @@ import './homeBan.css'
 function Card() {
   return (
     <section className="platforms">
-    <h2 className="plt-head">Top eCommerce Platforms We Work With</h2>
+    <h2 className="plt-head">Top eCommerce Platforms We Work With
+</h2>
     <p className="plt-para">
-      Our teams are well versed in top eCommerce technologies like Shopify,
-      BigCommerce, Salesforce Commerce Cloud, and WooCommerce. Don’t let a novice
-      team destroy your experiences - get the best your brand deserves.
+    Our expert team has specialised experience in  top-tier ecommerce technologies to provide seamless migration, custom development, and optimized solutions according to your business needs. Don't settle for less, we will let your brand get the best.
     </p>
     <div className="plt-cards">
       <div className="plt-card">
         <div className="plt-logo">
-          <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742803405/Shopify_Logo_1_xypzni.png" alt="Shopify Plus" />
+          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742835726/shopify-logo_bcrvfv.webp" alt="Shopify Plus" />
         </div>
         <h3>
           Certified <br /> Shopify Plus Agency
         </h3>
         <ul className="plt-ul">
-          <li className="plt-li">Shopify Replatforming &amp; Migration</li>
+          <li className="plt-li">Shopify Replatforming & Migration</li>
           <li className="plt-li">Shopify Custom Apps</li>
           <li className="plt-li">Conversion Rate Optimization</li>
           <li className="plt-li">UI/UX Design</li>
@@ -36,13 +35,13 @@ function Card() {
       </div>
       <div className="plt-card">
         <div className="plt-logo">
-          <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742803405/BigCommerce_1_bq5rw8.png" alt="BigCommerce" />
+          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742835775/bigcommerce-logo_quhwmf.webp" alt="BigCommerce" />
         </div>
         <h3>
           Certified <br /> BigCommerce Partner Agency
         </h3>
         <ul className="plt-ul">
-          <li className="plt-li"> BigCommerce Replatforming &amp; Migration</li>
+          <li className="plt-li"> BigCommerce Replatforming  Migration</li>
           <li className="plt-li"> BigCommerce Custom Apps</li>
           <li className="plt-li"> BigCommerce Implementation</li>
           <li className="plt-li"> BigCommerce Integration</li>
@@ -57,19 +56,19 @@ function Card() {
       </div>
       <div className="plt-card">
         <div className="plt-logo">
-          <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742803405/woo_commerce_1_lga57r.png" alt="WooCommerce" />
+          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742835726/manish_sir_logo_e3ckbh.png" alt="WooCommerce" />
         </div>
         <h3>
-          Expert <br /> WooCommerce Agency
+          Expert <br /> Magento Agency
         </h3>
         <ul className="plt-ul">
-          <li className="plt-li"> WooCommerce Replatforming &amp; Migration</li>
-          <li className="plt-li"> WooCommerce Custom Themes</li>
-          <li className="plt-li"> WooCommerce Custom Plugins</li>
-          <li className="plt-li"> WooCommerce Integrations</li>
-          <li className="plt-li"> WooCommerce Headless</li>
-          <li className="plt-li"> WooCommerce B2B Solution</li>
-          <li className="plt-li"> WooCommerce for CBD</li>
+          <li className="plt-li">Magento Replatforming & Migration</li>
+          <li className="plt-li"> Magento Custom Themes</li>
+          <li className="plt-li"> Magento Custom Extensions</li>
+          <li className="plt-li"> Magento Integrations</li>
+          <li className="plt-li"> Magento Headless</li>
+          <li className="plt-li">Magento B2B Solutions</li>
+          <li className="plt-li"> Magento for CBD </li>
         </ul>
         <a href="#" className="plt-btn">
           Learn More

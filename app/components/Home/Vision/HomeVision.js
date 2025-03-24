@@ -1,5 +1,5 @@
 "use client"
-import './homeBan.css'
+import './HomeVision.css'
 import { useEffect, useState } from "react";
 
 const Website = () => {
@@ -118,87 +118,55 @@ const Website = () => {
                 <li>
                   <h4>
                     <a href="" target="">
-                      <span>Ecommerce Development</span>
+                      <span>BigCommerce</span>
                     </a>
                   </h4>
                 </li>
                 <li>
                   <h4>
                     <a href="" target="">
-                      <span>Adobe Commerce Development</span>
+                      <span>Shopify</span>
                     </a>
                   </h4>
                 </li>
                 <li>
                   <h4>
                     <a href="" target="">
-                      <span>Magento Development</span>
+                      <span>Headless</span>
                     </a>
                   </h4>
                 </li>
                 <li>
                   <h4>
                     <a href="" target="">
-                      <span>Shopify Development</span>
+                      <span>WooCommerce</span>
                     </a>
                   </h4>
                 </li>
                 <li>
                   <h4>
                     <a href="" target="">
-                      <span>Adobe Experience Manager</span>
+                      <span>Custom E-commerce</span>
                     </a>
                   </h4>
                 </li>
                 <li>
                   <h4>
                     <a href="" target="">
-                      <span>Odoo ERP Development</span>
+                      <span>Store setup</span>
                     </a>
                   </h4>
                 </li>
                 <li>
                   <h4>
                     <a href="" target="">
-                      <span>BigCommerce Development</span>
+                      <span>platform Migartion
+
+                      </span>
                     </a>
                   </h4>
                 </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>WooCommerce Development</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>CRM for Commerce</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Adobe Analytics</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Adobe Target</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Mobile Commerce</span>
-                    </a>
-                  </h4>
-                </li>
+            
               </ul>
               <div className="services-box-right-corner">
                 {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287002/node-js-mongo-DB-icon_rhqrop.svg" alt="" /> */}
@@ -279,7 +247,7 @@ const Website = () => {
                     </div>
                   </div>
                   <h3 className="h6 services-box-title">
-                    Digital Transformation
+                   Application Development
                   </h3>
                 </div>
                 <span className={`services-box-down-icon ${activeIndex === 1 ? "rotate180" : ''}`}>
@@ -300,28 +268,42 @@ const Website = () => {
                 <li>
                   <h4>
                     <a href="" target="">
-                      <span>Enterprise Solutions</span>
+                      <span>web development</span>
                     </a>
                   </h4>
                 </li>
                 <li>
                   <h4>
                     <a href="" target="">
-                      <span>IT Consulting</span>
+                      <span>Mobile app development</span>
                     </a>
                   </h4>
                 </li>
                 <li>
                   <h4>
                     <a href="" target="">
-                      <span>CRM Development</span>
+                      <span>Native</span>
                     </a>
                   </h4>
                 </li>
                 <li>
                   <h4>
                     <a href="" target="">
-                      <span>Custom Software Development</span>
+                      <span>Cross Platform</span>
+                    </a>
+                  </h4>
+                </li>
+                <li>
+                  <h4>
+                    <a href="" target="">
+                      <span>Hybrid</span>
+                    </a>
+                  </h4>
+                </li>
+                <li>
+                  <h4>
+                    <a href="" target="">
+                      <span>PWA(Progressive Web App)</span>
                     </a>
                   </h4>
                 </li>
@@ -440,7 +422,7 @@ const Website = () => {
                     </div>
                   </div>
                   <h3 className="h6 services-box-title">
-                    Full-Stack Solutions
+                    Strategy & Design
                   </h3>
                 </div>
                 <span className={`services-box-down-icon ${activeIndex === 2 ? "rotate180" : ''}`}>
@@ -495,66 +477,47 @@ const Website = () => {
                 <li>
                   <h4>
                     <a href="" target="">
-                      <span>Full Stack Development</span>
+                      <span>Web Development</span>
                     </a>
                   </h4>
                 </li>
                 <li>
                   <h4>
                     <a href="" target="">
-                      <span>PHP Web Development</span>
+                      <span>Mobile App Development</span>
                     </a>
                   </h4>
                 </li>
                 <li>
                   <h4>
                     <a href="" target="">
-                      <span>Node JS Development</span>
+                      <span>Native</span>
                     </a>
                   </h4>
                 </li>
                 <li>
                   <h4>
                     <a href="" target="">
-                      <span>Python Development</span>
+                      <span>Cross platform</span>
                     </a>
                   </h4>
                 </li>
                 <li>
                   <h4>
                     <a href="" target="">
-                      <span>Laravel Development</span>
+                      <span>Hybrid</span>
                     </a>
                   </h4>
                 </li>
                 <li>
                   <h4>
                     <a href="" target="">
-                      <span>Angular Development</span>
+                      <span>PWA(Progressive Web App)</span>
                     </a>
                   </h4>
                 </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>MEAN Stack Development</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Lamp Technology</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Progressive Web Apps</span>
-                    </a>
-                  </h4>
-                </li>
+                
+            
               </ul>
               <div className="services-box-right-corner">
                 <svg
@@ -641,7 +604,7 @@ const Website = () => {
                         alt="Services Icon"
                         title="Services Icon"
                         decoding="async"
-                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287001/microsoft-icon_qefjxk.svg"
+                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287001/mobile-app-development-icon_pqivui.svg"
                         style={{
                           position: "absolute",
                           top: 0,
@@ -664,7 +627,10 @@ const Website = () => {
                       />
                     </div>
                   </div>
-                  <h3 className="h6 services-box-title">Mobile Apps</h3>
+                  <h3 className="h6 services-box-title">
+Managed support services
+
+</h3>
                 </div>
                 <span className={`services-box-down-icon ${activeIndex === 3 ? "rotate180" : ''}`}>
                   <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="" />
@@ -718,80 +684,19 @@ const Website = () => {
                 <li>
                   <h4>
                     <a href="" target="">
-                      <span>Mobile App Development</span>
+                      <span>Application Managed Service</span>
                     </a>
                   </h4>
                 </li>
                 <li>
                   <h4>
                     <a href="" target="">
-                      <span>iPhone App Development</span>
+                      <span>Infrastructure Managed Service</span>
                     </a>
                   </h4>
                 </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Augmented Reality</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Android App Development</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Hybrid App Development</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Phonegap Development</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Xamarin App Development</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>React Native Development</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Java Development</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Flutter App Development</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Apple Vision Pro App Development</span>
-                    </a>
-                  </h4>
-                </li>
+                
+           
               </ul>
               <div className="services-box-right-corner">
                 <svg
@@ -877,7 +782,7 @@ const Website = () => {
                         alt="Services Icon"
                         title="Services Icon"
                         decoding="async"
-                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287001/ML_eznvvj.svg"
+                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287001/microsoft-icon_qefjxk.svg"
                         style={{
                           position: "absolute",
                           top: 0,
@@ -900,7 +805,9 @@ const Website = () => {
                       />
                     </div>
                   </div>
-                  <h3 className="h6 services-box-title">Microsoft Solutions</h3>
+                  <h3 className="h6 services-box-title">Custom Software Development
+
+</h3>
                 </div>
                 <span className={`services-box-down-icon ${activeIndex === 4 ? "rotate180" : ''}`}>
                   <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="" />
@@ -954,80 +861,46 @@ const Website = () => {
                 <li>
                   <h4>
                     <a href="" target="">
-                      <span>MS Enterprise Solutions</span>
+                      <span>Outsource Product development</span>
                     </a>
                   </h4>
                 </li>
                 <li>
                   <h4>
                     <a href="" target="">
-                      <span>PowerBI Development</span>
+                      <span>Enterprise Software Development</span>
                     </a>
                   </h4>
                 </li>
                 <li>
                   <h4>
                     <a href="" target="">
-                      <span>.NET Development</span>
+                      <span>Saas product Development</span>
                     </a>
                   </h4>
                 </li>
                 <li>
                   <h4>
                     <a href="" target="">
-                      <span>.NET MAUI Development</span>
+                      <span>CRM & ERP Solutions</span>
                     </a>
                   </h4>
                 </li>
                 <li>
                   <h4>
                     <a href="" target="">
-                      <span>.NET Core Development</span>
+                      <span>Integration & API</span>
                     </a>
                   </h4>
                 </li>
                 <li>
                   <h4>
                     <a href="" target="">
-                      <span>Microsoft Azure</span>
+                      <span>Legacy Application Modernization</span>
                     </a>
                   </h4>
                 </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Low Code No Code Solutions</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Microsoft Powerapps</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Salesforce Development</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>SharePoint Development</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Windows App Development</span>
-                    </a>
-                  </h4>
-                </li>
+             
               </ul>
               <div className="services-box-right-corner">
                 <svg
@@ -1136,7 +1009,7 @@ const Website = () => {
                       />
                     </div>
                   </div>
-                  <h3 className="h6 services-box-title">AI and ML</h3>
+                  <h3 className="h6 services-box-title">Performance Marketing</h3>
                 </div>
                 <span className={`services-box-down-icon ${activeIndex === 5 ? "rotate180" : ''}`}>
                   <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="" />
@@ -1190,52 +1063,27 @@ const Website = () => {
                 <li>
                   <h4>
                     <a href="" target="">
-                      <span>Artificial Intelligence / ML</span>
+                      <span>SEO</span>
                     </a>
                   </h4>
                 </li>
                 <li>
                   <h4>
                     <a href="" target="">
-                      <span>Data Analytics and ML</span>
+                      <span>Social Media Campaigns</span>
                     </a>
                   </h4>
                 </li>
                 <li>
                   <h4>
                     <a href="" target="">
-                      <span>Generative AI App Development</span>
+                      <span>PPC Advertising</span>
                     </a>
                   </h4>
                 </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Adaptive AI Development</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Deep Learning Development</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Machine Learning Development</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Conversational AI Solutions</span>
-                    </a>
-                  </h4>
-                </li>
+              
+              
+              
               </ul>
               <div className="services-box-right-corner">
                 <svg
@@ -1696,8 +1544,8 @@ const Website = () => {
         </div>
         <div className="section-grid-item">
           <div className="services-we-served-header">
-            <h2>Your Vision, Our Expertise</h2>
-            <p>or look at our Success Stories</p>
+            <h2>Real Success, Real Impact</h2>
+            <p>have look at our Success Stories</p>
             <a href="/case-study/" className="btn-link btn-icon-left">
               <span className="btn-icon">
                 <svg
@@ -1723,35 +1571,19 @@ const Website = () => {
             </a>
           </div>
           <div className="services-we-served-search">
-            <h3 className="h5 services-we-served-search-content">
-              Can’t find the right fit? <br />
-              Search your needs below.
+            <h3 className="headeservices-we-served-search-content">
+            Not sure what you need?
+            Find the right solution or talk to our experts
             </h3>
             <div className="search-input-box">
-              <input
-                type="text"
-                name="search-product"
-                id="search-product"
-                placeholder="Search... E.g, Saas product"
-                className="search-input"
-              />
+             
               <button
                 type="button"
-                aria-label="Search button"
+                
                 className="search-btn"
               >
-                <svg
-                  width={17}
-                  height={17}
-                  viewBox="0 0 17 17"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M17 16.0502C16.644 16.3956 16.3617 16.6793 16.018 17C14.3363 15.2607 12.6301 13.4968 10.8993 11.7205C9.05809 13.102 7.10636 13.5708 4.98279 13.0527C3.39932 12.658 2.13499 11.7575 1.18982 10.413C-0.663703 7.7732 -0.320003 4.15896 1.99997 1.91394C4.43042 -0.442099 7.99016 -0.651798 10.7152 1.4452C12.1637 2.55538 12.9861 4.06028 13.1948 5.8859C13.4034 7.69919 12.9002 9.32745 11.7954 10.7707C12.6792 11.6712 13.5262 12.5593 14.3854 13.4228C15.2447 14.3109 16.1162 15.1744 17 16.0502ZM6.55399 11.9179C9.41406 11.9919 11.8445 9.6605 11.9304 6.73704C12.0164 3.82591 9.64729 1.39586 6.65219 1.32185C3.80439 1.27251 1.41077 3.64088 1.3494 6.58902C1.27575 9.47547 3.59572 11.8438 6.55399 11.9179Z"
-                    fill="#fff"
-                  />
-                </svg>
+                Talk To A Consultant
+
               </button>
             </div>
           </div>

@@ -32769,7 +32769,7 @@ select {
 
 form button {
   background-color: #0142e1;
-  cursor: pointer;
+  /* cursor: pointer; */
   outline: none;
   font-weight: 600;
   font-size: 17px;
@@ -36063,7 +36063,8 @@ width: 360px;
 }
 
 form button:hover {
-  background-color: #3c83cb
+  /* cursor: none; */
+  /* background-color: #3c83cb */
 }
 
 .unlock {

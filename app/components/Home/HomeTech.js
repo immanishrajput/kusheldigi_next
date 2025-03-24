@@ -1,58 +1,136 @@
 "use client"
-import React from 'react'
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
 import './home2.css'
-const TechSec = () => {
+import Slider from "react-slick";
+
+const partners = [
+  {
+    img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866181/bigcommerce_partner_logo-01_s0n5yt.png",
+    alt: "bigcommerce Partner",
+    link: "https://partners.bigcommerce.com/directory/partner/1983347/kushel-digi-solutions",
+  },
+  {
+    img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866181/bigcommerce_certified_logo_2-01_pc85al.png",
+    alt: "bigcommerce-certified Partner",
+    link: "https://partners.bigcommerce.com/directory/partner/1983347/kushel-digi-solutions",
+  },
+  {
+    img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866181/magento_logo-01_sraymz.png",
+    alt: "Magento Partner",
+    link: "#",
+  },
+  {
+    img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866182/woo_commerce-01_uc1lhg.png",
+    alt: "WooCommerce Partner",
+    link: "#",
+  },
+  {
+    img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866181/aws_logo-01_sohfcs.png",
+    alt: "AWS Partner",
+    link: "#",
+  },
+  {
+    img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866182/shopify_logo-01_xw6y4h.png",
+    alt: "Shopify Partner",
+    link: "#",
+  },
+  {
+    img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866182/shopify_plus_logo-01_anletp.png",
+    alt: "Shopify Plus Partner",
+    link: "#",
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1742836184/kalviyo_n9bfmf.png",
+    alt: "Prestashop Partner",
+    link: "#",
+  },
+];
+
+var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
+
+const Our = () => {
   return (
-    <div>
-        <section className="tech-section">
-        <div className="tech-container">
-            <div className="tech-heading">
-                <h2>Our Technology Partnership</h2>
-                <p>Bringing Together Leading Platforms for Your Ultimate Digital Commerce Success</p>
-            </div>
+    <section className="tech-section">
+      <div className="tech-container">
+        <div className="tech-heading">
+          <h2>Our Technology Partnership</h2>
+          <p>
+          Kushel Digi leverages latest technology to deliver future ready stores
+          </p>
         </div>
+      </div>
 
-        <div className="containerTech">
-            <div className="cardtech">
-           
-              <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741682280/auxible_duysar.png" alt="Adobe Partner" />
-         
-                <a href="#" className="read-more">Read More
-                <svg width="33" height="20" viewBox="0 0 33 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M32.5303 10.5303C32.8232 10.2374 32.8232 9.76256 32.5303 9.46967L27.7574 4.6967C27.4645 4.40381 26.9896 4.40381 26.6967 4.6967C26.4038 4.98959 26.4038 5.46447 26.6967 5.75736L30.9393 10L26.6967 14.2426C26.4038 14.5355 26.4038 15.0104 26.6967 15.3033C26.9896 15.5962 27.4645 15.5962 27.7574 15.3033L32.5303 10.5303ZM9 10.75H32V9.25H9V10.75Z" fill="black"></path><circle cx="10" cy="10" r="9.25" stroke="black" strokeWidth="1.5"></circle></svg>
-                </a>
+      {/* Desktop Grid */}
+      <div className="containers">
+        {partners.map((partner, index) => (
+          <div className="card-1" key={index}>
+            <img src={partner.img} alt={partner.alt} />
+            <a href={partner.link} target="_blank" className="read-more-1">
+              Read More{" "}
+              <img
+                src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866486/circle-arrow-icon_dcxfmm.svg"
+                alt=""
+              />
+            </a>
+          </div>
+        ))}
+      </div>
+
+      {/* Swiper Slider (Only Mobile) */}
+      <Swiper
+        slidesPerView={1}
+        spaceBetween={10}
+        loop={true}
+        autoplay={{ delay: 3000, disableOnInteraction: false }}
+        pagination={{ clickable: true }}
+        modules={[Pagination, Autoplay]}
+        className="swiper-container"
+        style={{display: "none"}}
+      >
+        {partners.map((partner, index) => (
+          <SwiperSlide key={index}>
+            <div className="card-1" id="swiperIdTech">
+              <img src={partner.img} alt={partner.alt} />
+              <a href={partner.link} target="_blank" className="read-more-1">
+                Read More{" "}
+                <img
+                  src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866486/circle-arrow-icon_dcxfmm.svg"
+                  alt=""
+                />
+              </a>
             </div>
-            <div className="cardtech">
-                <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741682280/auxible_duysar.png" alt="Magento Partner"/>
-                <a href="#" className="read-more">Read More<svg width="33" height="20" viewBox="0 0 33 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M32.5303 10.5303C32.8232 10.2374 32.8232 9.76256 32.5303 9.46967L27.7574 4.6967C27.4645 4.40381 26.9896 4.40381 26.6967 4.6967C26.4038 4.98959 26.4038 5.46447 26.6967 5.75736L30.9393 10L26.6967 14.2426C26.4038 14.5355 26.4038 15.0104 26.6967 15.3033C26.9896 15.5962 27.4645 15.5962 27.7574 15.3033L32.5303 10.5303ZM9 10.75H32V9.25H9V10.75Z" fill="black"></path><circle cx="10" cy="10" r="9.25" stroke="black" strokeWidth="1.5"></circle></svg></a>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+
+      {/* <Slider {...settings}>
+      {partners.map((partner, index) => (
+          <div key={index}>
+            <div className="card-1">
+              <img src={partner.img} alt={partner.alt} />
+              <a href={partner.link} target="_blank" className="read-more-1">
+                Read More{" "}
+                <img
+                  src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866486/circle-arrow-icon_dcxfmm.svg"
+                  alt=""
+                />
+              </a>
             </div>
-            <div className="cardtech">
-                <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741682280/auxible_duysar.png" alt="Odoo Partner"/>
-                <a href="#" className="read-more">Read More<svg width="33" height="20" viewBox="0 0 33 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M32.5303 10.5303C32.8232 10.2374 32.8232 9.76256 32.5303 9.46967L27.7574 4.6967C27.4645 4.40381 26.9896 4.40381 26.6967 4.6967C26.4038 4.98959 26.4038 5.46447 26.6967 5.75736L30.9393 10L26.6967 14.2426C26.4038 14.5355 26.4038 15.0104 26.6967 15.3033C26.9896 15.5962 27.4645 15.5962 27.7574 15.3033L32.5303 10.5303ZM9 10.75H32V9.25H9V10.75Z" fill="black"></path><circle cx="10" cy="10" r="9.25" stroke="black" strokeWidth="1.5"></circle></svg></a>
-            </div>
-            <div className="cardtech">
-                <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741682280/auxible_duysar.png" alt="BigCommerce Partner"/>
-                <a href="#" className="read-more">Read More<svg width="33" height="20" viewBox="0 0 33 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M32.5303 10.5303C32.8232 10.2374 32.8232 9.76256 32.5303 9.46967L27.7574 4.6967C27.4645 4.40381 26.9896 4.40381 26.6967 4.6967C26.4038 4.98959 26.4038 5.46447 26.6967 5.75736L30.9393 10L26.6967 14.2426C26.4038 14.5355 26.4038 15.0104 26.6967 15.3033C26.9896 15.5962 27.4645 15.5962 27.7574 15.3033L32.5303 10.5303ZM9 10.75H32V9.25H9V10.75Z" fill="black"></path><circle cx="10" cy="10" r="9.25" stroke="black" strokeWidth="1.5"></circle></svg></a>
-            </div>
-            <div className="cardtech">
-                <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741682280/auxible_duysar.png" alt="Microsoft Partner"/>
-                <a href="#" className="read-more">Read More<svg width="33" height="20" viewBox="0 0 33 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M32.5303 10.5303C32.8232 10.2374 32.8232 9.76256 32.5303 9.46967L27.7574 4.6967C27.4645 4.40381 26.9896 4.40381 26.6967 4.6967C26.4038 4.98959 26.4038 5.46447 26.6967 5.75736L30.9393 10L26.6967 14.2426C26.4038 14.5355 26.4038 15.0104 26.6967 15.3033C26.9896 15.5962 27.4645 15.5962 27.7574 15.3033L32.5303 10.5303ZM9 10.75H32V9.25H9V10.75Z" fill="black"></path><circle cx="10" cy="10" r="9.25" stroke="black" strokeWidth="1.5"></circle></svg></a>
-            </div>
-            <div className="cardtech">
-                <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741682280/auxible_duysar.png" alt="Shopify Partner"/>
-                <a href="#" className="read-more">Read More  <svg width="33" height="20" viewBox="0 0 33 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M32.5303 10.5303C32.8232 10.2374 32.8232 9.76256 32.5303 9.46967L27.7574 4.6967C27.4645 4.40381 26.9896 4.40381 26.6967 4.6967C26.4038 4.98959 26.4038 5.46447 26.6967 5.75736L30.9393 10L26.6967 14.2426C26.4038 14.5355 26.4038 15.0104 26.6967 15.3033C26.9896 15.5962 27.4645 15.5962 27.7574 15.3033L32.5303 10.5303ZM9 10.75H32V9.25H9V10.75Z" fill="black"></path><circle cx="10" cy="10" r="9.25" stroke="black" strokeWidth="1.5"></circle></svg></a>
-            </div>
-            <div className="cardtech">
-                <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741682280/auxible_duysar.png" alt="Salesforce Partner"/>
-                <a href="#" className="read-more">Read More  <svg width="33" height="20" viewBox="0 0 33 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M32.5303 10.5303C32.8232 10.2374 32.8232 9.76256 32.5303 9.46967L27.7574 4.6967C27.4645 4.40381 26.9896 4.40381 26.6967 4.6967C26.4038 4.98959 26.4038 5.46447 26.6967 5.75736L30.9393 10L26.6967 14.2426C26.4038 14.5355 26.4038 15.0104 26.6967 15.3033C26.9896 15.5962 27.4645 15.5962 27.7574 15.3033L32.5303 10.5303ZM9 10.75H32V9.25H9V10.75Z" fill="black"></path><circle cx="10" cy="10" r="9.25" stroke="black" strokeWidth="1.5"></circle></svg></a>
-            </div>
-            <div className="cardtech">
-                <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741682280/auxible_duysar.png" alt="AWS Partner"/>
-                <a href="#" className="read-more">Read More<svg width="33" height="20" viewBox="0 0 33 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M32.5303 10.5303C32.8232 10.2374 32.8232 9.76256 32.5303 9.46967L27.7574 4.6967C27.4645 4.40381 26.9896 4.40381 26.6967 4.6967C26.4038 4.98959 26.4038 5.46447 26.6967 5.75736L30.9393 10L26.6967 14.2426C26.4038 14.5355 26.4038 15.0104 26.6967 15.3033C26.9896 15.5962 27.4645 15.5962 27.7574 15.3033L32.5303 10.5303ZM9 10.75H32V9.25H9V10.75Z" fill="black"></path><circle cx="10" cy="10" r="9.25" stroke="black" strokeWidth="1.5"></circle></svg></a>
-            </div>
-        </div>
+          </div>
+        ))}
+    </Slider> */}
     </section>
-    </div>
-  )
-}
+  );
+};
 
-export default TechSec
+export default Our;

@@ -5,13 +5,10 @@ function Advance() {
   return (
     <section className="b2b-section">
     <h2 className="b2b-head">
-      Advanced ecommerce engineering for <br /> your digital presence
+    Expert Ecommerce Solutions for Modern Businesses
     </h2>
     <p className="b2b-paraa">
-      At Dinarys, we understand that the digital marketplace is not
-      one-size-fits-all. Our approach as your ecommerce web development company is
-      to create digital experiences that resonate with your audience and business
-      needs.
+    Doesn’t matter whether you're a small business or a large enterprise, our custom ecommerce solutions are designed to grow with you. We believe in delivering seamless, high-performing online stores that drive results.
     </p>
     <h3 className="b2b-headss">Business models we deliver for</h3>
     <div className="b2b-content">
@@ -23,10 +20,7 @@ function Advance() {
           <div className="b2b-contain">
             <h3 className="b2b-headsss">B2B</h3>
             <p className="b2b-para">
-              At Dinarys, we understand that the digital marketplace is not
-              one-size-fits-all. Our approach as your ecommerce web development
-              company is to create digital experiences that resonate with your
-              audience and business needs.
+            Our experts at Kushel Digi have long years of experience in designing ecommerce solutions suited for wholesale, bulk ordering, and corporate transactions. We optimize B2B sales channels for higher efficiency.
             </p>
           </div>
           <a href="#" className="b2b-btn">
@@ -40,10 +34,7 @@ function Advance() {
           <div className="b2b-contain">
             <h3 className="b2b-headsss">Multi-vendor</h3>
             <p className="b2b-para">
-              At Dinarys, we understand that the digital marketplace is not
-              one-size-fits-all. Our approach as your ecommerce web development
-              company is to create digital experiences that resonate with your
-              audience and business needs.
+            We have delivered various marketplace solutions that allow multiple sellers to showcase and sell their products on a single platform. We ensure smooth vendor management, secure transactions, and excellent shopping experience for customers.
             </p>
           </div>
           <a href="#" className="b2b-btn">
@@ -59,10 +50,7 @@ function Advance() {
           <div className="b2b-contain">
             <h3 className="b2b-headsss">B2C</h3>
             <p className="b2b-para">
-              At Dinarys, we understand that the digital marketplace is not
-              one-size-fits-all. Our approach as your ecommerce web development
-              company is to create digital experiences that resonate with your
-              audience and business needs.
+            Kushel Digi has expertise to deliver engaging, scalable, and user-friendly ecommerce solutions that connect businesses with end customers. Our team is committed to help brands grow their online presence and boost sales.
             </p>
           </div>
           <a href="#" className="b2b-btn">
@@ -76,10 +64,7 @@ function Advance() {
           <div className="b2b-contain">
             <h3 className="b2b-headsss">D2C</h3>
             <p className="b2b-para">
-              At Dinarys, we understand that the digital marketplace is not
-              one-size-fits-all. Our approach as your ecommerce web development
-              company is to create digital experiences that resonate with your
-              audience and business needs.
+            We have been helping brands to establish a direct connection with consumers by removing intermediaries. We create personalized ecommerce experiences to enhance brand loyalty and maximum profit. 
             </p>
           </div>
           <a href="#" className="b2b-btn">

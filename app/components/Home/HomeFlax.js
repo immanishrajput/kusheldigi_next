@@ -5,7 +5,7 @@ function Flagship() {
   return (
     <section className="flagship-section">
     <h2 className="flagship-head">
-      Flagship ecommerce <br /> development services
+    Building the Future of Ecommerce
     </h2>
     <div className="flagship-cards">
       <div className="flagship-card">

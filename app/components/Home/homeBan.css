@@ -25,7 +25,7 @@ body{
 }
 
 .left-contact-heading {
-  font-size: 40px;
+  font-size: 21px;
 width: 580px;
   color:#083792;
   font-weight: 600;
@@ -125,6 +125,7 @@ width: 580px;
   padding: 0.1rem 1.8rem 1.5rem;
 }
 .inputcapt input{
+  border-bottom: black;
 border-top: none;
 border-left: none;
 border-right: none;
@@ -249,11 +250,17 @@ width: 50px;
 #phone{
 padding-left: 50px !important;
 }
+.inputcapt{
+  font-size: 20px;
+}
 .captcha-btn {
   background: #0ea80e;
   border: 1px solid #0ea80e;
+  font-size: 15px !important;
   color: white;
-  padding: 10px 15px;
+height: 45px !important;
+width: 150px !important;
+  /* padding: 10px 15px !important; */
   border-radius: 5px;
   font-weight: 600;
   cursor: pointer;
@@ -457,18 +464,25 @@ padding-left: 50px !important;
 } */
 
 .plt-head {
+  margin: auto;
+  width: 900px;
   text-align: center;
+  font-weight: 600;
   font-size: 37px;
   margin-bottom: 30px;
 }
-
+@media (max-width:750px){
+  .plt-head{
+    width: 100%;
+  }
+}
 .plt-para {
   text-align: center;
   font-size: 17px;
-  font-weight: 500;
+  font-weight: 400;
   color: #362a2a;
   max-width: 1142px;
-  margin: 0 auto 30px;
+  margin:24px auto 30px;
 }
 
 .plt-cards {
@@ -485,10 +499,12 @@ padding-left: 50px !important;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: left;
   border: 2px solid #80808057;
-  width: 320px;
+  width: 337px;
 }
 
 .plt-logo {
+  display: flex;
+  justify-content: center;
   background: #f0f0f0;
   padding: 10px;
   text-align: center;
@@ -501,13 +517,15 @@ padding-left: 50px !important;
   height: auto;
 }
 
-h3 {
+.plt-card h3 {
   font-size: 18px;
+  font-weight: 600;
   margin-bottom: 10px;
   line-height: 28px;
 }
 
 .plt-ul {
+  list-style-type: disc;
   padding-left: 20px;
   margin-bottom: 15px;
 }
@@ -515,7 +533,7 @@ h3 {
 .plt-ul .plt-li {
   font-size: 14px;
   color: #333;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 27px;
 
 }
@@ -541,9 +559,12 @@ h3 {
 }
 
 .b2b-head {
+  margin: auto;
+  width: 800px;
+  
   text-align: center;
   font-size: 47px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 50px;
   margin-bottom: 2rem;
 }
@@ -575,7 +596,7 @@ h3 {
 .b2b-headsss {
   font-size: 40px;
   margin-bottom: 45px;
-  line-height: 28px;
+  line-height: 68px;
   font-weight: 500;
 }
 
@@ -687,6 +708,7 @@ h3 {
 
 @media (max-width: 992px) {
   .b2b-head {
+    width: 100%;
       font-size: 42px;
       line-height: 46px;
   }
@@ -724,6 +746,7 @@ h3 {
 
 @media (max-width: 768px) {
   .b2b-head {
+    width: 100%;
       font-size: 36px;
       line-height: 42px;
   }
@@ -760,6 +783,7 @@ h3 {
 
 @media (max-width: 576px) {
   .b2b-head {
+    width: 100%;
       font-size: 32px;
       line-height: 38px;
   }
@@ -796,6 +820,7 @@ h3 {
 
 @media (max-width: 400px) {
   .b2b-head {
+    width: 100%;
       font-size: 27px;
       line-height: 34px;
   }
@@ -876,15 +901,19 @@ h3 {
 
 
 }
+.flagship-card h3{
+  font-size: 23px;
+}
 
 .flagship-card {
   position: relative;
   background: #fff;
   padding: 18px 20px 33px;
+
   border-radius: 10px;
   text-align: left;
   /* border: 2px solid #80808057; */
-  width: 280px;
+  width: 320px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 
