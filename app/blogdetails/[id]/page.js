@@ -151,7 +151,7 @@ export default function BlogDetails() {
 
             <h3 className="MainBloggSeCh3">{currentBlog.title}</h3>
             <div className="MainBloggSeCh3Img">
-              <img src={currentBlog.images?.[0]} alt={currentBlog.title} />
+              <img src={currentBlog.banner?.[0]} alt={currentBlog.title} />
             </div>
           </div>
         ) : (

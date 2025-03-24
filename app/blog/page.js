@@ -591,6 +591,7 @@ useEffect(()=>{
              <div className="bimageloDiPARa12">
              <h2 className="bimageloDiPara">{currentTasks[0]?.title || "No Title"}</h2>
              
+
              </div>
              
                <p className="bimageloDiParra">

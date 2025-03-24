@@ -1,4 +1,3 @@
-// app/page.js
 "use client"
 // import {Metadata} from 'next'
 import Head from 'next/head';
@@ -16,18 +15,24 @@ import Home2Section10 from './components/Home/Home2Section10';
 import Home2BrandSwiper from './components/Home/Home2BrandSwiper';
 import Home2Testimonial from './components/Home/Home2Testimonial';
 import Home2AskQuestion from './components/Home/Home2AskQuestion';
-
+import HomeSlider from './components/Home/HomeSlider'
+import HomeForm from './components/Home/HomeForm'
+import HomeCardSection from './components/Home/HomeCardSection'
+import HomeSecCard from './components/Home/HomeSecCard'
+import HomeFlax from './components/Home/HomeFlax'
+import HomeVision from './components/Home/HomeVision'
 import HomeTech from './components/Home/HomeTech';
 // import Navbar from './components/Home/Navbar';
 import './globals.css'
 import Footer from './COMMON/Footer';
 import Navbar from './COMMON/Navbar';
 import { useEffect } from 'react';
-import Home2 from './components/Home/Home2';
+import Home2 from './components/Home/Home2'; 
 const HomePage = ({props}) => {
   const phoneNumber = '9045301702';
 
   const whatAppHandler = () => {
+
     const whatsappUrl = `https://wa.me/${phoneNumber}`;
     window.open(whatsappUrl, '_blank');
   };
@@ -78,8 +83,15 @@ const HomePage = ({props}) => {
         <Home2Section4 />
         <Home2Section5 />
         <Home2Section6 />
+
         <Home2Section7 />
-        {/* <HomeTech/> */}
+        <HomeCardSection/>
+        <HomeSecCard/>
+        <HomeTech/> 
+      
+        <HomeSlider/>
+       <HomeFlax/>
+        {/* <HomeVision/> */}
         <Home2Section8 />
         <Home2Section9 />
         <Home2Section10
@@ -89,7 +101,9 @@ const HomePage = ({props}) => {
           }
         />
         <Home2BrandSwiper title={'Brands We Help Thrive'} />
+        
         <Home2Testimonial />
+      
         <Home2AskQuestion />
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
@@ -112,6 +126,7 @@ const HomePage = ({props}) => {
             />
           </button>
         </div>
+        <HomeForm/>
         <Footer/>
       </div>
     </>
