@@ -36,7 +36,7 @@ const NewBanner = () => {
                     <h4 className='new-banner-para'>As a BigCommerce Certified Partner, Kushel Digi designs, develops, and optimizes eCommerce stores that deliver results and help brands to succeed in the ecommerce world.
                     </h4>
                     {/* <button className='new-banner-btn'>SCHEDULE A DEMO</button> */}
-                    <div className='flex'>
+                    <div className='flex-new-banner-btns'>
                     <a href='#form-section' className='new-banner-btn colored'>Talk to a Consultant</a>
                     <button onClick={()=> navigate.push('/contact-us')} className='new-banner-btn transparent'>Book a Call  <FaArrowRightLong /></button>
                     </div>

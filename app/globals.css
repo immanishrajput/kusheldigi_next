@@ -84337,3 +84337,6 @@ width: 100%;
   width: 42px !important;
 }
 
+.foot1 {
+  align-items: flex-start !important;
+}

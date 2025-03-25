@@ -114,7 +114,7 @@ const HomePage = ({props}) => {
           }
         />
         {/* <CompaniesSlider/> */}
-        {/* <Home2BrandSwiper title={'Brands We Help Thrive'} /> */}
+        <Home2BrandSwiper title={'Brands We Help Thrive'} />
         
         <Home2Testimonial />
       
