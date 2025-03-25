@@ -79625,7 +79625,7 @@ wordpress_cater_box p {
   }
 
   .header {
-    padding: 12px 6px
+    padding: 6px
   }
 
   .challenge-box3 {
@@ -85229,4 +85229,9 @@ input::-webkit-inner-spin-button {
   .navbar {
     padding: 20px 30px 12px 30px !important;
   }
+}
+
+
+#solutionsNav,#hireNav {
+  margin-top: 10px;
 }

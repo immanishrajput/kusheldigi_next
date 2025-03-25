@@ -188,10 +188,12 @@ width: 50px;
  width: 95%;
 }
 .contact-htmlForm-btn{
-  width: 100%;
+  width: 60%;
+  
   font-weight: 700;
   font-size: 16px;
-  padding: 15px;
+  height: 50px;
+  /* padding: 15px; */
   color: white;
  border: 1px solid   #0053ce;
   background: linear-gradient(90deg, #0053ce, #00c2ff 51%, #0053ce) 0 / 200%;
@@ -474,7 +476,11 @@ padding-left: 50px !important;
 }
 @media (max-width:750px){
   .plt-head{
-    width: 100%;
+    font-size: 27px;
+    width: 95%;
+  }
+  .plt-para{
+   width: 95%;
   }
 }
 .plt-para {
@@ -993,14 +999,14 @@ h3 {
 }
 
 .swiper-button-prev ,.swiper-button-next {
-  width: 35px;
-  height: 35px;
+  width: 35px !important;
+  height: 35px !important;
 }
 
 .swiper-button-prev::after {
-  font-size: 13px;
+  font-size: 13px !important;
 }
 
 .swiper-button-next::after {
-  font-size: 13px;
+  font-size: 13px !important;
 }
