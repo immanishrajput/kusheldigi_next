@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import React, { useEffect, useState } from "react";
 import "slick-carousel/slick/slick.css";
@@ -7,20 +7,19 @@ import './NewSlider.css';
 import Slider from "react-slick";
 
 const CompaniesSlider = () => {
-    const [autoplaySpeed, setAutoplaySpeed] = useState(1); 
+  const [autoplaySpeed, setAutoplaySpeed] = useState(1);
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setAutoplaySpeed(4000); 
+      setAutoplaySpeed(4000);
     }, 100);
-
     return () => clearTimeout(timer);
   }, []);
 
   const commonSettings = {
     dots: false,
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 4, 
     slidesToScroll: 1,
     autoplay: true,
     speed: 4000,
@@ -29,8 +28,15 @@ const CompaniesSlider = () => {
     waitForAnimate: false,
     pauseOnHover: false,
     initialSlide: 1,
+    responsive: [
+      {
+        breakpoint: 600, 
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
   };
-
 
   return (
     <div className="logo-container">
