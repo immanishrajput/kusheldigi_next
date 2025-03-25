@@ -1,12 +1,17 @@
+'use client'
+
 import React from 'react';
 import "./HomeNewBanner.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider from 'react-slick';
+// import Slider from 'react-slick';
 import { FaArrowRightLong } from 'react-icons/fa6';
 // import { GiShoppingCart } from "react-icons/gi";
 import { HiShoppingCart } from "react-icons/hi"
 import { useRouter } from 'next/navigation';
+import dynamic from "next/dynamic";
+
+const Slider = dynamic(() => import("react-slick"), { ssr: false });
 
 const NewBanner = () => {
 
