@@ -113,8 +113,8 @@ const HomePage = ({props}) => {
             'We have expertise in multiple industries, providing custom digital solutions for growth and success. Be it in transforming customer experience or operational excellence, we engineer technology that caters specifically to your business needs. '
           }
         />
-        <Slider/>
-        {/* <Home2BrandSwiper title={'Brands We Help Thrive'} /> */}
+     {/* <Slider/> */}
+         <Home2BrandSwiper title={'Brands We Help Thrive'} /> 
         
         <Home2Testimonial />
       
