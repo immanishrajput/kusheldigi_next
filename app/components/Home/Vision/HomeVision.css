@@ -1180,6 +1180,6 @@ text-decoration: none;
 
   @media screen and (max-width:600px){
     #visionBtnDiv {
-      width: 70% !important;
+      width: 100% !important;
   }
   }
