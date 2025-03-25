@@ -1124,7 +1124,7 @@ Managed support services
               </div>
             </li>
             )}
-            <li
+            {/* <li
               id="services-box-6"
               data-index={6}
               className={`services-box-item ${activeIndex === 6 ? 'bg-white' : ''}`}
@@ -1235,8 +1235,8 @@ Managed support services
                   </g>
                 </svg>
               </div>
-            </li>
-            {activeIndex === 6 && (
+            </li> */}
+            {/* {activeIndex === 6 && (
             <li
               id="services-box-row-6"
               data-index={6}
@@ -1324,8 +1324,8 @@ Managed support services
                 </svg>
               </div>
             </li>
-            )}
-            <li
+            )} */}
+            {/* <li
               id="services-box-7"
               data-index={7}
               className={`services-box-item ${activeIndex === 7 ? 'bg-white' : ''}`}
@@ -1436,8 +1436,8 @@ Managed support services
                   </g>
                 </svg>
               </div>
-            </li>
-            {activeIndex === 7 && (
+            </li> */}
+            {/* {activeIndex === 7 && (
             <li
               id="services-box-row-7"
               data-index={7}
@@ -1539,7 +1539,7 @@ Managed support services
                 </svg>
               </div>
             </li>
-            )}
+            )} */}
           </ul>
         </div>
         <div className="section-grid-item">
@@ -1575,7 +1575,7 @@ Managed support services
             Not sure what you need?
             Find the right solution or talk to our experts
             </h3>
-            <div className="search-input-box">
+            <div className="search-input-box" id='visionBtnDiv'>
              
               <a href='#form-section'  onClick={handleClick}
                 type="button"

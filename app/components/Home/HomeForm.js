@@ -243,9 +243,9 @@ const Website = () => {
                     id="ans-captch"
                   />
                 </div>
-                <button className="captcha-btn" onClick={verifyCaptcha}>
+                <span className="captcha-btn" onClick={verifyCaptcha}>
                   Verify Captcha
-                </button>
+                </span>
               </div>
 
               <button className="contact-htmlForm-btn" type="submit">

@@ -1172,3 +1172,8 @@ text-decoration: none;
     margin: 0px;
   }
   }
+
+
+  #visionBtnDiv {
+    width: 70% !important;
+  }

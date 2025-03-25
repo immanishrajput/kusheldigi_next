@@ -30298,7 +30298,7 @@ input[type=number] {
 .whtsApBtns {
   z-index: 400;
   position: fixed;
-  left: 0;
+  right: 10px !important;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -80785,6 +80785,24 @@ article h4 {
     margin-top: -30px;  /* Space between text and buttons */
     display: flex;
     gap: 10px;
+  }
+
+  #callBlinking {
+    opacity: 1;
+    animation: callBlink 1s ease-in-out infinite;
+  }
+
+  @keyframes callBlink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+    
   }
   
   .contact-form-wrapper {
