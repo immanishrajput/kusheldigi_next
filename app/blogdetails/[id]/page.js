@@ -175,7 +175,7 @@ export default function BlogDetails() {
               </LinkedinShareButton>
               <TwitterShareButton url={currentPageUrl} title="Check out this blog!">
               <div className="icon">
-                <FaTwitterSquare />
+               <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742891237/logo_fszyod.png"/>
               </div>
               </TwitterShareButton>
               <div
@@ -235,7 +235,7 @@ export default function BlogDetails() {
                 </LinkedinShareButton>
                 <TwitterShareButton url={currentPageUrl} title="Check out this blog!">
                 <div className="icon">
-                  <FaTwitterSquare/>
+                <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742891237/logo_fszyod.png"/>
                   
                 </div>
                 </TwitterShareButton>
