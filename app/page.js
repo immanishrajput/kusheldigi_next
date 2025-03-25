@@ -83,16 +83,16 @@ const HomePage = ({props}) => {
         {/* <Home2/> */}
       
         {/* <Home2Section3 /> */}
-      
-        <HomeSlider/>
         <HomeVision/>
+        <HomeSlider/>
+      
         {/* <Home2Section4 /> */}
      
         <Home2Section5 />
 
         {/* <Home2Section6 /> */}
    <HomeFlax/>
-        <Home2Section7 />
+        {/* <Home2Section7 /> */}
         <HomeCardSection/>
        
         <HomeSecCard/>
@@ -101,8 +101,8 @@ const HomePage = ({props}) => {
         
   
         {/* <HomeVision/> */}
-        <Home2Section8 />
-        <Home2Section9 />
+        {/* <Home2Section8 /> */}
+        {/* <Home2Section9 /> */}
         <Home2Section10
           heading={'Empowering industries with our expert solutions '}
           para={

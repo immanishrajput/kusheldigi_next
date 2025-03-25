@@ -11,6 +11,28 @@ function Card() {
     Our expert team has specialised experience in  top-tier ecommerce technologies to provide seamless migration, custom development, and optimized solutions according to your business needs. Don't settle for less, we will let your brand get the best.
     </p>
     <div className="plt-cards">
+      
+      <div className="plt-card">
+        <div className="plt-logo">
+          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742835775/bigcommerce-logo_quhwmf.webp" alt="BigCommerce" />
+        </div>
+        <h3>
+          Certified <br /> BigCommerce Partner Agency
+        </h3>
+        <ul className="plt-ul">
+          <li className="plt-li"> BigCommerce Replatforming  Migration</li>
+          <li className="plt-li"> BigCommerce Custom Apps</li>
+          <li className="plt-li"> BigCommerce Implementation</li>
+          <li className="plt-li"> BigCommerce Integration</li>
+          <li className="plt-li"> BigCommerce B2B</li>
+          <li className="plt-li"> BigCommerce CBD</li>
+          <li className="plt-li"> BigCommerce for Firearms</li>
+          <li className="plt-li"> BigCommerce Headless</li>
+        </ul>
+        <a href="#" className="plt-btn">
+          Learn More
+        </a>
+      </div>
       <div className="plt-card">
         <div className="plt-logo">
           <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742835726/shopify-logo_bcrvfv.webp" alt="Shopify Plus" />
@@ -28,27 +50,6 @@ function Card() {
           <li className="plt-li">Shopify Headless</li>
           <li className="plt-li">Shopify SEO</li>
           <li className="plt-li">Shopify B2B</li>
-        </ul>
-        <a href="#" className="plt-btn">
-          Learn More
-        </a>
-      </div>
-      <div className="plt-card">
-        <div className="plt-logo">
-          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742835775/bigcommerce-logo_quhwmf.webp" alt="BigCommerce" />
-        </div>
-        <h3>
-          Certified <br /> BigCommerce Partner Agency
-        </h3>
-        <ul className="plt-ul">
-          <li className="plt-li"> BigCommerce Replatforming  Migration</li>
-          <li className="plt-li"> BigCommerce Custom Apps</li>
-          <li className="plt-li"> BigCommerce Implementation</li>
-          <li className="plt-li"> BigCommerce Integration</li>
-          <li className="plt-li"> BigCommerce B2B</li>
-          <li className="plt-li"> BigCommerce CBD</li>
-          <li className="plt-li"> BigCommerce for Firearms</li>
-          <li className="plt-li"> BigCommerce Headless</li>
         </ul>
         <a href="#" className="plt-btn">
           Learn More
