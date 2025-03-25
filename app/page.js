@@ -137,6 +137,7 @@ const HomePage = ({props}) => {
               title="call-icon"
               width={50}
               height={50}
+              id='callBlinking'
             />
           </button>
         </div>

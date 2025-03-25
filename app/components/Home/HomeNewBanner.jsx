@@ -37,7 +37,7 @@ const NewBanner = () => {
                     </h4>
                     {/* <button className='new-banner-btn'>SCHEDULE A DEMO</button> */}
                     <div className='flex'>
-                    <a href='#contacthtmlForm' className='new-banner-btn colored'>Talk to a Consultant</a>
+                    <a href='#form-section' className='new-banner-btn colored'>Talk to a Consultant</a>
                     <button onClick={()=> navigate.push('/contact-us')} className='new-banner-btn transparent'>Book a Call  <FaArrowRightLong /></button>
                     </div>
                 </div>
