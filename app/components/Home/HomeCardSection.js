@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import './homeBan.css'
-
+import Link from 'next/link'
 function Card() {
   return (
     <section className="platforms">
@@ -30,9 +30,9 @@ function Card() {
           <li className="plt-li"> BigCommerce for Firearms</li>
           <li className="plt-li"> BigCommerce Headless</li>
         </ul>
-        <a href="#" className="plt-btn">
+        <Link href="/bigcommerce-development" className="plt-btn">
           Learn More
-        </a>
+        </Link>
       </div>
       <div className="plt-card">
         <div className="plt-logo">
@@ -52,9 +52,9 @@ function Card() {
           <li className="plt-li">Shopify SEO</li>
           <li className="plt-li">Shopify B2B</li>
         </ul>
-        <a href="#" className="plt-btn">
+        <Link href="/shopify" className="plt-btn">
           Learn More
-        </a>
+        </Link>
       </div>
       <div className="plt-card">
         <div className="plt-logo">
@@ -72,9 +72,9 @@ function Card() {
           <li className="plt-li">Magento B2B Solutions</li>
           <li className="plt-li"> Magento for CBD </li>
         </ul>
-        <a href="#" className="plt-btn">
+        <Link href="/magento" className="plt-btn">
           Learn More
-        </a>
+        </Link>
       </div>
     </div>
   </section>
