@@ -398,7 +398,7 @@ const Navbar = () => {
                       >
                         About
                       </Link>
-                      <div className="ser-nav10 hidden megaMenu">
+                      <div className="ser-nav10 megaMenu">
                         <div className="compan flex items-start justify-between compan1">
                           <div className="first-compan mt-5 flex items-start justify-evenly">
                             <div className="second-compan mr-10">
@@ -450,7 +450,7 @@ const Navbar = () => {
                         Services
                       </Link>
                     </div>
-                    <div className="ser-nav hidden  megaMenu">
+                    <div className="ser-nav megaMenu">
                       <div className="servise-dropdown-main">
                         <div className="servise-dropdown-container">
                           <div className="left-service-drop">
@@ -641,7 +641,7 @@ const Navbar = () => {
                       </p>
                     </div>
 
-                    <div className="hire-nav  hidden megaMenu">
+                    <div className="hire-nav megaMenu">
                       <div className="hire-dropmenu-main">
                         <div className="hired-left">
                           <div className="dummy">

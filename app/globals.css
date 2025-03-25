@@ -22,6 +22,10 @@
   overflow-x: none !important;
 }
 
+html,body {
+  scroll-behavior: smooth;
+}
+
 .contanier-box {
     display: flex;
     align-items: flex-start;
@@ -29778,7 +29782,7 @@ display: none;
     transition: background 0.3s ease, border 0.3s ease;
     /* Add transition */
   }
-  
+
   
   
   .FaArrowLeftLongfs {
@@ -30201,6 +30205,14 @@ display: none;
   }
   .navbar ul li:hover .megaMenu{
     display: block
+  }
+  
+  .megaMenu{
+    display: none;
+  }
+
+  .navbar ul li:hover .megaMenu {
+    display: block !important; 
   }
   
   
@@ -84303,5 +84315,7 @@ width: 100%;
 }
 
 
-
+.iti__selected-country {
+  width: 42px !important;
+}
 

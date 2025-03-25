@@ -981,3 +981,12 @@ h3 {
   height: 45px;
 }
 /* flag end */
+
+#ans-captch {
+  border-bottom: 2px solid black;
+}
+
+#ans-captch:focus {
+  outline: none;
+  border-bottom: 2px solid black;
+}

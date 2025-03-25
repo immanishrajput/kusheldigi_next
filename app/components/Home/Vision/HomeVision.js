@@ -1577,14 +1577,14 @@ Managed support services
             </h3>
             <div className="search-input-box">
              
-              <button  onClick={handleClick}
+              <a href='#form-section'  onClick={handleClick}
                 type="button"
                 id='talk-btn'
                 className="search-btn"
               >
                 Talk To A Consultant
 
-              </button>
+              </a>
             </div>
           </div>
         </div>

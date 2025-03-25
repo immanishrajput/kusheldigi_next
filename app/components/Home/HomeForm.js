@@ -3,6 +3,8 @@ import React, { useEffect, useRef, useState } from "react";
 import "intl-tel-input/build/css/intlTelInput.css";
 import intlTelInput from "intl-tel-input";
 import "./homeBan.css";
+import { useRouter } from "next/navigation";
+
 const Website = () => {
   const [firstNo, setFirstNo] = useState(0);
   const [secondNo, setSecondNo] = useState(0);
@@ -32,49 +34,89 @@ const Website = () => {
   };
   const phoneInputRef = useRef(null);
 
-  useEffect(() => {
-    if (phoneInputRef.current) {
-      const phoneInput = intlTelInput(phoneInputRef.current, {
-        initialCountry: "us",
-        geoIpLookup: (callback) => {
-          fetch("https://ipapi.co/json")
-            .then((res) => res.json())
-            .then((data) => callback(data.country_code))
-            .catch(() => callback("us"));
-        },
-        utilsScript:
-          "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
-      });
-    }
-  }, []);
-  // document.getElementById("talk-btn").addEventListener("click", function (event) {
-  //   event.preventDefault();
-  //   let formSection = document.getElementById("form-section");
-  //   let offset = 100;
-
-  //   window.scrollTo({
-  //     top: formSection.offsetTop - offset,
-  //     behavior: "smooth"
-  //   });
-  // });
-
+  // useEffect(() => {
+  //   if (phoneInputRef.current) {
+  //     const phoneInput = intlTelInput(phoneInputRef.current, {
+  //       initialCountry: "us",
+  //       geoIpLookup: (callback) => {
+  //         fetch("https://ipapi.co/json")
+  //           .then((res) => res.json())
+  //           .then((data) => callback(data.country_code))
+  //           .catch(() => callback("us"));
+  //       },
+  //       utilsScript:
+  //         "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+  //     });
+  //   }
+  // }, []);
  
-    const formRef = useRef(null);
+    // const formRef = useRef(null);
   
-    const handleClick = (event) => {
-      event.preventDefault();
-      if (formRef.current) {
-        const offset = 100;
-        window.scrollTo({
-          top: formRef.current.offsetTop - offset,
-          behavior: "smooth",
+    // const handleClick = (event) => {
+    //   event.preventDefault();
+    //   if (formRef.current) {
+    //     const offset = 100;
+    //     window.scrollTo({
+    //       top: formRef.current.offsetTop - offset,
+    //       behavior: "smooth",
+    //     });
+    //   }
+    // };
+
+    const [formData,setFormData] = useState({
+      fullName : '',
+      phoneNo : '',
+      email : '',
+      msg : ''
+    });
+    const [loading,setLoading] = useState(false);
+
+    const navigate = useRouter();
+
+    const handleFormChange = (e) => {
+      const {name,value} = e.target;
+      setFormData(prev => ({...prev, [name]: value}));
+      console.log({[name]:value});
+    }
+
+    const handleForm = async(e) => {
+      e.preventDefault();
+      console.log(formData);
+      setLoading(true);
+      try {
+        const response = await fetch("https://backend.kusheldigi.com/contact", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
         });
+  
+        const result = await response.json();
+        console.log(result);
+
+        if (response.ok) {
+          navigate('/success');
+        } else {
+          alert(JSON.stringify(response),"Unknown error");
+        }
+      } catch (error) {
+        console.error("Error while sending email:", error);
+        alert("An error occurred while sending the email. Please try again.");
+      } finally {
+        setLoading(false);
+        setFormData({
+          fullName : '',
+          phoneNo : '',
+          email : '',
+          msg : ''
+        })
       }
-    };
+    }
   
   return (
     <div>
-      <div className="contact-container" id="form-section" ref={formRef}>
+      <div className="contact-container" id="form-section">
         <div className="inner-contact-container">
           <div className="left">
             <h1 className="left-contact-heading">
@@ -125,7 +167,7 @@ const Website = () => {
             <h2 className="contact-heading">
               Share Your Ideas, We'll Build it.
             </h2>
-            <form className="contact-htmlForm" id="contacthtmlForm">
+            <form onSubmit={handleForm} className="contact-htmlForm" id="contacthtmlForm">
               <div className="contact-first-div">
                 <div>
                   <label htmlFor="name" className="contact-label">
@@ -135,9 +177,11 @@ const Website = () => {
                     className="contact-input"
                     type="text"
                     placeholder="Your Name"
-                    name="name"
+                    name="fullName"
                     id="name"
                     required
+                    value={formData?.fullName}
+                    onChange={handleFormChange}
                   />
                 </div>
                 <div>
@@ -148,9 +192,11 @@ const Website = () => {
                     className="contact-input"
                     type="text"
                     placeholder="Phone Number"
-                    name="phone"
-                    id="phone"
+                    name="phoneNo"
+                    id="phoneNo"
                     ref={phoneInputRef}
+                    value={formData?.phoneNo}
+                    onChange={handleFormChange}
                     required
                   />
                 </div>
@@ -166,6 +212,8 @@ const Website = () => {
                   name="email"
                   id="email"
                   placeholder="Email"
+                  value={formData?.email}
+                  onChange={handleFormChange}
                   required
                 />
               </div>
@@ -180,6 +228,8 @@ const Website = () => {
                   id="msg"
                   placeholder="How Can We Help You?"
                   required
+                  value={formData?.msg}
+                  onChange={handleFormChange}
                 ></textarea>
               </div>
               <div className="captcha-box">
@@ -190,6 +240,7 @@ const Website = () => {
                     value={userAnswer}
                     onChange={(e) => setUserAnswer(e.target.value)}
                     required
+                    id="ans-captch"
                   />
                 </div>
                 <button className="captcha-btn" onClick={verifyCaptcha}>
@@ -198,7 +249,7 @@ const Website = () => {
               </div>
 
               <button className="contact-htmlForm-btn" type="submit">
-                Submit
+               {loading ? 'Sending...' : "Submit"}
               </button>
             </form>
           </div>

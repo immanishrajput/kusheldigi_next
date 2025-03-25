@@ -1139,7 +1139,14 @@ body {
   font-weight: 400;
   background: #1b76fe;
  color: white;
+text-decoration: none;
   cursor: pointer;
+  }
+
+  .search-btn:hover {
+    background-color: transparent;
+    border: 1px solid blue;
+    color: blue;
   }
   
   .bg-white {
