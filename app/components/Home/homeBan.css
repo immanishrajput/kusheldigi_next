@@ -183,7 +183,12 @@ width: 50px;
   vertical-align: middle;
   /* width: 100%; */
 }
-
+@media(max-width:372px){
+  .contact-input,
+.contact-textArea {
+  width: 98%;
+}
+}
 .contact-emailInput,.contact-textArea {
  width: 95%;
 }
@@ -890,7 +895,11 @@ padding-left: 50px !important;
   font-weight: 400;
   /* margin-bottom: 30px; */
 }
-
+@media(max-width:450px){
+  .flagship-head{
+    font-size: 25px;
+  }
+}
 .flagship-para {
   font-size: 17px;
   font-weight: 500;
