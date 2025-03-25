@@ -1577,9 +1577,9 @@ Managed support services
             </h3>
             <div className="search-input-box">
              
-              <button
+              <button  onClick={handleClick}
                 type="button"
-                
+                id='talk-btn'
                 className="search-btn"
               >
                 Talk To A Consultant
