@@ -95,7 +95,7 @@ const HomePage = ({props}) => {
         <Home2Section5 />
 
         {/* <Home2Section6 /> */}
-   <HomeFlax/>
+        <HomeFlax/>
         <Home2Section7 />
         <HomeCardSection/>
        
@@ -113,8 +113,8 @@ const HomePage = ({props}) => {
             'We have expertise in multiple industries, providing custom digital solutions for growth and success. Be it in transforming customer experience or operational excellence, we engineer technology that caters specifically to your business needs. '
           }
         />
-        <CompaniesSlider/>
-        {/* <Home2BrandSwiper title={'Brands We Help Thrive'} /> */}
+        {/* <CompaniesSlider/> */}
+        <Home2BrandSwiper title={'Brands We Help Thrive'} />
         
         <Home2Testimonial />
       
