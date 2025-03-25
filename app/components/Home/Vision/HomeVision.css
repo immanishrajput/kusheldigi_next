@@ -1143,6 +1143,10 @@ text-decoration: none;
   cursor: pointer;
   }
 
+  .search-btn {
+    border: 1px solid #1b76fe;
+  }
+
   .search-btn:hover {
     background-color: transparent;
     border: 1px solid blue;

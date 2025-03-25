@@ -29,6 +29,8 @@ import Footer from './COMMON/Footer';
 import Navbar from './COMMON/Navbar';
 import { useEffect } from 'react';
 import Home2 from './components/Home/Home2'; 
+import HomeNewBanner from "./components/Home/HomeNewBanner";
+
 const HomePage = ({props}) => {
   const phoneNumber = '9045301702';
 
@@ -77,7 +79,8 @@ const HomePage = ({props}) => {
       </Head>
       <div className="home-main">
      <Navbar/>
-        <Home2Banner />
+        {/* <Home2Banner /> */}
+        <HomeNewBanner/>
         <HomeTech/> 
         {/* <Home2Swiper /> */}
         {/* <Home2/> */}
