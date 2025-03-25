@@ -5,7 +5,8 @@ import './homeBan.css'
 function Card() {
   return (
     <section className="platforms">
-    <h2 className="plt-head">Top eCommerce Platforms We Work With
+    <h2 className="plt-head">Delivering Success with the Best Ecommerce Platforms
+
 </h2>
     <p className="plt-para">
     Our expert team has specialised experience in  top-tier ecommerce technologies to provide seamless migration, custom development, and optimized solutions according to your business needs. Don't settle for less, we will let your brand get the best.

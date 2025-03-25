@@ -20,6 +20,7 @@ import HomeForm from './components/Home/HomeForm'
 import HomeCardSection from './components/Home/HomeCardSection'
 import HomeSecCard from './components/Home/HomeSecCard'
 import HomeFlax from './components/Home/HomeFlax'
+import Slider from './components/Home/slider/Slider'
 // import HomeVision from './components/Home/HomeVision'
 import HomeTech from './components/Home/HomeTech';
 import HomeVision from './components/Home/Vision/HomeVision'
@@ -112,7 +113,8 @@ const HomePage = ({props}) => {
             'We have expertise in multiple industries, providing custom digital solutions for growth and success. Be it in transforming customer experience or operational excellence, we engineer technology that caters specifically to your business needs. '
           }
         />
-        <Home2BrandSwiper title={'Brands We Help Thrive'} />
+        <Slider/>
+        {/* <Home2BrandSwiper title={'Brands We Help Thrive'} /> */}
         
         <Home2Testimonial />
       

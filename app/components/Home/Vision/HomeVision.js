@@ -1545,7 +1545,7 @@ Managed support services
         <div className="section-grid-item">
           <div className="services-we-served-header">
             <h2>Real Success, Real Impact</h2>
-            <p>have look at our Success Stories</p>
+            <p>Have a look on our stories of success</p>
             <a href="/case-study/" className="btn-link btn-icon-left">
               <span className="btn-icon">
                 <svg
@@ -1573,7 +1573,7 @@ Managed support services
           <div className="services-we-served-search">
             <h3 className="headeservices-we-served-search-content">
             Not sure what you need?
-            Find the right solution or talk to our experts
+            Find the right solution or talk to our experts.
             </h3>
             <div className="search-input-box">
              
