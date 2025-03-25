@@ -588,7 +588,7 @@ const Navbar = () => {
                   <Link href="/solutions">
                     <li className="mar">
                       <div className="flex items-center cursor-pointer">
-                        <p className="sar textTransform-navbar descfont" to="">
+                        <p id="solutionsNav" className="sar textTransform-navbar descfont" to="">
                           Solutions
                         </p>
                       </div>
@@ -636,7 +636,7 @@ const Navbar = () => {
                   {/* <Link  href="/hire"> */}
                   <li className="mar" style={{ position: "relative" }}>
                     <div onClick={() => router.push("/hire")} className="flex items-center cursor-pointer nb-0 navLinks">
-                      <p className="sar descfont textTransform-navbar" to="">
+                      <p id="hireNav" className="sar descfont textTransform-navbar" to="">
                         Hire
                       </p>
                     </div>
