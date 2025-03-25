@@ -28,17 +28,27 @@
 
 .slide-item img {
   width: 85%;
-  /* height: 90px; */
   object-fit: contain;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+  .logo-heading p {
+    font-size: 24px;
+  }
+
+  .slide-item img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
   .logo-heading p {
     font-size: 18px;
   }
 
   .slide-item img {
-    width: 100px;
-    height: 60px;
+    width: 75%;
+    height: 70%;
+    object-fit: cover;
   }
 }
