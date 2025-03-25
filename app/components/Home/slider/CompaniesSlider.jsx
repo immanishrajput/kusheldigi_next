@@ -10,7 +10,7 @@ const CompaniesSlider = () => {
 const scrollSettings = {
     dots: true,
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     speed: 1500,
@@ -23,7 +23,7 @@ const scrollSettings = {
 const scrollSettings2 = {
     dots: true,
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     speed: 2000,
@@ -36,7 +36,7 @@ const scrollSettings2 = {
 const scrollSettings3 = {
     dots: true,
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     speed: 1800,
@@ -55,6 +55,28 @@ const scrollSettings3 = {
           </p>
         </div>
         <Slider {...scrollSettings} style={{margin:'10px'}}>
+        <div>
+            <img
+                src={`https://res.cloudinary.com/dqjbzgksw/image/upload/v1740985644/sp18_iscwvs.png`}
+                width="85%"
+                alt="logo"
+              />
+            </div>
+            <div>
+            <img
+                src={`https://res.cloudinary.com/dqjbzgksw/image/upload/v1740985644/sp19_lg8ebe.png`}
+                width="85%"
+                alt="logo"
+              />
+            </div>
+            <div>
+            <img
+                src={`https://res.cloudinary.com/dqjbzgksw/image/upload/v1740985644/sp20_xvpwrq.png`}
+                width="85%"
+                alt="logo"
+              />
+            </div>
+        
             <div>
             <img
                 src={`https://res.cloudinary.com/dqjbzgksw/image/upload/v1740985644/sp1_tlo2jq.png`}
@@ -161,6 +183,27 @@ const scrollSettings3 = {
 
 
         <Slider {...scrollSettings3} style={{margin:'10px'}}>
+        <div>
+            <img
+                src={`https://res.cloudinary.com/dqjbzgksw/image/upload/v1740985644/sp3_kriscj.png`}
+                width="85%"
+                alt="logo"
+              />
+            </div>
+            <div>
+            <img
+                src={`https://res.cloudinary.com/dqjbzgksw/image/upload/v1740985644/sp6_oqjqdl.png`}
+                width="85%"
+                alt="logo"
+              />
+            </div>
+            <div>
+            <img
+                src={`https://res.cloudinary.com/dqjbzgksw/image/upload/v1740985644/sp4_mjfpjw.png`}
+                width="85%"
+                alt="logo"
+              />
+            </div>
         <div>
             <img
                 src={`https://res.cloudinary.com/dqjbzgksw/image/upload/v1740985644/sp10_b2yb2j.png`}

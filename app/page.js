@@ -28,9 +28,9 @@ import './globals.css'
 import Footer from './COMMON/Footer';
 import Navbar from './COMMON/Navbar';
 import { useEffect } from 'react';
-import Home2 from './components/Home/Home2'; 
+// import Home2 from './components/Home/Home2'; 
 import HomeNewBanner from "./components/Home/HomeNewBanner";
-import CompaniesSlider from "./components/Home/slider/CompaniesSlider";
+// import CompaniesSlider from "./components/Home/slider/CompaniesSlider";
 
 const HomePage = ({props}) => {
   const phoneNumber = '9045301702';
