@@ -30,6 +30,7 @@ import Navbar from './COMMON/Navbar';
 import { useEffect } from 'react';
 import Home2 from './components/Home/Home2'; 
 import HomeNewBanner from "./components/Home/HomeNewBanner";
+import CompaniesSlider from "./components/Home/slider/CompaniesSlider";
 
 const HomePage = ({props}) => {
   const phoneNumber = '9045301702';
@@ -112,7 +113,8 @@ const HomePage = ({props}) => {
             'We have expertise in multiple industries, providing custom digital solutions for growth and success. Be it in transforming customer experience or operational excellence, we engineer technology that caters specifically to your business needs. '
           }
         />
-        <Home2BrandSwiper title={'Brands We Help Thrive'} />
+        <CompaniesSlider/>
+        {/* <Home2BrandSwiper title={'Brands We Help Thrive'} /> */}
         
         <Home2Testimonial />
       
