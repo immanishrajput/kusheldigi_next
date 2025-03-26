@@ -1,6 +1,6 @@
 'use client'
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./HomeNewBanner.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -29,7 +29,26 @@ const NewBanner = () => {
     };
 
 
-    const navigate = useRouter()
+    const navigate = useRouter();
+
+    useEffect(() => {
+        const handleHashChange = () => {
+          const section = document.getElementById("form-section");
+          if (section) {
+            setTimeout(() => {
+              const offset = 150; 
+              const sectionPosition = section.getBoundingClientRect().top + window.scrollY - offset;
+              window.scrollTo({ top: sectionPosition, behavior: "smooth" });
+            }, 0);
+          }
+        };
+    
+        window.addEventListener("hashchange", handleHashChange, false);
+    
+        return () => {
+          window.removeEventListener("hashchange", handleHashChange, false);
+        };
+      }, []);
 
     return (
         <div className='new-banner-container'>

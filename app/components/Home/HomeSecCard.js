@@ -27,7 +27,7 @@ function Advance() {
             Learn More <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />
           </a>
         </div>
-        <div className="left-b2b-card">
+        <div className="left-b2b-card1" id='leftb2ca'>
           <div className="b2b-logo">
             <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806526/b13_cmmanq.webp" alt="Shopify Plus" />
           </div>

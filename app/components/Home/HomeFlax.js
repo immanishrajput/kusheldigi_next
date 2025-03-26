@@ -10,11 +10,12 @@ function Flagship() {
     </h2>
     <div className="flagship-cards">
       <div className="flagship-card">
-        <div className="flagsflagship-logo">
+        <div className="flagship-logo">
           <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808147/m1_a4lm2y.svg" alt="Shopify Plus" />
         </div>
         <h3>Ecommerce development</h3>
         <ul className="flagship-ul">
+          <li className="flagship-li">Expertise in ecommerce </li>
           <li className="flagship-li">Expertise in ecommerce </li>
           <li className="flagship-li">Certified developers </li>
           <li className="flagship-li">Transparent development process </li>
