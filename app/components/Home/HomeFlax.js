@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
 import './homeBan.css'
+import Link from 'next/link'
 function Flagship() {
   return (
     <section className="flagship-section">
@@ -9,11 +10,12 @@ function Flagship() {
     </h2>
     <div className="flagship-cards">
       <div className="flagship-card">
-        <div className="flagsflagship-logo">
+        <div className="flagship-logo">
           <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808147/m1_a4lm2y.svg" alt="Shopify Plus" />
         </div>
         <h3>Ecommerce development</h3>
         <ul className="flagship-ul">
+          <li className="flagship-li">Expertise in ecommerce </li>
           <li className="flagship-li">Expertise in ecommerce </li>
           <li className="flagship-li">Certified developers </li>
           <li className="flagship-li">Transparent development process </li>
@@ -21,9 +23,9 @@ function Flagship() {
           <li className="flagship-li">Technology integration </li>
           <li className="flagship-li">Secure payment gateway integration</li>
         </ul>
-        <a href="#" className="flagship-btn">
+        <Link href="/ecommerce-development" className="flagship-btn">
           Learn More <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />
-        </a>
+        </Link>
       </div>
       <div className="flagship-card">
         <div className="flagship-logo">
@@ -63,9 +65,9 @@ function Flagship() {
           <li className="flagship-li">Product list transfer</li>
           {/* <li className="flagship-li">Data consistency</li> */}
         </ul>
-        <a href="#" className="flagship-btn">
+        <Link href="#" className="flagship-btn">
           Learn More <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />
-        </a>
+        </Link>
       </div>
     </div>
     <div className="flagship-cards">
@@ -88,9 +90,9 @@ function Flagship() {
           Payment gateway
           </li>
         </ul>
-        <a href="#" className="flagship-btn">
+        <Link href="/mobile-application-development" className="flagship-btn">
           Learn More <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />
-        </a>
+        </Link>
       </div>
       <div className="flagship-card">
         <div className="flagship-logo">
@@ -107,9 +109,9 @@ function Flagship() {
           </li>
           <li>Scalability support </li>
         </ul>
-        <a href="#" className="flagship-btn">
+        <Link href="#" className="flagship-btn">
           Learn More <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />
-        </a>
+        </Link>
       </div>
       <div className="flagship-card">
         <div className="flagship-logo">
@@ -129,9 +131,9 @@ function Flagship() {
           </li>
           <li className="flagship-li">Mobile-friendly design </li>
         </ul>
-        <a href="#" className="flagship-btn">
+        <Link href="#" className="flagship-btn">
           Learn More <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />
-        </a>
+        </Link>
       </div>
     </div>
   </section>

@@ -1,7 +1,7 @@
 "use client"
 import './HomeVision.css'
 import { useEffect, useState } from "react";
-
+import Link from 'next/link';
 const Website = () => {
     const [activeIndex, setActiveIndex] = useState(null);
 
@@ -14,6 +14,25 @@ const Website = () => {
   const handleClick = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
+
+  useEffect(() => {
+          const handleHashChange = () => {
+            const section = document.getElementById("form-section");
+            if (section) {
+              setTimeout(() => {
+                const offset = 150; 
+                const sectionPosition = section.getBoundingClientRect().top + window.scrollY - offset;
+                window.scrollTo({ top: sectionPosition, behavior: "smooth" });
+              }, 0);
+            }
+          };
+      
+          window.addEventListener("hashchange", handleHashChange, false);
+      
+          return () => {
+            window.removeEventListener("hashchange", handleHashChange, false);
+          };
+        }, []);
 
   return (
     <div>
@@ -104,6 +123,41 @@ const Website = () => {
                 </span>
               </div>
               <div className="services-box-right-corner">
+              <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 50 50"
+                  height={50}
+                  width={50}
+                >
+                  <defs>
+                    <clipPath id="clipPath">
+                      <rect
+                        id="Rectangle_20506"
+                        data-name="Rectangle 20506"
+                        width={50}
+                        height={50}
+                        transform="translate(-6765 -1319)"
+                        fill="#ffffff"
+                      />
+                    </clipPath>
+                  </defs>
+                  <g
+                    id="Mask_Group_4"
+                    data-name="Mask Group 4"
+                    transform="translate(6765 1319)"
+                    clipPath="url(#clipPath)"
+                  >
+                    <path
+                      id="Vector_29"
+                      data-name="Vector 29"
+                      d="M764.717,362.716l.006-68.775v-.1A20.077,20.077,0,0,0,778.89,288l26.824-27.174a19.515,19.515,0,0,0,5.68-14.014l65.893-.093s-2.36,43.7-29.789,70.47C815.816,348.1,758.768,362.716,764.717,362.716Z"
+                      transform="translate(-7526.786 -1563.216)"
+                      fill="#ffffff"
+                      stroke="#ebebeb"
+                      strokeWidth={1}
+                    />
+                  </g>
+                </svg>
                 {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287002/node-js-mongo-DB-icon_rhqrop.svg" alt="" /> */}
                 
               </div>
@@ -117,37 +171,37 @@ const Website = () => {
               <ul className="services-box-list-nav">
                 <li>
                   <h4>
-                    <a href="" target="">
+                    <Link href="/bigcommerce-development">
                       <span>BigCommerce</span>
-                    </a>
+                    </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <a href="" target="">
+                    <Link href="/shopify" target="">
                       <span>Shopify</span>
-                    </a>
+                    </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <a href="" target="">
+                    <Link href="/headless-commerce" target="">
                       <span>Headless</span>
-                    </a>
+                    </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <a href="" target="">
+                    <Link href="/woocommerce" target="">
                       <span>WooCommerce</span>
-                    </a>
+                    </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <a href="" target="">
+                    <Link href="/custom-software-development" target="">
                       <span>Custom E-commerce</span>
-                    </a>
+                    </Link>
                   </h4>
                 </li>
                 <li>
@@ -255,6 +309,41 @@ const Website = () => {
                 </span>
               </div>
               <div className="services-box-right-corner">
+              <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 50 50"
+                  height={50}
+                  width={50}
+                >
+                  <defs>
+                    <clipPath id="clipPath">
+                      <rect
+                        id="Rectangle_20506"
+                        data-name="Rectangle 20506"
+                        width={50}
+                        height={50}
+                        transform="translate(-6765 -1319)"
+                        fill="#ffffff"
+                      />
+                    </clipPath>
+                  </defs>
+                  <g
+                    id="Mask_Group_4"
+                    data-name="Mask Group 4"
+                    transform="translate(6765 1319)"
+                    clipPath="url(#clipPath)"
+                  >
+                    <path
+                      id="Vector_29"
+                      data-name="Vector 29"
+                      d="M764.717,362.716l.006-68.775v-.1A20.077,20.077,0,0,0,778.89,288l26.824-27.174a19.515,19.515,0,0,0,5.68-14.014l65.893-.093s-2.36,43.7-29.789,70.47C815.816,348.1,758.768,362.716,764.717,362.716Z"
+                      transform="translate(-7526.786 -1563.216)"
+                      fill="#ffffff"
+                      stroke="#ebebeb"
+                      strokeWidth={1}
+                    />
+                  </g>
+                </svg>
                 {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287002/node-js-mongo-DB-icon_rhqrop.svg" alt="" /> */}
               </div>
             </li>
@@ -267,44 +356,44 @@ const Website = () => {
               <ul className="services-box-list-nav">
                 <li>
                   <h4>
-                    <a href="" target="">
+                    <Link href="/web-development" target="">
                       <span>web development</span>
-                    </a>
+                    </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <a href="" target="">
+                    <Link href="/mobile-application-development" target="">
                       <span>Mobile app development</span>
-                    </a>
+                    </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <a href="" target="">
+                    <Link href="/native" target="">
                       <span>Native</span>
-                    </a>
+                    </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <a href="" target="">
+                    <Link href="#" target="">
                       <span>Cross Platform</span>
-                    </a>
+                    </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <a href="" target="">
+                    <Link href="#" target="">
                       <span>Hybrid</span>
-                    </a>
+                    </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <a href="" target="">
+                    <Link href="#" target="">
                       <span>PWA(Progressive Web App)</span>
-                    </a>
+                    </Link>
                   </h4>
                 </li>
               </ul>
@@ -476,44 +565,44 @@ const Website = () => {
               <ul className="services-box-list-nav">
                 <li>
                   <h4>
-                    <a href="" target="">
+                    <Link href="/web-development" target="">
                       <span>Web Development</span>
-                    </a>
+                    </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <a href="" target="">
+                    <Link href="/mobile-application-development" target="">
                       <span>Mobile App Development</span>
-                    </a>
+                    </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <a href="" target="">
+                    <Link href="/native" target="">
                       <span>Native</span>
-                    </a>
+                    </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <a href="" target="">
+                    <Link href="#" target="">
                       <span>Cross platform</span>
-                    </a>
+                    </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <a href="" target="">
+                    <Link href="#" target="">
                       <span>Hybrid</span>
-                    </a>
+                    </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <a href="" target="">
+                    <Link href="#" target="">
                       <span>PWA(Progressive Web App)</span>
-                    </a>
+                    </Link>
                   </h4>
                 </li>
                 
@@ -683,16 +772,16 @@ Managed support services
               <ul className="services-box-list-nav">
                 <li>
                   <h4>
-                    <a href="" target="">
+                    <Link href="#" target="">
                       <span>Application Managed Service</span>
-                    </a>
+                    </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <a href="" target="">
+                    <Link href="#" target="">
                       <span>Infrastructure Managed Service</span>
-                    </a>
+                    </Link>
                   </h4>
                 </li>
                 
@@ -860,44 +949,44 @@ Managed support services
               <ul className="services-box-list-nav">
                 <li>
                   <h4>
-                    <a href="" target="">
+                    <Link href="#" target="">
                       <span>Outsource Product development</span>
-                    </a>
+                    </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <a href="" target="">
+                    <Link href="#" target="">
                       <span>Enterprise Software Development</span>
-                    </a>
+                    </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <a href="" target="">
+                    <Link href="#" target="">
                       <span>Saas product Development</span>
-                    </a>
+                    </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <a href="" target="">
+                    <Link href="#" target="">
                       <span>CRM & ERP Solutions</span>
-                    </a>
+                    </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <a href="" target="">
+                    <Link href="#" target="">
                       <span>Integration & API</span>
-                    </a>
+                    </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <a href="" target="">
+                    <Link href="#" target="">
                       <span>Legacy Application Modernization</span>
-                    </a>
+                    </Link>
                   </h4>
                 </li>
              
@@ -1062,23 +1151,23 @@ Managed support services
               <ul className="services-box-list-nav">
                 <li>
                   <h4>
-                    <a href="" target="">
+                    <Link href="/seo" target="">
                       <span>SEO</span>
-                    </a>
+                    </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <a href="" target="">
+                    <Link href="#" target="">
                       <span>Social Media Campaigns</span>
-                    </a>
+                    </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <a href="" target="">
+                    <Link href="/ppc" target="">
                       <span>PPC Advertising</span>
-                    </a>
+                    </Link>
                   </h4>
                 </li>
               
@@ -1124,429 +1213,14 @@ Managed support services
               </div>
             </li>
             )}
-            {/* <li
-              id="services-box-6"
-              data-index={6}
-              className={`services-box-item ${activeIndex === 6 ? 'bg-white' : ''}`}
-              role="none"
-              onClick={() => handleClick(6)}
-            >
-              <div className="services-box-item-header">
-                <div className="services-box-item-left">
-                  <div className="services-box-icon">
-                    <div
-                      style={{
-                        display: "inline-block",
-                        maxWidth: "100%",
-                        overflow: "hidden",
-                        position: "relative",
-                        boxSizing: "border-box",
-                        margin: 0
-                      }}
-                    >
-                      <div
-                        style={{
-                          boxSizing: "border-box",
-                          display: "block",
-                          maxWidth: "100%"
-                        }}
-                      >
-                        <img
-                          style={{
-                            maxWidth: "100%",
-                            display: "block",
-                            margin: 0,
-                            border: "none",
-                            padding: 0
-                          }}
-                          alt=""
-                          aria-hidden="true"
-                          role="presentation"
-                          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDUiIGhlaWdodD0iNTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
-                        />
-                      </div>
-                      <img
-                        alt="Services Icon"
-                        title="Services Icon"
-                        decoding="async"
-                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287001/microsoft-icon_qefjxk.svg"
-                        style={{
-                          position: "absolute",
-                          top: 0,
-                          left: 0,
-                          bottom: 0,
-                          right: 0,
-                          boxSizing: "border-box",
-                          padding: 0,
-                          border: "none",
-                          margin: "auto",
-                          display: "block",
-                          width: 0,
-                          height: 0,
-                          minWidth: "100%",
-                          maxWidth: "100%",
-                          minHeight: "100%",
-                          maxHeight: "100%",
-                          objectFit: "contain"
-                        }}
-                      />
-                    </div>
-                  </div>
-                  <h3 className="h6 services-box-title">Cloud Services</h3>
-                </div>
-                <span className={`services-box-down-icon ${activeIndex === 6 ? "rotate180" : ''}`}>
-                  <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="" />
-                </span>
-              </div>
-              <div className="services-box-right-corner">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 50 50"
-                  height={50}
-                  width={50}
-                >
-                  <defs>
-                    <clipPath id="clipPath">
-                      <rect
-                        id="Rectangle_20506"
-                        data-name="Rectangle 20506"
-                        width={50}
-                        height={50}
-                        transform="translate(-6765 -1319)"
-                        fill="#ffffff"
-                      />
-                    </clipPath>
-                  </defs>
-                  <g
-                    id="Mask_Group_4"
-                    data-name="Mask Group 4"
-                    transform="translate(6765 1319)"
-                    clipPath="url(#clipPath)"
-                  >
-                    <path
-                      id="Vector_29"
-                      data-name="Vector 29"
-                      d="M764.717,362.716l.006-68.775v-.1A20.077,20.077,0,0,0,778.89,288l26.824-27.174a19.515,19.515,0,0,0,5.68-14.014l65.893-.093s-2.36,43.7-29.789,70.47C815.816,348.1,758.768,362.716,764.717,362.716Z"
-                      transform="translate(-7526.786 -1563.216)"
-                      fill="#ffffff"
-                      stroke="#ebebeb"
-                      strokeWidth={1}
-                    />
-                  </g>
-                </svg>
-              </div>
-            </li> */}
-            {/* {activeIndex === 6 && (
-            <li
-              id="services-box-row-6"
-              data-index={6}
-              className="services-box-item services-box-item-row show"
-            >
-              <ul className="services-box-list-nav">
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Cloud Services</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>DevOps</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Amazon Web Services</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Azure Cloud Service</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Google App Engine Services</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Office 365</span>
-                    </a>
-                  </h4>
-                </li>
-              </ul>
-              <div className="services-box-right-corner">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 50 50"
-                  height={50}
-                  width={50}
-                >
-                  <defs>
-                    <clipPath id="clipPath">
-                      <rect
-                        id="Rectangle_20506"
-                        data-name="Rectangle 20506"
-                        width={50}
-                        height={50}
-                        transform="translate(-6765 -1319)"
-                        fill="#ffffff"
-                      />
-                    </clipPath>
-                  </defs>
-                  <g
-                    id="Mask_Group_4"
-                    data-name="Mask Group 4"
-                    transform="translate(6765 1319)"
-                    clipPath="url(#clipPath)"
-                  >
-                    <path
-                      id="Vector_29"
-                      data-name="Vector 29"
-                      d="M764.717,362.716l.006-68.775v-.1A20.077,20.077,0,0,0,778.89,288l26.824-27.174a19.515,19.515,0,0,0,5.68-14.014l65.893-.093s-2.36,43.7-29.789,70.47C815.816,348.1,758.768,362.716,764.717,362.716Z"
-                      transform="translate(-7526.786 -1563.216)"
-                      fill="#ffffff"
-                      stroke="#ebebeb"
-                      strokeWidth={1}
-                    />
-                  </g>
-                </svg>
-              </div>
-            </li>
-            )} */}
-            {/* <li
-              id="services-box-7"
-              data-index={7}
-              className={`services-box-item ${activeIndex === 7 ? 'bg-white' : ''}`}
-              role="none"
-              onClick={() => handleClick(7)}
-            >
-              <div className="services-box-item-header">
-                <div className="services-box-item-left">
-                  <div className="services-box-icon">
-                    <div
-                      style={{
-                        display: "inline-block",
-                        maxWidth: "100%",
-                        overflow: "hidden",
-                        position: "relative",
-                        boxSizing: "border-box",
-                        margin: 0
-                      }}
-                    >
-                      <div
-                        style={{
-                          boxSizing: "border-box",
-                          display: "block",
-                          maxWidth: "100%"
-                        }}
-                      >
-                        <img
-                          style={{
-                            maxWidth: "100%",
-                            display: "block",
-                            margin: 0,
-                            border: "none",
-                            padding: 0
-                          }}
-                          alt=""
-                          aria-hidden="true"
-                          role="presentation"
-                          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDUiIGhlaWdodD0iNTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
-                        />
-                      </div>
-                      <img
-                        alt="Services Icon"
-                        title="Services Icon"
-                        decoding="async"
-                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287001/microsoft-icon_qefjxk.svg"
-                        style={{
-                          position: "absolute",
-                          top: 0,
-                          left: 0,
-                          bottom: 0,
-                          right: 0,
-                          boxSizing: "border-box",
-                          padding: 0,
-                          border: "none",
-                          margin: "auto",
-                          display: "block",
-                          width: 0,
-                          height: 0,
-                          minWidth: "100%",
-                          maxWidth: "100%",
-                          minHeight: "100%",
-                          maxHeight: "100%",
-                          objectFit: "contain"
-                        }}
-                      />
-                    </div>
-                  </div>
-                  <h3 className="h6 services-box-title">Digital Marketing</h3>
-                </div>
-                <span className={`services-box-down-icon ${activeIndex === 7 ? "rotate180" : ''}`}>
-                  <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="" />
-                </span>
-              </div>
-              <div className="services-box-right-corner">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 50 50"
-                  height={50}
-                  width={50}
-                >
-                  <defs>
-                    <clipPath id="clipPath">
-                      <rect
-                        id="Rectangle_20506"
-                        data-name="Rectangle 20506"
-                        width={50}
-                        height={50}
-                        transform="translate(-6765 -1319)"
-                        fill="#ffffff"
-                      />
-                    </clipPath>
-                  </defs>
-                  <g
-                    id="Mask_Group_4"
-                    data-name="Mask Group 4"
-                    transform="translate(6765 1319)"
-                    clipPath="url(#clipPath)"
-                  >
-                    <path
-                      id="Vector_29"
-                      data-name="Vector 29"
-                      d="M764.717,362.716l.006-68.775v-.1A20.077,20.077,0,0,0,778.89,288l26.824-27.174a19.515,19.515,0,0,0,5.68-14.014l65.893-.093s-2.36,43.7-29.789,70.47C815.816,348.1,758.768,362.716,764.717,362.716Z"
-                      transform="translate(-7526.786 -1563.216)"
-                      fill="#ffffff"
-                      stroke="#ebebeb"
-                      strokeWidth={1}
-                    />
-                  </g>
-                </svg>
-              </div>
-            </li> */}
-            {/* {activeIndex === 7 && (
-            <li
-              id="services-box-row-7"
-              data-index={7}
-              className="services-box-item services-box-item-row show"
-            >
-              <ul className="services-box-list-nav">
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Digital Marketing Service</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Search Engine Optimization</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Paid Advertising</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Social Media Marketing</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Specialized eCommerce SEO</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Content Marketing</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Conversion Rate Optimization</span>
-                    </a>
-                  </h4>
-                </li>
-                <li>
-                  <h4>
-                    <a href="" target="">
-                      <span>Brand Management</span>
-                    </a>
-                  </h4>
-                </li>
-              </ul>
-              <div className="services-box-right-corner">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 50 50"
-                  height={50}
-                  width={50}
-                >
-                  <defs>
-                    <clipPath id="clipPath">
-                      <rect
-                        id="Rectangle_20506"
-                        data-name="Rectangle 20506"
-                        width={50}
-                        height={50}
-                        transform="translate(-6765 -1319)"
-                        fill="#ffffff"
-                      />
-                    </clipPath>
-                  </defs>
-                  <g
-                    id="Mask_Group_4"
-                    data-name="Mask Group 4"
-                    transform="translate(6765 1319)"
-                    clipPath="url(#clipPath)"
-                  >
-                    <path
-                      id="Vector_29"
-                      data-name="Vector 29"
-                      d="M764.717,362.716l.006-68.775v-.1A20.077,20.077,0,0,0,778.89,288l26.824-27.174a19.515,19.515,0,0,0,5.68-14.014l65.893-.093s-2.36,43.7-29.789,70.47C815.816,348.1,758.768,362.716,764.717,362.716Z"
-                      transform="translate(-7526.786 -1563.216)"
-                      fill="#ffffff"
-                      stroke="#ebebeb"
-                      strokeWidth={1}
-                    />
-                  </g>
-                </svg>
-              </div>
-            </li>
-            )} */}
+           
           </ul>
         </div>
         <div className="section-grid-item">
           <div className="services-we-served-header">
             <h2>Real Success, Real Impact</h2>
             <p>Have a look on our stories of success</p>
-            <a href="/case-study/" className="btn-link btn-icon-left">
+            <Link href="/portfolio" className="btn-link btn-icon-left">
               <span className="btn-icon">
                 <svg
                   width={20}
@@ -1568,7 +1242,7 @@ Managed support services
                 </svg>
               </span>
               Case Studies
-            </a>
+            </Link>
           </div>
           <div className="services-we-served-search">
             <h3 className="headeservices-we-served-search-content">

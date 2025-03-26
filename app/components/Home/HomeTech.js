@@ -5,6 +5,7 @@ import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import './home2.css'
+import Link from "next/link";
 import Slider from "react-slick";
 
 const partners = [
@@ -21,12 +22,12 @@ const partners = [
   {
     img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866181/magento_logo-01_sraymz.png",
     alt: "Magento Partner",
-    link: "#",
+    link: "/magento",
   },
   {
     img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866182/woo_commerce-01_uc1lhg.png",
     alt: "WooCommerce Partner",
-    link: "#",
+    link: "/woocommerce",
   },
   {
     img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866181/aws_logo-01_sohfcs.png",
@@ -35,7 +36,7 @@ const partners = [
   },
   {
     img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866182/shopify_logo-01_xw6y4h.png",
-    alt: "Shopify Partner",
+    alt: "/shopify",
     link: "#",
   },
   {
@@ -75,13 +76,13 @@ const Our = () => {
         {partners.map((partner, index) => (
           <div className="card-1" key={index}>
             <img src={partner.img} alt={partner.alt} />
-            <a href={partner.link} target="_blank" className="read-more-1">
+            <Link href={partner.link}  className="read-more-1">
               Read More{" "}
               <img
                 src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866486/circle-arrow-icon_dcxfmm.svg"
                 alt=""
               />
-            </a>
+            </Link>
           </div>
         ))}
       </div>
@@ -113,22 +114,6 @@ const Our = () => {
         ))}
       </Swiper>
 
-      {/* <Slider {...settings}>
-      {partners.map((partner, index) => (
-          <div key={index}>
-            <div className="card-1">
-              <img src={partner.img} alt={partner.alt} />
-              <a href={partner.link} target="_blank" className="read-more-1">
-                Read More{" "}
-                <img
-                  src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866486/circle-arrow-icon_dcxfmm.svg"
-                  alt=""
-                />
-              </a>
-            </div>
-          </div>
-        ))}
-    </Slider> */}
     </section>
   );
 };

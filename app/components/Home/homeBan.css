@@ -183,12 +183,23 @@ width: 50px;
   vertical-align: middle;
   /* width: 100%; */
 }
-
+@media (max-width:769px){
+  .contact-input,
+  .contact-textArea {
+    width: 98%;
+  }
+}
+@media(max-width:372px){
+  .contact-input,
+.contact-textArea {
+  width: 98%;
+}
+}
 .contact-emailInput,.contact-textArea {
- width: 95%;
+ width: 98%;
 }
 .contact-htmlForm-btn{
-  width: 60%;
+  width: 36%;
   
   font-weight: 700;
   font-size: 16px;
@@ -287,6 +298,7 @@ padding-left: 50px !important;
 }
 @media screen and (max-width:1000px) {
   .inner-contact-container {
+   
     flex-direction: column;
   }
 
@@ -294,7 +306,12 @@ padding-left: 50px !important;
     width: 550px;
   }
 }
-
+@media (max-width:450px){
+  #innerIdcont{
+    width: 100%;
+    padding: 20px 15px 25px 15px;
+  }
+}
 @media screen and (max-width:700px) {
   .clients::after {
     width: 400px;
@@ -552,6 +569,8 @@ padding-left: 50px !important;
 }
 
 .plt-btn {
+  position: absolute;
+  bottom: 100px;
   color: #007bff;
   text-decoration: none;
   font-weight: bold;
@@ -560,8 +579,11 @@ padding-left: 50px !important;
 .plt-btn:hover {
   text-decoration: none;
 }
-
-
+@media (max-width:1025px){
+  .plt-btn{
+    position: initial;
+  }
+}
 /* Card end */
 
 /* cardSec start */
@@ -635,8 +657,49 @@ padding-left: 50px !important;
   margin-top: 7rem;
 }
 
+.left-b2b-card-2{
+  position: relative;
+  background: #fff;
+  border: 1px solid #80808045;
+  border-radius: 10px;
+  text-align: left;
+  width: 600px;
+  max-width: 100%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  margin-bottom: 5rem;
+}
 
 
+.left-b2b-card:hover,
+.right-b2b-card:hover , .left-b2b-card-2:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+.left-b2b-card:hover .b2b-logo img,
+.right-b2b-card:hover .b2b-logo img ,
+.left-b2b-card-2:hover .b2b-logo img{
+  transform: scale(1.03);  
+}
+
+/* 
+.left-b2b-card-2{
+  position: relative;
+  background: #fff;
+  border: 1px solid #80808045;
+  border-radius: 10px;
+  text-align: left;
+  width: 600px;
+  max-width: 100%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+.left-b2b-card-2:hover{
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+} */
 
 .left-b2b-card,
 .right-b2b-card {
@@ -740,7 +803,9 @@ padding-left: 50px !important;
       line-height: 28px;
       padding: 0 15px;
   }
-
+  .left-b2b-card-2{
+    width: 85% !important;
+  }
   .left-b2b-card,
   .right-b2b-card {
       width: 85%;
@@ -777,7 +842,9 @@ padding-left: 50px !important;
       font-size: 15px;
       line-height: 26px;
   }
-
+  .left-b2b-card-2{
+    width: 90% !important;
+  }
   .left-b2b-card,
   .right-b2b-card {
       width: 90%;
@@ -800,7 +867,9 @@ padding-left: 50px !important;
       font-size: 32px;
       line-height: 38px;
   }
-
+.b2b-section{
+  padding: 20px;
+} 
   .b2b-headss {
       font-size: 22px;
   }
@@ -814,7 +883,9 @@ padding-left: 50px !important;
       font-size: 14px;
       line-height: 24px;
   }
-
+  .left-b2b-card-2{
+    width: 95% !important;
+  }
   .left-b2b-card,
   .right-b2b-card {
       width: 95%;
@@ -896,7 +967,11 @@ padding-left: 50px !important;
   font-weight: 400;
   /* margin-bottom: 30px; */
 }
-
+@media(max-width:450px){
+  .flagship-head{
+    font-size: 25px;
+  }
+}
 .flagship-para {
   font-size: 17px;
   font-weight: 500;
@@ -945,7 +1020,7 @@ padding-left: 50px !important;
   padding: 15px 0;
   text-align: left;
   border-radius: 16px;
-  margin-bottom: 20px;
+ 
 }
 
 .flagship-logo img {
