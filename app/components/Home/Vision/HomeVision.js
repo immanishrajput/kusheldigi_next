@@ -15,6 +15,25 @@ const Website = () => {
     setActiveIndex(activeIndex === index ? null : index);
   };
 
+  useEffect(() => {
+          const handleHashChange = () => {
+            const section = document.getElementById("form-section");
+            if (section) {
+              setTimeout(() => {
+                const offset = 150; 
+                const sectionPosition = section.getBoundingClientRect().top + window.scrollY - offset;
+                window.scrollTo({ top: sectionPosition, behavior: "smooth" });
+              }, 0);
+            }
+          };
+      
+          window.addEventListener("hashchange", handleHashChange, false);
+      
+          return () => {
+            window.removeEventListener("hashchange", handleHashChange, false);
+          };
+        }, []);
+
   return (
     <div>
         <>
@@ -104,6 +123,41 @@ const Website = () => {
                 </span>
               </div>
               <div className="services-box-right-corner">
+              <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 50 50"
+                  height={50}
+                  width={50}
+                >
+                  <defs>
+                    <clipPath id="clipPath">
+                      <rect
+                        id="Rectangle_20506"
+                        data-name="Rectangle 20506"
+                        width={50}
+                        height={50}
+                        transform="translate(-6765 -1319)"
+                        fill="#ffffff"
+                      />
+                    </clipPath>
+                  </defs>
+                  <g
+                    id="Mask_Group_4"
+                    data-name="Mask Group 4"
+                    transform="translate(6765 1319)"
+                    clipPath="url(#clipPath)"
+                  >
+                    <path
+                      id="Vector_29"
+                      data-name="Vector 29"
+                      d="M764.717,362.716l.006-68.775v-.1A20.077,20.077,0,0,0,778.89,288l26.824-27.174a19.515,19.515,0,0,0,5.68-14.014l65.893-.093s-2.36,43.7-29.789,70.47C815.816,348.1,758.768,362.716,764.717,362.716Z"
+                      transform="translate(-7526.786 -1563.216)"
+                      fill="#ffffff"
+                      stroke="#ebebeb"
+                      strokeWidth={1}
+                    />
+                  </g>
+                </svg>
                 {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287002/node-js-mongo-DB-icon_rhqrop.svg" alt="" /> */}
                 
               </div>
@@ -255,6 +309,41 @@ const Website = () => {
                 </span>
               </div>
               <div className="services-box-right-corner">
+              <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 50 50"
+                  height={50}
+                  width={50}
+                >
+                  <defs>
+                    <clipPath id="clipPath">
+                      <rect
+                        id="Rectangle_20506"
+                        data-name="Rectangle 20506"
+                        width={50}
+                        height={50}
+                        transform="translate(-6765 -1319)"
+                        fill="#ffffff"
+                      />
+                    </clipPath>
+                  </defs>
+                  <g
+                    id="Mask_Group_4"
+                    data-name="Mask Group 4"
+                    transform="translate(6765 1319)"
+                    clipPath="url(#clipPath)"
+                  >
+                    <path
+                      id="Vector_29"
+                      data-name="Vector 29"
+                      d="M764.717,362.716l.006-68.775v-.1A20.077,20.077,0,0,0,778.89,288l26.824-27.174a19.515,19.515,0,0,0,5.68-14.014l65.893-.093s-2.36,43.7-29.789,70.47C815.816,348.1,758.768,362.716,764.717,362.716Z"
+                      transform="translate(-7526.786 -1563.216)"
+                      fill="#ffffff"
+                      stroke="#ebebeb"
+                      strokeWidth={1}
+                    />
+                  </g>
+                </svg>
                 {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287002/node-js-mongo-DB-icon_rhqrop.svg" alt="" /> */}
               </div>
             </li>
@@ -1131,7 +1220,7 @@ Managed support services
           <div className="services-we-served-header">
             <h2>Real Success, Real Impact</h2>
             <p>Have a look on our stories of success</p>
-            <a href="/case-study/" className="btn-link btn-icon-left">
+            <Link href="/portfolio" className="btn-link btn-icon-left">
               <span className="btn-icon">
                 <svg
                   width={20}
@@ -1153,7 +1242,7 @@ Managed support services
                 </svg>
               </span>
               Case Studies
-            </a>
+            </Link>
           </div>
           <div className="services-we-served-search">
             <h3 className="headeservices-we-served-search-content">

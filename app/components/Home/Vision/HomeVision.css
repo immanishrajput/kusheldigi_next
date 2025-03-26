@@ -72,9 +72,9 @@ body {
     font-weight: 600;
   }
   
-  p {
+  /* p {
     margin: 0 0 .625rem
-  }
+  } */
   
   img {
     display: inline-block;

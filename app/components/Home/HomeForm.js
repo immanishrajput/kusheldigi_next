@@ -96,13 +96,13 @@ const Website = () => {
         console.log(result);
 
         if (response.ok) {
-          navigate('/success');
+          navigate.push('/success');
         } else {
           alert(JSON.stringify(response),"Unknown error");
         }
       } catch (error) {
         console.error("Error while sending email:", error);
-        alert("An error occurred while sending the email. Please try again.");
+        // alert("An error occurred while sending the email. Please try again.");
       } finally {
         setLoading(false);
         setFormData({
@@ -190,10 +190,11 @@ const Website = () => {
                   </label>
                   <input
                     className="contact-input"
-                    type="text"
+                    type="number"
                     placeholder="Phone Number"
                     name="phoneNo"
                     id="phoneNo"
+                    maxLength={10}
                     ref={phoneInputRef}
                     value={formData?.phoneNo}
                     onChange={handleFormChange}
