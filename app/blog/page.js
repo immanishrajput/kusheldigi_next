@@ -101,7 +101,6 @@ const Page = () => {
 
   useEffect(() => {
     fetchAllBlog();
-    // fetchAllBlog();
     fetchCatBlogs();
     featureBlogs();
     fetchLatestBlog();
@@ -134,9 +133,7 @@ const Page = () => {
   const [showOnlyWeb,setShowOnlyWeb] = useState(false);
   const [showOnlyBusiness,setShowOnlyBusiness] = useState(false);
 
-const handleFilter = (title) => {
-  console.log(title);
-  
+const handleFilter = (title) => {  
   switch (title) {
     case "e-commerce":
       setShowOnlyEcommerce(prev => !prev);

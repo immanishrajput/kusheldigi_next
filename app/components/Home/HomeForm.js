@@ -1,9 +1,11 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
-import "intl-tel-input/build/css/intlTelInput.css";
-import intlTelInput from "intl-tel-input";
+// import "intl-tel-input/build/css/intlTelInput.css";
+// import intlTelInput from "intl-tel-input";
 import "./homeBan.css";
 import { useRouter } from "next/navigation";
+import PhoneInput from "react-phone-input-2";
+import 'react-phone-input-2/lib/style.css';
 
 const Website = () => {
   const [firstNo, setFirstNo] = useState(0);
@@ -32,36 +34,7 @@ const Website = () => {
     }
     alert("Captcha Verified!!");
   };
-  const phoneInputRef = useRef(null);
-
-  // useEffect(() => {
-  //   if (phoneInputRef.current) {
-  //     const phoneInput = intlTelInput(phoneInputRef.current, {
-  //       initialCountry: "us",
-  //       geoIpLookup: (callback) => {
-  //         fetch("https://ipapi.co/json")
-  //           .then((res) => res.json())
-  //           .then((data) => callback(data.country_code))
-  //           .catch(() => callback("us"));
-  //       },
-  //       utilsScript:
-  //         "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
-  //     });
-  //   }
-  // }, []);
- 
-    // const formRef = useRef(null);
-  
-    // const handleClick = (event) => {
-    //   event.preventDefault();
-    //   if (formRef.current) {
-    //     const offset = 100;
-    //     window.scrollTo({
-    //       top: formRef.current.offsetTop - offset,
-    //       behavior: "smooth",
-    //     });
-    //   }
-    // };
+  // const phoneInputRef = useRef(null);
 
     const [formData,setFormData] = useState({
       fullName : '',
@@ -184,7 +157,7 @@ const Website = () => {
     value={formData?.fullName}
     onChange={(e) => {
       const value = e.target.value;
-      if (/^[A-Za-z ]*$/.test(value)) { // Allow only alphabets and spaces
+      if (/^[A-Za-z ]*$/.test(value)) { 
         handleFormChange(e);
       }
     }}
@@ -192,26 +165,69 @@ const Website = () => {
 </div>
 
                 <div>
-  <label htmlFor="phoneNo" className="contact-label">
-    Phone Number
-  </label>
-  <input
-    className="contact-input"
-    type="number"
-    placeholder="Phone Number"
-    name="phoneNo"
-    id="phoneNo"
-    ref={phoneInputRef}
-    value={formData?.phoneNo}
-    onChange={(e) => {
-      const value = e.target.value;
-      if (/^\d{0,10}$/.test(value)) {
-        handleFormChange(e);
-      }
-    }}
-    required
-  />
-</div>
+
+                  <label htmlFor="name" className="contact-label">
+                    Name
+                  </label>
+                  <br/>
+                  <input
+                    className="contact-input"
+                    type="text"
+                    placeholder="Your Name"
+                    name="fullName"
+                    id="name"
+                    required
+                    value={formData?.fullName}
+                    onChange={handleFormChange}
+                  />
+                </div>
+                <div id="homePhoneDiv">
+                  <label htmlFor="phone" className="contact-label">
+                    Phone Number
+                  </label>
+                  <PhoneInput
+                    className="contact-input"
+                    country={'in'}
+                    // type="text"
+                    placeholder="Phone Number"
+                    name="phoneNo"
+                    id="phoneNo"
+                    maxLength="10"
+                    // ref={phoneInputRef}
+                    value={formData?.phoneNo}
+                    // onChange={handleFormChange}
+                   onChange={(phone) => {
+  if (/^\d{0,10}$/.test(phone)) {
+    setFormData((prev) => ({ ...prev, phoneNo: phone }));
+  }
+ }}
+                    inputProps={{
+                        required: true,
+                    }}
+                    countryCodeEditable={false}
+                  />
+                </div>
+
+//   <label htmlFor="phoneNo" className="contact-label">
+//     Phone Number
+//   </label>
+//   <input
+//     className="contact-input"
+//     type="number"
+//     placeholder="Phone Number"
+//     name="phoneNo"
+//     id="phoneNo"
+//     ref={phoneInputRef}
+//     value={formData?.phoneNo}
+//     onChange={(e) => {
+//       const value = e.target.value;
+//       if (/^\d{0,10}$/.test(value)) {
+//         handleFormChange(e);
+//       }
+//     }}
+//     required
+//   />
+// </div>
 
               </div>
               <div className="contact-div">
