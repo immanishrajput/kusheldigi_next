@@ -292,6 +292,7 @@ padding-left: 50px !important;
 }
 @media screen and (max-width:1000px) {
   .inner-contact-container {
+   
     flex-direction: column;
   }
 
@@ -299,7 +300,12 @@ padding-left: 50px !important;
     width: 550px;
   }
 }
-
+@media (max-width:450px){
+  #innerIdcont{
+    width: 100%;
+    padding: 20px 15px 25px 15px;
+  }
+}
 @media screen and (max-width:700px) {
   .clients::after {
     width: 400px;
@@ -799,7 +805,9 @@ padding-left: 50px !important;
       font-size: 32px;
       line-height: 38px;
   }
-
+.b2b-section{
+  padding: 20px;
+} 
   .b2b-headss {
       font-size: 22px;
   }
