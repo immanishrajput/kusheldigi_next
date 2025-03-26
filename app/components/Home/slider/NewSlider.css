@@ -43,8 +43,9 @@
 
 @media (max-width: 600px) {
   .logo-heading p {
-    font-size: 18px;
-  }
+    font-size: 25px;
+    line-height: 35px;
+}
 
   .slide-item img {
     width: 75%;

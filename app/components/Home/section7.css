@@ -405,6 +405,7 @@ color: #FFFFFF;
   }
   .s5cont{
   height: 500px;
+  margin-bottom: 15px;
 }
 .s7cont h3{
   font-size: 32px;
@@ -426,10 +427,9 @@ line-height: 44px;
 font-size: 16px;
 line-height: 28px;
 }
-.s5cont button{
-width: 250px;
-height: 60px;
-
+.s5cont button {
+  width: 220px;
+  height: 50px;
 }
 
 }
