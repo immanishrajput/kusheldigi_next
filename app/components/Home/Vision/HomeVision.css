@@ -1035,6 +1035,11 @@ body {
     gap: 0px 3.75rem;
   }
   }
+  @media (max-width:450px){
+    .services-we-served .section-grid .section-grid-item .services-box-item .services-box-title{
+      font-size: 14px;
+    }
+  }
   .services-we-served
   .section-grid
   .section-grid-item

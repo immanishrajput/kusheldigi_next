@@ -82397,7 +82397,7 @@ input::-webkit-inner-spin-button {
   background: #f1f3f9;
   padding: 15px;
   border-radius: 10px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.1s ease-out;
 }
 
 .faqr-item.expanded {
@@ -82488,7 +82488,7 @@ input::-webkit-inner-spin-button {
   background: white;
   padding: 15px;
   border-radius: 10px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.1s ease-out;
   height: fit-content;
 }
 
