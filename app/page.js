@@ -31,6 +31,7 @@ import { useEffect } from 'react';
 // import Home2 from './components/Home/Home2'; 
 import HomeNewBanner from "./components/Home/HomeNewBanner";
 import CompaniesSlider from "./components/Home/slider/CompaniesSlider";
+import ScrollSection from "./components/Scroll-Section/ScrollSection";
 
 const HomePage = ({props}) => {
   const phoneNumber = '9045301702';
@@ -107,6 +108,7 @@ const HomePage = ({props}) => {
         {/* <HomeVision/> */}
         {/* <Home2Section8 /> */}
         {/* <Home2Section9 /> */}
+        {/* <ScrollSection/> */}
         <Home2Section10
           heading={'Empowering industries with our expert solutions '}
           para={

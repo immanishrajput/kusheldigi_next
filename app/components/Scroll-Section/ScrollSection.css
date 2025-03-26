@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.scroll-section-wrapper {
+    overflow-x: hidden;
+    position: relative;
+    padding-top: 50px;
+    background: linear-gradient(280deg, #ecf5fd, #f0f3fb 62.02%, #f9f9f4);
+    min-height: 100vh;
+}
+
+.pin-spacer {
+    padding: 20px 60px !important;
+}
+
+.scroll-section-heading, .scroll-section-para {
+    text-align: center;
+}
+
+.scroll-section-heading {
+    font-size: 3.2rem;
+    font-weight: 600;
+    /* color: #083792; */
+}
+
+.scroll-section-para {
+    font-size: 1.3rem;
+    margin: 10px 0px 0px 0px;
+    /* color: #083792; */
+}
+
+.scroll-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 200vw;
+    min-height: 90vh;
+    position: relative;
+}
+
+.scrolled-section {
+    width: 40vw;
+}
+
+@media screen and (max-width:600px){
+    .scroll-container {
+        width: 650vw;
+    }
+    
+    .scrolled-section {
+        width: 90vw;
+    }
+
+    .scrolled-section {
+        transform: translate(0px, -100px);
+    }
+}
+
+.scroll-card-img {
+    margin-bottom: 20px;
+}
+
+.scroll-card-heading {
+    font-size: 1.6rem;
+    /* color: #083792; */
+}
+
+.scroll-card-para {
+    font-size: 1.2rem;
+    margin: 20px 0px;
+    /* color: #083792; */
+}
+
+.scroll-card-li-heading {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    /* color: #083792; */
+}
+
+.scroll-card-ul {
+    list-style: none;
+    /* color: #083792; */
+}
+
+.scroll-card-ul > li {
+    font-size: 1.1rem;
+    margin: 5px 0px;
+}
+
+.scrolled-section > svg {
+        width: 540%;
+        height: auto;
+        margin-bottom: 20px;
+        height: 30px;
+}
+
+.scroll-card-li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.scroll-card-li-icon {
+    font-size: 24px;
+}

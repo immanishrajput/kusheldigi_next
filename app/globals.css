@@ -30886,9 +30886,9 @@ height: fit-content;
 
 
 
-h2 {
+/* h2 {
   latter-spacing:
-}
+} */
 
 body {
   overflow-x: hidden;
@@ -30934,6 +30934,39 @@ input[type=number] {
 
 .react-tel-input .flag-dropdown.open .selected-flag {
   border: .75px solid #33475B !important
+}
+
+#homePhoneDiv > .react-tel-input .selected-flag {
+  background-color: transparent !important;
+  color: #000;
+}
+
+#homePhoneDiv > .react-tel-input {
+  padding: 9px !important;
+  width: 85% !important;
+}
+
+#homePhoneDiv > .react-tel-input > .flag-dropdown {
+    background: transparent;
+    border: none;
+}
+
+#homePhoneDiv > .react-tel-input > .flag-dropdown.open {
+  border: none;
+  outline: none;
+}
+
+#homePhoneDiv > .react-tel-input .form-control {
+  background: transparent !important;
+  color: black !important;
+  height: unset !important;
+}
+
+@media screen and (max-width:600px){
+  #homePhoneDiv > .react-tel-input {
+    padding: 9px !important;
+    width: 65% !important;
+}
 }
 
 .whtsApBtns {
