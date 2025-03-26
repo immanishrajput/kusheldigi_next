@@ -85222,9 +85222,7 @@ input::-webkit-inner-spin-button {
 
 
 @media screen and (max-width:600px) {
-  .navigation1-main {
-    margin-top: 22px !important;
-  }
+ 
 
   .navbar {
     padding: 20px 30px 12px 30px !important;
