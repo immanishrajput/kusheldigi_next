@@ -652,7 +652,7 @@ padding-left: 50px !important;
 }
 
 
-.left-b2b-card1{
+.left-b2b-card{
   position: relative;
   background: #fff;
   border: 1px solid #80808045;
@@ -664,7 +664,7 @@ padding-left: 50px !important;
   transition: all 0.3s ease-in-out;
   overflow: hidden;
 }
-.left-b2b-card1:hover{
+.left-b2b-card:hover{
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   transform: translateY(-5px);
 }
