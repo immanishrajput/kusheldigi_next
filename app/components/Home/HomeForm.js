@@ -36,57 +36,57 @@ const Website = () => {
   };
   // const phoneInputRef = useRef(null);
 
-    const [formData,setFormData] = useState({
-      fullName : '',
-      phoneNo : '',
-      email : '',
-      msg : ''
-    });
-    const [loading,setLoading] = useState(false);
+  const [formData, setFormData] = useState({
+    fullName: '',
+    phoneNo: '',
+    email: '',
+    msg: ''
+  });
+  const [loading, setLoading] = useState(false);
 
-    const navigate = useRouter();
+  const navigate = useRouter();
 
-    const handleFormChange = (e) => {
-      const {name,value} = e.target;
-      setFormData(prev => ({...prev, [name]: value}));
-      console.log({[name]:value});
-    }
+  const handleFormChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({ ...prev, [name]: value }));
+    console.log({ [name]: value });
+  }
 
-    const handleForm = async(e) => {
-      e.preventDefault();
-      console.log(formData);
-      setLoading(true);
-      try {
-        const response = await fetch("https://backend.kusheldigi.com/contact", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(formData),
-        });
-  
-        const result = await response.json();
-        console.log(result);
+  const handleForm = async (e) => {
+    e.preventDefault();
+    console.log(formData);
+    setLoading(true);
+    try {
+      const response = await fetch("https://backend.kusheldigi.com/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
 
-        if (response.ok) {
-          navigate.push('/success');
-        } else {
-          alert(JSON.stringify(response),"Unknown error");
-        }
-      } catch (error) {
-        console.error("Error while sending email:", error);
-        // alert("An error occurred while sending the email. Please try again.");
-      } finally {
-        setLoading(false);
-        setFormData({
-          fullName : '',
-          phoneNo : '',
-          email : '',
-          msg : ''
-        })
+      const result = await response.json();
+      console.log(result);
+
+      if (response.ok) {
+        navigate.push('/success');
+      } else {
+        alert(JSON.stringify(response), "Unknown error");
       }
+    } catch (error) {
+      console.error("Error while sending email:", error);
+      // alert("An error occurred while sending the email. Please try again.");
+    } finally {
+      setLoading(false);
+      setFormData({
+        fullName: '',
+        phoneNo: '',
+        email: '',
+        msg: ''
+      })
     }
-  
+  }
+
   return (
     <div>
       <div className="contact-container" id="form-section">
@@ -142,34 +142,11 @@ const Website = () => {
             </h2>
             <form onSubmit={handleForm} className="contact-htmlForm" id="contacthtmlForm">
               <div className="contact-first-div">
-                
-               <div>
-  <label htmlFor="name" className="contact-label">
-    Name
-  </label>
-  <input
-    className="contact-input"
-    type="text"
-    placeholder="Your Name"
-    name="fullName"
-    id="name"
-    required
-    value={formData?.fullName}
-    onChange={(e) => {
-      const value = e.target.value;
-      if (/^[A-Za-z ]*$/.test(value)) { 
-        handleFormChange(e);
-      }
-    }}
-  />
-</div>
 
-                <div>
-
+                {/* <div>
                   <label htmlFor="name" className="contact-label">
                     Name
                   </label>
-                  <br/>
                   <input
                     className="contact-input"
                     type="text"
@@ -178,7 +155,35 @@ const Website = () => {
                     id="name"
                     required
                     value={formData?.fullName}
-                    onChange={handleFormChange}
+                    onChange={(e) => {
+                      const value = e.target.value;
+                      if (/^[A-Za-z ]*$/.test(value)) {
+                        handleFormChange(e);
+                      }
+                    }}
+                  />
+                </div> */}
+
+                <div>
+
+                  <label htmlFor="name" className="contact-label">
+                    Name
+                  </label>
+                  <br />
+                  <input
+                    className="contact-input"
+                    type="text"
+                    placeholder="Your Name"
+                    name="fullName"
+                    id="name"
+                    required
+                    value={formData?.fullName}
+                    onChange={(e) => {
+                      const value = e.target.value;
+                      if (/^[A-Za-z ]*$/.test(value)) {
+                        handleFormChange(e);
+                      }
+                    }}
                   />
                 </div>
                 <div id="homePhoneDiv">
@@ -188,103 +193,100 @@ const Website = () => {
                   <PhoneInput
                     className="contact-input"
                     country={'in'}
-                    // type="text"
                     placeholder="Phone Number"
                     name="phoneNo"
                     id="phoneNo"
                     maxLength="10"
-                    // ref={phoneInputRef}
                     value={formData?.phoneNo}
-                    // onChange={handleFormChange}
-                   onChange={(phone) => {
-  if (/^\d{0,10}$/.test(phone)) {
-    setFormData((prev) => ({ ...prev, phoneNo: phone }));
-  }
- }}
+                    onChange={(phone) => {
+                      if (/^\d{0,10}$/.test(phone)) {
+                        setFormData((prev) => ({ ...prev, phoneNo: phone }));
+                      }
+                    }}
                     inputProps={{
-                        required: true,
+                      required: true,
                     }}
                     countryCodeEditable={false}
                   />
                 </div>
 
-//   <label htmlFor="phoneNo" className="contact-label">
-//     Phone Number
-//   </label>
-//   <input
-//     className="contact-input"
-//     type="number"
-//     placeholder="Phone Number"
-//     name="phoneNo"
-//     id="phoneNo"
-//     ref={phoneInputRef}
-//     value={formData?.phoneNo}
-//     onChange={(e) => {
-//       const value = e.target.value;
-//       if (/^\d{0,10}$/.test(value)) {
-//         handleFormChange(e);
-//       }
-//     }}
-//     required
-//   />
-// </div>
+   {/* <label htmlFor="phoneNo" className="contact-label">
+    Phone Number
+  </label>
+   <input
+     className="contact-input"
+     type="number"
+     placeholder="Phone Number"
+     name="phoneNo"
+     id="phoneNo"
+     ref={phoneInputRef}
+     value={formData?.phoneNo}
+     onChange={(e) => {
+       const value = e.target.value;
+       if (/^\d{0, 10}$/.test(value)) {
+         handleFormChange(e);
+       }
+     }}
+     required
+   />
+ </div> */}
 
               </div>
-              <div className="contact-div">
-                <label htmlFor="email" className="contact-label">
-                  Business Email
-                </label>{" "}
-                <br />
-                <input
-                  className="contact-input contact-emailInput"
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="Email"
-                  value={formData?.email}
-                  onChange={handleFormChange}
-                  required
-                />
-              </div>
-              <div className="contact-div">
-                <label htmlFor="msg" className="contact-label">
-                  Project Description
-                </label>{" "}
-                <br />
-                <textarea
-                  className="contact-textArea"
-                  name="msg"
-                  id="msg"
-                  placeholder="How Can We Help You?"
-                  required
-                  value={formData?.msg}
-                  onChange={handleFormChange}
-                ></textarea>
-              </div>
-              <div className="captcha-box">
-                <div className="inputcapt">
-                  <span>{`${firstNo} + ${secondNo} = `}</span>
-                  <input
-                    type="number"
-                    value={userAnswer}
-                    onChange={(e) => setUserAnswer(e.target.value)}
-                    required
-                    id="ans-captch"
-                  />
-                </div>
-                <span className="captcha-btn" onClick={verifyCaptcha}>
-                  Verify Captcha
-                </span>
-              </div>
-
-              <button className="contact-htmlForm-btn" type="submit">
-               {loading ? 'Sending...' : "Submit"}
-              </button>
-            </form>
+          <div className="contact-div">
+            <label htmlFor="email" className="contact-label">
+              Business Email
+            </label>{" "}
+            <br />
+            <input
+              className="contact-input contact-emailInput"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              value={formData?.email}
+              onChange={handleFormChange}
+              required
+            />
           </div>
-        </div>
+          <div className="contact-div">
+            <label htmlFor="msg" className="contact-label">
+              Project Description
+            </label>{" "}
+            <br />
+            <textarea
+              className="contact-textArea"
+              name="msg"
+              id="msg"
+              placeholder="How Can We Help You?"
+              required
+              value={formData?.msg}
+              onChange={handleFormChange}
+            ></textarea>
+          </div>
+          <div className="captcha-box">
+            <div className="inputcapt">
+              <span>{`${firstNo} + ${secondNo} = `}</span>
+              <input
+                type="number"
+                value={userAnswer}
+                onChange={(e) => setUserAnswer(e.target.value)}
+                required
+                id="ans-captch"
+              />
+            </div>
+            <span className="captcha-btn" onClick={verifyCaptcha}>
+              Verify Captcha
+            </span>
+          </div>
+
+          <button className="contact-htmlForm-btn" type="submit">
+            {loading ? 'Sending...' : "Submit"}
+          </button>
+        </form>
       </div>
     </div>
+      </div >
+    </div >
   );
 };
 

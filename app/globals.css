@@ -30965,7 +30965,7 @@ input[type=number] {
 @media screen and (max-width:600px){
   #homePhoneDiv > .react-tel-input {
     padding: 9px !important;
-    width: 65% !important;
+    width: 82% !important;
 }
 }
 
