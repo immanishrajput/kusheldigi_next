@@ -169,38 +169,50 @@ const Website = () => {
             </h2>
             <form onSubmit={handleForm} className="contact-htmlForm" id="contacthtmlForm">
               <div className="contact-first-div">
+                
+               <div>
+  <label htmlFor="name" className="contact-label">
+    Name
+  </label>
+  <input
+    className="contact-input"
+    type="text"
+    placeholder="Your Name"
+    name="fullName"
+    id="name"
+    required
+    value={formData?.fullName}
+    onChange={(e) => {
+      const value = e.target.value;
+      if (/^[A-Za-z ]*$/.test(value)) { // Allow only alphabets and spaces
+        handleFormChange(e);
+      }
+    }}
+  />
+</div>
+
                 <div>
-                  <label htmlFor="name" className="contact-label">
-                    Name
-                  </label>
-                  <input
-                    className="contact-input"
-                    type="text"
-                    placeholder="Your Name"
-                    name="fullName"
-                    id="name"
-                    required
-                    value={formData?.fullName}
-                    onChange={handleFormChange}
-                  />
-                </div>
-                <div>
-                  <label htmlFor="phone" className="contact-label">
-                    Phone Number
-                  </label>
-                  <input
-                    className="contact-input"
-                    type="number"
-                    placeholder="Phone Number"
-                    name="phoneNo"
-                    id="phoneNo"
-                    maxLength={10}
-                    ref={phoneInputRef}
-                    value={formData?.phoneNo}
-                    onChange={handleFormChange}
-                    required
-                  />
-                </div>
+  <label htmlFor="phoneNo" className="contact-label">
+    Phone Number
+  </label>
+  <input
+    className="contact-input"
+    type="number"
+    placeholder="Phone Number"
+    name="phoneNo"
+    id="phoneNo"
+    ref={phoneInputRef}
+    value={formData?.phoneNo}
+    onChange={(e) => {
+      const value = e.target.value;
+      if (/^\d{0,10}$/.test(value)) {
+        handleFormChange(e);
+      }
+    }}
+    required
+  />
+</div>
+
               </div>
               <div className="contact-div">
                 <label htmlFor="email" className="contact-label">
