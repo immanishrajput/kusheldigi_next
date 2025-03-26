@@ -33556,7 +33556,60 @@ form button {
   background-blend-mode: lighten;
   background-color: #F5F5F7
 }
-
+.footer2Image1{
+  display: flex;
+  justify-content:space-evenly;
+   /* gap:90px;  */
+}
+.footer2Image img{
+  height: auto;
+  width: 120px;
+}
+.footer2Imagelat img{
+  width: 130px;
+  margin-top: 10px;
+}
+.footer2Imagelast img{
+  /* position: absolute; */
+margin-top: -30px;
+  width: 230px;
+}
+@media(max-width:777px){
+  .footer2Image1{
+    display: flex;
+    gap: 10px;
+  }
+  .footer2Image img{
+    height: auto;
+    margin: 0;
+    width: 90px;
+  }
+  .footer2Imagelat img{
+    width: 95px;
+  }
+  .footer2Imagelast{
+    width: 160px !important;
+  }
+}
+@media (max-width:450px){
+  .footer2Image1{
+display: flex;
+gap: 10px;
+  }
+  .footer2Imagelat{
+    margin: 0;
+  }
+  .footer2Imagelast img{
+    margin: 0;
+    width: 120px;
+  }
+  .footer2Image img{
+    height: auto;
+    margin: 0;
+    width: 120px;
+  }
+ 
+}
 .footer {
   display: flex;
   align-items: center;
