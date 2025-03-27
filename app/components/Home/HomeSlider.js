@@ -156,7 +156,7 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
                   <p className="right-carousel-para">
             
                  
-                  DigitalMnA is a full-service Merger and Acquisition company helping companies Sell and Buy assets by creating value.
+                 Built fot your prefences. Design for your styles
                   </p>
                   <a target="_blank" href="https://blackrhinoconcealment.com">
                   <button className="left-carousel-btn blue-bg right-carousel-inner-btn">
