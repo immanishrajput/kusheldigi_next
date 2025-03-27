@@ -158,11 +158,11 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
                  
                   DigitalMnA is a full-service Merger and Acquisition company helping companies Sell and Buy assets by creating value.
                   </p>
-                  <Link href="/Digitalmna">
+                  <a target="_blank" href="https://blackrhinoconcealment.com">
                   <button className="left-carousel-btn blue-bg right-carousel-inner-btn">
-                    View Case Study
+                    View Live Link
                   </button>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </SwiperSlide>
@@ -201,7 +201,7 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
                   <p className="right-carousel-para">
         Aftermarket suspension lift kits, leveling kits and accessories for 4X4 off-road truck and jeep enthusiasts
                   </p>
-                  <Link href="/pro-track">
+                  <Link href="/2ndamendment">
                   <button className="left-carousel-btn blue-bg right-carousel-inner-btn">
                     View Case Study
                   </button>
@@ -244,7 +244,7 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
                  
                   Rely products give you clarity and peace of mind. More than just beeps - Rely helps you understand what’s occurring in your home and what to do next.
                   </p>
-                  <Link href="/rely">
+                  <Link href="/sites">
                   <button className="left-carousel-btn blue-bg right-carousel-inner-btn">
                     View Case Study
                   </button>
