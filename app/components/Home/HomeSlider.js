@@ -83,7 +83,7 @@ KICK-EEZ® sells a wide selection of rifle recoil pads and shooting supplies mad
             <div className="carousel-item">
                 <div className="left-carousel-item">
                 
-                  <img src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1724767163/Rectangle_30182_2_smwxoz.png"} alt="carousel-image" />
+                  <img src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743074114/page-6_yjelmo.jpg"} alt="carousel-image" />
                   <div className="left-carousel-btn-div">
                     <div className="left-carousel-btn">D2C</div>
                     <div className="left-carousel-btn blue-bg">E-commerce</div>
@@ -126,7 +126,7 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
             <SwiperSlide>
             <div className="carousel-item">
                 <div className="left-carousel-item">
-                  <img src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1724767164/Rectangle_30182_3_fkohiq.png"} alt="carousel-image" />
+                  <img src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743074113/page-2_1_uylo50.jpg"} alt="carousel-image" />
                   <div className="left-carousel-btn-div">
                     
                     <div className="left-carousel-btn blue-bg">Real Estate</div>
@@ -134,7 +134,7 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
                 </div>
                 <div className="right-carousel-item">
                   <h2 className="right-carousel-heading">
-                  DigitalMnA
+                  Black Rhino
                   </h2>
                   <div className="right-service-stack-div">
                     <div className="right-service-stack">
@@ -171,7 +171,7 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
             <div className="carousel-item">
                 <div className="left-carousel-item">
                 
-                  <img src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1725880369/image_2_jkmhgr.png"} alt="carousel-image" />
+                  <img src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743074113/page-4_wlgfqf.jpg"} alt="carousel-image" />
                   <div className="left-carousel-btn-div">
                   <div className="left-carousel-btn ">B2B</div>
                     <div className="left-carousel-btn blue-bg">Military & Tactical Industry</div>
@@ -179,7 +179,7 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
                 </div>
                 <div className="right-carousel-item">
                   <h2 className="right-carousel-heading">
-                  Pro Truck
+                  2nd Amedment
                   </h2>
                   <div className="right-service-stack-div">
                     <div className="right-service-stack">
@@ -213,7 +213,7 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
             <SwiperSlide>
             <div className="carousel-item">
                 <div className="left-carousel-item">
-                  <img src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1725880370/image_cyhgfn.png"} alt="carousel-image" />
+                  <img src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743074113/page-3_z0uhrk.jpg"} alt="carousel-image" />
                   <div className="left-carousel-btn-div">
                   <div className="left-carousel-btn ">B2B</div>
                     <div className="left-carousel-btn blue-bg">Gunshop</div>
@@ -221,7 +221,7 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
                 </div>
                 <div className="right-carousel-item">
                   <h2 className="right-carousel-heading">
-               Rely Innovation
+               Sight & Scope
                   </h2>
                   <div className="right-service-stack-div">
                     <div className="right-service-stack">
@@ -253,10 +253,10 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
               </div>
             </SwiperSlide>
 
-            <SwiperSlide>
+            {/* <SwiperSlide>
             <div className="carousel-item">
                 <div className="left-carousel-item">
-                  <img src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1725880369/image_2_jkmhgr.png"} alt="carousel-image" />
+                  <img src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743074114/page-6_yjelmo.jpg"} alt="carousel-image" />
                   <div className="left-carousel-btn-div">
                   <div className="left-carousel-btn ">B2B</div>
                     <div className="left-carousel-btn blue-bg">E-commerce</div>
@@ -294,7 +294,7 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
                   </Link>
                 </div>
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
         </Swiper>
       </div>
     </div>
