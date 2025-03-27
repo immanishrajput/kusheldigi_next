@@ -82,13 +82,13 @@ function Home2Testimonial() {
           ref={splideRef}
           options={{
             type: 'loop',
-            perPage: 3,
+            perPage: 2,
             perMove: 1,
             rewind: true,
             autoplay: true,
             start: 0,
             speed: 2000,
-            gap: '400px',
+            gap: '20px',
             pagination: false,
             arrows: false,
             breakpoints: {
@@ -97,8 +97,8 @@ function Home2Testimonial() {
                 gap: "20px",
               },
               1450: {
-                perPage: 3,
-                gap: '400px',
+                perPage: 2,
+                gap: '20px',
               },
             },
           }}

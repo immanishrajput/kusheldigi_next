@@ -61,7 +61,7 @@ function Home2Swiper() {
               link:"Slidesdesign"
             },
             {
-              src: "https://res.cloudinary.com/ecommerce-website/image/upload/v1724771660/r2_lrfwa7.webp",
+              src: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743074113/page-4_wlgfqf.jpg",
               title: "Sights and Scopes",
               buttons: ["B2B", "Drop Shipping"],
               link:"sites"
@@ -79,13 +79,13 @@ function Home2Swiper() {
               link:"2ndamendment"
             },
             {
-              src: "https://res.cloudinary.com/ecommerce-website/image/upload/v1724771142/r7.9b674d792052fc0e3f5d_gmneu5.webp",
+              src: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743074113/page-1_ssh3ru.jpg",
               title: "Top Brass Tactical",
               buttons: ["Ecommerce", "Tactical Gear"],
               link:"topbrass"
             },
             {
-              src: "https://res.cloudinary.com/ecommerce-website/image/upload/v1724771718/r4_ltvw73.webp",
+              src: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743074113/page-3_z0uhrk.jpg",
               title: "2nd Amendment Guns",
               buttons: ["Ecommerce", "Firearms"],
               link:"#"

@@ -1006,7 +1006,7 @@ padding-left: 50px !important;
   border-radius: 10px;
   text-align: left;
   /* border: 2px solid #80808057; */
-  width: 320px;
+  min-width: 380px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 

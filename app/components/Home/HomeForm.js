@@ -135,8 +135,15 @@ const Website = () => {
             <div className="company-images">
               <img
                 className="contact-company"
-                src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1741867251/contact-companies_xlbwrs.png"
+                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743073826/contact-upper-companies_pwuwvi.png"
                 alt="companies"
+                style={{margin:'0px auto',width:'70%',}}
+              />
+              <img
+                className="contact-company"
+                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743073826/contact-below-companies_qyrqms.png"
+                alt="companies"
+                style={{margin:'15px auto',width:'60%',}}
               />
             </div>
           </div>

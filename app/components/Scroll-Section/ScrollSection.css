@@ -12,6 +12,10 @@
     min-height: 100vh;
 }
 
+.scrolled-section > svg{
+    width: 205vw !important;
+}
+
 .pin-spacer {
     padding: 20px 60px !important;
 }

@@ -26879,7 +26879,7 @@ height: fit-content;
 }
 
 .splide2 {
-  max-width: 1400px;
+  max-width: 1360px;
   margin: 0 auto;
   padding: 0 18px
 }
@@ -85013,7 +85013,7 @@ input::-webkit-inner-spin-button {
 
 .carousel-container {
   width: 100%;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   padding: 40px;
 }
 

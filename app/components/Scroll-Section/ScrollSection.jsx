@@ -6,34 +6,11 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import "./ScrollSection.css";
 import { IoMdArrowDropright } from "react-icons/io";
 
-const ScrollSection = ({ img, title, description, listItems }) => (
-    <div className="scrolled-section">
-        <img
-            className="scroll-card-img"
-            decoding="async"
-            loading="lazy"
-            src={img}
-            alt={title}
-            width={210}
-            height={149}
-        />
-
-        <div>
-            <h3 className="scroll-card-heading">{title}</h3>
-            <p className="scroll-card-para">{description}</p>
-            <ul className="scroll-card-ul">
-                {listItems.map((item, index) => (
-                    <li className="scroll-card-li" key={index}>
-                        <IoMdArrowDropright className="scroll-card-li-icon" />{item}
-                    </li>
-                ))}
-            </ul>
-        </div>
-    </div>
-);
 
 const ScrollAnimation = () => {
     const containerRef = useRef(null);
+    const maskRef = useRef(null);
+
     gsap.registerPlugin(ScrollTrigger);
 
     useEffect(() => {
@@ -49,6 +26,15 @@ const ScrollAnimation = () => {
                 end: "+=2000",
             },
         });
+
+        gsap.to(maskRef.current, {
+            width: "100%",
+            scrollTrigger: {
+              trigger: ".scroll-wrapper",
+              start: "top left",
+              scrub: 1,
+            },
+          });
     }, []);
 
     return (
@@ -60,12 +46,51 @@ const ScrollAnimation = () => {
             </p>
             <div className="scroll-container scrollx" ref={containerRef}>
                 {sectionsData.map((section, index) => (
-                    <ScrollSection key={index} {...section} />
+                    <ScrollSection key={index} {...section} showSvg={index === 0} maskRef={maskRef} />
                 ))}
             </div>
         </div>
     );
 };
+
+const ScrollSection = ({ img, title, description, listItems, showSvg, maskRef  }) => (
+    <div className="scrolled-section">
+        <img
+            className="scroll-card-img"
+            decoding="async"
+            loading="lazy"
+            src={img}
+            alt={title}
+            width={210}
+            height={149}
+        />
+        
+        {/* {showSvg && (
+            <svg viewBox="0 0 900 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.89998 6C9.43671 8.28224 7.41896 10 5 10C2.23858 10 0 7.76142 0 5C0 2.23858 2.23858 0 5 0C7.41896 0 9.43671 1.71776 9.89998 4H445.1C445.563 1.71776 447.581 0 450 0C452.419 0 454.437 1.71776 454.9 4H890.1C890.563 1.71776 892.581 0 895 0C897.761 0 900 2.23858 900 5C900 7.76142 897.761 10 895 10C892.581 10 890.563 8.28224 890.1 6H454.9C454.437 8.28224 452.419 10 450 10C447.581 10 445.563 8.28224 445.1 6H9.89998Z" fill="#D9D9D9"/>
+                <mask id="mask0_0_1" style={{maskType:"alpha"}} maskUnits="userSpaceOnUse" x="0" y="0" width="900" height="10">
+                    <rect ref={maskRef} width="0%" height="100%" fill="white" />
+                </mask>
+                <g mask="url(#mask0_0_1)">
+                    <rect className="mask" y="-49" height="99" fill="black"/>
+                </g>
+            </svg>
+        )} */}
+
+
+        <div>
+            <h3 className="scroll-card-heading">{title}</h3>
+            <p className="scroll-card-para">{description}</p>
+            <ul className="scroll-card-ul">
+                {listItems.map((item, index) => (
+                    <li className="scroll-card-li" key={index}>
+                        <IoMdArrowDropright className="scroll-card-li-icon" />{item}
+                    </li>
+                ))}
+            </ul>
+        </div>
+    </div>
+);
 
 const sectionsData = [
     {

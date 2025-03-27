@@ -225,7 +225,7 @@
 }
 
 .testswipsingle {
-  width: 550px;
+  width: 98% !important;
   height: 340px;
   padding: 30px;
   border-radius: 10px;
