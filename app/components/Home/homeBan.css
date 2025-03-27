@@ -188,6 +188,15 @@ width: 50px;
   .contact-textArea {
     width: 98%;
   }
+
+  .contact-input {
+    width: 82%;
+  } 
+
+  .contact-htmlForm-btn {
+    width: 52%;
+  }
+
 }
 @media (max-width:600px){
   .contact-input{
@@ -217,6 +226,14 @@ width: 50px;
 }
 .contact-textArea {
   min-height: 100px;
+}
+
+@media (max-width:769px){
+
+  .contact-htmlForm-btn {
+    width: 52%;
+  }
+
 }
 
 .contact-form-btn {

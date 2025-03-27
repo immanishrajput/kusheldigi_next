@@ -147,11 +147,32 @@ const Website = () => {
             <form onSubmit={handleForm} className="contact-htmlForm" id="contacthtmlForm">
               <div className="contact-first-div">
 
+                {/* <div>
+                  <label htmlFor="name" className="contact-label">
+                    Name
+                  </label>
+                  <input
+                    className="contact-input"
+                    type="text"
+                    placeholder="Your Name"
+                    name="fullName"
+                    id="name"
+                    required
+                    value={formData?.fullName}
+                    onChange={(e) => {
+                      const value = e.target.value;
+                      if (/^[A-Za-z ]*$/.test(value)) {
+                        handleFormChange(e);
+                      }
+                    }}
+                  />
+                </div> */}
+
                 <div>
                   <label htmlFor="name" className="contact-label">
                     Name
                   </label>
-                  <br/>
+                  <br />
                   <input
                     className="contact-input"
                     type="text"
@@ -193,14 +214,12 @@ const Website = () => {
                   <PhoneInput
                     className="contact-input"
                     country={'in'}
-                    // type="text"
                     placeholder="Phone Number"
                     name="phoneNo"
                     id="phoneNo"
                     maxLength="10"
-                    // ref={phoneInputRef}
                     value={formData?.phoneNo}
-                    // onChange={handleFormChange}
+
                     onChange={(phone) => {
                       if (/^\d{0,10}$/.test(phone)) {
                         setFormData((prev) => ({ ...prev, phoneNo: phone }));
@@ -212,6 +231,7 @@ const Website = () => {
                     countryCodeEditable={false}
                   />
                 </div>
+
 
 {/* //   <label htmlFor="phoneNo" className="contact-label">
 //     Phone Number
@@ -266,6 +286,7 @@ const Website = () => {
               onChange={handleFormChange}
             ></textarea>
           </div>
+
           <div className="captcha-box">
             <div className="inputcapt">
               <span>{`${firstNo} + ${secondNo} = `}</span>
