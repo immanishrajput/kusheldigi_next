@@ -179,7 +179,7 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
                 </div>
                 <div className="right-carousel-item">
                   <h2 className="right-carousel-heading">
-                  2nd Amedment
+                  2nd amendment
                   </h2>
                   <div className="right-service-stack-div">
                     <div className="right-service-stack">
@@ -213,7 +213,7 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
             <SwiperSlide>
             <div className="carousel-item">
                 <div className="left-carousel-item">
-                  <img src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743074113/page-3_z0uhrk.jpg"} alt="carousel-image" />
+                  <img src={"https://res.cloudinary.com/dgif730br/image/upload/v1743092667/Untitled-1_aypf5z.png"} alt="carousel-image" />
                   <div className="left-carousel-btn-div">
                   <div className="left-carousel-btn ">B2B</div>
                     <div className="left-carousel-btn blue-bg">Gunshop</div>
@@ -221,7 +221,7 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
                 </div>
                 <div className="right-carousel-item">
                   <h2 className="right-carousel-heading">
-               Sight & Scope
+               Sight & Scopes
                   </h2>
                   <div className="right-service-stack-div">
                     <div className="right-service-stack">

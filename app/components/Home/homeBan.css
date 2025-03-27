@@ -10,13 +10,14 @@ body{
 }
 
 .inner-contact-container {
-  max-width: 1280px;
+  /* max-width: 1280px; */
+  max-width: 1720px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 30px;
-  padding: 40px;
+  padding: 40px 60px;
 }
 
 .left,
@@ -201,6 +202,9 @@ width: 50px;
 @media (max-width:600px){
   .contact-input{
     width: 82%;
+  }
+  .platforms{
+    padding: 30px 20px 80px !important;
   }
 }
 @media(max-width:372px){
@@ -497,8 +501,11 @@ padding-left: 50px !important;
 
   text-align: center;
   background: linear-gradient(to right, #f8f8f8, #e9f0ff);
-  margin: 0;
-  padding: 60px 0px 80px 0px;
+  max-width: 1720px;
+
+  margin: 0 auto;
+  padding: 60px 60px;
+  /* padding: 60px 0px 80px 0px; */
 }
 
 @media screen and (max-width:600px){
@@ -541,7 +548,7 @@ padding-left: 50px !important;
   display: flex;
   justify-content: center;
   gap: 20px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .plt-card {
@@ -551,7 +558,9 @@ padding-left: 50px !important;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: left;
   border: 2px solid #80808057;
-  width: 337px;
+  width: 100%;
+  min-height: 500px;
+  /* width: 337px; */
 }
 
 .plt-logo {
@@ -612,7 +621,10 @@ padding-left: 50px !important;
 .b2b-section {
   font-family: "Wix Madefor Display", sans-serif;
   text-align: center;
-  padding: 50px;
+  max-width: 1720px;
+  margin: auto;
+  padding: 50px 60px;
+  /* padding: 50px; */
 }
 
 .b2b-head {
@@ -663,7 +675,7 @@ padding-left: 50px !important;
   gap: 20px;
   padding: 40px 0px 0px 0px;
   margin: 0 auto;
-  max-width: 1200px;
+  /* max-width: 1200px; */
 }
 
 .left-b2b-cards,
@@ -730,7 +742,9 @@ padding-left: 50px !important;
   border: 1px solid #80808045;
   border-radius: 10px;
   text-align: left;
-  width: 600px;
+  /* max-width: 600px; */
+  width: 100%;
+  /* width: 600px; */
   max-width: 100%;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -975,8 +989,10 @@ padding-left: 50px !important;
   /* font-family: "Wix Madefor Display"; */
   text-align: center;
   background: linear-gradient(to right, #f8f8f8, #e9f0ff);
-  margin: 0;
-  padding: 30px 0px 20px 0px;
+  max-width: 1720px;
+  margin: 0 auto;
+  /* padding: 30px 0px 20px 0px; */
+  padding: 30px 60px;
 }
 
 /* .flagship {
@@ -989,7 +1005,19 @@ padding-left: 50px !important;
   font-weight: 400;
   /* margin-bottom: 30px; */
 }
+@media only screen and (max-width:1025px){
+  .flagship-cards{
+    flex-wrap: wrap;
+  }
+  .plt-cards{
+    flex-wrap: wrap;
+  }
+  
+}
 @media(max-width:450px){
+  .flagship-section{
+    padding: 30px 20px;
+  }
   .flagship-head{
     font-size: 25px;
   }
@@ -1006,7 +1034,7 @@ padding-left: 50px !important;
   display: flex;
   justify-content: center;
   gap: 30px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   margin: 2rem auto;
 
 
@@ -1023,7 +1051,8 @@ padding-left: 50px !important;
   border-radius: 10px;
   text-align: left;
   /* border: 2px solid #80808057; */
-  min-width: 380px;
+  /* min-width: 380px; */
+  width: 100%;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 

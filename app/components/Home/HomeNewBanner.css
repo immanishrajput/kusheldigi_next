@@ -5,12 +5,12 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 4rem 20px;
+    padding: 4rem 60px;
 }
 
 .inner-new-banner-container {
-    max-width: 1200px;
-    width: 95%;
+    max-width: 1720px;
+    width: 100%;
     gap: 1rem;
     display: flex;
     align-items: center;
