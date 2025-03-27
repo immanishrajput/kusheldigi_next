@@ -30965,7 +30965,7 @@ input[type=number] {
 @media screen and (max-width:600px){
   #homePhoneDiv > .react-tel-input {
     padding: 9px !important;
-    width: 65% !important;
+    width: 82% !important;
 }
 }
 
@@ -82475,8 +82475,8 @@ input::-webkit-inner-spin-button {
 .questionFAQR {
   letter-spacing: normal;
   margin: 0;
-  font-size: 17px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .faqr-item {
@@ -82525,7 +82525,7 @@ input::-webkit-inner-spin-button {
   color: rgba(0, 0, 0, 0.519) !important;
 }
 
-
+/* 
 .faqr-answer {
   margin: 0;
   max-height: 0;
@@ -82533,6 +82533,15 @@ input::-webkit-inner-spin-button {
   transition: max-height 0.4s ease-out, opacity 0.4s ease-out;
   font-size: 14px;
   width: 94%;
+} */
+
+.faqr-answer {
+  font-size: 14px;
+  width: 94%;
+  transition: all 0.4s ease-out;
+  opacity: 1;
+  max-height: fit-content;
+  overflow: hidden;
 }
 
 

@@ -1,3 +1,5 @@
+'use client'
+
 import React, { useState } from "react";
 import '../../COMMON/FAQ.css'
 const FaqData = [
@@ -44,16 +46,19 @@ const FAQ = () => {
       <h2>Frequently Asked Questions ?</h2>
       <div className="faqr-container">
         {FaqData.map((item, index) => (
-          <div className={`faqr-item ${activeIndex === index ? "expanded" : ""}`} key={index}>
-            <div className="faqr-question">
+          <div
+            className={`faqr-item ${activeIndex === index ? "expanded" : ""}`}
+            key={index}
+          >
+            <div className="faqr-question" onClick={() => toggleAnswer(index)}>
               <h4 className="questionFAQR">{item.question}</h4>
-              <button className="toggle-btn" onClick={() => toggleAnswer(index)}>
+              <button className="toggle-btn">
                 {activeIndex === index ? "-" : "+"}
               </button>
             </div>
-            <p className="faqr-answer">
-              {item.answer}
-            </p>
+            {activeIndex === index && (
+              <p className="faqr-answer">{item.answer}</p>
+            )}
           </div>
         ))}
       </div>
@@ -62,4 +67,3 @@ const FAQ = () => {
 };
 
 export default FAQ;
-
