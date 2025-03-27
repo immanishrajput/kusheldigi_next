@@ -110,3 +110,13 @@
 .scroll-card-li-icon {
     font-size: 24px;
 }
+
+@media only screen and (max-width:600px){
+    .scroll-section-wrapper{
+        padding: 0px 20px;
+        padding-top: 50px;
+    }
+    .scroll-section-heading{
+        font-size: 2rem;
+    }
+}

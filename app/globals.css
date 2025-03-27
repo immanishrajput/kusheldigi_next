@@ -23770,10 +23770,10 @@ color: #0E151D;
 }
 
 .h2s10cont {
-  max-width: 1400px;
-  width: 100%;
+  max-width: 1720px;
+  /* width: 100%; */
   margin: 0 auto;
-  padding: 60px 20px;
+  padding: 60px 60px;
   gap: 20px
 }
 
@@ -23808,14 +23808,15 @@ color: #0E151D;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 70px;
-  gap: 50px
+  gap: 20px
 }
 
 .singles1item {
   display: flex;
   flex-direction: column;
   gap: 22px;
-  max-width: 300px;
+  width: 21.5%;
+  /* max-width: 300px; */
   height: 280px;
   padding: 10px
 }
@@ -25446,6 +25447,7 @@ line-height: 20px;
     height: 100%;
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
   }
 
   .ho2s6slider2 {
@@ -25723,13 +25725,14 @@ line-height: 20px;
 }
 
 .s5cont {
-  max-width: 1400px;
-  width: 100%;
+  /* max-width: 1400px; */
+  max-width: 1720px;
+  /* width: 100%; */
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 40px;
-  padding: 0px 20px;
+  padding: 0px 60px;
   margin: 0 auto;
   height: 650px;
   justify-content: center;
@@ -27013,10 +27016,10 @@ height: fit-content;
 .testiTopDetails {
   display: flex;
   justify-content: space-between;
-  max-width: 1400px;
+  max-width: 1720px;
   width: 100%;
   align-items: flex-start;
-  padding: 0 14px;
+  padding: 0 60px;
   gap: 30px;
   margin: 0 auto
 }
@@ -31216,7 +31219,7 @@ input[type=number] {
   position: relative;
   top: 3px;
   margin: auto;
-  max-width: 1440px;
+  max-width: 1720px;
   width: 100%
 }
 
@@ -82552,9 +82555,10 @@ input::-webkit-inner-spin-button {
 
 /* ----- faqr SECTION ----- */
 .faqr-section {
-  max-width: 1304px;
+  max-width: 1720px;
   /* padding: 5vw; */
   margin: 0 auto;
+  padding: 0px 60px;
   margin-top: 40px;
 }
 
@@ -85014,11 +85018,11 @@ input::-webkit-inner-spin-button {
 .carousel-container {
   width: 100%;
   /* min-height: 100vh; */
-  padding: 40px;
+  padding: 40px 60px;
 }
 
 .inner-carousel-container {
-  max-width: 1360px;
+  max-width: 1720px;
   margin: 0 auto;
 }
 
@@ -85258,14 +85262,24 @@ input::-webkit-inner-spin-button {
     display: flex;
     flex-direction: column;
   }
+  .singles1item{
+    width:28%;
+  }
 
   .left-carousel-item,
   .right-carousel-item {
     width: 100% !important;
   }
 }
-
+@media only screen and (max-width:768px){
+  .singles1item{
+    width:47.5%;
+  }
+}
 @media screen and (max-width:576px) {
+  .singles1item{
+    width:100%;
+  }
   .carousel-container {
     padding: 40px 10px;
   }
@@ -85317,7 +85331,9 @@ input::-webkit-inner-spin-button {
 
 
 @media screen and (max-width:600px) {
- 
+  .testiTopDetails{
+    padding: 0px 14px;
+  }
 
   .navbar {
     padding: 20px 30px 12px 30px !important;
