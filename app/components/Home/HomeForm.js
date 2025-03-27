@@ -34,7 +34,6 @@ const Website = () => {
     }
     alert("Captcha Verified!!");
   };
-  // const phoneInputRef = useRef(null);
 
   const [formData, setFormData] = useState({
     fullName: '',
@@ -54,6 +53,11 @@ const Website = () => {
 
   const handleForm = async (e) => {
     e.preventDefault();
+    if (parseInt(userAnswer) !== correctAnswer) {
+      alert("Wrong Captcha! Try again.");
+      generateCaptcha(); 
+      return; 
+    }
     console.log(formData);
     setLoading(true);
     try {
@@ -70,12 +74,12 @@ const Website = () => {
 
       if (response.ok) {
         navigate.push('/success');
+        generateCaptcha();
       } else {
         alert(JSON.stringify(response), "Unknown error");
       }
     } catch (error) {
       console.error("Error while sending email:", error);
-      // alert("An error occurred while sending the email. Please try again.");
     } finally {
       setLoading(false);
       setFormData({
@@ -165,7 +169,6 @@ const Website = () => {
                 </div> */}
 
                 <div>
-
                   <label htmlFor="name" className="contact-label">
                     Name
                   </label>
@@ -186,6 +189,24 @@ const Website = () => {
                     }}
                   />
                 </div>
+
+                {/* <div>
+
+                  <label htmlFor="name" className="contact-label">
+                    Name
+                  </label>
+                  <br />
+                  <input
+                    className="contact-input"
+                    type="text"
+                    placeholder="Your Name"
+                    name="fullName"
+                    id="name"
+                    required
+                    value={formData?.fullName}
+                    onChange={handleFormChange}
+                  />
+                </div> */}
                 <div id="homePhoneDiv">
                   <label htmlFor="phone" className="contact-label">
                     Phone Number
@@ -198,6 +219,7 @@ const Website = () => {
                     id="phoneNo"
                     maxLength="10"
                     value={formData?.phoneNo}
+
                     onChange={(phone) => {
                       if (/^\d{0,10}$/.test(phone)) {
                         setFormData((prev) => ({ ...prev, phoneNo: phone }));
@@ -210,26 +232,27 @@ const Website = () => {
                   />
                 </div>
 
-   {/* <label htmlFor="phoneNo" className="contact-label">
-    Phone Number
-  </label>
-   <input
-     className="contact-input"
-     type="number"
-     placeholder="Phone Number"
-     name="phoneNo"
-     id="phoneNo"
-     ref={phoneInputRef}
-     value={formData?.phoneNo}
-     onChange={(e) => {
-       const value = e.target.value;
-       if (/^\d{0, 10}$/.test(value)) {
-         handleFormChange(e);
-       }
-     }}
-     required
-   />
- </div> */}
+
+{/* //   <label htmlFor="phoneNo" className="contact-label">
+//     Phone Number
+//   </label>
+//   <input
+//     className="contact-input"
+//     type="number"
+//     placeholder="Phone Number"
+//     name="phoneNo"
+//     id="phoneNo"
+//     ref={phoneInputRef}
+//     value={formData?.phoneNo}
+//     onChange={(e) => {
+//       const value = e.target.value;
+//       if (/^\d{0, 10}$/.test(value)) {
+//         handleFormChange(e);
+//       }
+//     }}
+//     required
+//   />
+// </div> */}
 
               </div>
           <div className="contact-div">
@@ -263,6 +286,7 @@ const Website = () => {
               onChange={handleFormChange}
             ></textarea>
           </div>
+
           <div className="captcha-box">
             <div className="inputcapt">
               <span>{`${firstNo} + ${secondNo} = `}</span>
