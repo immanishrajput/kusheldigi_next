@@ -15,7 +15,7 @@ function Advance() {
         <div className="left-b2b-cards">
           <div className="left-b2b-card">
             <div className="b2b-logo">
-              <img loading='lazy' width="599" height="299" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806525/b2_xao9oq.webp" alt="Shopify Plus" />
+              <img loading='lazy'  src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806525/b2_xao9oq.webp" alt="Shopify Plus" />
             </div>
             <div className="b2b-contain">
               <h3 className="b2b-headsss">B2B</h3>
@@ -29,7 +29,7 @@ function Advance() {
           </div>
           <div className="left-b2b-card-2" id='leftb2ca'>
             <div className="b2b-logo">
-              <img loading='lazy' width="599" height="299" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806526/b13_cmmanq.webp" alt="Shopify Plus" />
+              <img loading='lazy'  src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806526/b13_cmmanq.webp" alt="Shopify Plus" />
             </div>
             <div className="b2b-contain">
               <h3 className="b2b-headsss">Multi-vendor</h3>
@@ -45,7 +45,7 @@ function Advance() {
         <div className="right-b2b-cards">
           <div className="right-b2b-card">
             <div className="b2b-logo">
-              <img loading='lazy' width="599" height="299" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806527/b12_tpd0aj.webp" alt="Shopify Plus" />
+              <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806527/b12_tpd0aj.webp" alt="Shopify Plus" />
             </div>
             <div className="b2b-contain">
               <h3 className="b2b-headsss">B2C</h3>
@@ -59,7 +59,7 @@ function Advance() {
           </div>
           <div className="right-b2b-card">
             <div className="b2b-logo">
-              <img loading='lazy' width="599" height="299" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806526/b14_y69yn7.webp" alt="Shopify Plus" />
+              <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806526/b14_y69yn7.webp" alt="Shopify Plus" />
             </div>
             <div className="b2b-contain">
               <h3 className="b2b-headsss">D2C</h3>
