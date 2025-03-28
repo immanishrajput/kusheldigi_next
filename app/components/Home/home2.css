@@ -35,7 +35,7 @@
 /* ----- CARDS ----- */
 .containers {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(4,1fr);
   /* Auto adjusting grid */
   gap: 20px;
   width: 100%;
@@ -93,12 +93,17 @@
   filter: invert(30%) sepia(100%) saturate(1000%) hue-rotate(200deg);
 }
 
-
+@media only screen and (max-width:990px){
+  .containers{
+    grid-template-columns: repeat(3,1fr) ;
+  }
+}
 @media (max-width: 768px) {
   .tech-heading {
     padding: 0 50px;
     text-align: center;
   }
+  
 
   .tech-heading h2 {
     font-size: 5vw;

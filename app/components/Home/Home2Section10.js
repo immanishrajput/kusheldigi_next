@@ -32,7 +32,7 @@ function Home2Section10({ heading, heading1, para }) {
           {data.map((d, i) => (
             <div key={i} className="singles1item">
               {/* Use Next.js Image component for image optimization */}
-              <Image src={d.img} alt={d.title} className="itemImage" width={300} height={200} />
+              <Image loading='lazy' src={d.img} alt={d.title} className="itemImage" width={300} height={200} />
               <div className="itemdata">
                 <div className="dtitlhead">
                   <span>{d.title}</span>
@@ -61,7 +61,7 @@ function Home2Section10({ heading, heading1, para }) {
             <SplideSlide key={i}>
               <div className={`singles1item addmarginauto`}>
                 {/* Use Next.js Image component for image optimization */}
-                <Image src={d.img} alt={d.title} className="itemImage" width={300} height={200} />
+                <Image loading='lazy' src={d.img} alt={d.title} className="itemImage" width={300} height={200} />
                 <div className="itemdata">
                   <div className="dtitlhead">
                     <span>{d.title}</span>

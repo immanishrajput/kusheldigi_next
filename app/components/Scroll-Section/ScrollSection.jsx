@@ -16,13 +16,24 @@ const ScrollAnimation = () => {
     useEffect(() => {
         const sections = gsap.utils.toArray(".scrolled-section");
 
+        // gsap.to(sections, {
+        //     xPercent: -100 * (sections.length - 1),
+        //     ease: "none",
+        //     scrollTrigger: {
+        //         trigger: containerRef.current,
+        //         pin: true,
+        //         start:'top-=90',
+        //         scrub: 1,
+        //         end: "+=2000",
+        //     },
+        // });
+
         gsap.to(sections, {
             xPercent: -100 * (sections.length - 1),
             ease: "none",
             scrollTrigger: {
                 trigger: containerRef.current,
                 pin: true,
-                start:'top-=90',
                 scrub: 1,
                 end: "+=2000",
             },

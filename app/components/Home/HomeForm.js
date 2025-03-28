@@ -103,6 +103,7 @@ const Website = () => {
               <div className="contact-card">
                 <p className="call-us">
                   <img
+                    loading="lazy"
                     src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742367984/us_flag-removebg-preview_yaabck.png"
                     alt="call"
                   />
@@ -110,6 +111,7 @@ const Website = () => {
                 <h3 className="us-number">+1-585-566-2070</h3>
                 <p className="country">United States</p>
                 <img
+                loading="lazy"
                   src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1741867204/phone-png_kjwe3t.png"
                   alt="call"
                   className="phone-icon"
@@ -118,6 +120,7 @@ const Website = () => {
               <div className="contact-card">
                 <p className="call-us">
                   <img
+                  loading="lazy"
                     src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742367985/istockphoto-1471401435-612x612-removebg-preview_yk8kie.png"
                     alt="call"
                   />
@@ -125,6 +128,7 @@ const Website = () => {
                 <h3 className="us-number">+91 9045301702</h3>
                 <p className="country">India</p>
                 <img
+                  loading="lazy"
                   src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1741867204/phone-png_kjwe3t.png"
                   alt="call"
                   className="phone-icon"
@@ -134,12 +138,14 @@ const Website = () => {
             <span className="clients">Our Clients</span>
             <div className="company-images">
               <img
+                loading="lazy"
                 className="contact-company"
                 src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743073826/contact-upper-companies_pwuwvi.png"
                 alt="companies"
                 style={{margin:'0px auto',width:'70%',}}
               />
               <img
+                loading="lazy"
                 className="contact-company"
                 src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743073826/contact-below-companies_qyrqms.png"
                 alt="companies"

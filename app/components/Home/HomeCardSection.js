@@ -15,7 +15,7 @@ function Card() {
       
       <div className="plt-card">
         <div className="plt-logo">
-          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742835775/bigcommerce-logo_quhwmf.webp" alt="BigCommerce" />
+          <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742835775/bigcommerce-logo_quhwmf.webp" alt="BigCommerce" />
         </div>
         <h3>
           Certified <br /> BigCommerce Partner Agency
@@ -36,7 +36,7 @@ function Card() {
       </div>
       <div className="plt-card">
         <div className="plt-logo">
-          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742835726/shopify-logo_bcrvfv.webp" alt="Shopify Plus" />
+          <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742835726/shopify-logo_bcrvfv.webp" alt="Shopify Plus" />
         </div>
         <h3>
           Certified <br /> Shopify Plus Agency
@@ -58,7 +58,7 @@ function Card() {
       </div>
       <div className="plt-card">
         <div className="plt-logo">
-          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742835726/manish_sir_logo_e3ckbh.png" alt="WooCommerce" />
+          <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742835726/manish_sir_logo_e3ckbh.png" alt="WooCommerce" />
         </div>
         <h3>
           Expert <br /> Magento Agency

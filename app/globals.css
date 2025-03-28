@@ -85347,3 +85347,25 @@ input::-webkit-inner-spin-button {
   width: 100%;
   text-align: center;
 }
+
+/* @media only screen and (min-width:1300px){
+  .splide2{
+    max-width: 1300px;
+  }
+} */
+
+@media (min-width:1250px) and (max-width:1400px) {
+   .splide2{
+    max-width: 1230px;
+   }
+}
+@media (min-width:1401px) and (max-width:1500px){
+  .splide2{
+    max-width: 1300px;
+  }
+}
+@media (min-width:1501px) and (max-width:1800px){
+  .splide2{
+    max-width: 1500px;
+  }
+}

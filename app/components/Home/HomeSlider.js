@@ -34,7 +34,7 @@ const Slider = () => {
               {/* First slider */}
               <div className="carousel-item">
                 <div className="left-carousel-item">
-                  <img src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1724767163/Rectangle_30182_1_ynn34p.png"} alt="carousel-image" />
+                  <img loading="lazy" src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1724767163/Rectangle_30182_1_ynn34p.png"} alt="carousel-image" />
                   <div className="left-carousel-btn-div">
                     <div className="left-carousel-btn">B2B</div>
                     <div className="left-carousel-btn blue-bg">Firearms</div>
@@ -83,7 +83,7 @@ KICK-EEZ® sells a wide selection of rifle recoil pads and shooting supplies mad
             <div className="carousel-item">
                 <div className="left-carousel-item">
                 
-                  <img src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743074114/page-6_yjelmo.jpg"} alt="carousel-image" />
+                  <img loading="lazy" src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743074114/page-6_yjelmo.jpg"} alt="carousel-image" />
                   <div className="left-carousel-btn-div">
                     <div className="left-carousel-btn">D2C</div>
                     <div className="left-carousel-btn blue-bg">E-commerce</div>
@@ -126,7 +126,7 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
             <SwiperSlide>
             <div className="carousel-item">
                 <div className="left-carousel-item">
-                  <img src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743074113/page-2_1_uylo50.jpg"} alt="carousel-image" />
+                  <img loading="lazy" src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743074113/page-2_1_uylo50.jpg"} alt="carousel-image" />
                   <div className="left-carousel-btn-div">
                     
                     <div className="left-carousel-btn blue-bg">Real Estate</div>
@@ -171,7 +171,7 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
             <div className="carousel-item">
                 <div className="left-carousel-item">
                 
-                  <img src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743074113/page-4_wlgfqf.jpg"} alt="carousel-image" />
+                  <img loading="lazy" src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743074113/page-4_wlgfqf.jpg"} alt="carousel-image" />
                   <div className="left-carousel-btn-div">
                   <div className="left-carousel-btn ">B2B</div>
                     <div className="left-carousel-btn blue-bg">Military & Tactical Industry</div>
@@ -213,7 +213,7 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
             <SwiperSlide>
             <div className="carousel-item">
                 <div className="left-carousel-item">
-                  <img src={"https://res.cloudinary.com/dgif730br/image/upload/v1743092667/Untitled-1_aypf5z.png"} alt="carousel-image" />
+                  <img loading="lazy" src={"https://res.cloudinary.com/dgif730br/image/upload/v1743092667/Untitled-1_aypf5z.png"} alt="carousel-image" />
                   <div className="left-carousel-btn-div">
                   <div className="left-carousel-btn ">B2B</div>
                     <div className="left-carousel-btn blue-bg">Gunshop</div>
@@ -256,7 +256,7 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
             <SwiperSlide>
             <div className="carousel-item">
                 <div className="left-carousel-item">
-                  <img src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743092899/page-5_1_oy4q9y.jpg"} alt="carousel-image" />
+                  <img loading="lazy" src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743092899/page-5_1_oy4q9y.jpg"} alt="carousel-image" />
                   <div className="left-carousel-btn-div">
                   <div className="left-carousel-btn ">B2B</div>
                     <div className="left-carousel-btn blue-bg">E-commerce</div>
