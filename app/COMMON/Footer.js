@@ -138,7 +138,7 @@ const Footer = () => {
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742994278/web-developers-india_uovesz.png" alt="logo"></img>
             </div>
             <div className="footer2Imagelast">
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993139/8_YEARS_ICON_LOGO_ppjzsq.png" alt="logo"></img>
+            <img width="230" height="230" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993139/8_YEARS_ICON_LOGO_ppjzsq.png" alt="logo"></img>
             </div>
               </div>
         </div>

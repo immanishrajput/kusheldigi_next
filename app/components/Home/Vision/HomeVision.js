@@ -57,60 +57,15 @@ const Website = () => {
                 <div className="services-box-item-left">
                   <div className="services-box-icon">
                     <div
-                      style={{
-                        display: "inline-block",
-                        maxWidth: "100%",
-                        overflow: "hidden",
-                        position: "relative",
-                        boxSizing: "border-box",
-                        margin: 0
-                      }}
+                      className='service-box-icon-img'
                     >
-                      <div
-                        style={{
-                          boxSizing: "border-box",
-                          display: "block",
-                          maxWidth: "100%"
-                        }}
-                      >
-                        <img
-                          style={{
-                            maxWidth: "100%",
-                            display: "block",
-                            margin: 0,
-                            border: "none",
-                            padding: 0
-                          }}
-                          alt=""
-                          aria-hidden="true"
-                          role="presentation"
-                          src=""
-                        />
-                      </div>
+                     
                       <img
                         alt="Services Icon"
                         title="Services Icon"
                         decoding="async"
                         src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287002/node-js-mongo-DB-icon_rhqrop.svg"
-                        style={{
-                          position: "absolute",
-                          top: 0,
-                          left: 0,
-                          bottom: 0,
-                          right: 0,
-                          boxSizing: "border-box",
-                          padding: 0,
-                          border: "none",
-                          margin: "auto",
-                          display: "block",
-                          width: 0,
-                          height: 0,
-                          minWidth: "100%",
-                          maxWidth: "100%",
-                          minHeight: "100%",
-                          maxHeight: "100%",
-                          objectFit: "contain"
-                        }}
+                        className='services-box-inner-img'
                       />
                     </div>
                   </div>
@@ -243,61 +198,27 @@ const Website = () => {
                 <div className="services-box-item-left">
                   <div className="services-box-icon">
                     <div
-                      style={{
-                        display: "inline-block",
-                        maxWidth: "100%",
-                        overflow: "hidden",
-                        position: "relative",
-                        boxSizing: "border-box",
-                        margin: 0
-                      }}
+                      className='service-box-icon-img'
                     >
+                      <img
+                        alt="Services Icon"
+                        title="Services Icon"
+                        decoding="async"
+                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287002/node-js-mongo-DB-icon_rhqrop.svg"
+                        className='services-box-inner-img'
+                      />
                       <div
-                        style={{
-                          boxSizing: "border-box",
-                          display: "block",
-                          maxWidth: "100%"
-                        }}
+                        className='inner-img-parent-div'
                       >
                         <img
-                          style={{
-                            maxWidth: "100%",
-                            display: "block",
-                            margin: 0,
-                            border: "none",
-                            padding: 0
-                          }}
+                          className='vision-side-inner-img'
                           alt=""
                           aria-hidden="true"
                           role="presentation"
                           src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDUiIGhlaWdodD0iNTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
                         />
                       </div>
-                      <img
-                        alt="Services Icon"
-                        title="Services Icon"
-                        decoding="async"
-                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287002/node-js-mongo-DB-icon_rhqrop.svg"
-                        style={{
-                          position: "absolute",
-                          top: 0,
-                          left: 0,
-                          bottom: 0,
-                          right: 0,
-                          boxSizing: "border-box",
-                          padding: 0,
-                          border: "none",
-                          margin: "auto",
-                          display: "block",
-                          width: 0,
-                          height: 0,
-                          minWidth: "100%",
-                          maxWidth: "100%",
-                          minHeight: "100%",
-                          maxHeight: "100%",
-                          objectFit: "contain"
-                        }}
-                      />
+                      
                     </div>
                   </div>
                   <h3 className="h6 services-box-title">
@@ -453,61 +374,27 @@ const Website = () => {
                 <div className="services-box-item-left">
                   <div className="services-box-icon">
                     <div
-                      style={{
-                        display: "inline-block",
-                        maxWidth: "100%",
-                        overflow: "hidden",
-                        position: "relative",
-                        boxSizing: "border-box",
-                        margin: 0
-                      }}
+                      className='service-box-icon-img'
                     >
+                       <img
+                        alt="Services Icon"
+                        title="Services Icon"
+                        decoding="async"
+                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287002/node-js-mongo-DB-icon_rhqrop.svg"
+                        className='services-box-inner-img'
+                      />
                       <div
-                        style={{
-                          boxSizing: "border-box",
-                          display: "block",
-                          maxWidth: "100%"
-                        }}
+                        className='inner-img-parent-div'
                       >
                         <img
-                          style={{
-                            maxWidth: "100%",
-                            display: "block",
-                            margin: 0,
-                            border: "none",
-                            padding: 0
-                          }}
+                           className='vision-side-inner-img'
                           alt=""
                           aria-hidden="true"
                           role="presentation"
                           src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDUiIGhlaWdodD0iNTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
                         />
                       </div>
-                      <img
-                        alt="Services Icon"
-                        title="Services Icon"
-                        decoding="async"
-                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287002/node-js-mongo-DB-icon_rhqrop.svg"
-                        style={{
-                          position: "absolute",
-                          top: 0,
-                          left: 0,
-                          bottom: 0,
-                          right: 0,
-                          boxSizing: "border-box",
-                          padding: 0,
-                          border: "none",
-                          margin: "auto",
-                          display: "block",
-                          width: 0,
-                          height: 0,
-                          minWidth: "100%",
-                          maxWidth: "100%",
-                          minHeight: "100%",
-                          maxHeight: "100%",
-                          objectFit: "contain"
-                        }}
-                      />
+                     
                     </div>
                   </div>
                   <h3 className="h6 services-box-title">
@@ -659,61 +546,27 @@ const Website = () => {
                 <div className="services-box-item-left">
                   <div className="services-box-icon">
                     <div
-                      style={{
-                        display: "inline-block",
-                        maxWidth: "100%",
-                        overflow: "hidden",
-                        position: "relative",
-                        boxSizing: "border-box",
-                        margin: 0
-                      }}
+                      className='service-box-icon-img'
                     >
+                      <img
+                        alt="Services Icon"
+                        title="Services Icon"
+                        decoding="async"
+                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287001/mobile-app-development-icon_pqivui.svg"
+                        className='services-box-inner-img'
+                      />
                       <div
-                        style={{
-                          boxSizing: "border-box",
-                          display: "block",
-                          maxWidth: "100%"
-                        }}
+                        className='inner-img-parent-div'
                       >
                         <img
-                          style={{
-                            maxWidth: "100%",
-                            display: "block",
-                            margin: 0,
-                            border: "none",
-                            padding: 0
-                          }}
+                           className='vision-side-inner-img'
                           alt=""
                           aria-hidden="true"
                           role="presentation"
                           src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDUiIGhlaWdodD0iNTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
                         />
                       </div>
-                      <img
-                        alt="Services Icon"
-                        title="Services Icon"
-                        decoding="async"
-                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287001/mobile-app-development-icon_pqivui.svg"
-                        style={{
-                          position: "absolute",
-                          top: 0,
-                          left: 0,
-                          bottom: 0,
-                          right: 0,
-                          boxSizing: "border-box",
-                          padding: 0,
-                          border: "none",
-                          margin: "auto",
-                          display: "block",
-                          width: 0,
-                          height: 0,
-                          minWidth: "100%",
-                          maxWidth: "100%",
-                          minHeight: "100%",
-                          maxHeight: "100%",
-                          objectFit: "contain"
-                        }}
-                      />
+                      
                     </div>
                   </div>
                   <h3 className="h6 services-box-title">
@@ -837,61 +690,27 @@ Managed support services
                 <div className="services-box-item-left">
                   <div className="services-box-icon">
                     <div
-                      style={{
-                        display: "inline-block",
-                        maxWidth: "100%",
-                        overflow: "hidden",
-                        position: "relative",
-                        boxSizing: "border-box",
-                        margin: 0
-                      }}
+                      className='service-box-icon-img'
                     >
+                       <img
+                        alt="Services Icon"
+                        title="Services Icon"
+                        decoding="async"
+                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287001/microsoft-icon_qefjxk.svg"
+                        className='services-box-inner-img'
+                      />
                       <div
-                        style={{
-                          boxSizing: "border-box",
-                          display: "block",
-                          maxWidth: "100%"
-                        }}
+                        className='inner-img-parent-div'
                       >
                         <img
-                          style={{
-                            maxWidth: "100%",
-                            display: "block",
-                            margin: 0,
-                            border: "none",
-                            padding: 0
-                          }}
+                           className='vision-side-inner-img'
                           alt=""
                           aria-hidden="true"
                           role="presentation"
                           src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDUiIGhlaWdodD0iNTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
                         />
                       </div>
-                      <img
-                        alt="Services Icon"
-                        title="Services Icon"
-                        decoding="async"
-                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287001/microsoft-icon_qefjxk.svg"
-                        style={{
-                          position: "absolute",
-                          top: 0,
-                          left: 0,
-                          bottom: 0,
-                          right: 0,
-                          boxSizing: "border-box",
-                          padding: 0,
-                          border: "none",
-                          margin: "auto",
-                          display: "block",
-                          width: 0,
-                          height: 0,
-                          minWidth: "100%",
-                          maxWidth: "100%",
-                          minHeight: "100%",
-                          maxHeight: "100%",
-                          objectFit: "contain"
-                        }}
-                      />
+                     
                     </div>
                   </div>
                   <h3 className="h6 services-box-title">Custom Software Development
@@ -1041,61 +860,28 @@ Managed support services
                 <div className="services-box-item-left">
                   <div className="services-box-icon">
                     <div
-                      style={{
-                        display: "inline-block",
-                        maxWidth: "100%",
-                        overflow: "hidden",
-                        position: "relative",
-                        boxSizing: "border-box",
-                        margin: 0
-                      }}
+                      className='service-box-icon-img'
                     >
-                      <div
-                        style={{
-                          boxSizing: "border-box",
-                          display: "block",
-                          maxWidth: "100%"
-                        }}
-                      >
-                        <img
-                          style={{
-                            maxWidth: "100%",
-                            display: "block",
-                            margin: 0,
-                            border: "none",
-                            padding: 0
-                          }}
-                          alt=""
-                          aria-hidden="true"
-                          role="presentation"
-                          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDUiIGhlaWdodD0iNTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
-                        />
-                      </div>
-                      <img
+                       <img
                         alt="Services Icon"
                         title="Services Icon"
                         decoding="async"
                         src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287001/ML_eznvvj.svg"
-                        style={{
-                          position: "absolute",
-                          top: 0,
-                          left: 0,
-                          bottom: 0,
-                          right: 0,
-                          boxSizing: "border-box",
-                          padding: 0,
-                          border: "none",
-                          margin: "auto",
-                          display: "block",
-                          width: 0,
-                          height: 0,
-                          minWidth: "100%",
-                          maxWidth: "100%",
-                          minHeight: "100%",
-                          maxHeight: "100%",
-                          objectFit: "contain"
-                        }}
+                        className='services-box-inner-img'
                       />
+                       {/* <img
+                           className='vision-side-inner-img'
+                          alt=""
+                          aria-hidden="true"
+                          role="presentation"
+                          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDUiIGhlaWdodD0iNTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+                        /> */}
+                      <div
+                        className='inner-img-parent-div'
+                      >
+                       
+                      </div>
+                     
                     </div>
                   </div>
                   <h3 className="h6 services-box-title">Performance Marketing</h3>

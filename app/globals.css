@@ -23770,10 +23770,10 @@ color: #0E151D;
 }
 
 .h2s10cont {
-  max-width: 1720px;
+  max-width: 1720px !important;
   /* width: 100%; */
-  margin: 0 auto;
-  padding: 60px 60px;
+  margin: 0 auto !important;
+  padding: 60px 60px !important;
   gap: 20px
 }
 
@@ -23815,7 +23815,8 @@ color: #0E151D;
   display: flex;
   flex-direction: column;
   gap: 22px;
-  width: 21.5%;
+  width: 21.5% !important;
+  max-width: 100% !important;
   /* max-width: 300px; */
   height: 280px;
   padding: 10px
@@ -24070,7 +24071,7 @@ color: #0E151D;
   }
 
   .h2s10cont {
-    padding: 30px 20px;
+    padding: 30px 20px !important;
   }
 
   .singles1item {
@@ -31215,6 +31216,7 @@ input[type=number] {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* gap: 200px; */
   padding: 10px 60px;
   position: relative;
   top: 3px;
@@ -32668,7 +32670,7 @@ hr {
 }
 
 @media(max-width:960px) {
-  . .benifitEcommerce-bgcard1 {
+   .benifitEcommerce-bgcard1 {
     max-width: 215px !important
   }
 
@@ -85263,7 +85265,7 @@ input::-webkit-inner-spin-button {
     flex-direction: column;
   }
   .singles1item{
-    width:28%;
+    width:28% !important;
   }
 
   .left-carousel-item,
@@ -85273,12 +85275,12 @@ input::-webkit-inner-spin-button {
 }
 @media only screen and (max-width:768px){
   .singles1item{
-    width:47.5%;
+    width:47.5% !important;
   }
 }
 @media screen and (max-width:576px) {
   .singles1item{
-    width:100%;
+    width:100% !important;
   }
   .carousel-container {
     padding: 40px 10px;
@@ -85341,3 +85343,7 @@ input::-webkit-inner-spin-button {
 }
 
 
+.MainBloggSeCh3 {
+  width: 100%;
+  text-align: center;
+}
