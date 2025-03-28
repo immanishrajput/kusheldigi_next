@@ -253,10 +253,10 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
               </div>
             </SwiperSlide>
 
-            {/* <SwiperSlide>
+            <SwiperSlide>
             <div className="carousel-item">
                 <div className="left-carousel-item">
-                  <img src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743074114/page-6_yjelmo.jpg"} alt="carousel-image" />
+                  <img src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743092899/page-5_1_oy4q9y.jpg"} alt="carousel-image" />
                   <div className="left-carousel-btn-div">
                   <div className="left-carousel-btn ">B2B</div>
                     <div className="left-carousel-btn blue-bg">E-commerce</div>
@@ -264,7 +264,7 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
                 </div>
                 <div className="right-carousel-item">
                   <h2 className="right-carousel-heading">
-                  Solenoid Ninja
+                  Top Brass Tactical
                   </h2>
                   <div className="right-service-stack-div">
                     <div className="right-service-stack">
@@ -294,7 +294,7 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
                   </Link>
                 </div>
               </div>
-            </SwiperSlide> */}
+            </SwiperSlide>
         </Swiper>
       </div>
     </div>
