@@ -61,6 +61,7 @@ const Website = () => {
                     >
                      
                       <img
+                        loading='lazy'
                         alt="Services Icon"
                         title="Services Icon"
                         decoding="async"
@@ -74,7 +75,7 @@ const Website = () => {
                   </h3>
                 </div>
                 <span className={`services-box-down-icon ${activeIndex === 0 ? "rotate180" : ''}`}>
-                  <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="" />
+                  <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="" />
                 </span>
               </div>
               <div className="services-box-right-corner">
@@ -201,6 +202,7 @@ const Website = () => {
                       className='service-box-icon-img'
                     >
                       <img
+                        loading='lazy'
                         alt="Services Icon"
                         title="Services Icon"
                         decoding="async"
@@ -211,6 +213,7 @@ const Website = () => {
                         className='inner-img-parent-div'
                       >
                         <img
+                        loading='lazy'
                           className='vision-side-inner-img'
                           alt=""
                           aria-hidden="true"
@@ -226,7 +229,7 @@ const Website = () => {
                   </h3>
                 </div>
                 <span className={`services-box-down-icon ${activeIndex === 1 ? "rotate180" : ''}`}>
-                  <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="" />
+                  <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="" />
                 </span>
               </div>
               <div className="services-box-right-corner">
@@ -377,6 +380,7 @@ const Website = () => {
                       className='service-box-icon-img'
                     >
                        <img
+                       loading='lazy'
                         alt="Services Icon"
                         title="Services Icon"
                         decoding="async"
@@ -387,6 +391,7 @@ const Website = () => {
                         className='inner-img-parent-div'
                       >
                         <img
+                          loading='lazy'
                            className='vision-side-inner-img'
                           alt=""
                           aria-hidden="true"
@@ -402,7 +407,7 @@ const Website = () => {
                   </h3>
                 </div>
                 <span className={`services-box-down-icon ${activeIndex === 2 ? "rotate180" : ''}`}>
-                  <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="" />
+                  <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="" />
                 </span>
               </div>
               <div className="services-box-right-corner">
@@ -549,6 +554,7 @@ const Website = () => {
                       className='service-box-icon-img'
                     >
                       <img
+                       loading='lazy'
                         alt="Services Icon"
                         title="Services Icon"
                         decoding="async"
@@ -559,6 +565,7 @@ const Website = () => {
                         className='inner-img-parent-div'
                       >
                         <img
+                        loading='lazy'
                            className='vision-side-inner-img'
                           alt=""
                           aria-hidden="true"
@@ -575,7 +582,7 @@ Managed support services
 </h3>
                 </div>
                 <span className={`services-box-down-icon ${activeIndex === 3 ? "rotate180" : ''}`}>
-                  <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="" />
+                  <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="" />
                 </span>
               </div>
               <div className="services-box-right-corner">
@@ -693,6 +700,7 @@ Managed support services
                       className='service-box-icon-img'
                     >
                        <img
+                        loading='lazy'
                         alt="Services Icon"
                         title="Services Icon"
                         decoding="async"
@@ -703,6 +711,7 @@ Managed support services
                         className='inner-img-parent-div'
                       >
                         <img
+                         loading='lazy'
                            className='vision-side-inner-img'
                           alt=""
                           aria-hidden="true"
@@ -718,7 +727,7 @@ Managed support services
 </h3>
                 </div>
                 <span className={`services-box-down-icon ${activeIndex === 4 ? "rotate180" : ''}`}>
-                  <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="" />
+                  <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="" />
                 </span>
               </div>
               <div className="services-box-right-corner">
@@ -863,6 +872,7 @@ Managed support services
                       className='service-box-icon-img'
                     >
                        <img
+                        loading='lazy'
                         alt="Services Icon"
                         title="Services Icon"
                         decoding="async"
@@ -887,7 +897,7 @@ Managed support services
                   <h3 className="h6 services-box-title">Performance Marketing</h3>
                 </div>
                 <span className={`services-box-down-icon ${activeIndex === 5 ? "rotate180" : ''}`}>
-                  <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="" />
+                  <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="" />
                 </span>
               </div>
               <div className="services-box-right-corner">

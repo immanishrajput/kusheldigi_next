@@ -123,22 +123,22 @@ const Footer = () => {
           </div>
           <div className="footer2Image1">
                 <div className="footer2Image">
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993082/designrush_jkyjny.webp" alt="logo"></img>
+            <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993082/designrush_jkyjny.webp" alt="logo"></img>
             </div>
             <div className="footer2Image">
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993092/b2b-companies-canada_tdaega.png" alt="logo"></img>
+            <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993092/b2b-companies-canada_tdaega.png" alt="logo"></img>
             </div>
             <div className="footer2Imagelat">
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993119/ecommerce-development-companies_glc1ea.png" alt="logo"></img>
+            <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993119/ecommerce-development-companies_glc1ea.png" alt="logo"></img>
             </div>
             <div className="footer2Image">
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993106/ecommerce-developers-india_zfydfo.png" alt="logo"></img>
+            <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993106/ecommerce-developers-india_zfydfo.png" alt="logo"></img>
             </div>
             <div className="footer2Image">
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742994278/web-developers-india_uovesz.png" alt="logo"></img>
+            <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743148178/Certified-Bigcommerce-Partner__of0fqt.png" alt="logo"></img>
             </div>
             <div className="footer2Imagelast">
-            <img width="230" height="230" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993139/8_YEARS_ICON_LOGO_ppjzsq.png" alt="logo"></img>
+            <img loading="lazy" width="230" height="230" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993139/8_YEARS_ICON_LOGO_ppjzsq.png" alt="logo"></img>
             </div>
               </div>
         </div>
@@ -156,26 +156,26 @@ const Footer = () => {
                       href="https://www.linkedin.com/company/kusheldigisolutions/" rel="noopener"
                     >
                        {/* https://res.cloudinary.com/dd9tagtiw/image/upload/v1740224179/linkedin_logo-01_gvkq3i.png */}
-                      <img width={20} height={15} src='https://res.cloudinary.com/dgif730br/image/upload/v1741074958/linkedin_logo-01_gvkq3i_ccm6sd.png' alt="linkedin" />
+                      <img loading="lazy" width={20} height={15} src='https://res.cloudinary.com/dgif730br/image/upload/v1741074958/linkedin_logo-01_gvkq3i_ccm6sd.png' alt="linkedin" />
                     </a>
                     <a target="_blank" href="https://www.instagram.com/kusheldigi/" rel="noopener">
                     {/* https://res.cloudinary.com/dd9tagtiw/image/upload/v1740224179/instagram_logo-01_dzqg3b.png */}
-                      <img width={20} height={15} src='https://res.cloudinary.com/dgif730br/image/upload/v1741075336/instagram_logo-01_dzqg3b_xzp4ys.png' alt="iconm" />
+                      <img loading="lazy" width={20} height={15} src='https://res.cloudinary.com/dgif730br/image/upload/v1741075336/instagram_logo-01_dzqg3b_xzp4ys.png' alt="iconm" />
                     </a>
                     <a
                       target="_blank"
                       href="https://www.facebook.com/kusheldigisolutions/" rel="noopener"
                     >
                       {/* https://res.cloudinary.com/dd9tagtiw/image/upload/v1740224178/facebook_logo-01_b88kjo.png */}
-                      <img width={20} height={15} src='https://res.cloudinary.com/dgif730br/image/upload/v1741075570/facebook_logo-01_b88kjo_mhhfn3.png' alt="icon" />
+                      <img loading="lazy" width={20} height={15} src='https://res.cloudinary.com/dgif730br/image/upload/v1741075570/facebook_logo-01_b88kjo_mhhfn3.png' alt="icon" />
                     </a>
                     <a  target="_blank" href="https://twitter.com/KushelDigisoln" rel="noopener">
                     {/* https://res.cloudinary.com/dd9tagtiw/image/upload/v1740224179/twitter_logo-01_xh3vqk.png */}
-                      <img width={20} height={15} src='https://res.cloudinary.com/dgif730br/image/upload/v1741075813/twitter_logo-01_xh3vqk_ksousv.png' alt="young2" />
+                      <img loading="lazy" width={20} height={15} src='https://res.cloudinary.com/dgif730br/image/upload/v1741075813/twitter_logo-01_xh3vqk_ksousv.png' alt="young2" />
                     </a>
                     <a target="_blank" href="https://www.behance.net/kushelsolucti" rel="noopener">
                     {/* https://res.cloudinary.com/dd9tagtiw/image/upload/v1740224178/behance_logo-01_x6vc9l.png */}
-                      <img width={20} height={15} style={{ filter: "invert(1)" }} src="https://res.cloudinary.com/dgif730br/image/upload/v1741076143/behance_logo-01_x6vc9l_kqf8gs.png" alt="young1" />
+                      <img loading="lazy" width={20} height={15} style={{ filter: "invert(1)" }} src="https://res.cloudinary.com/dgif730br/image/upload/v1741076143/behance_logo-01_x6vc9l_kqf8gs.png" alt="young1" />
                     </a>
                   
                   </div>

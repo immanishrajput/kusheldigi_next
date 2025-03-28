@@ -11,7 +11,7 @@ function Flagship() {
     <div className="flagship-cards">
       <div className="flagship-card">
         <div className="flagship-logo">
-          <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808147/m1_a4lm2y.svg" alt="Shopify Plus" />
+          <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808147/m1_a4lm2y.svg" alt="Shopify Plus" />
         </div>
         <h3>Ecommerce development</h3>
         <ul className="flagship-ul">
@@ -24,12 +24,12 @@ function Flagship() {
           <li className="flagship-li">Secure payment gateway integration</li>
         </ul>
         <Link href="/ecommerce-development" className="flagship-btn">
-          Learn More <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />
+          Learn More <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />
         </Link>
       </div>
       <div className="flagship-card">
         <div className="flagship-logo">
-          <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808147/m2_gfvosm.svg" alt="BigCommerce" />
+          <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808147/m2_gfvosm.svg" alt="BigCommerce" />
         </div>
         <h3>Ecommerce consulting</h3>
         <ul className="flagship-ul">
@@ -46,12 +46,12 @@ function Flagship() {
           <li>Data-driven recommendations </li>
         </ul>
         <a href="#" className="flagship-btn">
-          Learn More <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />
+          Learn More <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />
         </a>
       </div>
       <div className="flagship-card">
         <div className="flagship-logo">
-          <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808147/m3_iuyndc.svg" alt="WooCommerce" />
+          <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808147/m3_iuyndc.svg" alt="WooCommerce" />
         </div>
         <h3>Replatforming</h3>
         <ul className="flagship-ul">
@@ -66,14 +66,14 @@ function Flagship() {
           {/* <li className="flagship-li">Data consistency</li> */}
         </ul>
         <Link href="#" className="flagship-btn">
-          Learn More <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />
+          Learn More <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />
         </Link>
       </div>
     </div>
     <div className="flagship-cards">
       <div className="flagship-card">
         <div className="flagship-logo">
-          <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808147/m4_miupd6.svg" alt="Shopify Plus" />
+          <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808147/m4_miupd6.svg" alt="Shopify Plus" />
         </div>
         <h3>Mobile development</h3>
         <ul className="flagship-ul">
@@ -91,12 +91,12 @@ function Flagship() {
           </li>
         </ul>
         <Link href="/mobile-application-development" className="flagship-btn">
-          Learn More <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />
+          Learn More <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />
         </Link>
       </div>
       <div className="flagship-card">
         <div className="flagship-logo">
-          <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808146/m5_nuxmzb.svg" alt="BigCommerce" />
+          <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808146/m5_nuxmzb.svg" alt="BigCommerce" />
         </div>
         <h3>Technical support</h3>
         <ul className="flagship-ul">
@@ -110,12 +110,12 @@ function Flagship() {
           <li>Scalability support </li>
         </ul>
         <Link href="#" className="flagship-btn">
-          Learn More <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />
+          Learn More <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />
         </Link>
       </div>
       <div className="flagship-card">
         <div className="flagship-logo">
-          <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808146/m6_klddr8.svg" alt="WooCommerce" />
+          <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808146/m6_klddr8.svg" alt="WooCommerce" />
         </div>
         <h3>Ecommerce design</h3>
         <ul className="flagship-ul">
@@ -132,7 +132,7 @@ function Flagship() {
           <li className="flagship-li">Mobile-friendly design </li>
         </ul>
         <Link href="#" className="flagship-btn">
-          Learn More <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />
+          Learn More <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />
         </Link>
       </div>
     </div>

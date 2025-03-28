@@ -50,7 +50,7 @@ const CompaniesSlider = () => {
         <Slider {...commonSettings} className="custom-slider">
           {["sp18_iscwvs.png", "sp19_lg8ebe.png", "sp20_xvpwrq.png", "sp1_tlo2jq.png", "sp2_udzoec.png", "sp3_kriscj.png", "sp6_oqjqdl.png", "sp4_mjfpjw.png"].map((img, index) => (
             <div key={index} className="slide-item">
-              <img src={`https://res.cloudinary.com/dqjbzgksw/image/upload/v1740985644/${img}`} alt="logo" />
+              <img loading="lazy" src={`https://res.cloudinary.com/dqjbzgksw/image/upload/v1740985644/${img}`} alt="logo" />
             </div>
           ))}
         </Slider>
@@ -58,7 +58,7 @@ const CompaniesSlider = () => {
         <Slider {...commonSettings} rtl className="custom-slider">
           {["sp5_sk9ico.png", "sp7_ludrbx.png", "sp8_neiqlr.png", "sp15_udrdig.png", "sp16_romtvs.png", "sp17_awm1ho.png", "sp18_iscwvs.png", "sp19_lg8ebe.png"].map((img, index) => (
             <div key={index} className="slide-item">
-              <img src={`https://res.cloudinary.com/dqjbzgksw/image/upload/v1740985644/${img}`} alt="logo" />
+              <img loading="lazy" src={`https://res.cloudinary.com/dqjbzgksw/image/upload/v1740985644/${img}`} alt="logo" />
             </div>
           ))}
         </Slider>
@@ -66,7 +66,7 @@ const CompaniesSlider = () => {
         <Slider {...commonSettings} className="custom-slider">
           {["sp3_kriscj.png", "sp6_oqjqdl.png", "sp4_mjfpjw.png", "sp10_b2yb2j.png", "sp11_wd33xt.png", "sp12_wdyncp.png", "sp13_uplo8b.png", "sp14_t0ac1k.png"].map((img, index) => (
             <div key={index} className="slide-item">
-              <img src={`https://res.cloudinary.com/dqjbzgksw/image/upload/v1740985644/${img}`} alt="logo" />
+              <img loading="lazy" src={`https://res.cloudinary.com/dqjbzgksw/image/upload/v1740985644/${img}`} alt="logo" />
             </div>
           ))}
         </Slider>
