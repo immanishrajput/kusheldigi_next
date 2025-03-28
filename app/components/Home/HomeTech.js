@@ -75,12 +75,13 @@ const Our = () => {
       <div className="containers">
         {partners.map((partner, index) => (
           <div className="card-1" key={index}>
-            <img src={partner.img} alt={partner.alt} />
+            <img loading="lazy" width="329" height="192" src={partner.img} alt={partner.alt} />
             <Link href={partner.link}  className="read-more-1">
               Read More{" "}
               <img
+              loading="lazy"
                 src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866486/circle-arrow-icon_dcxfmm.svg"
-                alt=""
+                alt="buttons"
               />
             </Link>
           </div>
@@ -101,12 +102,13 @@ const Our = () => {
         {partners.map((partner, index) => (
           <SwiperSlide key={index}>
             <div className="card-1" id="swiperIdTech">
-              <img src={partner.img} alt={partner.alt} />
+              <img width="329" height="192" loading="lazy" src={partner.img} alt={partner.alt} />
               <a href={partner.link} target="_blank" className="read-more-1">
                 Read More{" "}
                 <img
+                  loading="lazy"
                   src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866486/circle-arrow-icon_dcxfmm.svg"
-                  alt=""
+                  alt="cards"
                 />
               </a>
             </div>

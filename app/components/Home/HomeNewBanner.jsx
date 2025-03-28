@@ -33,36 +33,36 @@ const NewBanner = () => {
 
     useEffect(() => {
         const handleHashChange = () => {
-          const section = document.getElementById("form-section");
-          if (section) {
-            setTimeout(() => {
-              const offset = 150; 
-              const sectionPosition = section.getBoundingClientRect().top + window.scrollY - offset;
-              window.scrollTo({ top: sectionPosition, behavior: "smooth" });
-            }, 0);
-          }
+            const section = document.getElementById("form-section");
+            if (section) {
+                setTimeout(() => {
+                    const offset = 150;
+                    const sectionPosition = section.getBoundingClientRect().top + window.scrollY - offset;
+                    window.scrollTo({ top: sectionPosition, behavior: "smooth" });
+                }, 0);
+            }
         };
-    
+
         window.addEventListener("hashchange", handleHashChange, false);
-    
+
         return () => {
-          window.removeEventListener("hashchange", handleHashChange, false);
+            window.removeEventListener("hashchange", handleHashChange, false);
         };
-      }, []);
+    }, []);
 
     return (
         <div className='new-banner-container'>
             <div className="inner-new-banner-container">
                 <div className="new-banner-left">
-                    {/* <h3 className='sm-banner-heading'><img src="/new-banner-star.svg" alt="star-icon" /> Custom Ecommerce Solutions</h3> */}
-                    <h3 className='sm-banner-heading'><HiShoppingCart style={{fontSize:'24px'}}/> Custom Ecommerce Solutions</h3>
+                    {/* <h3 className='sm-banner-heading'><img src="/new-banner-star.svg" alt="star-icon" /> s</h3> */}
+                    <h3 className='sm-banner-heading'><HiShoppingCart className='hishpoo' />Custom Ecommerce Solutions</h3>
                     <h1 className='new-banner-heading'>Expert Ecommerce Solutions Powered by Bigcommerce</h1>
                     <h4 className='new-banner-para'>As a BigCommerce Certified Partner, Kushel Digi designs, develops, and optimizes eCommerce stores that deliver results and help brands to succeed in the ecommerce world.
                     </h4>
                     {/* <button className='new-banner-btn'>SCHEDULE A DEMO</button> */}
                     <div className='flex-new-banner-btns'>
-                    <a href='#form-section' className='new-banner-btn colored'>Talk to a Consultant</a>
-                    <button onClick={()=> navigate.push('/contact-us')} className='new-banner-btn transparent'>Book a Call  <FaArrowRightLong /></button>
+                        <a href='#form-section' className='new-banner-btn colored'>Talk to a Consultant</a>
+                        <button onClick={() => navigate.push('/contact-us')} className='new-banner-btn transparent'>Book a Call  <FaArrowRightLong /></button>
                     </div>
                 </div>
 
@@ -70,22 +70,25 @@ const NewBanner = () => {
                     <div className="new-banner-right-slider">
                         <Slider {...settings}>
                             <img className='new-banner-scroll-img'
+                                loading='lazy'
                                 src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741088247/MacBook_2_2_two22g.png"
                                 alt=""
                             />
                             <img
+                                loading='lazy'
                                 src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742641401/immmmm-removebg-preview_yhm4on.png"
                                 alt=""
                             />
                             <img className='new-banner-scroll-img'
+                                loading='lazy'
                                 src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741089462/Group_1171281256_1_znsijn.png"
                                 alt=""
                             />
                         </Slider>
 
-                        <img className='floatingIcon1' src="/floatingIcon1.png" alt="" />
-                        <img className='floatingIcon2' src="/floatingIcon2.png" alt="" />
-                        <img className='floatingIcon3' src="/floatingIcon3.png" alt="" />
+                        <img loading='lazy' className='floatingIcon1' src="https://res.cloudinary.com/dgif730br/image/upload/v1743151035/floatingIcon1_twd70z.png" alt="" />
+                        <img loading='lazy' className='floatingIcon2' src="https://res.cloudinary.com/dgif730br/image/upload/v1743151035/floatingIcon2_hsudze.png" alt="" />
+                        <img loading='lazy' className='floatingIcon3' src="https://res.cloudinary.com/dgif730br/image/upload/v1743151035/floatingIcon3_x0yhk5.png" alt="" />
                     </div>
                 </div>
             </div>

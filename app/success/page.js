@@ -3,10 +3,14 @@ import React from 'react'
 
 import Link from 'next/link'
 import "../globals.css"
+import Navbar from '../COMMON/Navbar'
+import { Footer } from 'flowbite-react'
 
 
 const Success = () => {
     return (
+        <>
+        <Navbar/>
         <div className='ser-main'>
             <div className='main_signj'>
                 <div className="sign_imk">
@@ -17,6 +21,8 @@ const Success = () => {
                 </div>
             </div>
         </div>
+        <Footer/>
+        </>
     )
 }
 

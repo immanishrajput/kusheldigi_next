@@ -62,9 +62,9 @@ const Popup = () => {
     }, []);
 
     const [formData, setFormData] = useState({
-        popFullname: "",
-        popEmail: "",
-        popMobile: "",
+        firstName: "",
+        email: "",
+        phone: "",
       });
 
     const [loading, setLoading] = useState(false);
@@ -95,7 +95,7 @@ const Popup = () => {
     
         try {
           const response = await fetch(
-            "https://backend.kusheldigi.us/api/v1/sendPopupmaill",
+            "https://backend.kusheldigi.com/contact",
             {
               method: "POST",
               headers: { "Content-Type": "application/json" },
@@ -115,7 +115,7 @@ const Popup = () => {
           console.error("❌ Error while sending email:", error);
         } finally {
           setLoading(false);
-          setFormData({ popFullname: "", popEmail: "", popMobile: "" });
+          setFormData({ firstName: "", email: "", phone: "" });
           generateCaptcha(); 
         }
     };
@@ -178,9 +178,9 @@ const Popup = () => {
                                 <h2 className="popup-contact-heading">Let’s Build your Success Together!</h2>
                                 <form className="pop-contact-form" id="contactForm" onSubmit={handleSubmit}>
                                     <div className="input-parent-div">
-                                        <input className="pop-contact-input" type="text" placeholder="Your Name" name="popFullname" value={formData.popFullname} onChange={handleChange} required />
-                                        <input className="pop-contact-input" type="email" name="popEmail" placeholder="Business Email" value={formData.popEmail} onChange={handleChange} required />
-                                        <input className="pop-contact-input" type="tel" placeholder="Phone Number" name="popMobile" maxLength={10} value={formData.popMobile} onChange={handleChange} ref={phoneInputRef} required />
+                                        <input className="pop-contact-input" type="text" placeholder="Your Name" name="firstName" value={formData.firstName} onChange={handleChange} required />
+                                        <input className="pop-contact-input" type="email" name="email" placeholder="Business Email" value={formData.email} onChange={handleChange} required />
+                                        <input className="pop-contact-input" type="tel" placeholder="Phone Number" name="phone" maxLength={10} value={formData.phone} onChange={handleChange} ref={phoneInputRef} required />
                                     </div>
 
                                     <div className="captcha-box">

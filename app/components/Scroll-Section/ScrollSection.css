@@ -48,6 +48,14 @@
 .scrolled-section {
     width: 40vw;
 }
+/* 
+.scroll-container {
+    top: 92px;
+} */
+
+/* .scrollx {
+    top: 92px;
+} */
 
 @media screen and (max-width:600px){
     .scroll-container {

@@ -36,7 +36,7 @@ const Website = () => {
   };
 
   const [formData, setFormData] = useState({
-    fullName: '',
+    firstName: '',
     phoneNo: '',
     email: '',
     msg: ''
@@ -83,7 +83,7 @@ const Website = () => {
     } finally {
       setLoading(false);
       setFormData({
-        fullName: '',
+        firstName: '',
         phoneNo: '',
         email: '',
         msg: ''
@@ -176,7 +176,7 @@ const Website = () => {
                 </div> */}
 
                 <div>
-                  <label htmlFor="name" className="contact-label">
+                  <label htmlFor="firstName" className="contact-label">
                     Name
                   </label>
                   <br />
@@ -184,10 +184,10 @@ const Website = () => {
                     className="contact-input"
                     type="text"
                     placeholder="Your Name"
-                    name="fullName"
-                    id="name"
+                    name="firstName"
+                    id="firstName"
                     required
-                    value={formData?.fullName}
+                    value={formData?.firstName}
                     onChange={(e) => {
                       const value = e.target.value;
                       if (/^[A-Za-z ]*$/.test(value)) {

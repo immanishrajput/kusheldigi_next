@@ -9,7 +9,7 @@ import { IoMdArrowDropright } from "react-icons/io";
 
 const ScrollAnimation = () => {
     const containerRef = useRef(null);
-    const maskRef = useRef(null);
+    // const maskRef = useRef(null);
 
     gsap.registerPlugin(ScrollTrigger);
 
@@ -22,20 +22,24 @@ const ScrollAnimation = () => {
             scrollTrigger: {
                 trigger: containerRef.current,
                 pin: true,
+                start:'top-=90',
                 scrub: 1,
                 end: "+=2000",
             },
         });
 
-        gsap.to(maskRef.current, {
-            width: "100%",
-            scrollTrigger: {
-              trigger: ".scroll-wrapper",
-              start: "top left",
-              scrub: 1,
-            },
-          });
+        // gsap.to(maskRef.current, {
+        //     width: "100%",
+        //     scrollTrigger: {
+        //       trigger: ".scroll-wrapper",
+        //       start: "top left",
+        //       scrub: 1,
+        //     },
+        //   });
     }, []);
+
+
+   
 
     return (
         <div className="scroll-section-wrapper">
@@ -46,7 +50,7 @@ const ScrollAnimation = () => {
             </p>
             <div className="scroll-container scrollx" ref={containerRef}>
                 {sectionsData.map((section, index) => (
-                    <ScrollSection key={index} {...section} showSvg={index === 0} maskRef={maskRef} />
+                    <ScrollSection key={index} {...section} showSvg={index === 0} />
                 ))}
             </div>
         </div>
