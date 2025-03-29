@@ -9,8 +9,13 @@
     position: relative;
     padding-top: 50px;
     background: linear-gradient(280deg, #ecf5fd, #f0f3fb 62.02%, #f9f9f4);
-    min-height: 100vh;
+    /* min-height: 100vh; */
+    max-width: 1720px;
+    margin: auto;
+    overflow: hidden;
+    height: max-content;
 }
+
 
 .scrolled-section > svg{
     width: 205vw !important;
@@ -43,6 +48,7 @@
     width: 200vw;
     min-height: 90vh;
     position: relative;
+    overflow: hidden;
 }
 
 .scrolled-section {
