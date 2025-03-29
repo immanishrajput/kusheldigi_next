@@ -48,7 +48,7 @@ const Slider = () => {
                     <div className="right-service-stack">
                       <h3 className="service-stack-heading">Services</h3>
                       <ul>
-                        <li>UX/UI Website Design</li>
+                        <li className="slider-li">UX/UI Website Design</li>
                         <li>Website Development</li>
                         <li>B2B eCommerce</li>
                         <li>QA & Website Testing</li>

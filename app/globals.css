@@ -33597,6 +33597,8 @@ form button {
 .footer2Image1{
   display: flex;
   justify-content:space-evenly;
+  max-width: 1720px;
+    margin: auto;
    /* gap:90px;  */
 }
 .footer2Image img{
@@ -85115,6 +85117,7 @@ input::-webkit-inner-spin-button {
   background-color: #0E52FC;
   color: #fff;
   font-size: 14px;
+  border: 2px solid #0E52FC;
 }
 
 .blue-bg:hover {
