@@ -37,9 +37,9 @@ const Website = () => {
 
   const [formData, setFormData] = useState({
     firstName: '',
-    phoneNo: '',
+    phone: '',
     email: '',
-    msg: ''
+    message: ''
   });
   const [loading, setLoading] = useState(false);
 
@@ -65,6 +65,7 @@ const Website = () => {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          "mode": "no-cors",
         },
         body: JSON.stringify(formData),
       });
@@ -84,9 +85,9 @@ const Website = () => {
       setLoading(false);
       setFormData({
         firstName: '',
-        phoneNo: '',
+        phone: '',
         email: '',
-        msg: ''
+        message: ''
       })
     }
   }
@@ -228,14 +229,14 @@ const Website = () => {
                     className="contact-input"
                     country={'in'}
                     placeholder="Phone Number"
-                    name="phoneNo"
-                    id="phoneNo"
+                    name="phone"
+                    id="phone"
                     maxLength="10"
-                    value={formData?.phoneNo}
+                    value={formData?.phone}
 
                     onChange={(phone) => {
-                      if (/^\d{0,10}$/.test(phone)) {
-                        setFormData((prev) => ({ ...prev, phoneNo: phone }));
+                      if (/^(?:\+?[0-9]{0,15})$/.test(phone)) {
+                        setFormData((prev) => ({ ...prev, phone: phone }));
                       }
                     }}
                     inputProps={{
@@ -285,17 +286,17 @@ const Website = () => {
             />
           </div>
           <div className="contact-div">
-            <label htmlFor="msg" className="contact-label">
+            <label htmlFor="message" className="contact-label">
               Project Description
             </label>{" "}
             <br />
             <textarea
               className="contact-textArea"
-              name="msg"
-              id="msg"
+              name="message"
+              id="message"
               placeholder="How Can We Help You?"
               required
-              value={formData?.msg}
+              value={formData?.message}
               onChange={handleFormChange}
             ></textarea>
           </div>
