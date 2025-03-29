@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import './Banner10.css';
 import { FaShoppingCart, FaBriefcaseMedical, FaBuilding, FaNewspaper, FaRobot, FaIndustry, FaPlane, FaShieldAlt, FaMoneyBill, FaGraduationCap, FaGasPump } from "react-icons/fa";

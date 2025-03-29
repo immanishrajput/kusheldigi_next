@@ -1,4 +1,5 @@
 
+"use client"
 import { useState, useRef } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -109,7 +110,7 @@ export default function Steps() {
                 ))}
               </ul>
             </div>
-            <img src={step.image} alt={step.title} className="steps-image" />
+            <img src={step?.image} alt={step.title} className="steps-image" />
           </div>
         ))}
       </Slider>

@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import './Banner6.css'
 const Banner6 = () => {

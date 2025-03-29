@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import './Banner9.css'
 import { MdArrowOutward } from "react-icons/md";

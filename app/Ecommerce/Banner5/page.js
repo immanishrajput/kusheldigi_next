@@ -1,5 +1,6 @@
+"use client"
 import React from 'react'
-import './banner5.css'
+import './Banner5.css'
 const Banner5 = () => {
   return (
     <>
