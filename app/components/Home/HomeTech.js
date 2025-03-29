@@ -10,42 +10,42 @@ import Slider from "react-slick";
 
 const partners = [
   {
-    img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866181/bigcommerce_partner_logo-01_s0n5yt.png",
+    img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233923/WhatsApp_Image_2025-03-29_at_12.40.32_PM_apddld.jpg",
     alt: "bigcommerce Partner",
     link: "https://partners.bigcommerce.com/directory/partner/1983347/kushel-digi-solutions",
   },
   {
-    img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866181/bigcommerce_certified_logo_2-01_pc85al.png",
+    img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233927/WhatsApp_Image_2025-03-29_at_12.40.30_PM_vhjqvg.jpg",
     alt: "bigcommerce-certified Partner",
     link: "https://partners.bigcommerce.com/directory/partner/1983347/kushel-digi-solutions",
   },
   {
-    img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866181/magento_logo-01_sraymz.png",
+    img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233929/WhatsApp_Image_2025-03-29_at_12.40.30_PM_1_flmzht.jpg",
     alt: "Magento Partner",
     link: "/magento",
   },
   {
-    img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866182/woo_commerce-01_uc1lhg.png",
+    img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233924/WhatsApp_Image_2025-03-29_at_12.40.31_PM_1_lgmnkv.jpg",
     alt: "WooCommerce Partner",
     link: "/woocommerce",
   },
   {
-    img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866181/aws_logo-01_sohfcs.png",
+    img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233924/WhatsApp_Image_2025-03-29_at_12.40.31_PM_2_nenngq.jpg",
     alt: "AWS Partner",
     link: "#",
   },
   {
-    img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866182/shopify_logo-01_xw6y4h.png",
+    img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233924/WhatsApp_Image_2025-03-29_at_12.40.31_PM_ae7idi.jpg",
     alt: "/shopify",
     link: "#",
   },
   {
-    img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866182/shopify_plus_logo-01_anletp.png",
+    img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743234242/WhatsApp_Image_2025-03-29_at_12.40.32_PM_hfpuyo.jpg",
     alt: "Shopify Plus Partner",
     link: "#",
   },
   {
-    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1742836184/kalviyo_n9bfmf.png",
+    img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233923/WhatsApp_Image_2025-03-29_at_12.40.29_PM_q5esb4.jpg",
     alt: "Prestashop Partner",
     link: "#",
   },
