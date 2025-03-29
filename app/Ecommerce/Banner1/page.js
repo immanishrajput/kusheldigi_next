@@ -1,6 +1,8 @@
 "use client"
 import React from "react";
 import "./banner.css";
+import { FaArrowRight } from "react-icons/fa";
+import Link from "next/link";
 // import Slider from "react-slick";
 const Banner = () => {
   // const settings = {
@@ -32,11 +34,11 @@ const Banner = () => {
                 to your business needs.
               </p>
               <div className="buttonsBi">
-                <button className="primary-btn">
-                  Book a Call <i className="ri-arrow-right-line"></i>
-                </button>
+                <a href="#form-section" className="primary-btn">
+                  Book a Call<FaArrowRight/>
+                </a>
                 <button className="secondary-btn">
-                  Request Complimentary Audit
+                <Link href="/contact-us">  Request Complimentary Audit</Link>
                 </button>
               </div>
             </div>

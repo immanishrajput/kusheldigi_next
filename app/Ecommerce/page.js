@@ -14,6 +14,9 @@ import Banner11 from './Banner11/page'
 import Navbar from '../COMMON/Navbar'
 import Footer from '../COMMON/Footer'
 import UseAccorrodian from '../COMMON/UseAccorrodian'
+import HomeForm from '../components/Home/HomeForm'
+import HomeFlax from '../components/Home/HomeFlax'
+import HomeCardSection from '../components/Home/HomeCardSection'
 const Page = () => {
   return (
     <div>
@@ -29,7 +32,10 @@ const Page = () => {
         <Banner10/>
         <Banner11/>
         <Banner5/>
+        <HomeFlax/>
+        {/* <HomeCardSection/> */}
         <UseAccorrodian/>
+        <HomeForm/>
         <Footer/>
     </div>
   )
