@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
 import './Banner3.css'
+import Link from 'next/link'
 const Banner3 = () => {
   return (
     <>
@@ -13,7 +14,8 @@ const Banner3 = () => {
     <p>
     Since 2017, Kushel Digi has been delivering Custom Ecommerce Solutions for more than 1000+ clients across globe. We are committed to help your business grow faster. 
     </p>
-    <button>Get a Free Consultation Today</button>
+    <button> <Link href="/contact-us">
+      Get a Free Consultation Today </Link></button>
   </section>
   <section className="right-sectionEcom">
     <div className="content-blockEcom">

@@ -2,6 +2,7 @@
 import React from "react";
 import './Banner10.css';
 import { FaShoppingCart, FaBriefcaseMedical, FaBuilding, FaNewspaper, FaRobot, FaIndustry, FaPlane, FaShieldAlt, FaMoneyBill, FaGraduationCap, FaGasPump } from "react-icons/fa";
+import { MdOutlineHealthAndSafety } from "react-icons/md";
 
 const industries = [
   { name: "Ecommerce", icon: <FaShoppingCart /> },
@@ -12,7 +13,7 @@ const industries = [
   { name: "Oil & Gas", icon: <FaGasPump /> },
   { name: "Manufacturing", icon: <FaIndustry /> },
   { name: "Travel & Hospitality", icon: <FaPlane /> },
-  { name: "Insurance", icon: <FaShieldAlt /> },
+  { name: "Insurance", icon: <MdOutlineHealthAndSafety/> },
   { name: "Security", icon: <FaShieldAlt /> },
   { name: "Finance", icon: <FaMoneyBill /> },
   { name: "Education", icon: <FaGraduationCap /> }

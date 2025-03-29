@@ -103,6 +103,9 @@ color: white;
     width: 250px;
     height: auto;
   }
+  .slick-dots{
+    display: none !important;
+  }
  
 
 .step::after {

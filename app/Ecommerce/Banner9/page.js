@@ -49,11 +49,11 @@ export default function Banner10() {
         <div className="left-b2b-cardKcom">
           <div className="b2b-logoKcom">
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743148430/2ndamendarmory_rw0p7j.jpg" alt="Shopify Plus" />
-            <Link href="/2ndamendment" className="hover-linkCom">2ndamendment <MdArrowOutward /></Link>
+            <Link href="/2ndamendment" className="hover-linkCom">Case Study <MdArrowOutward /></Link>
           </div>
           
           <a href="/2ndamendment" className="b2b-btnKcom">
-            Learn More 
+          2ndamendment
             <p>eCommerce</p>
           </a>  
           <hr className="hrKcomKu"/>
@@ -62,11 +62,11 @@ export default function Banner10() {
           <div className="b2b-logoKcom">
            
            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743148430/site_scope_zyud2x.jpg" alt="Shopify Plus" />
-           <Link href="/sites" className="hover-linkCom">sights & scopes <MdArrowOutward /></Link>
+           <Link href="/sites" className="hover-linkCom">Case Study<MdArrowOutward /></Link>
           </div>
          
           <a href="/sites" className="b2b-btnKcom">
-            Learn More 
+          sights & scopes 
             <p>eCommerce</p>
           </a>  
           <hr />
@@ -75,11 +75,11 @@ export default function Banner10() {
         <div className="left-b2b-cardKcom-3">
           <div className="b2b-logoKcom">
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743148430/top-brass_ucqtzq.jpg" alt="Shopify Plus" />
-            <Link href="/topbrass" className="hover-linkCom">Top Brass Tactical <MdArrowOutward/></Link>
+            <Link href="/topbrass" className="hover-linkCom">Case Study <MdArrowOutward/></Link>
           </div>
          
           <a href="/topbrass" className="b2b-btnKcom">
-            Learn More 
+          Top Brass Tactical
             <p>eCommerce</p>
           </a>
           <hr/>
@@ -89,11 +89,11 @@ export default function Banner10() {
         <div className="right-b2b-cardKcom">
           <div className="b2b-logoKcom">
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743148430/blackrino_rh3ilu.jpg" alt="Shopify Plus" />
-            <Link href="https://blackrhinoconcealment.com/" className="hover-linkCom">Blank Rhino <MdArrowOutward /> </Link>
+            <Link href="https://blackrhinoconcealment.com/" className="hover-linkCom">Case Study <MdArrowOutward /> </Link>
           </div>
          
           <a href="https://blackrhinoconcealment.com/" className="b2b-btnKcom">
-            Learn More 
+          Blank Rhino
             <p>eCommerce</p>
           </a>
           <hr/>
@@ -101,11 +101,11 @@ export default function Banner10() {
         <div className="right-b2b-cardKcom">
           <div className="b2b-logoKcom">
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743148431/slide-365_wgc7nn.jpg" alt="Shopify Plus" />
-            <a href="/Slidesdesign" className="hover-linkCom">Slides 365 <MdArrowOutward /></a>
+            <a href="/Slidesdesign" className="hover-linkCom">Case Study <MdArrowOutward /></a>
           </div>
           
           <a href="/Slidesdesign" className="b2b-btnKcom">
-            Learn More 
+          Slides 365
             <p>eCommerce</p>
           </a>
           <hr/>
@@ -113,11 +113,11 @@ export default function Banner10() {
         <div className="right-b2b-cardKcom">
           <div className="b2b-logoKcom">
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743148431/kick-eez-images_doku1h.jpg" alt="Shopify Plus" />
-            <a href="/kick-eez" className="hover-linkCom">Kick-eez <MdArrowOutward /></a>
+            <a href="/kick-eez" className="hover-linkCom">Case Study <MdArrowOutward /></a>
           </div>
          
           <a href="/kick-eez" className="b2b-btnKcom">
-            Learn More 
+          Kick-eez
             <p>eCommerce</p>
           </a>
           <hr/>

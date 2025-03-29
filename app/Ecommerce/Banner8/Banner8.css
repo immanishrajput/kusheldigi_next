@@ -1,6 +1,6 @@
 .clientsSection {
     display: flex;
-    max-width: 1340px;
+    max-width: 1450px;
     margin: auto;
     align-items: center;
     justify-content: space-between;
@@ -140,6 +140,12 @@
 }
 
 @media (max-width: 600px) {
+    .clientsSection{
+        padding: 15px;
+    }
+    .textContainer h2{
+        font-size: 20px;
+    }
     .logoGrid {
         grid-template-columns: repeat(2, 1fr) !important;
     }

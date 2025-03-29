@@ -1,6 +1,8 @@
 "use client"
 import React from 'react'
 import './Banner4.css'
+import Link from 'next/link'
+import { FaArrowRight } from 'react-icons/fa'
 const Banner4 = () => {
   return (
     <>
@@ -18,7 +20,8 @@ const Banner4 = () => {
       </div>
       <div>
         <button className="btn-audit">
-        Talk to Our Experts Now! <i className="ri-arrow-right-line" />
+          <Link href="contact-us">
+        Talk to Our Experts Now! <FaArrowRight/> </Link>
         </button>
       </div>
     </div>

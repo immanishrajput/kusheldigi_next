@@ -9,7 +9,7 @@
   
   .sec-containerBan2 {
     display: flex;
-    max-width: 1340px;
+    max-width: 1480px;
     margin: 50px auto;
     align-items: center;
     gap: 5rem;
@@ -98,6 +98,11 @@
     background-color: white;
     font-size: 16px;
     font-weight: 500;
+  }
+  .buttonsssBan2 a{
+    display: flex;
+    gap: 5px;
+    align-items: center;
   }
   .secondary-btnssBan2:hover{
     background-color:#0c61ff ;

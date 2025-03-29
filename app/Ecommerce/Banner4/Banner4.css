@@ -1,6 +1,6 @@
 .sec--2 {
     width: 90%;
-    max-width: 1200px;
+    max-width: 1480px;
     height: auto;
     background-color: #ecf1f4;
     margin: 0 auto;
@@ -36,11 +36,16 @@
   .con--2-div-content h3 {
     font-size: 30px;
     margin-bottom: 10px;
+    line-height: 54px !important;
     color: rgba(34, 32, 32, 0.873);
   }
-  
+  .btn-audit a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
   .con--2-div-content p {
-    line-height: 30px;
+    line-height: 23px;
     font-size: 16px;
     color: rgba(34, 32, 32, 0.873);
   }
