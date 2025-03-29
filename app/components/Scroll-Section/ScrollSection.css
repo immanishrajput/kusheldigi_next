@@ -32,13 +32,13 @@
 
 .scroll-section-para {
     font-size: 1.3rem;
-    margin: 10px 0px 0px 0px;
+    margin: 20px 0px 40px 0px;
     /* color: #083792; */
 }
 
 .scroll-container {
     display: flex;
-    align-items: center;
+    align-items:baseline !important;
     gap: 30px;
     width: 200vw;
     min-height: 90vh;
@@ -62,13 +62,13 @@
         width: 650vw;
     }
     
-    .scrolled-section {
+    /* .scrolled-section {
         width: 90vw;
     }
 
     .scrolled-section {
         transform: translate(0px, -100px);
-    }
+    } */
 }
 
 .scroll-card-img {
@@ -77,6 +77,7 @@
 
 .scroll-card-heading {
     font-size: 1.6rem;
+    font-weight: 500;
     /* color: #083792; */
 }
 
@@ -119,7 +120,7 @@
     font-size: 24px;
 }
 
-@media only screen and (max-width:600px){
+/* @media only screen and (max-width:600px){
     .scroll-section-wrapper{
         padding: 0px 20px;
         padding-top: 50px;
@@ -127,4 +128,59 @@
     .scroll-section-heading{
         font-size: 2rem;
     }
+} */
+
+.mobile-scroll-section {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    .scroll-section-wrapper {
+        padding: 50px 15px 0px;
+    }
+
+    .scroll-container {
+        display: none;
+    }
+
+    .scroll-section-para {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .scroll-section-heading {
+        font-size: 2.4rem;
+    }
+
+    .mobile-scroll-section {
+        display: block;
+        padding: 60px 10px 35px;
+    }
+
+    .scrolled-section {
+        width: 90%;
+        margin: auto;
+    }
+
+    .scroll-card-para {
+        font-size: 1rem;
+    }
+
+    .scroll-card-ul > li {
+        font-size: 1rem;
+        margin: 5px 0px;
+    }
+    
+}
+
+.counter {
+    display: block;
+    color: rgba(255, 255, 255, 0.05); 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 110%;
 }
