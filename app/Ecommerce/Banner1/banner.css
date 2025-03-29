@@ -1,0 +1,259 @@
+
+
+/* Hero Section */
+.Mainhero-sectionss {
+margin: 120px 0px 0px 0px;
+  background-color: #252B35;
+  color: white;
+  /* padding: 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  /* min-height: 92.5vh; */
+  background: linear-gradient(6deg, #89c7fb, #c8d5f9 62.02%, #f9f9f4);
+  /* background: linear-gradient(to right , #e4edf3 50%,#aec8db 50%); */
+
+}
+.hero-containerMa{
+  max-width: 1340px;
+  
+}
+.hero-containerMaSub{
+ 
+  flex: 1;
+}
+.hero-containerMaSub1{
+  /* background-color: #aec8db; */
+  max-width: 400px;
+  flex: 1;
+}
+.hero-containerMa {
+  display: flex;
+  /* max-width: 1340px; */
+  width: 100%;
+  align-items: center;
+  gap: 5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  /* padding: 20px; */
+}
+
+.hero-contentBi {
+  flex: 1;
+  min-width: 320px;
+  text-align: left;
+}
+
+.hero-tagCo {
+  color: #222;
+  letter-spacing: 1px;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-left: 2px solid #007BFF;
+  padding-left: 8px;
+}
+
+.headssCom {
+  font-size: 40px;
+  margin: 20px 0;
+  line-height: 48px;
+  font-weight: 500;
+  color: #222;
+}
+
+.hero-descriptionCom {
+  max-width: 500px;
+  font-size: 16px;
+  color: #222;
+  line-height: 1.7;
+}
+
+.buttonsBi {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 35px;
+}
+
+.primary-btn {
+  background-color: #0c61ff;
+  color: white;
+  padding: 15px 36px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+.primary-btn:hover {
+  background-color: white;
+  color: #0c61ff;
+  border: 1px solid #0c61ff;
+}
+
+.secondary-btn {
+  background: white;
+  border: 1px solid #222;
+  color: #222;
+  padding: 12px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.secondary-btn:hover {
+  background: #0c61ff;
+  color: #252B35;
+}
+
+/* Image Section */
+.img-containerCo {
+  flex: 1;
+  min-width: 320px;
+
+}
+
+.image-thumbnail {
+  width: 100%;
+  max-width: 630px;
+  /* border-radius: 10px; */
+}
+
+/* ✅ Tablets (Below 1024px) */
+@media screen and (max-width: 1024px) {
+  .hero-containerMa {
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+  }
+
+  .hero-contentBi {
+    text-align: center;
+  }
+
+  .headssCom {
+    font-size: 34px;
+  }
+
+  .hero-descriptionCom {
+    font-size: 15px;
+    max-width: 100%;
+  }
+
+  .buttonsBi {
+    justify-content: center;
+  }
+}
+
+/* ✅ Mobile Screens (Below 768px) */
+@media screen and (max-width: 768px) {
+  .headssCom {
+    font-size: 28px;
+  }
+.Mainhero-sectionss {
+  background-color:#e4edf3 ;
+}
+  .hero-descriptionCom {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .primary-btn,
+  .secondary-btn {
+    font-size: 15px;
+    padding: 12px 30px;
+  }
+
+  .image-thumbnail {
+    max-width: 90%;
+  }
+
+  .Mainhero-sectionss {
+    height: auto;
+    padding: 40px 20px;
+  }
+}
+
+/* ✅ Smallest Screens (Below 450px) */
+@media (max-width: 450px) {
+   .Mainhero-sectionss{
+    width: 100%;
+  }
+  .hero-containerMa {
+    padding: 10px;
+  }
+
+  .headssCom {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+
+  .hero-descriptionCom {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .buttonsBi {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .primary-btn,
+  .secondary-btn {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px 20px;
+  }
+
+  .image-thumbnail {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+/* ✅ Smallest Screens (Below 355px) */
+@media (max-width: 355px) {
+  .hero-containerMa {
+    padding: 5px;
+    gap: 1.5rem;
+  }
+
+  .headssCom {
+    font-size: 22px;
+    line-height: 1.3;
+  }
+
+  .hero-descriptionCom {
+    font-size: 12.5px;
+    line-height: 1.4;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .buttonsBi {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .primary-btn,
+  .secondary-btn {
+    font-size: 13px;
+    padding: 10px 18px;
+    width: 90%;
+    max-width: 250px;
+  }
+
+  .image-thumbnail {
+    max-width: 95%;
+    height: auto;
+  }
+}

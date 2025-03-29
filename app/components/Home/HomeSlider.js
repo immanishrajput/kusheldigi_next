@@ -48,9 +48,11 @@ const Slider = () => {
                     <div className="right-service-stack">
                       <h3 className="service-stack-heading">Services</h3>
                       <ul>
-                        <li>UX/UI Website Design</li>
-                        <li>Website Development</li>
-                        <li>B2B eCommerce</li>
+                        <li>
+Website Development
+</li>
+                        <li>SEO Optimization</li>
+                        <li>UX/UI Design</li>
                         <li>QA & Website Testing</li>
                       </ul>
                     </div>
@@ -62,8 +64,7 @@ const Slider = () => {
                     </div>
                   </div>
                   <p className="right-carousel-para">
-            
-KICK-EEZ® sells a wide selection of rifle recoil pads and shooting supplies made of Sorbothane®, which provides shock absorption and reduces recoil effectively and quickly.
+                  KICK- EEZ Premium known for Made in America recoil pads and accessories to make your shooting experience more comfortable.
                   </p>
                   <Link href="/kick-eez">
                   <button
@@ -97,9 +98,9 @@ KICK-EEZ® sells a wide selection of rifle recoil pads and shooting supplies mad
                     <div className="right-service-stack">
                       <h3 className="service-stack-heading">Services</h3>
                       <ul>
-                        <li>UX/UI Website Design</li>
                         <li>Website Development</li>
-                        <li>B2B eCommerce</li>
+                        <li>Ecommerce Site Design</li>
+                        <li>UI/UX Design</li>
                         <li>QA & Website Testing</li>
                       </ul>
                     </div>
@@ -112,7 +113,7 @@ KICK-EEZ® sells a wide selection of rifle recoil pads and shooting supplies mad
                   </div>
                   <p className="right-carousel-para">
                   
-At Slides365, we strive to help people tell their story effectively. Your invisible friend inside the PowerPoint helps you create the Professional Presentations.
+                  Slides365 aimed to serve various needs of professionals by offering subscription-based templates, presentations, design slides, and industry-specific slides. 
                   </p>
                   <Link href="/Slidesdesign">
                   <button className="left-carousel-btn blue-bg right-carousel-inner-btn">
@@ -140,9 +141,9 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
                     <div className="right-service-stack">
                       <h3 className="service-stack-heading">Services</h3>
                       <ul>
-                        <li>UX/UI Website Design</li>
-                        <li>Website Development</li>
-                        <li>B2B eCommerce</li>
+                        <li>Ecommerce Website </li>
+                        <li>Development</li>
+                        <li>UI/UX Design</li>
                         <li>QA & Website Testing</li>
                       </ul>
                     </div>
@@ -156,11 +157,11 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
                   <p className="right-carousel-para">
             
                  
-                 Built fot your prefences. Design for your styles
+                  Black Rhino is a minority-owned small business in Lowell, Indiana has been a pioneer of custom Kydex holsters and accessories.
                   </p>
                   <a target="_blank" href="https://blackrhinoconcealment.com">
                   <button className="left-carousel-btn blue-bg right-carousel-inner-btn">
-                    View Live Link
+                    View Case Study
                   </button>
                   </a>
                 </div>
@@ -185,9 +186,9 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
                     <div className="right-service-stack">
                       <h3 className="service-stack-heading">Services</h3>
                       <ul>
-                        <li>UX/UI Website Design</li>
-                        <li>Website Development</li>
-                        <li>B2B eCommerce</li>
+                        <li>Ecommerce Development</li>
+                        <li>UI/UX design</li>
+                        <li>Security Compliance</li>
                         <li>QA & Website Testing</li>
                       </ul>
                     </div>
@@ -199,7 +200,7 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
                     </div>
                   </div>
                   <p className="right-carousel-para">
-        Aftermarket suspension lift kits, leveling kits and accessories for 4X4 off-road truck and jeep enthusiasts
+                  2nd Amendment Armory is known for being a leading provider of high-quality firearms and tactical equipment  serving customers both locally in Brandon, FL and across the nation.usted firearms provider of high-quality gun accessories. 
                   </p>
                   <Link href="/2ndamendment">
                   <button className="left-carousel-btn blue-bg right-carousel-inner-btn">
@@ -227,10 +228,10 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
                     <div className="right-service-stack">
                       <h3 className="service-stack-heading">Services</h3>
                       <ul>
-                        <li>UX/UI Website Design</li>
-                        <li>Website Development</li>
-                        <li>B2B eCommerce</li>
+                        <li>Ecommerce Store </li>
+                        <li>Development</li>
                         <li>QA & Website Testing</li>
+                        <li>UI/UX Design</li>
                       </ul>
                     </div>
                     <div className="right-service-stack">
@@ -242,7 +243,7 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
                   </div>
                   <p className="right-carousel-para">
                  
-                  Rely products give you clarity and peace of mind. More than just beeps - Rely helps you understand what’s occurring in your home and what to do next.
+                  Sites and Scopes has specialized experience in delivering high performance optics and accessories for marksmen, hunters, and tactical professionals.
                   </p>
                   <Link href="/sites">
                   <button className="left-carousel-btn blue-bg right-carousel-inner-btn">
@@ -270,9 +271,9 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
                     <div className="right-service-stack">
                       <h3 className="service-stack-heading">Services</h3>
                       <ul>
-                        <li>UX/UI Website Design</li>
-                        <li>Website Development</li>
-                        <li>B2B eCommerce</li>
+                        <li>Ecommerce Website</li>
+                        <li>Development</li>
+                        <li>UI/UX Design</li>
                         <li>QA & Website Testing</li>
                       </ul>
                     </div>
@@ -287,7 +288,7 @@ At Slides365, we strive to help people tell their story effectively. Your invisi
                  
                   The idea of our webstore started small, but quickly gathered speed after we encountered frequent requests from individuals and companies looking for small quantity, high-quality electromagnetic components.
                   </p>
-                  <Link href="/solenoid-ninja">
+                  <Link href="/topbrass">
                   <button className="left-carousel-btn blue-bg right-carousel-inner-btn">
                     View Case Study
                   </button>
