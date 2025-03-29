@@ -697,7 +697,7 @@ padding-left: 50px !important;
   border: 1px solid #80808045;
   border-radius: 10px;
   text-align: left;
-  width: 600px;
+  width: 100%;
   max-width: 100%;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -742,7 +742,7 @@ padding-left: 50px !important;
   border: 1px solid #80808045;
   border-radius: 10px;
   text-align: left;
-  /* max-width: 600px; */
+  max-width: 100%;
   width: 100%;
   /* width: 600px; */
   max-width: 100%;
