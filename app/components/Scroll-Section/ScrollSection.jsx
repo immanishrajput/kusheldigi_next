@@ -5,6 +5,11 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import "./ScrollSection.css";
 import { IoMdArrowDropright } from "react-icons/io";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import dynamic from "next/dynamic";
+
+const Slider = dynamic(() => import("react-slick"), { ssr: false });
 
 
 const ScrollAnimation = () => {
@@ -13,8 +18,8 @@ const ScrollAnimation = () => {
 
     gsap.registerPlugin(ScrollTrigger);
 
-    useEffect(() => {
-        const sections = gsap.utils.toArray(".scrolled-section");
+    // useEffect(() => {
+    //     const sections = gsap.utils.toArray(".scrolled-section");
 
         // gsap.to(sections, {
         //     xPercent: -100 * (sections.length - 1),
@@ -28,16 +33,16 @@ const ScrollAnimation = () => {
         //     },
         // });
 
-        gsap.to(sections, {
-            xPercent: -100 * (sections.length - 1),
-            ease: "none",
-            scrollTrigger: {
-                trigger: containerRef.current,
-                pin: true,
-                scrub: 1,
-                end: "+=2000",
-            },
-        });
+        // gsap.to(sections, {
+        //     xPercent: -100 * (sections.length - 1),
+        //     ease: "none",
+        //     scrollTrigger: {
+        //         trigger: containerRef.current,
+        //         pin: true,
+        //         scrub: 1,
+        //         end: "+=2000",
+        //     },
+        // });
 
         // gsap.to(maskRef.current, {
         //     width: "100%",
@@ -47,8 +52,40 @@ const ScrollAnimation = () => {
         //       scrub: 1,
         //     },
         //   });
+    // }, []);
+
+    useEffect(() => {
+        if (window.innerWidth <= 768) return; 
+    
+        const sections = gsap.utils.toArray(".scrolled-section");
+    
+        gsap.to(sections, {
+            xPercent: -100 * (sections.length - 1),
+            ease: "none",
+            scrollTrigger: {
+                trigger: containerRef.current,
+                pin: true,
+                start:'top-=95',
+                scrub: 1,
+                end: "+=2000",
+            },
+        });
+    
     }, []);
 
+
+    const settings = {
+        dots: true,
+        // fade: true,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 2500,
+        speed: 1000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        waitForAnimate: false,
+        pauseOnHover: false
+    };
 
    
 
@@ -64,11 +101,18 @@ const ScrollAnimation = () => {
                     <ScrollSection key={index} {...section} showSvg={index === 0} />
                 ))}
             </div>
+            <div className="mobile-scroll-section">
+            <Slider {...settings}>
+            {sectionsData.map((section, index) => (
+                    <ScrollSection key={index} {...section}  />
+                ))}
+            </Slider>
+            </div>
         </div>
     );
 };
 
-const ScrollSection = ({ img, title, description, listItems, showSvg, maskRef  }) => (
+const ScrollSection = ({ img,number, title, description, listItems, showSvg, maskRef  }) => (
     <div className="scrolled-section">
         <img
             className="scroll-card-img"
@@ -103,6 +147,7 @@ const ScrollSection = ({ img, title, description, listItems, showSvg, maskRef  }
                     </li>
                 ))}
             </ul>
+            <span className="counter">{number}</span>
         </div>
     </div>
 );
