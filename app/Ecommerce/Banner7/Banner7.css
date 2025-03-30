@@ -1,6 +1,6 @@
 
 .steps-containercom {
-    max-width: 750px;
+    max-width: 800px;
     margin: auto;
     margin-top: 50px;
     text-align: center;
@@ -26,7 +26,7 @@
   
   .step {
     width: 78px;
-    height: 70px;
+    height: 76px;
     display: flex;
     align-items: center;
     justify-content: center;

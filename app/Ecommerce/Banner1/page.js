@@ -38,7 +38,7 @@ const Banner = () => {
                   Book a Call<FaArrowRight/>
                 </a>
                 <button className="secondary-btn">
-                <Link href="/contact-us">  Request Complimentary Audit</Link>
+                <Link href="/contact-us"> TALK TO A CONSULTANT</Link>
                 </button>
               </div>
             </div>

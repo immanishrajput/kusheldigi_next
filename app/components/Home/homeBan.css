@@ -55,11 +55,14 @@ width: 580px;
 }
 
 .call-us img{
-  height: 30px;
-  width: 30px;
+  height: auto;
+  width: 31px;
   
 }
-
+#CallusI img{
+  height: 30px;
+  width: 34px;
+}
 .phone-icon {
   width: 15px;
   position: absolute;
@@ -601,7 +604,9 @@ padding-left: 50px !important;
 
 .plt-btn {
   position: absolute;
-  bottom: 100px;
+  
+/* bottom: 50px; */
+  /* bottom: 100px; */
   color: #007bff;
   text-decoration: none;
   font-weight: bold;
@@ -987,12 +992,11 @@ padding-left: 50px !important;
 /* flag ship */
 
 .flagship-section {
-  /* font-family: "Wix Madefor Display"; */
+  /* margin-top: 40px !important; */
   text-align: center;
   background: linear-gradient(to right, #f8f8f8, #e9f0ff);
   max-width: 1720px;
   margin: 0 auto;
-  /* padding: 30px 0px 20px 0px; */
   padding: 30px 60px;
 }
 
@@ -1002,6 +1006,7 @@ padding-left: 50px !important;
 
 .flagship-head {
   text-align: center;
+  padding: 15px 0px 0px 0px;
   font-size: 41px;
   font-weight: 400;
   /* margin-bottom: 30px; */
@@ -1108,12 +1113,13 @@ h3 {
   color: #000000;
   text-decoration: underline;
   font-size: 20px;
-  display: flex; 
+  display: flex;
+ 
   align-items: center; 
   position: absolute;
   bottom: 50px;
   left: 30px;
-  gap: 15px; 
+  gap: 100px; 
 }
 
 .flagship-btn img {

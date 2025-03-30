@@ -1,8 +1,9 @@
 
 .sec---abc{
-  max-width: 1630px;
-    padding: 20px;
-    margin-top: 30px;
+  margin: auto;
+  max-width: 1720px;
+    padding: 20px 0px 0px 0px;
+    /* margin-top: 30px; */
     background-color: #f8f8f8;
   }
   
@@ -105,6 +106,11 @@
     font-weight: 700;
     border-radius: 3px;
   }
+  .button-b2:hover{
+    color: rgb(40, 105, 244) ;
+    background-color: white;
+    border: 1px solid  rgb(40, 105, 244);
+  }
   img{
     /* margin-right: 60px; */
   }
@@ -169,12 +175,19 @@
     .text p{
         text-align: center;
     }
+    .content p {
+      text-align: center;
+    }
+    .content h3{
+line-height: 35px;
+text-align: center;
+    }
 }
 
 @media(max-width:385px){
-    /* .viewAllBtn{
-        padding: 0 !important;
-    } */
+  .content p {
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) { 

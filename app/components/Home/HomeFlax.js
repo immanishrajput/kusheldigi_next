@@ -96,25 +96,6 @@ function Flagship() {
       </div>
       <div className="flagship-card">
         <div className="flagship-logo">
-          <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808146/m5_nuxmzb.svg" alt="BigCommerce" />
-        </div>
-        <h3>Technical support</h3>
-        <ul className="flagship-ul">
-          <li className="flagship-li">24/7 expert assistance </li>
-          <li className="flagship-li">Proactive monitoring </li>
-          <li className="flagship-li">Quick response </li>
-          <li className="flagship-li">Secure data backup </li>
-          <li>
-          Performance optimization 
-          </li>
-          <li>Scalability support </li>
-        </ul>
-        <Link href="#" className="flagship-btn">
-          Learn More <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />
-        </Link>
-      </div>
-      <div className="flagship-card">
-        <div className="flagship-logo">
           <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808146/m6_klddr8.svg" alt="WooCommerce" />
         </div>
         <h3>Ecommerce design</h3>
@@ -135,6 +116,26 @@ function Flagship() {
           Learn More <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />
         </Link>
       </div>
+      <div className="flagship-card">
+        <div className="flagship-logo">
+          <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808146/m5_nuxmzb.svg" alt="BigCommerce" />
+        </div>
+        <h3>Technical support</h3>
+        <ul className="flagship-ul">
+          <li className="flagship-li">24/7 expert assistance </li>
+          <li className="flagship-li">Proactive monitoring </li>
+          <li className="flagship-li">Quick response </li>
+          <li className="flagship-li">Secure data backup </li>
+          <li>
+          Performance optimization 
+          </li>
+          <li>Scalability support </li>
+        </ul>
+        <Link href="#" className="flagship-btn">
+          Learn More <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />
+        </Link>
+      </div>
+      
     </div>
   </section>
   

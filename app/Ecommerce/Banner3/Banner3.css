@@ -23,12 +23,14 @@
   }
   
   .left-sectionEcom h1 {
+    line-height: 44px;
     font-size: 38px;
     margin: 20px 0;
     color: #000000;
   }
   
   .left-sectionEcom p {
+    padding: 15px 0px 0px 0px;
     font-size: 17px;
     line-height: 31px;
     color: #000000;
@@ -99,9 +101,10 @@
   }
   
   .content-blockEcom p {
+    padding: 15px 0px 0px 0px;
     font-size: 15px;
     color: #000000;
-    line-height: 28px;
+    line-height: 27px;
   }
   
    
