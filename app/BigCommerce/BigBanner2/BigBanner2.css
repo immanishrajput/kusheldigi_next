@@ -1,0 +1,140 @@
+.MainSecBBN2{
+    background-color: rgba(234, 238, 241, 0.362);
+  
+  }
+  .MainSecBBN{
+    margin: auto;
+    max-width: 1350px;
+  
+    padding: 65px 0px;
+   
+  }
+  .SecBBNDivPa{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .SecBBNDivPara{
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.953);
+    text-align: center;
+  }
+  .DSecBBNDivM{
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    gap: 70px;
+   padding: 90px 0px 0px 0px;
+  }
+  
+  .DSecBBNDtil{
+    color:#0c61ff ;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .DSecBBNDtiltl{
+    font-weight: 400;
+    padding: 20px 0px 0px 0px;
+    font-size: 17px;
+    width: 930px;
+  }
+  
+  .DSecBBNDImage img{
+    display: flex;
+    align-items: self-end;
+    width: 240px;
+    height: auto;
+  }
+  .DSecBBNDivMai{
+    max-width: 1350px;
+    background-color: white;
+  }
+  .MainSecBBNMain{
+    max-width: 1350px;
+    margin: auto;
+  }
+  .DSecBBNDivM1{
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    gap: 70px;
+   padding: 50px 0px;
+  }
+  .MainBBnSEC{
+    background-color: rgba(234, 238, 241, 0.362);
+  }
+  .MainSecBBNMain2{
+    max-width: 1350px;
+    margin: auto;
+   
+  }
+  
+  /* Responsive */
+  @media (max-width: 1025px) {
+    .DSecBBNDivM, .DSecBBNDivM1 {
+      flex-direction: column;
+      gap: 30px;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .DSecBBNDtiltl {
+      width: 100%;
+      font-size: 16px;
+    }
+    
+    .DSecBBNDImage img {
+      width: 180px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .SecBBNDivPa {
+      font-size: 24px;
+    }
+    
+    .SecBBNDivPara {
+      font-size: 14px;
+    }
+    
+    .DSecBBNDtil {
+      font-size: 18px;
+    }
+    
+    .DSecBBNDtiltl {
+      font-size: 15px;
+    }
+    
+    .DSecBBNDImage img {
+      width: 150px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .MainSecBBN, .MainSecBBNMain, .MainSecBBNMain2 {
+      padding: 30px 10px;
+    }
+    
+    .SecBBNDivPa {
+      font-size: 20px;
+    }
+    
+    .SecBBNDivPara {
+      font-size: 13px;
+    }
+    
+    .DSecBBNDtil {
+      font-size: 16px;
+    }
+    
+    .DSecBBNDtiltl {
+      font-size: 14px;
+    }
+    
+    .DSecBBNDImage img {
+      width: 120px;
+    }
+  }
+  

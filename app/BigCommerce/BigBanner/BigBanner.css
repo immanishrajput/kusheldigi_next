@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins,'sans-serif';
+}
+.BBComMainsec{
+    background-color: aliceblue;
+    
+}
+.BigBanComMain{
+    padding: 63px 0px;
+    max-width: 1550px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.BBComDivPa{
+    font-size: 40px;
+    width: 500px;
+    line-height: 50px;
+    font-weight:300;
+   
+}
+.BBComDivpara{
+    padding: 40px 0px 0px 0px;
+    width: 480px;
+    line-height: 27px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.bcImageS{
+    padding: 42px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.bcImageS1 img{
+    height: auto;
+    width: 200px;
+}
+.bcImageS2 img{
+    height: auto;
+    width: 91px; 
+}
+.bcImageS3 img{
+    height: auto;
+    width: 230px; 
+}
+
+.buttonsBiBBC {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 35px;
+  }
+  
+  .primary-btnBBCOM {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #0c61ff;
+    color: white;
+    padding: 15px 36px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .primary-btnBBCOM:hover {
+    background-color: white;
+    color: #0c61ff;
+    border: 1px solid #0c61ff;
+  }
+  
+  .secondary-btnBBCOM {
+    background: white;
+    border: 1px solid #0c61ff;
+    color:#0c61ff ;
+    padding: 12px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .secondary-btnBBCOM:hover {
+border: 1px solid white;
+    background: #0c61ff;
+    color: white
+  }
+  
+  /* responsive  */
+
+  @media (max-width: 1025px) {
+    .BBComDivPa {
+        width: 100%;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .BBComDivpara {
+        width: 100%;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .BigBanComMain {
+        padding: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .BBComDiv {
+        width: 100%;
+        text-align: center;
+    }
+    .BBComDivImg img{
+        height: auto;
+        width: 100%;
+    }
+    .bcImageS{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+          
+       }
+   .bcImageS1 img{
+       height: auto;
+       width: 120px;
+   }
+   .bcImageS2 img{
+       height: auto;
+       width: 100px;
+   }
+   .bcImageS3 img{
+     height: auto;
+       width:190px;
+   }
+   .primary-btnBBCOM, .secondary-btnBBCOM {
+    width: auto;
+    margin: auto;
+    justify-content: center;
+}
+}
+
+@media (max-width: 768px) {
+    .BigBanComMain{
+        padding: 10px;
+    }
+    .BBComDivPa {
+        width: 100%;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .BBComDivpara {
+        width: 100%;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .bcImageS{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+       
+    }
+.bcImageS1 img{
+    height: auto;
+    width: 100px;
+}
+.bcImageS2 img{
+    height: auto;
+    width: 90px;
+}
+.bcImageS3 img{
+    
+    height: auto;
+    width:150px;
+}
+   
+    .buttonsBiBBC {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .primary-btnBBCOM, .secondary-btnBBCOM {
+        width: auto;
+        margin: auto;
+        justify-content: center;
+    }
+    .BBComDivImg img{
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .BBComDivPa {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .BBComDivpara {
+        font-size: 13px;
+    }
+.BBComDivImg img{
+    height: auto;
+    width: 100%;
+}
+    .primary-btnBBCOM, .secondary-btnBBCOM {
+        font-size: 14px;
+        margin: auto;
+        width: auto;
+        padding: 10px 20px;
+    }
+    .bcImageS{
+        margin: auto;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+.bcImageS1 img{
+    margin: auto;
+    height: auto;
+    width: 70px;
+}
+.bcImageS2 img{
+    margin: auto;
+    height: auto;
+    width: 70px;
+}
+.bcImageS3 img{
+    
+    height: auto;
+    width:100px;
+}
+  
+}
