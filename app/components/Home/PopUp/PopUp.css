@@ -307,10 +307,9 @@
   }
   
   .popup-companies {
-    width: 400px;
+    width: 65%;
     margin: 20px auto;
     display: block;
-  
   }
   
   .bottom-left-box>p {

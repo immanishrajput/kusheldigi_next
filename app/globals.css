@@ -54769,6 +54769,12 @@ video {
   gap: 200px;
 }
 
+@media screen and (max-width:900px){
+  .dine-123 {
+    gap: 20px;
+  }
+}
+
 .dine-1234 {
   max-width: 1440px;
   width: 100%;
@@ -82704,6 +82710,7 @@ input::-webkit-inner-spin-button {
   .faqr-section h2 {
     text-align: center;
     font-size: 25px;
+    font-weight: 600;
   }
 
 }
