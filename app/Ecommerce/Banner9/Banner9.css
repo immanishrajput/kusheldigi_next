@@ -198,6 +198,9 @@ transform: translateY(-5px);
 
 /* ======== Responsive Adjustments ======== */
 @media (max-width: 1200px) {
+  .projectsSectionKcom{
+    padding: 10px;
+  }
   .b2b-contentKcom {
       flex-direction: column;
       align-items: center;
@@ -223,6 +226,9 @@ transform: translateY(-5px);
 }
 
 @media (max-width: 992px) {
+  .projectsSectionKcom{
+    padding: 10px;
+  }
   .b2b-head {
     width: 100%;
       font-size: 42px;
@@ -261,6 +267,9 @@ transform: translateY(-5px);
 }
 
 @media (max-width: 768px) {
+  .projectsSectionKcom{
+    padding: 10px;
+  }
   .projectsHeaderKcom {
     width: 100%;
     padding: 17px;
@@ -317,6 +326,9 @@ transform: translateY(-5px);
 }
 
 @media (max-width: 576px) {
+  .projectsSectionKcom{
+    padding: 10px;
+  }
   .b2b-head {
     width: 100%;
       font-size: 32px;
@@ -359,6 +371,9 @@ transform: translateY(-5px);
 }
 
 @media (max-width: 400px) {
+  .projectsSectionKcom{
+    padding: 10px;
+  }
   .b2b-head {
     width: 100%;
       font-size: 27px;

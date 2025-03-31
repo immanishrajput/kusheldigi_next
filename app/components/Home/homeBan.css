@@ -497,7 +497,11 @@ padding-left: 50px !important;
     width: 320px;
 }
 }
-
+@media (max-width:1024px){
+  .plt-head{
+    width: 100%;
+  }
+}
 /* card section */
 .platforms {
   /* font-family: "Wix Madefor Display"; */
