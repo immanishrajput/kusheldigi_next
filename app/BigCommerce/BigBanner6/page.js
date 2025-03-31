@@ -1,9 +1,10 @@
+"use client"
 import React from "react";
 import "./BigBanner6.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Autoplay } from "swiper/modules";
+
 const services = [
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg1_nfbwio.svg",
