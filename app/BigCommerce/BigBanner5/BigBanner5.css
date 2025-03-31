@@ -1,0 +1,152 @@
+*{
+    font-family: 'Poppins',sans-serif;
+  }
+  
+  .certifiedd {
+    background: linear-gradient(90deg, #002b80, #000000);
+    padding: 80px 20px;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    /* margin-top: 100px; */
+  }
+  
+  .certifiedd1 {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .certifiedd3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+  }
+  
+  .CleftBcom {
+    flex: 1;
+    /* animation: fadeIn 1.2s ease-in-out, floatingEffect 4s infinite ease-in-out;
+    transform-style: preserve-3d; */
+  }
+  
+  .CleftBcom h5 {
+    color: white;
+    font-size: 2.7rem;
+    font-weight: 400;
+    padding: 0px 134px 0px 0px;
+    margin-top: 0;
+    line-height: 55px;
+  }
+  
+  .CleftBcom button {
+   margin: 30px 0px 0px 0px;
+    backdrop-filter: blur(10px);
+    color: #007bff;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    padding: 10px 28px;
+    font-size: 1.2rem;
+    border-radius: 49px;
+    cursor: pointer;
+    /* transition: all 0.5s ease; */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+    /* animation: pulseGlow 2s infinite; */
+  }
+  
+  .CleftBcom button:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    /* transform: translateY(-8px) scale(1.05); */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  }
+  
+  .ComBright {
+    flex: 2;
+    /* animation: fadeIn 1.2s ease-in-out; */
+  }
+  
+  .ComBright p {
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-top: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .certifiedd3 {
+      flex-direction: column;
+      text-align: center;
+    }
+    .CleftBcom button {
+      margin-top: 20px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .CleftBcom button {
+      display: block;
+      margin: 20px auto;
+    }
+    .CleftBcom h5 {
+      font-size: 2rem;
+      text-align: center;
+      padding: 0;
+    }
+  }
+  
+  /* Glow Text Animation */
+  @keyframes glowText {
+    from {
+      text-shadow: 0 0 10px #007bff, 0 0 20px #007bff, 0 0 30px #007bff;
+    }
+    to {
+      text-shadow: 0 0 20px #00bfff, 0 0 30px #00bfff, 0 0 40px #00bfff;
+    }
+  }
+  
+  /* Floating Effect */
+  @keyframes floatingEffect {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+  }
+  
+  /* Pulse Glow Animation */
+  @keyframes pulseGlow {
+    0% {
+      box-shadow: 0 0 20px #007bff;
+    }
+    50% {
+      box-shadow: 0 0 40px #00bfff;
+    }
+    100% {
+      box-shadow: 0 0 20px #007bff;
+    }
+  }
+  
+  /* Text Wave Animation */
+  @keyframes textWave {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-5px);
+    }
+    75% {
+      transform: translateY(5px);
+    }
+  }
+  
+  /* Fade In Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

@@ -5,12 +5,12 @@
 .BcontainerEcom {
     
     display: flex;
-    max-width: 1340px;
+    max-width: 1720px;
     margin: auto;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 80px 0px 60px 0px;
-    /* padding-bottom: 14rem; */
+    padding: 30px 50px;
+    
    
   }
   

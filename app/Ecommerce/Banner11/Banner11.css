@@ -152,6 +152,9 @@
 }
 
 @media(max-width:505px){
+  .content{
+    padding: 0px;
+  }
     .linkss ul{
         flex-direction: row;
         padding: 18px;
