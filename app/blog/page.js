@@ -197,7 +197,7 @@ useEffect(()=>{
       <Navbar />
       <section className="mainsecBlo">
         {/* header section */}
-        <section>
+        <section className="blog-first-section ">
           <div className="contt">
             <div className="typing">
               <h1>Typing as we speak</h1>
@@ -232,7 +232,7 @@ useEffect(()=>{
         {/* firstSection start */}
         {
          ( !showOnlyEcommerce && !showOnlySeo && !showOnlyDigital && !showOnlyWeb && !showOnlyBusiness) && (
-            <section>
+        <section className="blog-second-section">
           <div className="bimagelogMain">
             <div className="bimagelog">
               <Link href={`/blogdetails/${getAllBlogs[0]?._id}`}>
@@ -321,7 +321,7 @@ useEffect(()=>{
         {/* third section end */}
         {
          ( !showOnlySeo && !showOnlyDigital && !showOnlyWeb && !showOnlyBusiness )&& (
-            <section className="latest-container">
+        <section className="latest-container">
           <div className="cardsectFive">
             <p>E-Commerce</p>
             <hr />
@@ -367,7 +367,7 @@ useEffect(()=>{
         {/* forth section start */}
        {
         (!showOnlyEcommerce && !showOnlyDigital && !showOnlyWeb && !showOnlyBusiness) && (
-          <section>
+        <section className="blog-fourth-section">
           <div className="event-section">
             {/* Header */}
             <div className="event-header">
@@ -473,7 +473,7 @@ useEffect(()=>{
         {/* six row start */}
         {
          ( !showOnlyEcommerce && !showOnlySeo && !showOnlyDigital  && !showOnlyBusiness) && (
-            <section className="blogSixMainSec">
+          <section className="blogSixMainSec">
           <div className="bookmarkk">
             <div className="blogSixMainSecDiv">
               <p>Web Development</p>
@@ -558,7 +558,7 @@ useEffect(()=>{
         {/* eight row start */}
         {
          ( !showOnlyEcommerce && !showOnlySeo && !showOnlyDigital && !showOnlyWeb && !showOnlyBusiness) && (
-            <section className="eightBlogSMain">
+          <section className="eightBlogSMain">
           <div className="ALLt">
             <p>All</p>
             <hr />
