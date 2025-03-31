@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="foot1 justify-between dine-123 footer-first-main">
             <div className="foot11 foot111">
               <div className="foot10 footsa">
-                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738997610/kdsKin_hydlf3.png' alt="KDS logo" title="KDS logo" />
+                <img width="205" height="62" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738997610/kdsKin_hydlf3.png' alt="KDS logo" title="KDS logo" />
                 <h4 className="text-start">
                   Revolutionizing your business <br />through Technology.
                 </h4>
