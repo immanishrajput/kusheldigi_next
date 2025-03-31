@@ -381,6 +381,8 @@ const Navbar = () => {
               <Link href="/">
                 <div className="logo">
                   <img
+                    width="180"
+                    height="56"
                     className="kdssslogo"
                     src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png'
                     alt="KushelDigi Solutions Logo"
