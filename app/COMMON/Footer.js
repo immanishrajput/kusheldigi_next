@@ -138,7 +138,11 @@ const Footer = () => {
             <img width="120" height="120" loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743148178/Certified-Bigcommerce-Partner__of0fqt.png" alt="logo"></img>
             </div>
             <div className="footer2Imagelast">
-            <img loading="lazy" width="230" height="230" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993139/8_YEARS_ICON_LOGO_ppjzsq.png" alt="logo"></img>
+            <img 
+            loading="lazy" width="230" height="230" 
+            // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993139/8_YEARS_ICON_LOGO_ppjzsq.png" 
+            src="https://res.cloudinary.com/dgif730br/image/upload/v1743435946/8-year--6_jgovvg.png"
+            alt="logo"></img>
             </div>
               </div>
         </div>
