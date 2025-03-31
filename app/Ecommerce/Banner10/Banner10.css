@@ -49,6 +49,9 @@
     .heaaader-content h3 {
         line-height: 35px !important;
     }
+    .industry-sec-title h2 {
+        font-size: 30px;
+    }
 }
 
 .industry-expertise-header {
