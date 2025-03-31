@@ -1,0 +1,18 @@
+.MainbigBan_Bcoma{
+    max-width: 1740px;
+    padding: 30px 50px;
+    margin: auto ;
+}
+.bigBan_Bcoma{
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    display: flex;
+}
+.bigBan_BcomaImg img{
+    height: auto;
+    width: 120px;
+}
+.bigParacom p{
+    width: 600px;
+}

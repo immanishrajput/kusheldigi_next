@@ -7,7 +7,7 @@ const Page = () => {
    <section className="BcontainerEcomSEc">
    <div className="BcontainerEcom">
   <div className="Bleft-sectionEcom">
-    {/* <h6>Ecommerce Development Agency</h6> */}
+    <h6>Ecommerce Development Agency</h6>
     <h3>
     OUR BIGCOMMERCE SERVICES FOR YOUR BUSINESS GROWTH
 
@@ -64,7 +64,7 @@ const Page = () => {
 
 
     <div className="Bicontent-blockEcom">
-      <h3>7. BigCommerce Maintenance & Support
+      <h3> BigCommerce Maintenance & Support
       </h3>
       <p>
       Bring the backup for your BigCommerce store and keep it running with our highly customized maintenance and support services. This will include follow-up on updates, troubleshooting, and enhancement of your website to make sure everything is up-to-date.
@@ -74,7 +74,7 @@ const Page = () => {
 
 
     <div className="Bicontent-blockEcom">
-      <h3>8. BigCommerce Performance Optimization
+      <h3> BigCommerce Performance Optimization
       </h3>
       <p>
       Ensure that your store is fast, responsive, and reliable with our performance optimization services. We will inspect and improve the load times, server performance, and user experience so that customers always remain satisfied and engaged. 
@@ -84,7 +84,7 @@ const Page = () => {
 
 
     <div className="Bicontent-blockEcom">
-      <h3>9. BigCommerce API Development
+      <h3> BigCommerce API Development
 
       </h3>
       <p>
