@@ -45,7 +45,7 @@ const data = [
       },
       {
         title: "E-commerce development",
-        navigate: "/ecommerce-development",
+        navigate: "/Ecommerce",
         subpart: [
           {
             title: "Bigcommerce",
@@ -468,7 +468,7 @@ const Navbar = () => {
                             </div>
                             <div className="left-side-servises-containt">
                               <div className="left-head-services">
-                                <Link href="/ecommerce-development">
+                                <Link href="/Ecommerce">
                                   <span>E-Commerce Development </span>
                                 </Link>
                               </div>

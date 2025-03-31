@@ -48,7 +48,7 @@ export default function Banner10() {
       <div className="left-b2b-cardsKcom">
         <div className="left-b2b-cardKcom">
           <div className="b2b-logoKcom">
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743148430/2ndamendarmory_rw0p7j.jpg" alt="Shopify Plus" />
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743402463/lovely-6-page-2_atom41.jpg" alt="Shopify Plus" />
             <Link href="/2ndamendment" className="hover-linkCom"> View Case Study <MdArrowOutward /></Link>
           </div>
           
@@ -61,7 +61,7 @@ export default function Banner10() {
         <div className="left-b2b-cardKcom-2">
           <div className="b2b-logoKcom">
            
-           <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743148430/site_scope_zyud2x.jpg" alt="Shopify Plus" />
+           <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743402463/lovely-6-page-6_wfoqas.jpg" alt="Shopify Plus" />
            <Link href="/sites" className="hover-linkCom"> View Case Study<MdArrowOutward /></Link>
           </div>
          
@@ -74,7 +74,7 @@ export default function Banner10() {
         
         <div className="left-b2b-cardKcom-3">
           <div className="b2b-logoKcom">
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743148430/top-brass_ucqtzq.jpg" alt="Shopify Plus" />
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743402463/lovely-6-page-1_lbb6yj.jpg" alt="Shopify Plus" />
             <Link href="/topbrass" className="hover-linkCom"> View Case Study <MdArrowOutward/></Link>
           </div>
          
@@ -88,7 +88,7 @@ export default function Banner10() {
       <div className="right-b2b-cardsKcom">
         <div className="right-b2b-cardKcom">
           <div className="b2b-logoKcom">
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743148430/blackrino_rh3ilu.jpg" alt="Shopify Plus" />
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743402463/lovely-6-page-5_t6orct.jpg" alt="Shopify Plus" />
             <Link href="https://blackrhinoconcealment.com/" className="hover-linkCom">View Case Study <MdArrowOutward /> </Link>
           </div>
          
@@ -100,7 +100,7 @@ export default function Banner10() {
         </div>
         <div className="right-b2b-cardKcom">
           <div className="b2b-logoKcom">
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743148431/slide-365_wgc7nn.jpg" alt="Shopify Plus" />
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743402463/lovely-6-page-4_ixvs4z.jpg" alt="Shopify Plus" />
             <a href="/Slidesdesign" className="hover-linkCom">View Case Study <MdArrowOutward /></a>
           </div>
           
@@ -112,7 +112,7 @@ export default function Banner10() {
         </div>
         <div className="right-b2b-cardKcom">
           <div className="b2b-logoKcom">
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743148431/kick-eez-images_doku1h.jpg" alt="Shopify Plus" />
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743402463/lovely-6-page-3_kaxts8.jpg" alt="Shopify Plus" />
             <a href="/kick-eez" className="hover-linkCom">View Case Study <MdArrowOutward /></a>
           </div>
          

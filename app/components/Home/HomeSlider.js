@@ -214,7 +214,7 @@ Website Development
             <SwiperSlide>
             <div className="carousel-item">
                 <div className="left-carousel-item">
-                  <img loading="lazy" src={"https://res.cloudinary.com/dgif730br/image/upload/v1743092667/Untitled-1_aypf5z.png"} alt="carousel-image" />
+                  <img loading="lazy" src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743403116/page-3_1_uo0pue.jpg"} alt="carousel-image" />
                   <div className="left-carousel-btn-div">
                   <div className="left-carousel-btn ">B2B</div>
                     <div className="left-carousel-btn blue-bg">Gunshop</div>
