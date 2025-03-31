@@ -73,28 +73,49 @@ const NewBanner = () => {
                                 width="486"
                                 height="463"
                                 loading='lazy'
-                                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741088247/MacBook_2_2_two22g.png"
+                                // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741088247/MacBook_2_2_two22g.png"
+                                src='https://res.cloudinary.com/dgif730br/image/upload/v1743433708/images-1_stbpbb.png'
                                 alt=""
                             />
                             <img
                                 width="486"
                                 height="463"
                                 loading='lazy'
-                                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742641401/immmmm-removebg-preview_yhm4on.png"
+                                // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742641401/immmmm-removebg-preview_yhm4on.png"
+                                src="https://res.cloudinary.com/dgif730br/image/upload/v1743432676/images-3_o9ytpm.png"
                                 alt=""
                             />
                             <img className='new-banner-scroll-img'
                                 width="486"
                                 height="463"
                                 loading='lazy'
-                                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741089462/Group_1171281256_1_znsijn.png"
+                                // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741089462/Group_1171281256_1_znsijn.png"
+                                src="https://res.cloudinary.com/dgif730br/image/upload/v1743433061/images-2_yba04l.png"
                                 alt=""
                             />
                         </Slider>
 
-                        <img loading='lazy' className='floatingIcon1' src="https://res.cloudinary.com/dgif730br/image/upload/v1743151035/floatingIcon1_twd70z.png" alt="" />
-                        <img loading='lazy' className='floatingIcon2' src="https://res.cloudinary.com/dgif730br/image/upload/v1743151035/floatingIcon2_hsudze.png" alt="" />
-                        <img loading='lazy' className='floatingIcon3' src="https://res.cloudinary.com/dgif730br/image/upload/v1743151035/floatingIcon3_x0yhk5.png" alt="" />
+                       
+                        <img 
+                        loading='lazy' 
+                        className='floatingIcon2' 
+                        src='https://res.cloudinary.com/dgif730br/image/upload/v1743433960/logo-1_1_sapdme.png'
+                        // src="https://res.cloudinary.com/dgif730br/image/upload/v1743151035/floatingIcon2_hsudze.png" alt="" 
+                       
+                        />
+                         <img 
+                        loading='lazy' 
+                        className='floatingIcon1' 
+                         src='https://res.cloudinary.com/dgif730br/image/upload/v1743433960/logo-2-01.jpg_y097pw.png'
+                        // src="https://res.cloudinary.com/dgif730br/image/upload/v1743151035/floatingIcon1_twd70z.png" alt=""
+                        
+                         />
+                        <img 
+                        loading='lazy' 
+                        className='floatingIcon3' 
+                        // src="https://res.cloudinary.com/dgif730br/image/upload/v1743151035/floatingIcon3_x0yhk5.png" alt="" 
+                        src='https://res.cloudinary.com/dgif730br/image/upload/v1743433959/logo-3_jm2vph.png'
+                        />
                     </div>
                 </div>
             </div>
