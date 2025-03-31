@@ -126,16 +126,16 @@ const Footer = () => {
             <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993082/designrush_jkyjny.webp" alt="logo"></img>
             </div>
             <div className="footer2Image">
-            <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993092/b2b-companies-canada_tdaega.png" alt="logo"></img>
+            <img width="120" height="129" loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993092/b2b-companies-canada_tdaega.png" alt="logo"></img>
             </div>
             <div className="footer2Imagelat">
             <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993119/ecommerce-development-companies_glc1ea.png" alt="logo"></img>
             </div>
             <div className="footer2Image">
-            <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993106/ecommerce-developers-india_zfydfo.png" alt="logo"></img>
+            <img width="120" height="129" loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993106/ecommerce-developers-india_zfydfo.png" alt="logo"></img>
             </div>
             <div className="footer2Image">
-            <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743148178/Certified-Bigcommerce-Partner__of0fqt.png" alt="logo"></img>
+            <img width="120" height="120" loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743148178/Certified-Bigcommerce-Partner__of0fqt.png" alt="logo"></img>
             </div>
             <div className="footer2Imagelast">
             <img loading="lazy" width="230" height="230" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993139/8_YEARS_ICON_LOGO_ppjzsq.png" alt="logo"></img>
