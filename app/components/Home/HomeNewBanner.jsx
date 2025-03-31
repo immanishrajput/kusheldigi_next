@@ -70,16 +70,22 @@ const NewBanner = () => {
                     <div className="new-banner-right-slider">
                         <Slider {...settings}>
                             <img className='new-banner-scroll-img'
+                                width="486"
+                                height="463"
                                 loading='lazy'
                                 src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741088247/MacBook_2_2_two22g.png"
                                 alt=""
                             />
                             <img
+                                width="486"
+                                height="463"
                                 loading='lazy'
                                 src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742641401/immmmm-removebg-preview_yhm4on.png"
                                 alt=""
                             />
                             <img className='new-banner-scroll-img'
+                                width="486"
+                                height="463"
                                 loading='lazy'
                                 src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741089462/Group_1171281256_1_znsijn.png"
                                 alt=""
