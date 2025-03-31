@@ -100,9 +100,10 @@ margin: 120px 0px 0px 0px;
   align-items: center;
 }
 .secondary-btn {
+  font-weight: 500;
   background: white;
-  border: 1px solid #222;
-  color: #222;
+  border: 1px solid #0c61ff;
+  color: #0c61ff;
   padding: 12px 20px;
   border-radius: 50px;
   cursor: pointer;
