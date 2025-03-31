@@ -10,13 +10,12 @@ margin: 120px 0px 0px 0px;
   justify-content: center;
   align-items: center;
   height: auto;
-  /* min-height: 92.5vh; */
-  /* background: linear-gradient(6deg, #89c7fb, #c8d5f9 62.02%, #f9f9f4); */
   background: linear-gradient(to right , #e4edf3 50%,#aec8db 50%);
 
 }
 .hero-containerMa{
-  max-width: 1480px;
+  padding: 20px 60px;
+  max-width: 1720px;
   
 }
 .hero-containerMaSub{

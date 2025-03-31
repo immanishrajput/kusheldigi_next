@@ -1,11 +1,11 @@
 .clientsSection {
     display: flex;
-    max-width: 1450px;
+    max-width: 1720px;
     margin: auto;
     align-items: center;
     justify-content: space-between;
     gap: 100px;
-    padding: 88px 0px 70px 0px;
+    padding: 30px 60px;
     /* background: linear-gradient(135deg, #bab6b6, #bab6b6); */
     /* background: #f8f8f8; */
     position: relative;

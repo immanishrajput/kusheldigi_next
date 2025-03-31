@@ -9,7 +9,8 @@
   
   .sec-containerBan2 {
     display: flex;
-    max-width: 1480px;
+    max-width: 1720px;
+    padding: 20px 60px;
     margin: 50px auto;
     align-items: center;
     gap: 5rem;

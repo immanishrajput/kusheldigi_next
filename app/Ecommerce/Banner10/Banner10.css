@@ -1,11 +1,13 @@
 
 .industry-container{
-    max-width: 1480px;
+    
     margin: auto;
 }
 
 .industry-expertise-section {
-    padding: 40px 0;
+    max-width: 1720px;
+    margin: auto;
+    padding: 40px 60px;
     position: relative;
 }
 .industry-sec-title h2{
