@@ -143,6 +143,8 @@ const Website = () => {
             <span className="clients">Our Clients</span>
             <div className="company-images">
               <img
+                width="451"
+                height="65"
                 loading="lazy"
                 className="contact-company"
                 src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743073826/contact-upper-companies_pwuwvi.png"
@@ -150,6 +152,8 @@ const Website = () => {
                 style={{margin:'0px auto',width:'70%',}}
               />
               <img
+                width="387"
+                height="40"
                 loading="lazy"
                 className="contact-company"
                 src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743073826/contact-below-companies_qyrqms.png"
