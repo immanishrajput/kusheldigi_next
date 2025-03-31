@@ -123,13 +123,13 @@ const Footer = () => {
           </div>
           <div className="footer2Image1">
                 <div className="footer2Image">
-            <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993082/designrush_jkyjny.webp" alt="logo"></img>
+            <img width="120" height="121" loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993082/designrush_jkyjny.webp" alt="logo"></img>
             </div>
             <div className="footer2Image">
             <img width="120" height="129" loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993092/b2b-companies-canada_tdaega.png" alt="logo"></img>
             </div>
             <div className="footer2Imagelat">
-            <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993119/ecommerce-development-companies_glc1ea.png" alt="logo"></img>
+            <img width="130" height="111" loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993119/ecommerce-development-companies_glc1ea.png" alt="logo"></img>
             </div>
             <div className="footer2Image">
             <img width="120" height="129" loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993106/ecommerce-developers-india_zfydfo.png" alt="logo"></img>
