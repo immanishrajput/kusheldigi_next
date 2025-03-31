@@ -193,8 +193,8 @@ const Popup = () => {
 
                                     <button className="pop-contact-form-btn" type="submit" disabled={loading}>{loading ? "Sending..." : "Submit"}</button>
                                     {loading && <span className="loader3"></span>}
-                                    <img style={{width:'70%',margin:'10px auto'}} className="popup-companies" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1743073874/popup-upper-companies_qxbjt0.png' alt="companies" />
-                                    <img style={{width:'80%',margin:'15px auto'}} className="popup-companies" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1743073843/popup-below-companies_yboe3z.png' alt="companies"/>
+                                    <img width="315" height="57" style={{width:'70%',margin:'10px auto'}}  className="popup-companies" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1743073874/popup-upper-companies_qxbjt0.png' alt="companies" />
+                                    <img width="360" height="29.63" style={{width:'80%',margin:'15px auto'}} className="popup-companies" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1743073843/popup-below-companies_yboe3z.png' alt="companies"/>
                                 </form>
                             </div>
                         </div>
