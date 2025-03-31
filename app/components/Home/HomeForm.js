@@ -104,6 +104,8 @@ const Website = () => {
               <div className="contact-card">
                 <p className="call-us" id="CallusI">
                   <img
+                    width="34"
+                    height="30"
                     loading="lazy"
                     src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742367984/us_flag-removebg-preview_yaabck.png"
                     alt="call"
@@ -121,6 +123,8 @@ const Website = () => {
               <div className="contact-card">
                 <p className="call-us">
                   <img
+                   width="34"
+                   height="30"
                   loading="lazy"
                     src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742367985/istockphoto-1471401435-612x612-removebg-preview_yk8kie.png"
                     alt="call"
