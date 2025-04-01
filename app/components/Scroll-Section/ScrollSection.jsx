@@ -91,7 +91,7 @@ const ScrollAnimation = () => {
 
     return (
         <div className="scroll-section-wrapper">
-            <h2 className="scroll-section-heading">Website Design Process</h2>
+            <h3 className="scroll-section-heading">Website Design Process</h3>
             <p className="scroll-section-para">
                 Take a peek behind the curtain and explore the custom web design process our team follows.<br />
                 We build custom sites for brands of all sizes that deliver measurable results.

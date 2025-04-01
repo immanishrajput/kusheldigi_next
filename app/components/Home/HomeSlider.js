@@ -10,9 +10,9 @@ const Slider = () => {
   return (
     <div className="carousel-container">
       <div className="inner-carousel-container">
-        <h2 className="carousel-container-heading">
+        <h3 className="carousel-container-heading">
         Helping Top Global Brands to Expand, Migrate & Succeed
-        </h2>
+        </h3>
 
         <p className="carousel-container-para">
         Kushel Digi has been helping leading global brands scale and optimize their ecommerce success with our expert BigCommerce solutions.
@@ -41,9 +41,9 @@ const Slider = () => {
                   </div>
                 </div>
                 <div className="right-carousel-item">
-                  <h2 className="right-carousel-heading">
+                  <h3 className="right-carousel-heading">
                    Kickeez
-                  </h2>
+                  </h3>
                   <div className="right-service-stack-div">
                     <div className="right-service-stack">
                       <h3 className="service-stack-heading">Services</h3>
@@ -91,9 +91,9 @@ Website Development
                   </div>
                 </div>
                 <div className="right-carousel-item">
-                  <h2 className="right-carousel-heading">
+                  <h3 className="right-carousel-heading">
                 Slides 365
-                  </h2>
+                  </h3>
                   <div className="right-service-stack-div">
                     <div className="right-service-stack">
                       <h3 className="service-stack-heading">Services</h3>
@@ -134,9 +134,9 @@ Website Development
                   </div>
                 </div>
                 <div className="right-carousel-item">
-                  <h2 className="right-carousel-heading">
+                  <h3 className="right-carousel-heading">
                   Black Rhino
-                  </h2>
+                  </h3>
                   <div className="right-service-stack-div">
                     <div className="right-service-stack">
                       <h3 className="service-stack-heading">Services</h3>
@@ -179,9 +179,9 @@ Website Development
                   </div>
                 </div>
                 <div className="right-carousel-item">
-                  <h2 className="right-carousel-heading">
+                  <h3 className="right-carousel-heading">
                   2nd amendment
-                  </h2>
+                  </h3>
                   <div className="right-service-stack-div">
                     <div className="right-service-stack">
                       <h3 className="service-stack-heading">Services</h3>
@@ -221,9 +221,9 @@ Website Development
                   </div>
                 </div>
                 <div className="right-carousel-item">
-                  <h2 className="right-carousel-heading">
+                  <h3 className="right-carousel-heading">
                Sight & Scopes
-                  </h2>
+                  </h3>
                   <div className="right-service-stack-div">
                     <div className="right-service-stack">
                       <h3 className="service-stack-heading">Services</h3>
@@ -264,9 +264,9 @@ Website Development
                   </div>
                 </div>
                 <div className="right-carousel-item">
-                  <h2 className="right-carousel-heading">
+                  <h3 className="right-carousel-heading">
                   Top Brass Tactical
-                  </h2>
+                  </h3>
                   <div className="right-service-stack-div">
                     <div className="right-service-stack">
                       <h3 className="service-stack-heading">Services</h3>

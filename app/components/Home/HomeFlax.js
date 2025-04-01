@@ -5,9 +5,9 @@ import Link from 'next/link'
 function Flagship() {
   return (
     <section className="flagship-section">
-    <h2 className="flagship-head">
+    <h3 className="flagship-head">
     Building the Future of Ecommerce
-    </h2>
+    </h3>
     <div className="flagship-cards">
       <div className="flagship-card">
         <div className="flagship-logo">
