@@ -97,9 +97,9 @@ const Website = () => {
       <div className="contact-container" id="form-section">
         <div className="inner-contact-container" id="innerIdcont">
           <div className="left">
-            <h1 className="left-contact-heading">
+            <h3 className="left-contact-heading">
               Want to Lead Market with AI-led Digital Solutions?
-            </h1>
+            </h3>
             <div className="contact-box">
               <div className="contact-card">
                 <p className="call-us" id="CallusI">
@@ -107,7 +107,8 @@ const Website = () => {
                     width="34"
                     height="30"
                     loading="lazy"
-                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742367984/us_flag-removebg-preview_yaabck.png"
+                    // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742367984/us_flag-removebg-preview_yaabck.png"
+                    src="https://res.cloudinary.com/dgif730br/image/upload/v1743497577/flag-1_d8qcmk.png"
                     alt="call"
                   />
                 </p>
@@ -115,7 +116,8 @@ const Website = () => {
                 <p className="country">United States</p>
                 <img
                 loading="lazy"
-                  src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1741867204/phone-png_kjwe3t.png"
+                  // src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1741867204/phone-png_kjwe3t.png"
+                  src="https://res.cloudinary.com/dgif730br/image/upload/v1743497577/flag-2_p2ardn.png"
                   alt="call"
                   className="phone-icon"
                 />

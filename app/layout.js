@@ -49,6 +49,10 @@ export const metadata = {
     type:"website",
     images: [{ url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png", width: 1200, height: 630 , alt:"kushel" }],
   },
+
+  verification: {
+    google: 'u8hOCEYTlB2dEFUZ297M4Kzx-y4H_RU35SXKUqwsEzA',
+  },
  
 };
 
