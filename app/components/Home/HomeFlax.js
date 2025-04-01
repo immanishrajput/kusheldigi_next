@@ -11,7 +11,7 @@ function Flagship() {
     <div className="flagship-cards">
       <div className="flagship-card">
         <div className="flagship-logo">
-          <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808147/m1_a4lm2y.svg" alt="Shopify Plus" />
+          <img loading='lazy' src="https://res.cloudinary.com/dgif730br/image/upload/v1743511655/m1_a4lm2y_av5bgd.jpg" alt="Shopify Plus" />
         </div>
         <h3>Ecommerce development</h3>
         <ul className="flagship-ul">
@@ -32,7 +32,11 @@ function Flagship() {
       </div>
       <div className="flagship-card">
         <div className="flagship-logo">
-          <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808147/m2_gfvosm.svg" alt="BigCommerce" />
+          <img loading='lazy' 
+          // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808147/m2_gfvosm.svg"
+          src='https://res.cloudinary.com/dgif730br/image/upload/v1743512070/m2_gfvosm_ozm8ho.jpg'
+
+           alt="BigCommerce" />
         </div>
         <h3>Ecommerce consulting</h3>
         <ul className="flagship-ul">
@@ -57,7 +61,10 @@ function Flagship() {
       </div>
       <div className="flagship-card">
         <div className="flagship-logo">
-          <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808147/m3_iuyndc.svg" alt="WooCommerce" />
+          <img loading='lazy' 
+          // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808147/m3_iuyndc.svg" 
+          src='https://res.cloudinary.com/dgif730br/image/upload/v1743512200/m3_iuyndc_dx2bfo.jpg'
+          alt="WooCommerce" />
         </div>
         <h3>Replatforming</h3>
         <ul className="flagship-ul">
@@ -82,7 +89,10 @@ function Flagship() {
     <div className="flagship-cards">
       <div className="flagship-card">
         <div className="flagship-logo">
-          <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808147/m4_miupd6.svg" alt="Shopify Plus" />
+          <img loading='lazy' 
+          // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808147/m4_miupd6.svg" 
+          src='https://res.cloudinary.com/dgif730br/image/upload/v1743512303/m4_miupd6_luofo2.jpg'
+          alt="Shopify Plus" />
         </div>
         <h3>Mobile development</h3>
         <ul className="flagship-ul">
@@ -108,7 +118,10 @@ function Flagship() {
       </div>
       <div className="flagship-card">
         <div className="flagship-logo">
-          <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808146/m6_klddr8.svg" alt="WooCommerce" />
+          <img loading='lazy' 
+          // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808146/m6_klddr8.svg"
+          src='https://res.cloudinary.com/dgif730br/image/upload/v1743512907/m6_klddr8_msygqp.jpg'
+           alt="WooCommerce" />
         </div>
         <h3>Ecommerce design</h3>
         <ul className="flagship-ul">
@@ -133,7 +146,10 @@ function Flagship() {
       </div>
       <div className="flagship-card">
         <div className="flagship-logo">
-          <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808146/m5_nuxmzb.svg" alt="BigCommerce" />
+          <img loading='lazy' 
+          // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808146/m5_nuxmzb.svg"
+          src='https://res.cloudinary.com/dgif730br/image/upload/v1743512716/m5_nuxmzb_rauksj.jpg'
+           alt="BigCommerce" />
         </div>
         <h3>Technical support</h3>
         <ul className="flagship-ul">

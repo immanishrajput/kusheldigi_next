@@ -161,7 +161,7 @@ const Popup = () => {
           <div>
             <div className="bottom-left-box">
               <h3 className="bottom-left-box-heading">95%</h3>
-              <p className='popup-extra-small-heading'>Customer Retention Ratio</p>
+              <p className='popup-extra-small-heading ninty_five'>Customer Retention Ratio</p>
             </div>
             <div className="bottom-left-box">
               <h3 className="bottom-left-box-heading">2000+</h3>
@@ -173,7 +173,7 @@ const Popup = () => {
           <div>
             <div className="bottom-right-box">
               <h3 className="bottom-right-box-heading">1800+</h3>
-              <p className='popup-extra-small-heading'>Certified Professionals</p>
+              <p className='popup-extra-small-heading ninty_five'>Certified Professionals</p>
             </div>
             <div className="bottom-right-box">
               <h3 className="bottom-right-box-heading">20+</h3>

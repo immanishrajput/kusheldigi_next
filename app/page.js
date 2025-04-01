@@ -34,7 +34,7 @@ import CompaniesSlider from "./components/Home/slider/CompaniesSlider";
 import ScrollSection from "./components/Scroll-Section/ScrollSection";
 import PopUp from './components/Home/PopUp/PopUp';
 
-const HomePage = ({props}) => {
+const HomePage = ({ props }) => {
   const phoneNumber = '9045301702';
 
   const whatAppHandler = () => {
@@ -49,79 +49,79 @@ const HomePage = ({props}) => {
   };
 
 
- 
-  
+
+
 
   const generateMetadata = ({ params }) => {
     return {
       title: ' Kushel Digi Solutions | Expert eCommerce Development Services',
-    description:'High performance Ecommerce solutions with specialized development strategies. Kushel Digi Solutions boosts conversion and builds scalable Shopify, BigCommerce and custom online stores.',
-    metadataBase: new URL(`https://www.kusheldigi.com/`),
+      description: 'High performance Ecommerce solutions with specialized development strategies. Kushel Digi Solutions boosts conversion and builds scalable Shopify, BigCommerce and custom online stores.',
+      metadataBase: new URL(`https://www.kusheldigi.com/`),
 
-       
-    
+
+
     }
   };
 
   useEffect(() => {
-       const { title, description } = generateMetadata({ params: {} });
-       document.title = title;
-       let metaDescription = document.querySelector('meta[name="description"]');
-       
-       metaDescription ? metaDescription.content = description : 
-         document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-     }, []);
-  
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+
+    metaDescription ? metaDescription.content = description :
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
+
 
   return (
     <>
-    <PopUp/>
+      <PopUp />
       <Head>
-     
-      
-       
+
+
+
       </Head>
       <div className="home-main">
-     <Navbar/>
+        <Navbar />
         {/* <Home2Banner /> */}
-        <HomeNewBanner/>
-        <HomeTech/> 
+        <HomeNewBanner />
+        <HomeTech />
         {/* <Home2Swiper /> */}
         {/* <Home2/> */}
-      
+
         {/* <Home2Section3 /> */}
-        <HomeVision/>
-        <HomeSlider/>
-      
+        <HomeVision />
+        <HomeSlider />
+
         {/* <Home2Section4 /> */}
-     
+
         <Home2Section5 />
 
         {/* <Home2Section6 /> */}
-   <HomeFlax/>
+        <HomeFlax />
         {/* <Home2Section7 /> */}
-        <HomeCardSection/>
-       
-        <HomeSecCard/>
-        
-      
-        
-  
+        <HomeCardSection />
+
+        <HomeSecCard />
+
+
+
+
         {/* <HomeVision/> */}
         {/* <Home2Section8 /> */}
         {/* <Home2Section9 /> */}
-        <ScrollSection/>
+        <ScrollSection />
         <Home2Section10
           heading={'Empowering industries with our expert solutions '}
           para={
             'We have expertise in multiple industries, providing custom digital solutions for growth and success. Be it in transforming customer experience or operational excellence, we engineer technology that caters specifically to your business needs. '
           }
         />
-        <CompaniesSlider/>
+        <CompaniesSlider />
         {/* <Home2BrandSwiper title={'Brands We Help Thrive'} /> */}
-        
+
         <Home2Testimonial />
-      
+
         <Home2AskQuestion />
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
@@ -145,8 +145,8 @@ const HomePage = ({props}) => {
             />
           </button>
         </div>
-        <HomeForm/>
-        <Footer/>
+        <HomeForm />
+        <Footer />
       </div>
     </>
   );
