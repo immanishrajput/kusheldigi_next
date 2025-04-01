@@ -19,7 +19,7 @@ const CompaniesSlider = () => {
   const commonSettings = {
     dots: false,
     infinite: true,
-    slidesToShow: 4, 
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
     speed: 4000,
@@ -30,7 +30,7 @@ const CompaniesSlider = () => {
     initialSlide: 1,
     responsive: [
       {
-        breakpoint: 600, 
+        breakpoint: 600,
         settings: {
           slidesToShow: 2,
         }

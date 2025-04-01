@@ -165,9 +165,9 @@ const Website = () => {
             </div>
           </div>
           <div className="right">
-            <h2 className="contact-heading">
+            <h3 className="contact-heading">
               Share Your Ideas, We'll Build it.
-            </h2>
+            </h3>
             <form onSubmit={handleForm} className="contact-htmlForm" id="contacthtmlForm">
               <div className="contact-first-div">
 

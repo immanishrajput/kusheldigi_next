@@ -4,9 +4,9 @@ import React from 'react'
 function Advance() {
   return (
     <section className="b2b-section">
-      <h2 className="b2b-head">
+      <h3 className="b2b-head">
         Expert Ecommerce Solutions for Modern Businesses
-      </h2>
+      </h3>
       <p className="b2b-paraa">
         Doesn’t matter whether you're a small business or a large enterprise, our custom ecommerce solutions are designed to grow with you. We believe in delivering seamless, high-performing online stores that drive results.
       </p>
@@ -15,7 +15,7 @@ function Advance() {
         <div className="left-b2b-cards">
           <div className="left-b2b-card">
             <div className="b2b-logo">
-              <img loading='lazy' width="599" height="299" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806525/b2_xao9oq.webp" alt="Shopify Plus" />
+              <img loading='lazy' width="599" height="299" src="https://res.cloudinary.com/dgif730br/image/upload/v1743490318/rajet_images_1_xgnc6s.png" alt="Shopify Plus" />
             </div>
             <div className="b2b-contain">
               <h3 className="b2b-headsss">B2B</h3>
@@ -24,10 +24,10 @@ function Advance() {
               </p>
             </div>
             <a href="#" className="b2b-btn">
-              Learn More <img loading='lazy' 
-              src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/arow-1_szrxfl.png'
-              // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" 
-              alt="" />
+              Learn More <img loading='lazy'
+                src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/arow-1_szrxfl.png'
+                // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" 
+                alt="" />
             </a>
           </div>
           <div className="left-b2b-card-2" id='leftb2ca'>
@@ -41,10 +41,10 @@ function Advance() {
               </p>
             </div>
             <a href="#" className="b2b-btn">
-              Learn More <img loading='lazy' 
-              src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/arow-1_szrxfl.png'
-              // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" 
-              alt="" />
+              Learn More <img loading='lazy'
+                src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/arow-1_szrxfl.png'
+                // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" 
+                alt="" />
             </a>
           </div>
         </div>
@@ -60,10 +60,10 @@ function Advance() {
               </p>
             </div>
             <a href="#" className="b2b-btn">
-              Learn More <img loading='lazy' 
-              src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/arow-1_szrxfl.png'
-              // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg"
-               alt="" />
+              Learn More <img loading='lazy'
+                src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/arow-1_szrxfl.png'
+                // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg"
+                alt="" />
             </a>
           </div>
           <div className="right-b2b-card">
@@ -77,10 +77,10 @@ function Advance() {
               </p>
             </div>
             <a href="#" className="b2b-btn">
-              Learn More <img loading='lazy' 
-              src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/arow-1_szrxfl.png'
-              // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" 
-              alt="" />
+              Learn More <img loading='lazy'
+                src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/arow-1_szrxfl.png'
+                // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" 
+                alt="" />
             </a>
           </div>
         </div>
