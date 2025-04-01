@@ -65,7 +65,8 @@ const Website = () => {
                         alt="Services Icon"
                         title="Services Icon"
                         decoding="async"
-                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287002/node-js-mongo-DB-icon_rhqrop.svg"
+                        src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/icon-1_c6jiko.png'
+                        // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287002/node-js-mongo-DB-icon_rhqrop.svg"
                         className='services-box-inner-img'
                       />
                     </div>
@@ -206,7 +207,8 @@ const Website = () => {
                         alt="Services Icon"
                         title="Services Icon"
                         decoding="async"
-                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287002/node-js-mongo-DB-icon_rhqrop.svg"
+                        src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/icon-1_c6jiko.png'
+                        // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287002/node-js-mongo-DB-icon_rhqrop.svg"
                         className='services-box-inner-img'
                       />
                       <div
@@ -229,7 +231,9 @@ const Website = () => {
                   </h3>
                 </div>
                 <span className={`services-box-down-icon ${activeIndex === 1 ? "rotate180" : ''}`}>
-                  <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="" />
+                  <img loading='lazy' 
+                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg"
+                 alt="" />
                 </span>
               </div>
               <div className="services-box-right-corner">
@@ -384,7 +388,8 @@ const Website = () => {
                         alt="Services Icon"
                         title="Services Icon"
                         decoding="async"
-                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287002/node-js-mongo-DB-icon_rhqrop.svg"
+                        src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/icon-1_c6jiko.png'
+                        // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287002/node-js-mongo-DB-icon_rhqrop.svg"
                         className='services-box-inner-img'
                       />
                       <div
@@ -558,7 +563,8 @@ const Website = () => {
                         alt="Services Icon"
                         title="Services Icon"
                         decoding="async"
-                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287001/mobile-app-development-icon_pqivui.svg"
+                        src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/icon-2_ya9uha.png'
+                        // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287001/mobile-app-development-icon_pqivui.svg"
                         className='services-box-inner-img'
                       />
                       <div
@@ -704,7 +710,8 @@ Managed support services
                         alt="Services Icon"
                         title="Services Icon"
                         decoding="async"
-                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287001/microsoft-icon_qefjxk.svg"
+                        src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446874/icon-3_sjahnw.png'
+                        // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287001/microsoft-icon_qefjxk.svg"
                         className='services-box-inner-img'
                       />
                       <div
@@ -876,7 +883,8 @@ Managed support services
                         alt="Services Icon"
                         title="Services Icon"
                         decoding="async"
-                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287001/ML_eznvvj.svg"
+                        src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446875/icon-4_k71js9.png'
+                        // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287001/ML_eznvvj.svg"
                         className='services-box-inner-img'
                       />
                        {/* <img

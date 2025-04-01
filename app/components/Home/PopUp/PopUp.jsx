@@ -143,9 +143,18 @@ const Popup = () => {
                                 <h1 className="popup-form-heading">Hey Hey! Before You Leave...&#128075;</h1>
                                 <hr className='popup-hr'/>
                                 <p className="popupup-sm-heading">Our Experts are Ready to Provide Free</p>
-                                <p className="popup-para"><img width={20} src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743073896/Eo_circle_green_checkmark.svg_1_say3rb.png" alt="" /> Development Blueprint.</p>
-                                <p className="popup-para"><img width={20}  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743073896/Eo_circle_green_checkmark.svg_1_say3rb.png" alt="" /> Tentative Budget.</p>
-                                <p className="popup-para"><img width={20}  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743073896/Eo_circle_green_checkmark.svg_1_say3rb.png" alt="" /> Estimated Time-To-Market.</p>
+                                <p className="popup-para"><img width={20}
+                                src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446922/right-icon_dqytxe.png'
+                                //  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743073896/Eo_circle_green_checkmark.svg_1_say3rb.png"
+                                 alt="" /> Development Blueprint.</p>
+                                <p className="popup-para"><img width={20} 
+                                src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446922/right-icon_dqytxe.png'
+                                //  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743073896/Eo_circle_green_checkmark.svg_1_say3rb.png" 
+                                 alt="" /> Tentative Budget.</p>
+                                <p className="popup-para"><img width={20}  
+                                src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446922/right-icon_dqytxe.png'
+                                // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743073896/Eo_circle_green_checkmark.svg_1_say3rb.png" 
+                                alt="" /> Estimated Time-To-Market.</p>
                             </div>
                         </div>
                         <div className="bottom-modal-box">
