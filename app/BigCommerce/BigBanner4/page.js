@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
 import './BigBanner4.css'
+import { FaArrowRight } from 'react-icons/fa'
 const Flex = () => {
   return (
     <>
@@ -17,8 +18,8 @@ const Flex = () => {
       </div>
 
       <div>
-        <button className="btn-audit">
-       Talk to us! <i className="ri-arrow-right-line" />
+        <button className="btn-auditCom">
+       Talk to us! <FaArrowRight/>
         </button>
       </div>
       </div>
