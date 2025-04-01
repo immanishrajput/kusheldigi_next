@@ -1,18 +1,171 @@
-.MainbigBan_Bcoma{
+*{
+    box-sizing: border-box;
+    font-family: Poppins,'sans-serif';
+}
+.ResultBccom {
     max-width: 1740px;
-    padding: 30px 50px;
-    margin: auto ;
+    padding: 50px 50px 0px 50px;
+    margin: auto;
 }
-.bigBan_Bcoma{
-    align-items: center;
-    justify-content: flex-start;
-    gap: 10px;
+    .features-containerbbcom{
+        gap: 50px;
+    }
+
+/* Layout Adjustments for Large Screens */
+@media (min-width: 1024px) {
+    .bigcommerce-section {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.text-contentBccom {
+    max-width: 50%;
+}
+
+.subtitleBccom {
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+}
+
+
+
+.titlebccom{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    width: 79%;
+    line-height: 45px;
+    font-size: 2.5rem;
+    display: block;
+    font-weight: 500;
+    margin-top: 0.5rem;
+}
+
+.descriptionbbcom {
+    color: black;
+    margin-top: 1rem;
+    width: 80%;
+}
+
+.features-containerbbcom {
     display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 2rem;
 }
-.bigBan_BcomaImg img{
+
+@media (min-width: 1024px) {
+    .features-containerbbcom {
+        flex-direction: row;
+    }
+}
+
+/* Image Container with Same Width for Both Images */
+.image-containerbbcom {
+    width: 90%;
+    max-width: 800px;
     height: auto;
-    width: 120px;
+    background-color: navy;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 0;
+    margin: 0 auto;
+    z-index: 3;
+    justify-content: center;
+    border-radius: 1rem;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
 }
-.bigParacom p{
-    width: 600px;
+
+.feature-imagebbcom {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.features-gridbbcom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 !important;
+    background-color: aliceblue;
+    position: relative;
+    top: -122px;
+    z-index: 2;
+    /* right: 52px; */
+    height: 560px;
+    border: 1px solid aliceblue !important;
+    width: 70%;
+    padding: 60px 60px 30px 60px;
+    /* padding: 114px 56px 35px 96px; */
+    margin: 0 auto;
+}
+
+.feature-itembbcom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.iconbbcom {
+    font-size: 2rem;
+}
+
+.feature-itembbcom p {
+    margin-top: 0.5rem;
+    color: gray;
+}
+@media (max-width:769px){
+    .text-contentBccom{
+        width: 100%;
+        max-width: 100%;
+    }
+    .ResultBccom{
+        padding: 10px;
+    }
+    .subtitleBccom{
+        text-align: center;
+    }
+    .titlebccom{
+        width: 100%;
+        text-align: center;
+    }
+    .features-gridbbcom{
+        position: initial;
+        width: 100%;
+        padding: 5px;
+    }
+    .descriptionbbcom{
+text-align: center;
+width: 100% !important;
+
+    }
+}
+@media (max-width:450px){
+    .text-contentBccom{
+        width: 100%;
+        max-width: 100%;
+    }
+    .ResultBccom{
+        padding: 10px;
+    }
+    .subtitleBccom{
+        text-align: center;
+    }
+    .titlebccom{
+        width: 100%;
+        text-align: center;
+    }
+    .features-gridbbcom{
+        position: initial;
+        width: 100%;
+        padding: 5px;
+    }
+    .descriptionbbcom{
+text-align: center;
+width: 100% !important;
+
+    }
 }

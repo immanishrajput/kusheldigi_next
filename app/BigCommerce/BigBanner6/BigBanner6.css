@@ -10,7 +10,8 @@
   }
   .slick-dots li button:before{
     font-size: 16px !important;
-color: #007bff !important;
+    font-weight: bold;
+color: #0c61ff !important;
   }
   .itemss h1 {
     text-align: center;
@@ -71,7 +72,6 @@ color: #007bff !important;
     /* transform-style: preserve-3d; */
     perspective: 1500px;
     overflow: hidden;
-    /* transition: transform 0.6s ease, box-shadow 0.6s ease; */
     position: relative;
   }
   
