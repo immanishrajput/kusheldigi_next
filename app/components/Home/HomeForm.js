@@ -147,7 +147,8 @@ const Website = () => {
                 height="65"
                 loading="lazy"
                 className="contact-company"
-                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743073826/contact-upper-companies_pwuwvi.png"
+                src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446905/LOGOS-1_dhbr7h.png"
+                // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743073826/contact-upper-companies_pwuwvi.png"
                 alt="companies"
                 style={{margin:'0px auto',width:'70%',}}
               />
@@ -156,7 +157,8 @@ const Website = () => {
                 height="40"
                 loading="lazy"
                 className="contact-company"
-                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743073826/contact-below-companies_qyrqms.png"
+                src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446905/LOGO-2_mhkyhy.png"
+                // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743073826/contact-below-companies_qyrqms.png"
                 alt="companies"
                 style={{margin:'15px auto',width:'60%',}}
               />

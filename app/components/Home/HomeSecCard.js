@@ -24,7 +24,10 @@ function Advance() {
               </p>
             </div>
             <a href="#" className="b2b-btn">
-              Learn More <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />
+              Learn More <img loading='lazy' 
+              src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/arow-1_szrxfl.png'
+              // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" 
+              alt="" />
             </a>
           </div>
           <div className="left-b2b-card-2" id='leftb2ca'>
@@ -38,7 +41,10 @@ function Advance() {
               </p>
             </div>
             <a href="#" className="b2b-btn">
-              Learn More <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />
+              Learn More <img loading='lazy' 
+              src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/arow-1_szrxfl.png'
+              // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" 
+              alt="" />
             </a>
           </div>
         </div>
@@ -54,7 +60,10 @@ function Advance() {
               </p>
             </div>
             <a href="#" className="b2b-btn">
-              Learn More <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />
+              Learn More <img loading='lazy' 
+              src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/arow-1_szrxfl.png'
+              // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg"
+               alt="" />
             </a>
           </div>
           <div className="right-b2b-card">
@@ -68,7 +77,10 @@ function Advance() {
               </p>
             </div>
             <a href="#" className="b2b-btn">
-              Learn More <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" alt="" />
+              Learn More <img loading='lazy' 
+              src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/arow-1_szrxfl.png'
+              // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" 
+              alt="" />
             </a>
           </div>
         </div>
