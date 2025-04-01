@@ -140,7 +140,7 @@ const Popup = () => {
                         </div>
                         <div className="upper-modal-box">
                             <div className="upper-left-content">
-                                <h1 className="popup-form-heading">Hey Hey! Before You Leave...&#128075;</h1>
+                                <h3 className="popup-form-heading">Hey Hey! Before You Leave...&#128075;</h3>
                                 <hr className='popup-hr'/>
                                 <p className="popupup-sm-heading">Our Experts are Ready to Provide Free</p>
                                 <p className="popup-para"><img width={20}
@@ -160,11 +160,11 @@ const Popup = () => {
                         <div className="bottom-modal-box">
           <div>
             <div className="bottom-left-box">
-              <h1 className="bottom-left-box-heading">95%</h1>
+              <h3 className="bottom-left-box-heading">95%</h3>
               <p className='popup-extra-small-heading'>Customer Retention Ratio</p>
             </div>
             <div className="bottom-left-box">
-              <h1 className="bottom-left-box-heading">2000+</h1>
+              <h3 className="bottom-left-box-heading">2000+</h3>
               <p className='popup-extra-small-heading'>Projects</p>
             </div>
           </div>
@@ -172,11 +172,11 @@ const Popup = () => {
 
           <div>
             <div className="bottom-right-box">
-              <h1 className="bottom-right-box-heading">1800+</h1>
+              <h3 className="bottom-right-box-heading">1800+</h3>
               <p className='popup-extra-small-heading'>Certified Professionals</p>
             </div>
             <div className="bottom-right-box">
-              <h1 className="bottom-right-box-heading">20+</h1>
+              <h3 className="bottom-right-box-heading">20+</h3>
               <p className='popup-extra-small-heading'>Global Offices</p>
             </div>
           </div>
@@ -184,7 +184,7 @@ const Popup = () => {
 
                         <div className="pop-right-parent-div">
                             <div className="pop-rightForm">
-                                <h2 className="popup-contact-heading">Let’s Build your Success Together!</h2>
+                                <h3 className="popup-contact-heading">Let’s Build your Success Together!</h3>
                                 <form className="pop-contact-form" id="contactForm" onSubmit={handleSubmit}>
                                     <div className="input-parent-div">
                                         <input className="pop-contact-input" type="text" placeholder="Your Name" name="firstName" value={formData.firstName} onChange={handleChange} required />
