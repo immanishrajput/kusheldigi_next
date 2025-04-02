@@ -92,7 +92,7 @@ function Banner12() {
           <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742971744/b2b-website_ghvr3o.jpg" alt="D2C" />
         </div>
         <div className="content">
-          <h3 className={activeSection === "d2c" ? "underline" : ""}>D2C (Direct-to-Consumer)</h3>
+          <h3 className={activeSection === "d2c" ? "underline" : ""}>D2C </h3>
           <p>We have been helping brands to establish a direct connection with consumers by removing intermediaries. We create personalized ecommerce experiences to enhance brand loyalty and maximize profit.</p>
           <button className="button-b2">DEVELOP D2C ECOMMERCE</button>
         </div>

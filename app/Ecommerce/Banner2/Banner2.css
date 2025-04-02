@@ -4,7 +4,7 @@
     padding: 0;
     background-color: #ded4d48b;
     color: #333;
-    padding: 50px 20px 50px 20px;
+    padding: 25px 20px 33px 20px;
   }
   
   .sec-containerBan2 {
@@ -52,7 +52,7 @@
   }
   
   .pointsBan2 {
-    padding: 16px 0;
+    padding: 16px 16px;
     color: #444;
   }
   
@@ -71,7 +71,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
-    margin-top: 20px;
+    margin-top: 40px;
   }
   
   .primary-btnssBan2 {
@@ -105,6 +105,7 @@
   .buttonsssBan2 a{
     display: flex;
     gap: 5px;
+    font-size: 16px;
     align-items: center;
   }
   .secondary-btnssBan2:hover{
@@ -155,6 +156,7 @@
   @media screen and (max-width: 768px) {
     .h3Ban2 {
         font-size: 24px;
+        line-height: 28px;
     }
     .sec-descriptionBan2 {
         font-size: 15px;
@@ -172,16 +174,22 @@
   @media screen and (max-width: 480px) {
     .sec-sectionBan2{
       width: 100%;
+      padding: 1px 20px 4px 20px;
     }
     .sec-containerBan2 {
-    
+       margin: 40px auto;
         padding: 10px;
     }
     .h3Ban2 {
         font-size: 20px;
+        line-height: 28px;
     }
     .sec-descriptionBan2 {
         font-size: 14px;
+        line-height: 22px;
+    }
+    .pointsBan2{
+      line-height: 15px;
     }
     .primary-btnssBan2,
     .secondary-btnssBan2 {
@@ -190,6 +198,9 @@
     }
     .pointsBan2 li {
         font-size: 14px;
+    }
+    .buttonsssBan2 a{
+      font-size: 12px;
     }
   }
   @media screen and (max-width: 350px) {

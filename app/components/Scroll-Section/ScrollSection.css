@@ -7,7 +7,7 @@
 .scroll-section-wrapper {
     overflow-x: hidden;
     position: relative;
-    padding-top: 50px;
+    padding-top: 60px;
     background: linear-gradient(280deg, #ecf5fd, #f0f3fb 62.02%, #f9f9f4);
     /* min-height: 100vh; */
     max-width: 1720px;
@@ -48,6 +48,7 @@
     width: 200vw;
     min-height: 90vh;
     position: relative;
+    padding: 50px 0px 0px 0px;
     overflow: hidden;
 }
 
@@ -143,7 +144,7 @@
 @media screen and (max-width: 768px) {
 
     .scroll-section-wrapper {
-        padding: 50px 15px 0px;
+        padding: 70px 15px 0px;
     }
 
     .scroll-container {
@@ -190,4 +191,43 @@
     font-style: normal;
     font-weight: 900;
     line-height: 110%;
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    .scroll-section-wrapper {
+        padding: 70px 15px 0px;
+    }
+
+    .scroll-container {
+        display: none;
+    }
+
+    .scroll-section-para {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .scroll-section-heading {
+        font-size: 2.4rem;
+    }
+
+    .mobile-scroll-section {
+        display: block;
+        padding: 60px 10px 35px;
+    }
+
+    .scrolled-section {
+        width: 90%;
+        margin: auto;
+    }
+
+    .scroll-card-para {
+        font-size: 1rem;
+    }
+
+    .scroll-card-ul > li {
+        font-size: 1rem;
+        margin: 5px 0px;
+    }
 }

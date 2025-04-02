@@ -14,8 +14,10 @@ const Page = () => {
       const response = await fetch(`${baseUrl}/api/v1/auth/getAllBlog`);
       const data = await response.json();
       if (response.ok) {
-        setGetAllBlogs(data?.blogs);
-        console.log(data?.blogs);
+        const ans = data.blogs.filter((blog)=> blog.domain ==="kusheldigi.com")
+        // console.log(ans.length,ans)
+        setGetAllBlogs(ans);
+        // console.log(data?.blogs);
         //   console.log(getAllBlogs)
       } else {
         console.error("Failed to fetch categories:", data?.message);
@@ -80,13 +82,14 @@ const Page = () => {
       console.error("Error fetching categories:", error);
     }
   };
-
+console.log(getAllBlogs.filter((blog) => blog.category?.title === "SEO"))
   useEffect(() => {
     if (getAllBlogs.length > 0) {
       setEcommerceBlog(
         getAllBlogs.filter((blog) => blog.category?.title === "e-commerce")
       );
       setSeoBlog(getAllBlogs.filter((blog) => blog.category?.title === "SEO"));
+      console.log(seoBlog)
       setDigitalBlog(
         getAllBlogs.filter((blog) => blog.category?.title === "Digital Marketing")
       );

@@ -90,11 +90,14 @@
   
     .con--1-flex {
         grid-template-columns: repeat(1, 1fr); /* 1 Column */
+        padding: 0;
     }
   
     .con--1-div h4 {
         font-size: 24px;
         text-align: center;
+        line-height: 25px;
+        letter-spacing: 0;
     }
   }
   

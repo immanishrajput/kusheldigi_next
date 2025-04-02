@@ -2,7 +2,8 @@
   /* width: 90%; */
   margin: auto;
   max-width: 1720px;
-  padding: 50px 50px;
+  margin-top: 0.3rem;
+  padding: 50px 60px;
 }
 
 .projectsHeaderKcom {
@@ -338,7 +339,8 @@ transform: translateY(-5px);
     font-size: 12px;
   }
 .b2b-sectionKcom{
-  padding: 20px;
+  padding: 10px;
+  gap: 20px;
 } 
   .b2b-headss {
       font-size: 22px;
@@ -401,10 +403,16 @@ transform: translateY(-5px);
   .b2b-btnKcom {
       font-size: 14px;
       margin-bottom: 22px;
-      font-size: 14px;
+      font-size: 12px;
+      margin-left: 0;
+      margin-right: 0;
+      gap: 80px;
       align-items: center;
       /* text-align: center; */
-      justify-content: center;
+      /* justify-content: center; */
+  }
+  .b2b-btnKcom p{
+    font-size: 12px;
   }
 
   .b2b-btnKcom img {

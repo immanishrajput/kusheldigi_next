@@ -184,7 +184,7 @@ margin: 120px 0px 0px 0px;
 
   .Mainhero-sectionss {
     height: auto;
-    padding: 70px 20px;
+    padding: 70px 20px 55px 20px;
   }
 }
 
@@ -192,6 +192,7 @@ margin: 120px 0px 0px 0px;
 @media (max-width: 450px) {
   .buttonsBi a{
     width: auto;
+    font-size: 10px;
   }
   .Mainhero-sectionss{
     background:#e4edf3 !important ;
@@ -205,16 +206,17 @@ margin: 120px 0px 0px 0px;
 
   .headssCom {
     font-size: 24px;
-    line-height: 1.4;
+    line-height: 1.3;
   }
 
   .hero-descriptionCom {
     font-size: 13px;
     line-height: 1.5;
+    padding: 14px 0px 0px 0px;
   }
 
   .buttonsBi {
-    flex-direction: column;
+   
     align-items: center;
     gap: 10px;
   }
@@ -253,7 +255,7 @@ margin: 120px 0px 0px 0px;
   }
 
   .buttonsBi {
-    flex-direction: column;
+   
     align-items: center;
     gap: 8px;
     width: 100%;

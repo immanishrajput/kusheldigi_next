@@ -33,15 +33,25 @@
 }
 .caseImgSt2 img{
     position: absolute;
-    top:55%;
-    left: 10%;
+
+    left: 6%;
+    top:45%;
+    background: rgb(245, 245, 245);
+    width: 194px;
+    padding: 8px 38px 12px;
+    border: 1px solid black;
+    border-radius: 39px;
     z-index: 1;
 }
 .caseImgSt3 img{
-    width: 203px;
+    width: 194px;
     position: absolute;
-    left: 24%;
-    top:55%;
+    left: 20%;
+    top:45%;
+    background: rgb(245, 245, 245);
+    padding: 20px 24px;
+    border: 1px solid black;
+    border-radius: 39px;
     z-index: 1;
 }
 .small-icons-div {
@@ -70,4 +80,39 @@
     padding: 5px;
     cursor: pointer;
     transition: all 1s ease-in-out;
+}
+
+.caseImgStDiv button {
+    position: relative;
+    top:  -100px; /* Adjust as needed */
+    left: 10%;
+    transform: translateX(-50%);
+    z-index: 2; /* Higher than images */
+    background-color: #007bff;
+    color: white;
+    padding: 17px 36px;
+    border: 1px solid blue;
+    cursor: pointer;
+    font-size: 14.5px;
+    font-weight: 400;
+    border-radius: 39px;
+}
+.book-call-btn{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background: white !important;
+    color: #000 !important; 
+    gap: 10px;
+}
+.talk-btn{
+    display: flex;
+}
+.book-call-btn:hover{
+    background: #007bff !important;
+    color: white !important;
+}
+.consultant-btn:hover{
+    background:white !important ;
+    color: #007bff !important;
 }

@@ -36,16 +36,26 @@
     }
     .projectsHeaderKcom {
         padding: 20px;
+        flex-direction: column;
+        text-align: center;
     }
     .clientsSection{
         padding: 20px !important;
         gap: 0;
     }
 }
+
+
 @media screen and (max-width: 767px) {
     .industry-expertise-section {
         padding: 25px 30px 5    0px 30px;
     }
+    .projectsHeaderKcom {
+        width: 100%;
+        padding: 26px 20px 20px 20px;
+        margin: 0;
+    }
+    
     .heaaader-content h3 {
         line-height: 35px !important;
     }
@@ -72,11 +82,30 @@
         flex: auto;
         width: 100%;
     }
+    .textKcom p {
+        text-align: center;
+    }
+    .textKcom h2 {
+        text-align: center;
+    }
     .heaaader-content h3 {
         line-height: 35px !important;
     }
 }
 
+@media (max-width:500px){
+    .hover-linkCom{
+        font-size: 12px;
+        padding: 19px 19px;
+    }
+}
+
+@media (max-width:380px){
+    .hover-linkCom{
+        font-size: 9px;
+        padding: 19px 19px;
+    }
+}
 .industry-expertise-header .sec-title p {
     font-size: 18px;
     line-height: 30px;
@@ -346,4 +375,28 @@ color: #000000;
 font-size: 27px;
 
 text-align: center;
+}
+
+@media (max-width:505px){
+    .lemon{
+        width: 100% !important;
+    }
+    .lemon p{
+        font-size: 14px;
+        text-align: center;
+        width: 100% !important;
+    }
+    .industry-sec-title h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .industry-sec-title span{
+        text-align: center;
+    }
+    .textKcom p {
+        font-size: 14px;
+    }
+    .heaaader-content h3{
+        line-height: 25px !important;
+    }
 }

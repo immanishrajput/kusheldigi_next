@@ -46,11 +46,23 @@ const CompaniesSlider = () => {
             Trusted choice of Top <strong>E-commerce</strong> Brands Worldwide
           </p>
         </div>
-
+{/* https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446926/SMT_ktymk6.png*/}
+{/* https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446915/havells_ykmkip.png */}
+{/* https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446915/blackrino_mvfdoz.png */}
+{/* https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446922/sight-and-scope_xn7xq8.png */}
+{/* https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446921/mad-fish_rhilwq.png */}
+{/* https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446915/2nd_urklot.png */}
         <Slider {...commonSettings} className="custom-slider">
-          {["sp18_iscwvs.png", "sp19_lg8ebe.png", "sp20_xvpwrq.png", "sp1_tlo2jq.png", "sp2_udzoec.png", "sp3_kriscj.png", "sp6_oqjqdl.png", "sp4_mjfpjw.png"].map((img, index) => (
+          {/* {["sp18_iscwvs.png", "sp19_lg8ebe.png", "sp20_xvpwrq.png", "sp1_tlo2jq.png", "top-brass_bwqbk2.png", "sp3_kriscj.png", "sp6_oqjqdl.png", "sp4_mjfpjw.png"].map((img, index) => (
             <div key={index} className="slide-item">
+              <h1>{index}</h1>
               <img loading="lazy" src={`https://res.cloudinary.com/dqjbzgksw/image/upload/v1740985644/${img}`} alt="logo" />
+            </div>
+          ))} */}
+          {["blackrino_mvfdoz.png ", "sight-and-scope_xn7xq8.png", "mad-fish_rhilwq.png", "2nd_urklot.png ", "top-brass_bwqbk2.png", "kick-ezz_oohev7.png", "SMT_ktymk6.png", "havells_ykmkip.png"].map((img, index) => (
+            <div key={index} className="slide-item">  
+              {/* <h1>{index}</h1> */}
+              <img loading="lazy" src={`https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446926/${img}`} alt="logo" />
             </div>
           ))}
         </Slider>

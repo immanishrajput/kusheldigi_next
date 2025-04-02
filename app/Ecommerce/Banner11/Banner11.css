@@ -78,6 +78,7 @@
     padding: 30px;
     margin: 40px;
     width: 70%;
+    gap: 12px;
   }
   
   .content h3{
@@ -85,7 +86,7 @@
     margin-bottom: 28px;
     font-size: 38px;
     color: #4a4b4d;
-    font-weight: 300;
+    font-weight: 400;
   
   }
   
@@ -155,6 +156,10 @@
 @media(max-width:505px){
   .content{
     padding: 0px;
+    width: 100%;
+  }
+  .heaaader-content h5{
+    font-size: 20px;
   }
     .linkss ul{
         flex-direction: row;
@@ -164,6 +169,7 @@
     }
     .linkss ul li {
         margin: 10px;
+        font-size: 13px;
     }
     .contttent-wrapper{
         margin: 0;
@@ -181,11 +187,32 @@
     }
     .content p {
       text-align: center;
+      font-size: 14px;
+      line-height: 24px;
     }
     .content h3{
 line-height: 35px;
+font-size: 26px;
 text-align: center;
     }
+   .heaaader-content h6  {
+    font-size: 15px !important;
+    padding: 20px 0px 0px 0px;
+    
+   }
+   .heaaader-content h3 {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 7px;
+   }
+   .button-b2{
+    font-size: 11px;
+    padding: 20px 15px;
+    
+   }
+   .sec---abc{
+    padding: 20px 20px 20px 20px;
+   }
 }
 
 @media(max-width:385px){
@@ -228,10 +255,16 @@ text-align: center;
 @media(max-width:520px){
   .heaaader-content h6 {
     width: 100% !important;
+
   }
 }
 @media(max-width:720px){
   .heaaader-content h6 {
     width: 100% !important;
+  }
+}
+@media(max-width:550px){
+  .button-b2{
+    margin: 11px !important;
   }
 }
