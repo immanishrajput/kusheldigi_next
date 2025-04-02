@@ -7,6 +7,7 @@ import BigBanner7 from './BigBanner7/page'
 import BigBanner8 from './BigBanner8/page'
 import BannerMain from './BannerMain/page'
 import Process from './Process/page'
+
 import Banner10 from '../Ecommerce/Banner9/page'
 const page = () => {
   return (

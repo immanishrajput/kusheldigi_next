@@ -14,12 +14,12 @@ const Flex = () => {
       </div>
       <div className="con--2-div-contentt">
 
-        <h3>We help Increase Conversions and Revenue for BigCommerce Stores</h3>
+        <h3>Our Bigcommerce Experts are Ready to Launch your Dream Store today!</h3>
       </div>
 
       <div>
         <button className="btn-auditCom">
-       Talk to us! <FaArrowRight/>
+        Let’s Discuss <FaArrowRight/>
         </button>
       </div>
       </div>
