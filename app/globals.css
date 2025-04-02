@@ -181,6 +181,7 @@ body {
     background-repeat: no-repeat
 }
 
+
 .img4 {
     background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v1741003270/aaa3_pqv8sn.png");
     width: 118px;
@@ -198,6 +199,7 @@ body {
     animation-fill-mode: forwards;
     animation-timing-function: ease-in-out
 }
+
 
 @keyframes img-4 {
     25% {
@@ -73444,7 +73446,7 @@ input::-webkit-inner-spin-button {
     }
 
     .faqr-item.expanded .faqr-answer {
-        line-height: 24px;
+        line-height: 22px;
     }
 }
 

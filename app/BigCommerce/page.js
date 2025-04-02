@@ -10,6 +10,7 @@ import Process from './Process/page'
 import Navbar from '../COMMON/Navbar'
 import Banner10 from '../Ecommerce/Banner9/page'
 import Footer from '../COMMON/Footer'
+import BigBanner9 from '../BigCommerce/BigBanner9/page'
 import BigAskQuestion from '../bigcommerce-development/BigAskQuestion/page'
 const page = () => {
   return (
@@ -24,6 +25,7 @@ const page = () => {
       <BigBanner6/>
         <BigBanner4/>
         <BigAskQuestion/>
+     <BigBanner9/>
         <Footer/>
     </div>
   )
