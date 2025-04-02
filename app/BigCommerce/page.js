@@ -7,16 +7,18 @@ import BigBanner7 from './BigBanner7/page'
 import BigBanner8 from './BigBanner8/page'
 import BannerMain from './BannerMain/page'
 import Process from './Process/page'
+import Banner10 from '../Ecommerce/Banner9/page'
 const page = () => {
   return (
     <div>
       <BannerMain/>
+      <BigBanner8/>
+      <BigBanner7/>
+      <BigBanner3/>
+      <Banner10/>
+      <Process/>
+      <BigBanner6/>
         <BigBanner4/>
-        <BigBanner6/>
-        <BigBanner7/>
-        <BigBanner3/>
-        <BigBanner8/>
-        <Process/>
     </div>
   )
 }
