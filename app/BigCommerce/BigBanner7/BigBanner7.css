@@ -60,6 +60,9 @@
     .features-containerbbcom {
         flex-direction: row;
     }
+    .feature-imagebbcom {
+        margin: auto;
+    }
 }
 
 /* Image Container with Same Width for Both Images */
@@ -80,7 +83,7 @@
 }
 
 .feature-imagebbcom {
-    width: 90%;
+    width: 100%;
     height: auto;
     object-fit: cover;
 }
@@ -113,6 +116,7 @@
 
 .feature-itembbcom p {
     margin-top: 0.5rem;
+    text-align: center;
     color: gray;
 }
 @media (max-width:769px){
@@ -129,6 +133,8 @@
     .titlebccom{
         width: 100%;
         text-align: center;
+        font-size: 26px;
+        line-height: 26px;
     }
     .features-gridbbcom{
         position: initial;
