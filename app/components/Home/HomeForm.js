@@ -57,8 +57,13 @@ const Website = () => {
 
   const handleForm = async (e) => {
     e.preventDefault();
-    if(formData.firstName.trim() === '' && formData.phone.trim() === '' && formData.email.trim() === '' && formData.message.trim === '' ){
-      alert("Please fill all the fields !!");
+    if (
+      formData.firstName.trim() === '' || 
+      formData.phone.trim() === '' || 
+      formData.email.trim() === '' || 
+      formData.message.trim() === '91' 
+    ) {
+      alert("Please fill all the fields!!");
       return;
     }
     if(!captchaVerified){
