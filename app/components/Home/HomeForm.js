@@ -12,6 +12,7 @@ const Website = () => {
   const [secondNo, setSecondNo] = useState(0);
   const [userAnswer, setUserAnswer] = useState("");
   const [correctAnswer, setCorrectAnswer] = useState(0);
+  const [captchaVerified,setCaptchaVerified] = useState(false);
 
   const generateCaptcha = () => {
     const num1 = Math.floor(Math.random() * 10);
@@ -20,6 +21,7 @@ const Website = () => {
     setSecondNo(num2);
     setCorrectAnswer(num1 + num2);
     setUserAnswer("");
+    setCaptchaVerified(false);
   };
 
   useEffect(() => {
@@ -30,9 +32,11 @@ const Website = () => {
     if (parseInt(userAnswer) !== correctAnswer) {
       alert("Wrong Captcha! Try again.");
       generateCaptcha();
+      setCaptchaVerified(false);
       return;
     }
     alert("Captcha Verified!!");
+    setCaptchaVerified(true);
   };
 
   const [formData, setFormData] = useState({
@@ -53,12 +57,21 @@ const Website = () => {
 
   const handleForm = async (e) => {
     e.preventDefault();
+    if(formData.firstName.trim() === '' && formData.phone.trim() === '' && formData.email.trim() === '' && formData.message.trim === '' ){
+      alert("Please fill all the fields !!");
+      return;
+    }
+    if(!captchaVerified){
+      alert("Please Verify the Captcha !!");
+      generateCaptcha();
+      return;
+    }
     if (parseInt(userAnswer) !== correctAnswer) {
       alert("Wrong Captcha! Try again.");
       generateCaptcha(); 
+      setCaptchaVerified(false);
       return; 
     }
-    console.log(formData);
     setLoading(true);
     try {
       const response = await fetch("https://backend.kusheldigi.com/contact", {
@@ -117,7 +130,7 @@ const Website = () => {
                 <img
                 loading="lazy"
                   // src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1741867204/phone-png_kjwe3t.png"
-                  src="https://res.cloudinary.com/dgif730br/image/upload/v1743497577/flag-2_p2ardn.png"
+                  src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1741867204/phone-png_kjwe3t.png"
                   alt="call"
                   className="phone-icon"
                 />
