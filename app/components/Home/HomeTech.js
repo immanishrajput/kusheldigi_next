@@ -67,27 +67,29 @@ var settings = {
     slidesToScroll: 1,
   };
 
-    useEffect(() => {
-            const handleHashChange = () => {
-                const section = document.getElementById("form-section");
-                if (section) {
-                    setTimeout(() => {
-                        const offset = 150;
-                        const sectionPosition = section.getBoundingClientRect().top + window.scrollY - offset;
-                        window.scrollTo({ top: sectionPosition, behavior: "smooth" });
-                    }, 0);
-                }
-            };
-    
-            window.addEventListener("hashchange", handleHashChange, false);
-    
-            return () => {
-                window.removeEventListener("hashchange", handleHashChange, false);
-            };
-        }, []);
-  
+
 
 const Our = () => {
+
+  useEffect(() => {
+    const handleHashChange = () => {
+        const section = document.getElementById("form-section");
+        if (section) {
+            setTimeout(() => {
+                const offset = 150;
+                const sectionPosition = section.getBoundingClientRect().top + window.scrollY - offset;
+                window.scrollTo({ top: sectionPosition, behavior: "smooth" });
+            }, 0);
+        }
+    };
+
+    window.addEventListener("hashchange", handleHashChange, false);
+
+    return () => {
+        window.removeEventListener("hashchange", handleHashChange, false);
+    };
+}, []);
+
   return (
     <section className="tech-section">
       <div className="tech-container">
