@@ -1,5 +1,5 @@
 "use client"
-import React from "react";
+import React, { useEffect } from "react";
 import "./banner.css";
 import { FaArrowRight } from "react-icons/fa";
 import Link from "next/link";
@@ -16,6 +16,25 @@ const Banner = () => {
   //   waitForAnimate: false,
   //   pauseOnHover: false,
   // };
+
+  useEffect(() => {
+          const handleHashChange = () => {
+              const section = document.getElementById("form-section");
+              if (section) {
+                  setTimeout(() => {
+                      const offset = 150;
+                      const sectionPosition = section.getBoundingClientRect().top + window.scrollY - offset;
+                      window.scrollTo({ top: sectionPosition, behavior: "smooth" });
+                  }, 0);
+              }
+          };
+  
+          window.addEventListener("hashchange", handleHashChange, false);
+  
+          return () => {
+              window.removeEventListener("hashchange", handleHashChange, false);
+          };
+      }, []);
 
   return (
     <>
