@@ -85,9 +85,11 @@
   
     .audit-img {
       width: 220px;
-      margin: auto;
+      margin: auto !important;
     }
   }
+
+  /* hyyyyyyyyyy */
   
   @media screen and (max-width: 768px) {
     .sec--2 {
@@ -132,7 +134,7 @@
   
     .audit-img {
       width: 160px;
-      margin: auto;
+      margin: auto !important;
     }
   }
 
