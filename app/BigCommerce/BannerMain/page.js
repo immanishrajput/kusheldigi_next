@@ -2,77 +2,99 @@
 
 import React, { useState } from 'react';
 import './BannerMain.css';
+import { FaArrowRightLong } from 'react-icons/fa6';
+import { useRouter } from 'next/navigation';
 
 const CaseStudy = () => {
+
     const caseStudies = [
-        { img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743502615/case1_qp4ffm.webp', smallBtnText: "View Case Study", smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743502616/case3small_gv5kpn.webp',
-            imgEx:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/bcb2b-1_onvun7.png',
-            imgEx2:'https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/bigcommerce-3_xfn6e6.png',
-            imgEx3:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340304/Partner-Certified-Wordmark_j6b9ar.png'
-         },
-        { img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743502616/case3_aayr22.webp', smallBtnText: "View Case Study", smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743502616/case4small_ovj2wx.webp',
-            imgEx:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/bcb2b-1_onvun7.png',
-            imgEx2:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/BCbigdev-1_yq1t56.png',
-            imgEx3:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340304/Partner-Certified-Wordmark_j6b9ar.png'
-         },
-        { img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743502615/case1_qp4ffm.webp', smallBtnText: "View Case Study", smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743502615/case1small_vmmuly.webp',
-            imgEx:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/bcb2b-1_onvun7.png',
-            imgEx2:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/BCbigdev-1_yq1t56.png',
-            imgEx3:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340304/Partner-Certified-Wordmark_j6b9ar.png'
-         },
-        { img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743502615/case1_qp4ffm.webp', smallBtnText: "View Case Study", smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743502616/case4small_ovj2wx.webp' ,
-            imgEx:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/bcb2b-1_onvun7.png',
-            imgEx2:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/BCbigdev-1_yq1t56.png',
-            imgEx3:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340304/Partner-Certified-Wordmark_j6b9ar.png'
-        },
-        { img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743502615/case1_qp4ffm.webp', smallBtnText: "View Case Study", smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743502616/case4small_ovj2wx.webp' ,
-            imgEx:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/bcb2b-1_onvun7.png',
-            imgEx2:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/BCbigdev-1_yq1t56.png',
-            imgEx3:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340304/Partner-Certified-Wordmark_j6b9ar.png'
-        },
+        { img: '/case1.webp', smHeading: 'Certified Bigcommerce Agency', smallBtnText: "View Case Study", smallImg: '/case1small.webp', heading: "Expert BigCommerce Development Solutions for Scalable Growth",bigCommerce : [
+            {
+                bigImg1 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/BCbigdev-1_yq1t56.png',
+                bigImg2 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/bcb2b-1_onvun7.png',
+                bigImg3 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340304/Partner-Certified-Wordmark_j6b9ar.png'
+            }
+        ] },
+        { img: '/case2.webp', smHeading: 'Certified Bigcommerce Agency', smallBtnText: "View Case Study", smallImg: '/case2small.webp', heading: "Expert BigCommerce Development Solutions for Scalable Growth",bigCommerce : [
+            {
+                bigImg1 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/BCbigdev-1_yq1t56.png',
+                bigImg2 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/bcb2b-1_onvun7.png',
+                bigImg3 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340304/Partner-Certified-Wordmark_j6b9ar.png'
+            }
+        ]  },
+        { img: '/case3.webp', smHeading: 'Certified Bigcommerce Agency', smallBtnText: "View Case Study", smallImg: '/case3small.webp', heading: "Expert BigCommerce Development Solutions for Scalable Growth",bigCommerce : [
+            {
+                bigImg1 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/BCbigdev-1_yq1t56.png',
+                bigImg2 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/bcb2b-1_onvun7.png',
+                bigImg3 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340304/Partner-Certified-Wordmark_j6b9ar.png'
+            }
+        ]  },
+        { img: '/case4.webp', smHeading: 'Certified Bigcommerce Agency', smallBtnText: "View Case Study", smallImg: '/case4small.webp', heading: "Expert BigCommerce Development Solutions for Scalable Growth",bigCommerce : [
+            {
+                bigImg1 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/BCbigdev-1_yq1t56.png',
+                bigImg2 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/bcb2b-1_onvun7.png',
+                bigImg3 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340304/Partner-Certified-Wordmark_j6b9ar.png'
+            }
+        ]  },
+        { img: '/case5.webp', smHeading: 'Certified Bigcommerce Agency', smallBtnText: "View Case Study", smallImg: '/case5small.webp', heading: "Expert BigCommerce Development Solutions for Scalable Growth",bigCommerce : [
+            {
+                bigImg1 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/BCbigdev-1_yq1t56.png',
+                bigImg2 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/bcb2b-1_onvun7.png',
+                bigImg3 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340304/Partner-Certified-Wordmark_j6b9ar.png'
+            }
+        ]  },
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
+    const navigate = useRouter();
 
     return (
         <div className='case-study-container'>
             <div className='case-wrapper'>
+                <h2 className='big-card-heading'>{caseStudies[currentIndex].heading}</h2>
                 <div className='case-card'>
                     <img className='case-img' src={caseStudies[currentIndex].img} alt='case' />
-                   
+                    <div className="card-info">
+                        <p>{caseStudies[currentIndex].smHeading}</p>
+                        <h2>{caseStudies[currentIndex].heading}</h2>
+                        {
+                            caseStudies[currentIndex].bigCommerce.map((item,index)=>(
+                               <div key={index} className="bigcommerceImg-card">
+                                <img src={item.bigImg1} alt="bigImg1"/>
+                                {/* <img src={item.bigImg2} alt="bigImg2"/> */}
+                                <img src={item.bigImg3} alt="bigImg3"/>
+                               </div>
+                            ))
+                        }
+                        <div className='flex-bigcommerce-banner-btns'>
+                        <a href='#form-section' className='bigcommerce-banner-btn'>Talk to a Consultant</a>
+                        <button className='bigcommerce-banner-btn big-transparent-btn'>Book a Call  <FaArrowRightLong /></button>
+                    </div>
+                    </div>
+                    <div className='small-icons-div'>
+                        {caseStudies.map((item, index) => (
+                            <div onClick={() => setCurrentIndex(index)} className='small-icons' key={index} >
+                                {index === currentIndex && (
+                                    <span className='case-btnText'>{item.smallBtnText}</span>
+                                )}
+                                <img
+                                    className={`bigcommercesmall-icon ${index === currentIndex ? 'active' : ''}`}
+                                    src={item.smallImg}
+                                    alt='small case'
+                                />
+                            </div>
+                        ))}
+                    </div>
                 </div>
-                <div className='caseImgStDiv'>
-                 <span className='caseImgSt'>
-                 {/* <img src={caseStudies[currentIndex].imgEx}/> */}
-                 </span>
-                 <span className='caseImgSt2'>
-                 <img src={caseStudies[currentIndex].imgEx2}/>
-                 </span>
-                 <div className='talk-btn'>
-                 <button className='consultant-btn'>TALK A CONSULTANT</button>
-                 <button className='book-call-btn'>Book A Call <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"></path></svg></button>
-                 </div>
-                 <span className='caseImgSt3'>
-                 <img src={caseStudies[currentIndex].imgEx3}/>
-                 </span>
-              
-
-                </div>
-                <div className='small-icons-div'>
-                    {caseStudies.map((item, index) => (
-                        <div className='small-icons' key={index} >
-                            {index === currentIndex && (
-                                <span className='case-btnText'>{item.smallBtnText}</span>
-                            )}
-                            <img
-                                className={`small-icon ${index === currentIndex ? 'active' : ''}`}
-                                src={item.smallImg}
-                                alt='small case'
-                                onClick={() => setCurrentIndex(index)}
-                            />
-                        </div>
-                    ))}
-                </div>
+                {
+                            caseStudies[currentIndex].bigCommerce.map((item,index)=>(
+                               <div key={index} className="bigcommerceImg-card bigcommerce-down-images">
+                                <img src={item.bigImg1} alt="bigImg1"/>
+                                {/* <img src={item.bigImg2} alt="bigImg2"/> */}
+                                <img src={item.bigImg3} alt="bigImg3"/>
+                               </div>
+                            ))
+                        }
             </div>
         </div>
     );

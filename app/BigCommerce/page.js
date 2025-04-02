@@ -14,7 +14,7 @@ import BigAskQuestion from '../bigcommerce-development/BigAskQuestion/page'
 const page = () => {
   return (
     <div>
-      {/* <Navbar/> */}
+      <Navbar/>
       <BannerMain/>
       <BigBanner8/>
       <BigBanner7/>
