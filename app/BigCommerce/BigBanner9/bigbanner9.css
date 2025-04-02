@@ -1,0 +1,129 @@
+/* Main Section */
+.section--1 {
+    width: 100%;
+    max-width: 1720px;
+    margin: 0 auto;
+    padding: 70px 60px;
+    text-align: left;
+    box-sizing: border-box;
+  }
+  
+  /* Heading */
+  .conflict--1-div h6 {
+    font-size: 15px;
+    /* color: #0c61ff; */
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  
+  .conflict--1-div h4 {
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(81, 79, 79);
+    margin-top: 10px;
+  }
+  
+  /* Flex Container - 3 Cards in a Row */
+  .conflict--1-flex {
+    display: grid;
+    align-items: self-start;
+    grid-template-columns: repeat(3, 1fr);  /* 3 Columns */
+    gap: 20px;
+    padding: 32px 0px 0px 0px ;
+    justify-content: center;
+  }
+  
+  /* Individual Card */
+  .conflict--1-flex-content {
+    /* background: #f8f9fa; */
+    padding: 10px 10px 0px 0px;
+    /* border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+    text-align: left;
+    transition: transform 0.3s ease;
+  }
+  
+  .conflict--1-flex-content:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Icons */
+  .iconnImage {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  
+  /* Text Styling */
+  .conflict--1-flex h5 {
+    font-weight: 400;
+    font-size: 23px;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .conflict--1-flex p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #444;
+    margin-top: 10px;
+  }
+  
+  /* Responsive Design */
+  
+  /* Tablet View - 2 Cards Per Row */
+  @media screen and (max-width: 1024px) {
+    .section--1 {
+        padding: 60px 30px;
+    }
+  
+    .conflict--1-flex {
+        grid-template-columns: repeat(2, 1fr); /* 2 Columns */
+    }
+  }
+  
+  /* Mobile View - 1 Card Per Row */
+  @media screen and (max-width: 768px) {
+    .section--1 {
+        padding: 50px 20px;
+    }
+  
+    .conflict--1-flex {
+        grid-template-columns: repeat(1, 1fr); /* 1 Column */
+        padding: 0;
+    }
+  
+    .conflict--1-div h4 {
+        font-size: 24px;
+        text-align: center;
+        line-height: 25px;
+        letter-spacing: 0;
+    }
+  }
+  
+  
+  @media screen and (max-width: 480px) {
+    .section--1 {
+        padding: 20px 20px 47px 20px;
+    }
+  
+    .iconnImage {
+        width: 30px;
+        height: 30px;
+    }
+  
+    .conflict--1-div h4 {
+        font-size: 17px;
+        text-align: left;
+    }
+  
+    .conflict--1-flex h5 {
+        font-size: 16px;
+    }
+  
+    .conflict--1-flex p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+  }

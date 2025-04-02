@@ -160,7 +160,8 @@
     position: relative;
     height: 400px;
     padding: 0px 5px;
-    width: 1250px;
+    width: 1150px;
+    margin: auto;
     white-space: nowrap;  
 }
 

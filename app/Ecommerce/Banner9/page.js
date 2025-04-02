@@ -49,7 +49,7 @@ export default function Banner10() {
         <div className="left-b2b-cardKcom">
           <div className="b2b-logoKcom">
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743402463/lovely-6-page-2_atom41.jpg" alt="Shopify Plus" />
-            <Link href="/2ndamendment" className="hover-linkCom"> View Case Study <MdArrowOutward /></Link>
+            <Link href="/2ndamendment" id="human" className="hover-linkCom"> View Case Study <MdArrowOutward /></Link>
           </div>
           
           <a href="/2ndamendment" className="b2b-btnKcom">
@@ -62,7 +62,7 @@ export default function Banner10() {
           <div className="b2b-logoKcom">
            
            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743402463/lovely-6-page-6_wfoqas.jpg" alt="Shopify Plus" />
-           <Link href="/sites" className="hover-linkCom"> View Case Study<MdArrowOutward /></Link>
+           <Link href="/sites" id="human" className="hover-linkCom"> View Case Study<MdArrowOutward /></Link>
           </div>
          
           <a href="/sites" className="b2b-btnKcom">
@@ -75,7 +75,7 @@ export default function Banner10() {
         <div className="left-b2b-cardKcom-3">
           <div className="b2b-logoKcom">
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743402463/lovely-6-page-1_lbb6yj.jpg" alt="Shopify Plus" />
-            <Link href="/topbrass" className="hover-linkCom"> View Case Study <MdArrowOutward/></Link>
+            <Link href="/topbrass" id="human" className="hover-linkCom"> View Case Study <MdArrowOutward/></Link>
           </div>
          
           <a href="/topbrass" className="b2b-btnKcom">
@@ -89,7 +89,7 @@ export default function Banner10() {
         <div className="right-b2b-cardKcom">
           <div className="b2b-logoKcom">
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743402463/lovely-6-page-5_t6orct.jpg" alt="Shopify Plus" />
-            <Link href="https://blackrhinoconcealment.com/" className="hover-linkCom">View Case Study <MdArrowOutward /> </Link>
+            <Link href="https://blackrhinoconcealment.com/" id="human" className="hover-linkCom">View Case Study <MdArrowOutward /> </Link>
           </div>
          
           <a href="https://blackrhinoconcealment.com/" className="b2b-btnKcom">
@@ -101,7 +101,7 @@ export default function Banner10() {
         <div className="right-b2b-cardKcom">
           <div className="b2b-logoKcom">
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743402463/lovely-6-page-4_ixvs4z.jpg" alt="Shopify Plus" />
-            <a href="/Slidesdesign" className="hover-linkCom">View Case Study <MdArrowOutward /></a>
+            <a href="/Slidesdesign" id="human" className="hover-linkCom">View Case Study <MdArrowOutward /></a>
           </div>
           
           <a href="/Slidesdesign" className="b2b-btnKcom">
@@ -113,7 +113,7 @@ export default function Banner10() {
         <div className="right-b2b-cardKcom">
           <div className="b2b-logoKcom">
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743402463/lovely-6-page-3_kaxts8.jpg" alt="Shopify Plus" />
-            <a href="/kick-eez" className="hover-linkCom">View Case Study <MdArrowOutward /></a>
+            <a href="/kick-eez" id="human" className="hover-linkCom">View Case Study <MdArrowOutward /></a>
           </div>
          
           <a href="/kick-eez" className="b2b-btnKcom">

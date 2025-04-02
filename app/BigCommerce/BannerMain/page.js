@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import './BannerMain.css';
+import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 import { useRouter } from 'next/navigation';
 
@@ -48,6 +49,12 @@ const CaseStudy = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const navigate = useRouter();
 
+    const router = useRouter();
+
+  const handleClick = () => {
+    router.push('/contact-us');
+  };
+
     return (
         <div className='case-study-container'>
             <div className='case-wrapper'>
@@ -67,8 +74,8 @@ const CaseStudy = () => {
                             ))
                         }
                         <div className='flex-bigcommerce-banner-btns'>
-                        <a href='#form-section' className='bigcommerce-banner-btn'>Talk to a Consultant</a>
-                        <button className='bigcommerce-banner-btn big-transparent-btn'>Book a Call  <FaArrowRightLong /></button>
+                        <a href='#form-section' className='bigcommerce-banner-btn' onClick={handleClick}>Talk to a Consultant</a>
+                        <button className='bigcommerce-banner-btn big-transparent-btn' >  Book a Call  <FaArrowRightLong /></button>
                     </div>
                     </div>
                     <div className='small-icons-div'>

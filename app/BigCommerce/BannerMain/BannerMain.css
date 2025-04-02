@@ -194,4 +194,10 @@
         bottom: 10px;
     }
 
+
+}
+@media(max-width:500px){
+    .big-card-heading {
+        font-size: 22px;
+    }
 }
