@@ -9,7 +9,7 @@ const Page = () => {
   <div className="Bleft-sectionEcom">
     {/* <h6>Ecommerce Development Agency</h6> */}
     <h3>
-    Kushel Digi’s BigCommerce Development Services
+    Kushel Digi BigCommerce Development Services
 
     </h3>
     <p>
