@@ -15,10 +15,10 @@ function Advance() {
         <div className="left-b2b-cards">
           <div className="left-b2b-card">
             <div className="b2b-logo">
-              <img loading='lazy' width="599" height="299" 
-              // src="https://res.cloudinary.com/dgif730br/image/upload/v1743490318/rajet_images_1_xgnc6s.png"
-              src='https://res.cloudinary.com/dgif730br/image/upload/v1743494410/asit-sir-1_po87pn.png'
-               alt="Shopify Plus" />
+              <img loading='lazy' width="599" height="299"
+                // src="https://res.cloudinary.com/dgif730br/image/upload/v1743490318/rajet_images_1_xgnc6s.png"
+                src='https://res.cloudinary.com/dgif730br/image/upload/v1743686387/asit-sir-4_xa7bco.jpg'
+                alt="Shopify Plus" />
             </div>
             <div className="b2b-contain">
               <h3 className="b2b-headsss">B2B</h3>
@@ -35,10 +35,10 @@ function Advance() {
           </div>
           <div className="left-b2b-card-2" id='leftb2ca'>
             <div className="b2b-logo">
-              <img loading='lazy' width="599" height="299" 
-              // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806526/b13_cmmanq.webp" 
-              src='https://res.cloudinary.com/dgif730br/image/upload/v1743494409/asit-sir-3_d8ay6u.png'
-              alt="Shopify Plus" />
+              <img loading='lazy' width="599" height="299"
+                // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806526/b13_cmmanq.webp" 
+                src='https://res.cloudinary.com/dgif730br/image/upload/v1743686387/asit-sir-1_xchvkj.jpg'
+                alt="Shopify Plus" />
             </div>
             <div className="b2b-contain">
               <h3 className="b2b-headsss">Multi-vendor</h3>
@@ -57,10 +57,10 @@ function Advance() {
         <div className="right-b2b-cards">
           <div className="right-b2b-card">
             <div className="b2b-logo">
-              <img loading='lazy' width="599" height="299" 
-              // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806527/b12_tpd0aj.webp" 
-              src='https://res.cloudinary.com/dgif730br/image/upload/v1743494409/asit-sir-2_sa2zzu.png'
-              alt="Shopify Plus" />
+              <img loading='lazy' width="599" height="299"
+                // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806527/b12_tpd0aj.webp" 
+                src='https://res.cloudinary.com/dgif730br/image/upload/v1743686387/asit-sir-2_zu30hm.jpg'
+                alt="Shopify Plus" />
             </div>
             <div className="b2b-contain">
               <h3 className="b2b-headsss">B2C</h3>
@@ -77,10 +77,10 @@ function Advance() {
           </div>
           <div className="right-b2b-card">
             <div className="b2b-logo">
-              <img loading='lazy' width="599" height="299" 
-              // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806526/b14_y69yn7.webp"
-              src='https://res.cloudinary.com/dgif730br/image/upload/v1743494409/asit-sir-4_amag5n.png' 
-              alt="Shopify Plus" />
+              <img loading='lazy' width="599" height="299"
+                // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806526/b14_y69yn7.webp"
+                src='https://res.cloudinary.com/dgif730br/image/upload/v1743686386/asit-sir-3_nkuizh.jpg'
+                alt="Shopify Plus" />
             </div>
             <div className="b2b-contain">
               <h3 className="b2b-headsss">D2C</h3>
