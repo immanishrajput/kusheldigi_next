@@ -40,7 +40,7 @@ const Result1 = () => {
     
         </div>
      
-      <p ref={descriptionRef} className={`descriptionCon3 ${isVisible ? "visible" : ""}`}>
+      <p ref={descriptionRef} className={`descriptionCon3 ${!isVisible ? "visible" : ""}`}>
       As a certified bigcommerce partner, Kushel Digi Solutions has a successful proven track record in offering modern BigCommerce solutions to grow your business.Our experts work to make sure that your online store is not  just functional but optimized for success.
       </p>
     </div>

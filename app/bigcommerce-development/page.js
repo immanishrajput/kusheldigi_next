@@ -1,98 +1,34 @@
 "use client"
-import React, { useEffect } from 'react'
-import BigHeader from './BigHeader/Page'
-import BigSection2 from './BigSection2/page'
-// import "./header.css"
-import BigSection3 from './BigSection3/page'
-import Bigsection6 from './Bigsection6/page'
-import BigSection7 from './BigSection7/page'
-import Home2Section10 from '../components/Home/Home2Section10'
-import Home2Testimonial from '../components/Home/Home2Testimonial'
-import YourProject from './YourProject/page'
-import ContactForm1 from '../COMMON/ContactForm1'
-import Home2BrandSwiper from '../components/Home/Home2BrandSwiper'
-import BigSection8 from './BigSection8/page'
-import BigSection5 from './BigSection5/page'
-import BigAskQuestion from './BigAskQuestion/page'
-import '../globals.css'
+import React from 'react'
+import BigBanner3 from './BigBanner3/page'
+import BigBanner4 from './BigBanner4/page'
+import BigBanner6 from './BigBanner6/page'
+import BigBanner7 from './BigBanner7/page'
+import BigBanner8 from './BigBanner8/page'
+import BannerMain from './BannerMain/page'
+import Process from './Process/page'
 import Navbar from '../COMMON/Navbar'
+import Banner10 from '../ecommerce-development/Banner9/page'
 import Footer from '../COMMON/Footer'
-// import { Helmet } from 'react-helmet';
-
-const phoneNumber = "9045301702";
-
-  const whatAppHandler = () => {
-    const whatsappUrl = `https://wa.me/${phoneNumber}`;
-    window.open(whatsappUrl, "_blank");
-  };
-  const callHandler = () => {
-    const callUrl = `tel:${phoneNumber}`;
-    window.open(callUrl, "_blank");
-  }
-function BigCommerce3({ notify }) {
-   const generateMetadata = ({ params }) => ({
-                title: 'Top-notch Big commerce development services',
-                description: "Kushel Digi Solutions elevates your business with top-notch big commerce website, Our best Big-commerce development service is expert to create eCommerce stores"
-              });
-              
-            useEffect(() => {
-                const { title, description } = generateMetadata({ params: {} });
-                document.title = title;
-                let metaDescription = document.querySelector('meta[name="description"]');
-                metaDescription ? metaDescription.content = description : 
-                  document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-              }, []);
+import BigBanner9 from '../bigcommerce-development/BigBanner9/page'
+import BigAskQuestion from '../bigcommerce-development1/BigAskQuestion/page'
+const page = () => {
   return (
-    <>
-    <Navbar/>
-     
-      <div className="home-main">
-
-        <BigHeader />
-
-        <BigSection2 />
-
-        <p className="linesbig"></p>
-
-        <BigSection3 />
-
-        <Home2BrandSwiper title={"Featured Technology Partners"} />
-
-        <BigSection5 />
-
-        <Bigsection6 />
-
-        <BigSection7 />
-
-        <BigSection8 />
-
-        {/* <BigSection9  /> */}
-
-        <Home2Section10 heading={"EMPOWERING INDUSTRIES WITH OUR EXPERT SOLUTIONS"} para={"We have expertise in multiple industries, providing custom digital solutions for growth and success. Be it in transforming customer experience or operational excellence, we engineer technology that caters specifically to your business needs."} />
-
-        <Home2Testimonial />
-
-        <YourProject />
-
-        <BigAskQuestion />
-        {/* <Home2AskQuestion /> */}
-
-        <ContactForm1 notify={notify} />
-
-
-        <div className="whtsApBtns">
-          <button onClick={whatAppHandler}>
-            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
-          </button>
-          <button onClick={callHandler}>
-            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991783/telephone_k9aecl.png' alt="call-icon" title="call-icon" />
-          </button>
-
-        </div>
-      </div>
-      <Footer/>
-    </>
+    <div>
+      <Navbar/>
+      <BannerMain/>
+      <BigBanner8/>
+      <BigBanner7/>
+      <BigBanner3/>
+      <Banner10/>
+      <Process/>
+      <BigBanner6/>
+        <BigBanner4/>
+        <BigAskQuestion/>
+     <BigBanner9/>
+        <Footer/>
+    </div>
   )
 }
 
-export default BigCommerce3
+export default page

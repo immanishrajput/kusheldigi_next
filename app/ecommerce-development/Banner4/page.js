@@ -7,7 +7,7 @@ const Banner4 = () => {
   return (
     <>
 <section className="sec--2">
-  <container className="con--2">
+  <div className="con--2">
     <div className="con--2-div">
       <div>
         <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742922711/audit-graphic-2_l7tlcv.png" alt="" className="audit-img" />
@@ -25,7 +25,7 @@ const Banner4 = () => {
         </button>
       </div>
     </div>
-  </container>
+  </div>
 </section>
     </>
   )
