@@ -28,16 +28,16 @@ function Home2Section10({ heading, heading1, para }) {
           <p>{para}</p>
         </div>
 
-        <div className="s10items">
+        <div className="industries-services-container">
           {data.map((d, i) => (
-            <div key={i} className="singles1item">
+            <div key={i} className="industries-services">
               {/* Use Next.js Image component for image optimization */}
               <Image loading='lazy' src={d.img} alt={d.title} className="itemImage" width={300} height={200} />
               <div className="itemdata">
                 <div className="dtitlhead">
-                  <span>{d.title}</span>
+                  <span className='industries-card-title'>{d.title}</span>
                 </div>
-                <p>{d.desc}</p>
+                <p className='industries-card-para'>{d.desc}</p>
               </div>
             </div>
           ))}
@@ -55,18 +55,18 @@ function Home2Section10({ heading, heading1, para }) {
             arrows: false,
             pagination: false,
           }}
-          className="ho2s6slider"
+          className="mobile-industries-container"
         >
           {data.map((d, i) => (
             <SplideSlide key={i}>
-              <div className={`singles1item addmarginauto`}>
+              <div className={`industries-services`}>
                 {/* Use Next.js Image component for image optimization */}
                 <Image loading='lazy' src={d.img} alt={d.title} className="itemImage" width={300} height={200} />
                 <div className="itemdata">
                   <div className="dtitlhead">
-                    <span>{d.title}</span>
+                    <span className='industries-card-title'>{d.title}</span>
                   </div>
-                  <p>{d.desc}</p>
+                  <p className='industries-card-para'>{d.desc}</p>
                 </div>
               </div>
             </SplideSlide>
