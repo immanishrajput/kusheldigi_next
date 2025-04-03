@@ -12,7 +12,7 @@ const Website = () => {
   const [secondNo, setSecondNo] = useState(0);
   const [userAnswer, setUserAnswer] = useState("");
   const [correctAnswer, setCorrectAnswer] = useState(0);
-  const [captchaVerified,setCaptchaVerified] = useState(false);
+  const [captchaVerified, setCaptchaVerified] = useState(false);
 
   const generateCaptcha = () => {
     const num1 = Math.floor(Math.random() * 10);
@@ -58,24 +58,24 @@ const Website = () => {
   const handleForm = async (e) => {
     e.preventDefault();
     if (
-      formData.firstName.trim() === '' || 
-      formData.phone.trim() === '' || 
-      formData.email.trim() === '' || 
-      formData.message.trim() === '91' 
+      formData.firstName.trim() === '' ||
+      formData.phone.trim() === '' ||
+      formData.email.trim() === '' ||
+      formData.message.trim() === '91'
     ) {
       alert("Please fill all the fields!!");
       return;
     }
-    if(!captchaVerified){
+    if (!captchaVerified) {
       alert("Please Verify the Captcha !!");
       generateCaptcha();
       return;
     }
     if (parseInt(userAnswer) !== correctAnswer) {
       alert("Wrong Captcha! Try again.");
-      generateCaptcha(); 
+      generateCaptcha();
       setCaptchaVerified(false);
-      return; 
+      return;
     }
     setLoading(true);
     try {
@@ -132,32 +132,70 @@ const Website = () => {
                 </p>
                 <h3 className="us-number">+1-585-566-2070</h3>
                 <p className="country">United States</p>
-                <img
-                loading="lazy"
-                  // src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1741867204/phone-png_kjwe3t.png"
-                  src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1741867204/phone-png_kjwe3t.png"
-                  alt="call"
-                  className="phone-icon"
-                />
+                <svg className="phone-icon" version="1.0" xmlns="http://www.w3.org/2000/svg"
+                  width="15" height="15" viewBox="0 0 300.000000 300.000000"
+                  preserveAspectRatio="xMidYMid meet">
+
+                  <g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)"
+                    fill="#1b76fe" stroke="none">
+                    <path d="M1473 2986 c-87 -40 -97 -178 -15 -220 15 -7 68 -17 117 -21 204 -16
+347 -54 505 -136 232 -119 417 -305 535 -540 77 -151 115 -296 130 -494 8
+-102 23 -138 65 -160 66 -34 149 -5 177 63 28 68 -3 318 -63 502 -191 583
+-709 979 -1329 1015 -67 4 -98 2 -122 -9z"/>
+                    <path d="M520 2760 c-224 -58 -400 -210 -481 -415 -21 -54 -23 -75 -22 -200 3
+-583 336 -1220 855 -1637 251 -203 553 -358 839 -432 201 -52 446 -77 554 -57
+169 31 352 175 434 342 45 91 81 218 81 283 0 46 -27 97 -64 121 -20 13 -487
+99 -909 166 -116 18 -175 -19 -197 -126 l-12 -56 -56 32 c-264 148 -525 399
+-707 679 -97 149 -94 137 -30 150 107 22 144 81 126 197 -67 422 -153 889
+-166 909 -42 65 -113 78 -245 44z"/>
+                    <path d="M1460 2408 c-47 -32 -62 -63 -56 -118 3 -35 11 -51 38 -76 31 -28 43
+-32 121 -38 335 -27 586 -278 613 -613 6 -78 10 -90 38 -121 25 -27 41 -35 76
+-38 55 -6 86 9 118 56 22 33 24 41 18 124 -15 223 -104 418 -262 578 -156 157
+-358 249 -579 264 -84 6 -92 4 -125 -18z"/>
+                  </g>
+                </svg>
+
               </div>
               <div className="contact-card">
                 <p className="call-us">
                   <img
-                   width="34"
-                   height="30"
-                  loading="lazy"
+                    width="34"
+                    height="30"
+                    loading="lazy"
                     src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742367985/istockphoto-1471401435-612x612-removebg-preview_yk8kie.png"
                     alt="call"
                   />
                 </p>
                 <h3 className="us-number">+91 9045301702</h3>
                 <p className="country">India</p>
-                <img
+                {/* <img
                   loading="lazy"
                   src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1741867204/phone-png_kjwe3t.png"
                   alt="call"
                   className="phone-icon"
-                />
+                /> */}
+                <svg className="phone-icon" version="1.0" xmlns="http://www.w3.org/2000/svg"
+                  width="15" height="15" viewBox="0 0 300.000000 300.000000"
+                  preserveAspectRatio="xMidYMid meet">
+
+                  <g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)"
+                    fill="#1b76fe" stroke="none">
+                    <path d="M1473 2986 c-87 -40 -97 -178 -15 -220 15 -7 68 -17 117 -21 204 -16
+347 -54 505 -136 232 -119 417 -305 535 -540 77 -151 115 -296 130 -494 8
+-102 23 -138 65 -160 66 -34 149 -5 177 63 28 68 -3 318 -63 502 -191 583
+-709 979 -1329 1015 -67 4 -98 2 -122 -9z"/>
+                    <path d="M520 2760 c-224 -58 -400 -210 -481 -415 -21 -54 -23 -75 -22 -200 3
+-583 336 -1220 855 -1637 251 -203 553 -358 839 -432 201 -52 446 -77 554 -57
+169 31 352 175 434 342 45 91 81 218 81 283 0 46 -27 97 -64 121 -20 13 -487
+99 -909 166 -116 18 -175 -19 -197 -126 l-12 -56 -56 32 c-264 148 -525 399
+-707 679 -97 149 -94 137 -30 150 107 22 144 81 126 197 -67 422 -153 889
+-166 909 -42 65 -113 78 -245 44z"/>
+                    <path d="M1460 2408 c-47 -32 -62 -63 -56 -118 3 -35 11 -51 38 -76 31 -28 43
+-32 121 -38 335 -27 586 -278 613 -613 6 -78 10 -90 38 -121 25 -27 41 -35 76
+-38 55 -6 86 9 118 56 22 33 24 41 18 124 -15 223 -104 418 -262 578 -156 157
+-358 249 -579 264 -84 6 -92 4 -125 -18z"/>
+                  </g>
+                </svg>
               </div>
             </div>
             <span className="clients">Our Clients</span>
@@ -170,7 +208,7 @@ const Website = () => {
                 src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446905/LOGOS-1_dhbr7h.png"
                 // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743073826/contact-upper-companies_pwuwvi.png"
                 alt="companies"
-                style={{margin:'0px auto',width:'70%',}}
+                style={{ margin: '0px auto', width: '70%', }}
               />
               <img
                 width="387"
@@ -180,7 +218,7 @@ const Website = () => {
                 src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446905/LOGO-2_mhkyhy.png"
                 // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743073826/contact-below-companies_qyrqms.png"
                 alt="companies"
-                style={{margin:'15px auto',width:'60%',}}
+                style={{ margin: '15px auto', width: '60%', }}
               />
             </div>
           </div>
@@ -277,7 +315,7 @@ const Website = () => {
                 </div>
 
 
-{/* //   <label htmlFor="phoneNo" className="contact-label">
+                {/* //   <label htmlFor="phoneNo" className="contact-label">
 //     Phone Number
 //   </label>
 //   <input
@@ -299,60 +337,60 @@ const Website = () => {
 // </div> */}
 
               </div>
-          <div className="contact-div">
-            <label htmlFor="email" className="contact-label">
-              Business Email
-            </label>{" "}
-            <br />
-            <input
-              className="contact-input contact-emailInput"
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Email"
-              value={formData?.email}
-              onChange={handleFormChange}
-              required
-            />
-          </div>
-          <div className="contact-div">
-            <label htmlFor="message" className="contact-label">
-              Project Description
-            </label>{" "}
-            <br />
-            <textarea
-              className="contact-textArea"
-              name="message"
-              id="message"
-              placeholder="How Can We Help You?"
-              required
-              value={formData?.message}
-              onChange={handleFormChange}
-            ></textarea>
-          </div>
+              <div className="contact-div">
+                <label htmlFor="email" className="contact-label">
+                  Business Email
+                </label>{" "}
+                <br />
+                <input
+                  className="contact-input contact-emailInput"
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email"
+                  value={formData?.email}
+                  onChange={handleFormChange}
+                  required
+                />
+              </div>
+              <div className="contact-div">
+                <label htmlFor="message" className="contact-label">
+                  Project Description
+                </label>{" "}
+                <br />
+                <textarea
+                  className="contact-textArea"
+                  name="message"
+                  id="message"
+                  placeholder="How Can We Help You?"
+                  required
+                  value={formData?.message}
+                  onChange={handleFormChange}
+                ></textarea>
+              </div>
 
-          <div className="captcha-box">
-            <div className="inputcapt">
-              <span>{`${firstNo} + ${secondNo} = `}</span>
-              <input
-                type="number"
-                value={userAnswer}
-                onChange={(e) => setUserAnswer(e.target.value)}
-                required
-                id="ans-captch"
-              />
-            </div>
-            <span className="captcha-btn" onClick={verifyCaptcha}>
-              Verify Captcha
-            </span>
-          </div>
+              <div className="captcha-box">
+                <div className="inputcapt">
+                  <span>{`${firstNo} + ${secondNo} = `}</span>
+                  <input
+                    type="number"
+                    value={userAnswer}
+                    onChange={(e) => setUserAnswer(e.target.value)}
+                    required
+                    id="ans-captch"
+                  />
+                </div>
+                <span className="captcha-btn" onClick={verifyCaptcha}>
+                  Verify Captcha
+                </span>
+              </div>
 
-          <button className="contact-htmlForm-btn" type="submit">
-            {loading ? 'Sending...' : "Submit"}
-          </button>
-        </form>
-      </div>
-    </div>
+              <button className="contact-htmlForm-btn" type="submit">
+                {loading ? 'Sending...' : "Submit"}
+              </button>
+            </form>
+          </div>
+        </div>
       </div >
     </div >
   );
