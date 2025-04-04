@@ -36,9 +36,11 @@ export default function Banner10() {
           Explore how our custom solutions have helped businesses to shine in this competitive world.
           </p>
         </div>
-        <button className="viewAllBtnKcom">
           <Link href="/portfolio">
-          View All Work </Link></button>
+        <button className="viewAllBtnKcom">
+          View All Work 
+          </button>
+          </Link>
 
       </div>
 
@@ -89,10 +91,10 @@ export default function Banner10() {
         <div className="right-b2b-cardKcom">
           <div className="b2b-logoKcom">
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743402463/lovely-6-page-5_t6orct.jpg" alt="Shopify Plus" />
-            <Link href="https://blackrhinoconcealment.com/" id="human" className="hover-linkCom">View Case Study <MdArrowOutward /> </Link>
+            <Link href="/portfolio" id="human" className="hover-linkCom">View Case Study <MdArrowOutward /> </Link>
           </div>
          
-          <a href="https://blackrhinoconcealment.com/" className="b2b-btnKcom">
+          <a href="/portfolio" className="b2b-btnKcom">
           Blank Rhino
             <p>eCommerce</p>
           </a>

@@ -19,7 +19,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     width: 100%;
   }
   
@@ -49,7 +49,8 @@
     align-items: center;
     padding: 15px 30px;
     border-radius: 30px;
-    border: none;
+    /* border: none; */
+    border: 1px solid #0c61ff;
     font-size: 18px;
     background-color: #0c61ff;
     color: rgba(255, 255, 255, 0.873);

@@ -2,6 +2,7 @@
 import React from 'react'
 import './BigBanner4.css'
 import { FaArrowRight } from 'react-icons/fa'
+import Link from 'next/link'
 const Flex = () => {
   return (
     <>
@@ -18,9 +19,11 @@ const Flex = () => {
       </div>
 
       <div>
-        <button className="btn-auditCom">
-        Let’s Discuss <FaArrowRight/>
-        </button>
+      <Link href="/contact-us"> 
+         <button className="btn-auditCom">
+         Let’s Discuss <FaArrowRight/>
+         </button>
+         </Link>
       </div>
       </div>
      </div>

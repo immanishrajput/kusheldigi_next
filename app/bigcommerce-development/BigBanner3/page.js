@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
 import './BigBanner3.css'
+import Link from 'next/link'
 const Page = () => {
   return (
     <>
@@ -15,7 +16,8 @@ const Page = () => {
     <p>
     Kushel Digi is committed to deliver your dream ecommerce store with high powered Bigcommerce solutions. 
     </p>
-    <button>Get a Free Consultation Today</button>
+    {/* <button>Get a Free Consultation Today</button> */}
+    <Link href="contact-us">  <button>Get a Free Consultation Today</button></Link>
   </div>
   <section className="Bright-sectionEcom">
     <div className="Bicontent-blockEcom">

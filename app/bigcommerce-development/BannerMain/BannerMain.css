@@ -1,7 +1,8 @@
 .case-study-container {
     max-width: 1720px;
     margin: 0 auto;
-    padding: 170px 60px 20px;
+    /* padding: 170px 60px 20px; */
+    padding: 140px 0px 20px 0px;
 }
 
 .case-card {
@@ -10,7 +11,7 @@
     margin: auto;
     position: relative;
     overflow: hidden;
-    border-radius: 12px;
+    /* border-radius: 12px; */
 }
 
 .case-img {
@@ -62,7 +63,7 @@
 
 .card-info {
     position: absolute;
-    left: 40px;
+    left: 50px;
     top: 50%;
     transform: translateY(-50%); 
     width: 400px;
@@ -107,12 +108,13 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    padding: 20px 0px 0px 0px;
 }
 
 .bigcommerce-banner-btn {
     background: #0c61ff;
     color: white;
-    padding: 10px 20px;
+    padding: 13px 20px;
     border-radius: 60px;
     font-size: 14px;
     border: 1px solid #0c61ff;
@@ -131,8 +133,8 @@
     display: flex;
     align-items: center;
     gap: 9px;
-    border: 1px solid #000;
-    color: #000;
+    border: 1px solid #0c61ff;
+    color: #0c61ff;
     padding: 13px 20px;
 }
 

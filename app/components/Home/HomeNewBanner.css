@@ -93,8 +93,8 @@
 
 .transparent {
     background-color: transparent;
-    color: black;
-    border: 1px solid black;
+    color: #0c61ff ;
+    border: 1px solid #0c61ff;
     display: flex;
     align-items: center;
     gap: 10px;

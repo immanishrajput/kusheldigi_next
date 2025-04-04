@@ -1,5 +1,5 @@
 "use client"
-import React from 'react'
+import { useEffect } from 'react'
 import BigBanner3 from './BigBanner3/page'
 import BigBanner4 from './BigBanner4/page'
 import BigBanner6 from './BigBanner6/page'
@@ -12,7 +12,21 @@ import Banner10 from '../ecommerce-development/Banner9/page'
 import Footer from '../COMMON/Footer'
 import BigBanner9 from '../bigcommerce-development/BigBanner9/page'
 import BigAskQuestion from '../bigcommerce-development1/BigAskQuestion/page'
+import HomeForm from '../components/Home/HomeForm'
+
 const page = () => {
+  const generateMetadata = ({ params }) => ({
+                  title: 'Top-notch Big commerce development services',
+                  description: "Kushel Digi Solutions elevates your business with top-notch big commerce website, Our best Big-commerce development service is expert to create eCommerce stores"
+                });
+                
+              useEffect(() => {
+                  const { title, description } = generateMetadata({ params: {} });
+                  document.title = title;
+                  let metaDescription = document.querySelector('meta[name="description"]');
+                  metaDescription ? metaDescription.content = description : 
+                    document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+                }, []);
   return (
     <div>
       <Navbar/>
@@ -24,8 +38,10 @@ const page = () => {
       <Process/>
       <BigBanner6/>
         <BigBanner4/>
+        <BigBanner9/>
+        
         <BigAskQuestion/>
-     <BigBanner9/>
+    <HomeForm/>
         <Footer/>
     </div>
   )

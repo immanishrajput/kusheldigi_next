@@ -45902,7 +45902,7 @@ video {
     align-items: center;
     gap: 20px;
     margin: auto;
-    justify-content: center !important;
+    justify-content: space-around !important;
     gap: 100px;
 }
 
@@ -73369,6 +73369,7 @@ input::-webkit-inner-spin-button {
     }
 
     .faqr-item.expanded .faqr-answer {
+        width:100%;
         line-height: 20px;
     }
 

@@ -74,8 +74,8 @@ const CaseStudy = () => {
                             ))
                         }
                         <div className='flex-bigcommerce-banner-btns'>
-                        <a href='#form-section' className='bigcommerce-banner-btn' onClick={handleClick}>Talk to a Consultant</a>
-                        <button className='bigcommerce-banner-btn big-transparent-btn' >  Book a Call  <FaArrowRightLong /></button>
+                        <a href='#form-section' className='bigcommerce-banner-btn' >Talk to a Consultant</a>
+                        <Link href="/contact-us"> <button className='bigcommerce-banner-btn big-transparent-btn' >  Book a Call  <FaArrowRightLong /></button></Link>
                     </div>
                     </div>
                     <div className='small-icons-div'>

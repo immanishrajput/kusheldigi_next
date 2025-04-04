@@ -20,7 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     width: 100%;
   }
   
@@ -42,7 +42,7 @@
     line-height: 54px !important;
     color: rgba(34, 32, 32, 0.873);
   }
-  .btn-audit a{
+  .btn-audit{
     display: flex;
     align-items: center;
     gap: 5px;
