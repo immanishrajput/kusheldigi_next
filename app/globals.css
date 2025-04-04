@@ -18592,14 +18592,15 @@ body {
 }
 
 .testswipsingle {
-    width: 550px;
-    height: 340px;
+    /* width: 550px; */
+    /* height: 340px; */
     padding: 30px;
     border-radius: 10px;
     display: flex;
-    gap: 18px;
+    gap: 15px;
     flex-direction: column;
-    background: #fff
+    background: #fff;
+    position:relative;
 }
 
 .testswipsingle img {
@@ -18616,11 +18617,16 @@ body {
     color: #222
 }
 
-.projectre,
+.home-testi-name {
+    position: absolute;
+    left: 28px;
+    bottom: 14px;
+}
+
 .reviewname {
     font-family: sf-ui-display-medium, sans-serif;
     font-size: 18px;
-    line-height: 28px;
+    /* line-height: 28px; */
     text-align: left;
     color: #222
 }
@@ -18630,7 +18636,9 @@ body {
 }
 
 .projectre {
-    font-weight: 500
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: -5px;
 }
 
 .roudned,
