@@ -82,7 +82,7 @@ function Home2Testimonial() {
           ref={splideRef}
           options={{
             type: 'loop',
-            perPage: 2,
+            perPage: 3,
             perMove: 1,
             rewind: true,
             autoplay: true,
@@ -97,7 +97,7 @@ function Home2Testimonial() {
                 gap: "20px",
               },
               1450: {
-                perPage: 2,
+                perPage: 3,
                 gap: '20px',
               },
             },
@@ -107,21 +107,12 @@ function Home2Testimonial() {
             <div className='testswipsingle'>
               <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
               <p className='reviewsss'>
-                Extremely satisfied with the website developed by Kushel Digi Solutions. The new site effectively presents our diverse slide offerings and makes it easy for users to find and purchase what they need. The sleek design and intuitive navigation have significantly improved engagement with our users.
+              Kushel Digi Solutions delivered exceptional ecommerce development services and helped us built a highly functional online platform. The team's technical skills and experience is really commendable which provided a seamless digital upgrade. 
               </p>
-              <p className='reviewname'>Anu Koteshwara</p>
-              <p className='projectre'>Slides365</p>
-            </div>
-          </SplideSlide>
-
-          <SplideSlide>
-            <div className='testswipsingle'>
-              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
-              <p className='reviewsss'>
-                Mithal Industries is highly impressed with the website development and social media management services taken up by Kushel Digi Solutions. Indeed, our new website is modern, efficient, and has increased our digital presence tremendously. Their strategies on social media work; brand awareness and engagement are increased.
-              </p>
+              <div className='home-testi-name'>
               <p className='reviewname'>Shikhar Mithal</p>
               <p className='projectre'>Mithal Industries</p>
+              </div>
             </div>
           </SplideSlide>
 
@@ -129,9 +120,25 @@ function Home2Testimonial() {
             <div className='testswipsingle'>
               <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
               <p className='reviewsss'>
-                SMV industries are satisfied with the efforts of Kushel Digi that have streamlined our service processes, making it easier for clients to access information and engage with us. The enhanced digital presence has boosted our operational efficiency and client interactions. Kushel Digi Solutions truly understands our industry needs and has delivered exceptional results.
+              From designing to execution, Kushel Digi Solutions was the best choice for the innovative development of our project. Their expertise as well as attention to detail in website development & BigCommerce solutions ensured to enhance our digital strategy and user's online experience. 
               </p>
-              <p className='projectre'>SMV Inspections Incorporation</p>
+             <div className='home-testi-name'>
+               <p className='reviewname'> Annu Koteshwara</p>
+              <p className='projectre'>Slides365</p>
+             </div>
+            </div>
+          </SplideSlide>
+
+          <SplideSlide>
+            <div className='testswipsingle'>
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
+              <p className='reviewsss'>
+              Kushel Digi Solutions understands the core of eCommerce development and gives BigCommerce solutions which turned out as a massive game changer for our online business storefront. Their team of professionals helped gaining us scalability and improved customer service experience. 
+              </p>
+            <div className='home-testi-name'>
+            <p className='reviewname'>Aron Kiefer</p>
+            <p className='projectre'>MyCrazySimpleCMS</p>
+            </div>
             </div>
           </SplideSlide>
 
@@ -141,14 +148,16 @@ function Home2Testimonial() {
             <div className='testswipsingle'>
               <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
               <p className='reviewsss'>
-                Mithal Industries is highly impressed with the website development and social media management services taken up by Kushel Digi Solutions. Indeed, our new website is modern, efficient, and has increased our digital presence tremendously. Their strategies on social media work; brand awareness and engagement are increased.
+              Working with Kushel Digi Solutions was a fantastic experience. Their strategic approach to eCommerce development and website development exceeded our expectations, therefore made the entire process reliable and hassle free. The team was highly responsive and offered customised solutions for every problem.
               </p>
-              <p className='reviewname'>Shikhar Mithal</p>
-              <p className='projectre'>Mithal Industries</p>
+             <div className='home-testi-name'>
+             <p className='reviewname'>Rupam Ray </p>
+             <p className='projectre'>Nirviex.in</p>
+             </div>
             </div>
           </SplideSlide>
 
-          <SplideSlide>
+          {/* <SplideSlide>
             <div className='testswipsingle'>
               <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
               <p className='reviewsss'>
@@ -156,7 +165,7 @@ function Home2Testimonial() {
               </p>
               <p className='projectre'>SMV Inspections Incorporation</p>
             </div>
-          </SplideSlide>
+          </SplideSlide> */}
         </Splide>
       </div>
     </div>
