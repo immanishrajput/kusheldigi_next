@@ -8,10 +8,10 @@ const BigBanner9 = () => {
   <container className="conflict--1">
     <div className="conflict--1-div">
       <h6> Kushel Digi Solutions Your Go-To Partner for Reliable and Scalable BigCommerce Integration Services</h6>
-      <h4>Kushel Digi Solutions, a certified BigCommerce partner, delivers reliable and scalable BigCommerce integration services. From seamless third-party integrations to advanced eCommerce customization, we ensure your online store is optimized for performance, scalability, and growth. Trust us to elevate your eCommerce business with cutting-edge BigCommerce solutions.</h4>
+      <h4>Kushel Digi Solutions, a certified BigCommerce partner, delivers seamless integrations, custom development, and scalable eCommerce solutions. We optimize your online store for performance, growth, and user experience, helping you succeed in the competitive eCommerce landscape.</h4>
     </div>
     <div className="conflict--1-flex">
-      <div className="conflict--1-flex-content">
+      <div className="con--1-flex-content">
         <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742923538/pro_eiy2ak.svg" alt="" className="iconnImage" />
         <h5>Payment Gateway Integration
         </h5>

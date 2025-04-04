@@ -14,8 +14,8 @@ const Banner3 = () => {
     <p>
     Since 2017, Kushel Digi has been delivering Custom Ecommerce Solutions for more than 1000+ clients across globe. We are committed to help your business grow faster. 
     </p>
-    <button> <Link href="/contact-us">
-      Get a Free Consultation Today </Link></button>
+     <Link href="/contact-us"><button>
+      Get a Free Consultation Today</button> </Link>
   </section>
   <section className="right-sectionEcom">
     <div className="content-blockEcom">

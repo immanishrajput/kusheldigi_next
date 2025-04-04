@@ -58,12 +58,13 @@ const services = [
 const Cards = () => {
     var settings = {
         dots: true,
-        infinite: false,
+        infinite: true,
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
         initialSlide: 0,
         autoplay:true,
+        speed: 3000,
         responsive: [
           {
             breakpoint: 1024,
@@ -96,7 +97,7 @@ const Cards = () => {
       <div className="biggsec">
         <div className="itemss">
           <h1>
-          Why BigCommerce Development by 
+          Why Choose  BigCommerce Development by 
 Kushel Digi Solutions?
 
           </h1>

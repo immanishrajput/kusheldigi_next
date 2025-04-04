@@ -19,10 +19,11 @@ const Banner4 = () => {
         </p>
       </div>
       <div>
+          <Link href="/contact-us">
         <button className="btn-audit">
-          <Link href="contact-us">
-        Talk to Our Experts Now! <FaArrowRight/> </Link>
+        Talk to Our Experts Now! <FaArrowRight/> 
         </button>
+        </Link>
       </div>
     </div>
   </div>

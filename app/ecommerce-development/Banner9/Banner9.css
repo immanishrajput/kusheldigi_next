@@ -9,7 +9,7 @@
 .projectsHeaderKcom {
 
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 40px;
   gap: 40px;
@@ -179,6 +179,7 @@ transform: translateY(-5px);
 .b2b-btnKcom {
   font-weight: 600;
   color: #000000;
+  padding:7px;
   text-decoration: none;
   font-size: 20px;
   display: flex;

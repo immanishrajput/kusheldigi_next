@@ -159,11 +159,11 @@ const Slider = () => {
 
                   Black Rhino is a minority-owned small business in Lowell, Indiana has been a pioneer of custom Kydex holsters and accessories.
                 </p>
-                <a target="_blank" href="https://blackrhinoconcealment.com">
+                <Link href="/portfolio">
                   <button className="left-carousel-btn blue-bg right-carousel-inner-btn">
                     View Case Study
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </SwiperSlide>

@@ -2,14 +2,14 @@
     font-family: 'Arial', sans-serif;
     max-width: 1740px;
     margin: auto;
-    padding: 50px 50px;
+    padding: 40px 50px;
 }
 
 .mainBcoSe {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 10%;
+    gap: 9%;
 
 }
 
@@ -18,15 +18,15 @@
 }
 
 .smallcomtext {
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 28px;
+    font-weight: 600;
 }
 
 .bcomcImd {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 50px;
+    gap: 80px;
 }
 
 .logoImgcbom img {
@@ -41,7 +41,7 @@
     width: 760px;
     font-size: 25px;
     line-height: 1.5;
-    font-weight: 500;
+    font-weight: 400;
 
     color: black;
     transition: color 0.5s ease-in-out;

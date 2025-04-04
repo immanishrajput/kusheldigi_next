@@ -56,9 +56,10 @@ const Banner = () => {
                 <a href="#form-section" className="primary-btn">
                   Book A Call<FaArrowRight/>
                 </a>
-                <button className="secondary-btn">
-                <Link href="/contact-us"> TALK TO A CONSULTANT</Link>
-                </button>
+                <Link href="/contact-us">
+                 <button className="secondary-btn">
+                  TALK TO A CONSULTANT
+                 </button></Link>
               </div>
             </div>
           </div>
