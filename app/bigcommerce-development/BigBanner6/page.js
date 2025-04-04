@@ -55,7 +55,7 @@ const services = [
     className: "gray",
   },
 ];
-const Cards = () => {
+const Cards = ({page}) => {
     var settings = {
         dots: true,
         infinite: true,
@@ -97,7 +97,7 @@ const Cards = () => {
       <div className="biggsec">
         <div className="itemss">
           <h1>
-          Why Choose  BigCommerce Development by 
+          Why Choose {page}  Development by 
 Kushel Digi Solutions?
 
           </h1>

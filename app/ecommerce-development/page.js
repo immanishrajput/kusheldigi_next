@@ -17,6 +17,8 @@ import UseAccorrodian from '../COMMON/UseAccorrodian'
 import HomeForm from '../components/Home/HomeForm'
 import HomeFlax from '../components/Home/HomeFlax'
 import HomeCardSection from '../components/Home/HomeCardSection'
+import BlogSection from '../COMMON/BlogSection/BlogSection';
+import BigBanner6 from "../bigcommerce-development/BigBanner6/page";
 const Page = () => {
   return (
     <div>
@@ -41,6 +43,7 @@ const Page = () => {
         <Banner5/>
         <Banner8/>
         <Banner7/>
+        <BigBanner6 page='Ecommerce'/>
         <Banner10/>
         <Banner6/>
        
@@ -50,7 +53,7 @@ const Page = () => {
       
     
       
-       
+        <BlogSection/> 
         <UseAccorrodian/>
         <HomeForm/>
         <Footer/>
