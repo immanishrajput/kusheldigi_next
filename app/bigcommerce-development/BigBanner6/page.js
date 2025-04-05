@@ -76,7 +76,7 @@ const Cards = ({page}) => {
             }
           },
           {
-            breakpoint: 600,
+            breakpoint: 768,
             settings: {
               slidesToShow: 2,
               slidesToScroll: 2,
@@ -96,14 +96,14 @@ const Cards = ({page}) => {
     <section className="Range">
       <div className="biggsec">
         <div className="itemss">
-          <h1>
+          <h1 className="primary-heading">
           Why Choose {page}  Development by 
 Kushel Digi Solutions?
 
           </h1>
         </div>
         <div className="itemsss">
-          <p>
+          <p className="seconday-heading">
           With deep BigCommerce expertise, Kushel Digi always believes in a client-centric approach to deliver customized eCommerce solutions. Here are some excellent benefits you can expect by availing our services.
 
           </p>
@@ -113,7 +113,7 @@ Kushel Digi Solutions?
           <Slider {...settings}>
             {services.map((item, index) => {
               return (
-                <div key={index} className={item.className}>
+                <div key={index} className={`${item.className} choose-us-slider-div`}>
                   <img src={item.img} alt="Implementation Icon" />
                   <h3>{item.title}</h3>
                   <p>{item.description}</p>

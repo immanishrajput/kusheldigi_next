@@ -31,7 +31,7 @@
   
   .con--2-div-content {
     width: 50%;
-    min-width: 320px;
+    /* min-width: 320px; */
     text-align: left;
   }
   
@@ -54,7 +54,7 @@
   }
   
   .btn-audit {
-    padding: 18px 35px;
+    padding: 18px;
     border-radius: 30px;
     border: none;
     font-size: 18px;
@@ -112,7 +112,7 @@
     }
   
     .btn-audit {
-      padding: 14px 30px;
+      padding: 18px;
       font-size: 16px;
     }
   
@@ -172,7 +172,7 @@
   display: flex !important;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   width: 100%;
   gap: 20px;
 }
@@ -186,7 +186,7 @@
 /* Content box */
 .con--2-div-content {
   width: 50%;
-  min-width: 320px;
+  /* min-width: 320px; */
   text-align: left;
 }
 
@@ -209,7 +209,7 @@
 }
 
 .btn-audit {
-  padding: 18px 35px;
+  padding: 18px;
   border-radius: 30px;
   border: none;
   font-size: 18px;

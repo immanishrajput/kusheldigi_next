@@ -45,6 +45,12 @@
     }
 }
 
+@media screen and (max-width:870px){
+    .industry-sec-title span::before {
+        left: 27%;
+    }
+}
+
 
 @media screen and (max-width: 767px) {
     .industry-expertise-section {
@@ -67,10 +73,9 @@
 
 .industry-expertise-header {
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     gap: 30px;
-
     padding: 0px 0px;
 }
 
@@ -219,9 +224,11 @@
     padding: 6px 0px 30px 0px;
     line-height: 29px;
     font-size: 18px;
-    width: 85%;
-   
-  
+    /* width: 85%; */ 
+}
+
+.lemon > p{
+    text-align: center;
 }
 
 .industry-infocus-boxes li a {
@@ -308,19 +315,22 @@
     font-style: italic;
     font-size: 17px;
     line-height: 2;
-    text-align: left;
+    text-align: center;
     position: relative;
     color: #000;
-    padding-left: 60px;
+    /* padding-left: 60px; */
+    display: flex;
+    justify-content: center;
 }
 .industry-sec-title span::before {
     content: "";
     height: 2px;
     width: 40px;
     position: absolute;
-    left: 0px;
+    left: 35%;
     background-color: #001033;
-    top: 9px;
+    top: 16px;
+    display: none;
 }
 
 *, :after, :before {
@@ -404,4 +414,5 @@ text-align: center;
     .heaaader-content h3{
         line-height: 25px !important;
     }
+
 }

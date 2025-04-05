@@ -7,6 +7,11 @@
     text-align: left;
     box-sizing: border-box;
   }
+
+  .con--1-div {
+    max-width: 65%;
+    margin: auto;
+  }
   
   /* Heading */
   .con--1-div h6 {
@@ -15,6 +20,7 @@
     text-transform: uppercase;
     margin-bottom: 10px;
     font-weight: 500;
+    text-align: center;
   }
   
   .con--1-div h4 {
@@ -22,6 +28,7 @@
     font-weight: 400;
     color: rgb(81, 79, 79);
     margin-top: 10px;
+    text-align: center;
   }
   
   /* Flex Container - 3 Cards in a Row */
@@ -85,18 +92,24 @@
   /* Mobile View - 1 Card Per Row */
   @media screen and (max-width: 768px) {
     .sec--1 {
-        padding: 50px 20px;
+        padding: 50px 30px;
     }
   
     .con--1-flex {
         grid-template-columns: repeat(1, 1fr); /* 1 Column */
         padding: 0;
+        margin-top: 45px;
+    }
+
+    .con--1-div {
+      max-width: 85%;
+      margin: auto;
     }
   
     .con--1-div h4 {
         font-size: 24px;
         text-align: center;
-        line-height: 25px;
+        /* line-height: 25px; */
         letter-spacing: 0;
     }
   }
@@ -106,6 +119,11 @@
     .sec--1 {
         padding: 40px 15px;
     }
+
+    .con--1-div {
+      max-width: 95%;
+      margin: auto;
+    }
   
     .iconImage {
         width: 30px;
@@ -114,7 +132,7 @@
   
     .con--1-div h4 {
         font-size: 22px;
-        text-align: left;
+        text-align: center;
     }
   
     .con--1-flex h5 {
@@ -123,7 +141,7 @@
   
     .con--1-flex p {
         font-size: 14px;
-        line-height: 24px;
+        /* line-height: 24px; */
     }
   }
   
