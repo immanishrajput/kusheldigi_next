@@ -12,7 +12,10 @@ import Banner10 from '../ecommerce-development/Banner9/page'
 import Footer from '../COMMON/Footer'
 import BigBanner9 from '../bigcommerce-development/BigBanner9/page'
 import BigAskQuestion from '../bigcommerce-development1/BigAskQuestion/page'
-import HomeForm from '../components/Home/HomeForm'
+import HomeForm from '../components/Home/HomeForm';
+import BlogSection from "../COMMON/BlogSection/BlogSection.jsx";
+import FeatureSection from './FeaturesSection/FeatureSection'
+import ServicesSection from './ServiceSection/ServiceSection'
 
 const page = () => {
   const generateMetadata = ({ params }) => ({
@@ -36,10 +39,12 @@ const page = () => {
       <BigBanner3/>
       <Banner10/>
       <Process/>
-      <BigBanner6/>
+      <BigBanner6 page='BigCommerce'/>
         <BigBanner4/>
         <BigBanner9/>
-        
+        <BlogSection/>
+        <FeatureSection/>
+        <ServicesSection/>
         <BigAskQuestion/>
     <HomeForm/>
         <Footer/>

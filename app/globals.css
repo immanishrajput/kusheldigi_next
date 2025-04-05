@@ -16303,16 +16303,16 @@ body {
 .s10top {
     display: flex;
     flex-direction: column;
-    gap: 16px;
-    max-width: 950px
+    gap: 8px;
+    max-width: unset;
 }
 
 .s10top h3 {
     font-family: Raleway;
     font-size: 38px;
     font-weight: 700;
-    line-height: 56.35px;
-    text-align: left;
+    line-height: unset;
+    text-align: center;
     color: #0E151D
 }
 
@@ -16321,7 +16321,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
-    text-align: left;
+    text-align: center;
     color: #101820
 }
 
@@ -18582,7 +18582,7 @@ body {
     font-weight: 600;
     line-height: 44px;
     text-align: left;
-    max-width: 450px
+    max-width: unset;
 }
 
 .testright {
@@ -18593,7 +18593,7 @@ body {
 
 .testswipsingle {
     /* width: 550px; */
-    /* height: 340px; */
+    min-height: 370px;
     padding: 30px;
     border-radius: 10px;
     display: flex;
@@ -49318,7 +49318,7 @@ option {
     width: 100%;
     height: fit-content;
     background-color: white;
-    padding: 40px 20px;
+    padding: 20px;
     height: 100vh;
     max-height: 100vh;
     overflow-y: scroll;
@@ -75989,3 +75989,5 @@ input::-webkit-inner-spin-button {
         margin:30px 0px 10px;
     }
 }
+
+

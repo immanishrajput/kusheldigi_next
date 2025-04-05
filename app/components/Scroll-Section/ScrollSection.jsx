@@ -14,45 +14,7 @@ const Slider = dynamic(() => import("react-slick"), { ssr: false });
 
 const ScrollAnimation = () => {
     const containerRef = useRef(null);
-    // const maskRef = useRef(null);
-
     gsap.registerPlugin(ScrollTrigger);
-
-    // useEffect(() => {
-    //     const sections = gsap.utils.toArray(".scrolled-section");
-
-        // gsap.to(sections, {
-        //     xPercent: -100 * (sections.length - 1),
-        //     ease: "none",
-        //     scrollTrigger: {
-        //         trigger: containerRef.current,
-        //         pin: true,
-        //         start:'top-=90',
-        //         scrub: 1,
-        //         end: "+=2000",
-        //     },
-        // });
-
-        // gsap.to(sections, {
-        //     xPercent: -100 * (sections.length - 1),
-        //     ease: "none",
-        //     scrollTrigger: {
-        //         trigger: containerRef.current,
-        //         pin: true,
-        //         scrub: 1,
-        //         end: "+=2000",
-        //     },
-        // });
-
-        // gsap.to(maskRef.current, {
-        //     width: "100%",
-        //     scrollTrigger: {
-        //       trigger: ".scroll-wrapper",
-        //       start: "top left",
-        //       scrub: 1,
-        //     },
-        //   });
-    // }, []);
 
     useEffect(() => {
         if (window.innerWidth <= 768) return; 
@@ -65,7 +27,7 @@ const ScrollAnimation = () => {
             scrollTrigger: {
                 trigger: containerRef.current,
                 pin: true,
-                start:'top-=95',
+                start:'top-=110',
                 scrub: 1,
                 end: "+=2000",
             },

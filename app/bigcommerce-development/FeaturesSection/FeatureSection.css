@@ -1,0 +1,56 @@
+.big-feature-outer-container {
+    max-width: 1720px;
+    margin: 0 auto;
+}
+
+.big-feature-inner-container {
+    padding: 30px 60px;
+    display: flex;
+    gap:25px;
+}
+
+.left-big-feature-container,.right-big-feature-container {
+    flex: 1;
+};
+
+h2#bigcommerce-feature-heading {
+    font-size: 2.1rem !important;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.big-feature-heading-color {
+    color: #2b2bf6;
+}
+
+.big-feature-para {
+    font-size: 1rem;
+    margin: 10px 0px 20px;
+}
+
+.left-big-feature-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.left-big-feature-grid-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.big-feature-icon {
+    font-size: 2.7rem;
+    color: #2b2bf6;
+}
+
+.big-feature-card-desc {
+    font-size: 0.9rem;
+}
+
+.right-big-feature-container > img {
+    object-position: center;
+    border-radius: 10px;
+}

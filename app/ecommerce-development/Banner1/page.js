@@ -1,21 +1,28 @@
 "use client"
 import React, { useEffect } from "react";
 import "./banner.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { FaArrowRight } from "react-icons/fa";
 import Link from "next/link";
-// import Slider from "react-slick";
+import dynamic from "next/dynamic";
+
+const Slider = dynamic(() => import("react-slick"), { ssr: false });
+
 const Banner = () => {
-  // const settings = {
-  //   dots: true,
-  //   infinite: true,
-  //   autoplay: true,
-  //   autoplaySpeed: 2500,
-  //   speed: 1000,
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1,
-  //   waitForAnimate: false,
-  //   pauseOnHover: false,
-  // };
+
+  const settings = {
+    dots: true,
+    fade: true,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 2500,
+    speed: 1000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    waitForAnimate: false,
+    pauseOnHover: false
+};
 
   useEffect(() => {
           const handleHashChange = () => {
@@ -65,32 +72,34 @@ const Banner = () => {
           </div>
 
           <div className="img-containerCo">
-          <img
-                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743079133/ecommerce-banner_tyflss.webp"
-                  alt="ecommerce"
-                  className="image-thumbnail"
-                />
-              {/* <Slider {...settings}>
-                <img
-                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741088247/MacBook_2_2_two22g.png"
-                  alt="ecommerce"
-                  className="image-thumbnail"
-                />
-                <img
-                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741088247/MacBook_2_2_two22g.png"
-                  alt="ecommerce"
-                  className="image-thumbnail"
-                />
-                <img
-                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741088247/MacBook_2_2_two22g.png"
-                  alt="ecommerce"
-                  className="image-thumbnail"
-                />
-              </Slider> */}
-            </div>
-          {/* <div className="hero-containerMaSub1"> */}
-            
-          {/* </div> */}
+          <Slider {...settings}>
+                            <img className='new-banner-scroll-img'
+                                width="486"
+                                height="463"
+                                loading='lazy'
+                                // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741088247/MacBook_2_2_two22g.png"
+                                src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1743830377/indrpal-images-3_ifezxi.png'
+                                alt="bigcommerce"
+                            />
+                            <img
+                                width="486"
+                                height="463"
+                                loading='lazy'
+                                // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742641401/immmmm-removebg-preview_yhm4on.png"
+                                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743830377/indrpal-images-2_hc9lle.png"
+                                alt="shopify"
+                            />
+                            <img className='new-banner-scroll-img'
+                                width="486"
+                                height="463"
+                                loading='lazy'
+                                // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741089462/Group_1171281256_1_znsijn.png"
+                                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743830376/indrpal-images-1_q1vqc5.png"
+                                alt="magento"
+                            />
+                        </Slider>
+
+          </div>
         </div>
       </section>
     </>

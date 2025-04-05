@@ -157,10 +157,10 @@ function Flagship() {
           <li className="flagship-li">Proactive monitoring </li>
           <li className="flagship-li">Quick response </li>
           <li className="flagship-li">Secure data backup </li>
-          <li>
+          <li class="flagship-li">
           Performance optimization 
           </li>
-          <li>Scalability support </li>
+          <li class="flagship-li">Scalability support </li>
         </ul>
         <Link href="#" className="flagship-btn">
           Learn More <img loading='lazy' 

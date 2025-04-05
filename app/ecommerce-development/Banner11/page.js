@@ -61,13 +61,13 @@ function Banner12() {
           <button className="button-b2">DEVELOP B2C ECOMMERCE</button>
         </div>
         <div className="imgg">
-          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1743247124/rajet_images_sf4gz2.png" alt="B2C" />
+          <img src="https://res.cloudinary.com/dgif730br/image/upload/v1743686387/asit-sir-2_zu30hm.jpg" alt="B2C" />
         </div>
       </div>
 
       <div id="b2b" className="contttent-wrapper">
         <div className="imgg-2nd">
-          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1743247125/rajet_images_1_i7s4m8.png" alt="B2B" />
+          <img src="https://res.cloudinary.com/dgif730br/image/upload/v1743686387/asit-sir-4_xa7bco.jpg" alt="B2B" />
         </div>
         <div className="content">
           <h3 className={activeSection === "b2b" ? "underline" : ""}>B2B</h3>
@@ -83,13 +83,13 @@ function Banner12() {
           <button className="button-b2">DEVELOP MULTI-VENDOR ECOMMERCE</button>
         </div>
         <div className="imgg">
-          <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742971744/b2b-website_ghvr3o.jpg" alt="Multi Vendors" />
+          <img src="https://res.cloudinary.com/dgif730br/image/upload/v1743686387/asit-sir-1_xchvkj.jpg" alt="Multi Vendors" />
         </div>
       </div>
 
       <div id="d2c" className="contttent-wrapper">
         <div className="imgg-2nd">
-          <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742971744/b2b-website_ghvr3o.jpg" alt="D2C" />
+          <img src="https://res.cloudinary.com/dgif730br/image/upload/v1743686386/asit-sir-3_nkuizh.jpg" alt="D2C" />
         </div>
         <div className="content">
           <h3 className={activeSection === "d2c" ? "underline" : ""}>D2C </h3>
