@@ -58,7 +58,7 @@ const CaseStudy = () => {
     return (
         <div className='case-study-container'>
             <div className='case-wrapper'>
-                <h2 className='big-card-heading'>{caseStudies[currentIndex].heading}</h2>
+                <h2 className='big-card-heading primary-heading'>{caseStudies[currentIndex].heading}</h2>
                 <div className='case-card'>
                     <img className='case-img' src={caseStudies[currentIndex].img} alt='case' />
                     <div className="card-info">

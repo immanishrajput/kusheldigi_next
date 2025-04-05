@@ -7,8 +7,8 @@ const Banner5 = () => {
     <section className="sec--1">
   <container className="con--1">
     <div className="con--1-div">
-      <h6>Solve. Optimize. Grow</h6>
-      <h4>Let Your Ecommerce Development Issues Be Solved by Our Experts</h4>
+      <h6 className='secondary-heading'>Solve. Optimize. Grow</h6>
+      <h4 className='primary-heading'>Let Your Ecommerce Development Issues Be Solved by Our Experts</h4>
     </div>
     <div className="con--1-flex">
       <div className="con--1-flex-content">

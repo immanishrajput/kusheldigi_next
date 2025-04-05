@@ -19,7 +19,6 @@
     margin: auto;
   }
   .hero-containerMaSub{
-   
     flex: 1;
   }
   .hero-containerMaSub1{
@@ -41,7 +40,7 @@
   
   .hero-contentBi {
     flex: 1;
-    min-width: 320px;
+    /* min-width: 290px; */
     text-align: left;
   }
   
@@ -120,7 +119,7 @@
   /* Image Section */
   .img-containerCo {
     flex: 1;
-    min-width: 320px;
+    width: 50%;
   
   }
   
@@ -138,6 +137,13 @@
       gap: 3rem;
       background: #e4edf3 !important
     }
+
+    .img-containerCo {
+      flex: 1;
+      width: 100%;
+    
+    }
+    
     .heaaader-content h3{
       line-height: 20px;
     }
@@ -165,6 +171,12 @@
     .headssCom {
       font-size: 28px;
     }
+
+    .hero-containerMa {
+      padding: 120px 30px 0px;
+      max-width: 1720px;
+      margin: auto;
+  }
   .Mainhero-sectionss {
     background:#e4edf3 ;
   }
@@ -185,7 +197,7 @@
   
     .Mainhero-sectionss {
       height: auto;
-      padding: 70px 20px 55px 20px;
+      padding: 70px 20px 20px;
     }
   }
   
@@ -200,6 +212,7 @@
     }
      .Mainhero-sectionss{
       width: 100%;
+      padding: 180px 20px 20px;
     }
     .hero-containerMa {
       padding: 18px 0px 0px 0px;
@@ -226,7 +239,7 @@
     .secondary-btn {
       width: auto;
       font-size: 14px;
-      padding: 12px 20px;
+      padding: 12px;
     }
   
     .image-thumbnail {
@@ -260,13 +273,13 @@
       align-items: center;
       gap: 8px;
       width: 100%;
+      flex-direction: column;
     }
   
     .primary-btn,
     .secondary-btn {
       font-size: 13px;
       padding: 10px 18px;
-      width: 90%;
       max-width: 250px;
     }
   

@@ -2,7 +2,7 @@
     max-width: 1720px;
     margin: 0 auto;
     /* padding: 170px 60px 20px; */
-    padding: 140px 0px 20px 0px;
+    padding: 160px 0px 20px 0px;
 }
 
 .case-card {
@@ -162,6 +162,9 @@
         display: block;
         font-size: 1.9rem;
         margin-bottom: 20px;
+        max-width: 90%;
+        margin: auto;
+        text-align: center;
     }
 
     .bigcommerce-down-images {

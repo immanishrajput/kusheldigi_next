@@ -21,7 +21,7 @@
   
   .sec-contentBan2 {
     flex: 1;
-    min-width: 320px;
+    /* min-width: 320px; */
     text-align: left;
   }
   
@@ -114,7 +114,7 @@
   }
   .image-sec-container {
     flex: 1;
-    min-width: 320px;
+    /* min-width: 320px; */
     display: flex;
     justify-content: center;
   }
@@ -247,7 +247,7 @@
   
     .primary-btnssBan2,
     .secondary-btnssBan2 {
-      width: 100%;
+      /* width: 100%; */
       font-size: 13px;
       padding: 10px 15px;
     }

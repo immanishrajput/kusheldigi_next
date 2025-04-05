@@ -83,8 +83,9 @@ export default function Steps() {
   };
 
   return (
-    <div className="steps-containercom">
-      <h2 className="steps-titlecom">Expert Ecommerce Development Process </h2>
+    <div className="steps-containercom-wrapper">
+      <div className="steps-containercom">
+      <h2 className="steps-titlecom primary-heading">Expert Ecommerce Development Process </h2>
       <div className="steps-nav">
         {steps.map((step) => (
           <div
@@ -115,6 +116,7 @@ export default function Steps() {
         ))}
       </Slider>
   </div>
+    </div>
     </div>
   );
 }

@@ -33,8 +33,8 @@ const BlogSection = () => {
             <div className="blog-section-inner-container">
                 <div className="blog-section-header">
                     <div className="blog-section-left-div">
-                        <h3>Our Insights</h3>
-                        <p>Want to work with some of the best global talent and build software used by all the companies you know and love?</p>
+                        <h3 className='primary-heading'>Our Insights</h3>
+                        <p className='secondary-heading'>Want to work with some of the best global talent and build software used by all the companies you know and love?</p>
                     </div>
 
                     <Link href='/blog'><button className='viewAllBtnKcom'>View More</button></Link>
@@ -42,7 +42,7 @@ const BlogSection = () => {
 
                 <div className="blog-section-blogs-wrapper">
                     {
-                        getAllBlogs.slice(0, 3).map((blog, index) => {
+                        getAllBlogs.slice(0, 4).map((blog, index) => {
                             return (
                                 <Link key={index} href={`/blogdetails/${blog?._id}`} className="blog-section-blog" >
                                     <img src={blog?.images} alt="blogs" className='blog-section-blog-image'/>

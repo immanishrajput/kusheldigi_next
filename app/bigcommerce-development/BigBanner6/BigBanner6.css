@@ -29,6 +29,10 @@ color: #0c61ff !important;
   .imple .slick-list {
     margin: 0 -9px; 
   }
+
+  .choose-us-slider-div {
+    /* max-height: 400px; */
+  }
   
   .itemsss p {
     padding: 20px 0px;

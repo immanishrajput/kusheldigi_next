@@ -39,8 +39,8 @@ function Banner12() {
     <section className="sec---abc">
       <div className="headdd-div">
         <div className="heaaader-content">
-          <h3>Expert Ecommerce Solutions for Modern Businesses</h3>
-          <h6>Doesn’t matter whether you're a small business or a large enterprise, our custom ecommerce solutions are designed to grow with you. We believe in delivering seamless, high-performing online stores that drive results.</h6>
+          <h3 className="primary-heading">Expert Ecommerce Solutions for Modern Businesses</h3>
+          <h6 className="secondary-heading">Doesn’t matter whether you're a small business or a large enterprise, our custom ecommerce solutions are designed to grow with you. We believe in delivering seamless, high-performing online stores that drive results.</h6>
           <h5>Business Models We Deliver For</h5>
         </div>
         <div className="linkss">

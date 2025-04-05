@@ -16,7 +16,7 @@
   .heaaader-content h3{
     margin: 15px 0px 0px 0px; 
     text-align: center;
-    padding: 35px 25px 25px 25px; 
+    padding: 35px 25px 12px 25px; 
     color: #4a4b4d;
     font-weight: 300;
     font-size: 36px;
@@ -71,7 +71,7 @@
     justify-content: space-around;
     scroll-margin-top: 260px;
     align-items: center;
-    margin: 60px;
+    margin: 25px;
   }
   
   .content{

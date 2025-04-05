@@ -8,9 +8,9 @@ const Banner3 = () => {
     <div className="containerEcom">
   <section className="left-sectionEcom">
     <h6>Ecommerce Development Agency</h6>
-    <h1>
+    <h2 className='primary-heading'>
     Custom Ecommerce Solutions for Higher Conversions and Growth 
-    </h1>
+    </h2>
     <p>
     Since 2017, Kushel Digi has been delivering Custom Ecommerce Solutions for more than 1000+ clients across globe. We are committed to help your business grow faster. 
     </p>

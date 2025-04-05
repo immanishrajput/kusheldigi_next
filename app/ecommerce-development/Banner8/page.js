@@ -18,8 +18,8 @@ const Banner9 = () => {
   return (
     <section className="clientsSection">
       <div className="textContainer">
-        <h2>Your Vision, Our Commitment</h2>
-        <p>Delivering powerful, high performance ecommerce solutions for our clients.</p>
+        <h2 className="primary-heading">Your Vision, Our Commitment</h2>
+        <p className="secondary-heading">Delivering powerful, high performance ecommerce solutions for our clients.</p>
       </div>
       <div className="logoGrid">
         {clients.map((client, index) => (

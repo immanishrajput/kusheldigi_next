@@ -26,12 +26,12 @@ const Banner11 = () => {
                 <div className="industry-expertise-header">
                     <div className="industry-sec-title">
                         <span>Industries We Serve</span>
-                        <h2>Custom Ecommerce Solutions for Every Industry</h2>
+                        <h2 className="primary-heading">Custom Ecommerce Solutions for Every Industry</h2>
                     </div>
                 </div>
 
                 <div className="lemon">
-                    <p>
+                    <p className="secondary-heading">
                     We at Kushel Digi Solutions do not think in terms of a single-size-fits-all approach. Our industry-specific knowledge assists companies grow, enhance, and innovate with tailored digital solutions.
                     </p>
                 </div>

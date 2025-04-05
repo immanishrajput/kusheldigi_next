@@ -7,8 +7,8 @@ const Banner6 = () => {
       <section className="sec--3">
         <container className="con--3">
           <div className="con--3-div">
-            <h4>Benefits of Having A Custom Ecommerce Website</h4>
-            <p>Get an eCommerce solution by customizing every aspect of your online store to match your unique business needs.</p>
+            <h4 className='primary-heading'>Benefits of Having A Custom Ecommerce Website</h4>
+            <p className='secondary-heading'>Get an eCommerce solution by customizing every aspect of your online store to match your unique business needs.</p>
           </div>
           <div className="con--3-flex">
             <div className="con--3-flex-content">

@@ -33,7 +33,7 @@ const FAQ = () => {
 
   return (
     <section className="faqr-section">
-      <h2>Frequently Asked Questions ?</h2>
+      <h2 className="primary-heading">Frequently Asked Questions ?</h2>
       <div className="faqr-container">
         {FaqData.map((item, index) => (
           <div className={`faqr-item ${activeIndex === index ? "expanded" : ""}`} key={index}>
