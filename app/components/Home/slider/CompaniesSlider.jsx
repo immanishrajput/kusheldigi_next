@@ -42,7 +42,7 @@ const CompaniesSlider = () => {
     <div className="logo-container">
       <div className="logo-sliders">
         <div className="logo-heading">
-          <p>
+          <p className="primary-heading">
             Trusted choice of Top <strong>E-commerce</strong> Brands Worldwide
           </p>
         </div>

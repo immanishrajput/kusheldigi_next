@@ -4,10 +4,10 @@ import React from 'react'
 function Advance() {
   return (
     <section className="b2b-section">
-      <h3 className="b2b-head">
+      <h3 className="b2b-head primary-heading">
         Expert Ecommerce Solutions for Modern Businesses
       </h3>
-      <p className="b2b-paraa">
+      <p className="b2b-paraa secondary-heading">
         Doesn’t matter whether you're a small business or a large enterprise, our custom ecommerce solutions are designed to grow with you. We believe in delivering seamless, high-performing online stores that drive results.
       </p>
       <h3 className="b2b-headss">Business models we deliver for</h3>

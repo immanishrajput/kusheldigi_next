@@ -94,8 +94,8 @@ const Our = () => {
     <section className="tech-section">
       <div className="tech-container">
         <div className="tech-heading">
-          <h2>Our Technology Partnership</h2>
-          <p>
+          <h2 className="primary-heading">Our Technology Partnership</h2>
+          <p className="secondary-heading">
           Kushel Digi leverages latest technology to deliver future ready stores
           </p>
         </div>

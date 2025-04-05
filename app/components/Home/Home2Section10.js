@@ -22,10 +22,10 @@ function Home2Section10({ heading, heading1, para }) {
   return (
     <div className="h2s10wrap">
       <div className="h2s10cont">
-        <div className="s10top">
-          <h3>{heading}</h3>
+        <div className="s10top1">
+          <h3 className="primary-heading">{heading}</h3>
           <h3>{heading1}</h3>
-          <p>{para}</p>
+          <p className='secondary-heading'>{para}</p>
         </div>
 
         <div className="industries-services-container">

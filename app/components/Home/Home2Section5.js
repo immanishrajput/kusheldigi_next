@@ -25,10 +25,10 @@ function Home2Section5() {
       <div className="s5maincont">
         <div className="s5cont">
           <div className="s5content">
-            <h3>
+            <h3 className="primary-heading">
               <span>We Build</span> with the Best to Ensure Your Success
             </h3>
-            <p>
+            <p className='secondary-heading'>
               Our expert minds at Kushel Digi leverage top-tier technologies to
               bring your vision to life with precision and reliability. We work
               on Node, Angular, React, Laravel, MongoDB, HTML5, PHP, ASP.NET,

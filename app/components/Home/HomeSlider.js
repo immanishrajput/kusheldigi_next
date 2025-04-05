@@ -10,11 +10,11 @@ const Slider = () => {
   return (
     <div className="carousel-container">
       <div className="inner-carousel-container">
-        <h3 className="carousel-container-heading">
+        <h3 className="carousel-container-heading primary-heading">
           Helping Top Global Brands to Expand, Migrate & Succeed
         </h3>
 
-        <p className="carousel-container-para">
+        <p className="carousel-container-para secondary-heading">
           Kushel Digi has been helping leading global brands scale and optimize their ecommerce success with our expert BigCommerce solutions.
 
         </p>
