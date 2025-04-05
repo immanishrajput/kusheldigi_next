@@ -16300,15 +16300,14 @@ body {
     gap: 20px
 }
 
-.s10top {
+.s10top1 {
     display: flex;
     flex-direction: column;
     gap: 8px;
     max-width: unset;
 }
 
-.s10top h3 {
-    font-family: Raleway;
+.s10top1 > h3 {
     font-size: 38px;
     font-weight: 700;
     line-height: unset;
@@ -16316,8 +16315,7 @@ body {
     color: #0E151D
 }
 
-.s10top p {
-    font-family: sf-ui-display-medium, sans-serif;
+.s10top1 > p {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -18565,6 +18563,15 @@ body {
     margin: 0 auto
 }
 
+
+@media screen and (max-width:550px) {
+    .testiTopDetails {
+        flex-direction:column;
+        gap: 15px;
+    }
+}
+
+
 .testiTopDetails .tettopleft {
     display: flex;
     flex-direction: column
@@ -18582,7 +18589,7 @@ body {
     font-weight: 600;
     line-height: 44px;
     text-align: left;
-    max-width: unset;
+    max-width: unset !important;
 }
 
 .testright {
@@ -18621,6 +18628,12 @@ body {
     position: absolute;
     left: 28px;
     bottom: 14px;
+}
+
+@media screen and (max-width:600px){
+    .home-testi-name {
+        position:unset;
+    }
 }
 
 .reviewname {
@@ -18853,7 +18866,9 @@ body {
 
 @media (max-width:550px) {
     .testright {
-        transform: translateX(-20px)
+        transform: none;
+        justify-content: flex-end;
+        width: 100%;
     }
 
     .testiTopDetails .tettopleft p:first-child {
@@ -75991,3 +76006,12 @@ input::-webkit-inner-spin-button {
 }
 
 
+.primary-heading {
+    font-size: 2.2rem !important;
+    font-weight: 600 !important;
+}
+
+.secondary-heading {
+    font-size: 1.1rem !important;
+    font-weight: 500 !important;
+}

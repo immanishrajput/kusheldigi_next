@@ -5,7 +5,7 @@ import Link from 'next/link'
 function Flagship() {
   return (
     <section className="flagship-section">
-    <h3 className="flagship-head">
+    <h3 className="flagship-head primary-heading">
     Building the Future of Ecommerce
     </h3>
     <div className="flagship-cards">
@@ -50,7 +50,7 @@ function Flagship() {
           </li>
           <li className="flagship-li"> Custom ecommerce redesign </li>
           <li className="flagship-li">Conversion rate optimisation</li>
-          <li>Data-driven recommendations </li>
+          <li className="flagship-li">Data-driven recommendations </li>
         </ul>
         <a href="#" className="flagship-btn">
           Learn More <img loading='lazy' 
@@ -105,7 +105,7 @@ function Flagship() {
           <li className="flagship-li">
           Cross-platform compatibility 
           </li>
-          <li>
+          <li className="flagship-li">
           Payment gateway
           </li>
         </ul>

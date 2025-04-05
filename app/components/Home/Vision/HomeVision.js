@@ -41,7 +41,7 @@ const Website = () => {
   <section className="services-we-served">
     <div className="container1">
       <div className="title">
-        <h3 className="">Your Vision, Our Expertise</h3>
+        <h3 className="primary-heading">Your Vision, Our Expertise</h3>
       </div>
       <div className="section-grid">
         <div className="section-grid-item services-we-served-list">
@@ -1022,8 +1022,8 @@ Managed support services
         </div>
         <div className="section-grid-item">
           <div className="services-we-served-header">
-            <h2>Real Success, Real Impact</h2>
-            <p>Have a look on our stories of success</p>
+            <h2 className="primary-heading">Real Success, Real Impact</h2>
+            <p className='secondary-heading'>Have a look on our stories of success</p>
             <Link href="/portfolio" className="btn-link btn-icon-left">
               <span className="btn-icon">
                 <svg

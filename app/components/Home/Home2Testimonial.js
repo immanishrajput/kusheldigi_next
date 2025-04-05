@@ -22,7 +22,7 @@ function Home2Testimonial() {
         {/* Left side */}
         <div className='tettopleft'>
           <p>TESTIMONIALS</p>
-          <p>What our Clients are saying</p>
+          <p className="primary-heading">What our Clients are saying</p>
         </div>
 
         <div className='testright'>
