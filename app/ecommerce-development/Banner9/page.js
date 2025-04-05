@@ -31,8 +31,8 @@ export default function Banner10() {
     <section className="projectsSectionKcom">
       <div className="projectsHeaderKcom">
         <div className="textKcom">
-          <h2>Our Success Stories</h2>
-          <p>
+          <h2 className="primary-heading">Our Success Stories</h2>
+          <p className="secondary-heading">
           Explore how our custom solutions have helped businesses to shine in this competitive world.
           </p>
         </div>

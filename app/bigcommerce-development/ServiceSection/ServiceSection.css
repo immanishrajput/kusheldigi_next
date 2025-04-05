@@ -43,4 +43,8 @@
     .big-services-container {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .big-services-container {
+        padding: 30px;
+    }
 }

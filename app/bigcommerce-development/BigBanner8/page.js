@@ -165,7 +165,7 @@ const Result1 = () => {
           {/* Dynamic color transition */}
           <p
             ref={descriptionRef}
-            className="descriptionCon3"
+            className="descriptionCon3 secondary-heading"  
             style={{
               color: `rgb(${Math.floor(0 + 128 * scrollRatio)}, ${Math.floor(
                 0 + 128 * scrollRatio

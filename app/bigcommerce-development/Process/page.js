@@ -23,8 +23,8 @@ const Progress = () => {
     return (
         <div className='progress-outer-container'>
             <div className="progress-inner-container">
-                <h2 className='progress-heading'>Our BigCommerce Development Process</h2>
-                <h3 className='progress-sm-heading'>Kushel Digi believes in employing latest and advanced global process to deliver projects best suited with your business needs.</h3>
+                <h2 className='progress-heading secondary-heading'>Our BigCommerce Development Process</h2>
+                <h3 className='progress-sm-heading primary-heading'>Kushel Digi believes in employing latest and advanced global process to deliver projects best suited with your business needs.</h3>
 
                 <div className="progress-toggle-btn-div">
                     <h1 className={`progress-company-name first-copmpany ${isSwitch ? 'textOpacity' : ''}`}>CUSTOM</h1>
@@ -169,7 +169,7 @@ const Progress = () => {
                             <div id='phase11' className="process-button"></div>
                             <div id='phase11Name' className='agile11phase'>
                                 <span className=''>07</span>
-                                <span className='procBCom'>Launch & Ongoing Support</span>
+                                <span className='procBCom'>Launch <br/> & Ongoing Support</span>
                             </div>
                        </>
                     )

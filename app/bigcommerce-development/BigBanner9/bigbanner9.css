@@ -16,18 +16,20 @@ text-align: center;
   font-size: 2rem;
   margin-bottom: 10px;
   font-weight: 500;
+  line-height: 2.8rem;
 }
 
 .conflict--1-div h4 {
   text-align: center;
   letter-spacing: 0 !important;
   font-size: 19px;
-  line-height: 28px;
+  /* line-height: 28px; */
   width: 1160px;
   margin: auto;
   font-weight: 400;
   color: black;
   margin-top: 10px;
+  width: 100%;
 }
 
 /* Flex Container - 3 Cards in a Row */
