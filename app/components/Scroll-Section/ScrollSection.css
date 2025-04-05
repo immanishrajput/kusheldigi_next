@@ -91,13 +91,13 @@
 }
 
 .scroll-card-para {
-    font-size: 1.2rem;
-    margin: 20px 0px;
+    font-size: 1rem;
+    margin: 20px 0px 10px;
     /* color: #083792; */
 }
 
 .scroll-card-li-heading {
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin-bottom: 20px;
     /* color: #083792; */
 }
@@ -108,7 +108,7 @@
 }
 
 .scroll-card-ul > li {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin: 5px 0px;
 }
 
