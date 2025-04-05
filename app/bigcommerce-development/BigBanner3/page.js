@@ -9,11 +9,11 @@ const Page = () => {
    <div className="BcontainerEcom">
   <div className="Bleft-sectionEcom">
     {/* <h6>Ecommerce Development Agency</h6> */}
-    <h3>
+    <h3 className='primary-heading'>
     Kushel Digi BigCommerce Development Services
 
     </h3>
-    <p>
+    <p className='secondary-heading'>
     Kushel Digi is committed to deliver your dream ecommerce store with high powered Bigcommerce solutions. 
     </p>
     {/* <button>Get a Free Consultation Today</button> */}

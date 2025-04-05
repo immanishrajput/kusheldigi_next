@@ -6,6 +6,7 @@
 .big-feature-inner-container {
     padding: 30px 60px;
     display: flex;
+    flex-wrap: wrap;
     gap:25px;
 }
 
@@ -13,11 +14,6 @@
     flex: 1;
 };
 
-h2#bigcommerce-feature-heading {
-    font-size: 2.1rem !important;
-    font-weight: 500;
-    margin-bottom: 10px;
-}
 
 .big-feature-heading-color {
     color: #2b2bf6;
@@ -53,4 +49,25 @@ h2#bigcommerce-feature-heading {
 .right-big-feature-container > img {
     object-position: center;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 810px) {
+    .big-feature-inner-container {
+        padding: 30px;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .left-big-feature-grid {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 25px;
+        margin-top: 40px;
+    }
+
+    .left-big-feature-grid-item > h3,p {
+        text-align: left;
+    }
 }

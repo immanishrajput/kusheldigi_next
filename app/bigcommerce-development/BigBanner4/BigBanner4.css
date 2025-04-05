@@ -30,7 +30,7 @@
   
   .con--2-div-contentt {
     width: 50%;
-    min-width: 320px;
+    /* min-width: 320px; */
     text-align: left;
   }
   
@@ -124,7 +124,11 @@
     }
   
     .con--2-div-contentt h3 {
-      font-size: 20px;
+      font-size: 20px !important;
+    }
+
+    .coon--2 {
+      width: 100%;
     }
   
  
