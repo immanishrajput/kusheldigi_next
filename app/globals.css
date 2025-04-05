@@ -76015,3 +76015,16 @@ input::-webkit-inner-spin-button {
     font-size: 1.1rem !important;
     font-weight: 500 !important;
 }
+
+@media screen and (max-width:600px) {
+    .primary-heading {
+        font-size: 1.7rem !important;
+        font-weight: 600 !important;
+        line-height: 2.2rem !important;
+    }
+
+    .secondary-heading {
+        font-size: 1rem !important;
+        font-weight: 500 !important;
+    }
+}
