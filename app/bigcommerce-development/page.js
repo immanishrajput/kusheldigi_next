@@ -41,10 +41,12 @@ const page = () => {
       <Process/>
       <BigBanner6 page='BigCommerce'/>
         <BigBanner4/>
+       
         <BigBanner9 />
-        <BlogSection/>
-        <FeatureSection/>
         <ServicesSection/>
+        <FeatureSection/>
+       
+        <BlogSection/>
         <BigAskQuestion/>
     <HomeForm/>
         <Footer/>
