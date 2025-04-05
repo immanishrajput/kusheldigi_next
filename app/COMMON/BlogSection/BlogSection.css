@@ -62,7 +62,7 @@
 .blog-section-blog-title {
     margin: 10px 0px 5px;
     font-size: 1.1rem;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .blog-section-blog-desc {
@@ -122,6 +122,10 @@
 
     .blog-section-blogs-wrapper .blog-section-blog:last-child {
         display: none;
+    }
+
+    .blog-section-blog-desc {
+        text-align: left;
     }
 }
 

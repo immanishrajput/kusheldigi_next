@@ -9,35 +9,35 @@ import { useRouter } from 'next/navigation';
 const CaseStudy = () => {
 
     const caseStudies = [
-        { img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829270/loveky-2_cfdys3.jpg', smHeading: 'Certified Bigcommerce Agency', smallBtnText: "View Case Study", smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829269/lovely-2-5_iqgxfy.jpg', heading: "Expert BigCommerce Development Solutions for Scalable Growth",bigCommerce : [
+        { img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829270/loveky-2_cfdys3.jpg', smHeading: 'Certified BigCommerce Agency', smallBtnText: "View Case Study", smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829269/lovely-2-5_iqgxfy.jpg', heading: "Expert BigCommerce Development Solutions for Scalable Growth",bigCommerce : [
             {
                 bigImg1 : 'https://res.cloudinary.com/dgif730br/image/upload/v1743429262/bigcommerce-8_1_tyghz8.png',
                 bigImg2 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/bcb2b-1_onvun7.png',
                 bigImg3 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340304/Partner-Certified-Wordmark_j6b9ar.png'
             }
         ] },
-        { img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829271/lovely-1_hhxfih.jpg', smHeading: 'Certified Bigcommerce Agency', smallBtnText: "View Case Study", smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829269/lovely-1-2_by2dtq.jpg', heading: "Expert BigCommerce Development Solutions for Scalable Growth",bigCommerce : [
+        { img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829271/lovely-1_hhxfih.jpg', smHeading: 'Certified BigCommerce Agency', smallBtnText: "View Case Study", smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829269/lovely-1-2_by2dtq.jpg', heading: "Expert BigCommerce Development Solutions for Scalable Growth",bigCommerce : [
             {
                 bigImg1 : 'https://res.cloudinary.com/dgif730br/image/upload/v1743429262/bigcommerce-8_1_tyghz8.png',
                 bigImg2 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/bcb2b-1_onvun7.png',
                 bigImg3 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340304/Partner-Certified-Wordmark_j6b9ar.png'
             }
         ]  },
-        { img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829270/lovely-3_fanqxf.jpg', smHeading: 'Certified Bigcommerce Agency', smallBtnText: "View Case Study", smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829268/lovely-3-4_mi9o33.jpg', heading: "Expert BigCommerce Development Solutions for Scalable Growth",bigCommerce : [
+        { img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829270/lovely-3_fanqxf.jpg', smHeading: 'Certified BigCommerce Agency', smallBtnText: "View Case Study", smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829268/lovely-3-4_mi9o33.jpg', heading: "Expert BigCommerce Development Solutions for Scalable Growth",bigCommerce : [
             {
                 bigImg1 : 'https://res.cloudinary.com/dgif730br/image/upload/v1743429262/bigcommerce-8_1_tyghz8.png',
                 bigImg2 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/bcb2b-1_onvun7.png',
                 bigImg3 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340304/Partner-Certified-Wordmark_j6b9ar.png'
             }
         ]  },
-        { img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829269/lovely-4_sgdj3e.jpg', smHeading: 'Certified Bigcommerce Agency', smallBtnText: "View Case Study", smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829268/lovely-4-2_ffzapa.jpg', heading: "Expert BigCommerce Development Solutions for Scalable Growth",bigCommerce : [
+        { img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829269/lovely-4_sgdj3e.jpg', smHeading: 'Certified BigCommerce Agency', smallBtnText: "View Case Study", smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829268/lovely-4-2_ffzapa.jpg', heading: "Expert BigCommerce Development Solutions for Scalable Growth",bigCommerce : [
             {
                 bigImg1 : 'https://res.cloudinary.com/dgif730br/image/upload/v1743429262/bigcommerce-8_1_tyghz8.png',
                 bigImg2 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/bcb2b-1_onvun7.png',
                 bigImg3 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340304/Partner-Certified-Wordmark_j6b9ar.png'
             }
         ]  },
-        { img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829269/lovely-5_akjurr.jpg', smHeading: 'Certified Bigcommerce Agency', smallBtnText: "View Case Study", smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829268/lovely-5-3_tykoz4.jpg', heading: "Expert BigCommerce Development Solutions for Scalable Growth",bigCommerce : [
+        { img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829269/lovely-5_akjurr.jpg', smHeading: 'Certified BigCommerce Agency', smallBtnText: "View Case Study", smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829268/lovely-5-3_tykoz4.jpg', heading: "Expert BigCommerce Development Solutions for Scalable Growth",bigCommerce : [
             {
                 bigImg1 : 'https://res.cloudinary.com/dgif730br/image/upload/v1743429262/bigcommerce-8_1_tyghz8.png',
                 bigImg2 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/bcb2b-1_onvun7.png',

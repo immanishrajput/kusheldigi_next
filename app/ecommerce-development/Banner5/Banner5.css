@@ -49,6 +49,7 @@
     text-align: left;
     transition: transform 0.3s ease;
   }
+
   
   .con--1-flex-content:hover {
     transform: translateY(-5px);

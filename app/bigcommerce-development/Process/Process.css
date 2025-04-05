@@ -474,6 +474,6 @@
 
     .progress-sm-heading {
         max-width: 90% !important;
-        text-align: center !important;
+        text-align: left !important;
     }
 }

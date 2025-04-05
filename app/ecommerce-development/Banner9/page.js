@@ -26,7 +26,7 @@ const projects = [
   },
 ];
 
-export default function Banner10() {
+export default function Banner10({page}) {
   return (
     <section className="projectsSectionKcom">
       <div className="projectsHeaderKcom">
@@ -56,7 +56,7 @@ export default function Banner10() {
           
           <a href="/2ndamendment" className="b2b-btnKcom">
           2ndamendment
-            <p>eCommerce</p>
+            <p>{page}</p>
           </a>  
           <hr className="hrKcomKu"/>
         </div>
@@ -69,7 +69,7 @@ export default function Banner10() {
          
           <a href="/sites" className="b2b-btnKcom">
           sights & scopes 
-            <p>eCommerce</p>
+            <p>{page}</p>
           </a>  
           <hr />
         </div>
@@ -82,7 +82,7 @@ export default function Banner10() {
          
           <a href="/topbrass" className="b2b-btnKcom">
           Top Brass Tactical
-            <p>eCommerce</p>
+            <p>{page}</p>
           </a>
           <hr/>
         </div>
@@ -96,7 +96,7 @@ export default function Banner10() {
          
           <a href="/portfolio" className="b2b-btnKcom">
           Blank Rhino
-            <p>eCommerce</p>
+            <p>{page}</p>
           </a>
           <hr/>
         </div>
@@ -108,7 +108,7 @@ export default function Banner10() {
           
           <a href="/Slidesdesign" className="b2b-btnKcom">
           Slides 365
-            <p>eCommerce</p>
+            <p>{page}</p>
           </a>
           <hr/>
         </div>
@@ -120,7 +120,7 @@ export default function Banner10() {
          
           <a href="/kick-eez" className="b2b-btnKcom">
           Kick-eez
-            <p>eCommerce</p>
+            <p>{page}</p>
           </a>
           <hr/>
         </div>

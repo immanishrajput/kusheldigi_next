@@ -36,7 +36,7 @@ const Page = () => {
         <Banner3/>
         <Banner4/>
         <HomeFlax/>
-        <Banner9/>
+        <Banner9 page='eCommerce'/>
         <HomeCardSection/>
         <Banner11/>
        

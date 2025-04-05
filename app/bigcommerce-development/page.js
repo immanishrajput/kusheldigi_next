@@ -37,11 +37,11 @@ const page = () => {
       <BigBanner8/>
       <BigBanner7/>
       <BigBanner3/>
-      <Banner10/>
+      <Banner10 page='BigCommerce'/>
       <Process/>
       <BigBanner6 page='BigCommerce'/>
         <BigBanner4/>
-        <BigBanner9/>
+        <BigBanner9 />
         <BlogSection/>
         <FeatureSection/>
         <ServicesSection/>

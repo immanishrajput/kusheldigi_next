@@ -36,7 +36,7 @@ const FeatureSection = () => {
         <div className='big-feature-outer-container'>
             <div className="big-feature-inner-container">
                 <div className="left-big-feature-container">
-                    <h2 id="bigcommerce-feature-heading primary-heading">What Sets Us <span className='big-feature-heading-color'>Apart</span></h2>
+                <h2 className="bigcommerce-feature-heading primary-heading">What Sets Us <span className='big-feature-heading-color'>Apart</span></h2>
                     <p className='big-feature-para secondary-heading'>Since 2005, we’ve been helping businesses achieve their software product development goals. We do this on time, within budget, and with the highest quality possible.</p>
 
                     <div className="left-big-feature-grid">
