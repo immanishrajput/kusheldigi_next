@@ -28,38 +28,40 @@ const Result = () => {
         <div className="features-gridbbcom">
           <div className="feature-itembbcom">
             <span className="iconbbcom">
-              <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743584036/d704d9a1621f3c3700095e893bcfd390801315c6-38x51_brcrpt.svg" alt="card"/>
+              <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744030638/Fast-Performance_posja6.png" alt="card"/>
             </span>
             <p>Fast Performance</p>
           </div>
           <div className="feature-itembbcom">
             <span className="iconbbcom">
-            <BsGraphUpArrow/>
+            {/* <BsGraphUpArrow/> */}
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744030638/scalable-and-secure_xl4qxf.png" alt="card"/>
             </span>
             <p>Scalable with Growth</p>
           </div>
           <div className="feature-itembbcom">
             <span className="iconbbcom">
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743584150/c07445e4b5d13cebc40186dd51734bdccb3d9b75-34x43_figxys.svg" alt="card"/>
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744030638/Seamless-Integration_nn18kj.png" alt="card"/>
             </span>
             <p>Seamless Integration</p>
           </div>
           <div className="feature-itembbcom">
             <span className="iconbbcom">
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743584175/b6d8da038668961c8f9a8caba4306f2287bb96eb-36x36_akvc1x.svg" alt="card"/>
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744030638/Secure-_-Reliable_h5ayt7.png" alt="card"/>
             </span>
             <p>Secure & Reliable</p>
           </div>
 
           <div className="feature-itembbcom">
             <span className="iconbbcom">
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743584010/d2337faaf3553596cfedf0ed17ab7e1ddc6e5f4f-33x35_xvzete.svg" alt="card"/>
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744030639/user-friendly-interface_vhmicu.png" alt="card"/>
             </span>
             <p>user-friendly interface</p>
           </div>
           <div className="feature-itembbcom">
             <span className="iconbbcom">
-            <FaChalkboardUser/>
+            {/* <FaChalkboardUser/> */}
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744030638/Scalable-with-Growth_tagunp.png" alt="card"/>
             </span>
             <p>scalable and secure</p>
           </div>

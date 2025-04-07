@@ -49159,7 +49159,8 @@ option {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 80vh
+    height: 80vh;
+    padding:0px 20px;
 }
 
 .sign_imk h2 {
@@ -73481,6 +73482,7 @@ input::-webkit-inner-spin-button {
 
     .faqr-answer {
         font-size: 13px;
+        text-align: left;
     }
 
     .faqr-question {
@@ -76027,4 +76029,9 @@ input::-webkit-inner-spin-button {
         font-size: 1rem !important;
         font-weight: 500 !important;
     }
+
+    .right-carousel-inner-btn {
+        margin:20px auto !important;
+    }
+
 }

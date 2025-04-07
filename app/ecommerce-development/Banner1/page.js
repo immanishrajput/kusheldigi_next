@@ -65,7 +65,7 @@ const Banner = () => {
                 </a>
                 <Link href="/contact-us">
                  <button className="secondary-btn">
-                  TALK TO A CONSULTANT
+                  Talk To a Consultant
                  </button></Link>
               </div>
             </div>

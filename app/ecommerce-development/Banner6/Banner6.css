@@ -129,6 +129,7 @@
 
     .con--3-flex-content h5 {
         font-size: 18px;
+        text-align: center;
     }
 
     .con--3-flex-content p {
@@ -139,5 +140,6 @@
     .iconImage3 {
         width: 40px;
         height: 40px;
+        margin: auto
     }
 }

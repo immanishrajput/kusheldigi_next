@@ -187,6 +187,7 @@ color: #0c61ff !important;
     .itemss h1{
         text-align: center;
         font-size: 18px !important;
+        line-height: normal !important;
     }
     .biggsec{
         padding: 10px;
@@ -207,6 +208,7 @@ color: #0c61ff !important;
     .itemss h1 {
       font-size: 1.8rem;
       width: 100%;
+      line-height: normal !important;
     }
   
     .itemsss p {

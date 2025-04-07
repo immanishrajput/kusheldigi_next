@@ -16,6 +16,7 @@
 };
 
 
+
 .big-feature-heading-color {
     color: #2b2bf6;
 }
@@ -73,8 +74,16 @@
         margin-top: 40px;
     }
 
+    .left-big-feature-grid-item {
+        align-items: center;
+    }
+
     .left-big-feature-grid-item > h3,
     .left-big-feature-grid-item > p {
-    text-align: left;
+    text-align: center;
+    }
+
+    .bigcommerce-feature-heading {
+        text-align: center;
     }
 }

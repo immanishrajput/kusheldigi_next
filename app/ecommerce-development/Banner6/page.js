@@ -37,14 +37,14 @@ const Banner6 = () => {
               </p>
             </div>
             <div className="con--3-flex-content">
-              <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743079249/Category-Management_zwcozp.png" />
+              <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743079249/Category-Management_zwcozp.png"  className="iconImage3"/>
               <h5>Advanced Analytics</h5>
               <p>
                 With a tailored eCommerce website, you can be able to access in-depth analytics and reports. Companies can monitor customer activities, product performance, traffic sources, and conversion rates. These reports facilitate making informed decisions to enhance marketing efforts and enhance user engagement.
               </p>
             </div>
             <div className="con--3-flex-content">
-              <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743079283/Shipping-Tracking_gy9amy.png" />
+              <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743079283/Shipping-Tracking_gy9amy.png"  className="iconImage3"/>
               <h5>Faster Load Times</h5>
               <p>
                 Speed is the most important factor for eCommerce success. A slow website results in increased bounce rates and missed sales. Custom website guarantees that the site is performance-optimized using lightweight code, efficient caching, and optimized media. Fast load time also enhance user satisfaction and search engine rankings.

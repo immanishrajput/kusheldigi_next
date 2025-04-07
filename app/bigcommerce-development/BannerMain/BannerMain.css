@@ -178,6 +178,7 @@
 
     .case-card {
         margin-top: 25px;
+        border-radius: 12px;
     }
 }
 
@@ -206,5 +207,17 @@
 @media(max-width:500px){
     .big-card-heading {
         font-size: 22px;
+    }
+
+    .case-card {
+        height: 60vh;
+    }
+}
+
+
+@media screen and (max-width:340px) {
+    .bigcommercesmall-icon {
+        width: 30px;
+        height: 30px;
     }
 }

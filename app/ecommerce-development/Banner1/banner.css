@@ -205,7 +205,7 @@
   @media (max-width: 450px) {
     .buttonsBi a{
       width: auto;
-      font-size: 10px;
+      font-size: 13px;
     }
     .Mainhero-sectionss{
       background:#e4edf3 !important ;
@@ -221,6 +221,7 @@
     .headssCom {
       font-size: 24px;
       line-height: 1.3;
+      text-align: center;
     }
   
     .hero-descriptionCom {
@@ -259,6 +260,7 @@
     .headssCom {
       font-size: 22px;
       line-height: 1.3;
+      text-align: center;
     }
   
     .hero-descriptionCom {

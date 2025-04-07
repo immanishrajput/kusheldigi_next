@@ -26,7 +26,7 @@ body{
 }
 
 .left-contact-heading {
-  font-size: 21px;
+  font-size: 25px;
 width: 580px;
   color:#083792;
   font-weight: 600;
@@ -121,7 +121,7 @@ width: 580px;
   color: #fff;
   padding: 20px;
   text-align: center;
-  font-size: 24px;
+  font-size: 25px;
   margin: 0px;
 }
 
@@ -155,12 +155,12 @@ width: 50px;
 .contact-label {
   color: #191d26;
   display: inline-block;
-  font-size:15px;
+  font-size:18px;
   line-height: 1rem;
   text-transform: capitalize;
   margin-bottom: 12px;
   position: relative;
-  font-weight: 400;
+  font-weight: 500;
   margin-top: 5px;
 }
 
@@ -216,6 +216,11 @@ width: 50px;
   width: 98%;
 }
 }
+
+@media screen and (max-width:350px) {
+  
+}
+
 .contact-emailInput,.contact-textArea {
  width: 98%;
 }
@@ -939,7 +944,7 @@ padding-left: 50px !important;
   }
   .left-b2b-card-2{
     width: 95% !important;
-    margin-bottom: none;
+    margin-bottom: 0px;
   }
   .left-b2b-card,
   .right-b2b-card {
@@ -1058,6 +1063,16 @@ padding-left: 50px !important;
     font-size: 25px;
     line-height: 27px !important;
   }
+
+  .us-number,
+  .country {
+    text-align: left;
+  }
+
+  .left-contact-heading {
+    font-size: 22px !important;
+        line-height: 30px;
+  }
 }
 .flagship-para {
   font-size: 17px;
@@ -1132,7 +1147,7 @@ padding-left: 50px !important;
 
 .flagship-ul .flagship-li {
   width: 100%;
-  font-size: 15px;
+  font-size: 17px;
   color: #333;
   /* font-weight: 600; */
   line-height: 30px;
@@ -1186,5 +1201,15 @@ padding-left: 50px !important;
 {
   .flagship-head{
     line-height: 44px;
+  }
+}
+
+@media screen and (max-width:340px) {
+  .contact-first-div > div{
+    width: 75%;
+  }
+
+  .down-contact-name-input  {
+    width: 82%;
   }
 }

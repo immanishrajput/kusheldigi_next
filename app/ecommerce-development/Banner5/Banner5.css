@@ -26,7 +26,7 @@
   .con--1-div h4 {
     font-size: 28px;
     font-weight: 400;
-    color: rgb(81, 79, 79);
+    color: #000;
     margin-top: 10px;
     text-align: center;
   }
@@ -127,8 +127,9 @@
     }
   
     .iconImage {
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
+        margin: auto;
     }
   
     .con--1-div h4 {
@@ -138,6 +139,8 @@
   
     .con--1-flex h5 {
         font-size: 16px;
+        text-align: center;
+        font-weight: 500;
     }
   
     .con--1-flex p {

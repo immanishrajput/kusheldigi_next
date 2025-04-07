@@ -145,6 +145,7 @@
     }
     .textContainer h2{
         font-size: 20px;
+        text-align: center;
     }
     .logoGrid {
         grid-template-columns: repeat(2, 1fr) !important;
