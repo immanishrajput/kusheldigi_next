@@ -1,0 +1,128 @@
+.prMainficardsec{
+
+    margin: 50px 46px;
+
+}
+.prMainficardsec2{
+    border-radius: 10px;
+    color: white;
+    padding: 50px 50px;
+    max-width: 1720px;
+    margin: auto;
+    background-color: #0c61ff;
+}
+.proficardsec p{
+    width: 100%;
+font-size: 24px;
+}
+.profileLinksec{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+   gap: 69%;
+}
+.profileCiclr{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.profileCicline{
+    font-weight: 600;
+    font-size: 18px;
+}
+.profileCicline2{
+    font-size: 13px;
+
+}
+.fileCicgol{
+    display: flex;
+    align-items: center;
+}
+.linkdinBcard{
+    padding:8px 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.linkdinBcard p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+}
+.falinkIcon{
+    font-size: 30px;
+}
+.linkdinBcard a{
+    color: white;
+    text-decoration: none;
+}
+
+/* responsive  */
+@media (max-width: 1024px) {
+    .proficardsec p {
+        font-size: 20px;
+    }
+
+    .profileLinksec {
+        /* flex-direction: column; */
+        /* align-items: flex-start; */
+        gap: 40px;
+    }
+
+    .linkdinBcard {
+        align-self: flex-start;
+    }
+}
+
+@media (max-width: 768px) {
+    .prMainficardsec {
+        padding: 30px 20px;
+    }
+
+    .proficardsec p {
+        font-size: 18px;
+    }
+
+    .profileCicline {
+        font-size: 16px;
+    }
+
+    .profileCicline2 {
+        font-size: 12px;
+    }
+
+    .falinkIcon {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .proficardsec p {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .profileCiclr {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .profileLinksec {
+        flex-direction: column;
+        gap: 16px;
+        align-items: self-start;
+    }
+
+    .linkdinBcard {
+        text-align: center;
+    }
+
+    .linkdinBcard p {
+        justify-content: center;
+    }
+    .prMainficardsec{
+        margin: 10px;
+    }
+}
