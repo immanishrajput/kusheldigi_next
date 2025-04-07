@@ -69,9 +69,7 @@
 
 /* Image Container with Same Width for Both Images */
 .image-containerbbcom {
-
     height: auto;
-  
     display: flex;
     align-items: center;
     justify-content: flex-start !important;
@@ -81,7 +79,8 @@
     z-index: 3;
     justify-content: center;
     border-radius: 1rem;
-    margin-left: -40px;
+    /* margin-left: -40px; */
+    margin-right: -60px;
 }
 
 .feature-imagebbcom {

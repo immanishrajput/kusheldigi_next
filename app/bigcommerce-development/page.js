@@ -43,7 +43,7 @@ const page = () => {
         <BigBanner4/>
        
         <BigBanner9 />
-        <ServicesSection/>
+        <ServicesSection page='BigCommerce'/>
         <FeatureSection/>
        
         <BlogSection/>

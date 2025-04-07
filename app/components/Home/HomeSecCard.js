@@ -59,7 +59,7 @@ function Advance() {
             <div className="b2b-logo">
               <img loading='lazy' width="599" height="299"
                 // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806527/b12_tpd0aj.webp" 
-                src='https://res.cloudinary.com/dgif730br/image/upload/v1743686387/asit-sir-2_zu30hm.jpg'
+                src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1744005444/indrpal-images-5_zvtdky.png'
                 alt="Shopify Plus" />
             </div>
             <div className="b2b-contain">

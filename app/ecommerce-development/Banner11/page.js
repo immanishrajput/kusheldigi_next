@@ -61,7 +61,7 @@ function Banner12() {
           <button className="button-b2">DEVELOP B2C ECOMMERCE</button>
         </div>
         <div className="imgg">
-          <img src="https://res.cloudinary.com/dgif730br/image/upload/v1743686387/asit-sir-2_zu30hm.jpg" alt="B2C" />
+          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744005444/indrpal-images-5_zvtdky.png" alt="B2C" />
         </div>
       </div>
 
