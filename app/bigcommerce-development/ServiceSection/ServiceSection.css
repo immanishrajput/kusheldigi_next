@@ -8,6 +8,12 @@
     text-align: center;
 }
 
+.big-services-sm-heading {
+    max-width: 70%;
+    text-align: center;
+    margin: 10px auto;
+}
+
 .big-services-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

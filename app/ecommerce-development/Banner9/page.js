@@ -102,7 +102,7 @@ export default function Banner9({page}) {
         </div>
         <div className="right-b2b-cardKcom">
           <div className="b2b-logoKcom">
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743402463/lovely-6-page-4_ixvs4z.jpg" alt="Shopify Plus" />
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744009340/indrpal-6_xkecsz.png" alt="Shopify Plus" />
             <a href="/Slidesdesign" id="human" className="hover-linkCom">View Case Study <MdArrowOutward /></a>
           </div>
           

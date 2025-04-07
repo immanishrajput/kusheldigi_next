@@ -12,7 +12,7 @@ const Banner5 = () => {
     </div>
     <div className="con--1-flex">
       <div className="con--1-flex-content">
-        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742923538/pro_eiy2ak.svg" alt="" className="iconImage" />
+        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744009335/Slow_Website_Performance_lfn9do.png" alt="" className="iconImage" />
         <h5>Slow Website Performance
         </h5>
         <p>
@@ -20,35 +20,35 @@ const Banner5 = () => {
         </p>
       </div>
       <div className="con--1-flex-content">
-        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742923518/aa_yrav36.svg" alt="" className="iconImage" />
+        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744009336/Poor_User_Experience_UXUI_hskodp.png" alt="" className="iconImage" />
         <h5>Poor User Experience (UX/UI)</h5>
         <p>
         Confusing navigation and unorganized layouts are the reasons for high bounce rates. Our skilled UI/UX designers develop clean and intuitive interfaces to ensure seamless customer experience and improved conversions. We carry out rigorous user testing and analysis to create designs for higher engagement and boost conversions.
         </p>
       </div>
       <div className="con--1-flex-content">
-        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742923510/bus_ipb4bt.svg" alt="" className="iconImage" />
+        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744009336/Integration_Issues_2_vkjleh.png" alt="" className="iconImage" />
         <h5>Inefficient Checkout Process</h5>
         <p>
         A complex checkout process can result in cart abandonment. We simplify the checkout process with auto-fill, multiple payment methods, guest checkout, and one-click purchase. By streamlining the checkout flow, we minimize friction and optimize your conversion rates.
         </p>
       </div>
       <div className="con--1-flex-content">
-        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742923510/conv_fwejmt.svg" alt="" className="iconImage" />
+        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744009336/Poor_Search_Engine_Visibility_twfe8v.png" alt="" className="iconImage" />
         <h5>Poor Search Engine Visibility</h5>
         <p>
         If your customers can't find you, they can't purchase from you. We practice SEO best practices, optimize product pages, and structure site improvements to boost your search rankings and organic traffic. Our SEO solutions make sure that your products rank higher to drive more qualified leads and sales.
         </p>
       </div>
       <div className="con--1-flex-content">
-        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742923555/search_atbpep.svg" alt="" className="iconImage" />
+        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744009336/Mobile-Responsiveness-Issues_x3i6y3.png" alt="" className="iconImage" />
         <h5>Mobile Responsiveness Issues</h5>
         <p>
         With most customers using mobile devices, a non-responsive site will cost your business. We create fully responsive eCommerce websites that offer an optimal experience on all screen sizes and devices. All aspects of your website are optimized for mobile, offering a smooth, quick, and easy to use shopping experience.
         </p>
       </div>
       <div className="con--1-flex-content">
-        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742923528/perf_zix5em.svg" alt="" className="iconImage" />
+        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744009335/Integration-Issues_cyyvd4.png" alt="" className="iconImage" />
         <h5>Integration Issues</h5>
         <p>
         From payment gateways to third-party applications, integration problems can hinder operations. Our team provides seamless API integrations with CRMs, ERPs, inventory management, and marketing software for hassle-free business operations. We ensure all your systems are in sync, enhancing operational efficiency and minimizing manual labor.
