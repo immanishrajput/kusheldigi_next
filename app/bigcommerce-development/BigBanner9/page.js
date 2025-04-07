@@ -7,9 +7,9 @@ const BigBanner9 = () => {
     <section className="section--1">
   <container className="conflict--1">
     <div className="conflict--1-div">
-      <h3 className='primary-heading'> BigCommerce Integration Made Simple and Powerful
+      <h3 className='bigcommerce-section9-heading primary-heading'> BigCommerce Integration Made Simple and Powerful
       </h3>
-      <h6 className='secondary-heading'>As a Certified BigCommerce Partner, Kushel Digi Solutions has been delivering seamless integration services to optimize and scale your eCommerce store for growth and performance. We integrate payment gateways and CRM systems, marketing automation and analytics tools to streamline your operations.</h6>
+      <h6 className='bigcommerce-section9sm-heading secondary-heading'>As a Certified BigCommerce Partner, Kushel Digi Solutions has been delivering seamless integration services to optimize and scale your eCommerce store for growth and performance. We integrate payment gateways and CRM systems, marketing automation and analytics tools to streamline your operations.</h6>
     </div>
     <div className="conflict--1-flex">
       <div className="con--1-flex-content">
