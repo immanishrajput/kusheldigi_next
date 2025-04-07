@@ -18,8 +18,10 @@ const services = [
     { icon:<AiTwotoneAppstore />,title: "Application Management", description: "Ensure system reliability, stable performance, and technical support with our services." },
 ];
 
-const ServiceSection = () => {
+const ServiceSection = ({page}) => {
     return (
+        <div className='big-outer-services-container'>
+            <h2 className='big-services-heading primary-heading'>{page} Support Service</h2>
         <div className="big-services-container">
             {services.map((service, index) => (
                 <div
@@ -31,6 +33,7 @@ const ServiceSection = () => {
                     <p>{service.description}</p>
                 </div>
             ))}
+        </div>
         </div>
     );
 };

@@ -24,6 +24,8 @@ const BlogSection = () => {
         }
     };
 
+   
+
     useEffect(() => {
         fetchAllBlog();
     }, []);

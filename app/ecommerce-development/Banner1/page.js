@@ -78,7 +78,7 @@ const Banner = () => {
                                 height="463"
                                 loading='lazy'
                                 // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741088247/MacBook_2_2_two22g.png"
-                                src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1743830377/indrpal-images-3_ifezxi.png'
+                                src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1744005078/indrpal-2_s9ckw6.png'
                                 alt="bigcommerce"
                             />
                             <img
@@ -86,7 +86,7 @@ const Banner = () => {
                                 height="463"
                                 loading='lazy'
                                 // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742641401/immmmm-removebg-preview_yhm4on.png"
-                                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743830377/indrpal-images-2_hc9lle.png"
+                                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744005078/indrpal-3_gmtgvg.png"
                                 alt="shopify"
                             />
                             <img className='new-banner-scroll-img'
@@ -94,7 +94,7 @@ const Banner = () => {
                                 height="463"
                                 loading='lazy'
                                 // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741089462/Group_1171281256_1_znsijn.png"
-                                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743830376/indrpal-images-1_q1vqc5.png"
+                                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744005077/indrpal-1_xw4dan.png"
                                 alt="magento"
                             />
                         </Slider>

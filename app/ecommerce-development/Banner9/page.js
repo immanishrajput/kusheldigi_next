@@ -26,7 +26,7 @@ const projects = [
   },
 ];
 
-export default function Banner10({page}) {
+export default function Banner9({page}) {
   return (
     <section className="projectsSectionKcom">
       <div className="projectsHeaderKcom">

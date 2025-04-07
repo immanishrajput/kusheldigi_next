@@ -21,6 +21,15 @@ import Footer from '../COMMON/Footer';
 import BigSection5 from './BigSection5/page';
 import BigSection8 from './BigSection8/page';
 // import { Helmet } from 'react-helmet';
+import ShopifyProcess from "./ShopifyProcess/ShopifyProcess";
+import HomeForm from "../components/Home/HomeForm";
+import BlogSection from '../COMMON/BlogSection/BlogSection';
+import FeatureSection from '../bigcommerce-development/FeaturesSection/FeatureSection';
+import ServiceSection from '../bigcommerce-development/ServiceSection/ServiceSection';
+import BigBanner4 from "../bigcommerce-development/BigBanner4/page";
+import BigBanner6 from "../bigcommerce-development/BigBanner6/page";
+import Banner9 from '../ecommerce-development/Banner9/page';
+import BigBanner3 from '../bigcommerce-development/BigBanner3/page';
 
 function Shopify3({notify}) {
   const generateMetadata = ({ params }) => ({
@@ -44,41 +53,46 @@ function Shopify3({notify}) {
 
 <div className="home-main">
 
-<BigHeader />
+{/* <BigHeader /> */}
 
-<BigSection2 />
+{/* <BigSection2 /> */}
 
-<p className="linesbig"></p>
+{/* <p className="linesbig"></p> */}
 
-<BigSection3 />
+{/* <BigSection3 /> */}
 
-<Home2BrandSwiper title={"Featured Technology Partners"} />
+{/* <Home2BrandSwiper title={"Featured Technology Partners"} /> */}
 
-<BigSection5/>
+{/* <BigSection5/> */}
 
-<Bigsection6 />
+{/* <Bigsection6 /> */}
 
-<BigSection7 />
+{/* <BigSection7 /> */}
 
-<BigSection8/>
+{/* <BigSection8/> */}
 
-<Home2Section10  heading={"EMPOWERING INDUSTRIES WITH OUR EXPERT SOLUTIONS"} 
-// heading1={"SUPPORTING SUCCESS ACROSS ALL THE MAJOR INDUSTRIES"}
- para={"We have expertise in multiple industries, providing custom digital solutions for growth and success. Be it in transforming customer experience or operational excellence, we engineer technology that caters specifically to your business needs."}/>
+{/* <Home2Section10  heading={"EMPOWERING INDUSTRIES WITH OUR EXPERT SOLUTIONS"} 
+ para={"We have expertise in multiple industries, providing custom digital solutions for growth and success. Be it in transforming customer experience or operational excellence, we engineer technology that caters specifically to your business needs."}/> */}
 
-<Home2Testimonial  />
-
-<YourProject />
-
+{/* <Home2Testimonial  /> */}
+{/* <YourProject /> */}
+<BigBanner3/>
+<Banner9 page='Shopify'/>
+<ShopifyProcess/>
+<BigBanner6 page='Shopify'/>
+<BigBanner4/>
+<ServiceSection page='Shopify'/>
+<FeatureSection/>
+<BlogSection/>
 <BigAskQuestion />
-
-<ContactForm1 notify={notify} />
+<HomeForm/>
+{/* <ContactForm1 notify={notify} /> */}
 
 
 
 </div>
 <Footer/>
-    </>
+</>
    
     
   )
