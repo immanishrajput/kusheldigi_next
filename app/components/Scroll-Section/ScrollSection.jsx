@@ -118,7 +118,7 @@ const sectionsData = [
     {
         number: "01",
         title: "Discovery Phase",
-        img: 'https://www.digitalsilk.com/wp-content/uploads/2024/06/iStock-932335774-2.png.webp',
+        img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744015610/discovery-phase_a2muy9.png',
         description:
             "Kushel Digi always prioritizes understanding your business model, target audience, and growth objectives. It helps us to create a personalized eCommerce strategy best suited for your vision and market demands.",
         listItems: [
@@ -130,7 +130,7 @@ const sectionsData = [
     {
         number: "02",
         title: "Strategy Phase",
-        img: 'https://www.digitalsilk.com/wp-content/uploads/2024/06/iStock-932335774-3.png',
+        img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744015612/strategy-phase_t9oush.png',
         description:
             "After understanding your requirements, our team designs a development plan that includes platform selection, feature integration, and user experience design. It ensures a solid foundation for an excellent online store.",
         listItems: [
@@ -142,7 +142,7 @@ const sectionsData = [
     {
         number: "03",
         title: "Design & Prototyping",
-        img: 'https://www.digitalsilk.com/wp-content/uploads/2024/06/iStock-932335774-4.png.webp',
+        img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744015610/design-_-prototyping_ssn1c8.png',
         description:
             "We have a team of dedicated UI/UX designers who design interactive prototypes to visualize your store's layout and functionality. Kushel Digi is committed to a seamless and user-friendly shopping experience.",
         listItems: [
@@ -154,7 +154,7 @@ const sectionsData = [
     {
         number: "04",
         title: "Development Phase",
-        img: "https://www.digitalsilk.com/wp-content/uploads/2024/06/responsive.png.webp",
+        img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1744015610/development-phase_fbl6fy.png",
         description:
             "We have a team of the country's best developers with a wide range of experience in building scalable eCommerce platforms with advanced features and third-party integrations.",
         listItems: [
@@ -166,7 +166,7 @@ const sectionsData = [
     {
         number: "05",
         title: "Testing Phase",
-        img: 'https://www.digitalsilk.com/wp-content/uploads/2024/06/quality.png.webp',
+        img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744015611/testing-phase_jygidt.png',
         description:
             "We perform rigorous testing to identify and resolve bugs. It also helps us optimize performance and ensure your website is responsive and secure. We are committed to a better user experience without errors.",
         listItems: [
@@ -178,7 +178,7 @@ const sectionsData = [
     {
         number: "06",
         title: "Launch & Ongoing Support",
-        img: 'https://www.digitalsilk.com/wp-content/uploads/2024/06/launch.png.webp',
+        img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744015610/launch_rx3ijg.png',
         description:
             "After a successful launch, we provide continuous monitoring, updates, and technical support. Our team is always there with you to keep your site optimized according to market trends.",
         listItems: [

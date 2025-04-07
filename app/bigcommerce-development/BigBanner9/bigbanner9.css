@@ -14,9 +14,13 @@ width: 930px;
 margin: auto;
 text-align: center;
   font-size: 2rem;
-  margin-bottom: 10px;
+  margin: 15px auto 10px;
   font-weight: 500;
-  line-height: 2.8rem;
+  /* line-height: 2.8rem; */
+}
+
+.bigcommerce-section9-heading {
+  text-align: center;
 }
 
 .conflict--1-div h4 {
@@ -39,7 +43,7 @@ text-align: center;
   align-items: self-start;
   grid-template-columns: repeat(3, 1fr);  /* 3 Columns */
   gap: 20px;
-  padding-top: 50px ;
+  padding-top: 40px ;
   justify-content: center;
 }
 
