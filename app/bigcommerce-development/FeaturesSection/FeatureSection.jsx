@@ -12,23 +12,25 @@ const FeatureSection = () => {
     const features = [
         {
             icon: <PiTargetDuotone />,
-            title: 'Team Integration That Works',
-            desc: `Edvantis teams work as an extension of your organization, aligning with your processes to ensure the best outcomes. It's not just about finishing the project but working with your team to achieve results.`
+            title: 'Scalable Architecture',
+            desc: `BigCommerce is known for offering flexible customization options that allows businesses to design unique storefronts to handle growing customer demands.`
         },
         {
             icon: <PiMedalDuotone />,
-            title: 'Trust and Industry Recognition',
-            desc: `Maintaining a 98% CSAT year after year, we are trusted by clients and recognized by global platforms such as Clutch, G2, and IAOP for our reliable delivery and commitment to customer success.`
+            title: 'Omnichannel Selling',
+            desc: `BigCommerce will help you to expand your reach by selling across multiple channels, including social media and marketplace from centralized BigCommerce dashboard.
+`
         },
         {
             icon: <IoStatsChartOutline />,
-            title: 'Scalable Service Models',
-            desc: `Our “LEGO-like” service models allow us to build the perfect collaboration together. We provide rapid recruitment, high retention rates, and scalable teams that dynamically evolve alongside your business goals.`
+            title: 'Advanced Marketing Tools',
+            desc: `Most important features of Bigcommerce is that it boost your store’s visibility with in-built SEO features, customizable URLs and marketing tools that drive traffic along with high conversions.`
         },
         {
             icon: <PiHeadCircuit />,
-            title: 'Knowledge Sharing',
-            desc: `72% of our professionals are mid- and senior-level specialists who bring required knowledge to help with the delivery. Then we make sure you preserve this knowledge within your internal teams for future success.`
+            title: 'Secure Infrastructure',
+            desc: `It ensure a secure shopping experience by integrating features like enterprise-level security, PCI compliance,fast-loading pages and optimal performance for your customers.
+`
         }
     ];
 
@@ -36,8 +38,9 @@ const FeatureSection = () => {
         <div className='big-feature-outer-container'>
             <div className="big-feature-inner-container">
                 <div className="left-big-feature-container">
-                <h2 className="bigcommerce-feature-heading primary-heading">What Sets Us <span className='big-feature-heading-color'>Apart</span></h2>
-                    <p className='big-feature-para secondary-heading'>Since 2005, we’ve been helping businesses achieve their software product development goals. We do this on time, within budget, and with the highest quality possible.</p>
+                <h2 className="bigcommerce-feature-heading primary-heading">Features of BigCommerce Solutions</h2>
+                    <p className='big-feature-para secondary-heading'>BigCommerce can power your online store by offering scalability, seamless integrations, and advanced features that will definitely drive success in the digital marketplace.
+                    </p>
 
                     <div className="left-big-feature-grid">
 

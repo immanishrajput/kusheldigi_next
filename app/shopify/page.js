@@ -30,6 +30,7 @@ import BigBanner4 from "../bigcommerce-development/BigBanner4/page";
 import BigBanner6 from "../bigcommerce-development/BigBanner6/page";
 import Banner9 from '../ecommerce-development/Banner9/page';
 import BigBanner3 from '../bigcommerce-development/BigBanner3/page';
+import ShopifyBanner from './ShopifyBanner/ShopifyBanner';
 
 function Shopify3({notify}) {
   const generateMetadata = ({ params }) => ({
@@ -76,6 +77,7 @@ function Shopify3({notify}) {
 
 {/* <Home2Testimonial  /> */}
 {/* <YourProject /> */}
+<ShopifyBanner/>
 <BigBanner3/>
 <Banner9 page='Shopify'/>
 <ShopifyProcess/>

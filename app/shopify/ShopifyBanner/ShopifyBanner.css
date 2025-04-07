@@ -1,0 +1,87 @@
+.shopify-new-banner-outer-container {
+    max-width: 1720px;
+    margin: 0 auto;
+    padding: 40px 60px;
+    background-color: #fff;
+}
+
+.shopify-new-banner-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.shopify-new-banner-left,
+.shopify-new-banner-right {
+    flex: 1;
+}
+
+.shopify-new-sm-location {
+    font-weight: 400;
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+.shopify-new-banner-heading {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.shopify-new-banner-sm-heading {
+    margin: 15px 0px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+}
+
+.shopify-new-banner-button {
+    color: #fff;
+    background-color: #0c61ff;
+    padding: 10px 22px;
+    border-radius: 35px;
+    border: 1px solid #0c61ff;
+    margin: 20px 0px;
+    transition: all 0.3s ease-in-out;
+    font-size: 1.2rem;
+}
+
+.shopify-new-banner-button:hover {
+    border: 1px solid #0c61ff;
+    color: #0c61ff;
+    background: #fff;
+}
+
+.new-shopify-review-img {
+    max-width: 60%;
+}
+
+@media screen and (max-width: 900px) {
+    .shopify-new-banner-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .shopify-new-banner-heading ,
+    .shopify-new-banner-sm-heading {
+        max-width: unset;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .shopify-new-banner-outer-container {
+        padding: 50px 30px 40px;
+    }
+
+    .shopify-new-banner-heading {
+        font-size: 2rem;
+    }
+
+    .shopify-new-banner-sm-heading {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.6rem;
+    }
+}
