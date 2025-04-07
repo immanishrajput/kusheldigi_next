@@ -45,12 +45,14 @@
     color: #333;
     font-size: 1.2rem;
     margin-top: 14px;
+    font-weight: 500;
 }
 
 .big-services-card > p {
     color: #666;
     margin-top: 10px;
     text-align: left;
+    font-size: 0.9rem;
 }
 
 @media (max-width: 1024px) {
@@ -60,11 +62,21 @@
 }
 
 @media (max-width: 768px) {
+
+    .big-outer-services-container {
+        padding: 40px 10px;
+    }
+
     .big-services-container {
         grid-template-columns: repeat(1, 1fr);
     }
 
     .big-services-container {
         padding: 30px;
+    }
+
+    .big-services-sm-heading {
+        margin-top: 30px;
+        max-width: unset;
     }
 }

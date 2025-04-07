@@ -256,7 +256,7 @@ const Website = () => {
                   </label>
                   <br />
                   <input
-                    className="contact-input"
+                    className="contact-input down-contact-name-input"
                     type="text"
                     placeholder="Your Name"
                     name="firstName"

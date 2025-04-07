@@ -16,6 +16,7 @@ import HomeForm from '../components/Home/HomeForm';
 import BlogSection from "../COMMON/BlogSection/BlogSection.jsx";
 import FeatureSection from './FeaturesSection/FeatureSection'
 import ServicesSection from './ServiceSection/ServiceSection'
+import BigCommercePortfolio from './BigCommercePortfolio/BigCommercePortfolio'
 
 const page = () => {
   const generateMetadata = ({ params }) => ({
@@ -37,7 +38,8 @@ const page = () => {
       <BigBanner8/>
       <BigBanner7/>
       <BigBanner3/>
-      <Banner10 page='BigCommerce'/>
+      {/* <Banner10 page='BigCommerce'/> */}
+      <BigCommercePortfolio/>
       <Process/>
       <BigBanner6 page='BigCommerce'/>
         <BigBanner4/>

@@ -103,7 +103,7 @@ Kushel Digi Solutions?
           </h1>
         </div>
         <div className="itemsss">
-          <p className="seconday-heading">
+          <p className="secondary-heading">
           With deep BigCommerce expertise, Kushel Digi always believes in a client-centric approach to deliver customized eCommerce solutions. Here are some excellent benefits you can expect by availing our services.
 
           </p>
