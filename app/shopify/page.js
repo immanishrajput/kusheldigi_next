@@ -47,46 +47,46 @@ function Shopify3({notify}) {
                 document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
             }, []);
 
-            const leftContent = {
-              heading: "Kushel Digi Shopify Development Services",
-              subheading: "Kushel Digi is committed to deliver your dream ecommerce store with high powered Shopify",
-              buttonLabel: "Get a Free Consultation Today",
-              buttonLink: "contact-us"
-            };
+            // const leftContent = {
+            //   heading: "Kushel Digi Shopify Development Services",
+            //   subheading: "Kushel Digi is committed to deliver your dream ecommerce store with high powered Shopify",
+            //   buttonLabel: "Get a Free Consultation Today",
+            //   buttonLink: "contact-us"
+            // };
             
             
-            const services = [
-              {
-                title: "Shopify Custom Store Development",
-                description:
-                  "Let us turn your vision into a reality through our custom BigCommerce store development. Our eCommerce solutions are designed to meet the needs of your brand. Our platform ensures a seamless and engaging shopping experience for your customers.",
-              },
-              {
-                title: "Shopify Theme Design",
-                description:
-                  "Stand out in this saturated market with an attractive, custom-made BigCommerce theme. Our design team will create beautiful, responsive themes that reflect your branding. Give that store an extra edge that gets the customers interacting.",
-              },
-              {
-                title: "Shopify App Integration",
-                description:
-                  "Augment store functionality with BigCommerce app integrations that are seamlessly integrated. We will integrate vital tools and third-party apps to further up your store's capability. Whether it's a payment gateway or a marketing tool, we have got you covered.",
-              },
-              {
-                title: "Shopify Migration Services",
-                description:
-                  "Moving to BigCommerce? Our migration services make sure that your transition runs smoothly with the least amount of downtime. We take responsibility for everything, from data porting to design replicability, so that you do not lose your store functionality.",
-              },
-              {
-                title: "Shopify Performance Optimization",
-                description:
-                  "Ensure that your store is fast, responsive, and reliable with our performance optimization services. We will inspect and improve the load times, server performance, and user experience so that customers always remain satisfied and engaged.",
-              },
-              {
-                title: "Shopify SEO & Marketing",
-                description:
-                  "Expand your online presence and sales with our BigCommerce SEO and marketing services. We put into action tested strategies that will enhance your search ranking and drive targeted traffic. Let us help you reach your audience effectively.",
-              },
-            ];
+            // const services = [
+            //   {
+            //     title: "Shopify Custom Store Development",
+            //     description:
+            //       "Let us turn your vision into a reality through our custom BigCommerce store development. Our eCommerce solutions are designed to meet the needs of your brand. Our platform ensures a seamless and engaging shopping experience for your customers.",
+            //   },
+            //   {
+            //     title: "Shopify Theme Design",
+            //     description:
+            //       "Stand out in this saturated market with an attractive, custom-made BigCommerce theme. Our design team will create beautiful, responsive themes that reflect your branding. Give that store an extra edge that gets the customers interacting.",
+            //   },
+            //   {
+            //     title: "Shopify App Integration",
+            //     description:
+            //       "Augment store functionality with BigCommerce app integrations that are seamlessly integrated. We will integrate vital tools and third-party apps to further up your store's capability. Whether it's a payment gateway or a marketing tool, we have got you covered.",
+            //   },
+            //   {
+            //     title: "Shopify Migration Services",
+            //     description:
+            //       "Moving to BigCommerce? Our migration services make sure that your transition runs smoothly with the least amount of downtime. We take responsibility for everything, from data porting to design replicability, so that you do not lose your store functionality.",
+            //   },
+            //   {
+            //     title: "Shopify Performance Optimization",
+            //     description:
+            //       "Ensure that your store is fast, responsive, and reliable with our performance optimization services. We will inspect and improve the load times, server performance, and user experience so that customers always remain satisfied and engaged.",
+            //   },
+            //   {
+            //     title: "Shopify SEO & Marketing",
+            //     description:
+            //       "Expand your online presence and sales with our BigCommerce SEO and marketing services. We put into action tested strategies that will enhance your search ranking and drive targeted traffic. Let us help you reach your audience effectively.",
+            //   },
+            // ];
 
 
   return (
@@ -122,7 +122,7 @@ function Shopify3({notify}) {
 {/* <Home2Testimonial  /> */}
 {/* <YourProject /> */}
 <ShopifyBanner/>
-<BigBanner3 leftContent={leftContent} services={services}/>
+<BigBanner3 />
 {/* <ShopifyServices leftContent={leftContent} services={services}/>  */}
 <Banner9 page='Shopify'/>
 <ShopifyProcess/>
