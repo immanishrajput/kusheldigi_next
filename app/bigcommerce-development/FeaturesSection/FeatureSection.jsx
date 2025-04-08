@@ -52,7 +52,7 @@ const FeatureSection = () => {
                     </div>
                 </div>
                 <div className="right-big-feature-container">
-                    <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743777748/it-consult_y2ofwh.png" alt="feature-image" />
+                    <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744119273/feature-of-bigcommerce_o9w9co.png" alt="feature-image" />
                 </div>
             </div>
         </div>

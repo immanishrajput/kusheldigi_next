@@ -15,6 +15,10 @@ import Link from "next/link";
 import Navbar from "../COMMON/Navbar";
 import MagentoFAQ from '../COMMON/MagentoFAQ'
 import Footer from "../COMMON/Footer";
+import ChooseMagento from "./ChooseMagento/ChooseMagento";
+import CallAction from "./CallAction/CallAction";
+import UpgradeServices from "./UpgradeServices/UpgradeServices";
+import WhyChooseMagento from "./WhyChooseMagento/WhyChooseMagento";
 const Magento = () => {
   const [front, setFront] = useState(1);
 
@@ -78,7 +82,11 @@ const Magento = () => {
     <Navbar/>
     
       <div className="ser-main">
-        <div className="magentooo1">
+        <ChooseMagento/>
+        <CallAction/>
+        <UpgradeServices/>
+        <WhyChooseMagento/>
+        {/* <div className="magentooo1">
           <div className="magento-back dine-123">
             <div className="magento_back1 magento-texted">
               <h1>
@@ -95,7 +103,7 @@ const Magento = () => {
             </div>
 
             <div className="magentos">
-              {/* <img src={MagentoImg} alt="magento ecommerce business" title="magento ecommerce business" /> */}
+    
               <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724838006/MagentoImg.f80b261e43190e2cad0e_m4xaag.png" alt="magento ecommerce business" title="magento ecommerce business" />
             </div>
 
@@ -113,7 +121,7 @@ const Magento = () => {
             <a href="contact-us"><button className="newbtn">Let’s Get Started</button></a>
           </div>
           <div className="magento_service2">
-            {/* <img className="admis" src={ss4} alt="Magento development" title="Magento development" /> */}
+          
             <img className="admis" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724838206/sa4.6d83a0b214d92052eecf_e8upaw.png" alt="Magento development" title="Magento development" />
           </div>
         </div>
@@ -179,10 +187,10 @@ const Magento = () => {
           </div>
         </div>
 
-        {/* end */}
+       
         <div className="magento_services dine-123">
           <div className="magento_services1">
-            {/* <img src={misad} alt="Magento ecommerce solutions" title="Magento ecommerce solutions" /> */}
+
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724838301/misad.3aa7b4591532192d6ecb_kazph7.png" alt="Magento ecommerce solutions" title="Magento ecommerce solutions" />
           </div>
           <div className="magento_services2">
@@ -195,11 +203,11 @@ const Magento = () => {
 
             </p>
           </div>
-        </div>
-        {/* new.s */}
+        </div> */}
+       
 
 
-        <div className="server_megy">
+        {/* <div className="server_megy">
           <h3>Magento Development Services</h3>
           <div className="server_merging">
             <div className="server_mergs">
@@ -243,17 +251,17 @@ const Magento = () => {
               </div>
             </div>
           </div>
-        </div>
-
+        </div> */}
+{/* 
         <div className="php_portfolio">
           <div className="php_port php_oty">
             <h3 className="our_php">Why Choose <span>Kushel Digi Magento </span>Development Services?  </h3>
           </div>
-        </div>
+        </div> */}
 
-        <div className="megento_old">
+        {/* <div className="megento_old"> */}
 
-          <div className="old_cards">
+          {/* <div className="old_cards">
             <div className="megento_old2">
               <div className="megento_old3">
                 <img className="n1-img" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739254074/n1_fqgi2b.png' alt="Expertise and experience" title="Expertise and experience" />
@@ -335,14 +343,14 @@ const Magento = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
- <div className="php_portfolio">
+ {/* <div className="php_portfolio">
           <div className="php_port">
             <h3 className="our_php">Our <span>Megento</span>  Web Development <span>Portfolio</span> </h3>
           </div>
-        </div>
-        <div className="gting">
+        </div> */}
+        {/* <div className="gting">
           <Splide
             className="w-full"
             aria-label="Our Services"
@@ -359,14 +367,14 @@ const Magento = () => {
             <SplideSlide>
               <div className="kickta_big kickta_mag">
                 <div className="kickta_big1 kickta_magst">
-                  {/* <img src={sigmat} alt="Semi-annual" title="Semi-annual" /> */}
+               
                   <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724838765/Group_1000007518_1_ui4ia1.png" alt="Semi-annual" title="Semi-annual" />
                   <div className="headst_big">
                     <h3>Semi-annual<br />sale</h3>
                 
                   </div>
                   <div className="kickma-arrow view-web">
-                    {/* <p>View Website</p> */}
+              
                     <a href="https://www.sigma-global.com/en/" target="_blank">
                       <button>
                         <span>View Website</span>
@@ -384,7 +392,7 @@ const Magento = () => {
             <SplideSlide>
               <div className="kickta_big kickta_mag1">
                 <div className="kickta_big1 kickta_magst1">
-                  {/* <img src={wrappet} alt="Try on 5 frames without" title="Try on 5 frames without" /> */}
+           
                   <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724838765/Group_1000007822_pq8vgm.png" alt="Try on 5 frames without" title="Try on 5 frames without" />
                   <div className="headst_big">
                     <h3>Try on 5 frames without<br />leaving home</h3>
@@ -425,9 +433,9 @@ const Magento = () => {
               </div>
             </SplideSlide>
           </Splide>
-        </div>
+        </div> */}
 
-        <div className="dedicated_dreams">
+        {/* <div className="dedicated_dreams">
           <h3>Dedicated Dreams.</h3>
           <div className="dedicated_dreams1">
             <div className="dedicated1">
@@ -435,7 +443,7 @@ const Magento = () => {
             </div>
             <div className="dedicated_content">
               <div className="dedicated_content1">
-                {/* <img src={magh} alt="Dedicated Dreams." title="Dedicated Dreams." /> */}
+               
                 <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724838776/magh.d2acf7d5d5886491c232_tubcvq.png
 " alt="Dedicated Dreams." title="Dedicated Dreams." />
               </div>
@@ -452,14 +460,14 @@ const Magento = () => {
               <p>SCHEDULE A DEVELOPER INTERVIEW</p>
             </div>
           </div>
-        </div>
+        </div> */}
 
 
 
 
 
 
-        <ContactForm1 />
+        {/* <ContactForm1 /> */}
 
        
            <MagentoFAQ/>

@@ -5,7 +5,7 @@ const Banner6 = () => {
   return (
     <>
       <section className="sec--3">
-        <container className="con--3">
+        <div className="con--3">
           <div className="con--3-div">
             <h4 className='primary-heading'>Benefits of Having A Custom Ecommerce Website</h4>
             <p className='secondary-heading'>Get an eCommerce solution by customizing every aspect of your online store to match your unique business needs.</p>
@@ -80,7 +80,7 @@ const Banner6 = () => {
               </p>
             </div>
           </div>
-        </container>
+        </div>
       </section>
 
     </>

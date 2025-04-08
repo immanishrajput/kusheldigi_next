@@ -5,7 +5,7 @@ const BigBanner9 = () => {
   return (
     <>
     <section className="section--1">
-  <container className="conflict--1">
+  <div className="conflict--1">
     <div className="conflict--1-div">
       <h3 className='bigcommerce-section9-heading primary-heading'> BigCommerce Integration Made Simple and Powerful
       </h3>
@@ -56,7 +56,7 @@ const BigBanner9 = () => {
         </p>
       </div>
     </div>
-  </container>
+  </div>
 </section>
 
     </>
