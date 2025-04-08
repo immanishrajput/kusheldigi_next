@@ -1,7 +1,7 @@
+'use client'
 import React from "react";
 import "./BigBanner7.css";
-import { BsGraphUpArrow } from "react-icons/bs";
-import { FaChalkboardUser } from "react-icons/fa6";
+
 const Result = () => {
   return (
     <div className="ResultBccom">

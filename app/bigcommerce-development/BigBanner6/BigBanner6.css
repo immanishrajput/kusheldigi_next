@@ -16,7 +16,7 @@ color: #0c61ff !important;
   .itemss h1 {
     text-align: center;
     font-size: 2.4rem;
-    width:900px;
+    max-width:790px;
     font-weight: 500;
     margin: auto;
     color: #000;

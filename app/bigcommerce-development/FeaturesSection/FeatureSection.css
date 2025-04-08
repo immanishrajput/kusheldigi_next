@@ -16,7 +16,6 @@
 };
 
 
-
 .big-feature-heading-color {
     color: #2b2bf6;
 }
@@ -37,6 +36,11 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.left-big-feature-grid-item > img {
+    width: 40px !important;
+    height: 40px !important;
 }
 
 .big-feature-icon {

@@ -54,8 +54,50 @@
     background: #fff;
 }
 
+.flex-bigcommerce-banner-btns {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 15px;
+}
+
+.bigcommerce-banner-btn {
+    background: #0c61ff;
+    color: white;
+    padding: 13px 20px;
+    border-radius: 60px;
+    font-size: 14px;
+    border: 1px solid #0c61ff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.bigcommerce-banner-btn:hover {
+    border: 1px solid #0c61ff;
+    background: #fff;
+    color: #0c61ff;
+}
+
+.big-transparent-btn {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    border: 1px solid #0c61ff;
+    color: #0c61ff;
+    padding: 13px 20px;
+}
+
+.big-transparent-btn:hover {
+    background: #0c61ff;
+    color: #fff;
+    border: 1px solid #0c61ff;
+}
+
+
 .new-shopify-review-img {
     max-width: 60%;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 900px) {

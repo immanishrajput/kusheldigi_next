@@ -2,32 +2,29 @@
 
 import React from 'react';
 import "./FeatureSection.css";
-import { PiTargetDuotone } from "react-icons/pi";
-import { PiMedalDuotone } from "react-icons/pi";
-import { IoStatsChartOutline } from "react-icons/io5";
-import { PiHeadCircuit } from "react-icons/pi";
+
 
 const FeatureSection = () => {
 
     const features = [
         {
-            icon: <PiTargetDuotone />,
+            icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092987/Scalable-Architecture_fmw5y8.png',
             title: 'Scalable Architecture',
             desc: `BigCommerce is known for offering flexible customization options that allows businesses to design unique storefronts to handle growing customer demands.`
         },
         {
-            icon: <PiMedalDuotone />,
+            icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092988/Omnichannel-Selling_uljoeu.png',
             title: 'Omnichannel Selling',
             desc: `BigCommerce will help you to expand your reach by selling across multiple channels, including social media and marketplace from centralized BigCommerce dashboard.
 `
         },
         {
-            icon: <IoStatsChartOutline />,
+            icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092988/Advanced-Marketing-Tools_oyncng.png',
             title: 'Advanced Marketing Tools',
             desc: `Most important features of Bigcommerce is that it boost your store’s visibility with in-built SEO features, customizable URLs and marketing tools that drive traffic along with high conversions.`
         },
         {
-            icon: <PiHeadCircuit />,
+            icon:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092988/Secure-Infrastructure_dxdrcn.png',
             title: 'Secure Infrastructure',
             desc: `It ensure a secure shopping experience by integrating features like enterprise-level security, PCI compliance,fast-loading pages and optimal performance for your customers.
 `
@@ -46,7 +43,7 @@ const FeatureSection = () => {
 
                         {features.map((feature, index) => (
                             <div key={index} className="left-big-feature-grid-item">
-                                <span className='big-feature-icon'>{feature.icon}</span>
+                                <img src={feature.icon} alt="feature-icon" className='feature-section-left-icon'/>
                                 <h3 className='big-feature-card-title'>{feature.title}</h3>
                                 <p className='big-feature-card-desc'>{feature.desc}</p>
                             </div>
