@@ -7,10 +7,10 @@ import Head from 'next/head';
 import '../globals.css'
 
 
-import ContactForm1 from "../COMMON/ContactForm1";
-import { Splide, SplideSlide } from "@splidejs/react-splide";
+// import ContactForm1 from "../COMMON/ContactForm1";
+// import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import Link from "next/link";
+// import Link from "next/link";
 
 import Navbar from "../COMMON/Navbar";
 import MagentoFAQ from '../COMMON/MagentoFAQ'
@@ -20,7 +20,7 @@ import CallAction from "./CallAction/CallAction";
 import UpgradeServices from "./UpgradeServices/UpgradeServices";
 import WhyChooseMagento from "./WhyChooseMagento/WhyChooseMagento";
 const Magento = () => {
-  const [front, setFront] = useState(1);
+  // const [front, setFront] = useState(1);
 
 
 
@@ -40,13 +40,13 @@ const Magento = () => {
 
 
 
-  const scrollToTop = () => {
-    // Scroll to the top of the page with smooth behavior
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
-  };
+  // const scrollToTop = () => {
+  
+  //   window.scrollTo({
+  //     top: 0,
+  //     behavior: 'smooth',
+  //   });
+  // };
    const generateMetadata = ({ params }) => ({
          title: 'Best magento development company -KushelDigi Solutions',
          description: 'Kushel Digi Solutions offers Magento Development services that ensure a seamless client experience and a wide range of capabilities.',

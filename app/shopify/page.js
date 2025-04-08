@@ -122,8 +122,8 @@ function Shopify3({notify}) {
 {/* <Home2Testimonial  /> */}
 {/* <YourProject /> */}
 <ShopifyBanner/>
-{/* <BigBanner3 leftContent={leftContent} services={services}/> */}
-<ShopifyServices leftContent={leftContent} services={services}/> 
+<BigBanner3 leftContent={leftContent} services={services}/>
+{/* <ShopifyServices leftContent={leftContent} services={services}/>  */}
 <Banner9 page='Shopify'/>
 <ShopifyProcess/>
 <BigBanner6 page='Shopify'/>
