@@ -15,7 +15,7 @@ const ShopifyBanner = () => {
                         <a href='#form-section' className='bigcommerce-banner-btn' >Talk to a Consultant</a>
                         <Link href="/contact-us"> <button className='bigcommerce-banner-btn big-transparent-btn' >  Book a Call  <FaArrowRightLong /></button></Link>
                     </div>
-                    <img className='new-shopify-review-img' loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744009168/reviews-google_bq5kbl.png" alt="reviews" />
+                    {/* <img className='new-shopify-review-img' loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744009168/reviews-google_bq5kbl.png" alt="reviews" /> */}
                 </div>
                 <div className="shopify-new-banner-right">
                     <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744008381/shopify-banner_r2yygh.png" loading='lazy' alt="shopify-banner" />

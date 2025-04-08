@@ -15,7 +15,7 @@ const steps = [
       "Kushel Digi always prioritizes understanding your business model, target audience, and growth objectives. It helps us to create a personalized eCommerce strategy best suited for your vision and market demands.",
       heading:"This stage includes:",
     includes: ["In-depth business analysis", "Identifying target audience & goals", "Personalized eCommerce strategy"],
-    image: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743078873/Project_kick_off_af46896777_1_xrslzz.webp",
+    image: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1744015610/discovery-phase_a2muy9.png",
   },
   {
     number: 2,
@@ -24,7 +24,7 @@ const steps = [
       "After understanding your requirements, our team designs a development plan that includes  platform selection, feature integration, and user experience design. It ensures a solid foundation for an excellent online store.",
       heading:"This stage includes:",
     includes: ["Platform selection & tech stack", "Feature planning & UX optimization", "Roadmap for scalable growth"],
-    image: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743078873/Project_discovery_63ecee24fa_gazzpl.webp",
+    image: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1744015612/strategy-phase_t9oush.png",
   },
   {
     number: 3,
@@ -32,7 +32,7 @@ const steps = [
     description: "We have a team of dedicated UI/UX designers who designs and interactive prototypes to visualize your store's layout and functionality. Kushel Digi committed to a seamless and user-friendly shopping experience.",
     heading:"This stage includes:",
     includes: ["Wireframes & interactive prototypes", "User-centric design approach", "Focus on seamless navigation"],
-    image: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743078873/Software_development_249192bc43_xx6thi.webp",
+    image: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1744015610/design-_-prototyping_ssn1c8.png",
   },
   {
     number: 4,
@@ -40,7 +40,7 @@ const steps = [
     description: "We have a team of the country's best developers who have wide range of experience in  building scalable eCommerce platforms with advanced features and third-party integrations.",
     heading:"This stage includes:",
     includes: ["Scalable & high-performance solutions", "Custom features", "Third-party integrations"],
-    image: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743078873/QA_testing_and_validation_6c4486ae46_j7cndn.webp",
+    image: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1744015610/development-phase_fbl6fy.png",
   },
   {
     number: 5,
@@ -48,7 +48,7 @@ const steps = [
     description: "We perform rigorous testing to identify and resolve bugs. It also helps us to optimize performance and ensure your website is responsive and secure.  We are committed to a better  user experience without error.",
     heading:"This stage includes:",
     includes: ["Multi-device & browser compatibility", "Performance & security checks", "Bug fixing & optimization"],
-    image: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743078873/Maintenance_and_support_3bd6d42861_kjsk0h.webp",
+    image: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1744015611/testing-phase_jygidt.png",
   },
   {
     number: 6,
@@ -56,7 +56,7 @@ const steps = [
     description: "After a successful launch, we provide continuous monitoring, updates, and technical support. Our team is always there with you to keep your site optimized according to market trends.",
     heading:"This stage includes:",
     includes: ["Smooth deployment & go-live support", "Continuous monitoring & updates", "24/7 technical assistance"],
-    image: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743078873/Maintenance_and_support_3bd6d42861_kjsk0h.webp",
+    image: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1744015610/launch_rx3ijg.png",
   },
   
 ];

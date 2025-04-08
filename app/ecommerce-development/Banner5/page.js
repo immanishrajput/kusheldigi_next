@@ -5,7 +5,7 @@ const Banner5 = () => {
   return (
     <>
     <section className="sec--1">
-  <container className="con--1">
+  <div className="con--1">
     <div className="con--1-div">
       <h6 className='secondary-heading'>Solve. Optimize. Grow</h6>
       <h4 className='primary-heading'>Let Your Ecommerce Development Issues Be Solved by Our Experts</h4>
@@ -55,7 +55,7 @@ const Banner5 = () => {
         </p>
       </div>
     </div>
-  </container>
+  </div>
 </section>
 
     </>
