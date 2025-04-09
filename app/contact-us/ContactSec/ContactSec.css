@@ -242,7 +242,7 @@ right: 217px;
   
   .from0to1-underline {
     position: absolute;
-    bottom: -4px;
+    /* bottom: -4px; */
     left: 0;
     width: 100%;
     height: 20px;
