@@ -1,0 +1,166 @@
+.sec2ndBoost{
+    max-width: 1720px;
+    padding: 60px 50px;
+    margin: auto;
+}
+.boostSecPara{
+    width: 673px;
+    font-weight: 400;
+    line-height:52px;
+    font-size: 42px;
+}
+.boostSecPara span{
+color: #0c61ff;
+}
+.boostSecmaiDiv{
+    padding: 24px 0px;
+}
+.boostSecmaiDiv p{
+    line-height: 30px;
+font-size: 18px;
+width: 700px;
+color: #423e3e;
+}
+.boostSecUP{
+    padding: 10px 0px;
+}
+/* card section */
+.abouMainbox{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.aboutCardActive{
+  height: 112px;
+ /* width: 300px; */
+  display: flex;
+  align-items:center;
+ gap: 20px;
+border-radius: 7px;
+    border: 1px solid #0c61ff;
+    padding:30px 20px;
+}
+.aboutCardActive:hover{
+  background-color: rgba(224, 236, 255, .3);
+    border: 1px solid #0c61ff;
+}
+.aboutCardIcon{
+  display: flex;
+  align-items: center;
+    color: #0c61ff;
+    font-size: 50px;
+}
+.aboutCardExacpa{
+    font-size: 22px;
+    color: #0c61ff;
+    font-weight: 500;
+}
+.aboutCardExyear{
+    font-size: 15px;
+    color: black;
+}
+
+/* responsive design */
+@media (max-width:1200px){
+  .aboutCardActive{
+    height: auto;
+  }
+    .abouMainbox{
+     display: grid;
+     grid-template-columns: repeat(3,2fr);
+       
+    }
+}
+@media screen and (max-width: 1024px) {
+  .aboutCardActive{
+    height: auto;
+  }
+    .boostSecPara {
+
+      width: 100%;
+      font-size: 36px;
+      line-height: 44px;
+    }
+  
+    .boostSecmaiDiv p {
+      width: 100%;
+      font-size: 15px;
+      line-height: 28px;
+    }
+  
+    .abouMainbox{
+      display: grid;
+      grid-template-columns: repeat(2,2fr);
+        
+     }
+  
+    .aboutCardActive {
+      flex-direction: column;
+      text-align: center;
+      padding: 20px 15px;
+    }
+  
+    .aboutCardIcon {
+      font-size: 40px;
+    }
+  
+    .aboutCardExacpa {
+      font-size: 20px;
+    }
+  
+    .aboutCardExyear {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .aboutCardExacpa{
+      text-align: center;
+    }
+    .aboutCardExyear {
+      text-align: center;
+    }
+    .boostSecmaiDiv p{
+      text-align: center;
+    }
+    .aboutCardActive{
+      height: auto;
+    }
+    .sec2ndBoost {
+      padding: 30px 20px;
+    }
+  
+    .boostSecPara {
+      font-size: 28px;
+      text-align: center;
+      line-height: 36px;
+    }
+  
+    .boostSecmaiDiv {
+      padding: 16px 0;
+    }
+  
+    .aboutCardActive {
+      width: 100%;
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .abouMainbox {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .aboutCardIcon {
+      font-size: 36px;
+    }
+  }
+  @media (max-width:450px){
+    .aboutCardActive{
+      height: auto;
+    }
+    .abouMainbox {
+        display: grid;
+        grid-template-columns: repeat(2,4fr);
+    }
+  }
