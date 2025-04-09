@@ -2,6 +2,8 @@
 
 import React from 'react';
 import './ServiceSection.css';
+import {BigCommerceServices } from "../../data/data"
+import {BigCommerceServicesHeading } from "../../data/data"
 
 const services = [
     { icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092988/customer-service_1_ve4gd6.png',title: "24/7 Technical Support", description: "Your business can be hit by unexpected problems, but our team of dedicated support agents is there for you 24/7 to fix any technical issues promptly. From website crashes, non-functioning pages, to integration problems, we offer instant solutions to reduce downtime" },
@@ -12,14 +14,14 @@ const services = [
     { icon:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092988/regular_ctplhe.png',title: "Regular Maintenance & Updates", description: "Technology keeps changing, and it is vital to be updated for competitiveness. We offer regular updates, bug fixes, and maintenance so that your BigCommerce store remains secure, operational, and in line with the current trends in the industry." },
 ];
 
-const ServiceSection = ({page}) => {
+const ServiceSection = ({services,contents}) => {
     return (
         <div className='big-outer-services-container'>
-            <h2 className='big-services-heading primary-heading'>Our Support Services</h2>
-            <p className='big-services-sm-heading secondary-heading'>Kushel Digi Solutions is always committed to ensure that your BigCommerce store operates seamlessly with our expert support services. Our team is there for you from setup to maintenance, we believe in providing solutions that keep your online business running efficiently.
+            <h2 className='big-services-heading primary-heading'>{contents?.title}</h2>
+            <p className='big-services-sm-heading secondary-heading'>{contents?.desc}
             </p>
         <div className="big-services-container">
-            {services.map((service, index) => (
+            {services?.map((service, index) => (
                 <div
                     key={index}
                     className={`big-services-card ${service.highlighted ? 'highlighted' : ''}`}

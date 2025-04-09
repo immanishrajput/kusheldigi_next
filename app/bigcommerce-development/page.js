@@ -16,7 +16,13 @@ import HomeForm from '../components/Home/HomeForm';
 import BlogSection from "../COMMON/BlogSection/BlogSection.jsx";
 import FeatureSection from './FeaturesSection/FeatureSection'
 import ServicesSection from './ServiceSection/ServiceSection'
-import BigCommercePortfolio from './BigCommercePortfolio/BigCommercePortfolio'
+import BigCommercePortfolio from './BigCommercePortfolio/BigCommercePortfolio';
+import { whyBigCommereByKDS } from "../data/data"
+import { whyBigCommereByKDSHeading } from "../data/data";
+import {BigCommerceServices} from "../data/data"
+import {BigCommerceServicesHeading} from "../data/data";
+import {BigCommerceFeatures} from "../data/data";
+import {BigCommerceFeaturesContent} from "../data/data";
 
 const page = () => {
   const generateMetadata = ({ params }) => ({
@@ -42,12 +48,12 @@ const page = () => {
       {/* <Banner10 page='BigCommerce'/> */}
       <BigCommercePortfolio/>
       <Process/>
-      <BigBanner6 page='BigCommerce'/>
+      <BigBanner6 services={whyBigCommereByKDS} contents={whyBigCommereByKDSHeading}/>
         <BigBanner4/>
        
         <BigBanner9 />
-        <ServicesSection page='BigCommerce'/>
-        <FeatureSection/>
+        <ServicesSection services={BigCommerceServices} contents={BigCommerceServicesHeading}/>
+        <FeatureSection services={BigCommerceFeatures} contents={BigCommerceFeaturesContent}/>
        
         <BlogSection/>
         <BigAskQuestion/>

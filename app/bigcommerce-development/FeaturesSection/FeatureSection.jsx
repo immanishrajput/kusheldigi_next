@@ -3,8 +3,7 @@
 import React from 'react';
 import "./FeatureSection.css";
 
-
-const FeatureSection = () => {
+const FeatureSection = ({services,contents}) => {
 
     const features = [
         {
@@ -35,13 +34,13 @@ const FeatureSection = () => {
         <div className='big-feature-outer-container'>
             <div className="big-feature-inner-container">
                 <div className="left-big-feature-container">
-                <h2 className="bigcommerce-feature-heading primary-heading">Features of BigCommerce Solutions</h2>
-                    <p className='big-feature-para secondary-heading'>BigCommerce can power your online store by offering scalability, seamless integrations, and advanced features that will definitely drive success in the digital marketplace.
+                <h2 className="bigcommerce-feature-heading primary-heading">{contents?.title}</h2>
+                    <p className='big-feature-para secondary-heading'>{contents?.desc}
                     </p>
 
                     <div className="left-big-feature-grid">
 
-                        {features.map((feature, index) => (
+                        {services?.map((feature, index) => (
                             <div key={index} className="left-big-feature-grid-item">
                                 <img src={feature.icon} alt="feature-icon" className='feature-section-left-icon'/>
                                 <h3 className='big-feature-card-title'>{feature.title}</h3>
@@ -52,7 +51,7 @@ const FeatureSection = () => {
                     </div>
                 </div>
                 <div className="right-big-feature-container">
-                    <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744119273/feature-of-bigcommerce_o9w9co.png" alt="feature-image" />
+                    <img src={contents?.img} alt="feature-image" />
                 </div>
             </div>
         </div>
