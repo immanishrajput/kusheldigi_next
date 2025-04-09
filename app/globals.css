@@ -3341,7 +3341,7 @@ body {
 }
 
 .title {
-    max-width: 18rem;
+    /* max-width: 18rem; */
     font-size: 16px;
     line-height: 25px;
     font-family: "Poppins", sans-serif;
@@ -16581,6 +16581,12 @@ body {
 
     .singlepros {
         border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+    }
+}
+
+@media (max-width:768px) {
+    .h2s10cont {
+        padding:30px !important;
     }
 }
 
@@ -72185,6 +72191,9 @@ article h4 {
     .s8singbox {
         margin: 0 auto;
     }
+    .s5cont {
+        padding:0px 30px;
+    }
 }
 
 .s5wrap {
@@ -73475,6 +73484,12 @@ input::-webkit-inner-spin-button {
 
     .faqr-item.expanded .faqr-answer {
         line-height: 22px;
+    }
+}
+
+@media screen and (max-width:768x) {
+    .faqr-section {
+        padding:30px;
     }
 }
 
@@ -75608,7 +75623,7 @@ input::-webkit-inner-spin-button {
     text-align: center;
     font-size: 2.5rem;
     line-height: 44px;
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto;
     font-weight: 500;
 }
@@ -75620,7 +75635,7 @@ input::-webkit-inner-spin-button {
     margin: 0 auto;
     margin-top: 20px;
     font-size: 18px;
-    width: 1250px;
+    max-width: 1250px;
     text-align: center;
 }
 
@@ -75854,6 +75869,10 @@ input::-webkit-inner-spin-button {
 @media only screen and (max-width:768px) {
     .singles1item {
         width: 47.5% !important;
+    }
+
+    .carousel-container {
+        padding: 40px 30px;
     }
 }
 

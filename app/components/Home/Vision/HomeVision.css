@@ -281,11 +281,7 @@ body {
   padding-bottom: 3.125rem;
   padding-top: 3.125rem;
   }
-  @media only screen and (min-width: 768px) {
-  .services-we-served {
-    padding-top: 4.688rem;
-  }
-  }
+
   @media only screen and (min-width: 991px) {
   .services-we-served {
     padding-top: 6.25rem;
@@ -293,7 +289,7 @@ body {
   }
   @media only screen and (min-width: 768px) {
   .services-we-served {
-    padding-bottom: 4.688rem;
+    padding: 45px 30px;
   }
   }
   @media only screen and (min-width: 991px) {

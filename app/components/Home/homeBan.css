@@ -428,7 +428,7 @@ padding-left: 50px !important;
   }
 
   .cross-icon {
-    right: -124px;
+    right: -46px;
     top: -48px;
 }
 
@@ -520,6 +520,12 @@ padding-left: 50px !important;
   /* padding: 60px 0px 80px 0px; */
 }
 
+@media screen and (max-width:768px){
+  .platforms {
+    padding: 30px;
+  }
+}
+
 @media screen and (max-width:600px){
   .platforms {
     padding: 30px 0 80px;
@@ -537,14 +543,14 @@ padding-left: 50px !important;
   text-align: center;
   font-weight: 600;
   font-size: 37px;
-  line-height: 40px;
+  /* line-height: 40px; */
   margin-bottom: 30px;
 }
 @media (max-width:750px){
   .plt-head{
     font-size: 27px;
     width: 95%;
-    line-height: 30px;
+    /* line-height: 30px; */
     
   }
   .plt-para{
@@ -845,7 +851,7 @@ padding-left: 50px !important;
   .b2b-head {
     width: 100%;
       font-size: 42px;
-      line-height: 46px;
+      /* line-height: 46px; */
   }
 
   .b2b-headss {
@@ -885,7 +891,7 @@ padding-left: 50px !important;
   .b2b-head {
     width: 100%;
       font-size: 36px;
-      line-height: 42px;
+      /* line-height: 42px; */
   }
 
   .b2b-headss {
@@ -920,11 +926,17 @@ padding-left: 50px !important;
   }
 }
 
+@media (max-width: 768px) {
+  .b2b-section {
+    padding:30px;
+  }
+}
+
 @media (max-width: 576px) {
   .b2b-head {
     width: 100%;
       font-size: 32px;
-      line-height: 38px;
+      /* line-height: 38px; */
   }
 .b2b-section{
   padding: 20px;
@@ -964,7 +976,7 @@ padding-left: 50px !important;
 @media(max-width:508px){
   .plt-head {
     font-size: 18px;
-    line-height: 25px;
+    /* line-height: 25px; */
   }
   .plt-para{
     width: 100%;
@@ -980,7 +992,7 @@ padding-left: 50px !important;
   .b2b-head {
     width: 100%;
       font-size: 27px;
-      line-height: 34px;
+      /* line-height: 34px; */
       margin-bottom: 19px !important;
   }
 
@@ -1053,6 +1065,11 @@ padding-left: 50px !important;
     flex-wrap: wrap;
   }
   
+}
+@media screen and (max-width:768px){
+  .flagship-section {
+    padding:30px;
+  }
 }
 @media(max-width:450px){
   .flagship-section{
