@@ -86,4 +86,8 @@
     .choose-magento-outer-container {
         padding: 40px 30px;
     }
+
+    .choose-magento-grid-item > h4 {
+        text-align: center;
+    }
 }

@@ -112,6 +112,10 @@
         width: 280px;
     }
 
+    .magento-action-call-content-right > h3 {
+        text-align: center;
+    }
+
     .magento-action-call-btn-text {
         font-size: 13px;
         flex: none;

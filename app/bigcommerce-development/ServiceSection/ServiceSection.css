@@ -79,4 +79,16 @@
         margin-top: 30px;
         max-width: unset;
     }
+
+    .big-services-card > img {
+        margin: 0 auto;
+    }
+
+    .big-services-card > h3 {
+        text-align: center;
+    }
+
+    .big-services-card > p {
+        text-align: center;
+    }
 }
