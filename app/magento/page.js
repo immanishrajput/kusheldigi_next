@@ -24,7 +24,8 @@ import BlogSection from "../COMMON/BlogSection/BlogSection";
 import MagentoPortfolio from "./MagentoPortfolio/MagentoPortfolio";
 import ServicesSection from "../bigcommerce-development/ServiceSection/ServiceSection";
 import FeatureSection from "../bigcommerce-development/FeaturesSection/FeatureSection";
-import BigBanner6 from "../bigcommerce-development/BigBanner6/page"
+import BigBanner6 from "../bigcommerce-development/BigBanner6/page";
+import Banner8 from '../ecommerce-development/Banner8/page'
 import { BigCommerceFeatures, BigCommerceFeaturesContent, BigCommerceServices, BigCommerceServicesHeading, whyBigCommereByKDS, whyBigCommereByKDSHeading } from "../data/data";
 const Magento = () => {
   // const [front, setFront] = useState(1);
@@ -96,6 +97,7 @@ const Magento = () => {
         <CallAction/>
         <UpgradeServices/>
         <WhyChooseMagento/>
+        <Banner8/>
         <BigBanner6 services={whyBigCommereByKDS} contents={whyBigCommereByKDSHeading}/>
         <ServicesSection services={BigCommerceServices} contents={BigCommerceServicesHeading}/>
         <FeatureSection services={BigCommerceFeatures} contents={BigCommerceFeaturesContent}/>
