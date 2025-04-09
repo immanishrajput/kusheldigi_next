@@ -55,6 +55,16 @@ const CaseStudy = () => {
     router.push('/contact-us');
   };
 
+  
+  const scrollToForm = () => {
+    const formSection = document.getElementById('form-section');
+    if (formSection) {
+      const yOffset = -120; 
+      const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+  };
+
     return (
         <div className='case-study-container'>
             <div className='case-wrapper'>
@@ -74,7 +84,7 @@ const CaseStudy = () => {
                             ))
                         }
                         <div className='flex-bigcommerce-banner-btns'>
-                        <a href='#form-section' className='bigcommerce-banner-btn' >Talk to a Consultant</a>
+                        <button onClick={scrollToForm} className='bigcommerce-banner-btn' >Talk to a Consultant</button>
                         <Link href="/contact-us"> <button className='bigcommerce-banner-btn big-transparent-btn' >  Book a Call  <FaArrowRightLong /></button></Link>
                     </div>
                     </div>

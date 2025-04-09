@@ -10,6 +10,7 @@ import { FaArrowRightLong } from 'react-icons/fa6';
 import { HiShoppingCart } from "react-icons/hi"
 import { useRouter } from 'next/navigation';
 import dynamic from "next/dynamic";
+import Link from 'next/link';
 
 const Slider = dynamic(() => import("react-slick"), { ssr: false });
 
@@ -31,24 +32,33 @@ const NewBanner = () => {
 
     const navigate = useRouter();
 
-    useEffect(() => {
-        const handleHashChange = () => {
-            const section = document.getElementById("form-section");
-            if (section) {
-                setTimeout(() => {
-                    const offset = 150;
-                    const sectionPosition = section.getBoundingClientRect().top + window.scrollY - offset;
-                    window.scrollTo({ top: sectionPosition, behavior: "smooth" });
-                }, 0);
-            }
-        };
+    // useEffect(() => {
+    //     const handleHashChange = () => {
+    //         const section = document.getElementById("form-section");
+    //         if (section) {
+    //             setTimeout(() => {
+    //                 const offset = 150;
+    //                 const sectionPosition = section.getBoundingClientRect().top + window.scrollY - offset;
+    //                 window.scrollTo({ top: sectionPosition , behavior: "smooth" });
+    //             }, 0);
+    //         }
+    //     };
 
-        window.addEventListener("hashchange", handleHashChange, false);
+    //     window.addEventListener("hashchange", handleHashChange, false);
 
-        return () => {
-            window.removeEventListener("hashchange", handleHashChange, false);
-        };
-    }, []);
+    //     return () => {
+    //         window.removeEventListener("hashchange", handleHashChange, false);
+    //     };
+    // }, []);
+
+    const scrollToForm = () => {
+        const formSection = document.getElementById('form-section');
+        if (formSection) {
+          const yOffset = -120; 
+          const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+          window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+      };
 
     return (
         <div className='new-banner-container'>
@@ -61,7 +71,7 @@ const NewBanner = () => {
                     </h4>
                     {/* <button className='new-banner-btn'>SCHEDULE A DEMO</button> */}
                     <div className='flex-new-banner-btns'>
-                        <a href='#form-section' className='new-banner-btn colored'>Talk to a Consultant</a>
+                        <button onClick={scrollToForm} className='new-banner-btn colored'>Talk to a Consultant</button>
                         <button onClick={() => navigate.push('/contact-us')} className='new-banner-btn transparent'>Book a Call  <FaArrowRightLong /></button>
                     </div>
                 </div>
