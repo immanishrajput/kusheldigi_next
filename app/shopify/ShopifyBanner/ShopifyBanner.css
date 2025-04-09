@@ -126,4 +126,8 @@
         font-weight: 400;
         line-height: 1.6rem;
     }
+
+    .flex-bigcommerce-banner-btns {
+        flex-direction: column;
+    }
 }

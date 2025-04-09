@@ -85,4 +85,13 @@
     .why-choose-magento-inner-left-card-container {
         grid-template-columns: 1fr;
     }
+
+    .why-choose-magento-inner-left > h4,
+    .why-choose-magento-inner-left > h3 {
+        text-align: center;
+    }
+
+    .why-choose-magento-inner-left-card > h4 {
+        text-align: center;
+    }
 }
