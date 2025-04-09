@@ -19,6 +19,13 @@ import ChooseMagento from "./ChooseMagento/ChooseMagento";
 import CallAction from "./CallAction/CallAction";
 import UpgradeServices from "./UpgradeServices/UpgradeServices";
 import WhyChooseMagento from "./WhyChooseMagento/WhyChooseMagento";
+import MagentoServices from "./MagentoServices/MagentoServices"
+import BlogSection from "../COMMON/BlogSection/BlogSection";
+import MagentoPortfolio from "./MagentoPortfolio/MagentoPortfolio";
+import ServicesSection from "../bigcommerce-development/ServiceSection/ServiceSection";
+import FeatureSection from "../bigcommerce-development/FeaturesSection/FeatureSection";
+import BigBanner6 from "../bigcommerce-development/BigBanner6/page"
+import { BigCommerceFeatures, BigCommerceFeaturesContent, BigCommerceServices, BigCommerceServicesHeading, whyBigCommereByKDS, whyBigCommereByKDSHeading } from "../data/data";
 const Magento = () => {
   // const [front, setFront] = useState(1);
 
@@ -82,10 +89,17 @@ const Magento = () => {
     <Navbar/>
     
       <div className="ser-main">
+        <MagentoServices/>
+        <MagentoPortfolio page='Magento'/>
         <ChooseMagento/>
+
         <CallAction/>
         <UpgradeServices/>
         <WhyChooseMagento/>
+        <BigBanner6 services={whyBigCommereByKDS} contents={whyBigCommereByKDSHeading}/>
+        <ServicesSection services={BigCommerceServices} contents={BigCommerceServicesHeading}/>
+        <FeatureSection services={BigCommerceFeatures} contents={BigCommerceFeaturesContent}/>
+        <BlogSection/>
         {/* <div className="magentooo1">
           <div className="magento-back dine-123">
             <div className="magento_back1 magento-texted">
