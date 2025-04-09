@@ -23,6 +23,7 @@ import {BigCommerceServices} from "../data/data"
 import {BigCommerceServicesHeading} from "../data/data";
 import {BigCommerceFeatures} from "../data/data";
 import {BigCommerceFeaturesContent} from "../data/data";
+import Banner9 from '../ecommerce-development/Banner8/page'
 
 const page = () => {
   const generateMetadata = ({ params }) => ({
@@ -47,6 +48,7 @@ const page = () => {
       <BigBanner3 />
       {/* <Banner10 page='BigCommerce'/> */}
       <BigCommercePortfolio/>
+      <Banner9/>
       <Process/>
       <BigBanner6 services={whyBigCommereByKDS} contents={whyBigCommereByKDSHeading}/>
         <BigBanner4/>
