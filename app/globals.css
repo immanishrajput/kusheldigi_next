@@ -22184,8 +22184,8 @@ input[type=number] {
 
 .home-main {
     padding-top: 8.8rem;
-    position: relative;
-    overflow-x: hidden
+    /* position: relative; */
+    /* overflow-x: hidden */
 }
 
 .newAbout {

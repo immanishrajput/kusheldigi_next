@@ -41,6 +41,13 @@
     border: 1px solid gray;
     padding: 15px;
     border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.why-choose-magento-inner-left-card:hover {
+    background: #e0f0ff;
+    border-color: #007BFF;
 }
 
 .why-choose-magento-inner-left-card > h4 {

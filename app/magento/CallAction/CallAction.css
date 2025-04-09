@@ -1,17 +1,20 @@
 .magento-action-call-wrapper {
     max-width: 1720px;
     margin: 0 auto;
+    position: relative;
 }
 
 .magento-action-call-content-box {
     width: 80%;
-    margin: 0 auto;
+    margin: auto;
     display: flex;
     align-items: center;
     box-shadow: 0 0 40px rgb(0 0 0 / 10%);
     border-radius: 12px;
     padding: 30px;
+    overflow: hidden;
 }
+
 
 .magento-action-call-content-left {
     width: 40%;
