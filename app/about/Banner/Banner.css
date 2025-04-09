@@ -1,10 +1,10 @@
 .aboutBannerSeC{
     background-color: #e4edf3;
-    margin-top: 9%;
+    margin-top: 9.3%;
 }
 .aboutBannerMain{
     max-width: 1720px;
-    padding: 60px 50px;
+    padding: 50px 50px;
    margin: auto;
     display: flex;
 justify-content:flex-start;
@@ -22,7 +22,7 @@ color: #0c61ff;
         width: 650px;
         color: #6f6b6b;
         line-height: 30px;
-        padding: 22px 0px;
+        padding: 10px 0px 20px 0px;
     }
   
     .Kushabouparbtn button{
@@ -43,7 +43,7 @@ border: 1px solid #0c61ff;
 color: white;
     }
     .ourAboutpra p{
-        padding-top: 40px;
+        padding-top: 30px;
         font-size: 18px;
         font-weight: 500;
         color: black;
@@ -72,6 +72,7 @@ width: 700px;
  } */
 @media(max-width: 1024px) {
     .aboutBannerMain {
+      margin-top: 100px;
       flex-direction: column;
       align-items: center;
       gap: 30px;
@@ -114,7 +115,7 @@ width: 700px;
   @media screen and (max-width: 600px) {
 
     .aboutBannerSeC {
-      margin-top: 140px;
+      margin-top: 50px;
       padding: 30px 20px;
     }
   
@@ -145,6 +146,7 @@ width: 700px;
   }
   @media (max-width:450px){
     .aboutBannerMain {
+      flex-direction: column-reverse;
         width: 100%;
         padding: 0px;
     }

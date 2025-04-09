@@ -87,6 +87,10 @@ padding-top: 50px;
   }
   
 @media screen and (max-width: 768px) {
+  .globalparaMap{
+    padding-top: 20px;
+   
+  }
     .mainGlobalcontactMap {
       flex-direction: column;
       gap: 30px;
@@ -110,7 +114,7 @@ padding-top: 50px;
     .globalLocation,
     .globalContryMail {
       width: 100%;
-      flex-wrap: wrap;
+      /* flex-wrap: wrap; */
     }
   
     .iframeMapContact {

@@ -51,6 +51,18 @@
   }
   
   /* Responsive Styling */
+  @media(max-width:1024px){
+   
+    .dev-partner-heading {
+      line-height: 30px;
+    }
+    .dev-partner-section{
+         padding: 40px 30px;
+    }
+    .dev-partner-subtext{
+      padding-top: 10px;
+    }
+  }
   @media (max-width: 768px) {
     .dev-partner {
       flex-direction: column;

@@ -54,7 +54,9 @@
     color: #0c61ff;
     transform: rotate(180deg);
   }
-  
+  .svgArrowDiv{
+    width:100% ;
+  }
   .ds25-heading {
     position: relative;
     top: 50px;
@@ -139,8 +141,8 @@
   
   .ds25-bottom-arrow {
   position: relative;
-right: 217px;
-    margin-top: 5px;
+right: 218px;
+    /* margin-top: 5px; */
   }
   
   .ds25-step-title {
@@ -204,7 +206,7 @@ right: 217px;
     content: "";
     position: absolute;
     left: 50%;
-    width: 5px;
+    width: 3px;
     height: 30px;
     background-color: #0c61ff;
     transform: translateX(0%);
@@ -294,7 +296,7 @@ right: 217px;
       }
     
       .ds25-step-text {
-        width: auto;
+        width: 700px;
       }
     }
   
@@ -367,6 +369,9 @@ right: 217px;
       }
     }
     @media(max-width:450px){
+      .mainDsDiv{
+        padding: 10px 10px 32px 10px;
+      } 
       .ds25-bottom-arrow {
         position: initial;
      display: none;

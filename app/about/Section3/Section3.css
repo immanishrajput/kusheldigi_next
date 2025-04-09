@@ -1,6 +1,6 @@
 .prMainficardsec{
 
-    margin: 50px 46px;
+    margin: 25px 46px;
 
 }
 .prMainficardsec2{
@@ -43,6 +43,10 @@ font-size: 24px;
     padding:8px 10px;
     border: 1px solid white;
     border-radius: 10px;
+}
+.linkdinBcard:hover{
+    background-color: rgba(224, 236, 255, .3)
+    
 }
 .linkdinBcard p{
     display: flex;
@@ -99,6 +103,9 @@ font-size: 24px;
 }
 
 @media (max-width: 480px) {
+    .prMainficardsec2 {
+ padding: 40px 15px;
+    }
     .proficardsec p {
         width: 100%;
         font-size: 16px;

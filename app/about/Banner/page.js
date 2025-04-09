@@ -3,8 +3,15 @@ import React from 'react'
 import { FaArrowRight } from "react-icons/fa";
 import './Banner.css'
 import Link from 'next/link';
+import '../../components/Home/HomeNewBanner.css'
+import { FaArrowRightLong } from 'react-icons/fa6';
+import { Router} from 'react-router-dom';
+import { useRouter } from 'next/navigation';
+
 const Banner = () => {
+    const router = useRouter();
   return (
+
     <>
 <section className='aboutBannerSeC'>
 <div className='aboutBannerMain'>
@@ -15,9 +22,13 @@ const Banner = () => {
        <div className='Kushaboupara'>
        <p>Kushel Digi Solutions has a dedicated team of experts who have delivered advanced eCommerce development and digital transformation solutions. We have deep expertise in latest technologies like Bigcommerce, Shopify, Woocommece to deliver customised e-commerce solutions. We're here to give your brand the digital identity to make you standout in thus competitive world.</p>
        </div>
-<div className='Kushabouparbtn'>
+{/* <div className='Kushabouparbtn'>
    <Link href="/contact-us"> <button>Get in touch <FaArrowRight/></button></Link>
-</div>
+</div> */}
+ <div className='flex-new-banner-btns'>
+                        <a href='#form-section' className='new-banner-btn colored'>Talk to a Consultant</a>
+                        <button onClick={() => router.push('/contact-us')} className='new-banner-btn transparent'>Book a Call  <FaArrowRightLong/></button>
+                    </div>
 <div className='ourAboutpra'>
 <p>Our recognition</p>
 

@@ -1,6 +1,6 @@
 .coreMainConta{
   
-    background: linear-gradient(90deg, #f8f8f8c2, #e9f0ff79);
+    background: linear-gradient(90deg, #f8f8f890, #e9f0ffa9);
   }
   .core-values-container {
     max-width: 1720px;
@@ -25,7 +25,7 @@
     }
     
     .core-values-grid {
-      padding: 27px 0px;
+      padding: 37px 0px 27px 0px;
       display: grid;
       grid-template-columns: 1fr;
       /* gap: 20px; */
@@ -102,10 +102,20 @@
     
     @media(max-width:450px){
       .core-value-description {
+        font-size: 15px;
         padding: 10px;
         /* text-align: center; */
       }
+       .core-values-title{
+font-size: 25px;
+      }
+      .core-value-heading{
+        font-size: 22px;
+      }
       .core-value-card{
         padding: 0;
+      }
+      .core-values-grid{
+        gap: 20px;
       }
     }

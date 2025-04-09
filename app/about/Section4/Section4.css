@@ -20,14 +20,13 @@
 .devParacontent p{
     font-size: 18px;
     font-weight: 400;
-    width: 740px;
+    /* width: 740px; */
     color: #323030;
 }
 .devParacontepara{
     padding: 15px 0px;
 }
 
-/* responsive design */
 @media(max-width:1200px){
     .secBussiness{
         flex-direction: column;

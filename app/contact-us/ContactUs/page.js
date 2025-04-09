@@ -10,13 +10,13 @@ const ContactUs = () => {
  
 
   const interestsOptions = [
-    "Digital Transformation",
-    "IT Consulting",
-    "Engineering",
-    "Data & Analytics",
-    "AI",
+    "UI/UX Design",
+    "E-Commerce Solution",
+    "Web development",
+    "Mobile App Development",
+    "Digital Marketing",
+    "Graphic Design",
     "Staff Augmentation",
-    "Cloud",
     "Other",
   ];
 
@@ -43,10 +43,6 @@ const ContactUs = () => {
     });
   };
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   console.log("Form Data Submitted:", formData);
-  // };
 
 
    const [firstNo, setFirstNo] = useState(0);
@@ -68,6 +64,7 @@ const ContactUs = () => {
     useEffect(() => {
       generateCaptcha();
     }, []);
+  
   
     const verifyCaptcha = () => {
       if (parseInt(userAnswer) !== correctAnswer) {
@@ -193,6 +190,7 @@ const ContactUs = () => {
         track.innerHTML += images;
       }
     }, []);
+  
   return (
   <section className="contactMainku">
       <div className="contact-containerKush">
@@ -201,58 +199,79 @@ const ContactUs = () => {
           <h2>Fill in the form</h2>
           
           <div className="contact-form1"><input type="text" name="firstName" placeholder="Full name *"  value={formData?.firstName}
-                    onChange={(e) => {
-                      
+                     onChange={(e) => {
+                      const value = e.target.value;
+                      if (/^[A-Za-z ]*$/.test(value)) {
                         handleFormChange(e);
-                       
-
                       }
-                      
-                    }
-   required /></div>
+                    }} required />
+                         </div>
           <div className="input-groupKush">
             <input type="email" name="email" placeholder="Business email *"   value={formData?.email}
                   onChange={handleFormChange} required />
-              <input type="tel" name="phone" placeholder="Phone number" maxLength={10} value={formData?.phone}
-              onChange={(e) => {
-    handleFormChange(e)
+            
+<input
+  type="tel"
+  name="phone"
+  placeholder="Phone number*"
+  maxLength={10}
+  value={formData.phone}
+  onChange={(e) => {
+    const value = e.target.value;
+    if (/^\+?[0-9]{0,15}$/.test(value) || value === "") {
+      setFormData((prev) => ({ ...prev, phone: value }));
+    }
   }}
-inputProps={{
-  required: true,
-}}
-countryCodeEditable={false}
-/> 
+  required
+/>
+
           </div>
        <div>
            <textarea name="message" placeholder="Project details *"  value={formData?.message}
                   onChange={handleFormChange} required></textarea>
        </div>
-          {/* <div className="interests-sectionCom">
-            <p>What are you Interested in:</p>
-            <div className="interests-listCom">
-              {interestsOptions.map((interest) => (
-                <button type="button" key={interest}   className={(formData?.interests || []).includes(interest) ? "selectedCom" : ""} onClick={() => handleInterestClick(interest)} >
-                  {interest} 
-                </button>
-              ))}
-            </div>
-          </div> */}
-          <div className="interests-listCom checkboxes-listCom">
+         
+          {/* <div className="interests-listCom checkboxes-listCom">
   {interestsOptions.map((service,index) => (
-    <label  key={service}  className="checkbox-labelCom">
+    <label  key={service}  className="checkbox-labelCom" id={service}>
       <input
         type="checkbox"
         name="service"
-       
+       id={service}
         value={service || ""}
         onChange={handleChange}
         checked={(formData.service || []).includes(service)}
-       
+       className={`checkedCheckbox ${(formData.service || []).includes(service) ? 'selecteCom' : ''} `}
       />
       {service}
     </label>
   ))}
+</div> */}
+<div className="interests-listCom checkboxes-listCom">
+  {interestsOptions.map((service, index) => {
+    const inputId = `service-${index}`;
+    const isSelected = (formData.service || []).includes(service);
+    return (
+      <label
+        key={inputId}
+        className={`checkbox-labelCom ${isSelected ? 'selecteCom' : ''}`}
+        htmlFor={inputId}
+      >
+        <input
+          type="checkbox"
+          name="service"
+          id={inputId}
+          value={service}
+          onChange={handleChange}
+          checked={isSelected}
+          className="checkedCheckbox"
+        />
+        {service}
+      </label>
+    );
+  })}
 </div>
+
 
          
         <div>
@@ -281,15 +300,58 @@ countryCodeEditable={false}
       </div>
       <div className="info-sectionkUSH">
         <h2 className="DropCont"><span>Got an Idea? </span> Let’s Make It Happen.</h2>
-       
-        <p className="DropParaCont">Big or small, each idea has its potential, and we're here to make your idea a reality. Whether you're planning for a full-fledged eCommerce platform or require expert assistance on your ecommerce journey, </p>
+        <div className="row-box">
+                        <div className="col-box dis-flex">
+                            <div className="icon">
+                                <img loading="lazy"
+                                    src="https://www.pixelcrayons.com/wp-content/themes/pixelcrayons/v3.0/assets/images/cont-01.svg"
+                                    alt="pixel" width="40" height="40"/>
+                            </div>
+
+                            <div className="desp">
+                                <h4>20+ years of experience</h4>
+                                <p>We can handle projects of all complexities.</p>
+                            </div>
+                        </div>
+                        <div className="col-box dis-flex">
+                            <div className="icon">
+                                <img loading="lazy"
+                                    src="https://www.pixelcrayons.com/wp-content/themes/pixelcrayons/v3.0/assets/images/cont-02.svg"
+                                    alt="pixel" width="40" height="40"/>
+                            </div>
+
+                            <div className="desp">
+                                <h4>2500+ satisfied customers</h4>
+                                <p>Startups to Fortune 500, we have worked with all.</p>
+                            </div>
+                        </div>
+                        <div className="col-box dis-flex">
+                            <div className="icon">
+                                <img loading="lazy"
+                                    src="https://www.pixelcrayons.com/wp-content/themes/pixelcrayons/v3.0/assets/images/cont-03.svg"
+                                    alt="pixel" width="40" height="40"/>
+                            </div>
+
+                            <div className="desp">
+                                <h4>675+ in-house team</h4>
+                                <p>Top 1% industry talent to ensure your digital success.</p>
+                            </div>
+                        </div>
+
+                    </div>
+        {/* <p className="DropParaCont">Big or small, each idea has its potential, and we're here to make your idea a reality. Whether you're planning for a full-fledged eCommerce platform or require expert assistance on your ecommerce journey, </p> */}
         
         <div className="trusted-by">Tell us about your project. We’ll handle the rest.</div>
 
         <div className="sliderTrusted">
                         <div className="slider-track" ref={trackRef}>
-                        <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446905/LOGOS-1_dhbr7h.png" alt="image" />
-                        <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446905/LOGO-2_mhkyhy.png" alt="img" />
+                        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744203598/webinstalogo_rutcoc_1_empjy6.png" alt="image" />
+                        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744203613/summer_2_htxjay.png" alt="img" />
+                        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744203624/CodePXL_Web_Logo_1_cr6g7c.png" alt="img" />
+                        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744203637/Slide365_Logo_1_x9pvmf.png" alt="img" />
+                        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744203651/sights_and_scope_black_logo_2_ksdcq4.png" alt="img" />
+                        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744203692/70904_228x204_1_rvp6ue.png" alt="img" />
+
                         </div>
                     </div>
        {/* <div className="trustedImage">

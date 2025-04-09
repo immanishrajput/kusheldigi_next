@@ -400,7 +400,7 @@ const Navbar = () => {
                       >
                         About
                       </Link>
-                      <div className="ser-nav10 megaMenu">
+                      {/* <div className="ser-nav10 megaMenu">
                         <div className="compan flex items-start justify-between compan1">
                           <div className="first-compan mt-5 flex items-start justify-evenly">
                             <div className="second-compan mr-10">
@@ -415,17 +415,7 @@ const Navbar = () => {
                                   <p>Careers</p>
                                 </div>
                               </Link>
-                              {/* <NavLink to="/partner">
-                                <div className="flex items-center mt-4">
-                                  <img
-                                    className="timi11 timi23"
-                                    src={letter2}
-                                    alt="letter"
-                                    title="letter"
-                                  />
-                                  <p className="cpmpa ">Partner With us</p>
-                                </div>
-                              </NavLink> */}
+                             
                             </div>
                             <div className="second-compan mr-5"></div>
                           </div>
@@ -439,7 +429,7 @@ const Navbar = () => {
                             </div>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </li>
 

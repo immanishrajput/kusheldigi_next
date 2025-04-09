@@ -99,7 +99,7 @@
       .card-wrapper-wrapper {
         overflow: hidden;
         width: 740px; 
-        margin-top: 10px;
+        margin-top: 15px;
       }
       
       .card-wrapper {
@@ -223,6 +223,9 @@
       }
       
       @media (max-width: 480px) {
+        .cardh3content{
+          width: 90%;
+        }
         .card-wrapper-wrapper {
           width: 100%;
         }
@@ -292,6 +295,14 @@
           line-height: 25px;
              width: 80%;
              padding: 10px 0px;
+        }
+      }
+      @media (max-width:450px){
+        .cardPhilo{
+         height: 250px;
+        }
+        .text-contentSection h1{
+          font-size: 24px;
         }
       }
       

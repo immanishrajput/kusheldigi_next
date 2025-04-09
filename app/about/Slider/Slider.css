@@ -83,7 +83,7 @@
     padding: 20px;
     border-radius: 8px;
     transition: all 0.3s ease;
-    min-height: 340px;
+    min-height: 270px !important;
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -100,7 +100,7 @@
   .valueCard_k82s.active_k82s {
     background-color: rgba(224, 236, 255, .3);
     border: 1px solid #0c61ff;
-    width: 520px;
+    width: 500px;
     padding: 30px 25px;
   }
   
@@ -136,18 +136,24 @@
   }
   
   .valueCard_k82s h3 {
-    margin-top: 80px;
-    line-height: 60px;
+    margin-top: 50px !important;
+    line-height: 30px;
     font-size: 24px;
     font-weight: 600;
    
   }
   
   .valueCard_k82s p {
+    padding: 10px 0px;
     font-size: 18px;
     color: #444;
     line-height: 1.6;
     margin: 0;
+  }
+  @media(max-width:1124px){
+    .valuesGrid_k82s {
+      display: grid;
+    }
   }
   @media (max-width: 768px) {
     .ourValues_k82s {
@@ -184,13 +190,18 @@
   
   @media (max-width: 480px) {
     .ourValues_k82s {
-      padding: 25px 15px;
+      padding: 40px 15px;
     }
   
     .ourValuesHeader_k82s h2 {
       font-size: 24px;
     }
-  
+    .valueCard_k82s h3{
+      font-size: 20px;
+    }
+    .valueCard_k82s p{
+      font-size:15px ;
+    }
     .navBtn_k82s {
       width: 30px;
       height: 30px;

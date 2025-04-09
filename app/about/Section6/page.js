@@ -2,15 +2,16 @@
 import { useState } from "react";
 import "./Section6.css";
 import { TfiMicrosoft } from "react-icons/tfi";
-import { FaMobileAlt } from "react-icons/fa";
+import { FaMobileAlt, FaShoppingCart } from "react-icons/fa";
+import { FaLaptopFile } from "react-icons/fa6";
 
 const Section6 = () => {
     const [activeTab, setActiveTab] = useState("E-Commerce Development");
 
 
   const tabs = [
-    { name: "E-Commerce Development", icon: <TfiMicrosoft/>},
-    { name: "Custom Software Development", icon: "🔗" },
+    { name: "E-Commerce Development", icon: <FaShoppingCart/>},
+    { name: "Custom Software Development", icon: <FaLaptopFile/> },
     { name: "Mobile Apps", icon: <FaMobileAlt/>,
      },
   ];
