@@ -27,6 +27,8 @@ import FeatureSection from "../bigcommerce-development/FeaturesSection/FeatureSe
 import BigBanner6 from "../bigcommerce-development/BigBanner6/page";
 import Banner8 from '../ecommerce-development/Banner8/page'
 import { BigCommerceFeatures, BigCommerceFeaturesContent, BigCommerceServices, BigCommerceServicesHeading, whyBigCommereByKDS, whyBigCommereByKDSHeading } from "../data/data";
+import MagentoBanner from "./MagentoBanner/MagentoBanner";
+import WhyMagento from "./WhyMagento/WhyMagento";
 const Magento = () => {
   // const [front, setFront] = useState(1);
 
@@ -90,6 +92,8 @@ const Magento = () => {
     <Navbar/>
     
       <div className="ser-main">
+        <MagentoBanner/>
+        <WhyMagento/>
         <MagentoServices/>
         <MagentoPortfolio page='Magento'/>
         <ChooseMagento/>
