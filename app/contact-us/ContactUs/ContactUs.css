@@ -1,20 +1,65 @@
 
 .contactMainku{
   padding:50px 50px;
- margin-top: 120px;
+ margin-top: 130px;
  background: linear-gradient(280deg, #89c8fb92, #c8d5f950 62.02%, #f9f9f4);
 }
 .contact-containerKush{
   max-width: 1720px;
-
+flex-direction: row-reverse;
   margin: auto;
 
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: flex-start;
-  padding: 0px 90px;
-  gap: 40px;
+  /* padding: 0px 90px; */
+  /* gap: 40px; */
 border-radius: 10px;
+}
+.contact-us-section .left-box .row-box .col-box {
+  margin: 40px 0 0;
+  align-items: center;
+}
+
+
+.row-box{
+  padding-top: 20px 0px;
+}
+
+
+.contact-us-section .left-box .row-box .col-box .icon img {
+  flex-basis: 8%;
+  filter: invert(28%) sepia(95%) saturate(7441%) hue-rotate(198deg) brightness(96%) contrast(104%);
+}
+
+
+
+
+.contact-us-section .left-box .row-box .col-box .desp {
+  flex-basis: 92%;
+  padding-left: 10px;
+}
+
+.contact-us-section .left-box .row-box .col-box .desp h4 {
+  color: #000000;
+  /* font-weight: 500; */
+}
+.col-box{
+  padding: 10px 0px !important;
+}
+.desp h4 {
+ padding-top: 5px;
+  font-size: 18px;
+  color: #110302;
+  font-weight: 500;
+}
+.desp p{
+  line-height: 20px;
+}
+.contact-us-section .left-box .row-box .col-box .desp p {
+  font-size: 14px;
+  margin: 5px 0 0;
+  line-height: 1.2;
 }
 .checkboxes-listCom {
   display: flex;
@@ -109,7 +154,7 @@ background-color: #cccccc32;
   max-width: 500px;
   overflow: hidden;
   position: relative;
-  margin: 80px auto;
+  margin: 20px auto;
   padding: 0 15px; /* adds spacing on small screens */
 }
 
@@ -120,8 +165,7 @@ background-color: #cccccc32;
 }
 
 .sliderTrusted img {
-  width: 166px;
-  height: 49px;
+  object-fit: contain;
   margin-right: 35px;
 }
 
@@ -144,8 +188,8 @@ background-color: #cccccc32;
   }
 
   .sliderTrusted img {
-      width: 119px;
-      height: 43px;
+      width: 100px;
+      height: auto;
       margin-right: 20px;
   }
 }
@@ -168,10 +212,6 @@ height: auto;
   background: #0c61ffb5;
   color: white;
 } 
-.interests-listCom button.selectedCom{
-  background: #0c61ff;
-  color: white;
-}
 
 .file-label {
   padding: 10px;
@@ -240,7 +280,7 @@ height: auto;
   line-height: 55px;
 }
 .DropCont span{
-  font-weight: 400;
+  font-weight: 500;
   color: #0c61ff;
 }
 .DropParaCont{
@@ -250,6 +290,14 @@ height: auto;
   width: 556px;
   font-weight: 400;
   color: black;;
+}
+.checkedCheckbox{
+display: none;
+ 
+}
+ .selecteCom{
+  background: #0c61ff;
+  color: white;
 }
 @media (max-width:1390px) {
   .DropParaCont{

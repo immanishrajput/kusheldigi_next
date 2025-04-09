@@ -237,7 +237,7 @@
 
     .flex-new-banner-btns {
         flex-direction: column;
-        align-items: baseline;
+        /* align-items: baseline; */
     }
 
     .floatingIcon1,

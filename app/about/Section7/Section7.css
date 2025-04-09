@@ -1,6 +1,6 @@
 .growthStory{
 
-    background: linear-gradient(90deg, #f8f8f8, #a5b2d0);
+    background: linear-gradient(90deg, #f8f8f893, #a5b2d064);
   }
   .growth-story-container {
     margin: auto;
@@ -53,8 +53,8 @@
       /* flex-wrap: wrap; */
       margin-top: 20px;
       border-radius: 10px;
-      border: 1px solid black;
-      border-right: none;
+      /* border: 1px solid black; */
+  
     }
     
     .growth-story-image {
@@ -87,6 +87,9 @@
       }
     }
     @media (max-width: 1024px) {
+      .growth-story-title {
+        text-align: center;
+      }
       .growth-story-tabs {
         gap: 0px;
         display: grid;
@@ -112,10 +115,12 @@
       }
     
       .growth-story-text h3 {
+        text-align: center;
         font-size: 30px;
       }
     
       .growth-story-text p {
+        text-align: center;
         font-size: 1.3rem;
       }
     }
@@ -145,8 +150,11 @@
     }
     
     @media (max-width: 480px) {
+      .growth-story-container{
+        padding: 40px 10px;
+      }
       .growth-story-title {
-        font-size: 32px;
+        font-size: 27px;
       }
     
       .growth-story-tab {
@@ -159,11 +167,13 @@
       }
     
       .growth-story-text h3 {
+        line-height: 29px;
         font-size: 26px;
         text-align: center;
       }
     
       .growth-story-text p {
+        padding: 10px 0px;
         text-align: center;
         font-size: 1rem;
       }
