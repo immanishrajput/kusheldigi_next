@@ -16,6 +16,39 @@
   gap: 40px;
 border-radius: 10px;
 }
+.checkboxes-listCom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.checkbox-labelCom {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 15px;
+  background: #f3f3f3;
+  padding: 10px 10px;
+  border-radius: 50px;
+ color: #272727;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.checkbox-labelCom:hover{
+ 
+    background: #0c61ffb5;
+    color: white;
+  } 
+  .checkbox-labelCom.selectedCom{
+    background: #0c61ff;
+    color: white;
+  }
+
+
+.checkbox-labelCom input[type="checkbox"] {
+  cursor: pointer;
+}
+
 .trustedImage{
   padding: 20px 0px;
 }

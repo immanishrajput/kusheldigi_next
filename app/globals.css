@@ -18545,6 +18545,7 @@ body {
 }
 
 .h2testimonialwrap {
+    overflow: hidden;
     width: 100%;
     position: relative;
     background: #f6f5f4;

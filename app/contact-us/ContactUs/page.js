@@ -85,10 +85,36 @@ const ContactUs = () => {
       phone: '',
       email: '',
       message: '',
+      service: [],
       // projectDetails: "",
-      interests: [],
+      // interests: [],
       termsAccepted: false,
     });
+    
+  //   const handleChange = (e) => {
+  //     console.log(e);
+      
+  // };
+  const handleChange = (e) => {
+    
+    const { name, value, type, checked } = e.target;
+
+    if (type === 'checkbox') {
+      setFormData((prev) => ({
+        ...prev,
+        service: checked
+          ? [...prev.service, value]
+          : prev.service.filter((s) => s !== value)
+      }));
+    } else {
+      setFormData((prev) => ({
+        ...prev,
+        [name]: value
+      }));
+      console.log(formData);
+      
+    }
+  };
     const [loading, setLoading] = useState(false);
   
     const navigate = useRouter();
@@ -149,11 +175,16 @@ const ContactUs = () => {
           firstName: '',
           phone: '',
           email: '',
-          message: ''
+          message: '',
+          service:[]
         })
       }
     }
     const trackRef = useRef(null);
+
+    useEffect(()=>{
+      console.log(formData)
+    },[formData])
 
     useEffect(() => {
       const track = trackRef.current;
@@ -196,16 +227,33 @@ countryCodeEditable={false}
            <textarea name="message" placeholder="Project details *"  value={formData?.message}
                   onChange={handleFormChange} required></textarea>
        </div>
-          <div className="interests-sectionCom">
+          {/* <div className="interests-sectionCom">
             <p>What are you Interested in:</p>
             <div className="interests-listCom">
               {interestsOptions.map((interest) => (
-                <button type="button" key={interest}   className={(formData?.interests || []).includes(interest) ? "selectedCom" : ""} onClick={() => handleInterestClick(interest)}>
-                  {interest}
+                <button type="button" key={interest}   className={(formData?.interests || []).includes(interest) ? "selectedCom" : ""} onClick={() => handleInterestClick(interest)} >
+                  {interest} 
                 </button>
               ))}
             </div>
-          </div>
+          </div> */}
+          <div className="interests-listCom checkboxes-listCom">
+  {interestsOptions.map((service,index) => (
+    <label  key={service}  className="checkbox-labelCom">
+      <input
+        type="checkbox"
+        name="service"
+       
+        value={service || ""}
+        onChange={handleChange}
+        checked={(formData.service || []).includes(service)}
+       
+      />
+      {service}
+    </label>
+  ))}
+</div>
+
          
         <div>
         <label className="terms-label">

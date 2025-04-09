@@ -13,6 +13,7 @@ import Section9 from './Section9/page'
 import Section10 from './Section10/page'
 import Navbar from '../COMMON/Navbar'
 import Footer from '../COMMON/Footer'
+import ContactForm from '../components/Home/HomeForm'
 
 const page = () => {
   return (
@@ -29,6 +30,7 @@ const page = () => {
         <Section8/>
         <Section9/>
         <Section10/>
+        <ContactForm/>
         <Footer/>
     </div>
   )

@@ -251,4 +251,47 @@
           text-align: center;
         }
       }
+     
+      
+      @media (max-width: 768px) {
+        .card-wrapper-wrapper {
+          width: 100%;
+        }
+      
+        .card-wrapper {
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 1.5rem;
+        }
+      
+        .cardPhilo {
+          width: 100% !important;
+          max-width: 100%;
+          height: auto;
+        }
+      
+        .text-contentSection h1 {
+          font-size: 1.8rem;
+        }
+      
+        .text-contentSection p {
+          font-size: 1rem;
+        }
+      
+        .navigationWrapper {
+          justify-content: center;
+          margin-top: 1.5rem;
+        }
+      
+        .navigationWrapper button {
+          height: 45px;
+          width: 45px;
+          font-size: 1rem;
+        }
+        .cardPhilo p {
+          line-height: 25px;
+             width: 80%;
+             padding: 10px 0px;
+        }
+      }
       
