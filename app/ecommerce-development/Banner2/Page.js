@@ -4,6 +4,14 @@ import './Banner2.css'
 import { FaArrowRight } from 'react-icons/fa'
 import Link from 'next/link'
 const Banner2 = () => {
+  const scrollToForm = () => {
+    const formSection = document.getElementById('form-section');
+    if (formSection) {
+      const yOffset = -120; 
+      const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+  };
   return (
     <>
 <section className="sec-sectionBan2">
@@ -35,10 +43,9 @@ const Banner2 = () => {
         </strong>
       </p>
       <div className="buttonsssBan2">
-        <a href='#form-section' className="primary-btnssBan2">Book a Call <FaArrowRight/> </a>
-        <Link href="/contact-us">
-         <button className="secondary-btnssBan2">  
-           Request An Audit </button>  </Link>
+        <Link href="/contact-us" className="primary-btnssBan2">Book a Call <FaArrowRight/> </Link>
+         <button onClick={scrollToForm} className="secondary-btnssBan2">  
+           Request An Audit </button>
       </div>
     </div>
   </div>

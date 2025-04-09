@@ -70,6 +70,7 @@
 .choose-magento-grid-item > h4 {
     font-weight: 600;
     font-size: 1.3rem;
+    letter-spacing: normal !important;
 }
 
 .choose-magento-grid-item > p {

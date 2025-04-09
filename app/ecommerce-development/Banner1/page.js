@@ -24,24 +24,33 @@ const Banner = () => {
     pauseOnHover: false
 };
 
-  useEffect(() => {
-          const handleHashChange = () => {
-              const section = document.getElementById("form-section");
-              if (section) {
-                  setTimeout(() => {
-                      const offset = 150;
-                      const sectionPosition = section.getBoundingClientRect().top + window.scrollY - offset;
-                      window.scrollTo({ top: sectionPosition, behavior: "smooth" });
-                  }, 0);
-              }
-          };
+  // useEffect(() => {
+  //         const handleHashChange = () => {
+  //             const section = document.getElementById("form-section");
+  //             if (section) {
+  //                 setTimeout(() => {
+  //                     const offset = 150;
+  //                     const sectionPosition = section.getBoundingClientRect().top + window.scrollY - offset;
+  //                     window.scrollTo({ top: sectionPosition, behavior: "smooth" });
+  //                 }, 0);
+  //             }
+  //         };
   
-          window.addEventListener("hashchange", handleHashChange, false);
+  //         window.addEventListener("hashchange", handleHashChange, false);
   
-          return () => {
-              window.removeEventListener("hashchange", handleHashChange, false);
-          };
-      }, []);
+  //         return () => {
+  //             window.removeEventListener("hashchange", handleHashChange, false);
+  //         };
+  //     }, []);
+
+  const scrollToForm = () => {
+    const formSection = document.getElementById('form-section');
+    if (formSection) {
+      const yOffset = -120; 
+      const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+  };
 
   return (
     <>
@@ -60,13 +69,12 @@ const Banner = () => {
                 to your business needs.
               </p>
               <div className="buttonsBi">
-                <a href="#form-section" className="primary-btn">
-                  Book A Call<FaArrowRight/>
-                </a>
-                <Link href="/contact-us">
-                 <button className="secondary-btn">
+                 <button onClick={scrollToForm} className="secondary-btn">
                   Talk To a Consultant
-                 </button></Link>
+                 </button>
+                <Link href="/contact-us" className="primary-btn">
+                  Book A Call<FaArrowRight/>
+                </Link>    
               </div>
             </div>
           </div>
