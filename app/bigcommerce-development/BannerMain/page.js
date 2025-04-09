@@ -9,7 +9,7 @@ import { useRouter } from 'next/navigation';
 const CaseStudy = () => {
 
     const caseStudies = [
-        { img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829270/loveky-2_cfdys3.jpg', smHeading: 'Certified BigCommerce Agency', smallBtnText: "View Case Study", smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829269/lovely-2-5_iqgxfy.jpg', heading: "Expert BigCommerce Development Solutions for Scalable Growth",bigCommerce : [
+        { img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744175098/home-banner-3_1_i2ugio.jpg', smHeading: 'Certified BigCommerce Agency', smallBtnText: "View Case Study", smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744175094/circle_vvibyg.png', heading: "Expert BigCommerce Development Solutions for Scalable Growth",bigCommerce : [
             {
                 bigImg1 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744104912/bigcommerce_iuneyd.png',
                 bigImg2 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/bcb2b-1_onvun7.png',

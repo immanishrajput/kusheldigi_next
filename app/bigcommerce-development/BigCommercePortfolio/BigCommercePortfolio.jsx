@@ -93,12 +93,12 @@ export default function BigCommercePortfolio({page}) {
         </div>
         <div className="right-b2b-cardKcom">
           <div className="b2b-logoKcom">
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743402463/lovely-6-page-3_kaxts8.jpg" alt="Shopify Plus" />
-            <a href="/kick-eez" id="human" className="hover-linkCom">View Case Study <MdArrowOutward /></a>
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744175096/tap-brass_wun8e3.png" alt="Shopify Plus" />
+            <a href="https://topbrasstactical.com/" id="human" className="hover-linkCom">View Case Study <MdArrowOutward /></a>
           </div>
          
-          <a href="/kick-eez" className="b2b-btnKcom">
-          Kick-eez
+          <a href="https://topbrasstactical.com/" className="b2b-btnKcom">
+          topbrasstactical
             <p>{page}</p>
           </a>
           <hr/>
