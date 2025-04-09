@@ -17,6 +17,8 @@
   text-align: center;
   font-size: 32px;
   font-weight: bold;
+  max-width:90%;
+  margin:auto;
 }
 
 .custom-slider {
