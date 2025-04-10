@@ -296,7 +296,7 @@ right: 218px;
       }
     
       .ds25-step-text {
-        width: 700px;
+        /* width: 700px; */
       }
     }
   
@@ -354,7 +354,7 @@ right: 218px;
       .ds25-step-text {
         text-align: center;
         font-size: 15px;
-        width: 100%;
+        /* width: 100% !important; */
       }
     
       .ds25-popup {
@@ -378,5 +378,8 @@ right: 218px;
         }
       .freeSubtextDs{
           width: 90%;
+      }
+      .ds25-step-text {
+        width: 100%;
       }
     }

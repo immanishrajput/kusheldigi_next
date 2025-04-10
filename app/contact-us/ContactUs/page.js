@@ -6,6 +6,8 @@ import { useRouter } from "next/navigation";
 import PhoneInput from "react-phone-input-2";
 import 'react-phone-input-2/lib/style.css';
 import '../../components/Home/homeBan.css'
+import { TfiCup } from "react-icons/tfi";
+import { FaAward, FaRegUser } from "react-icons/fa";
 const ContactUs = () => {
  
 
@@ -231,22 +233,7 @@ const ContactUs = () => {
                   onChange={handleFormChange} required></textarea>
        </div>
          
-          {/* <div className="interests-listCom checkboxes-listCom">
-  {interestsOptions.map((service,index) => (
-    <label  key={service}  className="checkbox-labelCom" id={service}>
-      <input
-        type="checkbox"
-        name="service"
-       id={service}
-        value={service || ""}
-        onChange={handleChange}
-        checked={(formData.service || []).includes(service)}
-       className={`checkedCheckbox ${(formData.service || []).includes(service) ? 'selecteCom' : ''} `}
-      />
-      {service}
-    </label>
-  ))}
-</div> */}
+         
 <div className="interests-listCom checkboxes-listCom">
   {interestsOptions.map((service, index) => {
     const inputId = `service-${index}`;
@@ -302,39 +289,33 @@ const ContactUs = () => {
         <h2 className="DropCont"><span>Got an Idea? </span> Let’s Make It Happen.</h2>
         <div className="row-box">
                         <div className="col-box dis-flex">
-                            <div className="icon">
-                                <img loading="lazy"
-                                    src="https://www.pixelcrayons.com/wp-content/themes/pixelcrayons/v3.0/assets/images/cont-01.svg"
-                                    alt="pixel" width="40" height="40"/>
+                            <div className="iconImgReact">
+                            <TfiCup/>
                             </div>
 
                             <div className="desp">
-                                <h4>20+ years of experience</h4>
-                                <p>We can handle projects of all complexities.</p>
+                                <h4>20+ Years of Experience</h4>
+                                <p>Delivering smart, scalable solutions for complex business challenges.</p>
                             </div>
                         </div>
                         <div className="col-box dis-flex">
-                            <div className="icon">
-                                <img loading="lazy"
-                                    src="https://www.pixelcrayons.com/wp-content/themes/pixelcrayons/v3.0/assets/images/cont-02.svg"
-                                    alt="pixel" width="40" height="40"/>
+                            <div className="iconImgReact">
+                            <FaAward/>
                             </div>
 
                             <div className="desp">
-                                <h4>2500+ satisfied customers</h4>
-                                <p>Startups to Fortune 500, we have worked with all.</p>
+                                <h4>2500+ Clients Served</h4>
+                                <p>From budding startups to Fortune 500 companies – we’ve done it all.</p>
                             </div>
                         </div>
                         <div className="col-box dis-flex">
-                            <div className="icon">
-                                <img loading="lazy"
-                                    src="https://www.pixelcrayons.com/wp-content/themes/pixelcrayons/v3.0/assets/images/cont-03.svg"
-                                    alt="pixel" width="40" height="40"/>
+                            <div className="iconImgReact">
+                            <FaRegUser/>
                             </div>
 
                             <div className="desp">
-                                <h4>675+ in-house team</h4>
-                                <p>Top 1% industry talent to ensure your digital success.</p>
+                                <h4>675+ Experts Onboard</h4>
+                                <p>A powerhouse team focused to deliver digital excellence and business growth.  </p>
                             </div>
                         </div>
 
