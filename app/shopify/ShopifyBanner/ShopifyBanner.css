@@ -118,13 +118,19 @@
     }
 
     .shopify-new-banner-heading {
-        font-size: 2rem;
+        font-size: 1.6rem;
+        text-align:center;
+    }
+
+    .shopify-new-sm-location {
+        text-align:center;
     }
 
     .shopify-new-banner-sm-heading {
         font-size: 1rem;
         font-weight: 400;
-        line-height: 1.6rem;
+        line-height: 1.4rem;
+        text-align:center;
     }
 
     .flex-bigcommerce-banner-btns {

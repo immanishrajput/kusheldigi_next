@@ -128,7 +128,8 @@ text-align: center;
   .iconnImage {
       width: 30px;
       height: 30px;
-      margin: auto;
+      display: block;
+      margin:0 auto !important;
   }
 
   .conflict--1-div h4 {
