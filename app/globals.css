@@ -26794,7 +26794,7 @@ form button {
 }
 
 .ser-main {
-    padding-top: 8.8rem;
+    padding-top: 9rem;
     position: relative
 }
 
@@ -45929,12 +45929,12 @@ video {
 .dine-123 {
     max-width: 1720px;
     width: 100%;
-    padding : 25px 60px;
+    padding : 25px 0px;
     display: flex;
     align-items: center;
     gap: 20px;
     margin: auto;
-    justify-content: space-around !important;
+    justify-content: space-between !important;
     gap: 100px;
 }
 
@@ -75847,6 +75847,10 @@ input::-webkit-inner-spin-button {
     font-size: 20px;
     font-weight: 900;
     color: #fff;
+}
+
+.foot1 {
+    padding: 40px 60px !important;
 }
 
 @media screen and (max-width:1000px) {

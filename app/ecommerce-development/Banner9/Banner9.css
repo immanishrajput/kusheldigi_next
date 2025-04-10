@@ -386,6 +386,18 @@ transform: translateY(-5px);
       width: 30px;
       height: 30px;
   }
+
+  .right-b2b-cardsKcom {
+    gap:35px;
+  }
+
+  .left-b2b-cardKcom-2 {
+    margin: 15px 30px;
+  }
+
+  .left-b2b-cardKcom-3 {
+    bottom:30px;
+  }
 }
 
 @media(max-width:493px){
@@ -429,7 +441,8 @@ transform: translateY(-5px);
 
   .b2b-btnKcom {
       font-size: 14px;
-      margin-bottom: 22px;
+      /* margin-bottom: 22px; */
+      margin: 0px !important;
       font-size: 12px;
       margin-left: 0;
       margin-right: 0;

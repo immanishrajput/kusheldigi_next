@@ -1191,6 +1191,11 @@ text-decoration: none;
     line-height: normal;
     margin: 0px;
   }
+
+  .search-btn {
+    font-size: 14px;
+    padding: 12px 20px;
+  }
   }
 
 

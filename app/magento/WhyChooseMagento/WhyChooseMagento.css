@@ -94,4 +94,8 @@
     .why-choose-magento-inner-left-card > h4 {
         text-align: center;
     }
+
+    .why-choose-magento-left-subheading {
+        margin:15px 0px 20px;
+    }
 }

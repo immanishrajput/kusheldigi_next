@@ -343,7 +343,7 @@ padding-left: 50px !important;
 @media (max-width:450px){
   #innerIdcont{
     width: 100%;
-    padding: 20px 15px 25px 15px;
+    padding: 40px 15px 40px 15px;
   }
 }
 @media screen and (max-width:700px) {
@@ -476,11 +476,11 @@ padding-left: 50px !important;
   }
 
   .contact-heading {
-    font-size: 18px;
+    font-size: 22px !important;
   }
 
   .left-contact-heading {
-    width: 290px !important;
+    width: unset !important;
     font-size: 32px !important;
     line-height: 41px;
   }
@@ -530,6 +530,12 @@ padding-left: 50px !important;
   .platforms {
     padding: 30px 0 80px;
   }
+
+  .left-contact-heading {
+    width:unset !important;
+    font-size: 24px !important;
+    line-height: 32px;
+}
 }
 
 /* .platforms {
@@ -930,6 +936,8 @@ padding-left: 50px !important;
   .b2b-section {
     padding:30px;
   }
+
+  
 }
 
 @media (max-width: 576px) {
@@ -938,6 +946,11 @@ padding-left: 50px !important;
       font-size: 32px;
       /* line-height: 38px; */
   }
+
+  .contact-heading {
+    font-size: 22px !important;
+    font-weight: 500;
+}
 .b2b-section{
   padding: 20px;
 } 
@@ -1088,7 +1101,7 @@ padding-left: 50px !important;
 
   .left-contact-heading {
     font-size: 22px !important;
-        line-height: 30px;
+    line-height: 30px;
   }
 }
 .flagship-para {
