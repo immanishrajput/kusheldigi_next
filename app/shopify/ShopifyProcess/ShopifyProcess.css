@@ -58,6 +58,7 @@
     font-size: 1rem !important;
     color: #4d5862;
     text-align: left;
+    margin-top: 5px;
 }
 
 .shopify-banner-services {
@@ -222,7 +223,7 @@
     }
 
     100% {
-        height: 540px;
+        height: 560px;
     }
 }
 
@@ -233,6 +234,21 @@
 
     100% {
         opacity: 1;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .shopify-banner-right-content {
+        gap: 50px;
+    }
+
+    @keyframes shopifyProcessLine {
+        0% {
+            height: 0px;
+        }
+        100% {
+            height: 540px;
+        }
     }
 }
 
@@ -285,7 +301,7 @@
 @media screen and (max-width:920px) {
     .shopify-inner-container {
         width: 100%;
-        padding: 20px 30px;
+        padding: 40px 30px;
     }
 
     @keyframes shopifyProcessLine {
@@ -293,14 +309,31 @@
             height: 0px;
         }
         100% {
-            height: 470px;
+            height: 460px;
+        }
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    .shopify-inner-container {
+        width: 100%;
+        padding: 40px 30px;
+    }
+
+    @keyframes shopifyProcessLine {
+        0% {
+            height: 0px;
+        }
+        100% {
+            height: 480px;
         }
     }
 
 }
 
 
-/* @media screen and (max-width:800px) {
+@media screen and (max-width:800px) {
     
 
     @keyframes shopifyProcessLine {
@@ -308,7 +341,7 @@
             height: 0px;
         }
         100% {
-            height: 470px;
+            height: 500px;
         }
     }
 
@@ -316,7 +349,7 @@
         max-width: unset;
     }
 
-} */
+}
 
 
 @media screen and (max-width: 700px) {
@@ -350,37 +383,37 @@
 
 
 @media screen and (max-width: 454px) {
-    @keyframes shopifyProcessLine {
+    /* @keyframes shopifyProcessLine {
         0% {
             height: 0px;
         }
         100% {
             height: 545px;
         }
-    }
+    } */
 
     .shopify-banner-right {
         padding: 60px 0px 20px 60px;
     }
 }
 
-@media screen and (max-width: 405px) {
+@media screen and (max-width: 430px) {
     @keyframes shopifyProcessLine {
         0% {
             height: 0px;
         }
         100% {
-            height: 570px;
+            height: 590px;
         }
     }
 }
-@media screen and (max-width: 388px) {
+@media screen and (max-width: 392px) {
     @keyframes shopifyProcessLine {
         0% {
             height: 0px;
         }
         100% {
-            height: 610px;
+            height: 615px;
         }
     }
 }
@@ -390,7 +423,7 @@
             height: 0px;
         }
         100% {
-            height: 645px;
+            height: 670px;
         }
     }
 }
@@ -400,7 +433,7 @@
             height: 0px;
         }
         100% {
-            height: 700px;
+            height: 710px;
         }
     }
 }
@@ -411,7 +444,8 @@
             height: 0px;
         }
         100% {
-            height: 790px;
+            height: 820px;
         }
     }
 }
+
