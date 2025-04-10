@@ -294,8 +294,8 @@ const ContactUs = () => {
                             </div>
 
                             <div className="desp">
-                                <h4>20+ years of experience</h4>
-                                <p>We can handle projects of all complexities.</p>
+                                <h4>20+ Years of Experience</h4>
+                                <p>Delivering smart, scalable solutions for complex business challenges.</p>
                             </div>
                         </div>
                         <div className="col-box dis-flex">
@@ -304,8 +304,8 @@ const ContactUs = () => {
                             </div>
 
                             <div className="desp">
-                                <h4>2500+ satisfied customers</h4>
-                                <p>Startups to Fortune 500, we have worked with all.</p>
+                                <h4>2500+ Clients Served</h4>
+                                <p>From budding startups to Fortune 500 companies – we’ve done it all.</p>
                             </div>
                         </div>
                         <div className="col-box dis-flex">
@@ -314,8 +314,8 @@ const ContactUs = () => {
                             </div>
 
                             <div className="desp">
-                                <h4>675+ in-house team</h4>
-                                <p>Top 1% industry talent to ensure your digital success.</p>
+                                <h4>675+ Experts Onboard</h4>
+                                <p>A powerhouse team focused to deliver digital excellence and business growth.  </p>
                             </div>
                         </div>
 
