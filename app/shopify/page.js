@@ -33,6 +33,7 @@ import BigBanner3 from '../bigcommerce-development/BigBanner3/page';
 import ShopifyBanner from './ShopifyBanner/ShopifyBanner';
 import ShopifyServices from "./ShopifyServices/ShopifyServices";
 import Banner8 from '../ecommerce-development/Banner8/page'
+import BigBanner8 from "../bigcommerce-development/BigBanner8/page"
 import { ShopifyFeatures, ShopifyFeaturesContent, ShopifyServicesContent, ShopifyServicesHeading, whyBigCommereByKDS, whyBigCommereByKDSHeading } from '../data/data';
 
 function Shopify3({notify}) {
@@ -86,6 +87,7 @@ function Shopify3({notify}) {
 {/* <YourProject /> */}
 <ShopifyBanner/>
 {/* <BigBanner3 /> */}
+<BigBanner8/>
 <ShopifyServices /> 
 <Banner9 page='Shopify'/>
 <ShopifyProcess/>
