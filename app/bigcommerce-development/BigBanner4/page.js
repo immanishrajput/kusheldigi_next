@@ -3,7 +3,7 @@ import React from 'react'
 import './BigBanner4.css'
 import { FaArrowRight } from 'react-icons/fa'
 import Link from 'next/link'
-const Flex = () => {
+const Flex = ({page}) => {
   return (
     <>
 
@@ -15,7 +15,7 @@ const Flex = () => {
       </div>
       <div className="con--2-div-contentt">
 
-        <h3>Our Bigcommerce Experts are Ready to Launch your Dream Store today!</h3>
+        <h3>{page}</h3>
       </div>
 
       <div>

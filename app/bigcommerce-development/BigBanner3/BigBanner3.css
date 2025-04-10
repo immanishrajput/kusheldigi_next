@@ -185,6 +185,7 @@
   
     .Bicontent-blockEcom p {
       font-size: 13px;
+      line-height: normal;
     }
   }
   @media (max-width:450px){

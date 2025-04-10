@@ -170,10 +170,12 @@
   
     .content-blockEcom h3 {
       font-size: 18px;
+      text-align: center;
     }
   
     .content-blockEcom p {
       font-size: 13px;
+      line-height: normal;
     }
   }
   @media (max-width:450px){

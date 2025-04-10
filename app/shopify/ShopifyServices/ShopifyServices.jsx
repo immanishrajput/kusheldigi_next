@@ -7,8 +7,8 @@ const Page = () => {
 
 
   const leftContent = {
-              heading: "Kushel Digi Shopify Development Services",
-              subheading: "Kushel Digi is committed to deliver your dream ecommerce store with high powered Shopify",
+              heading: "Kushel Digi Solution’s Shopify Development Services",
+              subheading: "Kushel Digi is committed to deliver your dream ecommerce store with high powered Shopify solutions.",
               buttonLabel: "Get a Free Consultation Today",
               buttonLink: "contact-us"
             };
@@ -23,15 +23,15 @@ const Page = () => {
               {
                 title: "Shopify Theme Design",
                 description:
-                  "Stand out in this saturated market with an attractive, custom-made Shopify theme. Our design team will create beautiful, responsive themes that reflect your branding. Give that store an extra edge that gets the customers interacting.",
+                  "Stand out in this competitive market with an attractive, custom-made Shopify theme. Our design team will create beautiful, responsive themes that reflect your branding. Give that store an extra edge that gets the customers interacting with the design.",
               },
               {
                 title: "Shopify App Integration",
                 description:
-                  "Augment store functionality with Shopify app integrations that are seamlessly integrated. We will integrate vital tools and third-party apps to further up your store's capability. Whether it's a payment gateway or a marketing tool, we have got you covered.",
+                  "Augment store functionality with shopify app integrations that are seamlessly integrated. We will integrate essential  tools and third-party apps to further up your store's capability. Whether it's a payment gateway or a marketing tool, we have got you covered.",
               },
               {
-                title: "Shopify Migration Services",
+                title: "Migration to Shopify",
                 description:
                   "Moving to Shopify? Our migration services make sure that your transition runs smoothly with the least amount of downtime. We take responsibility for everything, from data porting to design replicability, so that you do not lose your store functionality.",
               },
@@ -43,9 +43,10 @@ const Page = () => {
               {
                 title: "Shopify SEO & Marketing",
                 description:
-                  "Expand your online presence and sales with our Shopify SEO and marketing services. We put into action tested strategies that will enhance your search ranking and drive targeted traffic. Let us help you reach your audience effectively.",
+                  "Expand your online presence and sales with our Shopify SEO and marketing services. We put tested strategies into action that will enhance your search ranking and drive targeted traffic. Let us help you reach your audience effectively.",
               },
             ];
+            
 
   return (
     <section className="ShopifyServices__section">

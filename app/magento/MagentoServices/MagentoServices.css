@@ -139,6 +139,7 @@ body, html, .ShopifyServices__section {
   }
   
   @media screen and (max-width: 600px) {
+    
     .ShopifyServices__container {
       padding: 20px;
     }
@@ -147,6 +148,7 @@ body, html, .ShopifyServices__section {
       font-size: 21px;
       text-align: center;
       line-height: 28px;
+      margin: 0px;
     }
   
     .ShopifyServices__subheading {
@@ -171,6 +173,7 @@ body, html, .ShopifyServices__section {
   
     .ShopifyServices__card p {
       font-size: 13px;
+      line-height: normal;
     }
   }
   

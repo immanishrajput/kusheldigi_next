@@ -14,12 +14,12 @@ const clients = [
   { name: "Ruby and Jenna", src: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743083492/sp6_oqjqdl_cvfvew.png" }
 ];
 
-const Banner9 = () => {
+const Banner9 = ({page}) => {
   return (
     <section className="clientsSection">
       <div className="textContainer">
         <h2 className="primary-heading">Your Vision, Our Commitment</h2>
-        <p className="secondary-heading">Delivering powerful, high performance ecommerce solutions for our clients.</p>
+        <p className="secondary-heading">{page}</p>
       </div>
       <div className="logoGrid">
         {clients.map((client, index) => (

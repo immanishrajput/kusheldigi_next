@@ -112,9 +112,9 @@ const HomePage = ({ props }) => {
         {/* <Home2Section9 /> */}
         <ScrollSection />
         <Home2Section10
-          heading={'Empowering industries with our expert solutions '}
+          heading={'Custom Solutions Crafted for Every Industry'}
           para={
-            'We have expertise in multiple industries, providing custom digital solutions for growth and success. Be it in transforming customer experience or operational excellence, we engineer technology that caters specifically to your business needs. '
+            'Our eCommerce solutions are not confined to any specific industry or business domain as we have delivered hundreds of project catered to more than 15 industry.'
           }
         />
         <CompaniesSlider />

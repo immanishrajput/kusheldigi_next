@@ -33,7 +33,7 @@ import BigBanner3 from '../bigcommerce-development/BigBanner3/page';
 import ShopifyBanner from './ShopifyBanner/ShopifyBanner';
 import ShopifyServices from "./ShopifyServices/ShopifyServices";
 import Banner8 from '../ecommerce-development/Banner8/page'
-import { BigCommerceFeatures, BigCommerceFeaturesContent, BigCommerceServices, BigCommerceServicesHeading, whyBigCommereByKDS, whyBigCommereByKDSHeading } from '../data/data';
+import { ShopifyFeatures, ShopifyFeaturesContent, ShopifyServicesContent, ShopifyServicesHeading, whyBigCommereByKDS, whyBigCommereByKDSHeading } from '../data/data';
 
 function Shopify3({notify}) {
   const generateMetadata = ({ params }) => ({
@@ -89,11 +89,11 @@ function Shopify3({notify}) {
 <ShopifyServices /> 
 <Banner9 page='Shopify'/>
 <ShopifyProcess/>
-<Banner8/>
+<Banner8 page='Building high performance custom Shopify stores in accordance with your business needs.'/>
 <BigBanner6 services={whyBigCommereByKDS} contents={whyBigCommereByKDSHeading}/>
-<BigBanner4/>
-<ServiceSection services={BigCommerceServices} contents={BigCommerceServicesHeading}/>
-<FeatureSection services={BigCommerceFeatures} contents={BigCommerceFeaturesContent}/>
+<BigBanner4 page='Our Shopify Experts are Ready to Launch your Dream Store today!'/>
+<ServiceSection services={ShopifyServicesContent} contents={ShopifyServicesHeading}/>
+<FeatureSection services={ShopifyFeatures} contents={ShopifyFeaturesContent}/>
 <BlogSection/>
 <BigAskQuestion />
 <HomeForm/>

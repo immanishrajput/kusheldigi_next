@@ -50,5 +50,18 @@
     .why-magento-grid-container {
         grid-template-columns: 1fr;
     }
+
+    .why-magento-grid-container {
+        margin-top: 30px;
+    }
+
+    .why-magento-grid-item > h3 {
+        text-align: center;
+    }
+
+    .why-magento-grid-item > img {
+        display: block;
+        margin: auto;
+    }
 }
 
