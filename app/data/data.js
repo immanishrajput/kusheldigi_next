@@ -98,3 +98,72 @@ export const BigCommerceFeaturesContent = {
     desc :'BigCommerce can power your online store by offering scalability, seamless integrations, and advanced features that will definitely drive success in the digital marketplace.',
     img : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744119273/feature-of-bigcommerce_o9w9co.png'
 }
+
+
+export const ShopifyServicesHeading = {
+  title : 'Our Support Services',
+  desc : 'Kushel Digi Solutions is always committed to ensure that your Shopify store operates seamlessly with our expert support services. Our team is there for you from setup to maintenance, we believe in providing solutions that keep your online business running efficiently.'
+}
+
+export const ShopifyServicesContent = [
+  {
+    icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092988/customer-service_1_ve4gd6.png',
+    title: "24/7 Technical Support",
+    description: "Your business can be hit by unexpected problems, but our team of dedicated support agents is there for you 24/7 to fix any technical issues promptly. From website crashes, non-functioning pages, to integration problems, we offer instant solutions to reduce downtime"
+  },
+  {
+    icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092988/store-setup_nxjrkk.png',
+    title: "Store Setup & Customization",
+    description: "Creating a Shopify store that supports your brand vision is key to success. We help you get your store set up, properly configure important settings and personalize the design to reflect your brand identity while keeping the user experience smooth."
+  },
+  {
+    icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092988/performance-_1_d8gdwi.png',
+    title: "Performance Optimization",
+    description: "A slow-loading website can push away customers. Our experts scan and improve the speed of your Shopify store’s site navigation and provide a smooth shopping experience. This ultimately leads to higher customer satisfaction and conversion rates."
+  },
+  {
+    icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092988/security_fa3qm7.png',
+    title: "Security & Compliance Support",
+    description: "Cybersecurity is indispensable in eCommerce. We enforce top-tier security measures, routine updates, and PCI compliance to keep your store secure from threats and ensure secure transactions and protection of customer data."
+  },
+  {
+    icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092988/store_j3kn6z.png',
+    title: "Store Functionality",
+    description: "Increase the functionality of your store with third-party apps and plugins. We help integrate critical tools like payment gateways, CRM systems, analytics tools, and marketing automation apps to enhance store performance and customer interaction."
+  },
+  {
+    icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092988/regular_ctplhe.png',
+    title: "Regular Maintenance & Updates",
+    description: "Technology keeps changing, and it is vital to be updated for competitiveness. We offer regular updates, bug fixes, and maintenance so that your Shopify store remains secure, operational, and in line with the current trends in the industry."
+  },
+];
+
+export const ShopifyFeatures = [
+  {
+    icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092987/Scalable-Architecture_fmw5y8.png',
+    title: 'Mobile-Responsive Design',
+    desc: 'All Shopify themes are completely responsive that ensure your store looks and works seamlessly on smartphones, tablets and desktops.'
+  },
+  {
+    icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092988/Secure-Infrastructure_dxdrcn.png',
+    title: 'Secure Checkout',
+    desc: 'Shopify comes with SSL certification and PCI compliance as it provides a safe and trusted environment for customers to make secure online payments.'
+  },
+  {
+    icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092988/Omnichannel-Selling_uljoeu.png',
+    title: 'Customizable Themes',
+    desc: 'Select from a vast library of professionally designed themes and powerful apps to tailor your store’s functionality and design suited with your brand.'
+  },
+  {
+    icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092988/Advanced-Marketing-Tools_oyncng.png',
+    title: 'Built-In SEO Tools',
+    desc: 'Shopify has built in SEO features, email marketing integrations, social media selling, and discount code creation to assist you in attracting customers.'
+  }
+];
+
+
+export const ShopifyFeaturesContent = {
+  title :'Features of Shopify Development Solutions',
+  desc :'Shopify can power your online store by offering scalability, seamless integrations and latest features that will definitely drive success in the online marketplace.',
+  img : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744119273/feature-of-bigcommerce_o9w9co.png'
+}

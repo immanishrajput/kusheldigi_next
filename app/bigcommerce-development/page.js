@@ -47,11 +47,11 @@ const page = () => {
       <BigBanner7/>
       <BigBanner3 />
       {/* <Banner10 page='BigCommerce'/> */}
-      <BigCommercePortfolio/>
-      <Banner9/>
+      <BigCommercePortfolio page={'BigCommerce'}/>
+      <Banner9 page='Delivering powerful, high performance BigCommerce solutions for our clients.'/>
       <Process/>
       <BigBanner6 services={whyBigCommereByKDS} contents={whyBigCommereByKDSHeading}/>
-        <BigBanner4/>
+        <BigBanner4 page='Our Bigcommerce Experts are Ready to Launch your Dream Store today!'/>
        
         <BigBanner9 />
         <ServicesSection services={BigCommerceServices} contents={BigCommerceServicesHeading}/>

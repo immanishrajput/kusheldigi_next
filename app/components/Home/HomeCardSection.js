@@ -21,7 +21,7 @@ function Card() {
           alt="BigCommerce" />
         </div>
         <h3>
-          Certified <br /> BigCommerce Partner Agency
+          Certified  BigCommerce Partner Agency
         </h3>
         <ul className="plt-ul">
           <li className="plt-li"> BigCommerce Replatforming  Migration</li>
@@ -45,7 +45,7 @@ function Card() {
           alt="Shopify Plus" />
         </div>
         <h3>
-          Certified <br /> Shopify Plus Agency
+          Certified  Shopify Plus Agency
         </h3>
         <ul className="plt-ul">
           <li className="plt-li">Shopify Replatforming & Migration</li>
@@ -70,7 +70,7 @@ function Card() {
           alt="WooCommerce" />
         </div>
         <h3>
-          Expert <br /> Magento Agency
+          Expert  Magento Agency
         </h3>
         <ul className="plt-ul">
           <li className="plt-li">Magento Replatforming & Migration</li>

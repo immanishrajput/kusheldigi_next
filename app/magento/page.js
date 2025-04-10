@@ -29,6 +29,7 @@ import Banner8 from '../ecommerce-development/Banner8/page'
 import { BigCommerceFeatures, BigCommerceFeaturesContent, BigCommerceServices, BigCommerceServicesHeading, whyBigCommereByKDS, whyBigCommereByKDSHeading } from "../data/data";
 import MagentoBanner from "./MagentoBanner/MagentoBanner";
 import WhyMagento from "./WhyMagento/WhyMagento";
+import TechWeUse from "./TechWeUse/TechWeUse";
 const Magento = () => {
   // const [front, setFront] = useState(1);
 
@@ -101,6 +102,7 @@ const Magento = () => {
         <CallAction/>
         <UpgradeServices/>
         <WhyChooseMagento/>
+        <TechWeUse/>
         <Banner8/>
         <BigBanner6 services={whyBigCommereByKDS} contents={whyBigCommereByKDSHeading}/>
         <ServicesSection services={BigCommerceServices} contents={BigCommerceServicesHeading}/>

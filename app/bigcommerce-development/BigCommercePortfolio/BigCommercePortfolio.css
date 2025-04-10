@@ -433,10 +433,10 @@
         font-size: 12px;
         margin-left: 0;
         margin-right: 0;
-        gap: 80px;
+        /* gap: 80px; */
         align-items: center;
         /* text-align: center; */
-        /* justify-content: center; */
+        justify-content: space-between;
     }
     .b2b-btnKcom p{
       font-size: 12px;

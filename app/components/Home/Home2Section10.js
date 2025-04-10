@@ -4,19 +4,68 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 
 const data = [
-  { img: "https://res.cloudinary.com/dbpqjxox7/image/upload/v1738229461/s10item1_ridh3n.webp", title: "E-commerce", desc: "Transform your online store with our customized eCommerce solutions." },
-  { img: "https://res.cloudinary.com/dbpqjxox7/image/upload/v1738229525/hospital1_lui9s4.webp", title: "Hospitality", desc: "Enhance guest experiences with our state-of-the-art hospitality solutions." },
-  { img: "https://res.cloudinary.com/dbpqjxox7/image/upload/v1738229568/real1_haeopa.webp", title: "Real Estate", desc: "Showcase properties and close deals faster using our real estate immersive digital platforms." },
-  { img: "https://res.cloudinary.com/dbpqjxox7/image/upload/v1738229590/healthcare_j4bcto.webp", title: "Healthcare", desc: "Revolutionize the way of treating and managing patients with our healthcare solutions." },
-  { img: "https://res.cloudinary.com/dbpqjxox7/image/upload/v1738229616/education1_hzf6y5.webp", title: "Education", desc: "Enhance learning experiences with our customized e-learning solutions." },
-  { img: "https://res.cloudinary.com/dbpqjxox7/image/upload/v1738229636/finance1_tmillv.webp", title: "Finance", desc: "Drive financial growth with secure, scalable and user-friendly Fintech solutions." },
-  { img: "https://res.cloudinary.com/dbpqjxox7/image/upload/v1738229654/tenonoloy1_asw9wh.webp", title: "Technology", desc: "Bring more efficiency into your business with our best technology development services." },
-  { img: "https://res.cloudinary.com/dbpqjxox7/image/upload/v1738229677/fashion1_rtft96.webp", title: "Fashion and Apparel", desc: "Give shine to your brand through visually stunning fashion eCommerce platforms." },
-  { img: "https://res.cloudinary.com/dbpqjxox7/image/upload/v1738229699/meida1_dxbav2.webp", title: "Entertainment & Media", desc: "Engage with audiences by entertainment through dynamic, interactive platforms." },
-  { img: "https://res.cloudinary.com/dbpqjxox7/image/upload/v1738229718/fitness1_ewwwzh.webp", title: "Fitness and Wellness", desc: "Experience seamless digital experiences in the delivery of health and wellness services." },
-  { img: "https://res.cloudinary.com/dbpqjxox7/image/upload/v1738229741/automotive1_jls3mq.webp", title: "Automotive", desc: "Drive forward the automotive business by using our specialized online solutions." },
-  { img: "https://res.cloudinary.com/dbpqjxox7/image/upload/v1738229761/profession1_fk6rdv.webp", title: "Professional Services", desc: "Enhance your service offering with our comprehensive digital solution." },
+  {
+    img: "https://res.cloudinary.com/dbpqjxox7/image/upload/v1738229461/s10item1_ridh3n.webp",
+    title: "E-commerce",
+    desc: "We deliver custom-built eCommerce solutions tailored for performance and growth."
+  },
+  {
+    img: "https://res.cloudinary.com/dbpqjxox7/image/upload/v1738229525/hospital1_lui9s4.webp",
+    title: "Hospitality",
+    desc: "Our hospitality tech solutions come with seamless, personalized guest journeys."
+  },
+  {
+    img: "https://res.cloudinary.com/dbpqjxox7/image/upload/v1738229568/real1_haeopa.webp",
+    title: "Real Estate",
+    desc: "Explore our real estate platforms that accelerate property deals and virtual experiences."
+  },
+  {
+    img: "https://res.cloudinary.com/dbpqjxox7/image/upload/v1738229590/healthcare_j4bcto.webp",
+    title: "Healthcare",
+    desc: "Kushel Digi Solutions redefines patient care and clinical efficiency with our secure tech solutions."
+  },
+  {
+    img: "https://res.cloudinary.com/dbpqjxox7/image/upload/v1738229616/education1_hzf6y5.webp",
+    title: "Education",
+    desc: "Kushel Digi transforms education with interactive, scalable e-learning platforms."
+  },
+  {
+    img: "https://res.cloudinary.com/dbpqjxox7/image/upload/v1738229636/finance1_tmillv.webp",
+    title: "Finance",
+    desc: "Choose our development solutions for modern financial services and transactions in the competitive marketplace."
+  },
+  {
+    img: "https://res.cloudinary.com/dbpqjxox7/image/upload/v1738229654/tenonoloy1_asw9wh.webp",
+    title: "Technology",
+    desc: "Our future-ready solutions boost operational efficiency with modern tech solutions."
+  },
+  {
+    img: "https://res.cloudinary.com/dbpqjxox7/image/upload/v1738229677/fashion1_rtft96.webp",
+    title: "Fashion and Apparel",
+    desc: "Kushel Digi can help your fashion brand with user-centric eCommerce platforms that drive engagement."
+  },
+  {
+    img: "https://res.cloudinary.com/dbpqjxox7/image/upload/v1738229699/meida1_dxbav2.webp",
+    title: "Entertainment & Media",
+    desc: "Attract the audiences with user-friendly, dynamic platforms built for modern media and entertainment."
+  },
+  {
+    img: "https://res.cloudinary.com/dbpqjxox7/image/upload/v1738229718/fitness1_ewwwzh.webp",
+    title: "Fitness and Wellness",
+    desc: "Our solutions are also catered for smooth, intuitive wellness services."
+  },
+  {
+    img: "https://res.cloudinary.com/dbpqjxox7/image/upload/v1738229741/automotive1_jls3mq.webp",
+    title: "Automotive",
+    desc: "Our solutions are also designed for the automotive sector ultimately leading to customer interaction and sales."
+  },
+  {
+    img: "https://res.cloudinary.com/dbpqjxox7/image/upload/v1738229761/profession1_fk6rdv.webp",
+    title: "Professional Services",
+    desc: "You can expect excellent service delivery and client engagement with our custom-built platforms."
+  }
 ];
+
 
 function Home2Section10({ heading, heading1, para }) {
   return (

@@ -34,14 +34,14 @@ const Page = () => {
         <Banner1/>
         <Banner2/>
         <Banner3/>
-        <Banner4/>
+        <Banner4 />
         <HomeFlax/>
         <Banner9 page='eCommerce'/>
         <HomeCardSection/>
         <Banner11/>
        
         <Banner5/>
-        <Banner8/>
+        <Banner8 page='Delivering powerful, high performance ecommerce solutions for our clients.'/>
         <Banner7/>
         <BigBanner6 page='Ecommerce'/>
         <Banner10/>
