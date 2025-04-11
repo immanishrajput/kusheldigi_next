@@ -113,7 +113,7 @@ const Magento = () => {
         <ServicesSection services={BigCommerceServices} contents={BigCommerceServicesHeading}/>
         <FeatureSection services={BigCommerceFeatures} contents={BigCommerceFeaturesContent}/>
         <BlogSection/>
-        <HomeForm/>
+       
         {/* <div className="magentooo1">
           <div className="magento-back dine-123">
             <div className="magento_back1 magento-texted">
@@ -499,7 +499,7 @@ const Magento = () => {
 
        
            <MagentoFAQ/>
-
+           <HomeForm/>
 
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
