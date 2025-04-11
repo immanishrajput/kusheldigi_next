@@ -90,7 +90,7 @@
   
     justify-content: flex-start;
     flex-shrink: 0;
-    width: 300px;
+    width: 270px;
   }
   .valueCard_k82s:hover{
     background-color: rgba(224, 236, 255, .3);
@@ -100,7 +100,7 @@
   .valueCard_k82s.active_k82s {
     background-color: rgba(224, 236, 255, .3);
     border: 1px solid #0c61ff;
-    width: 500px;
+    width: 450px;
     padding: 30px 25px;
   }
   
