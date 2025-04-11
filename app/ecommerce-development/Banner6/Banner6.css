@@ -83,7 +83,7 @@
 /* 🔥 Mobile & Tablet Optimizations 🔥 */
 @media (max-width: 1024px) {
     .sec--3 {
-        padding: 35px 5%;
+        padding: 35px 60px;
     }
 
     .con--3-div h4 {
@@ -103,6 +103,7 @@
 @media (max-width: 768px) {
     .sec--3 {
         width: 100%;
+        padding: 40px 30px;
     }
     .con--3-div h4 {
         font-size: 24px;

@@ -335,7 +335,7 @@
   
   @media (max-width: 576px) {
     .projectsSectionKcom{
-      padding: 10px;
+      padding:40px 10px;
     
     }
     .projectsHeaderKcom {
@@ -409,7 +409,7 @@
   
   @media (max-width: 400px) {
     .projectsSectionKcom{
-      padding: 10px;
+      padding: 40px 10px;
     }
     #human{
       font-size: 10px !important;

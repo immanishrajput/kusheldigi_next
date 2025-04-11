@@ -141,7 +141,7 @@
 
 @media (max-width: 600px) {
     .clientsSection{
-        padding: 15px;
+            padding: 40px 30px;
         gap: 0px;
     }
     .textContainer h2{

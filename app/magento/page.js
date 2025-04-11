@@ -31,7 +31,8 @@ import MagentoBanner from "./MagentoBanner/MagentoBanner";
 import WhyMagento from "./WhyMagento/WhyMagento";
 import TechWeUse from "./TechWeUse/TechWeUse";
 import BigBanner8 from "../bigcommerce-development/BigBanner8/page";
-import ShopifyProcess from "../shopify/ShopifyProcess/ShopifyProcess"
+import ShopifyProcess from "../shopify/ShopifyProcess/ShopifyProcess";
+import HomeForm from "../components/Home/HomeForm"
 const Magento = () => {
   // const [front, setFront] = useState(1);
 
@@ -112,6 +113,7 @@ const Magento = () => {
         <ServicesSection services={BigCommerceServices} contents={BigCommerceServicesHeading}/>
         <FeatureSection services={BigCommerceFeatures} contents={BigCommerceFeaturesContent}/>
         <BlogSection/>
+        <HomeForm/>
         {/* <div className="magentooo1">
           <div className="magento-back dine-123">
             <div className="magento_back1 magento-texted">

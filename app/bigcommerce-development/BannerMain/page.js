@@ -9,35 +9,35 @@ import { useRouter } from 'next/navigation';
 const CaseStudy = () => {
 
     const caseStudies = [
-        { img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744175098/home-banner-3_1_i2ugio.jpg', smHeading: 'Certified BigCommerce Agency', smallBtnText: "View Case Study", smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744175094/circle_vvibyg.png', heading: "Expert BigCommerce Development Solutions for Scalable Growth",bigCommerce : [
+        { img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744175098/home-banner-3_1_i2ugio.jpg',className : 'bigBannerFirst', smHeading: 'Certified BigCommerce Agency', smallBtnText: "View Case Study", smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744175094/circle_vvibyg.png', heading: "Expert BigCommerce Development Solutions for Scalable Growth",bigCommerce : [
             {
                 bigImg1 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744104912/bigcommerce_iuneyd.png',
                 bigImg2 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/bcb2b-1_onvun7.png',
                 bigImg3 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744104912/certified-bifgcommerce_fmyqvz.png'
             }
         ] },
-        { img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829271/lovely-1_hhxfih.jpg', smHeading: 'Certified BigCommerce Agency', smallBtnText: "View Case Study", smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829269/lovely-1-2_by2dtq.jpg', heading: "Expert BigCommerce Development Solutions for Scalable Growth",bigCommerce : [
+        { img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829271/lovely-1_hhxfih.jpg',className : 'bigBannerSecond', smHeading: 'Certified BigCommerce Agency', smallBtnText: "View Case Study", smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829269/lovely-1-2_by2dtq.jpg', heading: "Expert BigCommerce Development Solutions for Scalable Growth",bigCommerce : [
             {
                 bigImg1 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744104912/bigcommerce_iuneyd.png',
                 bigImg2 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/bcb2b-1_onvun7.png',
                 bigImg3 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744104912/certified-bifgcommerce_fmyqvz.png'
             }
         ]  },
-        { img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829270/lovely-3_fanqxf.jpg', smHeading: 'Certified BigCommerce Agency', smallBtnText: "View Case Study", smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829268/lovely-3-4_mi9o33.jpg', heading: "Expert BigCommerce Development Solutions for Scalable Growth",bigCommerce : [
+        { img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829270/lovely-3_fanqxf.jpg',className : 'bigBannerThird', smHeading: 'Certified BigCommerce Agency', smallBtnText: "View Case Study", smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829268/lovely-3-4_mi9o33.jpg', heading: "Expert BigCommerce Development Solutions for Scalable Growth",bigCommerce : [
             {
                 bigImg1 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744104912/bigcommerce_iuneyd.png',
                 bigImg2 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/bcb2b-1_onvun7.png',
                 bigImg3 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744104912/certified-bifgcommerce_fmyqvz.png'
             }
         ]  },
-        { img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744291962/four-oaks-farm_ku70ia.png', smHeading: 'Certified BigCommerce Agency', smallBtnText: "View Case Study", smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744291960/four-oaks-farm-circle_umugkf.png', heading: "Expert BigCommerce Development Solutions for Scalable Growth",bigCommerce : [
+        { img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744291962/four-oaks-farm_ku70ia.png',className : 'bigBannerFourth', smHeading: 'Certified BigCommerce Agency', smallBtnText: "View Case Study", smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744291960/four-oaks-farm-circle_umugkf.png', heading: "Expert BigCommerce Development Solutions for Scalable Growth",bigCommerce : [
             {
                 bigImg1 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744104912/bigcommerce_iuneyd.png',
                 bigImg2 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/bcb2b-1_onvun7.png',
                 bigImg3 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744104912/certified-bifgcommerce_fmyqvz.png'
             }
         ]  },
-        { img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829269/lovely-5_akjurr.jpg', smHeading: 'Certified BigCommerce Agency', smallBtnText: "View Case Study", smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829268/lovely-5-3_tykoz4.jpg', heading: "Expert BigCommerce Development Solutions for Scalable Growth",bigCommerce : [
+        { img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829269/lovely-5_akjurr.jpg',className : 'bigBannerFifth', smHeading: 'Certified BigCommerce Agency', smallBtnText: "View Case Study", smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829268/lovely-5-3_tykoz4.jpg', heading: "Expert BigCommerce Development Solutions for Scalable Growth",bigCommerce : [
             {
                 bigImg1 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744104912/bigcommerce_iuneyd.png',
                 bigImg2 : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340284/bcb2b-1_onvun7.png',
@@ -70,7 +70,7 @@ const CaseStudy = () => {
             <div className='case-wrapper'>
                 <h2 className='big-card-heading primary-heading'>{caseStudies[currentIndex].heading}</h2>
                 <div className='case-card'>
-                    <img className='case-img' src={caseStudies[currentIndex].img} alt='case' />
+                    <img className={`case-img ${caseStudies[currentIndex].className}`} src={caseStudies[currentIndex].img} alt='case' />
                     <div className="card-info">
                         <p>{caseStudies[currentIndex].smHeading}</p>
                         <h2>{caseStudies[currentIndex].heading}</h2>
