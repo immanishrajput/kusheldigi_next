@@ -23,7 +23,7 @@
     object-fit: cover;
     z-index: 1;
     object-position: center;
-    transition: all 1s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 .small-icons-div {
@@ -211,6 +211,22 @@
 
     .case-card {
         height: 60vh;
+    }
+
+    .bigBannerFirst {
+        object-position: center;
+    }
+
+    .bigBannerThird {
+        object-position: 60%;
+    }
+
+    .bigBannerFourth {
+        object-position: 87%;
+    }
+
+    .bigBannerFifth {
+        object-position: 76%;
     }
 }
 

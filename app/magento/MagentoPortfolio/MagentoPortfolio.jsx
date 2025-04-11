@@ -34,7 +34,7 @@ export default function MagentoPortfolio({page}) {
                             </div>
 
                             <a href="https://typhoondefense.com/" className="b2b-btnKcom">
-                                typhoondefense
+                            Typhoon Defense
                                 <p>{page}</p>
                             </a>
                             <hr className="hrKcomKu" />
@@ -47,7 +47,7 @@ export default function MagentoPortfolio({page}) {
                             </div>
 
                             <a href="/https://lafayetteshooters.com/" className="b2b-btnKcom">
-                                lafayetteshooters
+                            Lafayette Shooters
                                 <p>{page}</p>
                             </a>
                             <hr />
@@ -60,7 +60,7 @@ export default function MagentoPortfolio({page}) {
                             </div>
 
                             <a href="https://graco-corp.com/" className="b2b-btnKcom">
-                                graco-corp
+                                Graco-Corp
                                 <p>{page}</p>
                             </a>
                             <hr />
@@ -74,7 +74,7 @@ export default function MagentoPortfolio({page}) {
                             </div>
 
                             <a href="https://fouroaksfarm.com/" className="b2b-btnKcom">
-                                fouroaksfarm
+                            Four Oaks Farm
                                 <p>{page}</p>
                             </a>
                             <hr />
@@ -86,7 +86,7 @@ export default function MagentoPortfolio({page}) {
                             </div>
 
                             <a href="https://krappstrapp.com/" className="b2b-btnKcom">
-                                krappstrapp
+                                Krapp Strapp
                                 <p>{page}</p>
                             </a>
                             <hr />
@@ -98,7 +98,7 @@ export default function MagentoPortfolio({page}) {
                             </div>
 
                             <a href="https://topbrasstactical.com/" className="b2b-btnKcom">
-                                topbrasstactical
+                            Top Brass Tactical
                                 <p>{page}</p>
                             </a>
                             <hr />

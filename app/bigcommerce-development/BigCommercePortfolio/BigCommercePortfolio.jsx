@@ -34,7 +34,7 @@ export default function BigCommercePortfolio({page}) {
           </div>
           
           <a href="https://typhoondefense.com/" className="b2b-btnKcom">
-          typhoondefense
+          Typhoon Defense
             <p>{page}</p>
           </a>  
           <hr className="hrKcomKu"/>
@@ -43,11 +43,11 @@ export default function BigCommercePortfolio({page}) {
           <div className="b2b-logoKcom">
            
            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744024692/typoon_r4qbbn.png" alt="Shopify Plus" />
-           <Link href="/https://lafayetteshooters.com/" id="human" className="hover-linkCom"> View Case Study<MdArrowOutward /></Link>
+           <Link href="https://lafayetteshooters.com/" id="human" className="hover-linkCom"> View Case Study<MdArrowOutward /></Link>
           </div>
          
-          <a href="/https://lafayetteshooters.com/" className="b2b-btnKcom">
-          lafayetteshooters
+          <a href="https://lafayetteshooters.com/" className="b2b-btnKcom">
+          Lafayette Shooters
             <p>{page}</p>
           </a>  
           <hr />
@@ -60,7 +60,7 @@ export default function BigCommercePortfolio({page}) {
           </div>
          
           <a href="https://graco-corp.com/" className="b2b-btnKcom">
-          graco-corp
+          Graco-Corp
             <p>{page}</p>
           </a>
           <hr/>
@@ -74,7 +74,7 @@ export default function BigCommercePortfolio({page}) {
           </div>
          
           <a href="https://fouroaksfarm.com/" className="b2b-btnKcom">
-          fouroaksfarm
+          Four Oaks Farm
             <p>{page}</p>
           </a>
           <hr/>
@@ -86,7 +86,7 @@ export default function BigCommercePortfolio({page}) {
           </div>
           
           <a href="https://krappstrapp.com/" className="b2b-btnKcom">
-          krappstrapp
+          Krapp Strapp
             <p>{page}</p>
           </a>
           <hr/>
@@ -98,7 +98,7 @@ export default function BigCommercePortfolio({page}) {
           </div>
          
           <a href="https://topbrasstactical.com/" className="b2b-btnKcom">
-          topbrasstactical
+          Top Brass Tactical
             <p>{page}</p>
           </a>
           <hr/>

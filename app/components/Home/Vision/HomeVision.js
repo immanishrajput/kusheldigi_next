@@ -42,9 +42,7 @@ const Website = () => {
     }
   };
   return (
-    <div>
       <>
-
         <section className="services-we-served">
           <div className="container1">
             <div className="title">
@@ -1079,8 +1077,6 @@ const Website = () => {
           </div>
         </section>
       </>
-
-    </div>
   )
 }
 

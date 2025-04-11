@@ -3,10 +3,11 @@
 import React from 'react';
 import "./MagentoBanner.css";
 import { FaArrowRightLong } from 'react-icons/fa6';
-import { useRouter } from 'next/navigation';
+import Link from 'next/link';
+// import { useRouter } from 'next/navigation';
 
 const MagentoBanner = () => {
-    const navigate = useRouter();
+    // const navigate = useRouter();
     const scrollToForm = () => {
         const formSection = document.getElementById('form-section');
         if (formSection) {
@@ -27,7 +28,7 @@ const MagentoBanner = () => {
 
                 <div className='flex-new-banner-btns'>
                         <button onClick={scrollToForm} className='new-banner-btn colored'>Talk to a Consultant</button>
-                        <button  onClick={() => navigate.push('/contact-us')}  className='new-banner-btn transparent'>Book a Call  <FaArrowRightLong /></button>
+                        <Link  href='/contact-us'  className='new-banner-btn transparent'>Book a Call  <FaArrowRightLong /></Link>
                 </div>
             </div>
             <div className="magento-banner-right">
