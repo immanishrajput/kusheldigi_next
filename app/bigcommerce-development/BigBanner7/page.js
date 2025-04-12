@@ -18,7 +18,7 @@ const Result = () => {
         {/* Image */}
         <div className="image-containerbbcom">
           <img
-            src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743583983/0c9edf987448f34d616dbbf7faadf3f928b67b5a-730x348_ta0x2v.avif"
+            src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744458338/ChatGPT_Image_Apr_12_2025_04_39_31_PM_1_uomphh.png"
             alt="BigCommerce Features"
             className="feature-imagebbcom"
           />

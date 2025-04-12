@@ -70,23 +70,23 @@ export const whyBigCommereByKDS = [
 
   export const BigCommerceFeatures = [
     {
-        icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092987/Scalable-Architecture_fmw5y8.png',
+        icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744459101/Mask_group_20_b7oaep.png',
         title: 'Scalable Architecture',
         desc: `BigCommerce is known for offering flexible customization options that allows businesses to design unique storefronts to handle growing customer demands.`
     },
     {
-        icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092988/Omnichannel-Selling_uljoeu.png',
+        icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744459101/Mask_group_21_pgiqkb.png',
         title: 'Omnichannel Selling',
         desc: `BigCommerce will help you to expand your reach by selling across multiple channels, including social media and marketplace from centralized BigCommerce dashboard.
 `
     },
     {
-        icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092988/Advanced-Marketing-Tools_oyncng.png',
+        icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744459101/Mask_group_22_a0lxvp.png',
         title: 'Advanced Marketing Tools',
         desc: `Most important features of Bigcommerce is that it boost your store’s visibility with in-built SEO features, customizable URLs and marketing tools that drive traffic along with high conversions.`
     },
     {
-        icon:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092988/Secure-Infrastructure_dxdrcn.png',
+        icon:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744459100/Mask_group_23_dxytvc.png',
         title: 'Secure Infrastructure',
         desc: `It ensure a secure shopping experience by integrating features like enterprise-level security, PCI compliance,fast-loading pages and optimal performance for your customers.
 `
@@ -140,22 +140,22 @@ export const ShopifyServicesContent = [
 
 export const ShopifyFeatures = [
   {
-    icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092987/Scalable-Architecture_fmw5y8.png',
+    icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744459101/Mask_group_20_b7oaep.png',
     title: 'Mobile-Responsive Design',
     desc: 'All Shopify themes are completely responsive that ensure your store looks and works seamlessly on smartphones, tablets and desktops.'
   },
   {
-    icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092988/Secure-Infrastructure_dxdrcn.png',
+    icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744459100/Mask_group_23_dxytvc.png',
     title: 'Secure Checkout',
     desc: 'Shopify comes with SSL certification and PCI compliance as it provides a safe and trusted environment for customers to make secure online payments.'
   },
   {
-    icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092988/Omnichannel-Selling_uljoeu.png',
+    icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744459101/Mask_group_21_pgiqkb.png',
     title: 'Customizable Themes',
     desc: 'Select from a vast library of professionally designed themes and powerful apps to tailor your store’s functionality and design suited with your brand.'
   },
   {
-    icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092988/Advanced-Marketing-Tools_oyncng.png',
+    icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744459101/Mask_group_22_a0lxvp.png',
     title: 'Built-In SEO Tools',
     desc: 'Shopify has built in SEO features, email marketing integrations, social media selling, and discount code creation to assist you in attracting customers.'
   }
@@ -166,6 +166,9 @@ export const ShopifyFeaturesContent = {
   title :'Features of Shopify Development Solutions',
   desc :'Shopify can power your online store by offering scalability, seamless integrations and latest features that will definitely drive success in the online marketplace.',
   img : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744119273/feature-of-bigcommerce_o9w9co.png'
+}
+export const weExpertInBigCommerce = {
+  logo:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340304/Partner-Certified-Wordmark_j6b9ar.png'
 }
 
 export const weExpertInMagento = {

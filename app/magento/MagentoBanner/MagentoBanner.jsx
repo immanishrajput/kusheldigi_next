@@ -9,13 +9,13 @@ import Link from 'next/link';
 const MagentoBanner = () => {
     // const navigate = useRouter();
     const scrollToForm = () => {
-        const formSection = document.getElementById('form-section');
-        if (formSection) {
-          const yOffset = -120; 
-          const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
-          window.scrollTo({ top: y, behavior: 'smooth' });
-        }
-      };
+      const formSection = document.getElementById('contacthtmlForm');
+      if (formSection) {
+        const yOffset = -240; 
+        const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      }
+    };
   return (
     <div className='magento-banner-outer-container'>
         <div className='magento-banner-inner-container'>

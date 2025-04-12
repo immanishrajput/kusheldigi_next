@@ -139,6 +139,12 @@
     }
 }
 
+@media (max-width: 768px) {
+    .clientsSection{
+        padding: 40px 30px;
+        gap: 0px;
+    }}
+
 @media (max-width: 600px) {
     .clientsSection{
             padding: 40px 30px;

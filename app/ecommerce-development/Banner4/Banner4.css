@@ -71,6 +71,10 @@
     color: white !important;
     border: 1px solid #0c61ff !important;
   }
+
+  .con--2-div-content h3 {
+    font-weight: 500;
+  }
   
   /* Responsive Styles */
   @media screen and (max-width: 1024px) {
@@ -104,6 +108,7 @@
   
     .con--2-div-content h3 {
       font-size: 24px;
+      text-align: center;
     }
   
     .con--2-div-content p {

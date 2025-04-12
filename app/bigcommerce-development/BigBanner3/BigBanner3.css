@@ -145,10 +145,15 @@
   
     .Bicontent-blockEcom h3 {
       font-size: 20px;
+      text-align: center;
     }
   
     .Bicontent-blockEcom p {
       font-size: 14px;
+    }
+
+    .Bleft-sectionEcom h3 {
+      text-align: center;
     }
   }
   

@@ -259,7 +259,7 @@
   
     .b2b-btnKcom {
         font-size: 18px;
-        margin: 25px;
+        /* margin: 25px; */
     }
   
     .b2b-btnKcom img {
@@ -293,6 +293,12 @@
     .right-b2b-cardsKcom {
       width: 100%;
     }
+    .left-b2b-cardKcom-2 {
+      bottom: 50px;
+    }
+    .left-b2b-cardKcom-3 {
+      bottom: 70px;
+    }
     .b2b-head {
       width: 100%;
         font-size: 36px;
@@ -320,7 +326,7 @@
   
     .b2b-btnKcom {
         font-size: 18px;
-        margin: 20px;
+        /* margin: 20px; */
     }
   
     .b2b-btnKcom img {
@@ -337,6 +343,11 @@
     .projectsSectionKcom{
       padding:40px 10px;
     
+    }
+    .left-b2b-cardsKcom,
+    .right-b2b-cardsKcom {
+      width: 100% !important;
+      gap: 40px;
     }
     .projectsHeaderKcom {
       margin-bottom: 0;

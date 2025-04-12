@@ -145,7 +145,7 @@
     }
     
     .heaaader-content h3{
-      line-height: 20px;
+      line-height: normal;
     }
   
     .hero-contentBi {
@@ -170,6 +170,7 @@
   @media screen and (max-width: 768px) {
     .headssCom {
       font-size: 28px;
+      text-align: center;
     }
 
     .hero-containerMa {

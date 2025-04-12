@@ -67,6 +67,16 @@
         padding: 30px;
         flex-direction: column;
     }
+    .left-big-feature-grid-item > img {
+        display: block;
+        margin: auto;
+    }
+    .bigcommerce-feature-heading {
+        text-align: center;
+    }
+    .big-feature-card-title{
+        text-align: center;
+    }
 }
 
 

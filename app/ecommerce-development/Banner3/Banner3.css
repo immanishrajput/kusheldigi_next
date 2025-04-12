@@ -99,6 +99,7 @@
     font-size: 24px;
     margin-bottom: 22px;
     color: #000000;
+    font-weight: 500;
   }
   
   .content-blockEcom p {
@@ -137,10 +138,19 @@
   
     .content-blockEcom h3 {
       font-size: 20px;
+      text-align: center;
+      font-weight: 500;
     }
   
     .content-blockEcom p {
       font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width:768px) {
+    .left-sectionEcom h6 ,
+    .left-sectionEcom h2 {
+      text-align: center;
     }
   }
   
