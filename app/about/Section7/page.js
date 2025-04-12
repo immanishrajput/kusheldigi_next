@@ -4,7 +4,19 @@ import './Section7.css';
 
 const Section7 = () => {
   const [activeYear, setActiveYear] = useState(2017);
+const [blinkYear, setBlinkYear] = useState(null);
+const [blinkContent, setBlinkContent] = useState(false);
 
+const handleTabClick = (year) => {
+  setBlinkYear(year);
+  setBlinkContent(true);
+  setActiveYear(year);
+
+  setTimeout(() => {
+    setBlinkYear(null);
+    setBlinkContent(false);
+  }, 400);
+};
   const data = {
     2017: {
       title: " Foundation of Kushel Digi ",
@@ -63,16 +75,27 @@ const Section7 = () => {
       <h2 className="growth-story-title">Our growth story</h2>
       <div className="growth-story-tabs">
         {Object.keys(data).map((year) => (
-          <button
-            key={year}
-            className={`growth-story-tab ${
-              activeYear === Number(year) ? "active" : ""
-            }`}
-            onClick={() => setActiveYear(Number(year))}
-          >
-            {year}
+          // <button
+          //   key={year}
+          //   className={`growth-story-tab ${
+          //     activeYear === Number(year) ? "active" : ""
+          //   }`}
+          //   onClick={() => setActiveYear(Number(year))}
+          // >
+          //   {year}
           
-          </button>
+          // </button>
+           <button
+          key={year}
+          className={`growth-story-tab ${
+            activeYear === Number(year) ? "active" : ""
+          } ${blinkYear === Number(year) ? "blink-tab" : ""}`}
+          onClick={() => handleTabClick(Number(year))}
+        >
+          {year}
+           </button>
+        
+
            
         ))}
         

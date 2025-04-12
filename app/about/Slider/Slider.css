@@ -1,7 +1,9 @@
-.ourValues_k82s {
-    padding: 50px;
-  margin: auto;
-  max-width: 1720px;
+
+
+  .ourValues_k82s {
+    padding: 50px 40px;
+    max-width: 1720px;
+    margin: auto;
   }
   
   .ourValuesHeader_k82s {
@@ -33,75 +35,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: none;
-   background-color: white;
-    color: #0c61ff;
+    border: 1px solid #ccc;
+    background-color: white;
+    color: #ccc;
     cursor: pointer;
-    border: 1px solid #0c61ff;
-  }
-  
-  .navBtn_k82s.active {
-    background-color: #ffffff;
-    color: #0c61ff;
-    border: 1px solid #0c61ff;
-  }
-  .navBtn_k82s:hover{
-   color: white;
-   background-color:#0c61ff ;
-  }
-  
-  .valuesGrid_k82s {
-    display: flex;
-    gap: 20px;
-    margin-top: 30px;
-    justify-content: center;
-    flex-wrap: nowrap;
-  }
-  
-  
-  .sliderWrapper_k82s {
-    overflow-x: auto;
-    padding-bottom: 10px;
-    scrollbar-width: none;
-  }
-  
-  .sliderWrapper_k82s::-webkit-scrollbar {
-    display: none;
-  }
-  
-  .valuesGrid_k82s {
-    display: flex;
-    gap: 20px;
-    margin-top: 30px;
-    transition: transform 0.5s ease-in-out;
-    width: max-content;
-  }
-  
-  .valueCard_k82s {
-    background: #fff;
-    border: 1px solid #eee;
-    padding: 20px;
-    border-radius: 8px;
     transition: all 0.3s ease;
-    min-height: 270px !important;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-  
-    justify-content: flex-start;
-    flex-shrink: 0;
-    width: 270px;
-  }
-  .valueCard_k82s:hover{
-    background-color: rgba(224, 236, 255, .3);
-    border: 1px solid #0c61ff;
   }
   
-  .valueCard_k82s.active_k82s {
-    background-color: rgba(224, 236, 255, .3);
-    border: 1px solid #0c61ff;
-    width: 450px;
-    padding: 30px 25px;
+  .navBtn_k82s.active,
+  .navBtn_k82s:hover {
+    background-color: #0c61ff;
+    color: white;
+    border-color: #0c61ff;
+  }
+  
+  .navBtn_k82s:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
   }
   
   .sliderWrapper_k82s {
@@ -112,56 +62,82 @@
   .valuesGrid_k82s {
     display: flex;
     gap: 20px;
+    margin-top: 30px;
     transition: transform 0.5s ease-in-out;
+    justify-content: center;
+    flex-wrap: nowrap;
   }
   
+  .valueCard_k82s {
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    min-height: 270px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 300px;
+  }
   
+  .valueCard_k82s:hover,
+  .valueCard_k82s.active_k82s {
+    background-color: rgba(224, 236, 255, 0.3);
+    border-color: #0c61ff;
+  }
+  
+  .valueCard_k82s.active_k82s {
+    width: 400px;
+    padding: 25px;
+  }
   
   .iconWrapper_k82s {
-  
-    border-radius: 8px;
     font-size: 40px;
-  color: #0c61ff;
-    display: flex;
-    justify-content:flex-start;
-    align-items: center;
+    color: #0c61ff;
     margin-bottom: 15px;
   }
   
-  .iconSlide{
-    color:rgba(224, 236, 255, .3);
-    width: 24px;
-    font-size: 30px;
-    height: 24px;
-  }
-  
   .valueCard_k82s h3 {
-    margin-top: 50px !important;
-    line-height: 30px;
+    margin-top: 40px;
     font-size: 24px;
     font-weight: 600;
-   
   }
   
   .valueCard_k82s p {
-    padding: 10px 0px;
     font-size: 18px;
     color: #444;
     line-height: 1.6;
-    margin: 0;
   }
-  @media(max-width:1124px){
-    .valuesGrid_k82s {
-      display: grid;
-    }
-  }
-  @media (max-width: 768px) {
-    .ourValues_k82s {
+  
+ 
+  
+  @media (max-width: 1024px) {
+    .valueCard_k82s,
+    .valueCard_k82s.active_k82s {
+      width: 280px;
       padding: 20px;
     }
   
+    .valueCard_k82s h3 {
+      font-size: 22px;
+    }
+  
+    .valueCard_k82s p {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 768px) {
     .ourValuesHeader_k82s h2 {
       font-size: 28px;
+    }
+  
+    .valueCard_k82s,
+    .valueCard_k82s.active_k82s {
+      width: 100%;
     }
   
     .navBtn_k82s {
@@ -169,65 +145,29 @@
       height: 35px;
       font-size: 16px;
     }
-  
-    .valuesGrid_k82s {
-      flex-wrap: wrap;
-      justify-content: flex-start;
-    }
-  
-    .valueCard_k82s {
-      width: 100%;
-      min-height: auto;
-      margin-bottom: 20px;
-    }
-  
-    .valueCard_k82s.active_k82s {
-      width: 100%;
-      padding: 20px;
-    }
   }
-  
   
   @media (max-width: 480px) {
     .ourValues_k82s {
-      padding: 40px 15px;
+      padding: 30px 15px;
     }
   
     .ourValuesHeader_k82s h2 {
       font-size: 24px;
     }
-    .valueCard_k82s h3{
+  
+    .valueCard_k82s h3 {
       font-size: 20px;
     }
-    .valueCard_k82s p{
-      font-size:15px ;
+  
+    .valueCard_k82s p {
+      font-size: 15px;
     }
+  
     .navBtn_k82s {
       width: 30px;
       height: 30px;
       font-size: 14px;
     }
-  
-    .valuesGrid_k82s {
-      width: 100%;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-  
-    .valueCard_k82s {
-      width: 100%;
-      padding: 15px;
-    }
-  
-    .valueCard_k82s.active_k82s {
-      width: 100%;
-      padding: 25px;
-    }
   }
   
-  @media (max-width: 1024px) {
-    .valuesGrid_k82s {
-      gap: 30px;
-  
-    }
-  }

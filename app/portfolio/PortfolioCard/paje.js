@@ -1,26 +1,26 @@
 "use client"
-import React from 'react';
+import React, { useState } from 'react';
 import './PortfolioCard.css';
 import Link from 'next/link';
-
+import { LuDot } from "react-icons/lu";
 const portfolioData = [
   {
     id: 'automotive-1',
-    companyName: 'Kick-eez',
+    // companyName: 'Kick-eez',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477030/abImg1_vyhxn6.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
                      "UX/UI Website Design","Website Development","QA & Website Testing"
     ],
     links: {
-      liveStore: 'https://www.phastekperformance.com/',
       caseStudy: '/kick-eez',
       platform: '/bigcommerce-development',
     },
+    category: ["ecommerce"],
   },
   {
     id: 'automotive-2',
-    companyName: 'Pro Trucks',
+    // companyName: 'Pro Trucks',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477086/abimg2_vksyx7.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
@@ -31,11 +31,12 @@ const portfolioData = [
       caseStudy: '/pro-track',
       platform: '/bigcommerce-development',
     },
+    category: ["ecommerce"],
     
   },
   {
     id: 'automotive-3',
-    companyName: 'Rely',
+    // companyName: 'Rely',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477117/abimg3_tsrgwp.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
@@ -46,10 +47,11 @@ const portfolioData = [
       caseStudy: '/rely',
       platform: '/bigcommerce-development',
     },
+    category: ["ecommerce"],
   },
   {
     id: 'automotive-4',
-    companyName: 'Solenoid Ninja',
+    // companyName: 'Solenoid Ninja',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477144/abimg5_wfhlp8.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
@@ -60,10 +62,11 @@ const portfolioData = [
       caseStudy: '/solenoid-ninja',
       platform: '/bigcommerce-development',
     },
+    category: ["ecommerce"],
   },
   {
     id: 'automotive-5',
-    companyName: 'Ballistic Dummy Lab',
+    // companyName: 'Ballistic Dummy Lab',
     logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725952762/image_75_ywf6np.svg',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
@@ -74,10 +77,11 @@ const portfolioData = [
       caseStudy: '/ballistic',
       platform: '/bigcommerce-development',
     },
+    category: ["ecommerce"],
   },
   {
     id: 'automotive-6',
-    companyName: 'Sites and Scopes',
+    // companyName: 'Sites and Scopes',
     logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725953651/image_18_1_j5e3am.svg',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
@@ -88,10 +92,11 @@ const portfolioData = [
       caseStudy: '/sites',
       platform: '/bigcommerce-development',
     },
+    category: ["ecommerce"],
   },
   {
     id: 'automotive-7',
-    companyName: 'Top Brass Tactical',
+    // companyName: 'Top Brass Tactical',
     logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725953729/logo-white_1_1689966883__67774_1_yqlhdf.svg',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
@@ -102,10 +107,11 @@ const portfolioData = [
       caseStudy: '/topbrass',
       platform: '/bigcommerce-development',
     },
+    category: ["ecommerce"],
   },
   {
     id: 'automotive-8',
-    companyName: 'Slides365',
+    // companyName: 'Slides365',
     logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725953057/slide_1_gelwuz.svg',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
@@ -116,6 +122,7 @@ const portfolioData = [
       caseStudy: '/Slidesdesign',
       platform: '/bigcommerce-development',
     },
+    category: ["ecommerce"],
   },
   {
     id: 'automotive-9',
@@ -130,6 +137,7 @@ const portfolioData = [
       caseStudy: '/2ndamendment',
       platform: '/bigcommerce-development',
     },
+    category: ["ecommerce"],
   },
   {
     id: 'automotive-10',
@@ -144,10 +152,11 @@ const portfolioData = [
       caseStudy: '/Ai',
       platform: '/bigcommerce-development',
     },
+    category: ["ecommerce"],
   },
   {
     id: 'automotive-11',
-    companyName: 'Ride Ready',
+    // companyName: 'Ride Ready',
     logo: 'https://res.cloudinary.com/dgif730br/image/upload/v1732807319/logo_1_1688114115__84399_2_iaqhon.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
@@ -158,10 +167,11 @@ const portfolioData = [
       caseStudy: '/rideready',
       platform: '/bigcommerce-development',
     },
+    category: ["ecommerce"],
   },
   {
     id: 'automotive-12',
-    companyName: 'My CMS',
+    // companyName: 'My CMS',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477196/mycms_dc994l.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
@@ -172,10 +182,11 @@ const portfolioData = [
       caseStudy: '/crazyCMS',
       platform: '/bigcommerce-development',
     },
+    category: ["website"],
   },
   {
     id: 'automotive-13',
-    companyName: 'FairChild',
+    // companyName: 'FairChild',
     logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725952623/Layer_1_15_ilqoor.svg',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
@@ -186,10 +197,11 @@ const portfolioData = [
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    category: ["website"],
   },
   {
     id: 'automotive-14',
-    companyName: 'Wood View',
+    // companyName: 'Wood View',
     logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725952841/image_76_tovttv.svg',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
@@ -200,10 +212,11 @@ const portfolioData = [
       caseStudy: '/woodView',
       platform: '/bigcommerce-development',
     },
+    category: ["website"],
   },
   {
     id: 'automotive-15',
-    companyName: 'HRMS',
+    // companyName: 'HRMS',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477326/hrmsname_ljnty9.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
@@ -214,11 +227,12 @@ const portfolioData = [
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    category: ["website"],
   },
  
   {
     id: 'automotive-16',
-    companyName: 'Shubhalloys',
+    // companyName: 'Shubhalloys',
     logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725952993/SHUBHALLOYS_j2i6dz.svg',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
@@ -229,10 +243,11 @@ const portfolioData = [
       caseStudy: '/subhAlloy',
       platform: '/bigcommerce-development',
     },
+    category: ["website"],
   },
   {
     id: 'automotive-17',
-    companyName: 'Inventory Propus Enterprises',
+    // companyName: 'Inventory Propus Enterprises',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478580/custom11_kznig4.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
@@ -243,10 +258,11 @@ const portfolioData = [
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    category: ["website"],
   },
   {
     id: 'automotive-18',
-    companyName: 'Instacertify',
+    // companyName: 'Instacertify',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478756/webinstalogo_rutcoc.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
@@ -257,10 +273,11 @@ const portfolioData = [
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    category: ["software"],
   },
   {
     id: 'automotive-19',
-    companyName: 'OBTECH',
+    // companyName: 'OBTECH',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478856/webobtech_km5zcs.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
@@ -271,10 +288,11 @@ const portfolioData = [
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    category: ["software"],
   },
   {
     id: 'automotive-20',
-    companyName: 'DigitalMnA',
+    // companyName: 'DigitalMnA',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477171/abimg11_aiqpei.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
@@ -285,76 +303,82 @@ const portfolioData = [
       caseStudy: '/Digitalmna',
       platform: '/bigcommerce-development',
     },
+    category: ["software"],
   },
   {
     id: 'automotive-21',
-    companyName: 'Auxible',
+    // companyName: 'Auxible',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478612/webauxlogo_sxf2ww.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
     links: {
-      liveStore: 'https://www.phastekperformance.com/',
+    
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    category: ["software"],
+
+
   },
   {
     id: 'automotive-22',
-    companyName: 'Juinor Achievement',
+    // companyName: 'Juinor Achievement',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478786/webjuniorlogo_pvlv7i.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
     links: {
-      liveStore: 'https://www.phastekperformance.com/',
+      
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    category: ["software"],
   },
   {
     id: 'automotive-23',
-    companyName: 'Suvrin',
+    // companyName: 'Suvrin',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478645/websuvrinlogo_cdrlkl.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
     links: {
-      liveStore: 'https://www.phastekperformance.com/',
+    
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    category: ["software"],
   },
   {
     id: 'automotive-24',
-    companyName: 'Jowffe',
+    // companyName: 'Jowffe',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478824/touffle_le6ygd.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
     links: {
-      liveStore: 'https://www.phastekperformance.com/',
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    category: ["software"],
   },
   {
     id: 'automotive-25',
-    companyName: 'Major',
+    // companyName: 'Major',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478721/webmajorlogo_ejcx63.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
     links: {
-      liveStore: 'https://www.phastekperformance.com/',
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    category: ["software"],
   },
   {
     id: 'automotive-26',
@@ -365,10 +389,10 @@ const portfolioData = [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
     links: {
-      liveStore: 'https://www.phastekperformance.com/',
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    category: ["software"],
   },
   {
     id: 'automotive-27',
@@ -383,6 +407,7 @@ const portfolioData = [
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    category: ["appdevelop"],
   },
   {
     id: 'automotive-28',
@@ -397,6 +422,7 @@ const portfolioData = [
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    category: ["appdevelop"],
   },
   {
     id: 'automotive-29',
@@ -411,6 +437,7 @@ const portfolioData = [
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    category: ["appdevelop"],
   },
   {
     id: 'automotive-30',
@@ -425,6 +452,7 @@ const portfolioData = [
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    category: ["appdevelop"],
   },
   {
     id: 'automotive-31',
@@ -439,6 +467,7 @@ const portfolioData = [
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    category: ["appdevelop"],
   },
   {
     id: 'automotive-32',
@@ -453,10 +482,11 @@ const portfolioData = [
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    category: ["appdevelop"],
   },
   {
     id: 'automotive-33',
-    companyName: 'Phastek Performance',
+    
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
@@ -467,15 +497,40 @@ const portfolioData = [
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    category: ["oddodevelop"],
   },
 ];
-
+ 
 
 const Portfolio = () => {
+  const [filteredCategory, setFilteredCategory] = useState("All");
+
+  const handleFilterChange = (category) => {
+    setFilteredCategory(category);
+  };
+
+  const filteredCaseStudies = filteredCategory === "All" ?  portfolioData: filteredCategory === "ecommerce" ?  portfolioData.filter((data) => data.category.includes(filteredCategory.toLowerCase())).reverse() :  portfolioData.filter((data) => data.category.includes(filteredCategory.toLowerCase()));
+  const generateMetadata = ({ params }) => ({
+    title: 'Our eCommerce Projects | Kushel Digi Solutions Portfolio',
+    description: 'Explore how Kushel Digi Solutions drives eCommerce success and projects of custom Shopify, BigCommerce stores. We help you to grow with innovative and specialized solutions. ',
+  });
   return (
-    <section className='PortfolioMainSection'>
+
+<section className='mainSec_PortWork'>
+<h2 className="PortFolio_ourWork">Our Work</h2>
+    <div className="PortfolioButtonWork">
+      <button onClick={() => handleFilterChange("All")} className={`${filteredCategory === "All" && "addbgcclds"}`}>All</button>
+      <button onClick={() => handleFilterChange("ecommerce")} className={`${filteredCategory === "ecommerce" && "addbgcclds"}`}>E-Commerce</button>
+      <button onClick={() => handleFilterChange("website")} className={`${filteredCategory === "website" && "addbgcclds"}`}>Custom Software</button>
+      <button onClick={() => handleFilterChange("software")} className={`${filteredCategory === "software" && "addbgcclds"}`}>Website</button>
+      {/* <button onClick={() => handleFilterChange("appdevelop")} className={`${filteredCategory === "appdevelop" && "addbgcclds"}`}>UI/UX</button> */}
+      <button onClick={() => handleFilterChange("appdevelop")} className={`${filteredCategory === "appdevelop" && "addbgcclds"}`}>Mobile Apps</button>
+      <button onClick={() => handleFilterChange("oddodevelop")} className={`${filteredCategory === "oddodevelop" && "addbgcclds"}`}>ODDO</button>
+    </div>
+    <div className='PortfolioMainSection'>
+      
       <div className='mainCardOverlay'>
-        {portfolioData.map((item, index) => (
+        {filteredCaseStudies.map((item, index) => (
           <div className="client each-portfolio-cards automotive" id={item?.id} key={index}>
             <div className="each-portfolio">
               <img alt={`${item?.companyName} Logo`} src={item?.logo} className="top-company-logos" />
@@ -485,12 +540,11 @@ const Portfolio = () => {
                   <img alt={`${item?.companyName} Logo`} src={item?.logo} />
                   <h3>{item?.companyName}</h3>
                   {item.description?.map((content,i)=>{
-                    return <p key={i}>{content}</p>
+                    return <p key={i}> <LuDot className='contentPonit'/>{content}</p>
                   })}
                   <ul>
-                    <li><a href={item.links?.liveStore} target="_blank" rel="noopener noreferrer">live store</a></li>
-                    <li className="list-divider">|</li>
-                    <li><Link href={item.links?.caseStudy}>case study</Link></li>
+                    
+                    <li><Link href={item.links?.caseStudy}>Case Study</Link></li>
                     <li className="list-divider">|</li>
                     <li><a href={item.links?.platform}>BigCommerce</a></li>
                   </ul>
@@ -500,7 +554,8 @@ const Portfolio = () => {
           </div>
         ))}
       </div>
-    </section>
+    </div>
+</section>
   );
 };
 

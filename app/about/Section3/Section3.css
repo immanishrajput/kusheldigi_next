@@ -39,8 +39,13 @@ font-size: 24px;
     display: flex;
     align-items: center;
 }
+.fileCicgol img{
+    background-size: cover;
+    height: 80px;
+    width: 94px;
+}
 .linkdinBcard{
-    padding:8px 10px;
+    padding:8px 14px;
     border: 1px solid white;
     border-radius: 10px;
 }

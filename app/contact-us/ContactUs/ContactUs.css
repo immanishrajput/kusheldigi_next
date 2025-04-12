@@ -1,6 +1,6 @@
 
 .contactMainku{
-  padding:50px 50px;
+  padding:50px 50px 20px 50px;
  margin-top: 130px;
  background: linear-gradient(280deg, #89c8fb92, #c8d5f950 62.02%, #f9f9f4);
 }
@@ -51,6 +51,7 @@ border-radius: 10px;
   padding:20px 0px !important;
 }
 .desp h4 {
+  letter-spacing: 0 !important;
  padding-top: 5px;
   font-size: 18px;
   color: #110302;
@@ -126,11 +127,11 @@ width:610px;
 .contact-form1 input,.input-groupKush input,
 .contact-formKush textarea {
   width: 100%;
-  padding: 12px;
+  padding:9px;
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 1rem;
-  margin: 10px 0px;
+  margin: 8px 0px;
 color: #272727;
 background-color: #cccccc32;
 }
@@ -254,7 +255,7 @@ height: auto;
 
 .info-sectionkUSH {
   max-width: 580px;
-  padding: 30px;
+  /* padding: 30px; */
 }
 
 .highlight-text {

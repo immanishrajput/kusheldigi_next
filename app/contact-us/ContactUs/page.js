@@ -6,8 +6,8 @@ import { useRouter } from "next/navigation";
 import PhoneInput from "react-phone-input-2";
 import 'react-phone-input-2/lib/style.css';
 import '../../components/Home/homeBan.css'
-import { TfiCup } from "react-icons/tfi";
-import { FaAward, FaRegUser } from "react-icons/fa";
+import { GiTrophyCup } from "react-icons/gi";
+import { FaAward, FaRegUser, FaUserAlt } from "react-icons/fa";
 const ContactUs = () => {
  
 
@@ -16,7 +16,7 @@ const ContactUs = () => {
     "E-Commerce Solution",
     "Web development",
     "Mobile App Development",
-    "Digital Marketing",
+    // "Digital Marketing",
     "Graphic Design",
     "Staff Augmentation",
     "Other",
@@ -85,8 +85,6 @@ const ContactUs = () => {
       email: '',
       message: '',
       service: [],
-      // projectDetails: "",
-      // interests: [],
       termsAccepted: false,
     });
     
@@ -193,11 +191,12 @@ const ContactUs = () => {
       }
     }, []);
   
+   
   return (
   <section className="contactMainku">
       <div className="contact-containerKush">
       <div className="form-sectionKush">
-        <form  onSubmit={handleForm} className="contact-formKush">
+        <form  onSubmit={handleForm} className="contact-formKush" id="contactForm">
           <h2>Fill in the form</h2>
           
           <div className="contact-form1"><input type="text" name="firstName" placeholder="Full name *"  value={formData?.firstName}
@@ -290,7 +289,7 @@ const ContactUs = () => {
         <div className="row-box">
                         <div className="col-box dis-flex">
                             <div className="iconImgReact">
-                            <TfiCup/>
+                            <GiTrophyCup/>
                             </div>
 
                             <div className="desp">
@@ -310,7 +309,7 @@ const ContactUs = () => {
                         </div>
                         <div className="col-box dis-flex">
                             <div className="iconImgReact">
-                            <FaRegUser/>
+                            <FaUserAlt/>
                             </div>
 
                             <div className="desp">
