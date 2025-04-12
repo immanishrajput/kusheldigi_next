@@ -16312,7 +16312,7 @@ body {
 .s10top1 > h3 {
     font-size: 38px;
     font-weight: 700;
-    line-height: unset;
+    line-height: normal !important;
     text-align: center;
     color: #0E151D
 }
@@ -18555,7 +18555,7 @@ body {
     width: 100%;
     position: relative;
     background: #f6f5f4;
-    padding: 70px 0;
+    padding: 40px 0;
     display: flex;
     flex-direction: column;
     gap: 40px
@@ -28760,6 +28760,7 @@ form button:hover {}
 
 .foot11 p,
 .foot11 a {
+    text-align:center;
     font-size: 14px;
     margin-bottom: 12px;
     font-weight: 500 !important;
@@ -45941,6 +45942,7 @@ video {
 @media screen and (max-width:900px) {
     .dine-123 {
         gap: 20px;
+        flex-direction:column;
     }
 
     .dine-123{
@@ -53784,6 +53786,10 @@ wordpress_cater_box p {
 @media only screen and (max-width:700px) {
     .onbord-main {
         margin-left: 0rem !important
+    }
+
+    .dine-123 {
+        padding:0px
     }
 }
 
@@ -72209,7 +72215,7 @@ article h4 {
     flex-direction: column;
     align-items: center;
     gap: 40px;
-    padding: 0px 20px;
+    padding: 0px 30px;
     margin: 0 auto;
     height: 650px;
     justify-content: center;
@@ -72415,7 +72421,7 @@ article h4 {
     .s5content h3 {
         font-size: 44px;
         font-weight: 400;
-        line-height: 70px;
+        line-height: normal;
         text-align: center;
         color: #0E151D;
     }
@@ -73230,8 +73236,10 @@ input::-webkit-inner-spin-button {
 }
 
 .faqr-section {
-    max-width: 1024px;
-    margin-top: 40px;
+    max-width: 1720px;
+    margin: 0 auto;
+    padding: 0px 60px;
+    /* margin-top: 40px; */
 }
 
 .faqr-section h2 {
@@ -73329,11 +73337,13 @@ input::-webkit-inner-spin-button {
     opacity: 1;
 }
 
-.faqr-section {
-    max-width: 1720px;
-    margin: 0 auto;
-    padding: 0px 60px;
-    margin-top: 40px;
+@media screen and (max-width:768px){
+    .faqr-section {
+        max-width: 1720px;
+        margin: 0 auto;
+        padding: 0px 30px;
+        /* margin-top: 40px; */
+    }
 }
 
 .faqr-section h2 {
@@ -73487,15 +73497,9 @@ input::-webkit-inner-spin-button {
     }
 }
 
-@media screen and (max-width:768x) {
+@media screen and (max-width: 480px) {
     .faqr-section {
-        padding:30px;
-    }
-}
-
-@media (max-width: 480px) {
-    .faqr-section {
-        padding: 5vw 3vw;
+        padding: 40px 30px;
     }
 
     .faqr-answer {
@@ -76060,4 +76064,14 @@ input::-webkit-inner-spin-button {
         margin:20px auto !important;
     }
 
+}
+
+@media screen and (max-width:768x) {
+    .faqr-section {
+        padding:40px 30px !important; 
+    }
+
+    #leftb2ca {
+        margin-bottom:0px !important;
+    }
 }
