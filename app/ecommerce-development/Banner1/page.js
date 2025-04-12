@@ -44,9 +44,9 @@ const Banner = () => {
   //     }, []);
 
   const scrollToForm = () => {
-    const formSection = document.getElementById('form-section');
+    const formSection = document.getElementById('contacthtmlForm');
     if (formSection) {
-      const yOffset = -120; 
+      const yOffset = -240; 
       const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
       window.scrollTo({ top: y, behavior: 'smooth' });
     }
@@ -86,7 +86,7 @@ const Banner = () => {
                                 height="463"
                                 loading='lazy'
                                 // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741088247/MacBook_2_2_two22g.png"
-                                src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1744005078/indrpal-2_s9ckw6.png'
+                                src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1744458202/mockup-2_wpwbsq.png'
                                 alt="bigcommerce"
                             />
                             <img
@@ -94,7 +94,7 @@ const Banner = () => {
                                 height="463"
                                 loading='lazy'
                                 // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742641401/immmmm-removebg-preview_yhm4on.png"
-                                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744005078/indrpal-3_gmtgvg.png"
+                                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744458202/mockup-3_jqdrh1.png"
                                 alt="shopify"
                             />
                             <img className='new-banner-scroll-img'
@@ -102,7 +102,7 @@ const Banner = () => {
                                 height="463"
                                 loading='lazy'
                                 // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741089462/Group_1171281256_1_znsijn.png"
-                                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744005077/indrpal-1_xw4dan.png"
+                                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744458202/mockup-1_lz5bgz.png"
                                 alt="magento"
                             />
                         </Slider>

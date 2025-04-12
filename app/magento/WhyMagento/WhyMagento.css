@@ -47,6 +47,20 @@
     .why-magento-inner-container {
         padding: 40px 30px;
     }
+
+    .why-magento-grid-item > img {
+        display: block;
+        margin: auto;
+    }
+
+    .why-magento-grid-item > h3 {
+        text-align: center;
+    }
+
+    .ShopifyServices__heading {
+        text-align: center;
+        line-height: normal;
+    }
 }
 
 @media screen and (max-width: 600px) {

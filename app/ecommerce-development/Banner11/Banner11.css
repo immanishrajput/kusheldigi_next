@@ -17,7 +17,7 @@
     margin: 15px 0px 0px 0px; 
     text-align: center;
     padding: 35px 25px 12px 25px; 
-    color: #4a4b4d;
+    /* color: #4a4b4d; */
     font-weight: 300;
     font-size: 36px;
   
@@ -31,15 +31,15 @@
     font-size: 22px;
     font-weight: 400;
     padding: 20px 0px 0px 0px;
-    color: #4a4b4d;
+    /* color: #4a4b4d; */
     /* line-height: 40px; */
   }
   .heaaader-content h6{
     text-align: center;
     font-size: 18px;
-    color: #4a4b4d;
+    /* color: #4a4b4d; */
     font-weight: 400;
-    width: 900px;
+    max-width: 900px;
     margin: auto;
   }
   
@@ -48,7 +48,7 @@
     display: flex;
     justify-content: space-evenly;
     padding: 20px 0px 0px 0px;
-    color: #4a4b4d;
+    /* color: #4a4b4d; */
     /* gap: 90px; */
   }
   
@@ -85,7 +85,7 @@
     text-decoration: none;
     margin-bottom: 28px;
     font-size: 38px;
-    color: #4a4b4d;
+    /* color: #4a4b4d; */
     font-weight: 400;
   
   }
@@ -93,7 +93,7 @@
   .content p{
     line-height: 30px;
     font-size: 18px;
-    color: #6c6e70;
+    /* color: #6c6e70; */
   
   }
   

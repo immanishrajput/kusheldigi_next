@@ -64,10 +64,10 @@
   
   /* Text Styling */
   .con--1-flex h5 {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 23px;
     margin-top: 10px;
-    color: #333;
+    /* color: #333; */
   }
   
   .con--1-flex p {
@@ -94,6 +94,20 @@
   @media screen and (max-width: 768px) {
     .sec--1 {
         padding: 50px 30px;
+    }
+
+    .con--1-flex h5 {
+      text-align: center;
+    }
+
+    .con--1-flex-content > img {
+      display: block;
+      margin: auto !important;
+    }
+
+    .iconnImage {
+      display: block;
+      margin: auto ;
     }
   
     .con--1-flex {

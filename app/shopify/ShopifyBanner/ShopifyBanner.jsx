@@ -6,9 +6,9 @@ import { FaArrowRightLong } from 'react-icons/fa6';
 const ShopifyBanner = () => {
 
   const scrollToForm = () => {
-    const formSection = document.getElementById('form-section');
+    const formSection = document.getElementById('contacthtmlForm');
     if (formSection) {
-      const yOffset = -120; 
+      const yOffset = -240; 
       const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
       window.scrollTo({ top: y, behavior: 'smooth' });
     }

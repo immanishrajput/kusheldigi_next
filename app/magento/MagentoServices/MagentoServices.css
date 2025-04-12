@@ -107,7 +107,7 @@ body, html, .ShopifyServices__section {
     .ShopifyServices__container {
       flex-direction: column;
       padding: 40px;
-      padding-bottom: 8rem;
+      /* padding-bottom: 8rem; */
     }
   
     .ShopifyServices__left {
@@ -131,10 +131,16 @@ body, html, .ShopifyServices__section {
   
     .ShopifyServices__card h3 {
       font-size: 20px;
+      text-align: center;
     }
   
     .ShopifyServices__card p {
       font-size: 14px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .ShopifyServices__heading {
+      text-align: center;
     }
   }
   

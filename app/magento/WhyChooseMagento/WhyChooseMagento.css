@@ -77,6 +77,16 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .why-choose-magento-inner-left > h3,
+    .why-choose-magento-inner-left > h4 {
+        text-align: center;
+    }
+
+    .why-choose-magento-inner-left-card > h4 {
+        text-align: center;
+    }
+}
 @media screen and (max-width: 600px) {
     .why-choose-inner-container {
         padding: 40px 30px;

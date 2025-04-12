@@ -198,7 +198,7 @@ width: 50px;
   } 
 
   .contact-htmlForm-btn {
-    width: 52%;
+    width: 100%;
   }
 
 }
@@ -243,7 +243,7 @@ width: 50px;
 @media (max-width:769px){
 
   .contact-htmlForm-btn {
-    width: 52%;
+    width: 100%;
   }
 
 }

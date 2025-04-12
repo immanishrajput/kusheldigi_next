@@ -70,6 +70,9 @@
 /* Image Container with Same Width for Both Images */
 .image-containerbbcom {
     height: auto;
+    flex: 1;
+    overflow: hidden;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: flex-start !important;
@@ -93,11 +96,11 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 0 !important;
-    background-color: aliceblue;
+    background-color: #eff0f1;
     position: relative;
-    top: -111px;
-   border-radius: 10px;
-    height: 536px;
+    top: -60px;
+    border-radius: 10px;
+    height: 580px;
     border: 1px solid aliceblue !important;
     width: 45%;
     padding: 60px 60px 30px 60px;
@@ -112,16 +115,21 @@
     justify-content: center !important;
 }
 
-.iconbbcom {
+/* .iconbbcom {
     font-size: 2rem;
-};
+}; */
+
+.iconbbcom > img {
+    height: 55px;
+    width: 40px;
+}
 
 .ndbbcom {
     margin-top: 18px;
 }
 
-.feature-itembbcom p {
-    margin-top: 0.5rem;
+.feature-itembbcom > p {
+    font-size: 14px;
     text-align: center;
 }
 @media (max-width:769px){
@@ -131,7 +139,7 @@
         padding: 20px;
     }
     .ResultBccom{
-        padding: 40px 0px 0px 0px !important;
+        padding: 40px 30px 0px !important;
     }
     .subtitleBccom{
         text-align: center;
@@ -140,7 +148,7 @@
         width: 100%;
         text-align: center;
         font-size: 26px;
-        line-height: 26px;
+        /* line-height: 26px; */
     }
     .features-gridbbcom{
         position: initial;
@@ -153,6 +161,9 @@ width: 100% !important;
 
 
 
+    }
+    .image-containerbbcom {
+        margin-right: 0px;
     }
 }
 @media (max-width:450px){
@@ -191,14 +202,14 @@ padding: 5px;
 
 @media(max-width:450px){
     .features-containerbbcom{
-        gap: 30px !important;
+        gap: 20px !important;
     }
     .image-containerbbcom {
         margin-right: 0px;
     }
 
     .feature-imagebbcom {
-        width: 85%;
+        /* width: 85%; */
         margin: auto;
     }
 }

@@ -23,7 +23,8 @@ import {BigCommerceServices} from "../data/data"
 import {BigCommerceServicesHeading} from "../data/data";
 import {BigCommerceFeatures} from "../data/data";
 import {BigCommerceFeaturesContent} from "../data/data";
-import Banner9 from '../ecommerce-development/Banner8/page'
+import Banner9 from '../ecommerce-development/Banner8/page';
+import {weExpertInBigCommerce} from "../data/data"
 
 const page = () => {
   const generateMetadata = ({ params }) => ({
@@ -43,7 +44,7 @@ const page = () => {
     <div>
       <Navbar/>
       <BannerMain/>
-      <BigBanner8/>
+      <BigBanner8 weExpert={weExpertInBigCommerce}/>
       <BigBanner7/>
       <BigBanner3 />
       {/* <Banner10 page='BigCommerce'/> */}
