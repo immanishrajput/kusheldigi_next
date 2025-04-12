@@ -28767,6 +28767,10 @@ form button:hover {}
     font-family: 'Poppins', sans-serif !important;
 }
 
+.foot11 a {
+    text-align:left !important;
+}
+
 .foot10 a:hover {
     color: #0039ff;
     transition: .5s
@@ -76046,6 +76050,10 @@ input::-webkit-inner-spin-button {
 .secondary-heading {
     font-size: 1.1rem !important;
     font-weight: 500 !important;
+}
+
+.visibilty-hidden-portfolio {
+    visibility:hidden;
 }
 
 @media screen and (max-width:600px) {

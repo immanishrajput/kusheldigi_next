@@ -114,7 +114,7 @@
     .containerEcom {
       flex-direction: column;
       padding: 40px;
-      padding-bottom: 8rem;
+      /* padding-bottom: 8rem; */
     }
   
     .left-sectionEcom {
@@ -156,7 +156,7 @@
   
   @media screen and (max-width: 600px) {
     .containerEcom {
-      padding: 20px;
+      padding: 30px;
     }
   
     .left-sectionEcom h1 {
@@ -191,7 +191,7 @@
   @media (max-width:450px){
     .containerEcom {
         width: 100%;
-        padding: 45px 20px 20px;
+        padding: 40px 30px 20px;
     }
     .left-sectionEcom h1{
       font-size: 20px;

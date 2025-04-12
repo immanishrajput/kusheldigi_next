@@ -141,7 +141,7 @@
     .img-containerCo {
       flex: 1;
       width: 100%;
-    
+    align-items: center;
     }
     
     .heaaader-content h3{

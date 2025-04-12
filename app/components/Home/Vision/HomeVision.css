@@ -1183,9 +1183,9 @@ text-decoration: none;
   }
   
   @media screen and (max-width:576px){
-    .container1{
+    /* .container1{
       padding: 0px 1.25rem !important;
-    }
+    } */
   .services-we-served .section-grid .section-grid-item .services-box-list-nav > li h4 {
     font-size: medium;
     line-height: normal;
@@ -1204,9 +1204,9 @@ text-decoration: none;
   }
 
   @media screen and (max-width:600px){
-    .services-we-served .container1{
+    /* .services-we-served .container1{
       padding: 0px 1.25rem !important;
-    }
+    } */
     #visionBtnDiv {
       width: 100% !important;
       display: flex;

@@ -33,7 +33,8 @@ import BigBanner3 from '../bigcommerce-development/BigBanner3/page';
 import ShopifyBanner from './ShopifyBanner/ShopifyBanner';
 import ShopifyServices from "./ShopifyServices/ShopifyServices";
 import Banner8 from '../ecommerce-development/Banner8/page'
-import BigBanner8 from "../bigcommerce-development/BigBanner8/page"
+import BigBanner8 from "../bigcommerce-development/BigBanner8/page";
+import ShopifyPortfolio from "./ShopifyPortfolio/page";
 import { ShopifyFeatures, ShopifyFeaturesContent, ShopifyServicesContent, ShopifyServicesHeading, whyBigCommereByKDS, whyBigCommereByKDSHeading,weExpertInShopify } from '../data/data';
 
 function Shopify3({notify}) {
@@ -89,7 +90,7 @@ function Shopify3({notify}) {
 {/* <BigBanner3 /> */}
 <BigBanner8 weExpert={weExpertInShopify}/>
 <ShopifyServices /> 
-<Banner9 page='Shopify'/>
+<ShopifyPortfolio page='Shopify'/>
 <ShopifyProcess/>
 <Banner8 page='Building high performance custom Shopify stores in accordance with your business needs.'/>
 <BigBanner6 services={whyBigCommereByKDS} contents={whyBigCommereByKDSHeading}/>

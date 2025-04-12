@@ -49,7 +49,7 @@
 }
 
 .big-services-card > p {
-    color: #666;
+    /* color: #666; */
     margin-top: 10px;
     text-align: left;
     font-size: 0.9rem;

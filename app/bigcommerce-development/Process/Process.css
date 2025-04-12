@@ -482,7 +482,7 @@
     }
 
     .progress-sm-heading {
-        max-width: 90% !important;
+        max-width: 100% !important;
         text-align: center !important;
     }
 }
