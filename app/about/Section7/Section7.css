@@ -76,9 +76,12 @@
     }
     
     .growth-story-text p {
-      font-size: 18px;
+      font-size: 22px;
       color: black;
     }
+
+   
+    
     @media(max-width:1200px){
       .growth-story-tabs {
         gap: 0px;

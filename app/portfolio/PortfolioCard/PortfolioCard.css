@@ -4,26 +4,61 @@
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
 }
+
+.mainSec_PortWork{
+    margin-top: 130px;
+    padding: 50px 50px;
+    background-color: rgba(224, 236, 255, .3);
+}
 .PortfolioMainSection{
     max-width: 1750px;
     margin: auto;
-    padding: 50px 50px;
-    display: flex;
+ 
+   display: flex;
     justify-content:center;
     align-items: center;
+}
+.PortFolio_ourWork{
+    text-align: center;
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.PortfolioButtonWork{
+    padding: 40px 0px 52px 0px;
+   color: #0c61ff;
+    text-align: center;
+}
+.PortfolioButtonWork button{
+    border: 1px solid black  !important;
+    padding: 12px 24px;
+    color: black ;
+    font-size: 18px;
+    font-weight: 500;
+}
+.addbgcclds {
+    background-color: black !important;
+    color: white !important;
 }
 .mainCardOverlay{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
-    gap:50px;
+    /* grid-template-columns: repeat(auto-fit, minmax(325px, 1fr)); */
+             gap:50px;
+             justify-items: center;
+             align-items: center;
+            
+}
+.overlay-content {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
     align-items: center;
-    justify-content: center !important;
 }
 .each-portfolio {
     position: relative;
-    /* width: 560px;
-    height:540px; */
+    width: 380px;
+    height:420px;
     overflow: hidden;
 }
 .each-portfolio:before {
@@ -38,7 +73,7 @@
 }
 .card-overlayMain {
     /* height: 100%; */
-    padding: 40px 10px;
+    padding: 62px 10px;
     display: flex
 ;
     align-items: center;
@@ -157,6 +192,8 @@ background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v174047
     background-size: cover;
     overflow: hidden;
     border-radius: 10px;
+    width: 380px;
+    height:420px;
 }
 
 each-portfolio-cards {
@@ -169,12 +206,7 @@ each-portfolio-cards {
     margin: 20px 0;
     overflow: hidden;
 }
-.overlay-content {
-    display: flex
-;
-    flex-flow: column;
-    align-items: center;
-}
+
 
 
 .each-portfolio:hover:before {
@@ -224,35 +256,52 @@ each-portfolio-cards {
     height: 100%;
     overflow: hidden;
 }
+.overlay-content img{
+padding-bottom: 25px;
+}
 .overlay-content h3 {
-    font-size: 25px;
+    font-size: 23px;
+    font-weight: 400;
     color: #fff;
     margin: 15px 0;
+    line-height: 40px;
     text-align: center;
 }
 .overlay-content p {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     font-size: 18px;
     color: #fff;
+    font-weight: 400;
     text-transform: capitalize;
-    margin: 5px 0;
-    text-align: center;
+    margin: 3px 0;
+    text-align: left !important;
+}
+.contentPonit{
+    font-size: 30px;
+    font-weight: bold;
 }
 .overlay-content ul {
-    list-style: none;
+ list-style: none;
     display: flex;
-    gap: 3px;
-    margin: 30px 0;
-    text-align: center;
+    gap: 10px;
+    margin: 35px 0 0px 0px;
+    text-align:left;
 }
 .overlay-content li {
     font-size: 18px;
     color: #fff;
     transition: 1s;
+    font-weight: 500;
     margin-bottom: 15px;
 }
 .overlay-content a{
    
     color: white;
+}
+.overlay-content li:hover{
+    transform: translateY(-50%);
 }
 
 /* responisve */
@@ -274,7 +323,7 @@ each-portfolio-cards {
 @media(max-width:1024px){
     .mainCardOverlay {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
     }
     .each-portfolio{
         width: 100% !important;
@@ -322,6 +371,14 @@ each-portfolio-cards {
     }
 }
 @media (max-width:450px){
+    .mainSec_PortWork {
+padding:50px 20px;
+    }
+    .PortfolioButtonWork{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
     .PortfolioMainSection{
 padding: 30px;
     }
@@ -350,4 +407,24 @@ padding: 30px;
     text-align: center;
     margin: 0;
 }
+.card-overlayMain{
+    padding: 50px ;
 }
+.PortfolioButtonWork button{
+    padding: 5px;
+}
+}
+@media (max-width:390px){
+    #automotive-1, #automotive-2, #automotive-3, #automotive-4, #automotive-5, #automotive-6, #automotive-7, #automotive-8, #automotive-9, #automotive-10, #automotive-11, #automotive-12, #automotive-13, #automotive-14, #automotive-15, #automotive-16, #automotive-17, #automotive-18, #automotive-19, #automotive-20, #automotive-21, #automotive-22, #automotive-23, #automotive-24, #automotive-25, #automotive-26, #automotive-27, #automotive-28, #automotive-29, #automotive-30, #automotive-31, #automotive-32, #automotive-33 {
+        width: 369px;
+}
+}
+@media (max-width:375px){
+    #automotive-1, #automotive-2, #automotive-3, #automotive-4, #automotive-5, #automotive-6, #automotive-7, #automotive-8, #automotive-9, #automotive-10, #automotive-11, #automotive-12, #automotive-13, #automotive-14, #automotive-15, #automotive-16, #automotive-17, #automotive-18, #automotive-19, #automotive-20, #automotive-21, #automotive-22, #automotive-23, #automotive-24, #automotive-25, #automotive-26, #automotive-27, #automotive-28, #automotive-29, #automotive-30, #automotive-31, #automotive-32, #automotive-33 {
+        width: 317px;
+}
+.card-overlayMain {
+    padding: 40px;
+}
+}
+

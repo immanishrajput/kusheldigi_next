@@ -36,11 +36,6 @@ import HomeForm from "../components/Home/HomeForm"
 const Magento = () => {
   // const [front, setFront] = useState(1);
 
-
-
-
-
-
   const phoneNumber = "9045301702";
 
   const whatAppHandler = () => {
