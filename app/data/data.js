@@ -167,3 +167,10 @@ export const ShopifyFeaturesContent = {
   desc :'Shopify can power your online store by offering scalability, seamless integrations and latest features that will definitely drive success in the online marketplace.',
   img : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744119273/feature-of-bigcommerce_o9w9co.png'
 }
+
+export const weExpertInMagento = {
+  logo:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744445048/magento-1-logo-png-transparent_zdzuqn.png'
+}
+export const weExpertInShopify = {
+  logo:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744446117/Shopify_logo_2018_staw3o.svg'
+}

@@ -61,7 +61,7 @@
 }
 
 #switch:checked+#switchLabel {
-    background: #12b76a;
+    background: #1265ff;
 }
 
 #switch:checked+#switchLabel:after {
@@ -128,11 +128,11 @@
 }
 
 .process-button {
-    border: 1px solid #12b76a;
+    border: 1px solid #1668ff;
     border-radius: 50px;
     height: 25px;
     display: block;
-    background: linear-gradient(to right, #12b76a 50%, white 50%);
+    background: linear-gradient(to right, #1668ff 50%, white 50%);
     background-size: 200% 100%;
     background-position: right bottom;
     transition: all .5s ease-out;
@@ -176,7 +176,7 @@
     content: "";
     display: inline-block;
     width: 1px;
-    background-color: #c4e5d1;
+    background-color: #1365ff63;
     height: 143px;
     position: absolute;
     left: 0px;
@@ -197,7 +197,7 @@
     content: "";
     display: inline-block;
     width: 1px;
-    background-color: #c4e5d1;
+    background-color: #1365ff63;
     height: 162px;
     position: absolute;
     left: 89px;
@@ -229,7 +229,7 @@
     content: "";
     display: inline-block;
     width: 1px;
-    background-color: #c4e5d1;
+    background-color: #1365ff63;
     height: 369px;
     position: absolute;
     left: 228px;
@@ -259,7 +259,7 @@
     content: "";
     display: inline-block;
     width: 1px;
-    background-color: #c4e5d1;
+    background-color: #1365ff63;
     height: 141px;
     position: absolute;
     left: 278px;
@@ -270,7 +270,7 @@
     content: "";
     display: inline-block;
     width: 1px;
-    background-color: #c4e5d1;
+    background-color: #1365ff63;
     height: 196px;
     position: absolute;
     left: 374px;
@@ -281,7 +281,7 @@
     content: "";
     display: inline-block;
     width: 1px;
-    background-color: #c4e5d1;
+    background-color: #1365ff63;
     height: 167px;
     position: absolute;
     right: 496px;
@@ -321,7 +321,7 @@
     content: "";
     display: inline-block;
     width: 1px;
-    background-color: #c4e5d1;
+    background-color: #1365ff63;
     height: 384px;
     position: absolute;
     right: 269px;
@@ -350,7 +350,7 @@
     content: "";
     display: inline-block;
     width: 1px;
-    background-color: #c4e5d1;
+    background-color: #1365ff63;
     height: 138px;
     position: absolute;
     right: 219px;
@@ -371,7 +371,7 @@
     content: "";
     display: inline-block;
     width: 1px;
-    background-color: #c4e5d1;
+    background-color: #1365ff63;
     height: 195px;
     position: absolute;
     right: 50px;

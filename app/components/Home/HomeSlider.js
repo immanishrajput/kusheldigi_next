@@ -30,6 +30,49 @@ const Slider = () => {
           className="mySwiper"
         >
 
+<SwiperSlide>
+            <div className="carousel-item">
+              <div className="left-carousel-item">
+
+                <img loading="lazy" src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743074113/page-4_wlgfqf.jpg"} alt="carousel-image" />
+                <div className="left-carousel-btn-div">
+                  <div className="left-carousel-btn ">B2B</div>
+                  <div className="left-carousel-btn blue-bg">Military & Tactical Industry</div>
+                </div>
+              </div>
+              <div className="right-carousel-item">
+                <h3 className="right-carousel-heading">
+                  2nd amendment
+                </h3>
+                <div className="right-service-stack-div">
+                  <div className="right-service-stack">
+                    <h3 className="service-stack-heading">Services</h3>
+                    <ol>
+                      <li>Ecommerce Development</li>
+                      <li>UI/UX design</li>
+                      <li>Security Compliance</li>
+                      <li>QA & Website Testing</li>
+                    </ol>
+                  </div>
+                  <div className="right-service-stack">
+                    <h3 className="service-stack-heading">Tech Stack</h3>
+                    <ol>
+                      <li>BigCommerce</li>
+                    </ol>
+                  </div>
+                </div>
+                <p className="right-carousel-para">
+                  2nd Amendment Armory is known for being a leading provider of high-quality firearms and tactical equipment  serving customers both locally in Brandon, FL and across the nation.usted firearms provider of high-quality gun accessories.
+                </p>
+                <Link href="/2ndamendment">
+                  <button className="left-carousel-btn blue-bg right-carousel-inner-btn">
+                    View Case Study
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </SwiperSlide>
+
           <SwiperSlide>
             {/* First slider */}
             <div className="carousel-item">
@@ -168,48 +211,6 @@ const Slider = () => {
             </div>
           </SwiperSlide>
 
-          <SwiperSlide>
-            <div className="carousel-item">
-              <div className="left-carousel-item">
-
-                <img loading="lazy" src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743074113/page-4_wlgfqf.jpg"} alt="carousel-image" />
-                <div className="left-carousel-btn-div">
-                  <div className="left-carousel-btn ">B2B</div>
-                  <div className="left-carousel-btn blue-bg">Military & Tactical Industry</div>
-                </div>
-              </div>
-              <div className="right-carousel-item">
-                <h3 className="right-carousel-heading">
-                  2nd amendment
-                </h3>
-                <div className="right-service-stack-div">
-                  <div className="right-service-stack">
-                    <h3 className="service-stack-heading">Services</h3>
-                    <ol>
-                      <li>Ecommerce Development</li>
-                      <li>UI/UX design</li>
-                      <li>Security Compliance</li>
-                      <li>QA & Website Testing</li>
-                    </ol>
-                  </div>
-                  <div className="right-service-stack">
-                    <h3 className="service-stack-heading">Tech Stack</h3>
-                    <ol>
-                      <li>BigCommerce</li>
-                    </ol>
-                  </div>
-                </div>
-                <p className="right-carousel-para">
-                  2nd Amendment Armory is known for being a leading provider of high-quality firearms and tactical equipment  serving customers both locally in Brandon, FL and across the nation.usted firearms provider of high-quality gun accessories.
-                </p>
-                <Link href="/2ndamendment">
-                  <button className="left-carousel-btn blue-bg right-carousel-inner-btn">
-                    View Case Study
-                  </button>
-                </Link>
-              </div>
-            </div>
-          </SwiperSlide>
 
           <SwiperSlide>
             <div className="carousel-item">

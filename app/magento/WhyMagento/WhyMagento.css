@@ -1,7 +1,7 @@
 .why-magento-container {
     max-width: 1720px;
     margin: 0 auto;
-    background-color: #f3f3f3;
+    background-color: #fff;
 }
 
 .why-magento-inner-container {
@@ -22,11 +22,14 @@
 .why-magento-grid-item {
     padding: 20px;
     background: #fff;
+    border: 1px solid gray;
     border-radius: 10px;
     cursor: pointer;
 }
 
 .why-magento-grid-item:hover {
+    border: 1px solid blue;
+    background: #1668ff14;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 

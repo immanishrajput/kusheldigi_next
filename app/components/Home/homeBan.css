@@ -906,6 +906,7 @@ padding-left: 50px !important;
 
   .b2b-headsss {
       font-size: 32px;
+      line-height:normal;
   }
 
   .b2b-para,
@@ -915,6 +916,7 @@ padding-left: 50px !important;
   }
   .left-b2b-card-2{
     width: 90% !important;
+    margin-bottom:0px;
   }
   .left-b2b-card,
   .right-b2b-card {
@@ -937,6 +939,9 @@ padding-left: 50px !important;
     padding:30px;
   }
 
+  .b2b-paraa {
+    padding-top:20px;
+  }
   
 }
 
@@ -1083,6 +1088,9 @@ padding-left: 50px !important;
   .flagship-section {
     padding:30px;
   }
+  .inner-contact-container {
+    padding:40px 30px;
+  }
 }
 @media(max-width:450px){
   .flagship-section{
@@ -1190,7 +1198,7 @@ padding-left: 50px !important;
   text-decoration: underline;
   font-size: 20px;
   display: flex;
- 
+  text-underline-offset: 5px;
   align-items: center; 
   position: absolute;
   bottom: 50px;

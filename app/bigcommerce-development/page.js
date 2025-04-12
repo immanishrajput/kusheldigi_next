@@ -49,7 +49,7 @@ const page = () => {
       {/* <Banner10 page='BigCommerce'/> */}
       <BigCommercePortfolio page={'BigCommerce'}/>
       <Banner9 page='Delivering powerful, high performance BigCommerce solutions for our clients.'/>
-      <Process/>
+      <Process page='BigCommerce'/>
       <BigBanner6 services={whyBigCommereByKDS} contents={whyBigCommereByKDSHeading}/>
         <BigBanner4 page='Our Bigcommerce Experts are Ready to Launch your Dream Store today!'/>
        

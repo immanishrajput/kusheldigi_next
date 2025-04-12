@@ -289,7 +289,7 @@ body {
   }
   @media only screen and (min-width: 768px) {
   .services-we-served {
-    padding: 45px 30px;
+    padding: 45px 60px;
   }
   }
   @media only screen and (min-width: 991px) {
@@ -1208,12 +1208,18 @@ text-decoration: none;
       padding: 0px 1.25rem !important;
     }
     #visionBtnDiv {
-      width: 85% !important;
+      width: 100% !important;
+      display: flex;
+      justify-content: center;
   }
   .services-we-served{
     padding: 0rem 0px;
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+
+  .container1 > .title > h3 {
+    text-align: center;
   }
   }
 
@@ -1260,4 +1266,10 @@ text-decoration: none;
     margin: 0;
     border: none;
     padding: 0
+  }
+
+  @media screen and (max-width:768px){
+    .services-we-served {
+      padding:40px 30px;
+    }
   }

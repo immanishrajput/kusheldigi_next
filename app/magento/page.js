@@ -26,13 +26,15 @@ import ServicesSection from "../bigcommerce-development/ServiceSection/ServiceSe
 import FeatureSection from "../bigcommerce-development/FeaturesSection/FeatureSection";
 import BigBanner6 from "../bigcommerce-development/BigBanner6/page";
 import Banner8 from '../ecommerce-development/Banner8/page'
-import { BigCommerceFeatures, BigCommerceFeaturesContent, BigCommerceServices, BigCommerceServicesHeading, whyBigCommereByKDS, whyBigCommereByKDSHeading } from "../data/data";
+import { BigCommerceFeatures, BigCommerceFeaturesContent, BigCommerceServices, BigCommerceServicesHeading, whyBigCommereByKDS, whyBigCommereByKDSHeading ,weExpertInMagento} from "../data/data";
 import MagentoBanner from "./MagentoBanner/MagentoBanner";
 import WhyMagento from "./WhyMagento/WhyMagento";
 import TechWeUse from "./TechWeUse/TechWeUse";
 import BigBanner8 from "../bigcommerce-development/BigBanner8/page";
 import ShopifyProcess from "../shopify/ShopifyProcess/ShopifyProcess";
-import HomeForm from "../components/Home/HomeForm"
+import HomeForm from "../components/Home/HomeForm";
+import BigBanner4 from "../bigcommerce-development/BigBanner4/page"
+
 const Magento = () => {
   // const [front, setFront] = useState(1);
 
@@ -97,13 +99,14 @@ const Magento = () => {
     
       <div className="ser-main">
         <MagentoBanner/>
-        <BigBanner8/>
+        <BigBanner8 weExpert={weExpertInMagento}/>
         <WhyMagento/>
         <MagentoServices/>
         <MagentoPortfolio page='Magento'/>
         <ChooseMagento/>
 
-        <CallAction/>
+        {/* <CallAction/> */}
+        <BigBanner4 page='Our Magento Experts are Ready to Launch your Dream Store today!'/>
         <UpgradeServices/>
         <WhyChooseMagento/>
         <ShopifyProcess/>

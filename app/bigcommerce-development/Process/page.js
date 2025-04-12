@@ -3,7 +3,7 @@
 import React, { useState ,useRef, useEffect} from 'react';
 import "./Process.css";
 
-const Progress = () => {
+const Progress = ({page}) => {
 
     const [isSwitch, setIsSwitch] = useState(false);
 
@@ -40,7 +40,7 @@ const Progress = () => {
     return (
         <div className='progress-outer-container'>
             <div className="progress-inner-container">
-                <h2 className='progress-heading primary-heading '>Our BigCommerce Development Process</h2>
+                <h2 className='progress-heading primary-heading '>Our {page} Development Process</h2>
                 <h3 className='progress-sm-heading secondary-heading'>Kushel Digi believes in employing latest and advanced global process to deliver projects best suited with your business needs.</h3>
 
                 <div className="progress-toggle-btn-div">
