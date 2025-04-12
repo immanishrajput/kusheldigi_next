@@ -1,5 +1,5 @@
 .BcontainerEcomSEc{
-    padding: 30px 0px;
+    padding: 30px 0px 0px;
     background-color: #d2d2d239;
 }
 .BcontainerEcom {
@@ -159,7 +159,7 @@
   
   @media screen and (max-width: 600px) {
     .BcontainerEcom {
-      padding: 20px;
+      padding: 30px;
     }
   
     .Bleft-sectionEcom h3{
