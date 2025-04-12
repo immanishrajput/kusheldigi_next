@@ -171,3 +171,6 @@ export const ShopifyFeaturesContent = {
 export const weExpertInMagento = {
   logo:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744445048/magento-1-logo-png-transparent_zdzuqn.png'
 }
+export const weExpertInShopify = {
+  logo:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744446117/Shopify_logo_2018_staw3o.svg'
+}

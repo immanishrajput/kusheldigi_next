@@ -117,7 +117,7 @@
 import { useEffect, useState, useRef } from "react";
 import "./Bigbanner8.css";
 
-const Result1 = ({weExpertInMagento}) => {
+const Result1 = ({weExpert}) => {
   const [scrollRatio, setScrollRatio] = useState(0);
   const descriptionRef = useRef(null);
 
@@ -156,7 +156,7 @@ const Result1 = ({weExpertInMagento}) => {
             <p className="smallcomtext">we are experts in</p>
             <div className="logoImgcbom">
               <img
-                src={weExpertInMagento.logo}
+                src={weExpert?.logo}
                 alt=""
               />
             </div>

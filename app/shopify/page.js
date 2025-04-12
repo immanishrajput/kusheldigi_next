@@ -34,7 +34,7 @@ import ShopifyBanner from './ShopifyBanner/ShopifyBanner';
 import ShopifyServices from "./ShopifyServices/ShopifyServices";
 import Banner8 from '../ecommerce-development/Banner8/page'
 import BigBanner8 from "../bigcommerce-development/BigBanner8/page"
-import { ShopifyFeatures, ShopifyFeaturesContent, ShopifyServicesContent, ShopifyServicesHeading, whyBigCommereByKDS, whyBigCommereByKDSHeading } from '../data/data';
+import { ShopifyFeatures, ShopifyFeaturesContent, ShopifyServicesContent, ShopifyServicesHeading, whyBigCommereByKDS, whyBigCommereByKDSHeading,weExpertInShopify } from '../data/data';
 
 function Shopify3({notify}) {
   const generateMetadata = ({ params }) => ({
@@ -87,7 +87,7 @@ function Shopify3({notify}) {
 {/* <YourProject /> */}
 <ShopifyBanner/>
 {/* <BigBanner3 /> */}
-<BigBanner8/>
+<BigBanner8 weExpert={weExpertInShopify}/>
 <ShopifyServices /> 
 <Banner9 page='Shopify'/>
 <ShopifyProcess/>

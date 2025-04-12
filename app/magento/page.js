@@ -99,7 +99,7 @@ const Magento = () => {
     
       <div className="ser-main">
         <MagentoBanner/>
-        <BigBanner8 weExpertInMagento={weExpertInMagento}/>
+        <BigBanner8 weExpert={weExpertInMagento}/>
         <WhyMagento/>
         <MagentoServices/>
         <MagentoPortfolio page='Magento'/>
