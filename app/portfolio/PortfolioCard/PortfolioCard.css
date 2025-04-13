@@ -73,7 +73,7 @@
 }
 .card-overlayMain {
     /* height: 100%; */
-    padding: 62px 10px;
+    padding: 70px 10px;
     display: flex
 ;
     align-items: center;
@@ -267,16 +267,21 @@ padding-bottom: 25px;
     line-height: 40px;
     text-align: center;
 }
-.overlay-content p {
+.contentPointmain{
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    color: white;
+    padding: 0;
+}
+.overlay-content p {
+   
     font-size: 18px;
     color: #fff;
     font-weight: 400;
     text-transform: capitalize;
     margin: 3px 0;
-    text-align: left !important;
+ 
 }
 .contentPonit{
     font-size: 30px;
@@ -389,10 +394,22 @@ padding: 30px;
     .each-portfolio{
         width: 100% !important;
     }
-  
+  .card-overlayMain {
+    padding:69px 19px 70px 20px !important;
+  }
 .each-portfolio:hover .bottom-platform-logo {
     right: -70%;
 }
+.overlay-content img {
+padding: 0;
+}
+.overlay-content ul{
+margin: 20px 0px 0px 0px;
+}
+.overlay-content h3{
+    line-height: normal;
+}
+.overlay-content img 
 .each-portfolio:hover .top-company-logos {
     left: -70%;
 }
@@ -424,7 +441,7 @@ padding: 30px;
         width: 317px;
 }
 .card-overlayMain {
-    padding: 40px;
+    /* padding: 70px 44px 70px 44px !important; */
 }
 }
 
