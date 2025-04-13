@@ -126,7 +126,7 @@ const portfolioData = [
   },
   {
     id: 'automotive-9',
-    companyName: '2ndamendment Armory',
+    // companyName: '2ndamendment Armory',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1730459236/Group_1171275966_xq0qb4.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
@@ -141,7 +141,7 @@ const portfolioData = [
   },
   {
     id: 'automotive-10',
-    companyName: 'Ai',
+    // companyName: 'Ai',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744280422/Untitled-1_nkikqq.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
@@ -382,7 +382,7 @@ const portfolioData = [
   },
   {
     id: 'automotive-26',
-    companyName: 'Usha Fasteners',
+    // companyName: 'Usha Fasteners',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
@@ -396,7 +396,7 @@ const portfolioData = [
   },
   {
     id: 'automotive-27',
-    companyName: 'Saina',
+    // companyName: 'Saina',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
@@ -426,7 +426,7 @@ const portfolioData = [
   },
   {
     id: 'automotive-29',
-    companyName: 'Apeejay Business Center',
+    // companyName: 'Apeejay Business Center',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
@@ -441,7 +441,7 @@ const portfolioData = [
   },
   {
     id: 'automotive-30',
-    companyName: 'Fit Cloud Pro',
+    // companyName: 'Fit Cloud Pro',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
@@ -456,7 +456,7 @@ const portfolioData = [
   },
   {
     id: 'automotive-31',
-    companyName: 'EAR SHOT',
+    // companyName: 'EAR SHOT',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
@@ -471,7 +471,7 @@ const portfolioData = [
   },
   {
     id: 'automotive-32',
-    companyName: 'VR OTT',
+    // companyName: 'VR OTT',
      logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
@@ -540,7 +540,9 @@ const Portfolio = () => {
                   <img alt={`${item?.companyName} Logo`} src={item?.logo} />
                   <h3>{item?.companyName}</h3>
                   {item.description?.map((content,i)=>{
-                    return <p key={i}> <LuDot className='contentPonit'/>{content}</p>
+                    return <div key={i} className='contentPointmain'>
+                                    <LuDot className='contentPonit'/>
+                       <p>{content}</p> </div>
                   })}
                   <ul>
                     
