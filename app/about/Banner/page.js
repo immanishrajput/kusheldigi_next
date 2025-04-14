@@ -10,6 +10,14 @@ import { useRouter } from 'next/navigation';
 
 const Banner = () => {
     const router = useRouter();
+    const scrollToForm = () => {
+        const formSection = document.getElementById('contacthtmlForm');
+        if (formSection) {
+          const yOffset = -240; 
+          const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+          window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+      };
   return (
 
     <>
@@ -26,7 +34,8 @@ const Banner = () => {
    <Link href="/contact-us"> <button>Get in touch <FaArrowRight/></button></Link>
 </div> */}
  <div className='flex-new-banner-btns'>
-                        <a href='#form-section' className='new-banner-btn colored'>Talk to a Consultant</a>
+                      
+                        <button onClick={scrollToForm} className='new-banner-btn colored'>Talk to a Consultant</button>
                         <button onClick={() => router.push('/contact-us')} className='new-banner-btn transparent'>Book a Call  <FaArrowRightLong/></button>
                     </div>
 <div className='ourAboutpra'>

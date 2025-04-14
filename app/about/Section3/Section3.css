@@ -41,8 +41,7 @@ font-size: 24px;
 }
 .fileCicgol img{
     background-size: cover;
-    height: 80px;
-    width: 94px;
+ 
 }
 .linkdinBcard{
     padding:8px 14px;
@@ -82,6 +81,7 @@ font-size: 24px;
     .linkdinBcard {
         align-self: flex-start;
     }
+   
 }
 
 @media (max-width: 768px) {

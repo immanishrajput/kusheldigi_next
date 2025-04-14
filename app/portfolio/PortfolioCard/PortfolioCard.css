@@ -411,7 +411,7 @@ margin: 20px 0px 0px 0px;
 }
 .overlay-content img 
 .each-portfolio:hover .top-company-logos {
-    left: -70%;
+    left: -80%;
 }
 .overlay-content ul{
     display: grid;
@@ -435,13 +435,14 @@ margin: 20px 0px 0px 0px;
     #automotive-1, #automotive-2, #automotive-3, #automotive-4, #automotive-5, #automotive-6, #automotive-7, #automotive-8, #automotive-9, #automotive-10, #automotive-11, #automotive-12, #automotive-13, #automotive-14, #automotive-15, #automotive-16, #automotive-17, #automotive-18, #automotive-19, #automotive-20, #automotive-21, #automotive-22, #automotive-23, #automotive-24, #automotive-25, #automotive-26, #automotive-27, #automotive-28, #automotive-29, #automotive-30, #automotive-31, #automotive-32, #automotive-33 {
         width: 369px;
 }
+.each-portfolio:hover .top-company-logos{
+    left: -90%;
+}
 }
 @media (max-width:375px){
     #automotive-1, #automotive-2, #automotive-3, #automotive-4, #automotive-5, #automotive-6, #automotive-7, #automotive-8, #automotive-9, #automotive-10, #automotive-11, #automotive-12, #automotive-13, #automotive-14, #automotive-15, #automotive-16, #automotive-17, #automotive-18, #automotive-19, #automotive-20, #automotive-21, #automotive-22, #automotive-23, #automotive-24, #automotive-25, #automotive-26, #automotive-27, #automotive-28, #automotive-29, #automotive-30, #automotive-31, #automotive-32, #automotive-33 {
         width: 317px;
 }
-.card-overlayMain {
-    /* padding: 70px 44px 70px 44px !important; */
-}
+
 }
 
