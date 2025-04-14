@@ -4,6 +4,9 @@ import Head from 'next/head';
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
 import '../globals.css'
+import CustomSoftwareBanner from "./CustomSoftwareBanner/CustomSoftwareBanner";
+import SecondCustomSection from "./SecondCustomSection/SecondCustomSection";
+import CustomSoftwareSolutions from "./CustomSoftwareSolutions/CustomSoftwareSolutions";
 
 const customBenefitData = [
   {
@@ -1176,8 +1179,8 @@ function CustomSoftware() {
       
     <Navbar/>
     <div className="ser-main">
-    <div id="customSoftware">
-      {/* hero section */}
+    {/* <div id="customSoftware">
+    
      
       <section className="ccs_page">
         <div className="css_main_banner">
@@ -1206,13 +1209,13 @@ function CustomSoftware() {
         </div>
       </section>
 
-      {/* second section */}
+    
       <section className="css_service_page">
 
         <div className="service-back">
 
        
-        {/* left side */}
+       
         <div className="service-back1">
 
         <div className="service_head">
@@ -1231,7 +1234,7 @@ function CustomSoftware() {
          
         </div>
 
-        {/* right side  */}
+      
         <div className="service-back2">
           <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164763/Group_1000009804_fpegu7.png' alt="Custom Software Development Services" title="Custom Software Development Services" />
 
@@ -1243,7 +1246,7 @@ function CustomSoftware() {
 </section>
 
 
-{/* third section */}
+
 
 <section className="css_khuBest_page">
 
@@ -1256,7 +1259,7 @@ function CustomSoftware() {
                 </section>
 
 
-{/* fourth section */}
+
 <section className="css_bestSol_page">
 
         
@@ -1312,7 +1315,7 @@ function CustomSoftware() {
     </section>
 
 
-{/* fivth section */}
+
 <section className="css_benefit_page">
   <div className="css-bennn dine-1234">
    <h3>Benefits of Kushel Digi Solution Custom Software Development</h3>
@@ -1350,7 +1353,7 @@ function CustomSoftware() {
 </section>
 
 
-{/* six section */}
+
 <section className="css_softS_page dine-1234">
 
 <h3>Our Custom Software Development Services</h3>
@@ -1383,13 +1386,13 @@ function CustomSoftware() {
 
 
 
-      {/* seven section  */}
+
       <section className="css_joinCS_page">
       <div className="csd-joinnn">
       <div className="joinCS_back dine-123">
 
        
-{/* left side */}
+
 
 <div className="joinCS_back1">
 
@@ -1407,13 +1410,12 @@ function CustomSoftware() {
 </div>
 
 
-{/* right side  */}
 <div className="css_joinCS_back2">
 
-{/* L side  */}
+
 <div className="joinCs_back_left">
 
-  {/* first box  */}
+
   <div className="joinCsbox">
 
     <p><svg xmlns="http://www.w3.org/2000/svg" width="50" height="47" viewBox="0 0 50 47" fill="none">
@@ -1433,7 +1435,7 @@ function CustomSoftware() {
 
   </div>
 
- {/* second box  */}
+
  <div className="joinCsbox">
 
 <p><svg xmlns="http://www.w3.org/2000/svg" width="47" height="48" viewBox="0 0 47 48" fill="none">
@@ -1459,9 +1461,8 @@ Experience the essence ofcustomization with our custom software development serv
 </div>
 </div>
 
-{/* R side  */}
 <div className="joinCs_back_right">
-{/* first box  */}
+
 <div className="joinCsbox">
 
 <p><svg xmlns="http://www.w3.org/2000/svg" width="46" height="50" viewBox="0 0 46 50" fill="none">
@@ -1481,7 +1482,6 @@ Experience the essence ofcustomization with our custom software development serv
 
 </div>
 
-{/* second box  */}
 <div className="joinCsbox">
 
 <p><svg xmlns="http://www.w3.org/2000/svg" width="49" height="32" viewBox="0 0 49 32" fill="none">
@@ -1507,9 +1507,12 @@ Count on our dedicated support team for prompt assistance, ensuring smooth opera
 
 
 
-    </div>
+    </div> */}
+    <CustomSoftwareBanner/>
+    <SecondCustomSection/>
+    <CustomSoftwareSolutions/>
 
-    {/*  buttons  */}
+
     <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
             <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />

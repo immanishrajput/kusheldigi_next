@@ -80,11 +80,11 @@ const ContactUs = () => {
     };
   
     const [formData, setFormData] = useState({
-      firstName: '',
-      phone: '',
-      email: '',
-      message: '',
-      service: [],
+      firstName11: '',
+      phone11: '',
+      email11: '',
+      message11: '',
+      service11: [],
       termsAccepted: false,
     });
     
@@ -99,9 +99,9 @@ const ContactUs = () => {
     if (type === 'checkbox') {
       setFormData((prev) => ({
         ...prev,
-        service: checked
-          ? [...prev.service, value]
-          : prev.service.filter((s) => s !== value)
+        service11: checked
+          ? [...prev.service11, value]
+          : prev.service11.filter((s) => s !== value)
       }));
     } else {
       setFormData((prev) => ({
@@ -125,10 +125,10 @@ const ContactUs = () => {
     const handleForm = async (e) => {
       e.preventDefault();
       if (
-        formData.firstName.trim() === '' ||
-        formData.phone.trim() === '' ||
-        formData.email.trim() === '' ||
-        formData.message.trim() === '91'
+        formData.firstName11.trim() === '' ||
+        formData.phone11.trim() === '' ||
+        formData.email11.trim() === '' ||
+        formData.message11.trim() === '91'
       ) {
         alert("Please fill all the fields!!");
         return;
@@ -146,7 +146,7 @@ const ContactUs = () => {
       }
       setLoading(true);
       try {
-        const response = await fetch("https://backend.kusheldigi.com/contact", {
+        const response = await fetch("https://backend.kusheldigi.com/contact11", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -169,11 +169,11 @@ const ContactUs = () => {
       } finally {
         setLoading(false);
         setFormData({
-          firstName: '',
-          phone: '',
-          email: '',
-          message: '',
-          service:[]
+          firstName11: '',
+          phone11: '',
+          email11: '',
+          message11: '',
+          service11:[]
         })
       }
     }
@@ -199,7 +199,7 @@ const ContactUs = () => {
         <form  onSubmit={handleForm} className="contact-formKush" id="contactForm">
           <h2>Fill in the form</h2>
           
-          <div className="contact-form1"><input type="text" name="firstName" placeholder="Full name *"  value={formData?.firstName}
+          <div className="contact-form1"><input type="text" name="firstName11" placeholder="Full name *"  value={formData?.firstName11}
                      onChange={(e) => {
                       const value = e.target.value;
                       if (/^[A-Za-z ]*$/.test(value)) {
@@ -208,19 +208,19 @@ const ContactUs = () => {
                     }} required />
                          </div>
           <div className="input-groupKush">
-            <input type="email" name="email" placeholder="Business email *"   value={formData?.email}
+            <input type="email" name="email11" placeholder="Business email *"   value={formData?.email11}
                   onChange={handleFormChange} required />
             
 <input
   type="tel"
-  name="phone"
+  name="phone11"
   placeholder="Phone number*"
   maxLength={10}
-  value={formData.phone}
+  value={formData.phone11}
   onChange={(e) => {
     const value = e.target.value;
     if (/^\+?[0-9]{0,15}$/.test(value) || value === "") {
-      setFormData((prev) => ({ ...prev, phone: value }));
+      setFormData((prev) => ({ ...prev, phone11: value }));
     }
   }}
   required
@@ -228,7 +228,7 @@ const ContactUs = () => {
 
           </div>
        <div>
-           <textarea name="message" placeholder="Project details *"  value={formData?.message}
+           <textarea name="message11" placeholder="Project details *"  value={formData?.message11}
                   onChange={handleFormChange} required></textarea>
        </div>
          
@@ -236,7 +236,7 @@ const ContactUs = () => {
 <div className="interests-listCom checkboxes-listCom">
   {interestsOptions.map((service, index) => {
     const inputId = `service-${index}`;
-    const isSelected = (formData.service || []).includes(service);
+    const isSelected = (formData.service11 || []).includes(service);
     return (
       <label
         key={inputId}
@@ -245,7 +245,7 @@ const ContactUs = () => {
       >
         <input
           type="checkbox"
-          name="service"
+          name="service11"
           id={inputId}
           value={service}
           onChange={handleChange}
