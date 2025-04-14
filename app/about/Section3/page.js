@@ -13,7 +13,7 @@ const Section3 = () => {
    <div className='profileLinksec'>
    <div className='profileCiclr'>
         <div className='fileCicgol'>
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744463897/shubham-sir-_lovely_-images_yoza8r.png" alt="Profile" />
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744607332/shubham-sir-_lovely_-images1_romkzp.png" alt="Profile" />
         </div>
         <div>
             <p className='profileCicline'>Shubham Gupta CEO</p>
