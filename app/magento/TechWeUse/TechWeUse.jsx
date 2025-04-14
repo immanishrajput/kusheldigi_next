@@ -93,8 +93,8 @@ const TechWeUse = () => {
 
     return (
         <div className='tech-we-use-outer-container'>
-            <h3 className='tech-we-use-heading primary-heading'>Tech Stack We Use</h3>
-            <p className='tech-we-use-para secondary-heading'>The right tech stack is crucial for Magento (Adobe Commerce) development. We utilize industry-leading technologies to build high-performing, scalable, and secure eCommerce solutions.</p>
+            <h3 className='tech-we-use-heading primary-heading'>Technologies We Rely On</h3>
+            <p className='tech-we-use-para secondary-heading'>Kushel Digi Solutions believes in leveraging latest and advanced technologies to deliver you the best Magento Development Services.</p>
 
             <div className="tech-we-use-slider-container">
                 <Slider {...settings}>

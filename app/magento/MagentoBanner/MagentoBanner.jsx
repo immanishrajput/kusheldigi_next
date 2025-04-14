@@ -20,10 +20,10 @@ const MagentoBanner = () => {
     <div className='magento-banner-outer-container'>
         <div className='magento-banner-inner-container'>
             <div className="magento-banner-left">
-                <h1 className='magento-banner-heading'>Magento Development Services</h1>
+                <h1 className='magento-banner-heading'>CUSTOM MAGENTO DEVELOPMENT SOLUTIONS</h1>
                 <div className='magento-banner-para-cont'>
-                <p>Our custom magento website development services are tailored to your specific needs.</p>
-                <p>Your e-commerce site becomes more reliable, fully customizable, and ready for the future with our dedicated team on your side.</p>
+                <p>Harness our end-to-end Magento development services to build fast, secure, and highly feature-rich online stores. Either you're opening from scratch or upgrading, we assist you to develop your business with a powerful, user-driven Magento platform. </p>
+                {/* <p>Your e-commerce site becomes more reliable, fully customizable, and ready for the future with our dedicated team on your side.</p> */}
                 </div>
 
                 <div className='flex-new-banner-btns'>

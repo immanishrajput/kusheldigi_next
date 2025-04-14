@@ -3,7 +3,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import "./ShopifyProcess.css";
 
-const Shopify = () => {
+const Shopify = ({page}) => {
 
     const [inView, setInView] = useState(false);
     const shopifyPhasesRef = useRef(null);
@@ -35,7 +35,7 @@ const Shopify = () => {
         <div className="shopify-banner-outer-container">
             <div className='shopify-outer-container'>
                 <div className="shopify-inner-container">
-                    <h2 className='shopify-banner-heading primary-heading'>OUR SHOPIFY DEVELOPMENT PROCESS</h2>
+                    <h2 className='shopify-banner-heading primary-heading'>OUR {page} DEVELOPMENT PROCESS</h2>
                     <p className='shopify-banner-para secondary-heading'>We Handle the Tech, You Focus on Sales</p>
                     <div className="shopify-banner-flex-container">
                         <div className="shopify-banner-left">

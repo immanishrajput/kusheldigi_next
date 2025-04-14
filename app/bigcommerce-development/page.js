@@ -52,7 +52,7 @@ const page = () => {
       <Banner9 page='Delivering powerful, high performance BigCommerce solutions for our clients.'/>
       <Process page='BigCommerce'/>
       <BigBanner6 services={whyBigCommereByKDS} contents={whyBigCommereByKDSHeading}/>
-        <BigBanner4 page='Our Bigcommerce Experts are Ready to Launch your Dream Store today!'/>
+        <BigBanner4 page='Our Bigcommerce Experts are Ready to Launch your Dream Store today!' img='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743157130/bigcommerce-logo-icon_um7a4x.png'/>
        
         <BigBanner9 />
         <ServicesSection services={BigCommerceServices} contents={BigCommerceServicesHeading}/>

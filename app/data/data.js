@@ -177,3 +177,33 @@ export const weExpertInMagento = {
 export const weExpertInShopify = {
   logo:'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744446117/Shopify_logo_2018_staw3o.svg'
 }
+
+
+export const MagentoFeaturesContent = {
+  title :'Features of Magento Development Solutions',
+  desc :'Magento can power your online store by offering scalability, seamless integrations and latest features that will definitely drive success in the online marketplace.',
+  img : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744119273/feature-of-bigcommerce_o9w9co.png'
+}
+
+export const MagentoFeatures = [
+  {
+    icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744459101/Mask_group_20_b7oaep.png',
+    title: 'Mobile-Responsive Design',
+    desc: 'All Shopify themes are completely responsive that ensure your store looks and works seamlessly on smartphones, tablets and desktops.'
+  },
+  {
+    icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744459100/Mask_group_23_dxytvc.png',
+    title: 'Secure Checkout',
+    desc: 'Shopify comes with SSL certification and PCI compliance as it provides a safe and trusted environment for customers to make secure online payments.'
+  },
+  {
+    icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744459101/Mask_group_21_pgiqkb.png',
+    title: 'Customizable Themes',
+    desc: 'Select from a vast library of professionally designed themes and powerful apps to tailor your store’s functionality and design suited with your brand.'
+  },
+  {
+    icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744459101/Mask_group_22_a0lxvp.png',
+    title: 'Built-In SEO Tools',
+    desc: 'Shopify has built in SEO features, email marketing integrations, social media selling, and discount code creation to assist you in attracting customers.'
+  }
+];
