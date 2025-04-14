@@ -47,9 +47,9 @@
   }
   
   .b2b-sectionKcom {
-    font-family: "Wix Madefor Display", sans-serif;
+    /* font-family: "Wix Madefor Display", sans-serif; */
     text-align: center;
-    padding: 43px;
+    padding: 43px 0px 0px;
   }
   
   .hrKcomKu{
@@ -270,7 +270,10 @@
   
   @media (max-width: 768px) {
     .projectsSectionKcom{
-      padding: 10px;
+      padding: 40px 30px;
+    }
+    .b2b-sectionKcom {
+      padding: 0px;
     }
     .textKcom p{
       text-align: center;

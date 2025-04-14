@@ -4,7 +4,7 @@
 }
 
 .big-feature-inner-container {
-    padding: 30px 60px;
+    padding: 40px 60px;
     display: flex;
     flex-wrap: wrap;
     gap:25px;
@@ -50,7 +50,7 @@
 
 .big-feature-card-title {
     font-size: 1.3rem;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .big-feature-card-desc {
@@ -60,22 +60,31 @@
 .right-big-feature-container > img {
     object-position: center;
     border-radius: 10px;
+    width:100%;
 }
 
 @media screen and (max-width: 810px) {
     .big-feature-inner-container {
-        padding: 30px;
+        padding:40px 30px;
         flex-direction: column;
+        gap:40px;
     }
     .left-big-feature-grid-item > img {
         display: block;
         margin: auto;
+    }
+    .big-feature-para {
+        text-align:center;
     }
     .bigcommerce-feature-heading {
         text-align: center;
     }
     .big-feature-card-title{
         text-align: center;
+    }
+
+    .big-feature-card-desc {
+        text-align:center;
     }
 }
 

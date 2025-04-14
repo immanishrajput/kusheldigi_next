@@ -93,6 +93,7 @@ function Home2Testimonial() {
             arrows: false,
             breakpoints: {
               600: {
+                speed: 800,
                 perPage: 1,
                 gap: "20px",
               },
@@ -141,8 +142,6 @@ function Home2Testimonial() {
             </div>
             </div>
           </SplideSlide>
-
-          {/* =========== COPY ========== */}
 
           <SplideSlide>
             <div className='testswipsingle'>
