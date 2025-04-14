@@ -26,7 +26,7 @@ import ServicesSection from "../bigcommerce-development/ServiceSection/ServiceSe
 import FeatureSection from "../bigcommerce-development/FeaturesSection/FeatureSection";
 import BigBanner6 from "../bigcommerce-development/BigBanner6/page";
 import Banner8 from '../ecommerce-development/Banner8/page'
-import { BigCommerceFeatures, BigCommerceFeaturesContent, BigCommerceServices, BigCommerceServicesHeading, whyBigCommereByKDS, whyBigCommereByKDSHeading ,weExpertInMagento} from "../data/data";
+import { BigCommerceFeatures, BigCommerceFeaturesContent, BigCommerceServices, BigCommerceServicesHeading, whyBigCommereByKDS, whyBigCommereByKDSHeading ,weExpertInMagento ,MagentoFeatures,MagentoFeaturesContent} from "../data/data";
 import MagentoBanner from "./MagentoBanner/MagentoBanner";
 import WhyMagento from "./WhyMagento/WhyMagento";
 import TechWeUse from "./TechWeUse/TechWeUse";
@@ -106,15 +106,15 @@ const Magento = () => {
         <ChooseMagento/>
 
         {/* <CallAction/> */}
-        <BigBanner4 page='Our Magento Experts are Ready to Launch your Dream Store today!'/>
+        <BigBanner4 img='https://res.cloudinary.com/dd9tagtiw/image/upload/v1744608968/5bb631c4aa74a3ebe4df40ac8c33ef75_qfp4u1.jpg' page='Our Magento Experts are Ready to Launch your Dream Store today!'/>
         <UpgradeServices/>
         <WhyChooseMagento/>
-        <ShopifyProcess/>
+        <ShopifyProcess page='MAGENTO'/>
         <TechWeUse/>
         <Banner8/>
         <BigBanner6 services={whyBigCommereByKDS} contents={whyBigCommereByKDSHeading}/>
         <ServicesSection services={BigCommerceServices} contents={BigCommerceServicesHeading}/>
-        <FeatureSection services={BigCommerceFeatures} contents={BigCommerceFeaturesContent}/>
+        <FeatureSection services={MagentoFeatures} contents={MagentoFeaturesContent}/>
         <BlogSection/>
        
         {/* <div className="magentooo1">

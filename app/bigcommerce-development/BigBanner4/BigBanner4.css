@@ -22,6 +22,10 @@
     /* flex-wrap: wrap; */
     width: 100%;
   }
+
+  .ccon--2-div > div > img {
+    border-radius: 50%;
+  }
   
   .audit-img {
     width: 200px !important;

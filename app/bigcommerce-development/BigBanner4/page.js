@@ -3,7 +3,7 @@ import React from 'react'
 import './BigBanner4.css'
 import { FaArrowRight } from 'react-icons/fa'
 import Link from 'next/link'
-const Flex = ({page}) => {
+const Flex = ({page,img}) => {
   return (
     <>
 
@@ -11,7 +11,7 @@ const Flex = ({page}) => {
   <div className="coon--2">
     <div className="ccon--2-div">
       <div>
-        <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743157130/bigcommerce-logo-icon_um7a4x.png" alt="" className="audit-img" />
+        <img src={img} alt="" className="audit-img" />
       </div>
       <div className="con--2-div-contentt">
 
