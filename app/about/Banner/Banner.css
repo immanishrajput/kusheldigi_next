@@ -24,7 +24,9 @@ color: #0c61ff;
         line-height: 30px;
         padding: 10px 0px 20px 0px;
     }
-  
+    .Kushaboupara p {
+      color: black;
+    }
     .Kushabouparbtn button{
 padding: 10px 20px;
 gap: 10px;

@@ -380,24 +380,24 @@ const portfolioData = [
     },
     category: ["software"],
   },
-  {
-    id: 'automotive-26',
-    // companyName: 'Usha Fasteners',
-    logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
-    description: [
-        "UX/UI Website Design","Website Development","QA & Website Testing"
-],
-    links: {
-      caseStudy: '#',
-      platform: '/bigcommerce-development',
-    },
-    category: ["software"],
-  },
+//   {
+//     id: 'automotive-26',
+//     // companyName: 'Usha Fasteners',
+//     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
+//     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+//     description: [
+//         "UX/UI Website Design","Website Development","QA & Website Testing"
+// ],
+//     links: {
+//       caseStudy: '#',
+//       platform: '/bigcommerce-development',
+//     },
+//     category: ["software"],
+//   },
   {
     id: 'automotive-27',
     // companyName: 'Saina',
-    logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
+    // logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
@@ -412,7 +412,7 @@ const portfolioData = [
   {
     id: 'automotive-28',
     companyName: 'Circuit Route Planner',
-    logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
+    // logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
@@ -427,7 +427,7 @@ const portfolioData = [
   {
     id: 'automotive-29',
     // companyName: 'Apeejay Business Center',
-    logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
+    // logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
@@ -442,7 +442,7 @@ const portfolioData = [
   {
     id: 'automotive-30',
     // companyName: 'Fit Cloud Pro',
-    logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
+    // logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
@@ -457,7 +457,7 @@ const portfolioData = [
   {
     id: 'automotive-31',
     // companyName: 'EAR SHOT',
-    logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
+    // logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
@@ -472,7 +472,7 @@ const portfolioData = [
   {
     id: 'automotive-32',
     // companyName: 'VR OTT',
-     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
+    //  logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
@@ -487,13 +487,12 @@ const portfolioData = [
   {
     id: 'automotive-33',
     
-    logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
+    // logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
     links: {
-      liveStore: 'https://www.phastekperformance.com/',
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
@@ -533,11 +532,11 @@ const Portfolio = () => {
         {filteredCaseStudies.map((item, index) => (
           <div className="client each-portfolio-cards automotive" id={item?.id} key={index}>
             <div className="each-portfolio">
-              <img alt={`${item?.companyName} Logo`} src={item?.logo} className="top-company-logos" />
+              <img src={item?.logo} className="top-company-logos" />
               <img alt="Platform Logo" src={item?.platformLogo} className="bottom-platform-logo" />
               <div className="card-overlayMain">
                 <div className="overlay-content">
-                  <img alt={`${item?.companyName} Logo`} src={item?.logo} />
+                  <img src={item?.logo} />
                   <h3>{item?.companyName}</h3>
                   {item.description?.map((content,i)=>{
                     return <div key={i} className='contentPointmain'>
