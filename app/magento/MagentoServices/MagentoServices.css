@@ -141,6 +141,10 @@ body, html, .ShopifyServices__section {
   @media screen and (max-width: 768px) {
     .ShopifyServices__heading {
       text-align: center;
+      margin: 0px;
+    }
+    .ShopifyServices__subheading {
+      text-align: center;
     }
   }
   

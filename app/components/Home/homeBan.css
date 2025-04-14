@@ -1104,7 +1104,7 @@ padding-left: 50px !important;
 
   .us-number,
   .country {
-    text-align: left;
+    text-align: left !important;
   }
 
   .left-contact-heading {

@@ -73498,6 +73498,7 @@ input::-webkit-inner-spin-button {
 
     .faqr-item.expanded .faqr-answer {
         line-height: 22px;
+        text-align: left;
     }
 }
 
