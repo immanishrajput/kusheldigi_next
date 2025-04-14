@@ -13712,7 +13712,7 @@ body {
 
 .case1fifirco p {
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0.005em;
@@ -13750,7 +13750,7 @@ body {
 
 .singleca1bt .sli1left p {
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 18px !important;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0.005em;
@@ -13760,7 +13760,7 @@ body {
 
 .singleca1bt .sli1left h3 {
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 18px !important;
     font-weight: 600;
     line-height: 26px;
     letter-spacing: 0.005em;
@@ -13810,7 +13810,7 @@ body {
     font-family: Poppins;
     font-size: 26px;
     font-weight: 600;
-    line-height: 36px;
+    line-height: 42px !important;
     letter-spacing: -0.01em;
     text-align: left;
     color: #33475B;
@@ -13923,7 +13923,7 @@ body {
     font-weight: 600;
     line-height: 40px;
     text-align: left;
-    max-width: 500px;
+    max-width: 536px !important;
     color: #002421;
 }
 
@@ -13965,10 +13965,10 @@ body {
 }
 
 .c2fibbotrigh {
-    padding: 60px 20px;
+    padding: 60px 35px !important;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 35px !important;
     justify-content: space-between;
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
@@ -14086,7 +14086,7 @@ body {
     padding: 0px 20px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 38px !important;
     margin: 0 auto;
     z-index: 10;
 }
@@ -14094,7 +14094,7 @@ body {
 .cssixtop {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 0px;
 }
 
 .cssixtop h4 {
@@ -14210,8 +14210,8 @@ body {
 }
 
 .shadowbg2 {
-    height: 90%;
-    min-width: 120%;
+    height:auto;
+    min-width: 140%;
     transform: translateX(50px);
 }
 
@@ -14221,7 +14221,7 @@ body {
     transform: translateX(50px);
 }
 
-.addheightimage {
+ .addheightimage {
     height: 100% !important;
 }
 
@@ -14628,7 +14628,7 @@ body {
     .case1firsec {
         position: relative;
         width: 100vw;
-        height: 580px;
+        height: 610px !important;
     }
 
     .sc2sev_head h2 {
@@ -14809,7 +14809,7 @@ body {
 
 .case1fifirco p {
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0.005em;
@@ -15264,7 +15264,7 @@ body {
     height: 700px;
 }
 
-.c1btimage {
+ .c1btimage {
     width: 100%;
     height: 700px !important;
 }
