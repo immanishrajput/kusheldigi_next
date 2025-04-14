@@ -40,10 +40,10 @@ const Website = () => {
   };
 
   const [formData, setFormData] = useState({
-    firstName: '',
-    phone: '',
-    email: '',
-    message: ''
+    name2: '',
+    phone2: '',
+    email2: '',
+    message2: ''
   });
   const [loading, setLoading] = useState(false);
 
@@ -58,10 +58,10 @@ const Website = () => {
   const handleForm = async (e) => {
     e.preventDefault();
     if (
-      formData.firstName.trim() === '' ||
-      formData.phone.trim() === '' ||
-      formData.email.trim() === '' ||
-      formData.message.trim() === '91'
+      formData.name2.trim() === '' ||
+      formData.phone2.trim() === '' ||
+      formData.email2.trim() === '' ||
+      formData.message2.trim() === '91'
     ) {
       alert("Please fill all the fields!!");
       return;
@@ -79,7 +79,7 @@ const Website = () => {
     }
     setLoading(true);
     try {
-      const response = await fetch("https://backend.kusheldigi.com/contact", {
+      const response = await fetch("https://backend.kusheldigi.com/contact2", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -102,10 +102,10 @@ const Website = () => {
     } finally {
       setLoading(false);
       setFormData({
-        firstName: '',
-        phone: '',
-        email: '',
-        message: ''
+        name2: '',
+        phone2: '',
+        email2: '',
+        message2: ''
       })
     }
   }
@@ -251,7 +251,7 @@ const Website = () => {
                 </div> */}
 
                 <div>
-                  <label htmlFor="firstName" className="contact-label">
+                  <label htmlFor="name2" className="contact-label">
                     Name
                   </label>
                   <br />
@@ -259,10 +259,10 @@ const Website = () => {
                     className="contact-input down-contact-name-input"
                     type="text"
                     placeholder="Your Name"
-                    name="firstName"
-                    id="firstName"
+                    name="name2"
+                    id="name2"
                     required
-                    value={formData?.firstName}
+                    value={formData?.name2}
                     onChange={(e) => {
                       const value = e.target.value;
                       if (/^[A-Za-z ]*$/.test(value)) {
@@ -290,22 +290,23 @@ const Website = () => {
                   />
                 </div> */}
                 <div id="homePhoneDiv">
-                  <label htmlFor="phone" className="contact-label">
+                  <label htmlFor="phone2" className="contact-label">
                     Phone Number
                   </label>
                   <PhoneInput
                     className="contact-input"
                     country={'in'}
                     placeholder="Phone Number"
-                    name="phone"
-                    id="phone"
+                    name="phone2"
+                    id="phone2"
                     maxLength="10"
-                    value={formData?.phone}
+                    value={formData?.phone2}
 
-                    onChange={(phone) => {
-                      if (/^(?:\+?[0-9]{0,15})$/.test(phone)) {
-                        setFormData((prev) => ({ ...prev, phone: phone }));
-                      }
+                    onChange={(phone2) => {
+                      if (/^(?:\+?[0-9]{0,15})$/.test(phone2)) {
+                        setFormData((prev) => ({ ...prev, phone2:phone2 }));
+                      };
+                      // console.log('phone2',phone2)
                     }}
                     inputProps={{
                       required: true,
@@ -338,33 +339,33 @@ const Website = () => {
 
               </div>
               <div className="contact-div">
-                <label htmlFor="email" className="contact-label">
+                <label htmlFor="email2" className="contact-label">
                   Business Email
                 </label>{" "}
                 <br />
                 <input
                   className="contact-input contact-emailInput"
                   type="email"
-                  name="email"
-                  id="email"
+                  name="email2"
+                  id="email2"
                   placeholder="Email"
-                  value={formData?.email}
+                  value={formData?.email2}
                   onChange={handleFormChange}
                   required
                 />
               </div>
               <div className="contact-div">
-                <label htmlFor="message" className="contact-label">
+                <label htmlFor="message2" className="contact-label">
                   Project Description
                 </label>{" "}
                 <br />
                 <textarea
                   className="contact-textArea"
-                  name="message"
-                  id="message"
+                  name="message2"
+                  id="message2"
                   placeholder="How Can We Help You?"
                   required
-                  value={formData?.message}
+                  value={formData?.message2}
                   onChange={handleFormChange}
                 ></textarea>
               </div>

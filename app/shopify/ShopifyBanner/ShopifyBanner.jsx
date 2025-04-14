@@ -29,7 +29,7 @@ const ShopifyBanner = () => {
                     {/* <img className='new-shopify-review-img' loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744009168/reviews-google_bq5kbl.png" alt="reviews" /> */}
                 </div>
                 <div className="shopify-new-banner-right">
-                    <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744008381/shopify-banner_r2yygh.png" loading='lazy' alt="shopify-banner" />
+                    <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744637848/Shopify_Banner_Design_c0viof.png" loading='lazy' alt="shopify-banner" />
                 </div>
         </div>
     </div>

@@ -102,7 +102,7 @@ export default function Banner9({page}) {
         </div>
         <div className="right-b2b-cardKcom">
           <div className="b2b-logoKcom">
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744463967/ballisticdummylab_oeo59i.png" alt="Shopify Plus" />
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744637847/Shopify-Portfolio_dzyhzc.jpg" alt="Shopify Plus" />
             <a href="https://ballisticdummylab.com/?currency=USD" id="human" className="hover-linkCom">View Case Study <MdArrowOutward /></a>
           </div>
           
@@ -114,12 +114,12 @@ export default function Banner9({page}) {
         </div>
         <div className="right-b2b-cardKcom ">
           <div className="b2b-logoKcom">
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743402463/lovely-6-page-3_kaxts8.jpg" alt="Shopify Plus" />
-            <a href="/kick-eez" id="human" className="hover-linkCom">View Case Study <MdArrowOutward /></a>
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744637847/Shopify-Portfilo_xzdoih.jpg" alt="Shopify Plus" />
+            <a href="https://flowershut.com/" id="human" className="hover-linkCom">View Case Study <MdArrowOutward /></a>
           </div>
          
-          <a href="/kick-eez" className="b2b-btnKcom">
-          Kick-eez
+          <a href="https://flowershut.com/" className="b2b-btnKcom">
+          Flowers Hut
             <p>{page}</p>
           </a>
           <hr/>
