@@ -103,7 +103,7 @@ const Magento = () => {
         {/* <CallAction/> */}
         <BigBanner4 img='https://res.cloudinary.com/dd9tagtiw/image/upload/v1744608968/5bb631c4aa74a3ebe4df40ac8c33ef75_qfp4u1.jpg' page='Our Magento Experts are Ready to Launch your Dream Store today!'/>
         <UpgradeServices/>
-        <WhyChooseMagento/>
+        {/* <WhyChooseMagento/> */}
         <ShopifyProcess page='MAGENTO'/>
         <TechWeUse/>
         <Banner8/>
