@@ -31,15 +31,15 @@ const TechWeUse = () => {
     const technologies = [
         {
             category: "Frontend Technologies",
-            items: ["HTML5", "CSS3", "JavaScript", "React.js", "Vue.js", "Bootstrap", "Tailwind CSS"]
+            items: ["HTML5", "CSS3", "JavaScript"]
         },
         {
             category: "Backend Technologies",
-            items: ["PHP", "Magento Framework", "Zend Framework", "Symfony", "Node.js"]
+            items: ["PHP 8.x", "Magento Framework"]
         },
         {
             category: "Database Management",
-            items: ["MySQL", "PostgreSQL", "MongoDB", "Redis", "Elasticsearch"]
+            items: ["MySQL", "MariaDB"]
         },
         {
             category: "Cloud & Hosting Solutions",
