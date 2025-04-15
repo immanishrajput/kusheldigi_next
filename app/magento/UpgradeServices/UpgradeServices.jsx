@@ -32,7 +32,7 @@ const UpgradeServices = () => {
 
     const magentoContent = [
         {
-          img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744110234/upgrade_1-D2TlQ-e2_kzmmna.svg',
+          img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744724513/Group_5_2_tgbqrh.png',
           title: "Magento 1 to Magento 2 Upgrade",
           points: [
             "Improved Website Speed & Performance for smoother browsing and easy checkout.",
@@ -43,7 +43,7 @@ const UpgradeServices = () => {
           ]
         },
         {
-          img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744110232/upgrade_2-tmyZRcn0_cwg5ko.svg',
+          img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744724448/Group_6_rfdymj.png',
           title: "Magento 2 Upgrade",
           points: [
             "Bug Fixes & Security Patches to keep your store updated with latest Magento security updates.",

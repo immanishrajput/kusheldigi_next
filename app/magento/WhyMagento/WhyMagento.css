@@ -27,6 +27,12 @@
     cursor: pointer;
 }
 
+.why-magento-grid-item > img {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 10px;
+}
+
 .why-magento-grid-item:hover {
     border: 1px solid blue;
     background: #1668ff14;
