@@ -18,16 +18,18 @@ const DevPartnerSection = () => {
 
     <div className="dev-partner-container">
         <h3 className="dev-partner-heading">
-          Looking for your premier development partner?
+        Looking for an Expert eCommerce Partner?
+
+
         </h3>
       
        <p className="dev-partner-subtext">
-          Let us empower your business, improve your efficiency, and give you the competitive advantage!
+       Kushel Digi Solutions is here for you to deliver your dream project and that's too with an affordable cost.
         </p>
         </div>
         <div className="dev-partner">
         <button className="dev-partner-button" onClick={scrollToForm}>
-          Jumpstart My Project <FaLongArrowAltRight/>     
+         Book A Call <FaLongArrowAltRight/>     
         </button>
      
       </div>
