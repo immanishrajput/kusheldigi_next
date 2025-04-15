@@ -1,0 +1,31 @@
+.changingTileWrap .tileFloat {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    transform: translateX(-50%);
+    margin: 0;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex
+;
+    flex-wrap: wrap;
+}
+.tile-box {
+    flex: 0 0 auto;
+    height: 100% !important;
+    border-right: 1px solid rgba(255, 255, 255, .5);
+    position: relative;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: flex-end !important;
+    padding: 25px;
+    background: linear-gradient(180deg, rgba(12, 20, 49, 0) 0%, #0c1431 100%);
+    transition: all 0 ease 0.3s;
+}
+.tile-box:hover {
+    background: linear-gradient(180deg, rgba(0, 0, 0, .32), rgba(0, 0, 0, .64));
+}

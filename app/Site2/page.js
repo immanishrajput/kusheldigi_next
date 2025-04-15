@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { TiTick } from "react-icons/ti";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
-import './sites.css'
+import '../sites/sites.css'
 
 import '../globals.css'
 import Navbar from "../COMMON/Navbar";
@@ -171,7 +171,7 @@ function page() {
               </div>
 
               <p className="ca1firrigh">
-              Sites and Scopes has specialized experience in delivering high performance optics and accessories for marksmen, hunters, and tactical professionals. All their aim is on delivering a precision-engineered product for utmost reliability and clearness in any environment.
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
               </p>
             </div>
 
@@ -206,7 +206,7 @@ function page() {
             <h1>Client Background</h1>
 
             <p>
-            Sites and Scopes has specialized experience in delivering high performance optics and accessories for marksmen, hunters, and tactical professionals. All their aim is on delivering a precision-engineered product for utmost reliability and clearness in any environment.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
 
             </p>
           </div>
