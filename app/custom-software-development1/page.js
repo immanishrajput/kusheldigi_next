@@ -8,7 +8,7 @@ import CustomSoftwareBanner from "./CustomSoftwareBanner/CustomSoftwareBanner";
 import SecondCustomSection from "./SecondCustomSection/SecondCustomSection";
 import CustomSoftwareSolutions from "./CustomSoftwareSolutions/CustomSoftwareSolutions";
 import { CutsomSoftwareServicesLeft, CutsomSoftwareServicesRight } from "../data/data";
-import MagentoServices from "../magento/MagentoServices/MagentoServices"
+import MagentoServices from "../magento1/MagentoServices/MagentoServices"
 import BenefitsOfWorkingKDS from "./BenefitsOfWorkingWKDS/BenefitsOfWorkingKDS";
 import ProcessCustom from "./ProcessCustomSoftware/ProcessCustom";
 import HomeForm from "../components/Home/HomeForm"
