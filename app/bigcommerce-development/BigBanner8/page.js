@@ -173,10 +173,11 @@ const Result1 = ({weExpert}) => {
               transition: "color 0.3s ease-in-out",
             }}
           >
-            As a certified BigCommerce partner, Kushel Digi Solutions has a
+            {/* As a certified BigCommerce partner, Kushel Digi Solutions has a
             successful proven track record in offering modern BigCommerce
             solutions to grow your business. Our experts work to make sure that
-            your online store is not just functional but optimized for success.
+            your online store is not just functional but optimized for success. */}
+            {weExpert?.para}
           </p>
         </div>
         <div className="maSecImgaec">

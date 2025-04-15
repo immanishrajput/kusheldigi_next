@@ -73967,7 +73967,7 @@ input::-webkit-inner-spin-button {
 
 .cardBlogStImg:hover img,
 .cardBlogStpaara:hover~.cardBlogStImg img {
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
 
 .cardBlogStpaara1 {
@@ -73977,7 +73977,7 @@ input::-webkit-inner-spin-button {
 }
 
 .cardBlogStpaara:hover~.cardBlogStImg img {
-    transform: scale(1.1) !important;
+    transform: scale(1.03) !important;
 }
 
 .cardBlogStpaara {
@@ -74334,7 +74334,7 @@ input::-webkit-inner-spin-button {
 }
 
 .event-card:hover .event-image img {
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
 
 .event-title {
@@ -74519,7 +74519,7 @@ input::-webkit-inner-spin-button {
 }
 
 .blogSixMaiDivBlS:hover .blogSixMaiDivBImgS img {
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
 
 .blogSixMaiDivparaa {

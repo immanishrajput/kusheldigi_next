@@ -293,7 +293,7 @@ const ContactUs = () => {
                             </div>
 
                             <div className="desp">
-                                <h4>20+ Years of Experience</h4>
+                                <h4>8+ Years of Experience</h4>
                                 <p>Delivering smart, scalable solutions for complex business challenges.</p>
                             </div>
                         </div>
@@ -303,7 +303,7 @@ const ContactUs = () => {
                             </div>
 
                             <div className="desp">
-                                <h4>2500+ Clients Served</h4>
+                                <h4>1000+ Clients Served</h4>
                                 <p>From budding startups to Fortune 500 companies – we’ve done it all.</p>
                             </div>
                         </div>
@@ -313,7 +313,7 @@ const ContactUs = () => {
                             </div>
 
                             <div className="desp">
-                                <h4>675+ Experts Onboard</h4>
+                                <h4>250+ Experts onboard</h4>
                                 <p>A powerhouse team focused to deliver digital excellence and business growth.  </p>
                             </div>
                         </div>
