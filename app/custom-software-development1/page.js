@@ -7,6 +7,11 @@ import '../globals.css'
 import CustomSoftwareBanner from "./CustomSoftwareBanner/CustomSoftwareBanner";
 import SecondCustomSection from "./SecondCustomSection/SecondCustomSection";
 import CustomSoftwareSolutions from "./CustomSoftwareSolutions/CustomSoftwareSolutions";
+import { CutsomSoftwareServicesLeft, CutsomSoftwareServicesRight } from "../data/data";
+import MagentoServices from "../magento/MagentoServices/MagentoServices"
+import BenefitsOfWorkingKDS from "./BenefitsOfWorkingWKDS/BenefitsOfWorkingKDS";
+import ProcessCustom from "./ProcessCustomSoftware/ProcessCustom";
+import HomeForm from "../components/Home/HomeForm"
 
 const customBenefitData = [
   {
@@ -1511,7 +1516,16 @@ Count on our dedicated support team for prompt assistance, ensuring smooth opera
     <CustomSoftwareBanner/>
     <SecondCustomSection/>
     <CustomSoftwareSolutions/>
+    <MagentoServices leftContent={CutsomSoftwareServicesLeft} services={CutsomSoftwareServicesRight}/>
+    <BenefitsOfWorkingKDS/>
+    <ProcessCustom/>
 
+
+
+
+
+
+    <HomeForm/>
 
     <div className="whtsApBtns">
           <button onClick={whatAppHandler}>

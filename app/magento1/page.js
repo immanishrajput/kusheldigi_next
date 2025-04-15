@@ -26,7 +26,7 @@ import ServicesSection from "../bigcommerce-development/ServiceSection/ServiceSe
 import FeatureSection from "../bigcommerce-development/FeaturesSection/FeatureSection";
 import BigBanner6 from "../bigcommerce-development/BigBanner6/page";
 import Banner8 from '../ecommerce-development/Banner8/page'
-import { BigCommerceFeatures, BigCommerceFeaturesContent, BigCommerceServices, BigCommerceServicesHeading, whyBigCommereByKDS, whyBigCommereByKDSHeading ,weExpertInMagento ,MagentoFeatures,MagentoFeaturesContent} from "../data/data";
+import { BigCommerceFeatures, BigCommerceFeaturesContent, BigCommerceServices, BigCommerceServicesHeading, whyBigCommereByKDS, whyBigCommereByKDSHeading ,weExpertInMagento ,MagentoFeatures,MagentoFeaturesContent,MagentoServicesLeft,MagentoServicesRight} from "../data/data";
 import MagentoBanner from "./MagentoBanner/MagentoBanner";
 import WhyMagento from "./WhyMagento/WhyMagento";
 import TechWeUse from "./TechWeUse/TechWeUse";
@@ -96,7 +96,7 @@ const Magento = () => {
         <MagentoBanner/>
         <BigBanner8 weExpert={weExpertInMagento}/>
         <WhyMagento/>
-        <MagentoServices/>
+        <MagentoServices leftContent={MagentoServicesLeft} services={MagentoServicesRight}/>
         <MagentoPortfolio page='Magento'/>
         <ChooseMagento/>
 
