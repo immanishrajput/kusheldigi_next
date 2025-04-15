@@ -313,7 +313,7 @@ const ContactUs = () => {
                             </div>
 
                             <div className="desp">
-                                <h4>250+ Experts onboard</h4>
+                                <h4>250+ Experts Onboard</h4>
                                 <p>A powerhouse team focused to deliver digital excellence and business growth.  </p>
                             </div>
                         </div>
@@ -346,4 +346,3 @@ const ContactUs = () => {
 };
 
 export default ContactUs;
-

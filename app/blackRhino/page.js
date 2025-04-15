@@ -275,7 +275,7 @@ function page() {
                 <img
                   src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744636080/Group_1171281286_1_b2cgzf.png"
                   alt="kushel"
-                  className="shadowbg2"
+                  className="shadowbg2" id="caBlack_PortCircle"
                 />
               </div>
 
@@ -501,4 +501,4 @@ function page() {
   );
 }
 
-export default page
+export default page;

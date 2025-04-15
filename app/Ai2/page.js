@@ -4,12 +4,12 @@ import { useEffect, useState } from "react";
 import { TiTick } from "react-icons/ti";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
-import './sites.css'
+import '../Ai/Ai.css'
 
 import '../globals.css'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
-function page() {
+function Ai() {
     
   const d1 = [
     {
@@ -32,11 +32,11 @@ function page() {
       data: {
         img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216631/c2d1_j5clbp.png",
         title: "Discovery Phase",
-        para: "This phase is the foundation of a successful project. We focus on having a deep understanding about your business, target audience and goals to ensure that our solutions align with your business goal.",
+        para: "Realizing the importance of a firm workflow foundation firsthand, we dedicate a separate chunk of work to researching, studying, and understanding your business's core needs and vision for a desired product or service.",
         points: [
-          "In-depth Market Research",
-          "Requirement Analysis",
-          "Strategic Planning for effective execution ",
+          "Analyzing niches, competitors, & requirements",
+          "Strategizing time and cost-efficient workflows",
+          "Aiming for individually optimized results",
         ],
       },
     },
@@ -126,7 +126,7 @@ function page() {
   };
 
   const generateMetadata = ({ params }) => ({
-           title: 'Kusheldigi.com/Sites',
+           title: 'Kusheldigi.com/Ai',
            description:"Web Development Company | Kushel Digi Solutions"
          });
          
@@ -144,14 +144,14 @@ function page() {
 
         <Navbar/>
       {/* first sectino */}
-      <section className="case1firsec">
+      <section className="case1firsec" id="AiPortfolioImage">
         <img
           src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216400/case1fil_bwtual.png"
           alt="kushel"
           className="case1fill"
         />
         <img
-          src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744695577/pistol-sights_2_f2ydiu.png"
+          src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622906/Group_1171279216_j6teud.png"
           alt="kushel"
           className="case1bg"
         />
@@ -163,15 +163,15 @@ function page() {
               <div className="ca1firleft">
                 <div>
                   <img
-                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744699185/Group_1171279222_byjflc.png"
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622906/Group_1171279213_ahxsmd.png"
                     alt="kushel"
                   />
                 </div>
-                <p>Sites and Scopes</p>
+                <p>A&I Parts Center</p>
               </div>
 
               <p className="ca1firrigh">
-              Sites and Scopes has specialized experience in delivering high performance optics and accessories for marksmen, hunters, and tactical professionals. All their aim is on delivering a precision-engineered product for utmost reliability and clearness in any environment.
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
               </p>
             </div>
 
@@ -194,7 +194,7 @@ function page() {
       </section>
 
       {/* secon section  */}
-      <section className="case2secsec2" id="case2SiteScope">
+      <section className="case2secsec2" id="case2_Background_Port">
         <div className="case2seccont">
           <img
             src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216503/case2imgs1_xngbpg.png"
@@ -206,14 +206,14 @@ function page() {
             <h1>Client Background</h1>
 
             <p>
-            Sites and Scopes has specialized experience in delivering high performance optics and accessories for marksmen, hunters, and tactical professionals. All their aim is on delivering a precision-engineered product for utmost reliability and clearness in any environment.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
 
             </p>
           </div>
         </div>
 
         <img
-          src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744696116/Ellipse_2616_2_a0lkd1.png"
+          src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744626323/Ellipse_2616_b05zg1.png"
           alt="kushel"
           className="c2el1"
         />
@@ -224,13 +224,13 @@ function page() {
         <div className="sc3sectcont">
           {/* left side */}
           <div className="s3secltleft">
-            <div className="c3s3_head2" id="c3_SitesScope"> 
+            <div className="c3s3_head2" id="AiUnique_solution">
               <h3>Solution</h3>
               <p></p>
             </div>
 
             <p className="s3theeparas">
-            Sites & Scope  was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help, they wanted to implement a more user-friendly ecommerce platform, refine search engine optimization (SEO), develop content to support that optimization, and launch an intelligent digital advertising campaign to maximize return on ad spend (ROAS). 
+            A&I Parts Center was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help, they wanted to implement a more user-friendly ecommerce platform, refine search engine optimization (SEO), develop content to support that optimization, and launch an intelligent digital advertising campaign to maximize return on ad spend (ROAS). 
 
 
             </p>
@@ -243,7 +243,7 @@ function page() {
           </div>
 
           <img
-            src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744699366/Group_1171281292_wjrtby.png"
+            src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744631255/Group_1171281276_psr4aw.png"
             alt="kushel"
             className="c3antoimg"
           />
@@ -267,20 +267,21 @@ function page() {
           <section className="case3secfour2">
             <img
               className="case4bggirl"
-              src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744697099/Superior_Optics_Unbeatable_Performance._posiad.png"
+              src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png"
               alt="kushel"
             />
-            <div className="cas3s4con" id="case3_Black_PortCircle">
+            <div className="cas3s4con">
               <div className="bgshowdb2">
                 <img
-                  src=" https://res.cloudinary.com/dd9tagtiw/image/upload/v1744699370/Group_1171281294_vdobgy.png"
+                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632483/Group_1171281280_ukeiu6.png"
                   alt="kushel"
-                  className="shadowbg2" id="caBlack_PortCircle"
+                  className="shadowbg2"
                 />
               </div>
 
-              <div className="cas3circldata2" id="sites_port_circle">
-                <h4>Custom Catalog Page</h4>
+              <div className="cas3circldata2" id="case3Portfolio_Aii">
+                <h4>Compare Functionality
+              </h4>
                 <p>
                 2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help.
 
@@ -294,23 +295,23 @@ function page() {
           <section className="case3secfour2">
             <img
               className="case4bggirl"
-              src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744697099/Superior_Optics_Unbeatable_Performance._posiad.png"
+              src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png"
               alt="kushel"
             />
 
             <div className="cas3s4con">
               <div className="bgshowdb2">
                 <img
-                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744699365/Group_1171281295_ia7uff.png"
+                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632482/Group_1171281283_kpau8o.png"
                   alt="kushel"
                   className="shadowbg2"
                 />
               </div>
 
-              <div className="cas3circldata2" id="sites_port_circle">
-                <h4>Product Detail Page</h4>
+              <div className="cas3circldata2" id="case3Portfolio_Aii">
+                <h4>Smart Filters </h4>
                 <p>
-                2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 
 
                 </p>
               </div>
@@ -320,24 +321,24 @@ function page() {
 
         <SplideSlide>
           <section className="case3secfour2">
-          <img className="case4bggirl"
-           src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744697099/Superior_Optics_Unbeatable_Performance._posiad.png" alt="kushel" />
+          <img className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png" alt="kushel" />
 
-            <div className="cas3s4con">
-              <div className="bgshowdb2">
+            <div className="cas3s4con" id="imgPortfolio_Phone">
+             
+
+              <div className="cas3circldata2" id="case3Portfolio_Aii">
+                <h4>Mobile Responsive </h4>
+                <p>
+             
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                </p>
+              </div>
+              <div className="bgshowdb2" id="imgPortfolio_Ai_Phone">
                 <img
-                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744699364/Group_1171281296_oqb8jn.png"
+                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632484/Group_1171281284_dpqrse.png"
                   alt="kushel"
                   className="shadowbg2"
                 />
-              </div>
-
-              <div className="cas3circldata2" id="sites_port_circle">
-                <h4>Advance Filtering or Shorting Features</h4>
-                <p>
-                2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help.
-
-                </p>
               </div>
             </div>
           </section>
@@ -351,7 +352,7 @@ function page() {
           <div className="c2fivtopsec">
             <h4>How we build the E-Commerce development Process</h4>
             <p>
-            Kushel Digi committed to transform your tech solutions into impactful brands by ensuring unique customer experiences at every digital touchpoint through our  structured process.
+            We’ll turn your custom tech solutions into powerful brands by crafting unique customer experiences at every digital touchpoint with:
 
             </p>
           </div>
@@ -457,8 +458,8 @@ function page() {
 
         <div className="c2sixconta">
           <div className="cssixtop">
-            <h4>Got a new project idea? Let’s make it happen!            </h4>
-            <p>See how our specialized approach can drive your project forward with impactful results
+            <h4>Have a similar project in mind?      </h4>
+            <p>Discover how our expertise can benefit your project
             </p>
           </div>
 
@@ -502,4 +503,4 @@ function page() {
   );
 }
 
-export default page;
+export default Ai;
