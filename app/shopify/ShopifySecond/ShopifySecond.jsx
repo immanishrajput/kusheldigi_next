@@ -54,12 +54,12 @@ const Result1 = ({weExpert}) => {
           <p
             ref={descriptionRef}
             className="descriptionCon3 secondary-heading"  
-            style={{
-              color: `rgb(${Math.floor(0 + 128 * scrollRatio)}, ${Math.floor(
-                0 + 128 * scrollRatio
-              )}, ${Math.floor(0 + 128 * scrollRatio)})`,
-              transition: "color 0.3s ease-in-out",
-            }}
+            // style={{
+            //   color: `rgb(${Math.floor(0 + 128 * scrollRatio)}, ${Math.floor(
+            //     0 + 128 * scrollRatio
+            //   )}, ${Math.floor(0 + 128 * scrollRatio)})`,
+            //   transition: "color 0.3s ease-in-out",
+            // }}
           >
            Kushel Digi Solutions has over 8 years of experience with a team having expertise in Shopify Development Solutions. Our experts work to make sure that your online store is not just functional but also grows with the growth of your business.
           </p>

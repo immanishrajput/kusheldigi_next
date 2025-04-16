@@ -72,6 +72,7 @@
     border: 1px solid #0c61ff;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    font-weight: 500;
 }
 
 .bigcommerce-banner-btn:hover {
@@ -88,6 +89,7 @@
     border: 1px solid #0c61ff;
     color: #0c61ff;
     padding: 13px 20px;
+    font-weight: 500;
 }
 
 .big-transparent-btn:hover {
@@ -100,6 +102,12 @@
 .new-shopify-review-img {
     max-width: 60%;
     margin-top: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .shopify-new-banner-heading {
+        font-size: 2rem;
+    }
 }
 
 @media screen and (max-width: 900px) {

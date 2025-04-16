@@ -122,6 +122,12 @@
 
 }
 
+@media(max-width:1024px){
+    .clientsSection {
+        gap: 0px;
+    }
+}
+
 @media (max-width: 1024px) {
     .clientsSection {
         flex-direction: column;
@@ -136,6 +142,11 @@
     }
     .logoGrid {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .textContainer > h2,
+    .textContainer > p {
+        text-align: center;
     }
 }
 
@@ -156,6 +167,9 @@
     }
     .logoGrid {
         grid-template-columns: repeat(2, 1fr) !important;
+    }
+    .textContainer p {
+        text-align: center;
     }
 }
 

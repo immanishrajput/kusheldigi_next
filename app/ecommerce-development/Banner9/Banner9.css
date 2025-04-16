@@ -201,7 +201,7 @@ transform: translateY(-5px);
 /* ======== Responsive Adjustments ======== */
 @media (max-width: 1200px) {
   .projectsSectionKcom{
-    padding: 10px;
+    padding: 10px 10px 40px;
   }
   .b2b-contentKcom {
       flex-direction: column;

@@ -52,14 +52,14 @@ const TechWeUse = () => {
         },
         {
             category: "DevOps & Security",
-            items: ["Docker", "Kubernetes", "Jenkins", "GitHub Actions", "Cloudflare", "SSL/TLS Encryption"]
+            items: ["Docker", "Kubernetes", "Jenkins", "Cloudflare", "SSL/TLS Encryption"]
         }
     ];
 
     const settings = {
         dots: false,
         infinite: true,
-        speed: 500,
+        speed: 1000,
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
@@ -77,10 +77,10 @@ const TechWeUse = () => {
               }
             },
             {
-              breakpoint: 600,
+              breakpoint: 768,
               settings: {
                 slidesToShow: 2,
-                slidesToScroll: 2,
+                slidesToScroll: 1,
                 initialSlide: 1
               }
             },
