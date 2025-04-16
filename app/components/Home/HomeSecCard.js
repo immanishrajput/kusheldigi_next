@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-
+import Link from 'next/link'
 function Advance() {
   return (
     <section className="b2b-section">
@@ -15,8 +15,7 @@ function Advance() {
         <div className="left-b2b-cards">
           <div className="left-b2b-card">
             <div className="b2b-logo">
-              <img loading='lazy' width="599" height="299"
-                // src="https://res.cloudinary.com/dgif730br/image/upload/v1743490318/rajet_images_1_xgnc6s.png"
+              <img  width="599" height="299"
                 src='https://res.cloudinary.com/dgif730br/image/upload/v1743686387/asit-sir-4_xa7bco.jpg'
                 alt="Shopify Plus" />
             </div>
@@ -26,17 +25,15 @@ function Advance() {
                 Our experts at Kushel Digi have long years of experience in designing ecommerce solutions suited for wholesale, bulk ordering, and corporate transactions. We optimize B2B sales channels for higher efficiency.
               </p>
             </div>
-            <a href="#" className="b2b-btn">
-              Learn More <img loading='lazy'
-                src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/arow-1_szrxfl.png'
-                // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" 
+            {/* <div className="b2b-btn">
+              Learn More <img src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/arow-1_szrxfl.png'
                 alt="" />
-            </a>
+            </div> */}
           </div>
           <div className="left-b2b-card-2" id='leftb2ca'>
             <div className="b2b-logo">
-              <img loading='lazy' width="599" height="299"
-                // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806526/b13_cmmanq.webp" 
+              <img  width="599" height="299"
+               
                 src='https://res.cloudinary.com/dgif730br/image/upload/v1743686387/asit-sir-1_xchvkj.jpg'
                 alt="Shopify Plus" />
             </div>
@@ -46,12 +43,12 @@ function Advance() {
                 We have delivered various marketplace solutions that allow multiple sellers to showcase and sell their products on a single platform. We ensure smooth vendor management, secure transactions, and excellent shopping experience for customers.
               </p>
             </div>
-            <a href="#" className="b2b-btn">
-              Learn More <img loading='lazy'
+            {/* <div className="b2b-btn">
+              Learn More <img 
                 src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/arow-1_szrxfl.png'
-                // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" 
+
                 alt="" />
-            </a>
+            </div> */}
           </div>
         </div>
         <div className="right-b2b-cards">
@@ -68,12 +65,12 @@ function Advance() {
                 Kushel Digi has expertise to deliver engaging, scalable, and user-friendly ecommerce solutions that connect businesses with end customers. Our team is committed to help brands grow their online presence and boost sales.
               </p>
             </div>
-            <a href="#" className="b2b-btn">
+            {/* <div className="b2b-btn">
               Learn More <img loading='lazy'
                 src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/arow-1_szrxfl.png'
                 // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg"
                 alt="" />
-            </a>
+            </div> */}
           </div>
           <div className="right-b2b-card">
             <div className="b2b-logo">
@@ -88,12 +85,12 @@ function Advance() {
                 We have been helping brands to establish a direct connection with consumers by removing intermediaries. We create personalized ecommerce experiences to enhance brand loyalty and maximum profit.
               </p>
             </div>
-            <a href="#" className="b2b-btn">
+            {/* <div className="b2b-btn">
               Learn More <img loading='lazy'
                 src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/arow-1_szrxfl.png'
                 // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" 
                 alt="" />
-            </a>
+            </div> */}
           </div>
         </div>
       </div>

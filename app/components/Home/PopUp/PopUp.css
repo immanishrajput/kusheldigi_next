@@ -141,6 +141,7 @@ input::-webkit-inner-spin-button {
   width: 80%;
   background-color: #fff;
   padding: 25px;
+  padding-bottom: 45px;
   /* overflow: hidden; */
   border-radius: 15px;
   position: relative;
@@ -159,7 +160,7 @@ input::-webkit-inner-spin-button {
 }
 
 .popup-contact-heading {
-  padding: 15px 0px 0px;
+  padding: 10px 0px 0px;
   text-align: center;
   font-size: 24px;
   margin: 0px !important;
@@ -687,5 +688,10 @@ input::-webkit-inner-spin-button {
   .cross-icon {
     right: -8px;
     top: -48px;
+  }
+}
+@media (max-width:375px){
+  .cross-icon{
+    right: 7px;
   }
 }

@@ -87,20 +87,28 @@ function Home2Testimonial() {
             rewind: true,
             autoplay: true,
             start: 0,
-            speed: 2000,
+            speed: 1000,
             gap: '20px',
             pagination: false,
             arrows: false,
+            drag   : 'free',
+            interval: 2000,
+            autoScroll: {
+              speed: 1,
+            },
             breakpoints: {
+              1450: {
+                perPage: 3,
+                gap: '20px',
+              },
+             
               600: {
                 speed: 800,
                 perPage: 1,
                 gap: "20px",
               },
-              1450: {
-                perPage: 3,
-                gap: '20px',
-              },
+             
+              
             },
           }}
         >

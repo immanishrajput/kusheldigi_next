@@ -8,7 +8,9 @@ body{
   width: 100%;
   background: linear-gradient(280deg, #89c7fb, #c8d5f9 62.02%, #f9f9f4);
 }
-
+.platforms {
+  padding: 50px 50px;
+}
 .inner-contact-container {
   /* max-width: 1280px; */
   max-width: 1720px;
@@ -270,7 +272,7 @@ width: 50px;
   flex-wrap: wrap;
   gap: 30px;
   align-items: center;
-  margin: 20px 0px;
+  margin: 18px 0px;
 }
 
 #captchaQuestion {
@@ -657,7 +659,7 @@ padding-left: 50px !important;
   text-align: center;
   max-width: 1720px;
   margin: auto;
-  padding: 50px 60px;
+  padding: 50px 50px;
   /* padding: 50px; */
 }
 
@@ -722,7 +724,7 @@ padding-left: 50px !important;
 }
 
 .right-b2b-cards {
-  margin-top: 7rem;
+  margin-top: 5rem;
 }
 
 .left-b2b-card-2{
@@ -850,6 +852,9 @@ padding-left: 50px !important;
 
   .right-b2b-cards {
       margin-top: 0;
+  }
+  .left-b2b-card-2 {
+    margin-bottom: 0px;
   }
 }
 
@@ -1061,7 +1066,7 @@ padding-left: 50px !important;
   max-width: 1720px;
   margin: 0 auto;
   /* margin-top: 100px; */
-  padding: 50px 60px;
+  padding: 50px 50px;
 }
 
 /* .flagship {
@@ -1080,7 +1085,8 @@ padding-left: 50px !important;
     flex-wrap: wrap;
   }
   .plt-cards{
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
   }
   
 }
@@ -1121,11 +1127,12 @@ padding-left: 50px !important;
 }
 
 .flagship-cards {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
   justify-content: center;
   gap: 30px;
   /* flex-wrap: wrap; */
-  margin: 3rem auto;
+  margin: 2rem auto;
 
 
 }
@@ -1234,14 +1241,25 @@ padding-left: 50px !important;
 .swiper-button-next::after {
   font-size: 13px !important;
 }
-
+@media(max-width:1200px){
+  .flagship-cards {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
 @media(max-width:800px)
 {
   .flagship-head{
     line-height: 44px;
   }
+  .flagship-cards {
+    grid-template-columns: repeat(2,1fr);
+  }
 }
-
+@media(max-width:600px){
+  .flagship-cards {
+    grid-template-columns: repeat(1,1fr);
+  }
+}
 @media screen and (max-width:340px) {
   .contact-first-div > div{
     width: 75%;
@@ -1249,5 +1267,8 @@ padding-left: 50px !important;
 
   .down-contact-name-input  {
     width: 82%;
+  }
+  .flagship-cards {
+    grid-template-columns: repeat(1,1fr);
   }
 }
