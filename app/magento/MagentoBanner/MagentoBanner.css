@@ -109,6 +109,7 @@
 
     .magento-banner-para-cont > p {
         font-size: 1rem;   
+        text-align: center;
     }
 
     .flex-new-banner-btns {

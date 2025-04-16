@@ -38,7 +38,7 @@
 }
 
 .tech-we-use-slide-item > ul {
-    color: gray;
+    color: black;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -46,7 +46,7 @@
 }
 
 .tech-we-use-slide-item > ul > li {
-    border: 1px solid gray;
+    border: 1px solid black;
     padding: 6px 10px 6px 17px;
     border-radius: 8px;
     font-size: 14px;
@@ -60,7 +60,7 @@
     position: absolute;
     left: 7px;
     top: 15px;
-    background:gray;
+    background:black;
     border-radius: 100%;
 }
 

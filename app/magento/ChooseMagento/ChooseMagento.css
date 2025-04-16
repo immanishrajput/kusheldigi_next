@@ -29,7 +29,7 @@
 
 .choose-magento-grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+    grid-template-columns: repeat(3,1fr);
     gap: 25px;
     margin-top: 30px;
 }
@@ -91,6 +91,9 @@
     }
 
     .choose-magento-grid-item > h4 {
-        text-align: center;
+        text-align: left6;
+    }
+    .choose-magento-grid-item > p{
+        text-align:left;
     }
 }
