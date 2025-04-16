@@ -1,9 +1,21 @@
 "use client"
 import React from "react";
 import "./menu.css";
+import Link from "next/link";
+import { FaArrowRightLong } from 'react-icons/fa6';
+
 // import { FaGlobe, FaPen, FaTachometerAlt, FaLayerGroup, FaCogs, FaSync } from "react-icons/fa"; 
 
 const HeadlessCommerce = () => {
+
+  const scrollToForm = () => {
+    const formSection = document.getElementById('contacthtmlForm');
+    if (formSection) {
+      const yOffset = -250; 
+      const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+  };
   return (
     <section className="tripole1">
       <div className="tripole2">
@@ -17,8 +29,11 @@ const HeadlessCommerce = () => {
           Build your website faster with core frontend components available out of the box and customize effortlessly
           </p>
           <div className="tripole6">
-            <button className="tripole7">Move Headless</button>
-            <button className="tripole8">Book a Call</button>
+            <button onClick={scrollToForm} className="tripole7">Move Headless</button>
+            
+           <Link  href="/contact-us">
+           <button className="tripole8">Book a Call  <FaArrowRightLong/></button> 
+           </Link> 
           </div>
         </div>
 
