@@ -17,6 +17,7 @@ import Wining from './Wining/page'
 import Wifi from './Wifi/page'
 import Sec14 from './Sec14/page'
 import Footer from '../COMMON/Footer'
+import Diff from './Diff/page'
 import HomeForm from '../components/Home/HomeForm'
 
 function page() {
@@ -36,6 +37,7 @@ function page() {
       <Devlopment/>
       <Pwa/>
       <Wining/>
+      <Diff/>
       <Wifi/>
       <Sec14/>
       <HomeForm/>
