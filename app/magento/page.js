@@ -7,10 +7,10 @@ import Head from 'next/head';
 import '../globals.css'
 
 
-// import ContactForm1 from "../COMMON/ContactForm1";
-// import { Splide, SplideSlide } from "@splidejs/react-splide";
+import ContactForm1 from "../COMMON/ContactForm1";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-// import Link from "next/link";
+import Link from "next/link";
 
 import Navbar from "../COMMON/Navbar";
 import MagentoFAQ from '../COMMON/MagentoFAQ'
@@ -26,7 +26,7 @@ import ServicesSection from "../bigcommerce-development/ServiceSection/ServiceSe
 import FeatureSection from "../bigcommerce-development/FeaturesSection/FeatureSection";
 import BigBanner6 from "../bigcommerce-development/BigBanner6/page";
 import Banner8 from '../ecommerce-development/Banner8/page'
-import { BigCommerceFeatures, BigCommerceFeaturesContent, BigCommerceServices, BigCommerceServicesHeading, whyBigCommereByKDS, whyBigCommereByKDSHeading ,weExpertInMagento ,MagentoFeatures,MagentoFeaturesContent,MagentoServicesLeft,MagentoServicesRight} from "../data/data";
+import { BigCommerceFeatures, BigCommerceFeaturesContent, BigCommerceServices, BigCommerceServicesHeading, whyBigCommereByKDS, whyBigCommereByKDSHeading ,weExpertInMagento ,MagentoFeatures,MagentoFeaturesContent,MagentoServicesLeft,MagentoServicesRight, MagentoServicesSectionContent, MagentoServicesHeading} from "../data/data";
 import MagentoBanner from "./MagentoBanner/MagentoBanner";
 import WhyMagento from "./WhyMagento/WhyMagento";
 import TechWeUse from "./TechWeUse/TechWeUse";
@@ -92,23 +92,21 @@ const Magento = () => {
       
     <Navbar/>
     
-      <div className="ser-main">
+      <div className="ser-main"> 
         <MagentoBanner/>
         <BigBanner8 weExpert={weExpertInMagento}/>
-        <WhyMagento/>
+       <WhyMagento/>
         <MagentoServices leftContent={MagentoServicesLeft} services={MagentoServicesRight}/>
         <MagentoPortfolio page='Magento'/>
         <ChooseMagento/>
 
-        {/* <CallAction/> */}
         <BigBanner4 img='https://res.cloudinary.com/dd9tagtiw/image/upload/v1744608968/5bb631c4aa74a3ebe4df40ac8c33ef75_qfp4u1.jpg' page='Our Magento Experts are Ready to Launch your Dream Store today!'/>
         <UpgradeServices/>
-        {/* <WhyChooseMagento/> */}
-        <ShopifyProcess page='MAGENTO'/>
+        <ShopifyProcess page='Magento'/>
         <TechWeUse/>
         <Banner8/>
         <BigBanner6 services={whyBigCommereByKDS} contents={whyBigCommereByKDSHeading}/>
-        <ServicesSection services={BigCommerceServices} contents={BigCommerceServicesHeading}/>
+        <ServicesSection services={MagentoServicesSectionContent} contents={MagentoServicesHeading}/>
         <FeatureSection services={MagentoFeatures} contents={MagentoFeaturesContent}/>
         <BlogSection/>
        
@@ -211,9 +209,9 @@ const Magento = () => {
 
             </div>
           </div>
-        </div>
+        </div> */}
 
-       
+{/*        
         <div className="magento_services dine-123">
           <div className="magento_services1">
 
@@ -229,11 +227,11 @@ const Magento = () => {
 
             </p>
           </div>
-        </div> */}
+        </div> 
        
 
 
-        {/* <div className="server_megy">
+         <div className="server_megy">
           <h3>Magento Development Services</h3>
           <div className="server_merging">
             <div className="server_mergs">
@@ -277,17 +275,17 @@ const Magento = () => {
               </div>
             </div>
           </div>
-        </div> */}
-{/* 
+        </div> 
+
         <div className="php_portfolio">
           <div className="php_port php_oty">
             <h3 className="our_php">Why Choose <span>Kushel Digi Magento </span>Development Services?  </h3>
           </div>
-        </div> */}
+        </div> 
 
-        {/* <div className="megento_old"> */}
+         <div className="megento_old"> 
 
-          {/* <div className="old_cards">
+          <div className="old_cards">
             <div className="megento_old2">
               <div className="megento_old3">
                 <img className="n1-img" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739254074/n1_fqgi2b.png' alt="Expertise and experience" title="Expertise and experience" />
@@ -369,14 +367,14 @@ const Magento = () => {
               </div>
             </div>
           </div>
-        </div> */}
+        </div> 
 
- {/* <div className="php_portfolio">
+  <div className="php_portfolio">
           <div className="php_port">
             <h3 className="our_php">Our <span>Megento</span>  Web Development <span>Portfolio</span> </h3>
           </div>
-        </div> */}
-        {/* <div className="gting">
+        </div> 
+        <div className="gting">
           <Splide
             className="w-full"
             aria-label="Our Services"
@@ -459,9 +457,9 @@ const Magento = () => {
               </div>
             </SplideSlide>
           </Splide>
-        </div> */}
+        </div> 
 
-        {/* <div className="dedicated_dreams">
+         <div className="dedicated_dreams">
           <h3>Dedicated Dreams.</h3>
           <div className="dedicated_dreams1">
             <div className="dedicated1">

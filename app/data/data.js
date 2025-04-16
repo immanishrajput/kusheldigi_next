@@ -192,12 +192,12 @@ export const MagentoFeatures = [
   {
     icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744459101/Mask_group_20_b7oaep.png',
     title: 'Mobile-Responsive Design',
-    desc: 'All Shopify themes are completely responsive that ensure your store looks and works seamlessly on smartphones, tablets and desktops.'
+    desc: 'All Magento themes are completely responsive that ensure your store looks and works seamlessly on smartphones, tablets and desktops.'
   },
   {
     icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744459100/Mask_group_23_dxytvc.png',
     title: 'Secure Checkout',
-    desc: 'Shopify comes with SSL certification and PCI compliance as it provides a safe and trusted environment for customers to make secure online payments.'
+    desc: 'Magento comes with SSL certification and PCI compliance as it provides a safe and trusted environment for customers to make secure online payments.'
   },
   {
     icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744459101/Mask_group_21_pgiqkb.png',
@@ -207,47 +207,47 @@ export const MagentoFeatures = [
   {
     icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744459101/Mask_group_22_a0lxvp.png',
     title: 'Built-In SEO Tools',
-    desc: 'Shopify has built in SEO features, email marketing integrations, social media selling, and discount code creation to assist you in attracting customers.'
+    desc: 'Magento has built in SEO features, email marketing integrations, social media selling, and discount code creation to assist you in attracting customers.'
   }
 ];
 
 export const MagentoServicesLeft = {
-  heading: "Kushel Digi Magento Development Services",
-  subheading: "Kushel Digi is committed to deliver your dream ecommerce store with high powered Shopify",
+  heading: "Magento Development Services by Kushel Digi Solutions",
+  subheading: "Kushel Digi Solutions emerged as a trusted Magento Development Service Provider as we high functional design stores that grows with the growth of your business efficiently.",
   buttonLabel: "Get a Free Consultation Today",
   buttonLink: "contact-us"
 }
 
 export const MagentoServicesRight = [
   {
-    title: "Magento Custom Store Development",
+    title: "Magento Store Development",
     description:
-      "Let us turn your vision into a reality through our custom Magento store development. Our eCommerce solutions are designed to meet the needs of your brand. Our platform ensures a seamless and engaging shopping experience for your customers.",
+      "Kushel Digi Solutions offers end-to-end Magento store development. Our team creates highly scalable, completely customized eCommerce stores equipped with important features like product catalogs, advanced search filters, easy navigation, multi-currency support and easy checkout.",
   },
   {
-    title: "Magento Theme Design",
+    title: "Theme Design & Customization",
     description:
-      "Stand out in this saturated market with an attractive, custom-made Magento theme. Our design team will create beautiful, responsive themes that reflect your branding. Give that store an extra edge that gets the customers interacting.",
+      "We believe the first impression is the last impression. We create perfect Magento themes that are not only visually appealing but also completely responsive and optimized for all devices. We take care of everything from UI/UX design to layout changes that reflect your brand identity.",
   },
   {
-    title: "Magento App Integration",
+    title: "Magento Extension Development",
     description:
-      "Augment store functionality with Magento app integrations that are seamlessly integrated. We will integrate vital tools and third-party apps to further up your store's capability. Whether it's a payment gateway or a marketing tool, we have got you covered.",
+      "The most interesting feature of Magento is its flexibility. We have been creating custom extensions to enhance your store’s functionality. It doesn’t matter whether it's a unique payment method, custom product filter, or loyalty program, our extensions are compatible and scalable.",
   },
   {
-    title: "Magento Migration Services",
+    title: " Migration to Magento",
     description:
-      "Moving to Shopify? Our migration services make sure that your transition runs smoothly with the least amount of downtime. We take responsibility for everything, from data porting to design replicability, so that you do not lose your store functionality.",
+      "Are you planning to move your store to Magento? Kushel Digi Solutions offers smooth and secure migration services from platforms like Shopify, WooCommerce, OpenCart, and the older versions of Magento. Our process ensures all product data and customer information is preserved.",
   },
   {
-    title: "Magento Performance Optimization",
+    title: "Performance Optimization",
     description:
       "Ensure that your store is fast, responsive, and reliable with our performance optimization services. We will inspect and improve the load times, server performance, and user experience so that customers always remain satisfied and engaged.",
   },
   {
-    title: "Magento SEO & Marketing",
+    title: "Support & Maintenance",
     description:
-      "Expand your online presence and sales with our Magento SEO and marketing services. We put into action tested strategies that will enhance your search ranking and drive targeted traffic. Let us help you reach your audience effectively.",
+      "Get reliable and continued support from our committed maintenance services. Rest assured that with us, your Magento store will be secure, updated, and working at maximum capacity.",
   },
 ]
 
@@ -289,4 +289,18 @@ export const CutsomSoftwareServicesRight = [
     description:
       "Harness the power of technologies like sensor data monitoring, stream processing, etc to get real-time data responses.",
   },
+];
+
+export const MagentoServicesHeading = {
+  title: 'Our Support Services',
+  desc: 'Kushel Digi Solutions is always committed to ensure that your Magento store operates seamlessly with our expert support services. Our team is there for you from setup to maintenance, we believe in providing solutions that keep your online business running efficiently.'
+}
+
+export const MagentoServicesSectionContent = [
+  { icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092988/customer-service_1_ve4gd6.png', title: "24/7 Technical Support", description: "Your business can be hit by unexpected problems, but our team of dedicated support agents is there for you 24/7 to fix any technical issues promptly. From website crashes, non-functioning pages, to integration problems, we offer instant solutions to reduce downtime." },
+  { icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092988/store-setup_nxjrkk.png', title: "Store Setup & Customization", description: "Creating a Magento store that supports your brand vision is key to success. We help you get your store set up, properly configure important settings and personalize the design to reflect your brand identity while keeping the user experience smooth." },
+  { icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092988/performance-_1_d8gdwi.png', title: "Performance Optimization ", description: "A slow-loading website can push away customers. Our experts scan and improve the speed of your Magento store’s site navigation and provide a smooth shopping experience. This ultimately leads to higher customer satisfaction and conversion rates." },
+  { icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092988/security_fa3qm7.png', title: "Security & Compliance Support", description: "Cybersecurity is indispensable in eCommerce. We enforce top-tier security measures, routine updates, and PCI compliance to keep your store secure from threats and ensure secure transactions and protection of customer data." },
+  { icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092988/store_j3kn6z.png',title:"Store Functionality", description: "Increase the functionality of your store with third-party apps and plugins. We help integrate critical tools like payment gateways, CRM systems, analytics tools, and marketing automation apps to enhance store performance and customer interaction." },
+  { icon: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744092988/regular_ctplhe.png', title: "Regular Maintenance & Updates", description: "Technology keeps changing, and it is vital to be updated for competitiveness. We offer regular updates, bug fixes, and maintenance so that your Magento store remains secure, operational, and in line with the current trends in the industry." },
 ];
