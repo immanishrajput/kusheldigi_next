@@ -100,6 +100,9 @@
     .magento-action-call-content-right {
         width: 100%;
     }
+    .choose-magento-grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -140,6 +143,9 @@
         width: 90%;
         margin: 0 auto;
     }
+    .choose-magento-grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media screen and (max-width:355px){
@@ -162,8 +168,6 @@
     .magento-action-call-content-button-wrap:hover > .magento-action-call-btn-icon-wrap {
         width: 234px;
     }
-    .choose-magento-grid-container {
-        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-    }
+   
 }
 

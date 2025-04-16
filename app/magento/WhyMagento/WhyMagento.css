@@ -16,7 +16,7 @@
     display: grid;
     gap: 30px;
     margin-top: 45px;
-    grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+    grid-template-columns: repeat(3,1fr);
 }
 
 .why-magento-grid-item {
@@ -49,6 +49,11 @@
     margin-top: 15px;
 }
 
+@media (max-width:1024px){
+    .why-magento-grid-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
 @media screen and (max-width: 768px) {
     .why-magento-inner-container {
         padding: 40px 30px;
@@ -85,6 +90,9 @@
     .why-magento-grid-item > img {
         display: block;
         margin: auto;
+    }
+    .why-magento-grid-item > p {
+        text-align: center;
     }
 }
 

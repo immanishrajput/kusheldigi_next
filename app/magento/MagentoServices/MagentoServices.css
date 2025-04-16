@@ -178,12 +178,13 @@ body, html, .ShopifyServices__section {
   
     .ShopifyServices__card h3 {
       font-size: 18px;
-      text-align: center;
+      text-align:left;
     }
   
     .ShopifyServices__card p {
       font-size: 14px;
       line-height: normal;
+      text-align: left;
     }
   }
   

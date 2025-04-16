@@ -183,9 +183,9 @@
     top: 17px;
     background: blue;
     z-index: 0;
-    animation: shopifyProcessLine 3s ease-in-out forwards;
+    animation: shopifyProcessLine 5s ease-in-out forwards;
     animation-delay: 0.4s;
-}
+} 
 
 #shopify-1st-service {
     opacity: 0;
