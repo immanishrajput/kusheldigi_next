@@ -42,63 +42,63 @@ const WhyMagento = () => {
       {
         img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1744723722/Mask_group_36_ytmszs.png",
         title: "Scalability",
-        description: "Magento is designed to support fast growth and increasing traffic. Whether you're selling 100 or 100,000 products, the platform scales with your business without compromising performance."
+        description: "Magento is known for its scalability as it is designed to support fast growth and increasing traffic. Whether you're selling 100 products or 100,000, the platform grows with your business without compromising on performance."
       },
       {
         img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1744723619/Mask_group_25_t1aoy7.png",
         title: "Flexibility",
-        description: "Magento’s open-source architecture gives you the freedom to fully customize your store according to your brand identity and customer journey. If you can imagine it, you can build it."
+        description: "Magento’s open-source architecture allows you to have the freedom to build a fully customized store according to your brand’s identity and customer journey. You’re not at all stuck to templates- if you can imagine it, you can create it."
       },
       {
         img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1744723619/Mask_group_26_g150hw.png",
         title: "Security",
-        description: "Magento prioritizes security with regular updates, encryption, and threat protection—ensuring secure payments and safe customer data at all times."
+        description: "Magento places security in priority with regular updates, patches, and strong data encryption. It covers everything from secure payment integrations to protection against threats and enables your store and customer data stay safe."
       },
       {
         img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1744723619/Mask_group_27_yp0mvw.png",
         title: "Performance",
-        description: "Magento is optimized for high-speed performance, offering fast load times, smooth navigation, and a seamless checkout experience even with heavy traffic."
+        description: "In eCommerce speed is the most important element and Magento delivers. It’s optimized for high performance to ensure fast page loads, quick checkout and smooth navigation even with heavy traffic and large product catalogs."
       },
       {
         img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1744723619/Mask_group_28_e3bzrb.png",
         title: "Integration",
-        description: "Magento seamlessly integrates with CRMs, ERPs, accounting systems, shipping providers, and more—making backend operations more efficient."
+        description: "Magento comes with seamless integration with third-party services such as CRMs, ERPs, accounting software, shipping solutions, and more. It makes your operations smoother and your backend more efficient. "
       },
       {
         img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1744723619/Mask_group_29_zsva2h.png",
         title: "Analytics",
-        description: "Built-in analytics and reporting tools let you track sales, product performance, and customer behavior so you can make informed, data-driven decisions."
+        description: "Magento’s built-in analytics and reporting tools enable you to make data-driven decisions. It allows you to monitor sales, customer behavior, product performance, and more to constantly refine your strategy."
       },
-      {
-        img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1744723618/Mask_group_32_cfrod2.png",
-        title: "Magento Store Development",
-        description: "We build scalable, customized Magento stores with product catalogs, search filters, navigation, multi-currency support, and easy checkout for a complete eCommerce solution."
-      },
-      {
-        img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1744723619/Mask_group_31_kwr0nc.png",
-        title: "Theme Design & Customization",
-        description: "We design responsive Magento themes that align with your brand identity, covering everything from UI/UX to layout changes for a seamless shopping experience."
-      },
-      {
-        img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1744723618/Mask_group_32_cfrod2.png",
-        title: "Magento Extension Development",
-        description: "We develop custom extensions to expand your Magento store's functionality—be it a unique payment option, product filter, or loyalty program."
-      },
-      {
-        img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1744723619/Mask_group_33_kwpuni.png",
-        title: "Migration to Magento",
-        description: "We offer smooth, secure migration from Shopify, WooCommerce, OpenCart, or older Magento versions—preserving your product and customer data."
-      },
-      {
-        img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1744723619/Mask_group_34_xxdvxi.png",
-        title: "Performance Optimization",
-        description: "Our performance optimization ensures your Magento store runs fast, with improved server response, load times, and user satisfaction."
-      },
-      {
-        img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1744723618/Mask_group_35_jvcoiw.png",
-        title:'Support & Maintenance',
-        description: "We provide reliable maintenance to keep your store secure, updated, and operating at its best—so you can focus on growth while we handle the tech."
-      }
+      // {
+      //   img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1744723618/Mask_group_32_cfrod2.png",
+      //   title: "Magento Store Development",
+      //   description: "We build scalable, customized Magento stores with product catalogs, search filters, navigation, multi-currency support, and easy checkout for a complete eCommerce solution."
+      // },
+      // {
+      //   img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1744723619/Mask_group_31_kwr0nc.png",
+      //   title: "Theme Design & Customization",
+      //   description: "We design responsive Magento themes that align with your brand identity, covering everything from UI/UX to layout changes for a seamless shopping experience."
+      // },
+      // {
+      //   img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1744723618/Mask_group_32_cfrod2.png",
+      //   title: "Magento Extension Development",
+      //   description: "We develop custom extensions to expand your Magento store's functionality—be it a unique payment option, product filter, or loyalty program."
+      // },
+      // {
+      //   img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1744723619/Mask_group_33_kwpuni.png",
+      //   title: "Migration to Magento",
+      //   description: "We offer smooth, secure migration from Shopify, WooCommerce, OpenCart, or older Magento versions—preserving your product and customer data."
+      // },
+      // {
+      //   img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1744723619/Mask_group_34_xxdvxi.png",
+      //   title: "Performance Optimization",
+      //   description: "Our performance optimization ensures your Magento store runs fast, with improved server response, load times, and user satisfaction."
+      // },
+      // {
+      //   img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1744723618/Mask_group_35_jvcoiw.png",
+      //   title:'Support & Maintenance',
+      //   description: "We provide reliable maintenance to keep your store secure, updated, and operating at its best—so you can focus on growth while we handle the tech."
+      // }
     ];
     
   return (

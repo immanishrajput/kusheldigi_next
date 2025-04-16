@@ -35,7 +35,7 @@ const Shopify = ({page}) => {
         <div className="shopify-banner-outer-container">
             <div className='shopify-outer-container'>
                 <div className="shopify-inner-container">
-                    <h2 className='shopify-banner-heading primary-heading'>OUR {page} DEVELOPMENT PROCESS</h2>
+                    <h2 className='shopify-banner-heading primary-heading'>Our {page} Development Process</h2>
                     <p className='shopify-banner-para secondary-heading'>We Handle the Tech, You Focus on Sales</p>
                     <div className="shopify-banner-flex-container">
                         <div className="shopify-banner-left">

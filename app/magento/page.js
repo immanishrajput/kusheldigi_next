@@ -26,7 +26,7 @@ import ServicesSection from "../bigcommerce-development/ServiceSection/ServiceSe
 import FeatureSection from "../bigcommerce-development/FeaturesSection/FeatureSection";
 import BigBanner6 from "../bigcommerce-development/BigBanner6/page";
 import Banner8 from '../ecommerce-development/Banner8/page'
-import { BigCommerceFeatures, BigCommerceFeaturesContent, BigCommerceServices, BigCommerceServicesHeading, whyBigCommereByKDS, whyBigCommereByKDSHeading ,weExpertInMagento ,MagentoFeatures,MagentoFeaturesContent,MagentoServicesLeft,MagentoServicesRight} from "../data/data";
+import { BigCommerceFeatures, BigCommerceFeaturesContent, BigCommerceServices, BigCommerceServicesHeading, whyBigCommereByKDS, whyBigCommereByKDSHeading ,weExpertInMagento ,MagentoFeatures,MagentoFeaturesContent,MagentoServicesLeft,MagentoServicesRight, MagentoServicesSectionContent, MagentoServicesHeading} from "../data/data";
 import MagentoBanner from "./MagentoBanner/MagentoBanner";
 import WhyMagento from "./WhyMagento/WhyMagento";
 import TechWeUse from "./TechWeUse/TechWeUse";
@@ -92,8 +92,8 @@ const Magento = () => {
       
     <Navbar/>
     
-      <div className="ser-main">
-        {/* <MagentoBanner/>
+      <div className="ser-main"> 
+        <MagentoBanner/>
         <BigBanner8 weExpert={weExpertInMagento}/>
        <WhyMagento/>
         <MagentoServices leftContent={MagentoServicesLeft} services={MagentoServicesRight}/>
@@ -102,15 +102,15 @@ const Magento = () => {
 
         <BigBanner4 img='https://res.cloudinary.com/dd9tagtiw/image/upload/v1744608968/5bb631c4aa74a3ebe4df40ac8c33ef75_qfp4u1.jpg' page='Our Magento Experts are Ready to Launch your Dream Store today!'/>
         <UpgradeServices/>
-        <ShopifyProcess page='MAGENTO'/>
+        <ShopifyProcess page='Magento'/>
         <TechWeUse/>
         <Banner8/>
         <BigBanner6 services={whyBigCommereByKDS} contents={whyBigCommereByKDSHeading}/>
-        <ServicesSection services={BigCommerceServices} contents={BigCommerceServicesHeading}/>
+        <ServicesSection services={MagentoServicesSectionContent} contents={MagentoServicesHeading}/>
         <FeatureSection services={MagentoFeatures} contents={MagentoFeaturesContent}/>
-        <BlogSection/> */}
+        <BlogSection/>
        
-        <div className="magentooo1">
+        {/* <div className="magentooo1">
           <div className="magento-back dine-123">
             <div className="magento_back1 magento-texted">
               <h1>
@@ -209,9 +209,9 @@ const Magento = () => {
 
             </div>
           </div>
-        </div>
+        </div> */}
 
-       
+{/*        
         <div className="magento_services dine-123">
           <div className="magento_services1">
 
@@ -484,7 +484,7 @@ const Magento = () => {
               <p>SCHEDULE A DEVELOPER INTERVIEW</p>
             </div>
           </div>
-        </div>
+        </div> */}
 
 
 
