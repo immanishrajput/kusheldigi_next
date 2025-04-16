@@ -16298,7 +16298,7 @@ body {
 .h2s10cont {
     max-width: 1720px !important;
     margin: 0 auto !important;
-    padding: 60px 60px !important;
+    padding: 50px 50px !important;
     gap: 20px
 }
 
@@ -17784,7 +17784,7 @@ body {
 
 .s5maincont {
     position: relative;
-    max-width: 1550px;
+    max-width: 1720px;
     width: 100%;
     margin: 0 auto;
 }
@@ -17934,9 +17934,9 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 40px;
-    padding: 0px 60px;
+    padding: 50px 50px;
     margin: 0 auto;
-    height: 650px;
+    /* height: 650px; */
     justify-content: center;
 }
 
@@ -18358,6 +18358,9 @@ body {
     .s8para2 {
         font-size: 16px;
     }
+    .s5cont{
+        padding: 50px 30px !important;
+    }
 }
 
 @media (max-width:550px) {
@@ -18555,7 +18558,7 @@ body {
     width: 100%;
     position: relative;
     background: #f6f5f4;
-    padding: 40px 0;
+    padding: 50px 0px;
     display: flex;
     flex-direction: column;
     gap: 40px
@@ -72072,7 +72075,7 @@ article h4 {
 
 .s5maincont {
     position: relative;
-    max-width: 1550px;
+    max-width: 1720px;
     width: 100%;
     margin: 0 auto;
 }
@@ -72219,9 +72222,9 @@ article h4 {
     flex-direction: column;
     align-items: center;
     gap: 40px;
-    padding: 0px 30px;
+    padding: 50px 50px;
     margin: 0 auto;
-    height: 650px;
+    /* height: 650px; */
     justify-content: center;
 }
 
@@ -73242,7 +73245,7 @@ input::-webkit-inner-spin-button {
 .faqr-section {
     max-width: 1720px;
     margin: 0 auto;
-    padding: 0px 60px;
+    padding: 50px 50px;
     /* margin-top: 40px; */
 }
 
@@ -75620,7 +75623,7 @@ input::-webkit-inner-spin-button {
 
 .carousel-container {
     width: 100%;
-    padding: 40px 60px;
+    padding: 50px 50px;
 }
 
 .inner-carousel-container {
@@ -75895,7 +75898,7 @@ input::-webkit-inner-spin-button {
     }
 
     .carousel-container {
-        padding: 40px 10px;
+        padding: 40px 10px 0px 10px;
     }
 
     .carousel-div {

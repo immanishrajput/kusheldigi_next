@@ -52,12 +52,11 @@ function Flagship() {
           <li className="flagship-li">Conversion rate optimisation</li>
           <li className="flagship-li">Data-driven recommendations </li>
         </ul>
-        <a href="#" className="flagship-btn">
-          Learn More <img loading='lazy' 
+        <Link href="contact-us" className="flagship-btn">
+          Learn More <img
           src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/arow-1_szrxfl.png'
-          // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" 
           alt="" />
-        </a>
+        </Link>
       </div>
       <div className="flagship-card">
         <div className="flagship-logo">
@@ -78,15 +77,13 @@ function Flagship() {
           <li className="flagship-li">Product list transfer</li>
           {/* <li className="flagship-li">Data consistency</li> */}
         </ul>
-        <Link href="#" className="flagship-btn">
+        <Link href="/contact-us" className="flagship-btn">
           Learn More <img loading='lazy' 
           src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/arow-1_szrxfl.png'
           // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" 
           alt="" />
         </Link>
       </div>
-    </div>
-    <div className="flagship-cards">
       <div className="flagship-card">
         <div className="flagship-logo">
           <img loading='lazy' 
@@ -137,7 +134,7 @@ function Flagship() {
           </li>
           <li className="flagship-li">Mobile-friendly design </li>
         </ul>
-        <Link href="#" className="flagship-btn">
+        <Link href="/contact-us" className="flagship-btn">
           Learn More <img loading='lazy'
           src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/arow-1_szrxfl.png'
           //  src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" 
@@ -162,15 +159,15 @@ function Flagship() {
           </li>
           <li className="flagship-li">Scalability support </li>
         </ul>
-        <Link href="#" className="flagship-btn">
+        <Link href="contact-us" className="flagship-btn">
           Learn More <img loading='lazy' 
           src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/arow-1_szrxfl.png'
           // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" 
           alt="" />
         </Link>
       </div>
-      
     </div>
+   
   </section>
   
   )
