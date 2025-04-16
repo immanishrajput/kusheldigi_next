@@ -30,6 +30,7 @@ const HeadlessCommerce = () => {
           </p>
           <div className="tripole6">
             <button onClick={scrollToForm} className="tripole7">Move Headless</button>
+            
            <Link  href="/contact-us">
            <button className="tripole8">Book a Call  <FaArrowRightLong/></button> 
            </Link> 
