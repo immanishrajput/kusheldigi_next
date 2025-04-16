@@ -41,7 +41,8 @@
   .con--2-div-contentt h3 {
   
     font-weight: 600;
-    color: rgba(34, 32, 32, 0.873);
+    /* color: rgba(34, 32, 32, 0.873); */
+    color: #000;
     font-size: 22px;
     margin-bottom: 10px;
     /* text-align: center; */
@@ -77,10 +78,18 @@
       text-align: center;
       padding: 30px;
     }
+
+    .coon--2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
   
     .ccon--2-div {
       flex-direction: column;
       text-align: center;
+      gap: 13px;
     }
   
     .con--2-div-contentt {
@@ -186,6 +195,7 @@
   .ssec--2 {
 
       padding: 30px;
+      margin: 0px 0px 50px auto !important;
   }
 
   .ccon--2-div {

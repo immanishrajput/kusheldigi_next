@@ -51,12 +51,12 @@
 
 .shopify-banner-services>h3 {
     font-size: 1.3rem;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .shopify-banner-services>p {
     font-size: 1rem !important;
-    color: #4d5862;
+    color: #000;
     text-align: left;
     margin-top: 5px;
 }
@@ -258,6 +258,10 @@
         gap: 50px;
     }
 
+    .shopify-banner-heading  {
+        max-width: unset;
+    }
+
     @keyframes shopifyProcessLine {
         0% {
             height: 0px;
@@ -368,7 +372,7 @@
 @media screen and (max-width: 525px) {
     .shopify-banner-services>p {
         font-size: 1.01rem;
-        color: slategray;
+        color: #000;
     }
 
     .shopify-banner-flex-container {

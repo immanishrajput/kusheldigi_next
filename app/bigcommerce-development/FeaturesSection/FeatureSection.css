@@ -63,6 +63,21 @@
     width:100%;
 }
 
+@media screen and (max-width:1024px) {
+    .right-big-feature-container {
+        overflow: hidden;
+    }
+
+    .right-big-feature-container > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .big-feature-inner-container {
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 810px) {
     .big-feature-inner-container {
         padding:40px 30px;

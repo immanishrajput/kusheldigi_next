@@ -118,6 +118,11 @@ body, html, .ShopifyServices__section {
     text-align: center;
     margin-bottom: 40px;
   }
+  
+  .ShopifyServices__left > h3 ,
+  .ShopifyServices__left > p {
+    text-align: center;
+  }
 
   .ShopifyServices__right {
     width: 100%;

@@ -51,7 +51,7 @@ const Page = ({leftContent,services}) => {
     <section className="ShopifyServices__section">
       <div className="ShopifyServices__container">
         <div className="ShopifyServices__left">
-          <h3 className="ShopifyServices__heading">{leftContent.heading}</h3>
+          <h3 className="ShopifyServices__heading primary-heading">{leftContent.heading}</h3>
           <p className="ShopifyServices__subheading">{leftContent?.subheading}</p>
           <Link href={leftContent.buttonLink}>
             <button>{leftContent.buttonLabel}</button>
