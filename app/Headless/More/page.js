@@ -5,34 +5,34 @@ import "./more.css";
 const principlesData = [
   {
     id: 1,
-    title: "Global Expansion",
+    title: " Total Design Freedom",
     content:
-      "Effortlessly manage multiple online stores and expand your business globally with headless commerce, ensuring consistent branding and centralized control across various markets and regions.",
+      "Break free from rigid templates. Headless commerce gives your design and development teams full control over the user experience across every device and platform.",
   },
   {
     id: 2,
-    title: "Content Authority",
-    content: "Establish content authority and maximize efficiency by creating and reusing content seamlessly across different channels and platforms with headless commerce, ensuring a consistent brand voice and message.",
+    title: " Seamless Omnichannel Delivery",
+    content: "Engage customers on their preferred platforms — web, mobile, kiosks, voice assistants, and more — using a single backend system for consistent messaging and experience.",
   },
   {
     id: 3,
-    title: "Improved Performance",
-    content: "Experience blazing-fast load times and seamless user interactions, thanks to the speed and efficiency of headless commerce.",
+    title: "Lightning-Fast Performance",
+    content: "With optimized frontend frameworks and decoupled architecture, headless commerce ensures faster page loads and smoother shopping experiences that boost conversions.",
   },
   {
     id: 4,
-    title: "Multi-Channel Flexibility",
-    content: "Expand your reach effortlessly by delivering consistent shopping experiences across various channels, from web and mobile to voice and IoT devices.",
+    title: " Scalable & Flexible Architecture",
+    content: "Scale effortlessly as your business grows. Headless platforms are built to adapt — letting you add new channels, features, or integrations without a full rebuild.",
   },
   {
     id: 5,
-    title: "Scalability at its Best",
-    content: "Scale your business effortlessly as it grows, without compromising performance or user experience, thanks to the scalability of headless commerce.",
+    title: "Faster Innovation & Launches",
+    content: "Launch new storefronts, updates, or campaigns quickly. With independent frontend/backend workflows, your team can move faster and innovate continuously.",
   },
   {
     id: 6,
-    title: "Streamlined Integration",
-    content: "Seamlessly integrate third-party services, APIs, and tools to enhance your online store's functionality and stay ahead of the competition with headless commerce.",
+    title: "Future-Ready Commerce Solution",
+    content: "Stay ahead of the curve with a system built for change. Headless commerce supports emerging technologies, ensuring you're ready for whatever comes next in eCommerce.",
   },
 ];
 
@@ -51,7 +51,8 @@ const CorePrinciples = () => {
           Why <span className="highlight">Headless Commerce?</span>
         </h2>
         <p>
-          Headless commerce is the future of digital retail. By decoupling the frontend from the backend, it enables unmatched flexibility, performance, and scalability.
+        Headless commerce offers unmatched flexibility, speed, and scalability—empowering your business to craft seamless, omnichannel experiences and adapt quickly to changing market demands.
+
         </p>
       </div>
 

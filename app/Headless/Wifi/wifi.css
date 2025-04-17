@@ -1,5 +1,5 @@
 .wifi {
-    padding: 4rem 1.5rem;
+    padding: 50px 50px;
     text-align: center;
     background-color: #fff;
     max-width: 1380px;
@@ -15,7 +15,7 @@
   
   .wifi-stats {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding-top: 2rem;
     flex-wrap: wrap;
   }

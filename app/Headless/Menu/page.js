@@ -21,12 +21,15 @@ const HeadlessCommerce = () => {
       <div className="tripole2">
         <div className="tripole3">
           <div className="victus">
-          <p>Headless frontend for composable commerce</p>
+          <p>Expert eCommerce Agency</p>
           </div>
          
-          <h1 className="tripole4">Get the freedom to build exactly what you want with headless frontend</h1>
+          <h1 className="tripole4">Custom Headless Commerce Solutions Built for Performance, Speed & Growth
+          </h1>
           <p className="tripole5">
-          Build your website faster with core frontend components available out of the box and customize effortlessly
+          Kushel Digi Solutions offers advanced Headless Commerce Solutions by delivering fast & fully customizable shopping experiences across any device or channel.
+
+
           </p>
           <div className="tripole6">
             <button onClick={scrollToForm} className="tripole7">Move Headless</button>

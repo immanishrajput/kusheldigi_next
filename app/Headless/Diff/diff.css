@@ -1,14 +1,14 @@
 .moniter-commerce-section {
-    padding: 60px 20px;
+    padding: 50px 20px;
     background-color: #fff;
     font-family: "Segoe UI", sans-serif;
     text-align: center;
   }
   
   .moniter-commerce-title {
-    font-size: 1.9rem;
+    font-size: 36px;
     text-align: center;
-    font-weight: 400;
+    font-weight: 500;
     width: 100%;
     max-width: 600px;
     margin: auto;
@@ -135,7 +135,7 @@
     }
   
     .moniter-comparison-header {
-      font-size: 18px;
+      font-size: 17px;
       padding: 16px;
       text-align: center;
     }

@@ -27,7 +27,6 @@
         font-size: 1.1rem;
         font-weight: 400;
         margin-top: 15px;
-        max-width: 76% !important;
         text-align: center !important;
     }
 
@@ -595,7 +594,19 @@
         }
 
         .headless-progress-sm-heading {
-            max-width: 90% !important;
-            text-align: left !important;
+            max-width: 100% !important;
+            font-size: 22px !important;
+            text-align: center !important;
         }
     }
+
+    @media screen and (max-width: 375px) {
+      
+        .headless-progress-sm-heading {
+            max-width: 100% !important;
+            font-size: 18px !important;
+            text-align: center !important;
+        }
+    }
+
+    

@@ -1,11 +1,11 @@
 .samsung2-section {
     background-color: #fff;
-    padding: 60px 20px;
+    padding: 50px 20px;
     font-family: sans-serif;
   }
   
   .samsung2-wrapper {
-    max-width: 1370px;
+    max-width: 1480px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -44,7 +44,7 @@
     color: #111;
     margin-bottom: 24px;
     line-height: 1.6;
-    padding: 10px 0px !important;
+    padding: 20px 0px !important;
   }
   
   .samsung2-button {

@@ -1,6 +1,6 @@
 .online-why-choose-section {
     text-align: center;
-    padding: 60px 20px;
+    padding: 50px 50px;
     background-color: #e8f2f5;
   }
   
@@ -9,9 +9,9 @@
     margin: auto;
   }
   .online-why-choose-title {
-    font-size: 32px;
+    font-size: 36px;
     /* padding: 0px 0px 0px 12px; */
-    text-align: left;
+    text-align: center;
     font-weight: 700;
     color: #1a202c;
   }
@@ -20,7 +20,7 @@
     font-size: 18px;
     color: #111;
     padding: 20px 0px 0px 0px;
-    text-align: left;
+    text-align: center;
     /* margin-left: auto;
     margin-right: auto; */
   }

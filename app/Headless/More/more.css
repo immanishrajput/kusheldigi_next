@@ -19,7 +19,7 @@
   }
   
   .text-content h2 {
-    font-size: 38px;
+    font-size: 39px;
     font-weight: 600;
     color: #222;
   }
@@ -36,7 +36,7 @@
     overflow-y: auto;
     max-height: 420px;
     padding-right: 10px;
-    scrollbar-width: none; /* Firefox */
+    scrollbar-width: thin; /* Firefox */
   }
   .principles-list::-webkit-scrollbar {
     display: none;
