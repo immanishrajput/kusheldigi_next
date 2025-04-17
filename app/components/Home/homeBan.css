@@ -189,25 +189,52 @@ width: 50px;
   vertical-align: middle;
   /* width: 100%; */
 }
-@media (max-width:769px){
+@media (max-width:1200px){
+  .contact-emailInput, .contact-textArea {
+    width: 100%;
+  }
+  .contact-input, .contact-textArea{
+    width: 100%;
+  }
+  #homePhoneDiv>.react-tel-input{
+    width: 100% !important;
+  }
+}
+@media (max-width:1024px){
   .contact-input,
   .contact-textArea {
-    width: 98%;
+    width: 100%;
   }
 
   .contact-input {
-    width: 82%;
+    width: 100%;
   } 
+  .contact-emailInput, .contact-textArea {
+    width: 100% !important;
+  }
 
   .contact-htmlForm-btn {
     width: 100%;
   }
 
 }
-@media (max-width:600px){
+@media(max-width:768px){
   .contact-input{
-    width: 82%;
+    width: 92%;
   }
+  #homePhoneDiv>.react-tel-input {
+    width: 92% !important;
+  }
+}
+@media (max-width:410px){
+  .contact-input{
+    width: 78%;
+  }
+  #homePhoneDiv>.react-tel-input {
+    width: 78% !important;
+  }
+}
+@media (max-width:600px){
   .platforms{
     padding: 40px 20px 40px !important;
   }
@@ -1097,6 +1124,11 @@ padding-left: 50px !important;
   .inner-contact-container {
     padding:40px 30px;
   }
+  .plt-cards {
+    display: grid;
+    grid-template-columns:repeat(1,1fr);
+  }
+  
 }
 @media(max-width:450px){
   .flagship-section{
