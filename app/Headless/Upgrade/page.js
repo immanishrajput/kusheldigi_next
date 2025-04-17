@@ -4,35 +4,43 @@ import "./upgrade.css";
 
 const updates = [
   {
-    title: "Easy Updates and Upgrades",
-    text1: `All the e-commerce platforms are updating regularly because of new features and security updates. `,
-    text2:`But, there is a huge problem with the platform update: merchants are bound to update their websites as well. 
-           Headless commerce services solution is by far the best approach for this situation. `,
-     text3:` Also, every time whenever an upgrade is pushed there is a minimal amount of changes required in the e-commerce platform.`,          
+    title: "Frontend Flexibility",
+    text1: `Most important advantage of headless commerce is that the frontend and backend are decoupled. It offers greater freedom to design and customize the user interface on various platforms. `,
+    text2: [
+      "Complete creative freedom for UI/UX design.",
+      "Design Custom interfaces for web, mobile, IoT, and more.",
+      "Break past backend limitations in design and layout."
+    ],
     img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743811229/easy-updates-and-upgrades-1_tdp5di.webp"
   },
   {
-    title: "Microservices Approach",
-    text1: `Modern e-commerce platforms and marketplaces are not dependent on a single source. They are connected via multiple platforms including.`,
-    text2:`PIM/MDM – for product data management.
-ERP – for OMS (Order management system).
-CRM – for cart abandonment and B2B commerce.
-Chat – for faster B2B communication between supplier vendors.`,
-text3:`And many more such services are used. Headless architecture gives the flexibility to connect the frontend and render all those APIs`,
+    title: "Omnichannel Experience",
+    text1: `Headless Commerce provides unified and customized experiences at all customer touchpoints through a single backend for your website, mobile applications and even the latest technologies like kiosks and voice assistants.`,
+    text2: [
+      "Seamless integration for multiple platforms.",
+      "Integrated customer experiences across websites, apps, and stores.",
+      "Tailor experiences for each device from one system."
+    ],
     img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743813099/microservices-approach-1_fxnv3h.webp"
   },
   {
-    title: "Easy Updates and Upgrades",
-    text1: `Headless commerce services ensure a one-time investment, freeing you from concerns about platform backend upgrades or updates.`,
-    text2:`As headless platforms are API driven it gives flexibility to developers. No need to depend on monolith architecture.`,
-    text3:`Any frontend developer aware of React or Vue can easily update or modify the frontend headless e-commerce.`,
+    title: "API-Driven Architecture",
+    text1: `The API-first approach strategy allows easy integration of third-party services, with the freedom to link your commerce engine to any frontend tooling or external software.`,
+    text2: [
+      "Easy integration with third-party systems (e.g. payment gateways, CRM).",
+      "Scale and adapt your tech stack without limitations.",
+      "Faster development cycles with API connectivity."
+    ],
     img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743813099/less-dependency-and-easy-to-build-1-1_hur8fh.webp"
   },
   {
-    title: "Search Engine Optimization",
-    text1: `Most of these headless solutions including vue storefront or nextjs or gatsby.js all are ultrafast. Which gives a better performance for the users. `,
-    text2:`As react and vuejs both users modem concepts like server side rendering and virtual dom.`,
-    text3:`Not limited to that, headless ecommerce also boosts the google page experience score( core web vitals ) which is critical for search engine rankings.`,
+    title: " Faster Time-to-Market",
+    text1: `As the frontend and backend decouples in headless commerce, it allows your teams to work faster and release updates without disruption. It ultimately speeds up your ability to respond to market changes. `,
+    text2: [
+      "Faster updates and feature launches.",
+      "No need to wait for backend changes to adjust the frontend",
+      "Scale rapidly with minimal downtime and reduced dependencies."
+    ],
     img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743813098/search-engine-optimization-1_pcqpwv.webp"
   }
 ];
@@ -42,12 +50,13 @@ const UpdateSection = () => {
     <section className="updatee-section">
       <div className="update-container">
 
-      <div className="headless-intro">
-        <h3>What is Headless Development?</h3>
-        <p>
-          Headless development means decoupling backend with frontend. That means the backend is used for API purposes and front development and site rendering run on modern frameworks like Reactjs.
-        </p>
-      </div>
+        <div className="headless-intro">
+          <h3>What is Headless Development?</h3>
+          <p>
+            Headless commerce is a modern eCommerce solution that separates the frontend from the backend. The decoupled design makes it easier for developers to build and personalize the customer experience without disrupting the backend systems
+          </p>
+        </div>
+
         {updates.map((update, index) => (
           <div
             className={`update-section ${index % 2 !== 0 ? "reverse" : ""}`}
@@ -56,7 +65,13 @@ const UpdateSection = () => {
             <div className="update-text">
               <h2>{update.title}</h2>
               <p>{update.text1}</p>
-              <p>{update.text2}</p>
+
+              {update.text2?.map((content, i) => (
+                <div key={i} className="update-ul">
+                  <li>{content}</li>
+                </div>
+              ))}
+
               <p>{update.text3}</p>
             </div>
             <div className="update-image">

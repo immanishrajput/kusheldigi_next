@@ -4,7 +4,7 @@
   
   .tripole1 {
     background: #d2d2d239;
-    padding: 100px 4%;
+    padding: 100px 4% 50px 4%;
   
   
     margin: 40px 0px 0px 0px;
@@ -31,12 +31,13 @@
     text-transform: uppercase;
   
   }
+
   
   .tripole4 {
-    font-size: 3.2rem;
+    font-size: 3rem;
     font-weight: 700;
     padding: 20px 0px 0px 0px;
-    line-height: 58px;
+    line-height: 50px;
     font-weight: 600;
     color: rgb(42, 41, 41);
     margin-bottom: 15px;
@@ -82,7 +83,7 @@
   .tripole8 {
     background: #fff;
     color: #0c61ff;
-    padding: 16px 56px;
+    padding: 15px 39px;
     border: 1px solid #0c61ff;
   }
   
@@ -176,8 +177,8 @@
   
     .tripole7,
     .tripole8 {
-      width: 100%;
-      padding: 12px 0;
+      /* width: 100%; */
+      padding: 12px 18px;
       font-size: 0.9rem;
     }
   }
@@ -186,6 +187,11 @@
     .tripole6 {
       gap: 10px;
       align-items: center;
+      justify-content: center;
+    }
+    .victus p {
+      text-align: center;
+    
     }
   
     .tripole1 {
@@ -195,12 +201,13 @@
     .tripole4 {
       font-size: 22px;
       line-height: 27px;
+      text-align: center;
     }
   
     .tripole7,
     .tripole8 {
-      width: 100%;
-      padding: 10px 0;
+      /* width: 100%; */
+      padding: 10px 15px;
       font-size: 0.7rem;
     }
   
@@ -209,7 +216,8 @@
     }
   
     .tripole5 {
-      font-size: 12px;
+      font-size: 13px;
+      text-align: center;
     }
   
     .commerceFeatures p,

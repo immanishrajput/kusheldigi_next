@@ -15,9 +15,10 @@ import Devlopment from './Devlopment/page'
 import Pwa from './Pwa/page'
 import Wining from './Wining/page'
 import Wifi from './Wifi/page'
-import Sec14 from './Sec14/page'
+
 import Footer from '../COMMON/Footer'
 import Diff from './Diff/page'
+import Action2 from './Action2/page'
 import HomeForm from '../components/Home/HomeForm'
 
 function page() {
@@ -39,9 +40,11 @@ function page() {
       <Wining/>
       <Diff/>
       <Wifi/>
-      <Sec14/>
+      <Action2/>
+      {/* <Sec14/> */}
       <HomeForm/>
       <Footer/>
+     
     </div>
   )
 }

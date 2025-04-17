@@ -1,10 +1,10 @@
 .containerEcom-Headless {
     display: flex;
-    max-width: 1340px;
+    max-width: 1380px;
     margin: auto;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 80px 0px 60px 0px;
+    padding: 50px 0px;
     /* padding-bottom: 14rem; */
     background-color: #ffffff;
   }
@@ -12,7 +12,7 @@
   .left-sectionEcom-Headless {
     width: 36%;
     position: sticky;
-    top: 6rem;
+    top: 10rem;
     align-self: flex-start;
   }
   
@@ -23,7 +23,7 @@
   }
   
   .left-sectionEcom-Headless h1 {
-    font-size: 38px;
+    font-size: 39px;
     line-height: 42px;
     font-weight: 550;
     margin: 10px 0;
@@ -179,4 +179,17 @@
     .containerEcom-Headless {
         width: 100%;
     }
+    .left-sectionEcom-Headless h1 {
+      font-size: 23px;
+      line-height: 28px;
+      text-align: center;
   }
+  .left-sectionEcom-Headless p{
+    text-align: center;
+        font-size: 14px;
+        line-height: 23px;
+  }
+  .left-sectionEcom-Headless h6 {
+    text-align: center;
+  }
+}

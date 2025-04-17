@@ -1,5 +1,5 @@
 .full-cycle-container {
-    max-width: 1380px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 50px 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -15,22 +15,23 @@
   }
   
   .full-cycle-heading {
-    font-size: 3rem;
-    font-weight: 700;
+    font-size: 39px;
+    font-weight: 600;
     text-align: center;
     color: #212121;
     flex: 1;
   
   }
   .swiper{
-    padding: 20px !important;
+    padding: 15px !important;
   }
   .highlight {
-    color: #0c61ff;
+    color: #0c61ff; 
   }
   
   .full-cycle-subtext {
     font-size: 1.1rem;
+    padding: 5px 0px 0px 0px;
     color: #111;
     text-align: center;
     margin: auto;
@@ -192,6 +193,9 @@
     font-size: 22px;
     text-align: center;
   }
+ #headless-phase1Name{
+  left: 1px;
+ }
   
   .full-cycle-subtext {
     font-size: 0.95rem;

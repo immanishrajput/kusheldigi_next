@@ -18,76 +18,99 @@ const Page = () => {
   </section>
   <section className="right-sectionEcom-Headless">
     <div className="content-blockEcom-Headless">
-      <h3>BigCommerce Store Custom Development
+      <h3>Custom Headless Commerce Development
+
       </h3>
       <p>
-      Let us turn your vision into a reality through our custom BigCommerce store development. Our eCommerce solutions are designed to meet the needs of your brand. Our platform ensures a seamless and engaging shopping experience for your customers. 
+      We craft tailored headless commerce solutions to match your unique business goals. From architecture planning to implementation, we build flexible, future-proof platforms that support advanced features and integrations for a fully customized experience.
+
       </p>
     </div>
     <div className="content-blockEcom-Headless">
-      <h3>BigCommerce Store Optimization
+      <h3> API Integration & Management
+
       </h3>
       <p>
-      Get the most out of your store with our all-rounded optimization services. Every single detail like performance to user experience of your BigCommerce website will be optimized to achieve higher conversions and customer satisfaction.
+      APIs are the backbone of headless commerce. We connect your backend seamlessly with frontends, CRMs, ERPs, payment gateways, shipping providers, and marketing tools—ensuring smooth communication across all systems.
       </p>
     </div>
     <div className="content-blockEcom-Headless">
-      <h3>BigCommerce Theme Design</h3>
+      <h3>Frontend Development with Modern Frameworks
+      </h3>
       <p>
-      Stand out in this saturated market with an attractive, custom-made BigCommerce theme. Our design team will create beautiful, responsive themes that reflect your branding. Give that store an extra edge that gets the customers interacting.
+      We use modern frontend technologies like React.js, Vue.js, and Next.js to build responsive, engaging, and high-performing user interfaces. These frameworks ensure fast load times and optimized user journeys on every device.
 
 </p>
     </div>
     <div className="content-blockEcom-Headless">
-      <h3>BigCommerce App Integration
+      <h3>Omnichannel Experience Design
       </h3>
       <p>
-      Augment store functionality with BigCommerce app integrations that are seamlessly integrated. We will integrate vital tools and third-party apps to further up your store's capability. Whether it's a payment gateway or a marketing tool, we have got you covered.
+      From websites and mobile apps to kiosks and smart devices, we create consistent, on-brand experiences across every customer touchpoint—ensuring users get a unified journey no matter where they shop.
 
 </p>
     </div> 
      <div className="content-blockEcom-Headless">
-      <h3>BigCommerce Migration Services</h3>
+      <h3>Migration to Headless Architecture
+      </h3>
       <p>
-      Moving to BigCommerce? Our migration services make sure that your transition runs smoothly with the least amount of downtime. We take responsibility for everything, from data porting to design replicability, so that you do not lose your store functionality.
+      Transition your existing monolithic platform (like Magento, WooCommerce, or Shopify) to a headless setup smoothly. Our team ensures secure data transfer, minimal downtime, and enhanced flexibility post-migration.
       </p>
     </div> 
     <div className="content-blockEcom-Headless">
-      <h3>BigCommerce SEO & Marketing
+      <h3>Headless CMS Integration
+
       </h3>
       <p>
-      Expand your online presence and sales with our BigCommerce SEO and marketing services. We put into action tested strategies that will enhance your search ranking and drive targeted traffic. Let us help you reach your audience effectively.
+      Manage and deliver content efficiently with powerful headless CMS platforms like Contentful, Strapi, or Sanity. We integrate and configure the CMS to help your team easily create, manage, and update content without developer dependency.
 
 </p>
     </div>
 
 
     <div className="content-blockEcom-Headless">
-      <h3>BigCommerce Maintenance & Support
+      <h3>Performance Optimization & Scalability
       </h3>
       <p>
-      Bring the backup for your BigCommerce store and keep it running with our highly customized maintenance and support services. This will include follow-up on updates, troubleshooting, and enhancement of your website to make sure everything is up-to-date.
+      We fine-tune your headless setup for speed and scalability. Through code optimization, caching strategies, and CDN configuration, we ensure that your store performs at its best—even during peak traffic.
+
 
 </p>
     </div>
 
 
     <div className="content-blockEcom-Headless">
-      <h3>BigCommerce Performance Optimization
+      <h3>PWA (Progressive Web App) Development
+
       </h3>
       <p>
-      Ensure that your store is fast, responsive, and reliable with our performance optimization services. We will inspect and improve the load times, server performance, and user experience so that customers always remain satisfied and engaged. 
+      We develop PWAs that combine the best of web and mobile apps—offering offline access, push notifications, fast loading, and app-like usability without needing app store downloads.
+
 
 </p>
     </div>
 
 
     <div className="content-blockEcom-Headless">
-      <h3>BigCommerce API Development
+      <h3>Multi-Storefront Setup & Management
 
       </h3>
       <p>
-      Extend the capabilities of your store with custom BigCommerce API development. We build custom integrations that connect your store with other systems, ensuring seamless data flow and increased functionality. 
+      Manage multiple storefronts from one backend—ideal for businesses with different brands, regions, or customer segments. We help configure, maintain, and optimize all your digital storefronts with ease.
+
+</p>
+    </div>
+
+    
+    <div className="content-blockEcom-Headless">
+      <h3>Ongoing Support & Maintenance
+
+
+      </h3>
+      <p>
+      Our job doesn't end at launch. We offer continuous monitoring, updates, bug fixes, and enhancements to keep your headless commerce platform running smoothly and evolving with market trends.
+
+
 </p>
     </div>
   </section>
