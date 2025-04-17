@@ -169,6 +169,7 @@ const Slider = () => {
       if (width <= 480) setCardsPerPage(1);
       else if (width <= 768) setCardsPerPage(2);
       else if (width <= 1024) setCardsPerPage(3);
+      
       else setCardsPerPage(4);
     };
 

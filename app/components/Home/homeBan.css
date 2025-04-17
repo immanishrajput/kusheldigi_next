@@ -234,17 +234,31 @@ width: 50px;
     width: 78% !important;
   }
 }
+@media (max-width:410px){
+  .contact-input{
+    width: 78%;
+  }
+  #homePhoneDiv>.react-tel-input {
+    width: 78% !important;
+  }
+}
+@media (max-width:372px){
+  #homePhoneDiv>.react-tel-input {
+    width: 78% !important;
+  }
+}
+
 @media (max-width:600px){
   .platforms{
     padding: 40px 20px 40px !important;
   }
 }
-@media(max-width:372px){
+/* @media(max-width:372px){
   .contact-input,
 .contact-textArea {
   width: 98%;
 }
-}
+} */
 
 @media screen and (max-width:350px) {
   
