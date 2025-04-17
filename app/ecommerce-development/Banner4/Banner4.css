@@ -78,6 +78,12 @@
   
   /* Responsive Styles */
   @media screen and (max-width: 1024px) {
+    .con--2-div-content h3{
+      text-align: center;
+    }
+    .con--2-div-content p{
+      text-align: center;
+    }
     .sec--2 {
       flex-direction: column;
       text-align: center;
@@ -285,6 +291,7 @@
 
   .con--2-div-content h3 {
       font-size: 20px;
+      text-align: center;
   }
 
   .con--2-div-content p {

@@ -39,7 +39,7 @@ const Banner11 = () => {
                 <ul className="industry-infocus-boxes">
                     {industries.map((industry, index) => (
                         <li key={index}>
-                            <a href="#">
+                            <a>
                                 <span className="industry-icon">
                                     
                                     <div className="cicleEComWe">

@@ -23,12 +23,12 @@ function Flagship() {
           <li className="flagship-li">Technology integration </li>
           <li className="flagship-li">Secure payment gateway integration</li>
         </ul>
-        <Link href="/ecommerce-development" className="flagship-btn">
+        {/* <Link href="/ecommerce-development" className="flagship-btn">
           Learn More <img loading='lazy' 
           src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/arow-1_szrxfl.png'
           // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" 
           alt="" />
-        </Link>
+        </Link> */}
       </div>
       <div className="flagship-card">
         <div className="flagship-logo">
@@ -52,11 +52,11 @@ function Flagship() {
           <li className="flagship-li">Conversion rate optimisation</li>
           <li className="flagship-li">Data-driven recommendations </li>
         </ul>
-        <Link href="contact-us" className="flagship-btn">
+        {/* <Link href="contact-us" className="flagship-btn">
           Learn More <img
           src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/arow-1_szrxfl.png'
           alt="" />
-        </Link>
+        </Link> */}
       </div>
       <div className="flagship-card">
         <div className="flagship-logo">
@@ -77,12 +77,12 @@ function Flagship() {
           <li className="flagship-li">Product list transfer</li>
           {/* <li className="flagship-li">Data consistency</li> */}
         </ul>
-        <Link href="/contact-us" className="flagship-btn">
+        {/* <Link href="/contact-us" className="flagship-btn">
           Learn More <img loading='lazy' 
           src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/arow-1_szrxfl.png'
           // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" 
           alt="" />
-        </Link>
+        </Link> */}
       </div>
       <div className="flagship-card">
         <div className="flagship-logo">
@@ -106,12 +106,12 @@ function Flagship() {
           Payment gateway
           </li>
         </ul>
-        <Link href="/mobile-application-development" className="flagship-btn">
+        {/* <Link href="/mobile-application-development" className="flagship-btn">
           Learn More <img loading='lazy' 
           src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/arow-1_szrxfl.png'
           // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" 
           alt="" />
-        </Link>
+        </Link> */}
       </div>
       <div className="flagship-card">
         <div className="flagship-logo">
@@ -134,12 +134,12 @@ function Flagship() {
           </li>
           <li className="flagship-li">Mobile-friendly design </li>
         </ul>
-        <Link href="/contact-us" className="flagship-btn">
+        {/* <Link href="/contact-us" className="flagship-btn">
           Learn More <img loading='lazy'
           src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/arow-1_szrxfl.png'
           //  src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" 
            alt="" />
-        </Link>
+        </Link> */}
       </div>
       <div className="flagship-card">
         <div className="flagship-logo">
@@ -159,12 +159,12 @@ function Flagship() {
           </li>
           <li className="flagship-li">Scalability support </li>
         </ul>
-        <Link href="contact-us" className="flagship-btn">
+        {/* <Link href="contact-us" className="flagship-btn">
           Learn More <img loading='lazy' 
           src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/arow-1_szrxfl.png'
           // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806860/arrow-up_felxs8.svg" 
           alt="" />
-        </Link>
+        </Link> */}
       </div>
     </div>
    

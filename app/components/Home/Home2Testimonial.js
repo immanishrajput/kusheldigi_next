@@ -101,7 +101,16 @@ function Home2Testimonial() {
                 perPage: 3,
                 gap: '20px',
               },
-             
+              1200:{
+                perPage: 2,
+                gap: '10px',
+                width:"75%"
+              },
+             1023:{
+              perPage: 2,
+              gap: '10px',
+              width:"55.3%"
+             },
               600: {
                 speed: 800,
                 perPage: 1,

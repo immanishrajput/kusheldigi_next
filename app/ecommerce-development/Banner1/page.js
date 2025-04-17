@@ -24,29 +24,12 @@ const Banner = () => {
     pauseOnHover: false
 };
 
-  // useEffect(() => {
-  //         const handleHashChange = () => {
-  //             const section = document.getElementById("form-section");
-  //             if (section) {
-  //                 setTimeout(() => {
-  //                     const offset = 150;
-  //                     const sectionPosition = section.getBoundingClientRect().top + window.scrollY - offset;
-  //                     window.scrollTo({ top: sectionPosition, behavior: "smooth" });
-  //                 }, 0);
-  //             }
-  //         };
-  
-  //         window.addEventListener("hashchange", handleHashChange, false);
-  
-  //         return () => {
-  //             window.removeEventListener("hashchange", handleHashChange, false);
-  //         };
-  //     }, []);
+
 
   const scrollToForm = () => {
     const formSection = document.getElementById('contacthtmlForm');
     if (formSection) {
-      const yOffset = -240; 
+      const yOffset =-219; 
       const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
       window.scrollTo({ top: y, behavior: 'smooth' });
     }

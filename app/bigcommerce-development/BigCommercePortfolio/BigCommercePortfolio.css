@@ -2,8 +2,8 @@
     /* width: 90%; */
     margin: auto;
     max-width: 1720px;
-    margin-top: 0.3rem;
-    padding: 50px 60px;
+    /* margin-top: 0.3rem; */
+    padding: 50px 50px;
   }
   
   .projectsHeaderKcom {
@@ -219,6 +219,7 @@
       margin: 25px;
     }
     .left-b2b-cardKcom-2{
+
       margin: 30px;
     }
   
@@ -343,6 +344,9 @@
   }
   
   @media (max-width: 576px) {
+    .left-b2b-cardKcom-2 {
+      /* margin: 0; */
+    }
     .projectsSectionKcom{
       padding:40px 10px;
     

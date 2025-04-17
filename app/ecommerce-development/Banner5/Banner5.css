@@ -153,11 +153,12 @@
   
     .con--1-flex h5 {
         font-size: 16px;
-        text-align: center;
+        text-align:center;
         font-weight: 500;
     }
   
     .con--1-flex p {
+      text-align: center;
         font-size: 14px;
         /* line-height: 24px; */
     }
