@@ -166,6 +166,22 @@
           height: auto; /* Allow height to adjust if necessary */
         }
       }
+      @media (max-width:1200px){
+        .overlayWrap{
+          flex-direction: column;
+        }
+        .text-contentSection h1 {
+          text-align: center;
+        }
+.highlightWapper {
+  text-align: center;
+}
+.ConnetDivBtn{
+  text-align: center;
+}
+      }
+
+
       @media (max-width: 1024px) {
         .card-wrapper-wrapper {
           width: 100%;
@@ -224,7 +240,7 @@
       
       @media (max-width: 480px) {
         .cardh3content{
-          width: 90%;
+          width: 80%;
         }
         .card-wrapper-wrapper {
           width: 100%;
@@ -303,6 +319,9 @@
         }
         .text-contentSection h1{
           font-size: 24px;
+        }
+        .cardPhilo p{
+          width: 70%;
         }
       }
       

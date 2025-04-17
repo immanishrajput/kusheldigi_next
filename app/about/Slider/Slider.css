@@ -113,6 +113,13 @@
   }
   
  
+ @media (max-width:1200px){
+  .valueCard_k82s,
+    .valueCard_k82s.active_k82s {
+      width:300px;
+      padding: 20px;
+    }
+ }
   
   @media (max-width: 1024px) {
     .valueCard_k82s,

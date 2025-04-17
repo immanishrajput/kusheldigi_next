@@ -20,7 +20,7 @@ font-size: 24px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-   gap: 69%;
+   gap: 65%;
 }
 .profileCiclr{
     display: flex;
@@ -67,6 +67,12 @@ font-size: 24px;
 }
 
 /* responsive  */
+@media(max-width:1200px){
+    
+    .profileLinksec {
+    gap:35%;
+    }
+}
 @media (max-width: 1024px) {
     .proficardsec p {
         font-size: 20px;
@@ -85,6 +91,7 @@ font-size: 24px;
 }
 
 @media (max-width: 768px) {
+  
     .prMainficardsec {
         padding: 30px 20px;
     }
