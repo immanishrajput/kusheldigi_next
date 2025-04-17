@@ -22218,7 +22218,7 @@ input[type=number] {
 
 #homePhoneDiv>.react-tel-input {
     padding: 9px !important;
-    width: 85% !important;
+    width: 85%;
 }
 
 #homePhoneDiv>.react-tel-input>.flag-dropdown {
@@ -22240,10 +22240,17 @@ input[type=number] {
 @media screen and (max-width:600px) {
     #homePhoneDiv>.react-tel-input {
         padding: 9px !important;
-        width: 82% !important;
     }
 }
-
+@media screen and (max-width:375px) {
+    #homePhoneDiv>.react-tel-input {
+       
+        width: 75% !important;
+    }
+    .contact-input, .contact-textArea {
+        width:75%
+    }
+}
 .whtsApBtns {
     z-index: 400;
     position: fixed;
