@@ -7,14 +7,6 @@ body {
     margin: 0;
     padding: 0
   }
-  /* .service-doxt{
-      display: inline-block;
-      max-width: 100%;
-      overflow: hidden;
-      position: relative;
-      box-sizing: border-box;
-      margin: 0;
-  } */
   
   .services-we-served{
     max-width: 1720px;
@@ -30,56 +22,56 @@ body {
     }
   }
   
-  section {
+  .vision-section {
     display: block;
     position: relative
   }
   
-  section {
+  .vision-section {
     /* background-color: #fff; */
     padding-bottom: 1.563rem;
     padding-top: 1.563rem
   }
   
   @media only screen and (min-width:768px) {
-    section {
+    .vision-section {
         padding-top: 2.344rem
     }
   }
   
   @media only screen and (min-width:991px) {
-    section {
+    .vision-section {
         padding-top: 3.125rem
     }
   }
   
   @media only screen and (min-width:768px) {
-    section {
+    .vision-section {
         padding-bottom: 2.344rem
     }
   }
   
   @media only screen and (min-width:991px) {
-    section {
+    .vision-section {
         padding-bottom: 3.125rem
     }
   }
   
   
-  a {
+  /* a {
     color: #191d26;
     outline: none;
     text-decoration: none
-  }
+  } */
 
   @media only screen and (min-width:1024px) {
     a {
         transition: all .1s ease
     }
   
-    a:hover {
+    /* a:hover {
         color: #1b76fe
-    }
+    } */
   }
   .services-we-served-header h2{
     font-size: 2.7rem;
@@ -91,10 +83,10 @@ body {
     margin: 0 0 .625rem
   } */
   
-  img {
+  /* img {
     display: inline-block;
     max-width: 100%
-  }
+  } */
   
   .container1 {
     display: flex;
@@ -122,14 +114,13 @@ body {
   strong {
     font-weight: 700
   }
-  
+/*   
   u {
     text-decoration: underline
-  }
+  } */
   
   
-  .h2,
-  h2 {
+  .h2 {
     font-size: 1.625rem;
     font-weight: 600;
     line-height: 2.25rem;
@@ -139,8 +130,7 @@ body {
   
   @media only screen and (min-width:991px) {
    
-    .h2,
-    h2 {
+    .h2 {
         font-size: 2.125rem;
         line-height: 2.875rem
     }
@@ -148,8 +138,7 @@ body {
   
   @media only screen and (min-width:1366px) {
   
-    .h2,
-    h2 {
+    .h2 {
         font-size: 2.625rem;
         line-height: 3.5rem
     }
