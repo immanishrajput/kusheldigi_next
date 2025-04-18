@@ -46,7 +46,6 @@
   
   .hero-tagCo {
     color: #222;
-    letter-spacing: 1px;
     font-size: 18px;
     text-transform: uppercase;
     border-left: 2px solid #007BFF;
@@ -64,7 +63,8 @@
   .hero-descriptionCom {
     padding: 25px 0px 0px 0px;
     max-width: 600px;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 18px !important;
     color: #222;
     line-height: 1.7;
   }
@@ -204,6 +204,13 @@
   
   /* ✅ Smallest Screens (Below 450px) */
   @media (max-width: 450px) {
+    .hero-tagCo{
+      border: none;
+      text-align: center;
+    }
+    .hero-descriptionCom{
+      text-align: center;
+    }
     .buttonsBi a{
       width: auto;
       font-size: 13px;

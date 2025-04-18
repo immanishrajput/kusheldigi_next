@@ -54,7 +54,7 @@ const partners = [
   {
     // img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233923/WhatsApp_Image_2025-03-29_at_12.40.29_PM_q5esb4.jpg",
     img:"https://res.cloudinary.com/dgif730br/image/upload/v1743430213/klaviyo-2_jxxmjr.png",
-    alt: "Prestashop Partner",
+    alt: "klaviyo",
     link: "#",
   },
 ];
@@ -106,7 +106,7 @@ const Our = () => {
         {partners.map((partner, index) => (
           <div className="card-1" key={index}>
             <img loading="lazy" width="329" height="192" src={partner.img} alt={partner.alt} />
-            <Link href={partner.link}  className="read-more-1">
+            <Link href={partner?.link}  className="read-more-1">
               Read More{" "}
               <img
               loading="lazy"

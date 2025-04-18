@@ -253,12 +253,15 @@ width: 50px;
     padding: 40px 20px 40px !important;
   }
 }
-/* @media(max-width:372px){
-  .contact-input,
-.contact-textArea {
-  width: 98%;
+@media(max-width:340px){
+  .contact-input, .contact-textArea{
+    /* width: 80% !important; */
+  }
+  /* #homePhoneDiv>.react-tel-input {
+    width: 86% !important;
+  } */
 }
-} */
+
 
 @media screen and (max-width:350px) {
   
@@ -559,7 +562,7 @@ padding-left: 50px !important;
   max-width: 1720px;
 
   margin: 0 auto;
-  padding: 60px 60px;
+  padding: 50px 50px;
   /* padding: 60px 0px 80px 0px; */
 }
 

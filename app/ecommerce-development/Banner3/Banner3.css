@@ -4,7 +4,7 @@
     margin: auto;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 90px 60px;
+    padding: 50px 50px;
     /* padding: 80px 0px 60px 0px; */
     /* padding-bottom: 14rem; */
     background-color: #ffffff;
@@ -20,7 +20,7 @@
   .left-sectionEcom h6 {
     color: #000000;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 18px;
   }
   
   .left-sectionEcom h1 {
@@ -32,9 +32,10 @@
   
   .left-sectionEcom p {
     padding: 15px 0px 0px 0px;
-    font-size: 17px;
+    font-size: 18px;
+    font-weight: 500;
     line-height: 31px;
-    color: #000000;
+    color: #222222;
   }
   
   .left-sectionEcom button {
@@ -138,7 +139,7 @@
   
     .content-blockEcom h3 {
       font-size: 20px;
-      text-align: center;
+      /* text-align: center; */
       font-weight: 500;
     }
   
@@ -180,7 +181,7 @@
   
     .content-blockEcom h3 {
       font-size: 18px;
-      text-align: center;
+      text-align: left;
     }
   
     .content-blockEcom p {
@@ -198,6 +199,7 @@
       line-height: 25px;
     }
     .left-sectionEcom p{
+      text-align: center;
       font-size: 14px;
       line-height: 25px;
       

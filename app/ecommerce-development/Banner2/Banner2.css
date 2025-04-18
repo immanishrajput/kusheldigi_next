@@ -4,14 +4,14 @@
     padding: 0;
     background-color: #ded4d48b;
     color: #333;
-    padding: 25px 20px 33px 20px;
+    /* padding: 25px 20px 33px 20px; */
   }
   
   .sec-containerBan2 {
     display: flex;
     max-width: 1720px;
-    padding: 20px 60px;
-    margin: 50px auto;
+    padding: 50px 50px;
+    margin: auto;
     align-items: center;
     gap: 5rem;
     /* padding: 20px 0px 20px 0px; */
@@ -26,16 +26,15 @@
   }
   
   .sec-tagBan2 {
-    color: #6a7a87;
+    color: #222;
     /* font-size: 14px; */
     /* text-transform: uppercase; */
     border-left: 2px solid #0c61ff;
     padding-left: 8px;
-    /* font-weight: bold; */
-    letter-spacing: 1px;
+   
     font-size: 18px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 400;
   }
   
   .h3Ban2 {
@@ -49,9 +48,11 @@
   
   .sec-descriptionBan2 {
     padding: 15px 0px 0px 0px;
-    font-size: 17px;
+    font-size: 18px !important;
+    color: #222222;
     /* color: #555; */
     line-height: 28px;
+    font-weight: 500;
     max-width: 87%;
   }
   
@@ -140,6 +141,7 @@
         text-align: center;
     }
     .h3Ban2 {
+      text-align: left;
         font-size: 28px;
     }
     .sec-descriptionBan2 {
@@ -188,7 +190,7 @@
     .h3Ban2 {
         font-size: 20px;
         line-height: 28px;
-        text-align: center;
+        text-align: left;
     }
     .sec-descriptionBan2 {
         font-size: 14px;
@@ -225,7 +227,7 @@
       font-size: 16px;
       line-height: 22px;
       margin-bottom: 10px;
-      text-align: center;
+      text-align: left;
     }
   
     .sec-descriptionBan2 {

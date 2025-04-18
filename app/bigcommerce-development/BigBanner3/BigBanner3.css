@@ -23,9 +23,10 @@
 
   
   .Bleft-sectionEcom h6 {
-    color: #000000;
+    color: #222;
     text-transform: uppercase;
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 18px;
   }
   
   .Bleft-sectionEcom h3{
@@ -145,7 +146,7 @@
   
     .Bicontent-blockEcom h3 {
       font-size: 20px;
-      text-align: center;
+      text-align: left;
     }
   
     .Bicontent-blockEcom p {

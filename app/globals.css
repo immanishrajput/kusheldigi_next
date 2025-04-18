@@ -76054,6 +76054,8 @@ input::-webkit-inner-spin-button {
 
 
 .primary-heading {
+    margin: auto !important;
+    margin: 19px 0px;
     font-size: 2.2rem !important;
     font-weight: 600 !important;
 }
