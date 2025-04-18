@@ -43,7 +43,7 @@ const Website = () => {
   };
   return (
       <>
-        <section className="services-we-served">
+        <section className="services-we-served vision-section">
           <div className="container1">
             <div className="title">
               <h3 className="primary-heading">Your Vision, Our Expertise</h3>
