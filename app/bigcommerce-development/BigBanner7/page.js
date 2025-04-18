@@ -32,7 +32,7 @@ const Result = () => {
             </span>
             <p>Fast Performance</p>
           </div>
-          <div className="feature-itembbcom">
+          <div className="feature-itembbcom" id="feature-itembbUnique">
             <span className="iconbbcom">
             {/* <BsGraphUpArrow/> */}
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744030638/scalable-and-secure_xl4qxf.png" alt="card"/>

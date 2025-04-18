@@ -91,7 +91,7 @@
 
 .feature-imagebbcom {
     width: 100%;
-    height: 490px;
+    height: 465px;
     object-fit: cover;
 }
 
@@ -175,6 +175,9 @@ width: 100% !important;
     }
 }
 @media (max-width:450px){
+#feature-itembbUnique {
+padding-top: 4px;
+    }
     .text-contentBccom{
         width: 100%;
         max-width: 100%;

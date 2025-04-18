@@ -3,7 +3,7 @@
   margin: auto;
   max-width: 1720px;
   margin-top: 0.3rem;
-  padding: 50px 60px;
+  padding: 50px 50px;
 }
 
 .projectsHeaderKcom {
@@ -223,7 +223,7 @@ transform: translateY(-5px);
   }
 
   .right-b2b-cardsKcom {
-      margin-top: 0;
+      margin-top: -36px;
       width: 588px;
   }
 }
@@ -274,6 +274,9 @@ transform: translateY(-5px);
 }
 
 @media (max-width: 768px) {
+  .right-b2b-cardsKcom{
+    margin-top: 0;
+  }
   .projectsSectionKcom{
     padding: 40px 30px;
   }

@@ -2,6 +2,7 @@
 import React from 'react'
 import { FaLinkedin } from 'react-icons/fa'
 import './Section3.css'
+import Link from 'next/link'
 const Section3 = () => {
   return (
     <>
@@ -22,9 +23,9 @@ const Section3 = () => {
     </div>
     <div className='linkdinBcard'>
   
-    <a href="https://www.linkedin.com/in/shubham-gupta-digital" target='blank'>
+    <Link href="https://www.linkedin.com/in/shubham-gupta-digital" target='blank'>
     <p>  <FaLinkedin className='falinkIcon'/>   Linkedin</p>
-    </a>
+    </Link>
     </div>
    </div>
    </div>
