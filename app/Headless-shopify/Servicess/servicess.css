@@ -18,7 +18,7 @@
   .shopy-left-sectionEcom {
     width: 36%;
     position: sticky;
-    top: 6rem;
+    top: 8rem;
     align-self: flex-start;
   }
   
@@ -32,6 +32,7 @@
     font-size: 38px;
     margin: 20px 0;
     line-height: 39px;
+    font-weight: 600;
     color: #000000;
   }
   
@@ -105,6 +106,7 @@
     font-size: 24px;
     margin-bottom: 22px;
     color: #000000;
+    font-weight: 500;
   }
   
   .shopy-content-blockEcom p {
@@ -202,11 +204,13 @@
     .shopy-left-sectionEcom h1 {
       font-size: 20px;
       line-height: 26px;
+      text-align: center;
       font-weight: 500;
     }
   
     .shopy-left-sectionEcom p {
       font-size: 13px;
+      text-align: center;
       line-height: 20px;
       padding-top: 8px;
     }

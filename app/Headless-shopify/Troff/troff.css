@@ -1,8 +1,9 @@
-*{
-    font-family: 'Poppins',sans-serif;
-    padding: 0;
-    margin: 0;
+* {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
 }
+
 .troffi {
   position: relative;
   background: linear-gradient(to right, rgb(255 255 255 / 59%), rgb(0 225 248 / 0%)),
@@ -21,217 +22,260 @@
   min-height: 552px;
 }
 
-  .trofff {
-    /* Placeholder for future styles if needed */
+.trofff {
+  /* Placeholder for future styles if needed */
+}
+
+.troffi-content {
+  z-index: 2;
+  max-width: 700px;
+}
+
+.troffi-breadcrumb {
+  font-size: 14px;
+  margin-bottom: 1rem;
+  color: #ffffffcc;
+}
+
+.troffi-breadcrumb span {
+  font-weight: bold;
+  color: #fff;
+}
+
+.troffi-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #000000c9;
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+}
+
+.troffi-description {
+  font-size: 1.125rem;
+  color: #000000c9;
+  padding: 15px 0px 0px 0px;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.sunroof {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.troffi-button,
+.troffi-buttonn {
+  background: #fff;
+  border-radius: 39px;
+  padding: 14px 22px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: transform 0.3s ease;
+  border: 1px solid #fff;
+}
+
+.troffi-buttonn {
+  padding: 12px 18px;
+  font-size: 1rem;
+}
+
+.troffi-button:hover,
+.troffi-buttonn:hover {
+  color: #fff;
+  background: rgba(55, 148, 255, 0.837);
+  transform: translateX(5px);
+  border: 1px solid rgba(55, 148, 255, 0.837);
+}
+
+.troffi-button .arrow,
+.troffi-buttonn .arrow {
+  color: #397eff;
+  font-size: 1.5rem;
+}
+
+.troffi-image {
+  position: absolute;
+  top: 100px;
+  right: 0px;
+  height: 58%;
+  max-width: 57%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  pointer-events: none;
+}
+
+.troffi-image img {
+  height: 100%;
+  min-height: 470px;
+  width: 100%;
+  min-width: 490px;
+  object-fit: contain;
+}
+
+/* Large tablet to small desktop screens */
+@media (max-width: 1433px) {
+  .troffi {
+    padding: 8rem 2rem 3rem 4rem;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: auto;
   }
-  
-  .troffi-content {
-    z-index: 2;
-    max-width: 700px;
+
+  .sunroof {
+    flex-direction: row;
+    justify-content: flex-start;
   }
-  
-  .troffi-breadcrumb {
-    font-size: 14px;
-    margin-bottom: 1rem;
-    color: #ffffffcc;
-  }
-  
-  .troffi-breadcrumb span {
-    font-weight: bold;
-    color: #fff;
-  }
-  
-  .troffi-heading {
-    font-size: 3rem;
-    font-weight: 800;
-    color: #000000c9;
-    margin-bottom: 1.5rem;
-    font-weight: 500;
-    line-height: 1.1;
-  }
-  
-  .troffi-description {
-    font-size: 1.125rem;
-    color: #000000c9;
-    padding: 15px 0px 0px 0px;
-    line-height: 1.8;
-    margin-bottom: 2rem;
-  }
-  .sunroof{
-    display: flex;
-    gap: 20px;
-   
-  }
-  
-  .troffi-button {
-    background: #fff;
-    border: 1px solid #fff;
-    border-radius: 39px;
-    padding: 14px 22px;
-    font-size: 0.9rem;
-    font-weight: bold;
-    color: rgba(55, 148, 255, 0.837);
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    transition: transform 0.3s ease;
-  }
+
+  .troffi-button,
   .troffi-buttonn {
-    background: rgba(55, 148, 255, 0.837);
-    border-radius: 39px;
-    padding: 12px 15px;
-    font-size: 1rem;
-    font-weight: bold;
-    color: #fff;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    transition: transform 0.3s ease;
+    flex: 1 1 auto;
+    max-width: fit-content;
   }
-  
-  .troffi-button:hover {
-    color: #fff;
-    border: 1px solid rgba(55, 148, 255, 0.837);
-    background: rgba(55, 148, 255, 0.837);
-    transform: translateX(5px);
-  }
-  .troffi-buttonn:hover {
-    color: rgba(55, 148, 255, 0.837);
-    background-color: #fff;
-    transform: translateX(5px);
-  }
-  
-  .troffi-button .arrow {
-    color: #397eff;
-    font-size: 1.5rem;
-  }
- 
-  
 
   .troffi-image {
     position: absolute;
-    top: 100px;
-    right: 0px;
-    height: 58%;
-    max-width: 27%;
+    right: 0;
+    top: 90px;
+    max-width: 55%;
+    height: auto;
     z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    pointer-events: none;
   }
-  
+
   .troffi-image img {
-    height: 100%;
-    min-height: 470px;
     width: 100%;
-    min-width: 490px;
+    height: auto;
+    object-fit: contain;
   }
-  
-  /* Responsive: tablets and below */
-  @media (max-width: 992px) {
-    .troffi {
-      padding: 8rem 2rem 3rem 2rem;
-      flex-direction: column;
-      min-height: auto;
-    }
-  
-    .troffi-image {
-      position: static;
-      height: auto;
-      max-width: 100%;
-      margin-top: 2rem;
-      justify-content: center;
-    }
-  
-    .troffi-image img {
-      height: auto;
-      width: 100%;
-      object-fit: contain;
-      min-height: auto;
-      min-width: auto;
-    }
-  
-    .troffi-heading {
-      font-size: 2rem;
-    }
-  
-    .troffi-description {
-      font-size: 1rem;
-    }
+}
+
+/* Tablet screens */
+@media (max-width: 992px) {
+  .troffi {
+    padding: 8rem 2rem 3rem 2rem;
+    flex-direction: column;
+    min-height: auto;
   }
-  
-  /* Extra small devices */
-  @media (max-width: 480px) {
-    .troffi {
-      padding: 9rem 1rem 2.5rem 0.8rem;
-    }
-  
-    .troffi-heading {
-      font-size: 1.3rem;
-    }
-    .troffi-buttonn{
-      font-size: 11px;
-    }
-  
-    .troffi-description {
-      font-size: 0.8rem;
-      padding: 10px 0px 0px 0px;
-    }
-  
-    .troffi-button {
-      font-size: 11px;
-    }
-    .troffi-image img {
-      height: auto;
-      width: 100%;
-      object-fit: contain;
-      min-height: 400px;
-      min-width: auto;
-    }
-  
-    .troffi-button .arrow {
-      font-size: 1.2rem;
-    }
+
+  .troffi-image {
+    position: static;
+    height: auto;
+    max-width: 100%;
+    margin-top: 2rem;
+    justify-content: center;
   }
-  @media (max-width: 380px) {
-    .troffi {
-      padding: 8rem 0.8rem 2.5rem 0.8rem;
-      margin-top: 15%;
-    }
+
+  .troffi-image img {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+    min-height: auto;
+    min-width: auto;
+  }
+
+  .troffi-heading {
+    font-size: 2rem;
+  }
+
+  .troffi-description {
+    font-size: 1rem;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 480px) {
+  .troffi {
+    padding: 9rem 1.5rem 2.5rem 1.4rem;
+  }
+
+  .troffi-heading {
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 26px;
+  }
+
+  .troffi-buttonn {
+    font-size: 11px;
+  }
+
+  .troffi-description {
+    font-size: 0.8rem;
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+  }
+
+  .sunroof {
+    justify-content: center;
+  }
+
+  .troffi-button {
+    font-size: 11px;
+  }
+
   
-    .troffi-heading {
-      font-size: 1.3rem;
-      margin-bottom: 1rem;
-    }
-  
-    .troffi-description {
-      font-size: 13px;
-      line-height: 1.6;
-      padding: 8px 0 0 0;
-      margin-bottom: 1.5rem;
-    }
-  
-  
+  .troffi-image  {
+   margin-top: 0 !important;
+    
+  }
+  .troffi-image img {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+    min-height: 400px;
+    min-width: auto;
+    
+  }
+
+  .troffi-button .arrow {
+    font-size: 1.2rem;
+  }
+}
+
+/* Extra small mobile devices */
+@media (max-width: 380px) {
+  .troffi {
+    padding: 8rem 0.8rem 2.5rem 0.8rem;
+    margin-top: 15%;
+  }
+
+  .troffi-heading {
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 1rem;
+  }
+
+  .sunroof {
+    justify-content: center;
+  }
+
+  .troffi-description {
+    font-size: 13px;
+    line-height: 1.6;
+    text-align: center;
+    padding: 8px 0 0 0;
+    margin-bottom: 1.5rem;
+  }
+
   .troffi-button .arrow,
   .troffi-buttonn .arrow {
-    font-size: 10px;
+    font-size: 1rem;
   }
-  
-    .troffi-button .arrow,
-    .troffi-buttonn .arrow {
-      font-size: 1rem;
-    }
-  
-    .troffi-image {
-      margin-top: 1.5rem;
-    }
-  
-    .troffi-image img {
-      min-height: 300px;
-      width: 100%;
-    }
+
+  .troffi-image  {
+    margin-top: 0 !important;
+     
+   }
+  .troffi-image img {
+    min-height: 300px;
+    width: 100%;
   }
-  
+}

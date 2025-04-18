@@ -21,7 +21,7 @@ function page() {
       <Ssss/>
       <Some/>
       <Servicess/>
-      <Porfolio/>
+      {/* <Porfolio/> */}
       <Call/>
       <Left/>
       <Perfect/>

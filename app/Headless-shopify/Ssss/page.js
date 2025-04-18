@@ -46,9 +46,12 @@ backend operations, including payment processing and order management and order 
 
         {/* <p className='Sss-description'>Need help deciding if headless is right for your business? Let’s chat.</p> */}
 
-        <button className="Sssi-btn">
+<div className='solvee'>
+<button className="Sssi-btn">
           Get in Touch <ArrowRight size={18}  />
         </button>
+</div>
+       
       </div>
 
       <div className="Sss-image">

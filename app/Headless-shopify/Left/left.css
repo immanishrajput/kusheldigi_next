@@ -14,11 +14,19 @@
   
   .sleft-title {
     font-size: 2.5rem;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
     color: #111;
     margin-bottom: 1rem;
   }
+  .sleft-icon-img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    filter: brightness(0) saturate(100%) invert(21%) sepia(98%) saturate(1797%) hue-rotate(215deg) brightness(101%) contrast(103%);
+  }
+  
   
   .sleft-subtitle {
     max-width: 1058px;
@@ -50,7 +58,7 @@
   
   .sleft-card:hover {
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
-    background-color: rgba(220, 220, 220, 0.644);
+    background-color: rgba(239, 239, 239, 0.644);
   }
   
   .sleft-icon {
@@ -132,11 +140,11 @@
   
   @media (max-width: 480px) {
     .sleft-title {
-      font-size: 1.7rem;
+      font-size: 1.3rem;
     }
   
     .sleft-subtitle {
-      font-size: 0.95rem;
+      font-size: 0.9rem;
       padding: 10px;
     }
   

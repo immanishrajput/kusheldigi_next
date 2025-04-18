@@ -510,13 +510,19 @@ const Navbar = () => {
                                 <Link href="/kotlin">Kotlin </Link>
                               </div>
                             </div>
+
                             <div className="left-side-servises-containt">
                               <div className="left-head-services">
-                                <Link href="headless-commerce">
+                                <Link href="/headless-commerce">
                                   <span>Headless Commerce</span>
                                 </Link>
+                                </div>
+                                <div className="left-containt-services">
+                                <Link href="/Headless-shopify">Shopify Headless </Link>
+                             
                               </div>
                             </div>
+
                           </div>
                           <div className="right-service-drop">
                             <div className="left-side-servises-containt">

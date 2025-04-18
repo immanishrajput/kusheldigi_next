@@ -1,31 +1,59 @@
 
 "use client"
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import "./perfect.css";
 
 const Progress = () => {
-    const phasesRef = useRef(null);
+    // const phasesRef = useRef(null);
 
+    // useEffect(() => {
+    //     if (phasesRef.current) {
+    //         setTimeout(() => {
+    //             phasesRef.current.scrollLeft = 0;
+    //         }, 50);
+    //     }
+    // }, []);
+const [inView, setInView] = useState(false);
+    const progressRef = useRef(null);
+    const phasesRef = useRef(null);
+    
     useEffect(() => {
-        if (phasesRef.current) {
-            setTimeout(() => {
-                phasesRef.current.scrollLeft = 0;
-            }, 50);
+      const observer = new IntersectionObserver(
+        ([entry]) => {
+          if (entry.isIntersecting) {
+            setInView(true);
+            observer.disconnect();
+          }
+        },
+        {
+          threshold: 0.5,
         }
+      );
+    
+      if (progressRef.current) {
+        observer.observe(progressRef.current);
+      }
+    
+      return () => {
+        observer.disconnect();
+      };
     }, []);
+
 
     return (
         <div className='shopi-progress-outer-container'>
             <div className="shopi-progress-inner-container">
-                <h2 className='progresss-sm-heading primary-heading'>
+                <h2 className='sprogresss-sm-heading-primary-heading'>
                 Our Headless Shopify Development Process
                 </h2>
                 {/* <h3 className='progress-sm-heading primary-heading'>
                     Kushel Digi believes in employing latest and advanced global process to deliver projects best suited with your business needs.
                 </h3> */}
 
-                <div className="shopi-phases-wrapper">
-                    <div ref={phasesRef} className="shopi-phases">
+                <div ref={progressRef} className="shopi-phases-wrapper">
+                   {
+                    inView && (
+                        <div ref={phasesRef} className="shopi-phases">
                         <div id='shopi-phase1' className="shopi-process-button"></div>
                         <div id='shopi-phase1Name'>
                             <span>01</span>
@@ -91,6 +119,8 @@ const Progress = () => {
                             <span className='procBCom'>Deployment</span>
                         </div> */}
                     </div>
+                    )
+                   }
                 </div>
             </div>
         </div>

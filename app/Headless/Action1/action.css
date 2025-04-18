@@ -75,6 +75,7 @@
       .headless-ccon--2-div {
         flex-direction: column;
         text-align: center;
+        gap: 17px;
       }
     
       .headless-con--2-div-contentt {

@@ -25,6 +25,9 @@
     display: block;
     margin: auto;
   }
+ #border-radius-img{
+  border-radius: 50%;
+ }
   
   .spot-con--2-div-contentt {
     width: 50%;

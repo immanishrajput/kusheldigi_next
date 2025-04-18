@@ -43,7 +43,7 @@ const ShopifyServices = () => {
       </div>
 
       <div className="troffi-image">
-        <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744065064/Shopify-Development-Services_ycbltu.webp" alt="Shopify Services" />
+        <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744962178/Group_8_oxzshu.png" alt="Shopify Services" />
       </div>
       </div>
     </section>
