@@ -75,7 +75,8 @@ text-align: center;
 }
 
 .conflict--1-flex p {
-  font-size: 14px;
+  font-size: 17px;
+  font-weight: 400;
   line-height: 22px;
   color: black;
   margin-top: 10px;

@@ -55,7 +55,7 @@ export default function Banner9({page}) {
           </div>
           
           <a href="https://pt.sacoorbrothers.com" className="b2b-btnKcom">
-          Sacoor-Brothers
+          Sacoor-brothers
             <p>{page}</p>
           </a>  
           <hr className="hrKcomKu"/>
@@ -95,7 +95,7 @@ export default function Banner9({page}) {
           </div>
          
           <a href="https://heirloomroses.com/" className="b2b-btnKcom">
-          Roses
+          Heirloom-rose
             <p>{page}</p>
           </a>
           <hr/>
