@@ -92,6 +92,9 @@ text-align: center;
   .conflict--1-flex {
       grid-template-columns: repeat(2, 1fr); /* 2 Columns */
   }
+  .conflict--1-div h6 {
+    width: 100%;
+  }
 }
 
 /* Mobile View - 1 Card Per Row */
