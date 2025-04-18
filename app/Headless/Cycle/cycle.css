@@ -108,7 +108,10 @@
   }
   
   .service-icon {
-    font-size: 2.8rem;
+    font-size: 1.1rem !important;
+    height: 50px;
+    width: 50px;
+    filter: brightness(0) saturate(100%) invert(21%) sepia(98%) saturate(1797%) hue-rotate(215deg) brightness(101%) contrast(103%);
     color: #0c61ff;
     margin-bottom: 12px;
   }
@@ -178,6 +181,7 @@
   
   .service-card {
     padding: 20px;
+    min-height: 150px !important;
   }
   
   .arrow-btn {

@@ -108,7 +108,7 @@ export default function Porfolioo({page}) {
             <a href="/Slidesdesign" id="Shopify-human" className="hover-linkCom">View Case Study <MdArrowOutward /></a>
           </div>
           
-          <a href="/Slidesdesign" className="b2b-btnKcom">
+          <a href="/Slidesdesign" className="Shopify-b2b-btnKcom">
           Slides 365
             <p>{page}</p>
           </a>

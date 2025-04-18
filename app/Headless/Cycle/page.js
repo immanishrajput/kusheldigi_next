@@ -3,7 +3,6 @@ import React from "react";
 import "./cycle.css";
 import { FaPencilAlt, FaPaintBrush, FaProjectDiagram, FaCogs } from "react-icons/fa";
 
-// Swiper imports
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -11,73 +10,88 @@ import "swiper/css/navigation";
 
 const services = [
   {
-    icon: <FaPencilAlt className="service-icon" />,
+    img:"https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744959579/Mask_group_46_qqvbvk.png",
+    // icon: <FaPencilAlt className="service-icon" />,
     title: "Unlimited Customization",
     description:
       "Define and align your project’s vision with internal goals using our business analysis services. Our Business Analysts will assess your business & user needs, define project scope, and formalize requirements.",
   },
   {
-    icon: <FaPaintBrush className="service-icon" />,
+    
+    // icon: <FaPaintBrush className="service-icon" />,
+    img:"https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744959579/Mask_group_47_eo2g00.png",
     title: "Omnichannel Experience",
     description: "UI/UX design services for engaging and efficient digital products.",
   },
   {
-    icon: <FaProjectDiagram className="service-icon" />,
+    img:"https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744959843/Mask_group_48_ejfo7p.png",
+    // icon: <FaProjectDiagram className="service-icon" />,
     title: "Faster Innovation",
     description: "Robust architecture design for scalable software solutions.",
   },
   {
-    icon: <FaCogs className="service-icon" />,
+    img:"https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744959843/Mask_group_49_gsjujw.png",
+    // icon: <FaCogs className="service-icon" />,
     title: "Sign Up via Social Media",
     description: "Full-cycle development tailored to business goals and needs.",
   },
   {
-    icon: <FaCogs className="service-icon" />,
+    img:"https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960432/Mask_group_55_molofs.png",
+    // icon: <FaCogs className="service-icon" />,
     title: "CMS Integration",
     description: "Full-cycle development tailored to business goals and needs.",
   },
   {
-    icon: <FaCogs className="service-icon" />,
+    img:"https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960441/Mask_group_50_b07bs9.png",
+    // icon: <FaCogs className="service-icon" />,
     title: "Personalization",
     description: "Full-cycle development tailored to business goals and needs.",
   },
   {
-    icon: <FaCogs className="service-icon" />,
+    img:"https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960439/Mask_group_52_lfvdue.png",
+    // icon: <FaCogs className="service-icon" />,
     title: "Advanced Search and Navigation",
     description: "Full-cycle development tailored to business goals and needs.",
   },
   {
-    icon: <FaCogs className="service-icon" />,
+    img:"https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960438/Mask_group_53_kjj9ap.png",
+    // icon: <FaCogs className="service-icon" />,
     title: "Robust Security and Compliance",
     description: "Full-cycle development tailored to business goals and needs.",
   },
   {
-    icon: <FaCogs className="service-icon" />,
+    img:"https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960432/Mask_group_55_molofs.png",
+    // icon: <FaCogs className="service-icon" />,
     title: "Multi-currency and Multi-language Support",
     description: "Full-cycle development tailored to business goals and needs.",
   },
   {
-    icon: <FaCogs className="service-icon" />,
+    img:"https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960432/Mask_group_56_sij6rm.png",
+    // icon: <FaCogs className="service-icon" />,
     title: "Marketing Automation Integration",
     description: "Full-cycle development tailored to business goals and needs.",
   },
   {
-    icon: <FaCogs className="service-icon" />,
+    img:"https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960432/Mask_group_57_iy77ii.png",
+    // icon: <FaCogs className="service-icon" />,
     title: "API-first Architecture",
     description: "Full-cycle development tailored to business goals and needs.",
   },
   {
-    icon: <FaCogs className="service-icon" />,
+    img:"https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960432/Mask_group_57_iy77ii.png",
+    // icon: <FaCogs className="service-icon" />,
     title: " Microservices Architecture",
     description: "Full-cycle development tailored to business goals and needs.",
   },
   {
-    icon: <FaCogs className="service-icon" />,
+    img:"https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960431/Mask_group_58_perzs9.png",
+    // icon: <FaCogs className="service-icon" />,
     title: "Headless CMS Integration",
     description: "Full-cycle development tailored to business goals and needs.",
   },
   {
-    icon: <FaCogs className="service-icon" />,
+    img:"https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960431/Mask_group_59_xambcd.png",
+    // icon: <FaCogs className="service-icon" />,
     title: "Progressive Web App (PWA) Support",
     description: "Full-cycle development tailored to business goals and needs.",
   },
@@ -128,12 +142,14 @@ const FullCycleEngineering = () => {
     prevEl: ".my-prev-btn",
   }}
   className="service-slider"
->
+ > 
 
         {services.map((service, index) => (
           <SwiperSlide key={index}>
             <div className="service-card">
-              {service.icon}
+              <div className="service-icon">
+            <img src={service.img}  />
+            </div>
               <h3 className="service-title">{service.title}</h3>
               {/* <p className="service-description">{service.description}</p> */}
             </div>

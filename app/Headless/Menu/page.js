@@ -42,7 +42,7 @@ const HeadlessCommerce = () => {
 
 
         <div className="victum">
-  <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744057876/headless_frontend_hero_1_ftafr5.svg" alt="Your image" className="your-image-class" />
+  <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744969140/Group_21_ccac2p.png" alt="Your image" className="your-image-class" />
 </div>
 
 

@@ -10,8 +10,8 @@ const call = () => {
 <section className="spot-ssec--2">
   <div className="spot-coon--2">
     <div className="spot-headless-ccon--2-div">
-      <div>
-        <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743157130/bigcommerce-logo-icon_um7a4x.png" alt="" className="spot-audit-img" />
+      <div class>
+        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744609043/images_21_e6hnmi.png" alt="" className="spot-audit-img" id='border-radius-img' />
       </div>
       <div className="spot-con--2-div-contentt">
 

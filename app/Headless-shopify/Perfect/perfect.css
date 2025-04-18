@@ -394,6 +394,12 @@
         right: 89px;
         top: -2px;
     }
+    .sprogresss-sm-heading-primary-heading{
+        font-size: 2.6rem !important;
+        font-weight: 600 !important;
+        line-height: 2.2rem !important;
+    }
+    
 
     /* #shopi-phase8Name {
         position: absolute;
@@ -564,6 +570,7 @@
 
         .shopi-progress-inner-container {
             align-items: baseline;
+            padding: 30px 20px;
         }
 
         .progress-toggle-btn-div {
@@ -583,6 +590,10 @@
             font-weight: 600;
             font-size: 2.9rem;
         }
+        .sprogresss-sm-heading-primary-heading{
+            text-align: center;
+            font-size: 23px;
+        }
 
         #switchLabel {
             width: 120px;
@@ -600,5 +611,14 @@
         }
         #shopi-phase1Name{
             left: 2px !important;
+        }
+    }
+
+    @media(max-width:480px){
+        .sprogresss-sm-heading-primary-heading{
+            text-align: center;
+            font-size: 21px !important;
+            text-align: center !important;
+            line-height: 28px !important;
         }
     }

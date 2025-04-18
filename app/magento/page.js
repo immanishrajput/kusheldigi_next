@@ -92,8 +92,8 @@ const Magento = () => {
       
     <Navbar/>
     
-      <div className="ser-main"> 
-        <MagentoBanner/>
+       <div className="ser-main"> 
+        {/* <MagentoBanner/>
         <BigBanner8 weExpert={weExpertInMagento}/>
        <WhyMagento/>
         <MagentoServices leftContent={MagentoServicesLeft} services={MagentoServicesRight}/>
@@ -108,9 +108,9 @@ const Magento = () => {
         <BigBanner6 services={whyBigCommereByKDS} contents={whyBigCommereByKDSHeading}/>
         <ServicesSection services={MagentoServicesSectionContent} contents={MagentoServicesHeading}/>
         <FeatureSection services={MagentoFeatures} contents={MagentoFeaturesContent}/>
-        <BlogSection/>
+        <BlogSection/>  */}
        
-        {/* <div className="magentooo1">
+        <div className="magentooo1">
           <div className="magento-back dine-123">
             <div className="magento_back1 magento-texted">
               <h1>
@@ -209,9 +209,9 @@ const Magento = () => {
 
             </div>
           </div>
-        </div> */}
+        </div> 
 
-{/*        
+      
         <div className="magento_services dine-123">
           <div className="magento_services1">
 
@@ -484,7 +484,7 @@ const Magento = () => {
               <p>SCHEDULE A DEVELOPER INTERVIEW</p>
             </div>
           </div>
-        </div> */}
+        </div>
 
 
 

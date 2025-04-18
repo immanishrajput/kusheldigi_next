@@ -39,7 +39,10 @@
     gap: 1.5rem;
     margin-top: 40px;
   }
-  
+  .softyy-box-content span{
+    font-size: 24px;
+    font-weight: 500;
+  }
   .softyy-box {
     background: white;
     padding: 2rem;
@@ -54,11 +57,13 @@
   
   .softyy-box:hover {
     transform: translateY(-5px);
-    background-color: rgba(220, 220, 220, 0.514);
+    background-color: rgba(237, 237, 237, 0.514);
   }
   
   .softyy-icon {
     font-size: 2rem;
+    height: 45px;
+    filter: brightness(0) saturate(100%) invert(21%) sepia(98%) saturate(1797%) hue-rotate(215deg) brightness(101%) contrast(103%);
     color: #007BFF;
     flex-shrink: 0;
     margin-top: 5px;
@@ -67,6 +72,7 @@
   .softyy-box p {
     font-size: 1rem;
     line-height: 1.6;
+    padding: 10px 0px 0px 0px;
     color: #111;
   }
   
@@ -101,9 +107,9 @@
       text-align: left;
     }
   
-    .softyy-icon {
+    /* .softyy-icon {
       margin-bottom: 0.5rem;
-    }
+    } */
   }
   
   @media (max-width: 480px) {
@@ -112,8 +118,11 @@
     }
   
     .softyy-header h2 {
-      font-size: 1.8rem;
+      font-size: 1.3rem;
     }
+    /* .softyy-box-content{
+      text-align: center;
+    } */
   
     .softyy-header p {
       font-size: 0.95rem;
@@ -123,12 +132,13 @@
       padding: 1rem;
     }
   
-    .softyy-icon {
+    /* .softyy-icon {
       font-size: 1.8rem;
-    }
+      margin: auto;
+    } */
   
     .softyy-box p {
-      font-size: 0.95rem;
+      font-size: 0.9rem;
     }
   }
   

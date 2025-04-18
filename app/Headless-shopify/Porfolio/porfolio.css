@@ -23,7 +23,7 @@
   
   .Shopify-textKcom p {
     font-size: 1.1rem;
-    color: #666;
+    color: #111;
     margin-top: 10px;
   }
   
@@ -274,7 +274,11 @@
       padding: 40px 30px;
     }
     .Shopify-b2b-sectionKcom {
-      padding: 0px;
+      padding: 30px 0px !important;
+      width: 100%;
+    }
+    .Shopify-right-b2b-cardKcom{
+      width: 100%;
     }
     .Shopify-textKcom p{
       text-align: center;
@@ -452,6 +456,10 @@
         font-size: 14px;
         line-height: 22px;
         text-align: center;
+    }
+    .Shopify-b2b-logoKcom img{
+      height: 300px;
+      width: 300px;
     }
   
     .Shopify-b2b-btnKcom {
