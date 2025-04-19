@@ -532,7 +532,7 @@
   .testswipsingle {
     max-width: 90vw;
     width: 100%;
-    height: fit-content
+    height: 64vh !important;
   }
 
   .roudned {

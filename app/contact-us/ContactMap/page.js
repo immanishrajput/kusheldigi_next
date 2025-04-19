@@ -14,7 +14,7 @@ const ContactMap = () => {
     <div className='globalDivMap'>
     <p className='globalparaMap'>Our offices</p>
     <div className='globalstartMap'>
-        <p className='globalMapContry'>Noida</p>
+        <p className='globalMapContry'>India</p>
        <Link href="https://www.google.com/maps/place/Kushel+Digi+Solutions+%7C+E-commerce+Web+Development+%7C+Web+Design+%26+App+Development+Company/@28.6290218,77.3841087,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce49f5d8cdc4b:0xedb207949cd07d2b!8m2!3d28.6290218!4d77.3841087!16s%2Fg%2F11hbvx7ls2?entry=ttu&g_ep=EgoyMDI1MDIwOS4wIKXMDSoASAFQAw%3D%3D" target="blank"> <div className='globalLocation'><span><IoLocation/> </span> First Floor, D242, F-32B, Sector 63 Rd, Noida, Uttar Pradesh
        201301 </div> </Link>
        <Link href="mailto:info@kusheldigi.com"> <p className='globalContryMail'><span><IoMail/></span> info@kusheldigi.com</p></Link>

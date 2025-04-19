@@ -319,26 +319,26 @@ const ContactUs = () => {
                         </div>
 
                     </div>
-        {/* <p className="DropParaCont">Big or small, each idea has its potential, and we're here to make your idea a reality. Whether you're planning for a full-fledged eCommerce platform or require expert assistance on your ecommerce journey, </p> */}
-        
+
         <div className="trusted-by">Tell us about your project. We’ll handle the rest.</div>
 
         <div className="sliderTrusted">
                         <div className="slider-track" ref={trackRef}>
+
+                        {[...Array(2)].map((_, i) => (
+      <React.Fragment key={i}>
                         <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744203598/webinstalogo_rutcoc_1_empjy6.png" alt="image" />
                         <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744203613/summer_2_htxjay.png" alt="img" />
                         <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744203624/CodePXL_Web_Logo_1_cr6g7c.png" alt="img" />
                         <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744203637/Slide365_Logo_1_x9pvmf.png" alt="img" />
                         <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744203651/sights_and_scope_black_logo_2_ksdcq4.png" alt="img" />
                         <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744203692/70904_228x204_1_rvp6ue.png" alt="img" />
+                        </React.Fragment>
+    ))}
 
                         </div>
                     </div>
-       {/* <div className="trustedImage">
       
-       <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446905/LOGOS-1_dhbr7h.png" alt="image" />
-       <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446905/LOGO-2_mhkyhy.png" alt="img" />
-       </div> */}
       </div>
     </div>
   </section>

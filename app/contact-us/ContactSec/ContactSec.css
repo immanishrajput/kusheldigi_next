@@ -39,6 +39,7 @@
   }
   
   .ds25Content {
+    line-height: 32px;
     height: 69px;
     width: 303px;
     font-size: 25px !important;
@@ -142,7 +143,6 @@
   .ds25-bottom-arrow {
   position: relative;
 right: 218px;
-    /* margin-top: 5px; */
   }
   
   .ds25-step-title {
@@ -244,7 +244,6 @@ right: 218px;
   
   .from0to1-underline {
     position: absolute;
-    /* bottom: -4px; */
     left: 0;
     width: 100%;
     height: 20px;
@@ -295,9 +294,7 @@ right: 218px;
         top: 10px;
       }
     
-      .ds25-step-text {
-        /* width: 700px; */
-      }
+    
     }
   
     @media (max-width: 767px) {
@@ -354,7 +351,6 @@ right: 218px;
       .ds25-step-text {
         text-align: center;
         font-size: 15px;
-        /* width: 100% !important; */
       }
     
       .ds25-popup {

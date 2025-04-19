@@ -2,6 +2,7 @@
 import React from 'react';
 import './ssss.css';
 import {  ArrowRight } from 'lucide-react';
+import Link from 'next/link';
 
 const ShopifyHeadless = () => {
   return (
@@ -47,9 +48,12 @@ backend operations, including payment processing and order management and order 
         {/* <p className='Sss-description'>Need help deciding if headless is right for your business? Let’s chat.</p> */}
 
 <div className='solvee'>
+  <Link href="/contact-us">
+
 <button className="Sssi-btn">
           Get in Touch <ArrowRight size={18}  />
         </button>
+        </Link>
 </div>
        
       </div>
