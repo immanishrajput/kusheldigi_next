@@ -111,7 +111,7 @@ const Magento = () => {
         <BlogSection/>  */}
        
         <div className="magentooo1">
-          <div className="magento-back dine-123">
+          <div className="magento-back dine-123 pd1">
             <div className="magento_back1 magento-texted">
               <h1>
                 Get your e-Commerce business <br /> on Magento
@@ -134,7 +134,7 @@ const Magento = () => {
           </div>
         </div>
 
-        <div className="magento_service dine-123">
+        <div className="magento_service dine-123 pd1">
           <div className="magento_service1">
             <h2>
               <span>Magento</span> Development
@@ -150,7 +150,7 @@ const Magento = () => {
           </div>
         </div>
 
-        <div className="megento_new">
+        <div className="megento_new " >
           <div className="megento_new1 magento-ourrr">
             <h2>Our Magento Solutions</h2>
           </div>

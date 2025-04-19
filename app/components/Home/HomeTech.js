@@ -13,13 +13,13 @@ const partners = [
     // img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233923/WhatsApp_Image_2025-03-29_at_12.40.32_PM_apddld.jpg",
     img:"https://res.cloudinary.com/dgif730br/image/upload/v1743429262/bigcommerce-8_1_tyghz8.png",
     alt: "bigcommerce Partner",
-    link: "#",
+    link: "/bigcommerce-development",
   },
   {
     // img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233927/WhatsApp_Image_2025-03-29_at_12.40.30_PM_vhjqvg.jpg",
     img:"https://res.cloudinary.com/dgif730br/image/upload/v1743428594/certified-7_lr7eey.png",
     alt: "bigcommerce-certified Partner",
-    link: "#",
+    link: "https://partners.bigcommerce.com/directory/partner/1983347/kushel-digi-solutions",
   },
   {
     // img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233929/WhatsApp_Image_2025-03-29_at_12.40.30_PM_1_flmzht.jpg",

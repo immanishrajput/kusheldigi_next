@@ -76095,3 +76095,7 @@ input::-webkit-inner-spin-button {
         margin-bottom:0px !important;
     }
 }
+
+.pd1 {
+    padding: 30px 60px !important;
+}
