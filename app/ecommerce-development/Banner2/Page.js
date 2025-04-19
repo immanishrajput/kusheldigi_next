@@ -4,10 +4,10 @@ import './Banner2.css'
 import { FaArrowRight } from 'react-icons/fa'
 import Link from 'next/link'
 const Banner2 = () => {
-  const scrollToForm = () => {
-    const formSection = document.getElementById('contacthtmlForm');
+  const scrollToFormEcomHome = () => {
+    const formSection = document.getElementById('form-section');
     if (formSection) {
-      const yOffset = -240; 
+      const yOffset = -120; 
       const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
       window.scrollTo({ top: y, behavior: 'smooth' });
     }
@@ -44,7 +44,7 @@ const Banner2 = () => {
       </p>
       <div className="buttonsssBan2">
         <Link href="/contact-us" className="primary-btnssBan2">Book a Call <FaArrowRight/> </Link>
-         <button onClick={scrollToForm} className="secondary-btnssBan2">  
+         <button onClick={scrollToFormEcomHome} className="secondary-btnssBan2">  
            Request An Audit </button>
       </div>
     </div>

@@ -25,7 +25,7 @@ const partners = [
     // img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233929/WhatsApp_Image_2025-03-29_at_12.40.30_PM_1_flmzht.jpg",
     img:"https://res.cloudinary.com/dgif730br/image/upload/v1743429400/magento-4_khm8ni.png",
     alt: "Magento Partner",
-    link: "/magento",
+    link: "/magento-development",
   },
   {
     // img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233924/WhatsApp_Image_2025-03-29_at_12.40.31_PM_1_lgmnkv.jpg",
@@ -43,7 +43,7 @@ const partners = [
     // img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233924/WhatsApp_Image_2025-03-29_at_12.40.31_PM_ae7idi.jpg",
     img:"https://res.cloudinary.com/dgif730br/image/upload/v1743429911/shopify-8_ck0pgq.png",
     alt: "/shopify",
-    link: "/shopify",
+    link: "/shopify-development",
   },
   {
     // img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743234242/WhatsApp_Image_2025-03-29_at_12.40.32_PM_hfpuyo.jpg",

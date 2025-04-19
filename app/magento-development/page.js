@@ -31,7 +31,7 @@ import MagentoBanner from "./MagentoBanner/MagentoBanner";
 import WhyMagento from "./WhyMagento/WhyMagento";
 import TechWeUse from "./TechWeUse/TechWeUse";
 import BigBanner8 from "../bigcommerce-development/BigBanner8/page";
-import ShopifyProcess from "../shopify/ShopifyProcess/ShopifyProcess";
+import ShopifyProcess from "../shopify-development/ShopifyProcess/ShopifyProcess";
 import HomeForm from "../components/Home/HomeForm";
 import BigBanner4 from "../bigcommerce-development/BigBanner4/page"
 

@@ -22,18 +22,53 @@ const Banner = () => {
     slidesToScroll: 1,
     waitForAnimate: false,
     pauseOnHover: false
-};
+  };
 
 
 
-  const scrollToForm = () => {
-    const formSection = document.getElementById('contacthtmlForm');
+  // const scrollToFormEcom = () => {
+  //   const formSection = document.getElementById('form-section');
+  //   if (formSection) {
+  //     const yOffset = -120; 
+  //     const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+  //     window.scrollTo({ top: y, behavior: 'smooth' });
+  //   }
+  // };
+
+  const scrollToFormEcom = () => {
+    const formSection = document.getElementById('form-section');
     if (formSection) {
-      const yOffset =-219; 
-      const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      const rect = formSection.getBoundingClientRect();
+      console.log('formSection top:', rect.top);
+      console.log('pageYOffset:', window.pageYOffset);
+      console.log('calculated scroll position:', rect.top + window.pageYOffset);
+
+      const yOffset = -120;
+      const y = rect.top + window.pageYOffset + yOffset;
       window.scrollTo({ top: y, behavior: 'smooth' });
     }
   };
+
+  // const handleScroll = (e) => {
+  //   e.preventDefault(); // Prevent the default link behavior
+  //   const yOffset = -120; // Adjust this value as needed
+  //   const element = document.querySelector('#form-section');
+    
+  //   if (element) {
+  //     const elementPosition = element.getBoundingClientRect().top + window.scrollY; // Using scrollY instead of pageYOffset for better accuracy
+  //     const offsetPosition = elementPosition + yOffset;
+
+  //     console.log('formSection top:', elementPosition);
+  //     console.log('pageYOffset:', window.scrollY); // Logs the current page scroll position
+  //     console.log('calculated scroll position:', offsetPosition);
+
+  //     window.scrollTo({
+  //       top: offsetPosition,
+  //       behavior: 'smooth',
+  //     });
+  //   }
+  // };
+
 
   return (
     <>
@@ -52,43 +87,46 @@ const Banner = () => {
                 to your business needs.
               </p>
               <div className="buttonsBi">
-                 <button onClick={scrollToForm} className="secondary-btn">
+                <button onClick={scrollToFormEcom} className="secondary-btn">
                   Talk To a Consultant
                  </button>
+                {/* <Link href="#form-section" className="secondary-btn">
+                  Talk To a Consultant
+                </Link> */}
                 <Link href="/contact-us" className="primary-btn">
-                  Book A Call<FaArrowRight/>
-                </Link>    
+                  Book A Call<FaArrowRight />
+                </Link>
               </div>
             </div>
           </div>
 
           <div className="img-containerCo">
-          <Slider {...settings}>
-                            <img className='new-banner-scroll-img'
-                                width="486"
-                                height="463"
-                                loading='lazy'
-                                // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741088247/MacBook_2_2_two22g.png"
-                                src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1744458202/mockup-2_wpwbsq.png'
-                                alt="bigcommerce"
-                            />
-                            <img
-                                width="486"
-                                height="463"
-                                loading='lazy'
-                                // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742641401/immmmm-removebg-preview_yhm4on.png"
-                                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744458202/mockup-3_jqdrh1.png"
-                                alt="shopify"
-                            />
-                            <img className='new-banner-scroll-img'
-                                width="486"
-                                height="463"
-                                loading='lazy'
-                                // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741089462/Group_1171281256_1_znsijn.png"
-                                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744458202/mockup-1_lz5bgz.png"
-                                alt="magento"
-                            />
-                        </Slider>
+            <Slider {...settings}>
+              <img className='new-banner-scroll-img'
+                width="486"
+                height="463"
+                loading='lazy'
+                // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741088247/MacBook_2_2_two22g.png"
+                src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1744458202/mockup-2_wpwbsq.png'
+                alt="bigcommerce"
+              />
+              <img
+                width="486"
+                height="463"
+                loading='lazy'
+                // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742641401/immmmm-removebg-preview_yhm4on.png"
+                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744458202/mockup-3_jqdrh1.png"
+                alt="shopify"
+              />
+              <img className='new-banner-scroll-img'
+                width="486"
+                height="463"
+                loading='lazy'
+                // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741089462/Group_1171281256_1_znsijn.png"
+                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744458202/mockup-1_lz5bgz.png"
+                alt="magento"
+              />
+            </Slider>
 
           </div>
         </div>
@@ -97,4 +135,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default Banner

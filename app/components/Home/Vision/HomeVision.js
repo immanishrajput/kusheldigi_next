@@ -33,10 +33,10 @@ const Website = () => {
   //           window.removeEventListener("hashchange", handleHashChange, false);
   //         };
   //       }, []);
-  const scrollToForm = () => {
-    const formSection = document.getElementById('contacthtmlForm');
+  const scrollToFormVision = () => {
+    const formSection = document.getElementById('form-section');
     if (formSection) {
-      const yOffset = -240; 
+      const yOffset = -120; 
       const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
       window.scrollTo({ top: y, behavior: 'smooth' });
     }
@@ -140,7 +140,7 @@ const Website = () => {
                         </li>
                         <li>
                           <h4>
-                            <Link href="/shopify" target="">
+                            <Link href="/shopify-development" target="">
                               <span>Shopify</span>
                             </Link>
                           </h4>
@@ -1061,7 +1061,7 @@ const Website = () => {
                   <div className="search-input-box" id='visionBtnDiv'>
 
                     <button onClick={() => {
-                      handleClick(); scrollToForm()
+                      handleClick(); scrollToFormVision()
                     }}
                       type="button"
                       id='talk-btn'

@@ -8,10 +8,10 @@ import { useRouter } from 'next/navigation';
 const CustomSoftwareBanner = () => {
       const navigate = useRouter();
 
-    const scrollToForm = () => {
-        const formSection = document.getElementById('contacthtmlForm');
+      const scrollToFormCustom = () => {
+        const formSection = document.getElementById('form-section');
         if (formSection) {
-          const yOffset = -240; 
+          const yOffset = -120; 
           const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
           window.scrollTo({ top: y, behavior: 'smooth' });
         }
@@ -26,7 +26,7 @@ const CustomSoftwareBanner = () => {
                 <p className='custom-software-banner-para'>Rise to new levels of growth by driving efficiency with
                 software solutions that guarantee success</p>
                 <div className='flex-new-banner-btns'>
-                                        <button onClick={scrollToForm} className='new-banner-btn colored'>Talk to a Consultant</button>
+                                        <button onClick={scrollToFormCustom} className='new-banner-btn colored'>Talk to a Consultant</button>
                                         <button onClick={() => navigate.push('/contact-us')} className='new-banner-btn transparent'>Book a Call  <FaArrowRightLong /></button>
                 </div>
             </div>

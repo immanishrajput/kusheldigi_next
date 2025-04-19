@@ -8,10 +8,10 @@ import Link from 'next/link';
 
 const MagentoBanner = () => {
     // const navigate = useRouter();
-    const scrollToForm = () => {
-      const formSection = document.getElementById('contacthtmlForm');
+    const scrollToFormMagento = () => {
+      const formSection = document.getElementById('form-section');
       if (formSection) {
-        const yOffset = -240; 
+        const yOffset = -120; 
         const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
         window.scrollTo({ top: y, behavior: 'smooth' });
       }
@@ -27,7 +27,7 @@ const MagentoBanner = () => {
                 </div>
 
                 <div className='flex-new-banner-btns'>
-                        <button onClick={scrollToForm} className='new-banner-btn colored'>Talk to a Consultant</button>
+                        <button onClick={scrollToFormMagento} className='new-banner-btn colored'>Talk to a Consultant</button>
                         <Link  href='/contact-us'  className='new-banner-btn transparent'>Book a Call  <FaArrowRightLong /></Link>
                 </div>
             </div>

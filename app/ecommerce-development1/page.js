@@ -156,7 +156,7 @@ const USA = ({ notify }) => {
                 }}
               >
                 <SplideSlide>
-                  <Link href="/shopify"><div className="home4121">
+                  <Link href="/shopify-development"><div className="home4121">
                     <img
                       className=" block m-auto"
                       src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739168276/a7_ve2lkd.png'
@@ -188,7 +188,7 @@ const USA = ({ notify }) => {
                   </div></Link>
                 </SplideSlide>
                 <SplideSlide>
-                  <Link href="/magento"><div className="home4121">
+                  <Link href="/magento-development"><div className="home4121">
                     <img
                       className=" block m-auto"
                       src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739168332/a8_fmbbmx.png'

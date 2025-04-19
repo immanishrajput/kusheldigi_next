@@ -56,10 +56,10 @@ const CaseStudy = () => {
   };
 
   
-  const scrollToForm = () => {
-    const formSection = document.getElementById('contacthtmlForm');
+  const scrollToFormBig = () => {
+    const formSection = document.getElementById('form-section');
     if (formSection) {
-      const yOffset = -217; 
+      const yOffset = -120; 
       const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
       window.scrollTo({ top: y, behavior: 'smooth' });
     }
@@ -84,7 +84,7 @@ const CaseStudy = () => {
                             ))
                         }
                         <div className='flex-bigcommerce-banner-btns'>
-                        <button onClick={scrollToForm} className='bigcommerce-banner-btn' >Talk to a Consultant</button>
+                        <button onClick={scrollToFormBig} className='bigcommerce-banner-btn' >Talk to a Consultant</button>
                         <Link href="/contact-us"> <button className='bigcommerce-banner-btn big-transparent-btn' >  Book a Call  <FaArrowRightLong /></button></Link>
                     </div>
                     </div>
