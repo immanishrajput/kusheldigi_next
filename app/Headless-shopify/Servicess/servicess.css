@@ -145,6 +145,7 @@
     .shopy-content-blockEcom h3 {
       font-size: 20px;
       margin-bottom: 14px;
+      font-weight: 500;
     }
   
     .shopy-content-blockEcom p {
@@ -163,7 +164,7 @@
       font-size: 24px;
       margin: 10px 0;
       line-height: 30px;
-      font-weight: 500;
+      font-weight: 600;
     }
   
     .shopy-left-sectionEcom p {
@@ -198,14 +199,14 @@
   
   @media (max-width: 450px) {
     .shopy-containerEcom {
-      padding: 16px 10px;
+      padding: 16px 22px;
     }
   
     .shopy-left-sectionEcom h1 {
       font-size: 20px;
       line-height: 26px;
       text-align: center;
-      font-weight: 500;
+      font-weight: 600;
     }
   
     .shopy-left-sectionEcom p {

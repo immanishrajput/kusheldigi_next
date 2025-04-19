@@ -117,6 +117,12 @@ const data = [
       {
         title: "Headless commerce",
         navigate: "/headless-commerce",
+        subpart: [
+          {
+            title: "Shopify Headless",
+            navigate: "/Headless-shopify",
+          },
+        ],
       },
       {
         title: "Graphic design",
