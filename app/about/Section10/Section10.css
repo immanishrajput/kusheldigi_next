@@ -163,7 +163,7 @@
       
         .cardPhilo {
           width: 90%;
-          height: auto; /* Allow height to adjust if necessary */
+          height: auto; 
         }
       }
       @media (max-width:1200px){
@@ -184,7 +184,7 @@
 
       @media (max-width: 1024px) {
         .card-wrapper-wrapper {
-          width: 100%;
+          width: 90%;
         }
         .overlayWrap {
           width: 100%;
@@ -208,7 +208,7 @@
         }
       
         .cardPhilo {
-          max-width: 400px;
+          max-width: 500px;
         }
       }
       

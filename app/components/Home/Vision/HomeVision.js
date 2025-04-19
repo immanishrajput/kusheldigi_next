@@ -46,7 +46,7 @@ const Website = () => {
         <section className="services-we-served vision-section">
           <div className="container1">
             <div className="title">
-              <h3 className="primary-heading">Your Vision, Our Expertise</h3>
+              <h3 className="primary-heading">Real Success, Real Impact</h3>
             </div>
             <div className="section-grid">
               <div className="section-grid-item services-we-served-list">
@@ -76,9 +76,9 @@ const Website = () => {
                             />
                           </div>
                         </div>
-                        <h3 className="h6 services-box-title">
+                        <Link href='/ecommerce-development' className="h6 services-box-title">
                           Ecommerce Development
-                        </h3>
+                        </Link>
                       </div>
                       <span className={`services-box-down-icon ${activeIndex === 0 ? "rotate180" : ''}`}>
                         <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="" />
@@ -734,9 +734,9 @@ const Website = () => {
 
                           </div>
                         </div>
-                        <h3 className="h6 services-box-title">Custom Software Development
+                        <Link href='/custom-software-development' className="h6 services-box-title">Custom Software Development
 
-                        </h3>
+                        </Link>
                       </div>
                       <span className={`services-box-down-icon ${activeIndex === 4 ? "rotate180" : ''}`}>
                         <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="" />
