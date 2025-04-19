@@ -42,18 +42,18 @@ const TechWeUse = () => {
             category: "Database Management",
             items: ["MySQL", "MariaDB"]
         },
-        {
-            category: "Cloud & Hosting Solutions",
-            items: ["AWS", "Google Cloud Platform", "Microsoft Azure"]
-        },
-        {
-            category: "Payment Gateways",
-            items: ["PayPal", "Stripe", "Authorize.net", "Braintree", "Razorpay"]
-        },
-        {
-            category: "DevOps & Security",
-            items: ["Docker", "Kubernetes", "Jenkins", "Cloudflare", "SSL/TLS Encryption"]
-        }
+        // {
+        //     category: "Cloud & Hosting Solutions",
+        //     items: ["AWS", "Google Cloud Platform", "Microsoft Azure"]
+        // },
+        // {
+        //     category: "Payment Gateways",
+        //     items: ["PayPal", "Stripe", "Authorize.net", "Braintree", "Razorpay"]
+        // },
+        // {
+        //     category: "DevOps & Security",
+        //     items: ["Docker", "Kubernetes", "Jenkins", "Cloudflare", "SSL/TLS Encryption"]
+        // }
     ];
 
     const settings = {
