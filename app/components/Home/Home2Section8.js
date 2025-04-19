@@ -11,7 +11,7 @@ const data = [
     {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1724770190/shopify-logo-1.267b14f95e65e4678b89_rpktit.webp", 
       para: "Shopify offers intuitive functionality for easy store management. We brand your Shopify store to stay consistent with your identity and extend its functionalities through custom integrations. We focus on responsive design to ensure that your store looks and works perfect on every device. More than that, we can help you achieve mobile-first, user-friendly storefronts for boosting your business.", 
-      link: "/shopify", 
+      link: "/shopify-development", 
       alt: "Shopify logo"
     },
 ];

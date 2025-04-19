@@ -51,10 +51,10 @@ const NewBanner = () => {
     //     };
     // }, []);
 
-    const scrollToForm = () => {
-        const formSection = document.getElementById('contacthtmlForm');
+    const scrollToFormHome = () => {
+        const formSection = document.getElementById('form-section');
         if (formSection) {
-          const yOffset = -240; 
+          const yOffset = -120; 
           const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
           window.scrollTo({ top: y, behavior: 'smooth' });
         }
@@ -71,7 +71,7 @@ const NewBanner = () => {
                     </h4>
                     {/* <button className='new-banner-btn'>SCHEDULE A DEMO</button> */}
                     <div className='flex-new-banner-btns'>
-                        <button onClick={scrollToForm} className='new-banner-btn colored'>Talk to a Consultant</button>
+                        <button onClick={scrollToFormHome} className='new-banner-btn colored'>Talk to a Consultant</button>
                         <button onClick={() => navigate.push('/contact-us')} className='new-banner-btn transparent'>Book a Call  <FaArrowRightLong /></button>
                     </div>
                 </div>

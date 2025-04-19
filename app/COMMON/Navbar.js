@@ -54,11 +54,11 @@ const data = [
           },
           {
             title: "Shopify",
-            navigate: "/shopify",
+            navigate: "/shopify-development",
           },
           {
             title: "Magento",
-            navigate: "/magento",
+            navigate: "/magento-development",
           },
           {
             title: "WooCommerce",
@@ -475,9 +475,9 @@ const Navbar = () => {
                                   BigCommerce{" "}
                                 </Link>
                                 <span>|</span>
-                                <Link href="/shopify">Shopify </Link>
+                                <Link href="/shopify-development">Shopify </Link>
                                 <span>|</span>
-                                <Link href="/magento">Magento </Link>
+                                <Link href="/magento-development">Magento </Link>
                                 <span>|</span>
                                 <Link href="/woocommerce">WooCommerce </Link>
                               </div>

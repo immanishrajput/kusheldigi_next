@@ -17,7 +17,7 @@ const Banner = () => {
           const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
           window.scrollTo({ top: y, behavior: 'smooth' });
         }
-      };
+    };
   return (
 
     <>

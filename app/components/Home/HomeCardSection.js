@@ -58,7 +58,7 @@ function Card() {
           <li className="plt-li">Shopify SEO</li>
           <li className="plt-li">Shopify B2B</li>
         </ul>
-        <Link href="/shopify" className="plt-btn">
+        <Link href="/shopify-development" className="plt-btn">
           Learn More
         </Link>
       </div>
@@ -81,7 +81,7 @@ function Card() {
           <li className="plt-li">Magento B2B Solutions</li>
           <li className="plt-li"> Magento for CBD </li>
         </ul>
-        <Link href="/magento" className="plt-btn">
+        <Link href="/magento-development" className="plt-btn">
           Learn More
         </Link>
       </div>
