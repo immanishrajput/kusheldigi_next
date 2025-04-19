@@ -62,6 +62,9 @@
     .dev-partner-subtext{
       padding-top: 10px;
     }
+    .dev-partner-button{
+width: 165px;
+    }
   }
   @media (max-width: 768px) {
     .dev-partner {

@@ -23,7 +23,7 @@ export default function Section10() {
   useEffect(() => {
     const updateCards = () => {
       const screenWidth = window.innerWidth;
-      if (screenWidth <= 768) {
+      if (screenWidth <= 800) {
         setVisibleCards(1);
         setCardWidth(screenWidth); 
       } else {

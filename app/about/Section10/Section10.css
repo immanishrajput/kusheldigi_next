@@ -211,6 +211,47 @@
           max-width: 500px;
         }
       }
+      @media (max-width: 800px) {
+        .card-wrapper-wrapper {
+          width: 100%;
+          overflow: hidden;
+          
+        }
+      
+        .card-wrapper {
+          flex-direction: row;
+          flex-wrap: nowrap;
+          gap: 1.5rem;
+          transition: transform 0.5s ease-in-out;
+        }
+      
+        .cardPhilo {
+          width: 100% !important;
+          max-height: fit-content;
+          max-width: 100%;
+          box-sizing: border-box;
+        }
+      
+        .cardPhilo p {
+          width: 70%;
+          /* margin: 0 auto; */
+        }
+      
+        .text-contentSection h1 {
+          font-size: 1.8rem;
+          text-align: center;
+        }
+      
+        .highlightWapper,
+        .ConnetDivBtn {
+          text-align: center;
+        }
+      
+        .navigationWrapper {
+          justify-content: center;
+          margin-top: 1.5rem;
+        }
+      }
       
       @media (max-width: 768px) {
         .text-contentSection h1 {

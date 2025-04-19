@@ -105,6 +105,7 @@
     cursor: pointer;
     border-radius: 39px;
     display: inline-flex;
+    border: 1px solid #007BFF;
     gap: 8px;
     align-items: center;
     transition: all 0.3s ease;
@@ -112,7 +113,7 @@
   
   .Sssi-btn:hover {
     background-color: #ffffff !important;
-    color: #111;
+    color: #007BFF;
     border: 1px solid #007BFF;
   }
   

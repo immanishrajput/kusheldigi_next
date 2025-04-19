@@ -36,12 +36,13 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 40px 80px;
     margin-top: 40px;
-    /* max-width: 1149px; */
+
     margin-left: auto;
     margin-right: auto;
   }
   
   .onlinee-why-choose-card {
+    min-height: 23vh;
     background: white;
     padding: 27px 2px 27px 60px;
     border-radius: 15px;

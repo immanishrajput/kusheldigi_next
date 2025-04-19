@@ -72,13 +72,12 @@
   padding: 14px 22px;
   font-size: 0.9rem;
   font-weight: bold;
-  color: #111;
+  color: #397eff;
   cursor: pointer;
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  transition: transform 0.3s ease;
-  border: 1px solid #fff;
+  border: 1px solid #397eff;
 }
 
 .troffi-buttonn {
@@ -89,9 +88,9 @@
 .troffi-button:hover,
 .troffi-buttonn:hover {
   color: #fff;
-  background: rgba(55, 148, 255, 0.837);
+  background: #397eff;
   transform: translateX(5px);
-  border: 1px solid rgba(55, 148, 255, 0.837);
+  border: 1px solid #397eff;
 }
 
 .troffi-button .arrow,
