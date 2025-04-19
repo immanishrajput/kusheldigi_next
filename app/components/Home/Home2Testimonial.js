@@ -104,7 +104,7 @@ function Home2Testimonial() {
               1200:{
                 perPage: 2,
                 gap: '10px',
-                width:"75%"
+                width:"74%"
               },
              1023:{
               perPage: 2,

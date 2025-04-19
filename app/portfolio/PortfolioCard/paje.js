@@ -16,6 +16,9 @@ const portfolioData = [
       caseStudy: '/kick-eez',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+      case1:'BigCommerce',
+
     category: ["ecommerce"],
   },
   {
@@ -31,6 +34,8 @@ const portfolioData = [
       caseStudy: '/pro-track',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'BigCommerce',
     category: ["ecommerce"],
     
   },
@@ -47,6 +52,8 @@ const portfolioData = [
       caseStudy: '/rely',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'BigCommerce',
     category: ["ecommerce"],
   },
   {
@@ -62,21 +69,25 @@ const portfolioData = [
       caseStudy: '/solenoid-ninja',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'BigCommerce',
     category: ["ecommerce"],
   },
   {
     id: 'automotive-5',
     // companyName: 'Ballistic Dummy Lab',
     logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725952762/image_75_ywf6np.svg',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745055547/shopify_m2gdvp.png',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
     links: {
-      liveStore: 'https://www.phastekperformance.com/',
+  
       caseStudy: '/ballistic',
-      platform: '/bigcommerce-development',
+      platform: '/shopify-development',
     },
+    case:'Case Study',
+    case1:'Shopify',
     category: ["ecommerce"],
   },
   {
@@ -92,6 +103,8 @@ const portfolioData = [
       caseStudy: '/sites',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'BigCommerce',
     category: ["ecommerce"],
   },
   {
@@ -107,6 +120,8 @@ const portfolioData = [
       caseStudy: '/topbrass',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'BigCommerce',
     category: ["ecommerce"],
   },
   {
@@ -122,6 +137,8 @@ const portfolioData = [
       caseStudy: '/Slidesdesign',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'BigCommerce',
     category: ["ecommerce"],
   },
   {
@@ -137,11 +154,12 @@ const portfolioData = [
       caseStudy: '/2ndamendment',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'BigCommerce',
     category: ["ecommerce"],
   },
 //   {
 //     id: 'automotive-59',
-//     // companyName: '2ndamendment Armory',
 //     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744637742/lovely_nymplp.png',
 //     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
 //     description: [
@@ -167,6 +185,8 @@ const portfolioData = [
       caseStudy: '/Ai',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'BigCommerce',
     category: ["ecommerce"],
   },
   {
@@ -182,6 +202,8 @@ const portfolioData = [
       caseStudy: '/rideready',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'BigCommerce',
     category: ["ecommerce"],
   },
   {
@@ -197,6 +219,8 @@ const portfolioData = [
       caseStudy: '/crazyCMS',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'BigCommerce',
     category: ["website"],
   },
   {
@@ -208,10 +232,12 @@ const portfolioData = [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
     links: {
-      liveStore: 'https://www.phastekperformance.com/',
+    
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'BigCommerce',
     category: ["website"],
   },
   {
@@ -227,6 +253,8 @@ const portfolioData = [
       caseStudy: '/woodView',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'BigCommerce',
     category: ["website"],
   },
   {
@@ -242,6 +270,8 @@ const portfolioData = [
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'BigCommerce',
     category: ["website"],
   },
  
@@ -258,6 +288,8 @@ const portfolioData = [
       caseStudy: '/subhAlloy',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'BigCommerce',
     category: ["website"],
   },
   {
@@ -273,6 +305,8 @@ const portfolioData = [
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'BigCommerce',
     category: ["website"],
   },
   {
@@ -288,6 +322,8 @@ const portfolioData = [
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'BigCommerce',
     category: ["software"],
   },
   {
@@ -303,6 +339,8 @@ const portfolioData = [
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'BigCommerce',
     category: ["software"],
   },
   {
@@ -318,6 +356,8 @@ const portfolioData = [
       caseStudy: '/Digitalmna',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'BigCommerce',
     category: ["software"],
   },
   {
@@ -333,6 +373,8 @@ const portfolioData = [
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'BigCommerce',
     category: ["software"],
 
 
@@ -350,6 +392,8 @@ const portfolioData = [
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'BigCommerce',
     category: ["software"],
   },
   {
@@ -379,6 +423,8 @@ const portfolioData = [
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'BigCommerce',
     category: ["software"],
   },
   {
@@ -393,6 +439,8 @@ const portfolioData = [
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'BigCommerce',
     category: ["software"],
   },
 //   {
@@ -407,6 +455,8 @@ const portfolioData = [
 //       caseStudy: '#',
 //       platform: '/bigcommerce-development',
 //     },
+// case:'Case Study',
+// case1:'BigCommerce',
 //     category: ["software"],
 //   },
   {
@@ -422,6 +472,8 @@ const portfolioData = [
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'BigCommerce',
     category: ["appdevelop"],
   },
   {
@@ -437,6 +489,8 @@ const portfolioData = [
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'BigCommerce',
     category: ["appdevelop"],
   },
   {
@@ -452,6 +506,8 @@ const portfolioData = [
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'BigCommerce',
     category: ["appdevelop"],
   },
   {
@@ -467,6 +523,8 @@ const portfolioData = [
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'BigCommerce',
     category: ["appdevelop"],
   },
   {
@@ -482,6 +540,8 @@ const portfolioData = [
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'BigCommerce',
     category: ["appdevelop"],
   },
   {
@@ -497,6 +557,8 @@ const portfolioData = [
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'BigCommerce',
     category: ["appdevelop"],
   },
   {
@@ -511,6 +573,8 @@ const portfolioData = [
       caseStudy: '#',
       platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'BigCommerce',
     category: ["oddodevelop"],
   },
 ];
@@ -560,9 +624,13 @@ const Portfolio = () => {
                   })}
                   <ul>
                     
-                    <li><Link href={item.links?.caseStudy}>Case Study</Link></li>
+                    <li><Link href={item.links?.caseStudy}>
+                             {item.case}
+                    </Link></li>
                     <li className="list-divider">|</li>
-                    <li><a href={item.links?.platform}>BigCommerce</a></li>
+                    <li><a href={item.links?.platform}>
+                    {item.case1}
+                      </a></li>
                   </ul>
                 </div>
               </div>

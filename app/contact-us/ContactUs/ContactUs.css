@@ -159,7 +159,7 @@ background-color: #cccccc32;
   overflow: hidden;
   position: relative;
   margin: 20px auto;
-  padding: 0 15px; /* adds spacing on small screens */
+  padding: 0 15px;
 }
 
 .slider-track {
@@ -173,7 +173,6 @@ background-color: #cccccc32;
   margin-right: 35px;
 }
 
-/* Keep animation smooth */
 @keyframes scroll {
   0% {
       transform: translateX(0);
@@ -183,8 +182,6 @@ background-color: #cccccc32;
       transform: translateX(-50%);
   }
 }
-
-/* === Responsive === */
 @media screen and (max-width: 576px) {
   .sliderTrusted {
       padding: 0 10px;
@@ -309,8 +306,11 @@ display: none;
   }
 }
 @media (max-width: 1024px) {
+  .contactMainku{
+    padding: 0;
+  }
   .contact-containerKush {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     padding: 40px;
   }
