@@ -236,6 +236,8 @@ each-portfolio-cards {
     position: absolute;
     bottom: 30px;
     right: 30px;
+  height: 40px;
+  width: 178px;
     transition: 1s;
 }
 .each-portfolio:hover .top-company-logos{
@@ -248,7 +250,7 @@ each-portfolio-cards {
     position: absolute;
     }
 .each-portfolio:hover .bottom-platform-logo {
-    right: -60%;
+    right: -100%;
 }
 .each-portfolio-cards-content {
     position: relative;

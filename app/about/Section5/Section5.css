@@ -50,6 +50,11 @@
        .slick-dots{
         display: none !important;
        }
+       @media (max-width:1200px){
+        .award-itemCom{
+          padding:40px ;
+        }
+       }
   @media (max-width: 768px) {
     .awards-containerCom {
       gap: 30px;
