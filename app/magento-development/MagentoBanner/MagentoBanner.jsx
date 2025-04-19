@@ -32,7 +32,7 @@ const MagentoBanner = () => {
                 </div>
             </div>
             <div className="magento-banner-right">
-                <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744994836/png_1_fdkhtk.png" alt="magnto-banner" />
+                <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745056377/Group_52_wx76wd.png" alt="magnto-banner" />
             </div>
         </div>
     </div>
