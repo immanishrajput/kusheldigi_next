@@ -66,7 +66,7 @@ const Progress = ({page}) => {
                                 <div id='phase2' className="process-button"></div>
                                 <div id='phase2Name'>
                                     <span className=''>02</span>
-                                    <span className='procBCom'>UI/UX Design                                </span>
+                                    <span className='procBCom'>UI/UX Design   </span>
                                 </div>
     
                                 <div id='phase3' className="process-button"></div>

@@ -76,7 +76,7 @@
     
     .storefront-right {
       margin: 0;
-      padding-top: 30px;
+  
     }
     
     .storefront-left, 
@@ -88,15 +88,18 @@
   
   @media (max-width: 480px) {
     .storefront-section {
-      padding: 40px 10px;
+      padding: 1px 22px 40px 22px;
     }
     
     .storefront-right h2 {
       font-size: 24px;
+      text-align: center;
     }
     
     .storefront-right p {
       font-size: 14px;
+      text-align: center;
+
     }
   }
   

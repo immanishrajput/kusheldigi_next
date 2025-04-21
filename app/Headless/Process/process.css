@@ -61,7 +61,7 @@
     }
 
     #switch:checked+#switchLabel {
-        background: #12b76a;
+        background: rgb(10, 84, 222) ;
     }
 
     #switch:checked+#switchLabel:after {
@@ -141,11 +141,11 @@
     }
 
     .headless-process-button {
-        border: 1px solid #12b76a;
+        border: 1px solid rgb(10, 84, 222) ;
         border-radius: 50px;
         height: 25px;
         display: block;
-        background: linear-gradient(to right, #12b76a 50%, white 50%);
+        background: linear-gradient(to right, rgb(10, 84, 222) 50%, white 50%);
         background-size: 200% 100%;
         background-position: right bottom;
         transition: all .5s ease-out;
@@ -235,7 +235,7 @@
         background-color: #c4e5d1;
         height: 105px;
         position: absolute;
-        left: -9px;
+        left: -1px;
         bottom: 96px;
     }
 
@@ -277,7 +277,7 @@
     #headless-phase3Name {
         position: absolute;
         top: -21px;
-        left: 41px;
+        left: 149px;
         opacity: 0;
         display: flex;
         flex-direction: column;
@@ -289,10 +289,10 @@
         display: inline-block;
         width: 1px;
         background-color: #c4e5d1;
-        height: 369px;
+        height: 341px;
         position: absolute;
         left: 255px;
-        top: 8px;
+        top: 14px;
 
     }
 
@@ -354,7 +354,7 @@
     #headless-phase7Name {
         position: absolute;
         top: 31px;
-        right: 154px;
+        right: 235px;
         display: flex;
         opacity: 0;
         flex-direction: column;
@@ -375,8 +375,9 @@
 
     #headless-phase8Name {
         position: absolute;
+      
         top: -7px;
-        right: -58px;
+        right: -9px;
         display: flex;
         opacity: 0;
         flex-direction: column;
