@@ -3,78 +3,74 @@ import "./dev.css";
 import { motion } from "framer-motion";
 import { FaArrowRight } from "react-icons/fa";
 
+const services = [
+  {
+    title: "Shopify Headless Development",
+    image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743807615/shopify-headless_czd3ql.webp",
+    points: [
+      "Integrate with Shopify Storefront API and Hydrogen framework.",
+      "Optimize performance and SEO with modern frontend stacks.",
+      "Sell across channels—web, mobile, social, and more—from one backend.",
+    ],
+  },
+  {
+    title: "BigCommerce Headless Development",
+    image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743807614/big-headless_v7tmk5.webp",
+    points: [
+      "Use React, Next.js, or other JS frameworks for custom frontend.",
+      "Deliver lightning-fast storefronts with decoupled performance.",
+      "Integrate BigCommerce APIs for seamless product and checkout flows.",
+    ],
+  },
+  {
+    title: "Magento Headless Development",
+    image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743807615/magento-headless_obqrnt.webp",
+    points: [
+      "Use PWA Studio or custom frameworks like Vue Storefront.",
+      "Improve user experience with fast, responsive UIs.",
+      "Connect with Magento’s robust APIs for real-time data sync.",
+    ],
+  },
+  {
+    title: "Odoo Headless Development",
+    image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743808470/odoo-headless_wz6t4z.webp",
+    points: [
+      "Connect with Odoo’s REST APIs for seamless frontend integration.",
+      "Build dynamic storefronts using frameworks like React or Angular.",
+      "Extend ERP, CRM, and eCommerce functionalities into a modern UI.",
+    ],
+  },
+  {
+    title: "Headless Migration Services",
+    image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743808470/headless-migration_ajrjl2.webp",
+    points: [
+      "Full data migration including products, users, and orders.",
+      "Rebuild frontend using advanced frameworks like React or Vue.",
+      "Minimize downtime with a carefully planned, phased transition.",
+    ],
+  },
+  {
+    title: "WooCommerce Headless Development",
+    image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743808470/headless-consulting_xs5dfp.webp",
+    points: [
+      "Build decoupled frontends with React, Gatsby, or Next.js.",
+      "Maintain WooCommerce backend with enhanced UX and speed.",
+      "Connect plugins, CRMs, and third-party tools with REST or GraphQL APIs.",
+    ],
+  },
+];
+
 export default function WhyChoose() {
   return (
     <section className="developmental">
       <div className="subset">
-        <h2 className="developmental-subtitle">
-        FUTURE-PROOF YOUR STORE 
-
-        </h2>
-        <p className="developmental-title">
-        With Our Headless Commerce Development
-        </p>
+        <h2 className="developmental-subtitle">FUTURE-PROOF YOUR STORE</h2>
+        <p className="developmental-title">With Our Headless Commerce Development</p>
 
         <div className="developmental-cards">
-          {[ 
-            {
-              title: "Shopify Headless Development",
-              image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743807615/shopify-headless_czd3ql.webp",
-              points: [
-                "Integrate with Shopify Storefront API and Hydrogen framework.",
-                "Optimize performance and SEO with modern frontend stacks.",
-                "Sell across channels—web, mobile, social, and more—from one backend."
-              ]
-            },
-            {
-              title: " BigCommerce Headless Development",
-              image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743807614/big-headless_v7tmk5.webp",
-              points: [
-                "Use React, Next.js, or other JS frameworks for custom frontend.",
-                "Deliver lightning-fast storefronts with decoupled performance.",
-                "Integrate BigCommerce APIs for seamless product and checkout flows."
-              ]
-            },
-            {
-              title: "Magento Headless Development",
-              image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743807615/magento-headless_obqrnt.webp",
-              points: [
-                "Use PWA Studio or custom frameworks like Vue Storefront.",
-                "Improve user experience with fast, responsive UIs.",
-                "Connect with Magento’s robust APIs for real-time data sync."
-              ]
-            },
-            {
-                title: "Odoo Headless Development",
-
-                image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743808470/odoo-headless_wz6t4z.webp",
-                points: [
-                  "Connect with Odoo’s REST APIs for seamless frontend integration.",
-                  "Build dynamic storefronts using frameworks like React or Angular.",
-                  "Extend ERP, CRM, and eCommerce functionalities into a modern UI."
-                ]
-              },
-              {
-                title: "Headless Migration Services",
-                image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743808470/headless-migration_ajrjl2.webp",
-                points: [
-                  "Full data migration including products, users, and orders.",
-                  "Rebuild frontend using advanced frameworks like React or Vue.",
-                  "Minimize downtime with a carefully planned, phased transition."
-                ]
-              },
-              {
-                title: "WooCommerce Headless Development",
-                image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743808470/headless-consulting_xs5dfp.webp",
-                points: [
-                  "Build decoupled frontends with React, Gatsby, or Next.js.",
-                  "Maintain WooCommerce backend with enhanced UX and speed.",
-                  "Connect plugins, CRMs, and third-party tools with REST or GraphQL APIs."
-                ]
-              }
-          ].map((item, index) => (
-            <motion.div 
-              key={index} 
+          {services.map((item, index) => (
+            <motion.div
+              key={index}
               className="developmental-card"
               whileHover={{ scale: 1.05 }}
               initial={{ opacity: 0, y: 20 }}
