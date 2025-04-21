@@ -37,27 +37,27 @@ const services = [
     description: "Full-cycle development tailored to business goals and needs.",
   },
   {
-    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960439/Mask_group_52_lfvdue.png",
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960440/Mask_group_51_o200tw.png",
     title: "Advanced Search and Navigation",
     description: "Full-cycle development tailored to business goals and needs.",
   },
   {
-    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960438/Mask_group_53_kjj9ap.png",
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960439/Mask_group_52_lfvdue.png",
     title: "Robust Security and Compliance",
     description: "Full-cycle development tailored to business goals and needs.",
   },
   {
-    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960432/Mask_group_55_molofs.png",
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960438/Mask_group_53_kjj9ap.png",
     title: "Multi-Device Support",
     description: "Full-cycle development tailored to business goals and needs.",
   },
   {
-    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960432/Mask_group_56_sij6rm.png",
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960432/Mask_group_55_molofs.png",
     title: "Marketing Automation Integration",
     description: "Full-cycle development tailored to business goals and needs.",
   },
   {
-    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960432/Mask_group_57_iy77ii.png",
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960432/Mask_group_56_sij6rm.png",
     title: "API-First Approach",
     description: "Full-cycle development tailored to business goals and needs.",
   },
@@ -76,9 +76,9 @@ const services = [
     title: "PWA Compatibility",
     description: "Full-cycle development tailored to business goals and needs.",
   },
-  
+
   {
-    img: "", 
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960440/Mask_group_51_o200tw.png", 
     title: "Advanced Analytics and Reporting",
     description: "Full-cycle development tailored to business goals and needs.",
   },

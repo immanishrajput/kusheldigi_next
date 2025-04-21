@@ -29,6 +29,8 @@
   }
   .victus {
     text-transform: uppercase;
+    font-weight: 500;
+    padding: 0px 0px 0px 5px;
   
   }
 
@@ -36,9 +38,9 @@
   .tripole4 {
     font-size: 3rem;
     font-weight: 700;
-    padding: 20px 0px 0px 0px;
+    padding: 12px 0px 0px 0px;
     line-height: 50px;
-    font-weight: 600;
+    font-weight: 700;
     color: rgb(42, 41, 41);
     margin-bottom: 15px;
   }

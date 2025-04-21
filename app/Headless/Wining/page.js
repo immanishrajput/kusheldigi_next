@@ -12,7 +12,7 @@ export default function StepSection() {
   with Kushel Digi Solutions.
   </h2>
   <p className="step-subtitle">
-  Follow these 4 simple steps to choose the best approach for headless commerce solutions.
+  Follow these 4 simple steps to choose the best approach for headless commerce solutions
   </p>
 
   <div className="step-cards">

@@ -24,7 +24,7 @@
 
     .headless-progress-sm-heading {
         /* padding:16px 0px 0px 0px; */
-        font-size: 1.1rem;
+        font-size: 39px !important;
         font-weight: 400;
         margin-top: 15px;
         text-align: center !important;
@@ -611,4 +611,10 @@
         }
     }
 
+    @media(max-width:600px){
+        .progress-toggle-btn-div {
+            margin: auto;
+            padding: 15px 0px 0px 0px;
+        }
+    }
     
