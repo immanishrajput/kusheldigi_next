@@ -70,7 +70,7 @@ Kushel Digi Solutions?
           </div>
           <h3>Seamless Integration
           </h3>
-          <p>Get a smooth transition into Headless with our integration and migration services. We ensure zero hassle for a seamless process.
+          <p>Get a smooth transition into Headless with our integration and migration services. We ensure zero hassle for a seamless processs.
           </p>
         </div>
 
