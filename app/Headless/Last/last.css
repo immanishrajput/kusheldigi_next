@@ -20,12 +20,14 @@
     color: #000000;
     text-transform: uppercase;
     font-size: 16px;
+    font-weight: 500;
   }
   
   .left-sectionEcom-Headless h1 {
     font-size: 39px;
     line-height: 42px;
     font-weight: 550;
+    max-width: 498px;
     margin: 10px 0;
     color: #000000;
   }

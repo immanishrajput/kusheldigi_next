@@ -15,8 +15,8 @@ const Flex = () => {
       </div>
       <div className="hheadless-con--2-div-contentt">
 
-        <h3>Replace frontend, keep
-        your backend investment</h3>
+        <h3>Businesses using headless commerce see measurable growth across all key metrics.
+        </h3>
       </div>
 
       <div>

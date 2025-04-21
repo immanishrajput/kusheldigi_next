@@ -146,11 +146,13 @@
   
     .text-content h2 {
       font-size: 22px;
+      text-align: center;
     }
   
     .text-content p {
       font-size: 14px;
       padding-top: 8px;
+      text-align: center;
     }
   
     .principles-list {

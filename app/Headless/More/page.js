@@ -7,32 +7,32 @@ const principlesData = [
     id: 1,
     title: " Total Design Freedom",
     content:
-      "Break free from rigid templates. Headless commerce gives your design and development teams full control over the user experience across every device and platform.",
+      "Tired of choosing rigid templates? Headless commerce gives your design and development teams full control  over the user experience on every device and platform.",
   },
   {
     id: 2,
     title: " Seamless Omnichannel Delivery",
-    content: "Engage customers on their preferred platforms — web, mobile, kiosks, voice assistants, and more — using a single backend system for consistent messaging and experience.",
+    content: "Reach customers on their channel of choice web, mobile, kiosks, voice assistants, and more from a single backend system to provide unified messaging and experience.",
   },
   {
     id: 3,
     title: "Lightning-Fast Performance",
-    content: "With optimized frontend frameworks and decoupled architecture, headless commerce ensures faster page loads and smoother shopping experiences that boost conversions.",
+    content: "By leveraging optimized frontend frameworks and decoupled architecture, headless commerce provides accelerated page loads and seamless shopping experiences that drive higher conversions.",
   },
   {
     id: 4,
     title: " Scalable & Flexible Architecture",
-    content: "Scale effortlessly as your business grows. Headless platforms are built to adapt — letting you add new channels, features, or integrations without a full rebuild.",
+    content: "Scale effortlessly as your business grows. With Headless platforms, you dnot need to fully rebuild the platform as these are are built to adapt by letting you add new channels, features, or integrations.",
   },
   {
     id: 5,
     title: "Faster Innovation & Launches",
-    content: "Launch new storefronts, updates, or campaigns quickly. With independent frontend/backend workflows, your team can move faster and innovate continuously.",
+    content: "Launch new storefronts, updates, or campaigns quickly. With separate frontend/backend workflows, your team can move faster and innovate continuously.",
   },
   {
     id: 6,
     title: "Future-Ready Commerce Solution",
-    content: "Stay ahead of the curve with a system built for change. Headless commerce supports emerging technologies, ensuring you're ready for whatever comes next in eCommerce.",
+    content: "Be ahead of the curve with a system built for change. It supports latest technologies to ensure you're ready for whatever comes next in eCommerce.",
   },
 ];
 
@@ -51,8 +51,7 @@ const CorePrinciples = () => {
           Why <span className="highlight">Headless Commerce?</span>
         </h2>
         <p>
-        Headless commerce offers unmatched flexibility, speed, and scalability—empowering your business to craft seamless, omnichannel experiences and adapt quickly to changing market demands.
-
+        Headless commerce known for its unmatched flexibility, speed and scalability. It has been greatly helping modern businesses to create seamless, omnichannel experiences and adapt quickly to changing market demands.
         </p>
       </div>
 

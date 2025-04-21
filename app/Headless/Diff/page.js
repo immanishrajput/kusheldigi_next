@@ -31,37 +31,49 @@ const MoniterHeadlessCommerce = () => {
               <span className="moniter-icon moniter-icon-red">
                 <FaTimes />
               </span>{" "}
-              Dependent on tech stack
+              Decoupled Frontend & Backend
+
+
             </li>
             <li>
               <span className="moniter-icon moniter-icon-red">
                 <FaTimes />
               </span>{" "}
-              Pre-built UI/UX flows, limited customization
+              High Customization & Flexibility
+
             </li>
             <li>
               <span className="moniter-icon moniter-icon-red">
                 <FaTimes />
               </span>{" "}
-              Every device/channel is managed separately
+              Faster Time-to-Market
+
             </li>
             <li>
               <span className="moniter-icon moniter-icon-red">
                 <FaTimes />
               </span>{" "}
-              Requires developers across every step
+              Omnichannel Ready
+              </li>
+            <li>
+              <span className="moniter-icon moniter-icon-red">
+                <FaTimes />
+              </span>{" "}
+              Enhanced Personalization
             </li>
             <li>
               <span className="moniter-icon moniter-icon-red">
                 <FaTimes />
               </span>{" "}
-              Hard to scale
+              API-Driven Architecture
             </li>
             <li>
               <span className="moniter-icon moniter-icon-red">
                 <FaTimes />
               </span>{" "}
-              Database & server hosting required
+              Scalable & Future-Proof
+
+
             </li>
           </ul>
         </div>
@@ -69,7 +81,7 @@ const MoniterHeadlessCommerce = () => {
         {/* Headless Commerce */}
         <div className="moniter-comparison-box">
           <div className="moniter-comparison-header moniter-headless">
-            Headless eCommerce Platform
+            Headless Commerce 
           </div>
           <img
             src={headlessImg}

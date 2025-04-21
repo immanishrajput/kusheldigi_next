@@ -15,7 +15,8 @@ const Flex = () => {
       </div>
       <div className="headless-con--2-div-contentt">
 
-        <h3>Our Headless Bigcommerce Experts are Ready to Launch your Dream Store today!</h3>
+        <h3>Our Headless Commerce Experts are ready to launch your dream store today
+        !</h3>
       </div>
 
       <div>

@@ -1,168 +1,168 @@
-"use client"
+"use client";
 import React from "react";
 import "./cycle.css";
-import { FaPencilAlt, FaPaintBrush, FaProjectDiagram, FaCogs } from "react-icons/fa";
-
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Autoplay } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import "swiper/css";
-import "swiper/css/navigation";
 
 const services = [
   {
-    img:"https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744959579/Mask_group_46_qqvbvk.png",
-    // icon: <FaPencilAlt className="service-icon" />,
-    title: "Unlimited Customization",
-    description:
-      "Define and align your project’s vision with internal goals using our business analysis services. Our Business Analysts will assess your business & user needs, define project scope, and formalize requirements.",
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744959579/Mask_group_46_qqvbvk.png",
+    title: "Decoupled Architecture",
+    description: "Define and align your project’s vision with internal goals.",
   },
   {
-    
-    // icon: <FaPaintBrush className="service-icon" />,
-    img:"https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744959579/Mask_group_47_eo2g00.png",
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744959579/Mask_group_47_eo2g00.png",
     title: "Omnichannel Experience",
     description: "UI/UX design services for engaging and efficient digital products.",
   },
   {
-    img:"https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744959843/Mask_group_48_ejfo7p.png",
-    // icon: <FaProjectDiagram className="service-icon" />,
-    title: "Faster Innovation",
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744959843/Mask_group_48_ejfo7p.png",
+    title: "Faster Page Load Times",
     description: "Robust architecture design for scalable software solutions.",
   },
   {
-    img:"https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744959843/Mask_group_49_gsjujw.png",
-    // icon: <FaCogs className="service-icon" />,
-    title: "Sign Up via Social Media",
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744959843/Mask_group_49_gsjujw.png",
+    title: "Customizable Frontend Design",
     description: "Full-cycle development tailored to business goals and needs.",
   },
   {
-    img:"https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960432/Mask_group_55_molofs.png",
-    // icon: <FaCogs className="service-icon" />,
-    title: "CMS Integration",
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960432/Mask_group_55_molofs.png",
+    title: "Centralized Backend Management",
     description: "Full-cycle development tailored to business goals and needs.",
   },
   {
-    img:"https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960441/Mask_group_50_b07bs9.png",
-    // icon: <FaCogs className="service-icon" />,
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960441/Mask_group_50_b07bs9.png",
     title: "Personalization",
     description: "Full-cycle development tailored to business goals and needs.",
   },
   {
-    img:"https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960439/Mask_group_52_lfvdue.png",
-    // icon: <FaCogs className="service-icon" />,
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960440/Mask_group_51_o200tw.png",
     title: "Advanced Search and Navigation",
     description: "Full-cycle development tailored to business goals and needs.",
   },
   {
-    img:"https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960438/Mask_group_53_kjj9ap.png",
-    // icon: <FaCogs className="service-icon" />,
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960439/Mask_group_52_lfvdue.png",
     title: "Robust Security and Compliance",
     description: "Full-cycle development tailored to business goals and needs.",
   },
   {
-    img:"https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960432/Mask_group_55_molofs.png",
-    // icon: <FaCogs className="service-icon" />,
-    title: "Multi-currency and Multi-language Support",
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960438/Mask_group_53_kjj9ap.png",
+    title: "Multi-Device Support",
     description: "Full-cycle development tailored to business goals and needs.",
   },
   {
-    img:"https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960432/Mask_group_56_sij6rm.png",
-    // icon: <FaCogs className="service-icon" />,
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960432/Mask_group_55_molofs.png",
     title: "Marketing Automation Integration",
     description: "Full-cycle development tailored to business goals and needs.",
   },
   {
-    img:"https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960432/Mask_group_57_iy77ii.png",
-    // icon: <FaCogs className="service-icon" />,
-    title: "API-first Architecture",
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960432/Mask_group_56_sij6rm.png",
+    title: "API-First Approach",
     description: "Full-cycle development tailored to business goals and needs.",
   },
   {
-    img:"https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960432/Mask_group_57_iy77ii.png",
-    // icon: <FaCogs className="service-icon" />,
-    title: " Microservices Architecture",
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960432/Mask_group_57_iy77ii.png",
+    title: "Microservices Architecture",
     description: "Full-cycle development tailored to business goals and needs.",
   },
   {
-    img:"https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960431/Mask_group_58_perzs9.png",
-    // icon: <FaCogs className="service-icon" />,
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960431/Mask_group_58_perzs9.png",
     title: "Headless CMS Integration",
     description: "Full-cycle development tailored to business goals and needs.",
   },
   {
-    img:"https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960431/Mask_group_59_xambcd.png",
-    // icon: <FaCogs className="service-icon" />,
-    title: "Progressive Web App (PWA) Support",
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960431/Mask_group_59_xambcd.png",
+    title: "PWA Compatibility",
     description: "Full-cycle development tailored to business goals and needs.",
   },
+
   {
-    icon: <FaCogs className="service-icon" />,
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744960440/Mask_group_51_o200tw.png", 
     title: "Advanced Analytics and Reporting",
     description: "Full-cycle development tailored to business goals and needs.",
   },
 ];
 
 const FullCycleEngineering = () => {
+  const firstHalf = services.slice(0, 7);
+  const secondHalf = services.slice(7, 15); // 8 cards
+
   return (
     <div className="full-cycle-container">
       <div className="header-with-buttons">
-        <h2 className="full-cycle-heading">
-        Headless Commerce Features
-        </h2>
-        {/* <div className="arrow-controls">
-
-
-<button className="arrow-btn my-prev-btn"><FaArrowLeft /></button>
-<button className="arrow-btn my-next-btn"><FaArrowRight /></button>
-
-        </div> */}
+        <h2 className="full-cycle-heading">Features of Headless Commerce</h2>
       </div>
 
       <p className="full-cycle-subtext">
-      The headless strategy lets you connect the best possible backend tech stack with suitable frontend platforms. So you can have outstanding features coupled with captivating user interface and experience.
+        Headless Commerce can power your online store by offering scalability,
+        flexibility, seamless integrations and advanced features that will
+        definitely drive success in the eCommerce landscape.
       </p>
 
-      <Swiper
-  modules={[Navigation, Autoplay]}
-  spaceBetween={20}
-  slidesPerView={4} // Default view
-  autoplay={{
-    delay: 3000,
-    disableOnInteraction: false,
-  }}
-  breakpoints={{
-    320: { slidesPerView: 1 },
-    480: { slidesPerView: 2 },
-    768: { slidesPerView: 3 },
-    1024: { slidesPerView: 4 },
-    1280: { slidesPerView: 5 }, // Large screens = 5 cards
-  }}
-  navigation={{
-    nextEl: ".my-next-btn",
-    prevEl: ".my-prev-btn",
-  }}
-  className="service-slider"
- > 
+      <div className="dual-swiper-wrapper">
+        <Swiper
+          modules={[Autoplay]}
+          spaceBetween={20}
+          slidesPerView={4}
+          loop={true}
+          autoplay={{
+            delay: 2500,
+            reverseDirection: false,
+            disableOnInteraction: false,
+          }}
+          breakpoints={{
+            320: { slidesPerView: 1 },
+            480: { slidesPerView: 2 },
+            768: { slidesPerView: 3 },
+            1024: { slidesPerView: 4 },
+            1280: { slidesPerView: 5 },
+          }}
+          className="service-slider"
+        >
+          {firstHalf.map((service, index) => (
+            <SwiperSlide key={index}>
+              <div className="service-card">
+                <div className="service-icon">
+                  <img src={service.img} alt={service.title} />
+                </div>
+                <h3 className="service-title">{service.title}</h3>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
 
-        {services.map((service, index) => (
-          <SwiperSlide key={index}>
-            <div className="service-card">
-              <div className="service-icon">
-            <img src={service.img}  />
-            </div>
-              <h3 className="service-title">{service.title}</h3>
-              {/* <p className="service-description">{service.description}</p> */}
-            </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
-      <div className="arrow-controls">
-
-
-{/* <button className="arrow-btn my-prev-btn"><FaArrowLeft /></button>
-<button className="arrow-btn my-next-btn"><FaArrowRight /></button> */}
-
-        </div>
+        <Swiper
+          modules={[Autoplay]}
+          spaceBetween={20}
+          slidesPerView={4}
+          loop={true}
+          autoplay={{
+            delay: 2500,
+            reverseDirection: true,
+            disableOnInteraction: false,
+          }}
+          breakpoints={{
+            320: { slidesPerView: 1 },
+            480: { slidesPerView: 2 },
+            768: { slidesPerView: 3 },
+            1024: { slidesPerView: 4 },
+            1280: { slidesPerView: 5 },
+          }}
+          className="service-slider reverse-slider"
+        >
+          {secondHalf.map((service, index) => (
+            <SwiperSlide key={index}>
+              <div className="service-card">
+                <div className="service-icon">
+                  <img src={service.img} alt={service.title} />
+                </div>
+                <h3 className="service-title">{service.title}</h3>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
     </div>
   );
 };

@@ -29,6 +29,8 @@
   }
   .victus {
     text-transform: uppercase;
+    font-weight: 500;
+    padding: 0px 0px 0px 5px;
   
   }
 
@@ -36,9 +38,9 @@
   .tripole4 {
     font-size: 3rem;
     font-weight: 700;
-    padding: 20px 0px 0px 0px;
+    padding: 12px 0px 0px 0px;
     line-height: 50px;
-    font-weight: 600;
+    font-weight: 700;
     color: rgb(42, 41, 41);
     margin-bottom: 15px;
   }
@@ -152,6 +154,7 @@
   @media (max-width: 600px) {
     .tripole4 {
       font-size: 24px;
+      padding-top: 10px;
       line-height: 28px;
     }
   
@@ -172,7 +175,7 @@
     }
   
     .tripole1 {
-      padding: 100px 10px 0px 10px;
+      padding: 100px 10px 50px 10px;
     }
   
     .tripole7,
@@ -195,13 +198,14 @@
     }
   
     .tripole1 {
-      padding: 90px 20px 0px 20px;
+      padding: 90px 20px 40px 20px;
     }
   
     .tripole4 {
       font-size: 22px;
       line-height: 27px;
       text-align: center;
+      padding-top: 10px;
     }
   
     .tripole7,

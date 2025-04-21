@@ -55,6 +55,7 @@
   
   .online-why-choose-card p {
     font-size: 16px;
+    padding: 0px 10px 0px 0px ;
     color: #111;
     margin-top: 8px;
   }
@@ -87,7 +88,7 @@
       padding: 8px;
     }
     .online-why-choose-section {
-      padding-top: 30px;
+      padding: 20px 20px;
     }
     .online-why-choose-card{
       padding: 15px 15px 15px 30px;

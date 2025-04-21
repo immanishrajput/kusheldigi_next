@@ -40,7 +40,9 @@ const AnimatedNumber = ({ target }) => {
 const AgilitySection = () => {
   return (
     <div className="wifi">
-    <h2 className="wifi-title">Business agility accelerates revenue growth</h2>
+    <h2 className="wifi-title">
+The Smartest Way to Build Digital Retail
+</h2>
 
     <div className="wifi-stats">
       <div className="wifi-stat">
@@ -55,7 +57,7 @@ const AgilitySection = () => {
 
       <div className="wifi-stat">
         <div className="wifi-number"><AnimatedNumber target="+60%" /></div>
-        <div className="wifi-label">AVERAGE SITE SPEED INCREASE</div>
+        <div className="wifi-label"> SITE SPEED INCREASE</div>
       </div>
     </div>
 
