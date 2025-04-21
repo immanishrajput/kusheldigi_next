@@ -132,6 +132,15 @@
     font-size: 22px;
     font-weight: 500;
   }
+  .update-text h2{
+    text-align: center !important;
+  }
+  .update-text p{
+    text-align: center !important;
+  }
+  .update-text h2{
+    text-align: center !important;
+  }
   /* .headless-intro p{
     font-size: 14px;
   } */
@@ -141,7 +150,7 @@
       font-size: 22px;
     }
     .update-text h2{
-      text-align: center;
+      text-align: center !important;
     }
     .update-text p{
       text-align: center;

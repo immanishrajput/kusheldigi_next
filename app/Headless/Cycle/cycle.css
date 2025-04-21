@@ -199,12 +199,15 @@
     text-align: center;
   }
  #headless-phase1Name{
-  left: 1px;
+  left: 1px !important;
  }
   
   .full-cycle-subtext {
     font-size: 0.95rem;
     text-align: center;
+  }
+  #headless-phase1:before{
+    left: 1px;
   }
   
   .swiper-slide {
