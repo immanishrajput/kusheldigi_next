@@ -1,67 +1,22 @@
-"use client"
-import React from 'react'
-import Banner1 from './Banner1/page'
-import Banner2 from './Banner2/Page'
-import Banner3 from './Banner3/Page'
-import Banner4 from './Banner4/page'
-import Banner5 from './Banner5/page'
-import Banner6 from './Banner6/page'
-import Banner7 from './Banner7/page'
-import  Banner8  from './Banner8/page'
-import Banner9 from './Banner9/page'
-import Banner10 from './Banner10/page'
-import Banner11 from './Banner11/page'
-import Navbar from '../COMMON/Navbar'
-import Footer from '../COMMON/Footer'
-import UseAccorrodian from '../COMMON/UseAccorrodian'
-import HomeForm from '../components/Home/HomeForm'
-import HomeFlax from '../components/Home/HomeFlax'
-import HomeCardSection from '../components/Home/HomeCardSection'
-import BlogSection from '../COMMON/BlogSection/BlogSection';
-import BigBanner6 from "../bigcommerce-development/BigBanner6/page";
-import Process from "../bigcommerce-development/Process/page"
-
-const Page = () => {
-  return (
-    <div>
-        <Navbar/>
-        <title>
-          Kushel Digi Solutions - top Ecommerce Development Company
-        </title>
-        <meta
-          name="description"
-          content="KushelDigi Solutions take your digital aspirations and make them come true! We are your success partners rather than just an e-commerce development company."
-        />
-        <link rel="canonical" href="https://www.kusheldigi.com/Ecommerce" />
-        <Banner1/>
-        <Banner2/>
-        <Banner3/>
-        <Banner4 />
-        <HomeFlax/>
-        <Banner9 page='eCommerce'/>
-        <HomeCardSection/>
-        <Banner11/>
-       
-        <Banner5/>
-        <Banner8 page='Delivering powerful, high performance ecommerce solutions for our clients.'/>
-        {/* <Banner7/> */}
-        <Process page='Ecommerce'/>
-        <BigBanner6 page='Ecommerce'/>
-        <Banner10/>
-        <Banner6/>
-       
-  
-      
-       
-      
-    
-      
-        <BlogSection/> 
-        <UseAccorrodian/>
-        <HomeForm/>
-        <Footer/>
-    </div>
-  )
+import EcommerceNew from '../components/EcommerceNew'
+export const metadata = {
+  openGraph: {
+    title: "Top eCommerce Development Company | Kushel Digi Solutions.",
+    description: "Elevate your online store with Kushel Digi expert eCommerce development. Custom, scalable solutions on Shopify, Magento, BigCommerce & more. Boost sales with seamless UX & secure payments.",
+    url: "https://www.kusheldigi.com/ecommerce-development",
+    type:"website",
+    images: [{ url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1744463967/mockup-4_h41e2o.png", width: 1200, height: 630 , alt:"kushel" }],
+  },
 }
 
-export default Page
+const Ecommerce= ({ notify }) => {
+  
+  return (
+    <>
+    <EcommerceNew notify={notify} />
+    </>
+  );
+};
+
+export default Ecommerce;
+
