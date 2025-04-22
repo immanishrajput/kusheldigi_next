@@ -5,3 +5,4 @@ Disallow: /private/
 Disallow: /*?*utm_* 
 Disallow: /thank-you/
 Sitemap: https://www.kusheldigi.com/sitemap.xml
+

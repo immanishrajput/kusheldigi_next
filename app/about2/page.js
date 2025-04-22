@@ -1,4 +1,3 @@
-import '../globals.css'
 import About2 from "../components/About/About2";
 
 

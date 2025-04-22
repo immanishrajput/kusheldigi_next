@@ -1,7 +1,7 @@
 .tech-we-use-outer-container {
     max-width: 1720px;
     margin: 0 auto;
-    padding: 40px 60px;
+    padding: 50px 50px;
     background: #f8f8f8;
     overflow: visible;
     position: relative;
@@ -28,7 +28,7 @@
     padding: 20px;
     border-radius: 10px;
     height: 100%;
-    /* min-height: 250px;   */
+    min-height: 130px;  
     width: 95% !important;
 }
 

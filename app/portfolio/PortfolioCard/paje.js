@@ -18,6 +18,7 @@ const portfolioData = [
     },
     case:'Case Study',
       case1:'BigCommerce',
+      line:'|',
 
     category: ["ecommerce"],
   },
@@ -36,6 +37,7 @@ const portfolioData = [
     },
     case:'Case Study',
     case1:'BigCommerce',
+    line:'|',
     category: ["ecommerce"],
     
   },
@@ -54,6 +56,7 @@ const portfolioData = [
     },
     case:'Case Study',
     case1:'BigCommerce',
+    line:'|',
     category: ["ecommerce"],
   },
   {
@@ -71,6 +74,7 @@ const portfolioData = [
     },
     case:'Case Study',
     case1:'BigCommerce',
+    line:'|',
     category: ["ecommerce"],
   },
   {
@@ -88,6 +92,7 @@ const portfolioData = [
     },
     case:'Case Study',
     case1:'Shopify',
+    line:'|',
     category: ["ecommerce"],
   },
   {
@@ -105,6 +110,7 @@ const portfolioData = [
     },
     case:'Case Study',
     case1:'BigCommerce',
+    line:'|',
     category: ["ecommerce"],
   },
   {
@@ -122,6 +128,7 @@ const portfolioData = [
     },
     case:'Case Study',
     case1:'BigCommerce',
+    line:'|',
     category: ["ecommerce"],
   },
   {
@@ -139,6 +146,7 @@ const portfolioData = [
     },
     case:'Case Study',
     case1:'BigCommerce',
+    line:'|',
     category: ["ecommerce"],
   },
   {
@@ -156,22 +164,26 @@ const portfolioData = [
     },
     case:'Case Study',
     case1:'BigCommerce',
+    line:'|',
     category: ["ecommerce"],
   },
-//   {
-//     id: 'automotive-59',
-//     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744637742/lovely_nymplp.png',
-//     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
-//     description: [
-//         "UX/UI Website Design","Website Development","QA & Website Testing"
-// ],
-//     links: {
-//       liveStore: 'https://www.phastekperformance.com/',
-//       caseStudy: '/blackRhino',
-//       platform: '/bigcommerce-development',
-//     },
-//     category: ["ecommerce"],
-//   },
+  {
+    id: 'automotive-59',
+    logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744637742/lovely_nymplp.png',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    description: [
+        "UX/UI Website Design","Website Development","QA & Website Testing"
+],
+    links: {
+      liveStore: 'https://www.phastekperformance.com/',
+      caseStudy: '/blackRhino',
+      platform: '/bigcommerce-development',
+    },
+    case:'Case Study',
+    case1:'BigCommerce',
+    line:'|',
+    category: ["ecommerce"],
+  },
   {
     id: 'automotive-10',
     // companyName: 'Ai',
@@ -187,6 +199,7 @@ const portfolioData = [
     },
     case:'Case Study',
     case1:'BigCommerce',
+    line:'|',
     category: ["ecommerce"],
   },
   {
@@ -204,6 +217,7 @@ const portfolioData = [
     },
     case:'Case Study',
     case1:'BigCommerce',
+    line:'|',
     category: ["ecommerce"],
   },
   {
@@ -217,10 +231,11 @@ const portfolioData = [
     links: {
       liveStore: 'https://www.phastekperformance.com/',
       caseStudy: '/crazyCMS',
-      platform: '/bigcommerce-development',
+      // platform: '#',
     },
     case:'Case Study',
-    case1:'BigCommerce',
+    case1:'Laravel',
+    line:'|',
     category: ["website"],
   },
   {
@@ -234,10 +249,13 @@ const portfolioData = [
     links: {
     
       caseStudy: '#',
-      platform: '/bigcommerce-development',
+      // platform: '/bigcommerce-development',
+      platform1:'/next-js'
     },
     case:'Case Study',
-    case1:'BigCommerce',
+    case1:"Laravel",
+    case2:[" | ","Next js"],
+    line:'|',
     category: ["website"],
   },
   {
@@ -249,12 +267,12 @@ const portfolioData = [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
     links: {
-      liveStore: 'https://www.phastekperformance.com/',
       caseStudy: '/woodView',
       platform: '/bigcommerce-development',
     },
     case:'Case Study',
-    case1:'BigCommerce',
+    case1:'Laravel',
+    line:'|',
     category: ["website"],
   },
   {
@@ -266,12 +284,15 @@ const portfolioData = [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
     links: {
-      liveStore: 'https://www.phastekperformance.com/',
       caseStudy: '#',
-      platform: '/bigcommerce-development',
+      platform: '/react-js',
+      platform1:'/node-js'
+
     },
     case:'Case Study',
-    case1:'BigCommerce',
+    case1:"React js",
+    case2:[" | ", "Node"],
+    line:'|',
     category: ["website"],
   },
  
@@ -286,10 +307,13 @@ const portfolioData = [
     links: {
       liveStore: 'https://www.phastekperformance.com/',
       caseStudy: '/subhAlloy',
-      platform: '/bigcommerce-development',
+      platform: '/react-js',
+      platform1:'/node-js'
     },
     case:'Case Study',
-    case1:'BigCommerce',
+    case1:'React js',
+    case2:[" | ", "Node"],
+    line:'|',
     category: ["website"],
   },
   {
@@ -303,10 +327,11 @@ const portfolioData = [
     links: {
       liveStore: 'https://www.phastekperformance.com/',
       caseStudy: '#',
-      platform: '/bigcommerce-development',
+      platform: '/php',
     },
     case:'Case Study',
-    case1:'BigCommerce',
+    case1:'PHP',
+    line:'|',
     category: ["website"],
   },
   {
@@ -318,12 +343,12 @@ const portfolioData = [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
     links: {
-      liveStore: 'https://www.phastekperformance.com/',
       caseStudy: '#',
-      platform: '/bigcommerce-development',
+      platform: '/next-js',
     },
     case:'Case Study',
-    case1:'BigCommerce',
+    case1:'Next js',
+    line:'|',
     category: ["software"],
   },
   {
@@ -335,12 +360,12 @@ const portfolioData = [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
     links: {
-      liveStore: 'https://www.phastekperformance.com/',
       caseStudy: '#',
-      platform: '/bigcommerce-development',
+      platform: '/php',
     },
     case:'Case Study',
-    case1:'BigCommerce',
+    case1:'PHP',
+    line:'|',
     category: ["software"],
   },
   {
@@ -352,12 +377,12 @@ const portfolioData = [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
     links: {
-      liveStore: 'https://www.phastekperformance.com/',
       caseStudy: '/Digitalmna',
-      platform: '/bigcommerce-development',
+      platform: '/next-js',
     },
     case:'Case Study',
-    case1:'BigCommerce',
+    case1:'Next js',
+    line:'|',
     category: ["software"],
   },
   {
@@ -371,10 +396,11 @@ const portfolioData = [
     links: {
     
       caseStudy: '#',
-      platform: '/bigcommerce-development',
+      platform: '/html',
     },
     case:'Case Study',
-    case1:'BigCommerce',
+    case1:'HTML',
+    line:'|',
     category: ["software"],
 
 
@@ -390,10 +416,10 @@ const portfolioData = [
     links: {
       
       caseStudy: '#',
-      platform: '/bigcommerce-development',
+      // platform: '/bigcommerce-development',
     },
     case:'Case Study',
-    case1:'BigCommerce',
+    // case1:'BigCommerce',
     category: ["software"],
   },
   {
@@ -407,8 +433,11 @@ const portfolioData = [
     links: {
     
       caseStudy: '#',
-      platform: '/bigcommerce-development',
+      // platform: '/bigcommerce-development',
     },
+    case:'Case Study',
+    case1:'Doodlle',
+    line:'|',
     category: ["software"],
   },
   {
@@ -421,10 +450,10 @@ const portfolioData = [
 ],
     links: {
       caseStudy: '#',
-      platform: '/bigcommerce-development',
+      // platform: '/bigcommerce-development',
     },
     case:'Case Study',
-    case1:'BigCommerce',
+    // case1:'BigCommerce',
     category: ["software"],
   },
   {
@@ -437,10 +466,11 @@ const portfolioData = [
 ],
     links: {
       caseStudy: '#',
-      platform: '/bigcommerce-development',
+      platform: '/react-js',
     },
     case:'Case Study',
-    case1:'BigCommerce',
+    case1:'React js',
+    line:'|',
     category: ["software"],
   },
 //   {
@@ -470,10 +500,10 @@ const portfolioData = [
     links: {
       liveStore: 'https://www.phastekperformance.com/',
       caseStudy: '#',
-      platform: '/bigcommerce-development',
+      // platform: '/bigcommerce-development',
     },
     case:'Case Study',
-    case1:'BigCommerce',
+    // case1:'BigCommerce',
     category: ["appdevelop"],
   },
   {
@@ -487,10 +517,10 @@ const portfolioData = [
     links: {
       liveStore: 'https://www.phastekperformance.com/',
       caseStudy: '#',
-      platform: '/bigcommerce-development',
+      // platform: '/bigcommerce-development',
     },
     case:'Case Study',
-    case1:'BigCommerce',
+    // case1:'BigCommerce',
     category: ["appdevelop"],
   },
   {
@@ -504,10 +534,10 @@ const portfolioData = [
     links: {
       liveStore: 'https://www.phastekperformance.com/',
       caseStudy: '#',
-      platform: '/bigcommerce-development',
+      // platform: '/bigcommerce-development',
     },
     case:'Case Study',
-    case1:'BigCommerce',
+    // case1:'BigCommerce',
     category: ["appdevelop"],
   },
   {
@@ -521,10 +551,10 @@ const portfolioData = [
     links: {
       liveStore: 'https://www.phastekperformance.com/',
       caseStudy: '#',
-      platform: '/bigcommerce-development',
+      // platform: '/bigcommerce-development',
     },
     case:'Case Study',
-    case1:'BigCommerce',
+    // case1:'BigCommerce',
     category: ["appdevelop"],
   },
   {
@@ -538,10 +568,10 @@ const portfolioData = [
     links: {
       liveStore: 'https://www.phastekperformance.com/',
       caseStudy: '#',
-      platform: '/bigcommerce-development',
+      // platform: '/bigcommerce-development',
     },
     case:'Case Study',
-    case1:'BigCommerce',
+    // case1:'BigCommerce',
     category: ["appdevelop"],
   },
   {
@@ -553,12 +583,12 @@ const portfolioData = [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
     links: {
-      liveStore: 'https://www.phastekperformance.com/',
+    
       caseStudy: '#',
-      platform: '/bigcommerce-development',
+      // platform: '/bigcommerce-development',
     },
     case:'Case Study',
-    case1:'BigCommerce',
+    // case1:'BigCommerce',
     category: ["appdevelop"],
   },
   {
@@ -571,10 +601,10 @@ const portfolioData = [
 ],
     links: {
       caseStudy: '#',
-      platform: '/bigcommerce-development',
+      // platform: '/bigcommerce-development',
     },
     case:'Case Study',
-    case1:'BigCommerce',
+    // case1:'BigCommerce',
     category: ["oddodevelop"],
   },
 ];
@@ -627,10 +657,19 @@ const Portfolio = () => {
                     <li><Link href={item.links?.caseStudy}>
                              {item.case}
                     </Link></li>
-                    <li className="list-divider">|</li>
-                    <li><a href={item.links?.platform}>
-                    {item.case1}
-                      </a></li>
+                    <li className="list-divider">{item?.line}</li>
+                    <li>
+  <a href={item.links?.platform}>
+    {item.case1} 
+  </a>
+  <a href={item.links?.platform1}>
+    {item.case2}
+  </a>
+</li>
+
+                    {/* <li><a href={item.links?.platform}>
+                    {item?.case1} {item?.case2}
+                      </a></li> */}
                   </ul>
                 </div>
               </div>

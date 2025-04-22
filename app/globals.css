@@ -20090,6 +20090,7 @@ body {
     color: #101820;
 }
 
+
 @media (max-width:1300px) {
     .alls6elems {
         justify-content: center;
@@ -45944,7 +45945,7 @@ video {
 .dine-123 {
     max-width: 1720px;
     width: 100%;
-    padding : 25px 0px;
+    padding : 25px 60px;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -45960,7 +45961,7 @@ video {
     }
 
     .dine-123{
-        padding:25px 0px;
+        padding:25px 60px;
     }
 }
 
@@ -53803,7 +53804,7 @@ wordpress_cater_box p {
     }
 
     .dine-123 {
-        padding:0px
+        padding:30px
     }
 }
 
@@ -76098,4 +76099,11 @@ input::-webkit-inner-spin-button {
 
 .pd1 {
     padding: 30px 60px !important;
+}
+.css_main_banner{
+    background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v1745320752/cmo_banner.889e09849d26705563ca_gpymd5.png");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }

@@ -132,7 +132,7 @@ function Industries() {
   const [cardItem] = useState(data);
   const [index, setIndex] = useState(0);
   useEffect(() => {
-    const lastIndex = cardItem.length - 1;
+    const lastIndex = cardItem?.length - 1;   
     if (index < 0) {
       setIndex(lastIndex);
     }
