@@ -410,11 +410,12 @@
     }
 
     .left-b2b-cardKcom-3 {
-      bottom:30px;
+      /* bottom:30px; */
     }
 
     .right-b2b-cardsKcom {
       gap:35px;
+      margin-top: -34px;
     }
 
     .left-b2b-cardKcom-2 {

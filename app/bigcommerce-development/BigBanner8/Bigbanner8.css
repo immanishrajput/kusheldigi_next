@@ -55,7 +55,11 @@
     height: auto;
     width: 500px;
 }
-
+@media (max-width:1200px){
+    .descriptionCon3 {
+width: 620px;
+    }
+}
 @media (max-width: 1024px) {
     .mainBcoSe {
         flex-direction: column;
@@ -88,9 +92,7 @@
         width: 150px;
     }
 
-    .maSecImgaec img {
-        width: 250px;
-    }
+
 }
 
 @media (max-width: 480px) {

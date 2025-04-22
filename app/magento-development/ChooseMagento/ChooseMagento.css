@@ -1,7 +1,7 @@
 .choose-magento-outer-container {
     max-width: 1720px;
     margin: 0 auto;
-    padding: 40px 60px;
+    padding: 50px;
 }
 
 .choose-magneto-span {
@@ -89,6 +89,9 @@
     .choose-magento-grid-container {
         grid-template-columns: repeat(2,1fr);
     }
+    .choose-magento-grid-item {
+        height: 320px;
+     }
 }
 
 @media screen and (max-width: 768px) {
@@ -97,9 +100,17 @@
     }
 
     .choose-magento-grid-item > h4 {
-        text-align: left6;
+        text-align: left;
     }
     .choose-magento-grid-item > p{
         text-align:left;
     }
+    .choose-magento-grid-item {
+       height: 320px;
+    }
+}
+@media screen and (max-width: 375px){
+    .choose-magento-grid-item {
+        height: 400px;
+     }
 }

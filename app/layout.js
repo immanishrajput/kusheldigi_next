@@ -59,8 +59,8 @@ export const metadata = {
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Website Development",
+  "@type": "IT Service",
+  "serviceType": "eCommerce Website Development ,BigCommerce Website Development",
   "provider": {
     "@type": "Organization",
     "name": "Kushel Digi Solutions",
@@ -71,7 +71,7 @@ const jsonLd = {
     { "@type": "Country", "name": "USA" },
     { "@type": "Country", "name": "UAE" }
   ],
-  "description": "We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development.",
+  "description": "Transform your online presence with Kushel Digi Solutions eCommerce development, BigCommerce solutions, and tailored B2B and marketplace platforms. Start your project today!",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "First Floor, D242, F-32B, Sector 63 Rd, Noida, 201301, Uttar Pradesh",
@@ -82,7 +82,7 @@ const jsonLd = {
   },
   "telephone": "+91-9045301702",
   "url": "https://www.kusheldigi.com/",
-  "openingHours": "Mon-Sat 10:00AM-05:00PM",
+  "openingHours": "Mon-Sat 10:00AM-05:00AM",
   "priceRange": ["$$", "INR"]
 };
 

@@ -197,7 +197,7 @@
   /* ======== Responsive Adjustments ======== */
   @media (max-width: 1200px) {
     .projectsSectionKcom{
-      padding: 10px 10px 40px;
+      padding: 50px 30px 50px;
     }
     .b2b-contentKcom {
         flex-direction: column;
@@ -219,7 +219,8 @@
     }
   
     .right-b2b-cardsKcom {
-        margin-top: 0;
+        margin-top: -32px;
+        width: 589px;
     }
   }
   
@@ -262,8 +263,13 @@
         width: 40px;
         height: 40px;
     }
-
-   
+.projectsHeaderKcom{
+  padding: 50px 20px;
+}
+    .right-b2b-cardsKcom {
+margin-top: -35px;
+width: 70%;
+    }
   }
   
   @media (max-width: 768px) {
@@ -380,6 +386,7 @@
     }
 
     .right-b2b-cardsKcom {
+      margin-top: -34px;
       gap:35px;
     }
   
@@ -405,7 +412,7 @@
     }
 
     .left-b2b-cardKcom-3 {
-      bottom:30px;
+      /* bottom:30px; */
     }
 
     .left-b2b-cardKcom-2 {

@@ -168,7 +168,7 @@ const Footer = () => {
 
         <div className="foot2">
        
-          <div className="foot_bottom dine-123">
+          <div className="foot_bottom">
           <div className="bottom2">
               <div className="foot11 foot15">
            

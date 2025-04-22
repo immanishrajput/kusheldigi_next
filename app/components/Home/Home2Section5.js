@@ -26,7 +26,7 @@ function Home2Section5() {
         <div className="s5cont">
           <div className="s5content">
             <h3 className="primary-heading">
-              <span>We Build</span> with the Best to Ensure Your Success
+             We Build with the Best to Ensure Your Success
             </h3>
             <p className='secondary-heading'>
               Our expert minds at Kushel Digi leverage top-tier technologies to
