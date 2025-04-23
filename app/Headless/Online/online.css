@@ -5,7 +5,7 @@
   
   .subset{
     max-width: 1720px;
-    padding: 50px 60px;
+    padding: 50px 60px !important;
     margin: auto;
   }
   .online-why-choose-title {
@@ -87,9 +87,12 @@
       grid-template-columns: 1fr;
       padding: 8px;
     }
-    .online-why-choose-section {
-      padding: 20px 20px;
+    .subset{
+      padding: 20px 20px !important;
     }
+    /* .online-why-choose-section {
+      padding: 20px 20px;
+    } */
     .online-why-choose-card{
       padding: 15px 15px 15px 30px;
     }
