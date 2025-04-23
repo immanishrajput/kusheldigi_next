@@ -59,7 +59,7 @@ backend operations, including payment processing and order management and order 
       </div>
 
       <div className="Sss-image">
-        <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744063520/Shopify-Headless-Commerce_ktfpr4.webp" alt="Shopify Headless Development" />
+        <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1745416646/Headless-Ecommerce-Development-Second-2024.pngw3_1_1_jy9mah.png" alt="Shopify Headless Development" />
       </div>
     </section>
   );
