@@ -4,6 +4,7 @@ import React, { useEffect } from 'react';
 import "./ShopifyBanner.css";
 import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
+import TalkToConsult from '@/app/components/TalkToConsult';
 
 const ShopifyBanner = () => {
 
@@ -25,7 +26,8 @@ const ShopifyBanner = () => {
                     <h3 className='shopify-new-banner-sm-heading '>Kushel Digi Solutions has a successful proven track record in offering modern Shopify solutions by building high performance shopify store to grow your business.Our experts are always committed to make sure that your online store is not  just functional but optimized for success.
                     </h3>
                     <div className='flex-bigcommerce-banner-btns'>
-                        <button onClick={scrollToFormShopify} className='bigcommerce-banner-btn' >Talk to a Consultant</button>
+                      <TalkToConsult btn='bigcommerce-banner-btn'/>
+                        {/* <button onClick={scrollToFormShopify} className='bigcommerce-banner-btn' >Talk to a Consultant</button> */}
                         <Link href="/contact-us"> <button className='bigcommerce-banner-btn big-transparent-btn' >  Book a Call  <FaArrowRightLong /></button></Link>
                     </div>
                     {/* <img className='new-shopify-review-img' loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744009168/reviews-google_bq5kbl.png" alt="reviews" /> */}

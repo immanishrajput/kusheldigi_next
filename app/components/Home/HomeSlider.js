@@ -7,6 +7,7 @@ import "swiper/css/pagination";
 import './homeBan.css'
 import Link from "next/link";
 const Slider = () => {
+
   return (
     <div className="carousel-container">
       <div className="inner-carousel-container">
@@ -64,8 +65,8 @@ const Slider = () => {
                 <p className="right-carousel-para">
                   2nd Amendment Armory is known for being a leading provider of high-quality firearms and tactical equipment  serving customers both locally in Brandon, FL and across the nation.usted firearms provider of high-quality gun accessories.
                 </p>
-                <Link href="/2ndamendment">
-                  <button className="left-carousel-btn blue-bg right-carousel-inner-btn">
+                <Link  href="/2ndamendment">
+                  <button  className="left-carousel-btn blue-bg right-carousel-inner-btn">
                     View Case Study
                   </button>
                 </Link>

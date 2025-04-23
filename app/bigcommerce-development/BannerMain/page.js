@@ -5,6 +5,7 @@ import './BannerMain.css';
 import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 import { useRouter } from 'next/navigation';
+import TalkToConsult from '@/app/components/TalkToConsult';
 
 const CaseStudy = () => {
 
@@ -84,7 +85,8 @@ const CaseStudy = () => {
                             ))
                         }
                         <div className='flex-bigcommerce-banner-btns'>
-                        <button onClick={scrollToFormBig} className='bigcommerce-banner-btn' >Talk to a Consultant</button>
+                            <TalkToConsult btn='bigcommerce-banner-btn'/>
+                        {/* <button onClick={scrollToFormBig} className='bigcommerce-banner-btn' >Talk to a Consultant</button> */}
                         <Link href="/contact-us"> <button className='bigcommerce-banner-btn big-transparent-btn' >  Book a Call  <FaArrowRightLong /></button></Link>
                     </div>
                     </div>
