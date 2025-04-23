@@ -68,7 +68,7 @@ export default function Banner9({page}) {
           </div>
          
           <a href="/sites" className="b2b-btnKcom">
-          sights & scopes 
+          Sites And scopes 
             <p>{page}</p>
           </a>  
           <hr />

@@ -101,10 +101,14 @@
     height: auto;
   }
   
-  /* ✅ Responsive: Tablet & Below */
+@media(max-width:1121px){
+  .headless-pwa-title{
+    line-height: 35px;
+  }
+}
   @media (max-width: 1024px) {
     .headless-pwa {
-      padding: 20px 20px 0px 20px;
+      /* padding: 20px 32px 0px 32px; */
     }
     .headless-pwa-tabs {
       margin: 15px 0px 0px 0px;

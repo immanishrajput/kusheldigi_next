@@ -70,7 +70,7 @@ export default function Porfolioo({page}) {
           </div>
          
           <a href="/sites" className="Shopify-b2b-btnKcom">
-          sights & scopes 
+          Sites And Scopes 
             <p>{page}</p>
           </a>  
           <hr />

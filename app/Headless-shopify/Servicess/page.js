@@ -2,6 +2,7 @@
 "use client"
 import React from 'react'
 import './servicess.css'
+import Link from 'next/link';
 const Page = () => {
   return (
     <>
@@ -15,7 +16,10 @@ const Page = () => {
     <p>
     Since 2017, Kushel Digi has been delivering Custom Ecommerce Solutions for more than 1000+ clients across globe. We are committed to help your business grow faster. 
     </p>
+    <Link href="/contact-us">
     <button>Get a Free Consultation Today</button>
+          </Link>
+  
   </section>
   <section className="shopy-right-sectionEcom">
     <div className="shopy-content-blockEcom">

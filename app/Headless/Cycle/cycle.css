@@ -139,6 +139,13 @@
   /* Responsive Swiper Updates Only - Add/Replace This in Your CSS */
   
   /* Tablets (768px and below) */
+  @media(max-width:1270px){
+   
+      #headless-phase1Name{
+        left: 1px !important;
+       }
+    
+  }
   @media screen and (max-width: 768px) {
   .header-with-buttons {
     flex-direction: column;
