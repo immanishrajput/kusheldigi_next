@@ -114,7 +114,7 @@ const FullCycleEngineering = () => {
           breakpoints={{
             320: { slidesPerView: 1 },
             480: { slidesPerView: 2 },
-            768: { slidesPerView: 3 },
+            768: { slidesPerView: 2 },
             1024: { slidesPerView: 4 },
             1280: { slidesPerView: 5 },
           }}
@@ -145,7 +145,7 @@ const FullCycleEngineering = () => {
           breakpoints={{
             320: { slidesPerView: 1 },
             480: { slidesPerView: 2 },
-            768: { slidesPerView: 3 },
+            768: { slidesPerView: 2 },
             1024: { slidesPerView: 4 },
             1280: { slidesPerView: 5 },
           }}

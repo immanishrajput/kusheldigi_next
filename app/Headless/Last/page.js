@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
 import './last.css'
+import Link from 'next/link';
 const Page = () => {
   return (
     <>
@@ -15,7 +16,10 @@ const Page = () => {
     <p>
     Kushel Digi Solutions is committed to deliver your dream ecommerce store with high powered Headless Commerce Solutions. Have a look on our services that are helping modern businesses to grow and create their brand identity.
     </p>
+    <Link href="./contact-us">
     <button>Get a Free Consultation Today</button>
+    </Link>
+   
   </section>
   <section className="right-sectionEcom-Headless">
     <div className="content-blockEcom-Headless">

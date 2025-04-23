@@ -1,9 +1,10 @@
 .spot-ssec--2 {
     max-width: 1240px;
     width: 100%;
-    margin: 50px auto;
+   margin: auto;
     background-color: #ecf1f4;
     border-radius: 5px;
+    margin-bottom: 60px;
     padding: 40px;
     display: flex;
     align-items: center;
@@ -69,6 +70,9 @@
       padding: 30px;
       margin: 0;
     }
+    .spot-coon--2{
+      width: 100%;
+  }
   
     .spot-headless-ccon--2-div {
       flex-direction: column;

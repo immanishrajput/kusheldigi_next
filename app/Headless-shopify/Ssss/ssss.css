@@ -187,7 +187,7 @@
     }
   }
   
-  /* ✅ Mobile Devices (<= 768px) */
+
   @media (max-width: 768px) {
     .Sss {
       padding: 2.5rem 2.5rem;
@@ -196,6 +196,7 @@
     .Sss-heading {
       font-size: 1.75rem;
       margin-bottom: 0.8rem;
+      text-align: left;
     }
   
     .Sss-description,
