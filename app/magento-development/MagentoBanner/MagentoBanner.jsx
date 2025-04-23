@@ -4,6 +4,7 @@ import React from 'react';
 import "./MagentoBanner.css";
 import { FaArrowRightLong } from 'react-icons/fa6';
 import Link from 'next/link';
+import TalkToConsult from '@/app/components/TalkToConsult';
 // import { useRouter } from 'next/navigation';
 
 const MagentoBanner = () => {
@@ -27,7 +28,8 @@ const MagentoBanner = () => {
                 </div>
 
                 <div className='flex-new-banner-btns'>
-                        <button onClick={scrollToFormMagento} className='new-banner-btn colored'>Talk to a Consultant</button>
+                  <TalkToConsult btn='new-banner-btn colored'/>
+                        {/* <button onClick={scrollToFormMagento} className='new-banner-btn colored'>Talk to a Consultant</button> */}
                         <Link  href='/contact-us'  className='new-banner-btn transparent'>Book a Call  <FaArrowRightLong /></Link>
                 </div>
             </div>

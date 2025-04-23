@@ -1,6 +1,7 @@
 .aboutBannerSeC{
     background-color: #e4edf3;
-    margin-top: 9.3%;
+    /* margin-top: 9.3%; */
+    padding-top: 9rem;
 }
 .aboutBannerMain{
     max-width: 1720px;

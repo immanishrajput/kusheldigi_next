@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { FaArrowRight } from "react-icons/fa";
 import Link from "next/link";
 import dynamic from "next/dynamic";
+import TalkToConsult from "@/app/components/TalkToConsult";
 
 const Slider = dynamic(() => import("react-slick"), { ssr: false });
 
@@ -26,49 +27,15 @@ const Banner = () => {
 
 
 
-  // const scrollToFormEcom = () => {
-  //   const formSection = document.getElementById('form-section');
-  //   if (formSection) {
-  //     const yOffset = -120; 
-  //     const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
-  //     window.scrollTo({ top: y, behavior: 'smooth' });
-  //   }
-  // };
-
   const scrollToFormEcom = () => {
     const formSection = document.getElementById('form-section');
     if (formSection) {
-      const rect = formSection.getBoundingClientRect();
-      console.log('formSection top:', rect.top);
-      console.log('pageYOffset:', window.pageYOffset);
-      console.log('calculated scroll position:', rect.top + window.pageYOffset);
-
-      const yOffset = -120;
-      const y = rect.top + window.pageYOffset + yOffset;
+      const yOffset = -120; 
+      const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
       window.scrollTo({ top: y, behavior: 'smooth' });
     }
   };
-
-  // const handleScroll = (e) => {
-  //   e.preventDefault(); // Prevent the default link behavior
-  //   const yOffset = -120; // Adjust this value as needed
-  //   const element = document.querySelector('#form-section');
-    
-  //   if (element) {
-  //     const elementPosition = element.getBoundingClientRect().top + window.scrollY; // Using scrollY instead of pageYOffset for better accuracy
-  //     const offsetPosition = elementPosition + yOffset;
-
-  //     console.log('formSection top:', elementPosition);
-  //     console.log('pageYOffset:', window.scrollY); // Logs the current page scroll position
-  //     console.log('calculated scroll position:', offsetPosition);
-
-  //     window.scrollTo({
-  //       top: offsetPosition,
-  //       behavior: 'smooth',
-  //     });
-  //   }
-  // };
-
+  
 
   return (
     <>
@@ -87,12 +54,13 @@ const Banner = () => {
                 to your business needs.
               </p>
               <div className="buttonsBi">
-                <button onClick={scrollToFormEcom} className="secondary-btn">
+                {/* <button onClick={scrollToFormEcom} className="secondary-btn">
                   Talk To a Consultant
-                 </button>
-                {/* <Link href="#form-section" className="secondary-btn">
+                 </button> */}
+                 <TalkToConsult btn='secondary-btn'/>
+                {/* <a href="#form-section" className="secondary-btn">
                   Talk To a Consultant
-                </Link> */}
+                </a> */}
                 <Link href="/contact-us" className="primary-btn">
                   Book A Call<FaArrowRight />
                 </Link>
