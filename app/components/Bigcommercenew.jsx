@@ -28,8 +28,8 @@ import {weExpertInBigCommerce} from "../data/data"
 
 const page = () => {
   const generateMetadata = ({ params }) => ({
-                  title: 'Top-notch Big commerce development services',
-                  description: "Kushel Digi Solutions elevates your business with top-notch big commerce website, Our best Big-commerce development service is expert to create eCommerce stores"
+                  title: ' Best BigCommerce Development Services| Kushel Digi Solutions',
+                  description: "Boost your online store with Kushel Digi’s expert BigCommerce development, seamless migration, custom design, and scalable eCommerce solutions for business growth"
                 });
                 
               useEffect(() => {

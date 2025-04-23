@@ -16,9 +16,9 @@ import Footer from '../COMMON/Footer';
 import ContactForm from '../components/Home/HomeForm';
 
 const generateMetadata = () => ({
-  title: 'About Kushel Digi Solutions | eCommerce Development Experts',
+  title: 'About Us | Leading eCommerce & Digital Transformation Agency',
   description:
-    'Kushel Digi Solutions empower businesses by delivering seamless, scalable as well as revenue-driven online stores to maximize growth in the eCommerce digital marketplace',
+    'Get to know Kushel Digi Solutions leading eCommerce development company dedicated to building high-performing online stores and driving digital success for brands.',
 });
 
 const Page = () => {

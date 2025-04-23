@@ -10,9 +10,9 @@ import Navbar from '../COMMON/Navbar';
 import ContactFooter from './ContactFooter/page';
 
 const generateMetadata = () => ({
-  title: 'KushelDigi : Job Search Marketplace. Tech Job Hunting Simplified',
+  title: 'Contact Us | Custom eCommerce Development & BigCommerce Experts',
   description:
-    'Discover your dream tech job effortlessly with KushelDigi! Our job search marketplace streamlines the process, connecting talented professionals with top tech companies. Simplify your job hunt today.',
+    'Connect with Kushel Digi Solutions for expert eCommerce development, BigCommerce solutions, and digital strategy. Get a free discovery call and start your project today',
 });
 
 const Page = () => {

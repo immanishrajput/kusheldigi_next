@@ -177,8 +177,8 @@ function Industries() {
     });
   };
    const generateMetadata = ({ params }) => ({
-      title: 'eCommerce Solutions for Every Industry | Kushel Digi Solutions',
-      description: 'Kushel Digi Solutions believes in offering full service and industry-specific solutions to enhance seamless user experiences and build a strong presence in their industry. ',
+      title: 'Scalable eCommerce Services for All Industries | Kushel Digi',
+      description: 'Explore industry-specific eCommerce services from Kushel Digi—healthcare, retail, finance, education, fashion, entertainment, and more. Boost your business today! ',
     });
     
   useEffect(() => {

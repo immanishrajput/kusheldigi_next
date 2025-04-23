@@ -43,8 +43,8 @@ const WooCommerce = () => {
     });
   };
   const generateMetadata = ({ params }) => ({
-        title: 'your one-stop woocommerce development company',
-        description: 'WooCommerce development services, Kushel Digi Solutions offer services for creating, customizing, developing themes, and developing plugins for WooCommerce websites.',
+        title: 'Professional WooCommerce Development Company | Kushel Digi',
+        description: 'Transform your online business with Kushel Digi’s WooCommerce development, custom plugins, mobile app integration, and secure migration for scalable growth.',
       });
       
     useEffect(() => {

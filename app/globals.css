@@ -3776,7 +3776,10 @@ body {
     color: #33475b;
     opacity: .9
 }
-
+#customSoftware{
+    overflow-x: hidden;
+    width: 100%;
+}
 .custom-jsx {
     padding-top: 15px;
     text-align: center

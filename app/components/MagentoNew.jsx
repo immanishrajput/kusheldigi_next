@@ -59,8 +59,8 @@ const Magento = () => {
   //   });
   // };
    const generateMetadata = ({ params }) => ({
-         title: 'Best magento development company -KushelDigi Solutions',
-         description: 'Kushel Digi Solutions offers Magento Development services that ensure a seamless client experience and a wide range of capabilities.',
+         title: 'Magento Development Experts for eCommerce Success | Kushel Digi ',
+         description: 'Kushel Digi offers Magento customization, PWA development, extension integration, and ongoing maintenance for secure, scalable, and innovative eCommerce platforms.',
        });
        
      useEffect(() => {
