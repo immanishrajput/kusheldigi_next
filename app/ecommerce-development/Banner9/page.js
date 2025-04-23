@@ -6,17 +6,17 @@ import Link from "next/link";
 const projects = [
   {
     name: "Koolfly",
-    category: "eCommerce",
+    category: "Ecommerce",
     image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742986335/koolfly_xojuqv.webp",
   },
   {
     name: "Chrome Industries",
-    category: "eCommerce",
+    category: "Ecommerce",
     image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742986335/koolfly_xojuqv.webp",
   },
   {
     name: "Koolfly",
-    category: "eCommerce",
+    category: "Ecommerce",
     image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742986335/koolfly_xojuqv.webp",
   },
   {

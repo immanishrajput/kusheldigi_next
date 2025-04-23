@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import './ContactSec.css';
 
 
@@ -51,6 +51,31 @@ const ContactSec = () => {
       popup: "Before development begins, we get everything in sync - the scope, team, deliverables, and timelines. Once locked in, our expert team get  into action to deliver your vision with precision and passion.",
     },
   ];
+
+  const [inView, setInView] = useState(false);
+      const animateRef = useRef(null);
+  
+      useEffect(() => {
+          const observer = new IntersectionObserver(
+              ([entry]) => {
+                  if (entry.isIntersecting) {
+                      setInView(true);
+                      observer.disconnect();
+                  }
+              },
+              {
+                  threshold: 0.3,
+              }
+          );
+  
+          if (animateRef.current) {
+              observer.observe(animateRef.current);
+          }
+  
+          return () => {
+              observer.disconnect();
+          };
+      }, []);
 
   return (
     <section className='mainDsContain'>
@@ -109,25 +134,30 @@ const ContactSec = () => {
 
           </div>
           {leftItems.map((item, index) => (
-            <div className="ds25-left-item" key={index}>
+            <div className="ds25-left-item" key={index} ref={animateRef}>
 
               <p className='ds25Content'>{item.title}</p>
 
-              <span
-                className="ds25-plus"
-                onClick={() => togglePopup(index)}
-              >
-                {activeIndex === index ? '×' : '+'}
-              </span>
+              {
+                  inView && (
+                    <span
+                    className="ds25-plus"
+                    onClick={() => togglePopup(index)}
+                  >
+                    {activeIndex === index ? '×' : '+'}
+                  </span>
+                  )
+                 }
+            
 
               {activeIndex === index && (
-                <div className="ds25-popup">
-                  <span
-                className="ds25-popupclose"
-                onClick={() => togglePopup(index)}
-              >
-                {activeIndex === index ? '×' : '+'}
-                </span>
+                <div className="ds25-popup" >
+                   <span
+                    className="ds25-popupclose"
+                    onClick={() => togglePopup(index)}
+                  >
+                    {activeIndex === index ? '×' : '+'}
+                    </span>
                   <h4 className="ds25-step-title">Step {index + 1}</h4>
                   <p>{item.popup}</p>
                 </div>

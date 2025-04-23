@@ -107,11 +107,10 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  z-index: 3;
-  animation: pulseGlow 2s infinite;
+  z-index: 3; 
+  animation: pulseGlow 2s infinite, upward 1s ease-in-out;
   box-shadow: 0 0 0 rgba(59, 59, 240, 0.7);
   transition: box-shadow 0.3s ease-in-out;
-  animation: upward 1.5s ease-in-out;
 }
 
 @keyframes upward {

@@ -21,9 +21,9 @@ const Banner2 = () => {
     </div>
     <div className="sec-contentBan2">
       <p className="sec-tagBan2">ECOMMERCE STORE DEVELOPMENT</p>
-      <h3 className='h3Ban2 primary-heading'>What’s Holding Back Your eCommerce Growth?</h3>
+      <h3 className='h3Ban2 primary-heading'>What’s Holding Back Your Ecommerce Growth?</h3>
       <p className="sec-descriptionBan2">
-      We strongly believe that your eCommerce store has potential, but if sales aren’t growing as per your expectations, there could be underlying issues that are affecting the performance. A well-optimized store always ensures a seamless shopping experience, higher conversions, and healthy business growth. Here’s what might be holding you back:
+      We strongly believe that your Ecommerce store has potential, but if sales aren’t growing as per your expectations, there could be underlying issues that are affecting the performance. A well-optimized store always ensures a seamless shopping experience, higher conversions, and healthy business growth. Here’s what might be holding you back:
       </p>
       <ul className="pointsBan2">
         <li>

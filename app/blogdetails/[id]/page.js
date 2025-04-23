@@ -276,7 +276,7 @@ export default function BlogDetails() {
                       })}
                     </p>
                    <div className="cardBlogStpaara1">
-                   <p className="cardBlogStpaara">{item.title.slice(0,27)}...</p>
+                   <p className="cardBlogStpaara">{item.title}...</p>
                   
                    </div>
                     <p className="cardBlogStpaaragr">{item.subdescription}</p>
