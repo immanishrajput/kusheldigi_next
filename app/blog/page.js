@@ -196,7 +196,20 @@ const Page = () => {
 
   // }, [showOnlyEcommerce, showOnlyBusiness, showOnlyDigital, showOnlySeo, showOnlyWeb])
 
+  const generateMetadata = ({ params }) => ({
+    title: 'Latest Top eCommerce Trends & Tech Insights | Kushel Digi Blog ',
+    description: 'Explore expert tips on eCommerce development, digital marketing, web design, and business growth. Stay updated with Kushel Digi’s latest industry insights and trends ',
+  });
+
+  useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description :
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
   return (
+    
     <div>
       <Navbar />
       <section className="mainsecBlo">

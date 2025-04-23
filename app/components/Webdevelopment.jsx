@@ -111,8 +111,8 @@ const WebDevelopmentUSA = ({ notify }) => {
     });
   };
 const generateMetadata = ({ params }) => ({
-        title: ' your stop for the Best Website Development services ',
-        description: 'KushelDigi Solutions- the best web development services! that Boost your online visibility with our experienced staff committed to making your dreams come true.',
+        title: ' Build Your Dream Website Today | Web Development by Kushel Digi ',
+        description: 'Start your project with Kushel Digi Solutions—experts in custom web development, responsive design, and innovative digital solutions for every industry.',
       });
       
     useEffect(() => {

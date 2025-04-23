@@ -1152,8 +1152,8 @@ function CustomSoftware() {
 
 
   const generateMetadata = ({ params }) => ({
-      title: "best Custom software development company - KushelDigi Solutions",
-      description: 'Kushel Dig Solutions one of the best Custom software development company with various benefits like Increased Efficiency, Scalability, Enhanced Security, and more',
+      title: "Custom Software Development & Automation Solutions | Kushel Digi",
+      description: 'Transform your business with Kushel Digi’s custom software, automation, and maintenance services. Future-proof, scalable, and designed for your industry’s demands.',
     });
     
   useEffect(() => {

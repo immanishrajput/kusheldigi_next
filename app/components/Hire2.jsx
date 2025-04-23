@@ -41,8 +41,8 @@ const HireTeam = () => {
     });
   };
  const generateMetadata = ({ params }) => ({
-    title: 'KushelDigi : Job Search Marketplace. Tech Job Hunting Simplified',
-    description: 'Discover your dream tech job effortlessly with KushelDigi! Our job search marketplace streamlines the process, connecting talented professionals with top tech companies. Simplify your job hunt today..',
+    title: 'Kushel Digi | Job Search Marketplace Tech Job Hunting Simplified',
+    description: 'Discover your dream tech job effortlessly with KushelDigi! Our job search marketplace streamlines the process, connecting talented professionals with top tech companies. Simplify your job hunt today..',
   });
   
 useEffect(() => {

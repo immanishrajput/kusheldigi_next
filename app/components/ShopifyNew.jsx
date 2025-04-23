@@ -40,8 +40,8 @@ import { ShopifyFeatures, ShopifyFeaturesContent, ShopifyServicesContent, Shopif
 
 function Shopify3({notify}) {
   const generateMetadata = ({ params }) => ({
-              title: 'KushelDigi Solutions- Top shopify development company',
-              description: "Kushel Digi Solutions experience, you can unlock Shopify's full potential Put your trust in the Shopify development services to build your online success."
+              title: 'Shopify Experts for eCommerce Development Growth | Kushel Digi ',
+              description: "Kushel Digi Solutions delivers Shopify development, theme customization, app integration, and ongoing support. Boost your eCommerce sales with our Shopify expertise."
             });
             
           useEffect(() => {

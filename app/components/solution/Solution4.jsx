@@ -38,8 +38,8 @@ const Solution = () => {
     });
   };
  const generateMetadata = ({ params }) => ({
-    title: 'Our eCommerce Services | Build, Scale & Optimize Your Store',
-    description: 'For seamless integration and performance optimization, we provide custom Shopify and BigCommerce development solutions. Get end to end Ecommerce solutions for long-term success in platform development, UI/UX, and performance marketing.',
+    title: 'Top eCommerce Solutions Company  for B2B/B2C | Kushel Digi',
+    description: 'Kushel Digi Solutions delivers advanced eCommerce app and web development, AI, AR/VR, IoT integration, and secure payment solutions for scalable B2B & B2C businesses. ',
   });
   
 useEffect(() => {

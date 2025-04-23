@@ -26,11 +26,11 @@ const Page = () => {
     <div>
         <Navbar/>
         <title>
-          Kushel Digi Solutions - top Ecommerce Development Company
+        Top eCommerce Development Company | Kushel Digi Solutions
         </title>
         <meta
           name="description"
-          content="KushelDigi Solutions take your digital aspirations and make them come true! We are your success partners rather than just an e-commerce development company."
+          content="Elevate your online store with Kushel Digi expert eCommerce development. Custom, scalable solutions on Shopify, Magento, BigCommerce & more. Boost sales with seamless UX & secure payments."
         />
         <link rel="canonical" href="https://www.kusheldigi.com/Ecommerce" />
         <Banner1/>

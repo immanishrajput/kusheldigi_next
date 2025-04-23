@@ -21,8 +21,8 @@ const callHandler=()=>{
 
 const Service = () => {
   const generateMetadata = ({ params }) => ({
-    title: 'eCommerce Solutions | Shopify & BigCommerce Experts',
-    description: 'Looking for Expert Ecommerce solutions? Kushel Digi Solutions is the most trsuted ecommerce development company having 2000+ Satisfied clients across the globe.',
+    title: 'Digital Transformation & eCommerce Development Experts',
+    description: 'Looking for Expert eCommerce solutions? Kushel Digi Solutions is the most trsuted ecommerce development company having 2000+ Satisfied clients across the globe.',
   });
    useEffect(() => {
     const { title, description } = generateMetadata({ params: {} });
