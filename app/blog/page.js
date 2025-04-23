@@ -196,20 +196,7 @@ const Page = () => {
 
   // }, [showOnlyEcommerce, showOnlyBusiness, showOnlyDigital, showOnlySeo, showOnlyWeb])
 
-  const generateMetadata = ({ params }) => ({
-    title: 'Latest Top eCommerce Trends & Tech Insights | Kushel Digi Blog ',
-    description: 'Explore expert tips on eCommerce development, digital marketing, web design, and business growth. Stay updated with Kushel Digi’s latest industry insights and trends ',
-  });
-
-  useEffect(() => {
-    const { title, description } = generateMetadata({ params: {} });
-    document.title = title;
-    let metaDescription = document.querySelector('meta[name="description"]');
-    metaDescription ? metaDescription.content = description :
-      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-  }, []);
   return (
-    
     <div>
       <Navbar />
       <section className="mainsecBlo">
@@ -317,7 +304,7 @@ const Page = () => {
                       <div className="news-content">
                         <div className="news-title">
                           <h3 className="news-title" id="newBlogTil">
-                            <p> {item?.title.slice(0, 25)}...</p>
+                            <p> {item?.title}</p>
                           </h3>
                           <p className="cardBlogStpaa">
                             {new Date(item?.date).toLocaleDateString("en-GB", {
@@ -366,7 +353,7 @@ const Page = () => {
                       <div className="cardBlogStpaara1">
                         <div>
                           <p className="cardBlogStpaara">
-                            {item?.title.slice(0, 26)}...
+                            {item?.title}
                           </p>
                         </div>
                       </div>
@@ -418,7 +405,7 @@ const Page = () => {
                             <h5>
                               <div>
                                 {" "}
-                                <p>{item?.title.slice(0, 18)}...</p>
+                                <p>{item?.title}</p>
                               </div>
                             </h5>
                           </div>
@@ -471,7 +458,7 @@ const Page = () => {
                       <div className="cardBlogStpaara1">
                         <div>
                           <p className="cardBlogStpaara">
-                            {item?.title.slice(0, 26)}...
+                            {item?.title}
                           </p>
                         </div>
                       </div>
@@ -516,7 +503,7 @@ const Page = () => {
                         </p>
                         <div className="BlogSixBook">
                           <p className="blogSixMaiDivparaa">
-                            {item.title.slice(0, 20)}...
+                            {item.title}
                           </p>{" "}
                         </div>
                         <p className="blogSixMaiDivpaA">Read More</p>
@@ -557,7 +544,7 @@ const Page = () => {
                       </p>
                       <div className="cardBlogStpaara1">
                         <p className="cardBlogStpaara">
-                          {item.title.slice(0, 27)}..
+                          {item.title}
                         </p>{" "}
                       </div>
                       <p className="cardBlogStpaaragr">

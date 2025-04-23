@@ -48,7 +48,7 @@ border-radius: 10px;
   display: flex;
   gap: 15px;
   align-items: center;
-  padding:20px 0px !important;
+  padding:15px 0px 9px 0px !important;
 }
 .desp h4 {
   letter-spacing: 0 !important;
@@ -75,9 +75,9 @@ border-radius: 10px;
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 15px;
+  font-size: 14px;
   background: #f3f3f3;
-  padding: 11px 20px;
+  padding: 9px 20px;
   border-radius: 50px;
  color: #272727;
   cursor: pointer;
@@ -127,7 +127,7 @@ width:610px;
 .contact-form1 input,.input-groupKush input,
 .contact-formKush textarea {
   width: 100%;
-  padding:8px;
+  padding:7px;
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 1rem;
@@ -225,7 +225,7 @@ height: auto;
 .terms-label {
   padding: 13px 0px;
   font-size: 14px;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   gap: 5px;
 }
@@ -240,6 +240,7 @@ height: auto;
   border-radius: 5px;
   font-size: 1rem;
   cursor: pointer;
+  height: 45px;
   transition: background 0.3s;
 }
 

@@ -45,7 +45,7 @@ const Banner = () => {
             <div className="hero-contentBi">
               <p className="hero-tagCo">Top Ecommerce Development Agency</p>
               <h3 className="headssCom primary-heading">
-                Looking for a High-Conversion eCommerce Solution?
+                Looking for a High-Conversion Ecommerce Solution?
               </h3>
               <p className="hero-descriptionCom secondary-heading">
                 Your search for the perfect eCommerce solution ends here! Kushel

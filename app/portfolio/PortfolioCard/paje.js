@@ -81,7 +81,7 @@ const portfolioData = [
     id: 'automotive-5',
     // companyName: 'Ballistic Dummy Lab',
     logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725952762/image_75_ywf6np.svg',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745055547/shopify_m2gdvp.png',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409123/Shoplift1_kzo9i1.png',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
@@ -175,7 +175,7 @@ const portfolioData = [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
     links: {
-      liveStore: 'https://www.phastekperformance.com/',
+     
       caseStudy: '/blackRhino',
       platform: '/bigcommerce-development',
     },
@@ -224,12 +224,11 @@ const portfolioData = [
     id: 'automotive-12',
     // companyName: 'My CMS',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477196/mycms_dc994l.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409212/laravel_ckyqzi.png',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
     links: {
-      liveStore: 'https://www.phastekperformance.com/',
       caseStudy: '/crazyCMS',
       // platform: '#',
     },
@@ -242,7 +241,7 @@ const portfolioData = [
     id: 'automotive-13',
     // companyName: 'FairChild',
     logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725952623/Layer_1_15_ilqoor.svg',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409212/laravel_ckyqzi.png',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
@@ -262,7 +261,7 @@ const portfolioData = [
     id: 'automotive-14',
     // companyName: 'Wood View',
     logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725952841/image_76_tovttv.svg',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409212/laravel_ckyqzi.png',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
@@ -279,7 +278,7 @@ const portfolioData = [
     id: 'automotive-15',
     // companyName: 'HRMS',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477326/hrmsname_ljnty9.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745408641/node_js_xqb6ug.png',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
@@ -300,7 +299,7 @@ const portfolioData = [
     id: 'automotive-16',
     // companyName: 'Shubhalloys',
     logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725952993/SHUBHALLOYS_j2i6dz.svg',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745408641/node_js_xqb6ug.png',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
@@ -320,12 +319,11 @@ const portfolioData = [
     id: 'automotive-17',
     // companyName: 'Inventory Propus Enterprises',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478580/custom11_kznig4.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409465/PHP_az1lyx.png',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
     links: {
-      liveStore: 'https://www.phastekperformance.com/',
       caseStudy: '#',
       platform: '/php',
     },
@@ -338,7 +336,7 @@ const portfolioData = [
     id: 'automotive-18',
     // companyName: 'Instacertify',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478756/webinstalogo_rutcoc.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409710/Next_js1_lcqcpn.png',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
@@ -355,7 +353,7 @@ const portfolioData = [
     id: 'automotive-19',
     // companyName: 'OBTECH',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478856/webobtech_km5zcs.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409465/PHP_az1lyx.png',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
@@ -372,7 +370,7 @@ const portfolioData = [
     id: 'automotive-20',
     // companyName: 'DigitalMnA',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477171/abimg11_aiqpei.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409710/Next_js1_lcqcpn.png',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
@@ -389,7 +387,7 @@ const portfolioData = [
     id: 'automotive-21',
     // companyName: 'Auxible',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478612/webauxlogo_sxf2ww.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    // platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
@@ -409,7 +407,7 @@ const portfolioData = [
     id: 'automotive-22',
     // companyName: 'Juinor Achievement',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478786/webjuniorlogo_pvlv7i.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    // platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
@@ -444,7 +442,7 @@ const portfolioData = [
     id: 'automotive-24',
     // companyName: 'Jowffe',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478824/touffle_le6ygd.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    // platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
@@ -460,7 +458,7 @@ const portfolioData = [
     id: 'automotive-25',
     // companyName: 'Major',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478721/webmajorlogo_ejcx63.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409345/React1_eyrvol.png',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
@@ -493,7 +491,7 @@ const portfolioData = [
     id: 'automotive-27',
     // companyName: 'Saina',
     // logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    // platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
@@ -510,7 +508,7 @@ const portfolioData = [
     id: 'automotive-28',
     // companyName: 'Circuit Route Planner',
     // logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    // platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
@@ -527,7 +525,7 @@ const portfolioData = [
     id: 'automotive-29',
     // companyName: 'Apeejay Business Center',
     // logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    // platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
@@ -544,7 +542,7 @@ const portfolioData = [
     id: 'automotive-30',
     // companyName: 'Fit Cloud Pro',
     // logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    // platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
@@ -561,7 +559,7 @@ const portfolioData = [
     id: 'automotive-31',
     // companyName: 'EAR SHOT',
     // logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    // platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
@@ -578,7 +576,7 @@ const portfolioData = [
     id: 'automotive-32',
     // companyName: 'VR OTT',
     //  logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
-   platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+  //  platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
@@ -595,7 +593,7 @@ const portfolioData = [
     id: 'automotive-33',
     
     // logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
-   platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+  //  platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
@@ -642,7 +640,7 @@ const Portfolio = () => {
           <div className="client each-portfolio-cards automotive" id={item?.id} key={index}>
             <div className="each-portfolio">
               <img src={item?.logo} className="top-company-logos" />
-              <img alt="Platform Logo" src={item?.platformLogo} className="bottom-platform-logo" />
+              <img src={item?.platformLogo} className="bottom-platform-logo" />
               <div className="card-overlayMain">
                 <div className="overlay-content">
                   <img src={item?.logo} />

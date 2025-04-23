@@ -61714,6 +61714,7 @@ wordpress_cater_box p {
     }
 
     .foot2 {
+        display: contents !important;
         padding: 20px 40px
     }
 
@@ -74539,8 +74540,8 @@ input::-webkit-inner-spin-button {
 .blogSixMaiDivparaa {
     position: relative;
     cursor: pointer;
-    display: inline;
-    white-space: nowrap;
+    /* display: inline; */
+
     color: black;
     font-family: 'Poppins', sans-serif;
 }
