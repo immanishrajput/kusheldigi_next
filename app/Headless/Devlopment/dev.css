@@ -6,12 +6,13 @@
 
 .developmental {
   text-align: center;
-  padding: 50px;
+  padding: 0px 0px;
   background-color: #e8f2f5;
 }
 
 .subset {
-  max-width: 1380px;
+  max-width: 1720px;
+  padding: 50px 50px;
   margin: auto;
 }
 

@@ -72,6 +72,7 @@
   
     .spot-headless-ccon--2-div {
       flex-direction: column;
+      gap: 20px;
       text-align: center;
     }
   
@@ -127,7 +128,12 @@
       font-size: 17px;
           padding: 15px 0px 0px 0px;
           text-align: center;
+ 
       
+    }
+
+    .spot-con--2-div-contentt {
+      min-width: unset;
     }
   
     .spot-btn-auditCom {

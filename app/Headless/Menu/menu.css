@@ -4,18 +4,17 @@
   
   .tripole1 {
     background: #d2d2d239;
-    padding: 100px 4% 50px 4%;
-  
-  
+    padding: 150px 50px 50px 50px;
     margin: 40px 0px 0px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 1720px;
+    margin: 0 auto;
   }
   
   .tripole2 {
     display: flex;
-    max-width: 1380px;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
@@ -178,9 +177,12 @@
       gap: 15px;
       align-items: center;
     }
+    .tripole2{
+      padding: 100px 40px 50px 40px;
+    }
   
     .tripole1 {
-      padding: 100px 10px 50px 10px;
+      padding: 100px 10px 0px 10px;
     }
   
     .tripole7,
@@ -190,13 +192,16 @@
       font-size: 0.9rem;
     }
   }
-  @media(max-width:550px){
+  @media(max-width:600px){
     .victus p {
       text-align: center !important;
     
     }
     .tripole4{
       text-align: center !important;
+    }
+    .tripole2{
+      padding: 100px 40px 50px 40px;
     }
   }
   
@@ -209,6 +214,9 @@
     .victus p {
       text-align: center !important;
     
+    }
+    .tripole2{
+      padding: 100px 40px 0px 40px;
     }
   
     .tripole1 {

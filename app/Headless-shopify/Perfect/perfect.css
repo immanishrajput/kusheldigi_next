@@ -566,11 +566,20 @@
         margin-left: 30px;
     }
 
+    @media(max-width:1232px){
+        #shopi-phase1Name{
+            left: 2px !important;
+        }
+    }
+
     @media screen and (max-width: 1024px) {
 
         .shopi-progress-inner-container {
             align-items: baseline;
-            padding: 30px 22px;
+            padding: 30px 50px;
+        }
+        #shopi-phase1Name{
+            left: 2px !important;
         }
 
         .progress-toggle-btn-div {
@@ -590,8 +599,9 @@
             font-weight: 600;
             font-size: 2.9rem;
         }
+      
         .sprogresss-sm-heading-primary-heading{
-            text-align: center;
+            text-align: center !important;
             font-size: 23px;
         }
 
