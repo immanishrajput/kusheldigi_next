@@ -225,7 +225,7 @@
   
     .shopy-content-blockEcom {
       padding: 8px;
-      margin-bottom: 15px;
+   min-height: 112px;
     }
   
     .shopy-content-blockEcom h3 {
