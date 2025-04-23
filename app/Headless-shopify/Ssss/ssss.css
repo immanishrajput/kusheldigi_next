@@ -116,6 +116,12 @@
     color: #007BFF;
     border: 1px solid #007BFF;
   }
+
+  @media (max-width:1360px){
+    .Sss{
+      padding: 50px 50px;
+    }
+  }
   
   /* ✅ Tablets (<= 1024px) */
   @media (max-width: 1024px) {
@@ -123,7 +129,7 @@
       flex-direction: column;
       align-items: center;
       text-align: center;
-      padding: 3rem 1.5rem;
+      padding: 5rem 3.5rem;
       background-color: #f9fbff;
     }
   
@@ -184,7 +190,7 @@
   /* ✅ Mobile Devices (<= 768px) */
   @media (max-width: 768px) {
     .Sss {
-      padding: 2.5rem 1.2rem;
+      padding: 2.5rem 2.5rem;
     }
   
     .Sss-heading {

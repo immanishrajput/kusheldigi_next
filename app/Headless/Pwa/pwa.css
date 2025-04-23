@@ -7,12 +7,12 @@
   
   .headless-pwa {
     background-color: white;
-    padding: 50px 20px;
     text-align: center;
   }
   
   .human-pwa {
-    max-width: 1380px;
+    max-width: 1720px;
+    padding: 50px 50px;
     margin: auto;
   }
   

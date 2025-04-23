@@ -15,14 +15,18 @@
   color: white;
   display: flex;
   flex-direction: column;
-  padding: 100px 20px 50px 80px;
-  max-width: 1580px;
+  padding: 2px 0px 44px 58px;
+  max-width: 1720px;
   margin: 9% auto 0 auto;
   overflow: hidden;
   min-height: 552px;
 }
 
 .trofff {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px 0px 0px;
   /* Placeholder for future styles if needed */
 }
 
@@ -45,6 +49,7 @@
 .troffi-heading {
   font-size: 3rem;
   font-weight: 700;
+  padding: 24px 0px 0px 0px;
   color: #000000c9;
   margin-bottom: 1.5rem;
   line-height: 1.1;
@@ -100,34 +105,52 @@
 }
 
 .troffi-image {
-  position: absolute;
-  top: 100px;
-  right: 0px;
-  height: 58%;
-  max-width: 57%;
+  height: auto;
+  max-width: 44%; 
   z-index: 1;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   pointer-events: none;
+  margin-top: 2rem;
 }
 
 .troffi-image img {
   height: 100%;
-  min-height: 470px;
+  min-height: 400px; 
   width: 100%;
-  min-width: 490px;
+  min-width: 420px; 
   object-fit: contain;
 }
 
-/* Large tablet to small desktop screens */
-@media (max-width: 1433px) {
-  .troffi {
-    padding: 8rem 2rem 3rem 4rem;
+@media(max-width:1041px){
+  .troffi-heading {
+    font-size: 2rem;
+  }
+  .trofff {
+    padding: 4rem 0rem 1rem 0rem;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     min-height: auto;
   }
+  .troffi-content{
+    width: 100%;
+    max-width: 950px;
+  }
+}
+@media (max-width: 900px) {
+  /* .troffi {
+    padding: 2rem 0rem 1rem 0rem;
+    flex-direction: column;
+    align-items: center;
+    min-height: auto;
+  } */
+  /* .trofff {
+    padding: 2rem 0rem 1rem 0rem;
+    flex-direction: column;
+    align-items: center;
+    min-height: auto;
+  } */
 
   .sunroof {
     flex-direction: row;
@@ -141,17 +164,15 @@
   }
 
   .troffi-image {
-    position: absolute;
-    right: 0;
-    top: 90px;
-    max-width: 55%;
+    max-width: 100%;
+    margin-top: 2rem;
+    justify-content: center;
     height: auto;
-    z-index: 1;
   }
 
   .troffi-image img {
     width: 100%;
-    height: auto;
+    height: 450px;
     object-fit: contain;
   }
 }
@@ -159,7 +180,7 @@
 /* Tablet screens */
 @media (max-width: 992px) {
   .troffi {
-    padding: 8rem 2rem 3rem 2rem;
+    padding: 3rem 2rem 2rem 2rem;
     flex-direction: column;
     min-height: auto;
   }
@@ -188,11 +209,16 @@
     font-size: 1rem;
   }
 }
+@media(max-width:539px){
+  .troffi{
+    padding: 3rem 2rem;
+  }
+}
 
 /* Mobile devices */
 @media (max-width: 480px) {
   .troffi {
-    padding: 9rem 1.5rem 2.5rem 1.4rem;
+    padding: 6rem 1.5rem 0.5rem 1.4rem;
   }
 
   .troffi-heading {
@@ -219,18 +245,16 @@
     font-size: 11px;
   }
 
-  
   .troffi-image  {
-   margin-top: 0 !important;
-    
+    margin-top: 0 !important;
   }
+
   .troffi-image img {
     height: auto;
     width: 100%;
     object-fit: contain;
     min-height: 400px;
     min-width: auto;
-    
   }
 
   .troffi-button .arrow {
@@ -241,7 +265,7 @@
 /* Extra small mobile devices */
 @media (max-width: 380px) {
   .troffi {
-    padding: 8rem 0.8rem 2.5rem 0.8rem;
+    padding: 5rem 0.8rem 0.5rem 0.8rem;
     margin-top: 15%;
   }
 
@@ -271,8 +295,8 @@
 
   .troffi-image  {
     margin-top: 0 !important;
-     
-   }
+  }
+
   .troffi-image img {
     min-height: 300px;
     width: 100%;

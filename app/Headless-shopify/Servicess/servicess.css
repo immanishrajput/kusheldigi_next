@@ -6,11 +6,11 @@
 
 .shopy-containerEcom {
     display: flex;
-    max-width: 1340px;
+    max-width: 1720px;
     margin: auto;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 80px 0px 60px 0px;
+    padding: 50px 50px;
     /* padding-bottom: 14rem; */
     background-color: #ffffff;
   }
@@ -120,7 +120,7 @@
   @media screen and (max-width: 1024px) {
     .shopy-containerEcom {
       flex-direction: column;
-      padding: 30px 20px;
+      padding: 30px 40px;
       padding-bottom: 6rem;
     }
   
@@ -157,7 +157,7 @@
   
   @media screen and (max-width: 600px) {
     .shopy-containerEcom {
-      padding: 20px 15px;
+      padding: 20px 35px;
     }
   
     .shopy-left-sectionEcom h1 {

@@ -11,7 +11,8 @@
   }
   
   .subsett{
-    max-width: 1348px;
+    max-width: 1720px;
+    padding: 0px 50px;
     margin: auto;
   }
   .onlinee-why-choose-title {
@@ -104,6 +105,9 @@
     }
     .onlinee-why-choose-card h3{
       font-size: 21px;
+    }
+    .subsett{
+      padding: 20px 20px;
     }
   }
 
