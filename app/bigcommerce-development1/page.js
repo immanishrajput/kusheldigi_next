@@ -13,7 +13,7 @@ import ContactForm1 from '../COMMON/ContactForm1'
 import Home2BrandSwiper from '../components/Home/Home2BrandSwiper'
 import BigSection8 from './BigSection8/page'
 import BigSection5 from './BigSection5/page'
-import BigAskQuestion from '../bigcommerce-development/BigAskQuestion'
+
 import '../globals.css'
 import Navbar from '../COMMON/Navbar'
 import Footer from '../COMMON/Footer'
@@ -74,7 +74,7 @@ function BigCommerce3({ notify }) {
 
         <YourProject />
 
-        <BigAskQuestion />
+    
         {/* <Home2AskQuestion /> */}
 
         <ContactForm1 notify={notify} />
