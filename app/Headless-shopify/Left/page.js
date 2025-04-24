@@ -56,7 +56,7 @@ const features = [
 export default function ShopifyFeatures() {
   return (
     <section className="sleft-section">
-      <h2 className="sleft-title">Features of Shopify Headless eCommerce</h2>
+      <h3 className="sleft-title">Features of Shopify Headless eCommerce</h3>
       <p className="sleft-subtitle">
         You can access multiple possibilities through our Shopify Headless eCommerce solutions. Our features have transformed online store creation by offering safe payments alongside unprecedented flexibility which redesigns your building and growth process.
       </p>

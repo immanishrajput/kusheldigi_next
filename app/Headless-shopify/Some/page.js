@@ -6,9 +6,9 @@ export default function WhyChoose() {
     return (
         <section className="onlinee-why-choose-section">
             <div className="subsett">
-                <h2 className="onlinee-why-choose-title">
+                <h3 className="onlinee-why-choose-title">
                     Why Choose Kushel Digi for Shopify Headless Solutions?
-                </h2>
+                </h3>
                 <p className="onlinee-why-choose-subtitle">
                 At KushelDigi, we don’t just build headless commerce solutions—we engineer success.
                 </p>

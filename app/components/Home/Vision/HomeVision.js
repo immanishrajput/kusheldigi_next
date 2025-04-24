@@ -46,7 +46,8 @@ const Website = () => {
         <section className="services-we-served vision-section">
           <div className="container1">
             <div className="title">
-              <h3 className="primary-heading">Real Success, Real Impact</h3>
+              <h3 className="primary-heading">Real Success, 
+                Real Impact</h3>
             </div>
             <div className="section-grid">
               <div className="section-grid-item services-we-served-list">
@@ -1027,7 +1028,7 @@ const Website = () => {
               </div>
               <div className="section-grid-item">
                 <div className="services-we-served-header">
-                  <h2 className="primary-heading">Real Success, Real Impact</h2>
+                  <h2 className="primary-heading">Real Success, <br/> Real Impact</h2>
                   <p className='secondary-heading'>Have a look on our stories of success</p>
                   <Link href="/portfolio" className="btn-link btn-icon-left">
                     <span className="btn-icon">

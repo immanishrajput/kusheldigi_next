@@ -9,7 +9,7 @@ const ShopifyHeadless = () => {
     <section className="Sss">
       <div className="Sss-content">
         {/* <p className="Sss-tagline">Expert Shopify Developers</p> */}
-        <h2 className="Sss-heading">What is Shopify Headless Development?</h2>
+        <h3 className="Sss-heading">What is Shopify Headless Development?</h3>
         <p className="Sss-description">
         Shopify users who choose bundled setups receive a quick deployment of their platform, although
 this option provides restricted flexibility because both front-end and backend features remain

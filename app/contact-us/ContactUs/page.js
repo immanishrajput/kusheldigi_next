@@ -285,7 +285,7 @@ const ContactUs = () => {
           </form>
         </div>
         <div className="info-sectionkUSH">
-          <h2 className="DropCont"><span>Got an Idea? </span> Let’s Make It Happen.</h2>
+          <h1 className="DropCont"><span>Got an Idea? </span> Let’s Make It Happen.</h1>
           <div className="row-box">
             <div className="col-box dis-flex">
               <div className="iconImgReact">

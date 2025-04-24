@@ -623,7 +623,7 @@ const Portfolio = () => {
   return (
 
 <section className='mainSec_PortWork'>
-<h2 className="PortFolio_ourWork">Our Work</h2>
+<h1 className="PortFolio_ourWork">Our Work</h1>
     <div className="PortfolioButtonWork">
       <button onClick={() => handleFilterChange("All")} className={`${filteredCategory === "All" && "addbgcclds"}`}>All</button>
       <button onClick={() => handleFilterChange("ecommerce")} className={`${filteredCategory === "ecommerce" && "addbgcclds"}`}>E-Commerce</button>

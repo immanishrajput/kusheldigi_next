@@ -76,7 +76,7 @@ body {
   .services-we-served-header h2{
     font-size: 2.7rem;
     font-weight: 600;
-    width: 326px;
+    /* width: 326px; */
     line-height: 2.8rem;
   }
   
