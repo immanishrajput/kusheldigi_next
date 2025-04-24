@@ -5,32 +5,36 @@ import Head from "next/head";
 
 const FaqData = [
   {
-    question: 'What is the timeline for a BigCommerce development project?',
-    answer: 'The timeline varies based on the complexity of the project, but a standard BigCommerce store can take anywhere from 4 to 8 weeks from discovery to deployment.',
+    question: 'What is BigCommerce and how is it different from other platforms?',
+    answer: ' BigCommerce is a cloud-based eCommerce platform that allows businesses to build, run, and grow online stores.',
   },
   {
-    question: 'How do you ensure the design matches my brand’s identity?',
+    question: 'Is BigCommerce suitable for small businesses or only enterprises?',
     answer: "We start with an in depth understanding of your brand's vision and values and then create designs that reflect your unique identity. We also take your feedback at each stage to ensure alignment.",
   },
   {
-    question: 'Can you integrate third-party apps and tools into my BigCommerce store?',
-    answer: "Yes, we can integrate various third-party apps and tools that includes payment gateways, CRM systems, and marketing automation tools, to enhance your store’s functionality.",
+    question: 'How customizable is a BigCommerce store?',
+    answer: "BigCommerce provides  full customization by using HTML, CSS, and its Stencil theme framework.",
   },
   {
-    question: "How do you ensure my BigCommerce store is secure?",
-    answer: "We implement industry best practices for security, including SSL certificates, secure payment gateways, and regular security updates, to protect your store and customer data.",
+    question: "Can BigCommerce integrate with third-party apps and tools?",
+    answer: "Yes, BigCommerce supports integration with popular CRMs, ERPs, payment gateways, and marketing tools by  its API.",
   },
   {
-    question: 'Will my BigCommerce store be mobile-friendly?',
-    answer: "Absolutely! All of our BigCommerce designs are fully responsive which ensure a seamless shopping experience on all devices, including smartphones and tablets.",
+    question: 'Is BigCommerce SEO-friendly?',
+    answer: "Absolutely. BigCommerce has built-in SEO features like customizable URLs, metadata, automatic sitemaps and fast loading speeds.",
   },
   {
-    question: 'What kind of support do you offer after the store is launched?',
-    answer: "We offer ongoing support and maintenance services, including troubleshooting, updates, and optimizations, to ensure your store continues to perform at its best.",
+    question: 'Can I migrate my existing website to BigCommerce?',
+    answer: "Yes, it  supports migration from platforms like Shopify, Magento, and WooCommerce.",
   },
   {
-    question: 'Can you help with SEO and digital marketing for my BigCommerce store?',
-    answer: "Yes, we can optimize your BigCommerce store for search engines and provide digital marketing services to increase visibility and drive traffic to your site.",
+    question: 'Does BigCommerce support multi-channel selling?',
+    answer: "Yes. You can sell on Amazon, eBay, Facebook, Instagram, and Google Shopping directly from your BigCommerce dashboard.",
+  },
+  {
+    question: 'Is it easy to manage inventory on BigCommerce?',
+    answer: "Its very easy to manage inventory on BigCommerce as it provides real-time inventory management, bulk editing tools and alerts for low stock.",
   },
 ];
 

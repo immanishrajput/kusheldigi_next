@@ -3,33 +3,42 @@ import React, { useEffect, useState } from "react";
 import '../../COMMON/FAQ.css'
 const FaqData = [
   {
-    question: 'What is Shopify, and how does it work?',
-    answer: 'Shopify is an eCommerce platform that allows businesses to create, customize, and manage their online stores more efficiently. It provides an easy interface, multiple design templates, and integrations to make the process of selling your products online much easier.',
+    question: 'Why should I choose Shopify for my eCommerce business?',
+    answer: ' Shopify is definitely very easy to use, quick and even includes all you need to start selling online, including hosting, payment processing, and marketing features.',
   },
   {
-    question: 'Do I need  technical experience to use Shopify?',
-    answer: "No, Shopify can be used by beginners and professionals alike. It has drag-and-drop features, which makes setting up and maintaining a store pretty simple.",
+    question: 'Can I sell on social media sites by using Shopify?',
+    answer: " Yes. Shopify integrates with Facebook, Instagram, TikTok, and more to help you sell across multiple channels.",
   },
   {
-    question: 'Can you customize my Shopify store to fit my brand?',
-    answer: "Yes, we pride ourselves on specialist services for Shopify store customization to represent your brand with its unique identity-be it design tweaks or advanced custom features.",
+    question: 'Does Shopify support dropshipping?',
+    answer: " Absolutely. You can easily Shopify automate drop shipping using apps like Oberlo or Spocket. ",
   },
   {
-    question: "How long does it take to develop a Shopify store?",
-    answer: "It depends on the project's complexity and specific requirements. It takes a few days for a simple store to be set up, while a fully customized store may require a few weeks.",
+    question: "How customizable is a Shopify theme?",
+    answer: "Shopify offers many free and paid themes, which can be customized using the drag-and-drop editor or Liquid (its template language).",
   },
   {
-    question: 'What kind of support  you offer after launch of my store?',
-    answer: "We also provide continuous support and maintenance to ensure smooth running for your Shopify store. Whether you need technical assistance, updates, or enhancements, we're here to help.",
+    question: 'What type of support does Shopify provide?',
+    answer: " Shopify provides your business 24/7 customer support through live chat, phone, and email as well as a massive community.",
   },
   {
-    question: 'Can Shopify handle large inventories and high traffic?',
-    answer: "Yes, Shopify is scalable and thus can manage big inventories, many products, and a high flow of traffic. It will work for companies of any size, right from the smallest startups up to huge enterprises.",
+    question: 'Can I migrate my store to Shopify from another platform?',
+    answer: " Yes, Shopify provides various tools to migrate and third-party services to assist you in transferring products, content, and customer data seamlessly.",
   },
   {
-    question: 'Is Shopify SEO-friendly?',
-    answer: "Yes, Shopify is SEO-friendly and includes built-in features like customizable meta tags, sitemaps, and URL structures to help improve your store's visibility on search engines.",
+    question: 'How secure is a Shopify store?',
+    answer: " Shopify is Level 1 PCI compliant, uses SSL encryption, and has automatic updates to keep your store secure.",
   },
+  {
+    question: 'Is Shopify good for international selling?',
+    answer: "  Yes, Shopify supports multiple currencies, languages, and international shipping features for global reach.",
+  },
+  {
+    question: 'Can I use my own domain with Shopify?',
+    answer: " Yes. You can either map your own existing domain or buy a new one directly via Shopify.",
+  },
+ 
  
 ];
 
