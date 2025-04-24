@@ -22,7 +22,7 @@ const ShopifyBanner = () => {
         <div className="shopify-new-banner-container">
                 <div className="shopify-new-banner-left">
                     <p className='shopify-new-sm-location'>Custom Shopify Solutions</p>
-                    <h2 className='shopify-new-banner-heading'>Expert Shopify Development Solutions for eCommerce Growth</h2>
+                    <h4 className='shopify-new-banner-heading'>Expert Shopify Development Solutions for eCommerce Growth</h4>
                     <h3 className='shopify-new-banner-sm-heading '>Kushel Digi Solutions has a successful proven track record in offering modern Shopify solutions by building high performance shopify store to grow your business.Our experts are always committed to make sure that your online store is not  just functional but optimized for success.
                     </h3>
                     <div className='flex-bigcommerce-banner-btns'>

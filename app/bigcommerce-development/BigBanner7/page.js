@@ -7,7 +7,7 @@ const Result = () => {
     <div className="ResultBccom">
       <div className="text-contentBccom">
         <h3 className="subtitleBccom secondary-heading">why bigcommerce</h3>
-        <h1 className="titlebccom primary-heading">Easier, Faster & More Profitable with Bigcommerce Solutions </h1>
+        <h4 className="titlebccom primary-heading">Easier, Faster & More Profitable with Bigcommerce Solutions </h4>
         <p className="descriptionbbcom">
         Kushel Digi emerged as a trusted partner for creating robust, scalable eCommerce platforms. Bigcommerce enables our expert team to design and develop stores that are both visually stunning and highly functional. 
         </p>

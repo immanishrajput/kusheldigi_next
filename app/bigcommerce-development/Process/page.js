@@ -188,7 +188,7 @@ const Progress = ({page}) => {
                                 <div id='phase11' className="process-button"></div>
                                 <div id='phase11Name' className='agile11phase'>
                                     <span className=''>07</span>
-                                    <span className='procBCom'>Launch <br/> & Ongoing Support</span>
+                                    <span className='procBCom'>Launch <br/> & Ongoing <br/> Support</span>
                                 </div>
                            </>
                         )

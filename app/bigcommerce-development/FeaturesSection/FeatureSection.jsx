@@ -34,7 +34,7 @@ const FeatureSection = ({services,contents}) => {
         <div className='big-feature-outer-container'>
             <div className="big-feature-inner-container">
                 <div className="left-big-feature-container">
-                <h2 className="bigcommerce-feature-heading primary-heading">{contents?.title}</h2>
+                <h4 className="bigcommerce-feature-heading primary-heading">{contents?.title}</h4>
                     <p className='big-feature-para secondary-heading'>{contents?.desc}
                     </p>
 

@@ -17,7 +17,7 @@ const services = [
 const ServiceSection = ({services,contents}) => {
     return (
         <div className='big-outer-services-container'>
-            <h2 className='big-services-heading primary-heading'>{contents?.title}</h2>
+            <h4 className='big-services-heading primary-heading'>{contents?.title}</h4>
             <p className='big-services-sm-heading secondary-heading'>{contents?.desc}
             </p>
         <div className="big-services-container">

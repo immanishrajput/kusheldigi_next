@@ -69,12 +69,12 @@ const CaseStudy = () => {
     return (
         <div className='case-study-container'>
             <div className='case-wrapper'>
-                <h2 className='big-card-heading primary-heading'>{caseStudies[currentIndex].heading}</h2>
+                <h4 className='big-card-heading primary-heading'>{caseStudies[currentIndex].heading}</h4>
                 <div className='case-card'>
                     <img className={`case-img ${caseStudies[currentIndex].className}`} src={caseStudies[currentIndex].img} alt='case' />
                     <div className="card-info">
                         <p>{caseStudies[currentIndex].smHeading}</p>
-                        <h2>{caseStudies[currentIndex].heading}</h2>
+                        <h3>{caseStudies[currentIndex].heading}</h3>
                         {
                             caseStudies[currentIndex].bigCommerce.map((item,index)=>(
                                <div key={index} className="bigcommerceImg-card">

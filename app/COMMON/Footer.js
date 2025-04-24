@@ -123,24 +123,30 @@ const Footer = () => {
           </div>
           <div className="footer2Image1">
                 <div className="footer2Image">
-            <img width="120" height="121" loading="lazy" 
+           <Link href="https://www.designrush.com/agency/profile/kushel-digi-solutions" target="blank">
+           <img width="120" height="121" loading="lazy" 
             src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446874/BE-1_d90kuk.png"
-            // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993082/designrush_jkyjny.webp" 
+           
             alt="logo">
 
             </img>
+           </Link>
             </div>
             <div className="footer2Image">
-            <img width="120" height="129" loading="lazy"
+           <Link href="
+https://clutch.co/profile/kushel-digi-solutions" target="blank">
+           <img width="120" height="129" loading="lazy"
             src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446906/T-b2b-2_on82xw.png" 
-            // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993092/b2b-companies-canada_tdaega.png"
              alt="logo"></img>
+           </Link>
             </div>
             <div className="footer2Imagelat">
-            <img width="130" height="111" loading="lazy" 
+           <Link href="https://www.goodfirms.co/company/kushel-digi-solutions-1" target="blank">
+           <img width="130" height="111" loading="lazy" 
             src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446906/top-E-3_vycg4a.png"
-            // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993119/ecommerce-development-companies_glc1ea.png" 
+            
             alt="logo"></img>
+           </Link>
             </div>
             <div className="footer2Image">
             <img width="120" height="129" loading="lazy" 
@@ -149,12 +155,14 @@ const Footer = () => {
             alt="logo"></img>
             </div>
             <div className="footer2Image">
-            <img width="120" height="120" loading="lazy" 
+           <Link href="https://partners.bigcommerce.com/directory/partner/1983347/kushel-digi-solutions" target="blank">
+           <img width="120" height="120" loading="lazy" 
             src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/cbp-5_q19rbt.png"
-            // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743148178/Certified-Bigcommerce-Partner__of0fqt.png"
+
              alt="logo">
                   
             </img>
+           </Link>
             </div>
             <div className="footer2Imagelast">
             <img 
