@@ -26,7 +26,7 @@ const Banner11 = () => {
                 <div className="industry-expertise-header">
                     <div className="industry-sec-title">
                         <span>Industries We Serve</span>
-                        <h2 className="primary-heading">Custom Ecommerce Solutions for Every Industry</h2>
+                        <h3 className="primary-heading">Custom Ecommerce Solutions for Every Industry</h3>
                     </div>
                 </div>
 

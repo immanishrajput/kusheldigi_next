@@ -33,13 +33,13 @@ export const metadata = {
  
   twitter: {
     card: "summary_large_image",
-    title: "Kushel Digi | Expert eCommerce Development Services",
-    description: "We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development.",
+    title: "Future-Ready eCommerce Platform Development Company | Kushel Digi",
+    description: "Transform your online presence with Kushel Digi Solutions eCommerce development, BigCommerce solutions, and tailored B2B and marketplace platforms. Start your project today!.",
     images: [{ url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png", width: 1200, height: 630 }],
   },
   openGraph: {
-    title: "Kushel Digi | Expert eCommerce Development Services",
-    description: "We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development.",
+    title: "Future-Ready eCommerce Platform Development Company | Kushel Digi",
+    description: "Transform your online presence with Kushel Digi Solutions eCommerce development, BigCommerce solutions, and tailored B2B and marketplace platforms. Start your project today! ",
     url: "https://www.kusheldigi.com/",
     type:"website",
     images: [{ url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png", width: 1200, height: 630 , alt:"kushel" }],

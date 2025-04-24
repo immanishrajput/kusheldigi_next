@@ -20,7 +20,7 @@ const Section6 = () => {
   <>
   <section className="Expect6Sec">
   <div className="expertise-section">
-      <h3 className="titleKuH2">Our Expertise</h3>
+      <h2 className="titleKuH2">Our Expertise</h2>
       <p className="subtitleConpa">
       
 With a proven track record in eCommerce development, we specialize in building scalable, user-centric solutions that drive growth and deliver results
