@@ -170,7 +170,7 @@
   @media screen and (max-width: 768px) {
     .headssCom {
       font-size: 28px;
-      text-align: center;
+      /* text-align: center; */
     }
 
     .hero-containerMa {

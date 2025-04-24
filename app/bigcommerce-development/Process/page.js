@@ -40,14 +40,14 @@ const Progress = ({page}) => {
     return (
         <div className='progress-outer-container'>
             <div className="progress-inner-container">
-                <h2 className='progress-heading primary-heading '>Our {page} Development Process</h2>
+                <h3 className='progress-heading primary-heading '>Our {page} Development Process</h3>
                 <h3 className='progress-sm-heading secondary-heading'>Kushel Digi believes in employing latest and advanced global process to deliver projects best suited with your business needs.</h3>
 
                 <div className="progress-toggle-btn-div">
-                    <h1 className={`progress-company-name first-copmpany ${isSwitch ? 'textOpacity' : ''}`}>CUSTOM</h1>
+                    <h4 className={`progress-company-name first-copmpany ${isSwitch ? 'textOpacity' : ''}`}>CUSTOM</h4>
                     <input onChange={() => handleSwitchChange()} type="checkbox" id="switch" />
                     <label id='switchLabel' htmlFor="switch">Toggle</label>
-                    <h1 className={`progress-company-name second-copmpany ${!isSwitch ? 'textOpacity' : ''}`}>DYNAMIC</h1>
+                    <h4 className={`progress-company-name second-copmpany ${!isSwitch ? 'textOpacity' : ''}`}>DYNAMIC</h4>
                 </div>
 
                 <div ref={progressRef} className="phases-wrapper">

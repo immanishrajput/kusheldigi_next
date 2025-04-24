@@ -30,7 +30,7 @@ export default function MagentoPortfolio({page}) {
                         <div className="left-b2b-cardKcom">
                             <div className="b2b-logoKcom">
                                 <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744024691/shooters_1_atm6x0.png" alt="Shopify Plus" />
-                                <Link href="https://typhoondefense.com/" id="human" className="hover-linkCom"> View Case Study <MdArrowOutward /></Link>
+                                <a href="https://typhoondefense.com/" id="human" className="hover-linkCom"> View Case Study <MdArrowOutward /></a>
                             </div>
 
                             <a href="https://typhoondefense.com/" className="b2b-btnKcom">
@@ -43,10 +43,10 @@ export default function MagentoPortfolio({page}) {
                             <div className="b2b-logoKcom">
 
                                 <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744024692/typoon_r4qbbn.png" alt="Shopify Plus" />
-                                <Link href="/https://lafayetteshooters.com/" id="human" className="hover-linkCom"> View Case Study<MdArrowOutward /></Link>
+                                <a href="https://lafayetteshooters.com/" id="human" className="hover-linkCom"> View Case Study<MdArrowOutward /></a>
                             </div>
 
-                            <a href="/https://lafayetteshooters.com/" className="b2b-btnKcom">
+                            <a href="https://lafayetteshooters.com/" className="b2b-btnKcom">
                             Lafayette Shooters
                                 <p>{page}</p>
                             </a>
@@ -56,7 +56,7 @@ export default function MagentoPortfolio({page}) {
                         <div className="left-b2b-cardKcom-3">
                             <div className="b2b-logoKcom">
                                 <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744024693/indrpal-9_aupyjc.png" alt="Shopify Plus" />
-                                <Link href="https://graco-corp.com/" id="human" className="hover-linkCom"> View Case Study <MdArrowOutward /></Link>
+                                <a href="https://graco-corp.com/" id="human" className="hover-linkCom"> View Case Study <MdArrowOutward /></a>
                             </div>
 
                             <a href="https://graco-corp.com/" className="b2b-btnKcom">
@@ -70,7 +70,7 @@ export default function MagentoPortfolio({page}) {
                         <div className="right-b2b-cardKcom">
                             <div className="b2b-logoKcom">
                                 <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744024692/Untitled-indrpal-10_en8ton.png" alt="Shopify Plus" />
-                                <Link href="https://fouroaksfarm.com/" id="human" className="hover-linkCom">View Case Study <MdArrowOutward /> </Link>
+                                <a href="https://fouroaksfarm.com/" id="human" className="hover-linkCom">View Case Study <MdArrowOutward /> </a>
                             </div>
 
                             <a href="https://fouroaksfarm.com/" className="b2b-btnKcom">

@@ -32,7 +32,7 @@ const Page = () => {
           name="description"
           content="Elevate your online store with Kushel Digi expert eCommerce development. Custom, scalable solutions on Shopify, Magento, BigCommerce & more. Boost sales with seamless UX & secure payments."
         />
-        <link rel="canonical" href="https://www.kusheldigi.com/Ecommerce" />
+        <link rel="canonical" href="https://www.kusheldigi.com/ecommerce-development" />
         <Banner1/>
         <Banner2/>
         <Banner3/>

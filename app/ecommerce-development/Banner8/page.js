@@ -18,7 +18,7 @@ const Banner9 = ({page}) => {
   return (
     <section className="clientsSection">
       <div className="textContainer">
-        <h2 className="primary-heading">Your Vision, Our Commitment</h2>
+        <h3 className="primary-heading">Your Vision, Our Commitment</h3>
         <p className="secondary-heading">{page}</p>
       </div>
       <div className="logoGrid">

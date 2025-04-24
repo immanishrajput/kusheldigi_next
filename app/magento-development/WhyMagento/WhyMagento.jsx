@@ -104,7 +104,7 @@ const WhyMagento = () => {
   return (
     <div className='why-magento-container'>
         <div className="why-magento-inner-container">
-            <h2 className='why-magento-heading primary-heading'>Why Magento</h2>
+            <h3 className='why-magento-heading primary-heading'>Why Magento</h3>
 
             <div className="why-magento-grid-container">
                 {

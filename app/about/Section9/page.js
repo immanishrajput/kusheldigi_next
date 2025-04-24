@@ -22,7 +22,7 @@ const Section9 = () => {
           <GoEye/>
           </span>
         </div>
-        <h2 className="titleMission">Our Vision</h2>
+        <h3 className="titleMission">Our Vision</h3>
         <p className="textViMission">
         To become a trusted global partner in digital expansion by creating bespoke eCommerce solutions that drive innovation, produce results, and improve user experiences for businesses of all sizes.
         </p>
@@ -37,7 +37,7 @@ const Section9 = () => {
           <GoGoal/>
           </span>
         </div>
-        <h2 className="titleMission">Our Mission</h2>
+        <h3 className="titleMission">Our Mission</h3>
         <p className="textViMission">
         To design custom, high-performance eCommerce sites that meet our customer’s objectives by integrating design, development, and strategy to deliver measurable growth and long-term success.
         </p>

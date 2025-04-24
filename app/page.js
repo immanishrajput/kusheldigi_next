@@ -54,8 +54,8 @@ const HomePage = ({ props }) => {
 
   const generateMetadata = ({ params }) => {
     return {
-      title: ' Kushel Digi Solutions | Expert eCommerce Development Services',
-      description: 'High performance Ecommerce solutions with specialized development strategies. Kushel Digi Solutions boosts conversion and builds scalable Shopify, BigCommerce and custom online stores.',
+      title: ' Kushel Digi | Future-Ready eCommerce Platform Development Company',
+      description: 'Transform your online presence with Kushel Digi Solutions eCommerce development, BigCommerce solutions, and tailored B2B and marketplace platforms. Start your project today!',
       metadataBase: new URL(`https://www.kusheldigi.com/`),
 
 

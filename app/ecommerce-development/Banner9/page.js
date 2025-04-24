@@ -31,7 +31,7 @@ export default function Banner9({page}) {
     <section className="projectsSectionKcom">
       <div className="projectsHeaderKcom">
         <div className="textKcom">
-          <h2 className="primary-heading">Our Success Stories</h2>
+          <h3 className="primary-heading">Our Success Stories</h3>
           <p className="secondary-heading">
           Explore how our custom solutions have helped businesses to shine in this competitive world.
           </p>

@@ -424,7 +424,7 @@ const portfolioData = [
     id: 'automotive-23',
     // companyName: 'Suvrin',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478645/websuvrinlogo_cdrlkl.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    // platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
 ],
@@ -434,7 +434,7 @@ const portfolioData = [
       // platform: '/bigcommerce-development',
     },
     case:'Case Study',
-    case1:'Doodlle',
+    case1:'Doodle',
     line:'|',
     category: ["software"],
   },

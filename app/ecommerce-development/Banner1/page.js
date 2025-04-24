@@ -44,9 +44,9 @@ const Banner = () => {
           <div className="hero-containerMaSub">
             <div className="hero-contentBi">
               <p className="hero-tagCo">Top Ecommerce Development Agency</p>
-              <h3 className="headssCom primary-heading">
+              <h4 className="headssCom primary-heading">
                 Looking for a High-Conversion Ecommerce Solution?
-              </h3>
+              </h4>
               <p className="hero-descriptionCom secondary-heading">
                 Your search for the perfect eCommerce solution ends here! Kushel
                 Digi has emerged as a top ecommerce development agency as our
