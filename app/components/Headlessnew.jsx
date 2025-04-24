@@ -19,6 +19,7 @@ import Wifi from '../headless-commerce/Wifi/page'
 import Footer from '../COMMON/Footer'
 import Diff from '../headless-commerce/Diff/page'
 import Action2 from '../headless-commerce/Action2/page'
+import HeadlessFaq from '../headless-commerce/HeadlessFaq/page'
 import HomeForm from '../components/Home/HomeForm'
 
 function page() {
@@ -53,6 +54,7 @@ function page() {
       <Diff/>
       <Wifi/>
       <Action2/>
+      <HeadlessFaq/>
       {/* <Sec14/> */}
       <HomeForm/>
       <Footer/>
