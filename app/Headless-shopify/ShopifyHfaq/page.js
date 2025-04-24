@@ -1,3 +1,4 @@
+"use client"
 import React, { useState } from "react";
 import '../../COMMON/FAQ.css'
 const FaqData = [
