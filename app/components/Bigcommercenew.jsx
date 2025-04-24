@@ -11,7 +11,7 @@ import Navbar from '../COMMON/Navbar'
 import Banner10 from '../ecommerce-development/Banner9/page'
 import Footer from '../COMMON/Footer'
 import BigBanner9 from '../bigcommerce-development/BigBanner9/page'
-import BigAskQuestion from '../bigcommerce-development1/BigAskQuestion/page'
+import BigAskQuestion from '../bigcommerce-development/BigAskQuestion/page'
 import HomeForm from '../components/Home/HomeForm';
 import BlogSection from "../COMMON/BlogSection/BlogSection.jsx";
 import FeatureSection from '../bigcommerce-development/FeaturesSection/FeatureSection'

@@ -9,9 +9,11 @@ import Porfolio from './Porfolio/page'
 import Call from './Call/page'
 import Left from './Left/page'
 import Perfect from './Perfect/page'
+import ShopifyHfaq from './ShopifyHfaq/page'
 import Shopify from './Shopify/page'
 import HomeForm from '../components/Home/HomeForm'
 import Footer from '../COMMON/Footer'
+
 
 function page() {
   return (
@@ -26,6 +28,7 @@ function page() {
       <Left/>
       <Perfect/>
       <Shopify/>
+      <ShopifyHfaq/>
       <HomeForm/>
       <Footer/>
     </div>

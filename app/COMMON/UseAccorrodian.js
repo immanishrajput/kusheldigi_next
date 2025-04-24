@@ -2,24 +2,36 @@ import React, { useState } from "react";
 import './FAQ.css'
 const FaqData = [
   {
-    question: 'Why choose Kushel Digi for e-commerce development?',
-    answer: ' Kushel Digi Solution combines expertise in e-commerce development with a commitment to budget-friendly solutions, ensuring a seamless online shopping experience for your customers.',
+    question: 'On what platforms do you excel in eCommerce development?',
+    answer: '  We excel at Shopify, BigCommerce, WooCommerce, Magento, and custom development using frameworks like React.js, Next.js, and Node.js- giving you the ideal platform for your business.',
   },
   {
-    question: 'How to ensure the best budget e-commerce development?',
-    answer: ' Our approach involves optimising development processes, utilising cost-effective technologies, and tailoring solutions to provide affordable e-commerce development without compromising quality.',
+    question: 'Do you offer custom eCommerce website design?',
+    answer: '  Yes, we design entirely custom, mobile-friendly eCommerce designs that suit your brand identity and ensure an uninterrupted user experience on any device.',
   },
   {
-    question: 'Advantages of React Native in mobile shopping, and how utilised?',
-    answer: "React Native ensures cross-platform compatibility, allowing the development of efficient and cost-effective e-commerce mobile apps for both iOS and Android platforms. Kushel Digi Solution harnesses this technology to enhance the mobile shopping experience.",
+    question: ' Can you optimize an existing eCommerce store?',
+    answer: " Yes! Whether speed optimization, design update, or feature enhancements, we can optimize your existing store to perform better and convert more visitors into customers.",
   },
   {
-    question: 'Key features for an e-commerce site, regardless of provider?',
-    answer: "Key features include a user-friendly interface, secure payment gateways, responsive design, robust inventory management, and seamless navigation to enhance the overall online shopping experience.",
+    question: ' Do your eCommerce websites have multiple payment gateways?',
+    answer: " Yes, we support all leading payment gateways such as PayPal, Stripe, Square, Razorpay, and many more, depending on your regional and global business requirements.",
   },
   {
-    question: 'How important is mobile responsiveness in the success of an e-commerce website?',
-    answer: " Mobile responsiveness is crucial, as a significant portion of online shopping occurs on mobile devices. Ensuring a seamless experience across various screen sizes enhances customer satisfaction and conversion rates.",
+    question: 'Will my website be SEO-friendly?',
+    answer: " All of our eCommerce sites are designed using SEO best practices, such as optimized URLs, meta tags, schema markup, and quick page loads to maximize your search engine visibility.",
+  },
+  {
+    question: 'Do you offer mobile-first or responsive design?',
+    answer: " Yes, we follow mobile-first design best practices to ensure your site performs and appears great on smartphones, tablets, and desktops.",
+  },
+  {
+    question: 'Will I be able to look after my products and orders myself?',
+    answer: " Absolutely. We create an easy-to-use admin panel, and we also include training so that you can simply add products, track inventory, and process orders yourself.",
+  },
+  {
+    question: ' Do you offer post-launch support and maintenance?',
+    answer: "  Yes, we provide regular maintenance, updates, bug fixes, and support plans to keep your store fast, secure, and current.",
   },
  
 ];
