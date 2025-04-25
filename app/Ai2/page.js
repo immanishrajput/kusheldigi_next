@@ -206,7 +206,7 @@ function Ai() {
             <h1>Client Background</h1>
 
             <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+            AI Parts Center is a well-known name in the automotive industry. Being in this business for over more than 40 years, it provides a broad range of auto parts and accessories. The company is empowering multiple vehicle models with physical stores located in Texline, Dalhart, Guymon, Stratford, and Amarillo areas. It has earned a strong brand reputation by focusing on community-focused approach and exceptional customer service. No wonder why it is a go-to destination for DIYers and professionals. As the brand is expanding their footprint in the digital space, Kushel Digi Solutions provided a great support in taking their business further via digital presence. Madfish Solutions has offered us this opportunity to work on a reputed brand projects like AI Parts Center, which we are grateful for. 
 
             </p>
           </div>

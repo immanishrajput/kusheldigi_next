@@ -44,7 +44,7 @@ const Page = () => {
        
         <Banner5/>
         <Banner8 page='Delivering powerful, high performance ecommerce solutions for our clients.'/>
-        {/* <Banner7/> */}
+        {/* <Banner7/>   */}
         <Process page='Ecommerce'/>
         <BigBanner6 page='Ecommerce'/>
         <Banner10/>

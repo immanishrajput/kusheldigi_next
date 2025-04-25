@@ -31,7 +31,7 @@
 .textContainer {
     flex: 1;
     max-width: 47%;
-    color: white;
+    color:black;
     z-index: 2;
 }
 

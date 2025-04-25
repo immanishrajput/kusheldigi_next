@@ -190,9 +190,16 @@ export default function BlogDetails() {
 
             <div className="mainBloContentSt">
               <div className="mainBloContentStPara">
-            
-                  
+             
                 <div className="profileDate">
+                 
+               <div>
+               <p> <b>{currentBlog?.author}</b></p>
+              <p>{currentBlog?.designation || 'N/A'}</p>
+           <br/>
+              <p><b> {currentBlog?.time}</b> Read Deep Think Big<br/> <br/>
+              </p>
+               </div>
             {
             new Date(currentBlog?.date).toLocaleDateString("en-GB", {
                     day: "numeric",
