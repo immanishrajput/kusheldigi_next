@@ -73676,7 +73676,17 @@ input::-webkit-inner-spin-button {
     display: inline-block;
     position: relative;
 }
-
+.blogClockTime{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blogClockTime1{
+    display: flex;
+    justify-content: flex-start;
+    gap: 52%;
+    align-items: center;
+}
 .bimageloDiPaara::after {
     content: "";
     position: absolute;
@@ -73817,6 +73827,34 @@ input::-webkit-inner-spin-button {
     padding-top: 30px;
     font-size: 15px;
     font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.bimageloDiPaara {
+    padding-top: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+.bimageloDiPargaph{
+    padding-top: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.bimageloDiPargaph1{
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.iconBlogClock{
+    font-weight: 600;
+    font-size:23px;
 }
 
 @media (max-width: 1024px) {
@@ -73941,13 +73979,30 @@ input::-webkit-inner-spin-button {
     line-height: 40px;
     font-size: 17px;
 }
-
+.cardBlogStpaarw1 {
+    font-weight: 600;
+    line-height: 40px;
+    font-size: 17px;
+}
 .cardBlogStpaarw {
     display: inline;
     position: relative;
 }
-
+.cardBlogStpaarw1 {
+    display: inline;
+    position: relative;
+}
 .cardBlogStpaarw::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.3s ease-in-out;
+}
+.cardBlogStpaarw1::after {
     content: "";
     position: absolute;
     left: 0;
@@ -73961,7 +74016,9 @@ input::-webkit-inner-spin-button {
 .cardBlogStpaarw:hover::after {
     width: 100%;
 }
-
+.cardBlogStpaarw1:hover::after {
+    width: 100%;
+}
 .cardBlogSt {
     position: relative;
     overflow: hidden;
@@ -74310,7 +74367,23 @@ input::-webkit-inner-spin-button {
     line-height: 1.4rem;
     font-family: 'Poppins', sans-serif;
 }
-
+.event-author{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.event-author1{
+    display: flex;
+    justify-content: flex-start;
+    gap: 50%;
+    align-items: center;
+}
+.event-author2{
+    display: flex;
+    justify-content: flex-start;
+    gap: 35%;
+    align-items: center;
+}
 .event-author p {
     margin-top: 20px;
     font-size: 13px;
@@ -74737,6 +74810,9 @@ input::-webkit-inner-spin-button {
     }
 
     .cardBlogStpaarw {
+        font-size: 14px;
+    }
+    .cardBlogStpaarw1 {
         font-size: 14px;
     }
 }
@@ -75482,6 +75558,13 @@ input::-webkit-inner-spin-button {
     line-height: 40px;
     color: #222;
     margin-top: 10px;
+}
+.cardBlogStpaarw1 {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 40px;
+    color: #222;
+    /* margin-top: 10px; */
 }
 
 @media (max-width: 1024px) {

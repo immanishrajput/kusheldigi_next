@@ -3,8 +3,8 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import Navbar from "../COMMON/Navbar";
-import Footer from '../COMMON/Footer'
-
+import Footer from "../COMMON/Footer";
+import { FcClock } from "react-icons/fc";
 const Page = () => {
   const baseUrl = "https://backblog.kusheldigi.com";
   const [getAllBlogs, setGetAllBlogs] = useState([]);
@@ -14,7 +14,9 @@ const Page = () => {
       const response = await fetch(`${baseUrl}/api/v1/auth/getAllBlog`);
       const data = await response.json();
       if (response.ok) {
-        const ans = data.blogs.filter((blog) => blog.domain === "kusheldigi.com")
+        const ans = data.blogs.filter(
+          (blog) => blog.domain === "kusheldigi.com"
+        );
         // console.log(ans.length,ans)
         setGetAllBlogs(ans);
         // console.log(data?.blogs);
@@ -35,7 +37,6 @@ const Page = () => {
   const [digitalBlog, setDigitalBlog] = useState([]);
   const [webBlog, setWebBlog] = useState([]);
   const [businessBlog, setBusinessBlog] = useState([]);
-
 
   const fetchCatBlogs = async () => {
     try {
@@ -58,7 +59,7 @@ const Page = () => {
       const data = await response.json();
       if (response.ok) {
         setFeatureBlog(data.blogs);
-        console.log('feature', data)
+        console.log("feature", data);
       } else {
         console.error("Failed to fetch categories:", data?.message);
       }
@@ -92,7 +93,9 @@ const Page = () => {
       setSeoBlog(getAllBlogs.filter((blog) => blog.category?.title === "SEO"));
       // console.log(seoBlog)
       setDigitalBlog(
-        getAllBlogs.filter((blog) => blog.category?.title === "Digital Marketing")
+        getAllBlogs.filter(
+          (blog) => blog.category?.title === "Digital Marketing"
+        )
       );
       setWebBlog(
         getAllBlogs.filter((blog) => blog.category?.title === "Web Development")
@@ -140,24 +143,24 @@ const Page = () => {
   const handleFilter = (title) => {
     switch (title) {
       case "e-commerce":
-        setShowOnlyEcommerce(prev => !prev);
+        setShowOnlyEcommerce((prev) => !prev);
         setShowOnlySeo(false);
         setShowOnlyDigital(false);
         setShowOnlyWeb(false);
         setShowOnlyBusiness(false);
         break;
       case "SEO":
-        setShowOnlySeo(prev => !prev);
+        setShowOnlySeo((prev) => !prev);
         setShowOnlyEcommerce(false);
         setShowOnlyDigital(false);
-        setShowOnlyWeb(false)
+        setShowOnlyWeb(false);
         setShowOnlyBusiness(false);
         break;
       case "Digital Marketing":
         setShowOnlySeo(false);
         setShowOnlyEcommerce(false);
-        setShowOnlyDigital(prev => !prev);
-        setShowOnlyWeb(false)
+        setShowOnlyDigital((prev) => !prev);
+        setShowOnlyWeb(false);
         setShowOnlyBusiness(false);
         break;
       case "Web Development":
@@ -171,19 +174,18 @@ const Page = () => {
         setShowOnlySeo(false);
         setShowOnlyEcommerce(false);
         setShowOnlyDigital(false);
-        setShowOnlyWeb(false)
+        setShowOnlyWeb(false);
         setShowOnlyBusiness((prev) => !prev);
         break;
       default:
         setShowOnlyEcommerce(false);
         setShowOnlySeo(false);
         setShowOnlyDigital(false);
-        setShowOnlyWeb(false)
+        setShowOnlyWeb(false);
         setShowOnlyBusiness(false);
         break;
     }
   };
-
 
   // useEffect(() => {
   //   console.log(showOnlyBusiness, 'showBusinesss');
@@ -192,21 +194,24 @@ const Page = () => {
   //   console.log(showOnlySeo, 'seo');
   //   console.log(showOnlyWeb, 'web developer');
 
-
-
   // }, [showOnlyEcommerce, showOnlyBusiness, showOnlyDigital, showOnlySeo, showOnlyWeb])
- const generateMetadata = ({ params }) => ({
-              title: 'Latest Top eCommerce Trends & Tech Insights | Kushel Digi Blog  ',
-              description: "Explore expert tips on eCommerce development, digital marketing, web design, and business growth. Stay updated with Kushel Digi’s latest industry insights and trends"
-            });
-            
-          useEffect(() => {
-              const { title, description } = generateMetadata({ params: {} });
-              document.title = title;
-              let metaDescription = document.querySelector('meta[name="description"]');
-              metaDescription ? metaDescription.content = description : 
-                document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-            }, []);
+  const generateMetadata = ({ params }) => ({
+    title: "Latest Top eCommerce Trends & Tech Insights | Kushel Digi Blog  ",
+    description:
+      "Explore expert tips on eCommerce development, digital marketing, web design, and business growth. Stay updated with Kushel Digi’s latest industry insights and trends",
+  });
+
+  useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription
+      ? (metaDescription.content = description)
+      : document.head.insertAdjacentHTML(
+          "beforeend",
+          `<meta name="description" content="${description}">`
+        );
+  }, []);
   return (
     <div>
       <Navbar />
@@ -245,8 +250,11 @@ const Page = () => {
         <br /> <br />
         {/* header section end */}
         {/* firstSection start */}
-        {
-          (!showOnlyEcommerce && !showOnlySeo && !showOnlyDigital && !showOnlyWeb && !showOnlyBusiness) && (
+        {!showOnlyEcommerce &&
+          !showOnlySeo &&
+          !showOnlyDigital &&
+          !showOnlyWeb &&
+          !showOnlyBusiness && (
             <section className="blog-second-section">
               <div className="bimagelogMain">
                 <div className="bimagelog">
@@ -256,11 +264,14 @@ const Page = () => {
                 </div>
                 <div className="bimageloDi">
                   <p className="bimageloDiPa">
-                    {new Date(getAllBlogs[0]?.date).toLocaleDateString("en-GB", {
-                      day: "numeric",
-                      month: "long",
-                      year: "numeric",
-                    })}
+                    {new Date(getAllBlogs[0]?.date).toLocaleDateString(
+                      "en-GB",
+                      {
+                        day: "numeric",
+                        month: "long",
+                        year: "numeric",
+                      }
+                    )}
                   </p>
                   <div className="bimageloDiPara11">
                     <Link href={`/blogdetails/${getAllBlogs[0]?._id}`}>
@@ -279,63 +290,81 @@ const Page = () => {
                     <p className="bimageloDiParra">
                       {getAllBlogs[0]?.subdescription}
                     </p>
-                    <Link href={`/blogdetails/${getAllBlogs[0]?._id}`}>
-                      <p className="bimageloDiPaara">Read More</p>
-                    </Link>
+
+                    <div className="blogClockTime">
+                      <Link href={`/blogdetails/${getAllBlogs[0]?._id}`}>
+                        <span className="bimageloDiPaara">Read More</span>
+                      </Link>
+                      <span className="bimageloDiPargaph">
+                        <span>
+                          {" "}
+                          <FcClock className="iconBlogClock" />{" "}
+                        </span>{" "}
+                        {getAllBlogs[0]?.time}{" "}
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
             </section>
-          )
-        }
+          )}
         {/* first section end */}
         {/* third section start */}
-        {(!showOnlyEcommerce && !showOnlySeo && !showOnlyDigital && !showOnlyWeb && !showOnlyBusiness) && (
-          <section className="newMainSec">
-            <div className="newsroom-section">
-              <div className="newsroom-header">
-                <h5>Latest Articles</h5>
-              </div>
-              <hr /> <br />
-              <div className="news-grid">
-                {recentBlog.map((item, index) => {
-                  return (
-                    <Link
-                      href={`/blogdetails/${item._id}`}
-                      key={index}
-                      className="news-item"
-                    >
-                      <div>
-                        <img
-                          src={item.images[0]}
-                          alt=""
-                          className="news-image"
-                        />
-                      </div>
-                      <div className="news-content">
-                        <div className="news-title">
-                          <h3 className="news-title" id="newBlogTil">
-                            <p> {item?.title}</p>
-                          </h3>
-                          <p className="cardBlogStpaa">
-                            {new Date(item?.date).toLocaleDateString("en-GB", {
-                              day: "numeric",
-                              month: "long",
-                              year: "numeric",
-                            })}
-                          </p>
+        {!showOnlyEcommerce &&
+          !showOnlySeo &&
+          !showOnlyDigital &&
+          !showOnlyWeb &&
+          !showOnlyBusiness && (
+            <section className="newMainSec">
+              <div className="newsroom-section">
+                <div className="newsroom-header">
+                  <h5>Latest Articles</h5>
+                </div>
+                <hr /> <br />
+                <div className="news-grid">
+                  {recentBlog.map((item, index) => {
+                    return (
+                      <Link
+                        href={`/blogdetails/${item._id}`}
+                        key={index}
+                        className="news-item"
+                      >
+                        <div>
+                          <img
+                            src={item.images[0]}
+                            alt=""
+                            className="news-image"
+                          />
                         </div>
-                      </div>
-                    </Link>
-                  );
-                })}
+                        <div className="news-content">
+                          <div className="news-title">
+                            <h3 className="news-title" id="newBlogTil">
+                              <p> {item?.title}</p>
+                            </h3>
+                            <p className="cardBlogStpaa">
+                              {new Date(item?.date).toLocaleDateString(
+                                "en-GB",
+                                {
+                                  day: "numeric",
+                                  month: "long",
+                                  year: "numeric",
+                                }
+                              )}
+                            </p>
+                          </div>
+                        </div>
+                      </Link>
+                    );
+                  })}
+                </div>
               </div>
-            </div>
-          </section>
-        )}
+            </section>
+          )}
         {/* third section end */}
-        {
-          (!showOnlySeo && !showOnlyDigital && !showOnlyWeb && !showOnlyBusiness) && (
+        {!showOnlySeo &&
+          !showOnlyDigital &&
+          !showOnlyWeb &&
+          !showOnlyBusiness && (
             <section className="latest-container">
               <div className="cardsectFive">
                 <p>E-Commerce</p>
@@ -344,44 +373,57 @@ const Page = () => {
               <div className="cardMainBlogSec">
                 {ecommerceBlog.map((item, index) => {
                   return (
-                    <Link
-                      href={`/blogdetails/${item._id}`}
-                      key={index}
-                      className="cardBlogSt"
-                    >
-                      <div className="cardBlogStImg">
+                    <div className="cardBlogSt" key={index}>
+                        <Link href={`/blogdetails/${item._id}`} >
                         <div>
-                          <img src={item.images[0]} alt="" />
+                        <div className="cardBlogStImg">
+                          <div>
+                            <img src={item.images[0]} alt="" />
+                          </div>
                         </div>
-                      </div>
-                      <p className="cardBlogStpaa">
-                        {new Date(item?.date).toLocaleDateString("en-GB", {
-                          day: "numeric",
-                          month: "long",
-                          year: "numeric",
-                        })}
-                      </p>
-                      <div className="cardBlogStpaara1">
-                        <div>
-                          <p className="cardBlogStpaara">
-                            {item?.title}
-                          </p>
+                        <p className="cardBlogStpaa">
+                          {new Date(item?.date).toLocaleDateString("en-GB", {
+                            day: "numeric",
+                            month: "long",
+                            year: "numeric",
+                          })}
+                        </p>
+                        <div className="cardBlogStpaara1">
+                          <div>
+                            <p className="cardBlogStpaara">{item?.title}</p>
+                          </div>
                         </div>
-                      </div>
-                      <p className="cardBlogStpaaragr">
-                        {item.subdescription.slice(0, 100)}...
-                      </p>
-                      <p className="cardBlogStpaarw">Read More</p>
+                        <p className="cardBlogStpaaragr">
+                          {item.subdescription.slice(0, 100)}...
+                        </p>
+                        </div>
                     </Link>
+
+                        <div>
+                          <div className="blogClockTime1">
+                        <Link href={`/blogdetails/${item._id}`} >
+                        <p className="cardBlogStpaarw">Read More</p></Link>
+
+                            <span className="bimageloDiPargaph1">
+                              <span>
+                                {" "}
+                                <FcClock className="iconBlogClock" />{" "}
+                              </span>{" "}
+                              {getAllBlogs[0]?.time}{" "}
+                            </span>
+                          </div>
+                        </div>
+                      </div>
                   );
                 })}
               </div>
             </section>
-          )
-        }
+          )}
         {/* forth section start */}
-        {
-          (!showOnlyEcommerce && !showOnlyDigital && !showOnlyWeb && !showOnlyBusiness) && (
+        {!showOnlyEcommerce &&
+          !showOnlyDigital &&
+          !showOnlyWeb &&
+          !showOnlyBusiness && (
             <section className="blog-fourth-section">
               <div className="event-section">
                 {/* Header */}
@@ -395,8 +437,10 @@ const Page = () => {
                   {/* Event Card 1 */}
                   {seoBlog.map((item, index) => {
                     return (
-                      <Link href={`/blogdetails/${item._id}`} key={index}>
-                        <div className="event-card">
+                     
+                        <div className="event-card" key={index}>
+                           <Link href={`/blogdetails/${item._id}`}>
+                          <div>
                           <div className="event-image">
                             <div>
                               <img src={item.images[0]} alt="Event 1" />
@@ -405,11 +449,14 @@ const Page = () => {
 
                           <div className="event-category">
                             <p className="cardBlogStpaa">
-                              {new Date(item?.date).toLocaleDateString("en-GB", {
-                                day: "numeric",
-                                month: "long",
-                                year: "numeric",
-                              })}
+                              {new Date(item?.date).toLocaleDateString(
+                                "en-GB",
+                                {
+                                  day: "numeric",
+                                  month: "long",
+                                  year: "numeric",
+                                }
+                              )}
                             </p>
                           </div>
                           <div className="event-title">
@@ -423,22 +470,36 @@ const Page = () => {
                           <p className="event-description">
                             {item.subdescription.slice(0, 100)}...
                           </p>
+                          </div>
+                          </Link>
+                          
                           <div className="event-author">
+                          <Link href={`/blogdetails/${item._id}`} >
                             <p className="cardBlogStpaarw">Read More</p>
+                            </Link>
+                            <span className="bimageloDiPargaph1">
+                              <span>
+                                {" "}
+                                <FcClock className="iconBlogClock" />{" "}
+                              </span>{" "}
+                              {getAllBlogs[0]?.time}{" "}
+                            </span>
+                            
                           </div>
                         </div>
-                      </Link>
+                      
                     );
                   })}
                 </div>
               </div>
             </section>
-          )
-        }
+          )}
         {/* forth section end */}
         {/*fifth  row start */}
-        {
-          (!showOnlyEcommerce && !showOnlySeo && !showOnlyWeb && !showOnlyBusiness) && (
+        {!showOnlyEcommerce &&
+          !showOnlySeo &&
+          !showOnlyWeb &&
+          !showOnlyBusiness && (
             <section className="cardsectFiveMain">
               <div className="cardsectFive">
                 <p>Digital Marketing</p>
@@ -468,26 +529,39 @@ const Page = () => {
                       </p>
                       <div className="cardBlogStpaara1">
                         <div>
-                          <p className="cardBlogStpaara">
-                            {item?.title}
-                          </p>
+                          <p className="cardBlogStpaara">{item?.title}</p>
                         </div>
                       </div>
                       <p className="cardBlogStpaaragr">
                         {item.subdescription.slice(0, 100)}...
                       </p>
-                      <p className="cardBlogStpaarw">Read More</p>
+                      {/* <p className="cardBlogStpaarw">Read More</p> */}
+                      <div className="event-author1">
+                        
+                            <p className="cardBlogStpaarw1">Read More</p>
+                        
+                            <span className="bimageloDiPargaph1">
+                              <span>
+                                {" "}
+                                <FcClock className="iconBlogClock" />{" "}
+                              </span>{" "}
+                              {getAllBlogs[0]?.time}{" "}
+                            </span>
+                            
+                          </div>
                     </Link>
                   );
                 })}
               </section>
+             
             </section>
-          )
-        }
+          )}
         {/* fifth row end */}
         {/* six row start */}
-        {
-          (!showOnlyEcommerce && !showOnlySeo && !showOnlyDigital && !showOnlyBusiness) && (
+        {!showOnlyEcommerce &&
+          !showOnlySeo &&
+          !showOnlyDigital &&
+          !showOnlyBusiness && (
             <section className="blogSixMainSec">
               <div className="bookmarkk">
                 <div className="blogSixMainSecDiv">
@@ -502,6 +576,7 @@ const Page = () => {
                         key={index}
                         className="blogSixMaiDivBlS"
                       >
+
                         <div className="blogSixMaiDivBImgS">
                           <img src={item.images[0]} alt="" />
                         </div>
@@ -513,23 +588,35 @@ const Page = () => {
                           })}
                         </p>
                         <div className="BlogSixBook">
-                          <p className="blogSixMaiDivparaa">
-                            {item.title}
-                          </p>{" "}
+                          <p className="blogSixMaiDivparaa">{item.title}</p>{" "}
                         </div>
-                        <p className="blogSixMaiDivpaA">Read More</p>
+                        {/* <p className="blogSixMaiDivpaA">Read More</p> */}
+                        <div className="event-author2">
+                        
+                        <p className="cardBlogStpaarw1">Read More</p>
+                    
+                        <span className="bimageloDiPargaph1">
+                          <span>
+                            {" "} 
+                            <FcClock className="iconBlogClock" />{" "}
+                          </span>{" "}
+                          {getAllBlogs[0]?.time}{" "}
+                        </span>
+                        
+                      </div>
                       </Link>
                     );
                   })}
                 </div>
               </div>
             </section>
-          )
-        }
+          )}
         {/* six section end */}
         {/* seven section start */}
-        {
-          (!showOnlyEcommerce && !showOnlySeo && !showOnlyDigital && !showOnlyWeb) && (
+        {!showOnlyEcommerce &&
+          !showOnlySeo &&
+          !showOnlyDigital &&
+          !showOnlyWeb && (
             <section className="cardsectFiveMain">
               <div className="cardsectFive">
                 <p>Business</p>
@@ -554,25 +641,38 @@ const Page = () => {
                         })}
                       </p>
                       <div className="cardBlogStpaara1">
-                        <p className="cardBlogStpaara">
-                          {item.title}
-                        </p>{" "}
+                        <p className="cardBlogStpaara">{item.title}</p>{" "}
                       </div>
                       <p className="cardBlogStpaaragr">
                         {item.subdescription.slice(0, 100)}...
                       </p>
-                      <p className="cardBlogStpaarw">Read More</p>
+                      {/* <p className="cardBlogStpaarw">Read More</p> */}
+                      <div className="event-author2">
+                        
+                        <p className="cardBlogStpaarw1">Read More</p>
+                    
+                        <span className="bimageloDiPargaph1">
+                          <span>
+                            {" "} 
+                            <FcClock className="iconBlogClock" />{" "}
+                          </span>{" "}
+                          {getAllBlogs[0]?.time}{" "}
+                        </span>
+                        
+                      </div>
                     </Link>
                   );
                 })}
               </section>
             </section>
-          )
-        }
+          )}
         {/* seven row start */}
         {/* eight row start */}
-        {
-          (!showOnlyEcommerce && !showOnlySeo && !showOnlyDigital && !showOnlyWeb && !showOnlyBusiness) && (
+        {!showOnlyEcommerce &&
+          !showOnlySeo &&
+          !showOnlyDigital &&
+          !showOnlyWeb &&
+          !showOnlyBusiness && (
             <section className="eightBlogSMain">
               <div className="ALLt">
                 <p>All</p>
@@ -585,8 +685,6 @@ const Page = () => {
                 // <Link href={`/blogdetails/${item._id}`}
                 // key={index}>
                 <div className="bimagelogMain">
-
-
                   <div className="bimagelog">
                     {currentTasks[0]?.images?.[0] ? (
                       <Link href={`/blogdetails/${currentTasks[0]._id}`}>
@@ -600,15 +698,13 @@ const Page = () => {
                     )}
                   </div>
 
-
-
                   <div className="bimageloDi">
-
                     <div className="bimageloDiPARa12">
                       <Link href={`/blogdetails/${currentTasks[0]._id}`}>
-                        <h2 className="bimageloDiPara">{currentTasks[0]?.title || "No Title"}</h2>
+                        <h2 className="bimageloDiPara">
+                          {currentTasks[0]?.title || "No Title"}
+                        </h2>
                       </Link>
-
                     </div>
 
                     <p className="bimageloDiParra">
@@ -620,7 +716,6 @@ const Page = () => {
                 //  </Link>
 
                 // })
-
               )}
 
               {/* Small Blog Images Section */}
@@ -667,8 +762,7 @@ const Page = () => {
                 </div>
               )}
             </section>
-          )
-        }
+          )}
       </section>
       <Footer />
     </div>
