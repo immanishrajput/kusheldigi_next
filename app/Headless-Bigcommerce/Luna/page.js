@@ -1,0 +1,26 @@
+"use client"
+import React from "react";
+import "./luna.css";
+const HeadlessIntroSection = () => {
+  return (
+    <section className="Big-headless-intro">
+      <div className="Big-headless-intro-container">
+        <div className="Big-headless-intro-image">
+          <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744022986/Headless-commerce-development-BigCommerce-2_qc7siy.webp" alt="Headless Commerce" />
+        </div>
+        <div className="Big-headless-intro-text">
+          <p className="Big-headless-intro-subheading">Certified BigCommerce Agency</p>
+          <h1>What Is Headless BigCommerce?
+          </h1>
+          <p className="Big-headless-intro-description">
+          Headless BigCommerce is an advanced ecommerce configuration in which the front-end (what visitors see) is isolated from the back-end (where you enter products, orders, etc.). Its flexible design enables you to utilize contemporary technologies such as React.js, Next.js, or Vue.js to develop lightning-fast, highly customizable storefronts, Unlike conventional ecommerce sites where style and functionality are closely interdependent, headless commerce provides you with unlimited creative liberty, quicker loading speeds, smooth integrations, and an omnichannel ready-for-the-future solution.
+
+          </p>
+          <a href="#" className="Big-headless-intro-button">Contact Us <span>→</span></a>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default HeadlessIntroSection;

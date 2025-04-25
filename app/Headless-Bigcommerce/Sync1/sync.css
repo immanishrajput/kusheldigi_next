@@ -1,0 +1,228 @@
+.floor {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+  }
+  
+  .floor-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 3rem 50px;
+  }
+  
+  .floor-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 5rem 0px 0px 0px;
+    max-width: 1720px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .floor-container.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .floor-left {
+    flex: 1;
+    padding-top: 30px;
+    animation: fadeSlideIn 1s ease forwards;
+    text-align: center;
+  }
+  
+  .floor-left h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1.3;
+    margin-bottom: 1.25rem !important;
+  }
+  
+  .floor-left p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    padding: 0 10px;
+  }
+  
+  .checklist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+   
+  }
+  
+  .checklist li {
+    margin-bottom: 0.75rem;
+    padding-left: 1.5rem;
+    position: relative;
+    font-size: 1rem;
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeSlideIn 0.8s ease forwards;
+  }
+  
+  .checklist li:nth-child(1) {
+    animation-delay: 0.3s;
+  }
+  .checklist li:nth-child(2) {
+    animation-delay: 0.5s;
+  }
+  .checklist li:nth-child(3) {
+    animation-delay: 0.7s;
+  }
+  
+  .checklist li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #397eff;
+    font-weight: bold;
+  }
+  
+  .floor-right {
+    flex: 1;
+    width: 100%;
+  }
+  
+  .image-box {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 0.75rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeSlideIn 1s ease forwards;
+    animation-delay: 1s;
+  }
+  
+  .floor-buttons {
+    padding: 40px 0 0;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeSlideIn 1s ease forwards;
+    animation-delay: 1.2s;
+  }
+  
+  .btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 999px;
+    border: 2px solid transparent;
+    font-weight: 600;
+    margin-left: 0 !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .white-btn {
+    background-color: #fff;
+    color: #397eff;
+    border-color: #fff;
+  }
+  
+  .white-btn:hover {
+    background-color: #397eff;
+    color: #fff;
+    border-color: #397eff;
+  }
+  
+  .blue-btn {
+    background-color: #397eff;
+    color: #fff;
+    border-color: #397eff;
+  }
+  
+  .blue-btn:hover {
+    background-color: #fff;
+    color: #397eff;
+    border-color: #397eff;
+  }
+  
+  .arrow {
+    margin-left: 0.5rem;
+    font-weight: bold;
+  }
+  
+  @keyframes fadeSlideIn {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Tablet & up */
+  @media (min-width: 768px) {
+    .floor-container {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .floor-left {
+      text-align: left;
+      padding-top: 55px;
+    }
+  
+    .floor-left h1 {
+      font-size: 2.75rem;
+    }
+  
+    .image-box {
+      height: 500px;
+    }
+  
+    .floor-buttons {
+      justify-content: flex-start;
+    }
+  }
+  
+  /* Small Desktop */
+  @media (min-width: 1024px) {
+    .floor-left h1 {
+      font-size: 3rem;
+    }
+  
+    .image-box {
+      height: 600px;
+    }
+  }
+  
+  /* Large Desktop */
+  @media (min-width: 1280px) {
+    .floor-overlay {
+      padding: 5rem 3rem;
+    }
+  }
+  
+  /* Small Devices */
+  @media (max-width: 500px) {
+    .floor-left{
+        padding: 2rem 0px !important;
+    }
+    .floor-left h1 {
+      font-size: 1.75rem;
+    }
+  
+    .image-box {
+      height: 250px;
+    }
+  
+    .btn {
+      font-size: 0.9rem;
+      padding: 0.6rem 1.2rem;
+    }
+  }
+  
