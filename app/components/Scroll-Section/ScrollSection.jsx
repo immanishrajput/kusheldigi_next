@@ -13,27 +13,27 @@ const Slider = dynamic(() => import("react-slick"), { ssr: false });
 
 
 const ScrollAnimation = () => {
-    const containerRef = useRef(null);
-    gsap.registerPlugin(ScrollTrigger);
+    // const containerRef = useRef(null);
+    // gsap.registerPlugin(ScrollTrigger);
 
-    useEffect(() => {
-        if (window.innerWidth <= 768) return; 
+    // useEffect(() => {
+    //     if (window.innerWidth <= 768) return; 
     
-        const sections = gsap.utils.toArray(".scrolled-section");
+    //     const sections = gsap.utils.toArray(".scrolled-section");
     
-        gsap.to(sections, {
-            xPercent: -100 * (sections.length - 1),
-            ease: "none",
-            scrollTrigger: {
-                trigger: containerRef.current,
-                pin: true,
-                start:'top-=110',
-                scrub: 1,
-                end: "+=2000",
-            },
-        });
+    //     gsap.to(sections, {
+    //         xPercent: -100 * (sections.length - 1),
+    //         ease: "none",
+    //         scrollTrigger: {
+    //             trigger: containerRef.current,
+    //             pin: true,
+    //             start:'top-=110',
+    //             scrub: 1,
+    //             end: "+=2000",
+    //         },
+    //     });
     
-    }, []);
+    // }, []);
 
 
     const settings = {
@@ -43,10 +43,35 @@ const ScrollAnimation = () => {
         autoplay: true,
         autoplaySpeed: 2500,
         speed: 1000,
-        slidesToShow: 1,
+        slidesToShow: 3,
         slidesToScroll: 1,
         waitForAnimate: false,
-        pauseOnHover: false
+        pauseOnHover: false,
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true,
+                // dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
     };
 
    
@@ -58,11 +83,11 @@ const ScrollAnimation = () => {
                 Take a peek behind the curtain and explore the custom web design process our team follows.<br />
                 We build custom sites for brands of all sizes that deliver measurable results.
             </p>
-            <div className="scroll-container scrollx" ref={containerRef}>
+            {/* <div className="scroll-container scrollx" ref={containerRef}>
                 {sectionsData.map((section, index) => (
                     <ScrollSection key={index} {...section} showSvg={index === 0} />
                 ))}
-            </div>
+            </div> */}
             <div className="mobile-scroll-section">
             <Slider {...settings}>
             {sectionsData.map((section, index) => (
