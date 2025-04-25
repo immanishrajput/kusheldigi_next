@@ -1,0 +1,67 @@
+.spiderbloom {
+    padding: 4rem 1rem;
+    background-color: white;
+  }
+  
+  .spiderbloom-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .spiderbloom-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 3rem;
+  }
+  
+  @media (min-width: 640px) {
+    .spiderbloom-heading {
+      font-size: 2.25rem;
+    }
+  }
+  
+  .spiderbloom-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 40px 0px;
+    gap: 2.5rem;
+    text-align: left;
+  }
+  
+  @media (min-width: 768px) {
+    .spiderbloom-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  .spiderbloom-card {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 1rem;
+  }
+  .spiderbloom-card:hover{
+    background: rgb(250, 250, 250);
+  }
+  
+  .spiderbloom-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #000;
+  }
+  
+  .spiderbloom-underline {
+    width: 32px;
+    height: 2px;
+    background-color: #0062ff;
+    margin-top: 0.5rem;
+  }
+  
+  .spiderbloom-desc {
+    font-size: 0.95rem;
+    color: #4a4a4a;
+    line-height: 1.7;
+  }
+  
