@@ -20,6 +20,7 @@ import HomeCardSection from '../components/Home/HomeCardSection'
 import BlogSection from '../COMMON/BlogSection/BlogSection';
 import BigBanner6 from "../bigcommerce-development/BigBanner6/page";
 import Process from "../bigcommerce-development/Process/page"
+import { whyBigCommereByKDS, whyBigCommereByKDSHeading } from '../data/data'
 
 const Page = () => {
   return (
@@ -46,7 +47,7 @@ const Page = () => {
         <Banner8 page='Delivering powerful, high performance ecommerce solutions for our clients.'/>
         {/* <Banner7/>   */}
         <Process page='Ecommerce'/>
-        <BigBanner6 page='Ecommerce'/>
+        <BigBanner6 services={whyBigCommereByKDS} contents={whyBigCommereByKDSHeading}/>
         <Banner10/>
         <Banner6/>
        
