@@ -123,8 +123,8 @@ const data = [
             navigate: "/headless-shopify",
           },
           {
-            title: "headless Bigcommerce",
-            navigate: "/headless-Bigcommerce",
+            title: "headless bigcommerce",
+            navigate: "/headless-bigcommerce",
           },
         ],
       },
@@ -529,9 +529,9 @@ const Navbar = () => {
                                 </Link>
                                 </div>
                                 <div className="left-containt-services">
-                                <Link href="/headless-shopify"> Headless Shopify </Link>
+                                <Link href="/headless-shopify">Headless Shopify </Link>
                                 <span>|</span>
-                                <Link href="/headless-bigcommerce">  Headless Bigcommerce</Link>
+                                <Link href="/headless-bigcommerce">Headless Bigcommerce</Link>
                               </div>
                             </div>
 
