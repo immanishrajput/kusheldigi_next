@@ -1,46 +1,53 @@
 "use client"
 import React from 'react'
+import Link from "next/link";
 import './sync.css'
 
-function Soloar() {
+function Sync1() {
+  const scrollToForm = () => {
+    const formSection = document.getElementById('contacthtmlForm');
+    if (formSection) {
+      const yOffset = -220; 
+      const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+  };
   return (
     <div>
-      <section className="floor" style={{ backgroundImage: "url('https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744152667/main-hero-img-1x_ribodx.webp')" }}>
+      <section className="floor" >
         <div className="floor-overlay">
           <div className="floor-container">
             <div className="floor-left">
-              <h1>BigCommerce Headless Commerce Solutions
-              </h1>
+              <h1>BigCommerce Headless Commerce Solutions</h1>
               <p>
-              Take your ecommerce experience to the next level with our BigCommerce Headless Commerce Solutions. By isolating your front-end presentation layer from the BigCommerce back-end, we provide ultra-fast, scalable, and personalized shopping experiences.
+                Take your ecommerce experience to the next level with our BigCommerce Headless Commerce Solutions. By isolating your front-end presentation layer from the BigCommerce back-end, we provide ultra-fast, scalable, and personalized shopping experiences.
               </p>
               <ul className="checklist">
-                <li>8+ Years of Experience in eCommerce Industry
-                </li>
-                <li>Certified BigCommerce Partner
-                </li>
-                <li>Custom front-end development using React.Js
-                </li>
-                <li>Fast, responsive, and SEO-optimized ecommerce sites
-                </li>
+                <li>8+ Years of Experience in eCommerce Industry</li>
+                <li>Certified BigCommerce Partner</li>
+                <li>Custom front-end development using React.Js</li>
+                <li>Fast, responsive, and SEO-optimized ecommerce sites</li>
               </ul>
 
-              
               <div className="floor-buttons">
-                <button className="btn white-btn">Talk to a Consultant</button>
+                <button onClick={scrollToForm} className="btn white-btn">Talk to a Consultant</button>
+                
+                <Link href="/contact-us"> 
                 <button className="btn blue-btn">
                   BOOK A CALL <span className="arrow">→</span>
                 </button>
+                </Link>
               </div>
             </div>
 
             <div className="floor-right">
-              <div
-                className="image-box"
-                style={{
-                  backgroundImage: "url('https://res.cloudinary.com/dbcmdtr3r/image/upload/v1745609721/BigCommerce-Headless-1_1_i3thzh.png')"
-                }}
-              />
+              <div className="image-box">
+                <img
+                  src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1745609721/BigCommerce-Headless-1_1_i3thzh.png"
+                  alt="BigCommerce Headless"
+                  className="floor-image"
+                />
+              </div>
             </div>
 
           </div>
@@ -50,4 +57,4 @@ function Soloar() {
   )
 }
 
-export default Soloar
+export default Sync1

@@ -1,9 +1,9 @@
 "use client"
 import React from 'react';
 import './telephon.css';
-import { FaCheck } from 'react-icons/fa'; // ✅ Tick icon
+import { FaCheck } from 'react-icons/fa'; 
 
-const TelephonicsSection = () => {
+const Telephonic = () => {
   return (
     <section className="telephonics-section">
       
@@ -64,4 +64,4 @@ const TelephonicsSection = () => {
   );
 };
 
-export default TelephonicsSection;
+export default Telephonic;

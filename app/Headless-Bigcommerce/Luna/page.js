@@ -1,7 +1,7 @@
 "use client"
 import React from "react";
 import "./luna.css";
-const HeadlessIntroSection = () => {
+const Luna = () => {
   return (
     <section className="Big-headless-intro">
       <div className="Big-headless-intro-container">
@@ -24,4 +24,4 @@ const HeadlessIntroSection = () => {
   );
 };
 
-export default HeadlessIntroSection;
+export default Luna;

@@ -2,7 +2,7 @@
 import React from "react";
 import "./sumo.css"; 
 
-const FeaturesSection = () => {
+const Sumo = () => {
   return (
     <section className="features-section">
       <div className="features-container">
@@ -84,4 +84,4 @@ const FeaturesSection = () => {
   );
 };
 
-export default FeaturesSection;
+export default Sumo;

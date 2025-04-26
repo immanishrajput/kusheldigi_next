@@ -21,7 +21,7 @@ export default function AlokaiBigCommerce() {
 
        
         <div className="alokai-image">
-          <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744129435/Features-TTFB_1_gwuqkt.svg" alt="BigCommerce Integration" />
+          <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1745659388/Cut-development_d1uemq.png" alt="BigCommerce Integration" />
         </div>
       </div>
     </section>
