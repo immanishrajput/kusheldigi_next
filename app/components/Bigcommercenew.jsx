@@ -2,7 +2,7 @@
 import { useEffect } from 'react'
 import BigBanner3 from '../bigcommerce-development/BigBanner3/page'
 import BigBanner4 from '../bigcommerce-development/BigBanner4/page'
-import BigBanner6 from '../bigcommerce-development/BigBanner6/page'
+import BigBanner6 from "../bigcommerce-development/BigBanner6/page"
 import BigBanner7 from '../bigcommerce-development/BigBanner7/page'
 import BigBanner8 from '../bigcommerce-development/BigBanner8/page'
 import BannerMain from '../bigcommerce-development/BannerMain/page'
