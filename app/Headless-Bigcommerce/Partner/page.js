@@ -34,7 +34,7 @@ const Partner = () => {
         <div className="partnerss-right">
           <div className="partnerss-image-wrapper">
             <img
-              src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744154593/Digital_Suits_is_a_certified_Big_Commerce_tech_partner_91cbb4d6e2_qz1fua.webp"
+              src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1745659389/certified-image_go19jz.png"
               alt="Certified BigCommerce Partner"
               className="partnerss-image"
             />

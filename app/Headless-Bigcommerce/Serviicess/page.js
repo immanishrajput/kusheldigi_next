@@ -10,7 +10,8 @@ const Page = () => {
   <section className="shopy-left-sectionEcom">
     {/* <h6>Ecommerce Development Agency</h6> */}
     <h1>
-    Our Headless Shopify Services for your Business Growth
+    Design. Develop. Grow with Kushel Digi Solutions
+
 
     </h1>
     <p>
@@ -23,43 +24,44 @@ const Page = () => {
   </section>
   <section className="shopy-right-sectionEcom">
     <div className="shopy-content-blockEcom">
-      <h3>Discover How We Help Your Business Thrive
+      <h3>Custom Headless Commerce Development
+
       </h3>
       <p>
-      Our service offerings guide clients from establishing their first online shop all the way to Shopify
-migration and scaling operations. 
+      We give solutions for custom Headless Commerce Development which are specifically designed to match your particular requirements and goals of business. We ensure every step from the planning to smooth implementation.
       </p>
     </div>
     <div className="shopy-content-blockEcom">
-      <h3>Create stunning ecommerce experiences.
+      <h3>API Integration & Management.
       </h3>
       <p>
-      The team designs brand-aligned Shopify storefronts through their customized headless approach
-      engineered for increased sales efficiency.
+      API management are the real important aspect of headless commerce. We connect your backend effortlessly and seamlessly with frontends, CRMs, payment gateways, shipping providers and also marketing tools.
       </p>
     </div>
     <div className="shopy-content-blockEcom">
-      <h3>Switch platforms without the stress</h3>
+      <h3>Custom Frontend Development       </h3>
       <p>
-      The platform migration to Shopify involves our team to deliver a secure process that maintains
-      your data and functionality with a focus on SEO preservation.
+      We use and inculcate modern frontend technologies like React.js, Vue.js, and Next.js. It provides more responsive, engaging user interfaces which are also of high in performance. These frameworks ensure fast load times and optimized user journeys on every possible device.
+
 
 </p>
     </div>
     <div className="shopy-content-blockEcom">
-      <h3>Have you got a project off-track
+      <h3>Omnichannel Experience 
+
       </h3>
       <p>
-      Our team at the rescue service operates to solve problems while restoring system performance
-      until your business storefront recovers.
+      Looking from websites and mobile apps to kiosks and smart devices, we create consistent, on-brand experiences across every customer touchpoint. It particularly ensures users get a unified journey no matter where they shop.
+
 
 </p>
     </div> 
      <div className="shopy-content-blockEcom">
-      <h3>Get found by the right people</h3>
+      <h3>Migration to Headless 
+      </h3>
       <p>
-      Our team enhances your store for search engine visibility so you attract high-quality visitors who
-turn into customers.
+      Transform and Elevate your existing monolithic platform (like Magento, WooCommerce or Shopify) to a headless BigCommerce setup immediately and smoothly. Our team of experts always ensures secure data transfer, minimal downtime, and enhanced flexibility after the migration. 
+
       </p>
     </div> 
     {/* <div className="shopy-content-blockEcom">
@@ -72,14 +74,14 @@ turn into customers.
     </div> */}
 
 
-    <div className="shopy-content-blockEcom">
+    {/* <div className="shopy-content-blockEcom">
       <h3>Convert more, sell more
       </h3>
       <p>
       Your site achieves better conversions through our data-based design approach, which
       incorporates UX enhancements together with optimized messaging systems.
 </p>
-    </div>
+    </div> */}
 
 
     {/* <div className="shopy-content-blockEcom">
