@@ -21,6 +21,8 @@ import Diff from '../headless-commerce/Diff/page'
 import Action2 from '../headless-commerce/Action2/page'
 import HeadlessFaq from '../headless-commerce/HeadlessFaq/page'
 import HomeForm from '../components/Home/HomeForm'
+import BigBanner6 from "../bigcommerce-development/BigBanner6/page";
+import { whyHeadlessByKDS, whyHeadlessByKDSHeading } from '../data/data'
 
 function page() {
     const generateMetadata = ({ params }) => ({
@@ -53,6 +55,7 @@ function page() {
       <Wining/>
       <Diff/>
       <Wifi/>
+      <BigBanner6 services={whyHeadlessByKDS} contents={whyHeadlessByKDSHeading}/>
       <Action2/>
       <HeadlessFaq/>
       {/* <Sec14/> */}

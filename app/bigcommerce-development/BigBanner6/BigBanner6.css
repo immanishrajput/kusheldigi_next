@@ -159,10 +159,10 @@ color: #0c61ff !important;
   }
   @media (max-width:1200px){
     .blue{
-        height: auto;
+        height: 510px;
     }
     .gray{
-        height: auto;
+        height:510px;
     }
   }
   @media (max-width: 900px) {

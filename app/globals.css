@@ -73711,7 +73711,7 @@ input::-webkit-inner-spin-button {
     width: 100%;
 }
 .bimageloDiPARa12{
-    line-height: 40px;
+    line-height: 42px;
 }
 .bimageloDiPARa12:hover~.bimagelog img {
     transform: scale(0.98);
@@ -73769,6 +73769,12 @@ input::-webkit-inner-spin-button {
     max-width: 1720px;
     padding: 0px 60px;
     margin: auto;
+}
+@media (max-width:1200px){
+    .blogClockTime1 {
+      justify-content: space-between;
+      gap: 0px;
+}
 }
 
 @media screen and (max-width:768px) {
@@ -73866,7 +73872,10 @@ input::-webkit-inner-spin-button {
         text-align: center;
         gap: 20px;
     }
-
+    .event-author1 {
+        justify-content: space-between !important;
+        gap: 0 !important;
+    }
     .bimageloDi {
         max-width: 90%;
     }
@@ -73902,6 +73911,7 @@ input::-webkit-inner-spin-button {
 }
 
 @media (max-width: 480px) {
+   
     .bimageloDiPara {
         font-size: 23px;
         line-height: 35px;
@@ -73914,6 +73924,10 @@ input::-webkit-inner-spin-button {
 
     .bimageloDiPaara {
         font-size: 13px;
+    }
+    .blogClockTime1 {
+        gap: 0px;
+        justify-content: space-between;
     }
 }
 
@@ -74487,6 +74501,9 @@ input::-webkit-inner-spin-button {
     .event-grid {
         grid-template-columns: 1fr;
     }
+    .event-author1  {
+        gap: 39%;
+    }
 }
 
 .cardsectFiveMain {
@@ -74527,7 +74544,7 @@ input::-webkit-inner-spin-button {
     }
 }
 
-.blogSixMainSecDiv {}
+
 
 .blogSixMainDivSS {
     padding: 0px 10px;
@@ -74667,7 +74684,8 @@ input::-webkit-inner-spin-button {
 
 @media(max-width:940px) {
     .smallBlogContainer {
-        flex-direction: column;
+       display: grid;
+       grid-template-columns: repeat(2,1fr) !important;
         height: auto;
     }
 }
@@ -74709,7 +74727,8 @@ input::-webkit-inner-spin-button {
 }
 
 .smallBlogContainer {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
     padding: 30px 0px 40px 0px;
     gap: 40px;
     margin-top: 20px;
@@ -74817,6 +74836,11 @@ input::-webkit-inner-spin-button {
     .cardBlogStpaarw1 {
         font-size: 14px;
     }
+    .smallBlogContainer {
+        display: grid;
+        grid-template-columns: repeat(1,1fr) !important;
+         height: auto;
+     }
 }
 
 @media (max-width: 1200px) {
@@ -74846,7 +74870,7 @@ input::-webkit-inner-spin-button {
 
 @media (max-width: 768px) {
     .blogSixMaiDivparaa {
-        width: 100%;
+        width: 100% !important;
         font-size: 20px;
     }
 
@@ -76105,7 +76129,7 @@ input::-webkit-inner-spin-button {
 }
 
 .industries-services:hover{
-    border:1px solid blue;
+    border:1px solid #0c61ff;
     background:#f3f3f996;
 }
 

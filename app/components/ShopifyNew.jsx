@@ -28,6 +28,7 @@ import FeatureSection from '../bigcommerce-development/FeaturesSection/FeatureSe
 import ServiceSection from '../bigcommerce-development/ServiceSection/ServiceSection';
 import BigBanner4 from "../bigcommerce-development/BigBanner4/page";
 import BigBanner6 from "../bigcommerce-development/BigBanner6/page";
+
 import Banner9 from '../ecommerce-development/Banner9/page';
 import BigBanner3 from '../bigcommerce-development/BigBanner3/page';
 import ShopifyBanner from '../shopify-development/ShopifyBanner/ShopifyBanner';
@@ -36,7 +37,7 @@ import Banner8 from '../ecommerce-development/Banner8/page'
 import BigBanner8 from "../bigcommerce-development/BigBanner8/page";
 import ShopifyPortfolio from "../shopify-development/ShopifyPortfolio/page";
 import ShopifySecond from "../shopify-development/ShopifySecond/ShopifySecond"
-import { ShopifyFeatures, ShopifyFeaturesContent, ShopifyServicesContent, ShopifyServicesHeading, whyBigCommereByKDS, whyBigCommereByKDSHeading,weExpertInShopify } from '../data/data';
+import { ShopifyFeatures, ShopifyFeaturesContent, ShopifyServicesContent, ShopifyServicesHeading, whyShopifyByKDS, whyShopifyByKDSHeading,weExpertInShopify } from '../data/data';
 
 function Shopify3({notify}) {
   const generateMetadata = ({ params }) => ({
@@ -95,7 +96,7 @@ function Shopify3({notify}) {
 <ShopifyPortfolio page='Shopify'/>
 <ShopifyProcess page='Shopify'/>
 <Banner8 page='Building high performance custom Shopify stores in accordance with your business needs.'/>
-{/* <BigBanner6 services={whyBigCommereByKDS} contents={whyBigCommereByKDSHeading}/> */}
+<BigBanner6 services={whyShopifyByKDS} contents={whyShopifyByKDSHeading}/>
 <BigBanner4 img='https://res.cloudinary.com/dd9tagtiw/image/upload/v1744609043/images_21_e6hnmi.png' page='Our Shopify Experts are Ready to Launch your Dream Store today!'/>
 <ServiceSection services={ShopifyServicesContent} contents={ShopifyServicesHeading}/>
 <FeatureSection services={ShopifyFeatures} contents={ShopifyFeaturesContent}/>
