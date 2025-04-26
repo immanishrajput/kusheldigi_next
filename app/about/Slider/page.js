@@ -49,9 +49,10 @@ const Slider = () => {
   useEffect(() => {
     const updateCardsPerPage = () => {
       const width = window.innerWidth;
-      if (width <= 480) setCardsPerPage(1);
-      else if (width <= 768) setCardsPerPage(2);
+      if (width <= 500) setCardsPerPage(1);
+      else if (width <= 800) setCardsPerPage(2);
       else if (width <= 1024) setCardsPerPage(3);
+      else if (width <= 1500) setCardsPerPage(3);
       
       else setCardsPerPage(4);
     };

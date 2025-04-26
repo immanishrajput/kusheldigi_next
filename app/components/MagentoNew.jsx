@@ -105,7 +105,7 @@ const Magento = () => {
         <ShopifyProcess page='Magento'/>
         <TechWeUse/>
         <Banner8/>
-        <BigBanner6 services={whyBigCommereByKDS} contents={whyBigCommereByKDSHeading}/>
+        {/* <BigBanner6 services={whyBigCommereByKDS} contents={whyBigCommereByKDSHeading}/> */}
         <ServicesSection services={MagentoServicesSectionContent} contents={MagentoServicesHeading}/>
         <FeatureSection services={MagentoFeatures} contents={MagentoFeaturesContent}/>
         <BlogSection/> 

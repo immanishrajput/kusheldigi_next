@@ -1,55 +1,170 @@
+// Big commerce
 export const whyBigCommereByKDSHeading = {
-  title: ' Why Choose BigCommerce Development by Kushel Digi Solutions?',
-  description: ' With deep BigCommerce expertise, Kushel Digi always believes in a client-centric approach to deliver customized eCommerce solutions. Here are some excellent benefits you can expect by availing our services.'
+  title: 'Why Choose BigCommerce Development by Kushel Digi Solutions',
+  description: 'Kushel Digi is committed to deliver your dream ecommerce store with high powered Bigcommerce solutions. '
 }
 
 export const whyBigCommereByKDS = [
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg1_nfbwio.svg",
     alt: "Implementation Icon",
-    title: " Proven BigCommerce Expertise",
+    title: " BigCommerce Experts",
     description:
-      "Our extensive experience in the development and optimization of BigCommerce stores means our solutions are customer-oriented, result-driven, and geared to help increase your online visibility.",
+      "Our team has long years of experience in working exclusively with BigCommerce that allows us to deliver customized solutions that fully utilize the platform's features for maximum efficiency and performance.",
     className: "blue",
   },
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg2_v9hk1a.svg",
     alt: "Customization Icon",
-    title: "Customized Solutions",
+    title: "Custom-Tailored Solutions",
     description:
-      "We offer BigCommerce services tailored for the specific needs of your business. Our solution is carefully designed to optimize your store performance and scalability.",
+      "Kushel Digi Solutions builds eCommerce stores that align your brand objectives and meet your specific business goals. From design to functionality, everything is taken care with your specific requirements.",
     className: "gray",
   },
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg4_epnmxh.svg",
     alt: "OmniChannel Icon",
-    title: "Dedicated Support and Maintenance",
+    title: " Optimized for Conversions",
     description:
-      "Get reliable and continued support from our committed maintenance services. Rest assured that with us, your BigCommerce store will be secure, updated, and working at maximum capacity.",
+      "Our team meticulously design with a purpose to create intuitive user journeys, fast-loading pages, and excellent interfaces that turn visitors into loyal customers.",
     className: "blue",
   },
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg3_cus0vm.svg",
     alt: "Customization Icon",
-    title: "Excellent User Experience",
+    title: "Seamless Integrations",
     description:
-      "Provide your shop with truly unique innovative design and user experience. We design engaging, responsive designs that impress your audience and increase conversions.",
+      "Kushel Digi ensure seamless integration whether it's payment gateways, inventory management, shipping tools, or third-party apps, we integrate all the right systems to streamline your operations.",
     className: "gray",
   },
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg2_v9hk1a.svg",
     alt: "OmniChannel Icon",
-    title: " SEO and Marketing Strategy",
+    title: "Mobile-First Approach",
     description:
-      "Boost the visibility of your store with our professional SEO and marketing strategies. We implement tactics that will help drive traffic and maximize your search rankings.",
+      "Our BigCommerce stores are responsive, mobile-friendly, and built to deliver a best shopping experience across smartphones, tablets and desktops.",
     className: "blue",
   },
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg3_cus0vm.svg",
     alt: "Customization Icon",
-    title: " Seamless Integration",
+    title: "Ongoing Support ",
     description:
-      "Get a smooth transition into BigCommerce with our integration and migration services. We ensure zero hassle for a seamless process.",
+      "We’re here beyond launch day. Our expert team always there for regular updates to performance monitoring and feature enhancements, we help your store continues to grow. ",
+    className: "gray",
+  },
+];
+
+// Ecommerce 
+export const whyEcommerceByKDSHeading = {
+  title: 'Why Choose eCommerce Development by Kushel Digi Solutions',
+  description: 'Kushel Digi Solutions is committed to deliver your dream ecommerce store with high powered eCommerce solutions. '
+}
+
+export const whyEcommerceCommereByKDS = [
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg1_nfbwio.svg",
+    alt: "Implementation Icon",
+    title: "Custom Solutions",
+    description:
+      "It doesn’t matter whether you're a startup or an established brand, we tailor our eCommerce solutions to fit your unique needs. Our customized approach helps maximize conversions and to enhance user experience.",
+    className: "blue",
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg2_v9hk1a.svg",
+    alt: "Customization Icon",
+    title: "Certified BigCommerce Partner",
+    description:
+      "We take great pride in becoming a certified partner of Bigcommerce. We haven a dedicated team who excels in Bigcommerce technology to deliver high performance eCommerce store",
+    className: "gray",
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg4_epnmxh.svg",
+    alt: "OmniChannel Icon",
+    title: "Ongoing Support",
+    description:
+      "The biggest advantage of availing our commitment doesn’t end with development, we provide ongoing support and maintenance to keep your eCommerce store running smoothly and efficiently.",
+    className: "blue",
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg3_cus0vm.svg",
+    alt: "Customization Icon",
+    title: "Mobile-First Approach",
+    description:
+      "With mobile shopping on the rise, we design responsive and mobile-optimized eCommerce stores. This ensures a seamless experience across all devices for better engagement and conversions.",
+    className: "gray",
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg2_v9hk1a.svg",
+    alt: "OmniChannel Icon",
+    title: "SEO & Performance Optimization",
+    description:
+      " We build eCommerce stores with SEO-friendly structures and fast-loading pages to improve visibility and user experience. Our optimization techniques help drive more organic traffic and boost rankings.",
+    className: "blue",
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg3_cus0vm.svg",
+    alt: "Customization Icon",
+    title: " Secure & Reliable Payment Processing",
+    description:
+      "We implement secure payment gateways with multiple options, ensuring a seamless and trustworthy checkout experience. From PayPal to Stripe, we integrate the best payment solutions for hassle-free transactions. ",
+    className: "gray",
+  },
+];
+
+//Headless-shopify
+export const whyHeadlessShopifyByKDSHeading = {
+  title: 'Why Choose eCommerce Development by Kushel Digi Solutions',
+  description: 'Kushel Digi Solutions is committed to deliver your dream ecommerce store with high powered eCommerce solutions. '
+}
+
+export const whyHeadlessShopifyByKDS = [
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg1_nfbwio.svg",
+    alt: "Implementation Icon",
+    title: "Custom Solutions",
+    description:
+      "It doesn’t matter whether you're a startup or an established brand, we tailor our eCommerce solutions to fit your unique needs. Our customized approach helps maximize conversions and to enhance user experience.",
+    className: "blue",
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg2_v9hk1a.svg",
+    alt: "Customization Icon",
+    title: "Certified BigCommerce Partner",
+    description:
+      "We take great pride in becoming a certified partner of Bigcommerce. We haven a dedicated team who excels in Bigcommerce technology to deliver high performance eCommerce store",
+    className: "gray",
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg4_epnmxh.svg",
+    alt: "OmniChannel Icon",
+    title: "Ongoing Support",
+    description:
+      "The biggest advantage of availing our commitment doesn’t end with development, we provide ongoing support and maintenance to keep your eCommerce store running smoothly and efficiently.",
+    className: "blue",
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg3_cus0vm.svg",
+    alt: "Customization Icon",
+    title: "Mobile-First Approach",
+    description:
+      "With mobile shopping on the rise, we design responsive and mobile-optimized eCommerce stores. This ensures a seamless experience across all devices for better engagement and conversions.",
+    className: "gray",
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg2_v9hk1a.svg",
+    alt: "OmniChannel Icon",
+    title: "SEO & Performance Optimization",
+    description:
+      " We build eCommerce stores with SEO-friendly structures and fast-loading pages to improve visibility and user experience. Our optimization techniques help drive more organic traffic and boost rankings.",
+    className: "blue",
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg3_cus0vm.svg",
+    alt: "Customization Icon",
+    title: " Secure & Reliable Payment Processing",
+    description:
+      "We implement secure payment gateways with multiple options, ensuring a seamless and trustworthy checkout experience. From PayPal to Stripe, we integrate the best payment solutions for hassle-free transactions. ",
     className: "gray",
   },
 ];
