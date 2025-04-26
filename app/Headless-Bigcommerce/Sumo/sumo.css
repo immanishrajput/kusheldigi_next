@@ -1,5 +1,5 @@
 .features-section {
-    padding: 50px 1rem;
+    padding: 50px 30px;
     background-color: #fff;
     text-align: center;
   }
@@ -12,6 +12,8 @@
   .features-heading {
     font-size: 2.5rem;
     font-weight: 600;
+    text-align: center;
+    margin: auto;
     max-width: 1129px;
     color: #111;
     line-height: 1.3;
@@ -19,6 +21,7 @@
   
   .features-subheading {
     font-size: 1.1rem;
+    text-align: center;
     color: #6b7280;
     margin-top: 1rem;
     line-height: 1.6;
@@ -93,11 +96,13 @@
   
   @media (max-width: 500px) {
     .features-heading {
-      font-size: 1.6rem;
+      font-size: 1.2rem;
+      text-align: center;
     }
   
     .features-subheading {
-      font-size: 0.95rem;
+      font-size: 14px;
+      text-align: center;
     }
   
     .feature-card {

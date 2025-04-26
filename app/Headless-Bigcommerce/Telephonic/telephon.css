@@ -4,7 +4,7 @@
     justify-content: space-between;
     gap: 3rem;
     padding: 3rem 2rem;
-    max-width: 1330px;
+    max-width: 1470px;
     margin: auto;
     flex-wrap: wrap;
   }
@@ -88,6 +88,40 @@
   
     .telephonics-text {
       text-align: center;
+    }
+  }
+  @media (max-width: 600px) {
+    .telephonics-list-item {
+      text-align: center;
+      gap: 0.5rem;
+    }
+  
+    .telephonics-icon {
+      margin-top: 0;
+    }
+  }
+  @media (max-width: 480px) {
+    .telephonics-title {
+      font-size: 21px;
+      text-align: center;
+    }
+  .features-section{
+    padding: 30px 30px;
+  }
+    .telephonics-subtitle {
+      font-size: 1rem;
+      text-align: center;
+    }
+  
+    .telephonics-description {
+      font-size: 0.9rem;
+      text-align: center;
+      padding: 10px 0px 0px 0px;
+    }
+  
+    .telephonics-section {
+      padding: 2rem 2rem;
+      gap: 0px;
     }
   }
   

@@ -40,6 +40,7 @@
   .partnerss-description p {
     font-size: 1rem;
     color: #333;
+    padding: 20px 0px 0px 0px;
     line-height: 1.7;
     margin-bottom: 16px;
   }
@@ -88,15 +89,17 @@
   /* Large phones */
   @media (max-width: 768px) {
     .partnerss {
-      padding: 40px 16px;
+      padding: 40px 30px !important;
     }
   
     .partnerss-heading h2 {
       font-size: 1.5rem;
+      text-align: center;
     }
   
     .partnerss-description p {
-      font-size: 0.95rem;
+      font-size: 14px;
+      text-align: center;
     }
   }
   

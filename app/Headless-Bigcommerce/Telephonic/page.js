@@ -55,7 +55,7 @@ const TelephonicsSection = () => {
       <div className="telephonics-image-wrapper">
         <img
           className="telephonics-image"
-          src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744133368/BigCommerce-Layers_1_dczgej.svg"
+          src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1745652863/rajat-badhu_2_vtdqcr.png"
           alt="Integration Visual"
         />
       </div>

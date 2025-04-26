@@ -38,7 +38,7 @@ function Soloar() {
               <div
                 className="image-box"
                 style={{
-                  backgroundImage: "url('https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744152831/main-frame-7-1--ktepemiy_esk8ce.webp')"
+                  backgroundImage: "url('https://res.cloudinary.com/dbcmdtr3r/image/upload/v1745609721/BigCommerce-Headless-1_1_i3thzh.png')"
                 }}
               />
             </div>
