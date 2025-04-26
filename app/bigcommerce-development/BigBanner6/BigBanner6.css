@@ -1,11 +1,11 @@
 .Range {
     text-align: center;
-    padding: 60px 20px;
+    /* padding: 50px 20px; */
     background-color: #f9f9f9;
   }
   .biggsec {
-    max-width: 1740px;
-    padding: 20px 50px;
+    max-width: 1720px;
+    padding: 50px 50px;
     margin: auto;
   }
   .slick-dots li button:before{
@@ -53,7 +53,7 @@ color: #0c61ff !important;
     font-weight: 400 !important;
   }
   .blue {
-    border: 2px solid rgba(128, 128, 128, 0.366);
+    border: 2px solid rgba(0, 0, 0, 0.678);
     height: 400px;
     background-color: #fff;
     border-radius: 12px;
@@ -67,7 +67,7 @@ color: #0c61ff !important;
   }
 
   .gray{
-    border: 2px solid rgba(128, 128, 128, 0.366);
+    border: 2px solid rgba(0, 0, 0, 0.678);
     height: 400px;
     background-color: #fff;
     border-radius: 12px;
@@ -179,7 +179,10 @@ color: #0c61ff !important;
         padding: 20px;
     }
     .blue{
-        height: auto;
+        height: 427px;
+    }
+    .gray{
+      height: 427px;
     }
   }
   
@@ -196,10 +199,10 @@ color: #0c61ff !important;
         padding: 20px;
     }
     .blue{
-        height: auto;
+        height: 350px;
     }
     .gray{
-        height: auto;
+        height:350px;
     }
     .implement {
       grid-template-columns: 1fr;
@@ -244,5 +247,13 @@ color: #0c61ff !important;
     }
     .gray p {
       font-size: 0.8rem;
+    }
+  }
+  @media (max-width:450px){
+    .blue{
+      height: 410px;
+    }
+    .gray{
+      height: 410px;
     }
   }

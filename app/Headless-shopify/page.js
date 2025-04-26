@@ -14,7 +14,7 @@ import Shopify from './Shopify/page'
 import HomeForm from '../components/Home/HomeForm'
 import Footer from '../COMMON/Footer'
 import BigBanner6 from "../bigcommerce-development/BigBanner6/page";
-import { whyBigCommereByKDS, whyBigCommereByKDSHeading } from '../data/data'
+import { whyHeadlessShopifyByKDS, whyHeadlessShopifyByKDSHeading } from '../data/data'
 
 function page() {
   return (
@@ -28,7 +28,7 @@ function page() {
       <Call/>
       <Left/>
       <Perfect/>
-      <BigBanner6 services={whyBigCommereByKDS} contents={whyBigCommereByKDSHeading}/>
+      {/* <BigBanner6 services={whyHeadlessShopifyByKDS} contents={whyHeadlessShopifyByKDSHeading}/> */}
       <Shopify/>
       <ShopifyHfaq/>
       <HomeForm/>

@@ -95,7 +95,7 @@ function Shopify3({notify}) {
 <ShopifyPortfolio page='Shopify'/>
 <ShopifyProcess page='Shopify'/>
 <Banner8 page='Building high performance custom Shopify stores in accordance with your business needs.'/>
-<BigBanner6 services={whyBigCommereByKDS} contents={whyBigCommereByKDSHeading}/>
+{/* <BigBanner6 services={whyBigCommereByKDS} contents={whyBigCommereByKDSHeading}/> */}
 <BigBanner4 img='https://res.cloudinary.com/dd9tagtiw/image/upload/v1744609043/images_21_e6hnmi.png' page='Our Shopify Experts are Ready to Launch your Dream Store today!'/>
 <ServiceSection services={ShopifyServicesContent} contents={ShopifyServicesHeading}/>
 <FeatureSection services={ShopifyFeatures} contents={ShopifyFeaturesContent}/>

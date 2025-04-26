@@ -88,20 +88,20 @@ const Page = () => {
   useEffect(() => {
     if (getAllBlogs.length > 0) {
       setEcommerceBlog(
-        getAllBlogs.filter((blog) => blog.category?.title === "e-commerce")
+        getAllBlogs.filter((blog) => blog?.category?.title === "e-commerce")
       );
-      setSeoBlog(getAllBlogs.filter((blog) => blog.category?.title === "SEO"));
+      setSeoBlog(getAllBlogs.filter((blog) => blog?.category?.title === "SEO"));
       // console.log(seoBlog)
       setDigitalBlog(
         getAllBlogs.filter(
-          (blog) => blog.category?.title === "Digital Marketing"
+          (blog) => blog?.category?.title === "Digital Marketing"
         )
       );
       setWebBlog(
-        getAllBlogs.filter((blog) => blog.category?.title === "Web Development")
+        getAllBlogs.filter((blog) => blog?.category?.title === "Web Development")
       );
       setBusinessBlog(
-        getAllBlogs.filter((blog) => blog.category?.title === "Business")
+        getAllBlogs.filter((blog) => blog?.category?.title === "Business")
       );
     }
   }, [getAllBlogs]);
@@ -187,14 +187,15 @@ const Page = () => {
     }
   };
 
-  // useEffect(() => {
-  //   console.log(showOnlyBusiness, 'showBusinesss');
-  //   console.log(showOnlyDigital, 'Digital');
-  //   console.log(showOnlyEcommerce, 'ecommerce');
-  //   console.log(showOnlySeo, 'seo');
-  //   console.log(showOnlyWeb, 'web developer');
+  useEffect(() => {
+    console.log(ecommerceBlog);
+    console.log(showOnlyBusiness, 'showBusinesss');
+    console.log(showOnlyDigital, 'Digital');
+    console.log(showOnlyEcommerce, 'ecommerce');
+    console.log(showOnlySeo, 'seo');
+    console.log(showOnlyWeb, 'web developer');
 
-  // }, [showOnlyEcommerce, showOnlyBusiness, showOnlyDigital, showOnlySeo, showOnlyWeb])
+  }, [showOnlyEcommerce, showOnlyBusiness, showOnlyDigital, showOnlySeo, showOnlyWeb])
   const generateMetadata = ({ params }) => ({
     title: "Latest Top eCommerce Trends & Tech Insights | Kushel Digi Blog  ",
     description:

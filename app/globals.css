@@ -73710,7 +73710,9 @@ input::-webkit-inner-spin-button {
 .bimageloDiPARa12:hover .bimageloDiPara::after {
     width: 100%;
 }
-
+.bimageloDiPARa12{
+    line-height: 40px;
+}
 .bimageloDiPARa12:hover~.bimagelog img {
     transform: scale(0.98);
 }
@@ -75857,7 +75859,7 @@ input::-webkit-inner-spin-button {
 .right-service-stack ol {
     list-style-type: disc;
     font-weight: 400;
-    margin: 10px 15px;
+    /* margin: 10px 15px; */
     display: flex;
     line-height: 1.5;
     justify-content: space-between;
