@@ -231,13 +231,13 @@ export default function BlogDetails() {
               <div className="social-icons">
               <FacebookShareButton url={currentPageUrl} quote="Check out this blog!">
                 <div className="icon">
-                  <FaFacebook />
+                  <FaFacebook/>
                 
                 </div>
                 </FacebookShareButton>
                 <LinkedinShareButton url={currentPageUrl} title="Check out this blog!" summary="An interesting blog you must read!" source="https://www.kusheldigi.com">
                 <div className="icon">
-                  <FaLinkedin />
+                  <FaLinkedin/>
                 </div>
                 </LinkedinShareButton>
                 <TwitterShareButton url={currentPageUrl} title="Check out this blog!">
@@ -253,7 +253,7 @@ export default function BlogDetails() {
                   onClick={() => handleClick1("popAni", "thanksTxt1")}
                 >
                   <span className={`thanksTxt ${showThanks ? "displayBlock" : "displayNone"}`}>Thanks</span>
-                  <MdCelebration />
+                  <MdCelebration/>
                 </div>
               </div>
             </div>
@@ -283,7 +283,7 @@ export default function BlogDetails() {
                       })}
                     </p>
                    <div className="cardBlogStpaara1">
-                   <p className="cardBlogStpaara">{item.title}...</p>
+                   <p className="cardBlogStpaara">{item.title}</p>
                   
                    </div>
                     <p className="cardBlogStpaaragr">{item.subdescription}</p>
