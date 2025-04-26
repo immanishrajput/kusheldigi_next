@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import Sync1 from '../headless-bigcommerce/Sync1/page'
 import Luna from '../headless-bigcommerce/Luna/page'
