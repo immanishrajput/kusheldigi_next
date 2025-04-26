@@ -3,7 +3,7 @@ import React from 'react'
 import Link from "next/link";
 import './sync.css'
 
-function Soloar() {
+function Sync1() {
   const scrollToForm = () => {
     const formSection = document.getElementById('contacthtmlForm');
     if (formSection) {
@@ -57,4 +57,4 @@ function Soloar() {
   )
 }
 
-export default Soloar
+export default Sync1

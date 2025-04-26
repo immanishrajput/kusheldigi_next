@@ -29,7 +29,7 @@ const features = [
   },
 ];
 
-const Spiderbloom = () => {
+const Track = () => {
   return (
     <section className="spiderbloom">
       <div className="spiderbloom-container">
@@ -53,4 +53,4 @@ const Spiderbloom = () => {
   );
 };
 
-export default Spiderbloom;
+export default Track;
