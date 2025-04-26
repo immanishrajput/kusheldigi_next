@@ -62,7 +62,7 @@ const Result1 = ({weExpert}) => {
         </div>
         <div className="maSecImgaec">
           <img
-            src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743675292/agency-screenshots-jpg_w0uszs.webp"
+            src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745669979/lovely-background-images_uuicgq.png"
             alt=""
           />
         </div>

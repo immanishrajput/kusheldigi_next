@@ -157,6 +157,7 @@
     width: 100%;
     overflow-x: auto;
     margin: 0 auto;
+    min-height:450px;
 }
 
 .phases {

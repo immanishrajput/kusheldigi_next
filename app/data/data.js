@@ -114,33 +114,138 @@ export const whyEcommerceCommereByKDS = [
 
 //Headless-shopify
 export const whyHeadlessShopifyByKDSHeading = {
-  title: 'Why Choose eCommerce Development by Kushel Digi Solutions',
-  description: 'Kushel Digi Solutions is committed to deliver your dream ecommerce store with high powered eCommerce solutions. '
+  title: 'Headless Shopify Commerce for Future Ready Stores',
+  description: 'Kushel Digi is committed to deliver your dream ecommerce store with high powered Shopify solutions.  '
 }
 
 export const whyHeadlessShopifyByKDS = [
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg1_nfbwio.svg",
     alt: "Implementation Icon",
-    title: "Custom Solutions",
+    title: "Custom Store Development",
     description:
-      "It doesn’t matter whether you're a startup or an established brand, we tailor our eCommerce solutions to fit your unique needs. Our customized approach helps maximize conversions and to enhance user experience.",
+      "Let us turn your vision into a reality through our custom Shopify store development. Our eCommerce solutions are designed to meet the needs of your brand. ",
     className: "blue",
   },
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg2_v9hk1a.svg",
     alt: "Customization Icon",
-    title: "Certified BigCommerce Partner",
+    title: "Theme Design",
     description:
-      "We take great pride in becoming a certified partner of Bigcommerce. We haven a dedicated team who excels in Bigcommerce technology to deliver high performance eCommerce store",
+      "Stand out in this competitive market with an attractive, custom-made Shopify theme. Our design team will create beautiful, responsive themes that reflect your branding. ",
     className: "gray",
   },
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg4_epnmxh.svg",
     alt: "OmniChannel Icon",
-    title: "Ongoing Support",
+    title: "App Integration",
     description:
-      "The biggest advantage of availing our commitment doesn’t end with development, we provide ongoing support and maintenance to keep your eCommerce store running smoothly and efficiently.",
+      "Augment store functionality with shopify app integrations that are seamlessly integrated. We will integrate essential  tools and third-party apps to increase store's capability. ",
+    className: "blue",
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg3_cus0vm.svg",
+    alt: "Customization Icon",
+    title: "Migration to Shopify",
+    description:
+      "Moving to Shopify? Our migration services make sure that your transition runs smoothly with the least amount of downtime.",
+    className: "gray",
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg2_v9hk1a.svg",
+    alt: "OmniChannel Icon",
+    title: "Performance Optimization",
+    description:
+      "Ensure that your store is fast, responsive, and reliable with our performance optimization services. We will inspect and improve the load times to ensure customer satisfaction.",
+    className: "blue",
+  },
+  // {
+  //   img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg3_cus0vm.svg",
+  //   alt: "Customization Icon",
+  //   title: " Secure & Reliable Payment Processing",
+  //   description:
+  //     "We implement secure payment gateways with multiple options, ensuring a seamless and trustworthy checkout experience. From PayPal to Stripe, we integrate the best payment solutions for hassle-free transactions. ",
+  //   className: "gray",
+  // },
+];
+
+//Headless
+export const whyHeadlessByKDSHeading = {
+  title: 'Headless Shopify Commerce for Future Ready Stores',
+  description: 'Kushel Digi is committed to deliver your dream ecommerce store with high powered Shopify solutions.  '
+}
+
+export const whyHeadlessByKDS = [
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg1_nfbwio.svg",
+    alt: "Implementation Icon",
+    title: "Custom Store Development",
+    description:
+      "Let us turn your vision into a reality through our custom Shopify store development. Our eCommerce solutions are designed to meet the needs of your brand. ",
+    className: "blue",
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg2_v9hk1a.svg",
+    alt: "Customization Icon",
+    title: "Theme Design",
+    description:
+      "Stand out in this competitive market with an attractive, custom-made Shopify theme. Our design team will create beautiful, responsive themes that reflect your branding. ",
+    className: "gray",
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg4_epnmxh.svg",
+    alt: "OmniChannel Icon",
+    title: "App Integration",
+    description:
+      "Augment store functionality with shopify app integrations that are seamlessly integrated. We will integrate essential  tools and third-party apps to increase store's capability. ",
+    className: "blue",
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg3_cus0vm.svg",
+    alt: "Customization Icon",
+    title: "Migration to Shopify",
+    description:
+      "Moving to Shopify? Our migration services make sure that your transition runs smoothly with the least amount of downtime.",
+    className: "gray",
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg2_v9hk1a.svg",
+    alt: "OmniChannel Icon",
+    title: "Performance Optimization",
+    description:
+      "Ensure that your store is fast, responsive, and reliable with our performance optimization services. We will inspect and improve the load times to ensure customer satisfaction.",
+    className: "blue",
+  },
+]
+//shopify
+export const whyShopifyByKDSHeading = {
+  title: 'Why Choose Shopify Development Services by Kushel Digi Solutions',
+  // description: 'Kushel Digi Solutions is committed to deliver your dream ecommerce store with high powered eCommerce solutions.'
+}
+
+export const whyShopifyByKDS = [
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg1_nfbwio.svg",
+    alt: "Implementation Icon",
+    title: "Expertise That Delivers",
+    description:
+      "With years of Shopify development experience, we develop high-performing, visually appealing, and user-friendly stores that deliver results. Our experienced team knows what it takes to bring ideas to life as successful online businesses.",
+    className: "blue",
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg2_v9hk1a.svg",
+    alt: "Customization Icon",
+    title: "Tailored Solutions",
+    description:
+      "We don't believe in one-size-fits-all. Each Shopify store we develop is tailored to fit your brand identity and business objectives. Your store will be distinctly crafted to make you stand out in the noisy digital market.",
+    className: "gray",
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg4_epnmxh.svg",
+    alt: "OmniChannel Icon",
+    title: "Seamless User Experience",
+    description:
+      "From effortless navigation to streamlined checkout flows, we focus on developing an experience that brings customers back for more. We design thoughtful journeys that convert visitors into devoted customers with ease.",
     className: "blue",
   },
   {
@@ -148,26 +253,27 @@ export const whyHeadlessShopifyByKDS = [
     alt: "Customization Icon",
     title: "Mobile-First Approach",
     description:
-      "With mobile shopping on the rise, we design responsive and mobile-optimized eCommerce stores. This ensures a seamless experience across all devices for better engagement and conversions.",
+      "With the majority of shopping being done on mobile, we make sure your Shopify store looks and functions perfectly across all devices. Each design is responsive, speedy, and built to drive the most conversions on any screen.",
     className: "gray",
   },
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg2_v9hk1a.svg",
     alt: "OmniChannel Icon",
-    title: "SEO & Performance Optimization",
+    title: "SEO and Speed Optimization",
     description:
-      " We build eCommerce stores with SEO-friendly structures and fast-loading pages to improve visibility and user experience. Our optimization techniques help drive more organic traffic and boost rankings.",
+      " We develop Shopify stores that load quickly and are SEO-optimized, so you rank higher and attract more customers organically. Our coding habits and strategies set your store up for success from day one.",
     className: "blue",
   },
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg3_cus0vm.svg",
     alt: "Customization Icon",
-    title: " Secure & Reliable Payment Processing",
+    title: "Ongoing Support & Growth",
     description:
-      "We implement secure payment gateways with multiple options, ensuring a seamless and trustworthy checkout experience. From PayPal to Stripe, we integrate the best payment solutions for hassle-free transactions. ",
+      "Our relationship doesn't stop at launch. We provide ongoing support, updates, and advice to ensure your store can grow with you. We're in it for the long run, guiding you to evolve, innovate, and expand your brand.",
     className: "gray",
   },
 ];
+
 
 export const BigCommerceServicesHeading = {
   title: 'Our Support Services',

@@ -167,23 +167,23 @@ const portfolioData = [
     line:'|',
     category: ["ecommerce"],
   },
-  {
-    id: 'automotive-59',
-    logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744637742/lovely_nymplp.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
-    description: [
-        "UX/UI Website Design","Website Development","QA & Website Testing"
-],
-    links: {
+//   {
+//     id: 'automotive-59',
+//     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744637742/lovely_nymplp.png',
+//     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+//     description: [
+//         "UX/UI Website Design","Website Development","QA & Website Testing"
+// ],
+//     links: {
      
-      caseStudy: '/blackRhino',
-      platform: '/bigcommerce-development',
-    },
-    case:'Case Study',
-    case1:'BigCommerce',
-    line:'|',
-    category: ["ecommerce"],
-  },
+//       caseStudy: '/blackRhino',
+//       platform: '/bigcommerce-development',
+//     },
+//     case:'Case Study',
+//     case1:'BigCommerce',
+//     line:'|',
+//     category: ["ecommerce"],
+//   },
   {
     id: 'automotive-10',
     // companyName: 'Ai',

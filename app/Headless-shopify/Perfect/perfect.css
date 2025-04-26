@@ -84,6 +84,7 @@
     }
 
     .shopi-procBCom {
+        font-size: 11px;
         font-weight: 600px !important;
     }
 
@@ -211,6 +212,7 @@
 
     .shopi-phases-wrapper {
         width: 100%;
+        min-height: 450px;
         overflow-x: auto;
         margin: 0 auto;
     }
@@ -355,7 +357,7 @@
     #shopi-phase7Name {
         position: absolute;
         top: 31px;
-        right: 154px;
+        right: 177px;
         display: flex;
         opacity: 0;
         flex-direction: column;
@@ -377,7 +379,7 @@
     #shopi-phase8Name {
         position: absolute;
         top: -7px;
-        right: -58px;
+        right: -28px;
         display: flex;
         opacity: 0;
         flex-direction: column;

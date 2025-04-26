@@ -1163,8 +1163,8 @@ text-decoration: none;
 
   .search-btn:hover {
     background-color: transparent;
-    border: 1px solid blue;
-    color: blue;
+    border: 1px solid #1b76fe;
+    color: #1b76fe;
   }
   
   .bg-white {
