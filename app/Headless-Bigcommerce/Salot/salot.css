@@ -401,7 +401,13 @@
     } */
 
     .Big-banner-right {
+        
         padding: 60px 0px 20px 60px;
+    }
+    .primary-heading{
+        font-size: 22px !important;
+        max-width: 100%;
+
     }
 }
 

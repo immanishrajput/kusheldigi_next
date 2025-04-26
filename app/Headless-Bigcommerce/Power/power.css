@@ -1,7 +1,7 @@
 .industries-section {
     padding: 4rem 1.5rem;
     background-color: white;
-    max-width: 1340px;
+    max-width: 1470px;
     margin: auto;
   }
   
@@ -23,6 +23,7 @@
   
   .black-text {
     color: black;
+    padding: 15px 0px 0px 0px;
   }
   
   .green-text {
@@ -125,4 +126,27 @@
     height: 1rem;
     color: #22c55e;
   }
+
+  @media(max-width:480px){
+    .industries-heading {
+        font-size: 22px;
+        text-align: center;
+    }
+    .industries-section{
+        padding: 30px 30px;
+    }
+    .black-text p{
+        text-align: center;
+        font-size: 14px;
+    }
+  }
   
+  @media(max-width:380px){
+    .industries-heading {
+        font-size: 20px;
+        text-align: center;
+    }
+    .industries-section{
+        padding: 30px 30px;
+    }
+}
