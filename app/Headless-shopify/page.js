@@ -28,7 +28,7 @@ function page() {
       <Call/>
       <Left/>
       <Perfect/>
-      {/* <BigBanner6 services={whyHeadlessShopifyByKDS} contents={whyHeadlessShopifyByKDSHeading}/> */}
+      <BigBanner6 services={whyHeadlessShopifyByKDS} contents={whyHeadlessShopifyByKDSHeading}/>
       <Shopify/>
       <ShopifyHfaq/>
       <HomeForm/>

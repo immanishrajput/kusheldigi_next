@@ -62,19 +62,23 @@
     background-color: transparent;
     color: #0b60ff;
     border: 2px solid #0b60ff;
-    border-radius: 8px;
+    border-radius: 39px;
     text-decoration: none;
-    transition: 0.3s ease;
+    /* transition: 0.3s ease; */
+  }
+  .Big-headless-intro-button:hover{
+    background-color: #0b60ff;
+    color: #fff;
   }
   
-  .span {
-    margin-left: 10px;
+  .butterr {
+    margin-left: 10px !important;
     transition: margin-left 0.3s ease;
   }
   
-  .Big-headless-intro-button:hover span {
+  /* .Big-headless-intro-button:hover span {
     margin-left: 14px;
-  }
+  } */
   
   /* Responsive Styles */
   @media (max-width: 1024px) {
