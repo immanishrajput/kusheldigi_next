@@ -13,6 +13,8 @@ import Serviicess from './Serviicess/page'
 import Actionnn from './Actionnn/page'
 import Navbar from '../COMMON/Navbar'
 import Footer from '../COMMON/Footer'
+import BigBanner6 from '../bigcommerce-development/BigBanner6/page'
+import { whyHeadlessBigcommerceByKDS, whyHeadlessBigcommerceByKDSHeading } from '../data/data'
 import HomeForm from '../components/Home/HomeForm'
 
 function page() {
@@ -31,7 +33,7 @@ function page() {
       {/* <Mention/> */}
       <Power/>
       <Partner/>
-     
+      <BigBanner6 services={whyHeadlessBigcommerceByKDS} contents={whyHeadlessBigcommerceByKDSHeading}/>
       <Salot/>
       {/* <Mouse/> */}
      

@@ -114,7 +114,7 @@ export const whyEcommerceCommereByKDS = [
 
 //Headless-shopify
 export const whyHeadlessShopifyByKDSHeading = {
-  title: 'Headless Shopify Commerce for Future Ready Stores',
+  title: 'Why Choose Headless Shopify Commerce for Future Ready Stores',
   description: 'Kushel Digi is committed to deliver your dream ecommerce store with high powered Shopify solutions.  '
 }
 
@@ -122,43 +122,51 @@ export const whyHeadlessShopifyByKDS = [
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg1_nfbwio.svg",
     alt: "Implementation Icon",
-    title: "Custom Store Development",
+    title: "Proven Shopify Expertise",
     description:
-      "Let us turn your vision into a reality through our custom Shopify store development. Our eCommerce solutions are designed to meet the needs of your brand. ",
+      "Kushel Digi Solutions has a dedicated team of Shopify experts who have been developing Shopify Headless stores and helping businesses to increase their online visibility. ",
     className: "blue",
   },
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg2_v9hk1a.svg",
     alt: "Customization Icon",
-    title: "Theme Design",
+    title: "Customized Solutions",
     description:
-      "Stand out in this competitive market with an attractive, custom-made Shopify theme. Our design team will create beautiful, responsive themes that reflect your branding. ",
+      "We offer Shopify Headless services tailored for the specific needs of your business. Our solution is carefully designed to optimize your store performance and scalability. ",
     className: "gray",
   },
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg4_epnmxh.svg",
     alt: "OmniChannel Icon",
-    title: "App Integration",
+    title: " Dedicated Support and Maintenance",
     description:
-      "Augment store functionality with shopify app integrations that are seamlessly integrated. We will integrate essential  tools and third-party apps to increase store's capability. ",
+      "Get reliable and continued support from our committed maintenance services. We assure your store will be secure, updated, and working at maximum capacity. ",
     className: "blue",
   },
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg3_cus0vm.svg",
     alt: "Customization Icon",
-    title: "Migration to Shopify",
+    title: "Seamless Integration",
     description:
-      "Moving to Shopify? Our migration services make sure that your transition runs smoothly with the least amount of downtime.",
+      "Get a smooth transition into Shopify Headless with our integration and migration services. We ensure zero hassle for a seamless process.",
     className: "gray",
   },
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg2_v9hk1a.svg",
     alt: "OmniChannel Icon",
-    title: "Performance Optimization",
+    title: "Mobile-First Approac",
     description:
-      "Ensure that your store is fast, responsive, and reliable with our performance optimization services. We will inspect and improve the load times to ensure customer satisfaction.",
+      "Our Shopify Headless stores are responsive, mobile-friendly, and built to deliver a best shopping experience across smartphones, tablets and desktops.",
     className: "blue",
   },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg3_cus0vm.svg",
+    alt: "Customization Icon",
+    title: "Optimized for Conversions",
+    description:
+      "Our team meticulously design with a purpose to create intuitive user journeys, fast-loading pages, and excellent interfaces that turn visitors into loyal customers.",
+    className: "gray",
+  }
   // {
   //   img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg3_cus0vm.svg",
   //   alt: "Customization Icon",
@@ -169,51 +177,125 @@ export const whyHeadlessShopifyByKDS = [
   // },
 ];
 
+//Headless-Bigcommerce
+export const whyHeadlessBigcommerceByKDSHeading = {
+  title: 'Why Choose Headless BigCommerce for Future Ready Stores',
+  description: 'Kushel Digi is committed to deliver your dream BigCommerce store with high powered BigCommerce solutions.  '
+}
+
+export const whyHeadlessBigcommerceByKDS = [
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg1_nfbwio.svg",
+    alt: "Implementation Icon",
+    title: " Proven BigCommerce Expertise",
+    description:
+      "Our Headless BigCommerce Development solutions are customer-oriented, result-driven, and geared to help increase your online visibility. Kushel Digi Solutions has over 8 years of experience in delivering BigCommerce solutions for various modern businesses. ",
+    className: "blue",
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg2_v9hk1a.svg",
+    alt: "Customization Icon",
+    title: "Customized Solutions ",
+    description:
+      "We offer Headless services tailored for the specific needs of your business. Our solution is carefully designed to optimize your store performance and scalability. Our team meticulously work on the requirements of clients to ensure the project with in align with your business goal. ",
+    className: "gray",
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg4_epnmxh.svg",
+    alt: "OmniChannel Icon",
+    title: "  Dedicated Support and Maintenance",
+    description:
+      "Get reliable and continued support from our committed maintenance services. We are always here to ensure the store is secure, updated, and working at maximum capacity. Our team is always there to help you out in any issues you face. ",
+    className: "blue",
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg3_cus0vm.svg",
+    alt: "Customization Icon",
+    title: "Excellent User Experience",
+    description:
+      "Showcase your shop with truly unique innovative design and user experience. We design engaging, responsive designs that impress your audience and increase conversions. Kushel Digi’s main focus is customer satisfaction to attract more traffic to your site.",
+    className: "gray",
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg2_v9hk1a.svg",
+    alt: "OmniChannel Icon",
+    title: "SEO and Marketing Strategy",
+    description:
+      "Boost the visibility of your store with our professional SEO and marketing strategies. We implement tactics that will help drive traffic and maximize your search rankings. Kushel Digi Solutions has a dedicated team for SEO that continuously work to rank your site.",
+    className: "blue",
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg3_cus0vm.svg",
+    alt: "Customization Icon",
+    title: "Seamless Integration",
+    description:
+      "Get a smooth transition into Headless BigCommerce with our integration and migration services. We ensure zero hassle for a seamless process. Our team will easily connect your store with CMS platforms, CRMs, ERPs and marketing tools.",
+    className: "gray",
+  }
+  // {
+  //   img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg3_cus0vm.svg",
+  //   alt: "Customization Icon",
+  //   title: " Secure & Reliable Payment Processing",
+  //   description:
+  //     "We implement secure payment gateways with multiple options, ensuring a seamless and trustworthy checkout experience. From PayPal to Stripe, we integrate the best payment solutions for hassle-free transactions. ",
+  //   className: "gray",
+  // },
+];
+
+
 //Headless
 export const whyHeadlessByKDSHeading = {
-  title: 'Headless Shopify Commerce for Future Ready Stores',
-  description: 'Kushel Digi is committed to deliver your dream ecommerce store with high powered Shopify solutions.  '
+  title: 'Why Choose Kushel Digi Solutions for  Headless Commerce Development',
+  description: 'Kushel Digi is committed to deliver your dream ecommerce store with high powered Headless Commerce solutions.  '
 }
 
 export const whyHeadlessByKDS = [
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg1_nfbwio.svg",
     alt: "Implementation Icon",
-    title: "Custom Store Development",
+    title: "Expertise That Delivers",
     description:
-      "Let us turn your vision into a reality through our custom Shopify store development. Our eCommerce solutions are designed to meet the needs of your brand. ",
+      "We possess deep expertise in building fast, adaptable, and high-performance headless commerce implementations. Our seasoned team keeps your brand ahead with technology that is future-proofed. ",
     className: "blue",
   },
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg2_v9hk1a.svg",
     alt: "Customization Icon",
-    title: "Theme Design",
+    title: "Tailored Solutions",
     description:
-      "Stand out in this competitive market with an attractive, custom-made Shopify theme. Our design team will create beautiful, responsive themes that reflect your branding. ",
+      "Each business is unique, and so are our headless configurations - all tailored to your requirements. We design experiences that best suit your objectives and brand. ",
     className: "gray",
   },
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg4_epnmxh.svg",
     alt: "OmniChannel Icon",
-    title: "App Integration",
+    title: "Seamless User Experience",
     description:
-      "Augment store functionality with shopify app integrations that are seamlessly integrated. We will integrate essential  tools and third-party apps to increase store's capability. ",
+      "Our headless builds provide rapid, seamless, and immersive experiences on all touchpoints. We make each customer interaction intuitive and rewarding. ",
     className: "blue",
   },
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg3_cus0vm.svg",
     alt: "Customization Icon",
-    title: "Migration to Shopify",
+    title: "Mobile-First Strategy",
     description:
-      "Moving to Shopify? Our migration services make sure that your transition runs smoothly with the least amount of downtime.",
+      "We optimize for mobile to provide responsive, high-speed shopping experiences anywhere. We ensure your store runs smoothly on smartphones, tablets, and desktops.",
     className: "gray",
   },
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg2_v9hk1a.svg",
     alt: "OmniChannel Icon",
-    title: "Performance Optimization",
+    title: "SEO and Speed Optimized",
     description:
-      "Ensure that your store is fast, responsive, and reliable with our performance optimization services. We will inspect and improve the load times to ensure customer satisfaction.",
+      "Our headless configurations are designed for optimal performance and excellent search engine visibility. Fast loading times leads to higher rankings, greater engagement, and increased conversions.",
+    className: "blue",
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg4_epnmxh.svg",
+    alt: "OmniChannel Icon",
+    title: "Continuous Support & Growth",
+    description:
+      "We don't merely launch your platform - we support you, optimize it, and help you grow in the long term. Our specialized support makes sure that your headless commerce experience is seamless and a success. ",
     className: "blue",
   },
 ]

@@ -1,7 +1,9 @@
 .floor {
   background-image: url("https://res.cloudinary.com/dbcmdtr3r/image/upload/v1745670041/rajat-background_ooaikm.png");
   background-size: cover;
-  background-position: center;
+  background-repeat: no-repeat; 
+  background-position: center center;
+  background-attachment: fixed;
   color: white;
   position: relative;
 }
@@ -150,7 +152,7 @@
 .blue-btn:hover {
   background-color: #fff;
   color: #397eff;
-  border-color: #397eff;
+  border-color: #fff;
 }
 
 .arrow {
