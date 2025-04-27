@@ -19,7 +19,7 @@ const partners = [
     // img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233927/WhatsApp_Image_2025-03-29_at_12.40.30_PM_vhjqvg.jpg",
     img:"https://res.cloudinary.com/dgif730br/image/upload/v1743428594/certified-7_lr7eey.png",
     alt: "bigcommerce-certified Partner",
-    link: "/headless-bigcommerce",
+    link: "Headless-Bigcommerce",
   },
   {
     // img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233929/WhatsApp_Image_2025-03-29_at_12.40.30_PM_1_flmzht.jpg",
