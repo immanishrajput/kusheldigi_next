@@ -119,12 +119,12 @@ const data = [
         navigate: "/headless-commerce",
         subpart: [
           {
-            title: "headless shopify",
-            navigate:"/headless-shopify",
+            title: "Headless shopify",
+            navigate:"/Headless-Shopify",
           },
           {
-            title: "headless bigcommerce",
-            navigate:"/headless-bigcommerce",
+            title: "Headless bigcommerce",
+            navigate:"/Headless-Bigcommerce",
           },
         ],
       },
