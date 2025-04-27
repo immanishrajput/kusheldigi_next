@@ -41,7 +41,7 @@
   .sleft-grid {
     display: grid;
     gap: 32px;
-    max-width: 1380px;
+    max-width: 1420px;
     margin: 0 auto;
     grid-template-columns: repeat(4, 1fr);
     padding: 0 10px;
