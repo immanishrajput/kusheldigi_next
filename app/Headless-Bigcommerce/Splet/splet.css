@@ -73,7 +73,7 @@
     }
   
     .alokai-image img {
-      max-width: 300px;
+      max-width: 200px !important;
     }
   }
   
@@ -88,7 +88,7 @@
     }
   
     .alokai-image img {
-      max-width: 350px;
+      max-width: 200px !important;
     }
   }
   
@@ -108,7 +108,7 @@
     }
   
     .alokai-image img {
-      max-width: 330px;
+      max-width: 240px !important;
     }
   }
   
