@@ -120,11 +120,11 @@ const data = [
         subpart: [
           {
             title: "Headless shopify",
-            navigate:"/headless-shopify",
+            navigate:"/Headless-shopify",
           },
           {
             title: "Headless bigcommerce",
-            navigate:"/headless-bigcommerce",
+            navigate:"/Headless-Bigcommerce",
           },
         ],
       },
@@ -529,9 +529,9 @@ const Navbar = () => {
                                 </Link>
                                 </div>
                                 <div className="left-containt-services">
-                                <Link href="/headless-shopify">Headless Shopify</Link>
+                                <Link href="/Headless-shopify">Headless Shopify</Link>
                                 <span>|</span>
-                                <Link href="/headless-bigcommerce">Headless Bigcommerce</Link>
+                                <Link href="/Headless-Bigcommerce">Headless Bigcommerce</Link>
                               </div>
                             </div>
 
