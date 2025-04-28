@@ -243,17 +243,19 @@ color: #0c61ff !important;
     }
   
     .blue p {
-      font-size: 0.8rem;
+      font-size: 1rem !important;
     }
     .gray p {
-      font-size: 0.8rem;
+      font-size: 1rem !important;
     }
   }
   @media (max-width:450px){
     .blue{
+      font-size: 14px !important;
       height: 410px;
     }
     .gray{
       height: 410px;
+      font-size: 14px !important;
     }
   }

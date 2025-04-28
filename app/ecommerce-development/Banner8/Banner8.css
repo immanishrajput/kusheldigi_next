@@ -35,7 +35,7 @@
     z-index: 2;
 }
 
-.textContainer h2 {
+.textContainer h3 {
     font-size: 2.6rem;
     font-weight: bold;
     color: #222;
@@ -144,7 +144,7 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .textContainer > h2,
+    .textContainer > h3,
     .textContainer > p {
         text-align: center;
     }
@@ -161,7 +161,7 @@
             padding: 40px 30px;
         gap: 0px;
     }
-    .textContainer h2{
+    .textContainer h3{
         font-size: 20px;
         text-align: center;
     }
