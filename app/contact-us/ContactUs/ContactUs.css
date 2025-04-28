@@ -229,6 +229,9 @@ height: auto;
   align-items: center;
   gap: 5px;
 }
+.terms-lables{
+  padding: 15px 0px 0px 0px;
+}
 
 .submit-btnKush {
   margin: 0;

@@ -73,7 +73,7 @@ width: 165px;
     }
   
     .dev-partner-heading {
-      text-align: center;
+     text-align: left !important;
       font-size: 22px;
     }
   
@@ -98,9 +98,11 @@ width: 165px;
   
     .dev-partner-heading {
       font-size: 20px;
+      text-align: center !important;
     }
     .dev-partner-heading{
         line-height: 30px;
+        text-align: center !important;
     }
   
     .dev-partner-subtext {
