@@ -53,6 +53,7 @@
   .feature-card img {
     width: 60px;
     margin: 0 auto 1.2rem;
+    filter: hue-rotate(444deg) saturate(209%);
   }
   
   .feature-card h3 {
