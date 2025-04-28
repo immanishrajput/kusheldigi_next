@@ -123,7 +123,16 @@ function Home2Testimonial() {
         >
           <SplideSlide>
             <div className='testswipsingle'>
-              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
+
+             <div className='testImageCloud'>
+             <div>
+             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
+             </div>
+             
+            <div className='testImage'>
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842698/rajat-mithal-logo_ig2ccd.png"/>
+            </div>
+             </div>
               <p className='reviewsss'>
               Kushel Digi Solutions delivered exceptional ecommerce development services and helped us built a highly functional online platform. The team's technical skills and experience is really commendable which provided a seamless digital upgrade. 
               </p>
@@ -136,7 +145,15 @@ function Home2Testimonial() {
 
           <SplideSlide>
             <div className='testswipsingle'>
-              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
+            <div className='testImageCloud'>
+             <div>
+             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
+             </div>
+             
+            <div className='testImage'>
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842494/manish-bhai-1_hmba1g.png"/>
+            </div>
+             </div>
               <p className='reviewsss'>
               From designing to execution, Kushel Digi Solutions was the best choice for the innovative development of our project. Their expertise as well as attention to detail in website development & BigCommerce solutions ensured to enhance our digital strategy and user's online experience. 
               </p>
@@ -149,7 +166,15 @@ function Home2Testimonial() {
 
           <SplideSlide>
             <div className='testswipsingle'>
-              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
+            <div className='testImageCloud'>
+             <div className='testImage1'>
+             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
+             </div>
+             
+            <div className='testImage'>
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842480/manish-bhai-3_uz3ee0.png"/>
+            </div>
+             </div>
               <p className='reviewsss'>
               Kushel Digi Solutions understands the core of eCommerce development and gives BigCommerce solutions which turned out as a massive game changer for our online business storefront. Their team of professionals helped gaining us scalability and improved customer service experience. 
               </p>
@@ -162,7 +187,15 @@ function Home2Testimonial() {
 
           <SplideSlide>
             <div className='testswipsingle'>
-              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
+            <div className='testImageCloud'>
+             <div>
+             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
+             </div>
+             
+            <div className='testImage'>
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842486/manish-bhai-2_strlgl.png"/>
+            </div>
+             </div>
               <p className='reviewsss'>
               Working with Kushel Digi Solutions was a fantastic experience. Their strategic approach to eCommerce development and website development exceeded our expectations, therefore made the entire process reliable and hassle free. The team was highly responsive and offered customised solutions for every problem.
               </p>

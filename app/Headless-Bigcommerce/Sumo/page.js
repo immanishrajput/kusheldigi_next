@@ -19,7 +19,7 @@ const Sumo = () => {
 
         <div className="features-cards">
           <div className="feature-card">
-            <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744130848/out_of_the_box_1_vnzdgx.svg" alt="Frontend as a Service Icon" />
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745837859/Fast-Performance_pak5wo.png" alt="Frontend as a Service Icon" />
             <h3>Fast Performance
             </h3>
             <p>
@@ -29,7 +29,7 @@ const Sumo = () => {
           </div>
 
           <div className="feature-card">
-            <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744130847/lighting_donxf3.svg" alt="Lightning-fast Icon" />
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745837849/Total-Design-Freedom_fbp7q9.png" alt="Lightning-fast Icon" />
             <h3>Total Design Freedom
             </h3>
             <p>
@@ -39,7 +39,7 @@ const Sumo = () => {
           </div>
 
           <div className="feature-card">
-            <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744130847/headless_qqeqqt.svg" alt="API-focused Icon" />
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745837838/Third-Party-Integrations_whre9s.png" alt="API-focused Icon" />
             <h3>Third-Party Integrations
             </h3>
             <p>
@@ -49,7 +49,7 @@ const Sumo = () => {
           </div>
 
           <div className="feature-card">
-            <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744130848/pwa_sh9uyb.svg" alt="API-focused Icon" />
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745837828/Omnichannel-Experience_nkhrlg.png" alt="API-focused Icon" />
             <h3>Omnichannel Experience
 
             </h3>
@@ -60,7 +60,7 @@ const Sumo = () => {
           </div>
 
           <div className="feature-card">
-            <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744130847/cloud-vsf_lglfrm.svg" alt="API-focused Icon" />
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745837820/Scalability-Solutions_moobgg.png" alt="API-focused Icon" />
             <h3>Scalability Solutions
             </h3>
             <p>
@@ -70,7 +70,7 @@ const Sumo = () => {
           </div>
 
           <div className="feature-card">
-            <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744130848/support_afgblw.svg" alt="API-focused Icon" />
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745837812/Secure-_-Reliable-Backend_ctqrgc.png" alt="API-focused Icon" />
             <h3>Secure & Reliable Backend
             </h3>
             <p>

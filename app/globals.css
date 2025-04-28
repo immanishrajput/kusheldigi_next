@@ -8388,7 +8388,15 @@ body {
     max-width: 70px;
     width: 100%
 }
-
+.testImageCloud{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.testImage img{
+    height: 70px !important;
+    width: 70px;
+}
 @media (max-width:1300px) {
     .indus-card-main {
         flex-wrap: wrap
@@ -18615,7 +18623,7 @@ body {
 
 .testswipsingle {
     /* width: 550px; */
-    min-height: 370px;
+    min-height: 400px;
     padding: 30px;
     border-radius: 10px;
     display: flex;
@@ -18625,10 +18633,6 @@ body {
     position:relative;
 }
 
-.testswipsingle img {
-    width: 120px;
-    height: 18px
-}
 
 .reviewsss {
     font-family: sf-ui-display-medium, sans-serif;
@@ -18752,7 +18756,7 @@ body {
 }
 
 @media (max-width:1150px) {
-    .testswipsingle img {
+    .testImage img {
         width: 100px
     }
 
