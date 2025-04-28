@@ -73725,7 +73725,7 @@ input::-webkit-inner-spin-button {
 
 .bimagelog img {
     width: 100%;
-    max-width: 833px;
+    /* max-width: 833px; */
     height: auto;
     transition: transform 0.4s ease-in-out;
 }

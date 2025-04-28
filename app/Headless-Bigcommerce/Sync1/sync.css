@@ -10,7 +10,7 @@
 
 .floor-overlay {
   background: rgba(0, 0, 0, 0.7);
-  padding: 6rem 50px 4rem 50px;
+  padding: 7.5rem 50px 50px 50px;
 }
 
 .floor-container {
@@ -39,9 +39,9 @@
 
 .floor-left p {
   font-size: 1rem;
-  margin-bottom: 1.5rem;
+  /* margin-bottom: 1.5rem; */
   line-height: 1.6;
-  padding: 0 10px;
+  padding: 13px 10px;
 }
 
 .checklist {
@@ -135,6 +135,8 @@
   background-color: #fff;
   color: #397eff;
   border-color: #fff;
+  font-weight: 600;
+  font-size: 15px;
 }
 
 .white-btn:hover {
@@ -144,8 +146,10 @@
 }
 
 .blue-btn {
+  font-size: 15px;
   background-color: #397eff;
   color: #fff;
+  font-weight: 600;
   border-color: #397eff;
 }
 

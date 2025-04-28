@@ -71,7 +71,7 @@ const Website = () => {
                               alt="Services Icon"
                               title="Services Icon"
                               decoding="async"
-                              src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/icon-1_c6jiko.png'
+                              src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1745824427/Ecommerce-development1_qdmdkp.png'
                               // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287002/node-js-mongo-DB-icon_rhqrop.svg"
                               className='services-box-inner-img'
                             />
@@ -213,7 +213,7 @@ const Website = () => {
                               alt="Services Icon"
                               title="Services Icon"
                               decoding="async"
-                              src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/icon-1_c6jiko.png'
+                              src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1745824640/application-development1_yghqz0.png'
                               // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287002/node-js-mongo-DB-icon_rhqrop.svg"
                               className='services-box-inner-img'
                             />
@@ -394,7 +394,7 @@ const Website = () => {
                               alt="Services Icon"
                               title="Services Icon"
                               decoding="async"
-                              src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/icon-1_c6jiko.png'
+                              src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1745824934/design-icon_y5stzx.png'
                               // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287002/node-js-mongo-DB-icon_rhqrop.svg"
                               className='services-box-inner-img'
                             />
@@ -569,7 +569,7 @@ const Website = () => {
                               alt="Services Icon"
                               title="Services Icon"
                               decoding="async"
-                              src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/icon-2_ya9uha.png'
+                              src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1745823459/support_djssld.png'
                               // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287001/mobile-app-development-icon_pqivui.svg"
                               className='services-box-inner-img'
                             />
@@ -716,7 +716,7 @@ const Website = () => {
                               alt="Services Icon"
                               title="Services Icon"
                               decoding="async"
-                              src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446874/icon-3_sjahnw.png'
+                              src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1745823449/custom-software_boce6g.png'
                               // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287001/microsoft-icon_qefjxk.svg"
                               className='services-box-inner-img'
                             />
@@ -889,7 +889,7 @@ const Website = () => {
                               alt="Services Icon"
                               title="Services Icon"
                               decoding="async"
-                              src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446875/icon-4_k71js9.png'
+                              src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1745823439/performance-markiting_ysxeyr.png'
                               // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287001/ML_eznvvj.svg"
                               className='services-box-inner-img'
                             />
