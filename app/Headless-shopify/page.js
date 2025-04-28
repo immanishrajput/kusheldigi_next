@@ -37,9 +37,11 @@ function page() {
       <Call/>
       <Left/>
       <Perfect/>
-      <BigBanner6 services={whyHeadlessShopifyByKDS} contents={whyHeadlessShopifyByKDSHeading}/>
+    
       <Shopify/>
+      <BigBanner6 services={whyHeadlessShopifyByKDS} contents={whyHeadlessShopifyByKDSHeading}/>
       <ShopifyHfaq/>
+    
       <HomeForm/>
       <Footer/>
       <div className="whtsApBtns">
