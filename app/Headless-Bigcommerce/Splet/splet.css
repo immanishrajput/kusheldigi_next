@@ -41,7 +41,7 @@
     line-height: 1.7;
     color: #374151;
     max-width: 600px;
-    margin-inline: auto;
+    /* margin-inline: auto; */
   }
   
   /* Image Section */
@@ -62,22 +62,7 @@
   
   /* --- Responsive Breakpoints --- */
   
-  /* For very small screens (375px) */
-  @media (max-width: 375px) {
-    .alokai-heading {
-      font-size: 24px;
-    }
   
-    .alokai-subtext {
-      font-size: 0.9rem;
-    }
-  
-    .alokai-image img {
-      max-width: 200px !important;
-    }
-  }
-  
-  /* For small mobile/tablets (up to 480px) */
   @media (max-width: 480px) {
     .alokai-heading {
       font-size: 26px;
@@ -91,8 +76,19 @@
       max-width: 200px !important;
     }
   }
+  @media (max-width: 375px) {
+    .alokai-heading {
+      font-size: 24px;
+    }
   
-  /* For medium tablets (up to 600px) */
+    .alokai-subtext {
+      font-size: 0.9rem;
+    }
+  
+    .alokai-image img {
+      max-width: 200px !important;
+    }
+  }
   @media (max-width: 600px) {
     .alokai-heading {
       font-size: 22px;
@@ -112,7 +108,6 @@
     }
   }
   
-  /* Tablet (≥ 768px) */
   @media (min-width: 768px) {
     .alokai-heading {
       font-size: 38px;
@@ -124,7 +119,6 @@
     }
   }
   
-  /* Desktop (≥ 1024px) */
   @media (min-width: 1024px) {
     .alokai-container {
       flex-direction: row;
@@ -136,12 +130,11 @@
       text-align: left;
     }
   
-    .alokai-heading {
-      font-size: 45px;
-    }
+   
   
     .alokai-subtext {
       margin-inline: 0;
+      font-size: 18px;
     }
   
     .alokai-image img {

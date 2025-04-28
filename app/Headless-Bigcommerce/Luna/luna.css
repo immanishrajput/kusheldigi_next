@@ -38,7 +38,7 @@
   }
   
   .Big-headless-intro-text h1 {
-    font-size: 41px;
+    font-size: 42px;
     font-weight: 600;
     color: #1c1e21;
     margin-bottom: 0px;
@@ -47,8 +47,8 @@
   }
   
   .Big-headless-intro-description {
-    font-size: 15px !important;
-    line-height: 1.8;
+    font-size: 18px !important;
+    line-height: normal;
     padding: 15px 0px 0px 0px;
     color: #444;
     margin-bottom: 30px;

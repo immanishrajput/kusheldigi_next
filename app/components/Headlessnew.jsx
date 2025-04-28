@@ -54,7 +54,7 @@ function page() {
       <Upgrade/>
       <More/>
       <Last/>
-      <Banner9/>
+      {/* <Banner9/> */}
       <Action1/>
       <Cycle/>
       <Process/>
