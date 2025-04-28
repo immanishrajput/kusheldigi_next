@@ -67,8 +67,10 @@ function page() {
       <Wifi/>
       <BigBanner6 services={whyHeadlessByKDS} contents={whyHeadlessByKDSHeading}/>
       <Action2/>
+  
       <HeadlessFaq/>
       {/* <Sec14/> */}
+     
       <HomeForm/>
       <Footer/>
       <div className="whtsApBtns">

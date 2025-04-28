@@ -42,10 +42,10 @@ function page() {
       {/* <Mention/> */}
       <Power/>
       <Partner/>
-      <BigBanner6 services={whyHeadlessBigcommerceByKDS} contents={whyHeadlessBigcommerceByKDSHeading}/>
+     
       <Salot/>
       {/* <Mouse/> */}
-     
+      <BigBanner6 services={whyHeadlessBigcommerceByKDS} contents={whyHeadlessBigcommerceByKDSHeading}/>
       <HomeForm/>
       <Footer/>
       <div className="whtsApBtns">
