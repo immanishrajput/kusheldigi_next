@@ -29,11 +29,11 @@ function Sync1() {
                 <li>Fast, responsive, and SEO-optimized ecommerce sites</li>
               </ul>
 
-              <div className="floor-buttons">
-                <button onClick={scrollToForm} className="btn white-btn">Talk to a Consultant</button>
+              <div className="floorr-buttons">
+                <button onClick={scrollToForm} className="btnnn white-btn">Talk to a Consultant</button>
                 
                 <Link href="/contact-us"> 
-                <button className="btn blue-btn">
+                <button className="btnnn blue-btn">
                   BOOK A CALL <span className="arrow">→</span>
                 </button>
                 </Link>
