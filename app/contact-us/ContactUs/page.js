@@ -260,7 +260,7 @@ const ContactUs = () => {
 
 
 
-            <div>
+            <div className="terms-lables">
               <label className="terms-label">
                 <input type="checkbox" name="termsAccepted" checked={formData.termsAccepted} onChange={handleChange1} required />
                 *I have read and accepted the <a href="#">Terms & Conditions </a> and <a href="#"> Privacy Policy </a>
