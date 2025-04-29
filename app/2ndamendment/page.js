@@ -208,13 +208,48 @@ function Page() {
             <h1>Client Background</h1>
 
             <p>
-            2nd Amendment Armory is known for being a leading provider of high-quality firearms and tactical equipment. They have a wide selection of firearms that includes big brands like Glock, Ruger, Smith & Wesson and Daniel Defense.The store caters to a wide variety of people, including hunters, outdoorsmen, recreational shooters, law enforcement, military servicemen, and responsible owners of firearms. 2nd Amendment Armory focuses on customer satisfaction by guaranteeing fair pricing, product knowledge, and exceptional post-purchase support. 
+            2nd Amendment Guns is a service-disabled veteran business located in the prime location of Las Vegas, Nevada. Behind its foundation, the company represents a commitment to the people and the Constitution to serve. 
             </p>
+            <p>
+            After serving 32 years in the military, the owner of 2nd Amendment Guns and Accessories is offering a wide range of firearms and ammunition. The brand empowers “The People” of the United States of America through education, arms, and training. 
+            </p>
+            <p>
+              
+At its Ecommerce platform, you can find ammunition equipment for Second Amendment enthusiasts, survival gear, optics, and a lot more. The brand is also providing a secure and legally compliant shopping experience for seasoned firearm owners.
+
+               </p>
+               <p> Since 2012, it has positioned itself as a reliable platform for the public service, and the community support has helped to step up in the Ecommerce world. However, Kushel Digi Solutions have played a crucial role in bringing it into the limelight with their expertise. MadFish Solutions has offered us this opportunity and our team has put their best efforts to make it a successful project. </p>
+
           </div>
         </div>
 
         <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216538/c2el1_ljp05j.png" alt="kushel" className="c2el1" />
       </section>
+      {/* <div className="PortfolioChallenges">
+          <div className="PortfolioChallengeMain">
+            <h4> Challenges</h4>
+            <div>
+             <h5>
+             1. Regulatory Complexity
+             </h5>
+              <p>Selling firearms requires compliance with a Federal Firearms License. The business has to pass through age verification, location-based restrictions, and a lot of other things to be eligible to run an <b>E-commerce shopping</b>. </p>
+              <h5>2. Outdated Platform</h5>
+              <p>The previous website had many issues, such as UI and UX design, performance, and improper infrastructure. It was becoming a hindrance to traffic growth and scalability.</p>
+              <h5>3. Limited Search Experience</h5>
+              <p>As the inventory is large, finding the right product is pretty difficult. The users have to struggle because no advanced filtering and search refinements are there. </p>
+              <h5>4. Mobile-Friendliness</h5>
+              <p>Many of the potential customers exist on mobile, but the site wasn’t mobile-friendly. </p>
+              
+            </div>
+            </div>
+<div className="portfolioImageChallenge">
+<img
+            src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744631255/Group_1171281276_psr4aw.png"
+            alt="kushel"
+          />
+</div>
+         
+        </div> */}
 
       {/* third section  */}
       <section className="case3secthir">
@@ -228,15 +263,15 @@ function Page() {
             </div>
 
             <p className="s3theeparas">
-            With the 2nd Amendment Armory's requirement for a much more robust and compliant eCommerce platform, we developed an ecommerce platform using  BigCommerce that can be best suited for their company. While designing the solution, we have prioritized user experience to ensure that customers are able to browse the diverse range of firearms, accessories, and services. We have designed a clear and intuitive interface which categorized the products for ease of identification by customers as suited to their preferences.
+            Kushel Digi Solutions was ready for the challenges of transforming the site into a full-fledged <b>E-commerce solution</b>. We tailored our design strategy as per the requirements of the client. 
 
             </p>
 
             <p className="s3theeparas">
-              {" "}
-              Security and compliance were also our top most priority throughout the development. We integrated BigCommerce’s PCI-compliant security features that includes encrypted payment gateways and customer data protection, which are essential in the firearms industry.
+            From building the storefront using high-quality images to helping customers make well-informed decisions, we have made all these possible. 
 
             </p>
+            <p>We also did a thorough research to identify the market gaps and analyze the best possible solution for the business. </p>
 
           </div>
 
@@ -269,8 +304,8 @@ function Page() {
    </div>
 
             <div className="cas3circldata">
-              <h4>Easy Navigation Menu </h4>
-              <p>2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help. </p>
+              <h4>Design Phase (Figma) </h4>
+              <p>At first, we started with Figma to redesign the entire UI and UX. Keeping in mind the brand’s image, the design part featured clean and organized layouts. Our emphasis was on streamlining navigation while building a responsive site structure.  </p>
             </div>
 
           </div>
@@ -291,8 +326,8 @@ function Page() {
    </div>
 
             <div className="cas3circldata">
-              <h4>Smart Filters </h4>
-              <p>2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help. </p>
+              <h4> E-Commerce Development</h4>
+              <p>Once done with the design, the development was completed using <b>BigCommerce development</b>. It was the best choice because the platform supports a robust storefront creation for product feed management. We considered everything before finishing the site’s design, like FFL selection, age verification, state-based restrictions, etc.  </p>
             </div>
 
           </div>
@@ -312,8 +347,8 @@ function Page() {
    </div>
 
             <div className="cas3circldata">
-              <h4>Mobile Responsive </h4>
-              <p>2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help. </p>
+              <h4>App Integrations </h4>
+              <p>Now, the website is ready to launch. But before doing so, it was important to integrate additional tools for operational performance. The integration covered inventory management, SEO marketing, payment smoothness, and so on. </p>
             </div>
 
           </div>
@@ -424,6 +459,23 @@ function Page() {
       </div>
       
      </section>
+
+     {/* <div className="Mainresult_Portfolio">
+<div className="result_Portfolio">
+  <h5>Result & Impact</h5>
+  <h6>
+  The improvement in the website led to significant changes in order placement, more customer flow, and streamlined operation. 
+  </h6>
+  <ul>
+    <li>The intuitive UI kept the visitors hooked for longer durations, causing a noticeable drop in bounce rates.</li>
+    <li>With faster site performance and simplified product discovery, the client experienced a boost in conversion rate. </li>
+    <li>Back-end integrations enabled the team to manage inventory, orders, and customer interactions more efficiently. </li>
+  
+  </ul>
+ 
+</div>
+</div> */}
+
 
      {/* six section  */}
      <section className="cs2sexiesec">

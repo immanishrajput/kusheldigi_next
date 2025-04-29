@@ -4,12 +4,12 @@ import { useEffect, useState } from "react";
 import { TiTick } from "react-icons/ti";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
-import '../Ai/Ai.css'
+import './typhoon.css'
 
 import '../globals.css'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
-function Ai() {
+function typhoon() {
     
   const d1 = [
     {
@@ -126,7 +126,7 @@ function Ai() {
   };
 
   const generateMetadata = ({ params }) => ({
-           title: 'Kusheldigi.com/Ai',
+           title: 'Kusheldigi.com/typhoon',
            description:"Web Development Company | Kushel Digi Solutions"
          });
          
@@ -163,15 +163,15 @@ function Ai() {
               <div className="ca1firleft">
                 <div>
                   <img
-                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622906/Group_1171279213_ahxsmd.png"
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745911384/typhoondefense_achn4u.webp"
                     alt="kushel"
                   />
                 </div>
-                <p>A&I Parts Center</p>
+                <p>TYPHOON DEFENSE</p>
               </div>
 
               <p className="ca1firrigh">
-              AI Parts Center is a well-known name in the automotive industry. Being in this business for over more than 40 years, it provides a broad range of auto parts and accessories. 
+              Typhoon Defense is an ultimate firearm manufacturer that blends the magic of innovation, creativity, and superior craftsmanship. 
               </p>
             </div>
 
@@ -204,9 +204,9 @@ function Ai() {
 
           <div className="sc2_main_content">
             <h1>Client Background</h1><p>
-         The company is empowering multiple vehicle models with physical stores located in Texline, Dalhart, Guymon, Stratford, and Amarillo areas. It has earned a strong brand reputation by focusing on community-focused approach and exceptional customer service. No wonder why it is a go-to destination for DIYers and professionals. </p>
+            Typhoon Defense is an ultimate firearm manufacturer that blends the magic of innovation, creativity, and superior craftsmanship. It is leading the Bigcommerce landscape by designing unparalleled firearms.  </p>
             <p>
-            As the brand is expanding their footprint in the digital space, <b>Kushel Digi Solutions</b> provided a great support in taking their business further via digital presence. <b>Madfish Solutions</b> has offered us this opportunity to work on a reputed brand projects like AI Parts Center, which we are grateful for. 
+            Typhoon Defense implements exceptional expertise, innovative design, and supreme quality to build customer-centric products. This is a name to trust for precision engineering, reliability, and durability. It also delivers impressive customer service which is beyond your expectations so you can get the best for your shooting needs. Kushel Digit Solutions help them achieve better results by developing their website and optimising it for search engines for effective results. We get this projet opportunity from MadFish Solutions, which we are appreciable for,
             </p>
           </div>
         </div>
@@ -222,16 +222,9 @@ function Ai() {
       <div className="PortfolioChallenges">
           <div className="PortfolioChallengeMain">
             <h4> Challenges</h4>
-            <p> Behind the development of the digital storefront, there were plenty of challenges. One of them was to maintain the essence (brand personality) of its established brand. Other than them, we tackled the following hurdles: </p>
+            <p> Behind the completion of this project, there were multiple challenges. One of them was minimal online exposure. Other than that, the client's digital infrastructure lacked the flexibility and modern layout. These two factors were reducing competitiveness. Even the product listings weren’t up to the mark and it was important to enhance security  </p>
             <div>
-              <ul>
-                <li>
-                The previous design was outdated, and it required a creative revamp.
-                </li>
-                <li>Ecommerce features were limited, and only basic functionalities were there.</li>
-                <li>There was a strong need to improve design and include modern elements. </li>
-                <li>Poor mobile user experience was leading to reduced sales due to clunky navigation and slow load times.</li>
-              </ul>
+            
             </div>
             </div>
 <div className="portfolioImageChallenge">
@@ -248,22 +241,22 @@ function Ai() {
         <div className="sc3sectcont">
           {/* left side */}
           <div className="s3secltleft">
-            <div className="c3s3_head2" id="AiUnique_solution">
+            <div className="c3s3_head2" id="typhoon_solution">
               <h3>Solution</h3>
-              <p></p>
+            <p></p>
             </div>
 
             <p className="s3theeparas">
-            Considering the challenges, our <b>professional web design company</b> formulated an entire approach from scratch to achieve the desired outcome. From designing to deployment, we ensured to build a scalable and user-friendly e-commerce solution.  </p>
+            Kushel Digi Solutions is driving digital transformation for Typhoon Defense by utilizing innovative digital tools and <b>bigcommerce theme development</b> strategies. After analyzing the nature of their business, Our expert team creates a roadmap of how to build a strong online presence for them utilizing <b>bigcommerce website development</b> service. Along with that, we plan strategies to effectively optimize their site performance. KushelDigi Solutions ensures that Typhoon Defense reaches its prospective audience effectively.   </p>
 
             <p className="s3theeparas">
-            Our expert team members carefully analyzed the situation of the website before drafting the solution. We accessed the backend and front-end features, noted down the loopholes and shared them with the client. 
+            It is following a strategic digital marketing approach to build brand visibility making Typhoon Defense more recognizable and accessible. This transformation is a game changer, helping the brand to engage with potential customers easily. 
 
             </p>
 
             
             <p className="s3theeparas">
-            For redesigning the site, our web designers prepared a fresh layout on Figma. Working closely with the client, visuals were created in a way that they resonate with the brand’s legacy. 
+            Kushel Digi Solutions is not just promoting Typhoon Defense but also enhancing its positioning and credibility by implementing strategic <b>bigcommerce app development</b> solutions.
 
             </p>
           </div>
@@ -305,11 +298,11 @@ function Ai() {
                 />
               </div>
 
-              <div className="cas3circldata2" id="case3Portfolio_Aii">
-                <h4>E-commerce Development in BigCommerce
+              <div className="cas3circldata2" id="case3Portfolio_typhoon">
+                <h4>Conducting Competitor Research and Analysis
               </h4>
                 <p>
-                After finishing the redesign part, we created the site using <b>headless BigCommerce development</b>. This is a long-term and scalable choice to manage inventory, secure checkout, and customize product listings. In fact, building a customized digital storefront is fun with <b>BigCommerce </b>
+                Competitor research and analysis build the foundation to figure out the gaps in the current market and utilize the right ideas to market the firearms. Kusheldigi figures out the areas that need improvement and then formulates strategies to stand out in the competition. It uses the end data from research to modify the website’s design, functionality, and content in one go. Thus, Kusheldigi keeps Typhoon Defense ahead in the ever-evolving digital landscape using a data-driven approach and effectively executing <b>bigcommerce custom development</b> services.
 
                 </p>
               </div>
@@ -334,10 +327,10 @@ function Ai() {
                 />
               </div>
 
-              <div className="cas3circldata2" id="case3Portfolio_Aii">
-                <h4>Ecommerce Development.  </h4>
+              <div className="cas3circldata2" id="case3Portfolio_typhoon">
+                <h4>Secure and Reliable Ecommerce Platform</h4>
                 <p>
-                We started with storefront creation, improving search functionality, and integrated payment gateways while building backend infrastructure. 
+                Kusheldigi ensured that Typhoon Defense stays competitive and secure with a reliable ecommerce platform. It created a full-fledged ecommerce site based on <b>bigcommerce local theme development</b> to boost their sales and revenue. The website features SSL encryption, a secured payment process, responsive design, software updates, and much more. As the business keeps flourishing, the website will work adaptably according to the evolving market needs to bring long-term success. It will meet evolving customer expectations by keeping the website performance optimal. 
 
                 </p>
               </div>
@@ -352,11 +345,13 @@ function Ai() {
             <div className="cas3s4con" id="imgPortfolio_Phone">
              
 
-              <div className="cas3circldata2" id="case3Portfolio_Aii">
-                <h4>App Integrations</h4>
+              <div className="cas3circldata2" id="case3Portfolio_typhoon">
+                <h4>
+                Maintenance and Support 
+                </h4>
                 <p>
              
-                BigCommerce supports third-party applications so we integrated the useful ones to the website. The integrated apps will turn AI Parts Center into a full-fledged Ecommerce platform. 
+                Post-website development stage, Kusheldigi takes care of the maintenance and support part to optimize the website performance. It works on resolving errors quickly so that Typhoon Defense never has to worry about it. This eliminates the error within seconds to run your business smoothly. With 24/7 technical support and a proactive approach, it maintains stability and enhances long-term success. The Kushaldigi team continuously monitors website traffic and boosts loading speeds to enhance the user experience.
                 </p>
               </div>
               <div className="bgshowdb2" id="imgPortfolio_Ai_Phone">
@@ -370,29 +365,7 @@ function Ai() {
           </section>
         </SplideSlide>
 
-        <SplideSlide>
-          <section className="case3secfour2">
-          <img className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png" alt="kushel" />
-
-            <div className="cas3s4con" id="imgPortfolio_Phone">
-             
-
-              <div className="cas3circldata2" id="case3Portfolio_Aii">
-                <h4>Storefront Simplification</h4>
-                <p>
-                We also created the storefront to simplify the access to product details to help your customers in making the informed decision. It was important to include aesthetic images to bring clarity for the  audience too. Working with our expert designers, the product detail section was well-taken care of. 
-                </p>
-              </div>
-              <div className="bgshowdb2" id="imgPortfolio_Ai_Phone">
-                <img
-                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632484/Group_1171281284_dpqrse.png"
-                  alt="kushel"
-                  className="shadowbg2"
-                />
-              </div>
-            </div>
-          </section>
-        </SplideSlide>
+       
       </Splide>
 
       {/* fivth  section  */}
@@ -492,19 +465,12 @@ function Ai() {
           </div>
         </div>
       </section>
-
+    
+    
       <div className="Mainresult_Portfolio">
 <div className="result_Portfolio">
   <h5>Result & Impact</h5>
-  <h6>
-  We successfully created a solution that reflected their brand values and met modern digital standards. Following were additional impacts noticed by the client
-  </h6>
-  <ul>
-    <li>More customer engagement</li>
-    <li>Higher conversion rates </li>
-    <li>Modern layout and intuitive design</li>
-    <li> Advanced Customer Support features </li>
-  </ul>
+ <p>Within the first few months of launch, Typhoon Defense noticed a significant increase in website traffic. The sales were rising, conversions turned double, and the platform became more scalable. This evolved digital presence positioned Typhoon Defense as a modern, reliable, and innovative firearm manufacturer. </p>
  
 </div>
 </div>
@@ -569,4 +535,4 @@ function Ai() {
   );
 }
 
-export default Ai;
+export default typhoon;
