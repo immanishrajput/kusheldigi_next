@@ -4,12 +4,12 @@ import { useEffect, useState } from "react";
 import { TiTick } from "react-icons/ti";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
-import '../Ai/Ai.css'
+import './graco-corp.css'
 
 import '../globals.css'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
-function Ai() {
+function graco() {
     
   const d1 = [
     {
@@ -126,7 +126,7 @@ function Ai() {
   };
 
   const generateMetadata = ({ params }) => ({
-           title: 'Kusheldigi.com/Ai',
+           title: 'Kusheldigi.com/graco',
            description:"Web Development Company | Kushel Digi Solutions"
          });
          
@@ -163,15 +163,15 @@ function Ai() {
               <div className="ca1firleft">
                 <div>
                   <img
-                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622906/Group_1171279213_ahxsmd.png"
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745914642/graco_corporation_logo_1705399297__51656_o9u82r.webp"
                     alt="kushel"
                   />
                 </div>
-                <p>A&I Parts Center</p>
+                <p>GRACO CORPORATION</p>
               </div>
 
               <p className="ca1firrigh">
-              AI Parts Center is a well-known name in the automotive industry. Being in this business for over more than 40 years, it provides a broad range of auto parts and accessories. 
+              Graco Corporation is the global leader in manufacturing fluid handling products
               </p>
             </div>
 
@@ -204,9 +204,11 @@ function Ai() {
 
           <div className="sc2_main_content">
             <h1>Client Background</h1><p>
-         The company is empowering multiple vehicle models with physical stores located in Texline, Dalhart, Guymon, Stratford, and Amarillo areas. It has earned a strong brand reputation by focusing on community-focused approach and exceptional customer service. No wonder why it is a go-to destination for DIYers and professionals. </p>
+            Graco Corporation is the global leader in manufacturing fluid handling products. Adhering to the quality, the company is known for its cutting-edge innovation, hardware, and industrial equipment solutions. It has built a strong reputation based on customer satisfaction. </p>
             <p>
-            As the brand is expanding their footprint in the digital space, <b>Kushel Digi Solutions</b> provided a great support in taking their business further via digital presence. <b>Madfish Solutions</b> has offered us this opportunity to work on a reputed brand projects like AI Parts Center, which we are grateful for. 
+         
+The brand is catering to the needs of individual consumers as well as businesses. Its robust supply chain enables the sale of an extensive range of products. While it has already established its digital footprint and is constantly scaling, <b> Kushel Digi Solutions </b> stepped in to redesign the digital store. MadFish Solutions offered us this project which we successfully implemented with our efforts.
+
             </p>
           </div>
         </div>
@@ -222,16 +224,13 @@ function Ai() {
       <div className="PortfolioChallenges">
           <div className="PortfolioChallengeMain">
             <h4> Challenges</h4>
-            <p> Behind the development of the digital storefront, there were plenty of challenges. One of them was to maintain the essence (brand personality) of its established brand. Other than them, we tackled the following hurdles: </p>
+            <p> Graco’s website featured an old-fashioned website layout. The products were placed in a cluttered position, and the response times were low, too.  </p>
+            <br/>
+            <p>Apart from them, the site was lacking some advanced features like product filtering, searchability, inventory tracking, and mobile optimization. </p>
+            <br/>
+            <p>To tackle the above challenges, we required a strategic roadmap. Our team ensured the design of an effective roadmap to achieve the website improvement goals. </p>
             <div>
-              <ul>
-                <li>
-                The previous design was outdated, and it required a creative revamp.
-                </li>
-                <li>Ecommerce features were limited, and only basic functionalities were there.</li>
-                <li>There was a strong need to improve design and include modern elements. </li>
-                <li>Poor mobile user experience was leading to reduced sales due to clunky navigation and slow load times.</li>
-              </ul>
+            
             </div>
             </div>
 <div className="portfolioImageChallenge">
@@ -248,22 +247,18 @@ function Ai() {
         <div className="sc3sectcont">
           {/* left side */}
           <div className="s3secltleft">
-            <div className="c3s3_head2" id="AiUnique_solution">
+            <div className="c3s3_head2" id="graco_solution">
               <h3>Solution</h3>
-              <p></p>
+            <p></p>
             </div>
 
             <p className="s3theeparas">
-            Considering the challenges, our <b>professional web design company</b> formulated an entire approach from scratch to achieve the desired outcome. From designing to deployment, we ensured to build a scalable and user-friendly e-commerce solution.  </p>
+            Being aware of the challenges, we knew what solutions needed now to fix the websites. We had to work on the design, <b>ecommerce development</b>, and building a perfect <b>B2B commerce platform</b>.</p>
 
             <p className="s3theeparas">
-            Our expert team members carefully analyzed the situation of the website before drafting the solution. We accessed the backend and front-end features, noted down the loopholes and shared them with the client. 
-
-            </p>
-
-            
-            <p className="s3theeparas">
-            For redesigning the site, our web designers prepared a fresh layout on Figma. Working closely with the client, visuals were created in a way that they resonate with the brand’s legacy. 
+           
+For this, designing a plan from beginning to the end of the project was the first approach of the team. We studied the website carefully and noted where the most improvement needed. Following the issues and building the roadmap, Kushel Digi Solutions team was ready to redesign the Graco Corporation’s website. We helped the brand with every possible thing like enhancing website  product quality, optimizing images, fixing issues, and so on. 
+ 
 
             </p>
           </div>
@@ -305,11 +300,13 @@ function Ai() {
                 />
               </div>
 
-              <div className="cas3circldata2" id="case3Portfolio_Aii">
-                <h4>E-commerce Development in BigCommerce
+              <div className="cas3circldata2" id="case3Portfolio_graco">
+                <h4>Custom Layout
               </h4>
                 <p>
-                After finishing the redesign part, we created the site using <b>headless BigCommerce development</b>. This is a long-term and scalable choice to manage inventory, secure checkout, and customize product listings. In fact, building a customized digital storefront is fun with <b>BigCommerce </b>
+           
+To design the custom layout of the Graco Corporation, we created a clean and modern Figma design. Our primary focus was on product clarity, quick navigation, enhancing usability, and creating a full-fledged <b> Ecommerce system</b>. 
+
 
                 </p>
               </div>
@@ -334,10 +331,10 @@ function Ai() {
                 />
               </div>
 
-              <div className="cas3circldata2" id="case3Portfolio_Aii">
-                <h4>Ecommerce Development.  </h4>
+              <div className="cas3circldata2" id="case3Portfolio_graco">
+                <h4> BigCommerce Development Product Optimization</h4>
                 <p>
-                We started with storefront creation, improving search functionality, and integrated payment gateways while building backend infrastructure. 
+                After completing the design, we decided to migrate the entire website to BigCommerce. Undoubtedly, there couldn’t have been any other choice better than a <b> headless ecommerce platform</b>. With full, scalable, and enterprise-level features, it had all that Graco Corporation required to grow.  
 
                 </p>
               </div>
@@ -352,11 +349,13 @@ function Ai() {
             <div className="cas3s4con" id="imgPortfolio_Phone">
              
 
-              <div className="cas3circldata2" id="case3Portfolio_Aii">
-                <h4>App Integrations</h4>
+              <div className="cas3circldata2" id="case3Portfolio_graco">
+                <h4>
+              
+                Smart Integrations
+                </h4>
                 <p>
-             
-                BigCommerce supports third-party applications so we integrated the useful ones to the website. The integrated apps will turn AI Parts Center into a full-fledged Ecommerce platform. 
+                Now, both the design and development of the Ecommerce shop are ready. The next area to enhance was customer relationship management and search engine optimization. For them, we used smart integration options. BigCommerce provides integrations to a plethora of third-party applications. 
                 </p>
               </div>
               <div className="bgshowdb2" id="imgPortfolio_Ai_Phone">
@@ -370,29 +369,7 @@ function Ai() {
           </section>
         </SplideSlide>
 
-        <SplideSlide>
-          <section className="case3secfour2">
-          <img className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png" alt="kushel" />
-
-            <div className="cas3s4con" id="imgPortfolio_Phone">
-             
-
-              <div className="cas3circldata2" id="case3Portfolio_Aii">
-                <h4>Storefront Simplification</h4>
-                <p>
-                We also created the storefront to simplify the access to product details to help your customers in making the informed decision. It was important to include aesthetic images to bring clarity for the  audience too. Working with our expert designers, the product detail section was well-taken care of. 
-                </p>
-              </div>
-              <div className="bgshowdb2" id="imgPortfolio_Ai_Phone">
-                <img
-                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632484/Group_1171281284_dpqrse.png"
-                  alt="kushel"
-                  className="shadowbg2"
-                />
-              </div>
-            </div>
-          </section>
-        </SplideSlide>
+       
       </Splide>
 
       {/* fivth  section  */}
@@ -493,22 +470,18 @@ function Ai() {
         </div>
       </section>
 
+
       <div className="Mainresult_Portfolio">
 <div className="result_Portfolio">
   <h5>Result & Impact</h5>
-  <h6>
-  We successfully created a solution that reflected their brand values and met modern digital standards. Following were additional impacts noticed by the client
-  </h6>
-  <ul>
-    <li>More customer engagement</li>
-    <li>Higher conversion rates </li>
-    <li>Modern layout and intuitive design</li>
-    <li> Advanced Customer Support features </li>
-  </ul>
+  <p>
+  When everything was ready, it was the wait for the results and impacts to witness. Within a few days of launching the upgraded website, the loading time increased significantly. The product interface was simplified, and navigating through it became easier than ever. 
+  </p>
+ <p> The implementation of other features, like automated inventory management, improved productivity for the company. In fact, more users started using the website and engaged with pages for a long period. </p>
+ <p>For more such ecommerce development solutions, you can reach out to us and let us showcase what we can do for your website. </p>
  
 </div>
 </div>
-
       {/* six section  */}
       <section className="cs2sexiesec">
         <img
@@ -521,6 +494,7 @@ function Ai() {
           alt="kushel"
           className="similarl2"
         />
+
 
         <div className="c2sixconta">
           <div className="cssixtop">
@@ -569,4 +543,4 @@ function Ai() {
   );
 }
 
-export default Ai;
+export default graco;
