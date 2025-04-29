@@ -225,7 +225,7 @@ At its Ecommerce platform, you can find ammunition equipment for Second Amendmen
 
         <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216538/c2el1_ljp05j.png" alt="kushel" className="c2el1" />
       </section>
-      {/* <div className="PortfolioChallenges">
+      <div className="PortfolioChallenges">
           <div className="PortfolioChallengeMain">
             <h4> Challenges</h4>
             <div>
@@ -249,7 +249,7 @@ At its Ecommerce platform, you can find ammunition equipment for Second Amendmen
           />
 </div>
          
-        </div> */}
+        </div>
 
       {/* third section  */}
       <section className="case3secthir">
@@ -460,7 +460,7 @@ At its Ecommerce platform, you can find ammunition equipment for Second Amendmen
       
      </section>
 
-     {/* <div className="Mainresult_Portfolio">
+     <div className="Mainresult_Portfolio">
 <div className="result_Portfolio">
   <h5>Result & Impact</h5>
   <h6>
@@ -474,7 +474,7 @@ At its Ecommerce platform, you can find ammunition equipment for Second Amendmen
   </ul>
  
 </div>
-</div> */}
+</div> 
 
 
      {/* six section  */}
