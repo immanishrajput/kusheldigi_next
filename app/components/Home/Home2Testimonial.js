@@ -130,7 +130,7 @@ function Home2Testimonial() {
              </div>
              
             <div className='testImage'>
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842698/rajat-mithal-logo_ig2ccd.png"/>
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842698/rajat-mithal-logo_ig2ccd.png" alt='company logo'/> 
             </div>
              </div>
               <p className='reviewsss'>
@@ -151,7 +151,7 @@ function Home2Testimonial() {
              </div>
              
             <div className='testImage'>
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842494/manish-bhai-1_hmba1g.png"/>
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842494/manish-bhai-1_hmba1g.png" alt='company logo'/>
             </div>
              </div>
               <p className='reviewsss'>
@@ -172,7 +172,7 @@ function Home2Testimonial() {
              </div>
              
             <div className='testImage'>
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842480/manish-bhai-3_uz3ee0.png"/>
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842480/manish-bhai-3_uz3ee0.png" alt='company logo'/>
             </div>
              </div>
               <p className='reviewsss'>
@@ -193,7 +193,7 @@ function Home2Testimonial() {
              </div>
              
             <div className='testImage'>
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842486/manish-bhai-2_strlgl.png"/>
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842486/manish-bhai-2_strlgl.png" alt='company logo'/>
             </div>
              </div>
               <p className='reviewsss'>

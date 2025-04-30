@@ -2,7 +2,9 @@
 import React from 'react'
 import './homeBan.css'
 import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 function Card() {
+const router = useRouter();
   return (
     <section className="platforms">
     <h3 className="plt-head primary-heading">Delivering Success with the Best Ecommerce Platforms
@@ -33,9 +35,10 @@ function Card() {
           <li className="plt-li"> BigCommerce for Firearms</li>
           <li className="plt-li"> BigCommerce Headless</li>
         </ul>
-        <Link href="/bigcommerce-development" className="plt-btn">
+        {/* <Link href="/bigcommerce-development" className="plt-btn">
           Learn More
-        </Link>
+        </Link> */}
+        <span onClick={()=>router.push("/bigcommerce-development")} className="plt-btn">Learn More </span>
       </div>
       <div className="plt-card">
         <div className="plt-logo">
@@ -58,9 +61,10 @@ function Card() {
           <li className="plt-li">Shopify SEO</li>
           <li className="plt-li">Shopify B2B</li>
         </ul>
-        <Link href="/shopify-development" className="plt-btn">
+        {/* <Link href="/shopify-development" className="plt-btn">
           Learn More
-        </Link>
+        </Link> */}
+             <span onClick={()=>router.push("/shopify-development")} className="plt-btn">Learn More </span>
       </div>
       <div className="plt-card">
         <div className="plt-logo">
@@ -81,9 +85,10 @@ function Card() {
           <li className="plt-li">Magento B2B Solutions</li>
           <li className="plt-li"> Magento for CBD </li>
         </ul>
-        <Link href="/magento-development" className="plt-btn">
+        {/* <Link href="/magento-development" className="plt-btn">
           Learn More
-        </Link>
+        </Link> */}
+         <span onClick={()=>router.push("/magento-development")} className="plt-btn">Learn More </span>
       </div>
     </div>
   </section>
