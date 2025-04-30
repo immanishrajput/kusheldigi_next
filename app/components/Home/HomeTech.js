@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 import './home2.css'
 import Link from "next/link";
 import Slider from "react-slick";
-
+import { useRouter } from "next/navigation";
 const partners = [
   {
     // img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233923/WhatsApp_Image_2025-03-29_at_12.40.32_PM_apddld.jpg",
@@ -89,7 +89,7 @@ const Our = () => {
       window.removeEventListener("hashchange", handleHashChange, false);
     };
   }, []);
-
+const router = useRouter();
   return (
     <section className="tech-section">
       <div className="tech-container">
@@ -112,18 +112,27 @@ const Our = () => {
               src={partner.img}
               alt={partner.alt}
             />
-            <Link
+            {/* <Link
               href={partner?.link}
               className="read-more-1"
-              aria-label={`Read more about ${partner.alt}`} // more meaningful label
+              aria-label={`Read more about ${partner.alt}`}
             >
               Read More{" "}
               <img
                 loading="lazy"
                 src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866486/circle-arrow-icon_dcxfmm.svg"
-                alt="partner" // it's decorative, so empty alt
+                alt="partner" 
               />
-            </Link>
+            </Link> */}
+  <span onClick={()=>router.push(`${partner.link}`)} className="read-more-1">Read more
+              
+              <img
+                loading="lazy"
+                src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866486/circle-arrow-icon_dcxfmm.svg"
+                alt="partner" 
+              />
+              </span>
+
           </div>
         ))}
       </div>
@@ -150,18 +159,16 @@ const Our = () => {
                 src={partner.img}
                 alt={partner.alt}
               />
-              <Link
-                href={partner.link}
-                className="read-more-1"
-                aria-label={`Read more about ${partner.alt}`} // dynamic and meaningful
-              >
-                Read More{" "}
+             
+              <span onClick={()=>router.push(`${partner.link}`)} className="read-more-1">Read more
+              
                 <img
                   loading="lazy"
                   src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866486/circle-arrow-icon_dcxfmm.svg"
-                  alt="partner" // Decorative icon, should have empty alt
+                  alt="partner" 
                 />
-              </Link>
+                </span>
+           
             </div>
 
           </SwiperSlide>

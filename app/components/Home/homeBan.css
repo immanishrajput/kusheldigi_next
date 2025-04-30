@@ -684,6 +684,7 @@ padding-left: 50px !important;
   /* bottom: 100px; */
   color: #007bff;
   text-decoration: none;
+  cursor: pointer;
   font-weight: bold;
 }
 
