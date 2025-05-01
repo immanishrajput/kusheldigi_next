@@ -10,6 +10,7 @@ import Partner from './Partner/page'
 import Salot from './Salot/page'
 import Splet from './Splet/page'
 import Serviicess from './Serviicess/page'
+import Pernoun from './Pernoun/page'
 import Actionnn from './Actionnn/page'
 import Navbar from '../COMMON/Navbar'
 import Footer from '../COMMON/Footer'
@@ -34,6 +35,7 @@ function page() {
       <Luna/>
       <Sumo/>
       <Serviicess/>
+      <Pernoun/>
       <Actionnn/>
       <Telephonic/>
       <Track/>
