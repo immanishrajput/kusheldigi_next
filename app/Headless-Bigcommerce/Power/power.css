@@ -8,7 +8,7 @@
   .industries-heading {
     font-size: 2rem;
     font-weight: 600;
-    text-align: left;
+    text-align: center;
     margin-bottom: 2rem;
   }
   .black-text{
@@ -25,6 +25,11 @@
     color: black;
     padding: 15px 0px 0px 0px;
   }
+  .black-text p {
+    color: black;
+    text-align: center;
+  }
+  
   
   .green-text {
     color: #397eff;

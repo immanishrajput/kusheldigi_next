@@ -69,6 +69,7 @@
 
 /* ----- READ MORE BUTTON ----- */
 .read-more-1 {
+
   margin-top: 20px;
   font-size: clamp(14px, 1.2vw, 16px);
   font-weight: bold;
@@ -78,6 +79,7 @@
   align-items: center;
   gap: 5px;
   transition: color 0.3s ease;
+  cursor: pointer;
 }
 
 .read-more-1:hover {
