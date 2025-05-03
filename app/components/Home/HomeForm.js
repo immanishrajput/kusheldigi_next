@@ -6,6 +6,7 @@ import "./homeBan.css";
 import { useRouter } from "next/navigation";
 import PhoneInput from "react-phone-input-2";
 import 'react-phone-input-2/lib/style.css';
+import Image from "next/image";
 
 const Website = () => {
   const [firstNo, setFirstNo] = useState(0);
@@ -121,11 +122,11 @@ const Website = () => {
             <div className="contact-box">
               <div className="contact-card">
                 <p className="call-us" id="CallusI">
-                  <img
+                  <Image
                     width="34"
                     height="30"
                     loading="lazy"
-                    
+
                     src="https://res.cloudinary.com/dgif730br/image/upload/v1743497577/flag-1_d8qcmk.png"
                     alt="call"
                   />
@@ -158,7 +159,7 @@ const Website = () => {
               </div>
               <div className="contact-card">
                 <p className="call-us">
-                  <img
+                  <Image
                     width="34"
                     height="30"
                     loading="lazy"
@@ -200,7 +201,7 @@ const Website = () => {
             </div>
             <span className="clients">Our Clients</span>
             <div className="company-images">
-              <img
+              <Image
                 width="451"
                 height="65"
                 loading="lazy"
@@ -210,7 +211,7 @@ const Website = () => {
                 alt="companies"
                 style={{ margin: '0px auto', width: '70%', }}
               />
-              <img
+              <Image
                 width="387"
                 height="40"
                 loading="lazy"
@@ -304,7 +305,7 @@ const Website = () => {
 
                     onChange={(phone2) => {
                       if (/^(?:\+?[0-9]{0,15})$/.test(phone2)) {
-                        setFormData((prev) => ({ ...prev, phone2:phone2 }));
+                        setFormData((prev) => ({ ...prev, phone2: phone2 }));
                       };
                       // console.log('phone2',phone2)
                     }}

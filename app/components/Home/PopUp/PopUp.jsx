@@ -8,6 +8,7 @@ import "./PopUp.css";
 import popupAboveCompanies from "../../../assests/popup-upper-companies.png";
 import popupBelowCompanies from "../../../assests/popup-below-companies.png";
 import { useRouter } from "next/navigation";
+import Image from 'next/image';
 
 const Popup = () => {
   const [firstNo, setFirstNo] = useState(0);
@@ -96,8 +97,9 @@ const Popup = () => {
     try {
       const response = await fetch("https://backend.kusheldigi.com/contact", {
         method: "POST",
-        headers: { "Content-Type": "application/json" ,
-           "mode": "no-cors"
+        headers: {
+          "Content-Type": "application/json",
+          "mode": "no-cors"
         },
         body: JSON.stringify(formData),
       });
@@ -237,7 +239,7 @@ const Popup = () => {
                       className="pop-contact-input"
                       type="tel"
                       placeholder="Phone Number"
-                      name="phone"  
+                      name="phone"
                       maxLength={10}
                       value={formData?.phone}
                       onChange={handleChange}
@@ -273,20 +275,22 @@ const Popup = () => {
                     {loading ? "Sending..." : "Submit"}
                   </button>
                   {loading && <span className="loader3"></span>}
-                  <img
-                    width="315"
-                    height="57"
+                  <Image
                     style={{ width: "70%", margin: "10px auto" }}
                     className="popup-companies"
                     src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743073874/popup-upper-companies_qxbjt0.png"
+                    loading="lazy"
+                    width="315"
+                    height="57"
                     alt="companies"
                   />
-                  <img
-                    width="360"
-                    height="29.63"
+                  <Image
                     style={{ width: "80%", margin: "15px auto" }}
                     className="popup-companies"
                     src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743073843/popup-below-companies_yboe3z.png"
+                    loading="lazy"
+                    width="360"
+                    height="29"
                     alt="companies"
                   />
                 </form>

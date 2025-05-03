@@ -5,9 +5,8 @@ import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import './home2.css'
-import Link from "next/link";
-import Slider from "react-slick";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 const partners = [
   {
     // img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233923/WhatsApp_Image_2025-03-29_at_12.40.32_PM_apddld.jpg",
@@ -89,7 +88,7 @@ const Our = () => {
       window.removeEventListener("hashchange", handleHashChange, false);
     };
   }, []);
-const router = useRouter();
+  const router = useRouter();
   return (
     <section className="tech-section">
       <div className="tech-container">
@@ -105,7 +104,7 @@ const router = useRouter();
       <div className="containers">
         {partners.map((partner, index) => (
           <div className="card-1" key={index}>
-            <img
+            <Image
               loading="lazy"
               width="329"
               height="192"
@@ -124,14 +123,14 @@ const router = useRouter();
                 alt="partner" 
               />
             </Link> */}
-  <span onClick={()=>router.push(`${partner.link}`)} className="read-more-1">Read more
-              
+            <span onClick={() => router.push(`${partner.link}`)} className="read-more-1">Read more
+
               <img
                 loading="lazy"
                 src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866486/circle-arrow-icon_dcxfmm.svg"
-                alt="partner" 
+                alt="partner"
               />
-              </span>
+            </span>
 
           </div>
         ))}
@@ -152,23 +151,23 @@ const router = useRouter();
         {partners.map((partner, index) => (
           <SwiperSlide key={index}>
             <div className="card-1" id="swiperIdTech">
-              <img
+              <Image
                 width="329"
                 height="192"
                 loading="lazy"
                 src={partner.img}
                 alt={partner.alt}
               />
-             
-              <span onClick={()=>router.push(`${partner.link}`)} className="read-more-1">Read more
-              
+
+              <span onClick={() => router.push(`${partner.link}`)} className="read-more-1">Read more
+
                 <img
                   loading="lazy"
                   src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866486/circle-arrow-icon_dcxfmm.svg"
-                  alt="partner" 
+                  alt="partner"
                 />
-                </span>
-           
+              </span>
+
             </div>
 
           </SwiperSlide>

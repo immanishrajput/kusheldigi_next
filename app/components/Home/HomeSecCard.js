@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
-import Link from 'next/link'
+import Image from 'next/image'
+// import Link from 'next/link'
 function Advance() {
   return (
     <section className="b2b-section">
@@ -16,7 +17,7 @@ function Advance() {
           <div className="left-b2b-card">
             <div className="b2b-logo">
              
-              <img loading='lazy'  width="599" height="299"
+              <Image loading='lazy'  width="599" height="299"
                 src='https://res.cloudinary.com/dgif730br/image/upload/v1743686387/asit-sir-4_xa7bco.jpg'
                 alt="Shopify Plus" />
             </div>
@@ -33,7 +34,7 @@ function Advance() {
           </div>
           <div className="left-b2b-card-2" id='leftb2ca'>
             <div className="b2b-logo">
-              <img loading='lazy'  width="599" height="299"
+              <Image loading='lazy'  width="599" height="299"
                
                 src='https://res.cloudinary.com/dgif730br/image/upload/v1743686387/asit-sir-1_xchvkj.jpg'
                 alt="Shopify Plus" />
@@ -55,7 +56,7 @@ function Advance() {
         <div className="right-b2b-cards">
           <div className="right-b2b-card">
             <div className="b2b-logo">
-              <img loading='lazy' width="599" height="299"
+              <Image loading='lazy' width="599" height="299"
                 // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806527/b12_tpd0aj.webp" 
                 src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1744005444/indrpal-images-5_zvtdky.png'
                 alt="Shopify Plus" />
@@ -75,7 +76,7 @@ function Advance() {
           </div>
           <div className="right-b2b-card">
             <div className="b2b-logo">
-              <img loading='lazy' width="599" height="299"
+              <Image loading='lazy' width="599" height="299"
                 // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806526/b14_y69yn7.webp"
                 src='https://res.cloudinary.com/dgif730br/image/upload/v1743686386/asit-sir-3_nkuizh.jpg'
                 alt="Shopify Plus" />
@@ -96,7 +97,6 @@ function Advance() {
         </div>
       </div>
     </section>
-
   )
 }
 

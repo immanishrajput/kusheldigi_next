@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import './homeBan.css'
+import Image from "next/image";
 import Link from "next/link";
 const Slider = () => {
 
@@ -35,7 +36,7 @@ const Slider = () => {
             <div className="carousel-item">
               <div className="left-carousel-item">
 
-                <img loading="lazy" src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743074113/page-4_wlgfqf.jpg"} alt="carousel-image" />
+                <Image width={603} height={457} loading="lazy" src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743074113/page-4_wlgfqf.jpg"} alt="carousel-image" />
                 <div className="left-carousel-btn-div">
                   <div className="left-carousel-btn ">B2B</div>
                   <div className="left-carousel-btn blue-bg">Military & Tactical Industry</div>
@@ -78,7 +79,7 @@ const Slider = () => {
             {/* First slider */}
             <div className="carousel-item">
               <div className="left-carousel-item">
-                <img loading="lazy" src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1724767163/Rectangle_30182_1_ynn34p.png"} alt="carousel-image" />
+                <Image width={603} height={457} loading="lazy" src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1724767163/Rectangle_30182_1_ynn34p.png"} alt="carousel-image" />
                 <div className="left-carousel-btn-div">
                   <div className="left-carousel-btn">B2B</div>
                   <div className="left-carousel-btn blue-bg">Firearms</div>
@@ -128,7 +129,7 @@ const Slider = () => {
             <div className="carousel-item">
               <div className="left-carousel-item">
 
-                <img loading="lazy" src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743074114/page-6_yjelmo.jpg"} alt="carousel-image" />
+                <Image width={603} height={457} loading="lazy" src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743074114/page-6_yjelmo.jpg"} alt="carousel-image" />
                 <div className="left-carousel-btn-div">
                   <div className="left-carousel-btn">D2C</div>
                   <div className="left-carousel-btn blue-bg">E-commerce</div>
@@ -171,7 +172,7 @@ const Slider = () => {
           <SwiperSlide>
             <div className="carousel-item">
               <div className="left-carousel-item">
-                <img loading="lazy" src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743074113/page-2_1_uylo50.jpg"} alt="carousel-image" />
+                <Image width={603} height={457} loading="lazy" src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743074113/page-2_1_uylo50.jpg"} alt="carousel-image" />
                 <div className="left-carousel-btn-div">
 
                   <div className="left-carousel-btn blue-bg">Real Estate</div>
@@ -216,7 +217,7 @@ const Slider = () => {
           <SwiperSlide>
             <div className="carousel-item">
               <div className="left-carousel-item">
-                <img loading="lazy" src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743403116/page-3_1_uo0pue.jpg"} alt="carousel-image" />
+                <Image width={603} height={457} loading="lazy" src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743403116/page-3_1_uo0pue.jpg"} alt="carousel-image" />
                 <div className="left-carousel-btn-div">
                   <div className="left-carousel-btn ">B2B</div>
                   <div className="left-carousel-btn blue-bg">Gunshop</div>
@@ -259,7 +260,7 @@ const Slider = () => {
           <SwiperSlide>
             <div className="carousel-item">
               <div className="left-carousel-item">
-                <img loading="lazy" src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743092899/page-5_1_oy4q9y.jpg"} alt="carousel-image" />
+                <Image width={603} height={457} loading="lazy" src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743092899/page-5_1_oy4q9y.jpg"} alt="carousel-image" />
                 <div className="left-carousel-btn-div">
                   <div className="left-carousel-btn ">B2B</div>
                   <div className="left-carousel-btn blue-bg">E-commerce</div>

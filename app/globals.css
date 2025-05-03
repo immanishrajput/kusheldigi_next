@@ -65065,9 +65065,8 @@ wordpress_cater_box p {
     .new-portfolio2-heading1 h2 {
         text-align: center !important
     }
-
     .navigation {
-        top: 70px
+        top: 30px
     }
 
     .home1 {
@@ -65077,7 +65076,8 @@ wordpress_cater_box p {
     .first-header {
         display: flex;
         align-items: center;
-        justify-content: center
+        justify-content: center;
+        display: none;
     }
 
     .noida p {

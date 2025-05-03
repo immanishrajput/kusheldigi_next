@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import './styles.css';
-
+import Image from 'next/image';
 
 function Home2Testimonial() {
   const splideRef = useRef(null);
@@ -126,11 +126,11 @@ function Home2Testimonial() {
 
              <div className='testImageCloud'>
              <div>
-             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
+             <Image width={120} height={18} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
              </div>
              
             <div className='testImage'>
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842698/rajat-mithal-logo_ig2ccd.png" alt='company logo'/> 
+            <Image width={70} height={70} src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842698/rajat-mithal-logo_ig2ccd.png" alt='company logo'/> 
             </div>
              </div>
               <p className='reviewsss'>
@@ -147,11 +147,11 @@ function Home2Testimonial() {
             <div className='testswipsingle'>
             <div className='testImageCloud'>
              <div>
-             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
+             <Image width={120} height={18} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
              </div>
              
             <div className='testImage'>
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842494/manish-bhai-1_hmba1g.png" alt='company logo'/>
+            <Image width={70} height={70} src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842494/manish-bhai-1_hmba1g.png" alt='company logo'/>
             </div>
              </div>
               <p className='reviewsss'>
@@ -168,11 +168,11 @@ function Home2Testimonial() {
             <div className='testswipsingle'>
             <div className='testImageCloud'>
              <div className='testImage1'>
-             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
+             <Image width={120} height={18} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
              </div>
              
             <div className='testImage'>
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842480/manish-bhai-3_uz3ee0.png" alt='company logo'/>
+            <Image width={70} height={70} src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842480/manish-bhai-3_uz3ee0.png" alt='company logo'/>
             </div>
              </div>
               <p className='reviewsss'>
@@ -189,7 +189,7 @@ function Home2Testimonial() {
             <div className='testswipsingle'>
             <div className='testImageCloud'>
              <div>
-             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
+             <Image width={120} height={18} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
              </div>
              
             <div className='testImage'>

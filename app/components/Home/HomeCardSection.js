@@ -1,7 +1,8 @@
 "use client"
 import React from 'react'
 import './homeBan.css'
-import Link from 'next/link'
+// import Link from 'next/link'
+import Image from 'next/image';
 import { useRouter } from 'next/navigation'
 function Card() {
 const router = useRouter();
@@ -17,7 +18,7 @@ const router = useRouter();
       
       <div className="plt-card">
         <div className="plt-logo">
-          <img width="219" height="50" loading='lazy' 
+          <Image width="219" height="50" loading='lazy' 
 // src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/bigcommerce-3_xfn6e6.png'       
    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742835775/bigcommerce-logo_quhwmf.webp" 
           alt="BigCommerce" />
@@ -42,7 +43,7 @@ const router = useRouter();
       </div>
       <div className="plt-card">
         <div className="plt-logo">
-          <img width="156" height="46" loading='lazy' 
+          <Image width="156" height="46" loading='lazy' 
       
           src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742835726/shopify-logo_bcrvfv.webp" 
           alt="Shopify Plus" />
@@ -68,7 +69,7 @@ const router = useRouter();
       </div>
       <div className="plt-card">
         <div className="plt-logo">
-          <img width="156" height="46" loading='lazy' 
+          <Image width="156" height="46" loading='lazy' 
           // src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446905/magento-4_c38yp2.png'
           src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742835726/manish_sir_logo_e3ckbh.png" 
           alt="WooCommerce" />

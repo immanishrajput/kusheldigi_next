@@ -8,6 +8,7 @@ import { IoMdArrowDropright } from "react-icons/io";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import dynamic from "next/dynamic";
+import Image from "next/image";
 
 const Slider = dynamic(() => import("react-slick"), { ssr: false });
 
@@ -101,7 +102,7 @@ const ScrollAnimation = () => {
 
 const ScrollSection = ({ img,number, title, description, listItems, showSvg, maskRef  }) => (
     <div className="scrolled-section">
-        <img
+        <Image
             className="scroll-card-img"
             decoding="async"
             loading="lazy"
