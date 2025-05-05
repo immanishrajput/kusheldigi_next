@@ -156,10 +156,12 @@ function Page() {
 
 <Navbar/> 
       {/* first sectino */}
+
       <section className="case1firsec">
 
-        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216400/case1fil_bwtual.png" alt="kushel" className="case1fill" />
-        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216437/case1bg_j1tw2e.png" alt="kushel" className="case1bg" />
+  <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454210/2nd-home-banner_qpuz1w.jpg" alt="kushel" className="case1fill"/>
+        {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216400/case1fil_bwtual.png" alt="kushel" className="case1fill" />
+        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216437/case1bg_j1tw2e.png" alt="kushel" className="case1bg" /> */}
 
         <div className="cas1cont1wrap">
           <div className="case1fircont">
@@ -225,7 +227,7 @@ At its Ecommerce platform, you can find ammunition equipment for Second Amendmen
 
         <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216538/c2el1_ljp05j.png" alt="kushel" className="c2el1" />
       </section>
-     {/* <div className="PortfolioChallenges">
+     <div className="PortfolioChallenges">
           <div className="PortfolioChallengeMain">
             <h4> Challenges</h4>
             <div>
@@ -244,12 +246,12 @@ At its Ecommerce platform, you can find ammunition equipment for Second Amendmen
             </div>
 <div className="portfolioImageChallenge">
 <img
-            src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744631255/Group_1171281276_psr4aw.png"
+            src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454205/challenges-2ndamidment_sbp3vk.jpg"
             alt="kushel"
           />
 </div>
          
-        </div>  */}
+        </div> 
 
       {/* third section  */}
       <section className="case3secthir">
@@ -274,8 +276,9 @@ At its Ecommerce platform, you can find ammunition equipment for Second Amendmen
             <p>We also did a thorough research to identify the market gaps and analyze the best possible solution for the business. </p>
 
           </div>
+          <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746455316/solution-2ndamidment-removebg-preview_aadyex.png" alt="kushel" className="c3antoimg" /> 
 
-          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216571/case3ano_uv19e1.png" alt="kushel" className="c3antoimg" />
+          {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216571/case3ano_uv19e1.png" alt="kushel" className="c3antoimg" /> */}
         </div>
       </section>
 
@@ -299,7 +302,7 @@ At its Ecommerce platform, you can find ammunition equipment for Second Amendmen
           <div className="cas3s4con">
 
    <div className="bgshowdb1">
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730447922/Group_1171279178_mudtzg.png" alt="kushel" className="ca2insideimg adjustheighimg" />
+            <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746439272/design-phase22_jnchjg.png" alt="kushel" className="ca2insideimg adjustheighimg" />
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" />
    </div>
 
@@ -321,7 +324,7 @@ At its Ecommerce platform, you can find ammunition equipment for Second Amendmen
           <div className="cas3s4con">
 
    <div className="bgshowdb1">
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730447919/Group_1171279179_d6pz1d.png" alt="kushel" className="ca2insideimg adjustheighimg" />
+            <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454204/e-commerce-development_wu34yd.png" alt="kushel" className="ca2insideimg adjustheighimg" />
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" />
    </div>
 

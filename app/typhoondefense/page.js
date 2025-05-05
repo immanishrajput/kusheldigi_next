@@ -145,7 +145,7 @@ function typhoon() {
         <Navbar/>
       {/* first sectino */}
       <section className="case1firsec" id="AiPortfolioImage">
-        <img
+        {/* <img
           src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216400/case1fil_bwtual.png"
           alt="kushel"
           className="case1fill"
@@ -154,7 +154,9 @@ function typhoon() {
           src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622906/Group_1171279216_j6teud.png"
           alt="kushel"
           className="case1bg"
-        />
+        /> */}
+        <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454198/home-banner-typhoon_ivzg2y.jpg" alt="kushel"
+          className="case1fill"/>
 
         <div className="cas1cont1wrap">
           <div className="case1fircont">
@@ -229,7 +231,7 @@ function typhoon() {
             </div>
 <div className="portfolioImageChallenge">
 <img
-            src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744631255/Group_1171281276_psr4aw.png"
+            src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454201/challenges-typhoon_bauh6g.png"
             alt="kushel"
           />
 </div>
@@ -260,9 +262,10 @@ function typhoon() {
 
             </p>
           </div>
-
+          
+          
           <img
-            src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744631255/Group_1171281276_psr4aw.png"
+            src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454197/solutions-typhoon_n28xzs.png"
             alt="kushel"
             className="c3antoimg"
           />
@@ -320,6 +323,7 @@ function typhoon() {
 
             <div className="cas3s4con">
               <div className="bgshowdb2">
+                
                 <img
                   src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632482/Group_1171281283_kpau8o.png"
                   alt="kushel"

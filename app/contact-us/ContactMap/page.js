@@ -27,7 +27,7 @@ const ContactMap = () => {
     </div>
     <div className='iframeMapContact'>
       <iframe
-        src="https://www.google.com/maps?q=First+Floor,+D242,+F-32B,+Sector+63+Rd,+Noida,+Uttar+Pradesh+201301&output=embed"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.3954123429044!2d77.3860107742401!3d28.617908984746908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce49f5d8cdc4b%3A0xedb207949cd07d2b!2sKushel%20Digi%20Solutions%20-%20Web%20Design%20Company%20Noida%2C%20Delhi%2C%20India!5e0!3m2!1sen!2sin!4v1681368789327!5m2!1sen!2sin"
         width="100%"
         height="100%"
         style={{ border: 0 }}

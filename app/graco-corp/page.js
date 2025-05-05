@@ -145,7 +145,9 @@ function graco() {
         <Navbar/>
       {/* first sectino */}
       <section className="case1firsec" id="AiPortfolioImage">
-        <img
+        <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454195/Garcoo-homebanner_odvhrn.jpg"  alt="kushel"
+          className="case1fill"/>
+        {/* <img
           src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216400/case1fil_bwtual.png"
           alt="kushel"
           className="case1fill"
@@ -154,7 +156,7 @@ function graco() {
           src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622906/Group_1171279216_j6teud.png"
           alt="kushel"
           className="case1bg"
-        />
+        /> */}
 
         <div className="cas1cont1wrap">
           <div className="case1fircont">
