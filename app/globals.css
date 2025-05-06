@@ -76403,3 +76403,8 @@ input::-webkit-inner-spin-button {
     background-repeat: no-repeat;
 
 }
+
+.category-button.active {
+  background-color: #1566ff;
+  color: #fff;
+}
