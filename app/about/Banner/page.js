@@ -45,12 +45,12 @@ const Banner = () => {
  <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743148178/Certified-Bigcommerce-Partner__of0fqt.png" alt="certified" />
     <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993082/designrush_jkyjny.webp" alt="best" />
     <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993106/ecommerce-developers-india_zfydfo.png" alt="ecoomerce" />
-    <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340304/Partner-Certified-Wordmark_j6b9ar.png" alt="bigcommerce" />
+    <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340304/Partner-Certified-Wordmark_j6b9ar.png" className='aboutimgkush' alt="bigcommerce" />
 </div>
 </div>
     </div>
     <div className='KushaboupaImage'>
-        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744117394/who-we-are_z8oj40.png" alt="banner" />
+        <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746540535/sir-png_edml3n.png" alt="banner" />
     </div>
 </div>
 </section>

@@ -120,6 +120,12 @@
         margin-bottom: 20px;
         height: 30px;
 } */
+ .scrolled-section{
+    min-height: 500px !important;
+ }
+ .scroll-cardds{
+    min-height: 300px !important;
+ }
 
 .scroll-card-li {
     display: flex;
@@ -203,6 +209,8 @@
     -webkit-text-stroke-color: black;
     font-size: 4rem;
     font-style: normal;
+    position:relative;
+    top: 10px;
     font-weight: 900;
     line-height: 110%;
 }
