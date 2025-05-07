@@ -4,18 +4,25 @@ import Link from 'next/link'
 import "./BlogSection.css";
 import React, { useEffect, useState } from 'react';
 
-const BlogSection = () => {
+
+const BlogSection = ({page}) => {
+    
 
     const baseUrl = "https://backblog.kusheldigi.com";
     const [getAllBlogs, setGetAllBlogs] = useState([]);
 
     const fetchAllBlog = async () => {
         try {
-            const response = await fetch(`${baseUrl}/api/v1/auth/getAllBlog`);
+            const response = await fetch(`${baseUrl}/api/v1/auth/allcatBlogs`);
             const data = await response.json();
             if (response.ok) {
-                const ans = data.blogs.filter((blog) => blog.domain === "kusheldigi.com")
-                setGetAllBlogs(ans);
+                console.log(data.data)
+                const filteredCategory = data?.data?.filter(
+                    (category) => category?.title?.toLowerCase().trim() === page.toLowerCase().trim()
+                );
+                console.log(filteredCategory);
+                setGetAllBlogs(filteredCategory);
+                // alert(page,filteredCategory.title)
             } else {
                 console.error("Failed to fetch categories:", data?.message);
             }
@@ -24,7 +31,7 @@ const BlogSection = () => {
         }
     };
 
-   
+
 
     useEffect(() => {
         fetchAllBlog();
@@ -42,33 +49,31 @@ const BlogSection = () => {
                     <Link href='/blog'><button className='viewAllBtnKcom'>View More</button></Link>
                 </div>
 
-                <div className="blog-section-blogs-wrapper">
-                    {
-                        getAllBlogs.slice(0, 4).map((blog, index) => {
-                            return (
-                                <Link key={index} href={`/blogdetails/${blog?._id}`} className="blog-section-blog" >
-                                    <img src={blog?.images} alt="blogs" className='blog-section-blog-image'/>
+                <div className="blog-section-blogs-wrapper"> {console.log(getAllBlogs.length)}
+                    {getAllBlogs.length > 0 &&
+                        getAllBlogs[0].blogs.slice(0, 4).map((blog, index) => (
+                            <Link key={index} href={`/blogdetails/${blog?._id}`} className="blog-section-blog">
+                                <img src={blog?.images?.[0]} alt="blogs" className="blog-section-blog-image" />
 
-                                    <div className="blog-section-content">
-                                        <h3 className='blog-section-blog-title'>{blog?.title}</h3>
-                                        <p className='blog-section-blog-desc'>{blog?.subdescription}</p>
+                                <div className="blog-section-content">
+                                    <h3 className="blog-section-blog-title">{blog?.title}</h3>
+                                    <p className="blog-section-blog-desc">{blog?.subdescription}</p>
 
-                                        <div className="blog-section-author-details">
-                                            {/* <img src={blog?.author} alt="" /> */}
-                                            <div className='blog-section-blog-autorname'>
-                                                <span className='blog-section-author'>{blog?.author}</span>
-                                                <span className='blog-section-date'> {new Date(blog?.date).toLocaleDateString("en-GB", {
+                                    <div className="blog-section-author-details">
+                                        <div className="blog-section-blog-autorname">
+                                            <span className="blog-section-author">{blog?.author}</span>
+                                            <span className="blog-section-date">
+                                                {new Date(blog?.date).toLocaleDateString("en-GB", {
                                                     day: "numeric",
-                                                    month: "long", 
+                                                    month: "long",
                                                     year: "numeric",
-                                                })}</span>
-                                            </div>
+                                                })}
+                                            </span>
                                         </div>
                                     </div>
-                                </Link>
-                            )
-                        })
-                    }
+                                </div>
+                            </Link>
+                        ))}
                 </div>
             </div>
         </div>

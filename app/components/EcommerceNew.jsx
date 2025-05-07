@@ -66,7 +66,7 @@ const Page = () => {
       
     
       
-        <BlogSection/> 
+        <BlogSection page="e-commerce"/> 
         <UseAccorrodian/>
         <HomeForm/>
         <Footer/>

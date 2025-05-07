@@ -197,7 +197,7 @@ function Ai() {
       <section className="case2secsec2" id="case2_Background_Port">
         <div className="case2seccont">
           <img
-            src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216503/case2imgs1_xngbpg.png"
+            src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746537844/madfish-logo1_ghjavp.png"
             alt="kushel"
             className="cs2i1"
           />

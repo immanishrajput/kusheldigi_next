@@ -150,24 +150,25 @@ const portfolioData = [
     line:'|',
     category: ["ecommerce"],
   },
-  {
-    id: 'automotive-9',
-    // companyName: '2ndamendment Armory',
-    logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1730459236/Group_1171275966_xq0qb4.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg' ,
-    description: [
-        "UX/UI Website Design","Website Development","QA & Website Testing"
-],
-    links: {
-      liveStore: 'https://www.phastekperformance.com/',
-      caseStudy: '/2ndamendment',
-      platform: '/bigcommerce-development',
-    },
-    case:'Case Study',
-    case1:'BigCommerce',
-    line:'|',
-    category: ["ecommerce"],
-  },
+
+//   {
+//     id: 'automotive-9',
+//     companyName: '2ndamendment Armory',
+//     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1730459236/Group_1171275966_xq0qb4.png',
+//     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg' ,
+//     description: [
+//         "UX/UI Website Design","Website Development","QA & Website Testing"
+// ],
+//     links: {
+//       liveStore: 'https://www.phastekperformance.com/',
+//       caseStudy: '/2ndamendment',
+//       platform: '/bigcommerce-development',
+//     },
+//     case:'Case Study',
+//     case1:'BigCommerce',
+//     line:'|',
+//     category: ["ecommerce"],
+//   },
 //   {
 //     id: 'automotive-59',
 //     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744637742/lovely_nymplp.png',
@@ -185,26 +186,32 @@ const portfolioData = [
 //     line:'|',
 //     category: ["ecommerce"],
 //   },
-  {
-    id: 'automotive-10',
-    // companyName: 'Ai',
-    logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744280422/Untitled-1_nkikqq.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
-    description: [
-        "UX/UI Website Design","Website Development","QA & Website Testing"
-],
-    links: {
-      liveStore: 'https://www.phastekperformance.com/',
-      caseStudy: '/Ai',
-      platform: '/bigcommerce-development',
-    },
-    case:'Case Study',
-    case1:'BigCommerce',
-    line:'|',
-    category: ["ecommerce"],
-  },
+
+
+//   {
+//     id: 'automotive-10',
+
+//     companyName: 'Ai',
+//     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744280422/Untitled-1_nkikqq.png',
+//     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+//     description: [
+//         "UX/UI Website Design","Website Development","QA & Website Testing"
+// ],
+//     links: {
+//       liveStore: 'https://www.phastekperformance.com/',
+
+//       caseStudy: '/Ai',
+//       caseStudy: '/Ai2',
+//       platform: '/bigcommerce-development',
+//     },
+//     case:'Case Study',
+//     case1:'BigCommerce',
+//     line:'|',
+//     category: ["ecommerce"],
+//   },
   {
     id: 'automotive-11',
+    
     // companyName: 'Ride Ready',
     logo: 'https://res.cloudinary.com/dgif730br/image/upload/v1732807319/logo_1_1688114115__84399_2_iaqhon.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
@@ -223,67 +230,68 @@ const portfolioData = [
   },
 
 
-  {
-    id: 'automotive-100',
-    // companyName: 'Ride Ready',
-    logo: 'https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746544184/typhoondefense_achn4u_1_y7ncf8.webp',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
-    description: [
-        "UX/UI Website Design","Website Development","QA & Website Testing"
-],
-    links: {
-      liveStore: 'https://www.phastekperformance.com/',
-      caseStudy: '/typhoondefense',
-      platform: '/bigcommerce-development',
-    },
-    case:'Case Study',
-    case1:'BigCommerce',
-    line:'|',
-    category: ["ecommerce"],
-  },
+//   {
+//     id: 'automotive-100',
+
+//     companyName: 'Ride Ready',
+//     logo: 'https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746544184/typhoondefense_achn4u_1_y7ncf8.webp',
+//     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+//     description: [
+//         "UX/UI Website Design","Website Development","QA & Website Testing"
+// ],
+//     links: {
+//       liveStore: 'https://www.phastekperformance.com/',
+//       caseStudy: '/typhoondefense',
+//       platform: '/bigcommerce-development',
+//     },
+//     case:'Case Study',
+//     case1:'BigCommerce',
+//     line:'|',
+//     category: ["ecommerce"],
+//   },
 
 
   
-  {
-    id: 'automotive-101',
-    // companyName: 'Ride Ready',
-    logo: 'https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746544785/graco_corporation_logo_1705399297__51656_o9u82r_t8qznl.webp',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
-    description: [
-        "UX/UI Website Design","Website Development","QA & Website Testing"
-],
-    links: {
-      liveStore: 'https://www.phastekperformance.com/',
-      caseStudy: '/graco-corp',
-      platform: '/bigcommerce-development',
-    },
-    case:'Case Study',
-    case1:'BigCommerce',
-    line:'|',
-    category: ["ecommerce"],
-  },
+//   {
+//     id: 'automotive-101',
+//     companyName: 'Ride Ready',
+//     logo: 'https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746544785/graco_corporation_logo_1705399297__51656_o9u82r_t8qznl.webp',
+//     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+//     description: [
+//         "UX/UI Website Design","Website Development","QA & Website Testing"
+// ],
+//     links: {
+//       liveStore: 'https://www.phastekperformance.com/',
+//       caseStudy: '/graco-corp',
+//       platform: '/bigcommerce-development',
+//     },
+//     case:'Case Study',
+//     case1:'BigCommerce',
+//     line:'|',
+//     category: ["ecommerce"],
+//   },
 
 
 
   
-  {
-    id: 'automotive-102',
-    // companyName: 'Ride Ready',
-    logo: 'https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746546086/standardlogo_400px_nobackground_1678492593__36894_kmlufu_ym0h6k.webp',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
-    description: [
-        "UX/UI Website Design","Website Development","QA & Website Testing"
-],
-    links: {
-      liveStore: 'https://www.phastekperformance.com/',
-      caseStudy: '/rifflesupply',
-      platform: '/bigcommerce-development',
-    },
-    case:'Case Study',
-    case1:'BigCommerce',
-    line:'|',
-    category: ["ecommerce"],
-  },
+//   {
+//     id: 'automotive-102',
+//     companyName: 'Ride Ready',
+//     logo: 'https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746546086/standardlogo_400px_nobackground_1678492593__36894_kmlufu_ym0h6k.webp',
+//     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+//     description: [
+//         "UX/UI Website Design","Website Development","QA & Website Testing"
+// ],
+//     links: {
+//       liveStore: 'https://www.phastekperformance.com/',
+//       caseStudy: '/rifflesupply',
+//       platform: '/bigcommerce-development',
+//     },
+//     case:'Case Study',
+//     case1:'BigCommerce',
+//     line:'|',
+//     category: ["ecommerce"],
+//   },
   
 
 

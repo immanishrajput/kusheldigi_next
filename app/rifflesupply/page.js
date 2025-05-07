@@ -197,7 +197,7 @@ function riffle() {
       <section className="case2secsec2" id="case2_Background_Port">
         <div className="case2seccont">
           <img
-            src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216503/case2imgs1_xngbpg.png"
+            src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746537844/madfish-logo1_ghjavp.png"
             alt="kushel"
             className="cs2i1"
           />
@@ -206,7 +206,7 @@ function riffle() {
             <h1>Client Background</h1><p>
             At present, the company is serving gun enthusiasts, professional shooters, and enforcement agencies. It’s a trusted name for the firearms dealership. If you are planning to upgrade your handgun or any other firearm-related equipment, then RifleSupply is worth checking out.  </p>
             <p>
-            However, what you are seeing on the website today has been transformed by Kushel Digi Solutions with their expert team efforts. MadFish Solutions has offered us this opportunity, which we successfully worked on to our best.
+            However, what you are seeing on the website today has been transformed by Kushel Digi Solutions with their expert team efforts. <b>MadFish Solutions </b> has offered us this opportunity, which we successfully worked on to our best.
 
             </p>
           </div>
@@ -239,8 +239,9 @@ function riffle() {
             </div>
             </div>
 <div className="portfolioImageChallenge">
-<img
-            src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744631255/Group_1171281276_psr4aw.png"
+<img 
+src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746643901/Group_1171279276_eyfkn6.png"
+            // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744631255/Group_1171281276_psr4aw.png"
             alt="kushel"
           />
 </div>
@@ -267,7 +268,8 @@ function riffle() {
           </div>
 
           <img
-            src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744631255/Group_1171281276_psr4aw.png"
+          src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746643899/Group_1171279278_n6mfn8.png"
+            // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744631255/Group_1171281276_psr4aw.png"
             alt="kushel"
             className="c3antoimg"
           />

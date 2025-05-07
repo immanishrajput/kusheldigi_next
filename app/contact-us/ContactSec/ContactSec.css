@@ -147,7 +147,7 @@ line-height: 58px;
   padding: 16px 20px;
   border-radius: 12px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-  z-index: 2;
+  z-index: 5;
   animation: fadeIn 0.2s ease;
 }
 

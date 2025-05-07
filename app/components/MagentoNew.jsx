@@ -108,7 +108,7 @@ const Magento = () => {
         {/* <BigBanner6 services={whyBigCommereByKDS} contents={whyBigCommereByKDSHeading}/> */}
         <ServicesSection services={MagentoServicesSectionContent} contents={MagentoServicesHeading}/>
         <FeatureSection services={MagentoFeatures} contents={MagentoFeaturesContent}/>
-        <BlogSection/> 
+        <BlogSection page="Magento Development"/> 
        
         {/* <div className="magentooo1">
           <div className="magento-back dine-123">

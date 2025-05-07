@@ -54,6 +54,7 @@
   
   .headssCom {
     font-size: 40px;
+    letter-spacing: 1px;
     margin: 20px 0;
     line-height: 48px;
     font-weight: 500;
@@ -61,7 +62,7 @@
   }
   
   .hero-descriptionCom {
-    padding: 25px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
     max-width: 600px;
     font-weight: 500;
     font-size: 18px !important;
