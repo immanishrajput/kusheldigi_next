@@ -109,7 +109,8 @@ function Shopify3({notify}) {
 <BigBanner4 img='https://res.cloudinary.com/dd9tagtiw/image/upload/v1744609043/images_21_e6hnmi.png' page='Our Shopify Experts are Ready to Launch your Dream Store today!'/>
 <ServiceSection services={ShopifyServicesContent} contents={ShopifyServicesHeading}/>
 <FeatureSection services={ShopifyFeatures} contents={ShopifyFeaturesContent}/>
-<BlogSection/>
+
+<BlogSection page="shopify"/>
 <BigAskQuestion />
 <HomeForm/>
 {/* <ContactForm1 notify={notify} /> */}

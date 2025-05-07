@@ -63,6 +63,7 @@ const Page = () => {
       const data = await response.json();
 
       if (response.ok) {
+        console.log("cat",data?.data)
         const firstFive = data?.data.slice(0, 5);
         setAllCatBlogs(data?.data);
         setVisibleCategories(firstFive);
@@ -180,8 +181,10 @@ const Page = () => {
               <h1>Typing as we speak</h1>
             </div>
             <div className="bttnn">
+              <button className={`button category-button ${isCategorySelected === false ? "active" : ""}`} onClick={()=>setIsCategorySelected(false)} >All blogs</button>
               {allCatBlogs.map((item, index) => {
                 return (
+                  // {`button category-button ${isCategorySelected === false ? "active" : ""                      }`}
                   <button
                     key={item._id}
                     onClick={() => handleCategoryClick(item?.title)}

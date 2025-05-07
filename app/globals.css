@@ -8394,8 +8394,8 @@ justify-content: space-between;
 align-items: center;
 }
 .testImage img{
-    height: 70px !important;
-    width: 70px;
+    height: 80px !important;
+    width: 80px;
 }
 @media (max-width:1300px) {
     .indus-card-main {
@@ -14435,7 +14435,7 @@ max-width: 50%;
     border-radius: 50%;
     background: #308B1F;
     border: 3px solid #FFFFFF;
-    padding: 0px 20px;
+    padding: 0px 40px;
 }
 
 .cas3circldata2 h4 {
@@ -14443,6 +14443,7 @@ max-width: 50%;
     font-size: 22px;
     font-weight: 600;
     line-height: 32px;
+    padding: 35px !important;
     text-align: center;
     color: #FFFFFF;
     margin: 0px 10px;
@@ -14451,10 +14452,14 @@ max-width: 50%;
 .cas3circldata2 p {
     font-family: Poppins;
     font-size: 18px;
+    padding: 20px !important;
     font-weight: 400;
     line-height: 30px;
     text-align: center;
     color: #FFFFFF;
+}
+.case3Portfolio_typhoon h4{
+    padding: 0px 30px !important;
 }
 
 .sc2sevensec {
@@ -74134,7 +74139,7 @@ input::-webkit-inner-spin-button {
 
 .latest-container {
     margin: 0 auto;
-    padding: 67px 60px 0px;
+    padding: 27px 60px 0px;
     max-width: 1720px;
 }
 
@@ -74285,9 +74290,12 @@ input::-webkit-inner-spin-button {
 .cardBlogStpaara1:hover .cardBlogStpaara::after {
     width: 100%;
 }
+.category-blog-section{
+    padding: 30px 0px;
+}
 
 .newMainSec {
-    margin-top: 120px;
+    margin-top: 80px;
     background-color: aliceblue;
     padding: 40px 20px;
     height: auto;
@@ -75118,7 +75126,10 @@ input::-webkit-inner-spin-button {
     font-size: 15px;
 }
 
-.MainBloggSeC {}
+.MainBloggSeC a{
+    color: #1566ff !important;
+    font-weight: 400 !important;
+}
 
 .MainBloggSeCh3 {
     margin-top: 160px !important;
@@ -76104,6 +76115,10 @@ input::-webkit-inner-spin-button {
 .right-carousel-inner-btn {
     font-size: 16px;
     margin: 20px 0px;
+}
+.right-carousel-inner-btn:hover{
+    color:#fff;
+    background-color: #0b60ff !important;
 }
 
 .carousel-item {

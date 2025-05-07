@@ -265,7 +265,8 @@ function typhoon() {
           
           
           <img
-            src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746516784/typhoon-solutions3_g3i3xm.png"
+            // src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746516784/typhoon-solutions3_g3i3xm.png"
+            src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746643324/Group_1171279260_1_lufqvo.png"
             alt="kushel"
             className="c3antoimg"
           />
@@ -361,7 +362,8 @@ function typhoon() {
               </div>
               <div className="bgshowdb2" id="imgPortfolio_Ai_Phone">
                 <img
-                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632484/Group_1171281284_dpqrse.png"
+                  // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632484/Group_1171281284_dpqrse.png"
+                  src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746643324/Group_1171279260_1_lufqvo.png"
                   alt="kushel"
                   className="shadowbg2"
                 />

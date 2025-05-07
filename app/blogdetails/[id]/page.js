@@ -34,7 +34,7 @@ export default function BlogDetails() {
   const [confetti, setConfetti] = useState(null);
 
   useEffect(() => {
-    import("canvas-confetti").then((module) =>
+    import("canvas-confetti").then((module) =>  
       setConfetti(() => module.default)
     );
   }, []);
@@ -141,6 +141,7 @@ export default function BlogDetails() {
       }
     }, 2000);
   };
+
   return (
     <>
     <Navbar/>
@@ -158,6 +159,8 @@ export default function BlogDetails() {
         ) : (
           <p>Loading blog...</p>
         )}
+
+
 
         {/* Social Icons */}
         <section className="third-section" ref={thirdSectionRef}>

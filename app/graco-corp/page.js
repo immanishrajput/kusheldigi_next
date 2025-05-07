@@ -199,7 +199,7 @@ function graco() {
       <section className="case2secsec2" id="case2_Background_Port">
         <div className="case2seccont">
           <img
-            src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216503/case2imgs1_xngbpg.png"
+            src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746537844/madfish-logo1_ghjavp.png"
             alt="kushel"
             className="cs2i1"
           />
@@ -209,7 +209,7 @@ function graco() {
             Graco Corporation is the global leader in manufacturing fluid handling products. Adhering to the quality, the company is known for its cutting-edge innovation, hardware, and industrial equipment solutions. It has built a strong reputation based on customer satisfaction. </p>
             <p>
          
-The brand is catering to the needs of individual consumers as well as businesses. Its robust supply chain enables the sale of an extensive range of products. While it has already established its digital footprint and is constantly scaling, <b> Kushel Digi Solutions </b> stepped in to redesign the digital store. MadFish Solutions offered us this project which we successfully implemented with our efforts.
+The brand is catering to the needs of individual consumers as well as businesses. Its robust supply chain enables the sale of an extensive range of products. While it has already established its digital footprint and is constantly scaling, <b> Kushel Digi Solutions </b> stepped in to redesign the digital store. <b>MadFish Solutions </b>offered us this project which we successfully implemented with our efforts.
 
             </p>
           </div>
@@ -237,7 +237,8 @@ The brand is catering to the needs of individual consumers as well as businesses
             </div>
 <div className="portfolioImageChallenge">
 <img
-            src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523269/garcoo-challenges_fd93as.png"
+src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746643908/Group_1171279265_1_wuvyh6.png"
+            // src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523269/garcoo-challenges_fd93as.png"
             alt="kushel"
           />
 </div>
@@ -266,7 +267,8 @@ For this, designing a plan from beginning to the end of the project was the firs
           </div>
 
           <img
-            src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523269/garcoo-solutions_b7vifc.png"
+          src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746643901/Group_1171279267_nuyi0r.png"
+            // src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523269/garcoo-solutions_b7vifc.png"
             alt="kushel"
             className="c3antoimg"
           />
@@ -296,6 +298,7 @@ For this, designing a plan from beginning to the end of the project was the firs
             <div className="cas3s4con">
               <div className="bgshowdb2">
                 <img
+              
                   src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632483/Group_1171281280_ukeiu6.png"
                   alt="kushel"
                   className="shadowbg2"

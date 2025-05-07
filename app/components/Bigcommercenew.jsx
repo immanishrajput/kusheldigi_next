@@ -67,7 +67,7 @@ const page = () => {
         <ServicesSection services={BigCommerceServices} contents={BigCommerceServicesHeading}/>
         <FeatureSection services={BigCommerceFeatures} contents={BigCommerceFeaturesContent}/>
        
-        <BlogSection/>
+        <BlogSection page="bigcommerce"/>
         <BigAskQuestion/>
     <HomeForm/>
         <Footer/>

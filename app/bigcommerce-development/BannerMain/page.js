@@ -66,6 +66,15 @@ const CaseStudy = () => {
     }
   };
 
+  React.useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % caseStudies.length);
+    }, 3000); 
+  
+    return () => clearInterval(interval); 
+  }, [caseStudies.length]);
+
+
     return (
         <div className='case-study-container'>
             <div className='case-wrapper'>
