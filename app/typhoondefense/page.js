@@ -199,7 +199,7 @@ function typhoon() {
       <section className="case2secsec2" id="case2_Background_Port">
         <div className="case2seccont">
           <img
-            src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216503/case2imgs1_xngbpg.png"
+            src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746537844/madfish-logo1_ghjavp.png"
             alt="kushel"
             className="cs2i1"
           />
@@ -208,7 +208,7 @@ function typhoon() {
             <h1>Client Background</h1><p>
             Typhoon Defense is an ultimate firearm manufacturer that blends the magic of innovation, creativity, and superior craftsmanship. It is leading the Bigcommerce landscape by designing unparalleled firearms.  </p>
             <p>
-            Typhoon Defense implements exceptional expertise, innovative design, and supreme quality to build customer-centric products. This is a name to trust for precision engineering, reliability, and durability. It also delivers impressive customer service which is beyond your expectations so you can get the best for your shooting needs. Kushel Digit Solutions help them achieve better results by developing their website and optimising it for search engines for effective results. We get this projet opportunity from MadFish Solutions, which we are appreciable for,
+            Typhoon Defense implements exceptional expertise, innovative design, and supreme quality to build customer-centric products. This is a name to trust for precision engineering, reliability, and durability. It also delivers impressive customer service which is beyond your expectations so you can get the best for your shooting needs. Kushel Digit Solutions help them achieve better results by developing their website and optimising it for search engines for effective results. We get this projet opportunity from <b> MadFish Solutions,</b> which we are appreciable for,
             </p>
           </div>
         </div>
@@ -231,7 +231,7 @@ function typhoon() {
             </div>
 <div className="portfolioImageChallenge">
 <img
-            src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454201/challenges-typhoon_bauh6g.png"
+            src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746514576/typhoon-solutions5_c5pvse.png"
             alt="kushel"
           />
 </div>
@@ -265,7 +265,7 @@ function typhoon() {
           
           
           <img
-            src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454197/solutions-typhoon_n28xzs.png"
+            src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746516784/typhoon-solutions3_g3i3xm.png"
             alt="kushel"
             className="c3antoimg"
           />
@@ -289,13 +289,13 @@ function typhoon() {
           <section className="case3secfour2">
             <img
               className="case4bggirl"
-              src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png"
+              src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746519647/design-phase-background-typhoon_odls52.jpg"
               alt="kushel"
             />
             <div className="cas3s4con">
               <div className="bgshowdb2">
                 <img
-                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632483/Group_1171281280_ukeiu6.png"
+                  src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746519358/coduction-typhoon_aiy7af.png"
                   alt="kushel"
                   className="shadowbg2"
                 />
@@ -317,7 +317,7 @@ function typhoon() {
           <section className="case3secfour2">
             <img
               className="case4bggirl"
-              src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png"
+              src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746519647/design-phase-background-typhoon_odls52.jpg"
               alt="kushel"
             />
 
@@ -325,7 +325,7 @@ function typhoon() {
               <div className="bgshowdb2">
                 
                 <img
-                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632482/Group_1171281283_kpau8o.png"
+                  src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746519358/secure-typroon_dybmuk.png"
                   alt="kushel"
                   className="shadowbg2"
                 />
@@ -344,7 +344,8 @@ function typhoon() {
 
         <SplideSlide>
           <section className="case3secfour2">
-          <img className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png" alt="kushel" />
+            
+          <img className="case4bggirl" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746519647/design-phase-background-typhoon_odls52.jpg" alt="kushel" />
 
             <div className="cas3s4con" id="imgPortfolio_Phone">
              

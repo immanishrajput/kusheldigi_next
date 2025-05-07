@@ -113,7 +113,7 @@ const NewBanner = () => {
                         <Image
                             loading='lazy'
                             className='floatingIcon2'
-                            src='https://res.cloudinary.com/dgif730br/image/upload/v1743433960/logo-1_1_sapdme.png'
+                            src='https://res.cloudinary.com/dal5dlztv/image/upload/v1746528478/Bigcommerce2_z9tsl7.png'
                             width={110}
                             height={110}
                             alt='bigcommerce'
@@ -123,7 +123,7 @@ const NewBanner = () => {
                         <Image
                             loading='lazy'
                             className='floatingIcon1'
-                            src='https://res.cloudinary.com/dgif730br/image/upload/v1743433960/logo-2-01.jpg_y097pw.png'
+                            src='https://res.cloudinary.com/dal5dlztv/image/upload/v1746528477/shopify1_qfeocx.png'
                             width={110}
                             height={110}
                             alt='shopify'
@@ -134,7 +134,7 @@ const NewBanner = () => {
                             loading='lazy'
                             className='floatingIcon3'
                             // src="https://res.cloudinary.com/dgif730br/image/upload/v1743151035/floatingIcon3_x0yhk5.png" alt="" 
-                            src='https://res.cloudinary.com/dgif730br/image/upload/v1743433959/logo-3_jm2vph.png'
+                            src='https://res.cloudinary.com/dal5dlztv/image/upload/v1746528477/Magento_zxs0hr.png'
                             width={110}
                             height={110}
                             alt='magento'

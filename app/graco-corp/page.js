@@ -237,7 +237,7 @@ The brand is catering to the needs of individual consumers as well as businesses
             </div>
 <div className="portfolioImageChallenge">
 <img
-            src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744631255/Group_1171281276_psr4aw.png"
+            src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523269/garcoo-challenges_fd93as.png"
             alt="kushel"
           />
 </div>
@@ -266,7 +266,7 @@ For this, designing a plan from beginning to the end of the project was the firs
           </div>
 
           <img
-            src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744631255/Group_1171281276_psr4aw.png"
+            src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523269/garcoo-solutions_b7vifc.png"
             alt="kushel"
             className="c3antoimg"
           />

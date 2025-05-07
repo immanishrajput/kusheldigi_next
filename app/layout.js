@@ -33,12 +33,12 @@ export const metadata = {
  
   twitter: {
     card: "summary_large_image",
-    title: "Future-Ready eCommerce Platform Development Company | Kushel Digi",
-    description: "Transform your online presence with Kushel Digi Solutions eCommerce development, BigCommerce solutions, and tailored B2B and marketplace platforms. Start your project today!.",
+    title: "Expert eCommerce & BigCommerce Development Company | Kushel Digi",
+    description: "Transform your online presence with Kushel Digi Solutions eCommerce development, BigCommerce solutions, and tailored B2B and marketplace platforms. Start your project today! ",
     images: [{ url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png", width: 1200, height: 630 }],
   },
   openGraph: {
-    title: "Future-Ready eCommerce Platform Development Company | Kushel Digi",
+    title: "Expert eCommerce & BigCommerce Development Company | Kushel Digi",
     description: "Transform your online presence with Kushel Digi Solutions eCommerce development, BigCommerce solutions, and tailored B2B and marketplace platforms. Start your project today! ",
     url: "https://www.kusheldigi.com/",
     type:"website",

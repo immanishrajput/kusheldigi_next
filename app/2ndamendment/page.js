@@ -204,7 +204,7 @@ function Page() {
       {/* secon section  */}
       <section className="case2secsec">
         <div className="case2seccont">
-          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216503/case2imgs1_xngbpg.png" alt="kushel" className="cs2i1" />
+          <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746537844/madfish-logo1_ghjavp.png" alt="kushel" className="cs2i1" />
 
           <div className="sc2_main_content">
             <h1>Client Background</h1>
@@ -220,7 +220,7 @@ function Page() {
 At its Ecommerce platform, you can find ammunition equipment for Second Amendment enthusiasts, survival gear, optics, and a lot more. The brand is also providing a secure and legally compliant shopping experience for seasoned firearm owners.
 
                </p>
-               <p> Since 2012, it has positioned itself as a reliable platform for the public service, and the community support has helped to step up in the Ecommerce world. However, Kushel Digi Solutions have played a crucial role in bringing it into the limelight with their expertise. MadFish Solutions has offered us this opportunity and our team has put their best efforts to make it a successful project. </p>
+               <p> Since 2012, it has positioned itself as a reliable platform for the public service, and the community support has helped to step up in the Ecommerce world. However, Kushel Digi Solutions have played a crucial role in bringing it into the limelight with their expertise. <b>MadFish Solutions</b>  has offered us this opportunity and our team has put their best efforts to make it a successful project. </p>
 
           </div>
         </div>
@@ -246,7 +246,7 @@ At its Ecommerce platform, you can find ammunition equipment for Second Amendmen
             </div>
 <div className="portfolioImageChallenge">
 <img
-            src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454205/challenges-2ndamidment_sbp3vk.jpg"
+            src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746514576/2nd-A-challenges_hdngwv.png"
             alt="kushel"
           />
 </div>
@@ -276,7 +276,7 @@ At its Ecommerce platform, you can find ammunition equipment for Second Amendmen
             <p>We also did a thorough research to identify the market gaps and analyze the best possible solution for the business. </p>
 
           </div>
-          <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746455316/solution-2ndamidment-removebg-preview_aadyex.png" alt="kushel" className="c3antoimg" /> 
+          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746514576/2nd-A-solutions_s6apxz.png" alt="kushel" className="c3antoimg" /> 
 
           {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216571/case3ano_uv19e1.png" alt="kushel" className="c3antoimg" /> */}
         </div>
@@ -297,11 +297,11 @@ At its Ecommerce platform, you can find ammunition equipment for Second Amendmen
     >
       <SplideSlide>
         <section className="case3secfour">
-          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216738/c1bg1_pjbwvi.png" alt="kushel" className="c1btimage" />
+          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
 
           <div className="cas3s4con">
 
-   <div className="bgshowdb1">
+   <div className="bgshowdb1" >
             <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746439272/design-phase22_jnchjg.png" alt="kushel" className="ca2insideimg adjustheighimg" />
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" />
    </div>
@@ -319,11 +319,11 @@ At its Ecommerce platform, you can find ammunition equipment for Second Amendmen
 
       <SplideSlide>
         <section className="case3secfour">
-          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216738/c1bg1_pjbwvi.png" alt="kushel" className="c1btimage" />
+          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
 
           <div className="cas3s4con">
 
-   <div className="bgshowdb1">
+   <div className="bgshowdb1" id="bgshowdb11">
             <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454204/e-commerce-development_wu34yd.png" alt="kushel" className="ca2insideimg adjustheighimg" />
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" />
    </div>
@@ -340,7 +340,7 @@ At its Ecommerce platform, you can find ammunition equipment for Second Amendmen
 
       <SplideSlide>
         <section className="case3secfour">
-          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216738/c1bg1_pjbwvi.png" alt="kushel" className="c1btimage" />
+          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
 
           <div className="cas3s4con">
 

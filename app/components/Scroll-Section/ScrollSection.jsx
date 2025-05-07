@@ -101,7 +101,7 @@ const ScrollAnimation = () => {
 };
 
 const ScrollSection = ({ img,number, title, description, listItems, showSvg, maskRef  }) => (
-    <div className="scrolled-section">
+    <div className="scrolled-section" >
         <Image
             className="scroll-card-img"
             decoding="async"
@@ -125,7 +125,8 @@ const ScrollSection = ({ img,number, title, description, listItems, showSvg, mas
         )} */}
 
 
-        <div>
+        <div className="scroll-cardds">
+            <div className="scroll-cardds">
             <h3 className="scroll-card-heading">{title}</h3>
             <p className="scroll-card-para">{description}</p>
             <ul className="scroll-card-ul">
@@ -135,6 +136,7 @@ const ScrollSection = ({ img,number, title, description, listItems, showSvg, mas
                     </li>
                 ))}
             </ul>
+            </div>
             <span className="counter">{number}</span>
         </div>
     </div>
