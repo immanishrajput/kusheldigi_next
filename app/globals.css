@@ -14405,7 +14405,7 @@ max-width: 50%;
 
 .shadowbg2 {
     height:auto;
-    min-width: 140%;
+    min-width: 110%;
     transform: translateX(50px);
 }
 
@@ -14603,7 +14603,7 @@ max-width: 50%;
     }
 
     .cas3circldata2 p {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 26px;
     }
 
@@ -14840,11 +14840,13 @@ max-width: 50%;
     .cas3circldata2 h4 {
         font-size: 16px;
         line-height: 26px;
+        padding: 10px !important;
     }
 
     .cas3circldata2 p {
         font-size: 14px;
         line-height: 22px;
+        padding: 10px !important;
     }
 
     .cas3circldata2 {
@@ -14873,9 +14875,17 @@ max-width: 50%;
     }
 }
 
+@media (max-width:375px) {
+    .cas3circldata2 h4 {
+        font-size: 10px;
+        padding: 10px !important;
+        line-height: 26px;
+    }
+}
 @media (max-width:400px) {
     .cas3circldata2 h4 {
-        font-size: 16px;
+        font-size: 14px;
+        padding: 10px !important;
         line-height: 26px;
     }
 
@@ -15486,6 +15496,22 @@ max-width: 50%;
     padding: 0px 20px;
     align-items: center;
     gap: 20px;
+}
+
+#cas3s4conn {
+    max-width: 1300px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0px 20px;
+    align-items: center;
+    gap: 100px;
 }
 
 .bgshowdb1 {
@@ -63152,7 +63178,7 @@ wordpress_cater_box p {
     }
 
     .foot1 {
-        padding: 70px 25px 40px 25px;
+        /* padding: 70px 25px 40px 25px; */
         padding-bottom: 30px;
         font-family: 'Poppins', sans-serif !important;
     }
@@ -73882,6 +73908,12 @@ input::-webkit-inner-spin-button {
     justify-content: space-between;
     align-items: center;
 }
+
+.blogClockTimee{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
 .blogClockTime1{
     display: flex;
     justify-content: flex-start;
@@ -74054,6 +74086,14 @@ input::-webkit-inner-spin-button {
     align-items: center;
     gap: 5px;
 }
+.bimageloDiPargaphhh{
+    padding-top: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
 .bimageloDiPargaph1{
     font-size: 15px;
     font-weight: 600;
@@ -74157,6 +74197,7 @@ input::-webkit-inner-spin-button {
     display: grid;
     grid-template-columns: repeat(3, 2fr);
 }
+
 
 .cardBlogSt {
     padding-top: 50px;
@@ -74711,7 +74752,7 @@ input::-webkit-inner-spin-button {
 }
 
 .cardsectFiveMain {
-    padding: 30px 60px 0px;
+    padding: 30px 60px 0px ;
     max-width: 1720px;
     margin: auto;
 }
@@ -75133,8 +75174,8 @@ input::-webkit-inner-spin-button {
 
 .MainBloggSeCh3 {
     margin-top: 160px !important;
-    line-height: 75px;
-    font-size: 65px;
+    line-height: 60px;
+    font-size: 45px;
     font-weight: 800;
     font-family: 'Poppins', sans-serif !important;
     max-width: 1400px;
@@ -75310,6 +75351,11 @@ input::-webkit-inner-spin-button {
     padding-top: 60px;
     font-size: 20px;
     font-weight: 600;
+}
+@media(max-width:480px){
+    .profileDate{
+        padding: 20px;
+    }
 }
 
 .cardSocial1 {
@@ -75515,12 +75561,13 @@ input::-webkit-inner-spin-button {
     }
 
     .MainBloggSeCh3 {
-        font-size: 4rem;
+        font-size: 3rem;
+        padding-bottom: 20px;
         width: 100%;
     }
 
     .MainBloggSeCh3Img img {
-        height: 500px;
+        /* height: 500px; */
         padding: 0;
     }
 
@@ -75556,15 +75603,22 @@ input::-webkit-inner-spin-button {
     }
 }
 
+@media(max-width:520px){
+    .MainBloggSeCh3{
+        margin-top: 130px !important;
+    }
+}
 @media (max-width: 767px) {
     .MainBloggSeC {
         padding-right: 5%;
     }
 
     .MainBloggSeCh3 {
-        line-height: 36px;
-        font-size: 1.5rem;
+        line-height: 30px;
+        font-size: 1.4rem;
+        margin: 60px auto 20px auto;
         width: 100%;
+        padding-bottom: 20px;
         text-align: left;
     }
 
@@ -75589,8 +75643,8 @@ input::-webkit-inner-spin-button {
     }
 
     .mainBloContentPa {
-        margin-top: 20px;
-        font-size: 20px;
+        /* margin-top: 20px; */
+        font-size: 16px;
         width: 100%;
     }
 
@@ -75749,6 +75803,9 @@ input::-webkit-inner-spin-button {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     padding: 15px 0px 0px 0px;
+}
+#cardMainBlogSecc{
+    padding: 15px 0px 50px 0px;
 }
 
 .cardBlogSt {

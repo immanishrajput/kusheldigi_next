@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
+import { FcClock } from "react-icons/fc";
 import { useEffect, useRef, useState } from "react";
 import {
   WhatsappShareButton,
@@ -271,7 +272,7 @@ export default function BlogDetails() {
               <hr />
             </div>
 
-            <section className="cardMainBlogSec">
+            <section className="cardMainBlogSec" id="cardMainBlogSecc">
               {recentBlogs.length > 0 ? (
                 recentBlogs.map((item, index) => (
                   <Link href={`/blogdetails/${item._id}`} key={index} className="cardBlogSt">
@@ -290,7 +291,19 @@ export default function BlogDetails() {
                   
                    </div>
                     <p className="cardBlogStpaaragr">{item.subdescription}</p>
-                    <p className="cardBlogStpaarw">Read More</p>
+                    {/* <p className="cardBlogStpaarw">Read More</p> */}
+                    <div className="blogClockTimee">
+                      
+                        <span className="cardBlogStpaarw">Read More</span>
+                  
+                      <span className="bimageloDiPargaphhh">
+                        <span>
+                          {" "}
+                          <FcClock className="iconBlogClock" />{" "}
+                        </span>{" "}
+                        {currentBlog?.time}{" "}
+                      </span>
+                    </div>
                   </Link>
                 ))
               ) : (

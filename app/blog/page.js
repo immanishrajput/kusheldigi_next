@@ -208,7 +208,13 @@ const Page = () => {
             <br />
           </div>
         </section>
-        <br /> <br />
+
+        {!isCategorySelected && (
+  <>
+    <br />
+    <br />
+  </>
+)}
 
         {
           !isCategorySelected && (
