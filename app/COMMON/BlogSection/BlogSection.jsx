@@ -49,9 +49,9 @@ const BlogSection = ({page}) => {
                     <Link href='/blog'><button className='viewAllBtnKcom'>View More</button></Link>
                 </div>
 
-                <div className="blog-section-blogs-wrapper"> {console.log(getAllBlogs.length)}
+                <div className="blog-section-blogs-wrapper"> 
                     {getAllBlogs.length > 0 &&
-                        getAllBlogs[0].blogs.slice(0, 4).map((blog, index) => (
+                        getAllBlogs[0].blogs.slice(0, 3).map((blog, index) => (
                             <Link key={index} href={`/blogdetails/${blog?._id}`} className="blog-section-blog">
                                 <img src={blog?.images?.[0]} alt="blogs" className="blog-section-blog-image" />
 
