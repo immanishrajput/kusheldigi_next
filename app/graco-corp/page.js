@@ -289,17 +289,18 @@ For this, designing a plan from beginning to the end of the project was the firs
         }}
       >
         <SplideSlide>
-          <section className="case3secfour2">
+          <section className="case3secfour2" id="case3secfour22">
             <img
               className="case4bggirl"
               src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png"
               alt="kushel"
             />
-            <div className="cas3s4con">
+            <div className="cas3s4con" id="cas3s4conn">
               <div className="bgshowdb2">
                 <img
               
-                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632483/Group_1171281280_ukeiu6.png"
+               src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746700604/Group_1171279280_svpfzr.png"
+                  // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632483/Group_1171281280_ukeiu6.png"
                   alt="kushel"
                   className="shadowbg2"
                 />
@@ -320,17 +321,17 @@ To design the custom layout of the Graco Corporation, we created a clean and mod
         </SplideSlide>
 
         <SplideSlide>
-          <section className="case3secfour2">
+          <section className="case3secfour2" >
             <img
               className="case4bggirl"
               src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png"
               alt="kushel"
             />
 
-            <div className="cas3s4con">
+            <div className="cas3s4con" id="cas3s4conn">
               <div className="bgshowdb2">
                 <img
-                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632482/Group_1171281283_kpau8o.png"
+                  src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746700606/Group_1171279282_vohwhu.png"
                   alt="kushel"
                   className="shadowbg2"
                 />
@@ -365,7 +366,7 @@ To design the custom layout of the Graco Corporation, we created a clean and mod
               </div>
               <div className="bgshowdb2" id="imgPortfolio_Ai_Phone">
                 <img
-                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632484/Group_1171281284_dpqrse.png"
+                  src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746700604/Group_1171279284_n4q7cv.png"
                   alt="kushel"
                   className="shadowbg2"
                 />

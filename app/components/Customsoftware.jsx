@@ -1186,7 +1186,7 @@ function CustomSoftware() {
     <div className="ser-main">
     <div id="customSoftware">
     
-     
+{/*      
       <section className="ccs_page">
         <div className="css_main_banner">
         <div className="ccs_banner dine-123">
@@ -1508,18 +1508,18 @@ Count on our dedicated support team for prompt assistance, ensuring smooth opera
      </div>
      </div>
 
-      </section>
+      </section> */}
 
 
 
     </div>
-    {/* <CustomSoftwareBanner/>
+    <CustomSoftwareBanner/>
     <SecondCustomSection/>
     <CustomSoftwareSolutions/>
     <MagentoServices leftContent={CutsomSoftwareServicesLeft} services={CutsomSoftwareServicesRight}/>
     <BenefitsOfWorkingKDS/>
     <ProcessCustom/>
- */}
+
 
 
 

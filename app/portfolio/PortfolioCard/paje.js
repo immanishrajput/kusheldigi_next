@@ -252,24 +252,24 @@ const portfolioData = [
 
 
   
-//   {
-//     id: 'automotive-101',
-//     companyName: 'Ride Ready',
-//     logo: 'https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746544785/graco_corporation_logo_1705399297__51656_o9u82r_t8qznl.webp',
-//     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
-//     description: [
-//         "UX/UI Website Design","Website Development","QA & Website Testing"
-// ],
-//     links: {
-//       liveStore: 'https://www.phastekperformance.com/',
-//       caseStudy: '/graco-corp',
-//       platform: '/bigcommerce-development',
-//     },
-//     case:'Case Study',
-//     case1:'BigCommerce',
-//     line:'|',
-//     category: ["ecommerce"],
-//   },
+  {
+    id: 'automotive-101',
+    companyName: 'Ride Ready',
+    logo: 'https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746544785/graco_corporation_logo_1705399297__51656_o9u82r_t8qznl.webp',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    description: [
+        "UX/UI Website Design","Website Development","QA & Website Testing"
+],
+    links: {
+      liveStore: 'https://www.phastekperformance.com/',
+      caseStudy: '/graco-corp',
+      platform: '/bigcommerce-development',
+    },
+    case:'Case Study',
+    case1:'BigCommerce',
+    line:'|',
+    category: ["ecommerce"],
+  },
 
 
 
