@@ -1,0 +1,56 @@
+ol,
+ul {
+    list-style: circle !important;
+    list-style-type: disc !important;
+    list-style-position: inside !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size:unset !important;
+    margin: none !important;
+    padding: none !important;
+
+   
+}
+
+.MainBloggSeCh3 {
+    margin-top: 160px !important;
+    line-height: 60px !important;
+    font-size: 45px !important;
+    font-weight: 800 !important;
+    font-family: 'Poppins', sans-serif !important;
+    max-width: 1400px;
+    margin: auto;
+}
+@media (max-width: 1024px) {
+    .MainBloggSeCh3 {
+        font-size: 3rem !important;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .MainBloggSeCh3 {
+        line-height: 30px !important;
+        font-size: 1.5rem !important;
+        margin: 60px auto 20px auto;
+        width: 100%;
+        padding-bottom: 20px;
+        text-align: left;
+    }
+}
+
+@media(max-width:520px){
+    .MainBloggSeCh3{
+        font-size: 1.3rem !important;
+        text-align: center !important;
+        /* line-height: 30px !important; */
+        margin-top: 130px !important;
+    }
+}

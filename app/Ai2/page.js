@@ -269,7 +269,7 @@ function Ai() {
           </div>
 
           <img
-            src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744631255/Group_1171281276_psr4aw.png"
+            src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746715049/Group_1171279258_s2smnp.png"
             alt="kushel"
             className="c3antoimg"
           />
@@ -302,6 +302,8 @@ function Ai() {
                   src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632483/Group_1171281280_ukeiu6.png"
                   alt="kushel"
                   className="shadowbg2"
+                  id="shadodo"
+
                 />
               </div>
 
@@ -331,6 +333,7 @@ function Ai() {
                   src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632482/Group_1171281283_kpau8o.png"
                   alt="kushel"
                   className="shadowbg2"
+                  id="shadodo"
                 />
               </div>
 
@@ -349,7 +352,7 @@ function Ai() {
           <section className="case3secfour2">
           <img className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png" alt="kushel" />
 
-            <div className="cas3s4con" id="imgPortfolio_Phone">
+            <div className="cas3s4con" >
              
 
               <div className="cas3circldata2" id="case3Portfolio_Aii">
@@ -364,6 +367,7 @@ function Ai() {
                   src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632484/Group_1171281284_dpqrse.png"
                   alt="kushel"
                   className="shadowbg2"
+                  id="shadodo"
                 />
               </div>
             </div>
@@ -388,6 +392,7 @@ function Ai() {
                   src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632484/Group_1171281284_dpqrse.png"
                   alt="kushel"
                   className="shadowbg2"
+                  id="shadodo"
                 />
               </div>
             </div>

@@ -296,14 +296,15 @@ At its Ecommerce platform, you can find ammunition equipment for Second Amendmen
       }}
     >
       <SplideSlide>
-        <section className="case3secfour">
+        <section className="case3secfour" >
           <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
 
-          <div className="cas3s4con">
+          <div className="cas3s4con" id="cas3s4connn">
 
    <div className="bgshowdb1" >
-            <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746439272/design-phase22_jnchjg.png" alt="kushel" className="ca2insideimg adjustheighimg" />
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" />
+            < img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746710597/Group_1171279306_o1qdhn.png"/>
+            {/* <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746710597/Group_1171279306_o1qdhn.png" alt="kushel" className="ca2insideimg adjustheighimg" /> */}
+            {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
    </div>
 
             <div className="cas3circldata">
@@ -318,14 +319,15 @@ At its Ecommerce platform, you can find ammunition equipment for Second Amendmen
 
 
       <SplideSlide>
-        <section className="case3secfour">
+        <section className="case3secfour" id="case3secfour22">
           <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
 
-          <div className="cas3s4con">
+          <div className="cas3s4con" id="cas3s4connn">
 
    <div className="bgshowdb1" id="bgshowdb11">
-            <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454204/e-commerce-development_wu34yd.png" alt="kushel" className="ca2insideimg adjustheighimg" />
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" />
+          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746710595/Group_1171279309_dcshhv.png"/>
+            {/* <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454204/e-commerce-development_wu34yd.png" alt="kushel" className="ca2insideimg adjustheighimg" />
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
    </div>
 
             <div className="cas3circldata">
@@ -342,7 +344,7 @@ At its Ecommerce platform, you can find ammunition equipment for Second Amendmen
         <section className="case3secfour">
           <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
 
-          <div className="cas3s4con">
+          <div className="cas3s4con" id="cas3s4connn">
 
    <div className="bgshowdb1">
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730447917/Group_1171279180_kw6axc.png" alt="kushel" className="ca2insideimg addheightimage" />

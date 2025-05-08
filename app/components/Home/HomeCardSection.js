@@ -27,14 +27,16 @@ const router = useRouter();
           Certified  BigCommerce Partner Agency
         </h3>
         <ul className="plt-ul">
-          <li className="plt-li"> BigCommerce Replatforming  Migration</li>
-          <li className="plt-li"> BigCommerce Custom Apps</li>
-          <li className="plt-li"> BigCommerce Implementation</li>
-          <li className="plt-li"> BigCommerce Integration</li>
-          <li className="plt-li"> BigCommerce B2B</li>
-          <li className="plt-li"> BigCommerce CBD</li>
-          <li className="plt-li"> BigCommerce for Firearms</li>
-          <li className="plt-li"> BigCommerce Headless</li>
+          <li className="plt-li"> BigCommerce Replatforming & Migration Services</li>
+          <li className="plt-li"> BigCommerce Custom  App Development</li>
+          <li className="plt-li"> BigCommerce Store Setup & Implementation</li>
+          <li className="plt-li"> BigCommerce API Integration Services</li>
+          <li className="plt-li"> BigCommerce B2B Solutions</li>
+          <li className="plt-li">BigCommerce D2C solutions</li>
+          <li className="plt-li">BigCommerce for Regulated Industries</li>
+          <li className="plt-li"> BigCommerce Headless Commerce Development  </li>
+          <li className="plt-li">BigCommerce Website Development </li>
+          <li className="plt-li">Big Commerce Website development for Healthcare</li>
         </ul>
         {/* <Link href="/bigcommerce-development" className="plt-btn">
           Learn More
@@ -52,15 +54,16 @@ const router = useRouter();
           Certified  Shopify Plus Agency
         </h3>
         <ul className="plt-ul">
-          <li className="plt-li">Shopify Replatforming & Migration</li>
-          <li className="plt-li">Shopify Custom Apps</li>
-          <li className="plt-li">Conversion Rate Optimization</li>
-          <li className="plt-li">UI/UX Design</li>
-          <li className="plt-li">Performance Optimization</li>
+          <li className="plt-li">Shopify Replatforming & Store Migration </li>
+          <li className="plt-li">Shopify App Development Custom</li>
+          <li className="plt-li">Shopify Conversion Rate Optimization (CRO) </li>
+          <li className="plt-li">UI/UX Design for Shopify Stores </li>
+          <li className="plt-li">Performance Optimization for Shopify Sites</li>
+          <li className="plt-li">Shopify B2B Solutions</li>
+          <li className="plt-li">Shopify D2C Solutions</li>
           <li className="plt-li">Shopify API Integration</li>
-          <li className="plt-li">Shopify Headless</li>
-          <li className="plt-li">Shopify SEO</li>
-          <li className="plt-li">Shopify B2B</li>
+          <li className="plt-li">Shopify Website Development </li>
+          <li className="plt-li">Shopify Headless Storefront Development </li>
         </ul>
         {/* <Link href="/shopify-development" className="plt-btn">
           Learn More
@@ -78,13 +81,14 @@ const router = useRouter();
           Expert  Magento Agency
         </h3>
         <ul className="plt-ul">
-          <li className="plt-li">Magento Replatforming & Migration</li>
-          <li className="plt-li"> Magento Custom Themes</li>
-          <li className="plt-li"> Magento Custom Extensions</li>
-          <li className="plt-li"> Magento Integrations</li>
-          <li className="plt-li"> Magento Headless</li>
-          <li className="plt-li">Magento B2B Solutions</li>
-          <li className="plt-li"> Magento for CBD </li>
+          <li className="plt-li">Magento Replatforming & Migration </li>
+          <li className="plt-li"> Custom Magento Theme Design & Development </li>
+          <li className="plt-li"> Magento Extension Development</li>
+          <li className="plt-li"> Magento B2B Store Development</li>
+          <li className="plt-li">Magento Integrations with Third-Party Systems</li>
+          <li className="plt-li">Magento Website Development</li>
+          <li className="plt-li"> Magento Headless Commerce Solutions</li>
+          <li className="plt-li">Magento D2C Store Development</li>
         </ul>
         {/* <Link href="/magento-development" className="plt-btn">
           Learn More
