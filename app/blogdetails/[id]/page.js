@@ -19,6 +19,7 @@ import { useParams } from "next/navigation";
 // import confetti from "canvas-confetti";
 import Footer from '../../COMMON/Footer'
 import Navbar from "../../COMMON/Navbar";
+import "./blogdetail.css"
 export default function BlogDetails() {
   const baseurl = "https://backblog.kusheldigi.com";
   const { id } = useParams();

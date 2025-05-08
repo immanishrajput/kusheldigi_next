@@ -296,10 +296,10 @@ src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746643901/Group_1171279
               src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png"
               alt="kushel"
             />
-            <div className="cas3s4con">
+            <div className="cas3s4con" id="cas3s4conn">
               <div className="bgshowdb2">
                 <img
-                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632483/Group_1171281280_ukeiu6.png"
+                  src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746707943/Group_1171279287_1_fo74cr.png"
                   alt="kushel"
                   className="shadowbg2"
                 />
@@ -324,10 +324,10 @@ src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746643901/Group_1171279
               alt="kushel"
             />
 
-            <div className="cas3s4con">
+            <div className="cas3s4con" id="cas3s4conn">
               <div className="bgshowdb2">
                 <img
-                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632482/Group_1171281283_kpau8o.png"
+                  src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746707940/Group_1171279292_vbrwty.png"
                   alt="kushel"
                   className="shadowbg2"
                 />
@@ -361,7 +361,7 @@ src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746643901/Group_1171279
               </div>
               <div className="bgshowdb2" id="imgPortfolio_Ai_Phone">
                 <img
-                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632484/Group_1171281284_dpqrse.png"
+                  src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746707940/Group_1171279297_m7cscj.png"
                   alt="kushel"
                   className="shadowbg2"
                 />

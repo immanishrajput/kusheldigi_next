@@ -293,7 +293,7 @@ function typhoon() {
               src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746519647/design-phase-background-typhoon_odls52.jpg"
               alt="kushel"
             />
-            <div className="cas3s4con">
+            <div className="cas3s4con" >
               <div className="bgshowdb2">
                 <img
                   src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746519358/coduction-typhoon_aiy7af.png"
@@ -322,7 +322,7 @@ function typhoon() {
               alt="kushel"
             />
 
-            <div className="cas3s4con">
+            <div className="cas3s4con" id="cas3s4conn">
               <div className="bgshowdb2">
                 
                 <img
@@ -363,7 +363,7 @@ function typhoon() {
               <div className="bgshowdb2" id="imgPortfolio_Ai_Phone">
                 <img
                   // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632484/Group_1171281284_dpqrse.png"
-                  src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746643324/Group_1171279260_1_lufqvo.png"
+                  src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746717765/Group_1171279263_3_wuke5j.png"
                   alt="kushel"
                   className="shadowbg2"
                 />
