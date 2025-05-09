@@ -283,7 +283,7 @@ function Ai() {
           type: "loop",
           perPage: 1,
           autoplay: true,
-          interval: 3000,
+          interval: 10000,
           pagination: true,
           arrows: false,
           pauseOnHover: false
@@ -397,6 +397,30 @@ function Ai() {
               </div>
             </div>
           </section>
+
+{/* <section className="case3secfour2">
+          <img className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png" alt="kushel" />
+
+            <div className="cas3s4con" id="imgPortfolio_Phone">
+             
+
+              <div className="cas3circldata2" id="case3Portfolio_riffle">
+                <h4>
+              	App Integrations
+                </h4>
+                <p>
+                One of the advantages of choosing BigCommerce is that plenty of app integrations are available to download. We integrated third-party tools for real-time inventory sync, SEO marketing tools, and advanced filtering to meet customers’ demands easily. Apart from that, we also simplified marketing for RifleSupply. 
+                </p>
+              </div>
+              <div className="bgshowdb2" id="imgPortfolio_Ai_Phone">
+                <img
+                  src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746707940/Group_1171279297_m7cscj.png"
+                  alt="kushel"
+                  className="shadowbg2"
+                />
+              </div>
+            </div>
+          </section> */}
         </SplideSlide>
       </Splide>
 
