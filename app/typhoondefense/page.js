@@ -299,6 +299,7 @@ function typhoon() {
                   src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746519358/coduction-typhoon_aiy7af.png"
                   alt="kushel"
                   className="shadowbg2"
+                  id="shonowfall"
                 />
               </div>
 
@@ -315,7 +316,7 @@ function typhoon() {
         </SplideSlide>
 
         <SplideSlide>
-          <section className="case3secfour2">
+          {/* <section className="case3secfour2">
             <img
               className="case4bggirl"
               src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746519647/design-phase-background-typhoon_odls52.jpg"
@@ -329,6 +330,7 @@ function typhoon() {
                   src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746519358/secure-typroon_dybmuk.png"
                   alt="kushel"
                   className="shadowbg2"
+                   id="shonowfalll"
                 />
               </div>
 
@@ -340,7 +342,35 @@ function typhoon() {
                 </p>
               </div>
             </div>
+          </section> */}
+             
+             <section className="case3secfour2">
+            <img
+              className="case4bggirl"
+              src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746519647/design-phase-background-typhoon_odls52.jpg"
+              alt="kushel"
+            />
+            <div className="cas3s4con" >
+              <div className="bgshowdb2">
+                <img
+                  src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746519358/secure-typroon_dybmuk.png"
+                  alt="kushel"
+                  className="shadowbg2"
+                  id="shonowfall"
+                />
+              </div>
+
+              <div className="cas3circldata2" id="case3Portfolio_typhoon">
+                <h4>Secure and Reliable Ecommerce Platform
+              </h4>
+              <p>
+                Kusheldigi ensured that Typhoon Defense stays competitive and secure with a reliable ecommerce platform. It created a full-fledged ecommerce site based on <b>bigcommerce local theme development</b> to boost their sales and revenue. The website features SSL encryption, a secured payment process, responsive design, software updates, and much more. As the business keeps flourishing, the website will work adaptably according to the evolving market needs to bring long-term success. It will meet evolving customer expectations by keeping the website performance optimal. 
+
+                </p>
+              </div>
+            </div>
           </section>
+
         </SplideSlide>
 
         <SplideSlide>
