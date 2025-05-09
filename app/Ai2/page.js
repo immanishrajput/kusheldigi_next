@@ -5,10 +5,11 @@ import { TiTick } from "react-icons/ti";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
 import '../Ai/Ai.css'
-
+import './aI.CSS'
 import '../globals.css'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
+import { Import } from "lucide-react";
 function Ai() {
     
   const d1 = [
@@ -282,8 +283,9 @@ function Ai() {
         options={{
           type: "loop",
           perPage: 1,
-          autoplay: true,
-          interval: 10000,
+        
+          autoplay:true,
+          interval: 3000,
           pagination: true,
           arrows: false,
           pauseOnHover: false
@@ -364,7 +366,7 @@ function Ai() {
               </div>
               <div className="bgshowdb2" id="imgPortfolio_Ai_Phone">
                 <img
-                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632484/Group_1171281284_dpqrse.png"
+                  src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746778355/rajat_mockup_odyonm.png"
                   alt="kushel"
                   className="shadowbg2"
                   id="shadodo"
@@ -389,7 +391,7 @@ function Ai() {
               </div>
               <div className="bgshowdb2" id="imgPortfolio_Ai_Phone">
                 <img
-                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632484/Group_1171281284_dpqrse.png"
+                  src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746778355/rajat_mockup_odyonm.png"
                   alt="kushel"
                   className="shadowbg2"
                   id="shadodo"
