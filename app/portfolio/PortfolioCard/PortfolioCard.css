@@ -24,6 +24,34 @@
     text-transform: uppercase;
     font-weight: bold;
 }
+.itemcasestate{
+    background-color: blue !important;
+    border: 1px solid black !important;
+}
+
+.view-case-btn{
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: white !important; 
+        
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 500;
+        transition: background-color 0.3s ease;
+      }
+      
+      .view-case-btn:hover  {
+        background-color: #0056b3 !important;
+        color: white !important;
+      }
+      .view-case-btn:hover a {
+        /* background-color: #0056b3 !important; */
+        color: white !important;
+      }
+      
+.view-case-btn a{
+    color: black !important;
+}
 .PortfolioButtonWork{
     padding: 40px 0px 52px 0px;
    color: #0c61ff;
@@ -112,12 +140,15 @@
         background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v1725886339/Group_1000010185_1_h1dk25.png");
      }
      #automotive-9{
-        background-image: url("https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746541118/image_2_t5uc5r.png");
+        background-image: url("https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746787725/image_8_qxvxkz.png");
         /* background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v1730459192/image_pknari.png"); */
      }
      #automotive-10{
         background-image: url("https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746541118/image_3_dptpxb.png");
        
+     }
+     #automotive-104{
+        background-image: url("https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746541118/image_3_dptpxb.png");
      }
 
      #automotive-100{

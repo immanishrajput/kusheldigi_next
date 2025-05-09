@@ -14849,7 +14849,7 @@ max-width: 50%;
 @media (max-width:500px) {
     .cas3circldata2 h4 {
         font-size: 16px;
-        line-height: 26px;
+        line-height: 19px;
         padding: 10px !important;
     }
 
@@ -14889,14 +14889,14 @@ max-width: 50%;
     .cas3circldata2 h4 {
         font-size: 10px;
         padding: 10px !important;
-        line-height: 26px;
+        line-height: 19px;
     }
 }
 @media (max-width:400px) {
     .cas3circldata2 h4 {
         font-size: 14px;
         padding: 10px !important;
-        line-height: 26px;
+        line-height: 19px;
     }
 
     .cas3circldata2 p {
@@ -15019,6 +15019,7 @@ max-width: 50%;
 .ca1firleft {
     display: flex;
     flex-direction: column;
+    align-items: baseline !important;
     gap: 20px;
 }
 
@@ -48404,6 +48405,7 @@ option {
 
 #hemesh-services .services-content1 {
     display: flex;
+    gap: 10px !important;
     justify-content: space-around;
     align-items: center
 }
@@ -48480,7 +48482,7 @@ option {
 #hemesh-services .services-button button {
     align-items: center;
     background-color: #0B56E4;
-    border: none;
+    border: 1px solid #0039ff !important;
     border-radius: 28px;
     color: #fff;
     display: flex;
@@ -48502,9 +48504,9 @@ option {
     color: #0B56E4
 }
 
-#hemesh-services .services-button button:hover svg path {
+/* #hemesh-services .services-button button:hover svg path {
     fill: #0B56E4
-}
+} */
 
 #hemesh-services .services-button p {
     font-size: 17px;
@@ -48940,6 +48942,11 @@ option {
     padding: 40px 90px 0 90px
 }
 
+@media(max-width:1200px){
+    #hemesh-services .services-content1 {
+        gap: 20px !important;
+    }
+}
 @media (max-width:900px) {
     #hemesh-services .services-content3 span {
         text-align: center;
@@ -76555,3 +76562,32 @@ ul {
 #shonowfalll {
     min-width: 150% !important;
 }
+.mainBloContentDiv .ql-align-justify strong{
+    margin: 20px 0px !important;
+    display: block;
+}
+
+
+/* blog detail  css */
+ h1[dir="ltr"]{
+    font-size: 2.5rem !important;
+    font-weight: 500 !important;
+    padding: 20px 0px 20px 0px !important;
+
+ }
+ h2[dir="ltr"]{
+    font-size: 1.7rem !important;
+    font-weight: 500 !important;
+    padding: 20px 0px 20px 0px !important;
+    
+
+ }
+ h3[dir="ltr"]{
+    font-size: 1.3rem !important;
+    font-weight: 500 !important;
+    padding: 20px 0px 20px 0px !important;
+
+ }
+ li > p {
+    margin: 0;
+  }

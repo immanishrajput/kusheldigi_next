@@ -170,11 +170,12 @@ function Page() {
               {/* left  */}
               <div className="ca1firleft">
                 <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784821/Group_1171279311_lf5dmj.png" alt="kushel" />
-                <p>2ndamendment Guns</p>
+                <p>RaceWax</p>
               </div>
 
               <p className="ca1firrigh">
-              2nd Amendment Guns is a service-disabled veteran business located in the prime location of Las Vegas, Nevada. Behind its foundation, the company represents a commitment to the people and the Constitution to serve.
+              RaceWax is a premier worldwide supplier of ski and snowboard waxes and tuning accessories, which are used by enthusiasts in more than 80 countries.
+
               {/* 2nd Amendment Armory is the most trusted firearms provider of high-quality gun accessories, serving customers both locally in Brandon, FL and across the nation. */}
               </p>
             </div>
@@ -214,14 +215,15 @@ function Page() {
             2nd Amendment Guns is a service-disabled veteran business located in the prime location of Las Vegas, Nevada. Behind its foundation, the company represents a commitment to the people and the Constitution to serve. 
             </p> */}
             <p>
-            After serving 32 years in the military, the owner of 2nd Amendment Guns and Accessories is offering a wide range of firearms and ammunition. The brand empowers “The People” of the United States of America through education, arms, and training. 
+            Established in 1999 by Marc and Emelda, RaceWax started out as a home-based business prompted by their son's competitive skiing.
             </p>
             <p>
               
-At its Ecommerce platform, you can find ammunition equipment for Second Amendment enthusiasts, survival gear, optics, and a lot more. The brand is also providing a secure and legally compliant shopping experience for seasoned firearm owners.
+            The company expanded gradually over the years to eventually run out of a huge warehouse in Denver, Colorado under new management.
 
                </p>
-               <p> Since 2012, it has positioned itself as a reliable platform for the public service, and the community support has helped to step up in the Ecommerce world. However, Kushel Digi Solutions have played a crucial role in bringing it into the limelight with their expertise. <b>MadFish Solutions</b>  has offered us this opportunity and our team has put their best efforts to make it a successful project. </p>
+               <p> With its established reputation and increasing international orders, RaceWax  looked for a more robust, easier-to-use digital storefront to drive its growth.
+               </p>
 
           </div>
         </div>
@@ -233,15 +235,16 @@ At its Ecommerce platform, you can find ammunition equipment for Second Amendmen
             <h4> Challenges</h4>
             <div>
              <h5>
-             1. Regulatory Complexity
+             1. Outdated website structure with poor mobile responsiveness
              </h5>
-              <p>Selling firearms requires compliance with a Federal Firearms License. The business has to pass through age verification, location-based restrictions, and a lot of other things to be eligible to run an <b>E-commerce shopping</b>. </p>
-              <h5>2. Outdated Platform</h5>
-              <p>The previous website had many issues, such as UI and UX design, performance, and improper infrastructure. It was becoming a hindrance to traffic growth and scalability.</p>
-              <h5>3. Limited Search Experience</h5>
-              <p>As the inventory is large, finding the right product is pretty difficult. The users have to struggle because no advanced filtering and search refinements are there. </p>
-              <h5>4. Mobile-Friendliness</h5>
-              <p>Many of the potential customers exist on mobile, but the site wasn’t mobile-friendly. </p>
+              {/* <p>Selling firearms requires compliance with a Federal Firearms License. The business has to pass through age verification, location-based restrictions, and a lot of other things to be eligible to run an <b>E-commerce shopping</b>. </p> */}
+              <h5>2. Manual product management leading to inefficiencies</h5>
+              {/* <p>The previous website had many issues, such as UI and UX design, performance, and improper infrastructure. It was becoming a hindrance to traffic growth and scalability.</p> */}
+              <h5>3. Lack of integrated payment and shipping tools for global outreach</h5>
+              {/* <p>As the inventory is large, finding the right product is pretty difficult. The users have to struggle because no advanced filtering and search refinements are there. </p> */}
+              <h5>4. Complicated navigation and poor user experience</h5>
+              {/* <p>Many of the potential customers exist on mobile, but the site wasn’t mobile-friendly. </p> */}
+              <h5>Weak SEO performance and low discoverability</h5>
               
             </div>
             </div>
@@ -267,15 +270,17 @@ src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746785005/Group_1171279
             </div>
 
             <p className="s3theeparas">
-            Kushel Digi Solutions was ready for the challenges of transforming the site into a full-fledged <b>E-commerce solution</b>. We tailored our design strategy as per the requirements of the client. 
+            Our team of experts at Kushel Digi Solutions has created a fully bespoke eCommerce website on BigCommerce. We have revamped the site with a simple yet stunning user interface that portrays the brand's business image and performance-driven product range. 
 
             </p>
 
             <p className="s3theeparas">
-            From building the storefront using high-quality images to helping customers make well-informed decisions, we have made all these possible. 
+            The new website boasts sophisticated product categorization, intelligent filtering options, and mobile responsiveness to provide an impeccable shopping experience on all devices.
+ 
 
             </p>
-            <p>We also did a thorough research to identify the market gaps and analyze the best possible solution for the business. </p>
+            <p className="s3theeparas">Our team has also implemented secure global payment gateways on backend and dynamic shipping tools to streamline checkout and fulfillment processes. The system was implemented to simplify inventory and order management and make it simple for the RaceWax team. We also added SEO-optimized architecture to improve search visibility and provided
+            . </p>
 
           </div>
           <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746514576/2nd-A-solutions_s6apxz.png" alt="kushel" className="c3antoimg" /> 

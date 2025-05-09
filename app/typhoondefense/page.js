@@ -391,9 +391,10 @@ function typhoon() {
                 </p>
               </div>
               <div className="bgshowdb2" id="imgPortfolio_Ai_Phone">
+                
                 <img
                   // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632484/Group_1171281284_dpqrse.png"
-                  src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746717765/Group_1171279263_3_wuke5j.png"
+                  src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746803424/Group_1171279310_dkjyfg.png"
                   alt="kushel"
                   className="shadowbg2"
                 />

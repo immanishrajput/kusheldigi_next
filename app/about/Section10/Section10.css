@@ -184,7 +184,7 @@
 
       @media (max-width: 1024px) {
         .card-wrapper-wrapper {
-          width: 90%;
+          /* width: 90%; */
         }
         .overlayWrap {
           width: 100%;
@@ -356,7 +356,7 @@
       }
       @media (max-width:450px){
         .cardPhilo{
-         height: 250px;
+         min-height: 250px;
         }
         .text-contentSection h1{
           font-size: 24px;
