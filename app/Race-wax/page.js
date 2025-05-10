@@ -159,7 +159,7 @@ function Page() {
 
       <section className="case1firsec">
 
-  <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454210/2nd-home-banner_qpuz1w.jpg" alt="kushel" className="case1fill"/>
+  <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746860097/Group_1171279322_mj1rnm.png" alt="kushel" className="case1fill"/>
         {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216400/case1fil_bwtual.png" alt="kushel" className="case1fill" />
         <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216437/case1bg_j1tw2e.png" alt="kushel" className="case1bg" /> */}
 
@@ -244,13 +244,13 @@ function Page() {
               {/* <p>As the inventory is large, finding the right product is pretty difficult. The users have to struggle because no advanced filtering and search refinements are there. </p> */}
               <h5>4. Complicated navigation and poor user experience</h5>
               {/* <p>Many of the potential customers exist on mobile, but the site wasn’t mobile-friendly. </p> */}
-              <h5>Weak SEO performance and low discoverability</h5>
+              <h5>5.Weak SEO performance and low discoverability</h5>
               
             </div>
             </div>
 <div className="portfolioImageChallenge">
 <img
-src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746785005/Group_1171279298_a4is5k.png"
+src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746860243/Group_1171279336_elrenb.png"
             // src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746514576/2nd-A-challenges_hdngwv.png"
             alt="kushel"
           />
@@ -283,7 +283,7 @@ src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746785005/Group_1171279
             . </p>
 
           </div>
-          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746514576/2nd-A-solutions_s6apxz.png" alt="kushel" className="c3antoimg" /> 
+          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746860091/Group_1171279335_altan6.png" alt="kushel" className="c3antoimg" /> 
 
           {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216571/case3ano_uv19e1.png" alt="kushel" className="c3antoimg" /> */}
         </div>
@@ -311,14 +311,14 @@ src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746785005/Group_1171279
           <div className="cas3s4con" id="cas3s4connn">
 
    <div className="bgshowdb1" >
-            < img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784460/Group_1171279313_zyrxoy.png"/>
+            < img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746860086/Group_1171279328_xezpfu.png"/>
             {/* <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746710597/Group_1171279306_o1qdhn.png" alt="kushel" className="ca2insideimg adjustheighimg" /> */}
             {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
    </div>
 
             <div className="cas3circldata">
-              <h4>Design Phase (Figma) </h4>
-              <p>At first, we started with Figma to redesign the entire UI and UX. Keeping in mind the brand’s image, the design part featured clean and organized layouts. Our emphasis was on streamlining navigation while building a responsive site structure.  </p>
+              <h4>Wholesale-Ready Capability </h4>
+              <p>We launched bulk order capabilities, price-tiering, and personalized product filters enabling businesses to purchase in bulk and maintain their budgets easily. This enabled Hit Bazar to support an array of wholesale customers with different order requirements and price expectations. </p>
             </div>
 
           </div>
@@ -334,14 +334,15 @@ src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746785005/Group_1171279
           <div className="cas3s4con" id="cas3s4connn">
 
    <div className="bgshowdb1" id="bgshowdb11">
-          <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784461/Group_1171279309_1_z8a9ol.png"/>
+          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746860087/Group_1171279331_p9ldg7.png"/>
             {/* <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454204/e-commerce-development_wu34yd.png" alt="kushel" className="ca2insideimg adjustheighimg" />
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
    </div>
 
             <div className="cas3circldata">
-              <h4> E-Commerce Development</h4>
-              <p>Once done with the design, the development was completed using <b>BigCommerce development</b>. It was the best choice because the platform supports a robust storefront creation for product feed management. We considered everything before finishing the site’s design, like FFL selection, age verification, state-based restrictions, etc.  </p>
+              <h4>Simple Inventory Management</h4>
+              <p>Our team has designed the back-end in a way to support large product lists with distinct stock and price changes. It enables the Hit Bazar team to easily update without technical assistance. It has drastically minimized turnaround time for manual stock updates .
+              </p>
             </div>
 
           </div>
@@ -357,7 +358,7 @@ src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746785005/Group_1171279
 
    <div className="bgshowdb1">
             {/* <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784464/Group_1171279316_nc1yiv.png" alt="kushel" className="ca2insideimg addheightimage" /> */}
-            <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784464/Group_1171279316_nc1yiv.png" alt="kushel" className="" />
+            <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746860087/Group_1171279334_okkuos.png" alt="kushel" className="" />
    </div>
 
             <div className="cas3circldata">
@@ -478,12 +479,13 @@ src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746785005/Group_1171279
 <div className="result_Portfolio">
   <h5>Result & Impact</h5>
   <h6>
-  The improvement in the website led to significant changes in order placement, more customer flow, and streamlined operation. 
+  Since we launched Hit Bazar's BigCommerce-powered store, the company was able to grow beyond the physical boundaries, and new customers flocked to it from surrounding areas.
   </h6>
   <ul>
-    <li>The intuitive UI kept the visitors hooked for longer durations, causing a noticeable drop in bounce rates.</li>
-    <li>With faster site performance and simplified product discovery, the client experienced a boost in conversion rate. </li>
-    <li>Back-end integrations enabled the team to manage inventory, orders, and customer interactions more efficiently. </li>
+    <li>Online orders picked up gradually, and the simplified backend reduced errors made manually along with the speed of order processing.</li>
+    <li>The platform allowed Hit Bazar to work more effectively, fulfill growing customer expectations, and establish itself as a technologically advanced wholesale brand.
+    </li>
+    {/* <li>Back-end integrations enabled the team to manage inventory, orders, and customer interactions more efficiently. </li> */}
   
   </ul>
  
