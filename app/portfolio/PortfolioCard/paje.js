@@ -191,31 +191,72 @@ const portfolioData = [
 
 
 
-// {
-//   id: 'automotive-104',
+{
+  id: 'automotive-104',
 
  
-//   logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744280422/Untitled-1_nkikqq.png',
-//   platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
-//   description: [
-//       "UX/UI Website Design","Website Development","QA & Website Testing"
-// ],
-//   links: {
-//     liveStore: 'https://www.phastekperformance.com/',
+  logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1746889440/Group_1171279371_nqoess.png',
+  platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+  description: [
+      "UX/UI Website Design","Website Development","QA & Website Testing"
+],
+  links: {
+    liveStore: 'https://www.phastekperformance.com/',
 
-//     caseStudy: '/Ai',
-//     caseStudy: '/Race-wax',
-//     platform: '/bigcommerce-development',
-//   },
-//   case:' veiw Case Study',
-//   case1:'BigCommerce',
-//   line:'|',
-//   category: ["ecommerce"],
-// },
-
-
+    caseStudy: '/Ai',
+    caseStudy: '/Race-wax',
+    platform: '/bigcommerce-development',
+  },
+  case:' veiw Case Study',
+  case1:'BigCommerce',
+  line:'|',
+  category: ["ecommerce"],
+},
 
 
+{
+  id: 'automotive-150',
+
+ 
+  logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1746889440/Group_1171279370_vcvyey.png',
+  platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+  description: [
+      "UX/UI Website Design","Website Development","QA & Website Testing"
+],
+  links: {
+    liveStore: 'https://www.phastekperformance.com/',
+
+    caseStudy: '/Ai',
+    caseStudy: '/lafayette-shooters',
+    platform: '/bigcommerce-development',
+  },
+  case:' veiw Case Study',
+  case1:'BigCommerce',
+  line:'|',
+  category: ["ecommerce"],
+},
+
+{
+  id: 'automotive-151',
+
+ 
+  logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1746891179/Group_1171279369_qmin7o.png',
+  platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+  description: [
+      "UX/UI Website Design","Website Development","QA & Website Testing"
+],
+  links: {
+    liveStore: 'https://www.phastekperformance.com/',
+
+    caseStudy: '/Ai',
+    caseStudy: '/four-farm',
+    platform: '/bigcommerce-development',
+  },
+  case:' veiw Case Study',
+  case1:'BigCommerce',
+  line:'|',
+  category: ["ecommerce"],
+},
 
   {
     id: 'automotive-10',

@@ -15572,7 +15572,7 @@ max-width: 50%;
 .cas3circldata {
     max-width: 640px;
     width: 100%;
-    height: 640px;
+    height: 620px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75226,6 +75226,11 @@ input::-webkit-inner-spin-button {
     margin: auto;
 }
 
+@media(max-width:480px){
+.MainBloggSeCh3Img{
+    width: 100%;
+}
+}
 .mainBloContentSt {
     margin-top: 90px;
     display: flex;
@@ -75385,11 +75390,11 @@ input::-webkit-inner-spin-button {
     font-size: 20px;
     font-weight: 600;
 }
-@media(max-width:480px){
+/* @media(max-width:480px){
     .profileDate{
         padding: 20px;
     }
-}
+} */
 
 .cardSocial1 {
     position: relative;
@@ -75559,7 +75564,7 @@ input::-webkit-inner-spin-button {
 }
 
 .thirddd {
-    max-width: 1345px;
+    max-width: 1368px;
     margin: auto;
 }
 
@@ -75586,6 +75591,11 @@ input::-webkit-inner-spin-button {
     transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
 
+@media(max-width:1485px){
+    .mainBloContentSt{
+        padding: 20px 30px !important;
+    }
+}
 @media (max-width: 1024px) {
     .MainBloggSeC {
         padding: 13px;
@@ -75611,7 +75621,7 @@ input::-webkit-inner-spin-button {
         flex-direction: column;
         align-items: flex-start;
         text-align: left;
-        padding: 15px 0px 0px 0px;
+        /* padding: 15px 0px 0px 30px; */
         margin: 0;
     }
 
@@ -75651,7 +75661,7 @@ input::-webkit-inner-spin-button {
         margin: 60px auto 20px auto;
         width: 100%;
         padding-bottom: 20px;
-        text-align: left;
+        text-align: center !important;
     }
 
     .MainBloggSeCh3Img img {
@@ -75663,7 +75673,8 @@ input::-webkit-inner-spin-button {
     .mainBloContentSt {
         margin: 0;
         width: 100%;
-        padding: 15px 0px 0px 0px;
+        padding: 18px !important;
+        /* padding: 15px 0px 0px 0px; */
         flex-direction: column;
         align-items: flex-start;
         gap: 0px !important;
@@ -75812,6 +75823,9 @@ input::-webkit-inner-spin-button {
     .cardBlogSubBtn button {
         font-size: 14px;
         padding: 10px 20px;
+    }
+    .mainBloContentSt{
+        padding: 15px 0px !important;
     }
 }
 
@@ -76573,31 +76587,3 @@ ul {
 }
 
 
-/* blog detail  css */
- h1[dir="ltr"]{
-    font-size: 2.4rem !important;
-    font-weight: 600 !important;
-    padding: 20px 0px 20px 0px !important;
-
- }
- h2[dir="ltr"]{
-    font-size: 1.7rem !important;
-    font-weight: 500 !important;
-    padding: 20px 0px 20px 0px !important;
-    
-
- }
- h3[dir="ltr"]{
-    font-size: 1.3rem !important;
-    font-weight: 500 !important;
-    padding: 20px 0px 20px 0px !important;
-
- }
- h4[dir="ltr"]{
-    letter-spacing: 0rem !important;
- }
- li > p {
-    margin: 0;
-  }
-
- 
