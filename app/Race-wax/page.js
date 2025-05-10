@@ -5,6 +5,7 @@ import { TiTick } from "react-icons/ti";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
 import '../globals.css'
+import './race.css'
 import Navbar from "../COMMON/Navbar";
 
 import Footer from "../COMMON/Footer";
@@ -169,7 +170,7 @@ function Page() {
             <div className="case1fifirco">
               {/* left  */}
               <div className="ca1firleft">
-                <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784821/Group_1171279311_lf5dmj.png" alt="kushel" />
+                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746889440/Group_1171279371_nqoess.png" alt="kushel" />
                 <p>RaceWax</p>
               </div>
 
@@ -316,9 +317,10 @@ src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746860243/Group_1171279
             {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
    </div>
 
-            <div className="cas3circldata">
-              <h4>Wholesale-Ready Capability </h4>
-              <p>We launched bulk order capabilities, price-tiering, and personalized product filters enabling businesses to purchase in bulk and maintain their budgets easily. This enabled Hit Bazar to support an array of wholesale customers with different order requirements and price expectations. </p>
+            <div className="cas3circldata" id="cas3circldata1">
+              <h4>Scalable BigCommerce-Based Infrastructure </h4>
+              <p>Our experts team has leveraged BigCommerce's diversity to support large product catalogs, high traffic volumes, and global commerce functionality to build a platform that could scale with the brand. Its inherent scalability provided stable performance during promotion campaigns and holiday shopping seasons.
+              </p>
             </div>
 
           </div>
@@ -339,9 +341,10 @@ src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746860243/Group_1171279
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
    </div>
 
-            <div className="cas3circldata">
-              <h4>Simple Inventory Management</h4>
-              <p>Our team has designed the back-end in a way to support large product lists with distinct stock and price changes. It enables the Hit Bazar team to easily update without technical assistance. It has drastically minimized turnaround time for manual stock updates .
+            <div className="cas3circldata" id="cas3circldata1">
+              <h4>Improved UX for Global Shoppers
+              </h4>
+              <p>From mobile responsiveness to easy product filtering, the new design streamlined the shopping experience for customers globally, resulting in increased engagement and reduced bounce rates.Localization capabilities and multi-currency functionality assisted in enhancing conversions region-wise.
               </p>
             </div>
 
@@ -361,9 +364,12 @@ src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746860243/Group_1171279
             <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746860087/Group_1171279334_okkuos.png" alt="kushel" className="" />
    </div>
 
-            <div className="cas3circldata">
-              <h4>App Integrations </h4>
-              <p>Now, the website is ready to launch. But before doing so, it was important to integrate additional tools for operational performance. The integration covered inventory management, SEO marketing, payment smoothness, and so on. </p>
+            <div className="cas3circldata" id="cas3circldata1">
+              <h4>Mobile-First Experience
+
+              </h4>
+              <p>The site was optimized for mobile users from the ground up, with quick loading times, responsive design, and effortless browsing on any device. Touch-friendly navigation and streamlined checkout procedures ensured smooth mobile shopping.
+              </p>
             </div>
 
           </div>
@@ -479,11 +485,12 @@ src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746860243/Group_1171279
 <div className="result_Portfolio">
   <h5>Result & Impact</h5>
   <h6>
-  Since we launched Hit Bazar's BigCommerce-powered store, the company was able to grow beyond the physical boundaries, and new customers flocked to it from surrounding areas.
+  After the launch, RaceWax experienced enhanced site speed, enhanced user engagement, and a significant boost in international sales.
   </h6>
   <ul>
-    <li>Online orders picked up gradually, and the simplified backend reduced errors made manually along with the speed of order processing.</li>
-    <li>The platform allowed Hit Bazar to work more effectively, fulfill growing customer expectations, and establish itself as a technologically advanced wholesale brand.
+    <li>The improved backend minimized manual labor, while the optimized frontend assisted in building their brand identity and customer trust.</li>
+    <li> In total, the platform upgrade set RaceWax.com up for further global expansion and long-term digital success.
+    
     </li>
     {/* <li>Back-end integrations enabled the team to manage inventory, orders, and customer interactions more efficiently. </li> */}
   

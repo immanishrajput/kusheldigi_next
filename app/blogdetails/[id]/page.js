@@ -201,7 +201,7 @@ export default function BlogDetails() {
                <div>
                <p> <b>{currentBlog?.author}</b></p>
               <p>{currentBlog?.designation || 'N/A'}</p>
-           <br/>
+           
               <p><b> {currentBlog?.time}</b> Read Deep Think Big<br/> <br/>
               </p>
                </div>

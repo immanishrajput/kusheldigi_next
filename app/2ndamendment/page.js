@@ -5,6 +5,7 @@ import { TiTick } from "react-icons/ti";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
 import '../globals.css'
+import './amend.css'
 import Navbar from "../COMMON/Navbar";
 
 import Footer from "../COMMON/Footer";
@@ -311,7 +312,7 @@ src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746785005/Group_1171279
             {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
    </div>
 
-            <div className="cas3circldata">
+            <div className="cas3circldata" id="cas3circldata1">
               <h4>Design Phase (Figma) </h4>
               <p>At first, we started with Figma to redesign the entire UI and UX. Keeping in mind the brand’s image, the design part featured clean and organized layouts. Our emphasis was on streamlining navigation while building a responsive site structure.  </p>
             </div>
@@ -334,7 +335,7 @@ src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746785005/Group_1171279
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
    </div>
 
-            <div className="cas3circldata">
+            <div className="cas3circldata" id="cas3circldata1">
               <h4> E-Commerce Development</h4>
               <p>Once done with the design, the development was completed using <b>BigCommerce development</b>. It was the best choice because the platform supports a robust storefront creation for product feed management. We considered everything before finishing the site’s design, like FFL selection, age verification, state-based restrictions, etc.  </p>
             </div>
@@ -355,7 +356,7 @@ src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746785005/Group_1171279
             <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784464/Group_1171279316_nc1yiv.png" alt="kushel" className="" />
    </div>
 
-            <div className="cas3circldata">
+            <div className="cas3circldata" id="cas3circldata1">
               <h4>App Integrations </h4>
               <p>Now, the website is ready to launch. But before doing so, it was important to integrate additional tools for operational performance. The integration covered inventory management, SEO marketing, payment smoothness, and so on. </p>
             </div>
