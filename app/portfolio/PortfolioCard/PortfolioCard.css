@@ -88,6 +88,7 @@
     width: 380px;
     height:420px;
     overflow: hidden;
+    background: linear-gradient(to top, rgba(0, 0 ,0, 0.6), transparent);
 }
 .each-portfolio:before {
     content: "";
@@ -148,11 +149,12 @@
        
      }
      #automotive-104{
-        background-image: url("https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746541118/image_3_dptpxb.png");
+        background-image: url("https://res.cloudinary.com/dal5dlztv/image/upload/v1746863636/image_11_clqxbw.png");
+       
      }
 
      #automotive-100{
-        background-image: url("https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746543357/image_7_lh8rgr.png");
+        background-image: url("https://res.cloudinary.com/dal5dlztv/image/upload/v1746863636/image_11_clqxbw.png");
      }
      #automotive-101{
         background-image: url("https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746541117/image_5_tw9wok.png");
@@ -181,6 +183,7 @@
      #automotive-17{
         background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478552/jkki1_hzx3ni.png");
      }
+   
      #automotive-18{
         background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478887/weba1_iukjgl.png");
      }

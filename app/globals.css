@@ -14450,7 +14450,7 @@ max-width: 50%;
 
 .cas3circldata2 h4 {
     font-family: Poppins;
-    font-size: 22px;
+    font-size: 22px !important;
     font-weight: 600;
     line-height: 32px;
     padding: 35px !important;
@@ -14848,7 +14848,7 @@ max-width: 50%;
 
 @media (max-width:500px) {
     .cas3circldata2 h4 {
-        font-size: 16px;
+        font-size: 16px !important;
         line-height: 19px;
         padding: 10px !important;
     }
@@ -14887,9 +14887,9 @@ max-width: 50%;
 
 @media (max-width:375px) {
     .cas3circldata2 h4 {
-        font-size: 10px;
+        font-size: 10px !important;
         padding: 10px !important;
-        line-height: 19px;
+        line-height: 19px !important;
     }
 }
 @media (max-width:400px) {
@@ -75227,18 +75227,19 @@ input::-webkit-inner-spin-button {
 }
 
 .mainBloContentSt {
-    margin-top: 20px;
+    margin-top: 90px;
     display: flex;
-    justify-content: center;
+    gap: 50px;
+    /* justify-content: center; */
     align-items: self-start;
 }
 
 .mainBloContentStPara {
-    position: relative;
-    right: 13%;
-    margin-top: 8px;
+    position: none !important;
+    /* right: 13%;
     display: flex;
-    gap: 10px;
+    gap: 10px; */
+    margin-top: 8px;
 }
 
 .mainBloContentStPara p {
@@ -75380,7 +75381,7 @@ input::-webkit-inner-spin-button {
 }
 
 .profileDate {
-    padding-top: 60px;
+  
     font-size: 20px;
     font-weight: 600;
 }
@@ -75392,17 +75393,20 @@ input::-webkit-inner-spin-button {
 
 .cardSocial1 {
     position: relative;
-    max-width: 766px;
-    display: flex;
+    max-width: 842px;
+    display: flex
+;
     justify-content: space-between;
     align-items: center;
     background: white;
-    padding: 15px;
+    /* gap: 100px; */
+    padding: 15px 10px 12px 0;
     margin: 0 auto;
     border-radius: 8px;
     margin-top: 20px;
     flex-wrap: wrap;
 }
+
 
 .profile img {
     width: 50px;
@@ -76570,8 +76574,8 @@ ul {
 
 /* blog detail  css */
  h1[dir="ltr"]{
-    font-size: 2.5rem !important;
-    font-weight: 500 !important;
+    font-size: 2.4rem !important;
+    font-weight: 600 !important;
     padding: 20px 0px 20px 0px !important;
 
  }
@@ -76587,6 +76591,9 @@ ul {
     font-weight: 500 !important;
     padding: 20px 0px 20px 0px !important;
 
+ }
+ h4[dir="ltr"]{
+    letter-spacing: 0rem !important;
  }
  li > p {
     margin: 0;
