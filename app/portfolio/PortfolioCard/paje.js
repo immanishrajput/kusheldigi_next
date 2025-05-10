@@ -765,16 +765,17 @@ const Portfolio = () => {
                   })}
                   <ul>
                     
-                    <li>
+                    {/* <li> */}
                     <button className='view-case-btn'> 
                       <Link href={item.links?.caseStudy}>
                              {item.case}
                     </Link>
                     </button>
-                    </li>
+
+                    {/* </li> */}
                   
                     {/* <li className="list-divider">{item?.line}</li> */}
-                    <li>
+                    {/* <li> */}
 
 
 {/*                  
@@ -786,7 +787,7 @@ const Portfolio = () => {
  
  
 
-</li>
+{/* </li> */}
 
 
                     {/* <li><a href={item.links?.platform}>
