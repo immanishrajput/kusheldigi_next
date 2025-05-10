@@ -8,7 +8,7 @@ ul {
 
 .mainBloContentPa li{
     list-style: auto;
-    font-size: 19px;
+    /* font-size: 19px; */
 
 }
 
@@ -68,3 +68,35 @@ p{
         margin-top: 130px !important;
     }
 }
+
+
+@media (max-width: 768px) {
+    h1[dir="ltr"] {
+      font-size: 2rem !important;
+    }
+  
+    h2[dir="ltr"] {
+      font-size: 1.5rem !important;
+    }
+  
+    h3[dir="ltr"] {
+      font-size: 1.1rem !important;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1[dir="ltr"] {
+      font-size: 1.6rem !important;
+    
+    }
+  
+    h2[dir="ltr"] {
+      font-size: 1.3rem !important;
+    
+    }
+  
+    h3[dir="ltr"] {
+      font-size: 1rem !important;
+     
+    }
+  }
