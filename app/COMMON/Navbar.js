@@ -174,10 +174,10 @@ const data = [
           },
         ],
       },
-      {
-        title: "custom software development",
-        navigate: "/custom-software-development",
-      },
+      // {
+      //   title: "custom software development",
+      //   navigate: "/custom-software-development",
+      // },
       // {
       //   title: "multi-level marketing",
       //   navigate: "/multi-level-marketing"
@@ -577,9 +577,9 @@ const Navbar = () => {
                             </div>
                             <div className="left-side-servises-containt">
                               <div className="left-head-services left-head-services-bootom">
-                                <Link href="/custom-software-development">
+                                {/* <Link href="/custom-software-development">
                                   <span>Custom Software Development</span>
-                                </Link>
+                                </Link> */}
                               </div>
                             </div>
                             <div className="left-side-servises-containt">
