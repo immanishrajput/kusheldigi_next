@@ -90,7 +90,8 @@ const BenefitsOfWorkingKDS = () => {
 
         <div className="benefits-of-working-flex-container">
           <div className="benefits-of-working-left">
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744696528/CSD-tech-img-01_gpbso7.png" alt="" />
+            <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746984236/with-us_quuvi0.png" alt="" />
+            {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744696528/CSD-tech-img-01_gpbso7.png" alt="" /> */}
           </div>
           <div className="benefits-of-working-right">
             {

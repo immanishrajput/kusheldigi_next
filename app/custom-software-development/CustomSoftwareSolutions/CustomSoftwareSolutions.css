@@ -34,7 +34,7 @@
 }
 
 .custom-slide-icon-cont {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,6 +45,11 @@
 
 .custom-slide-icon-cont > svg {
     font-size: 1.5rem;
+}
+.custom-slide-img{
+    width: 63px;
+    height: 63px;
+    object-fit: contain;
 }
 
 .custom-slide-solutions > h3 {
