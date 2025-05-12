@@ -116,7 +116,7 @@ useEffect(() => {
        
             <div className="ser-main">
               <div className="phppp-main">
-                <div className="php-back dine-123">
+                <div className="php-back">
                     <div className="php-back1 native_back1 reactnativehireee">
                         <h1>Hire Android Developers</h1>
                         {/* <h2>Native App Development Company</h2> */}
@@ -433,7 +433,7 @@ useEffect(() => {
 
                 <div className="android_appli">
                     <h2>Why Choose Android Application Developers from Kushel Digi?</h2>
-                    <div className="apli-cards dine-123">
+                    <div className="apli-cards">
                         <div className="apli-card">
                             <div className="apli-box">
                                 <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724917992/download_32_aovmoc.png" alt="Diverse Expertise Network" title='Diverse Expertise Network' />

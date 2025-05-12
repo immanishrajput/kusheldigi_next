@@ -111,7 +111,7 @@ const ContactForm = ({ notify }) => {
         </div>
       )} */}
       <div>
-        <div className="flex items-start justify-center discusion-form discusion-form1 dine-123">
+        <div className="flex items-start justify-center discusion-form discusion-form1">
           <div className="w-full  mrs mrs1">
             <h3>Let’s Discuss your Project</h3>
             <form onSubmit={handleSubmit} className="trants">

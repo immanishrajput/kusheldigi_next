@@ -100,7 +100,7 @@ const IosHire = () => {
         {/* </Helmet> */}
             <div className="ser-main">
             <div className="phppp-main">
-                <div className="php-back dine-123">
+                <div className="php-back">
                     <div className="php-back1 native_back1 reactnativehireee">
                         <h1>iOS App Development Company</h1>
                         <p>

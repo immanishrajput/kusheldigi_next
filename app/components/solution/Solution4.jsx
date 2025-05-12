@@ -81,7 +81,7 @@ useEffect(() => {
       <div className="ser-main">
 
         <div className="soluttion-mainn">
-          <div className="solution_back dine-123">
+          <div className="solution_back">
             <div className="solution_back1">
               <h1>
                 E-commerce <br /> Development Solutions
@@ -99,7 +99,7 @@ useEffect(() => {
         </div>
 
         <div className="influenceee">
-          <div className="influence_some dine-123">
+          <div className="influence_some">
             <div className="influence_left ">
               <div className="indo">
                 <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724930470/influ.cdd5308f93f6cbfb71a2_sllptl.png
@@ -135,7 +135,7 @@ useEffect(() => {
               </p>
             </div>
 
-            <div className="business-card flex-wrap">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-14 px-4 py-8">
               <div className="business-box busi-box relative text-center cursor-pointer">
                 <div className="business-card-img">
                   <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740481029/penda_b2myld.png' alt="E-commerce Consulting" title="E-commerce Consulting" />
@@ -342,7 +342,7 @@ useEffect(() => {
           </div>
         </div>
 
-        <div className="solution_expertise dine-123">
+        <div className="solution_expertise">
           <div className="solution_expertise1">
             <h5>Our Expertise</h5>
             <p>

@@ -179,7 +179,7 @@
     position: absolute;
     content: '';
     width: 2px;
-    height: 0px;
+    height: 530px !important;
     left: -11px;
     top: 17px;
     background: blue;

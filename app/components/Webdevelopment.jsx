@@ -144,7 +144,7 @@ const generateMetadata = ({ params }) => ({
     <Navbar/>
       <div className="ser-main">
         <div className="ser1 serji serji1 ">
-          <div className="ser11  flex items-center justify-between webDoveeee dine-123">
+          <div className="ser11  flex items-center justify-between webDoveeee">
             <div className="ser111 webbb-paraag">
           
               <h1 className="blue change_web" id="change_x">Web development services to lead<br /> the industry</h1>

@@ -131,7 +131,9 @@ const Website = () => {
                     alt="call"
                   />
                 </p>
-                <h3 className="us-number">+1-585-566-2070</h3>
+                <a href="tel:+15855662070">
+                  <h3 className="us-number">+1-585-566-2070</h3>
+                </a>
                 <p className="country">United States</p>
                 <svg className="phone-icon" version="1.0" xmlns="http://www.w3.org/2000/svg"
                   width="15" height="15" viewBox="0 0 300.000000 300.000000"
@@ -167,7 +169,9 @@ const Website = () => {
                     alt="call"
                   />
                 </p>
-                <h3 className="us-number">+91 9045301702</h3>
+                <a href="tel:+919045301702">
+                  <h3 className="us-number">+91 9045301702</h3>
+                </a>
                 <p className="country">India</p>
                 {/* <img
                   loading="lazy"

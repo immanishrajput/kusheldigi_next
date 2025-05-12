@@ -291,7 +291,7 @@ const Website = () => {
                         <li>
                           <h4>
                             <Link href="/web-development" target="">
-                              <span>web development</span>
+                              <span>Web development</span>
                             </Link>
                           </h4>
                         </li>
@@ -469,25 +469,25 @@ const Website = () => {
                         <li>
                           <h4>
                             <Link href="/web-development" target="">
-                              <span>Web Development</span>
+                              <span>Product Strategy & Roadmap</span>
                             </Link>
                           </h4>
                         </li>
                         <li>
                           <h4>
                             <Link href="/mobile-application-development" target="">
-                              <span>Mobile App Development</span>
+                              <span>Product Design</span>
                             </Link>
                           </h4>
                         </li>
                         <li>
                           <h4>
                             <Link href="/native" target="">
-                              <span>Native</span>
+                              <span>UI/UX Services</span>
                             </Link>
                           </h4>
                         </li>
-                        <li>
+                        {/* <li>
                           <h4>
                             <Link href="#" target="">
                               <span>Cross platform</span>
@@ -507,7 +507,7 @@ const Website = () => {
                               <span>PWA(Progressive Web App)</span>
                             </Link>
                           </h4>
-                        </li>
+                        </li> */}
 
 
                       </ul>

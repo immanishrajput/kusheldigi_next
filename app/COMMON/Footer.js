@@ -18,7 +18,7 @@ const Footer = () => {
     <>
       <footer className="foot">
         <div className="footer-Bg-img">
-          <div className="foot1 justify-between dine-123 footer-first-main">
+          <div className="foot1 justify-between footer-first-main">
             <div className="foot11 foot111">
               <div className="foot10 footsa">
                 <img width="205" height="62" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738997610/kdsKin_hydlf3.png' alt="KDS logo" title="KDS logo" />
