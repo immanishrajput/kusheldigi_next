@@ -88,7 +88,7 @@ const MobileApp = ({ notify }) => {
 
       <div className="ser-main">
         <div className="serjii1">
-          <div className="ser11 px-24 flex items-center justify-between dine-123">
+          <div className="ser11 px-24 flex items-center justify-between">
             <div className="ser111 btn-all">
               <h1 className="blue" id="change_x">Affordable IOS and Android Mobile Application Development  </h1>
               <p className="ac" id="change_y">
@@ -113,7 +113,7 @@ const MobileApp = ({ notify }) => {
         <div className="ser2 ser-vertical ">
           <div className="ser21 ser23 ">
 
-            <div className="home412 flex justify-center items-center dine-123">
+            <div className="home412 flex justify-center items-center">
               <Splide
                 className=" w-full"
                 aria-label="Our Services"

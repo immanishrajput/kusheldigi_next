@@ -73,7 +73,7 @@ const HireWordpress = () => {
             <div className="ser-main">
 
             <div className="phppp-main">
-                <div className="php-back dine-123">
+                <div className="php-back ">
                     <div className="php-back1">
                         <h1>Hire Wordpress Developers</h1>
                         <p>Seeking to build a front-end application that not only promotes but also enhances your cutting-edge concept? Choose Dian's ReactJS developers.

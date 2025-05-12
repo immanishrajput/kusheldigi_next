@@ -31,7 +31,7 @@ const Page = () => {
         const filteredBlogs = data?.blogs?.filter(blog =>
           blog?.domain?.includes(domainToFilter)
         );
-        setGetAllBlogs(filteredBlogs);
+       setGetAllBlogs(filteredBlogs.reverse());
       } else {
         console.error("Failed to fetch categories:", data?.message);
       }

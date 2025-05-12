@@ -84,7 +84,7 @@ const generateMetadata = ({ params }) => ({
     
       <div className="ser-main">
         <div className="ser1 serji  serji2 uiux_bg">
-          <div className="uiux_padd px-24 pt-12 pb-4 flex justify-between dine-123">
+          <div className="uiux_padd px-24 py-16 flex justify-between items-center gap-5">
             <div className="ser111 uiux-btn">
               <h2 className="seru">CUSTOM WEB DESIGN COMPANY</h2>
               <h1 className="blue">Strategic Brand Communication with custom web design</h1>
@@ -224,7 +224,7 @@ const generateMetadata = ({ params }) => ({
           </div>
         </div>
 
-        <div className="how-ux dine-123">
+        <div className="how-ux ">
           <div className="how-ux1">
             <h3>
               How is UX design valuable to my <br /> business?

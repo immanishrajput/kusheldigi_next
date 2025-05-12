@@ -119,7 +119,7 @@ function DigitalMarketing({notify}) {
             </div>
           </section>
          
-          <section className="packages_section dine-123">
+          <section className="packages_section">
             <div className="packages digi-packages">
               <div className="package-types text-center">
                 <h3 className="font-bold">Why Does Your Businesses Need</h3>

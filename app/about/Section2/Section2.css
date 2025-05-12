@@ -4,10 +4,10 @@
     margin: auto;
 }
 .boostSecPara{
-    width: 673px;
-    font-weight: 400;
-    line-height:52px;
-    font-size: 42px;
+   width: 673px;
+    font-weight: 600;
+    line-height: 52px;
+    font-size: 48px;
 }
 .boostSecPara span{
 color: #0c61ff;
