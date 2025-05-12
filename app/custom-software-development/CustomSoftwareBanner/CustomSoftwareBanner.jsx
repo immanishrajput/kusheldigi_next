@@ -1,5 +1,4 @@
 'use client'
-
 import React from 'react';
 import "./CustomSoftwareBanner.css";
 import { FaArrowRightLong } from 'react-icons/fa6';
@@ -31,7 +30,8 @@ const CustomSoftwareBanner = () => {
                 </div>
             </div>
             <div className='custom-software-dev-right'>
-                <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744624721/Custom-Software-Development_2x-1_fzz4tm.webp" alt="" />
+                {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744624721/Custom-Software-Development_2x-1_fzz4tm.webp" alt="" /> */}
+                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746984206/Empower-and-elevate_hzd8eq.png" alt="" />
             </div>
         </div>
     </div>
