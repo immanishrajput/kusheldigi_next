@@ -45,16 +45,17 @@ export default function BlogDetails() {
     async function fetchBlogData() {
       try {
         const [blogRes, recentRes] = await Promise.all([
-          fetch(`${baseurl}/api/v1/auth/singleblog/${id}`),
+          fetch(`${baseurl}/api/v1/auth/SingleBlogBySlug/${id}`),
           fetch(`${baseurl}/api/v1/auth/getRecentBlog`),
         ]);
 
-        if (blogRes.ok) {
+       
           const blogData = await blogRes.json();
-          setCurrentBlog(blogData?.data);
-        } else {
-          console.error("Failed to fetch blog details");
-        }
+          console.log(blogData);
+          setCurrentBlog(blogData?.data[0]);
+        //  else {
+        //   console.error("Failed to fetch blog details");
+        // }
 
         if (recentRes.ok) {
           const recentData = await recentRes.json();
@@ -153,9 +154,9 @@ export default function BlogDetails() {
         {currentBlog ? (
           <div>
 
-            <h3 className="MainBloggSeCh3">{currentBlog.title}</h3>
+            <h3 className="MainBloggSeCh3">{currentBlog?.title}</h3>
             <div className="MainBloggSeCh3Img">
-              <img src={currentBlog.banner?.[0]} alt={currentBlog.title} />
+              <img src={currentBlog?.banner?.[0]} alt={currentBlog?.title} />
             </div>
           </div>
         ) : (
@@ -276,7 +277,7 @@ export default function BlogDetails() {
             <section className="cardMainBlogSec" id="cardMainBlogSecc">
               {recentBlogs.length > 0 ? (
                 recentBlogs.map((item, index) => (
-                  <Link href={`/blogdetails/${item._id}`} key={index} className="cardBlogSt">
+                  <Link href={`/blog/${item.slug}`} key={index} className="cardBlogSt">
                     <div className="cardBlogStImg">
                       <img src={item.images?.[0]} alt={item.title} />
                     </div>

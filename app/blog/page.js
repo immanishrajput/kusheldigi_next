@@ -221,7 +221,7 @@ const Page = () => {
             <section className="blog-second-section">
               <div className="bimagelogMain">
                 <div className="bimagelog">
-                  <Link href={`/blogdetails/${getAllBlogs[0]?._id}`}>
+                  <Link href={`/blog/${getAllBlogs[0]?.slug}`}>
                     <img src={getAllBlogs[0]?.images} alt="" />
                   </Link>
                 </div>
@@ -237,7 +237,7 @@ const Page = () => {
                     )}
                   </p>
                   <div className="bimageloDiPara11">
-                    <Link href={`/blogdetails/${getAllBlogs[0]?._id}`}>
+                    <Link href={`/blog/${getAllBlogs[0]?.slug}`}>
                       <div className="bimageloDiPARa12">
                         <p className="bimageloDiPara">
                           {getAllBlogs[0]?.title?.slice(0, 24)}
@@ -255,7 +255,7 @@ const Page = () => {
                     </p>
 
                     <div className="blogClockTime">
-                      <Link href={`/blogdetails/${getAllBlogs[0]?._id}`}>
+                      <Link href={`/blog/${getAllBlogs[0]?.slug}`}>
                         <span className="bimageloDiPaara">Read More</span>
                       </Link>
                       <span className="bimageloDiPargaph">
@@ -286,7 +286,7 @@ const Page = () => {
                   {recentBlog.map((item, index) => {
                     return (
                       <Link
-                        href={`/blogdetails/${item._id}`}
+                        href={`/blog/${item.slug}`}
                         key={index}
                         className="news-item"
                       >
@@ -335,7 +335,7 @@ const Page = () => {
                 <div className="cardMainBlogSec">
                   {cat.blogs.slice(0, 6).map((item, index) => (
                     <div className="cardBlogSt" key={index}>
-                      <Link href={`/blogdetails/${item._id}`}>
+                      <Link href={`/blog/${item.slug}`}>
                         <div>
                           <div className="cardBlogStImg">
                             <img src={item.images?.[0]} alt={item.title} />
@@ -356,7 +356,7 @@ const Page = () => {
                         </div>
                       </Link>
                       <div className="blogClockTime1">
-                        <Link href={`/blogdetails/${item._id}`}>
+                        <Link href={`/blog/${item.slug}`}>
                           <p className="cardBlogStpaarw">Read More</p>
                         </Link>
                         <span className="bimageloDiPargaph1">
@@ -378,7 +378,7 @@ const Page = () => {
               <div className="cardMainBlogSec">
                 {(filteredBlogs.length > 0 ? filteredBlogs : []).slice(0, 6).map((item, index) => (
                   <div className="cardBlogSt" key={index}>
-                    <Link href={`/blogdetails/${item._id}`}>
+                    <Link href={`/blog/${item.slug}`}>
                       <div>
                         <div className="cardBlogStImg">
                           <img src={item.images?.[0]} alt={item.title} />
@@ -399,7 +399,7 @@ const Page = () => {
                       </div>
                     </Link>
                     <div className="blogClockTime1">
-                      <Link href={`/blogdetails/${item._id}`}>
+                      <Link href={`/blog/${item.slug}`}>
                         <p className="cardBlogStpaarw">Read More</p>
                       </Link>
                       <span className="bimageloDiPargaph1">
@@ -428,7 +428,7 @@ const Page = () => {
             <div className="bimagelogMain">
               <div className="bimagelog">
                 {currentTasks[0]?.images?.[0] ? (
-                  <Link href={`/blogdetails/${currentTasks[0]._id}`}>
+                  <Link href={`/blog/${currentTasks[0].slug}`}>
                     <img
                       src={currentTasks[0].images[0]}
                       alt={currentTasks[0].title || "Main Blog"}
@@ -441,7 +441,7 @@ const Page = () => {
 
               <div className="bimageloDi">
                 <div className="bimageloDiPARa12">
-                  <Link href={`/blogdetails/${currentTasks[0]._id}`}>
+                  <Link href={`/blog/${currentTasks[0].slug}`}>
                     <h2 className="bimageloDiPara">
                       {currentTasks[0]?.title || "No Title"}
                     </h2>
@@ -462,7 +462,7 @@ const Page = () => {
             {currentTasks.length > 1 ? (
               currentTasks.slice(1, 5).map((item, index) => (
                 <Link
-                  href={`/blogdetails/${item._id}`}
+                  href={`/blog/${item.slug}`}
                   key={index}
                   className="smallBlogCard"
                 >
