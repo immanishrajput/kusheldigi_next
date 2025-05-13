@@ -14,6 +14,7 @@ import WordpressFAQ from '../COMMON/WordpressFAQ';
 import '../globals.css'
 import Navbar from '../COMMON/Navbar';
 import Footer from '../COMMON/Footer';
+import Website from '../components/Home/HomeForm';
 const WordPress = () => {
     const [hovered, setHovered] = useState(false);
     const [hovered2, setHovered2] = useState(false);
@@ -47,41 +48,41 @@ const WordPress = () => {
             behavior: 'smooth',
         });
     };
- const generateMetadata = ({ params }) => ({
-    title: 'Your Premier WordPress Development Company for Innovative Solutions',
-    description:"KushelDigi Solutions Provides the Best WordPress Development Services our expert developers specialize in creating and customizing unique websites"
-  });
-  
-useEffect(() => {
-    const { title, description } = generateMetadata({ params: {} });
-    document.title = title;
-    let metaDescription = document.querySelector('meta[name="description"]');
-    metaDescription ? metaDescription.content = description : 
-      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-  }, []);
+    const generateMetadata = ({ params }) => ({
+        title: 'Your Premier WordPress Development Company for Innovative Solutions',
+        description: "KushelDigi Solutions Provides the Best WordPress Development Services our expert developers specialize in creating and customizing unique websites"
+    });
+
+    useEffect(() => {
+        const { title, description } = generateMetadata({ params: {} });
+        document.title = title;
+        let metaDescription = document.querySelector('meta[name="description"]');
+        metaDescription ? metaDescription.content = description :
+            document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+    }, []);
 
     return (
         <>
 
-<Head>
-        {/* Open Graph (OG) Meta Tags */}
-        <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
-        <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
-        <meta property="og:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
-        <meta property="og:url" content="https://www.kusheldigi.com/" />
-        <meta property="og:type" content="website" />
+            <Head>
+                {/* Open Graph (OG) Meta Tags */}
+                <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
+                <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
+                <meta property="og:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
+                <meta property="og:url" content="https://www.kusheldigi.com/" />
+                <meta property="og:type" content="website" />
 
-        {/* Twitter Card Meta Tags */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Kushel Digi | Expert eCommerce Development Services" />
-        <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
-        <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
-        <meta name="twitter:url" content="https://www.kusheldigi.com/" />
-      </Head>
-           <Navbar/>
+                {/* Twitter Card Meta Tags */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Kushel Digi | Expert eCommerce Development Services" />
+                <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
+                <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
+                <meta name="twitter:url" content="https://www.kusheldigi.com/" />
+            </Head>
+            <Navbar />
             <div className="ser-main">
                 <div className='word_press word-press1'>
-                    <div className="wordpress-back012 dine-123">
+                    <div className="wordpress-back012 ">
                         <div className="wordpress-back1">
                             <div className="word_press_head">
                                 <h1>Empowering Web Presence Wordpress Developing Solutions</h1>
@@ -89,7 +90,7 @@ useEffect(() => {
                             <div className="word_press_para">
                                 <p>WordPress development is the building as well as maintenance of WordPress websites. It is an open-source platform ,to design In India. Migrate or maintain outstanding WordPress Website at a great price.</p>
                             </div>
-                        <br/>
+                            <br />
                             <Link href="/contact-us" className="buttunn buttunn1"><button>Lets get started
                                 <svg className="ml-2" width="15" height="13" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M15.0811 10.0655C14.8304 10.0655 14.6785 10.0655 14.5342 10.0655C10.1051 10.0655 5.6761 10.0655 1.24707 10.0655C0.35823 10.0655 -0.203945 9.33411 0.0695453 8.54173C0.236678 8.07696 0.578542 7.83316 1.06475 7.77982C1.20149 7.76458 1.34583 7.77982 1.48258 7.77982C5.85083 7.77982 10.2115 7.77982 14.5797 7.77982C14.7165 7.77982 14.8532 7.77982 15.0735 7.77982C14.9368 7.62744 14.8532 7.52839 14.7621 7.43696C13.2883 5.95887 11.8144 4.47316 10.333 2.99506C9.99118 2.6522 9.78606 2.27125 9.9228 1.76839C10.1431 0.976012 11.0548 0.663631 11.7081 1.15887C11.8296 1.2503 11.936 1.36458 12.0424 1.47125C14.2303 3.66554 16.4106 5.8522 18.5985 8.03887C19.1303 8.5722 19.1455 9.25792 18.6137 9.78363C16.3878 12.016 14.1543 14.2484 11.9284 16.4808C11.5865 16.8236 11.1991 17.0141 10.6977 16.8617C9.9228 16.6255 9.62652 15.7341 10.1127 15.0865C10.2039 14.9646 10.3178 14.8579 10.4242 14.7513C11.8676 13.3036 13.3035 11.8636 14.7469 10.416C14.838 10.3246 14.9292 10.2255 15.0811 10.0655Z" fill="white" />
@@ -102,7 +103,7 @@ useEffect(() => {
                     </div>
                 </div>
 
-                <div className="wordpress_about dine-123">
+                <div className="wordpress_about ">
                     <div className="wordpress_about_left">
                         <h2>WHY USE <span>WORDPRESS</span> TO BUILD A WEBSITE? </h2>
                         <div className="wordpress-paras">
@@ -507,9 +508,9 @@ useEffect(() => {
                     </div>
                 </div>
 
-                <ContactForm1 />
-                 <WordpressFAQ/>
-                </div>
+                <Website />
+                <WordpressFAQ />
+            </div>
             <div className="whtsApBtns">
                 <button onClick={whatAppHandler}>
                     <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172941/whatsapp_cowbb8.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
@@ -519,7 +520,7 @@ useEffect(() => {
                 </button>
 
             </div>
-            <Footer/>
+            <Footer />
 
         </>
     );

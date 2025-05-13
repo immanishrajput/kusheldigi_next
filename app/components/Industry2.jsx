@@ -1092,6 +1092,7 @@ function Industries() {
                     viewBox="0 0 72 72"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
+                    className="arrow-btn"
                   >
                     <rect
                       x="-1"
@@ -1124,6 +1125,7 @@ function Industries() {
                     viewBox="0 0 72 72"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
+                    className="arrow-btn"
                   >
                     <rect
                       x="1"

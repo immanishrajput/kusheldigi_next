@@ -134,7 +134,7 @@ useEffect(() => {
                 </div>
 
                 <div className="key_features dine-1234">
-                    <div className="key_features1">
+                    <div className="key_features1 ">
                         <h2>KEY FEATURES</h2>
                         <div className="features_card">
                             <div className="features_box">

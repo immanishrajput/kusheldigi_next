@@ -71,7 +71,7 @@ const Reactjsdev = () => {
         {/* ********************************************************************************** */}
 
         <div className="reactjsss-d">
-        <div className="reactjsdev-back dine-123">
+        <div className="reactjsdev-back">
           <div className="reactjsdev_back1 btn-all ">
             
             <h1>React JS Development Company in India</h1>
@@ -92,7 +92,7 @@ const Reactjsdev = () => {
         </div>
         </div>
         {/* ********************************************************************************** */}
-        <div className="reactjsdev_about dine-123">
+        <div className="reactjsdev_about">
           <div className="reactjsdev_left">
             <h2>
               Comprehensive ReactJS Development <br />
@@ -232,7 +232,7 @@ const Reactjsdev = () => {
         {/* ********************************************************************************** */}
 
         <div className="reactttjss">
-        <div className="nodes-js-cont7-perfect-main dine-123">
+        <div className="nodes-js-cont7-perfect-main">
           <div className="jsx-left-perfect-part">
             <p className="letest-view">Not sure where to start?</p>
             <p className="toggle-gap">

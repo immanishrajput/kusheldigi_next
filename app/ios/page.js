@@ -10,6 +10,7 @@ import Footer from "../COMMON/Footer";
 import ContactForm1 from "../COMMON/ContactForm1";
 // import { NavLink } from "react-router-dom";
 import Link from "next/link";
+import Website from "../components/Home/HomeForm";
 
 const Ios = () => {
   const phoneNumber = "9045301702";
@@ -65,7 +66,7 @@ const generateMetadata = ({ params }) => ({
    
       <div className="ser-main">
         <div className="android-back ios-back">
-          <div className="android-back1 ios-back1 dine-123">
+          <div className="android-back1 ios-back1">
             <div className="ios-back-under-sec">
               <h1>
                 <span>Custom IOS</span>
@@ -224,7 +225,7 @@ const generateMetadata = ({ params }) => ({
         </div>
 
         <div className="android-offerss">
-          <div className="android-offer ios-offer dine-123">
+          <div className="android-offer ios-offer">
             <div className="android-offer1 ios-offer1 ">
               <h3 className="hideafter450">
                 {" "}
@@ -258,7 +259,7 @@ const generateMetadata = ({ params }) => ({
           </div>
         </div>
 
-        <div className="android-usa dine-123">
+        <div className="android-usa">
           <div className="android-usa1 ios-usa1">
             <h3 className="hideafter450">Use Cases That Lead</h3>
             <h3 className="hideafter450">SMEs and Enterprises to Choose</h3>
@@ -519,8 +520,8 @@ const generateMetadata = ({ params }) => ({
             </Link>
           </div>
         </div>
-
-        <ContactForm1 />
+  
+        <Website/>
 
         
         </div>

@@ -79,7 +79,6 @@ width: 600px;
  } */
 @media(max-width: 1024px) {
     .aboutBannerMain {
-      margin-top: 100px;
       flex-direction: column-reverse;
       gap: 30px;
     }

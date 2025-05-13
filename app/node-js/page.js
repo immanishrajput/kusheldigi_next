@@ -134,7 +134,7 @@ const generateMetadata = ({ params }) => ({
       
       <div className="ser-main">
         <div className="node_dev_ss node-bg">
-          <div className="node_dev_ss-back01 dine-123">
+          <div className="node_dev_ss-back01">
             <div className="node_dev_ss-back1">
               <div className="node_dev_ss_head">
                 <h1>Affordable node js development <br /> services in india</h1>
@@ -157,7 +157,7 @@ const generateMetadata = ({ params }) => ({
           </div>
         </div>
 
-        <div className="node_dev_ss_about dine-123">
+        <div className="node_dev_ss_about">
           <div className="node_dev_ss_about1">
             <h3> Node js Development Services</h3>
             <p>
@@ -445,7 +445,7 @@ const generateMetadata = ({ params }) => ({
 
 
         <div className="node_dev_ss1">
-          <div className="node_dev_ss1-back dine-123">
+          <div className="node_dev_ss1-back">
             <div className="node_dev_ss1-back1">
               <div className="node_dev_ss1_head">
                 <h3>Not sure where to start?</h3>

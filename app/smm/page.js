@@ -71,7 +71,7 @@ const generateMetadata = ({ params }) => ({
       
       <div className="ser-main">
         <div className="main-section">
-          <div className="social-media dine-123">
+          <div className="social-media">
             <div className="social-media-first-section">
               <h1>Social Media Marketing</h1>
               <p>
@@ -87,7 +87,7 @@ const generateMetadata = ({ params }) => ({
         </div>
         {/* ---------------Lead-section--------------------  */}
         <div className="lead-main-section">
-          <div className="lead-smm dine-123">
+          <div className="lead-smm ">
             <div className="lead-first-section">
               <h2>From Likes to Leads: How SMM Can Drive Your Success !!!</h2>
               <hr className="line" />
@@ -104,7 +104,7 @@ const generateMetadata = ({ params }) => ({
         {/*  ---------------End-Lead-section-------------------- * / */}
         {/* ---------------strategy-section--------------------  */}
         <div className="strategy-main-section">
-          <div className="strategy-section dine-123">
+          <div className="strategy-section">
             <div className="strategy-first-section">
               <div className="under-strategy-section">
                 <h4>Your Strategy, Amplified !</h4>
@@ -169,7 +169,7 @@ const generateMetadata = ({ params }) => ({
               and followers you have.
             </p>
           </div>
-          <div className="process-under-section dine-123">
+          <div className="process-under-section ">
             <div className="process-first-section">
               <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740467812/process_image_ow0o6r.png' alt="Social Media Process" title="Social Media Process" />
             </div>
@@ -347,7 +347,7 @@ const generateMetadata = ({ params }) => ({
         {/* ------------------end Our Services-------------------- */}
         {/* ------------------choose section-------------------- */}
         <div className="main-choose-section">
-          <div className="choose-section dine-123">
+          <div className="choose-section ">
             <div className="choose-first-section">
               <h3>
                 Why You Choose <span>kushel Digi</span>
@@ -411,7 +411,7 @@ const generateMetadata = ({ params }) => ({
                 and followers you have.
               </p>
             </div>
-            <div className="benefit-main-card dine-123">
+            <div className="benefit-main-card">
               <div className="benefit-card">
                 <div className="card-img">
                   <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468455/branding_image-1_zjvtru.png' alt="SMM consistent branding" title="Consistent Branding" />

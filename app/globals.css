@@ -8070,8 +8070,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
-    text-align: start
+    align-items: center;
+    text-align: center;
 }
 
 .indus-content2 h3 {
@@ -8079,7 +8079,8 @@ body {
     font-family: 'Poppins', sans-serif !important;
     font-weight: 700;
     line-height: 60px;
-    color: #0E151D
+    color: #0E151D;
+    text-align: center;
 }
 
 .indus-content2 p {
@@ -8088,7 +8089,8 @@ body {
     line-height: 25px;
     font-family: 'Poppins', sans-serif !important;
     max-width: 60em;
-    width: 100%
+    width: 100%;
+    text-align: center;
 }
 
 .indus-card2-main {
@@ -8116,7 +8118,7 @@ body {
     font-weight: 500;
     font-family: 'Poppins', sans-serif !important;
     line-height: 36px;
-    margin-bottom: 0
+    margin-bottom: 0;
 }
 
 .indus-card2-main-flex p {
@@ -8630,7 +8632,8 @@ body {
     .indus-left-content h1 {
         font-size: 28px;
         font-weight: 700;
-        line-height: 36px
+        line-height: 36px;
+        text-align: center;
     }
 
     .indus-content1 h2 {
@@ -8644,8 +8647,8 @@ body {
     }
 
     .indus-card2-main-flex p {
-        font-size: 22px;
-        line-height: 32px
+        font-size: 17px;
+        line-height: 25px;
     }
 
     .indus-container3 {
@@ -8810,6 +8813,20 @@ body {
     gap: 20px;
     padding-top: 20px
 }
+
+.arrow-btn {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.arrow-btn:hover rect:first-of-type {
+    fill: #0c61ff;
+}
+
+.arrow-btn:hover path {
+    fill: white;
+}
+
 
 .USA-ourWork-toprighty a {
     display: flex;
@@ -14432,6 +14449,7 @@ body {
     min-width: 110%;
     transform: translateX(50px);
 }
+
 .shadowbg3 {
     height: auto;
     min-width: 118%;
@@ -25163,7 +25181,9 @@ form button {
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: lighten;
-    background-color: #F5F5F7
+    background-color: #F5F5F7;
+    max-width: 1720px;
+    margin: auto;
 }
 
 .footer2Image1 {
@@ -26255,7 +26275,7 @@ form button {
     justify-content: center;
     line-height: 24px;
     padding: 16px 30px;
-    text-align: center
+    text-align: center;
 }
 
 .kickma-arrow button:hover span {
@@ -26267,7 +26287,7 @@ form button {
     display: flex;
     background-color: #fff;
     border: 1px solid #0039ff;
-    color: #0B56E4
+    color: #0B56E4;
 }
 
 .kickma-arrow:hover svg path {
@@ -26596,7 +26616,9 @@ form button {
 }
 
 .home-background-crouser {
-    background-color: #000
+    background-color: #000;
+        max-width: 1720px;
+    margin: auto;
 }
 
 .home-background-crouser-container {
@@ -27102,7 +27124,9 @@ form button {
 
 .ser-main {
     padding-top: 9rem;
-    position: relative
+    position: relative;
+        max-width: 1720px;
+    margin: auto;
 }
 
 .opg {
@@ -29006,12 +29030,12 @@ form button:hover {}
     width: 460px;
     max-width: 100%;
     height: 100%;
-    border-radius: 15px
+    border-radius: 15px;
 }
 
 .footer-first-main {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between; 
 }
 
 .footer-sec-xyz {
@@ -29132,13 +29156,15 @@ form button:hover {}
 }
 
 .shf {
-    z-index: 9999
+    z-index: 9999;
 }
 
 .foot2 {
     border-top: 1px solid rgb(255 255 255 / .466);
     background-color: #F5F5F7;
-    padding: 30px 70px
+    padding: 30px 90px;
+    max-width: 1720px;
+    margin: auto;
 }
 
 .foot1 {
@@ -31649,16 +31675,18 @@ form button:hover {}
 }
 
 .hire-back {
-    background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v1741006375/hirex_i2gmyu.png");
+        background-image: url(https://res.cloudinary.com/dd9tagtiw/image/upload/v1741006375/hirex_i2gmyu.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: darken;
     width: 100%;
-    height: 68vh;
+    height: 600px;
     padding: 0 100px;
     z-index: 2;
-    position: relative
+    position: relative;
+    max-width: 1720px;
+    margin: auto;
 }
 
 .hire-back::before {
@@ -31728,7 +31756,9 @@ form button:hover {}
 .hires-team {
     padding: 60px 100px;
     font-family: 'Poppins', sans-serif !important;
-    background-color: #fff
+    background-color: #fff;
+    max-width: 1720px;
+    margin: auto;
 }
 
 .hires-team h3 {
@@ -31862,7 +31892,9 @@ form button:hover {}
     width: 100%;
     height: 620px;
     position: relative;
-    z-index: 2
+    z-index: 2;
+        max-width: 1720px;
+    margin: auto;
 }
 
 .team-hired-help::before {
@@ -31982,7 +32014,9 @@ form button:hover {}
 
 .benifits-hire {
     background-color: #fff;
-    padding: 80px 100px
+    padding: 80px 100px;
+        max-width: 1720px;
+    margin: auto;
 }
 
 .benifits-hire h3 {
@@ -32100,7 +32134,9 @@ form button:hover {}
 }
 
 .hireee-serv {
-    background-color: #f8f8f8
+    background-color: #f8f8f8;
+        max-width: 1720px;
+    margin: auto;
 }
 
 .hire-serve {
@@ -32151,10 +32187,12 @@ form button:hover {}
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 45vh;
+    height: 500px;
     position: relative;
     z-index: 2;
-    background-blend-mode: darken
+    background-blend-mode: darken;
+        max-width: 1720px;
+    margin: auto;
 }
 
 .demo-hire::before {
@@ -34575,7 +34613,7 @@ video {
 }
 
 .let-flutter {
-    padding: 0 100px;
+    padding: 30px 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34804,10 +34842,11 @@ video {
 .native-app1 h5 {
     display: inline-flex;
     color: #085881;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     letter-spacing: .5px;
-    margin-top: 15px
+    margin-top: 15px;
+    width: 240px;
 }
 
 .native-app1 p {
@@ -37982,6 +38021,11 @@ video {
     line-height: 48px
 }
 
+.gting{
+        max-width: 1720px;
+    margin: auto;
+}
+
 .gting .splide__pagination {
     display: none !important
 }
@@ -38714,7 +38758,7 @@ video {
 }
 
 .php-back {
-    padding: 50px 100px;
+    padding: 100px;
     background-color: #085881;
     position: relative;
     display: flex;
@@ -39037,8 +39081,10 @@ video {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fff
+    background-color: #fff;
 }
+
+
 
 .mig1 h4 {
     color: #33475b;
@@ -39227,7 +39273,8 @@ video {
 .hire_steps_php h2 {
     color: #fff;
     font-size: 32px;
-    font-weight: 700
+    font-weight: 700;
+    text-align: center;
 }
 
 @media(max-width:900px) {
@@ -39240,7 +39287,8 @@ video {
     color: #fff;
     font-size: 19px;
     font-weight: 400;
-    margin-top: 25px
+    margin-top: 25px;
+    text-align: center;
 }
 
 .hire_phpStep_card {
@@ -40544,12 +40592,14 @@ video {
 .skyRoket {
     background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v1741009190/ty2_xieurm.png");
     width: 100%;
-    height: 60vh;
+    height: 300px;
     background-position: center;
     background-size: cover;
     background-blend-mode: darken;
     background-repeat: no-repeat;
-    position: relative
+    position: relative;
+        max-width: 1720px;
+    margin: auto;
 }
 
 .skyRoket_sect {
@@ -40721,7 +40771,7 @@ video {
 .boost {
     background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v1741009216/boost_gkaj7e.png");
     width: 100%;
-    height: 45vh;
+    height: 450px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -40923,9 +40973,9 @@ video {
     margin-top: 10px
 }
 
-/* #splide01{
+.splide{
     overflow: hidden;
-} */
+}
 
 @media(max-width:400px) {
     .nat_heading p {
@@ -41392,8 +41442,8 @@ video {
 }
 
 .native_back1 {
-    padding-bottom: 100px !important;
-    padding-top: 90px !important
+    padding-bottom: 60px !important;
+    padding-top: 0px !important
 }
 
 .native_back1 h2 {
@@ -41406,7 +41456,7 @@ video {
 }
 
 .key_features {
-    padding-top: 200px;
+    padding-top: 60px;
     padding-bottom: 60px
 }
 
@@ -41419,18 +41469,19 @@ video {
     font-size: 26px;
     font-weight: 700;
     border-bottom: 1px solid #33475b;
-    display: inline
+    display: inline; 
 }
 
 .features_card {
     display: flex;
     align-items: center;
-    margin-top: 40px
+    justify-content: space-between;
+    margin-top: 40px;
 }
 
-.features_box {
+/* .features_box {
     margin-right: 130px
-}
+} */
 
 .features_box p {
     text-align: center;
@@ -41458,7 +41509,8 @@ video {
 .key_features_head h2 {
     color: #33475b;
     font-weight: 700;
-    font-size: 26px
+    font-size: 26px;
+    text-align: center;
 }
 
 @media (max-width:930px) {
@@ -41470,7 +41522,9 @@ video {
     font-weight: 400;
     text-align: left;
     color: #33475b;
-    margin-top: 28px
+    margin-top: 28px;
+    text-align: center;
+
 }
 
 .key_tanda {
@@ -41533,7 +41587,8 @@ video {
 .native_think h2 {
     color: #33475b;
     font-size: 26px;
-    font-weight: 700
+    font-weight: 700;
+    text-align: center;
 }
 
 @media (max-width:900px) {
@@ -41548,7 +41603,9 @@ video {
     font-weight: 400;
     margin-top: 20px;
     width: 64em;
-    max-width: 100%
+    max-width: 100%;
+    text-align: center;
+
 }
 
 .native_card {
@@ -41592,7 +41649,9 @@ video {
 
 .others_nat_serv {
     position: relative;
-    overflow: hidden !important
+    max-width: 1720px !important;
+    overflow: hidden !important;
+    margin: 0 !important;
 }
 
 .others_nat_serv .splide__track {
@@ -42035,7 +42094,8 @@ video {
 
 .ty_py {
     display: flex;
-    align-items: center
+    align-items: center;
+    justify-content: space-around;
 }
 
 .ty_py1 {
@@ -60666,12 +60726,15 @@ wordpress_cater_box p {
 
     .let-flutter h3 {
         font-size: 30px;
-        line-height: 38px
+        line-height: 38px;
+        text-align: center;
+
     }
 
     .let-flutter p {
         font-size: 16px;
-        width: 100%
+        width: 100%;
+        text-align: center;
     }
 
     .approacy1 {
@@ -63044,7 +63107,7 @@ wordpress_cater_box p {
     }
 
     .big_pint p {
-        text-align: start;
+        text-align: center;
         font-family: 'Poppins', sans-serif !important;
     }
 
@@ -63565,8 +63628,8 @@ wordpress_cater_box p {
     }
 }
 
-@media screen and (max-width:580px){
-     .process-container {
+@media screen and (max-width:580px) {
+    .process-container {
         grid-template-columns: repeat(1, 1fr);
     }
 }

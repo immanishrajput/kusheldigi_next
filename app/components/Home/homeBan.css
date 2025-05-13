@@ -347,10 +347,10 @@ padding-left: 50px !important;
   font-size: 20px;
 }
 .captcha-btn {
-  background: #0ea80e;
+  background: #0ea80e !important;
   border: 1px solid #0ea80e;
   font-size: 15px !important;
-  color: white;
+  color: white !important;
   /* height: 45px !important; */
   /* width: 150px !important; */
   /* padding: 10px 15px !important; */
