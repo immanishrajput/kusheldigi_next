@@ -10,7 +10,7 @@ import '../globals.css'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
 function page() {
-    
+
   const d1 = [
     {
       title1: "Industries",
@@ -95,19 +95,19 @@ function page() {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216954/down1_kgzcrg.png",
       title1: "Topbrass tactical",
       title2: "E-commerce, Bigcomerce ",
-      link:"/topbrass"
+      link: "/topbrass"
     },
     {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216979/down2_m0c8fa.png",
       title1: "Kickeez",
       title2: "E-commerce, Bigcomerce ",
-       link:"/kick-eez"
+      link: "/kick-eez"
     },
     {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217009/down3_ucxpri.png",
       title1: "Sites And Scopes",
       title2: "E-commerce, Bigcomerce ",
-      link:"/sites"
+      link: "/sites"
     },
   ];
 
@@ -126,23 +126,23 @@ function page() {
   };
 
   const generateMetadata = ({ params }) => ({
-           title: 'Kusheldigi.com/blackRhino',
-           description:"Web Development Company | Kushel Digi Solutions"
-         });
-         
-       useEffect(() => {
-           const { title, description } = generateMetadata({ params: {} });
-           document.title = title;
-           let metaDescription = document.querySelector('meta[name="description"]');
-           metaDescription ? metaDescription.content = description : 
-             document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-         }, []);
-  
+    title: 'Kusheldigi.com/blackRhino',
+    description: "Web Development Company | Kushel Digi Solutions"
+  });
+
+  useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description :
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
+
   return (
     <div className="case1wrap home-main">
 
 
-        <Navbar/>
+      <Navbar />
       {/* first sectino */}
       <section className="case1firsec">
         <img
@@ -171,7 +171,7 @@ function page() {
               </div>
 
               <p className="ca1firrigh">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                Black Rhino Concealment is an esteemed brand of firearms holsters and tactical gear. Since 2014, it has been a trailblazer for offering custom Kydex holsters and accessories.
               </p>
             </div>
 
@@ -206,7 +206,9 @@ function page() {
             <h1>Client Background</h1>
 
             <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+              With the years of reputation it has built on craftsmanship and customized solutions, the brand is producing concealed carry equipment. It is blending innovation and precision perfectly to deliver a seamless experience to buyers. The brand is giving a 10% discount too for all the military, police, and first responders.
+
+              <p>Being on the path of growth, its product demand is soaring, Black Rhino has consistently proved to be at the digital forefront in the Kydex holster provider. However, it was looking to improve the digital shopping experience, and this is when Kushel Digi Solutions stepped in to help them. We revamped the ecommerce presence and gave it a fresh look. Our expert team prepared a robust plan of action to envision a custom ecommerce solution for the client. Madfish offered us this opportunity which we are grateful for.</p>
 
             </p>
           </div>
@@ -219,27 +221,56 @@ function page() {
         />
       </section>
 
+      {/* ======================== */}
+
+      <div className="PortfolioChallenges">
+        <div className="PortfolioChallengeMain">
+          <h4> Challenges</h4>
+          <div>
+            <h5>
+              1.A dated user interface lacking visual clarity.
+            </h5>
+            <h5>2.Poor product categorization and lack of filtering options.</h5>
+            <h5>3.Slow loading times and poor mobile experience.</h5>
+            <h5>4.Absence of modern key elements and third-party integrations. </h5>
+            <h5>Unsatisfactory user-interface </h5>
+
+            <p className="s3theeparass">Addressing these challenges required a thoughtful approach that our team implemented to align it with the modern ecommerce needs. </p>
+
+          </div>
+        </div>
+        <div className="portfolioImageChallenge">
+          <img
+            src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746785005/Group_1171279298_a4is5k.png"
+            // src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746514576/2nd-A-challenges_hdngwv.png"
+            alt="kushel"
+          />
+        </div>
+
+      </div>
+      {/* =========================== */}
+
       {/* third section  */}
       <section className="case3secthir">
         <div className="sc3sectcont">
           {/* left side */}
           <div className="s3secltleft">
-            <div className="c3s3_head2" id="c3_BlackRhino_port"> 
+            <div className="c3s3_head2" id="c3_BlackRhino_port">
               <h3>Solution</h3>
               <p></p>
             </div>
 
             <p className="s3theeparas">
-            Black Rhino Concealment was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help, they wanted to implement a more user-friendly ecommerce platform, refine search engine optimization (SEO), develop content to support that optimization, and launch an intelligent digital advertising campaign to maximize return on ad spend (ROAS). 
+              Once all challenges were on the plate, wes started designing the full-fledged mobile eCommerce website. From designing the UI/UX to Figma and store on BigCommerce, everything was done with utmost perfection.
 
 
             </p>
 
-            <p className="s3theeparas">
+            {/* <p className="s3theeparas">
               {" "}
               The new BigCommerce website for Gordy & Sons needed to successfully integrate their graphical point-of-sale environment and inventory management system, CounterPoint. It was critical that the two systems communicated seamlessly to ensure accurate, real-time data for product inventory, orders, and customer detail.
 
-            </p>
+            </p> */}
           </div>
 
           <img
@@ -263,8 +294,8 @@ function page() {
           pauseOnHover: false
         }}
       >
-        <SplideSlide>
-          <section className="case3secfour2">
+        {/* <SplideSlide>
+          <section className="case3secfour">
             <img
               className="case4bggirl"
               src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744634602/Rectangle_367_h4dnp4.png"
@@ -280,17 +311,18 @@ function page() {
               </div>
 
               <div className="cas3circldata2" id="black_port_circle">
-                <h4>Impressive Homepage</h4>
+                <h4>Custom UI/UX Design</h4>
                 <p>
-                2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help.
+                  We crafted a modern and responsive design on Figma while keeping a clean layout to reflect Black Rhino’s brand identity. Our primary focus was on intuitive product navigation and mobile responsiveness. The design was structured to ease navigation for the users. One of the most important goal we tried to cover is simplifying the buying journey.
+
 
                 </p>
               </div>
             </div>
           </section>
-        </SplideSlide>
+        </SplideSlide> */}
 
-        <SplideSlide>
+        {/* <SplideSlide>
           <section className="case3secfour2">
             <img
               className="case4bggirl"
@@ -308,19 +340,19 @@ function page() {
               </div>
 
               <div className="cas3circldata2" id="black_port_circle">
-                <h4> Compare Functionality</h4>
+                <h4> BigCommerce Migration & Optimization</h4>
                 <p>
-                2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help.
+                  Our team moved the site to BigCommerce for better performance. This platform supports headless ecommerce development that can contribute to the growth of the brand at a significant level. The new setup led to many improvements like lightning-fast performance and scalable architecture. We also made the shopping experience seamless for all the device users.
 
                 </p>
               </div>
             </div>
           </section>
-        </SplideSlide>
-
+        </SplideSlide> */}
+        {/* 
         <SplideSlide>
           <section className="case3secfour2">
-          <img className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744634602/Rectangle_367_h4dnp4.png" alt="kushel" />
+            <img className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744634602/Rectangle_367_h4dnp4.png" alt="kushel" />
 
             <div className="cas3s4con">
               <div className="bgshowdb2">
@@ -332,15 +364,92 @@ function page() {
               </div>
 
               <div className="cas3circldata2" id="black_port_circle">
-                <h4>Mega Menu  </h4>
+                <h4>Smart Integrations  </h4>
                 <p>
-                2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help.
+                  We also implemented smart integrations via BigCommerce robust app ecosystem. Our experts integrated CRM tools, inventory management, SEO enhancements, and search filters for an unparalleled performance.
 
                 </p>
               </div>
             </div>
           </section>
+        </SplideSlide> */}
+
+
+
+
+        <SplideSlide>
+          <section className="case3secfour" >
+            <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
+
+            <div className="cas3s4con" id="cas3s4connn">
+
+              <div className="bgshowdb1" id="" >
+                < img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747158480/Group_1171281286_1_b2cgzf_we0mgd.png" id="bgshowdb12"/>
+                {/* <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746710597/Group_1171279306_o1qdhn.png" alt="kushel" className="ca2insideimg adjustheighimg" /> */}
+                {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
+              </div>
+
+              <div className="cas3circldata" id="cas3circldata1">
+              <h4>Custom UI/UX Design</h4>
+              <p>
+              We crafted a modern and responsive design on Figma while keeping a clean layout to reflect Black Rhino’s brand identity. Our primary focus was on intuitive product navigation and mobile responsiveness. The design was structured to ease navigation for the users. One of the most important goal we tried to cover is simplifying the buying journey.
+
+                </p>
+              </div>
+
+            </div>
+
+          </section>
         </SplideSlide>
+
+        <SplideSlide>
+          <section className="case3secfour" id="case3secfour22">
+            <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
+
+            <div className="cas3s4con" id="cas3s4connn">
+
+              <div className="bgshowdb1">
+                <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747158005/human_q4erqd.png" id="bgshowdb12" />
+                {/* <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454204/e-commerce-development_wu34yd.png" alt="kushel" className="ca2insideimg adjustheighimg" />
+            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
+              </div>
+
+              <div className="cas3circldata" id="cas3circldata1">
+              <h4> BigCommerce Migration & Optimization</h4>
+              <p>
+                  Our team moved the site to BigCommerce for better performance. This platform supports headless ecommerce development that can contribute to the growth of the brand at a significant level. The new setup led to many improvements like lightning-fast performance and scalable architecture. We also made the shopping experience seamless for all the device users.
+
+                </p>              </div>
+
+            </div>
+
+          </section>
+        </SplideSlide>
+
+        <SplideSlide>
+          <section className="case3secfour">
+            <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
+
+            <div className="cas3s4con" id="cas3s4connn">
+
+              <div className="bgshowdb1" id="">
+                {/* <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784464/Group_1171279316_nc1yiv.png" alt="kushel" className="ca2insideimg addheightimage" /> */}
+                <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747158480/Group_1171281286_1_b2cgzf_we0mgd.png" alt="kushel" id="bgshowdb12" />
+              </div>
+
+              <div className="cas3circldata" id="cas3circldata1">
+              <h4>Smart Integrations  </h4>
+              <p>
+                  We also implemented smart integrations via BigCommerce robust app ecosystem. Our experts integrated CRM tools, inventory management, SEO enhancements, and search filters for an unparalleled performance.
+
+                </p>              </div>
+
+            </div>
+
+          </section>
+        </SplideSlide>
+
+
       </Splide>
 
       {/* fivth  section  */}
@@ -350,7 +459,7 @@ function page() {
           <div className="c2fivtopsec">
             <h4>How we build the E-Commerce development Process</h4>
             <p>
-            Kushel Digi committed to transform your tech solutions into impactful brands by ensuring unique customer experiences at every digital touchpoint through our  structured process.
+              Kushel Digi committed to transform your tech solutions into impactful brands by ensuring unique customer experiences at every digital touchpoint through our  structured process.
 
             </p>
           </div>
@@ -363,9 +472,8 @@ function page() {
                 <p
                   key={index}
                   onClick={() => handleSelectionChange(index)}
-                  className={`${
-                    selectS4 === index && "addthsomfbg"
-                  } cursor-pointer`}
+                  className={`${selectS4 === index && "addthsomfbg"
+                    } cursor-pointer`}
                 >
                   {d2Item?.title}
                 </p>
@@ -403,7 +511,7 @@ function page() {
                 interval: 3000,
                 pagination: true,
                 arrows: false,
-                pauseOnHover:false
+                pauseOnHover: false
               }}
             >
               {d2?.map((item, index) => (
@@ -441,6 +549,25 @@ function page() {
         </div>
       </section>
 
+
+      <div className="Mainresult_Portfolio">
+        <div className="result_Portfolio">
+          <h5>Result & Impact</h5>
+          {/* <h6>
+  The improvement in the website led to significant changes in order placement, more customer flow, and streamlined operation. 
+  </h6> */}
+          <ul>
+            <li>TBounce ratings started falling and conversion rate increased.</li>
+            <li>User experience turned better and this was visible with more traffic coming on the site. </li>
+            <li>Retention rate got better as automated inventory changed the way users were interaction with the product catalog. </li>
+            <li></li>
+
+          </ul>
+
+        </div>
+      </div>
+
+
       {/* six section  */}
       <section className="cs2sexiesec">
         <img
@@ -462,9 +589,9 @@ function page() {
           </div>
 
           <div className="csizbot">
-           <a href="contact-us"><button>
+            <a href="contact-us"><button>
               <span>Get A Quote For Your Project</span>
-            </button></a> 
+            </button></a>
             <p>Or Start a conversation</p>
           </div>
         </div>
@@ -488,15 +615,15 @@ function page() {
                   <p className="sep2">{project?.title2}</p>
                 </div>
 
-              <a href={project?.link}> <button>
+                <a href={project?.link}> <button>
                   <span>Case study</span>
-                </button></a> 
+                </button></a>
               </div>
             ))}
           </div>
         </div>
       </section>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

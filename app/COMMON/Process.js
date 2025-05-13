@@ -16,9 +16,9 @@ const Process = () => {
                 </p>
                 <div className="triple-mainbox">
                     <div className="discover-box">
-                        {/* <div className="line"> */}
+                       
                             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724918173/download_21_jqtevh.png" alt="kushel" id="delo"></img>
-                        {/* </div> */}
+                       
                         <p className="discover">Discover</p>
                         <p className="project">
                             There goes a lot in the back to turn your project into a success

@@ -15,7 +15,7 @@ const ServiceCommon = () => {
   }, []);
   return (
      <>
-            <div className="others_nat_serv dine-1234">
+            <div className="others_nat_serv dine-1234" id="other-services">
                 <h3 className='ot_ser'>Other Services</h3>
                 <hr className='ot_line' />
                 <div className="nat_card">
@@ -30,7 +30,12 @@ const ServiceCommon = () => {
                             type: "loop",
                             interval: 3000,
                             drag: true,
-                            gap: 1
+                            gap: 1,
+                            breakpoints: {
+                                1024: { perPage: 3 },
+                                768: { perPage: 2 },
+                                480:{ perPage: 1}
+                              },
                         }}
                     >
                         <SplideSlide>
