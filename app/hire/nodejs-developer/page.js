@@ -134,6 +134,11 @@ const generateMetadata = ({ params }) => ({
                                 type: "loop",
                                 interval: 1600,
                                 drag: true,
+                                breakpoints: {
+                                    1024: { perPage: 3 },
+                                    768: { perPage: 2 },
+                                    480:{ perPage: 1}
+                                  },
                             }}
                         >
                             <SplideSlide>

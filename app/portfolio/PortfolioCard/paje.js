@@ -171,23 +171,23 @@ const portfolioData = [
   },
 
   
-//   {
-//     id: 'automotive-59',
-//     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744637742/lovely_nymplp.png',
-//     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
-//     description: [
-//         "UX/UI Website Design","Website Development","QA & Website Testing"
-// ],
-//     links: {
+  {
+    id: 'automotive-59',
+    logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744637742/lovely_nymplp.png',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    description: [
+        "UX/UI Website Design","Website Development","QA & Website Testing"
+],
+    links: {
      
-//       caseStudy: '/blackRhino',
-//       platform: '/bigcommerce-development',
-//     },
-//     case:' View Case Study',
-//     case1:'BigCommerce',
-//     line:'|',
-//     category: ["ecommerce"],
-//   },
+      caseStudy: '/blackRhino',
+      platform: '/bigcommerce-development',
+    },
+    case:' View Case Study',
+    case1:'BigCommerce',
+    line:'|',
+    category: ["ecommerce"],
+  },
 
 
 
@@ -262,7 +262,7 @@ const portfolioData = [
     id: 'automotive-10',
 
     // companyName: 'Ai',
-    logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744280422/Untitled-1_nkikqq.png',
+    logo: 'https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747159088/Group_1171279373_mutmdz.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
@@ -353,7 +353,7 @@ const portfolioData = [
   {
     id: 'automotive-102',
     // companyName: 'Ride Ready',
-    logo: 'https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746546086/standardlogo_400px_nobackground_1678492593__36894_kmlufu_ym0h6k.webp',
+    logo: 'https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747159162/Group_1171279372_x9l907.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
