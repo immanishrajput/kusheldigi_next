@@ -363,7 +363,7 @@ src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746643901/Group_1171279
                 <img
                   src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746707940/Group_1171279297_m7cscj.png"
                   alt="kushel"
-                  className="shadowbg2"
+                  className="shadowbg3"
                 />
               </div>
             </div>

@@ -6,7 +6,7 @@ import { FaArrowRight } from "react-icons/fa";
 const services = [
   {
     title: "Shopify Headless Development",
-    image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743807615/shopify-headless_czd3ql.webp",
+    image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747109944/Group_56_vr3m2d.png",
     points: [
       "Integrate with Shopify Storefront API and Hydrogen framework.",
       "Optimize performance and SEO with modern frontend stacks.",
@@ -15,7 +15,7 @@ const services = [
   },
   {
     title: "BigCommerce Headless Development",
-    image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743807614/big-headless_v7tmk5.webp",
+    image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747110237/Group_59_nkfcqq.png",
     points: [
       "Use React, Next.js, or other JS frameworks for custom frontend.",
       "Deliver lightning-fast storefronts with decoupled performance.",
@@ -24,7 +24,7 @@ const services = [
   },
   {
     title: "Magento Headless Development",
-    image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743807615/magento-headless_obqrnt.webp",
+    image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747110190/Group_63_tpl8q4.png",
     points: [
       "Use PWA Studio or custom frameworks like Vue Storefront.",
       "Improve user experience with fast, responsive UIs.",
@@ -33,7 +33,7 @@ const services = [
   },
   {
     title: "Odoo Headless Development",
-    image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743808470/odoo-headless_wz6t4z.webp",
+    image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747110090/Group_68_1_c9vdoe.png",
     points: [
       "Connect with Odoo’s REST APIs for seamless frontend integration.",
       "Build dynamic storefronts using frameworks like React or Angular.",
@@ -42,7 +42,7 @@ const services = [
   },
   {
     title: "Headless Migration Services",
-    image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743808470/headless-migration_ajrjl2.webp",
+    image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747109453/Group_71_1_ud0tpp.png",
     points: [
       "Full data migration including products, users, and orders.",
       "Rebuild frontend using advanced frameworks like React or Vue.",
@@ -51,7 +51,7 @@ const services = [
   },
   {
     title: "WooCommerce Headless Development",
-    image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743808470/headless-consulting_xs5dfp.webp",
+    image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747109449/Group_72_3_bipdgq.png",
     points: [
       "Build decoupled frontends with React, Gatsby, or Next.js.",
       "Maintain WooCommerce backend with enhanced UX and speed.",

@@ -11,7 +11,7 @@ const updates = [
       "Design Custom interfaces for web, mobile, IoT, and more.",
       "Break past backend limitations in design and layout."
     ],
-    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743811229/easy-updates-and-upgrades-1_tdp5di.webp"
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747109760/Group_24_hmi5d8.png"
   },
   {
     title: "Omnichannel Experience",
@@ -21,7 +21,7 @@ const updates = [
       "Integrated customer experiences across websites, apps, and stores.",
       "Tailor experiences for each device from one system."
     ],
-    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743813099/microservices-approach-1_fxnv3h.webp"
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747109761/Group_30_xop3om.png"
   },
   {
     title: "API-Driven Architecture",
@@ -31,7 +31,7 @@ const updates = [
       "Scale and adapt your tech stack without limitations.",
       "Faster development cycles with API connectivity."
     ],
-    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743813099/less-dependency-and-easy-to-build-1-1_hur8fh.webp"
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747109448/Group_54_wvstw9.png"
   },
   {
     title: " Faster Time-to-Market",
@@ -41,7 +41,7 @@ const updates = [
       "No need to wait for backend changes to adjust the frontend",
       "Scale rapidly with minimal downtime and reduced dependencies."
     ],
-    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743813098/search-engine-optimization-1_pcqpwv.webp"
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747109852/Group_53_1_or6i8f.png"
   }
 ];
 

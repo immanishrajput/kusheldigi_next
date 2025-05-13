@@ -14432,6 +14432,11 @@ body {
     min-width: 110%;
     transform: translateX(50px);
 }
+.shadowbg3 {
+    height: auto;
+    min-width: 118%;
+    transform: translateX(50px);
+}
 
 #shadodo {
     height: auto;
