@@ -15,6 +15,7 @@ import Navbar from '../COMMON/Navbar';
 import Footer from '../COMMON/Footer';
 
 import GraphicFAQ from '../COMMON/GraphicFAQ';
+import Website from '../components/Home/HomeForm';
 
 const GraphicDesign = ({ notify }) => {
 
@@ -71,7 +72,7 @@ const generateMetadata = ({ params }) => ({
            
             <div className="ser-main">
                 <div className="graphic_back0">
-                    <div className="graphic_back1 dine-123">
+                    <div className="graphic_back1">
                         <div className='graphic_des'>
                             <h1>Design Services for <br /> Ambitious Brands</h1>
 
@@ -92,7 +93,7 @@ const generateMetadata = ({ params }) => ({
                 </div>
 
                 <div className="gettttt">
-                    <div className="get_graphic dine-123">
+                    <div className="get_graphic">
                         <div className="get_graphic1">
                             <div className="graphic11">
                                 <h3>A VARIETY OF DESIGN SERVICES AT YOUR FINGERTIPS</h3>
@@ -253,7 +254,7 @@ const generateMetadata = ({ params }) => ({
                 </div>
 
                 <div className="greet-out">
-                    <div className="gret-outcome dine-123">
+                    <div className="gret-outcome">
                         <div className="gret-outcome1">
                             <h3>DRIVING GREAT OUTCOMES</h3>
                             <p>#1 Creative-as-a-Service solution for marketing and creative teams</p>
@@ -268,7 +269,7 @@ const generateMetadata = ({ params }) => ({
 
 
 
-                <div className="what_makes dine-123">
+                <div className="what_makes">
                     <div className="what_makes1">
                         
                         <div className="make-head">
@@ -291,9 +292,10 @@ const generateMetadata = ({ params }) => ({
                    
                 </div>
               
+                <Website/>
                 <GraphicFAQ/>
 
-                <ContactForm1 notify={notify} />
+                
 
                 <div className="whtsApBtns">
           <button onClick={whatAppHandler}>

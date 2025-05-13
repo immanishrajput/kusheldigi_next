@@ -15,6 +15,7 @@ import Navbar from "../COMMON/Navbar";
 
 
 import WooCommereceFAQ from "../COMMON/WooCommereceFAQ";
+import Website from "./Home/HomeForm";
 const WooCommerce = () => {
   const [hovered, setHovered] = useState(false);
   const [hovered2, setHovered2] = useState(false);
@@ -77,7 +78,7 @@ const WooCommerce = () => {
      
       <div className="ser-main">
         <div className="wooCommmm">
-          <div className="magento-back-newest woocommmm dine-123">
+          <div className="magento-back-newest woocommmm">
             <div className="magento_back1 Woocomerce_b">
               <h1>
                 Build Your WooCommerce<br /> Store Today
@@ -99,7 +100,7 @@ const WooCommerce = () => {
           </div>
         </div>
 
-        <div className="magento_service dine-123">
+        <div className="magento_service">
           <div className="magento_service1">
             <h2>
               Our <span>WooCommerce</span> <br /> development services
@@ -117,7 +118,7 @@ const WooCommerce = () => {
           </div>
         </div>
 
-        <div className="magento_services dine-123">
+        <div className="magento_services">
           <div className="magento_services1">
             {/* <img src={magic} alt="WooCommerce Solution" title="WooCommerce Solution" /> */}
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724840019/magic.954837d30c2ccd79ecd6_u6wstp.png
@@ -236,7 +237,7 @@ const WooCommerce = () => {
         </div>
 
         <div className="why_woo_cho">
-          <div className="who_cho_flex dine-123">
+          <div className="who_cho_flex">
             <div className="who_cho_left">
               <div className="partion">
                 <h3>
@@ -424,7 +425,7 @@ const WooCommerce = () => {
           </div>
         </div>
 
-        <ContactForm1 />
+        <Website/>
         <WooCommereceFAQ/>
 
 

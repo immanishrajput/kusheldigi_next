@@ -59,7 +59,7 @@ useEffect(() => {
      
       <div className="ser-main">
         <div className="hire-back">
-          <div className="hire-sect dine-1234">
+          <div className="hire-sect">
             <h1>Get Your<br />
               <span>Team Hired</span></h1>
             <p>
@@ -68,7 +68,7 @@ useEffect(() => {
           </div>
         </div>
         <div className="hireee-ss">
-          <div className="hire-status flex items-center justify-around dine-123">
+          <div className="hire-status flex items-center justify-around max-w-[1720px] m-auto">
             <div className="hiring-status">
               <h3>1000+</h3>
               <p>Hires Placed</p>
@@ -209,7 +209,7 @@ useEffect(() => {
         </div>
 
         <div className="hireee-serv">
-          <div className="hire-serve dine-123">
+          <div className="hire-serve">
             <div className="first-serve">
               <h3>INDUSTRIES WE SERVE</h3>
               <p>Our digital marketing services serve different industries. We operate in the technology, financial, health and financial services, education, tourism, commercial good, and industrial sectors.Our team strengthen their digital reach and guide them towards growth.</p>

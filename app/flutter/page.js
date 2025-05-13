@@ -13,6 +13,7 @@ import Link from 'next/link';
 import Footer from '../COMMON/Footer';
 import Navbar from '../COMMON/Navbar';
 import FlutterFAQ from '../COMMON/FlutterFAQ';
+import Website from '../components/Home/HomeForm';
 const Flutters = ({notify}) => {
  
   const phoneNumber = "9045301702";
@@ -73,7 +74,7 @@ const Flutters = ({notify}) => {
 
      <div className="ser-main">
        <div className="flutter-bg">
-       <div className="android-back android-back-flex1 flutter-back-section dine-123">
+       <div className="android-back android-back-flex1 flutter-back-section">
          <div className="android-back1 android_back_text_section">
           
            <h1>Affordable flutter app <br /> development services</h1>
@@ -98,9 +99,7 @@ const Flutters = ({notify}) => {
        <div className="android2-app dine-1234">
          <div className="android-fun ">
            <div className="android-fun1">
-             <h3>Custom flutter App</h3>
-             <h3>Development</h3>
-             <h3>Services</h3>
+             <h3>Custom flutter App Development Services</h3>
              <img className="ftp" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169674/android-sis_auympb.png' alt="underline-designed" />
              <Link className="letsy letsay" href="/contact-us">
                <h5>
@@ -290,7 +289,7 @@ const Flutters = ({notify}) => {
        </div>
 
        <div className="let-flutter">
-       <div className="let-flutter dine-123">
+       <div className="let-flutter">
          <div className="let-flutter1">
            <h3>
              Let's talk about your <br />
@@ -307,7 +306,8 @@ const Flutters = ({notify}) => {
        </div>
        </div>
 
-       <ContactForm1 notify={notify} />
+       {/* <ContactForm1 notify={notify} /> */}
+       <Website/>
 
      
 <FlutterFAQ/>

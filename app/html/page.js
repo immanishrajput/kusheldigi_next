@@ -49,7 +49,7 @@ const generateMetadata = ({ params }) => ({
             
             <div className="ser-main">
                 <div className='html_5 htmllll'>
-                    <div className="html_back dine-123">
+                    <div className="html_back">
                         <div className="html_back1">
                             <div className="html_head">
                                 <h1>Affordable HTML development <br /> services  in India</h1>
@@ -68,7 +68,7 @@ const generateMetadata = ({ params }) => ({
                     </div>
                 </div>
 
-                <div className="html_about dine-123">
+                <div className="html_about">
                     <div className="html_about_left">
                         <h2>HTML5 Development Services</h2>
                         <div className="html-paras">

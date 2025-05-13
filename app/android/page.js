@@ -9,6 +9,7 @@ import ContactForm1 from "../COMMON/ContactForm1";
 import Link from "next/link";
 
 import AndroidFAQ from "../COMMON/AndroidFAQ";
+import Website from "../components/Home/HomeForm";
 const Android = ({ notify }) => {
 
 
@@ -67,7 +68,7 @@ const Android = ({ notify }) => {
     
       <div className="ser-main">
         <div className="android_next_class">
-          <div className="android-back  android-back-flex1 flutter-back-flex1 dine-123 andoidd-pad">
+          <div className="android-back  android-back-flex1 flutter-back-flex1 andoidd-pad">
             <div className="android-back1 android_back_text_section">
              
               <h1>Custom Android App <br /> Development Company</h1>
@@ -152,7 +153,7 @@ const Android = ({ notify }) => {
         </div>
 
 
-        <div className="android-offer dine-123">
+        <div className="android-offer">
           <div className="android-offer1 ">
             <h3>
               Custom Android App <br /> Development across all
@@ -172,7 +173,7 @@ const Android = ({ notify }) => {
           </div>
         </div>
 
-        <div className="android-usa dine-123">
+        <div className="android-usa">
           <div className="android-usa1">
             <h3>
               Use Cases That Make
@@ -222,7 +223,7 @@ const Android = ({ notify }) => {
           </div>
         </div>
         <div className="android-pro">
-          <div className="android-process dine-123">
+          <div className="android-process">
             <div className="android-process1">
               <h2>Our Android App Development Process</h2>
               <p>We are working  as an  established Android App Development company with our own defined process for delivering quality apps well in time.   From requirement gathering and planning all the way through design, development testing. With the help of our team that has years worth of experience.  You can Collaborate with our Android app development company for a successful mobile application project. </p>
@@ -286,8 +287,9 @@ const Android = ({ notify }) => {
                 </svg>
               </h5></Link>
           </div>
-        </div>
-        <ContactForm1 notify={notify} />
+        </div> 
+
+        <Website/>
                  <AndroidFAQ/>
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>

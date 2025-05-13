@@ -15,6 +15,7 @@ import Link from "next/link";
 import '../globals.css'
 import Footer from "../COMMON/Footer";
 import Navbar from "../COMMON/Navbar";
+import Website from "../components/Home/HomeForm";
 // import { Helmet } from "react-helmet";
 const Native = () => {
 
@@ -74,7 +75,7 @@ const generateMetadata = ({ params }) => ({
       
       <div className="ser-main">
         <div className="react-bg">
-        <div className="android-back native-back react-native-app dine-123 nativee-backk">
+        <div className="android-back native-back react-native-app nativee-backk">
           <div className="android-back1 native-back1">
             <p className="android-son">Expert React Consulting</p>
             
@@ -94,11 +95,9 @@ const generateMetadata = ({ params }) => ({
           </div>
         </div>
         </div>
-        <div className="native-app  flex items-start justify-center dine-123">
+        <div className="native-app flex items-start justify-center">
           <div className="native-app1">
-            <h2>React Native App
-            <br/>Development
-            <br/>Services</h2>
+            <h2>React Native App Development Services</h2>
             <img className="ftp" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739423950/android-sis_unefho.png' alt="underline-design"  title="underline-design" />
             <Link className="tismart letsy letsay" href="/contact-us">
               <h5>
@@ -168,7 +167,7 @@ const generateMetadata = ({ params }) => ({
             </div>
           </div>
         </div>
-        <div className="native-benifits dine-123">
+        <div className="native-benifits">
           <div className="native-benifits1">
             <h2>
               React Native Benefits Go Beyond Cost-Saving
@@ -323,7 +322,7 @@ const generateMetadata = ({ params }) => ({
           </div>
         </div>
 
-        <ContactForm1 />
+        <Website/>
 
       <ReactNativeFAQ/>
        

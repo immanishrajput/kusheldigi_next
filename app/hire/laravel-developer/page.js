@@ -394,7 +394,7 @@ useEffect(() => {
                         </div>
                     </div>
                 </div> */}
-                <LaravelHireFAQ/>
+                {/* <LaravelHireFAQ/> */}
 
                 <div className="whtsApBtns">
           <button onClick={whatAppHandler}>

@@ -13,6 +13,7 @@ import Navbar from '../COMMON/Navbar';
 
 import '../globals.css'
 import PhpFAQ from '../COMMON/PhpFAQ';
+import Website from '../components/Home/HomeForm';
 const Php = () => {
 
     const [tab8, setTab8] = useState(1);
@@ -128,7 +129,7 @@ const Php = () => {
 
             <div className="ser-main">
                 <div className="php-mainback">
-                    <div className="PHP-back phpbackk dine-123">
+                    <div className="PHP-back phpbackk">
                         <div className="magento_back1 php_backs1">
                             <h1>Affordable php development services</h1>
                             <p>
@@ -152,7 +153,7 @@ const Php = () => {
                         </div>
                     </div>
                 </div>
-                <div className="magento_service php_service dine-123">
+                <div className="magento_service php_service">
                     <div className="magento_service1  php_service1">
                         <h2>
                             Why Should You Choose <span>PHP</span> <br /> Development?
@@ -172,7 +173,7 @@ const Php = () => {
                     </div>
                 </div>
 
-                <div className="benifits_php dine-123">
+                <div className="benifits_php">
 
                     <div className="php_benifits_flex">
                         <div className="php_ben1">
@@ -399,7 +400,7 @@ const Php = () => {
 
                 <div>
                     <div id="hello">
-                        <div className="content_sssnnnppp dine-123">
+                        <div className="content_sssnnnppp">
                             <div className="content1">
                                 <h3 className="heading">
                                     Our PHP Development <br />
@@ -616,8 +617,7 @@ const Php = () => {
                     </div>
                 </div>
 
-
-                <ContactForm1 />
+                            <Website/>
                 <PhpFAQ />
               
 

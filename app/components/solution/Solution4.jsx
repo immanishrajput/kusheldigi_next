@@ -13,6 +13,7 @@ import "@splidejs/react-splide/css";
 import Navbar from "../../COMMON/Navbar";
 import Footer from "../../COMMON/Footer";
 import { useEffect } from "react";
+import Website from "../Home/HomeForm";
 const Solution = () => {
 
 
@@ -521,7 +522,8 @@ useEffect(() => {
           </div>
         </div>
 
-        <ContactForm1 />
+        {/* <ContactForm1 /> */}
+        <Website/>
 
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
