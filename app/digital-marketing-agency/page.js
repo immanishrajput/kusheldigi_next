@@ -8,6 +8,7 @@ import Navbar from "../COMMON/Navbar";
 
 import ContactForm from "../COMMON/ContactForm";
 import DigitalFAQ from "../COMMON/DigitalFAQ";
+import Website from "../components/Home/HomeForm";
 function DigitalMarketing({notify}) {
 
 
@@ -85,7 +86,7 @@ function DigitalMarketing({notify}) {
             </div>
             
             <div className="dma-main">
-            <div className="ourtalent dine-123">
+            <div className="ourtalent">
               <div className="ourtalent-text">
                 <div className="ourtalent-text__heading">
                   <h2>
@@ -161,7 +162,7 @@ function DigitalMarketing({notify}) {
           {/* <!-- Charts Section --> */}
           <section>
             <div className="dmc-chart">
-            <div className="charts dine-123">
+            <div className="charts">
               <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739166291/chart_3_gcypyv.svg' alt="individual tracker" title="individual tracker" />
               <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739166349/chart_4_ivlrvj.svg' alt="Region wise lead tracker" title="Region wise lead tracker" />
               <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739166385/chart_5_ggxv5g.svg' alt="Team performnce" title="Team performnce" />
@@ -176,7 +177,7 @@ function DigitalMarketing({notify}) {
           {/* <!-- Portfolio Section --> */}
           <section>
             <div className="DMC-process"></div>
-            <div className="process aaj13122023 dine-123">
+            <div className="process aaj13122023">
               <h2 className="font-bold  new1487899641mhhjkkjkj">
                 Our <span>R.O.C.K.E.T</span> process
               </h2>
@@ -368,7 +369,7 @@ as well!</p>
             </div>
 
              <div className="dmc-conection">
-            <div className="connectus dine-123">
+            <div className="connectus">
               <p>DO YOU WANT TO RANK YOUR WEBSITE</p>
               <Link href="/contact-us">
               <button>LET’S CONNECT</button> </Link>
@@ -376,7 +377,9 @@ as well!</p>
             </div>
 
            <DigitalFAQ/>
-            <ContactForm notify={notify}/>
+            {/* <ContactForm notify={notify}/> */}
+
+            <Website/>
           </section>
         </div>
     

@@ -17,6 +17,7 @@ import ContactForm from "../COMMON/ContactForm";
 import "@splidejs/react-splide/css";
 
 import MobileFAQ from "../COMMON/MobileFAQ";
+import Website from "../components/Home/HomeForm";
 const MobileApp = ({ notify }) => {
   const [perPage, setPerPage] = useState(6);
   useEffect(() => {
@@ -211,7 +212,7 @@ const MobileApp = ({ notify }) => {
         <div className="help-business help-business2 ">
           <h3 className="text-center">Our Custom App Development Services</h3>
 
-          <div className="business-card flex-wrap dine-123">
+          <div className="business-card flex-wrap">
             <div className="business-box relative text-center cursor-pointer">
               <div className="business-card-img">
                 <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739339608/c5_yz8nsm.png' alt="Native App Development" title="Native App Development" />
@@ -301,7 +302,8 @@ const MobileApp = ({ notify }) => {
 
            <MobileFAQ/>
 
-        <ContactForm notify={notify} />
+        {/* <ContactForm notify={notify} /> */}
+        <Website/>
 
 
         {/*  buttons  */}

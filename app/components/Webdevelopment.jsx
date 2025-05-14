@@ -16,6 +16,7 @@ import Footer from "../COMMON/Footer";
 import ContactForm from "../COMMON/ContactForm";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
+import Website from "./Home/HomeForm";
 // import { Helmet } from "react-helmet";
 
 
@@ -168,7 +169,7 @@ const generateMetadata = ({ params }) => ({
 
         <div className="ser2 ser-vertical">
           <div className="ser21 ser23">
-            <div className="home412 flex justify-center items-center dine-123">
+            <div className="home412 flex justify-center items-center">
               <Splide
                 className=" w-full"
                 aria-label="Our Services"
@@ -470,7 +471,7 @@ const generateMetadata = ({ params }) => ({
 
           </p>
           <div className="card-son">
-            <div className="business-card">
+            <div className="business-card" id="business-card">
               <div className="business-box business-box3 relative text-center cursor-pointer usaCard1">
                 <div className="business-card-img bus-card-img1">
                   <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461630/track_hacdsj.png' alt="Make a decision about your website" title="Make a decision about your website" />
@@ -497,7 +498,7 @@ const generateMetadata = ({ params }) => ({
                 </p>
               </div>
             </div>
-            <div className="business-card">
+            <div className="business-card" id="business-card">
               <div className="business-box business-box3 relative text-center cursor-pointer usaCard1">
                 <div className="business-card-img bus-card-img1">
                   <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461559/admi1_wxxwd8.png' alt="Write code for your website" title="Write code for your website" />
@@ -780,7 +781,7 @@ const generateMetadata = ({ params }) => ({
 
         <WebdevelopmentFAQ/>
 
-        <ContactForm notify={notify} />
+        <Website/>
 
 
         {/*  buttons  */}

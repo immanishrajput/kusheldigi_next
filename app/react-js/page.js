@@ -180,8 +180,7 @@ const Reactjsdev = () => {
                   upgrades.
                 </p>
               </div>
-            </div>
-            <div className="reactjsdev_card">
+             
               <div className="reactjsdev_box_s">
                 {/* <img src={zz4} alt="zz" /> */}
                 <svg width="80" height="52" viewBox="0 0 80 52" fill="none" xmlns="http://www.w3.org/2000/svg">
