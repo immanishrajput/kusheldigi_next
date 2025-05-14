@@ -102,7 +102,7 @@ const handleTabClick = (year) => {
       </div>
       <hr className="growthHr"/>
       <div className="growth-story-content">
-        <img
+        <img loading='lazy'
           src={data[activeYear].image}
           alt={data[activeYear].title}
           className="growth-story-image"

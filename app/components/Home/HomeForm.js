@@ -7,6 +7,8 @@ import { useRouter } from "next/navigation";
 import PhoneInput from "react-phone-input-2";
 import 'react-phone-input-2/lib/style.css';
 import Image from "next/image";
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Website = () => {
   const [firstNo, setFirstNo] = useState(0);
@@ -31,12 +33,12 @@ const Website = () => {
 
   const verifyCaptcha = () => {
     if (parseInt(userAnswer) !== correctAnswer) {
-      alert("Wrong Captcha! Try again.");
+      toast.error("Wrong Captcha! Try again.");
       generateCaptcha();
       setCaptchaVerified(false);
       return;
     }
-    alert("Captcha Verified!!");
+    toast.success("Captcha Verified!!");
     setCaptchaVerified(true);
   };
 
@@ -58,22 +60,28 @@ const Website = () => {
 
   const handleForm = async (e) => {
     e.preventDefault();
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    
+        if (!emailRegex.test(formData.email2)) {
+          toast.error("Invalid email address!");
+          return;
+        }
     if (
       formData.name2.trim() === '' ||
       formData.phone2.trim() === '' ||
       formData.email2.trim() === '' ||
       formData.message2.trim() === '91'
     ) {
-      alert("Please fill all the fields!!");
+      toast.error("Please fill all the fields!!");
       return;
     }
     if (!captchaVerified) {
-      alert("Please Verify the Captcha !!");
+      toast.error("Please Verify the Captcha !!");
       generateCaptcha();
       return;
     }
     if (parseInt(userAnswer) !== correctAnswer) {
-      alert("Wrong Captcha! Try again.");
+      toast.error("Wrong Captcha! Try again.");
       generateCaptcha();
       setCaptchaVerified(false);
       return;
@@ -391,7 +399,7 @@ const Website = () => {
                 </span>
               </div>
 
-              <button className="contact-htmlForm-btn" type="submit">
+              <button disabled={loading} className="contact-htmlForm-btn" type="submit">
                 {loading ? 'Sending...' : "Submit"}
               </button>
             </form>

@@ -62,7 +62,7 @@ const Section5 = () => {
        <Slider {...settings}>
           {awards.map((award, index) => (
             <div className="award-itemCom" key={index}>
-              <img src={award.src} alt={award.alt} />
+              <img loading='lazy' src={award.src} alt={award.alt} />
             </div>
           ))}
         </Slider>

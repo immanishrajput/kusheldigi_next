@@ -1,5 +1,6 @@
 import Script from "next/script";
 import "./globals.css"
+import { ToastContainer } from "react-toastify";
 
 
 export const metadata = {
@@ -104,7 +105,10 @@ export default function RootLayout({ children }) {
           `  
         }} />
      </head>
-      <body>{children}</body>
+      <body>
+        <ToastContainer position="bottom-right" />
+        {children}
+        </body>
     </html>
   );
 }
