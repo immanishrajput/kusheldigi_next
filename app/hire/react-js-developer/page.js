@@ -125,7 +125,7 @@ const ReactJsHire = () => {
                             built for success, with the future in mind.
                         </p>
                     </div>
-                    <div className="migartion_card">
+                    {/* <div className="migartion_card">
                         <Splide
                             className="w-full"
                             aria-label="Our Services"
@@ -238,7 +238,75 @@ const ReactJsHire = () => {
                                 </div>
                             </SplideSlide>
                         </Splide>
-                    </div>
+                    </div> */}
+
+                   
+<div className="migration_card">
+  <Splide
+    className="w-full z-50"
+    aria-label="React JS Services"
+    options={{
+      perPage: perPage,
+      perMove: 1,
+      autoplay: true,
+      pauseOnHover: true,
+      type: "loop",
+      interval: 2000,
+      drag: true,
+      gap: '1rem',
+      breakpoints: {
+        1024: { perPage: 2 },
+        768: { perPage: 1 },
+        480: { perPage: 1 },
+      },
+    }}
+  >
+    {[
+      {
+        title: "React JS Consultancy",
+        desc: "Looking for a front-end ReactJS solution? Our senior ReactJS executives may assist you to clarify all your concerns and queries while helping to create scalable solutions. We don’t just sketch your business workflows but also find various tactics & proposals to make sure the brand is ready to rank from day one of its releases.",
+      },
+      {
+        title: "Material Design Integrations",
+        desc: "Your fantastic app concept merits a beautiful design solution. Our innovative UI/UX designers and ReactJS developers work together to create a feature-rich and aesthetically appealing front-end design that encourages customers to explore the platform and choose the customer journey.",
+      },
+      {
+        title: "Single Page Apps",
+        desc: "We take all critical measures to improve your website visitors' experience by creating Single Page Apps with quicker response times, server-side rendering that benefits Google SERPs and dynamic content that adjusts to suit varied user preferences. DianApps never fails to deliver the ultimate results to its clients.",
+      },
+      {
+        title: "Custom & Real-time Apps",
+        desc: "No matter what sector your company is in or how unique your ReactJS app development needs are. Our ReactJS developers are capable of delivering modern, real-time web app solutions adapted to your individual requirements, resulting in improved outcomes and great ROIs for the long run accomplishments.",
+      },
+      {
+        title: "Plugin Implementation",
+        desc: "Our ReactJS engineers make full use of the ReactJS front-end JavaScript library's full power to construct reusable plugins and widgets, improving the usability of your business-critical solution, which ultimately helps you stand out from the competition and claim success.",
+      },
+      {
+        title: "App Migration",
+        desc: "We use the best practices of the ReactJS library to effortlessly transfer your conventional apps to ReactJS for greater performance and, as a result, more potential to gain users' interest, leading to a higher return on investment and sustainability.",
+      },
+      {
+        title: "App Support & Maintenance",
+        desc: "Hire specialized ReactJS developers for app maintenance and support services as needed to ensure the top-notch performance of your ReactJS application at all times. They deliver app version upgrades with bug fixes and security patches on a regular and proactive basis to keep your app up to date in all technical aspects.",
+      },
+    ].map((item, i) => (
+      <SplideSlide key={i}>
+        <div className="migration_box">
+          <div className="mig1">
+            <h4>{i + 1}</h4>
+          </div>
+          <div className="mig2">
+            <h3>{item.title}</h3>
+            <p>{item.desc}</p>
+          </div>
+        </div>
+      </SplideSlide>
+    ))}
+  </Splide>
+</div>
+
+
                 </div>
                 {/* =================crausol=============== */}
 

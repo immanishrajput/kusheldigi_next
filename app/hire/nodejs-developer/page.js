@@ -67,7 +67,7 @@ const generateMetadata = ({ params }) => ({
             
             <div className="ser-main">
 
-                <div className="phppp-main">
+                <div className="phppp-main" id='phpppp-main'>
                     <div className="php-back">
                         <div className="php-back1">
                             <h1>Hire Node.js Developers</h1>
@@ -122,7 +122,9 @@ const generateMetadata = ({ params }) => ({
                             Our skilled and competent group provides expertise for Node.js end to end services. Our team consists of Node.js developers who are professional in technical ability and timely completion. We are able to provide solutions for your projects and comprehend the different requirements, enabling you to run a successful and innovative organisation.
                         </p>
                     </div>
-                    <div className="migartion_card">
+
+
+                    {/* <div className="migartion_card">
                         <Splide
                             className="w-full"
                             aria-label="Our Services"
@@ -207,7 +209,61 @@ const generateMetadata = ({ params }) => ({
                                 </div>
                             </SplideSlide>
                         </Splide>
-                    </div>
+                    </div> */}
+                     
+                     <div className="migration_card">
+                       <Splide
+                         className="w-full z-50"
+                         aria-label="Our Services"
+                         options={{
+                           perPage: perPage,
+                           perMove: 1,
+                           autoplay: true,
+                           pauseOnHover: true,
+                           type: "loop",
+                           interval: 2000,
+                           drag: true,
+                           gap: '1rem',
+                           breakpoints: {
+                             1024: { perPage: 2 },
+                             768: { perPage: 1 },
+                             480: { perPage: 1 },
+                           },
+                         }}
+                       >
+                         {[1, 2, 3, 4, 5].map((num, i) => (
+                           <SplideSlide key={i}>
+                             <div className="migration_box">
+                               <div className="mig1">
+                                 <h4>{num}</h4>
+                               </div>
+                               <div className="mig2">
+                                 <h3>
+                                   {[
+                                     "Node.js consultation",
+                                     "Custom Node.js development",
+                                     "Enterprise Node.js apps",
+                                     "Node.js migration",
+                                     "Node.js maintenance",
+                                   ][i]}
+                                 </h3>
+                                 <p>
+                                   {[
+                                     " By collaborating with a Node JS consultant you can get excellent advice to develop your web or application projects uniquely. This advice guides you towards best practices, technical knowledge and solutions to help you complete your projects successfully.",
+                                     " One outstanding technology that is made to fit your business needs is custom Node JS development. It offers you fully featured, customised solutions that improve user experience for your users. Developing custom Node JS applications can help you grow your company to new heights.",
+                                     " Node.js applications are taking new turns in the industrial world. It assist in resolving particular issues and are growing in significance within the sector. These programmes' strength, security, and scalability enable businesses to have a consistent and long-lasting online presence.",
+                                     " Within the Node.js expansion, migration is the process of moving from one old platform to another. It provides the business with scalability, security, and stability by ensuring that every one of their apps is updated and stays stable. It is essential that the technical and business aspects of this methodology be taken into account.",
+                                     "                                            For the industry to remain stable and functional, Node.js maintenance is crucial. Node.js services stay stable and functional with regular upgrades, security patches, and bug fixes. via maintenance and assistance."
+                                   ][i]}
+                                 </p>
+                               </div>
+                             </div>
+                           </SplideSlide>
+                         ))}
+                       </Splide>
+                     </div>
+
+
                 </div>
 
                 <div className="technicalll">
