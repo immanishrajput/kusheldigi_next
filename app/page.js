@@ -33,6 +33,8 @@ import HomeNewBanner from "./components/Home/HomeNewBanner";
 import CompaniesSlider from "./components/Home/slider/CompaniesSlider";
 import ScrollSection from "./components/Scroll-Section/ScrollSection";
 import PopUp from './components/Home/PopUp/PopUp';
+import 'lenis/dist/lenis.css'
+import Lenis from 'lenis'
 
 const HomePage = ({ props }) => {
   const phoneNumber = '9045301702';
@@ -48,9 +50,16 @@ const HomePage = ({ props }) => {
     window.open(callUrl, '_blank');
   };
 
+  useEffect(() => {
+    const lenis = new Lenis();
 
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
 
-
+    requestAnimationFrame(raf);
+  }, [])
 
   const generateMetadata = ({ params }) => {
     return {

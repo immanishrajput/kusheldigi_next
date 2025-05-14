@@ -32,7 +32,7 @@ const Slider = () => {
           className="mySwiper"
         >
 
-<SwiperSlide>
+          <SwiperSlide>
             <div className="carousel-item">
               <div className="left-carousel-item">
 
@@ -66,8 +66,8 @@ const Slider = () => {
                 <p className="right-carousel-para">
                   2nd Amendment Armory is known for being a leading provider of high-quality firearms and tactical equipment  serving customers both locally in Brandon, FL and across the nation.usted firearms provider of high-quality gun accessories.
                 </p>
-                <Link  href="/2ndamendment">
-                  <button  className="left-carousel-btn blue-bg right-carousel-inner-btn">
+                <Link href="/2ndamendment">
+                  <button className="left-carousel-btn blue-bg right-carousel-inner-btn">
                     View Case Study
                   </button>
                 </Link>

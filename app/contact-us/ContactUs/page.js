@@ -8,6 +8,9 @@ import 'react-phone-input-2/lib/style.css';
 import '../../components/Home/homeBan.css'
 import { GiTrophyCup } from "react-icons/gi";
 import { FaAward, FaRegUser, FaUserAlt } from "react-icons/fa";
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 const ContactUs = () => {
 
 
@@ -70,12 +73,12 @@ const ContactUs = () => {
 
   const verifyCaptcha = () => {
     if (parseInt(userAnswer) !== correctAnswer) {
-      alert("Wrong Captcha! Try again.");
+      toast.error("Wrong Captcha! Try again.");
       generateCaptcha();
       setCaptchaVerified(false);
       return;
     }
-    alert("Captcha Verified!!");
+    toast.success("Captcha Verified!!");
     setCaptchaVerified(true);
   };
 
@@ -122,24 +125,31 @@ const ContactUs = () => {
     console.log({ [name]: value });
   }
 
+
   const handleForm = async (e) => {
     e.preventDefault();
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+    if (!emailRegex.test(formData.email11)) {
+      toast.error("Invalid email address!");
+      return;
+    }
     if (
       formData.firstName11.trim() === '' ||
       formData.phone11.trim() === '' ||
       formData.email11.trim() === '' ||
       formData.message11.trim() === '91'
     ) {
-      alert("Please fill all the fields!!");
+      toast.error("Please fill all the fields!!");
       return;
     }
     if (!captchaVerified) {
-      alert("Please Verify the Captcha !!");
+      toast.error("Please Verify the Captcha !!");
       generateCaptcha();
       return;
     }
     if (parseInt(userAnswer) !== correctAnswer) {
-      alert("Wrong Captcha! Try again.");
+      toast.error("Wrong Captcha! Try again.");
       generateCaptcha();
       setCaptchaVerified(false);
       return;
@@ -162,7 +172,7 @@ const ContactUs = () => {
         navigate.push('/success');
         generateCaptcha();
       } else {
-        alert(JSON.stringify(response), "Unknown error");
+       toast.error(JSON.stringify(response), "Unknown error");
       }
     } catch (error) {
       console.error("Error while sending email:", error);
@@ -280,7 +290,7 @@ const ContactUs = () => {
                   Verify Captcha
                 </span>
               </div>
-              <button type="submit" className="submit-btnKush">    {loading ? 'Sending...' : "Submit"}</button>
+              <button disabled={loading} type="submit" className="submit-btnKush">    {loading ? 'Sending...' : "Submit"}</button>
             </div>
           </form>
         </div>
@@ -327,12 +337,12 @@ const ContactUs = () => {
 
               {[...Array(2)].map((_, i) => (
                 <React.Fragment key={i}>
-                  <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744203598/webinstalogo_rutcoc_1_empjy6.png" alt="image" />
-                  <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744203613/summer_2_htxjay.png" alt="img" />
-                  <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744203624/CodePXL_Web_Logo_1_cr6g7c.png" alt="img" />
-                  <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744203637/Slide365_Logo_1_x9pvmf.png" alt="img" />
-                  <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744203651/sights_and_scope_black_logo_2_ksdcq4.png" alt="img" />
-                  <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744203692/70904_228x204_1_rvp6ue.png" alt="img" />
+                  <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744203598/webinstalogo_rutcoc_1_empjy6.png" alt="image" />
+                  <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744203613/summer_2_htxjay.png" alt="img" />
+                  <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744203624/CodePXL_Web_Logo_1_cr6g7c.png" alt="img" />
+                  <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744203637/Slide365_Logo_1_x9pvmf.png" alt="img" />
+                  <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744203651/sights_and_scope_black_logo_2_ksdcq4.png" alt="img" />
+                  <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744203692/70904_228x204_1_rvp6ue.png" alt="img" />
                 </React.Fragment>
               ))}
 

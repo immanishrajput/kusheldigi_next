@@ -36,7 +36,7 @@ export default function BlogDetails() {
   const [confetti, setConfetti] = useState(null);
 
   useEffect(() => {
-    import("canvas-confetti").then((module) =>  
+    import("canvas-confetti").then((module) =>
       setConfetti(() => module.default)
     );
   }, []);
@@ -49,10 +49,10 @@ export default function BlogDetails() {
           fetch(`${baseurl}/api/v1/auth/getRecentBlog`),
         ]);
 
-       
-          const blogData = await blogRes.json();
-          console.log(blogData);
-          setCurrentBlog(blogData?.data[0]);
+
+        const blogData = await blogRes.json();
+        console.log(blogData);
+        setCurrentBlog(blogData?.data[0]);
         //  else {
         //   console.error("Failed to fetch blog details");
         // }
@@ -60,6 +60,20 @@ export default function BlogDetails() {
         if (recentRes.ok) {
           const recentData = await recentRes.json();
           setRecentBlogs(recentData?.blogs || []);
+
+          setTimeout(() => {
+            const accordionHeaders = document.querySelectorAll('.accordion-header');
+
+            accordionHeaders.forEach(header => {
+              header.addEventListener('click', () => {
+                const content = header.nextElementSibling;
+                const isVisible = content.style.display === 'block';
+
+                content.style.display = isVisible ? 'none' : 'block';
+                header.classList.toggle('active', !isVisible);
+              });
+            });
+          }, 0);
         } else {
           console.error("Failed to fetch recent blogs");
         }
@@ -145,12 +159,33 @@ export default function BlogDetails() {
     }, 2000);
   };
 
+  useEffect(() => {
+    const accordionHeaders = document.querySelectorAll('.accordion-header');
+
+    accordionHeaders.forEach(header => {
+      const content = header.nextElementSibling;
+      header.addEventListener('click', () => {
+        const isVisible = content.style.display === 'block';
+        content.style.display = isVisible ? 'none' : 'block';
+        header.classList.toggle('active', !isVisible);
+      });
+    });
+
+    return () => {
+      accordionHeaders.forEach(header => {
+        const content = header.nextElementSibling;
+        const newHeader = header.cloneNode(true);
+        header.replaceWith(newHeader);
+      });
+    };
+  }, []);
+
   return (
     <>
-    <Navbar/>
-    
+      <Navbar />
+
       <section className="MainBloggSeC">
-       
+
         {currentBlog ? (
           <div>
 
@@ -169,20 +204,20 @@ export default function BlogDetails() {
         <section className="third-section" ref={thirdSectionRef}>
           <div className="thirddd">
             <div className="social-icon" ref={socialIconRef}>
-            <FacebookShareButton url={currentPageUrl} quote="Check out this blog!">
-              <div className="icon">
-                <FaFacebook />
-              </div>
+              <FacebookShareButton url={currentPageUrl} quote="Check out this blog!">
+                <div className="icon">
+                  <FaFacebook />
+                </div>
               </FacebookShareButton>
               <LinkedinShareButton url={currentPageUrl} title="Check out this blog!" summary="An interesting blog you must read!" source="https://www.kusheldigi.com">
-              <div className="icon">
-                <FaLinkedin />
-              </div>
+                <div className="icon">
+                  <FaLinkedin />
+                </div>
               </LinkedinShareButton>
               <TwitterShareButton url={currentPageUrl} title="Check out this blog!">
-              <div className="icon">
-               <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742891237/logo_fszyod.png"/>
-              </div>
+                <div className="icon">
+                  <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742891237/logo_fszyod.png" />
+                </div>
               </TwitterShareButton>
               <div
                 className="icon"
@@ -196,26 +231,26 @@ export default function BlogDetails() {
 
             <div className="mainBloContentSt">
               <div className="mainBloContentStPara">
-             
+
                 <div className="profileDate">
-                 
-               <div>
-               <p> <b>{currentBlog?.author}</b></p>
-              <p>{currentBlog?.designation || 'N/A'}</p>
-           
-              <p><b> {currentBlog?.time}</b> Read Deep Think Big<br/> <br/>
-              </p>
-               </div>
-            {
-            new Date(currentBlog?.date).toLocaleDateString("en-GB", {
-                    day: "numeric",
-                    month: "long",
-                    year: "numeric",
-                  })
-            }
-        </div>
-                
-                
+
+                  <div>
+                    <p> <b>{currentBlog?.author}</b></p>
+                    <p>{currentBlog?.designation || 'N/A'}</p>
+
+                    <p><b> {currentBlog?.time}</b> Read Deep Think Big<br /> <br />
+                    </p>
+                  </div>
+                  {
+                    new Date(currentBlog?.date).toLocaleDateString("en-GB", {
+                      day: "numeric",
+                      month: "long",
+                      year: "numeric",
+                    })
+                  }
+                </div>
+
+
               </div>
 
               {/* Blog Content */}
@@ -231,26 +266,26 @@ export default function BlogDetails() {
                 {/* <img src="assets/Cybersecurity_chalanges_2025-blog-hero-min.webp" alt="Author" /> */}
                 <div className="profile-info">
                   <h4>{currentBlog?.author}</h4>
-                  
+
                 </div>
               </div>
               <div className="social-icons">
-              <FacebookShareButton url={currentPageUrl} quote="Check out this blog!">
-                <div className="icon">
-                  <FaFacebook/>
-                
-                </div>
+                <FacebookShareButton url={currentPageUrl} quote="Check out this blog!">
+                  <div className="icon">
+                    <FaFacebook />
+
+                  </div>
                 </FacebookShareButton>
                 <LinkedinShareButton url={currentPageUrl} title="Check out this blog!" summary="An interesting blog you must read!" source="https://www.kusheldigi.com">
-                <div className="icon">
-                  <FaLinkedin/>
-                </div>
+                  <div className="icon">
+                    <FaLinkedin />
+                  </div>
                 </LinkedinShareButton>
                 <TwitterShareButton url={currentPageUrl} title="Check out this blog!">
-                <div className="icon">
-                <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742891237/logo_fszyod.png"/>
-                  
-                </div>
+                  <div className="icon">
+                    <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742891237/logo_fszyod.png" />
+
+                  </div>
                 </TwitterShareButton>
                 <div
                   id="popAni"
@@ -259,7 +294,7 @@ export default function BlogDetails() {
                   onClick={() => handleClick1("popAni", "thanksTxt1")}
                 >
                   <span className={`thanksTxt ${showThanks ? "displayBlock" : "displayNone"}`}>Thanks</span>
-                  <MdCelebration/>
+                  <MdCelebration />
                 </div>
               </div>
             </div>
@@ -288,16 +323,16 @@ export default function BlogDetails() {
                         year: "numeric",
                       })}
                     </p>
-                   <div className="cardBlogStpaara1">
-                   <p className="cardBlogStpaara">{item.title}</p>
-                  
-                   </div>
+                    <div className="cardBlogStpaara1">
+                      <p className="cardBlogStpaara">{item.title}</p>
+
+                    </div>
                     <p className="cardBlogStpaaragr">{item.subdescription}</p>
                     {/* <p className="cardBlogStpaarw">Read More</p> */}
                     <div className="blogClockTimee">
-                      
-                        <span className="cardBlogStpaarw">Read More</span>
-                  
+
+                      <span className="cardBlogStpaarw">Read More</span>
+
                       <span className="bimageloDiPargaphhh">
                         <span>
                           {" "}
@@ -314,7 +349,7 @@ export default function BlogDetails() {
             </section>
           </div>
         </section>
-        <Footer/>
+        <Footer />
       </section>
     </>
   );

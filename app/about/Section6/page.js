@@ -44,7 +44,7 @@ With a proven track record in eCommerce development, we specialize in building s
         {activeTab === "E-Commerce Development" && (
           <div className="contentline">
             <div className="image-containerPic">
-              <img
+              <img loading='lazy'
                 src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744122054/ecommerce-development_bjf84t.png"
                 alt="Software Applications"
                 
@@ -60,7 +60,7 @@ With a proven track record in eCommerce development, we specialize in building s
           {activeTab === "Custom Software Development" && (
           <div className="contentline">
             <div className="image-containerPic">
-              <img
+              <img loading='lazy'
                 src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744122054/custom-software-development_bwgwv6.png"
                 alt="Software Applications"
                
@@ -76,7 +76,7 @@ With a proven track record in eCommerce development, we specialize in building s
          {activeTab === "Mobile Apps" && (
           <div className="contentline">
             <div className="image-containerPic">
-              <img
+              <img loading='lazy'
                 src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744122055/app_yo3rtj.png "
                 alt="Software Applications"
                 
