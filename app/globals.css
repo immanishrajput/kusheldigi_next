@@ -31835,11 +31835,10 @@ form button:hover {}
 .hires-team h3 {
     color: #000;
     font-family: 'Poppins', sans-serif !important;
-    -webkit-text-fill-color: #fff;
+    -webkit-text-fill-color: black;
     -webkit-text-stroke-width: .2px;
     -webkit-text-stroke-color: #000;
-    opacity: .2;
-    font-family: "Roboto", sans-serif !important;
+    opacity: .2; 
     font-weight: bolder;
     font-size: 65px;
     letter-spacing: .05em;
@@ -31934,7 +31933,7 @@ form button:hover {}
 }
 
 .first-hiring button:hover {
-    font-family: 'sf-ui-display-medium', sans-serif !important;
+    font-family: 'Poppins', sans-serif !important;
     background-color: #fff;
     border: 1px solid #0039ff;
     color: #0B56E4
@@ -32175,7 +32174,11 @@ form button:hover {}
 
 @media (max-width:450px) {
     .benifits-hire a {
-        width: 100%;
+        width: auto;
+    }
+
+    .benifits-hire button{
+        margin:auto;
     }
 }
 
@@ -41658,6 +41661,8 @@ video {
     margin-top: 30px
 }
 
+
+
 .why_kushel_native {
     padding: 60px 0
 }
@@ -44705,7 +44710,7 @@ video {
 @media screen and (max-width:1100px) {
     .why_hireHtml_right h4 {
         text-align: center;
-        font-size:38px;
+        font-size: 38px;
     }
 
     .why_hireHtml_right p {
@@ -59072,7 +59077,8 @@ wordpress_cater_box p {
     }
 
     .php-back1 button {
-        font-size: 16px
+        font-size: 16px;
+        margin-top: 1rem;
     }
 
     .get_mig1 {
@@ -61400,7 +61406,8 @@ wordpress_cater_box p {
     }
 
     .hire-back {
-        padding: 0 40px
+        padding: 0 40px;
+        height: 380px;
     }
 
     .benifits-hire {
@@ -62537,7 +62544,7 @@ wordpress_cater_box p {
     }
 
     .ser-main {
-        padding-top: 9rem
+        padding-top: 8rem
     }
 
     .mob-nav {
@@ -63249,7 +63256,12 @@ wordpress_cater_box p {
     }
 
     .key_imgTand p {
-        text-align: start
+        text-align: center;
+    }
+
+    .key_imgTand img{
+        margin: auto;
+        padding: 15px 0;
     }
 
     .parst-ty p {
@@ -64965,7 +64977,7 @@ wordpress_cater_box p {
 
 @media screen and (max-width:650px) {
     .engag_php_box {
-        height: 500px
+        height: 450px
     }
 
     .home911 h2 {
@@ -66318,11 +66330,14 @@ wordpress_cater_box p {
 
     .confused h2 {
         font-size: 25px;
-        line-height: 32px
+        line-height: 32px;
+        text-align: center;
     }
 
     .confused p {
-        font-size: 14px
+        font-size: 14px;
+        text-align: center;
+
     }
 
     .hire_py {
@@ -66330,11 +66345,14 @@ wordpress_cater_box p {
     }
 
     .hire_py p {
-        font-size: 14px
+        font-size: 14px;
+        margin: 0;
+        padding:20px 0;
     }
 
     .php-back1 {
-        padding-top: 0
+        padding-top: 0;
+        padding-bottom: 25px;
     }
 
     .faltu-box0 {
@@ -70684,7 +70702,8 @@ wordpress_cater_box p {
     }
 
     .hire-back {
-        padding: 0 20px
+        padding: 0 20px;
+        height: 250px;
     }
 
     .hire-sect h1 {
@@ -70703,7 +70722,8 @@ wordpress_cater_box p {
 
     .first-hiring h2 {
         font-size: 25px;
-        line-height: 32px
+        line-height: 32px;
+        text-align: center;
     }
 
     .hired-para .hiring-first-para {
@@ -70711,16 +70731,19 @@ wordpress_cater_box p {
     }
 
     .hired-para .hiring-second-para {
-        font-size: 14px
+        font-size: 14px;
+        text-align: center;
+
     }
 
     .team-hired-help {
-        height: 750px;
+        height: 530px;
         max-height: 100%
     }
 
     .hired-help-sect h5 {
-        font-size: 16px
+        font-size: 16px;
+        text-align: center;
     }
 
     .benifits-hire {
@@ -70779,7 +70802,7 @@ wordpress_cater_box p {
 
     .contact-sect p {
         width: 100%;
-        text-align: center
+        text-align: center;
     }
 
     .hired-help-sect {
@@ -70788,7 +70811,16 @@ wordpress_cater_box p {
 
     .hired-help-sect h2 {
         font-size: 25px;
-        line-height: 32px
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .hired-help-sect button{
+        margin: auto;
+    }
+
+    .hired-help-sect a{
+        width:auto !important;
     }
 
     .listing-hired p {
@@ -70796,7 +70828,11 @@ wordpress_cater_box p {
     }
 
     .hires-team {
-        padding: 60px 20px
+        padding: 10px 20px 30px;
+    }
+
+    .first-hiring h5{
+        text-align: center;
     }
 
     .hire-sect p {
@@ -71917,7 +71953,8 @@ wordpress_cater_box p {
     }
 
     .reactnativehireee {
-        padding-top: 20px !important
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
     }
 
     .pgp_service {
