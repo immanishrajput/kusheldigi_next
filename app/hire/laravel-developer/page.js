@@ -126,7 +126,9 @@ useEffect(() => {
                         Hire Laravel developers from Kushel Digi to create complex-free, effective applications. Our team's outstanding developers are always using cutting edge technologies to create original and practical solutions. Our primary goal is to give people a beautiful and effortless experience where they are unable to distinguish between happiness and difficulty.
                         </p>
                     </div>
-                    <div className="migartion_card">
+
+
+                    {/* <div className="migartion_card">
                         <Splide
                             className="w-full"
                             aria-label="Our Services"
@@ -199,7 +201,62 @@ useEffect(() => {
                             </SplideSlide>
 
                         </Splide>
+                    </div> */}
+
+                    <div className="migration_card">
+                      <Splide
+                        className="w-full z-50"
+                        aria-label="PHP Migration Services"
+                        options={{
+                          perPage: perPage,
+                          perMove: 1,
+                          autoplay: true,
+                          pauseOnHover: true,
+                          type: "loop",
+                          interval: 2000,
+                          drag: true,
+                          gap: '1rem',
+                          breakpoints: {
+                            1024: { perPage: 2 },
+                            768: { perPage: 1 },
+                            480: { perPage: 1 },
+                          },
+                        }}
+                      >
+                        {[1, 2, 3, 4].map((num, i) => (
+                          <SplideSlide key={i}>
+                            <div className="migration_box">
+                              <div className="mig1">
+                                <h4>{num}</h4>
+                              </div>
+                              <div className="mig2">
+                                <h3>
+                                  {[
+                                    "Laravel Web Development",
+                                    "Migration to Laravel",
+                                    "Laravel Support & Maintenance",
+                                    "Laravel",
+                                   
+                                  ][i]}
+                                </h3>
+                                <p>
+                                  {[
+                                    "Laravel web development is a powerful and innovative technology that helps users to create web applications as per their requirements. It uses modern development practices with the latest security and accelerated performance and delivers high quality web products.",
+                                    "Now get the chance to move your web application in an unique and safe manner by switching to Laravel. This occurs slowly and with perfect instant reliability. This method produces a more accurate and comprehensive experience by correctly visualising the facts and structure.",
+                                    "Maintenance and support for Laravel is crucial for advanced trustworthy online projects. This guarantees the availability and security of your application or website. Your company may run more efficiently. With the help of Laravel's support and maintenance services, which give you skilled attention and help.",
+                                    "Laravel is a well-known and php web development framework, which comes with high quality and unique features. It is used to develop web apps quickly and effectively, providing an excellent experience to users. Even experienced developers get convenience in using this tool.",
+                                    
+                                  ][i]}
+                                </p>
+                              </div>
+                            </div>
+                          </SplideSlide>
+                        ))}
+                      </Splide>
                     </div>
+
+
+
                 </div>
                 {/* =================crausol=============== */}
 

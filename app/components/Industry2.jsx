@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import Head from 'next/head';
-import '../globals.css'
+import '../globals.css';
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
 import data from "../data/data";

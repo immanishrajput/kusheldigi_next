@@ -122,6 +122,8 @@ useEffect(() => {
           </div>
         </div>
         {/* ==============crausol============== */}
+
+
         <div className="hireee-kui">
           <div className="hire_kui dine-1234">
             <div className="hire_line">
@@ -144,7 +146,9 @@ useEffect(() => {
                 built for success, with the future in mind.
               </p>
             </div>
-            <div className="migartion_card">
+
+
+            {/* <div className="migartion_card">
               <Splide
                 className="w-full z-50"
                 aria-label="Our Services"
@@ -157,8 +161,9 @@ useEffect(() => {
                   interval: 1600,
                   drag: true,
                   breakpoints: {
-                    1024: { perPage: 3 },
-                    768: { perPage: 2 },
+                   
+                    1024: { perPage: 2,},
+                    768: { perPage: 1 },
                     480:{ perPage: 1}
                   },
                  
@@ -234,9 +239,164 @@ useEffect(() => {
                   </div>
                 </SplideSlide>
               </Splide>
-            </div>
+            </div>  */}
+
+<div className="migration_card">
+  <Splide
+    className="w-full z-50"
+    aria-label="PHP Migration Services"
+    options={{
+      perPage: perPage1,
+      perMove: 1,
+      autoplay: true,
+      pauseOnHover: true,
+      type: "loop",
+      interval: 2000,
+      drag: true,
+      gap: '1rem',
+      breakpoints: {
+        1024: { perPage: 2 },
+        768: { perPage: 1 },
+        480: { perPage: 1 },
+      },
+    }}
+  >
+    {[1, 2, 3, 4, 5].map((num, i) => (
+      <SplideSlide key={i}>
+        <div className="migration_box">
+          <div className="mig1">
+            <h4>{num}</h4>
+          </div>
+          <div className="mig2">
+            <h3>
+              {[
+                "Full stack PHP development",
+                "Custom PHP app development",
+                "PHP migration and upgradations",
+                "Software maintenance",
+                "PHP CMS development",
+              ][i]}
+            </h3>
+            <p>
+              {[
+                "We help you migrate your software to PHP, ensuring it benefits from the language's full potential. We also upgrade your existing software into PHP.",
+                "We specialize in building custom PHP apps that stand out in look and performance.",
+                "We help you transmigrate your software to PHP and upgrade your current stack for maximum performance.",
+                "We have fitted and redacted a software system after it has been delivered to the customer. It is necessary to ensure that the software continues to meet the needs of the users over time.",
+                "By using PHP CMS platforms, developers can rock bottom of their traditional workload .It makes it easy to develop dynamic web apps, and this smartly streamlines the development process."
+              ][i]}
+            </p>
           </div>
         </div>
+      </SplideSlide>
+    ))}
+  </Splide>
+</div>
+
+             
+
+{/* <div className="migartion_card mx-auto max-w-7xl px-4">
+  <Splide
+    id="php-migration-slider"
+    className="w-full z-50"
+    aria-label="Our Services"
+    options={{
+      perPage: 4,
+      perMove: 1,
+      focus: 'center',
+      autoplay: true,
+      pauseOnHover: true,
+      type: "loop",
+      interval: 1800,
+      drag: true,
+      gap: '1rem',
+      breakpoints: {
+        1280: { perPage: 3, focus: 'center' },
+        1024: { perPage: 2, focus: 'center' },
+        768: { perPage: 1, focus: 'center' },
+      },
+    }}
+  >
+    <SplideSlide id="slide-1">
+      <div className="migration_box">
+        <div className="mig1">
+          <h4>1</h4>
+        </div>
+        <div className="mig2">
+          <h3>Full stack PHP development</h3>
+          <p>
+            We help you migrate your software to PHP, ensuring it gets all the benefits
+            the language offers. We also upgrade your current software into PHP.
+          </p>
+        </div>
+      </div>
+    </SplideSlide>
+
+    <SplideSlide id="slide-2">
+      <div className="migration_box">
+        <div className="mig1">
+          <h4>2</h4>
+        </div>
+        <div className="mig2">
+          <h3>Custom PHP app development</h3>
+          <p>
+            We specialise in building custom PHP apps that make your software unique,
+            both in design and performance.
+          </p>
+        </div>
+      </div>
+    </SplideSlide>
+
+    <SplideSlide id="slide-3">
+      <div className="migration_box">
+        <div className="mig1">
+          <h4>3</h4>
+        </div>
+        <div className="mig2">
+          <h3>PHP migration and upgradations</h3>
+          <p>
+            We transmigrate your software to PHP and ensure a smooth upgrade for long-term benefits.
+          </p>
+        </div>
+      </div>
+    </SplideSlide>
+
+    <SplideSlide id="slide-4">
+      <div className="migration_box">
+        <div className="mig1">
+          <h4>4</h4>
+        </div>
+        <div className="mig2">
+          <h3>Software maintenance</h3>
+          <p>
+            We provide long-term maintenance to ensure your software always performs efficiently and meets user expectations.
+          </p>
+        </div>
+      </div>
+    </SplideSlide>
+
+    <SplideSlide id="slide-5">
+      <div className="migration_box">
+        <div className="mig1">
+          <h4>5</h4>
+        </div>
+        <div className="mig2">
+          <h3>PHP CMS development</h3>
+          <p>
+            Our PHP CMS services reduce development time and simplify dynamic web app building.
+          </p>
+        </div>
+      </div>
+    </SplideSlide>
+  </Splide>
+</div> */}
+
+
+
+          </div>
+        </div>
+
+
         {/* =================crausol=============== */}
 
         <div className="get_in_php dine-1234">

@@ -38833,7 +38833,13 @@ video {
 }
 
 .phppp-main {
-    background-color: #085881
+    background-color: #085881;
+    min-height: 667px;
+}
+
+#phpppp-main {
+    background-color: #085881;
+    min-height: 600px;
 }
 
 .php-back {
@@ -38912,7 +38918,7 @@ video {
     border-radius: 25px;
     padding: 30px 40px;
     position: absolute;
-    top: 40px;
+    top: 26px;
     right: 40px;
     box-shadow: 0 4px 4px 0 #00000040
 }
@@ -39088,14 +39094,14 @@ video {
 }
 
 .hire_py p {
-    font-size: 22px;
+    font-size: 20px;
     color: #33475b;
     font-weight: 400;
     margin-top: 30px;
     text-align: center !important
 }
 
-.migartion_card {
+/* .migartion_card {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39105,7 +39111,7 @@ video {
 
 @media (max-width:900px) {
     .migartion_card {
-        /* padding: 50px 50px */
+        padding: 20px 20px;
         margin: 0;
     }
 
@@ -39115,14 +39121,23 @@ video {
     background-color: #fff;
     border-left: 6px solid #1265ff;
     position: relative;
-    padding: 50px 20px;
+    padding: 50px 25px;
     margin: 0 30px;
     height: 340px;
     max-height: 100%;
-    max-width: 410px;
+    max-width: 460px;
+    margin: 0 auto;
     width: 100%
 }
 
+@media(max-width:934px){
+.mig2 h3{
+  font-size: 14px !important;
+    }
+.mig2 p{
+  font-size: 14px !important;
+} 
+}
 .migration_box1 {
     height: 450px !important
 }
@@ -39152,7 +39167,7 @@ video {
 
 .mig1 {
     position: absolute;
-    top: -40px;
+    top: 5px;
     left: 50%;
     transform: translateX(-50%);
     width: 70px;
@@ -39171,7 +39186,143 @@ video {
     color: #33475b;
     font-weight: 700;
     font-size: 22px
-}
+} */
+
+
+
+/* =============== */
+
+/* Wrapper */
+.migration_card {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 40px 20px;
+    margin-top: 80px;
+    
+    background-color: #f9f9f9;
+  }
+  
+ 
+
+  .migration_box {
+    position: relative;
+    background: #ffffff;
+    border-left: 6px solid #1265ff;
+    border-radius: 12px;
+    max-width: 420px;
+    margin: 0 auto;
+    min-height: 320px;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: visible; 
+  
+  }
+  
+ 
+  .mig1 {
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    z-index: 999;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    border: 2px solid #3c83cb33;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .migration_box:hover {
+    transform: translateY(-4px);
+  }
+  
+  
+  .mig1 h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #33475b;
+    margin: 0;
+  }
+  
+  /* Content */
+  .mig2 {
+    margin-top: 50px;
+    text-align: center;
+   padding: 50px 25px 50px 25px;
+  }
+
+  @media(max-width:480px){
+    .mig2 p{
+        padding: 10px !important;
+    }
+    .migration_box {
+        min-height: 200px;
+    }
+    .mig2 h3 {
+        padding: 10px 0px !important
+      }
+    .migration_card{
+        margin-top: 0;
+    }
+    .engag_php_box h2{
+        text-align: center;
+    }
+  }
+  
+  .mig2 h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #33475b;
+    margin-bottom: 15px;
+    padding: 30px 0px;
+  }
+  
+  .mig2 p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    padding: 5px 20px 20px 0px;
+    margin: 0;
+  }
+  
+  /* Adjust Splide Track Overflow */
+  .migration_card .splide__track {
+    overflow: visible !important;
+  }
+  
+  .migration_card .splide__pagination {
+    display: none !important;
+  }
+  
+  /* Responsive Text */
+  @media (max-width: 934px) {
+    .mig2 h3 {
+      font-size: 16px !important;
+    }
+  
+    .mig2 p {
+      font-size: 14px !important;
+    }
+  
+    .mig1 {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .mig1 h4 {
+      font-size: 18px;
+    }
+  
+    .migration_box {
+      /* padding: 40px 20px 25px; */
+      min-height: 320px;
+    }
+  }
+  
+/* =================== */
 
 .get_in_php {
     background-color: #fff;
@@ -39201,14 +39352,14 @@ video {
 }
 
 .get_mig button {
-    font-family: 'sf-ui-display-medium', sans-serif !important;
-    width: 230px;
-    padding: 10px 45px;
+    font-family: 'Poppins', sans-serif !important;
+    width: 245px;
+    padding: 10px 35px;
     background-color: #0B56E4;
     color: #fff;
     font-weight: 400;
     font-size: 18.5px;
-    border-radius: 30px;
+    border-radius: 60px;
     border: 1px solid #085881
 }
 
@@ -39258,6 +39409,8 @@ video {
     color: #33475b;
     font-weight: 700
 }
+
+
 
 .engag_php_box img {
     display: block;
@@ -41062,9 +41215,10 @@ video {
     overflow: hidden;
 }
 
-@media(max-width:400px) {
+@media(max-width:480px) {
     .nat_heading p {
-        font-size: 17px
+        font-size: 17px;
+  
     }
 }
 
@@ -41722,7 +41876,7 @@ video {
 
 .native_box p {
     color: #fff;
-    font-size: 18.5px;
+    font-size: 17px;
     line-height: 25px;
     font-weight: 400;
     text-align: center;
@@ -42459,7 +42613,7 @@ video {
 .head_brnta h3 {
     color: #33475b;
     font-weight: 700;
-    font-size: 24px
+    font-size: 23px
 }
 
 .node_benta p {
@@ -42560,7 +42714,7 @@ video {
 }
 
 .hire-kutta .migration_box {
-    height: 440px !important;
+    height: 370px !important;
     max-height: 100%
 }
 
@@ -63558,7 +63712,7 @@ wordpress_cater_box p {
     }
 
     .hire_kui .splide__slide {
-        margin: 0 20px
+        margin: 0 24px
     }
 
     .hire_kui .splide__arrow {
@@ -66246,7 +66400,9 @@ wordpress_cater_box p {
     .hire_line h2 {
         text-align: center;
         font-size: 25px;
-        line-height: 32px
+        line-height: 32px;
+        margin-bottom: 20px !important;
+        
     }
 
     .php-back1 p {
@@ -66255,18 +66411,18 @@ wordpress_cater_box p {
     }
 
     .mig2 h3 {
-        text-align: center;
+        text-align: center !important;
         font-size: 25px;
         line-height: 32px
     }
 
     .migration_box {
-        width: 117%;
-        margin: 0 -42px
+        width: 100%;
+        /* margin: 0 -42px */
     }
 
     .mig2 p {
-        text-align: center;
+        text-align: center !important;
         font-size: 14px;
         line-height: 24px
     }
@@ -66287,7 +66443,8 @@ wordpress_cater_box p {
 
     .why_php_h h2 {
         font-size: 25px;
-        line-height: 32px
+        line-height: 32px;
+        text-align: center !important;
     }
 
     .why_pnt1 {
@@ -66296,6 +66453,7 @@ wordpress_cater_box p {
 
     .why_pnt1 p {
         font-size: 14px;
+        text-align: center !important;
         padding: 0 0
     }
 
@@ -66325,7 +66483,8 @@ wordpress_cater_box p {
 
     .get_mig button {
         height: auto !important;
-        padding: 15px !important
+        font-size: 14px;
+        padding: 7px 32px !important
     }
 
     .confused h2 {
@@ -76991,3 +77150,21 @@ ul {
     margin: 20px 0px !important;
     display: block;
 }
+
+/* new csss  */
+
+@media(max-width:480px){
+    .get_mig button {
+        font-size: 14px;
+    }
+    .mig2 h3 {
+        text-align: center !important;
+    }
+    .node_benta p {
+        text-align: center;
+    }
+    .head_brnta h3{
+        text-align: center;
+    }
+}
+

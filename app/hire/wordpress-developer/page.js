@@ -127,7 +127,8 @@ const HireWordpress = () => {
 
                         </p>
                     </div>
-                    <div className="migartion_card">
+
+                    {/* <div className="migartion_card">
                         <Splide
                             className="w-full"
                             aria-label="Our Services"
@@ -202,7 +203,63 @@ const HireWordpress = () => {
                             </SplideSlide>
 
                         </Splide>
-                    </div>
+                    </div> */}
+
+<div className="migration_card">
+  <Splide
+    className="w-full z-50"
+    aria-label="WordPress Services"
+    options={{
+      perPage: perPage,
+      perMove: 1,
+      autoplay: true,
+      pauseOnHover: true,
+      type: "loop",
+      interval: 2000,
+      drag: true,
+      gap: '1rem',
+      breakpoints: {
+        1024: { perPage: 2 },
+        768: { perPage: 1 },
+        480: { perPage: 1 },
+      },
+    }}
+  >
+    {[
+      {
+        title: "Tailored WordPress Solutions",
+        desc: "We have expertise in creating tailor-made WordPress solutions that perfectly match your distinct needs and goals. Your website or web application will stand out with a personalised touch.",
+      },
+      {
+        title: "WordPress Plugin Development",
+        desc: "Our expertise extends to WordPress plugin development. We create custom plugins that enhance the functionality of your WordPress site, providing solutions tailored to your requirements.",
+      },
+      {
+        title: "WordPress Speed Enhancement",
+        desc: "We optimize the speed and performance of your WordPress website. With our expertise, your site will load faster, offering a better user experience and improved search engine rankings.",
+      },
+      {
+        title: "Seamless Migration and Upgrades",
+        desc: "We offer hassle-free migration and upgrade services for your WordPress site. Whether you're moving to a new host, updating to the latest version, or enhancing your website's capabilities, we ensure a smooth transition.",
+      },
+    ].map((item, i) => (
+      <SplideSlide key={i}>
+        <div className="migration_box">
+          <div className="mig1">
+            <h4>{i + 1}</h4>
+          </div>
+          <div className="mig2">
+            <h3>{item.title}</h3>
+            <p>{item.desc}</p>
+          </div>
+        </div>
+      </SplideSlide>
+    ))}
+  </Splide>
+</div>
+
+
+
                 </div>
                 {/* =================crausol=============== */}
 
