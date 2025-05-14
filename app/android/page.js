@@ -32,23 +32,23 @@ const Android = ({ notify }) => {
       behavior: 'smooth',
     });
   };
-     
+
   const generateMetadata = ({ params }) => ({
-      title: 'Best android app development services',
-      description: 'the best location to create cutting-edge Android apps here at Kushel Digi! We provide best android app development services',
-    });
-    
-    useEffect(() => {
-      const { title, description } = generateMetadata({ params: {} });
-      document.title = title;
-      let metaDescription = document.querySelector('meta[name="description"]');
-      metaDescription ? metaDescription.content = description : 
-        document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-    }, []);
+    title: 'Best android app development services',
+    description: 'the best location to create cutting-edge Android apps here at Kushel Digi! We provide best android app development services',
+  });
+
+  useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description :
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
   return (
     <>
 
-<Head>
+      <Head>
         {/* Open Graph (OG) Meta Tags */}
         <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
         <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
@@ -63,14 +63,14 @@ const Android = ({ notify }) => {
         <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
         <meta name="twitter:url" content="https://www.kusheldigi.com/" />
       </Head>
-      
-    <Navbar/>
-    
+
+      <Navbar />
+
       <div className="ser-main">
         <div className="android_next_class">
           <div className="android-back  android-back-flex1 flutter-back-flex1 andoidd-pad">
             <div className="android-back1 android_back_text_section">
-             
+
               <h1>Custom Android App <br /> Development Company</h1>
               <p className="android-son">
                 We pride ourselves on being a top Android app development agency.  Our company provide high quality deliverables and premier functionality. We complete and deliver your project on exact time.
@@ -175,24 +175,21 @@ const Android = ({ notify }) => {
 
         <div className="android-usa">
           <div className="android-usa1">
-            <h3>
-              Use Cases That Make
-          
-           Android Development The First Choice
-            of SMEs and
-              Enterprises</h3>
+            <h3 >
+              Use Cases That Make Android Development The First Choice of SMEs and Enterprises
+            </h3>
             <p>
               Our custom Android app development delivers numerous Android advantages.
             </p>
-            
-              <h5>
+
+            <h5>
               <Link className="trassion letsay" href="/contact-us">
-                Explore Problem Solving with Android{" "}
+                Explore Problem Solving with Android
                 <svg className="ml-2" width="15" height="13" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M15.0811 10.0655C14.8304 10.0655 14.6785 10.0655 14.5342 10.0655C10.1051 10.0655 5.6761 10.0655 1.24707 10.0655C0.35823 10.0655 -0.203945 9.33411 0.0695453 8.54173C0.236678 8.07696 0.578542 7.83316 1.06475 7.77982C1.20149 7.76458 1.34583 7.77982 1.48258 7.77982C5.85083 7.77982 10.2115 7.77982 14.5797 7.77982C14.7165 7.77982 14.8532 7.77982 15.0735 7.77982C14.9368 7.62744 14.8532 7.52839 14.7621 7.43696C13.2883 5.95887 11.8144 4.47316 10.333 2.99506C9.99118 2.6522 9.78606 2.27125 9.9228 1.76839C10.1431 0.976012 11.0548 0.663631 11.7081 1.15887C11.8296 1.2503 11.936 1.36458 12.0424 1.47125C14.2303 3.66554 16.4106 5.8522 18.5985 8.03887C19.1303 8.5722 19.1455 9.25792 18.6137 9.78363C16.3878 12.016 14.1543 14.2484 11.9284 16.4808C11.5865 16.8236 11.1991 17.0141 10.6977 16.8617C9.9228 16.6255 9.62652 15.7341 10.1127 15.0865C10.2039 14.9646 10.3178 14.8579 10.4242 14.7513C11.8676 13.3036 13.3035 11.8636 14.7469 10.416C14.838 10.3246 14.9292 10.2255 15.0811 10.0655Z" fill="#21698E" />
                 </svg>
-                </Link>
-              </h5>
+              </Link>
+            </h5>
           </div>
           <div className="android-usa2"></div>
           <div className="android-usa3">
@@ -287,10 +284,10 @@ const Android = ({ notify }) => {
                 </svg>
               </h5></Link>
           </div>
-        </div> 
+        </div>
 
-        <Website/>
-                 <AndroidFAQ/>
+        <Website />
+        <AndroidFAQ />
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
             <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480684/whatsapp_fuwawo.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
@@ -301,7 +298,7 @@ const Android = ({ notify }) => {
 
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };
