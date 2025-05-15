@@ -21,8 +21,7 @@
     .growth-story-tabs {
       display: flex;
       justify-content: space-between;
-      gap: 70px;
-      
+      gap: 60px;
       margin: 20px 0;
     }
     

@@ -77,7 +77,7 @@ border-radius: 7px;
     height: auto;
   }
     .boostSecPara {
-
+      text-align: center;
       width: 100%;
       font-size: 36px;
       line-height: 44px;
@@ -87,6 +87,8 @@ border-radius: 7px;
       width: 100%;
       font-size: 15px;
       line-height: 28px;
+      text-align: center;
+
     }
   
     .abouMainbox{

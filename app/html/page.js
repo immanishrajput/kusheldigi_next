@@ -1,6 +1,8 @@
 "use client"
 import React, { useEffect } from 'react'
-import { Splide, SplideSlide } from "@splidejs/react-splide";
+import '@splidejs/react-splide/css'; // Or use '@splidejs/react-splide/css/core' for basic styles
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+
 
 import Link from 'next/link';
 
@@ -170,7 +172,7 @@ const Html = () => {
                                 <h3>Geolocation Support</h3>
                                 <p>This way, it allows the provision of location services that let sites take advantage of the user’s location information. Through such a feature, location aware applications and context specific promotions become possible.</p>
                             </div>
-                         
+
                             <div className="html_dev_box">
                                 {/* <img src={zz4} alt="zz" /> */}
                                 <svg width="85" height="86" viewBox="0 0 85 86" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -217,10 +219,16 @@ const Html = () => {
                         className="w-full"
                         aria-label="Our Services"
                         options={{
+                            type: 'loop',
                             perPage: 1,
-
+                            autoplay: true,
+                            interval: 3000,
+                            pauseOnHover: false,
+                            pauseOnFocus: false,
+                            resetProgress: false,
                         }}
                     >
+
                         <SplideSlide>
                             <div className="kickta_big kickta_html">
                                 <div className="kickta_big1 kickta_html1">
@@ -351,7 +359,7 @@ const Html = () => {
                 </div>
                 <div className="why_hire_html">
                     <h3>
-                        What Kinds of Digital Services Are Included in the <span>HTML5</span><br /> Development Offering by Kushel Digi?
+                        What Kinds of Digital Services Are Included in the <span>HTML5</span> Development Offering by Kushel Digi?
                     </h3>
                     <div className="why_hire_htmlCard mt-6">
                         <div className="why_hireHtml_left">
@@ -369,7 +377,7 @@ const Html = () => {
                     <div className="kay_btn">
                         <Link href="/contact-us">
                             <button>
-                                DISCUSS YOUR CUSTOM REQUIREMENTS
+                               Let's Discuss
                             </button> </Link>
                     </div>
                 </div>

@@ -51,7 +51,7 @@ const Footer = () => {
                   <h5>Company</h5>
                   <div className="foot10 reji flex flex-col">
                     <Link href="/about">About Us</Link>
-                    <Link href="/career">Career</Link>
+                    {/* <Link href="/career">Career</Link> */}
                     <Link href="/hire">Hiring</Link>
                   
                     <Link href="/privacy">Privacy Policy</Link>

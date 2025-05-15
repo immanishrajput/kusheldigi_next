@@ -15,10 +15,10 @@ const data = [
     title: "About",
     navigate: "/about",
     subpart: [
-      {
-        title: "Careers",
-        navigate: "/career",
-      },
+      // {
+      //   title: "Careers",
+      //   navigate: "/career",
+      // },
       // {
       //   title: "Partner With us",
       //   navigate: "/partner"

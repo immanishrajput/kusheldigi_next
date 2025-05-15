@@ -31,8 +31,8 @@ const Banner = () => {
                             <p>Kushel Digi Solutions has a dedicated team of experts who have delivered advanced eCommerce development and digital transformation solutions. We have deep expertise in latest technologies like Bigcommerce, Shopify, Woocommerce to deliver customised e-commerce solutions. We're here to give your brand the digital identity to make you standout in thus competitive world.</p>
                         </div>
                         {/* <div className='Kushabouparbtn'>
-   <Link href="/contact-us"> <button>Get in touch <FaArrowRight/></button></Link>
-</div> */}
+                            <Link href="/contact-us"> <button>Get in touch <FaArrowRight/></button></Link>
+                        </div> */}
                         <div className='flex-new-banner-btns'>
 
                             <button onClick={scrollToForm} className='new-banner-btn colored'>Talk to a Consultant</button>
@@ -42,16 +42,16 @@ const Banner = () => {
                             <p>Our recognition</p>
 
                             <div className='aboutImagKush'>
-                                <img  loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743148178/Certified-Bigcommerce-Partner__of0fqt.png" alt="certified" />
-                                <img  loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993082/designrush_jkyjny.webp" alt="best" />
-                                <img  loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993106/ecommerce-developers-india_zfydfo.png" alt="ecoomerce" />
-                                <img  loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340304/Partner-Certified-Wordmark_j6b9ar.png" className='aboutimgkush' alt="bigcommerce" />
+                                <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743148178/Certified-Bigcommerce-Partner__of0fqt.png" alt="certified" />
+                                <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993082/designrush_jkyjny.webp" alt="best" />
+                                <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993106/ecommerce-developers-india_zfydfo.png" alt="ecoomerce" />
+                                <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340304/Partner-Certified-Wordmark_j6b9ar.png" className='aboutimgkush' alt="bigcommerce" />
                             </div>
                         </div>
                     </div>
-                    <div className='KushaboupaImage'>
-                        <img  loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746540535/sir-png_edml3n.png" alt="banner" />
-                    </div>
+                        <div className='KushaboupaImage'>
+                            <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746540535/sir-png_edml3n.png" alt="banner" />
+                        </div>
                 </div>
             </section>
         </>
