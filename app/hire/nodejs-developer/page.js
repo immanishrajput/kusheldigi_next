@@ -424,8 +424,6 @@ const generateMetadata = ({ params }) => ({
                                     <p>Our seamless onboarding method is an outcome of our time-bound software development, unique project management processes, smart implementation, and over thirty years of experience.</p>
                                 </div>
                             </div>
-                        </div>
-                        <div className="sing">
                             <div className="dedicated_singat">
                                 <div className="singi_img">
                                     <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172821/frena4_pqxroh.png' alt="Engagement Modes" title='Engagement Modes' />

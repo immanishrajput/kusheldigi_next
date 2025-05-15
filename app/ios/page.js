@@ -232,11 +232,11 @@ const generateMetadata = ({ params }) => ({
                 Boosting Your Business Through <br /> the Development of Custom{" "}
                 <br /> iOS Applications
               </h3>
-              <h3 className="hidetill450">
+              {/* <h3 className="hidetill450">
                 {" "}
                 Boosting Your Business Through the Development of Custom iOS
                 Applications
-              </h3>
+              </h3> */}
               <p>
                 We have a skilled team of experienced iPhone app developers who
                 specialise in crafting tailored iOS solutions. Our services
@@ -261,11 +261,11 @@ const generateMetadata = ({ params }) => ({
 
         <div className="android-usa">
           <div className="android-usa1 ios-usa1">
-            <h3 className="hideafter450">Use Cases That Lead</h3>
+            {/* <h3 className="hideafter450">Use Cases That Lead</h3>
             <h3 className="hideafter450">SMEs and Enterprises to Choose</h3>
-            <h3 className="hideafter450">iOS Development</h3>
+            <h3 className="hideafter450">iOS Development</h3> */}
 
-            <h3 className="hidetill450">
+            <h3 className="hideafter450">
               Use Cases That Lead SMEs and Enterprises to Choose iOS Development
             </h3>
             <p>
@@ -470,19 +470,19 @@ const generateMetadata = ({ params }) => ({
               <div className="android-pflex">
                 <h3>250+</h3>
                 <p>
-                  ios developers <br /> in-house
+                  ios developers in-house
                 </p>
               </div>
               <div className="android-pflex">
                 <h3>500+</h3>
                 <p>
-                  ios projects <br /> in-house
+                  ios projects in-house
                 </p>
               </div>
               <div className="android-pflex">
                 <h3>30+</h3>
                 <p>
-                  industries brought <br /> on ios
+                  industries brought on ios
                 </p>
               </div>
             </div>

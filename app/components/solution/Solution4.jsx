@@ -17,14 +17,14 @@ import Website from "../Home/HomeForm";
 const Solution = () => {
 
 
- 
+
   const phoneNumber = "9045301702";
 
   const whatAppHandler = () => {
     const whatsappUrl = `https://wa.me/${phoneNumber}`;
     window.open(whatsappUrl, "_blank");
   };
-  const callHandler=()=>{
+  const callHandler = () => {
     const callUrl = `tel:${phoneNumber}`;
     window.open(callUrl, "_blank");
   }
@@ -38,22 +38,22 @@ const Solution = () => {
       behavior: 'smooth',
     });
   };
- const generateMetadata = ({ params }) => ({
+  const generateMetadata = ({ params }) => ({
     title: 'Top eCommerce Solutions Company  for B2B/B2C | Kushel Digi',
     description: 'Kushel Digi Solutions delivers advanced eCommerce app and web development, AI, AR/VR, IoT integration, and secure payment solutions for scalable B2B & B2C businesses. ',
   });
-  
-useEffect(() => {
+
+  useEffect(() => {
     const { title, description } = generateMetadata({ params: {} });
     document.title = title;
     let metaDescription = document.querySelector('meta[name="description"]');
-    metaDescription ? metaDescription.content = description : 
+    metaDescription ? metaDescription.content = description :
       document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
   }, []);
   return (
     <>
 
-<Head>
+      <Head>
         {/* Open Graph (OG) Meta Tags */}
         <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
         <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
@@ -68,15 +68,15 @@ useEffect(() => {
         <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
         <meta name="twitter:url" content="https://www.kusheldigi.com/" />
       </Head>
-      
-    <Navbar/>
+
+      <Navbar />
       {/* <Helmet> */}
-        <title>Case studies of KushelDigi Solutions</title>
-        <meta
-          name="description"
-          content="Unlock growth with custom E-commerce solutions by KushelDigi Solutions. Elevate your online presence today!"
-        />
-        <link rel="canonical" href="https://www.kusheldigi.com/solutions" />
+      <title>Case studies of KushelDigi Solutions</title>
+      <meta
+        name="description"
+        content="Unlock growth with custom E-commerce solutions by KushelDigi Solutions. Elevate your online presence today!"
+      />
+      <link rel="canonical" href="https://www.kusheldigi.com/solutions" />
       {/* </Helmet> */}
       {" "}
       <div className="ser-main">
@@ -91,7 +91,7 @@ useEffect(() => {
                 Entice buyers and generate more leads through our top-notch
                 interactive eCommerce business development solutions.
               </p>
-          <button>    <Link href="/contact-us"> REQUEST DEMO </Link></button>
+              <button>    <Link href="/contact-us"> REQUEST DEMO </Link></button>
             </div>
             <div className="solution_back2">
               <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724930471/timery.27da1d0b3f753b1420e9_auwua2.png" alt="E-commerce Development Solutions" title="E-commerce Development Solutions" />
@@ -103,8 +103,7 @@ useEffect(() => {
           <div className="influence_some">
             <div className="influence_left ">
               <div className="indo">
-                <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724930470/influ.cdd5308f93f6cbfb71a2_sllptl.png
-" alt="Customers With E-commerce Development Solutions"  title="Customers With E-commerce Development Solutions" />
+                <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724930470/influ.cdd5308f93f6cbfb71a2_sllptl.png" alt="Customers With E-commerce Development Solutions" title="Customers With E-commerce Development Solutions" />
               </div>
             </div>
             <div className="influence_right">
@@ -136,7 +135,7 @@ useEffect(() => {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-14 px-4 py-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-14 px-11 py-8">
               <div className="business-box busi-box relative text-center cursor-pointer">
                 <div className="business-card-img">
                   <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740481029/penda_b2myld.png' alt="E-commerce Consulting" title="E-commerce Consulting" />
@@ -416,7 +415,7 @@ useEffect(() => {
                   <SplideSlide>
                     <div className="kickta_big">
                       <div className="kickta_big1">
-                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480864/kikma_dyc44r.png' alt="the most compfortable recoil"  title="the most compfortable recoil"/>
+                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480864/kikma_dyc44r.png' alt="the most compfortable recoil" title="the most compfortable recoil" />
                         <div className="headst_big">
                           <h3>the most <br />
                             compfortable<br />
@@ -517,13 +516,13 @@ useEffect(() => {
             <h3>Boost Your E-commerce Business Experience With Kushel Digi</h3>
             <p>Build power-packed eCommerce apps & connect with global customers.</p>
             <div className="boost_button">
-            <button>  <Link href="/contact-us">Get in Touch </Link></button>
+              <button>  <Link href="/contact-us">Get in Touch </Link></button>
             </div>
           </div>
         </div>
 
         {/* <ContactForm1 /> */}
-        <Website/>
+        <Website />
 
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
@@ -537,7 +536,7 @@ useEffect(() => {
 
 
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };

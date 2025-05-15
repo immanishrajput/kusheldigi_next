@@ -28231,7 +28231,7 @@ form button {
     /* margin: 0 15px; */
     background-color: #fff;
     height: 100%;
-    padding: 50px 20px;
+    padding: 50px 20px 0;
     border-radius: 8px;
     box-shadow: 0 4px 4px rgb(0 0 0 / .05)
 }
@@ -38852,7 +38852,7 @@ video {
 }
 
 .php-back1 {
-    padding-top: 80px;
+    padding-top: 35px;
     padding-bottom: 90px
 }
 
@@ -38898,7 +38898,7 @@ video {
     line-height: 24px;
     padding: 16px 30px;
     text-align: center;
-    margin-top: 45px
+    margin-top: 20px
 }
 
 .php-back1 button:hover {
@@ -40714,58 +40714,95 @@ video {
 }
 
 .influenceee {
-    background-color: #085881
+    background-color: #085881;
+    width: 100%;
 }
 
 .influence_some {
-    padding: 50px 100px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
-    position: relative
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 60px 100px;
 }
 
-.indo {
-    width: fit-content;
-    position: absolute;
-    top: 100px
+.influence_left {
+    flex: 0 0 40%;
+    max-width: 40%;
 }
 
 .influence_left img {
-    max-width: 375px;
-    width: 100%
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 .influence_right {
-    padding-top: 110px;
-    padding-bottom: 150px
+    flex: 0 0 55%;
+    max-width: 55%;
+    padding: 20px 0;
 }
 
 .influence_right h2 {
     color: #fff;
     font-weight: 700;
-    font-size: 26px;
-    font-family: 'Poppins', sans-serif !important;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
 }
 
 .influence_right p {
     color: #fff;
-    font-size: 18.5px;
-    font-weight: 400;
-    width: 44em;
+    font-size: 18px;
     line-height: 30px;
-    max-width: 100%;
-    opacity: .95;
-    font-family: 'Poppins', sans-serif !important;
-    margin-top: 20px
+    opacity: 0.95;
+    font-family: 'Poppins', sans-serif;
 }
+
+/* ✅ Tablet */
+@media (max-width: 1024px) {
+    .influence_some {
+        /* flex-direction: column; */
+        padding: 40px 50px;
+        text-align: center;
+    }
+
+    .influence_left,
+    .influence_right {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .influence_right {
+        padding-top: 0;
+    }
+}
+
+/* ✅ Mobile */
+@media (max-width: 600px) {
+    .influence_some {
+        padding: 30px 20px;
+    }
+
+    .influence_right h2 {
+        font-size: 22px;
+    }
+
+    .influence_right p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+
 
 .ourrr-ecommm {
     background-color: #f8f7f6
 }
 
 .our_ecommerce {
-    padding-top: 120px;
+    padding-top: 40px;
     padding-bottom: 60px
 }
 
@@ -42632,9 +42669,9 @@ video {
 .kushel_cant {
     padding: 0 100px;
     padding-top: 60px;
-    padding-bottom: 0;
+    padding-bottom: 100px;
     background-color: #33475b;
-    margin-bottom: 120px
+    /* margin-bottom: 120px */
 }
 
 .kushel_cant h2 {
@@ -42651,46 +42688,67 @@ video {
     color: #fff
 }
 
-.sing {
+.dedicated_sings {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
-    align-items: flex-start;
     justify-content: center;
-    position: relative;
-    top: 50px
+}
+
+.sing {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+/* Tablet - 2 columns */
+@media (max-width: 1024px) {
+    .sing {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile - 1 column */
+@media (max-width: 600px) {
+    .sing {
+        grid-template-columns: 1fr;
+    }
 }
 
 .dedicated_singat {
-    width: 100%;
-    max-width: 440px;
-    margin: 15px 10px;
     background-color: #fff;
     padding: 18px;
     height: 337px;
-    max-height: 100%;
     border-radius: 20px;
     box-shadow: rgb(100 100 111 / .2) 0 7px 29px 0;
-    cursor: pointer
+    cursor: pointer;
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 
 .dedicated_singat:hover {
-    transform: scale(1.1);
-    transition: 0.5s
+    transform: scale(1.03);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
-.singi_img {
+/* .singi_img {
     display: flex;
     align-items: center
-}
+} */
 
 .singi_img img {
-    width: 32px
+    width: 40px
 }
 
 .singi_img h4 {
     color: #33475b;
     font-weight: 700;
     font-size: 23px;
-    margin-left: 12px
+    padding-top: 12px;
 }
 
 .singata-para p {
@@ -46696,7 +46754,7 @@ video {
 
 @media (max-width:900px) {
     .node_dev_ss_box3 p {
-        text-align: left
+        text-align: center;
     }
 }
 
@@ -50232,9 +50290,9 @@ option {
         display: block !important;
     }
 
-    .hideafter450 {
+    /* .hideafter450 {
         display: none !important;
-    }
+    } */
 
     .android2-app {
         padding: 20px 20px !important;
@@ -54592,10 +54650,10 @@ wordpress_cater_box p {
         max-width: 300px
     }
 
-    .android-offer2 img {
+    /* .android-offer2 img {
         max-width: 550px;
         width: 100%
-    }
+    } */
 }
 
 @media only screen and (max-width:1410px) {
@@ -54785,10 +54843,10 @@ wordpress_cater_box p {
         max-width: 300px
     }
 
-    .android-offer2 img {
+    /* .android-offer2 img {
         max-width: 520px;
         width: 100%
-    }
+    } */
 
     .php_navbar p {
         white-space: pre-wrap !important
@@ -54815,7 +54873,7 @@ wordpress_cater_box p {
     }
 
     .kushel_cant {
-        padding: 40px 64px 0 64px !important
+        padding: 40px 64px 40px 64px !important
     }
 
     .why_chose_ios {
@@ -55053,10 +55111,10 @@ wordpress_cater_box p {
         padding: 60px 64px
     }
 
-    .influence_some {
+    /* .influence_some {
         flex-direction: column;
         align-items: center
-    }
+    } */
 
     .influence_right {
         position: initial;
@@ -57650,7 +57708,7 @@ wordpress_cater_box p {
     .android-usa1 h3 {
         margin: 0 auto;
         text-align: center;
-        width: 450px;
+        /* width: 700px; */
     }
 
     .android-usa1 p {
@@ -58923,7 +58981,7 @@ wordpress_cater_box p {
     }
 
     .kushel_cant {
-        padding: 40px 40px 0 40px !important
+        padding: 40px 40px 40px 40px !important
     }
 
     .technical_sunt {
@@ -59457,7 +59515,8 @@ wordpress_cater_box p {
     }
 
     .node_dev_ss1-back1 p {
-        font-size: 16px
+        font-size: 16px;
+        text-align: center;
     }
 
     .node_dev_ss1-back1 button {
@@ -59476,7 +59535,8 @@ wordpress_cater_box p {
 
     .node_dev_ss_box3 h3 {
         line-height: 25px;
-        margin-top: 15px
+        margin-top: 15px;
+        text-align: center;
     }
 
     .node_dev_ss_card3 {
@@ -59649,9 +59709,9 @@ wordpress_cater_box p {
         font-size: 16px
     }
 
-    .influence_some {
+    /* .influence_some {
         padding: 0 40px
-    }
+    } */
 
     .influence_right p {
         font-size: 16px
@@ -61326,7 +61386,8 @@ wordpress_cater_box p {
 
     .android-back1 h1 {
         font-size: 30px;
-        line-height: 38px
+        line-height: 38px;
+        text-align: center;
     }
 
     .android-back1 h2 {
@@ -61386,7 +61447,8 @@ wordpress_cater_box p {
 
     .android-usa1 h3 {
         font-size: 30px;
-        line-height: 38px
+        line-height: 38px;
+        width: auto;
     }
 
     .android-usa1 p {
@@ -64306,6 +64368,10 @@ wordpress_cater_box p {
         font-size: 28px
     }
 
+    .node_dev_ss1_head h3{
+        text-align: center;
+    }
+
     .home-slide-h2 h2 span {
         font-size: 28px
     }
@@ -64366,11 +64432,14 @@ wordpress_cater_box p {
 
     .node_dev_ss_about1 h3 {
         font-size: 25px;
-        line-height: 32px
+        line-height: 32px;
+        text-align: center;
     }
 
     .node_dev_ss_about1 p {
-        font-size: 14px
+        font-size: 14px;
+        text-align: center;
+
     }
 
     .node_dev_ss_serv {
@@ -64422,7 +64491,7 @@ wordpress_cater_box p {
 
     .node_dev_ss_serv4 h3 {
         font-size: 25px;
-        line-height: 32px
+        line-height: 45px;
     }
 
     .node_dev_ss_cards4 {
@@ -66082,7 +66151,7 @@ wordpress_cater_box p {
     }
 
     .kushel_cant {
-        padding: 40px 20px 0 20px !important
+        padding: 40px 20px 40px 20px !important
     }
 
     .android_appli {
@@ -66272,7 +66341,8 @@ wordpress_cater_box p {
     }
 
     .html_box p {
-        font-size: 14px !important
+        font-size: 14px !important;
+        text-align: center;
     }
 
     .reactjsdev_back1 p {
@@ -66672,9 +66742,9 @@ wordpress_cater_box p {
         font-size: 14px
     }
 
-    .influence_some {
+    /* .influence_some {
         padding: 0 20px
-    }
+    } */
 
     .influence_right {
         padding-top: 10px
@@ -66856,7 +66926,8 @@ wordpress_cater_box p {
     }
 
     .html_box h3 {
-        line-height: 34px
+        line-height: 34px;
+        text-align: center;
     }
 
     .why_phpDevr {
