@@ -5,6 +5,7 @@ import { TiTick } from "react-icons/ti";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
 import '../globals.css'
+import './surivaval.css'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
 import Head from 'next/head';
@@ -158,7 +159,7 @@ function Page() {
 
             <section className="case1firsec">
 
-                <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454210/2nd-home-banner_qpuz1w.jpg" alt="kushel" className="case1fill" />
+                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322288/Group_1171279379_-_Copy_r6tcr6.png" alt="kushel" className="case1fill" />
                 {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216400/case1fil_bwtual.png" alt="kushel" className="case1fill" />
         <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216437/case1bg_j1tw2e.png" alt="kushel" className="case1bg" /> */}
 
@@ -229,23 +230,23 @@ function Page() {
                     <div>
                         {/* <h5>Before we started working on the project, there were the following challenges to tackle:-</h5> */}
                         <h5>
-                            1. Poor UI and UX
+                            1. Poor UI and UX.
                         </h5>
                         {/* <p>Selling firearms requires compliance with a Federal Firearms License. The business has to pass through age verification, location-based restrictions, and a lot of other things to be eligible to run an <b>E-commerce shopping</b>. </p> */}
-                        <h5>2. Poor navigation experience </h5>
+                        <h5>2. Poor navigation experience. </h5>
                         {/* <p>The previous website had many issues, such as UI and UX design, performance, and improper infrastructure. It was becoming a hindrance to traffic growth and scalability.</p> */}
-                        <h5>3.Limited functionalities</h5>
+                        <h5>3.Limited functionalities.</h5>
                         {/* <p>As the inventory is large, finding the right product is pretty difficult. The users have to struggle because no advanced filtering and search refinements are there. </p> */}
-                        <h5>4.Slow loading speed that pushes away customers</h5>
+                        <h5>4.Slow loading speed that pushes away customers.</h5>
                         {/* <p>Many of the potential customers exist on mobile, but the site wasn’t mobile-friendly. </p> */}
-                        <h5>5.Lack of on-page and off-page SEO </h5>
+                        <h5>5.Lack of on-page and off-page SEO. </h5>
 
                     </div>
                 </div>
                 <div className="portfolioImageChallenge">
                     <img
-                        src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746785005/Group_1171279298_a4is5k.png"
-                        // src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746514576/2nd-A-challenges_hdngwv.png"
+                        src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322289/Group_1171279376_-_Copy_ldbeat.png"
+     
                         alt="kushel"
                     />
                 </div>
@@ -271,7 +272,7 @@ function Page() {
                         {/* <p>We also did a thorough research to identify the market gaps and analyze the best possible solution for the business. </p> */}
 
                     </div>
-                    <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746514576/2nd-A-solutions_s6apxz.png" alt="kushel" className="c3antoimg" />
+                    <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322288/Group_1171279378_-_Copy_un4a6y.png" alt="kushel" className="c3antoimg" />
 
                     {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216571/case3ano_uv19e1.png" alt="kushel" className="c3antoimg" /> */}
                 </div>
@@ -299,7 +300,7 @@ function Page() {
                         <div className="cas3s4con" id="cas3s4connn">
 
                             <div className="bgshowdb1" >
-                                < img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784460/Group_1171279313_zyrxoy.png" />
+                                < img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322289/Group_1171279386_zuyozu.png" />
                                 {/* <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746710597/Group_1171279306_o1qdhn.png" alt="kushel" className="ca2insideimg adjustheighimg" /> */}
                                 {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
                             </div>
@@ -324,7 +325,7 @@ function Page() {
                         <div className="cas3s4con" id="cas3s4connn">
 
                             <div className="bgshowdb1" id="bgshowdb11">
-                                <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784461/Group_1171279309_1_z8a9ol.png" />
+                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322290/Group_1171279382_-_Copy_lua8c3.png" />
                                 {/* <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454204/e-commerce-development_wu34yd.png" alt="kushel" className="ca2insideimg adjustheighimg" />
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
                             </div>
@@ -348,7 +349,7 @@ function Page() {
 
                             <div className="bgshowdb1">
                                 {/* <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784464/Group_1171279316_nc1yiv.png" alt="kushel" className="ca2insideimg addheightimage" /> */}
-                                <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784464/Group_1171279316_nc1yiv.png" alt="kushel" className="" />
+                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322287/Group_1171279385_hzudvi.png" alt="kushel" className="" />
                             </div>
 
                             <div className="cas3circldata" id="cas3circldata1">

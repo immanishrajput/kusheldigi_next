@@ -190,6 +190,27 @@ const portfolioData = [
   },
 
 
+  {
+    id: 'automotive-103',
+  
+   
+    logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1747323201/logo-white-new_1687810777__26159.original_tyhlxx.png',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    description: [
+        "UX/UI Website Design","Website Development","QA & Website Testing"
+  ],
+    links: {
+      liveStore: 'https://www.phastekperformance.com/',
+  
+      caseStudy: '/Survival',
+      caseStudy: '/Survival',
+      platform: '/bigcommerce-development',
+    },
+    case:' View Case Study',
+    case1:'BigCommerce',
+    line:'|',
+    category: ["ecommerce"],
+  },
 
 {
   id: 'automotive-104',
