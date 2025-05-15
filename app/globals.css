@@ -28231,7 +28231,7 @@ form button {
     /* margin: 0 15px; */
     background-color: #fff;
     height: 100%;
-    padding: 50px 20px 0;
+    padding: 50px 20px 25px;
     border-radius: 8px;
     box-shadow: 0 4px 4px rgb(0 0 0 / .05)
 }
@@ -31809,6 +31809,17 @@ form button:hover {}
     padding: 25px 100px
 }
 
+
+@media (max-width:480px) {
+    .hire-status {
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) !important;
+        gap: 30px;
+    }
+}
+
 .hiring-status h3 {
     color: #33475b;
     font-family: 'Poppins', sans-serif !important;
@@ -31838,7 +31849,7 @@ form button:hover {}
     -webkit-text-fill-color: black;
     -webkit-text-stroke-width: .2px;
     -webkit-text-stroke-color: #000;
-    opacity: .2; 
+    opacity: .2;
     font-weight: bolder;
     font-size: 65px;
     letter-spacing: .05em;
@@ -32177,8 +32188,8 @@ form button:hover {}
         width: auto;
     }
 
-    .benifits-hire button{
-        margin:auto;
+    .benifits-hire button {
+        margin: auto;
     }
 }
 
@@ -39199,13 +39210,13 @@ video {
     gap: 10px;
     padding: 40px 20px;
     margin-top: 80px;
-    
-    background-color: #f9f9f9;
-  }
-  
- 
 
-  .migration_box {
+    background-color: #f9f9f9;
+}
+
+
+
+.migration_box {
     position: relative;
     background: #ffffff;
     border-left: 6px solid #1265ff;
@@ -39215,12 +39226,12 @@ video {
     min-height: 320px;
     height: 100%;
     box-sizing: border-box;
-    overflow: visible; 
-  
-  }
-  
- 
-  .mig1 {
+    overflow: visible;
+
+}
+
+
+.mig1 {
     position: absolute;
     top: -35px;
     left: 50%;
@@ -39234,94 +39245,99 @@ video {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  .migration_box:hover {
+}
+
+.migration_box:hover {
     transform: translateY(-4px);
-  }
-  
-  
-  .mig1 h4 {
+}
+
+
+.mig1 h4 {
     font-size: 22px;
     font-weight: 700;
     color: #33475b;
     margin: 0;
-  }
-  
-  /* Content */
-  .mig2 {
+}
+
+/* Content */
+.mig2 {
     margin-top: 50px;
     text-align: center;
-   padding: 50px 25px 50px 25px;
-  }
+    padding: 50px 25px 50px 25px;
+}
 
-  @media(max-width:480px){
-    .mig2 p{
+@media(max-width:480px) {
+    .mig2 p {
         padding: 10px !important;
     }
+
     .migration_box {
         min-height: 200px;
     }
+
     .mig2 h3 {
         padding: 10px 0px !important
-      }
-    .migration_card{
+    }
+
+    .migration_card {
         margin-top: 0;
     }
-    .engag_php_box h2{
+
+    .engag_php_box h2 {
         text-align: center;
     }
-  }
-  
-  .mig2 h3 {
+}
+
+.mig2 h3 {
     font-size: 20px;
     font-weight: 700;
     color: #33475b;
     margin-bottom: 15px;
     padding: 30px 0px;
-  }
-  
-  .mig2 p {
+}
+
+.mig2 p {
     font-size: 16px;
     line-height: 1.6;
     color: #555;
     padding: 5px 20px 20px 0px;
     margin: 0;
-  }
-  
-  /* Adjust Splide Track Overflow */
-  .migration_card .splide__track {
+}
+
+/* Adjust Splide Track Overflow */
+.migration_card .splide__track {
     overflow: visible !important;
-  }
-  
-  .migration_card .splide__pagination {
+}
+
+.migration_card .splide__pagination {
     display: none !important;
-  }
-  
-  /* Responsive Text */
-  @media (max-width: 934px) {
+}
+
+/* Responsive Text */
+@media (max-width: 934px) {
     .mig2 h3 {
-      font-size: 16px !important;
+        font-size: 16px !important;
     }
-  
+
     .mig2 p {
-      font-size: 14px !important;
+        font-size: 14px !important;
     }
-  
+
     .mig1 {
-      width: 60px;
-      height: 60px;
+        width: 60px;
+        height: 60px;
     }
-  
+
     .mig1 h4 {
-      font-size: 18px;
+        font-size: 18px;
     }
-  
+
     .migration_box {
-      /* padding: 40px 20px 25px; */
-      min-height: 320px;
+        /* padding: 40px 20px 25px; */
+        min-height: 320px;
     }
-  }
-  
+}
+
 /* =================== */
 
 .get_in_php {
@@ -40734,9 +40750,10 @@ video {
 
 .influence_left img {
     width: 100%;
-    max-width: 100%;
     height: auto;
     display: block;
+    border-radius: 12px;
+    object-fit: cover;
 }
 
 .influence_right {
@@ -40764,15 +40781,25 @@ video {
 /* ✅ Tablet */
 @media (max-width: 1024px) {
     .influence_some {
-        /* flex-direction: column; */
-        padding: 40px 50px;
+        flex-direction: column;
+        padding: 0 50px;
         text-align: center;
+        gap: 0;
     }
 
     .influence_left,
     .influence_right {
         max-width: 100%;
         flex: 0 0 100%;
+    }
+
+    .influence_left {
+        display: flex;
+        justify-content: center;
+    }
+
+    .influence_left img {
+        max-width: 80%;
     }
 
     .influence_right {
@@ -40784,6 +40811,10 @@ video {
 @media (max-width: 600px) {
     .influence_some {
         padding: 30px 20px;
+    }
+
+    .influence_left img {
+        max-width: 100%;
     }
 
     .influence_right h2 {
@@ -41255,7 +41286,7 @@ video {
 @media(max-width:480px) {
     .nat_heading p {
         font-size: 17px;
-  
+
     }
 }
 
@@ -44904,7 +44935,7 @@ video {
     text-align: center;
     color: #33475b;
     font-weight: 700;
-    font-size: 34px;
+    font-size: 40px;
     line-height: 46px
 }
 
@@ -44953,7 +44984,7 @@ video {
     gap: 5px;
     justify-content: center;
     line-height: 24px;
-    padding: 19px;
+    padding: 18px 38px;
     text-align: center;
 }
 
@@ -45061,13 +45092,13 @@ video {
 
 .html_back1 button {
     font-family: 'Poppins', sans-serif !important;
-    max-width: 270px;
+    max-width: 158px;
     width: 100%;
-    height: 64px;
+    height: 47px;
     align-items: center;
     background-color: #0B56E4;
     border: none;
-    border-radius: 28px;
+    border-radius: 50px;
     color: #fff;
     display: inline;
     font-size: 17px;
@@ -45076,9 +45107,9 @@ video {
     gap: 5px;
     justify-content: center;
     line-height: 24px;
-    padding: 16px 30px;
+    padding: 10px 18px;
     text-align: center;
-    margin-top: 40px
+    margin-top: 30px;
 }
 
 .html_back1 button:hover {
@@ -45116,7 +45147,7 @@ video {
     font-size: 18.5px;
     color: #33475b;
     font-weight: 400;
-    width: 46em;
+    width: 40em;
     max-width: 100%
 }
 
@@ -45278,7 +45309,7 @@ video {
 
 
 .html_dev_box:hover {
-    background-color: #0072bc;
+    background-color: #1265ff;
     transition: 0.5s
 }
 
@@ -45295,7 +45326,7 @@ video {
 }
 
 .html_dev_box h3 {
-    color: #33475b;
+    color: #000;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -45303,12 +45334,12 @@ video {
 }
 
 .html_dev_box p {
-    color: #33475b;
+    color: black;
     font-size: 14px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 25px;
-    text-align: center
+    text-align: center;
 }
 
 .html_dev_box img {
@@ -49495,7 +49526,7 @@ option {
     }
 
     #hemesh-services .services-card-theory p {
-        text-align: start
+        text-align: center;
     }
 
     #hemesh-services .services-cards-content {
@@ -49511,7 +49542,7 @@ option {
     }
 
     #hemesh-services .right-content p {
-        text-align: start
+        text-align: center;
     }
 
     #hemesh-services .services-content5 p {
@@ -54746,10 +54777,10 @@ wordpress_cater_box p {
         width: 100%
     }
 
-    .influence_right {
+    /* .influence_right {
         position: relative;
         left: 50px
-    }
+    } */
 }
 
 @media only screen and (max-width:1300px) {
@@ -55120,7 +55151,7 @@ wordpress_cater_box p {
         position: initial;
         left: 0;
         padding-top: 50px;
-        padding-bottom: 65px
+        /* padding-bottom: 65px */
     }
 
     .influence_right h2 {
@@ -56547,7 +56578,8 @@ wordpress_cater_box p {
     }
 
     .html-paras p {
-        width: 100% !important
+        width: 100% !important;
+        text-align: center;
     }
 
     .html_head_para p {
@@ -56581,24 +56613,24 @@ wordpress_cater_box p {
         text-align: center
     }
 
-    .html_about_left {
-        text-align: center
+    .html_about_left h2 {
+        text-align: center;
     }
 
     .html_back2 img {
         margin-top: 30px
     }
 
-    .html_about_right img {
+    /* .html_about_right img {
         margin-top: 30px
-    }
+    } */
 
     .html_dev_card {
         flex-wrap: wrap
     }
 
     .html_about {
-        flex-direction: column !important
+        flex-direction: column;
     }
 
     .html_back {
@@ -59064,7 +59096,8 @@ wordpress_cater_box p {
     }
 
     .html_about {
-        padding: 80px 40px !important
+        padding: 80px 40px !important;
+        flex-direction: column-reverse;
     }
 
     .html_about_left h2 {
@@ -61508,15 +61541,16 @@ wordpress_cater_box p {
     }
 
     .hire-status {
-        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        padding: 25px 20px
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
     }
 
     .hiring-status {
         margin: 15px;
-        width: 100%
+        width: 100%;
     }
 
     .hired-help-sect {
@@ -61543,11 +61577,14 @@ wordpress_cater_box p {
     .hiring-status h3 {
         font-size: 30px;
         line-height: 38px;
-        text-align: center
+        text-align: center;
     }
 
     .hiring-status p {
-        font-size: 16px
+        font-size: 16px;
+        text-align: center;
+
+
     }
 
     .hires-team h3 {
@@ -63264,7 +63301,8 @@ wordpress_cater_box p {
 
     .first-delivery h3 {
         text-align: center;
-        font-size: 30px;
+        font-size: 24px;
+        line-height: 32px;
     }
 
     .mobile-app .part {
@@ -63475,7 +63513,7 @@ wordpress_cater_box p {
         text-align: center;
     }
 
-    .key_imgTand img{
+    .key_imgTand img {
         margin: auto;
         padding: 15px 0;
     }
@@ -64368,7 +64406,7 @@ wordpress_cater_box p {
         font-size: 28px
     }
 
-    .node_dev_ss1_head h3{
+    .node_dev_ss1_head h3 {
         text-align: center;
     }
 
@@ -66246,7 +66284,7 @@ wordpress_cater_box p {
     }
 
     .html_dev h3 {
-        font-size: 24px !important
+        font-size: 22px !important
     }
 
     .benifits_html5 {
@@ -66283,7 +66321,7 @@ wordpress_cater_box p {
 
     .kay_btn button {
         width: auto !important;
-        padding: 0 20px !important
+        padding: 15px 35px !important
     }
 
     .html_dev {
@@ -66319,7 +66357,7 @@ wordpress_cater_box p {
     }
 
     .html_about {
-        padding: 80px 20px !important
+        padding: 40px 20px 20px !important;
     }
 
     .reactjsdev_back1 h2 {
@@ -66472,7 +66510,7 @@ wordpress_cater_box p {
         font-size: 25px;
         line-height: 32px;
         margin-bottom: 20px !important;
-        
+
     }
 
     .php-back1 p {
@@ -66576,7 +66614,7 @@ wordpress_cater_box p {
     .hire_py p {
         font-size: 14px;
         margin: 0;
-        padding:20px 0;
+        padding: 20px 0;
     }
 
     .php-back1 {
@@ -69847,7 +69885,7 @@ wordpress_cater_box p {
     }
 
     .first-delivery h3 {
-        font-size: 25px;
+        font-size: 20px;
         line-height: 34px
     }
 
@@ -70638,7 +70676,7 @@ wordpress_cater_box p {
     }
 
     .android-usa h5 {
-        font-size: 14px
+        font-size: 11px
     }
 
     .android-usast1 h3 {
@@ -71045,12 +71083,12 @@ wordpress_cater_box p {
         text-align: center;
     }
 
-    .hired-help-sect button{
+    .hired-help-sect button {
         margin: auto;
     }
 
-    .hired-help-sect a{
-        width:auto !important;
+    .hired-help-sect a {
+        width: auto !important;
     }
 
     .listing-hired p {
@@ -71061,7 +71099,7 @@ wordpress_cater_box p {
         padding: 10px 20px 30px;
     }
 
-    .first-hiring h5{
+    .first-hiring h5 {
         text-align: center;
     }
 
@@ -77224,18 +77262,20 @@ ul {
 
 /* new csss  */
 
-@media(max-width:480px){
+@media(max-width:480px) {
     .get_mig button {
         font-size: 14px;
     }
+
     .mig2 h3 {
         text-align: center !important;
     }
+
     .node_benta p {
         text-align: center;
     }
-    .head_brnta h3{
+
+    .head_brnta h3 {
         text-align: center;
     }
 }
-

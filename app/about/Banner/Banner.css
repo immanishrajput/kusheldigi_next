@@ -89,10 +89,24 @@
         width: 100%;
       }
  } */
+
+ @media (min-width:1024px)  and (max-width:1400px){
+  .aboutBannerMain {
+    padding-bottom: 30px; 
+  }
+ }
+
+
 @media(max-width: 1024px) {
   .aboutBannerMain {
     flex-direction: column-reverse;
     gap: 30px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+  }
+
+  .flex-new-banner-btns{
+    justify-content: center;
   }
 
   .Kushaboupara {
@@ -104,11 +118,12 @@
   .KushaboupaImage img {
     width: 100%;
     max-width: 600px;
+    margin: auto;
   }
 
   .KushaboutH2 {
     font-size: 36px;
-    text-align: left;
+    text-align: center;
   }
 
   .Kushabouparbtn {
@@ -117,7 +132,7 @@
   }
 
   .Kushaboupara p {
-    text-align: left;
+    text-align: center;
   }
 
   .aboutImagKush {

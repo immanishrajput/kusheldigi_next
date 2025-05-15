@@ -351,6 +351,7 @@
         .cardPhilo p {
           line-height: 25px;
              width: 80%;
+             font-size: 18px;
              padding: 10px 0px;
         }
       }
