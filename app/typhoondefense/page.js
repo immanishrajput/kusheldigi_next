@@ -307,8 +307,9 @@ function typhoon() {
                 <h4>Conducting Competitor Research and Analysis
               </h4>
                 <p>
-                Competitor research and analysis build the foundation to figure out the gaps in the current market and utilize the right ideas to market the firearms. Kusheldigi figures out the areas that need improvement and then formulates strategies to stand out in the competition. It uses the end data from research to modify the website’s design, functionality, and content in one go. Thus, Kusheldigi keeps Typhoon Defense ahead in the ever-evolving digital landscape using a data-driven approach and effectively executing <b>bigcommerce custom development</b> services.
-
+                Competitor research and analysis build the foundation to figure out the gaps in the current market and utilize the right ideas to market the firearms. Kusheldigi figures out the areas that need improvement and then formulates strategies to stand out in the competition.
+                {/* Thus, Kusheldigi keeps Typhoon Defense ahead in the ever-evolving digital landscape using a data-driven approach and effectively executing <b>bigcommerce custom development</b> services */}
+                {/* It uses the end data from research to modify the website’s design, functionality, and content in one go. */}
                 </p>
               </div>
             </div>
@@ -364,8 +365,8 @@ function typhoon() {
                 <h4>Secure and Reliable Ecommerce Platform
               </h4>
               <p>
-                Kusheldigi ensured that Typhoon Defense stays competitive and secure with a reliable ecommerce platform. It created a full-fledged ecommerce site based on <b>bigcommerce local theme development</b> to boost their sales and revenue. The website features SSL encryption, a secured payment process, responsive design, software updates, and much more. As the business keeps flourishing, the website will work adaptably according to the evolving market needs to bring long-term success. It will meet evolving customer expectations by keeping the website performance optimal. 
-
+                Kusheldigi ensured that Typhoon Defense stays competitive and secure with a reliable ecommerce platform. It created a full-fledged ecommerce site based on <b>bigcommerce local theme development</b> to boost their sales and revenue. The website features SSL encryption, a secured payment process, responsive design, software updates, and much more. As the business keeps flourishing, the website will work adaptably according to the evolving market needs to bring long-term success. 
+                {/* It will meet evolving customer expectations by keeping the website performance optimal. */}
                 </p>
               </div>
             </div>
@@ -387,7 +388,8 @@ function typhoon() {
                 </h4>
                 <p>
              
-                Post-website development stage, Kusheldigi takes care of the maintenance and support part to optimize the website performance. It works on resolving errors quickly so that Typhoon Defense never has to worry about it. This eliminates the error within seconds to run your business smoothly. With 24/7 technical support and a proactive approach, it maintains stability and enhances long-term success. The Kushaldigi team continuously monitors website traffic and boosts loading speeds to enhance the user experience.
+                Post-website development stage, Kusheldigi takes care of the maintenance and support part to optimize the website performance. It works on resolving errors quickly so that Typhoon Defense never has to worry about it. This eliminates the error within seconds to run your business smoothly. With 24/7 technical support and a proactive approach, it maintains stability and enhances long-term success. 
+                {/* The Kushaldigi team continuously monitors website traffic and boosts loading speeds to enhance the user experience. */}
                 </p>
               </div>
               <div className="bgshowdb2" id="imgPortfolio_Ai_Phone">

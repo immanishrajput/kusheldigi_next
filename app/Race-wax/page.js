@@ -307,7 +307,7 @@ src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746860243/Group_1171279
     >
       <SplideSlide>
         <section className="case3secfour" >
-          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
+          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747328503/racewax-footerbanner-desktop-optimized_1_qqcyx2.png" alt="kushel" className="c1btimage" />
 
           <div className="cas3s4con" id="cas3s4connn">
 
@@ -331,7 +331,7 @@ src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746860243/Group_1171279
 
       <SplideSlide>
         <section className="case3secfour" id="case3secfour22">
-          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
+          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747328503/racewax-footerbanner-desktop-optimized_1_qqcyx2.png" alt="kushel" className="c1btimage" />
 
           <div className="cas3s4con" id="cas3s4connn">
 
@@ -355,7 +355,7 @@ src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746860243/Group_1171279
 
       <SplideSlide>
         <section className="case3secfour">
-          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
+          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747328503/racewax-footerbanner-desktop-optimized_1_qqcyx2.png" alt="kushel" className="c1btimage" />
 
           <div className="cas3s4con" id="cas3s4connn">
 

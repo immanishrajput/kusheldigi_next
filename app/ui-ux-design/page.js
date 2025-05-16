@@ -168,10 +168,20 @@ const generateMetadata = ({ params }) => ({
                 type: "loop",
                 interval: 2000,
                 drag: true,
+                gap:"1rem",
+                breakpoints: {
+                  1024: {
+                    perPage: 2, 
+                  },
+                  640: {
+                    perPage: 1, 
+                  
+              },
+                },
               }}
             >
               <SplideSlide>
-                <div className="business-box business-box20 relative text-center cursor-pointer">
+                <div className="business-box business-box20 relative text-center cursor-pointer" >
                   <div className="business-card-img">
                     <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740402780/full_tme7lk.png' alt="Excellent User Experience" title="Excellent User Experience" />
                   </div>

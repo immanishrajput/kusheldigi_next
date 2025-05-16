@@ -293,7 +293,7 @@ src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746643901/Group_1171279
           <section className="case3secfour2">
             <img
               className="case4bggirl"
-              src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png"
+              src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747333600/Group_1171279293_xbmklo.png"
               alt="kushel"
             />
             <div className="cas3s4con" id="cas3s4conn">
@@ -320,7 +320,7 @@ src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746643901/Group_1171279
           <section className="case3secfour2">
             <img
               className="case4bggirl"
-              src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png"
+              src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747333600/Group_1171279293_xbmklo.png"
               alt="kushel"
             />
 
@@ -346,7 +346,7 @@ src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746643901/Group_1171279
 
         <SplideSlide>
           <section className="case3secfour2">
-          <img className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png" alt="kushel" />
+          <img className="case4bggirl" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747333600/Group_1171279293_xbmklo.png" alt="kushel" />
 
             <div className="cas3s4con" id="imgPortfolio_Phone">
              

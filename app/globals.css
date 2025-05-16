@@ -7973,7 +7973,7 @@ body {
 }
 
 .indus-button-group button {
-    width: 135px;
+    width: 160px;
     font-family: 'Poppins', sans-serif !important;
     padding: 10px;
     background-color: #0B56E4;
@@ -8016,7 +8016,7 @@ body {
     font-weight: 400;
     font-family: 'Poppins', sans-serif !important;
     line-height: 22px;
-    padding-top: 15px;
+    padding: 20px;
     color: #101820;
     max-width: 50em;
     text-align: center;
@@ -8108,6 +8108,11 @@ body {
     max-width: 60em;
     width: 100%;
     text-align: center;
+}
+@media(max-width:1200px){
+    .indus-content2 p {
+        padding: 20px 10px;
+    }
 }
 
 .indus-card2-main {
@@ -11359,9 +11364,11 @@ body {
 }
 
 #hemesh-seo-kushel .seo_flex9 {
-    gap: 30px;
-    display: flex;
-    flex-direction: column
+display: grid;
+gap: 30px;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+  
 }
 
 #hemesh-seo-kushel .SEO_tools {
@@ -11808,7 +11815,7 @@ body {
     #hemesh-seo-kushel .seo_flex_left1 p {
         text-align: center !important;
         max-width: 100% !important;
-        font-size: 19px
+        font-size: 16px
     }
 }
 
@@ -14926,13 +14933,13 @@ body {
 
 @media (max-width:500px) {
     .cas3circldata2 h4 {
-        font-size: 16px !important;
+        font-size: 12px !important;
         line-height: 19px;
         padding: 10px !important;
     }
 
     .cas3circldata2 p {
-        font-size: 14px;
+        font-size: 10px !important;
         line-height: 22px;
         padding: 10px !important;
     }
@@ -14973,7 +14980,7 @@ body {
 
 @media (max-width:400px) {
     .cas3circldata2 h4 {
-        font-size: 14px;
+        font-size: 12px  !important;
         padding: 10px !important;
         line-height: 19px;
     }
@@ -16073,7 +16080,7 @@ body {
     }
 
     .cas3circldata p {
-        font-size: 14px;
+        font-size: 10px  !important;
         line-height: 22px;
     }
 
@@ -16105,12 +16112,12 @@ body {
 
 @media (max-width:400px) {
     .cas3circldata h4 {
-        font-size: 16px;
+        font-size: 13px !important;
         line-height: 26px;
     }
 
     .cas3circldata p {
-        font-size: 10px;
+        font-size: 10px !important;
         line-height: 20px;
     }
 
@@ -27429,6 +27436,12 @@ form button {
     margin-left: 0rem;
     justify-content: center
 }
+@media(max-width:652px){
+    .ser2 .home4121{
+        flex-direction:column;
+        gap: 15px !important;
+    }
+}
 
 .ser2 .home4121 img {
     width: 50px;
@@ -30631,7 +30644,7 @@ form button:hover {}
 }
 
 .perfect-choice {
-    padding: 100px 100px;
+    padding: 50px 80px;
     overflow: hidden !important
 }
 
@@ -55648,16 +55661,16 @@ wordpress_cater_box p {
     }
 
     .perfect-choice {
-        padding: 100px 64px
+        padding: 50px 64px
     }
 
     .perfect-choice .perf-p {
         width: 80%
     }
 
-    .how-ux {
-        padding: 60px 64px
-    }
+    /* .how-ux {
+        padding: 20px 64px !important;
+    } */
 
     .deliver-p {
         padding: 60px 64px
@@ -56370,7 +56383,7 @@ wordpress_cater_box p {
     }
 
     .perfect-choice {
-        padding: 60px 60px
+        padding: 30px 60px
     }
 
     .how-ux {
@@ -57472,7 +57485,7 @@ wordpress_cater_box p {
     }
 
     .ser2 .home4121 p {
-        font-size: 16px
+        font-size: 14px
     }
 
     .ecomm {
@@ -61995,11 +62008,13 @@ wordpress_cater_box p {
     .first-experiencedji h2 {
         width: 100%;
         font-size: 30px;
+        text-align: center !important;
         line-height: 38px
     }
 
     .first-experiencedji p {
         width: 100%;
+        text-align: center !important;
         font-size: 16px
     }
 
@@ -62021,7 +62036,7 @@ wordpress_cater_box p {
     }
 
     .perfect-choice {
-        padding: 50px 40px
+        padding: 30px 40px
     }
 
     .perfect-choice h3 {
@@ -62043,7 +62058,7 @@ wordpress_cater_box p {
     }
 
     .how-ux {
-        padding: 60px 40px
+        padding: 20px 40px
     }
 
     .deliver-p {
@@ -65155,7 +65170,7 @@ wordpress_cater_box p {
 
     .business-box {
         max-width: unset !important;
-        margin-bottom: 65px
+        /* margin-bottom: 65px */
     }
 
     .busi-box {
@@ -67602,7 +67617,7 @@ wordpress_cater_box p {
     }
 
     .business-box {
-        margin: 30px 0
+        /* margin: 30px 0 */
     }
 
     .offering {
@@ -68513,12 +68528,15 @@ wordpress_cater_box p {
     }
 
     .how-ux1 h3 {
-        font-size: 25px;
-        line-height: 32px
+        font-size: 23px;
+        line-height: 32px;
+        text-align: center !important;
     }
 
     .how-ux1 p {
-        font-size: 14px
+        font-size: 14px;
+        text-align: center !important;
+
     }
 
     .deliver-p h3 {
@@ -68541,11 +68559,13 @@ wordpress_cater_box p {
 
     .how-did-second h3 {
         font-size: 25px;
+        text-align: center !important;
         line-height: 32px
     }
 
     .how-did-second p {
-        font-size: 14px
+        font-size: 14px;
+        text-align: center !important;
     }
 
     .how-did-second button {
@@ -68561,7 +68581,7 @@ wordpress_cater_box p {
     }
 
     .perfect-choice {
-        padding: 40px 20px
+        padding: 20px 20px
     }
 
     .perfect-choice .perf-p {
@@ -68569,7 +68589,7 @@ wordpress_cater_box p {
     }
 
     .how-ux {
-        padding: 60px 20px
+        padding: 20px 20px
     }
 
     .deliver-p {
@@ -69809,7 +69829,7 @@ wordpress_cater_box p {
     }
 
     .ser2 .home4121 p {
-        font-size: 14px
+        font-size: 12px !important
     }
 
     .ser2 .home4221 img {
@@ -77279,4 +77299,15 @@ ul {
     .head_brnta h3 {
         text-align: center;
     }
+}
+
+.ecomeee-solll{
+    padding: 0px 20px;
+}
+
+#splide01{
+    padding: 50px 0px 0px 0px;
+}
+.how-did-second p{
+    padding: 5px;
 }
