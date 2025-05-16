@@ -28,7 +28,7 @@ const Section8 = () => {
     {
       title: "Quality",
       description:
-        "Excellence is not merely a target , it's our norm. All projects we implement undergo strict quality control, from design to delivery level. We drive for precision, performance, and polish, and the end product not only lives up to expectations but surpasses them.",
+        "Excellence is not merely a target, it's our norm. All projects we implement undergo strict quality control, from design to delivery level. We drive for precision, performance, and polish, and the end product not only lives up to expectations but surpasses them.",
       img:"https://res.cloudinary.com/dd9tagtiw/image/upload/v1744262112/Quality_prwocp.png",
       className: "quality-excellence",
     },

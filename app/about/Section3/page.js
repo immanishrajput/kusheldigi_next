@@ -9,7 +9,7 @@ const Section3 = () => {
 <section className='prMainficardsec'>
    <div className='prMainficardsec2'>
    <div className='proficardsec'>
-        <p>Our job is to turn your online store into your most powerful sales channel as my team is committed to design eCommerce experiences that speak directly to your </p>
+        <p>Our job is to turn your online store into your most powerful sales channel as my team is committed to design eCommerce experiences that speak directly to your company </p>
     </div>
    <div className='profileLinksec'>
    <div className='profileCiclr'>

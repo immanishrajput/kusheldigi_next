@@ -403,8 +403,7 @@ const Php = () => {
                         <div className="content_sssnnnppp">
                             <div className="content1">
                                 <h3 className="heading">
-                                    Our PHP Development <br />
-                                    Services
+                                    Our PHP Development Services
                                 </h3>
                                 <hr className="ha" />
                                 <p className="pra">
