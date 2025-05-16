@@ -189,7 +189,7 @@ width: 50px;
   vertical-align: middle;
   /* width: 100%; */
 }
-@media (max-width:1200px){
+@media (max-width:1275px){
   .contact-emailInput, .contact-textArea {
     width: 100%;
   }
@@ -445,6 +445,16 @@ padding-left: 50px !important;
 }
 }
 
+@media screen and (max-width:1276px){
+  .contact-box {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-first-div {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media screen and (max-width:1030px) {
   .modal-box {
     width: 90%;
@@ -480,14 +490,6 @@ padding-left: 50px !important;
 
   .contact-container>.container {
     flex-direction: column;
-  }
-
-  .contact-box {
-    grid-template-columns: 1fr;
-  }
-
-  .contact-first-div {
-    grid-template-columns: 1fr;
   }
 
   .right {

@@ -20,11 +20,9 @@ h3,
 h4,
 h5,
 h6 {
-    font-size:unset !important;
+    font-size:unset;
     margin: none !important;
-    padding: none !important;
-
-   
+    padding: none !important;  
 }
 
 .mainBloContentPa p{

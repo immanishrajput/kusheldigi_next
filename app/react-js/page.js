@@ -252,9 +252,9 @@ const Reactjsdev = () => {
         <div className="node-js-prox-8-main-part">
           <p className="combiflame">
             Why choose<span className="xogop">Kushel Digi</span>for your
-            React.js
+            React.js  development services?
           </p>
-          <p className="small-barry-doll"> development services?</p>
+          {/* <p className="small-barry-doll"></p> */}
           <div className="rigouos-test-alive">
             <div className="risk-morning-chipo">
               <div className="billing-mozo">
@@ -288,8 +288,7 @@ const Reactjsdev = () => {
                 We utilise various communication tools to maintain transparency and foster a strong environment, making it easy for you to look at and share feedback.
                 </p>
               </div>
-            </div>
-            <div className="rish-evening-chipoloy">
+             
               <div className="billing-mozo">
                 <div className="bogolo-ashty">
                   <hr id="short-viggly-line" />

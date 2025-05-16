@@ -16,8 +16,7 @@ function Flagship() {
           </div>
           <h3>Ecommerce development</h3>
           <ul className="flagship-ul">
-            <li className="flagship-li">Expertise in ecommerce </li>
-            <li className="flagship-li">Expertise in ecommerce </li>
+            <li className="flagship-li">Expertise in ecommerce </li> 
             <li className="flagship-li">Certified developers </li>
             <li className="flagship-li">Transparent development process </li>
             <li className="flagship-li">Product-centric approach </li>
