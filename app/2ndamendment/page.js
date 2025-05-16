@@ -276,7 +276,7 @@ src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746785005/Group_1171279
             From building the storefront using high-quality images to helping customers make well-informed decisions, we have made all these possible. 
 
             </p>
-            <p>We also did a thorough research to identify the market gaps and analyze the best possible solution for the business. </p>
+            <p className="s3theeparas">We also did a thorough research to identify the market gaps and analyze the best possible solution for the business. </p>
 
           </div>
           <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746514576/2nd-A-solutions_s6apxz.png" alt="kushel" className="c3antoimg" /> 
@@ -302,7 +302,7 @@ src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746785005/Group_1171279
     >
       <SplideSlide>
         <section className="case3secfour" >
-          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
+          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747333030/abouthome_1_uy6fbd.png" alt="kushel" className="c1btimage" />
 
           <div className="cas3s4con" id="cas3s4connn">
 
@@ -325,7 +325,7 @@ src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746785005/Group_1171279
 
       <SplideSlide>
         <section className="case3secfour" id="case3secfour22">
-          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
+          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747333030/abouthome_1_uy6fbd.png" alt="kushel" className="c1btimage" />
 
           <div className="cas3s4con" id="cas3s4connn">
 
@@ -347,7 +347,7 @@ src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746785005/Group_1171279
 
       <SplideSlide>
         <section className="case3secfour">
-          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
+          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747333030/abouthome_1_uy6fbd.png" alt="kushel" className="c1btimage" />
 
           <div className="cas3s4con" id="cas3s4connn">
 

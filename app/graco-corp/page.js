@@ -292,7 +292,7 @@ For this, designing a plan from beginning to the end of the project was the firs
           <section className="case3secfour2" id="case3secfour22">
             <img
               className="case4bggirl"
-              src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png"
+              src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747333850/gracoil_4_jvx6xg.png"
               alt="kushel"
             />
             <div className="cas3s4con" id="cas3s4conn">
@@ -324,7 +324,7 @@ To design the custom layout of the Graco Corporation, we created a clean and mod
           <section className="case3secfour2" >
             <img
               className="case4bggirl"
-              src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png"
+              src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747333850/gracoil_4_jvx6xg.png"
               alt="kushel"
             />
 
@@ -350,7 +350,7 @@ To design the custom layout of the Graco Corporation, we created a clean and mod
 
         <SplideSlide>
           <section className="case3secfour2">
-          <img className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png" alt="kushel" />
+          <img className="case4bggirl" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747333850/gracoil_4_jvx6xg.png" alt="kushel" />
 
             <div className="cas3s4con" id="imgPortfolio_Phone">
              
