@@ -5,10 +5,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const awards = [
-  { src: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743148178/Certified-Bigcommerce-Partner__of0fqt.png", alt: "Microsoft Partner" },
-  { src: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993119/ecommerce-development-companies_glc1ea.png", alt: "CMMI Level 3" },
   { src: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993106/ecommerce-developers-india_zfydfo.png", alt: "ISO 27001:2013" },
+  { src: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743148178/Certified-Bigcommerce-Partner__of0fqt.png", alt: "Microsoft Partner" },
   { src: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1742994278/web-developers-india_uovesz.png", alt: "ISO 9001:2015" },
+  { src: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993119/ecommerce-development-companies_glc1ea.png", alt: "CMMI Level 3" },
   { src: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993092/b2b-companies-canada_tdaega.png", alt: "Clutch Global 2022" },
 ];
 

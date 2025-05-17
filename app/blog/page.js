@@ -283,7 +283,7 @@ const Page = () => {
                 </div>
                 <hr /> <br />
                 <div className="news-grid">
-                  {recentBlog.map((item, index) => {
+                  {getAllBlogs.slice(0,6).map((item, index) => {
                     return (
                       <Link
                         href={`/blog/${item.slug}`}
