@@ -34345,7 +34345,7 @@ form button:hover {}
     background-color: #000;
     height: 260px;
     color: #000;
-    width: .5px; 
+    width: .5px;
 }
 
 .android-usas1 {
@@ -55009,7 +55009,7 @@ wordpress_cater_box p {
     /* .android-usa2 {
         margin-left: 60px
     } */
-/* 
+    /* 
     .android-box {
         height: auto;
     } */
@@ -77645,9 +77645,21 @@ ul {
 }
 
 #splide01 {
-    padding: 50px 0px 0px 0px;
+    padding: 20px 0px 20px 0px;
 }
 
 .how-did-second p {
     padding: 5px;
+}
+
+@media (max-width: 652px) {
+    .ser2 .home4121 {
+        flex-direction: column;
+        gap: 15px !important;
+    }
+}
+@media(max-width:768px){
+  .core-value-card{
+    border: none !important;
+  }
 }

@@ -41,8 +41,7 @@
 }
 
 @media (max-width:750px) {
-  .core-value-card {
-    border: none !important;
+  .core-value-card { 
     padding: 0px;
   }
 
