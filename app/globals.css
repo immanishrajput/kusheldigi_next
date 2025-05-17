@@ -9359,7 +9359,7 @@ body {
     width: 100%;
     display: block;
     margin: auto;
-    padding: 30px 60px
+    padding: 30px 40px
 }
 
 #kushel-next-js .kushel-next-js-content4 {
@@ -9394,7 +9394,7 @@ body {
 #kushel-next-js .kushel-next-js-container5 {
     max-width: 1440px;
     width: 100%;
-    padding: 40px 60px;
+    padding: 40px 40px;
     margin: auto;
     display: block
 }
@@ -9429,7 +9429,13 @@ body {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    padding: 20px
+    padding: 20px;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    justify-items: center;
+    align-items: center;
+    text-align: center; */
 }
 
 #kushel-next-js .kushel-next-js-cards-content2 img {
@@ -28014,7 +28020,7 @@ form button {
     background-color: #085881;
     color: #fff;
     font-size: 19px;
-    font-family: "Value Sans Medium";
+    font-family: 'Poppins', sans-serif !important;
     margin-top: 40px
 }
 
@@ -28023,11 +28029,11 @@ form button {
 }
 
 .first-delivery .com {
-    font-family: 'sf-ui-display-medium', sans-serif !important;
+    font-family: 'Poppins', sans-serif !important;
     margin-top: 20px;
     align-items: center;
     background-color: #0B56E4;
-    border: none;
+    border: none !important;
     border-radius: 28px;
     color: #fff;
     display: inline-flex;
@@ -28043,7 +28049,7 @@ form button {
 
 .first-delivery .com:hover {
     background-color: #fff;
-    border: 1px solid #0039ff;
+    border: 1px solid #0039ff !important;
     color: #0B56E4
 }
 
@@ -43994,7 +44000,7 @@ video {
 .lets_talking {
     align-items: center;
     background-color: #0B56E4;
-    border: none;
+    border: none !important;
     border-radius: 50px;
     color: #fff;
     display: flex;
@@ -44006,7 +44012,7 @@ video {
     line-height: 24px;
     padding: 19px;
     text-align: center;
-    width: 200px;
+    width: 240px;
 }
 
 .Woocomerce_b p {
@@ -44427,7 +44433,7 @@ video {
     width: 100%;
     align-items: center;
     background-color: #0B56E4;
-    border: none;
+    border: none !important;
     border-radius: 28px;
     color: #fff;
     display: flex;
