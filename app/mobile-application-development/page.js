@@ -54,22 +54,22 @@ const MobileApp = ({ notify }) => {
       behavior: 'smooth',
     });
   };
- const generateMetadata = ({ params }) => ({
-      title: 'Unlock the Power of Mobile App Development',
-      description: 'the best mobile app development company, expert in Android, iOS, and more. Our company not only enhances online presence but also redefines digital experiences.',
-    });
-    
+  const generateMetadata = ({ params }) => ({
+    title: 'Unlock the Power of Mobile App Development',
+    description: 'the best mobile app development company, expert in Android, iOS, and more. Our company not only enhances online presence but also redefines digital experiences.',
+  });
+
   useEffect(() => {
-      const { title, description } = generateMetadata({ params: {} });
-      document.title = title;
-      let metaDescription = document.querySelector('meta[name="description"]');
-      metaDescription ? metaDescription.content = description : 
-        document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-    }, []);
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description :
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
   return (
     <>
 
-<Head>
+      <Head>
         {/* Open Graph (OG) Meta Tags */}
         <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
         <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
@@ -84,8 +84,8 @@ const MobileApp = ({ notify }) => {
         <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
         <meta name="twitter:url" content="https://www.kusheldigi.com/" />
       </Head>
-      
-<Navbar/>
+
+      <Navbar />
 
       <div className="ser-main">
         <div className="serjii1">
@@ -119,13 +119,27 @@ const MobileApp = ({ notify }) => {
                 className=" w-full"
                 aria-label="Our Services"
                 options={{
-                  perPage:5,
+                  perPage: 5,
                   perMove: 1,
                   autoplay: true,
                   pauseOnHover: true,
                   type: "loop",
                   interval: 1600,
                   drag: true,
+                  breakpoints: {
+                    1200: {
+                      perPage: 4,
+                    },
+                    992: {
+                      perPage: 4,
+                    },
+                    768: {
+                      perPage: 3,
+                    },
+                    576: {
+                      perPage: 3,
+                    },
+                  }
 
                 }}
               >
@@ -300,10 +314,10 @@ const MobileApp = ({ notify }) => {
           </div>
         </div>
 
-           <MobileFAQ/>
+        <MobileFAQ />
 
         {/* <ContactForm notify={notify} /> */}
-        <Website/>
+        <Website />
 
 
         {/*  buttons  */}
@@ -317,7 +331,7 @@ const MobileApp = ({ notify }) => {
 
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };
