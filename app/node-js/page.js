@@ -220,9 +220,7 @@ const generateMetadata = ({ params }) => ({
                   Our team always stands with you when such an issue is about building powerful enterprise applications using node.js. We stand step by step with the big industries and provide a chain of efficient procedures with a deeper body of knowledge to help create quality products perfect for business operations.
                 </p>
               </div>
-            </div>
-
-            <div className="node_dev_ss_card">
+            
               <div className="node_dev_ss_box">
                 <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M24.1633 57.333H2.66406V59.1521C2.66406 60.3541 3.72457 61.333 5.02678 61.333H24.6641C24.3425 60.6658 24.1633 59.9281 24.1633 59.1521V57.333Z" fill="#1265FF" />

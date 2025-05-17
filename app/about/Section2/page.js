@@ -7,7 +7,7 @@ const Section2 = () => {
     <>
       <section className='sec2ndBoost'>
         <div className='boostSection'>
-          <p className='boostSecPara'>The Right People.
+          <p className='boostSecPara'>The Right People. <br/>
            The Right Tech. <span>
               Real Results
             </span> </p>

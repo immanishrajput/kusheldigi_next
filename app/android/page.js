@@ -225,7 +225,7 @@ const Android = ({ notify }) => {
               <h2>Our Android App Development Process</h2>
               <p>We are working  as an  established Android App Development company with our own defined process for delivering quality apps well in time.   From requirement gathering and planning all the way through design, development testing. With the help of our team that has years worth of experience.  You can Collaborate with our Android app development company for a successful mobile application project. </p>
             </div>
-            <div className="android-process2 ml-52">
+            <div className="android-process2">
               <div className="prot-process mt-3">
                 <div className="prot-img">
                   <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738994572/prot1_l0pqsp.png' alt="Multi-platform Development" title="Multi-platform Development" />

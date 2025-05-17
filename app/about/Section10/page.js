@@ -1,6 +1,5 @@
-
 "use client"
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import "./Section10.css";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import Link from "next/link";
@@ -19,13 +18,15 @@ export default function Section10() {
   const [index, setIndex] = useState(0);
   const [visibleCards, setVisibleCards] = useState(2);
   const [cardWidth, setCardWidth] = useState(350);
+  const sectionRef = useRef(null);
+  const [isInView, setIsInView] = useState(false);
 
   useEffect(() => {
     const updateCards = () => {
       const screenWidth = window.innerWidth;
       if (screenWidth <= 800) {
         setVisibleCards(1);
-        setCardWidth(screenWidth); 
+        setCardWidth(screenWidth);
       } else {
         setVisibleCards(2);
         setCardWidth(350);
@@ -37,7 +38,6 @@ export default function Section10() {
     return () => window.removeEventListener("resize", updateCards);
   }, []);
  
-
   const prev = () => {
     setIndex((prevIndex) =>
       prevIndex === 0 ? Math.max(philosophyData.length - visibleCards, 0) : prevIndex - 1
@@ -49,19 +49,41 @@ export default function Section10() {
       prevIndex + visibleCards >= philosophyData.length ? 0 : prevIndex + 1
     );
   };
-
+ 
   useEffect(() => {
+    if (!isInView) return;
     const interval = setInterval(() => {
       next();
-    }, 3000);
+    }, 2000);
     return () => clearInterval(interval);
-  }, [visibleCards]);
+  }, [visibleCards, isInView]);
+ 
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          setIsInView(entry.isIntersecting);
+        });
+      },
+      { threshold: 0.3 }
+    );
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => {
+      if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+      }
+    };
+  }, []);
 
   const gap = 24;
   const translateX = -(index * (cardWidth + gap));
 
   return (
-    <section className="Mainphilosophy-section">
+    <section className="Mainphilosophy-section" ref={sectionRef}>
       <div className="philosophy-section">
         <div className="overlayWrap">
           <div className="text-contentSection">

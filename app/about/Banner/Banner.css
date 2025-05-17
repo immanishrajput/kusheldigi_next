@@ -9,9 +9,34 @@
   padding: 50px 50px 0;
   margin: auto;
   display: flex;
-  justify-content: space-around;
-  gap: 7%;
+  justify-content: space-between; /* Gives equal space between the two divs */
+  gap: 7%; /* Or you can remove this if you're using justify-content */
+  flex-wrap: nowrap; /* Prevent wrapping */
 }
+
+.aboutBannerMain .Kushaboutban , .aboutBannerMain .KushaboupaImage{
+  flex: 0 0 auto;       /* Don't grow or shrink */
+  width: 45%;           /* Adjust to fit within 100% with spacing */
+  box-sizing: border-box;
+}
+
+
+@media (max-width: 1100px) {
+  .aboutBannerMain {
+    display: flex;
+    justify-content: space-between;
+    gap: 7%;
+    flex-wrap: nowrap;
+  }
+
+  .aboutBannerMain .Kushaboutban , .aboutBannerMain .KushaboupaImage{
+  flex: 0 0 auto;       /* Don't grow or shrink */
+  width: 100%;           /* Adjust to fit within 100% with spacing */
+  box-sizing: border-box;
+}
+}
+
+
 
 .KushaboutH2 {
   font-size: 48px;
@@ -78,10 +103,25 @@
   height: auto !important;
 }
 
+.KushaboupaImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Push image to bottom */
+  height: auto; /* or set a specific height like 400px */
+}
+
 .KushaboupaImage img {
   width: 600px;
-
+  /* height: auto; */
 }
+
+
+/* .KushaboupaImage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+} */
 
 /* responsive design */
 /* @media (min-width:1024px){
@@ -90,18 +130,18 @@
       }
  } */
 
- @media (min-width:1024px)  and (max-width:1400px){
+ /* @media (min-width:1024px)  and (max-width:1400px){
   .aboutBannerMain {
     padding-bottom: 30px; 
   }
- }
+ } */
 
 
-@media(max-width: 1024px) {
+@media(max-width: 1100px) {
   .aboutBannerMain {
     flex-direction: column-reverse;
     gap: 30px;
-    padding-bottom: 40px;
+    /* padding-bottom: 40px; */
     padding-top: 20px;
   }
 
@@ -179,6 +219,10 @@
   .ourAboutpra p {
     text-align: center;
   }
+}
+
+.Kushaboutban{
+  padding-bottom: 20px;
 }
 
 @media (max-width:450px) {

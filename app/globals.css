@@ -8130,6 +8130,7 @@ body {
 
     }
 }
+
 @media (max-width:768px) {
     .indus-card-main {
         grid-template-columns: repeat(2, 1fr);
@@ -8138,6 +8139,7 @@ body {
 
     }
 }
+
 @media (max-width:480px) {
     .indus-card-main {
         grid-template-columns: repeat(1, 1fr);
@@ -8253,6 +8255,7 @@ body {
 
     }
 }
+
 @media (max-width:768px) {
     .indus-card2-main {
         grid-template-columns: repeat(2, 1fr);
@@ -8261,6 +8264,7 @@ body {
 
     }
 }
+
 @media (max-width:480px) {
     .indus-card2-main {
         grid-template-columns: repeat(1, 1fr);
@@ -28197,8 +28201,8 @@ form button {
 }
 
 .mobile-app {
-    padding: 0 100px;
-    background-color: #fff
+    padding: 30px 70px;
+    background-color: #fff;
 }
 
 .experience-user {
@@ -28278,7 +28282,7 @@ form button {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 50px
+    margin-top: 30px;
 }
 
 .delivery1 {
@@ -34204,7 +34208,7 @@ form button:hover {}
     width: 100%;
     border-radius: 10px;
     padding: 40px 25px;
-    height: 320px;
+    height: 350px;
     max-height: 100%;
     margin: 12px 12px
 }
@@ -34273,7 +34277,8 @@ form button:hover {}
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    padding: 60px 100px
+    padding: 60px 100px;
+    gap: 50px;
 }
 
 .android-offer1 h3 {
@@ -34327,7 +34332,7 @@ form button:hover {}
 }
 
 .android-usa h5 {
-    width: 226px;
+    width: 100%;
     display: inline-flex;
     color: #085881;
     opacity: .9;
@@ -34340,8 +34345,7 @@ form button:hover {}
     background-color: #000;
     height: 260px;
     color: #000;
-    width: .5px;
-    margin-left: 80px
+    width: .5px; 
 }
 
 .android-usas1 {
@@ -34370,7 +34374,7 @@ form button:hover {}
 }
 
 .android-pro {
-    padding: 80px 100px;
+    padding: 35px 75px;
     position: relative;
     z-index: 2;
     background: #F2F2F2;
@@ -34398,7 +34402,8 @@ form button:hover {}
 
 .android-process {
     display: flex;
-    align-items: flex-start
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .android-process1 {
@@ -34592,7 +34597,7 @@ video {
 }
 
 .ios-usa2 {
-    margin-left: 40px;
+    /* margin-left: 40px; */
     height: 273px
 }
 
@@ -41172,7 +41177,8 @@ video {
 
 .solution_expertise1 {
     width: 25em;
-    max-width: 100%
+    max-width: 100%;
+    padding-top: 10px;
 }
 
 .solution_expertise1 h5 {
@@ -41198,7 +41204,7 @@ video {
 }
 
 .compliance_fact_box {
-    max-width: 450px;
+    max-width: 400px;
     width: 100%;
     padding: 20px;
     border-bottom: 1px solid #b3cfde
@@ -41238,7 +41244,9 @@ video {
     max-width: 730px;
     width: 100%;
     display: block;
-    margin: auto
+    margin: auto;
+    padding: 10px 20px;
+    ;
 }
 
 .boost {
@@ -42312,7 +42320,7 @@ video {
 }
 
 .arts-head {
-    padding: 20px 0; 
+    padding: 20px 0;
 }
 
 .arts-head-first {
@@ -46619,21 +46627,36 @@ video {
 }
 
 .node_dev_ss_card {
-    display: flex;
-    align-items: center;
-    justify-content: center
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+    justify-content: center;
+    padding: 20px;
 }
 
 .node_dev_ss_box {
     border-radius: 20px;
-    border: 1px solid;
-    width: 435px;
-    height: 385px;
-    overflow-y: scroll;
-    margin-left: 24px;
-    margin-top: 25px;
-    padding: 20px
+    border: 1px solid #ccc;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
 }
+
+/* Tablet (≥768px) */
+@media (min-width: 768px) {
+    .node_dev_ss_card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Desktop (≥1024px) */
+@media (min-width: 1024px) {
+    .node_dev_ss_card {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 
 .node_dev_ss_box::-webkit-scrollbar {
     display: none
@@ -46719,19 +46742,34 @@ video {
 }
 
 .node_dev_ss_card2 {
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
     justify-content: center;
-    gap: 24px
+    padding: 20px;
 }
 
 .node_dev_ss_box2 {
     border-radius: 20px;
     border: 1px solid #33475B;
-    width: 340px;
-    height: 313px;
-    padding: 9px
+    width: 100%;
+    min-height: auto;
+    padding: 9px;
+    box-sizing: border-box;
 }
+
+@media (min-width: 768px) {
+    .node_dev_ss_card2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .node_dev_ss_card2 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
 
 .node_dev_ss_box2 img {
     display: block;
@@ -46745,7 +46783,6 @@ video {
     font-size: 19px;
     font-style: normal;
     font-weight: 700;
-    line-height: 38.8px;
     margin-bottom: 11px
 }
 
@@ -46755,7 +46792,9 @@ video {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 25px
+    line-height: 25px;
+    padding: 10px;
+    ;
 }
 
 .node_dev_ss_serv2 span {
@@ -46763,7 +46802,7 @@ video {
 }
 
 .node_dev_ss_ser_btn {
-    margin-top: 30px;
+    margin-top: 10px;
     text-align: center
 }
 
@@ -50082,7 +50121,8 @@ option {
         font-size: 29px !important;
         line-height: 35px !important
     }
-    .indus-card2-main-flex h3{
+
+    .indus-card2-main-flex h3 {
         text-align: center;
     }
 }
@@ -54823,10 +54863,7 @@ wordpress_cater_box p {
 }
 
 @media only screen and (max-width:1500px) {
-    .node_dev_ss_box {
-        max-height: 100%;
-        height: 320px
-    }
+
 
     .influence_right {
         margin-right: 0
@@ -54969,13 +55006,13 @@ wordpress_cater_box p {
         height: 420px !important
     }
 
-    .android-usa2 {
+    /* .android-usa2 {
         margin-left: 60px
-    }
-
+    } */
+/* 
     .android-box {
         height: auto;
-    }
+    } */
 
     .ser-nav5 {
         max-width: 725px;
@@ -55301,10 +55338,6 @@ wordpress_cater_box p {
         padding: 50px 64px
     }
 
-    .node_dev_ss_box {
-        height: 320px;
-        max-height: 100%
-    }
 
     .bigcom-back {
         padding: 60px 64px
@@ -57085,7 +57118,7 @@ wordpress_cater_box p {
     }
 
     .android-usa2 {
-        display: none
+        display: none;
     }
 
     .ios-back1 p {
@@ -59099,7 +59132,7 @@ wordpress_cater_box p {
         align-items: center;
         text-align: center;
         gap: 30px;
-        padding: 60px 40px 60px 40px
+        padding: 45px 40px 30px 40px;
     }
 
     .headst_big p {
@@ -59725,7 +59758,7 @@ wordpress_cater_box p {
     }
 
     .node_dev_ss1-back {
-        padding: 65px 40px
+        padding: 30px 30px;
     }
 
     .node_dev_ss_serv3 {
@@ -59929,7 +59962,8 @@ wordpress_cater_box p {
     }
 
     .solution_expertise1 p {
-        font-size: 16px
+        font-size: 16px;
+        text-align: center;
     }
 
     .compliance_fact_box h3 {
@@ -59968,7 +60002,8 @@ wordpress_cater_box p {
 
     .solution_back1 h1 {
         font-size: 30px;
-        line-height: 38px
+        line-height: 38px;
+        text-align: center;
     }
 
     .solution_back1 p {
@@ -59979,16 +60014,14 @@ wordpress_cater_box p {
         font-size: 16px
     }
 
-    /* .influence_some {
-        padding: 0 40px
-    } */
-
     .influence_right p {
         font-size: 16px
     }
 
     .solution_back1 p {
-        width: 100%
+        width: 100%;
+        text-align: center;
+
     }
 
     .label-back1 p {
@@ -64314,7 +64347,24 @@ wordpress_cater_box p {
 
     .footer144 h5 {
         margin-bottom: 0;
+        /* text-align: center; */
+    }
+
+    .node_dev_ss_box3_flex {
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+
+    .node_dev_ss_box3_hr {
+        margin: 0 auto !important;
+    }
+
+    .node_dev_ss1_head h3 {
         text-align: center;
+    }
+
+    .node_dev_ss_serv4 h3 {
+        padding-bottom: 10px;
     }
 }
 
@@ -64582,6 +64632,16 @@ wordpress_cater_box p {
         padding-left: 3rem !important;
         padding-top: 4rem !important
     }
+
+
+    .compliance_fact {
+        flex-direction: column
+    }
+
+    .compliance_fact_box {
+        border: 1px solid #b3cfde;
+        max-width: 630px;
+    }
 }
 
 @media (max-width:706px) {
@@ -64667,6 +64727,16 @@ wordpress_cater_box p {
 
     .node_dev_ss1_head h3 {
         text-align: center;
+        font-size: 25px;
+        line-height: 28px;
+    }
+
+
+
+    .node_dev_ss_serv3 h2 {
+        text-align: center;
+        font-size: 18px;
+        line-height: 28px;
     }
 
     .home-slide-h2 h2 span {
@@ -64762,7 +64832,7 @@ wordpress_cater_box p {
     }
 
     .node_dev_ss_serv2 {
-        padding: 50px 20px
+        padding: 20px;
     }
 
     .node_dev_ss_serv2 h3 {
@@ -64783,12 +64853,12 @@ wordpress_cater_box p {
     }
 
     .node_dev_ss_serv4 {
-        padding: 60px 20px
+        padding: 30px 20px
     }
 
     .node_dev_ss_serv4 h3 {
         font-size: 25px;
-        line-height: 45px;
+        line-height: 32px;
     }
 
     .node_dev_ss_cards4 {
@@ -71471,16 +71541,21 @@ wordpress_cater_box p {
     }
 
     .manbi {
-        padding: 100px 30px;
+        padding: 60px 30px;
         padding-top: 200px
     }
 
+    .node_dev_ss_box2 {
+        height: auto;
+        padding: 15px 20px !important;
+    }
+
     .node_dev_ss_serv3 {
-        padding: 50px 20px
+        padding: 20px 40px;
     }
 
     .node_dev_ss_about {
-        padding: 60px 20px 30px 20px
+        padding: 30px 20px 30px 20px
     }
 
     .wordpress-back012 {
@@ -74540,7 +74615,7 @@ input::-webkit-inner-spin-button {
 
 .faqr-section h2 {
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 600;
     text-align: left;
     margin-bottom: 20px;
     border-bottom: 3px solid rgba(171, 165, 165, 0.433);
@@ -74563,7 +74638,7 @@ input::-webkit-inner-spin-button {
     border-radius: 8px;
     grid-template-columns: repeat(2, 1fr);
     gap: 18px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .faqr-item {
