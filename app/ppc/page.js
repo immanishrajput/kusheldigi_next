@@ -84,7 +84,6 @@ function Ppc() {
             </div>
           </div>
           <div className="ppc1">
-            <div className="container1">
               <div className="content1">
                 <div className="left-content1">
                   <h2>
@@ -101,8 +100,7 @@ function Ppc() {
                 <div className="right-image1">
                   <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472706/ppcImgb_ycdcmr.png' alt="ROI ppc marketing" title="ROI ppc marketing" />
                 </div>
-              </div>
-            </div>
+              </div> 
           </div>
           <div className="ppc2">
             <div className="ppccontainer2">
@@ -169,7 +167,7 @@ function Ppc() {
               <h3>The Benefits of Using a <span>PPC Agency</span> </h3>
             </div>
             <div className="card">
-              <div className="card_mattter">
+              
                 <div className="card1 abc">
                   <h3 className="underline-text">Certified Experts</h3>
                   <div className="line">
@@ -208,8 +206,7 @@ function Ppc() {
                     ready for enquiry regarding same
                   </p>
                 </div>
-              </div>
-              <div className="card_mattter">
+              
                 <div className="card1 abc3">
                   <h3 className="underline-text">Results Oriented Approach</h3>
                   <div className="line">
@@ -237,7 +234,7 @@ function Ppc() {
                     time with constant refinement due to performance feedback
                   </p>
                 </div>
-              </div>
+               
             </div>
           </div>
           <div className="ppc4">

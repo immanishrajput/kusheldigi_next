@@ -1523,7 +1523,7 @@ body {
 .content1 {
     display: flex;
     justify-content: center;
-    padding: 47px
+    padding: 70px 60px;
 }
 
 .hr3 {
@@ -3461,6 +3461,12 @@ body {
         margin: 0 auto;
     }
 
+     #hemesh-ppc .content4 h3{
+        text-align: center;
+        font-size: 20px !important;
+        line-height: 28px !important;
+    }
+
     .bogolo-ashty {
         flex-direction: column-reverse;
         gap: 0px !important;
@@ -3488,6 +3494,10 @@ body {
         text-align: left;
         line-height: 28px;
         font-size: 20px;
+    }
+
+     #hemesh-ppc .content4 h3{
+        text-align: center;
     }
 
     .qwting-kinrij {
@@ -4362,6 +4372,12 @@ body {
     max-width: 510px;
     width: 100%;
     width: 510px;
+}
+
+@media (max-width:480px) {
+    .social-media-second-section img {
+        width: 100%;
+    }
 }
 
 .lead-main-section {
@@ -10098,7 +10114,6 @@ body {
     max-width: 1440px;
     width: 100%;
     display: block;
-    padding: 0 30px 0 35px;
     margin: auto
 }
 
@@ -10130,14 +10145,10 @@ body {
 #hemesh-ppc .left-content1 p {
     color: #060606;
     max-width: 738px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 30px;
     padding-top: 10px
-}
-
-#hemesh-ppc .right-image1 {
-    padding-top: 40px
 }
 
 #hemesh-ppc .right-image1 img {
@@ -10148,7 +10159,7 @@ body {
     max-width: 1440px;
     width: 100%;
     display: block;
-    padding: 30px 80px 30px 80px;
+    padding: 40px 60px;
     margin: auto
 }
 
@@ -10156,7 +10167,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 40px
 }
 
 #hemesh-ppc .right-image2 img {
@@ -10170,7 +10180,7 @@ body {
 }
 
 #hemesh-ppc .left-content2 h2 {
-    max-width: 442px;
+    max-width: 520px;
     font-weight: 800;
     font-size: 32px;
     line-height: 40px;
@@ -10281,8 +10291,8 @@ body {
 
 #hemesh-ppc .content7 p {
     text-align: center;
-    max-width: 616px;
-    font-weight: 600;
+    max-width: 800px;
+    font-weight: 500;
     font-size: 17px;
     line-height: 24px
 }
@@ -10331,24 +10341,48 @@ body {
 }
 
 #hemesh-ppc .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr; 
     gap: 20px;
-    padding-top: 30px
+    /* padding-top: 30px; */
+    justify-items: center;
 }
+
+@media (min-width: 650px) {
+    #hemesh-ppc .card {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+
+@media (max-width: 650px) {
+    #hemesh-ppc .card1{
+        height: auto !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    #hemesh-ppc .card {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}
+
 
 #hemesh-ppc .card1 {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     text-align: start;
     background-color: #ffedf2;
     border-radius: 40px;
-    max-width: 320px;
-    height: 295px;
-    padding: 20px
+    max-width: 420px;
+    width: 100%;
+    height: 300px; /* Fixed height */
+    padding: 20px;
+    box-sizing: border-box;
+    flex-shrink: 0;
 }
+
 
 #hemesh-ppc .abc {
     background-color: #ffedf2
@@ -10500,16 +10534,15 @@ body {
     max-width: 1440px;
     width: 100%;
     display: block;
-    padding: 30px 80px 30px 80px;
+    padding: 50px 100px;
     margin: auto
 }
 
 #hemesh-ppc .flex-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 50px;
-    padding-left: 150px
 }
 
 #hemesh-ppc .content5 {
@@ -10541,15 +10574,11 @@ body {
 
 #hemesh-ppc .content5 span {
     font-weight: 700;
-    font-size: 20px
-}
-
-#hemesh-ppc .right-image3 {
-    padding-bottom: 100px
+    font-size: 19px
 }
 
 #hemesh-ppc .right-image3 img {
-    max-width: 500px;
+    max-width: 600px;
     width: 100%
 }
 
@@ -10594,8 +10623,7 @@ body {
     align-items: center
 }
 
-#hemesh-ppc .ppcbutton2 button {
-    font-family: 'sf-ui-display-medium', sans-serif !important;
+#hemesh-ppc .ppcbutton2 button { 
     width: 200px;
     align-items: center;
     background-color: #0B56E4;
@@ -10692,6 +10720,15 @@ body {
     #hemesh-ppc .Button {
         text-align: center
     }
+
+    #hemesh-ppc .content7 h3{
+        text-align: center;
+    }
+
+     #hemesh-ppc .ppccontent1 {
+        flex-direction: column-reverse;
+        gap: 40px
+    }
 }
 
 @media (max-width:1024px) {
@@ -10699,11 +10736,6 @@ body {
         flex-direction: column;
         display: flex;
         padding: 30px 50px 30px 50px
-    }
-
-    #hemesh-ppc .ppccontent1 {
-        flex-direction: column-reverse;
-        gap: 40px
     }
 
     #hemesh-ppc .left-content {
@@ -10772,6 +10804,7 @@ body {
         text-align: center
     }
 
+
     #hemesh-ppc .left-content2 {
         justify-content: center;
         align-items: center;
@@ -10788,6 +10821,14 @@ body {
         width: 100% !important
     }
 }
+
+@media (max-width:450px) { 
+    #hemesh-ppc .card1 {
+        height: auto;
+    }
+}
+
+
 
 @media (max-width:450px) {
     #hemesh-ppc .left-content2 {
@@ -10809,19 +10850,34 @@ body {
     }
 
     #hemesh-ppc .left-content1 h2 {
-        font-size: 28px
+        font-size: 22px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    #hemesh-ppc .left-content1 p {
+        text-align: center;
+        font-size: 14px;
+        line-height: 26px;
     }
 
     #hemesh-ppc .content3 h3 {
-        font-size: 28px
+        font-size: 25px;
+        text-align: center;
     }
 
     #hemesh-ppc .left-content2 h2 {
-        font-size: 28px
+        font-size: 23px;
+        text-align: center;
+        line-height: 33px;
     }
 
     #hemesh-ppc .card {
         padding-top: 0
+    }
+
+    #hemesh-ppc .content1 {
+        padding: 40px 40px !important;
     }
 
     #hemesh-ppc .content6 {
@@ -10830,11 +10886,19 @@ body {
     }
 
     #hemesh-ppc .content5 h3 {
-        line-height: 40px
+        line-height: 33px;
+        text-align: center;
     }
 
     #hemesh-ppc .content7 h3 {
-        line-height: 32px
+        line-height: 32px;
+        font-size:20px;
+    }
+
+    #hemesh-ppc .content7 p{
+        text-align: center;
+        font-size: 13px;
+        line-height: 22px;
     }
 
     #hemesh-ppc .content3 h3 {
@@ -10844,6 +10908,8 @@ body {
     #hemesh-ppc .content4 {
         padding-top: 0
     }
+
+    
 
     #hemesh-ppc .container1 {
         padding: 0 20px 0 20px
@@ -10875,7 +10941,13 @@ body {
 
     #hemesh-ppc .left-content h1 {
         font-size: 28px;
-        line-height: 40px
+        line-height: 40px;
+        text-align: center;
+    }
+
+    #hemesh-ppc .left-content p {
+
+        text-align: center;
     }
 }
 
@@ -11012,26 +11084,42 @@ body {
 }
 
 #hemesh-seo-kushel .seo-second-card-man {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 25px
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+    justify-items: center;
 }
 
-#hemesh-seo-kushel .seo-second-card-flex0 {
+@media (min-width: 768px) {
+    #hemesh-seo-kushel .seo-second-card-man {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    #hemesh-seo-kushel .seo-second-card-man {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+#hemesh-seo-kushel .seo-second-card-flex0,
+#hemesh-seo-kushel .seo-second-card-flex1,
+#hemesh-seo-kushel .seo-second-card-flex2 {
     max-width: 360px;
     width: 100%;
-    border: gray;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
-#hemesh-seo-kushel .seo-second-card-flex0 h4 {
+
+#hemesh-seo-kushel .seo-second-card-flex0 h4,
+#hemesh-seo-kushel .seo-second-card-flex1 h4,
+#hemesh-seo-kushel .seo-second-card-flex2 h4 {
     text-align: center;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 21px;
     line-height: 32px;
     color: #101010;
     padding-top: 10px
@@ -11046,23 +11134,6 @@ body {
     width: 100%
 }
 
-#hemesh-seo-kushel .seo-second-card-flex1 {
-    width: 278px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center
-}
-
-#hemesh-seo-kushel .seo-second-card-flex1 h4 {
-    text-align: center;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 32px;
-    color: #101010;
-    padding-top: 10px
-}
-
 #hemesh-seo-kushel .seo-second-card-flex1 p {
     text-align: center;
     font-weight: 400;
@@ -11072,14 +11143,7 @@ body {
     width: 100%
 }
 
-#hemesh-seo-kushel .seo-second-card-flex2 {
-    max-width: 350px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center
-}
+
 
 #hemesh-seo-kushel .seo-second-card-flex2 h4 {
     font-weight: 700;
@@ -11136,23 +11200,35 @@ body {
 }
 
 #hemesh-seo-kushel .seo-third-card-man {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+
+@media (min-width: 650px) {
+    #hemesh-seo-kushel .seo-third-card-man {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    #hemesh-seo-kushel .seo-third-card-man {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 #hemesh-seo-kushel .seo-second-card-flex3 {
-    max-width: 350px;
-    width: 100%;
-    height: 368px;
+    max-width: 100%;
+    height: 300px;
     background-color: #f9f9f9;
     display: flex;
     flex-direction: column;
-    align-items: self-start;
+    align-items: flex-start;
     border-radius: 5px;
-    padding: 25px
+    padding: 25px;
 }
+
+
 
 #hemesh-seo-kushel .seo-second-card-flex3 h4 {
     font-weight: 800;
@@ -11169,13 +11245,13 @@ body {
     color: #606062
 }
 
-#hemesh-seo-kushel .seo-third-card-main {
+/* #hemesh-seo-kushel .seo-third-card-main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px
-}
+} */
 
 #hemesh-seo-kushel .seocontainer3 {
     max-width: 1440px;
@@ -11426,7 +11502,7 @@ body {
 }
 
 #hemesh-seo-kushel .seo-second-card-flex6 {
-    max-width: 325px;
+    max-width: 420px;
     width: 100%;
     height: 260px;
     display: flex;
@@ -11453,16 +11529,47 @@ body {
 
 #hemesh-seo-kushel .seo-third-card-main2 {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 }
 
 #hemesh-seo-kushel .seo-third-card-man2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 20px;
-    padding-top: 20px
+    padding-top: 20px;
+    justify-items: center;
 }
+
+@media (min-width: 600px) {
+    #hemesh-seo-kushel .seo-third-card-man2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    #hemesh-seo-kushel .seo-third-card-man2 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .seo-second-card-flex6 svg {
+        margin: 0 auto;
+    }
+
+    #hemesh-seo-kushel .seo-second-card-flex6 h4 {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #hemesh-seo-kushel .seo-second-card-flex6 p {
+        text-align: center !important;
+        /* margin: 0 auto; */
+    }
+}
+
+
+
 
 #hemesh-seo-kushel .seocontainer9 {
     max-width: 1440px;
@@ -11586,11 +11693,42 @@ body {
 }
 
 #hemesh-seo-kushel .SEO_EXPERTS {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
     padding-top: 40px;
-    gap: 30px
+    justify-items: center;
 }
+
+@media (min-width: 768px) {
+    #hemesh-seo-kushel .SEO_EXPERTS {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    #hemesh-seo-kushel .card3 svg {
+        margin: 0 auto;
+    }
+
+    #hemesh-seo-kushel .card3 h3 {
+        text-align: center;
+        margin: 0 auto;
+        line-height: 30px;
+    }
+
+    #hemesh-seo-kushel .card3 p {
+        text-align: center !important;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    #hemesh-seo-kushel .SEO_EXPERTS {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
 
 #hemesh-seo-kushel .seo-container11 {
     max-width: 1440px;
@@ -11692,30 +11830,13 @@ body {
         max-width: 100% !important;
         text-align: center
     }
-
-    #hemesh-seo-kushel .SEO_EXPERTS {
-        display: flex;
-        flex-wrap: wrap
-    }
-}
-
-@media (max-width:1035px) {
-    #hemesh-seo-kushel .seo-third-card-man2 {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center
-    }
-
-    #hemesh-seo-kushel .seo-third-card-man1 {
-        flex-wrap: wrap
-    }
 }
 
 @media (max-width:950px) {
-    #hemesh-seo-kushel .seo-third-card-man1 {
+    /* #hemesh-seo-kushel .seo-third-card-man1 {
         display: flex;
         flex-wrap: wrap
-    }
+    } */
 
     #hemesh-seo-kushel .seocontainer {
         padding: 30px 30px 30px 30px
@@ -11723,7 +11844,7 @@ body {
 
     #hemesh-seo-kushel .seo_flex_left {
         width: 100%;
-        max-width: 100% !important
+        max-width: 100% !important;
     }
 
     #hemesh-seo-kushel .seo-third-card-man {
@@ -11776,15 +11897,19 @@ body {
         text-align: center
     }
 
-    #hemesh-seo-kushel .seo-third-card-man {
+    /* #hemesh-seo-kushel .seo-third-card-man {
         display: flex;
         flex-wrap: wrap
-    }
+    } */
 
     #hemesh-seo-kushel .seo_flex4 {
         display: flex;
         flex-direction: column;
         text-align: center
+    }
+
+    #hemesh-seo-kushel .seo-second-card-flex3 {
+        height: auto;
     }
 
     #hemesh-seo-kushel .seo_flex_right img {
@@ -11796,7 +11921,28 @@ body {
     }
 
     #hemesh-seo-kushel .seo_flex_left1 p {
-        text-align: center
+        text-align: center !important;
+    }
+
+    #hemesh-seo-kushel .seo_flex_left {
+        text-align: center;
+    }
+
+    #hemesh-seo-kushel .seo_flex_left h1 {
+        text-align: center;
+    }
+
+    #hemesh-seo-kushel .seo_flex_left p {
+        text-align: center !important;
+    }
+
+    #hemesh-seo-kushel .button1 {
+        text-align: center;
+    }
+
+    #hemesh-seo-kushel .seo-second-heading p {
+        text-align: center;
+
     }
 }
 
@@ -11804,6 +11950,23 @@ body {
     #hemesh-seo-kushel .seo-second-card-man {
         display: flex;
         flex-direction: column
+    }
+}
+
+@media (max-width:650px) {
+    .seo-second-card-flex-scgitem {
+        margin: 0 auto;
+    }
+
+    #hemesh-seo-kushel .seo-second-card-flex3 h4 {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+
+    #hemesh-seo-kushel .seo-second-card-flex3 p {
+        text-align: center;
     }
 }
 
@@ -11947,7 +12110,14 @@ body {
     }
 
     #hemesh-seo-kushel .left_seocontainer h3 {
-        font-size: 28px
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    #hemesh-seo-kushel .left_seocontainer p {
+        font-size: 17px;
+        line-height: 24px;
+        padding-top: 15px;
     }
 
     #hemesh-seo-kushel .seo-second-heading h2 {
@@ -23459,7 +23629,7 @@ input[type=number] {
 }
 
 .aaj13122023 {
-    padding: 60px 0
+    padding: 60px 30px;
 }
 
 .new1487899641mhhjkkjkj {
@@ -51299,9 +51469,7 @@ option {
 .packages {
     background-color: #fff;
     padding: 2rem 1rem;
-    margin: 4rem 0rem;
-    margin-bottom: 0;
-    padding-bottom: 0
+    margin-top: 10rem;
 }
 
 .package-types ul {
@@ -59203,17 +59371,6 @@ wordpress_cater_box p {
         justify-content: center
     }
 
-    @media (max-width:450px) {
-        .woo-btnn {
-            margin: 0 auto;
-            display: inline !important;
-        }
-
-        .wooooo {
-            text-align: center;
-        }
-    }
-
     .btn-all {
         display: flex !important;
         flex-direction: column !important;
@@ -59538,6 +59695,28 @@ wordpress_cater_box p {
 
     .bigcom_box_2 p {
         text-align: start
+    }
+}
+
+
+@media (max-width:450px) {
+    .woo-btnn {
+        margin: 0 auto;
+        display: inline !important;
+    }
+
+    .wooooo {
+        text-align: center;
+    }
+
+    #hemesh-ppc .left-content2 p {
+        text-align: center;
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+    #hemesh-ppc .buttonn {
+        text-align: center;
     }
 }
 
@@ -64731,7 +64910,9 @@ wordpress_cater_box p {
         line-height: 28px;
     }
 
-
+    .footer144 h5 {
+        text-align: center;
+    }
 
     .node_dev_ss_serv3 h2 {
         text-align: center;
@@ -77595,18 +77776,6 @@ input::-webkit-inner-spin-button {
     color: #fff;
 }
 
-/* ol,
-ul {
-    list-style: circle !important;
-    list-style-type: disc !important;
-    list-style-position: inside !important;
-} */
-
-
-
-
-/* new css for slider A12 portfolio */
-
 #shonowfall {
     min-width: 140% !important;
 }
@@ -77658,8 +77827,9 @@ ul {
         gap: 15px !important;
     }
 }
-@media(max-width:768px){
-  .core-value-card{
-    border: none !important;
-  }
+
+@media(max-width:768px) {
+    .core-value-card {
+        border: none !important;
+    }
 }
