@@ -232,9 +232,52 @@ const Next = () => {
               </p>
             </div>
           </div>
+
+          <div className="kushel-next-js-cards-flex">
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426068/card-icon4_iyz4ei.svg' alt="Next.js Plugin Development" title='Next.js Plugin Development' />
+            <div className="kushel-next-js-cards-content">
+              <h6>Next.js Plugin Development</h6>
+              <p>
+                Our Next.js experts meticulously review projects to ensure
+                required plugins are incorporated, and if necessary, develop
+                custom plugins tailored to meet end users' specific needs,
+                guaranteeing a seamless and user-friendly experience.
+              </p>
+            </div>
+          </div>
+
+          <div className="kushel-next-js-cards-flex">
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426122/card-icon5_oetiao.svg' alt="Next.js Upgradation and Migration Services" title='Next.js Upgradation and Migration Services' />
+            <div className="kushel-next-js-cards-content">
+              <h6>Next.js Upgradation and Migration Services</h6>
+              <p>
+                We always assist you in updating existing applications to the
+                new version of Next.js along with updated features and. We also
+                ensure migration of applications from other frameworks to
+                Next.js.{" "}
+              </p>
+            </div>
+          </div>
+
+          <div className="kushel-next-js-cards-flex">
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426161/card-icon6_m5g3l3.svg' alt="Next.js Maintenance and Support" title='Next.js Maintenance and Support' />
+            <div className="kushel-next-js-cards-content">
+              <h6>Next.js Maintenance and Support</h6>
+              <p>
+                We are committed to ensure continuous, smooth operation of your
+                web applications by providing ongoing support and maintenance
+                services exclusively designed for next js.
+              </p>
+            </div>
+          </div>
+
         </div>
       </div>
-      <div className="kushel-next-js-cards">
+
+
+
+
+      {/* <div className="kushel-next-js-cards">
         <div className="kushel-next-js-cards-main">
           <div className="kushel-next-js-cards-flex">
             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426068/card-icon4_iyz4ei.svg' alt="Next.js Plugin Development" title='Next.js Plugin Development' />
@@ -248,6 +291,7 @@ const Next = () => {
               </p>
             </div>
           </div>
+
           <div className="kushel-next-js-cards-flex">
             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426122/card-icon5_oetiao.svg' alt="Next.js Upgradation and Migration Services" title='Next.js Upgradation and Migration Services' />
             <div className="kushel-next-js-cards-content">
@@ -260,6 +304,7 @@ const Next = () => {
               </p>
             </div>
           </div>
+
           <div className="kushel-next-js-cards-flex">
             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426161/card-icon6_m5g3l3.svg' alt="Next.js Maintenance and Support" title='Next.js Maintenance and Support' />
             <div className="kushel-next-js-cards-content">
@@ -271,8 +316,9 @@ const Next = () => {
               </p>
             </div>
           </div>
+
         </div>
-      </div>
+      </div> */}
       <div className="button-group">
         <Link href={"/contact-us"}>
           
@@ -330,15 +376,21 @@ const Next = () => {
             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426608/react_pgtddr.svg' alt="react" title="react" />
             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741000221/next-js_hrhdpn.svg' alt="nextjs" title="nextjs" />
             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741000256/tailwindcss_ql1eok.svg' alt="tailwind" title="tailwind" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426437/laravel_loohmi.svg' alt="laravel" title="laravel" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426476/stripe_i1ioac.svg' alt="stripe" title="stripe" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426521/OpenAI_Logo_1_gwvlvo.svg' alt="openai" title="openai" />
+
           </div>
         </div>
-        <div className="kushel-next-js-card-flex">
+
+
+        {/* <div className="kushel-next-js-card-flex">
           <div className="kushel-next-js-cards-content2">
             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426437/laravel_loohmi.svg' alt="laravel" title="laravel" />
             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426476/stripe_i1ioac.svg' alt="stripe" title="stripe" />
             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739426521/OpenAI_Logo_1_gwvlvo.svg' alt="openai" title="openai" />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   </div>
