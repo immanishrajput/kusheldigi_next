@@ -56013,7 +56013,7 @@ wordpress_cater_box p {
     }
 
     .gret-outcome {
-        padding: 0 64px;
+        padding: 15px 64px;
         padding-bottom: 40px
     }
 
@@ -62663,8 +62663,10 @@ wordpress_cater_box p {
 
     .gret-outcome {
         padding: 0 40px;
-        padding-top: 60px;
-        padding-bottom: 40px
+        /* padding-top: 60px; */
+        padding-bottom: 40px;
+        flex-direction: column;
+        gap:10px;
     }
 
     .what_makes {
