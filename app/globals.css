@@ -9319,8 +9319,11 @@ body {
 }
 
 #kushel-next-js .kushel-next-js-cards-main {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    width: 1000px;
     justify-content: center;
+   
     gap: 20px
 }
 
@@ -9346,14 +9349,16 @@ body {
     font-size: 17px;
     font-weight: 400;
     color: #fff;
-    border-style: none;
+    border-style: none !important;
     border-radius: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 08px
 }
-
+#kushel-next-js .button-group button:hover{
+    border: 1px solid #0B56E4 !important;
+}
 #kushel-next-js .kushel-next-js-container4 {
     max-width: 1440px;
     width: 100%;
@@ -9425,17 +9430,19 @@ body {
 }
 
 #kushel-next-js .kushel-next-js-cards-content2 {
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
-    padding: 20px;
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 20px; 
-    justify-items: center;
-    align-items: center;
-    text-align: center; */
+    padding: 20px; */
+    display: grid;
+    gap: 24px;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+    grid-template-columns: repeat(4, 1fr); 
+    place-items: center !important;
+    justify-content: center !important; 
 }
 
 #kushel-next-js .kushel-next-js-cards-content2 img {
@@ -9828,11 +9835,14 @@ body {
 
 @media(max-width:870px) {
     #kushel-next-js .kushel-next-js-cards-main {
-        flex-wrap: wrap
+        flex-wrap: wrap;
+        grid-template-columns: repeat(2, 1fr);
+        width: auto !important;
+        justify-content: center !important;
     }
 
     #kushel-next-js .kushel-next-js-container2 {
-        padding: 0 60px
+        padding: 0 15px;
     }
 
     #kushel-next-js .kushel-next-js-content1 {
@@ -9865,7 +9875,17 @@ body {
         line-height: 25px
     }
 }
-
+@media (max-width: 600px) {
+    #kushel-next-js .kushel-next-js-cards-main {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+  }
+@media(max-width:947px){
+    #kushel-next-js .kushel-next-js-content4{
+        flex-direction: column;
+        gap: 10px !important;
+    }
+}
 @media(max-width:786px) {
     #kushel-next-js .kushel-next-js-content {
         flex-direction: column-reverse
@@ -9941,7 +9961,23 @@ body {
         text-align: center;
     }
 }
+@media(max-width:752px) {
+    #kushel-next-js .kushel-next-js-cards-content2{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 700px) {
+    .tech-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
 
+ @media (max-width: 480px) {
+    .tech-grid {
+      grid-template-columns: 1fr;
+    }
+  }
 @media(max-width:714px) {
     #kushel-next-js .kushel-next-js-content8 h2 {
         font-size: 32px;
@@ -9960,18 +9996,39 @@ body {
 
     #kushel-next-js .kushel-next-js-cards-content2 {
         padding: 10px;
-        gap: 30px
+        gap: 15px
     }
 
     #kushel-next-js .kushel-next-js-cards-content2 img {
         height: 90px;
         width: 150px;
-        padding: 15px
+        padding: 5px
     }
 
     #kushel-next-js .kushel-next-js-content1 img {
         max-width: 230px;
         width: 100%
+    }
+}
+
+@media(max-width:480px){
+    #kushel-next-js .kushel-next-js-container2 h6{
+        text-align: center !important;
+    }
+    #kushel-next-js .kushel-next-js-content5 p {
+        text-align: center !important;
+    }
+    #kushel-next-js .kushel-next-js-left1-content{
+        flex-direction: column !important;
+    }
+    .kushel-next-js-left1-content img{
+        height: 20px !important;
+    }
+    #kushel-next-js .kushel-next-js-content6 h5{
+        font-size: 20px !important;
+    }
+    #kushel-next-js .kushel-next-js-left1-content p {
+        text-align: center !important;
     }
 }
 
@@ -26449,8 +26506,8 @@ form button {
 }
 
 .letsit {
-    display: block;
-    width: 202px
+    display: block !important;
+    width: 180px
 }
 
 .letsiting {
@@ -32502,7 +32559,10 @@ form button:hover {}
     font-family: 'Poppins', sans-serif !important;
     align-items: center;
     justify-content: center;
-    margin: auto;
+    font-size: 18px;
+    font-weight: 500;
+    color: #33475b;
+    margin-top: 20px;
 }
 
 .demo-hire-sect a {
@@ -34076,7 +34136,7 @@ form button:hover {}
     font-family: 'sf-ui-display-medium', sans-serif !important;
     align-items: center;
     background-color: #0B56E4;
-    border: none;
+    border: none !important;
     border-radius: 28px;
     color: #fff;
     display: inline-flex;
@@ -34093,7 +34153,7 @@ form button:hover {}
 
 .android-back1 button:hover {
     background-color: #fff;
-    border: 1px solid #0039ff;
+    border: 1px solid #0039ff  !important;
     color: #0B56E4
 }
 
@@ -34103,8 +34163,11 @@ form button:hover {}
 
 .bigCommerce-back1 button:hover {
     background-color: #fff;
-    border: 1px solid #0039ff;
+    border: 1px solid #0039ff !important;
     color: #0B56E4
+}
+.bigCommerce-back1 button {
+    border: none !important;
 }
 
 .bigCommerce-back1 button:hover svg path {
@@ -34876,6 +34939,7 @@ video {
     padding: 30px 100px;
     display: flex;
     align-items: center;
+    gap: 50px;
     justify-content: space-between;
     padding-top: 40px
 }
@@ -34962,7 +35026,7 @@ video {
     width: 35%;
     margin-bottom: 10px;
     padding: 4rem;
-    padding-left: 5rem;
+    /* padding-left: 5rem; */
     position: relative;
     z-index: 2
 }
@@ -35436,6 +35500,11 @@ video {
     display: flex;
     align-items: center;
     justify-content: center
+}
+@media(max-width:1005px){
+    .why-card{
+        flex-direction: column;
+    }
 }
 
 .why-box {
@@ -36602,7 +36671,9 @@ video {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    padding: 60px 100px
+    max-width: 1400px;
+    margin: auto;
+    padding: 50px 20px
 }
 
 .support-modern1 {
@@ -36651,7 +36722,7 @@ video {
 .icon-kot {
     display: flex;
     align-items: center;
-    margin-top: 35px
+    margin-top: 17px
 }
 
 .icon-kot svg {
@@ -36900,10 +36971,11 @@ video {
 .kotlin-platform1 button {
     align-items: center;
     background-color: #0B56E4;
-    border: none;
+    border: none !important;
     border-radius: 28px;
     color: #fff;
     display: inline;
+    margin-top: 20px;
     font-size: 17px;
     font-style: normal;
     font-weight: 500;
@@ -36916,7 +36988,7 @@ video {
 
 .kotlin-platform1 button:hover {
     background-color: #fff;
-    border: 1px solid #0039ff;
+    border: 1px solid #0039ff Im !important;
     color: #0B56E4
 }
 
@@ -36937,9 +37009,9 @@ video {
     padding: 40px 0 20px 0
 }
 
-.ts_file {
+/* .ts_file {
     padding: 60px 0
-}
+} */
 
 .accordion__button:before {
     display: initial !important;
@@ -56345,9 +56417,9 @@ wordpress_cater_box p {
     }
 
     .tismart {
-        display: flex;
+        display: flex !important;
         align-items: center;
-        justify-content: center
+        justify-content: center;
     }
 
     .sluter-cards {
@@ -59296,6 +59368,7 @@ wordpress_cater_box p {
 
     .letsit {
         display: flex;
+        font-size: 15px !important;
         margin: auto
     }
 
@@ -61265,7 +61338,8 @@ wordpress_cater_box p {
     }
 
     .why-kotlinUse1 {
-        margin-right: 0
+        margin-right: 0;
+        padding: 20px 0px;
     }
 
     .why-kotlinUse2 {
@@ -68209,7 +68283,7 @@ wordpress_cater_box p {
     }
 
     .support-modern1 h3 {
-        font-size: 25px;
+        font-size: 22px !important;
         line-height: 32px;
         text-align: center
     }
@@ -68377,7 +68451,8 @@ wordpress_cater_box p {
     }
 
     .approacy1 {
-        padding: 0 20px
+        padding: 0 20px;
+        justify-content: center;
     }
 
     .flutter-ad {
@@ -70578,7 +70653,8 @@ wordpress_cater_box p {
     }
 
     .approach h5 {
-        font-size: 16px
+        font-size: 16px;
+        text-align: center;
     }
 
     .rightreview>img {
@@ -70588,11 +70664,13 @@ wordpress_cater_box p {
 
     .codeReview h5 {
         font-size: 25px;
-        line-height: 32px
+        line-height: 32px;
+        text-align: center;
     }
 
     .codeReview>p {
-        font-size: 14px
+        font-size: 14px;
+        text-align: center;
     }
 
     .let-flutter {
@@ -71158,8 +71236,9 @@ wordpress_cater_box p {
     }
 
     .native-app1 h5 {
-        display: inline-flex !important;
-        font-size: 16px
+        display: flex !important;
+        justify-content: center !important;
+        font-size: 16px;
     }
 
     .contactus {
@@ -75462,8 +75541,9 @@ input::-webkit-inner-spin-button {
 }
 
 .news-image {
-    width: 190px;
-    height: 190px;
+    width: 211px;
+    height: 113px;
+    object-fit: contain;
     transition: transform 0.4s ease-in-out;
 }
 
@@ -75524,7 +75604,7 @@ input::-webkit-inner-spin-button {
 
     .news-image {
         width: 160px;
-        height: 160px;
+        height: auto;
     }
 
     .news-title {
@@ -75553,12 +75633,12 @@ input::-webkit-inner-spin-button {
 
     .news-image {
         width: 140px;
-        height: 140px;
+        height: auto;
     }
 
     .news-title {
         font-size: 20px;
-        padding-left: 10px;
+        /* padding-left: 10px; */
     }
 }
 
