@@ -17134,6 +17134,16 @@ body {
         gap: 24px
     }
 
+     .not_y {
+        display: block !important;
+        margin: auto !important;
+        width:80%;
+    }
+
+    .not_y1 {
+        display: none !important
+    }
+
     .sinprleft {
         font-size: 18px
     }
@@ -23522,11 +23532,11 @@ input[type=number] {
 }
 
 .aaj13122023 {
-    padding: 60px 0
+    padding: 30px 60px;
 }
 
 .new1487899641mhhjkkjkj {
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: 18px
 }
 
@@ -23786,6 +23796,10 @@ input[type=number] {
 
     .homepage-main-slider-left p {
         font-size: 17px
+    }
+
+    .aaj13122023{
+        padding: 20px 30px;
     }
 }
 
@@ -47104,7 +47118,7 @@ video {
         text-align: center;
     }
 }
-
+/* 
 @media (max-width:900px) {
     .ourtalent-text__heading {
         padding: 0 30px
@@ -47113,7 +47127,7 @@ video {
     .ourtalent-text__para {
         padding: 0 30px
     }
-}
+} */
 
 .node_dev_ss_serv3 span {
     color: #0e52fc
@@ -51376,10 +51390,7 @@ option {
 
 .packages {
     background-color: #fff;
-    padding: 2rem 1rem;
-    margin: 4rem 0rem;
-    margin-bottom: 0;
-    padding-bottom: 0
+    padding: 40px 50px;
 }
 
 .package-types ul {
@@ -51562,7 +51573,7 @@ option {
 .ourtalent {
     display: flex;
     margin-bottom: 4rem;
-    padding: 3rem 0 0 0;
+    padding: 25px 40px;
     align-items: center
 }
 
@@ -51571,8 +51582,7 @@ option {
 }
 
 .ourtalent-text {
-    width: 55%;
-    padding: 0 2rem 5rem 2rem;
+    width: 60%; 
     margin: 2rem 2rem;
     display: flex;
     flex-direction: column;
@@ -51612,7 +51622,7 @@ option {
     justify-content: center;
     line-height: 24px;
     padding: 16px 24px;
-    text-align: center
+    text-align: center;
 }
 
 .ourtalent-text__button button:hover {
@@ -51704,12 +51714,12 @@ option {
 }
 
 .process-container {
-    display: grid;
-    /* flex-wrap: wrap; */
+    display: grid; 
     justify-content: center;
     gap: 20px;
     width: 100%;
     grid-template-columns: repeat(3, 1fr);
+    /* padding:10px 30px; */
 }
 
 .process-container__card {
@@ -51777,7 +51787,7 @@ option {
     justify-content: center;
     width: 100%;
     margin: auto;
-    padding: 3rem
+    padding-bottom: 40px;
 }
 
 .charts img {
@@ -58816,7 +58826,8 @@ wordpress_cater_box p {
     .ourtalent {
         flex-direction: column;
         align-items: center;
-        margin-bottom: 8rem !important
+        gap:20px;
+        padding:40px 20px;
     }
 
     .hero-content input {
@@ -58832,7 +58843,6 @@ wordpress_cater_box p {
     }
 
     .ourtalent-text {
-        padding: 2rem 0rem;
         margin: 0;
         width: 100%;
         text-align: center
@@ -62231,11 +62241,13 @@ wordpress_cater_box p {
 
     .ourtalent-text__heading h2 {
         font-size: 30px !important;
-        line-height: 38px !important
+        line-height: 38px !important;
+        text-align: center;
     }
 
     .ourtalent-text__para p {
-        font-size: 16px !important
+        font-size: 16px !important;
+        text-align: center;
     }
 
     .hero-content h1 {
@@ -64197,7 +64209,9 @@ wordpress_cater_box p {
     }
 
     .process-container__card {
-        width: 90%
+        width: 100%;
+        margin: auto;
+
     }
 }
 
@@ -64316,6 +64330,7 @@ wordpress_cater_box p {
 @media screen and (max-width:835px) {
     .process-container {
         grid-template-columns: repeat(2, 1fr);
+        padding: 0;
     }
 }
 
@@ -64448,11 +64463,25 @@ wordpress_cater_box p {
     .node_dev_ss_serv4 h3 {
         padding-bottom: 10px;
     }
+
+     .packages{
+        margin: 0;
+        padding: 40px 25px 10px;
+    }
 }
 
 @media screen and (max-width:580px) {
     .process-container {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .ourtalent-image img{
+        width: 90%;
+        height:auto;
+    }
+
+    .package-cards {
+        width: 100%;
     }
 }
 
@@ -68824,8 +68853,8 @@ wordpress_cater_box p {
     }
 
     .improved h3 {
-        font-size: 20px !important;
-        line-height: 32px !important
+        font-size: 25px !important;
+        line-height: 30px !important
     }
 
     .improved p {
@@ -68911,10 +68940,6 @@ wordpress_cater_box p {
         font-size: 14px
     }
 
-    .not_y {
-        display: block !important;
-        margin: auto !important
-    }
 
     .ourtalent {
         margin-bottom: 5px !important
