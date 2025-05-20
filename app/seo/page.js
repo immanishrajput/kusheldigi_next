@@ -407,8 +407,7 @@ function Seo2() {
                       appealing and trustworthy for users.
                     </p>
                   </div>
-                </div>
-                <div className="seo-third-card-man">
+                
                   <div className="seo-second-card-flex3">
                   <div className="seo-second-card-flex-scgitem">   
                     <svg
@@ -936,8 +935,7 @@ function Seo2() {
                     businesses.
                   </p>
                 </div>
-              </div>
-              <div className="seo-third-card-man2">
+              
                 <div className="seo-second-card-flex6">
                   <svg
                     width="66"
@@ -1277,8 +1275,7 @@ function Seo2() {
                   </p>
                 </div>
               </div>
-            </div>
-            <div className="SEO_EXPERTS">
+             
               <div className="success-card">
                 <div className="card3">
                   <svg

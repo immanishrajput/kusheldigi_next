@@ -333,7 +333,7 @@ const Page = () => {
                   <hr />
                 </div>
                 <div className="cardMainBlogSec">
-                  {cat.blogs.slice(0, 6).map((item, index) => (
+                  {cat.blogs.reverse().slice(0, 6).map((item, index) => (
                     <div className="cardBlogSt" key={index}>
                       <Link href={`/blog/${item.slug}`}>
                         <div>
@@ -376,7 +376,7 @@ const Page = () => {
                 <hr />
               </div>
               <div className="cardMainBlogSec">
-                {(filteredBlogs.length > 0 ? filteredBlogs : []).slice(0, 6).map((item, index) => (
+                {(filteredBlogs.length > 0 ? filteredBlogs : []).reverse().slice(0, 6).map((item, index) => (
                   <div className="cardBlogSt" key={index}>
                     <Link href={`/blog/${item.slug}`}>
                       <div>

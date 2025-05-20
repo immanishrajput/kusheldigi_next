@@ -136,9 +136,10 @@ const ContactUs = () => {
     }
     if (
       formData.firstName11.trim() === '' ||
-      formData.phone11.trim() === '' ||
+      formData.phone11.trim() === '91' ||
       formData.email11.trim() === '' ||
-      formData.message11.trim() === '91'
+      formData.message11.trim() === '' ||
+      formData.service11.length === 0
     ) {
       toast.error("Please fill all the fields!!");
       return;
@@ -172,7 +173,7 @@ const ContactUs = () => {
         navigate.push('/success');
         generateCaptcha();
       } else {
-       toast.error(JSON.stringify(response), "Unknown error");
+        toast.error(JSON.stringify(response), "Unknown error");
       }
     } catch (error) {
       console.error("Error while sending email:", error);
