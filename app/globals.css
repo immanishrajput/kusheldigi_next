@@ -4955,6 +4955,14 @@ body {
     justify-content: space-between;
     flex-wrap: wrap
 }
+.second-section-card {
+    
+        width: 350px;
+        height: 100%;
+        min-height: 300px;
+        margin-top: 15px;
+    
+}
 
 @media screen and (max-width:1024px) {
     .social-media {
@@ -4964,6 +4972,12 @@ body {
         padding: 50px 50px 60px 50px;
         gap: 10px
     }
+    .second-section {
+    
+       
+        padding: 10px 20px;
+    
+}
 
     .social-media-first-section h2 {
         font-size: 36px;
@@ -4980,7 +4994,7 @@ body {
     }
 
     .lead-smm {
-        padding: 50px 50px 60px 50px
+        padding: 50px 30px 50px 30px
     }
 
     .lead-first-section h2 {
@@ -5165,11 +5179,7 @@ body {
         width: 100%
     }
 
-    .second-section-card {
-        width: 270px;
-        height: 330px;
-        margin-top: 15px
-    }
+  
 
     .card-content img {
         width: 40px
@@ -5340,6 +5350,7 @@ body {
     }
     .benefit-heading h3{
         text-align: center;
+        font-size: 24px;
     }
     .benefit-heading p {
         text-align: center;
@@ -12183,8 +12194,11 @@ body {
     }
 
     .process-section h4 {
+        font-size: 23px;
+        padding: 5px 0px;
         text-align: center;
     }
+    
 }
 
 @media (max-width:500px) {
