@@ -80,6 +80,11 @@ const nextConfig = {
         destination: '/bigcommerce-development',
         permanent: true,
       },
+      {
+        source: '/woocommerce',
+        destination: '/woocommerce-development',
+        permanent: true,
+      },
     ];
   },
 };
