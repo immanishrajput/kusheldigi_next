@@ -54,7 +54,7 @@ export default function Section10() {
     if (!isInView) return;
     const interval = setInterval(() => {
       next();
-    }, 2000);
+    }, 5000);
     return () => clearInterval(interval);
   }, [visibleCards, isInView]);
  

@@ -131,20 +131,20 @@ const data = [
       {
         title: "Graphic design",
         navigate: "/graphic-design",
-        subpart: [
-          {
-            title: "Adobe Photoshop",
-            navigate: "/graphic-design",
-          },
-          {
-            title: "Adobe illustrator",
-            navigate: "/graphic-design",
-          },
-          {
-            title: "Coreldraw",
-            navigate: "/graphic-design",
-          },
-        ],
+        // subpart: [
+        //   {
+        //     title: "Adobe Photoshop",
+        //     navigate: "/graphic-design",
+        //   },
+        //   {
+        //     title: "Adobe illustrator",
+        //     navigate: "/graphic-design",
+        //   },
+        //   {
+        //     title: "Coreldraw",
+        //     navigate: "/graphic-design",
+        //   },
+        // ],
       },
       {
         title: "Digital marketing",
@@ -560,13 +560,13 @@ const Navbar = () => {
                                   <span>Graphic Design </span>
                                 </Link>
                               </div>
-                              <div className="left-containt-services">
+                              {/* <div className="left-containt-services">
                                 <Link href="/graphic-design"> Adobe Photoshop</Link>
                                 <span>|</span>
                                 <Link href="/graphic-design"> Adobe illustrator</Link>
                                 <span>|</span>
                                 <Link href="/graphic-design">Coreldraw</Link>
-                              </div>
+                              </div> */}
                             </div>
                             <div className="left-side-servises-containt">
                               <div className="left-head-services">

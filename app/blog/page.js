@@ -178,7 +178,7 @@ const Page = () => {
         <section className="blog-first-section ">
           <div className="contt">
             <div className="typing">
-              <h1>Typing as we speak</h1>
+              <h1>Innovate with Us</h1>
             </div>
             <div className="bttnn">
               <button className={`button category-button ${isCategorySelected === false ? "active" : ""}`} onClick={()=>setIsCategorySelected(false)} >All blogs</button>
