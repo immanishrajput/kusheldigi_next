@@ -4391,6 +4391,22 @@ body {
     .social-media-second-section img {
         width: 100%;
     }
+
+.social-media-first-section h1{
+      text-align: center;
+      font-size: 23px;
+}
+.social-media-first-section p{
+    text-align: center !important;
+    font-size: 14px;
+
+}
+.lead-first-section h2{
+    text-align: center;
+}
+.lead-first-section p {
+    text-align: center !important;
+}
 }
 
 .lead-main-section {
@@ -4512,7 +4528,9 @@ body {
 
 .strategy-icon-section {
     display: flex;
-    padding-top: 20px
+    align-items: center;
+    padding-top: 20px;
+    gap: 10px;
 }
 
 .process-main-section {
@@ -4691,6 +4709,11 @@ body {
     font-weight: 600;
     align-items: start
 }
+@media(max-width:480px){
+    .our-services-first-section h2{
+        font-size: 28px;
+    }
+}
 
 .our-services-first-section h2 span {
     color: #0B60FF
@@ -4716,13 +4739,13 @@ body {
 
 .second-section-card {
     width: 315px;
-    height: 337px;
+    min-height: 370px;
     background-color: #fff;
     border-radius: 8px
 }
 
 .card-content {
-    margin: 25px 20px
+    margin: 11px 20px;
 }
 
 .card-content img {
@@ -4784,6 +4807,14 @@ body {
 
 .choose-first-section h3 span {
     color: #0B60FF
+}
+@media(max-width:480px){
+    .choose-first-section h3{
+        text-align: center;
+    }
+    .choose-first-section p{
+        text-align: center;
+    }
 }
 
 .choose-first-section p {
@@ -5292,7 +5323,7 @@ body {
     }
 
     .choose-section {
-        padding: 0 40px 50px 40px
+        padding: 30px 40px 50px 40px
     }
 
     .process-icon-section .text p {
@@ -5306,6 +5337,12 @@ body {
         width: 100%;
         height: 350px;
         padding-top: 25px
+    }
+    .benefit-heading h3{
+        text-align: center;
+    }
+    .benefit-heading p {
+        text-align: center;
     }
 
     .process-section {
@@ -5359,7 +5396,14 @@ body {
     }
 
     .strategy-first-section h3 {
-        font-size: 28px
+        font-size: 28px;
+        text-align: center;
+    }
+    .strategy-first-section p {
+        text-align: center !important;
+    }
+    .strategy-first-section h4{
+        text-align: center !important;
     }
 }
 
@@ -26361,6 +26405,20 @@ form button {
     border: none;
     outline: none
 }
+@media(max-width:1200px){
+    .btn{
+        margin-top: 20px !important;
+    }
+}
+@media(max-width:480px){
+.btn{
+    margin-top: 20px !important;
+    justify-content: center !important;
+}
+.our-services-first-section p {
+    text-align: center;
+}
+}
 
 .btn1 {
     background-color: #0142e1;
@@ -31033,7 +31091,7 @@ form button:hover {}
     font-family: 'sf-ui-display-medium', sans-serif !important;
     align-items: center;
     background-color: #0B56E4;
-    border: none;
+    border: none !important;
     border-radius: 28px;
     color: #fff;
     display: inline-flex;
@@ -31050,7 +31108,7 @@ form button:hover {}
 
 .first-experiencedji button:hover {
     background-color: #fff;
-    border: 1px solid #0039ff;
+    border: 1px soild #0039ff !important;
     color: #0B56E4
 }
 
@@ -31153,10 +31211,25 @@ form button:hover {}
     display: none !important
 }
 
+#businesstask{
+ margin-top: 50px;
+ min-height: 400px !important;
+}
 .business-box20 {
     max-width: 24vw;
     height: 430px !important;
     max-height: 100% !important
+}
+@media(max-width:900px){
+    #businesstask{
+        min-height: 330px !important; 
+    }
+}
+@media(max-width:481px){
+#businesstask{
+     margin-top: 50px  !important;
+     min-height: 300px !important; 
+    }
 }
 
 .deliver-p {
@@ -31468,6 +31541,11 @@ form button:hover {}
     color: #33475b;
     opacity: .9;
     font-weight: 700
+}
+@media(max-width:600px){
+    .how-ux1 h3{
+        text-align: center;
+    }
 }
 
 .how-ux1 p {
@@ -50735,7 +50813,7 @@ option {
 .hghglol {
     height: 400px !important;
     max-height: 100% !important;
-    object-fit: cover !important;
+    /* object-fit: cover !important; */
     object-position: top !important;
 }
 
@@ -57944,7 +58022,7 @@ wordpress_cater_box p {
     }
 
     .port-card2 b {
-        font-size: 18px
+        font-size: 16px
     }
 
     .port-card2 p {
@@ -75921,7 +75999,8 @@ input::-webkit-inner-spin-button {
     }
 
     .latest-container {
-        padding: 5 !important;
+        padding: 20px !important;
+        padding: 5px !important;
     }
 
     .news-grid {

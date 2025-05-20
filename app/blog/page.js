@@ -31,7 +31,7 @@ const Page = () => {
         const filteredBlogs = data?.blogs?.filter(blog =>
           blog?.domain?.includes(domainToFilter)
         );
-       setGetAllBlogs(filteredBlogs.reverse());
+        setGetAllBlogs(filteredBlogs.reverse());
       } else {
         console.error("Failed to fetch categories:", data?.message);
       }
@@ -63,8 +63,8 @@ const Page = () => {
       const data = await response.json();
 
       if (response.ok) {
-        console.log("cat",data?.data)
-        const firstFive = data?.data.slice(0, 5);
+        console.log("cat", data?.data)
+        const firstFive = data?.data.reverse().slice(0, 5);
         setAllCatBlogs(data?.data);
         setVisibleCategories(firstFive);
         setDefaultCategories(firstFive);
@@ -181,7 +181,7 @@ const Page = () => {
               <h1>Innovate with Us</h1>
             </div>
             <div className="bttnn">
-              <button className={`button category-button ${isCategorySelected === false ? "active" : ""}`} onClick={()=>setIsCategorySelected(false)} >All blogs</button>
+              <button className={`button category-button ${isCategorySelected === false ? "active" : ""}`} onClick={() => setIsCategorySelected(false)} >All blogs</button>
               {allCatBlogs.map((item, index) => {
                 return (
                   // {`button category-button ${isCategorySelected === false ? "active" : ""                      }`}
@@ -210,11 +210,11 @@ const Page = () => {
         </section>
 
         {!isCategorySelected && (
-  <>
-    <br />
-    <br />
-  </>
-)}
+          <>
+            <br />
+            <br />
+          </>
+        )}
 
         {
           !isCategorySelected && (
@@ -283,7 +283,7 @@ const Page = () => {
                 </div>
                 <hr /> <br />
                 <div className="news-grid">
-                  {getAllBlogs.slice(0,6).map((item, index) => {
+                  {getAllBlogs.slice(0, 6).map((item, index) => {
                     return (
                       <Link
                         href={`/blog/${item.slug}`}
@@ -333,7 +333,7 @@ const Page = () => {
                   <hr />
                 </div>
                 <div className="cardMainBlogSec">
-                  {cat.blogs.reverse().slice(0, 6).map((item, index) => (
+                  {cat.blogs.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 6).map((item, index) => (
                     <div className="cardBlogSt" key={index}>
                       <Link href={`/blog/${item.slug}`}>
                         <div>
@@ -376,7 +376,7 @@ const Page = () => {
                 <hr />
               </div>
               <div className="cardMainBlogSec">
-                {(filteredBlogs.length > 0 ? filteredBlogs : []).reverse().slice(0, 6).map((item, index) => (
+                {(filteredBlogs.length > 0 ? filteredBlogs : []).sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 6).map((item, index) => (
                   <div className="cardBlogSt" key={index}>
                     <Link href={`/blog/${item.slug}`}>
                       <div>

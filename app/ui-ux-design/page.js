@@ -181,7 +181,7 @@ const generateMetadata = ({ params }) => ({
               }}
             >
               <SplideSlide>
-                <div className="business-box business-box20 relative text-center cursor-pointer" >
+                <div className="business-box business-box20 relative text-center cursor-pointer" id="businesstask">
                   <div className="business-card-img">
                     <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740402780/full_tme7lk.png' alt="Excellent User Experience" title="Excellent User Experience" />
                   </div>
@@ -192,7 +192,7 @@ const generateMetadata = ({ params }) => ({
                 </div>
               </SplideSlide>
               <SplideSlide>
-                <div className="business-box business-box20 relative text-center cursor-pointer">
+                <div className="business-box business-box20 relative text-center cursor-pointer"  id="businesstask">
                   <div className="business-card-img">
                     <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740459322/full1_jjmowk.png' alt="Increased Engagement And Conversion Rates" title="Increased Engagement And Conversion Rates" />
                   </div>
@@ -203,7 +203,7 @@ const generateMetadata = ({ params }) => ({
                 </div>
               </SplideSlide>
               <SplideSlide>
-                <div className="business-box business-box20 relative text-center cursor-pointer">
+                <div className="business-box business-box20 relative text-center cursor-pointer"  id="businesstask">
                   <div className="business-card-img">
                     <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740459361/full2_qlynmq.png' alt="Comprehensive Design Services" title="Comprehensive Design Services" />
                   </div>
@@ -217,7 +217,7 @@ const generateMetadata = ({ params }) => ({
                 </div>
               </SplideSlide>
               <SplideSlide>
-                <div className="business-box business-box20 relative text-center cursor-pointer">
+                <div className="business-box business-box20 relative text-center cursor-pointer"  id="businesstask">
                   <div className="business-card-img">
                     <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740459392/full3_gooi7c.png' alt="Vast Industry Expertise" title="Vast Industry Expertise" />
                   </div>
@@ -316,7 +316,7 @@ const generateMetadata = ({ params }) => ({
         </div>
 
         <div className="home5     poty poty1">
-          <div className="home51 px-24 dine-1234">
+          <div className="home51 px-15 dine-1234">
             <div className="home511 text-center ">
               <h3 className="font-bold mb-2 mt-4">OUR PORTFOLIO</h3>
             </div>
