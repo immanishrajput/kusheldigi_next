@@ -3461,7 +3461,7 @@ body {
         margin: 0 auto;
     }
 
-     #hemesh-ppc .content4 h3{
+    #hemesh-ppc .content4 h3 {
         text-align: center;
         font-size: 20px !important;
         line-height: 28px !important;
@@ -3496,12 +3496,25 @@ body {
         font-size: 20px;
     }
 
-     #hemesh-ppc .content4 h3{
+    #hemesh-ppc .content4 h3 {
         text-align: center;
     }
 
     .qwting-kinrij {
         text-align: left;
+    }
+
+    #hemesh-ppc .divider-content h4 {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #hemesh-ppc .divider-content p {
+        text-align: center;
+    }
+
+    #hemesh-ppc .divider-content p {
+        text-align: center;
     }
 }
 
@@ -9336,10 +9349,10 @@ body {
 
 #kushel-next-js .kushel-next-js-cards-main {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr);
     width: 1000px;
     justify-content: center;
-   
+
     gap: 20px
 }
 
@@ -9372,9 +9385,11 @@ body {
     align-items: center;
     gap: 08px
 }
-#kushel-next-js .button-group button:hover{
+
+#kushel-next-js .button-group button:hover {
     border: 1px solid #0B56E4 !important;
 }
+
 #kushel-next-js .kushel-next-js-container4 {
     max-width: 1440px;
     width: 100%;
@@ -9456,9 +9471,9 @@ body {
     max-width: 1200px;
     margin: 40px auto;
     padding: 0 20px;
-    grid-template-columns: repeat(4, 1fr); 
+    grid-template-columns: repeat(4, 1fr);
     place-items: center !important;
-    justify-content: center !important; 
+    justify-content: center !important;
 }
 
 #kushel-next-js .kushel-next-js-cards-content2 img {
@@ -9891,17 +9906,20 @@ body {
         line-height: 25px
     }
 }
+
 @media (max-width: 600px) {
     #kushel-next-js .kushel-next-js-cards-main {
         grid-template-columns: repeat(1, 1fr) !important;
     }
-  }
-@media(max-width:947px){
-    #kushel-next-js .kushel-next-js-content4{
+}
+
+@media(max-width:947px) {
+    #kushel-next-js .kushel-next-js-content4 {
         flex-direction: column;
         gap: 10px !important;
     }
 }
+
 @media(max-width:786px) {
     #kushel-next-js .kushel-next-js-content {
         flex-direction: column-reverse
@@ -9977,23 +9995,26 @@ body {
         text-align: center;
     }
 }
+
 @media(max-width:752px) {
-    #kushel-next-js .kushel-next-js-cards-content2{
+    #kushel-next-js .kushel-next-js-cards-content2 {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
 @media (max-width: 700px) {
     .tech-grid {
-      grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
-  }
-  
+}
 
- @media (max-width: 480px) {
+
+@media (max-width: 480px) {
     .tech-grid {
-      grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     }
-  }
+}
+
 @media(max-width:714px) {
     #kushel-next-js .kushel-next-js-content8 h2 {
         font-size: 32px;
@@ -10027,22 +10048,27 @@ body {
     }
 }
 
-@media(max-width:480px){
-    #kushel-next-js .kushel-next-js-container2 h6{
+@media(max-width:480px) {
+    #kushel-next-js .kushel-next-js-container2 h6 {
         text-align: center !important;
     }
+
     #kushel-next-js .kushel-next-js-content5 p {
         text-align: center !important;
     }
-    #kushel-next-js .kushel-next-js-left1-content{
+
+    #kushel-next-js .kushel-next-js-left1-content {
         flex-direction: column !important;
     }
-    .kushel-next-js-left1-content img{
+
+    .kushel-next-js-left1-content img {
         height: 20px !important;
     }
-    #kushel-next-js .kushel-next-js-content6 h5{
+
+    #kushel-next-js .kushel-next-js-content6 h5 {
         font-size: 20px !important;
     }
+
     #kushel-next-js .kushel-next-js-left1-content p {
         text-align: center !important;
     }
@@ -10184,7 +10210,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: center
+    gap: 30px;
+    /* text-align: center */
 }
 
 #hemesh-ppc .left-content1 {
@@ -10230,6 +10257,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 25px;
 }
 
 #hemesh-ppc .right-image2 img {
@@ -10405,28 +10433,42 @@ body {
 
 #hemesh-ppc .card {
     display: grid;
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
     gap: 20px;
-    /* padding-top: 30px; */
     justify-items: center;
 }
 
 @media (min-width: 650px) {
     #hemesh-ppc .card {
-        grid-template-columns: repeat(2, 1fr); 
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
 
 @media (max-width: 650px) {
-    #hemesh-ppc .card1{
+    #hemesh-ppc .card1 {
         height: auto !important;
+    }
+
+    .line {
+        width: 100px !important;
+        margin: auto;
+    }
+
+    #hemesh-ppc .card1 h3 {
+        text-align: center;
+        margin: auto;
+        padding: 4px 0;
+    }
+
+    #hemesh-ppc .card1 p {
+        text-align: center !important;
     }
 }
 
 @media (min-width: 1200px) {
     #hemesh-ppc .card {
-        grid-template-columns: repeat(3, 1fr); 
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
@@ -10440,7 +10482,8 @@ body {
     border-radius: 40px;
     max-width: 420px;
     width: 100%;
-    height: 300px; /* Fixed height */
+    height: 300px;
+    /* Fixed height */
     padding: 20px;
     box-sizing: border-box;
     flex-shrink: 0;
@@ -10469,9 +10512,8 @@ body {
 
 #hemesh-ppc .card1 h3 {
     font-weight: 600;
-    font-size: 17px;
+    font-size: 19px;
     line-height: 28px;
-    color: #33475b
 }
 
 #hemesh-ppc .line {
@@ -10484,11 +10526,10 @@ body {
 }
 
 #hemesh-ppc .card1 p {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 15px;
     line-height: 22px;
-    color: #33475b;
-    padding-top: 5px
+    padding-top: 10px;
 }
 
 #hemesh-ppc .ppccontainer4 {
@@ -10686,7 +10727,7 @@ body {
     align-items: center
 }
 
-#hemesh-ppc .ppcbutton2 button { 
+#hemesh-ppc .ppcbutton2 button {
     width: 200px;
     align-items: center;
     background-color: #0B56E4;
@@ -10718,29 +10759,12 @@ body {
         align-items: center
     }
 
-    #hemesh-ppc .content1 {
-        display: flex;
-        flex-direction: column-reverse;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center
-    }
-
     #hemesh-ppc .left-content1 {
         padding-top: 10px;
         display: flex;
         justify-content: center;
         text-align: center;
         align-items: center
-    }
-
-    #hemesh-ppc .content2 {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 0
     }
 
     #hemesh-ppc .content7 {
@@ -10784,13 +10808,33 @@ body {
         text-align: center
     }
 
-    #hemesh-ppc .content7 h3{
+    #hemesh-ppc .content7 h3 {
         text-align: center;
     }
 
-     #hemesh-ppc .ppccontent1 {
+    #hemesh-ppc .ppccontent1 {
         flex-direction: column-reverse;
         gap: 40px
+    }
+
+    #hemesh-ppc .content1 {
+        display: flex;
+        flex-direction: column-reverse;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        align-items: center;
+    }
+
+    #hemesh-ppc .content2 {
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        padding-top: 0;
+    }
+
+    #hemesh-ppc .left-content1 h2 {
+        text-align: center;
     }
 }
 
@@ -10850,12 +10894,10 @@ body {
     }
 
     #hemesh-ppc .card1 p {
-        text-align: left !important
+        text-align: left;
     }
 
-    #hemesh-ppc .divider-content p {
-        text-align: left !important
-    }
+
 
     #hemesh-ppc .left-content2 h2 {
         max-width: 100%
@@ -10885,7 +10927,7 @@ body {
     }
 }
 
-@media (max-width:450px) { 
+@media (max-width:450px) {
     #hemesh-ppc .card1 {
         height: auto;
     }
@@ -10936,7 +10978,8 @@ body {
     }
 
     #hemesh-ppc .card {
-        padding-top: 0
+        padding-top: 18px;
+        margin: 0;
     }
 
     #hemesh-ppc .content1 {
@@ -10955,10 +10998,10 @@ body {
 
     #hemesh-ppc .content7 h3 {
         line-height: 32px;
-        font-size:20px;
+        font-size: 20px;
     }
 
-    #hemesh-ppc .content7 p{
+    #hemesh-ppc .content7 p {
         text-align: center;
         font-size: 13px;
         line-height: 22px;
@@ -10972,7 +11015,7 @@ body {
         padding-top: 0
     }
 
-    
+
 
     #hemesh-ppc .container1 {
         padding: 0 20px 0 20px
@@ -11009,8 +11052,9 @@ body {
     }
 
     #hemesh-ppc .left-content p {
-
         text-align: center;
+        font-size: 14px;
+        line-height: 22px;
     }
 }
 
@@ -11023,6 +11067,11 @@ body {
 
     #hemesh-ppc .ppccard-content {
         gap: 30px
+    }
+
+    #hemesh-ppc .content6 p {
+        text-align: center;
+        line-height: 24px;
     }
 }
 
@@ -17304,10 +17353,10 @@ body {
         gap: 24px
     }
 
-     .not_y {
+    .not_y {
         display: block !important;
         margin: auto !important;
-        width:80%;
+        width: 80%;
     }
 
     .not_y1 {
@@ -23968,7 +24017,7 @@ input[type=number] {
         font-size: 17px
     }
 
-    .aaj13122023{
+    .aaj13122023 {
         padding: 20px 30px;
     }
 }
@@ -34337,7 +34386,7 @@ form button:hover {}
 
 .android-back1 button:hover {
     background-color: #fff;
-    border: 1px solid #0039ff  !important;
+    border: 1px solid #0039ff !important;
     color: #0B56E4
 }
 
@@ -34350,6 +34399,7 @@ form button:hover {}
     border: 1px solid #0039ff !important;
     color: #0B56E4
 }
+
 .bigCommerce-back1 button {
     border: none !important;
 }
@@ -34397,7 +34447,8 @@ form button:hover {}
 .android-fun {
     display: flex;
     align-items: center;
-    justify-content: space-between
+    gap: 30px;
+    justify-content: space-between;
 }
 
 .android-fun1 h3 {
@@ -34438,8 +34489,6 @@ form button:hover {}
     font-weight: 400;
     font-size: 20px;
     color: #33475b;
-    width: 34em;
-    max-width: 100%
 }
 
 .ios-offer {
@@ -34989,11 +35038,23 @@ video {
 
 @media (max-width:900px) {
     .android0-img {
-        align-items: center
+        align-items: center;
+        display: block;
+    }
+
+    .android-box img {
+        margin: auto;
     }
 
     .android-box p {
-        text-align: start !important
+        text-align: center !important;
+        font-size: 16px;
+    }
+
+    .android-box h4 {
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 10px;
     }
 }
 
@@ -35061,21 +35122,44 @@ video {
 }
 
 .flutter-ads-card {
-    display: flex;
-    align-items: center;
-    justify-content: center
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    /* padding: 20px; */
+    justify-items: center;
+}
+
+@media (min-width: 720px) {
+    .flutter-ads-card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 720px) {
+
+    .flutter-ads-box p,
+    .flutter-ads-box h4 {
+        text-align: center;
+    }
+
+    .flutter-ads-box svg {
+        margin: auto;
+    }
 }
 
 .flutter-ads-box {
     width: 100%;
-    margin: 15px 15px;
-    box-shadow: 0 4px 4px rgb(0 0 0 / .05);
+    max-width: 700px;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 0.05);
     border-radius: 8px;
     padding: 30px;
-    height: 280px;
-    max-height: 100%;
-    background-color: #fff
+    background-color: #fff;
+    min-height: 280px;
+    height: 100%;
+
 }
+
+
 
 .flutter-ad-bx1:hover {
     background-color: #0039ff;
@@ -35120,7 +35204,7 @@ video {
 }
 
 .let-flutter {
-    padding: 30px 100px;
+    padding: 30px 100px 0;
     display: flex;
     align-items: center;
     gap: 50px;
@@ -35147,8 +35231,6 @@ video {
     color: #fff;
     font-weight: 500;
     font-size: 18.5px;
-    width: 40em;
-    opacity: .7;
     margin-top: 16px
 }
 
@@ -35161,7 +35243,6 @@ video {
 }
 
 .approach {
-    margin-top: 3rem;
     background-color: #181818;
     padding: 50px 0
 }
@@ -35196,7 +35277,7 @@ video {
     font-size: 21px;
     color: #7d8387;
     font-weight: 500;
-    max-width: 430px
+    /* max-width: 430px */
 }
 
 .review {
@@ -35209,8 +35290,6 @@ video {
 .leftreview {
     width: 35%;
     margin-bottom: 10px;
-    padding: 4rem;
-    /* padding-left: 5rem; */
     position: relative;
     z-index: 2
 }
@@ -35310,7 +35389,7 @@ video {
 }
 
 .native-back2 img {
-    max-width: 250px;
+    max-width: 350px;
     width: 100%
 }
 
@@ -35644,9 +35723,7 @@ video {
     height: 100%
 }
 
-.native-whys {
-    margin-top: 40px
-}
+
 
 .nat-why {
     position: relative;
@@ -35681,23 +35758,40 @@ video {
 }
 
 .why-card {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+    /* Centers each .why-box horizontally */
     align-items: center;
-    justify-content: center
+    /* Optional: aligns vertically if there's height */
 }
-@media(max-width:1005px){
-    .why-card{
-        flex-direction: column;
+
+@media (min-width: 600px) {
+    .why-card {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
+@media (min-width: 1024px) {
+    .why-card {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+
 .why-box {
     width: 100%;
+    max-width: 260px;
+    /* Optional: control card size */
     background-color: #fff;
     border-radius: 12px;
-    margin: 10px 14px;
-    padding: 40px 0
+    margin: 10px;
+    padding: 40px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
+
 
 .wy-box-1 {
     background-color: #b0f7f7
@@ -47288,6 +47382,7 @@ video {
         text-align: center;
     }
 }
+
 /* 
 @media (max-width:900px) {
     .ourtalent-text__heading {
@@ -51753,7 +51848,7 @@ option {
 }
 
 .ourtalent-text {
-    width: 60%; 
+    width: 60%;
     margin: 2rem 2rem;
     display: flex;
     flex-direction: column;
@@ -51885,7 +51980,7 @@ option {
 }
 
 .process-container {
-    display: grid; 
+    display: grid;
     justify-content: center;
     gap: 20px;
     width: 100%;
@@ -56111,11 +56206,11 @@ wordpress_cater_box p {
         padding: 9rem 0rem 0rem 0rem !important
     }
 
-    .content1 {
+    /* .content1 {
         flex-wrap: wrap !important;
         padding: 0 0px !important;
         margin-top: 7px
-    }
+    } */
 
     .content45 {
         padding: 20px 0px !important
@@ -56570,7 +56665,7 @@ wordpress_cater_box p {
     }
 
     .flutter-box {
-        height: 250px !important
+        height: 340px !important
     }
 
     .node_dev_ss_card {
@@ -56578,7 +56673,9 @@ wordpress_cater_box p {
     }
 
     .android-card {
-        flex-wrap: wrap
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     }
 
     .flutter-ad {
@@ -57326,11 +57423,6 @@ wordpress_cater_box p {
         width: 28em
     }
 
-    .let-flutter {
-        flex-direction: column-reverse;
-        align-items: center
-    }
-
     .let-flutter1 {
         text-align: center;
         margin-top: 30px
@@ -57359,11 +57451,6 @@ wordpress_cater_box p {
         margin: 15px 0
     }
 
-    .android-fun2 p {
-        width: 100% !important;
-        text-align: center
-    }
-
     .ios-fun2 p {
         text-align: start
     }
@@ -57372,21 +57459,12 @@ wordpress_cater_box p {
         margin-left: 0rem !important
     }
 
-    .android-fun2 {
-        margin-top: 30px
-    }
-
     .android-usa2 {
         display: none;
     }
 
     .ios-back1 p {
         width: 22em
-    }
-
-    .android-fun {
-        flex-direction: column;
-        align-items: center
     }
 
     .ios-fun2 p {
@@ -58997,8 +59075,8 @@ wordpress_cater_box p {
     .ourtalent {
         flex-direction: column;
         align-items: center;
-        gap:20px;
-        padding:40px 20px;
+        gap: 20px;
+        padding: 40px 20px;
     }
 
     .hero-content input {
@@ -59408,10 +59486,6 @@ wordpress_cater_box p {
     }
 
     .main_php_para p {
-        text-align: start
-    }
-
-    .flutter-ads-box p {
         text-align: start
     }
 
@@ -61626,7 +61700,8 @@ wordpress_cater_box p {
     }
 
     .support-modern1 p {
-        font-size: 16px
+        font-size: 16px;
+        text-align: center;
     }
 
     .support-image {
@@ -61691,6 +61766,12 @@ wordpress_cater_box p {
     .let-flutter {
         padding: 0 40px;
         padding-top: 40px !important
+    }
+
+    .let-flutter {
+        flex-direction: column;
+        gap: 0px;
+        align-items: center;
     }
 
     .let-flutter h3 {
@@ -61793,7 +61874,8 @@ wordpress_cater_box p {
     }
 
     .android-card {
-        flex-direction: column
+        grid-template-columns: 1fr;
+        gap: 0;
     }
 
     .android-card11 {
@@ -61980,7 +62062,6 @@ wordpress_cater_box p {
     .android-back1 h1 {
         font-size: 30px;
         line-height: 38px;
-        text-align: center;
     }
 
     .android-back1 h2 {
@@ -61997,12 +62078,20 @@ wordpress_cater_box p {
         font-size: 16px
     }
 
-    .android-box p {
-        font-size: 16px
+    .android-fun {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .android-fun2 p {
+        width: 100% !important;
+        text-align: center
     }
 
     .android-back1 p {
-        font-size: 16px
+        font-size: 16px;
+        width: 100% !important;
+        text-align: center;
     }
 
     .ios-back1 p {
@@ -62860,7 +62949,7 @@ wordpress_cater_box p {
         /* padding-top: 60px; */
         padding-bottom: 40px;
         flex-direction: column;
-        gap:10px;
+        gap: 10px;
     }
 
     .what_makes {
@@ -63896,7 +63985,12 @@ wordpress_cater_box p {
     }
 
     .para-ts p {
-        font-size: 16px
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .support-modern1 h2 {
+        text-align: center;
     }
 
     .first-delivery {
@@ -64158,10 +64252,6 @@ wordpress_cater_box p {
 
     .staff-para p {
         text-align: start
-    }
-
-    .android-back1 p {
-        width: 100% !important
     }
 
     .PHP-back {
@@ -64646,7 +64736,7 @@ wordpress_cater_box p {
         padding-bottom: 10px;
     }
 
-     .packages{
+    .packages {
         margin: 0;
         padding: 40px 25px 10px;
     }
@@ -64657,13 +64747,17 @@ wordpress_cater_box p {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .ourtalent-image img{
+    .ourtalent-image img {
         width: 90%;
-        height:auto;
+        height: auto;
     }
 
     .package-cards {
         width: 100%;
+    }
+
+    .approach {
+        padding: 40px 0 0;
     }
 }
 
@@ -68305,11 +68399,7 @@ wordpress_cater_box p {
         width: 40px
     }
 
-    .line {
-        width: 3px !important;
-        height: 50px;
-        margin-left: 40px !important
-    }
+
 
     .asit .line {
         display: none !important
@@ -68766,7 +68856,7 @@ wordpress_cater_box p {
 
     .android-back2 img {
         margin-top: 20px;
-        max-width: 300px
+        max-width: 240px
     }
 
     .android-offer1 p {
@@ -71231,7 +71321,7 @@ wordpress_cater_box p {
     }
 
     .how-native-work {
-        padding: 60px 20px
+        padding: 20px;
     }
 
     .how-native-work h3 {
@@ -71425,7 +71515,7 @@ wordpress_cater_box p {
     }
 
     .native-app {
-        padding: 60px 20px !important
+        padding: 60px 30px !important
     }
 
     .flyinh {
@@ -76932,16 +77022,14 @@ input::-webkit-inner-spin-button {
         width: 100%;
     }
 
-    .MainBloggSeCh3Img img {
-        /* height: 500px; */
+    .MainBloggSeCh3Img img { 
         padding: 0;
     }
 
     .mainBloContentSt {
         flex-direction: column;
         align-items: flex-start;
-        text-align: left;
-        /* padding: 15px 0px 0px 30px; */
+        text-align: left; 
         margin: 0;
     }
 
@@ -76993,8 +77081,7 @@ input::-webkit-inner-spin-button {
     .mainBloContentSt {
         margin: 0;
         width: 100%;
-        padding: 18px !important;
-        /* padding: 15px 0px 0px 0px; */
+        padding: 18px !important; 
         flex-direction: column;
         align-items: flex-start;
         gap: 0px !important;
@@ -77223,8 +77310,7 @@ input::-webkit-inner-spin-button {
     font-weight: 600;
     font-size: 17px;
     line-height: 40px;
-    color: #222;
-    /* margin-top: 10px; */
+    color: #222; 
 }
 
 @media (max-width: 1024px) {
@@ -77367,8 +77453,6 @@ input::-webkit-inner-spin-button {
     pointer-events: none;
 }
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -77469,17 +77553,13 @@ input::-webkit-inner-spin-button {
     border: none;
 }
 
-.blue-bg {
-    /* background-color: #0E52FC; */
+.blue-bg { 
     color: #000;
-    font-size: 14px;
-    /* border: 2px solid #0E52FC; */
+    font-size: 14px; 
 }
 
 .blue-bg:hover {
-    background-color: white;
-    /* color: #0E52FC; */
-    /* border: 2px solid #0E52FC; */
+    background-color: white; 
 }
 
 .right-carousel-heading {
@@ -77517,8 +77597,7 @@ input::-webkit-inner-spin-button {
 .right-service-stack ul li,
 .right-service-stack ol {
     list-style-type: disc;
-    font-weight: 400;
-    /* margin: 10px 15px; */
+    font-weight: 400; 
     display: flex;
     line-height: 1.5;
     justify-content: space-between;
@@ -77832,7 +77911,6 @@ input::-webkit-inner-spin-button {
 
 
 .primary-heading {
-    /* margin: 19px 0px; */
     font-size: 2.2rem !important;
     font-weight: 600 !important;
 }
@@ -77904,8 +77982,6 @@ input::-webkit-inner-spin-button {
     margin: 20px 0px !important;
     display: block;
 }
-
-/* new csss  */
 
 @media(max-width:480px) {
     .get_mig button {
