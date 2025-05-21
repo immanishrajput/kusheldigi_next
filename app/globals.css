@@ -75237,7 +75237,7 @@ input::-webkit-inner-spin-button {
     .blog-second-section,
     .newsroom-section,
     .blog-fourth-section {
-        padding: 0px 30px;
+        padding: 0px 20px;
     }
 }
 
@@ -75575,7 +75575,7 @@ input::-webkit-inner-spin-button {
 .newMainSec {
     margin-top: 80px;
     background-color: aliceblue;
-    padding: 40px 20px;
+    padding: 40px 0px;
     height: auto;
 }
 
@@ -75688,7 +75688,7 @@ input::-webkit-inner-spin-button {
     }
 
     .news-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(3, 1fr) !important;
     }
 
     .news-item {
@@ -75713,12 +75713,12 @@ input::-webkit-inner-spin-button {
     }
 
     .latest-container {
-        padding: 20px !important;
-        padding: 5px !important;
+       
+        padding: 5px 20px !important;
     }
 
     .news-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr) !important;
     }
 
     .news-item {
@@ -75739,6 +75739,10 @@ input::-webkit-inner-spin-button {
     .newsroom-section {
         padding: 20px;
     }
+    .news-grid {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
 
     .newsroom-header {
         font-size: 24px;
@@ -75966,7 +75970,7 @@ input::-webkit-inner-spin-button {
     }
 
     .cardsectFiveMain {
-        padding: 80px 30px 40px !important;
+        /* padding: 80px 30px 40px !important; */
     }
 }
 
@@ -75981,7 +75985,7 @@ input::-webkit-inner-spin-button {
 }
 
 .cardsectFiveMain {
-    padding: 30px 60px 0px;
+    /* padding: 30px 60px 0px; */
     max-width: 1720px;
     margin: auto;
 }
@@ -76137,7 +76141,7 @@ input::-webkit-inner-spin-button {
         width: 100%;
         max-width: 1720px;
         margin: auto;
-        padding: 20px 30px;
+        padding: 20px 20px;
     }
 }
 
@@ -76789,7 +76793,7 @@ input::-webkit-inner-spin-button {
 
 @media (max-width: 1024px) {
     .MainBloggSeC {
-        padding: 13px;
+        padding: 13px 25px;
     }
 
     .mainBloContentStPara {
@@ -76841,7 +76845,7 @@ input::-webkit-inner-spin-button {
 
 @media (max-width: 767px) {
     .MainBloggSeC {
-        padding-right: 5%;
+        /* padding-right: 5%; */
     }
 
     .MainBloggSeCh3 {

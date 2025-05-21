@@ -6,8 +6,9 @@ import Head from 'next/head';
 import '../globals.css';
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
-import data from "../data/data";
+// import data from "../data/data";
 import IndustriesFAQ from "../COMMON/IndustriesFAQ";
+
 const Ankitcrouser = [
   {
     // rightitle: "Visit link",
@@ -129,6 +130,7 @@ function Industries() {
   const [Page, setPage] = useState(4);
   const [Page1, setPage1] = useState(2);
   const [Page2, setPage2] = useState(1);
+  const data = [];
   const [cardItem] = useState(data);
   const [index, setIndex] = useState(0);
   useEffect(() => {
