@@ -159,26 +159,41 @@ export default function BlogDetails() {
     }, 2000);
   };
 
+
   useEffect(() => {
-    const accordionHeaders = document.querySelectorAll('.accordion-header');
+    if (typeof window === "undefined") return;
 
-    accordionHeaders.forEach(header => {
-      const content = header.nextElementSibling;
-      header.addEventListener('click', () => {
-        const isVisible = content.style.display === 'block';
-        content.style.display = isVisible ? 'none' : 'block';
-        header.classList.toggle('active', !isVisible);
-      });
-    });
+    const setupAccordion = () => {
+      const headers = document.querySelectorAll('.accordion-header');
 
-    return () => {
-      accordionHeaders.forEach(header => {
-        const content = header.nextElementSibling;
-        const newHeader = header.cloneNode(true);
-        header.replaceWith(newHeader);
+      headers.forEach(header => {
+        const clickHandler = () => {
+          const content = header.nextElementSibling;
+          const isVisible = content?.style.display === 'block';
+
+          if (content) {
+            content.style.display = isVisible ? 'none' : 'block';
+            header.classList.toggle('active', !isVisible);
+          }
+        };
+
+        header.addEventListener('click', clickHandler);
+        header.dataset.clickHandler = clickHandler;
       });
     };
-  }, []);
+
+    requestAnimationFrame(setupAccordion);
+
+    return () => {
+      const headers = document.querySelectorAll('.accordion-header');
+      headers.forEach(header => {
+        const handler = header.dataset.clickHandler;
+        if (handler) {
+          header.removeEventListener('click', handler);
+        }
+      });
+    };
+  }, [recentBlogs]);
 
   return (
     <>
