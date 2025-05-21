@@ -299,9 +299,7 @@ const Page = () => {
                         </div>
                         <div className="news-content">
                           <div className="news-title">
-                            <h3 className="news-title" id="newBlogTil">
-                              <p> {item?.title}</p>
-                            </h3>
+
                             <p className="cardBlogStpaa">
                               {new Date(item?.date).toLocaleDateString(
                                 "en-GB",
@@ -312,6 +310,10 @@ const Page = () => {
                                 }
                               )}
                             </p>
+                            <h3 className="news-title" id="newBlogTil">
+                              <p> {item?.title}</p>
+                            </h3>
+                            
                           </div>
                         </div>
                       </Link>

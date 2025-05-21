@@ -30,13 +30,11 @@
   }
 
   .aboutBannerMain .Kushaboutban , .aboutBannerMain .KushaboupaImage{
-  flex: 0 0 auto;       /* Don't grow or shrink */
-  width: 100%;           /* Adjust to fit within 100% with spacing */
+  flex: 0 0 auto;
+  width: 100%; 
   box-sizing: border-box;
 }
 }
-
-
 
 .KushaboutH2 {
   font-size: 48px;

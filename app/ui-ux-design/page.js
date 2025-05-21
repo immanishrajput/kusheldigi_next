@@ -19,6 +19,7 @@ import ContactForm from "../COMMON/ContactForm";
 import Link from "next/link";
 import Navbar from "../COMMON/Navbar";
 import UIUXFAQ from "../COMMON/UIUXFAQ";
+import Website from "../components/Home/HomeForm";
 const Uiux = ({notify}) => {
   let heading = "www.2ndAmendment.com";
   let heading1 = "www.kickeez.com";
@@ -362,7 +363,7 @@ const generateMetadata = ({ params }) => ({
 
         
         <UIUXFAQ/>
-        <ContactForm notify={notify} />
+        <Website/>
       
       
     {/*  buttons  */}

@@ -41,8 +41,8 @@
 #switchLabel {
     cursor: pointer;
     text-indent: -9999px;
-    width: 150px;
-    height: 80px;
+    width: 140px;
+    height: 70px;
     background: grey;
     display: block;
     border-radius: 100px;
@@ -54,8 +54,8 @@
     position: absolute;
     top: 5px;
     left: 5px;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     background: #fff;
     border-radius: 90px;
     transition: 0.3s;

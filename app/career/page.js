@@ -131,7 +131,7 @@ useEffect(() => {
             
           </div>
           <div className="working2">
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724934421/lonia.a67b16370e7ad650f87f_1_iyrdmw.png" alt="about working here" title="about working here" />
+            <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724934421/lonia.a67b16370e7ad650f87f_1_iyrdmw.png" alt="about working here" title="about working here" />
           </div>
         </div>
         </div>
@@ -139,26 +139,26 @@ useEffect(() => {
         <div className="conducting-enviro">
           <div className="conducting-card">
             <div className="conducting-box">
-              <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724934420/download_55_mizsas.png" alt="Conducive  Environment" title="Conducive  Environment" />
+              <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724934420/download_55_mizsas.png" alt="Conducive  Environment" title="Conducive  Environment" />
               <p>
                 Conducive <br />
                 Environment
               </p>
             </div>
             <div className="conducting-box">
-              <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724934420/download_56_sstwz3.png" alt="Shared Success" title="Shared Success" />
+              <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724934420/download_56_sstwz3.png" alt="Shared Success" title="Shared Success" />
               <p>
                 Shared <br /> Success
               </p>
             </div>
             <div className="conducting-box">
-              <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724934419/download_57_lxcdfe.png" alt="Healthy Meal" title="Healthy Meal" />
+              <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724934419/download_57_lxcdfe.png" alt="Healthy Meal" title="Healthy Meal" />
               <p>
                 Healthy <br /> Meal
               </p>
             </div>
             <div className="conducting-box">
-              <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724934419/download_58_waxsci.png" alt="Medical Insurance"  title="Medical Insurance"/>
+              <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724934419/download_58_waxsci.png" alt="Medical Insurance"  title="Medical Insurance"/>
               <p>
                 Medical <br /> Insurance
               </p>
@@ -247,10 +247,10 @@ useEffect(() => {
 
          <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img loading="lazy" className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991783/telephone_k9aecl.png' alt="call-icon" title="call-icon" />
+            <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991783/telephone_k9aecl.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>

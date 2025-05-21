@@ -352,7 +352,7 @@ function page() {
         {/* 
         <SplideSlide>
           <section className="case3secfour2">
-            <img className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744634602/Rectangle_367_h4dnp4.png" alt="kushel" />
+            <img loading="lazy" className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744634602/Rectangle_367_h4dnp4.png" alt="kushel" />
 
             <div className="cas3s4con">
               <div className="bgshowdb2">
@@ -379,14 +379,14 @@ function page() {
 
         <SplideSlide>
           <section className="case3secfour" >
-            <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
+            <img loading="lazy" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
 
             <div className="cas3s4con" id="cas3s4connn">
 
               <div className="bgshowdb1" id="" >
                 < img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747158480/Group_1171281286_1_b2cgzf_we0mgd.png" id="bgshowdb12"/>
-                {/* <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746710597/Group_1171279306_o1qdhn.png" alt="kushel" className="ca2insideimg adjustheighimg" /> */}
-                {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
+                {/* <img loading="lazy" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746710597/Group_1171279306_o1qdhn.png" alt="kushel" className="ca2insideimg adjustheighimg" /> */}
+                {/* <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
               </div>
 
               <div className="cas3circldata" id="cas3circldata1">
@@ -404,14 +404,14 @@ function page() {
 
         <SplideSlide>
           <section className="case3secfour" id="case3secfour22">
-            <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
+            <img loading="lazy" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
 
             <div className="cas3s4con" id="cas3s4connn">
 
               <div className="bgshowdb1">
-                <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747158005/human_q4erqd.png" id="bgshowdb12" />
-                {/* <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454204/e-commerce-development_wu34yd.png" alt="kushel" className="ca2insideimg adjustheighimg" />
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
+                <img loading="lazy" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747158005/human_q4erqd.png" id="bgshowdb12" />
+                {/* <img loading="lazy" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454204/e-commerce-development_wu34yd.png" alt="kushel" className="ca2insideimg adjustheighimg" />
+            <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
               </div>
 
               <div className="cas3circldata" id="cas3circldata1">
@@ -428,13 +428,13 @@ function page() {
 
         <SplideSlide>
           <section className="case3secfour">
-            <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
+            <img loading="lazy" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
 
             <div className="cas3s4con" id="cas3s4connn">
 
               <div className="bgshowdb1" id="">
-                {/* <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784464/Group_1171279316_nc1yiv.png" alt="kushel" className="ca2insideimg addheightimage" /> */}
-                <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747158480/Group_1171281286_1_b2cgzf_we0mgd.png" alt="kushel" id="bgshowdb12" />
+                {/* <img loading="lazy" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784464/Group_1171279316_nc1yiv.png" alt="kushel" className="ca2insideimg addheightimage" /> */}
+                <img loading="lazy" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747158480/Group_1171281286_1_b2cgzf_we0mgd.png" alt="kushel" id="bgshowdb12" />
               </div>
 
               <div className="cas3circldata" id="cas3circldata1">
@@ -482,7 +482,7 @@ function page() {
 
             {/* Right Section with Animation */}
             <div className={`c2fibbotrigh ${animationDirection} `}>
-              <img src={selectdata?.img} className="selectdataimg" alt="kushel" />
+              <img loading="lazy" src={selectdata?.img} className="selectdataimg" alt="kushel" />
               <div className="serigh_macont">
                 <h4>
                   <span>0{selectS4 + 1}/</span> {selectdata?.title}
@@ -608,7 +608,7 @@ function page() {
           <div className="sc2_Sev_projects">
             {projects?.map((project, index) => (
               <div key={index} className="singlprojseve">
-                <img src={project?.img} alt="kushel" />
+                <img loading="lazy" src={project?.img} alt="kushel" />
 
                 <div className="seven_titls">
                   <p className="sep1">{project?.title1}</p>

@@ -160,17 +160,17 @@ function Page() {
 
       <section className="case1firsec">
 
-  <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454210/2nd-home-banner_qpuz1w.jpg" alt="kushel" className="case1fill"/>
-        {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216400/case1fil_bwtual.png" alt="kushel" className="case1fill" />
-        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216437/case1bg_j1tw2e.png" alt="kushel" className="case1bg" /> */}
+  <img loading="lazy" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454210/2nd-home-banner_qpuz1w.jpg" alt="kushel" className="case1fill"/>
+        {/* <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216400/case1fil_bwtual.png" alt="kushel" className="case1fill" />
+        <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216437/case1bg_j1tw2e.png" alt="kushel" className="case1bg" /> */}
 
         <div className="cas1cont1wrap">
           <div className="case1fircont">
-            
+          
             <div className="case1fifirco">
               {/* left  */}
               <div className="ca1firleft">
-                <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784821/Group_1171279311_lf5dmj.png" alt="kushel" />
+                <img loading="lazy" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784821/Group_1171279311_lf5dmj.png" alt="kushel" />
                 <p>2ndamendment Guns</p>
               </div>
 
@@ -206,7 +206,7 @@ function Page() {
       {/* secon section  */}
       <section className="case2secsec">
         <div className="case2seccont">
-          <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746537844/madfish-logo1_ghjavp.png" alt="kushel" className="cs2i1" />
+          <img loading="lazy" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746537844/madfish-logo1_ghjavp.png" alt="kushel" className="cs2i1" />
 
           <div className="sc2_main_content">
             <h1>Client Background</h1>
@@ -227,7 +227,7 @@ At its Ecommerce platform, you can find ammunition equipment for Second Amendmen
           </div>
         </div>
 
-        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216538/c2el1_ljp05j.png" alt="kushel" className="c2el1" />
+        <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216538/c2el1_ljp05j.png" alt="kushel" className="c2el1" />
       </section>
      <div className="PortfolioChallenges">
           <div className="PortfolioChallengeMain">
@@ -279,9 +279,9 @@ src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746785005/Group_1171279
             <p className="s3theeparas">We also did a thorough research to identify the market gaps and analyze the best possible solution for the business. </p>
 
           </div>
-          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746514576/2nd-A-solutions_s6apxz.png" alt="kushel" className="c3antoimg" /> 
+          <img loading="lazy" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746514576/2nd-A-solutions_s6apxz.png" alt="kushel" className="c3antoimg" /> 
 
-          {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216571/case3ano_uv19e1.png" alt="kushel" className="c3antoimg" /> */}
+          {/* <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216571/case3ano_uv19e1.png" alt="kushel" className="c3antoimg" /> */}
         </div>
       </section>
 
@@ -302,14 +302,14 @@ src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746785005/Group_1171279
     >
       <SplideSlide>
         <section className="case3secfour" >
-          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747333030/abouthome_1_uy6fbd.png" alt="kushel" className="c1btimage" />
+          <img loading="lazy" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747333030/abouthome_1_uy6fbd.png" alt="kushel" className="c1btimage" />
 
           <div className="cas3s4con" id="cas3s4connn">
 
    <div className="bgshowdb1" >
             < img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784460/Group_1171279313_zyrxoy.png"/>
-            {/* <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746710597/Group_1171279306_o1qdhn.png" alt="kushel" className="ca2insideimg adjustheighimg" /> */}
-            {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
+            {/* <img loading="lazy" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746710597/Group_1171279306_o1qdhn.png" alt="kushel" className="ca2insideimg adjustheighimg" /> */}
+            {/* <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
    </div>
 
             <div className="cas3circldata" id="cas3circldata1">
@@ -325,14 +325,14 @@ src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746785005/Group_1171279
 
       <SplideSlide>
         <section className="case3secfour" id="case3secfour22">
-          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747333030/abouthome_1_uy6fbd.png" alt="kushel" className="c1btimage" />
+          <img loading="lazy" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747333030/abouthome_1_uy6fbd.png" alt="kushel" className="c1btimage" />
 
           <div className="cas3s4con" id="cas3s4connn">
 
    <div className="bgshowdb1" id="bgshowdb11">
-          <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784461/Group_1171279309_1_z8a9ol.png"/>
-            {/* <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454204/e-commerce-development_wu34yd.png" alt="kushel" className="ca2insideimg adjustheighimg" />
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
+          <img loading="lazy" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784461/Group_1171279309_1_z8a9ol.png"/>
+            {/* <img loading="lazy" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454204/e-commerce-development_wu34yd.png" alt="kushel" className="ca2insideimg adjustheighimg" />
+            <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
    </div>
 
             <div className="cas3circldata" id="cas3circldata1">
@@ -347,13 +347,13 @@ src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746785005/Group_1171279
 
       <SplideSlide>
         <section className="case3secfour">
-          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747333030/abouthome_1_uy6fbd.png" alt="kushel" className="c1btimage" />
+          <img loading="lazy" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747333030/abouthome_1_uy6fbd.png" alt="kushel" className="c1btimage" />
 
           <div className="cas3s4con" id="cas3s4connn">
 
    <div className="bgshowdb1">
-            {/* <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784464/Group_1171279316_nc1yiv.png" alt="kushel" className="ca2insideimg addheightimage" /> */}
-            <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784464/Group_1171279316_nc1yiv.png" alt="kushel" className="" />
+            {/* <img loading="lazy" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784464/Group_1171279316_nc1yiv.png" alt="kushel" className="ca2insideimg addheightimage" /> */}
+            <img loading="lazy" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784464/Group_1171279316_nc1yiv.png" alt="kushel" className="" />
    </div>
 
             <div className="cas3circldata" id="cas3circldata1">
@@ -397,7 +397,7 @@ src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746785005/Group_1171279
 
   {/* Right Section with Animation */}
   <div className={`c2fibbotrigh ${animationDirection} `}>
-    <img src={selectdata?.img} className="selectdataimg" alt="kushel"/>
+    <img loading="lazy" src={selectdata?.img} className="selectdataimg" alt="kushel"/>
     <div className="serigh_macont">
       <h4>
         <span>0{selectS4 + 1}/</span> {selectdata?.title}
@@ -436,7 +436,7 @@ src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746785005/Group_1171279
 
           <div className={`c2fibbotrigh`}>
        
-       <img src={item?.data?.img} className="selectdataimg" alt="kushel"/>
+       <img loading="lazy" src={item?.data?.img} className="selectdataimg" alt="kushel"/>
        
        <div className="serigh_macont">
        
@@ -490,8 +490,8 @@ src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746785005/Group_1171279
      {/* six section  */}
      <section className="cs2sexiesec">
 
-      <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216672/similarl1_kq1btu.png" alt="kushel" className="similarl1" />
-      <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216703/similarl2_yt5kqi.png" alt="kushel"  className="similarl2" />
+      <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216672/similarl1_kq1btu.png" alt="kushel" className="similarl1" />
+      <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216703/similarl2_yt5kqi.png" alt="kushel"  className="similarl2" />
 
        <div className="c2sixconta">
 
@@ -526,7 +526,7 @@ src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746785005/Group_1171279
           {
             projects?.map((project , index)=>(
               <div key={index} className="singlprojseve">
-                   <img src={project?.img} alt="kushel"/>
+                   <img loading="lazy" src={project?.img} alt="kushel"/>
 
                     <div className="seven_titls">
                       <p className="sep1">{project?.title1}</p>

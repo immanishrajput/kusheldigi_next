@@ -80,16 +80,16 @@ const CaseStudy = () => {
             <div className='case-wrapper'>
                 <h4 className='big-card-heading primary-heading'>{caseStudies[currentIndex].heading}</h4>
                 <div className='case-card'>
-                    <img className={`case-img ${caseStudies[currentIndex].className}`} src={caseStudies[currentIndex].img} alt='case' />
+                    <img loading="lazy" className={`case-img ${caseStudies[currentIndex].className}`} src={caseStudies[currentIndex].img} alt='case' />
                     <div className="card-info">
                         <p>{caseStudies[currentIndex].smHeading}</p>
                         <h3>{caseStudies[currentIndex].heading}</h3>
                         {
                             caseStudies[currentIndex].bigCommerce.map((item,index)=>(
                                <div key={index} className="bigcommerceImg-card">
-                                <img src={item.bigImg1} alt="bigImg1"/>
-                                {/* <img src={item.bigImg2} alt="bigImg2"/> */}
-                                <img src={item.bigImg3} alt="bigImg3"/>
+                                <img loading="lazy" src={item.bigImg1} alt="bigImg1"/>
+                                {/* <img loading="lazy" src={item.bigImg2} alt="bigImg2"/> */}
+                                <img loading="lazy" src={item.bigImg3} alt="bigImg3"/>
                                </div>
                             ))
                         }
@@ -117,9 +117,9 @@ const CaseStudy = () => {
                 {
                             caseStudies[currentIndex].bigCommerce.map((item,index)=>(
                                <div key={index} className="bigcommerceImg-card bigcommerce-down-images">
-                                <img src={item.bigImg1} alt="bigImg1"/>
-                                {/* <img src={item.bigImg2} alt="bigImg2"/> */}
-                                <img src={item.bigImg3} alt="bigImg3"/>
+                                <img loading="lazy" src={item.bigImg1} alt="bigImg1"/>
+                                {/* <img loading="lazy" src={item.bigImg2} alt="bigImg2"/> */}
+                                <img loading="lazy" src={item.bigImg3} alt="bigImg3"/>
                                </div>
                             ))
                         }
