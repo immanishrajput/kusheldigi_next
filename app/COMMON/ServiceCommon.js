@@ -41,7 +41,7 @@ const ServiceCommon = () => {
                         <SplideSlide>
                             <div className="nat_box">
                                 <div className="nat_img">
-                                    <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724914748/nativeSer1.cbab4fca37286881546c_pbzjvd.png" alt="E-commerce Solutions" title='E-commerce Solutions' />
+                                    <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724914748/nativeSer1.cbab4fca37286881546c_pbzjvd.png" alt="E-commerce Solutions" title='E-commerce Solutions' />
                                 </div>
                                 <div className="nat_heading">
                                     <h3>E-commerce Solutions</h3>
@@ -53,7 +53,7 @@ const ServiceCommon = () => {
                         <SplideSlide>
                             <div className="nat_box">
                                 <div className="nat_img">
-                                    <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724914747/nativeSer2.a1a157ff9a3b4df1f1bf_gvgzqi.png" alt="UI/UX Design"  title='UI/UX Design'/>
+                                    <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724914747/nativeSer2.a1a157ff9a3b4df1f1bf_gvgzqi.png" alt="UI/UX Design"  title='UI/UX Design'/>
                                 </div>
                                 <div className="nat_heading">
                                     <h3>UI/UX Design</h3>
@@ -67,7 +67,7 @@ const ServiceCommon = () => {
                         <SplideSlide>
                             <div className="nat_box">
                                 <div className="nat_img">
-                                    <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724914747/nativeSer3.2a73bb3aa0bc26c1e106_tdtnil.png" alt="Mobile App Development" title='Mobile App Development' />
+                                    <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724914747/nativeSer3.2a73bb3aa0bc26c1e106_tdtnil.png" alt="Mobile App Development" title='Mobile App Development' />
                                 </div>
                                 <div className="nat_heading">
                                     <h3>Mobile App Development</h3>
@@ -80,7 +80,7 @@ const ServiceCommon = () => {
                         <SplideSlide>
                             <div className="nat_box">
                                 <div className="nat_img">
-                                    <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724914747/pjkn.ad23c6892c44ed733e6f_qyclmb.jpg" alt="Web Development" title='Web Development' />
+                                    <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724914747/pjkn.ad23c6892c44ed733e6f_qyclmb.jpg" alt="Web Development" title='Web Development' />
                                 </div>
                                 <div className="nat_heading">
                                     <h3>Web Development</h3>
@@ -92,7 +92,7 @@ const ServiceCommon = () => {
                         <SplideSlide>
                             <div className="nat_box">
                                 <div className="nat_img">
-                                    <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724914747/nativeSer5.18138177fb65e4a7f9ea_rdaczb.png" alt="Graphic Design" title='Graphic Design' />
+                                    <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724914747/nativeSer5.18138177fb65e4a7f9ea_rdaczb.png" alt="Graphic Design" title='Graphic Design' />
                                 </div>
                                 <div className="nat_heading">
                                     <h3>Graphic Design</h3>
@@ -104,7 +104,7 @@ const ServiceCommon = () => {
                         <SplideSlide>
                             <div className="nat_box">
                                 <div className="nat_img">
-                                    <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724914747/nativeSer6.2d4d3a21f476cb0f2c92_qawkke.png" alt="Digital Marketing" title='Digital Marketing' />
+                                    <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724914747/nativeSer6.2d4d3a21f476cb0f2c92_qawkke.png" alt="Digital Marketing" title='Digital Marketing' />
                                 </div>
                                 <div className="nat_heading">
                                     <h3>Digital Marketing</h3>
@@ -116,7 +116,7 @@ const ServiceCommon = () => {
                         {/* <SplideSlide>
                             <div className="nat_box">
                                 <div className="nat_img">
-                                    <img src={nativeSer7} alt="baty" />
+                                    <img loading="lazy" src={nativeSer7} alt="baty" />
                                 </div>
                                 <div className="nat_heading">
                                     <h3>AR/VR</h3>

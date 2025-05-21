@@ -13,8 +13,8 @@ function BigSection2() {
             </div>
 
   <div className="rigmimage">
- <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730202029/bgcircle2_agrfts.png" className="bgcircle2BIG" alt="kushel" />
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1725534481/Group_1171275829_sod336.png" className="bigcom2img" alt="kushel" />
+ <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730202029/bgcircle2_agrfts.png" className="bgcircle2BIG" alt="kushel" />
+            <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1725534481/Group_1171275829_sod336.png" className="bigcom2img" alt="kushel" />
   </div>
 
         </div>

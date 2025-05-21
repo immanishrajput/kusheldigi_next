@@ -294,7 +294,7 @@ const Navbar = () => {
             <header className="header main-header-new">
               <div className="first-header">
                 <a href="https://www.google.com/maps/place/Kushel+Digi+Solutions+%7C+E-commerce+Web+Development+%7C+Web+Design+%26+App+Development+Company/@28.6290218,77.3841087,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce49f5d8cdc4b:0xedb207949cd07d2b!8m2!3d28.6290218!4d77.3841087!16s%2Fg%2F11hbvx7ls2?entry=ttu&g_ep=EgoyMDI1MDIwOS4wIKXMDSoASAFQAw%3D%3D" target="blank">  <div className="noida">
-                  {/* <img width={20} height={20} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012585/location_vq9szh.png' alt="location" title="location" /> */}
+                  {/* <img loading="lazy" width={20} height={20} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012585/location_vq9szh.png' alt="location" title="location" /> */}
                   <svg width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M7.07143 9C7.55759 9 7.97377 8.82375 8.31998 8.47125C8.66618 8.11875 8.83929 7.695 8.83929 7.2C8.83929 6.705 8.66618 6.28125 8.31998 5.92875C7.97377 5.57625 7.55759 5.4 7.07143 5.4C6.58527 5.4 6.16909 5.57625 5.82288 5.92875C5.47667 6.28125 5.30357 6.705 5.30357 7.2C5.30357 7.695 5.47667 8.11875 5.82288 8.47125C6.16909 8.82375 6.58527 9 7.07143 9ZM7.07143 18C4.69955 15.945 2.92801 14.0363 1.75681 12.2738C0.585603 10.5113 0 8.88 0 7.38C0 5.13 0.710826 3.3375 2.13248 2.0025C3.55413 0.6675 5.20045 0 7.07143 0C8.94241 0 10.5887 0.6675 12.0104 2.0025C13.432 3.3375 14.1429 5.13 14.1429 7.38C14.1429 8.88 13.5573 10.5113 12.386 12.2738C11.2148 14.0363 9.4433 15.945 7.07143 18Z" fill="white" />
                   </svg>
@@ -307,7 +307,7 @@ const Navbar = () => {
 
                 <a href="mailto:info@kusheldigi.com">
                   <div className="email">
-                    {/* <img width={20} height={20} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012652/mail_fbbpjl.png' alt="mail" title="mail" /> */}
+                    {/* <img loading="lazy" width={20} height={20} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012652/mail_fbbpjl.png' alt="mail" title="mail" /> */}
                     <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M20.6279 4H6.62793C5.52493 4 4.62793 4.897 4.62793 6V11H6.62793V8L13.0279 12.8C13.2011 12.9297 13.4116 12.9998 13.6279 12.9998C13.8443 12.9998 14.0548 12.9297 14.2279 12.8L20.6279 8V17H12.6279V19H20.6279C21.7309 19 22.6279 18.103 22.6279 17V6C22.6279 4.897 21.7309 4 20.6279 4ZM13.6279 10.75L7.29393 6H19.9619L13.6279 10.75Z" fill="white" />
                       <path d="M2.62793 12H9.62793V14H2.62793V12ZM4.62793 15H10.6279V17H4.62793V15ZM7.62793 18H11.6279V20H7.62793V18Z" fill="white" />

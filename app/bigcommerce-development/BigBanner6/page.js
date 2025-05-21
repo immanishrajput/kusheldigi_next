@@ -116,7 +116,7 @@ const Cards = ({ services,contents }) => {
             {services?.map((item, index) => {
               return (
                 <div key={index} className={`${item.className} choose-us-slider-div`}>
-                  <img src={item.img} alt="Implementation Icon" />
+                  <img loading="lazy" src={item.img} alt="Implementation Icon" />
                   <h3>{item.title}</h3>
                   <p>{item.description}</p>
                 </div>

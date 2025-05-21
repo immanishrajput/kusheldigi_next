@@ -11,7 +11,7 @@ const Flex = ({page,img}) => {
   <div className="coon--2">
     <div className="ccon--2-div">
       <div>
-        <img src={img} alt="" className="audit-img" />
+        <img loading="lazy" src={img} alt="" className="audit-img" />
       </div>
       <div className="con--2-div-contentt">
 

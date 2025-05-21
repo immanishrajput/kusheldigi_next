@@ -72,19 +72,19 @@ const Ai2 = () => {
                     <div className="side-bg-trio">
                         <div className="first-kick-pads incheingh11">
                             <div className="left-section-kids">
-                                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738993896/hghh_r30or2.png' width="170"  alt="img"></img>
+                                <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738993896/hghh_r30or2.png' width="170"  alt="img"></img>
                                 <p className="shoots_premium mt_top">
                                 A & I Parts Center was founded over 40 years ago by Bill Blain. From a local parts supplier, the firm has evolved into being a household name in the market. Today, A & I Parts Center is spread across several other towns in Texas, namely Texline, Dalhart, Guymon, Stratford, Amarillo, and Dumas. The firm sells top-grade parts and value for money to different communities with great care and professional skills.
 
                                 </p>
                                 <h1 >Technologies Used</h1>
                                 <div className="main-box-logic flex">
-                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992050/tim1_fqlls7.svg' id="sim" alt="img"></img>
-                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992101/tim2_mg6etc.svg' id="rotat" alt="img"></img>
+                                    <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992050/tim1_fqlls7.svg' id="sim" alt="img"></img>
+                                    <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992101/tim2_mg6etc.svg' id="rotat" alt="img"></img>
                                 </div>
                             </div>
                             <div className="right-section-kids">
-                                <img className="ai_site fi_site111" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991975/ai_k36pnr.svg' alt="img"></img>
+                                <img loading="lazy" className="ai_site fi_site111" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991975/ai_k36pnr.svg' alt="img"></img>
                             </div>
                         </div>
                         {/* *********************************************** */}
@@ -92,7 +92,7 @@ const Ai2 = () => {
                             <div className="MadFish-back crazy-back">
                                 <div className="MadFish-back1">
                                     {/* <div className="MadFish_press_head">
-                <img src={madlogooooo} alt="madlogooooo" />              
+                <img loading="lazy" src={madlogooooo} alt="madlogooooo" />              
               </div> */}
                                     <div className="MadFish_press_para crazy_cms">
                                         <p>
@@ -105,7 +105,7 @@ const Ai2 = () => {
                                     </div>
                                 </div>
                                 <div className="MadFish-back2">
-                                    <img className="subh_img" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992205/markanda_p1f0xj.svg' alt="MadFish" />
+                                    <img loading="lazy" className="subh_img" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992205/markanda_p1f0xj.svg' alt="MadFish" />
                                 </div>
                             </div>
                         </div>
@@ -114,15 +114,15 @@ const Ai2 = () => {
                             <p className="service-hinking">Services Provided</p>
                             <div className="main-img-mighty">
                                 <div className="bepolo">
-                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991375/Group_1000004718_s2l8wf.png' id="ux-safari" alt="img"></img>
+                                    <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991375/Group_1000004718_s2l8wf.png' id="ux-safari" alt="img"></img>
                                     <p>UX/UI Website Design</p>
                                 </div>
                                 <div className="bepolo">
-                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991440/Group_1000004715_ap2ujz.png' id="web-safari" alt="img"></img>
+                                    <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991440/Group_1000004715_ap2ujz.png' id="web-safari" alt="img"></img>
                                     <p>Website Development</p>
                                 </div>
                                 <div className="bepolo">
-                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991619/Group_1000004716_ungahx.png' id="qa-safari" alt="img"></img>
+                                    <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991619/Group_1000004716_ungahx.png' id="qa-safari" alt="img"></img>
                                     <p>QA & Website Testing</p>
                                 </div>
                             </div>
@@ -135,8 +135,8 @@ const Ai2 = () => {
                     <div className="inner-third-local yomni">
                         <p>Wireframes</p>
                         <div className="three-section-lab tree_sery">
-                            <img className="yosuf" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992273/yosuf_zhetss.svg' alt="kushel" />
-                            <img className="yosuf1" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992370/yosuf1_vhw2ik.svg' alt="kushel" />
+                            <img loading="lazy" className="yosuf" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992273/yosuf_zhetss.svg' alt="kushel" />
+                            <img loading="lazy" className="yosuf1" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992370/yosuf1_vhw2ik.svg' alt="kushel" />
                         </div>
                     </div>
                 </div>
@@ -161,13 +161,13 @@ const Ai2 = () => {
                             </div>
                             <div className="sub-worm">
                                 <p className="tool">Tools Use</p>
-                                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991672/Group_1000006500_1_ooftdq.png' id="pals-circle" alt="img"></img>
+                                <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991672/Group_1000006500_1_ooftdq.png' id="pals-circle" alt="img"></img>
                             </div>
                         </div>
                     </div>
                     <div className="right-card-omega">
                         <p>Color Plate</p>
-                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992454/platai_qvrycg.svg' id="gang" alt="img" />
+                        <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992454/platai_qvrycg.svg' id="gang" alt="img" />
                     </div>
                 </div>{" "}
 
@@ -188,9 +188,9 @@ const Ai2 = () => {
                         </div>
                     </div>
                     <div className="step-images  flex items-start salaruu  justify-center mt-20">
-                        <img className="batleft heightcum addmarginautoples" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992536/tii1_x5yfau.svg' alt="stepback" />
-                        <img className="batleft addmarginautoples" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992643/tii2_uwbzqp.svg' alt="stepback1" />
-                        <img className="batleft addmarginautoples heightcum" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992734/tii3_lezawg.svg' alt="stepback1" />
+                        <img loading="lazy" className="batleft heightcum addmarginautoples" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992536/tii1_x5yfau.svg' alt="stepback" />
+                        <img loading="lazy" className="batleft addmarginautoples" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992643/tii2_uwbzqp.svg' alt="stepback1" />
+                        <img loading="lazy" className="batleft addmarginautoples heightcum" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992734/tii3_lezawg.svg' alt="stepback1" />
                     </div>
                 </div>
                 <div className="challenge-story">
@@ -277,7 +277,7 @@ const Ai2 = () => {
                     <div className="kick-first kick-first222">
 
                         <div className="kickds">
-                            <img className="kick_mart alisaaa" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738993836/gthj_au8qgi.png' alt="kick5" />
+                            <img loading="lazy" className="kick_mart alisaaa" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738993836/gthj_au8qgi.png' alt="kick5" />
                         </div>
                     </div>
                     <div className="kick-second kick-second222 relative">
@@ -310,15 +310,15 @@ const Ai2 = () => {
 
                                 <div className="azib-tech">
                                     <h3>Technologies Used</h3>
-                                    <img className="conjun" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991255/opqweeeeeee3_eg5uxy.png' alt="kushel" />
+                                    <img loading="lazy" className="conjun" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991255/opqweeeeeee3_eg5uxy.png' alt="kushel" />
                                 </div>
                             </div>
                         </div>
 
                         <div className="azib-images flex items-center justify-center">
-                            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738993134/inki1_brw3dr.svg' alt="azib" />
-                            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738993201/inki2_cnzhrn.svg' alt="azib" />
-                            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738993540/inki3_np8d8k.svg' alt="azib" />
+                            <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738993134/inki1_brw3dr.svg' alt="azib" />
+                            <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738993201/inki2_cnzhrn.svg' alt="azib" />
+                            <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738993540/inki3_np8d8k.svg' alt="azib" />
                         </div>
                     </div>
                 </div>
@@ -344,7 +344,7 @@ const Ai2 = () => {
                         <SplideSlide>
                             <div className="other-card">
                                 <div className="other-box">
-                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991093/rel1_ovaydf.png' alt="rel1" />
+                                    <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991093/rel1_ovaydf.png' alt="rel1" />
                                 </div>
                                 <div className="other-tox-para">
                                     <h3>RELY INNOVATION</h3>
@@ -362,7 +362,7 @@ const Ai2 = () => {
                         <SplideSlide>
                             <div className="other-card">
                                 <div className="other-box other-box1">
-                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991160/rel2_oi6z9l.png' alt="rel1" />
+                                    <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991160/rel2_oi6z9l.png' alt="rel1" />
                                 </div>
                                 <div className="other-tox-para">
                                     <h3>PRO TRUCKS</h3>
@@ -379,7 +379,7 @@ const Ai2 = () => {
                         <SplideSlide>
                             <div className="other-card">
                                 <div className="other-box other-box3">
-                                    <img className="rel3" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991207/rel3_kus4kk.png' alt="rel1" />
+                                    <img loading="lazy" className="rel3" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991207/rel3_kus4kk.png' alt="rel1" />
                                 </div>
                                 <div className="other-tox-para">
                                     <h3>SOLENOID NINJA</h3>
@@ -424,10 +424,10 @@ const Ai2 = () => {
                 {/*  buttons  */}
                 <div className="whtsApBtns">
                     <button onClick={whatAppHandler}>
-                        <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+                        <img loading="lazy" className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
                     </button>
                     <button onClick={callHandler}>
-                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991783/telephone_k9aecl.png' alt="call-icon" title="call-icon" />
+                        <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991783/telephone_k9aecl.png' alt="call-icon" title="call-icon" />
                     </button>
 
                 </div>

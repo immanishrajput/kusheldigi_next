@@ -352,7 +352,7 @@ function Ai() {
 
         <SplideSlide>
           <section className="case3secfour2">
-          <img className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png" alt="kushel" />
+          <img loading="lazy" className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png" alt="kushel" />
 
             <div className="cas3s4con" >
              
@@ -378,7 +378,7 @@ function Ai() {
 
         <SplideSlide>
           <section className="case3secfour2">
-          <img className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png" alt="kushel" />
+          <img loading="lazy" className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png" alt="kushel" />
 
             <div className="cas3s4con" id="imgPortfolio_Phone">
              
@@ -401,7 +401,7 @@ function Ai() {
           </section>
 
 {/* <section className="case3secfour2">
-          <img className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png" alt="kushel" />
+          <img loading="lazy" className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png" alt="kushel" />
 
             <div className="cas3s4con" id="imgPortfolio_Phone">
              
@@ -457,7 +457,7 @@ function Ai() {
 
             {/* Right Section with Animation */}
             <div className={`c2fibbotrigh ${animationDirection} `}>
-              <img src={selectdata?.img} className="selectdataimg" alt="kushel" />
+              <img loading="lazy" src={selectdata?.img} className="selectdataimg" alt="kushel" />
               <div className="serigh_macont">
                 <h4>
                   <span>0{selectS4 + 1}/</span> {selectdata?.title}
@@ -580,7 +580,7 @@ function Ai() {
           <div className="sc2_Sev_projects">
             {projects?.map((project, index) => (
               <div key={index} className="singlprojseve">
-                <img src={project?.img} alt="kushel" />
+                <img loading="lazy" src={project?.img} alt="kushel" />
 
                 <div className="seven_titls">
                   <p className="sep1">{project?.title1}</p>

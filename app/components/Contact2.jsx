@@ -56,10 +56,10 @@ useEffect(() => {
              {/* Buttons for WhatsApp and Call */}
              <div className="whtsApBtns">
               <button onClick={whatAppHandler}>
-                <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="WhatsApp" title="Chat on WhatsApp" />
+                <img loading="lazy" className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="WhatsApp" title="Chat on WhatsApp" />
               </button>
               <button onClick={callHandler}>
-                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991783/telephone_k9aecl.png' alt="Call Us" title="Call Us" />
+                <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991783/telephone_k9aecl.png' alt="Call Us" title="Call Us" />
               </button>
             </div>
       </div>

@@ -42,7 +42,7 @@ const FeatureSection = ({services,contents}) => {
 
                         {services?.map((feature, index) => (
                             <div key={index} className="left-big-feature-grid-item">
-                                <img src={feature.icon} alt="feature-icon" className='feature-section-left-icon'/>
+                                <img loading="lazy" src={feature.icon} alt="feature-icon" className='feature-section-left-icon'/>
                                 <h3 className='big-feature-card-title'>{feature.title}</h3>
                                 <p className='big-feature-card-desc'>{feature.desc}</p>
                             </div>
@@ -51,7 +51,7 @@ const FeatureSection = ({services,contents}) => {
                     </div>
                 </div>
                 <div className="right-big-feature-container">
-                    <img src={contents?.img} alt="feature-image" />
+                    <img loading="lazy" src={contents?.img} alt="feature-image" />
                 </div>
             </div>
         </div>

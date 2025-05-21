@@ -44,21 +44,21 @@ const WooCommerce = () => {
     });
   };
   const generateMetadata = ({ params }) => ({
-        title: 'Professional WooCommerce Development Company | Kushel Digi',
-        description: 'Transform your online business with Kushel Digi’s WooCommerce development, custom plugins, mobile app integration, and secure migration for scalable growth.',
-      });
-      
-    useEffect(() => {
-        const { title, description } = generateMetadata({ params: {} });
-        document.title = title;
-        let metaDescription = document.querySelector('meta[name="description"]');
-        metaDescription ? metaDescription.content = description : 
-          document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-      }, []);
+    title: 'Professional WooCommerce Development Company | Kushel Digi',
+    description: 'Transform your online business with Kushel Digi’s WooCommerce development, custom plugins, mobile app integration, and secure migration for scalable growth.',
+  });
+
+  useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description :
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
   return (
     <>
 
-<Head>
+      <Head>
         {/* Open Graph (OG) Meta Tags */}
         <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
         <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
@@ -73,9 +73,9 @@ const WooCommerce = () => {
         <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
         <meta name="twitter:url" content="https://www.kusheldigi.com/" />
       </Head>
-      
-    <Navbar/>
-     
+
+      <Navbar />
+
       <div className="ser-main">
         <div className="wooCommmm">
           <div className="magento-back-newest woocommmm">
@@ -84,18 +84,18 @@ const WooCommerce = () => {
                 Build Your WooCommerce<br /> Store Today
               </h1>
               <p>Are You Planning To Build Or Start An Online Store For Your ECommerce Business To Compete With A Cutting-Edge Competitor? WooCommerce Is A Well-Known Platform For Running An Online Store.</p>
-            <div className="wooooo">
-            <Link href="/contact-us" className="woo-btnn"> <button>
-                Lets get started
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 24L9.8625 21.9L18.2625 13.5H0V10.5H18.2625L9.8625 2.1L12 0L24 12L12 24Z" fill="white" /> </svg>
-              </button></Link>
+              <div className="wooooo">
+                <Link href="/contact-us" className="woo-btnn"> <button>
+                  Lets get started
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 24L9.8625 21.9L18.2625 13.5H0V10.5H18.2625L9.8625 2.1L12 0L24 12L12 24Z" fill="white" /> </svg>
+                </button></Link>
 
-            </div>
+              </div>
             </div>
             <div className="magento_back2 relative woo_com">
 
-              {/* <img src={migi} alt="WooCommerce development services" title="WooCommerce development services" /> */}
-              <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724839796/migi.5cf780ca3b346bee5fe8_wgiaae.png" alt="WooCommerce development services" title="WooCommerce development services" />
+              {/* <img loading="lazy" src={migi} alt="WooCommerce development services" title="WooCommerce development services" /> */}
+              <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724839796/migi.5cf780ca3b346bee5fe8_wgiaae.png" alt="WooCommerce development services" title="WooCommerce development services" />
             </div>
           </div>
         </div>
@@ -109,19 +109,19 @@ const WooCommerce = () => {
           </div>
           <div className="magento_service2">
             <div className="greenish greenishyu">
-              <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724839951/greenish.3d367cb81154565e3e3b_1_fexrzg.png
+              <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724839951/greenish.3d367cb81154565e3e3b_1_fexrzg.png
 " alt="greenish-design" title="greenish-design" />
             </div>
-            {/* <img className="admis" src={admis1} alt="Woocommerce development company" title="Woocommerce development company" /> */}
-            <img className="admis" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724839950/admis1.6a556efc6ffa65d231c9_mklcaj.png
+            {/* <img loading="lazy" className="admis" src={admis1} alt="Woocommerce development company" title="Woocommerce development company" /> */}
+            <img loading="lazy" className="admis" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724839950/admis1.6a556efc6ffa65d231c9_mklcaj.png
 " alt="Woocommerce development company" title="Woocommerce development company" />
           </div>
         </div>
 
         <div className="magento_services">
           <div className="magento_services1">
-            {/* <img src={magic} alt="WooCommerce Solution" title="WooCommerce Solution" /> */}
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724840019/magic.954837d30c2ccd79ecd6_u6wstp.png
+            {/* <img loading="lazy" src={magic} alt="WooCommerce Solution" title="WooCommerce Solution" /> */}
+            <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724840019/magic.954837d30c2ccd79ecd6_u6wstp.png
 " alt="WooCommerce Solution" title="WooCommerce Solution" />
           </div>
           <div className="magento_services2">
@@ -187,8 +187,7 @@ const WooCommerce = () => {
                   <p>
                     Tailor your e-commerce website to reflect your brand identity. Our experts will work closely with you to create a visually appealing and user-friendly online store that sets you apart from the competition.                </p>
                 </div>
-              </div>
-              <div className="who_com_card mt-6">
+
                 <div className="who_com_box">
                   <div className="who_left">
                     <h4>5</h4>
@@ -236,24 +235,24 @@ const WooCommerce = () => {
           </div>
         </div>
 
-        <div className="why_woo_cho">
-          <div className="who_cho_flex">
-            <div className="who_cho_left">
-              <div className="partion">
-                <h3>
-                  Why WooCommerce Development From A Kushel Digi?
-                </h3>
-                <p>
-                  Our Kushel digi team of expert programmers has extensive experience utilising WooCommerce to create unique, high-performing web stores. Our first goal is client pleasure. In order to meet each client's specific demands, we obtain their explicit specifications. Our proficiency with WooCommerce enables us to provide efficient and enjoyable e-commerce solutions that generate revenue and create strong client engagement. For taking your company to new heights, choose Kushel Digi's WooCommerce development services. This offers a reliable and effective option.
-                </p>
-                <Link href="/contact-us"><button>START PROJECT</button></Link>
-              </div>
-            </div>
-            <div className="who_cho_right">
-              {/* <img src={uist} alt="Why Choose WooCommerce Development" title="Why Choose WooCommerce Development" /> */}
-              <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724840162/uist.9dd8c573f269fd48858b_zstij9.png
-" alt="Why Choose WooCommerce Development" title="Why Choose WooCommerce Development" />
-            </div>
+        <div className="woo-section">
+          <div className="woo-left">
+            <h3>Why WooCommerce Development From A Kushel Digi?</h3>
+            <p>
+              Our Kushel Digi team of expert programmers has extensive experience utilising WooCommerce to create unique, high-performing web stores. Our first goal is client pleasure. In order to meet each client's specific demands, we obtain their explicit specifications.
+              <br /><br />
+              Our proficiency with WooCommerce enables us to provide efficient and enjoyable e-commerce solutions that generate revenue and create strong client engagement. For taking your company to new heights, choose Kushel Digi's WooCommerce development services. This offers a reliable and effective option.
+            </p>
+            <Link href="/contact-us">
+              <button className="woo-btn">START PROJECT</button>
+            </Link>
+          </div>
+          <div className="woo-right">
+            <img
+              src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724840162/uist.9dd8c573f269fd48858b_zstij9.png"
+              alt="WooCommerce Development"
+              title="WooCommerce Development"
+            />
           </div>
         </div>
 
@@ -272,7 +271,7 @@ const WooCommerce = () => {
                   alt="Gathering Project Specifications"
                   title="Gathering Project Specifications"
                 />
-                <h3>1. Gathering Project Specifications
+                <h3>Gathering Project Specifications
                 </h3>
                 <h5>
                   It entails the review of business goals, product specifications, design choices and requested functionality for ease of development.
@@ -283,8 +282,8 @@ const WooCommerce = () => {
                 onMouseEnter={() => setHovered2(true)}
                 onMouseLeave={() => setHovered2(false)}
               >
-                <img src={hovered2 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463494/uin1_fwvcqo.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463158/gatr_a6jgon.png'} className="startup" alt="UI/UX Design" title="UI/UX Design" />
-                <h3>2. UI/UX Design </h3>
+                <img loading="lazy" src={hovered2 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463494/uin1_fwvcqo.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463158/gatr_a6jgon.png'} className="startup" alt="UI/UX Design" title="UI/UX Design" />
+                <h3>UI/UX Design </h3>
                 <h5>
                   Our UI/UX designs aim at developing user interfaces which is simple to use and provide for an unique experience .
                 </h5>
@@ -294,12 +293,12 @@ const WooCommerce = () => {
                 onMouseEnter={() => setHovered3(true)}
                 onMouseLeave={() => setHovered3(false)}
               >
-                <img
+                <img loading="lazy"
                   src={hovered3 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463524/uin2_osw7rr.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463197/gatr1_rd9nvc.png'}
                   className="startup"
                   alt="Prototype" title="Prototype"
                 />
-                <h3>3. Prototype</h3>
+                <h3>Prototype</h3>
                 <h5>
                   WooCommerce’s prototype mimics the design, functionality, and user’s flow, allowing for a sneak preview of the online store before it is actualized.
                 </h5>
@@ -309,12 +308,12 @@ const WooCommerce = () => {
                 onMouseEnter={() => setHovered4(true)}
                 onMouseLeave={() => setHovered4(false)}
               >
-                <img
+                <img loading="lazy"
                   src={hovered4 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463549/uin3_rvvjm9.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463237/gatr2_h2fho5.png'}
                   className="startup"
                   alt="Progress" title="Progress"
                 />
-                <h3>4. Progress</h3>
+                <h3>Progress</h3>
                 <h5>
                   Our well versed staff use the modern technology to create your e-commerce site given the customers interests at heart and complete transparency.
                 </h5>
@@ -324,12 +323,12 @@ const WooCommerce = () => {
                 onMouseEnter={() => setHovered5(true)}
                 onMouseLeave={() => setHovered5(false)}
               >
-                <img
+                <img loading="lazy"
                   src={hovered5 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463573/uin4_l2hqvx.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463292/gatr3_gtfi0x.png'}
                   className="startup"
                   alt="Quality Control" title="Quality Control"
                 />
-                <h3>5.Quality Control</h3>
+                <h3>Quality Control</h3>
                 <h5>
                   WooCommerce quality control includes rigorous testing to validate functionality, performance, and integration thereby providing an easy and dependable e-commerce user interface.</h5>
               </div>
@@ -338,12 +337,12 @@ const WooCommerce = () => {
                 onMouseEnter={() => setHovered6(true)}
                 onMouseLeave={() => setHovered6(false)}
               >
-                <img
+                <img loading="lazy"
                   src={hovered6 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463599/uin5_xepwt2.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463348/gatr4_alq55r.png'}
                   className="startup"
                   alt="Implementation" title="Implementation"
                 />
-                <h3>6. Implementation</h3>
+                <h3>Implementation</h3>
                 <h5>
                   Developing WooCommerce requires setting up settings, installing plugins, adding products, and customising design to get a functional and visually attractive online store.
                 </h5>
@@ -353,12 +352,12 @@ const WooCommerce = () => {
                 onMouseEnter={() => setHovered7(true)}
                 onMouseLeave={() => setHovered7(false)}
               >
-                <img
+                <img loading="lazy"
                   src={hovered7 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463631/uin6_a7hkvt.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463379/gatr5_no9bqh.png'}
                   className="startup"
                   alt="Ongoing Assistance & Upkeep" title="Ongoing Assistance & Upkeep"
                 />
-                <h3>7.Ongoing Assistance & Upkeep</h3>
+                <h3>Ongoing Assistance & Upkeep</h3>
                 <h5>
                   Maintaining WooCommerce includes the continual updates, troubleshooting, and optimization for proper operation of the platform.
                 </h5>
@@ -374,8 +373,7 @@ const WooCommerce = () => {
               <h5>Solution for</h5>
               <h3>Enterprise</h3>
               <div>
-                {/* <img src={enterprise} alt="enterprise" title="Enterprise" /> */}
-                <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724840423/enterprise.1d1658deae918eb02c43_nhq7at.png
+                <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724840423/enterprise.1d1658deae918eb02c43_nhq7at.png
 " alt="enterprise" title="Enterprise" />
               </div>
               <div>
@@ -397,8 +395,7 @@ const WooCommerce = () => {
               <h5>Solution for</h5>
               <h3>Startup</h3>
               <div>
-                {/* <img src={startups1} alt="kusheldigi startups" title="Startup" /> */}
-                <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724840422/download_kuzsbz.png" alt="kusheldigi startups" title="Startup" />
+                <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724840422/download_kuzsbz.png" alt="kusheldigi startups" title="Startup" />
               </div>
               <div>
                 <hr className="mt-5" />
@@ -425,21 +422,21 @@ const WooCommerce = () => {
           </div>
         </div>
 
-        <Website/>
-        <WooCommereceFAQ/>
+        <Website />
+        <WooCommereceFAQ />
 
 
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740401400/whatsapp_qknuap.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img loading="lazy" className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740401400/whatsapp_qknuap.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740401442/telephone_rg2izx.png' alt="call-icon" title="call-icon" />
+            <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740401442/telephone_rg2izx.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };

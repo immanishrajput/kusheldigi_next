@@ -21,7 +21,7 @@ function BigHeader() {
           </div>
 
         {/* right side  */}
-         <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1725534480/Frame_1597881899_lyhypk.png" className='bigcomright' alt="kushel" />
+         <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1725534480/Frame_1597881899_lyhypk.png" className='bigcomright' alt="kushel" />
 
             
         </div>

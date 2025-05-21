@@ -70,7 +70,7 @@ function BigSection5() {
 
               {/* right side */}
               <div className="bg5rights">
-                <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1725534481/Group_1171275864_hstgpk.png" alt="kushel" />
+                <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1725534481/Group_1171275864_hstgpk.png" alt="kushel" />
 
               </div>
             </div>
@@ -113,7 +113,7 @@ function BigSection5() {
 
               {/* right side */}
               <div className="bg5rights">
-              <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1725534481/Group_1171275864_1_gyu5h7.png" alt="kushel" />
+              <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1725534481/Group_1171275864_1_gyu5h7.png" alt="kushel" />
               </div>
             </div>
           </SplideSlide>
