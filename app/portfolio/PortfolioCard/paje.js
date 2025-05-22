@@ -234,6 +234,48 @@ const portfolioData = [
   category: ["ecommerce"],
 },
 
+// {
+//   id: 'automotive-105',
+
+ 
+//   logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1746889440/Group_1171279371_nqoess.png',
+//   platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+//   description: [
+//       "UX/UI Website Design","Website Development","QA & Website Testing"
+// ],
+//   links: {
+//     liveStore: 'https://www.phastekperformance.com/',
+
+//     caseStudy: '/Ai',
+//     caseStudy: '/instacertified',
+//     platform: '/bigcommerce-development',
+//   },
+//   case:' View Case Study',
+//   case1:'BigCommerce',
+//   line:'|',
+//   category: ["ecommerce"],
+// },
+// {
+//   id: 'automotive-106',
+
+ 
+//   logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1746889440/Group_1171279371_nqoess.png',
+//   platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+//   description: [
+//       "UX/UI Website Design","Website Development","QA & Website Testing"
+// ],
+//   links: {
+//     liveStore: 'https://www.phastekperformance.com/',
+
+//     caseStudy: '/Ai',
+//     caseStudy: '/career-beacon',
+//     platform: '/bigcommerce-development',
+//   },
+//   case:' View Case Study',
+//   case1:'BigCommerce',
+//   line:'|',
+//   category: ["ecommerce"],
+// },
 
 {
   id: 'automotive-150',

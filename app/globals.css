@@ -4363,7 +4363,7 @@ body {
 
 .social-media-second-section img {
     max-width: 510px;
-    width: 100%;
+    width: 100% !important;
     width: 510px;
 }
 
@@ -4527,7 +4527,7 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 60px 100px 50px 100px
+    padding: 60px 25px 50px 25px
 }
 
 .process-section h3 {
@@ -4542,7 +4542,7 @@ body {
     font-size: 38px;
     font-style: normal;
     font-weight: 600;
-    padding-bottom: 10px
+    
 }
 
 .process-section p {
@@ -4555,6 +4555,7 @@ body {
 
 .process-under-section {
     display: flex;
+    gap: 15px;
     justify-content: space-between;
     padding: 0 60px 60px 100px
 }
@@ -4723,6 +4724,7 @@ body {
 
 .second-section-card {
     width: 315px;
+    width: 100%;
     min-height: 370px;
     background-color: #fff;
     border-radius: 8px
@@ -4774,14 +4776,16 @@ body {
 .choose-section {
     display: flex;
     justify-content: space-between;
-    padding: 60px 100px 60px 100px
+    gap: 50px;
+    padding: 65px;
 }
 
 .choose-first-section {
     width: 600px;
     display: flex;
     flex-direction: column;
-    justify-content: center
+    justify-content: center;
+    flex: 1;
 }
 
 .choose-first-section h3 {
@@ -4804,7 +4808,7 @@ body {
 }
 
 .choose-first-section p {
-    width: 550px;
+    
     font-size: 22px;
     padding-top: 15px;
     color: #202020;
@@ -4842,13 +4846,15 @@ body {
 }
 
 .upper-second-section-card .choose-second-section-card {
-    width: 280px;
+    /* width: 280px; */
     height: 210px;
+    width: 100%;
     border-radius: 30px;
     position: relative;
     background-color: #fff;
     display: flex;
     flex-direction: column;
+    flex: 1;
     text-align: center;
     justify-content: center;
     margin-top: 20px
@@ -4890,7 +4896,7 @@ body {
 }
 
 .benefit-section {
-    padding: 60px 100px 60px 100px
+    padding: 60px 70px 60px 70px;
 }
 
 .benefit-heading {
@@ -4909,8 +4915,9 @@ body {
 }
 
 .benefit-card {
-    width: 315px;
-    height: 600px;
+    /* width: 315px; */
+    /* height: 600px; */
+    min-height: 630px;
     margin-top: 25px;
     background-color: #fff;
     box-shadow: 0 4px 5px 0 rgb(0 0 0 / .1)
@@ -4932,23 +4939,71 @@ body {
 
 .benefit-card .card-text p {
     font-size: 18px;
+    padding: 10px 0px 10px 0px;
     line-height: 24px;
     color: #33475B
 }
 
-.benefit-main-card {
+/* .benefit-main-card {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap
+} */
+
+
+.benefit-main-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px; 
+}
+@media(max-width:1495px){
+    .benefit-main-card {
+        display: grid;  grid-template-columns: repeat(3, 1fr); 
+        gap: 20px;
+    }
 }
 
+@media(max-width:1124px){
+    .benefit-main-card {
+        display: grid;  grid-template-columns: repeat(2, 1fr); 
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
+@media(max-width:685px){
+    .benefit-main-card {
+        display: grid;  grid-template-columns: repeat(1, 1fr); 
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
 .second-section-card {
 
+  
     width: 350px;
     height: 100%;
     min-height: 300px;
     margin-top: 15px;
 
+}
+@media(max-width:400px){
+    .second-section-card {
+
+        width: 100% !important;
+      
+    
+    }
+}
+
+@media(max-width:1260px){
+    .choose-section {
+      
+        flex-direction: column;
+        align-items: center;
+        justify-content: center
+    }
 }
 
 @media screen and (max-width:1024px) {
@@ -4999,7 +5054,8 @@ body {
     .strategy-section {
         display: flex;
         justify-content: space-between;
-        padding: 50px 50px 60px 50px
+        padding: 50px 20px 60px 20px;
+        gap: 10px;
     }
 
     .strategy-first-section {
@@ -5041,12 +5097,7 @@ body {
         font-size: 18px
     }
 
-    .choose-section {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center
-    }
+ 
 
     .choose-first-section h1 {
         font-size: 34px
@@ -5181,10 +5232,12 @@ body {
         padding: 30px 30px 50px 30px
     }
 
-    .benefit-main-card {
-        display: flex;
-        justify-content: space-around
-    }
+    /* .benefit-main-card {
+   
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+    } */
 
     .benefit-heading h1 {
         font-size: 34px
@@ -5262,6 +5315,27 @@ body {
     }
 }
 
+@media(max-width:480px){
+    .strategy-first-section h3 {
+        text-align: center !important;
+    }
+    .strategy-first-section p{
+        text-align: center !important;
+    }
+    .strategy-first-section h4 {
+        text-align: center !important;
+    }
+    .process-section h4{
+        text-align: center !important;
+       
+    }
+    .benefit-heading h3 {
+        text-align: center;
+    }
+    .benefit-heading p{
+        text-align: center;
+    }
+}
 @media screen and (max-width:650px) {
     .social-media {
         display: flex;
@@ -5348,7 +5422,7 @@ body {
     }
 
     .process-section {
-        padding: 60px 40px 50px 40px
+        padding: 60px 20px 50px 20px;
     }
 
     .services-section {
@@ -5356,7 +5430,7 @@ body {
         flex-direction: column;
         text-align: center;
         justify-content: center;
-        padding: 60px 40px 50px 40px
+        padding: 30px 10px 30px 10px
     }
 
     .process-icon-section {

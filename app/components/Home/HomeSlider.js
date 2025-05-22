@@ -217,7 +217,7 @@ const Slider = () => {
           <SwiperSlide>
             <div className="carousel-item">
               <div className="left-carousel-item">
-                <Image width={603} height={457} loading="lazy" src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743403116/page-3_1_uo0pue.jpg"} alt="carousel-image" />
+                <Image width={603} height={457} loading="lazy" src={"https://res.cloudinary.com/dal5dlztv/image/upload/v1747926394/sight_scope1_-_Copy_nhnxli.png"} alt="carousel-image" />
                 <div className="left-carousel-btn-div">
                   <div className="left-carousel-btn ">B2B</div>
                   <div className="left-carousel-btn blue-bg">Gunshop</div>
@@ -260,7 +260,7 @@ const Slider = () => {
           <SwiperSlide>
             <div className="carousel-item">
               <div className="left-carousel-item">
-                <Image width={603} height={457} loading="lazy" src={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1743092899/page-5_1_oy4q9y.jpg"} alt="carousel-image" />
+                <Image width={603} height={457} loading="lazy" src={"https://res.cloudinary.com/dal5dlztv/image/upload/v1747928395/top_brass1_ppgzar.png"} alt="carousel-image" />
                 <div className="left-carousel-btn-div">
                   <div className="left-carousel-btn ">B2B</div>
                   <div className="left-carousel-btn blue-bg">E-commerce</div>
