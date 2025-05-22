@@ -36,22 +36,22 @@ const Smm = () => {
     });
   };
 
-const generateMetadata = ({ params }) => ({
-            title: 'KushelDigi Solutions- the Best SMM Service company',
-            description: 'Unlock the power of social media with KushelDigi Solutions, your trusted partner for the best SMM services. Boost your brand today!',
-          });
-          
-        useEffect(() => {
-            const { title, description } = generateMetadata({ params: {} });
-            document.title = title;
-            let metaDescription = document.querySelector('meta[name="description"]');
-            metaDescription ? metaDescription.content = description : 
-              document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-          }, []);
+  const generateMetadata = ({ params }) => ({
+    title: 'KushelDigi Solutions- the Best SMM Service company',
+    description: 'Unlock the power of social media with KushelDigi Solutions, your trusted partner for the best SMM services. Boost your brand today!',
+  });
+
+  useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description :
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
   return (
     <>
 
-<Head>
+      <Head>
         {/* Open Graph (OG) Meta Tags */}
         <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
         <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
@@ -66,9 +66,9 @@ const generateMetadata = ({ params }) => ({
         <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
         <meta name="twitter:url" content="https://www.kusheldigi.com/" />
       </Head>
-      
-    <Navbar/>
-      
+
+      <Navbar />
+
       <div className="ser-main">
         <div className="main-section">
           <div className="social-media">
@@ -306,8 +306,7 @@ const generateMetadata = ({ params }) => ({
                     </p>
                   </div>
                 </div>
-              </div>
-              <div className="second-section">
+
                 <div className="second-section-card">
                   <div className="card-content">
                     <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468118/services_icon-4_na3ftc.svg' alt="Reputation Management" title="Reputation Management" />
@@ -482,7 +481,7 @@ const generateMetadata = ({ params }) => ({
 
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };

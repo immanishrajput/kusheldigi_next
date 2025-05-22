@@ -5267,7 +5267,8 @@ body {
         display: flex;
         justify-content: center;
         text-align: center;
-        flex-wrap: wrap
+        flex-wrap: wrap;
+        padding: 40px;
     }
 
     .social-media-first-section p {
@@ -38293,7 +38294,7 @@ video {
 
 .kickta_big {
     background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v1741007801/ticketi_rqmxkw.png");
-    height: 600px;
+    height: 520px;
     width: 100%;
     background-color: transparent !important;
     position: relative;
@@ -38312,8 +38313,8 @@ video {
 
 .kickta_big11 {
     background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v1741007945/trimpi_kzg6ar.png");
-    height: 600px;
-    width: 100%;
+    height: 520px;
+    background-position: center;
     background-color: transparent !important;
     position: relative;
     display: block
@@ -38330,7 +38331,8 @@ video {
 
 .kickta_big111 {
     background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v1741007987/trickti_tjywbb.png");
-    height: 600px;
+    height: 520px;
+    background-position: center;
     background-color: transparent !important;
     position: relative;
     display: block
@@ -38354,7 +38356,8 @@ video {
 
 .kickta_big1111 {
     background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v1741008009/prety_n19e5z.png");
-    height: 600px;
+    height: 520px;
+    background-position: center;
     background-color: transparent !important;
     position: relative;
     display: block
@@ -38413,7 +38416,8 @@ video {
 
 .kickta_bigs {
     background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v1741008042/pisityu_ryrvyx.png");
-    height: 600px;
+    height: 520px;
+    background-position: center;
     background-color: transparent !important;
     position: relative;
     display: block
@@ -38430,7 +38434,8 @@ video {
 
 .kickta_bigs1 {
     background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v1741008092/skinut_y7b9ou.png");
-    height: 600px;
+    height: 520px;
+    background-position: center;
     background-color: transparent !important;
     position: relative;
     display: block
@@ -38451,7 +38456,8 @@ video {
 
 .kickta_bigs2 {
     background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v1741008154/tilli_jk3we9.png");
-    height: 600px;
+    height: 520px;
+    background-position: center;
     background-color: transparent !important;
     position: relative;
     display: block
@@ -38472,7 +38478,8 @@ video {
 
 .kickta_bigs3 {
     background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v1741008193/ptits1_kzvpgv.png");
-    height: 600px;
+    height: 520px;
+    background-position: center;
     background-color: transparent !important;
     position: relative;
     display: block
@@ -38489,7 +38496,8 @@ video {
 
 .kickta_mag {
     background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v1741008229/mjk_m0fmmm.png");
-    height: 600px;
+    height: 520px;
+    background-position: center;
     background-color: transparent !important;
     position: relative;
     display: block
@@ -38511,7 +38519,8 @@ video {
 
 .kickta_mag1 {
     background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v1741008279/tryingh_q8hvdt.png");
-    height: 600px;
+    height: 520px;
+    background-position: center;
     background-color: transparent !important;
     position: relative;
     display: block
@@ -38528,7 +38537,8 @@ video {
 
 .kickta_mag2 {
     background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v1741008319/lonka_tyc2c7.png");
-    height: 600px;
+    height: 520px;
+    background-position: center;
     background-color: transparent !important;
     position: relative;
     display: block
@@ -38545,7 +38555,8 @@ video {
 
 .kickta_php {
     background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v1741008360/phiu1_f7ueux.png");
-    height: 600px;
+    height: 520px;
+    background-position: center;
     background-color: transparent !important;
     position: relative;
     display: block
@@ -38567,7 +38578,8 @@ video {
 
 .kickta_php1 {
     background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v1741008403/phiu2_qeqqpg.png");
-    height: 600px;
+    height: 520px;
+    background-position: center;
     background-color: transparent !important;
     position: relative;
     display: block
@@ -38589,7 +38601,8 @@ video {
 
 .kickta_php2 {
     background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v1741008431/phiu3_s2dtou.png");
-    height: 600px;
+    height: 520px;
+    background-position: center;
     background-color: transparent !important;
     position: relative;
     display: block
@@ -38611,7 +38624,8 @@ video {
 
 .kickta_html {
     background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v1741008458/auxit1_swfcxj.png");
-    height: 600px;
+    height: 520px;
+    background-position: center;
     background-color: transparent !important;
     position: relative;
     display: block
@@ -38628,7 +38642,8 @@ video {
 
 .kickta_htmls {
     background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v1741008470/doliwala_mubtxn.png");
-    height: 600px;
+    height: 520px;
+    background-position: center;
     background-color: transparent !important;
     position: relative;
     display: block
@@ -38651,7 +38666,8 @@ video {
 
 .kickta_htmlsl {
     background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v1741008707/mpma_uf356n.png");
-    height: 600px;
+    height: 520px;
+    background-position: center;
     background-color: transparent !important;
     position: relative;
     display: block
@@ -44649,7 +44665,8 @@ video {
 }
 
 #add .icon {
-    width: 11px
+    width: 18px;
+    height: 18px;
 }
 
 #add .content-2 {
@@ -45264,7 +45281,6 @@ video {
 }
 
 .one_stet_sect h3 {
-    width: 647px;
     color: #fff;
     font-weight: 700;
     font-size: 25px;
@@ -45296,7 +45312,7 @@ video {
     width: 100%;
     align-items: center;
     background-color: #0B56E4;
-    border: none;
+    border: none !important;
     border-radius: 28px;
     color: #fff;
     display: flex;
@@ -45306,7 +45322,7 @@ video {
     gap: 5px;
     justify-content: center;
     line-height: 24px;
-    padding: 18px;
+    padding: 12px 24px;
     text-align: center;
     margin-top: 10px
 }
@@ -53009,32 +53025,46 @@ option {
 }
 
 .wordPressji_cards {
-    margin-top: 50px
-}
-
-.wordPressji_card {
-    display: flex;
-    align-items: center;
-    justify-content: center
+    margin-top: 10px;
 }
 
 .word_parat {
     margin-top: 15px
 }
 
+.wordPressji_card {
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 600px) {
+    .wordPressji_card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .wordPressji_card {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 .wordPressji_box {
     border-radius: 20px;
     border: 1px solid #000;
-    width: 355px;
-    height: 310px;
-    margin-left: 30px;
-    margin-top: 25px;
+    height: auto;
     padding: 15px;
+    display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    display: flex
+    background-color: #fff;
+    box-sizing: border-box;
 }
+
 
 .wordPressji_box p {
     color: #33475B;
@@ -53048,12 +53078,12 @@ option {
 .wordPressji_box h3 {
     color: #33475B;
     text-align: center;
-    font-size: 21px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 700;
     line-height: 38.8px;
     margin-bottom: 11px;
-    padding-top: 30px
+    padding-top: 10px
 }
 
 .word_benefits .head {
@@ -53076,7 +53106,8 @@ option {
     background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v1724849619/Section_eeqvcp.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    margin-top: 40px
+    margin-top: 40px;
+    padding:25px 90px;
 }
 
 .wordblue {
@@ -53085,7 +53116,6 @@ option {
 
 .wordnew {
     width: 60%;
-    margin-left: 100px
 }
 
 .addflex {
@@ -53095,7 +53125,18 @@ option {
 }
 
 .word_benefits_main_section {
-    padding: 10px 30px 30px 30px
+    padding: 0;
+}
+
+
+
+.word_benefits_box h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.word_benefits_box-2 h3{
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .word_benefits_section {
@@ -53105,11 +53146,14 @@ option {
 }
 
 .word_benefits_box {
-    width: 100%
+    width: 100%;
+    padding: 20px 0;
 }
 
 .word_benefits_box-2 {
-    width: 100%
+    width: 100%;
+    padding: 20px 0;
+
 }
 
 .word_benefits_box h2 {
@@ -53160,33 +53204,50 @@ option {
 }
 
 .wordpress_cater_cards {
-    margin-top: 40px
+    margin-top: 10px
 }
 
 .wordpress_cater_card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 15px
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 15px;
+  padding: 20px;
+  grid-template-columns: 1fr;
+}
+ 
+@media (min-width: 600px) {
+  .wordpress_cater_card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+ 
+@media (min-width: 1024px) {
+  .wordpress_cater_card {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .wordpress_cater_box {
-    border-radius: 10px;
-    border: 1px solid #000;
-    width: 400px;
-    padding: 25px 0 26px 0;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-right: 15px;
-    display: flex;
-    cursor: pointer
+  border-radius: 10px;
+  border: 1px solid #000;
+  padding: 25px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #fff;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-wordpress_cater_box p {
+
+.wordpress_cater_box p {
     font-size: 25px;
     line-height: 35px;
-    font-weight: 500
+    font-weight: 500;
+    text-align: center;
 }
 
 .wordpress_cater_box:hover {
@@ -53237,26 +53298,42 @@ wordpress_cater_box p {
 }
 
 .wordpress_agency_cards {
-    margin-top: 40px
+    margin-top: 10px
 }
 
 .wordpress_agency_card {
-    display: flex;
-    justify-content: center;
-    margin-top: 15px
+  display: grid;
+  gap: 26px;
+  justify-content: center;
+  margin-top: 15px;
+  padding: 20px;
+  grid-template-columns: 1fr;
+}
+ 
+@media (min-width: 600px) {
+  .wordpress_agency_card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+ 
+@media (min-width: 1024px) {
+  .wordpress_agency_card {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .wordpress_agency_box {
-    border-radius: 48px 8px;
-    border: 1px solid #E2E2E2;
-    background: #fff0;
-    width: 404px;
-    height: 250px;
-    padding: 31px 21px 47px 21px;
-    flex-direction: column;
-    margin-right: 26px;
-    display: flex
+  border-radius: 48px 8px;
+  border: 1px solid #E2E2E2;
+  background: #fff0;
+  padding: 31px 21px 47px 21px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
 }
+
 
 .wordpress_agency_box h3 {
     color: #33475B;
@@ -55506,10 +55583,6 @@ wordpress_cater_box p {
         padding: 0 64px !important
     }
 
-    .wordpress_agency_box {
-        height: 300px
-    }
-
     .shoots_premium {
         margin-right: 12px
     }
@@ -57072,10 +57145,6 @@ wordpress_cater_box p {
 }
 
 @media screen and (max-width:1100px) {
-    .wordpress_agency_box {
-        height: 350px
-    }
-
     .ecommerce-text h2 {
         text-align: center;
         width: 100%
@@ -59279,8 +59348,6 @@ wordpress_cater_box p {
         align-items: center
     }
 
-    .navbar {}
-
     .leftreview,
     .rightreview {
         width: 100%
@@ -59302,6 +59369,10 @@ wordpress_cater_box p {
 
     .strategy-first-section p {
         text-align: start
+    }
+
+    .wordpress_agency_box h3,  .wordpress_agency_box p{
+        text-align: center;
     }
 
     #hemesh-ppc .Button {
@@ -60670,8 +60741,8 @@ wordpress_cater_box p {
     }
 
     .wordpress_serv h3 {
-        font-size: 30px;
-        line-height: 38px
+        font-size: 22px;
+        line-height: 30px
     }
 
     .word_benefits {
@@ -60751,11 +60822,14 @@ wordpress_cater_box p {
 
     .wordpress_about_left h2 {
         font-size: 30px;
-        line-height: 38px
+        line-height: 38px;
+        text-align: center;
     }
 
     .wordpress-paras p {
-        font-size: 16px
+        font-size: 16px;
+        text-align: center;
+
     }
 
     .solution_test_card {
@@ -65348,13 +65422,10 @@ wordpress_cater_box p {
 
     .wordpress_cater_box {
         width: 100% !important;
-        margin: 12px 0px !important
     }
 
     .wordpress_agency_box {
         width: 100% !important;
-        margin-right: 0px !important;
-        margin: 12px 0px !important
     }
 
     .tr7 {
@@ -71050,7 +71121,7 @@ wordpress_cater_box p {
     }
 
     .wordpress_agency {
-        padding: 60px 20px !important
+        padding: 40px 20px !important
     }
 
     .wordpress_agency .h33 {
@@ -75134,7 +75205,7 @@ input::-webkit-inner-spin-button {
 
 .blogClockTime1 {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     gap: 52%;
     align-items: center;
 }
@@ -75346,7 +75417,7 @@ input::-webkit-inner-spin-button {
     }
 
     .bimageloDi {
-        max-width: 90%;
+        max-width: 100%;
     }
 
     .bimageloDiPara {
@@ -75688,7 +75759,7 @@ input::-webkit-inner-spin-button {
     }
 
     .news-grid {
-        grid-template-columns: repeat(3, 1fr) !important;
+        grid-template-columns: repeat(2, 1fr) !important;
     }
 
     .news-item {
@@ -75696,7 +75767,7 @@ input::-webkit-inner-spin-button {
     }
 
     .news-image {
-        width: 160px;
+        width: 100%;
         height: auto;
     }
 
@@ -75713,7 +75784,7 @@ input::-webkit-inner-spin-button {
     }
 
     .latest-container {
-       
+
         padding: 5px 20px !important;
     }
 
@@ -75726,7 +75797,7 @@ input::-webkit-inner-spin-button {
     }
 
     .news-image {
-        width: 140px;
+        width: 100%;
         height: auto;
     }
 
@@ -75739,6 +75810,7 @@ input::-webkit-inner-spin-button {
     .newsroom-section {
         padding: 20px;
     }
+
     .news-grid {
         grid-template-columns: repeat(1, 1fr) !important;
     }
@@ -75985,12 +76057,10 @@ input::-webkit-inner-spin-button {
 }
 
 .cardsectFiveMain {
-    /* padding: 30px 60px 0px; */
+    padding: 30px 60px 0px;
     max-width: 1720px;
     margin: auto;
 }
-
-.cardsectFive {}
 
 .cardsectFive p {
     line-height: 100px;
@@ -77051,11 +77121,6 @@ input::-webkit-inner-spin-button {
 
 .cardBlogSt {
     padding-top: 30px;
-}
-
-.cardBlogStImg img {
-    width: 438px;
-    height: 220px;
 }
 
 .cardBlogStpaa {
