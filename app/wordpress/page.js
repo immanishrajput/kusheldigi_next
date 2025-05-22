@@ -115,7 +115,7 @@ const WordPress = () => {
                                 the way we feel and decisions we make.</p>
                         </div>
                         <Link href="/contact-us">
-                            <button>book a free consultation</button> </Link>
+                            <button>Book a Free Consultation</button> </Link>
                     </div>
                     <div className="wordpress_about_right">
                         {/* <img src={wordtuI} alt="Why use wordpress website" title='Why use wordpress website' /> */}
@@ -124,8 +124,8 @@ const WordPress = () => {
                     </div>
                 </div>
 
-                <div className="wordpress_serv dine-1234">
-                    <h3> WHAT IS THE SIGNIFICANCE OF WEB DEVELOPMENT AT  <span>KUSHELDIGI?</span></h3>
+                <div className="wordpress_serv">
+                    <h3> WHAT IS THE SIGNIFICANCE OF WEB DEVELOPMENT AT <span>KUSHELDIGI?</span></h3>
                     <div className="word_parat">
                         <p>WordPress is the world’s most- used Website builder and powers website for Some of the biggest brands in the world. It is the best way to build a website, In a modular ecosystem. The most
                             Significant advantage of WordPress is It’s unmatched potential for scalability, This means as businesses advance Or expands,there will be a powerful Platform,that can meet the requirements For growth.</p>
@@ -156,10 +156,6 @@ const WordPress = () => {
                                 <p>With the help of WordPress immense Scalability, one can turn all kinds of Projects into reality.</p>
                             </div>
 
-                        </div>
-
-
-                        <div className="wordPressji_card">
                             <div className="wordPressji_box">
                                 <svg width="58" height="45" viewBox="0 0 58 45" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M29 0C45.0104 0 58 12.9576 58 28.9286C58 34.2522 56.4896 39.2746 53.9722 43.4933C53.4688 44.4978 52.3611 45 51.2535 45H6.64583C5.53819 45 4.43056 44.4978 3.92708 43.4933C1.40972 39.2746 0 34.2522 0 28.9286C0 12.9576 12.8889 0 29 0ZM29 6.42857C27.1875 6.42857 25.7778 7.93527 25.7778 9.64286C25.7778 11.4509 27.1875 12.8571 29 12.8571C29.6042 12.8571 30.2083 12.6563 30.7118 12.2545L31.6181 9.54241C31.7188 9.24107 31.9201 9.04018 32.0208 8.83929C31.6181 7.53348 30.4097 6.42857 29 6.42857ZM9.66667 35.3571C11.3785 35.3571 12.8889 33.9509 12.8889 32.1429C12.8889 30.4353 11.3785 28.9286 9.66667 28.9286C7.85417 28.9286 6.44444 30.4353 6.44444 32.1429C6.44444 33.9509 7.85417 35.3571 9.66667 35.3571ZM14.5 19.2857C16.2118 19.2857 17.7222 17.8795 17.7222 16.0714C17.7222 14.3638 16.2118 12.8571 14.5 12.8571C12.6875 12.8571 11.2778 14.3638 11.2778 16.0714C11.2778 17.8795 12.6875 19.2857 14.5 19.2857ZM39.2708 12.0536C39.6736 10.8482 39.0694 9.44196 37.7604 9.04018C36.4514 8.53795 35.1424 9.24107 34.7396 10.5469L28.4965 29.029C25.1736 29.2299 22.5556 32.0424 22.5556 35.3571C22.5556 36.5625 22.8576 37.6674 23.3611 38.5714H34.5382C35.0417 37.6674 35.4444 36.5625 35.4444 35.3571C35.4444 33.4487 34.5382 31.7411 33.1285 30.5357L39.2708 12.0536ZM40.7813 17.779C41.3854 18.683 42.2917 19.2857 43.5 19.3862C45.2118 19.3862 46.7222 17.8795 46.7222 16.1719C46.7222 14.3638 45.2118 12.9576 43.5 12.9576C43.0972 12.9576 42.6944 12.9576 42.2917 13.1585L40.7813 17.779ZM48.3333 35.3571C50.0451 35.3571 51.5556 33.9509 51.5556 32.1429C51.5556 30.4353 50.0451 28.9286 48.3333 28.9286C46.5208 28.9286 45.1111 30.4353 45.1111 32.1429C45.1111 33.9509 46.5208 35.3571 48.3333 35.3571Z" fill="#0E52FC" />
@@ -182,8 +178,7 @@ const WordPress = () => {
                                 <h3>Accessibility</h3>
                                 <p>Developers take high pride in accessibility, which means that they build a website that can be effortlessly used as well as enjoyed, But it can be free for everyone. </p>
                             </div>
-                        </div>
-                        <div className="wordPressji_card">
+
                             <div className="wordPressji_box">
                                 <svg width="36" height="58" viewBox="0 0 36 58" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M30.6 0C33.525 0 36 2.49219 36 5.4375V52.5625C36 55.6211 33.525 58 30.6 58H5.4C2.3625 58 0 55.6211 0 52.5625V5.4375C0 2.49219 2.3625 0 5.4 0H30.6ZM18 54.375C19.9125 54.375 21.6 52.7891 21.6 50.75C21.6 48.8242 19.9125 47.125 18 47.125C15.975 47.125 14.4 48.8242 14.4 50.75C14.4 52.7891 15.975 54.375 18 54.375ZM30.6 42.1406V6.79687C30.6 6.11719 29.925 5.4375 29.25 5.4375H6.75C5.9625 5.4375 5.4 6.11719 5.4 6.79687V42.1406C5.4 42.9336 5.9625 43.5 6.75 43.5H29.25C29.925 43.5 30.6 42.9336 30.6 42.1406Z" fill="#0E52FC" />
@@ -214,7 +209,7 @@ const WordPress = () => {
 
 
                 <div className='word_benefits'>
-                    <div className='wordnew dine-1234 addflex'>
+                    <div className='wordnew addflex'>
                         <h3 className='head'>Benefits of <span className='wordblue'>WordPress</span> Development Services</h3>
                         <p className='pra'>Best WordPress Developers that astonish our clients with refinement and superiority</p>
                         <div className='word_benefits_main_section'>
@@ -310,8 +305,7 @@ const WordPress = () => {
                                 <img className="npp3_img" src={hovered3 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464035/dilll3_pbwdix.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463810/npp3_aaugnx.avif'} alt="E-COMMERCE AND RETAIL" title='E-COMMERCE AND RETAIL' />
                                 <p>E-COMMERCE AND RETAIL</p>
                             </div>
-                        </div>
-                        <div className='wordpress_cater_card'>
+
                             <div className='wordpress_cater_box'
                                 onMouseEnter={() => setHovered4(true)}
                                 onMouseLeave={() => setHovered4(false)}
@@ -343,8 +337,7 @@ const WordPress = () => {
                                 <p>BANKING AND FINANCE</p>
 
                             </div>
-                        </div>
-                        <div className='wordpress_cater_card'>
+
                             <div className='wordpress_cater_box'
                                 onMouseEnter={() => setHovered7(true)}
                                 onMouseLeave={() => setHovered7(false)}
@@ -468,8 +461,7 @@ const WordPress = () => {
                                 </p>
 
                             </div>
-                        </div>
-                        <div className="wordpress_agency_card">
+
                             <div className="wordpress_agency_box wordpress_agency_box1">
                                 <h3>WordPress Support and Maintenance</h3>
                                 <p>As a dependable WordPress
@@ -503,7 +495,7 @@ const WordPress = () => {
 
                 <div className="one_stet">
                     <div className="one_stet_sect">
-                        <h3>you just one step away from making the right decision. Let’s get started, shall we?</h3>
+                        <h3>You just one step away from making the right decision. <br /> Let’s get started, shall we?</h3>
                         <Link href="/contact-us">  <button>Get Started</button> </Link>
                     </div>
                 </div>
