@@ -5,8 +5,8 @@ import { TiTick } from "react-icons/ti";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
 import '../globals.css'
+import './career.css'
 import Navbar from "../COMMON/Navbar";
-
 import Footer from "../COMMON/Footer";
 import Head from 'next/head';
 
@@ -169,7 +169,7 @@ function Page() {
             <div className="case1fifirco">
               {/* left  */}
               <div className="ca1firleft">
-                <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784821/Group_1171279311_lf5dmj.png" alt="kushel" />
+                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748016554/Group_1171279433_zut9do.png" alt="kushel" />
                 <p> Career Beacon </p>
               </div>
 
@@ -276,7 +276,7 @@ src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747945462/Group_1171279
          
             <p className="s3theeparas">For the ecommerce development and building a storefront, BigCommerce turned out as the perfect choice. </p>
           </div>
-          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747932054/Group_1171279388_wj3xtg.png" alt="kushel" className="c3antoimg" /> 
+          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748012484/Group_1171279428_iijnzz.png" alt="kushel" className="c3antoimg" /> 
 
         </div>
       </section>
@@ -307,7 +307,7 @@ src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747945462/Group_1171279
         
    </div>
 
-            <div className="cas3circldata" id="cas3circldata1">
+            <div className="cas3circldata" id="cas3circldata13">
               <h4>SEO Optimized Pages
               </h4>
               <p>While creating a fresh layout of the site, we ensured that the pages are fully SEO optimized and aligned with the Google Core Web Vitals requirements.
@@ -332,7 +332,7 @@ src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747945462/Group_1171279
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
    </div>
 
-            <div className="cas3circldata" id="cas3circldata1">
+            <div className="cas3circldata" id="cas3circldata13">
               <h4>Site Migration</h4>
               <p>We shifted the site to BigCommerce for headless ecommerce development. This helped in building the kind of storefront that the client was looking for.  </p>
             </div>
@@ -356,7 +356,7 @@ src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747945462/Group_1171279
              */}
    </div>
 
-            <div className="cas3circldata" id="cas3circldata1">
+            <div className="cas3circldata" id="cas3circldata13">
               <h4>Post-Development Support </h4>
               <p>After the ecommerce development with BigCommerce and Figma, we made sure the site performance remains optimal. Our team stood by the client's side even after site completion to aid with post-development support. 
               </p>

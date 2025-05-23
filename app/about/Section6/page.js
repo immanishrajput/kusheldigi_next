@@ -23,7 +23,7 @@ const Section6 = () => {
       <h2 className="titleKuH2">Our Expertise</h2>
       <p className="subtitleConpa">
       
-With a proven track record in eCommerce development, we specialize in building scalable, user-centric solutions that drive growth and deliver results
+With a proven track record in eCommerce development, we specialize in building scalable, user-centric solutions that drive growth and deliver results.
 
       </p>  
 
@@ -45,7 +45,7 @@ With a proven track record in eCommerce development, we specialize in building s
           <div className="contentline">
             <div className="image-containerPic">
               <img loading='lazy'
-                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744122054/ecommerce-development_bjf84t.png"
+                src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748021696/file_1747985953-1747985955_rwuhtk.webp"
                 alt="Software Applications"
                 
               />
