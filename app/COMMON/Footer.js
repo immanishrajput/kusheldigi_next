@@ -212,11 +212,12 @@ https://clutch.co/profile/kushel-digi-solutions" target="blank">
                     </a>
                     <a target="_blank" href="https://twitter.com/KushelDigisoln" rel="noopener">
                       {/* https://res.cloudinary.com/dd9tagtiw/image/upload/v1740224179/twitter_logo-01_xh3vqk.png */}
+        
                       <img loading="lazy" width={20} height={15} src='https://res.cloudinary.com/dgif730br/image/upload/v1741075813/twitter_logo-01_xh3vqk_ksousv.png' alt="young2" />
                     </a>
                     <a target="_blank" href="https://www.behance.net/kushelsolucti" rel="noopener">
                       {/* https://res.cloudinary.com/dd9tagtiw/image/upload/v1740224178/behance_logo-01_x6vc9l.png */}
-                      <img loading="lazy" width={20} height={15} style={{ filter: "invert(1)" }} src="https://res.cloudinary.com/dgif730br/image/upload/v1741076143/behance_logo-01_x6vc9l_kqf8gs.png" alt="young1" />
+                      <img loading="lazy" width={20} height={15} style={{ filter: "invert(1)" }} src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748021713/file_1747984823-1747984824_rsxdbc.webp" alt="young1" />
                     </a>
 
                   </div>

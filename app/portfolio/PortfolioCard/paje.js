@@ -234,53 +234,69 @@ const portfolioData = [
   category: ["ecommerce"],
 },
 
-// {
-//   id: 'automotive-105',
 
- 
-//   logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1746889440/Group_1171279371_nqoess.png',
-//   platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
-//   description: [
-//       "UX/UI Website Design","Website Development","QA & Website Testing"
-// ],
-//   links: {
-//     liveStore: 'https://www.phastekperformance.com/',
 
-//     caseStudy: '/Ai',
-//     caseStudy: '/instacertified',
-//     platform: '/bigcommerce-development',
-//   },
-//   case:' View Case Study',
-//   case1:'BigCommerce',
-//   line:'|',
-//   category: ["ecommerce"],
-// },
-// {
-//   id: 'automotive-106',
+{
+  id: 'automotive-105',
+  logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748016554/Vector_4_hnx29x.png',
+  platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+  description: [
+      "UX/UI Website Design","Website Development","QA & Website Testing"
+],
+  links: {
+    liveStore: 'https://www.phastekperformance.com/',
 
- 
-//   logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1746889440/Group_1171279371_nqoess.png',
-//   platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
-//   description: [
-//       "UX/UI Website Design","Website Development","QA & Website Testing"
-// ],
-//   links: {
-//     liveStore: 'https://www.phastekperformance.com/',
+    caseStudy: '/Ai',
+    caseStudy: '/instacertified',
+    platform: '/bigcommerce-development',
+  },
+  case:' View Case Study',
+  case1:'BigCommerce',
+  line:'|',
+  category: ["ecommerce"],
+},
+{
+  id: 'automotive-106',
+  logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748016554/Group_1171279433_zut9do.png',
+  platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+  description: [
+      "UX/UI Website Design","Website Development","QA & Website Testing"
+],
+  links: {
+    liveStore: 'https://www.phastekperformance.com/',
 
-//     caseStudy: '/Ai',
-//     caseStudy: '/career-beacon',
-//     platform: '/bigcommerce-development',
-//   },
-//   case:' View Case Study',
-//   case1:'BigCommerce',
-//   line:'|',
-//   category: ["ecommerce"],
-// },
+    caseStudy: '/Ai',
+    caseStudy: '/career-beacon',
+    platform: '/bigcommerce-development',
+  },
+  case:' View Case Study',
+  case1:'BigCommerce',
+  line:'|',
+  category: ["ecommerce"],
+},
+
+{
+  id: 'automotive-107',
+  logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748014394/krapp-strapp-logo_1726251600__26374.original_1_fx2cjv.png',
+  platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+  description: [
+      "UX/UI Website Design","Website Development","QA & Website Testing"
+],
+  links: {
+    liveStore: 'https://www.phastekperformance.com/',
+
+    caseStudy: '/Ai',
+    caseStudy: '/Karp-strap',
+    platform: '/bigcommerce-development',
+  },
+  case:' View Case Study',
+  case1:'BigCommerce',
+  line:'|',
+  category: ["ecommerce"],
+},
 
 {
   id: 'automotive-150',
-
- 
   logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1746889440/Group_1171279370_vcvyey.png',
   platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
   description: [

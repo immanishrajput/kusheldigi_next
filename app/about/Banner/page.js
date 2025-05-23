@@ -50,7 +50,7 @@ const Banner = () => {
                         </div>
                     </div>
                         <div className='KushaboupaImage'>
-                            <img loading='lazy' src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746540535/sir-png_edml3n.png" alt="banner" />
+                            <img loading='lazy' src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748021711/file_1747984679-1747984681_-_Copy_raoppu.webp" alt="banner" />
                         </div>
                 </div>
             </section>
