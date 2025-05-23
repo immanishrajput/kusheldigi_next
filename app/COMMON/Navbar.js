@@ -120,11 +120,11 @@ const data = [
         subpart: [
           {
             title: "Headless shopify",
-            navigate:"/headless-shopify",
+            navigate: "/headless-shopify",
           },
           {
             title: "Headless bigcommerce",
-            navigate:"/headless-bigcommerce",
+            navigate: "/headless-bigcommerce",
           },
         ],
       },
@@ -267,23 +267,17 @@ const Navbar = () => {
 
   const [curopen, setcuropen] = useState(false);
 
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(false); 
 
-
-
-
-
-  
-
-//   (function (c, s, q, u, a, r, e) {
-//     c.hj=c.hj||function(){(c.hj.q=c.hj.q||[]).push(arguments)};
-//     c._hjSettings = { hjid: a };
-//     r = s.getElementsByTagName('head')[0];
-//     e = s.createElement('script');
-//     e.async = true;
-//     e.src = q + c._hjSettings.hjid + u;
-//     r.appendChild(e);
-// })(window, document, 'https://static.hj.contentsquare.net/c/csq-', '.js', 6403397);
+  //   (function (c, s, q, u, a, r, e) {
+  //     c.hj=c.hj||function(){(c.hj.q=c.hj.q||[]).push(arguments)};
+  //     c._hjSettings = { hjid: a };
+  //     r = s.getElementsByTagName('head')[0];
+  //     e = s.createElement('script');
+  //     e.async = true;
+  //     e.src = q + c._hjSettings.hjid + u;
+  //     r.appendChild(e);
+  // })(window, document, 'https://static.hj.contentsquare.net/c/csq-', '.js', 6403397);
 
 
   return (
@@ -408,12 +402,15 @@ const Navbar = () => {
               <Link href="/">
                 <div className="logo">
                   <img
+                    loading="lazy"
+                    decoding="async"
                     width="180"
                     height="56"
                     className="kdssslogo"
-                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png'
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/w_180,h_56,c_limit,q_auto,f_auto/v1739012691/logo_zckmvw.png"
                     alt="KushelDigi Solutions Logo"
                     title="KushelDigi Solutions Logo" />
+
                 </div>
               </Link>
 
@@ -475,9 +472,11 @@ const Navbar = () => {
                           <div className="left-service-drop">
                             <div className="left-side-servises-containt">
                               <div className="left-head-services">
-                                <Link href="/mobile-application-development">
-                                  <span>Mobile App Development </span>
-                                </Link>
+                                <span
+                                  onClick={() => router.push('/mobile-application-development')}
+                                >
+                                  Mobile App Development
+                                </span>
                               </div>
                               <div className="left-containt-services">
                                 <Link href="/ios">iOS </Link>
@@ -488,7 +487,7 @@ const Navbar = () => {
                             <div className="left-side-servises-containt">
                               <div className="left-head-services">
                                 <Link href="/ecommerce-development">
-                                  <span>E-Commerce Development </span>
+                                  E-Commerce Development
                                 </Link>
                               </div>
                               <div className="left-containt-services">
@@ -506,7 +505,7 @@ const Navbar = () => {
                             <div className="left-side-servises-containt">
                               <div className="left-head-services">
                                 <Link href="/web-development">
-                                  <span>Website Development </span>
+                                  Website Development
                                 </Link>
                               </div>
                               <div className="left-containt-services">
@@ -526,7 +525,7 @@ const Navbar = () => {
                             <div className="left-side-servises-containt">
                               <div className="left-head-services">
                                 <Link href="/native">
-                                  <span>Cross Platform App Development</span>
+                                  Cross Platform App Development
                                 </Link>
                               </div>
                               <div className="left-containt-services">
@@ -540,12 +539,11 @@ const Navbar = () => {
 
                             <div className="left-side-servises-containt">
                               <div className="left-head-services">
-                            
                                 <Link href="/headless-commerce">
-                                  <span>Headless Commerce</span>
+                                  Headless Commerce
                                 </Link>
-                                </div>
-                                <div className="left-containt-services">
+                              </div>
+                              <div className="left-containt-services">
                                 <Link href="/headless-shopify">Headless Shopify</Link>
                                 <span>|</span>
                                 <Link href="/headless-bigcommerce">Headless Bigcommerce</Link>
@@ -557,7 +555,9 @@ const Navbar = () => {
                             <div className="left-side-servises-containt">
                               <div className="left-head-services">
                                 <Link href="/graphic-design">
-                                  <span>Graphic Design </span>
+                                <span>
+                                  Graphic Design
+                                </span>
                                 </Link>
                               </div>
                               {/* <div className="left-containt-services">
@@ -571,7 +571,7 @@ const Navbar = () => {
                             <div className="left-side-servises-containt">
                               <div className="left-head-services">
                                 <Link href="/digital-marketing-agency">
-                                  <span>Digital Marketing </span>
+                                  Digital Marketing
                                 </Link>
                               </div>
                               <div className="left-containt-services">
@@ -585,7 +585,7 @@ const Navbar = () => {
                             <div className="left-side-servises-containt">
                               <div className="left-head-services">
                                 <Link href="/ui-ux-design">
-                                  <span>App & Web Designing</span>
+                                  App & Web Designing
                                 </Link>
                               </div>
                               <div className="left-containt-services">
@@ -595,7 +595,7 @@ const Navbar = () => {
                             <div className="left-side-servises-containt">
                               <div className="left-head-services left-head-services-bootom">
                                 <Link href="/custom-software-development">
-                                  <span>Custom Software Development</span>
+                                  Custom Software Development
                                 </Link>
                               </div>
                             </div>

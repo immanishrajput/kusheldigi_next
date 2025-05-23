@@ -80,31 +80,30 @@ const NewBanner = () => {
                 <div className="new-banner-right">
                     <div className="new-banner-right-slider">
                         <Slider {...settings}>
-                            <Image className='new-banner-scroll-img'
-
-                                loading='lazy'
+                            <Image
+                                className="new-banner-scroll-img"
+                                loading="lazy"
                                 // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741088247/MacBook_2_2_two22g.png"
-                                src='https://res.cloudinary.com/dgif730br/image/upload/v1743433708/images-1_stbpbb.png'
-                                width="486"
-                                height="463"
+                                src="https://res.cloudinary.com/dgif730br/image/upload/w_437,h_361,c_limit,q_auto,f_auto/v1743433708/images-1_stbpbb.png"
+                                width={437}
+                                height={361}
                                 alt="bigcommerce"
                             />
-                            <Image
 
+                            <Image
                                 loading='lazy'
                                 // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742641401/immmmm-removebg-preview_yhm4on.png"
-                                src="https://res.cloudinary.com/dgif730br/image/upload/v1743432676/images-3_o9ytpm.png"
-                                width="486"
-                                height="463"
+                                src="https://res.cloudinary.com/dgif730br/image/upload/w_437,h_361,c_limit,q_auto,f_auto/v1743432676/images-3_o9ytpm.png"
+                                width={437}
+                                height={361}
                                 alt="shopify"
                             />
                             <Image className='new-banner-scroll-img'
-
                                 loading='lazy'
                                 // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741089462/Group_1171281256_1_znsijn.png"
-                                src="https://res.cloudinary.com/dgif730br/image/upload/v1743433061/images-2_yba04l.png"
-                                width="486"
-                                height="463"
+                                src="https://res.cloudinary.com/dgif730br/image/upload/w_437,h_361,c_limit,q_auto,f_auto/v1743433061/images-2_yba04l.png"
+                                width={437}
+                                height={361}
                                 alt="magento"
                             />
                         </Slider>

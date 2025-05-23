@@ -1029,7 +1029,7 @@ const Website = () => {
                 <div className="services-we-served-header">
                   <h2 className="primary-heading">Real Success, <br/> Real Impact</h2>
                   <p className='secondary-heading'>Have a look on our stories of success</p>
-                  <Link href="/portfolio" className="btn-link btn-icon-left">
+                  <Link href="/portfolio" className="btn-link btn-icon-left" target='_blank'>
                     <span className="btn-icon">
                       <svg
                         width={20}

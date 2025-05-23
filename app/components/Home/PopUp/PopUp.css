@@ -40,8 +40,9 @@
 }
 
 .popup-captcha-btn {
-  background: #0ea80e;
-  color: white;
+  background: #087108;
+  border: 1px solid #087108;
+  color: #ffffff;
   padding: 10px 15px;
   border-radius: 5px;
   font-weight: 600;
@@ -690,8 +691,9 @@ input::-webkit-inner-spin-button {
     top: -48px;
   }
 }
-@media (max-width:375px){
-  .cross-icon{
+
+@media (max-width:375px) {
+  .cross-icon {
     right: 7px;
   }
 }
