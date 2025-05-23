@@ -36,7 +36,14 @@ const Slider = () => {
             <div className="carousel-item">
               <div className="left-carousel-item">
 
-                <Image width={603} height={457} loading="lazy" src={"https://res.cloudinary.com/dal5dlztv/image/upload/v1747926393/2nd1_yqqr5l.jpg"} alt="carousel-image" />
+                <Image
+                  width={498}
+                  height={523}
+                  loading="lazy"
+                  src="https://res.cloudinary.com/dqjbzgksw/image/upload/w_498,h_523,c_limit/v1747983177/file_1747921390-1747921391_eeth9a.webp"
+                  alt="carousel-image"
+                />
+
                 <div className="left-carousel-btn-div">
                   <div className="left-carousel-btn ">B2B</div>
                   <div className="left-carousel-btn blue-bg">Military & Tactical Industry</div>
@@ -79,7 +86,14 @@ const Slider = () => {
             {/* First slider */}
             <div className="carousel-item">
               <div className="left-carousel-item">
-                <Image width={603} height={457} loading="lazy" src={"https://res.cloudinary.com/dal5dlztv/image/upload/v1747926394/kick-ezz1_jaqiaj.png"} alt="carousel-image" />
+                <Image
+                  width={498}
+                  height={523}
+                  loading="lazy"
+                  src="https://res.cloudinary.com/dqjbzgksw/image/upload/w_498,h_523,c_limit/v1747983178/file_1747921375-1747921377_rfowkk.webp"
+                  alt="carousel-image"
+                />
+
                 <div className="left-carousel-btn-div">
                   <div className="left-carousel-btn">B2B</div>
                   <div className="left-carousel-btn blue-bg">Firearms</div>
@@ -129,7 +143,7 @@ const Slider = () => {
             <div className="carousel-item">
               <div className="left-carousel-item">
 
-                <Image width={603} height={457} loading="lazy" src={"https://res.cloudinary.com/dal5dlztv/image/upload/v1747926397/slide3651_lsdzmc.png"} alt="carousel-image" />
+                <Image width={498} height={523} loading="lazy" src={"https://res.cloudinary.com/dqjbzgksw/image/upload/w_498,h_523,c_limit/v1747983171/file_1747921354-1747921359_t6jppi.webp"} alt="carousel-image" />
                 <div className="left-carousel-btn-div">
                   <div className="left-carousel-btn">D2C</div>
                   <div className="left-carousel-btn blue-bg">E-commerce</div>
@@ -172,7 +186,7 @@ const Slider = () => {
           <SwiperSlide>
             <div className="carousel-item">
               <div className="left-carousel-item">
-                <Image width={603} height={457} loading="lazy" src={"https://res.cloudinary.com/dal5dlztv/image/upload/v1747926394/blackrino1_rgmdta.png"} alt="carousel-image" />
+                <Image width={498} height={523} loading="lazy" src={"https://res.cloudinary.com/dqjbzgksw/image/upload/w_498,h_523,c_limit/v1747983171/file_1747921258-1747921260_n65kdd.webp"} alt="carousel-image" />
                 <div className="left-carousel-btn-div">
 
                   <div className="left-carousel-btn blue-bg">Real Estate</div>
@@ -200,8 +214,6 @@ const Slider = () => {
                   </div>
                 </div>
                 <p className="right-carousel-para">
-
-
                   Black Rhino is a minority-owned small business in Lowell, Indiana has been a pioneer of custom Kydex holsters and accessories.
                 </p>
                 <Link href="/portfolio">
@@ -217,7 +229,7 @@ const Slider = () => {
           <SwiperSlide>
             <div className="carousel-item">
               <div className="left-carousel-item">
-                <Image width={603} height={457} loading="lazy" src={"https://res.cloudinary.com/dal5dlztv/image/upload/v1747926394/sight_scope1_-_Copy_nhnxli.png"} alt="carousel-image" />
+                <Image width={498} height={523} loading="lazy" src={"https://res.cloudinary.com/dqjbzgksw/image/upload/w_498,h_523,c_limit/v1747983172/sight_scope_i6pns0.webp"} alt="carousel-image" />
                 <div className="left-carousel-btn-div">
                   <div className="left-carousel-btn ">B2B</div>
                   <div className="left-carousel-btn blue-bg">Gunshop</div>
@@ -260,7 +272,7 @@ const Slider = () => {
           <SwiperSlide>
             <div className="carousel-item">
               <div className="left-carousel-item">
-                <Image width={603} height={457} loading="lazy" src={"https://res.cloudinary.com/dal5dlztv/image/upload/v1747928395/top_brass1_ppgzar.png"} alt="carousel-image" />
+                <Image width={498} height={523} loading="lazy" src={"https://res.cloudinary.com/dqjbzgksw/image/upload/w_498,h_523,c_limit/v1747983171/file_1747921193-1747921195_qjddam.webp"} alt="carousel-image" />
                 <div className="left-carousel-btn-div">
                   <div className="left-carousel-btn ">B2B</div>
                   <div className="left-carousel-btn blue-bg">E-commerce</div>

@@ -86,7 +86,7 @@ const HomePage = ({ props }) => {
   return (
     <>
 
-<Script id="contentsquare-tracking" strategy="afterInteractive">
+      <Script id="contentsquare-tracking" strategy="afterInteractive">
         {`
           (function (c, s, q, u, a, r, e) {
             c.hj = c.hj || function () { (c.hj.q = c.hj.q || []).push(arguments); };
@@ -127,9 +127,6 @@ const HomePage = ({ props }) => {
         <HomeCardSection />
 
         <HomeSecCard />
-
-
-
 
         {/* <HomeVision/> */}
         {/* <Home2Section8 /> */}

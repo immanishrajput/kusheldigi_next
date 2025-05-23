@@ -18,8 +18,8 @@ function Advance() {
             <div className="b2b-logo">
              
               <Image loading='lazy'  width="599" height="299"
-                src='https://res.cloudinary.com/dgif730br/image/upload/v1743686387/asit-sir-4_xa7bco.jpg'
-                alt="Shopify Plus" />
+                src='https://res.cloudinary.com/dqjbzgksw/image/upload/v1747982612/file_1747977192-1747977194_fg0v2k.webp'
+                alt="B2B" />
             </div>
             <div className="b2b-contain">
               <h3 className="b2b-headsss">B2B</h3>
@@ -36,8 +36,8 @@ function Advance() {
             <div className="b2b-logo">
               <Image loading='lazy'  width="599" height="299"
                
-                src='https://res.cloudinary.com/dgif730br/image/upload/v1743686387/asit-sir-1_xchvkj.jpg'
-                alt="Shopify Plus" />
+                src='https://res.cloudinary.com/dqjbzgksw/image/upload/v1747982612/file_1747977172-1747977173_uxa2uv.webp'
+                alt="Multi-vendor" />
             </div>
             <div className="b2b-contain">
               <h3 className="b2b-headsss">Multi-vendor</h3>
@@ -58,8 +58,8 @@ function Advance() {
             <div className="b2b-logo">
               <Image loading='lazy' width="599" height="299"
                 // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806527/b12_tpd0aj.webp" 
-                src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1744005444/indrpal-images-5_zvtdky.png'
-                alt="Shopify Plus" />
+                src='https://res.cloudinary.com/dqjbzgksw/image/upload/v1747982612/file_1747977182-1747977184_mi8acb.webp'
+                alt="B2C" />
             </div>
             <div className="b2b-contain">
               <h3 className="b2b-headsss">B2C</h3>
@@ -78,8 +78,8 @@ function Advance() {
             <div className="b2b-logo">
               <Image loading='lazy' width="599" height="299"
                 // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806526/b14_y69yn7.webp"
-                src='https://res.cloudinary.com/dgif730br/image/upload/v1743686386/asit-sir-3_nkuizh.jpg'
-                alt="Shopify Plus" />
+                src='https://res.cloudinary.com/dqjbzgksw/image/upload/v1747982612/file_1747977159-1747977160_bx4i0a.webp'
+                alt="D2C" />
             </div>
             <div className="b2b-contain">
               <h3 className="b2b-headsss">D2C</h3>

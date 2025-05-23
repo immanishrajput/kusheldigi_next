@@ -269,8 +269,8 @@ const Smm = () => {
                 target audience.
               </p>
             </div>
-            <div className="services-second-section">
-              <div className="second-section">
+            
+              
                 <div className="second-section-card">
                   <div className="card-content">
                     <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740467997/services_icon-1_eprcha.svg' alt="Social Media Management" title="Social Media Management" />
@@ -282,8 +282,7 @@ const Smm = () => {
                       scheduling; also analyzing the records.
                     </p>
                   </div>
-                </div>
-                <div className="second-section-card">
+                 
                   <div className="card-content">
                     <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468033/services_icon-2_igamop.svg' alt="Social Media Advertising" title="Social Media Advertising" />
                     <h3>Social Media Advertising</h3>
@@ -295,8 +294,7 @@ const Smm = () => {
                       future as well.
                     </p>
                   </div>
-                </div>
-                <div className="second-section-card">
+                 
                   <div className="card-content">
                     <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468074/services_icon-3_stfvxp.svg' alt="Influencer Marketing" title="Influencer Marketing" />
                     <h3>Influencer Marketing</h3>
@@ -305,9 +303,7 @@ const Smm = () => {
                       the promotion of your brand, product, or services.
                     </p>
                   </div>
-                </div>
-
-                <div className="second-section-card">
+                 
                   <div className="card-content">
                     <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468118/services_icon-4_na3ftc.svg' alt="Reputation Management" title="Reputation Management" />
                     <h3>Reputation Management</h3>
@@ -317,8 +313,7 @@ const Smm = () => {
                       to help it improve to a larger extent.
                     </p>
                   </div>
-                </div>
-                <div className="second-section-card">
+                 
                   <div className="card-content">
                     <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468159/services_icon-5_mdwjnc.svg' alt="Community Buildingt" title="Community Buildingt" />
                     <h3 style={{ marginTop: 15 }}>Community Buildingt </h3>
@@ -327,8 +322,7 @@ const Smm = () => {
                       that is keenly interested in your brand around you.
                     </p>
                   </div>
-                </div>
-                <div className="second-section-card">
+                 
                   <div className="card-content">
                     <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468203/services_icon-6_pxeclp.svg' alt="Crisis Management" title="Crisis Management" />
                     <h3>Crisis Management</h3>
@@ -338,9 +332,7 @@ const Smm = () => {
                       social media crises.
                     </p>
                   </div>
-                </div>
-              </div>
-            </div>
+                </div> 
           </div>
         </div>
         {/* ------------------end Our Services-------------------- */}
