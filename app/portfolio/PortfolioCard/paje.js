@@ -286,7 +286,7 @@ const portfolioData = [
     liveStore: 'https://www.phastekperformance.com/',
 
     caseStudy: '/Ai',
-    caseStudy: '/Karp-strap',
+    caseStudy: '/Krap-strap',
     platform: '/bigcommerce-development',
   },
   case:' View Case Study',
