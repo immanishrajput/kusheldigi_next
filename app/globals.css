@@ -75301,7 +75301,7 @@ input::-webkit-inner-spin-button {
 .blogClockTimee {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
 
 .blogClockTime1 {
@@ -75433,7 +75433,7 @@ input::-webkit-inner-spin-button {
 }
 
 .bimageloDiPa {
-    padding-top: 10px;
+    /* padding-top: 10px; */
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
@@ -75482,8 +75482,7 @@ input::-webkit-inner-spin-button {
     gap: 5px;
 }
 
-.bimageloDiPargaphhh {
-    padding-top: 30px;
+.bimageloDiPargaphhh { 
     font-size: 15px;
     font-weight: 600;
     display: flex;
@@ -75602,6 +75601,10 @@ input::-webkit-inner-spin-button {
 
 .cardBlogSt {
     padding-top: 50px;
+}
+
+.cardBlogStImgContainer{
+    min-height: 450px;
 }
 
 .cardBlogStImg img {
@@ -77254,7 +77257,7 @@ input::-webkit-inner-spin-button {
     font-size: 17px;
     line-height: 40px;
     color: #222;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 .cardBlogStpaarw1 {

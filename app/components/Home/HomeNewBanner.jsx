@@ -66,10 +66,10 @@ const NewBanner = () => {
             <div className="inner-new-banner-container">
                 <div className="new-banner-left">
                     {/* <h3 className='sm-banner-heading'><img src="/new-banner-star.svg" alt="star-icon" /> s</h3> */}
-                    <h3 className='sm-banner-heading'><HiShoppingCart className='hishpoo' />Custom Ecommerce Solutions</h3>
+                    <span className='sm-banner-heading'><HiShoppingCart className='hishpoo' />Custom Ecommerce Solutions</span>
                     <h1 className='new-banner-heading'>Expert E-Commerce Solutions Powered by BigCommerce</h1>
-                    <h4 className='new-banner-para'>As a BigCommerce Certified Partner, Kushel Digi designs, develops, and optimizes eCommerce stores that deliver results and help brands to succeed in the ecommerce world.
-                    </h4>
+                    <h2 className='new-banner-para'>As a BigCommerce Certified Partner, Kushel Digi designs, develops, and optimizes eCommerce stores that deliver results and help brands to succeed in the ecommerce world.
+                    </h2>
                     {/* <button className='new-banner-btn'>SCHEDULE A DEMO</button> */}
                     <div className='flex-new-banner-btns'>
                         <button onClick={scrollToFormHome} className='new-banner-btn colored'>Talk to a Consultant</button>

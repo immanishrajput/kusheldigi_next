@@ -263,7 +263,7 @@ const Page = () => {
                           {" "}
                           <FcClock className="iconBlogClock" />{" "}
                         </span>{" "}
-                        {getAllBlogs[0]?.time}{" "}
+                        {getAllBlogs[0]?.time}{" "}Min
                       </span>
                     </div>
                   </div>
@@ -313,7 +313,7 @@ const Page = () => {
                             <h3 className="news-title" id="newBlogTil">
                               <p> {item?.title}</p>
                             </h3>
-                            
+
                           </div>
                         </div>
                       </Link>
@@ -335,7 +335,59 @@ const Page = () => {
                   <hr />
                 </div>
                 <div className="cardMainBlogSec">
-                  {cat.blogs.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 6).map((item, index) => (
+
+                  {cat.blogs
+                    .filter((item) => item.domain.includes("kusheldigi.com"))
+                    .sort((a, b) => new Date(b.date) - new Date(a.date))
+                    .slice(0, 6)
+                    .map((item, index) => (
+                      <div className="cardBlogSt" key={index}>
+                        <Link href={`/blog/${item.slug}`}>
+                          <div className="cardBlogStImgContainer">
+                            <div className="cardBlogStImg">
+                              <img src={item.images?.[0]} alt={item.title} />
+                            </div>
+                            <p className="cardBlogStpaa">
+                              {new Date(item?.date).toLocaleDateString("en-GB", {
+                                day: "numeric",
+                                month: "long",
+                                year: "numeric",
+                              })}
+                            </p>
+                            <div className="cardBlogStpaara1">
+                              <p className="cardBlogStpaara">{item?.title}</p>
+                            </div>
+                            <p className="cardBlogStpaaragr">
+                              {item.subdescription?.slice(0, 100)}...
+                            </p>
+                          </div>
+                        </Link>
+                        <div className="blogClockTime1">
+                          <Link href={`/blog/${item.slug}`}>
+                            <p className="cardBlogStpaarw">Read More</p>
+                          </Link>
+                          <span className="bimageloDiPargaph1">
+                            <FcClock className="iconBlogClock" />
+                            {item?.time} Min
+                          </span>
+                        </div>
+                      </div>
+                    ))}
+                </div>
+              </div>
+            ))
+          ) : (
+            <div className="category-blog-section">
+              <div className="cardsectFive">
+                <p>{selectedCategory}</p>
+                <hr />
+              </div>
+              <div className="cardMainBlogSec">
+                {(filteredBlogs.length > 0 ? filteredBlogs : [])
+                  .filter((item) => item.domain.includes("kusheldigi.com"))
+                  .sort((a, b) => new Date(b.date) - new Date(a.date))
+                  .slice(0, 6)
+                  .map((item, index) => (
                     <div className="cardBlogSt" key={index}>
                       <Link href={`/blog/${item.slug}`}>
                         <div>
@@ -368,49 +420,6 @@ const Page = () => {
                       </div>
                     </div>
                   ))}
-                </div>
-              </div>
-            ))
-          ) : (
-            <div className="category-blog-section">
-              <div className="cardsectFive">
-                <p>{selectedCategory}</p>
-                <hr />
-              </div>
-              <div className="cardMainBlogSec">
-                {(filteredBlogs.length > 0 ? filteredBlogs : []).sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 6).map((item, index) => (
-                  <div className="cardBlogSt" key={index}>
-                    <Link href={`/blog/${item.slug}`}>
-                      <div>
-                        <div className="cardBlogStImg">
-                          <img src={item.images?.[0]} alt={item.title} />
-                        </div>
-                        <p className="cardBlogStpaa">
-                          {new Date(item?.date).toLocaleDateString("en-GB", {
-                            day: "numeric",
-                            month: "long",
-                            year: "numeric",
-                          })}
-                        </p>
-                        <div className="cardBlogStpaara1">
-                          <p className="cardBlogStpaara">{item?.title}</p>
-                        </div>
-                        <p className="cardBlogStpaaragr">
-                          {item.subdescription?.slice(0, 100)}...
-                        </p>
-                      </div>
-                    </Link>
-                    <div className="blogClockTime1">
-                      <Link href={`/blog/${item.slug}`}>
-                        <p className="cardBlogStpaarw">Read More</p>
-                      </Link>
-                      <span className="bimageloDiPargaph1">
-                        <FcClock className="iconBlogClock" />
-                        {item?.time}
-                      </span>
-                    </div>
-                  </div>
-                ))}
               </div>
             </div>
           )}
