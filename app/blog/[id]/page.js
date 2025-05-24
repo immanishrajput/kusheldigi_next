@@ -326,38 +326,45 @@ export default function BlogDetails() {
 
             <section className="cardMainBlogSec" id="cardMainBlogSecc">
               {recentBlogs.length > 0 ? (
-                recentBlogs.map((item, index) => (
-                  <Link href={`/blog/${item.slug}`} key={index} className="cardBlogSt">
-                    <div className="cardBlogStImg">
-                      <img src={item.images?.[0]} alt={item.title} />
-                    </div>
-                    <p className="cardBlogStpaa">
-                      {new Date(item?.date).toLocaleDateString("en-GB", {
-                        day: "numeric",
-                        month: "long",
-                        year: "numeric",
-                      })}
-                    </p>
-                    <div className="cardBlogStpaara1">
-                      <p className="cardBlogStpaara">{item.title}</p>
+                recentBlogs.filter((item) => item.domain.includes("kusheldigi.com"))
+                  .sort((a, b) => new Date(b.date) - new Date(a.date))
+                  .slice(0, 6)
+                  .map((item, index) => (
+                    <Link href={`/blog/${item.slug}`} key={index} className="cardBlogSt">
+                      <div className="cardBlogStImgContainer">
+                        <div className="cardBlogStImg">
+                          <img src={item.images?.[0]} alt={item.title} />
+                        </div>
+                        <p className="cardBlogStpaa">
+                          {new Date(item?.date).toLocaleDateString("en-GB", {
+                            day: "numeric",
+                            month: "long",
+                            year: "numeric",
+                          })}
+                        </p>
+                        <div className="cardBlogStpaara1">
+                          <p className="cardBlogStpaara">{item.title}</p>
 
-                    </div>
-                    <p className="cardBlogStpaaragr">{item.subdescription}</p>
-                    {/* <p className="cardBlogStpaarw">Read More</p> */}
-                    <div className="blogClockTimee">
+                        </div>
+                        <p className="cardBlogStpaaragr">
+                              {item.subdescription?.slice(0, 100)}...
+                            </p>
+                      </div>
+                      {/* <p className="cardBlogStpaarw">Read More</p> */}
+                      <div className="blogClockTimee">
 
-                      <span className="cardBlogStpaarw">Read More</span>
+                        <span className="cardBlogStpaarw">Read More</span>
 
-                      <span className="bimageloDiPargaphhh">
-                        <span>
-                          {" "}
-                          <FcClock className="iconBlogClock" />{" "}
-                        </span>{" "}
-                        {currentBlog?.time}{" "}
-                      </span>
-                    </div>
-                  </Link>
-                ))
+                        <span className="bimageloDiPargaphhh">
+                          <span>
+                            {" "}
+                            <FcClock className="iconBlogClock" />{" "}
+                          </span>{" "}
+                          {currentBlog?.time}{" "} Min
+                        </span>
+                      </div>
+                    </Link>
+                  ))
               ) : (
                 <p>Loading recent blogs...</p>
               )}
