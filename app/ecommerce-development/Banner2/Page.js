@@ -17,7 +17,7 @@ const Banner2 = () => {
 <section className="sec-sectionBan2">
   <div className="sec-containerBan2">
     <div className="image-sec-container">
-      <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744463967/mockup-4_h41e2o.png" alt="Website Mockup" />
+      <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748210110/t11_odgmce.webp" alt="Website Mockup" />
     </div>
     <div className="sec-contentBan2">
       <p className="sec-tagBan2">ECOMMERCE STORE DEVELOPMENT</p>

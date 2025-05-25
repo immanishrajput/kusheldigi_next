@@ -75,7 +75,8 @@ const Banner = () => {
                 height="463"
                 loading='lazy'
                 // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741088247/MacBook_2_2_two22g.png"
-                src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1744458202/mockup-2_wpwbsq.png'
+                // src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1744458202/mockup-2_wpwbsq.png'
+                src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748210264/t8_pj1x8o.webp"
                 alt="bigcommerce"
               />
               <img
@@ -83,7 +84,8 @@ const Banner = () => {
                 height="463"
                 loading='lazy'
                 // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742641401/immmmm-removebg-preview_yhm4on.png"
-                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744458202/mockup-3_jqdrh1.png"
+                // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744458202/mockup-3_jqdrh1.png"
+                src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748210254/t9_gyvf6m.webp"
                 alt="shopify"
               />
               <img className='new-banner-scroll-img'
@@ -91,7 +93,8 @@ const Banner = () => {
                 height="463"
                 loading='lazy'
                 // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1741089462/Group_1171281256_1_znsijn.png"
-                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744458202/mockup-1_lz5bgz.png"
+                // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744458202/mockup-1_lz5bgz.png"
+                src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748210245/t10_rgffot.webp"
                 alt="magento"
               />
             </Slider>

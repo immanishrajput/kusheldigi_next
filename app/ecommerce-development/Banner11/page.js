@@ -103,7 +103,7 @@ function Banner12() {
 
       <div id="d2c" className="contttent-wrapper">
         <div className="imgg-2nd">
-          <img src="https://res.cloudinary.com/dgif730br/image/upload/v1743686386/asit-sir-3_nkuizh.jpg" alt="D2C" />
+          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748210327/t1_ueq82s.webp" alt="D2C" />
         </div>
         <div className="content">
           <h3 className={activeSection === "d2c" ? "underline" : ""}>D2C </h3>
