@@ -5,6 +5,7 @@ import { TiTick } from "react-icons/ti";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
 import '../globals.css'
+import './digital.css'
 import Navbar from "../COMMON/Navbar";
 
 import Footer from "../COMMON/Footer";
@@ -159,7 +160,7 @@ function Page() {
 
             <section className="case1firsec">
 
-                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748206691/Group_1171279456_s3eflo.png" alt="kushel" className="case1fill" />
+                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748270333/Group_1171279470_wuh5wx.png" alt="kushel" className="case1fill" />
                 {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216400/case1fil_bwtual.png" alt="kushel" className="case1fill" />
         <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216437/case1bg_j1tw2e.png" alt="kushel" className="case1bg" /> */}
 
@@ -169,12 +170,12 @@ function Page() {
                         <div className="case1fifirco">
                             {/* left  */}
                             <div className="ca1firleft">
-                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748206713/sp-logo_1718202719__08634_1_1_qov0dt.png" alt="kushel" />
-                                <p> Serve A Pure </p>
+                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748270331/Group_1171279472_1_lkh4bv.png" alt="kushel" />
+                                <p> Digital MNA </p>
                             </div>
 
                             <p className="ca1firrigh">
-                            Serve A Pure is a trusted leader of water purification and filtration systems. It is providing a plethora of filtration solutions through its broad range of products for residential, commercial, and industrial needs.                            </p>
+                            In the world of digital marketing, Digital MNA is rocking as a performance-driven digital marketing agency.  </p>
                         </div>
 
                         {/* secont */}
@@ -212,12 +213,13 @@ function Page() {
             2nd Amendment Guns is a service-disabled veteran business located in the prime location of Las Vegas, Nevada. Behind its foundation, the company represents a commitment to the people and the Constitution to serve. 
             </p> */}
                         <p>
-                        The brand is putting full emphasis on creating top-notch water flow meters, Water purifier pumps, water softener resins, deionized water, etc. </p>
+                        It offers services in SEO, content strategy, paid media, and social media. The company aims to upscale businesses and aid in their success and growth. </p>
                         <p>
 
-                        With more than 78 years of experience in water purification excellence, it has left a strong mark on the lives of people.                </p>
-                        <p> As the demand for its product started growing and customers wanted more, Serve a Pure identified a strong need for creating a user-friendly platform.  </p>
-                        <p>That’s when Kushel Digi Solutions arrived to reimagine the storefront and transform it into a scalable shopping store. So we ensured to cater to the needs of the client and optimize the shipping experience. Madfish offered the opportunity to us to work on this project.</p>
+                        While it is doing a lot for the businesses and has a good clientele, the website wasn’t able to attract visitors.  </p>
+                        <p>Lacking sophistication and a technical edge to reflect their potential was a big drawback. Kushe Digi Solutions wanted to fix that with its broad expertise. </p>
+                        <p>We received this project opportunity from Madfish. The expert team of Kushel Digi Solutions work on this project and build a clear roadmap to achieve the client’s needs.</p>
+                        <p>However, the journey wasn’t easy because we had to set a clear timeline to deliver results yet we did it successfully with combined team efforts.</p>
 
                     </div>
                 </div>
@@ -228,21 +230,22 @@ function Page() {
                 <div className="PortfolioChallengeMain">
                     <h4> Challenges</h4>
                     <div>
-                        <h5>Though the Serve A Pure website was functional, it posed several barriers to customers in shopping. Many information was lacking on the site, so it was difficult to make an informed choice for anyone:-</h5>
+                        {/* <h5>Though the Serve A Pure website was functional, it posed several barriers to customers in shopping. Many information was lacking on the site, so it was difficult to make an informed choice for anyone:-</h5> */}
                         <h5>
-                            1. The site had an outdated design with no professional appearance.
+                            1.Slow load times and poor Google Core Web Vitals.
                         </h5>
-                        <h5>2. Product layout was cluttered, making it difficult for users to find specific filters. </h5>
+                        <h5>2.Low engagement rates on service pages. </h5>
 
-                        <h5>3.Mobile-friendliness wasn’t there, and this was affecting sales. </h5>
-              <h5>4.Missing modern elements to track the sales rate or search for the products through filtered options.</h5>
+                        <h5>3.A basic structure of a site with no advanced SEO schema. </h5>
+              <h5>4.No dynamic routing or page generation.</h5>
+              <h5>5.Limited backend flexibility for frequent content updates</h5>
               {/* <h5>The backend wasn’t ready to help with long-term growth and enable advanced features. </h5>  */}
 
                     </div>
                 </div>
                 <div className="portfolioImageChallenge">
                     <img
-                        src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748206866/Group_1171279453_mh2slx.png"
+                        src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748270333/Group_1171279468_fiqejk.png"
                         // src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746514576/2nd-A-challenges_hdngwv.png"
                         alt="kushel"
                     />
@@ -262,19 +265,18 @@ function Page() {
                         </div>
 
                         <p className="s3theeparas">
-                        When the challenges were visible, our team collaborated to develop the entire project plan. From designing the roadmap to analyzing the competitors, we were fully committed to extending the legacy of Serve A Pure.
-                        </p>
+                        As the challenges that we had to tackle and the client’s needs were clear, our team collaborated with weekly achievable targets. </p>
 
                         <p className="s3theeparas">
-                        At first, we explored what options we have for the site design. Depending on the existing design, our experts chose Figma to prepare a fresh layout including the product details and everything else.                        </p>
+                        From creating the roadmap to the sales funnel and ensuring the site's peak performance, everything started with Figma.  </p>
 
-                        <p className="s3theeparas"> Once the ecommerce design was ready, the next thing to do was to migrate the site to a reliable ecommerce platform.</p>
+                        <p className="s3theeparas"> Our designers utilized it to build some creative layouts from scratch. Once the design was ready with all the modern elements, the next big challenge was to decide between BigCommerce vs WooCommerce. Let’s see what we did next.</p>
 
                         {/* <p className="s3theeparas">As it’s an e-commerce brand, our team formulated the entire roadmap to redesign the website and make it responsive to drive conversions and traffic. </p>
                         <p className="s3theeparas">The design part is carried out on Figma with the help of our experienced web designers. Thereafter, we crafted a visually appealing and intuitive web design to align it with the brand’s image. Matching the client’s expectations was another challenge that we accomplished.</p>
                         <p className="s3theeparas">After structuring the website using responsive design, the next part was to integrate BigCommerce and develop custom Ecommerce solutions.</p> */}
                     </div>
-                    <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748269807/Group_1171279482_cgj84c.png" alt="kushel" className="c3antoimg" />
+                    <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748270333/Group_1171279469_xpzmjd.png" alt="kushel" className="c3antoimg" />
 
                 </div>
             </section>
@@ -296,19 +298,19 @@ function Page() {
             >
                 <SplideSlide>
                     <section className="case3secfour" >
-                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748205988/image_198_ptlnj0.png" alt="kushel" className="c1btimage" />
+                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748273671/patternimg_pqivcu.png" alt="kushel" className="c1btimage" />
 
                         <div className="cas3s4con" id="cas3s4connn">
 
                             <div className="bgshowdb1" >
-                                < img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748208378/Group_1171279460_ogyvub.png" />
+                                < img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748270332/Group_1171279478_hzjk3k.png" />
 
                             </div>
 
-                            <div className="cas3circldata" id="cas3circldata11">
-                                <h4>UI/UX Redesign
+                            <div className="cas3circldata" id="cas3circldata13">
+                                <h4>Performance Optimization
                                 </h4>
-                                <p>We started with a full redesign in Figma while putting focus on clarity and ease of use. The new interface prioritized intuitive navigation, simplified product pages, and a responsive layout for mobile and desktop. 
+                                <p>We optimized the performance of the website with the help of BigCommerce. Yes, it was the perfect platform due to an unending amount of capabilities it has. We migrated the complete website on BigCommerce so we can create a successful eCommerce platform. 
                                 </p>
                             </div>
 
@@ -320,18 +322,18 @@ function Page() {
 
                 <SplideSlide>
                     <section className="case3secfour" id="case3secfour22">
-                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748205988/image_198_ptlnj0.png" alt="kushel" className="c1btimage" />
+                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748273671/patternimg_pqivcu.png" alt="kushel" className="c1btimage" />
 
                         <div className="cas3s4con" id="cas3s4connn">
 
                             <div className="bgshowdb1" id="bgshowdb11">
-                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748206811/Group_1171279463_rrt1ui.png" />
+                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748270332/Group_1171279477_uknowh.png" />
                                
                             </div>
 
-                            <div className="cas3circldata" id="cas3circldata11">
-                                <h4>BigCommerce Migration</h4>
-                                <p>We shifted the entire site to BigCommerce to build an enterprise-grade eCommerce platform. This choice improved loading time and saved resources for the company.   </p>
+                            <div className="cas3circldata" id="cas3circldata13">
+                                <h4>Smart Site Architecture</h4>
+                                <p>To simplify certain things on the website, such as.inventory management and attracting clients, we integrated the platform with some third-party plugins.  </p>
                             </div>
 
                         </div>
@@ -341,20 +343,20 @@ function Page() {
 
                 <SplideSlide>
                     <section className="case3secfour">
-                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748205988/image_198_ptlnj0.png" alt="kushel" className="c1btimage" />
+                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748273671/patternimg_pqivcu.png" alt="kushel" className="c1btimage" />
 
                         <div className="cas3s4con" id="cas3s4connn">
 
-                            <div className="bgshowdb1" id="bgshowdb11">
+                            <div className="bgshowdb1" id="bgshowdb13">
                           
-                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748208152/Group_1171279466_3_bwzrv9.png" />
+                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748270332/Group_1171279481_eqqemy.png" />
 
                       </div>
 
-                            <div className="cas3circldata" id="cas3circldata11">
-                                <h4>Smart Integrations
+                            <div className="cas3circldata" id="cas3circldata13">
+                                <h4>Conversion-Focused Enhancement
                                 </h4>
-                                <p>For additional functions on the website, our team integrated the platform with third-party plugins. It simplified CRM, inventory management, SEO optimization, and many other things.
+                                <p>Our team picked the ideal keywords to add to the site content, including CTA, page, and service details. This helped in making the site SEO-friendly and ranking higher in the SERP.
                                 </p>
                             </div>
 
@@ -471,14 +473,14 @@ function Page() {
                 <div className="result_Portfolio">
                     <h5>Result & Impact</h5>
                     <h6>
-                    After launch, Serve a Pure saw immediate benefits:-
+                    With our strenuous efforts, we were able to reach these results for Digital MNA:-
   </h6>
                     <ul>
-                        <li> Improved site speed and mobile performance</li>
-                        <li>Increased product discoverability via smart filters and search features</li>
-                        <li>Higher user engagement and longer session durations</li>
-                        <li>    • Streamlined operations that enabled the team to focus more on customer service and growth
-                        With the efforts of Kushel Digi Solutions, Serve a Pure is now equipped with a digital store as pure and efficient as the water it helps deliver.</li>
+                        <li>Mobile speed score jumped significantly</li>
+                        <li>Organic traffic rose by 47% within the first 1.5 months</li>
+                        <li>Average session duration on the page increased by 38%</li>
+                        <li> 3x more service inquiries came in compared to the old site</li>
+                      <li> CMS updates now take minutes instead of hours</li>
                 
 
                     </ul>

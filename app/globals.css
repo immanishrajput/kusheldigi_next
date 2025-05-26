@@ -25795,7 +25795,7 @@ form button {
 
 .footer2Imagelast img {
     width: 100%;
-    max-width: 158px;
+    max-width: 137px;
     height: auto;
 }
 
@@ -50614,10 +50614,10 @@ option {
 
 .servise-dropdown-container {
     display: flex;
-    justify-content: space-between
+    justify-content: space-around;
 }
 
-.left-head-services span {
+.left-head-services {
     font-family: 'Poppins', sans-serif !important;
     font-size: 16px !important;
     font-weight: 500 !important;
@@ -50627,7 +50627,7 @@ option {
     cursor: pointer;
 } 
 
-.left-head-services:hover span {
+.left-head-services:hover {
     color: #0B56E4 !important
 }
 

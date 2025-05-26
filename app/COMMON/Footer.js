@@ -133,7 +133,7 @@ const Footer = () => {
             <div className="footer2Image">
               <Link href="https://www.designrush.com/agency/profile/kushel-digi-solutions" target="blank">
                 <img width="106" height="108" loading="lazy"
-                  src="https://res.cloudinary.com/dbcmdtr3r/image/upload/w_106,h_108,c_fill,q_auto,f_auto/v1743446874/BE-1_d90kuk.png"
+                  src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748276974/b6_pevpva.webp"
 
                   alt="logo">
 
@@ -144,14 +144,14 @@ const Footer = () => {
               <Link href="
 https://clutch.co/profile/kushel-digi-solutions" target="blank">
                 <img width="106" height="108" loading="lazy"
-                  src="https://res.cloudinary.com/dbcmdtr3r/image/upload/w_106,h_108,c_fill,q_auto,f_auto/v1743446906/T-b2b-2_on82xw.png"
+                  src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748276892/b4_el1k1k.webp"
                   alt="logo"></img>
               </Link>
             </div>
             <div className="footer2Imagelat">
               <Link href="https://www.goodfirms.co/company/kushel-digi-solutions-1" target="blank">
                 <img width="83" height="85" loading="lazy"
-                  src="https://res.cloudinary.com/dbcmdtr3r/image/upload/w_83,h_85,c_fill,q_auto,f_auto/v1743446906/top-E-3_vycg4a.png"
+                  src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748276912/b5_qrflkl.webp"
 
                   alt="logo"></img>
               </Link>
@@ -165,7 +165,7 @@ https://clutch.co/profile/kushel-digi-solutions" target="blank">
             <div className="footer2Image">
               <Link href="https://partners.bigcommerce.com/directory/partner/1983347/kushel-digi-solutions" target="blank">
                 <img width="106" height="108" loading="lazy"
-                  src="https://res.cloudinary.com/dbcmdtr3r/image/upload/w_106,h_108,c_fill,q_auto,f_auto/v1743446873/cbp-5_q19rbt.png"
+                  src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748276865/b2_cxuq7l.webp"
 
                   alt="logo">
 
@@ -178,7 +178,7 @@ https://clutch.co/profile/kushel-digi-solutions" target="blank">
                 height="87"
                 loading="lazy"
                 decoding="async"
-                src="https://res.cloudinary.com/dqjbzgksw/image/upload/w_87,h_87,c_fill,q_auto,f_auto/v1747985175/file_1747984823-1747984824_l48sgc.webp"
+                src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748276849/b1_szuidn.webp"
                 alt="logo" />
             </div>
           </div>

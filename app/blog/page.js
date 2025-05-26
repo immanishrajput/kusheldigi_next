@@ -64,7 +64,7 @@ const Page = () => {
 
       if (response.ok) {
         console.log("cat", data?.data)
-        const firstFive = data?.data.reverse().slice(0, 5);
+        const firstFive = data?.data.slice(0, 5);
         setAllCatBlogs(data?.data);
         setVisibleCategories(firstFive);
         setDefaultCategories(firstFive);

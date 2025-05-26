@@ -315,9 +315,48 @@ const portfolioData = [
   category: ["ecommerce"],
 },
 
+{
+  id: 'automotive-109',
+  logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748206714/sp-logo_1718202719__08634_1_lu5l3i.png',
+  platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+  description: [
+      "UX/UI Website Design","Website Development","QA & Website Testing"
+],
+  links: {
+    liveStore: 'https://www.phastekperformance.com/',
+
+    caseStudy: '/Ai',
+    caseStudy: '/serve',
+    platform: '/bigcommerce-development',
+  },
+  case:' View Case Study',
+  case1:'BigCommerce',
+  line:'|',
+  category: ["ecommerce"],
+},
+{
+  id: 'automotive-110',
+  logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748270331/Group_1171279472_1_lkh4bv.png',
+  platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+  description: [
+      "UX/UI Website Design","Website Development","QA & Website Testing"
+],
+  links: {
+    liveStore: 'https://www.phastekperformance.com/',
+
+    caseStudy: '/Ai',
+    caseStudy: '/digital',
+    platform: '/bigcommerce-development',
+  },
+  case:' View Case Study',
+  case1:'BigCommerce',
+  line:'|',
+  category: ["ecommerce"],
+},
+
 // {
-//   id: 'automotive-109',
-//   logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748206714/sp-logo_1718202719__08634_1_lu5l3i.png',
+//   id: 'automotive-111',
+//   logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748275036/Group_1171279500_ugv0xr.png',
 //   platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
 //   description: [
 //       "UX/UI Website Design","Website Development","QA & Website Testing"
@@ -326,7 +365,7 @@ const portfolioData = [
 //     liveStore: 'https://www.phastekperformance.com/',
 
 //     caseStudy: '/Ai',
-//     caseStudy: '/serve',
+//     caseStudy: '/ushaFastners',
 //     platform: '/bigcommerce-development',
 //   },
 //   case:' View Case Study',
