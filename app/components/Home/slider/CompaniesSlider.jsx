@@ -38,6 +38,8 @@ const CompaniesSlider = () => {
     ]
   };
 
+  
+
   return (
     <div className="logo-container">
       <div className="logo-sliders">
