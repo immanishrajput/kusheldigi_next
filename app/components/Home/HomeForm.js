@@ -61,11 +61,11 @@ const Website = () => {
   const handleForm = async (e) => {
     e.preventDefault();
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-    
-        if (!emailRegex.test(formData.email2)) {
-          toast.error("Invalid email address!");
-          return;
-        }
+
+    if (!emailRegex.test(formData.email2)) {
+      toast.error("Invalid email address!");
+      return;
+    }
     if (
       formData.name2.trim() === '' ||
       formData.phone2.trim() === '' ||
@@ -384,8 +384,10 @@ const Website = () => {
               </div>
 
               <div className="captcha-box">
-                <div className="inputcapt">
-                  <span>{`${firstNo} + ${secondNo} = `}</span>
+                <div className="inputcapt"> 
+                  <label htmlFor="ans-captch" className="visually-hidden">
+                    {`${firstNo} + ${secondNo} = `}
+                  </label>
                   <input
                     type="number"
                     value={userAnswer}
@@ -394,10 +396,12 @@ const Website = () => {
                     id="ans-captch"
                   />
                 </div>
+
                 <span className="captcha-btn" onClick={verifyCaptcha}>
                   Verify Captcha
                 </span>
               </div>
+
 
               <button disabled={loading} className="contact-htmlForm-btn" type="submit">
                 {loading ? 'Sending...' : "Submit"}

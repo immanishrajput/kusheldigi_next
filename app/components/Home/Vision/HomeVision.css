@@ -362,7 +362,7 @@ strong {
 }
 
 .services-we-served .section-grid .section-grid-item .services-we-served-header .btn-link {
-  color: #1b76fe;
+  color: #0c61ff;
   font-weight: 600;
 }
 
@@ -371,7 +371,7 @@ strong {
 }
 
 .services-we-served .section-grid .section-grid-item .services-we-served-header .btn-link>.btn-icon svg path {
-  fill: #1b76fe;
+  fill: #0c61ff;
 }
 
 .services-we-served .section-grid .section-grid-item .services-we-served-search {
@@ -863,7 +863,7 @@ strong {
 }
 
 .services-we-served .section-grid .section-grid-item .services-box-list-nav>li a {
-  color: #1b76fe;
+  color: #0c61ff;
   font-weight: 500;
 }
 
@@ -894,13 +894,13 @@ strong {
 }
 
 .search-btn {
-  border: 1px solid #1b76fe;
+  border: 1px solid #0c61ff;
 }
 
 .search-btn:hover {
   background-color: transparent;
-  border: 1px solid #1b76fe;
-  color: #1b76fe;
+  border: 1px solid #0c61ff;
+  color: #0c61ff;
 }
 
 .bg-white {

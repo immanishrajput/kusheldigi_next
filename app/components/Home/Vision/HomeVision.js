@@ -55,7 +55,6 @@ const Website = () => {
                     id="services-box-0"
                     data-index={0}
                     className={`services-box-item ${activeIndex === 0 ? 'bg-white' : ''}`}
-                    role="none"
                     onClick={() => handleClick(0)}
                   >
                     <div className="services-box-item-header">
@@ -197,8 +196,7 @@ const Website = () => {
                     id="services-box-1"
                     data-index={1}
                     //   className="services-box-item"
-                    className={`services-box-item ${activeIndex === 1 ? 'bg-white' : ''}`}
-                    role="none"
+                    className={`services-box-item ${activeIndex === 1 ? 'bg-white' : ''}`} 
                     onClick={() => handleClick(1)}
                   >
                     <div className="services-box-item-header">
@@ -378,8 +376,7 @@ const Website = () => {
                   <li
                     id="services-box-2"
                     data-index={2}
-                    className={`services-box-item ${activeIndex === 2 ? 'bg-white' : ''}`}
-                    role="none"
+                    className={`services-box-item ${activeIndex === 2 ? 'bg-white' : ''}`} 
                     onClick={() => handleClick(2)}
                   >
                     <div className="services-box-item-header">
@@ -553,8 +550,7 @@ const Website = () => {
                     id="services-box-3"
                     data-index={3}
                     //   className="services-box-item"
-                    className={`services-box-item ${activeIndex === 3 ? 'bg-white' : ''}`}
-                    role="none"
+                    className={`services-box-item ${activeIndex === 3 ? 'bg-white' : ''}`} 
                     onClick={() => handleClick(3)}
                   >
                     <div className="services-box-item-header">
@@ -700,8 +696,7 @@ const Website = () => {
                   <li
                     id="services-box-4"
                     data-index={4}
-                    className={`services-box-item ${activeIndex === 4 ? 'bg-white' : ''}`}
-                    role="none"
+                    className={`services-box-item ${activeIndex === 4 ? 'bg-white' : ''}`} 
                     onClick={() => handleClick(4)}
                   >
                     <div className="services-box-item-header">
@@ -873,8 +868,7 @@ const Website = () => {
                   <li
                     id="services-box-5"
                     data-index={5}
-                    className={`services-box-item ${activeIndex === 5 ? 'bg-white' : ''}`}
-                    role="none"
+                    className={`services-box-item ${activeIndex === 5 ? 'bg-white' : ''}`} 
                     onClick={() => handleClick(5)}
                   >
                     <div className="services-box-item-header">

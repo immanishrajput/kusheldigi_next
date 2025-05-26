@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import './styles.css';
@@ -14,6 +14,15 @@ function Home2Testimonial() {
   const goNext = () => {
     splideRef.current.splide.go('+1');
   };
+
+   useEffect(() => {
+    const slides = document.querySelectorAll('.splide__slide');
+    slides.forEach(slide => {
+      if (slide.getAttribute('role') === 'group') {
+        slide.removeAttribute('role');
+      }
+    });
+  }, []);
 
   return (
     <div className='h2testimonialwrap'>
@@ -91,7 +100,7 @@ function Home2Testimonial() {
             gap: '20px',
             pagination: false,
             arrows: false,
-            drag   : 'free',
+            drag: 'free',
             interval: 2000,
             autoScroll: {
               speed: 1,
@@ -101,114 +110,135 @@ function Home2Testimonial() {
                 perPage: 3,
                 gap: '20px',
               },
-              1200:{
+              1200: {
                 perPage: 2,
                 gap: '10px',
-                width:"74%"
+                width: "74%"
               },
-             1023:{
-              perPage: 2,
-              gap: '10px',
-              width:"55.3%"
-             },
+              1023: {
+                perPage: 2,
+                gap: '10px',
+                width: "55.3%"
+              },
               600: {
                 speed: 800,
                 perPage: 1,
                 gap: "20px",
               },
-             
-              
+
+
             },
           }}
         >
           <SplideSlide>
             <div className='testswipsingle'>
 
-             <div className='testImageCloud'>
-             <div>
-             <Image width={120} height={18} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
-             </div>
-             
-            <div className='testImage'>
-            <Image width={70} height={70} src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842698/rajat-mithal-logo_ig2ccd.png" alt='company logo'/> 
-            </div>
-             </div>
+              <div className='testImageCloud'>
+                <div>
+                  <Image loading="lazy" width={120} height={18} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
+                </div>
+
+                <div className='testImage'>
+                  <Image
+                    loading="lazy"
+                    width={70}
+                    height={70}
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842698/rajat-mithal-logo_ig2ccd.png"
+                    alt="Rajat Mithal company logo"
+                  />
+                </div>
+
+              </div>
               <p className='reviewsss'>
-              Kushel Digi Solutions delivered exceptional ecommerce development services and helped us built a highly functional online platform. The team's technical skills and experience is really commendable which provided a seamless digital upgrade. 
+                Kushel Digi Solutions delivered exceptional ecommerce development services and helped us built a highly functional online platform. The team's technical skills and experience is really commendable which provided a seamless digital upgrade.
               </p>
               <div className='home-testi-name'>
-              <p className='reviewname'>Shikhar Mithal</p>
-              <p className='projectre'>Mithal Industries</p>
+                <p className='reviewname'>Shikhar Mithal</p>
+                <p className='projectre'>Mithal Industries</p>
               </div>
             </div>
           </SplideSlide>
 
           <SplideSlide>
             <div className='testswipsingle'>
-            <div className='testImageCloud'>
-             <div>
-             <Image width={120} height={18} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
-             </div>
-             
-            <div className='testImage'>
-            <Image width={70} height={70} src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842494/manish-bhai-1_hmba1g.png" alt='company logo'/>
-            </div>
-             </div>
+              <div className='testImageCloud'>
+                <div>
+                  <Image loading="lazy" width={120} height={18} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
+                </div>
+
+                <div className='testImage'>
+                  <Image
+                    loading="lazy"
+                    width={70}
+                    height={70}
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842494/manish-bhai-1_hmba1g.png"
+                    alt="Manish Bhai company logo" />
+                </div>
+              </div>
               <p className='reviewsss'>
-              From designing to execution, Kushel Digi Solutions was the best choice for the innovative development of our project. Their expertise as well as attention to detail in website development & BigCommerce solutions ensured to enhance our digital strategy and user's online experience. 
+                From designing to execution, Kushel Digi Solutions was the best choice for the innovative development of our project. Their expertise as well as attention to detail in website development & BigCommerce solutions ensured to enhance our digital strategy and user's online experience.
               </p>
-             <div className='home-testi-name'>
-               <p className='reviewname'> Annu Koteshwara</p>
-              <p className='projectre'>Slides365</p>
-             </div>
+              <div className='home-testi-name'>
+                <p className='reviewname'> Annu Koteshwara</p>
+                <p className='projectre'>Slides365</p>
+              </div>
             </div>
           </SplideSlide>
 
           <SplideSlide>
             <div className='testswipsingle'>
-            <div className='testImageCloud'>
-             <div className='testImage1'>
-             <Image width={120} height={18} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
-             </div>
-             
-            <div className='testImage'>
-            <Image width={70} height={70} src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842480/manish-bhai-3_uz3ee0.png" alt='company logo'/>
-            </div>
-             </div>
+              <div className='testImageCloud'>
+                <div className='testImage1'>
+                  <Image loading="lazy" width={120} height={18} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
+                </div>
+
+                <div className='testImage'>
+                  <Image
+                    loading="lazy"
+                    width={70}
+                    height={70}
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842480/manish-bhai-3_uz3ee0.png"
+                    alt="Manish Bhai company logo" />
+                </div>
+              </div>
               <p className='reviewsss'>
-              Kushel Digi Solutions understands the core of eCommerce development and gives BigCommerce solutions which turned out as a massive game changer for our online business storefront. Their team of professionals helped gaining us scalability and improved customer service experience. 
+                Kushel Digi Solutions understands the core of eCommerce development and gives BigCommerce solutions which turned out as a massive game changer for our online business storefront. Their team of professionals helped gaining us scalability and improved customer service experience.
               </p>
-            <div className='home-testi-name'>
-            <p className='reviewname'>Aron Kiefer</p>
-            <p className='projectre'>MyCrazySimpleCMS</p>
-            </div>
+              <div className='home-testi-name'>
+                <p className='reviewname'>Aron Kiefer</p>
+                <p className='projectre'>MyCrazySimpleCMS</p>
+              </div>
             </div>
           </SplideSlide>
 
           <SplideSlide>
             <div className='testswipsingle'>
-            <div className='testImageCloud'>
-             <div>
-             <Image width={120} height={18} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
-             </div>
-             
-            <div className='testImage'>
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842486/manish-bhai-2_strlgl.png" alt='company logo'/>
-            </div>
-             </div>
+              <div className='testImageCloud'>
+                <div>
+                  <Image loading="lazy" width={120} height={18} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
+                </div>
+
+                <div className='testImage'>
+                  <Image
+                    loading="lazy"
+                    width={70}
+                    height={70}
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842486/manish-bhai-2_strlgl.png" alt="Manish Bhai company logo" />
+                </div>
+              </div>
               <p className='reviewsss'>
-              Working with Kushel Digi Solutions was a fantastic experience. Their strategic approach to eCommerce development and website development exceeded our expectations, therefore made the entire process reliable and hassle free. The team was highly responsive and offered customised solutions for every problem.
+                Working with Kushel Digi Solutions was a fantastic experience. Their strategic approach to eCommerce development and website development exceeded our expectations, therefore made the entire process reliable and hassle free. The team was highly responsive and offered customised solutions for every problem.
               </p>
-             <div className='home-testi-name'>
-             <p className='reviewname'>Rupam Ray </p>
-             <p className='projectre'>Nirviex.in</p>
-             </div>
+              <div className='home-testi-name'>
+                <p className='reviewname'>Rupam Ray </p>
+                <p className='projectre'>Nirviex.in</p>
+              </div>
             </div>
           </SplideSlide>
 
           {/* <SplideSlide>
             <div className='testswipsingle'>
-              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
+              <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
               <p className='reviewsss'>
                 SMV industries are satisfied with the efforts of Kushel Digi that have streamlined our service processes, making it easier for clients to access information and engage with us. The enhanced digital presence has boosted our operational efficiency and client interactions. Kushel Digi Solutions truly understands our industry needs and has delivered exceptional results.
               </p>
