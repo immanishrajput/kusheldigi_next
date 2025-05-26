@@ -58,7 +58,7 @@ const Section8 = () => {
           <div key={index} className={`core-value-card ${value.className}`}>
             <div className="icon-title-wrapper">
               <span className="core-value-icon">
-                <img loading="lazy" src={value.img}/>
+                <img loading="lazy" src={value.img} alt="core-icons"/>
               </span>
               <h3 className="core-value-heading">{value.title}</h3>
              

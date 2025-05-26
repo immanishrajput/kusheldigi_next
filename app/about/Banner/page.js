@@ -42,16 +42,16 @@ const Banner = () => {
                             <p>Our recognition</p>
 
                             <div className='aboutImagKush'>
-                                <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743148178/Certified-Bigcommerce-Partner__of0fqt.png" alt="certified" />
-                                <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993082/designrush_jkyjny.webp" alt="best" />
-                                <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993106/ecommerce-developers-india_zfydfo.png" alt="ecoomerce" />
-                                <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340304/Partner-Certified-Wordmark_j6b9ar.png" className='aboutimgkush' alt="bigcommerce" />
+                                <img loading='lazy' width={100} height={100} src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743148178/Certified-Bigcommerce-Partner__of0fqt.png" alt="certified" />
+                                <img loading='lazy' width={100} height={100} src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993082/designrush_jkyjny.webp" alt="best" />
+                                <img loading='lazy' width={100} height={108} src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993106/ecommerce-developers-india_zfydfo.png" alt="ecoomerce" />
+                                <img loading='lazy' width={180} height={57} src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743340304/Partner-Certified-Wordmark_j6b9ar.png" className='aboutimgkush' alt="bigcommerce" />
                             </div>
                         </div>
                     </div>
-                        <div className='KushaboupaImage'>
-                            <img loading='lazy' src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748021711/file_1747984679-1747984681_-_Copy_raoppu.webp" alt="banner" />
-                        </div>
+                    <div className='KushaboupaImage'>
+                        <img loading='lazy' width={600} height={517} src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748021711/file_1747984679-1747984681_-_Copy_raoppu.webp" alt="banner" />
+                    </div>
                 </div>
             </section>
         </>

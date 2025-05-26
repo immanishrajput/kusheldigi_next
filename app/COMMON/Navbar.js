@@ -267,7 +267,7 @@ const Navbar = () => {
 
   const [curopen, setcuropen] = useState(false);
 
-  const [toggle, setToggle] = useState(false); 
+  const [toggle, setToggle] = useState(false);
 
   //   (function (c, s, q, u, a, r, e) {
   //     c.hj=c.hj||function(){(c.hj.q=c.hj.q||[]).push(arguments)};
@@ -404,12 +404,14 @@ const Navbar = () => {
                   <img
                     loading="lazy"
                     decoding="async"
-                    width="180"
+                    width="170"
                     height="56"
                     className="kdssslogo"
-                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/w_180,h_56,c_limit,q_auto,f_auto/v1739012691/logo_zckmvw.png"
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/w_340,h_112,c_limit,q_auto,f_auto/v1739012691/logo_zckmvw.png"
                     alt="KushelDigi Solutions Logo"
-                    title="KushelDigi Solutions Logo" />
+                    title="KushelDigi Solutions Logo"
+                  />
+
 
                 </div>
               </Link>
@@ -472,11 +474,9 @@ const Navbar = () => {
                           <div className="left-service-drop">
                             <div className="left-side-servises-containt">
                               <div className="left-head-services">
-                                <span
-                                  onClick={() => router.push('/mobile-application-development')}
-                                >
+                                <Link href="/mobile-application-development">
                                   Mobile App Development
-                                </span>
+                                </Link>
                               </div>
                               <div className="left-containt-services">
                                 <Link href="/ios">iOS </Link>
@@ -555,9 +555,7 @@ const Navbar = () => {
                             <div className="left-side-servises-containt">
                               <div className="left-head-services">
                                 <Link href="/graphic-design">
-                                <span>
                                   Graphic Design
-                                </span>
                                 </Link>
                               </div>
                               {/* <div className="left-containt-services">
