@@ -476,9 +476,9 @@ const Navbar = () => {
                           <div className="left-service-drop">
                             <div className="left-side-servises-containt">
                               <div className="left-head-services">
-                                <Link href="/mobile-application-development">
+                                <p onClick={() => router.push('/mobile-application-development')}>
                                   Mobile App Development
-                                </Link>
+                                </p>
                               </div>
                               <div className="left-containt-services">
                                 <Link href="/ios">iOS </Link>

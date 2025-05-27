@@ -29631,10 +29631,10 @@ form button:hover {}
 }
 
 .footer-Bg-img {
-    background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v1741005830/footerBgImage_qjv7en.png");
+    background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/f_auto,q_auto/footerBgImage_qjv7en.webp");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
 }
 
 .foot1 p {
