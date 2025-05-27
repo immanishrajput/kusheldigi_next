@@ -23230,7 +23230,8 @@ input[type=number] {
 
 .first-header {
     display: flex;
-    align-items: center
+    align-items: center;
+    gap: 10px;
 }
 
 .first-header span {
@@ -23295,7 +23296,7 @@ input[type=number] {
 .email {
     display: flex;
     align-items: center;
-    margin-left: 20px
+    /* margin-left: 20px */
 }
 
 .port-card2 b {
