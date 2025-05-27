@@ -1,12 +1,12 @@
 .new-banner-container {
     width: 100%;
-    /* height: 100vh; */
-    background: url('/new-banner-bg.webp');
+    background: url('https://res.cloudinary.com/dqjbzgksw/image/upload/f_auto,q_auto,w_1600/v1748345231/new-banner-bg_dxpmfr.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 4rem 60px;
 }
+
 
 .inner-new-banner-container {
     max-width: 1720px;
