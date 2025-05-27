@@ -403,15 +403,17 @@ const Navbar = () => {
                 <div className="logo">
                   <img
                     loading="lazy"
-                    decoding="async"
                     width="170"
                     height="56"
-                    className="kdssslogo"
-                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/w_340,h_112,c_limit,q_auto,f_auto/v1739012691/logo_zckmvw.png"
+                    class="kdssslogo"
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/f_auto,q_auto,w_170,h_56/v1739012691/logo_zckmvw.png"
+                    srcset="
+    https://res.cloudinary.com/dd9tagtiw/image/upload/f_auto,q_auto,w_170,h_56/v1739012691/logo_zckmvw.png 1x,
+    https://res.cloudinary.com/dd9tagtiw/image/upload/f_auto,q_auto,w_340,h_112/v1739012691/logo_zckmvw.png 2x,
+    https://res.cloudinary.com/dd9tagtiw/image/upload/f_auto,q_auto,w_510,h_168/v1739012691/logo_zckmvw.png 3x"
                     alt="KushelDigi Solutions Logo"
                     title="KushelDigi Solutions Logo"
                   />
-
 
                 </div>
               </Link>

@@ -250,21 +250,21 @@ const Popup = () => {
 
                   <div className="captcha-box">
                     <div className="inputcapt">
-                      <span>{`${firstNo} + ${secondNo} = `}</span>
+                      <label htmlFor="ans-captch" className="visually-hidden">
+                        {`${firstNo} + ${secondNo} = `}
+                      </label>
                       <input
                         type="number"
                         value={userAnswer}
                         onChange={(e) => setUserAnswer(e.target.value)}
                         required
-                        id="popup-captchaAns"
+                        id="ans-captch"
                       />
                     </div>
-                    <button
-                      className="popup-captcha-btn"
-                      onClick={verifyCaptcha}
-                    >
+
+                    <span className="captcha-btn" onClick={verifyCaptcha}>
                       Verify Captcha
-                    </button>
+                    </span>
                   </div>
 
                   <button

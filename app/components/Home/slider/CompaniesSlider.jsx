@@ -6,6 +6,40 @@ import "slick-carousel/slick/slick-theme.css";
 import './NewSlider.css';
 import Slider from "react-slick";
 import Image from "next/image";
+
+const slider1Images = [
+  { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668965/shooters_xyihu9.png' },
+  { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668965/veteran_i5glwp.png' },
+  { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668956/image_4_mebvv1.png' },
+  { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668956/blackrhino_bufosy.png', className: 'black-rhino-img' },
+  { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668955/CodePXL_Web_Logo_1_aueiql.png' },
+  { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668954/Group_1_171280660_tyojfe.png' },
+  { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668955/70904_228x204_1_l5j13v.png', className: 'madfish-img' },
+  { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668955/Slide365_Logo_1_sgrncf.png' },
+];
+
+const slider2Images = [
+  { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668954/rifle_zq5k1k.png' },
+  { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668954/Group_1171280661_capgvx.png', className: 'ride-img' },
+  { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668955/2AA_Logo_Black_2_1_ickkxz.png', className: 'armore-img' },
+  { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668955/sa_rqpzv0.png' },
+  { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668954/graco_tw5ipb.png' },
+  { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668954/topbrass_miqpat.png' },
+  { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668954/solenoid_f5nbub.png' },
+  { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668954/typhoon_sorthk.png' },
+];
+
+const slider3Images = [
+  { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668954/bobcat_fo7ruq.png' },
+  { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668954/four_sob0lr.png' },
+  { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668954/landf_swe3ad.jpg' },
+  { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743672316/Group_1171280670_1_fsujvq.png' },
+  { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668965/shooters_xyihu9.png' },
+  { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668965/veteran_i5glwp.png' },
+  { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668956/image_4_mebvv1.png' },
+  { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668955/CodePXL_Web_Logo_1_aueiql.png' },
+];
+
 const CompaniesSlider = () => {
   const [autoplaySpeed, setAutoplaySpeed] = useState(1);
 
@@ -38,7 +72,22 @@ const CompaniesSlider = () => {
     ]
   };
 
-  
+  const renderSlider = (images, rtl = false) => (
+    <Slider {...commonSettings} rtl={rtl} className="custom-slider">
+      {images.map((img, index) => (
+        <div className="slide-item" key={index}>
+          <Image
+            width={298}
+            height={173}
+            loading="lazy"
+            src={img.src}
+            alt="logo"
+            className={img.className || ''}
+          />
+        </div>
+      ))}
+    </Slider>
+  );
 
   return (
     <div className="logo-container">
@@ -48,94 +97,12 @@ const CompaniesSlider = () => {
             Trusted choice of Top <strong>E-commerce</strong> Brands Worldwide
           </p>
         </div>
-
-
-        <Slider {...commonSettings} className="custom-slider">
-          <div className="slide-item">
-            <Image width="298" height="173" loading="lazy" src={`https://res.cloudinary.com/dgif730br/image/upload/v1743668965/shooters_xyihu9.png`} alt="logo" />
-          </div>
-          <div className="slide-item">
-            <Image width="298" height="173" loading="lazy" src={`https://res.cloudinary.com/dgif730br/image/upload/v1743668965/veteran_i5glwp.png`} alt="logo" />
-          </div>
-          <div className="slide-item">
-            <Image width="298" height="173" loading="lazy" src={`https://res.cloudinary.com/dgif730br/image/upload/v1743668956/image_4_mebvv1.png`} alt="logo" />
-          </div>
-          <div className="slide-item">
-            <Image width="298" className="black-rhino-img" height="173" loading="lazy" src={`https://res.cloudinary.com/dgif730br/image/upload/v1743668956/blackrhino_bufosy.png`} alt="logo" />
-          </div>
-          <div className="slide-item">
-            <Image width="298" height="173" loading="lazy" src={`https://res.cloudinary.com/dgif730br/image/upload/v1743668955/CodePXL_Web_Logo_1_aueiql.png`} alt="logo" />
-          </div>
-          <div className="slide-item">
-            <Image width="298" height="173" loading="lazy" src={`https://res.cloudinary.com/dgif730br/image/upload/v1743668954/Group_1_171280660_tyojfe.png`} alt="logo" />
-          </div>
-          <div className="slide-item">
-            <Image width="298" className="madfish-img" height="173" loading="lazy" src={`https://res.cloudinary.com/dgif730br/image/upload/v1743668955/70904_228x204_1_l5j13v.png`} alt="logo" />
-          </div>
-          <div className="slide-item">
-            <Image width="298" height="173" loading="lazy" src={`https://res.cloudinary.com/dgif730br/image/upload/v1743668955/Slide365_Logo_1_sgrncf.png`} alt="logo" />
-          </div>
-        </Slider>
-
-        <Slider {...commonSettings} rtl className="custom-slider">
-          <div className="slide-item">
-            <Image width="298" height="173" loading="lazy" src={`https://res.cloudinary.com/dgif730br/image/upload/v1743668954/rifle_zq5k1k.png`} alt="logo" />
-          </div>
-          <div className="slide-item">
-            <Image width="298" className="ride-img" height="173" loading="lazy" src={`https://res.cloudinary.com/dgif730br/image/upload/v1743668954/Group_1171280661_capgvx.png`} alt="logo" />
-          </div>
-          <div className="slide-item">
-            <Image width="298" className="armore-img" height="173" loading="lazy" src={`https://res.cloudinary.com/dgif730br/image/upload/v1743668955/2AA_Logo_Black_2_1_ickkxz.png`} alt="logo" />
-          </div>
-          <div className="slide-item">
-            <Image width="298" height="173" loading="lazy" src={`https://res.cloudinary.com/dgif730br/image/upload/v1743668955/sa_rqpzv0.png`} alt="logo" />
-          </div>
-          <div className="slide-item">
-            <Image width="298" height="173" loading="lazy" src={`https://res.cloudinary.com/dgif730br/image/upload/v1743668954/graco_tw5ipb.png`} alt="logo" />
-          </div>
-          <div className="slide-item">
-            <Image width="298" height="173" loading="lazy" src={`https://res.cloudinary.com/dgif730br/image/upload/v1743668954/topbrass_miqpat.png`} alt="logo" />
-          </div>
-          <div className="slide-item">
-            <Image width="298" height="173" loading="lazy" src={`https://res.cloudinary.com/dgif730br/image/upload/v1743668954/solenoid_f5nbub.png`} alt="logo" />
-          </div>
-          <div className="slide-item">
-            <Image width="298" height="173" loading="lazy" src={`https://res.cloudinary.com/dgif730br/image/upload/v1743668954/typhoon_sorthk.png`} alt="logo" />
-          </div>
-        </Slider>
-
-
-
-        <Slider {...commonSettings} className="custom-slider">
-          <div className="slide-item">
-            <Image width="298" height="173" loading="lazy" src={`https://res.cloudinary.com/dgif730br/image/upload/v1743668954/bobcat_fo7ruq.png`} alt="logo" />
-          </div>
-          <div className="slide-item">
-            <Image width="298" height="173" loading="lazy" src={`https://res.cloudinary.com/dgif730br/image/upload/v1743668954/four_sob0lr.png`} alt="logo" />
-          </div>
-          <div className="slide-item">
-            <Image width="298" height="173" loading="lazy" src={`https://res.cloudinary.com/dgif730br/image/upload/v1743668954/landf_swe3ad.jpg`} alt="logo" />
-          </div>
-          <div className="slide-item">
-            <Image width="298" height="173" loading="lazy" src={`https://res.cloudinary.com/dgif730br/image/upload/v1743672316/Group_1171280670_1_fsujvq.png`} alt="logo" />
-          </div>
-          <div className="slide-item">
-            <Image width="298" height="173" loading="lazy" src={`https://res.cloudinary.com/dgif730br/image/upload/v1743668965/shooters_xyihu9.png`} alt="logo" />
-          </div>
-          <div className="slide-item">
-            <Image width="298" height="173" loading="lazy" src={`https://res.cloudinary.com/dgif730br/image/upload/v1743668965/veteran_i5glwp.png`} alt="logo" />
-          </div>
-          <div className="slide-item">
-            <Image width="298" height="173" loading="lazy" src={`https://res.cloudinary.com/dgif730br/image/upload/v1743668956/image_4_mebvv1.png`} alt="logo" />
-          </div>
-          <div className="slide-item">
-            <Image width="298" height="173" loading="lazy" src={`https://res.cloudinary.com/dgif730br/image/upload/v1743668955/CodePXL_Web_Logo_1_aueiql.png`} alt="logo" />
-          </div>
-        </Slider>
+        {renderSlider(slider1Images)}
+        {renderSlider(slider2Images, true)}
+        {renderSlider(slider3Images)}
       </div>
     </div>
   );
 };
 
 export default CompaniesSlider;
-
