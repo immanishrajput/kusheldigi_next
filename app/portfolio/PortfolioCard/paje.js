@@ -198,8 +198,8 @@ const portfolioData = [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
     links: {
-
-      caseStudy: '/blackRhino',
+      caseStudy: '/Ai',
+      caseStudy: '/Survival',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
