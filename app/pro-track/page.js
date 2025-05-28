@@ -257,7 +257,7 @@ const ProTrucks = () => {
             </div>
           </div>
         </div>
-        <div className="kick-start kick-start22">
+        {/* <div className="kick-start kick-start22">
           <div className="kick-first kick-first222">
             <div className="kickds">
               <img className="kick_mart" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740471646/trackent_mkilsg.png' alt="kick5" />
@@ -270,7 +270,7 @@ const ProTrucks = () => {
               alt="hh8"
             />
           </div>
-        </div>
+        </div> */}
         <div className="azib prozib">
           <div className="azib1">
             <div className="azib1-sect">

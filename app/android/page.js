@@ -265,7 +265,7 @@ const Android = ({ notify }) => {
           <div className="android-perform add_78541254789856">
             <div className="andoid-perform-flex">
               <div className="android-pflex">
-                <h3>250+</h3>
+                <h3>50+</h3>
                 <p>Android developers <br /> in-house</p>
               </div>
               <div className="android-pflex">

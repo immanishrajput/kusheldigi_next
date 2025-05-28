@@ -28801,6 +28801,65 @@ form button {
     margin: 0 10px !important
 }
 
+/*  */
+
+/* Main wrapper of the component */
+#other-project {
+    padding: 4rem 1rem;
+    background-color: #f9f9f9;
+  }
+  
+  /* Heading of the section */
+  #other-project-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #1f2937; /* dark gray */
+  }
+  
+  /* First Slide Image Container */
+  #other-box1,
+  #other-box2,
+  #other-box3 {
+    width: 100%;
+    height: 200px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #other-box1 img,
+  #other-box2 img,
+  #other-box3 img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+  }
+  
+  /* First Slide Button */
+  #other-btn1,
+  #other-btn2,
+  #other-btn3 {
+    background-color: #2563eb;
+    color: #fff;
+    padding: 0.5rem 1.25rem;
+    font-size: 0.95rem;
+    border: none;
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #other-btn1:hover,
+  #other-btn2:hover,
+  #other-btn3:hover {
+    background-color: #1d4ed8;
+  }
+  
+/*  */
+
 .business-box {
     max-width: 26vw;
     width: 100%;
@@ -36880,8 +36939,8 @@ video {
 }
 
 .other-project {
-    padding: 170px 100px;
-    padding-bottom: 120px
+    padding: 20px 60px;
+    padding-bottom: 50px
 }
 
 .other-project .splide__arrow--prev {

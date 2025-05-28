@@ -327,8 +327,8 @@ useEffect(() => {
           </ul>
         </div>
 
-        <div className="bg-video-wrap">
-          {/* <video src="../../public/assets/rima.mp4" loop muted autoPlay></video> */}
+        {/* <div className="bg-video-wrap">
+          <video src="../../public/assets/rima.mp4" loop muted autoPlay></video>
           <video 
       src="/assets/rima.mp4" 
       loop 
@@ -338,7 +338,7 @@ useEffect(() => {
     />
           <div className="overlay"></div>
           <img className="kini" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180216/kick5_xhzccf.png' alt="aa" />
-        </div>
+        </div> */}
         <div className="azib kickazib">
           <div className="azib1">
             <div className="azib1-sect">
@@ -377,7 +377,8 @@ useEffect(() => {
           </p>
           <h4>Matt Reeder</h4>
         </div>
-        <div className="other-project">
+
+        {/* <div className="other-project">
           <h3 className="text-center">OTHER PROJECTS</h3>
           <Splide
             aria-label="Our Services"
@@ -389,6 +390,17 @@ useEffect(() => {
               type: "loop",
               interval: 2000,
               drag: true,
+              breakpoints: {
+                1280: {
+                  perPage: 3,
+                },
+                1024: {
+                  perPage: 2,
+                },
+                640: {
+                  perPage: 1,
+                },
+              },
             }}
           >
             <SplideSlide>
@@ -444,7 +456,100 @@ useEffect(() => {
               </div>
             </SplideSlide>
           </Splide>
-        </div>
+        </div> */}
+
+<div className="other-project">
+      <h3 className="other-project-heading">OTHER PROJECTS</h3>
+      <Splide
+        aria-label="Our Services"
+        options={{
+          perPage: 3,
+          perMove: 1,
+          autoplay: true,
+          pauseOnHover: true,
+          type: "loop",
+          interval: 2000,
+          drag: true,
+          gap: '1rem',
+          breakpoints: {
+            1280: { perPage: 3 },
+            1024: { perPage: 2 },
+            640: { perPage: 1 },
+          },
+        }}
+      >
+        {/* Slide 1 */}
+        <SplideSlide>
+          <div className="other-card" id="other-card-1">
+            <div className="other-box" id="other-box-1">
+              <img
+                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180461/rel1_azwccy.png"
+                alt="rel1"
+                id="other-img-1"
+              />
+            </div>
+            <div className="other-tox-para" id="other-tox-para-1">
+              <h3 id="title-1">RELY INNOVATION</h3>
+              <p id="desc-1">
+                Get peace of mind. Install alarms that not only notify you of danger,
+                but also clearly instruct you on what to do next.
+              </p>
+              <Link href="/rely">
+                <button className="view-btn" id="view-btn-1">View</button>
+              </Link>
+            </div>
+          </div>
+        </SplideSlide>
+
+        {/* Slide 2 */}
+        <SplideSlide>
+          <div className="other-card" id="other-card-2">
+            <div className="other-box" id="other-box-2">
+              <img
+                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180527/rel2_up6uex.png"
+                alt="rel2"
+                id="other-img-2"
+              />
+            </div>
+            <div className="other-tox-para" id="other-tox-para-2">
+              <h3 id="title-2">PRO TRUCKS</h3>
+              <p id="desc-2">
+                Aftermarket suspension lift kits, leveling kits and accessories for
+                4X4 off-road truck and jeep enthusiasts.
+              </p>
+              <Link href="/pro-track">
+                <button className="view-btn" id="view-btn-2">View</button>
+              </Link>
+            </div>
+          </div>
+        </SplideSlide>
+
+        {/* Slide 3 */}
+        <SplideSlide>
+          <div className="other-card" id="other-card-3">
+            <div className="other-box" id="other-box-3">
+              <img
+                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180622/rel3_calt2h.png"
+                alt="rel3"
+                id="other-img-3"
+              />
+            </div>
+            <div className="other-tox-para" id="other-tox-para-3">
+              <h3 id="title-3">SOLENOID NINJA</h3>
+              <p id="desc-3">
+                Due to high volatility in the materials market we are currently
+                experiencing longer than normal lead times.
+              </p>
+              <Link href="/solenoid-ninja">
+                <button className="view-btn" id="view-btn-3">View</button>
+              </Link>
+            </div>
+          </div>
+        </SplideSlide>
+      </Splide>
+    </div>
+  
+
         <div className="req">
           <div className="req-sect">
             <h3>

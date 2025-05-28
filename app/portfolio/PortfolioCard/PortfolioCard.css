@@ -148,12 +148,13 @@
         background-image: url("https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746541118/image_3_dptpxb.png");
        
      }
-     #automotive-103{
-        background: url("https://res.cloudinary.com/dal5dlztv/image/upload/v1747322937/image_16_cqt1hx.png");
-     }
+    
      #automotive-104{
         background-image: url("https://res.cloudinary.com/dal5dlztv/image/upload/v1746888704/image_12_nwrtt6.png");
     
+     }
+     #automotive-501{
+        background: url("https://res.cloudinary.com/dal5dlztv/image/upload/v1747322937/image_16_cqt1hx.png");
      }
      #automotive-105 {
         background-image: url("https://res.cloudinary.com/dal5dlztv/image/upload/v1747932056/image_17_kiy08o.png");
@@ -269,7 +270,7 @@ background-image: url("https://res.cloudinary.com/dd9tagtiw/image/upload/v174047
 }
 #automotive-1, #automotive-2, #automotive-3, #automotive-4,  #automotive-5 ,  #automotive-6,  #automotive-7,  #automotive-8, #automotive-9, #automotive-10, #automotive-11, #automotive-12, #automotive-13,  #automotive-14, #automotive-15, #automotive-16, #automotive-17, #automotive-18,   #automotive-19,  #automotive-20, #automotive-21, #automotive-22, #automotive-23, #automotive-24, #automotive-25, #automotive-26,
 #automotive-27,
-#automotive-28, #automotive-101, #automotive-29, #automotive-30, #automotive-31, #automotive-32, #automotive-33,#automotive-59, #automotive-100, #automotive-101, #automotive-102, #automotive-104, #automotive-105, #automotive-106, #automotive-107, #automotive-108, #automotive-109, #automotive-110, #automotive-111  #automotive-103, #automotive-150, #automotive-151{
+#automotive-28, #automotive-101, #automotive-29, #automotive-30, #automotive-31, #automotive-32, #automotive-33,#automotive-59, #automotive-100, #automotive-101, #automotive-102, #automotive-104, #automotive-105, #automotive-106, #automotive-107, #automotive-108, #automotive-109, #automotive-110, #automotive-111  #automotive-103, #automotive-150, #automotive-151, #automotive-501{
     background-size: cover;
     overflow: hidden;
     border-radius: 10px;
@@ -518,7 +519,7 @@ margin: 20px 0px 0px 0px;
 }
 }
 @media (max-width:390px){
-    #automotive-1, #automotive-2, #automotive-3, #automotive-4, #automotive-5, #automotive-6, #automotive-7, #automotive-8, #automotive-9, #automotive-10, #automotive-11, #automotive-12, #automotive-13, #automotive-14, #automotive-15, #automotive-16, #automotive-17, #automotive-18, #automotive-19, #automotive-20, #automotive-21, #automotive-22, #automotive-23, #automotive-24, #automotive-25, #automotive-26, #automotive-27, #automotive-28, #automotive-29, #automotive-30, #automotive-31, #automotive-32, #automotive-33, #automotive-59, #automotive-100, #automotive-101, #automotive-102, #automotive-104, #automotive-105, #automotive-106, #automotive-107, #automotive-108, #automotive-109, #automotive-111, #automotive-110, #automotive-103, #automotive-150, #automotive-151 {
+    #automotive-1, #automotive-2, #automotive-3, #automotive-4, #automotive-5, #automotive-6, #automotive-7, #automotive-8, #automotive-9, #automotive-10, #automotive-11, #automotive-12, #automotive-13, #automotive-14, #automotive-15, #automotive-16, #automotive-17, #automotive-18, #automotive-19, #automotive-20, #automotive-21, #automotive-22, #automotive-23, #automotive-24, #automotive-25, #automotive-26, #automotive-27, #automotive-28, #automotive-29, #automotive-30, #automotive-31, #automotive-32, #automotive-33, #automotive-59, #automotive-100, #automotive-101, #automotive-102, #automotive-104, #automotive-105, #automotive-106, #automotive-107, #automotive-108, #automotive-109, #automotive-111, #automotive-110, #automotive-103, #automotive-150, #automotive-151, #automotive-501 {
         width: 320px !important;
 }
 .each-portfolio:hover .top-company-logos{
@@ -526,7 +527,7 @@ margin: 20px 0px 0px 0px;
 }
 }
 @media (max-width:375px){
-    #automotive-1, #automotive-2, #automotive-3, #automotive-4, #automotive-5, #automotive-6, #automotive-7, #automotive-8, #automotive-9, #automotive-10, #automotive-11, #automotive-12, #automotive-13, #automotive-14, #automotive-15, #automotive-16, #automotive-17, #automotive-18, #automotive-19, #automotive-20, #automotive-21, #automotive-22, #automotive-23, #automotive-24, #automotive-25, #automotive-26, #automotive-27, #automotive-28, #automotive-29, #automotive-30, #automotive-31, #automotive-32, #automotive-33, #automotive-59, #automotive-100, #automotive-101, #automotive-102, #automotive-104, #automotive-106, #automotive-107, #automotive-108, #automotive-109, #automotive-110, #automotive-111, #automotive-105, #automotive-103, #automotive-150, #automotive-151{
+    #automotive-1, #automotive-2, #automotive-3, #automotive-4, #automotive-5, #automotive-6, #automotive-7, #automotive-8, #automotive-9, #automotive-10, #automotive-11, #automotive-12, #automotive-13, #automotive-14, #automotive-15, #automotive-16, #automotive-17, #automotive-18, #automotive-19, #automotive-20, #automotive-21, #automotive-22, #automotive-23, #automotive-24, #automotive-25, #automotive-26, #automotive-27, #automotive-28, #automotive-29, #automotive-30, #automotive-31, #automotive-32, #automotive-33, #automotive-59, #automotive-100, #automotive-101, #automotive-102, #automotive-104, #automotive-106, #automotive-107, #automotive-108, #automotive-109, #automotive-110, #automotive-111, #automotive-105, #automotive-103, #automotive-150, #automotive-151, #automotive-501{
         width: 280px !important;
 }
 

@@ -197,7 +197,7 @@ function page() {
       <section className="case2secsec2" id="case2BlackRhino">
         <div className="case2seccont">
           <img
-            src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216503/case2imgs1_xngbpg.png"
+            src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746537844/madfish-logo1_ghjavp.png"
             alt="kushel"
             className="cs2i1"
           />
@@ -208,7 +208,7 @@ function page() {
             <p>
               With the years of reputation it has built on craftsmanship and customized solutions, the brand is producing concealed carry equipment. It is blending innovation and precision perfectly to deliver a seamless experience to buyers. The brand is giving a 10% discount too for all the military, police, and first responders.
 
-              <p>Being on the path of growth, its product demand is soaring, Black Rhino has consistently proved to be at the digital forefront in the Kydex holster provider. However, it was looking to improve the digital shopping experience, and this is when Kushel Digi Solutions stepped in to help them. We revamped the ecommerce presence and gave it a fresh look. Our expert team prepared a robust plan of action to envision a custom ecommerce solution for the client. Madfish offered us this opportunity which we are grateful for.</p>
+              <p>Being on the path of growth, its product demand is soaring, Black Rhino has consistently proved to be at the digital forefront in the Kydex holster provider. However, it was looking to improve the digital shopping experience, and this is when Kushel Digi Solutions stepped in to help them. We revamped the ecommerce presence and gave it a fresh look. Our expert team prepared a robust plan of action to envision a custom ecommerce solution for the client.<b>Madfish</b>  offered us this opportunity which we are grateful for.</p>
 
             </p>
           </div>
@@ -233,9 +233,9 @@ function page() {
             <h5>2.Poor product categorization and lack of filtering options.</h5>
             <h5>3.Slow loading times and poor mobile experience.</h5>
             <h5>4.Absence of modern key elements and third-party integrations. </h5>
-            <h5>Unsatisfactory user-interface </h5>
+            <h5>Unsatisfactory user-interface.</h5>
 
-            <p className="s3theeparass">Addressing these challenges required a thoughtful approach that our team implemented to align it with the modern ecommerce needs. </p>
+            <h5>5.Addressing these challenges required a thoughtful approach that our team implemented to align it with the modern ecommerce needs. </h5>
 
           </div>
         </div>
