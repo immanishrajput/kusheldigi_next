@@ -36,21 +36,21 @@ const WoodView = () => {
   };
   const generateMetadata = ({ params }) => ({
     title: 'Kusheldigi.com/woodView',
-    description:"Web Development Company | Kushel Digi Solutions"
+    description: "Web Development Company | Kushel Digi Solutions"
   });
-  
-useEffect(() => {
+
+  useEffect(() => {
     const { title, description } = generateMetadata({ params: {} });
     document.title = title;
     let metaDescription = document.querySelector('meta[name="description"]');
-    metaDescription ? metaDescription.content = description : 
+    metaDescription ? metaDescription.content = description :
       document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
   }, []);
 
   return (
     <>
 
-<Head>
+      <Head>
         {/* Open Graph (OG) Meta Tags */}
         <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
         <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
@@ -65,9 +65,9 @@ useEffect(() => {
         <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
         <meta name="twitter:url" content="https://www.kusheldigi.com/" />
       </Head>
-      
-    <Navbar/>
-     
+
+      <Navbar />
+
 
       <div className="ser-main">
 
@@ -81,7 +81,7 @@ useEffect(() => {
                   alt="img"
                 ></img>
                 <p className="shoots_premium kooo">
-                Wood View focuses on mental health, autism support, and counseling services for individual and family support. The programs offered help improve mental well-being through personalized care and professional guidance.
+                  Wood View focuses on mental health, autism support, and counseling services for individual and family support. The programs offered help improve mental well-being through personalized care and professional guidance.
                 </p>
                 <h3>Technologies Used</h3>
                 <div className="main-box-logic flex">
@@ -100,11 +100,11 @@ useEffect(() => {
               <div className="MadFish-back crazy-back2">
 
                 <div className="MadFish-back1">
-                
+
                   <div className="MadFish_press_para crazy_cms">
-           
+
                     <p className="sociawrodfs">
-                    Kushel Digi Solutions is proud to contribute to Wood View to enhance their digital platform that aims to strengthen their online presence and help them to  deliver personalized care and guidance to individuals and families.
+                      Kushel Digi Solutions is proud to contribute to Wood View to enhance their digital platform that aims to strengthen their online presence and help them to  deliver personalized care and guidance to individuals and families.
                     </p>
                   </div>
 
@@ -153,7 +153,7 @@ useEffect(() => {
                   <p className="dark-canny">Aa</p>
                   <p className="prompt-tip">Gilroy</p>
                 </div>
-             
+
               </div>
               <div className="sub-worm">
                 <p className="tool">Tools Use</p>
@@ -179,14 +179,14 @@ useEffect(() => {
             </div>
             <div className="step-backs2">
               <p>
-          
-              Wood View was relying on manual processes to collect feedback from clients participating in their various programs, such as mental health, autism support, and counseling services. Due to the gradual increase in the scale of the organization, it had now become difficult to handle and analyze the increasing amount of survey data. This was seriously impacting their ability to better respond to the needs of clients. They approached Kushel Digi Solutions to design an effective survey management system, which automated data collection for richer reporting and subsequently improved program outcomes.
+
+                Wood View was relying on manual processes to collect feedback from clients participating in their various programs, such as mental health, autism support, and counseling services. Due to the gradual increase in the scale of the organization, it had now become difficult to handle and analyze the increasing amount of survey data. This was seriously impacting their ability to better respond to the needs of clients. They approached Kushel Digi Solutions to design an effective survey management system, which automated data collection for richer reporting and subsequently improved program outcomes.
 
 
               </p>
             </div>
           </div>
-       
+
         </div>
 
         <div className="challenge-story">
@@ -202,21 +202,13 @@ useEffect(() => {
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  The collection and analysis of feedback were time-consuming and prone to errors, hindering decision-making.
+                    The collection and analysis of feedback were time-consuming and prone to errors, hindering decision-making.
                   </p>
                 </div>
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  Management of a continuous increase in volume of survey data across various programs with confidentiality.
-
-
-                  </p>
-                </div>
-                <div className="challenge-list1">
-                  <div className="nilust"></div>
-                  <p>
-                  The new system had to be compatible with current operations and technologies in place at Wood View. 
+                    Management of a continuous increase in volume of survey data across various programs with confidentiality.
 
 
                   </p>
@@ -224,7 +216,15 @@ useEffect(() => {
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  As the process was manual, reports were not timely enough to make quick decisions or track the effectiveness of programs.
+                    The new system had to be compatible with current operations and technologies in place at Wood View.
+
+
+                  </p>
+                </div>
+                <div className="challenge-list1">
+                  <div className="nilust"></div>
+                  <p>
+                    As the process was manual, reports were not timely enough to make quick decisions or track the effectiveness of programs.
 
                   </p>
                 </div>
@@ -237,7 +237,7 @@ useEffect(() => {
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  We developed an extensive survey management system using Laravel, which automated the intake of data and allowed real-time analysis of the stored information. 
+                    We developed an extensive survey management system using Laravel, which automated the intake of data and allowed real-time analysis of the stored information.
 
 
                   </p>
@@ -246,7 +246,7 @@ useEffect(() => {
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  In-depth reporting capabilities were integrated that allowed Wood View to observe trends in feedback and create informed improvements to the programs.
+                    In-depth reporting capabilities were integrated that allowed Wood View to observe trends in feedback and create informed improvements to the programs.
 
 
                   </p>
@@ -255,7 +255,7 @@ useEffect(() => {
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  We ensured the new system had the capability to integrate seamlessly with their existing workflows, further streamlining operations.
+                    We ensured the new system had the capability to integrate seamlessly with their existing workflows, further streamlining operations.
 
                   </p>
                 </div>
@@ -263,7 +263,7 @@ useEffect(() => {
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  We have implemented automated reporting features displaying quick insights to enable Wood View to track the effectiveness of its programs.
+                    We have implemented automated reporting features displaying quick insights to enable Wood View to track the effectiveness of its programs.
 
 
                   </p>
@@ -294,7 +294,7 @@ useEffect(() => {
               </div>
               <div className="azib1-second">
                 <p>
-                The new survey management system has resulted in a massive turnabout for Wood View in its collection of clients' feedback to ensure that the program keeps improving. With automated data collection and reporting, they can now make quicker data-driven decisions in improving their service delivery across their mental health, autism, and counseling programs.
+                  The new survey management system has resulted in a massive turnabout for Wood View in its collection of clients' feedback to ensure that the program keeps improving. With automated data collection and reporting, they can now make quicker data-driven decisions in improving their service delivery across their mental health, autism, and counseling programs.
 
                 </p>
 
@@ -401,22 +401,22 @@ useEffect(() => {
               You can send us the details of your project, and a member of our
               team will contact you shortly.
             </p>
-       
-              <button>
+
+            <button className="req-button">
               <Link href="/contact-us">
-                Request A Call{" "}
+                Start a conversation{" "}
                 <img
-                  width={13}
-                  className=" inline ml-2"
-                  src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740401104/arrow4_vdzisk.png'
+                  // width={13}
+                  className=" inline ml-2 arrow-icon"
+                  src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180293/arrow4_rxxlsw.png'
                   alt="alik"
                 />
-                    </Link>
-              </button>
-        
+              </Link>
+            </button>
+
           </div>
         </div>
-        
+
         {/*  buttons  */}
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
@@ -433,7 +433,7 @@ useEffect(() => {
         </div>
 
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };

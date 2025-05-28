@@ -319,17 +319,17 @@ const ProTrucks = () => {
               You can send us the details of your project, and a member of our
               team will contact you shortly.
             </p>
-            <Link href="/contact-us">
-              <button>
-                Request A Call{" "}
+            <button className="req-button">
+              <Link href="/contact-us">
+                Start a conversation{" "}
                 <img
-                  width={13}
-                  className=" inline ml-2"
-                  src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740470749/arrow4_lt3soz.png'
-                  alt="arrow"
+                  // width={13}
+                  className=" inline ml-2 arrow-icon"
+                  src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180293/arrow4_rxxlsw.png'
+                  alt="alik"
                 />
+                   </Link>
               </button>
-            </Link>
           </div>
         </div>
         <Footer/>

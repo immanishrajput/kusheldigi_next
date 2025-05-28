@@ -184,11 +184,9 @@ const Smm = () => {
                 </div>
                 <div className="text">
                   <h4>Step 1</h4>
-                  <h3>Sign Up To Create New Account</h3>
-                  <p>
-                    Sign Up &amp; create account for best social media marketing
-                    services in world, Indian smm services is cheapest SMM Panel
-                    with speed delivery.
+                  <h3>Create a new account</h3>
+                  <p>Visit our online website and create a new user account. Once you sign up, you will get access to our
+                    diverse social media marketing services.
                   </p>
                 </div>
               </div>
@@ -269,70 +267,70 @@ const Smm = () => {
                 target audience.
               </p>
             </div>
-            
-              
-                <div className="second-section-card">
-                  <div className="card-content">
-                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740467997/services_icon-1_eprcha.svg' alt="Social Media Management" title="Social Media Management" />
-                    <h3>Social Media Management</h3>
-                    <p>
-                      Day-to-day maintenance of social network accounts,
-                      including making posts, keeping track of the likes,
-                      responding to replies and comments, shares, subscriptions,
-                      scheduling; also analyzing the records.
-                    </p>
-                  </div>
-                 
-                  <div className="card-content">
-                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468033/services_icon-2_igamop.svg' alt="Social Media Advertising" title="Social Media Advertising" />
-                    <h3>Social Media Advertising</h3>
-                    <p>
-                      Using paid ad campaigns on sites that include but are not
-                      limited to Facebook, Instagram, Twitter, and LinkedIn
-                      targeted towards increasing reach and engagement which
-                      also helps in maintaining favorable connections in the
-                      future as well.
-                    </p>
-                  </div>
-                 
-                  <div className="card-content">
-                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468074/services_icon-3_stfvxp.svg' alt="Influencer Marketing" title="Influencer Marketing" />
-                    <h3>Influencer Marketing</h3>
-                    <p>
-                      Influencer marketing involves social media influencers in
-                      the promotion of your brand, product, or services.
-                    </p>
-                  </div>
-                 
-                  <div className="card-content">
-                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468118/services_icon-4_na3ftc.svg' alt="Reputation Management" title="Reputation Management" />
-                    <h3>Reputation Management</h3>
-                    <p>
-                      Keeping track of online reviews, feedback, and brand
-                      sentiments and just not it but further working on the same
-                      to help it improve to a larger extent.
-                    </p>
-                  </div>
-                 
-                  <div className="card-content">
-                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468159/services_icon-5_mdwjnc.svg' alt="Community Buildingt" title="Community Buildingt" />
-                    <h3 style={{ marginTop: 15 }}>Community Buildingt </h3>
-                    <p>
-                      Establishing and cultivating an engaged online community
-                      that is keenly interested in your brand around you.
-                    </p>
-                  </div>
-                 
-                  <div className="card-content">
-                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468203/services_icon-6_pxeclp.svg' alt="Crisis Management" title="Crisis Management" />
-                    <h3>Crisis Management</h3>
-                    <p>
-                      Coming up with different approaches or strategies to
-                      tackle and mitigate the potential negative publicity or
-                      social media crises.
-                    </p>
-                  </div>
-                </div> 
+
+
+            <div className="second-section-card">
+              <div className="card-content">
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740467997/services_icon-1_eprcha.svg' alt="Social Media Management" title="Social Media Management" />
+                <h3>Social Media Management</h3>
+                <p>
+                  Day-to-day maintenance of social network accounts,
+                  including making posts, keeping track of the likes,
+                  responding to replies and comments, shares, subscriptions,
+                  scheduling; also analyzing the records.
+                </p>
+              </div>
+
+              <div className="card-content">
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468033/services_icon-2_igamop.svg' alt="Social Media Advertising" title="Social Media Advertising" />
+                <h3>Social Media Advertising</h3>
+                <p>
+                  Using paid ad campaigns on sites that include but are not
+                  limited to Facebook, Instagram, Twitter, and LinkedIn
+                  targeted towards increasing reach and engagement which
+                  also helps in maintaining favorable connections in the
+                  future as well.
+                </p>
+              </div>
+
+              <div className="card-content">
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468074/services_icon-3_stfvxp.svg' alt="Influencer Marketing" title="Influencer Marketing" />
+                <h3>Influencer Marketing</h3>
+                <p>
+                  Influencer marketing involves social media influencers in
+                  the promotion of your brand, product, or services.
+                </p>
+              </div>
+
+              <div className="card-content">
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468118/services_icon-4_na3ftc.svg' alt="Reputation Management" title="Reputation Management" />
+                <h3>Reputation Management</h3>
+                <p>
+                  Keeping track of online reviews, feedback, and brand
+                  sentiments and just not it but further working on the same
+                  to help it improve to a larger extent.
+                </p>
+              </div>
+
+              <div className="card-content">
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468159/services_icon-5_mdwjnc.svg' alt="Community Buildingt" title="Community Buildingt" />
+                <h3 style={{ marginTop: 15 }}>Community Building </h3>
+                <p>
+                  We will help optimize your social media profiles so that you can connect with more followers easily.
+                  Now leverage our domain expertise to build a strong community and engage them with your brand.
+                </p>
+              </div>
+
+              <div className="card-content">
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468203/services_icon-6_pxeclp.svg' alt="Crisis Management" title="Crisis Management" />
+                <h3>Crisis Management</h3>
+                <p>
+                  Coming up with different approaches or strategies to
+                  tackle and mitigate the potential negative publicity or
+                  social media crises.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         {/* ------------------end Our Services-------------------- */}

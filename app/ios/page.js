@@ -468,21 +468,21 @@ const generateMetadata = ({ params }) => ({
           <div className="android-perform ">
             <div className="andoid-perform-flex">
               <div className="android-pflex">
-                <h3>250+</h3>
+                <h3>50+</h3>
                 <p>
-                  ios developers in-house
+                  in-house iOS developers
                 </p>
               </div>
               <div className="android-pflex">
-                <h3>500+</h3>
+                <h3>200+</h3>
                 <p>
-                  ios projects in-house
+                  successful projects completed
                 </p>
               </div>
               <div className="android-pflex">
                 <h3>30+</h3>
                 <p>
-                  industries brought on ios
+                  industry domains targeted
                 </p>
               </div>
             </div>

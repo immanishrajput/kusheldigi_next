@@ -590,9 +590,9 @@ function page() {
 
           <div className="csizbot">
             <a href="contact-us"><button>
-              <span>Get A Quote For Your Project</span>
+              <span>Start a conversation</span>
             </button></a>
-            <p>Or Start a conversation</p>
+            {/* <p>Or Start a conversation</p> */}
           </div>
         </div>
       </section>

@@ -8,15 +8,15 @@ import Footer from "../COMMON/Footer";
 
 const Rely = () => {
 
-  
- 
+
+
   const phoneNumber = "9045301702";
 
   const whatAppHandler = () => {
     const whatsappUrl = `https://wa.me/${phoneNumber}`;
     window.open(whatsappUrl, "_blank");
   };
-  const callHandler=()=>{
+  const callHandler = () => {
     const callUrl = `tel:${phoneNumber}`;
     window.open(callUrl, "_blank");
   }
@@ -31,25 +31,25 @@ const Rely = () => {
     });
   };
 
-const generateMetadata = ({ params }) => ({
-         title: 'Kushel Digi Solutions Case Study- rely',
-         description: 'Discover how Kushel Digi Solutions crafted an impactful website for Rely, boosting their online presence with cutting-edge design and functionality.',
-       });
-       
-     useEffect(() => {
-         const { title, description } = generateMetadata({ params: {} });
-         document.title = title;
-         let metaDescription = document.querySelector('meta[name="description"]');
-         metaDescription ? metaDescription.content = description : 
-           document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-       }, []);
+  const generateMetadata = ({ params }) => ({
+    title: 'Kushel Digi Solutions Case Study- rely',
+    description: 'Discover how Kushel Digi Solutions crafted an impactful website for Rely, boosting their online presence with cutting-edge design and functionality.',
+  });
+
+  useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description :
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
   return (
     <>
 
-    <Navbar/>
-   
+      <Navbar />
+
       <div className="ser-main">
-      
+
         <div>
           <div className="side-bg-trio">
             <div className="first-kick-pads">
@@ -57,10 +57,10 @@ const generateMetadata = ({ params }) => ({
                 <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739427666/pouo_qmi6uz.png' className="pru1" alt="img"></img>
                 <p className="shoots_premium">
                   <span className="heightlisght_premium">
-                  
+
                     Rely Innovation{" "}
                   </span>
-               delivers cutting-edge and user-friendly safety technology solutions, empowering both organisations and individuals to safeguard their most vital assets.
+                  delivers cutting-edge and user-friendly safety technology solutions, empowering both organisations and individuals to safeguard their most vital assets.
                 </p>
                 <h1>Technologies Used</h1>
                 <div className="main-box-logic flex">
@@ -114,7 +114,7 @@ const generateMetadata = ({ params }) => ({
             </div>
           </div>
         </div>
-        
+
         {/* *********************************************** */}
         <div className="third-wireframe-homie-solenoid-s">
           <div className="inner-third-local-solenoid-s">
@@ -160,10 +160,10 @@ const generateMetadata = ({ params }) => ({
             </div>
             <div className="step-backs2">
               <p>
-              Rely Innovations, the safety solutions division of National Presto Industries, Inc., has a rich history encompassing three distinct product categories. Rusoh, with its groundbreaking Rusoh® Eliminator® fire extinguisher, revolutionised fire safety as the first self-maintained extinguisher. OneEvent Technologies provides early warning systems for potential disasters, while Rely Innovations offers unique bilingual voice and digital display carbon monoxide alarms.Rely Innovations continually innovates to empower organisations and individuals to protect what matters most through intuitive safety technology solutions.
+                Rely Innovations, the safety solutions division of National Presto Industries, Inc., has a rich history encompassing three distinct product categories. Rusoh, with its groundbreaking Rusoh® Eliminator® fire extinguisher, revolutionised fire safety as the first self-maintained extinguisher. OneEvent Technologies provides early warning systems for potential disasters, while Rely Innovations offers unique bilingual voice and digital display carbon monoxide alarms.Rely Innovations continually innovates to empower organisations and individuals to protect what matters most through intuitive safety technology solutions.
 
               </p>
-              
+
             </div>
           </div>
           <div className="step-images flex items-center justify-center mt-20">
@@ -192,10 +192,10 @@ const generateMetadata = ({ params }) => ({
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  Rely Innovation has faced several challenges while striving to offer cutting-edge safety technology solutions. These challenges encompass  staying at the forefront of rapidly evolving safety technology, ensuring compliance with ever-changing industry regulations, and effectively communicating the value of its innovative products to a diverse market. Striking the right balance of innovation with market demands while maintaining a competitive edge in the safety technology sector is an ongoing challenge.                  </p>
+                    Rely Innovation has faced several challenges while striving to offer cutting-edge safety technology solutions. These challenges encompass  staying at the forefront of rapidly evolving safety technology, ensuring compliance with ever-changing industry regulations, and effectively communicating the value of its innovative products to a diverse market. Striking the right balance of innovation with market demands while maintaining a competitive edge in the safety technology sector is an ongoing challenge.                  </p>
                 </div>
-               
-                
+
+
               </div>
             </div>
             <div className="challenge-box ml-3">
@@ -205,31 +205,31 @@ const generateMetadata = ({ params }) => ({
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  Their approach involves leveraging artificial intelligence and machine learning to optimize processes, create predictive analytics, and enhance decision-making. This ultimately empowers businesses to maintain competitiveness and agility in today’s fast-paced world. With a dedicated focus on user-centric design, Rely Innovation ensures that its solutions are effective and user-friendly, making technology accessible to a broader audience. <br />Highlighted Products:
+                    Their approach involves leveraging artificial intelligence and machine learning to optimize processes, create predictive analytics, and enhance decision-making. This ultimately empowers businesses to maintain competitiveness and agility in today’s fast-paced world. With a dedicated focus on user-centric design, Rely Innovation ensures that its solutions are effective and user-friendly, making technology accessible to a broader audience. <br />Highlighted Products:
                   </p>
                 </div>
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  OneEvent® System: Cellular refrigeration monitoring with Thermo Heartbeat™                  </p>
+                    OneEvent® System: Cellular refrigeration monitoring with Thermo Heartbeat™                  </p>
                 </div>
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  Rusoh® Eliminator®: Owner-maintained fire extinguisher and specialized solutions.
+                    Rusoh® Eliminator®: Owner-maintained fire extinguisher and specialized solutions.
                   </p>
                 </div>
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  Carbon Monoxide Alarms: Bilingual voice alerts and digital display.
+                    Carbon Monoxide Alarms: Bilingual voice alerts and digital display.
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        
+
         <div className="kick-start kick-start22">
           <div className="kick-first kick-first222">
             <div className="kickds">
@@ -253,9 +253,9 @@ const generateMetadata = ({ params }) => ({
               </div>
               <div className="azib1-second">
                 <p>
-                Rely Innovations has achieved remarkable results through its innovative solutions, encompassing cellular refrigeration monitoring with early alerts to prevent breakdowns, groundbreaking owner-maintained fire extinguishers for specialized fire protection, and enhanced home safety with bilingual voice alerts and digital displays in their Carbon Monoxide Alarms. These solutions collectively reflect their commitment to safeguarding businesses and homes while leveraging cutting-edge technology for optimal efficiency and security.
+                  Rely Innovations has achieved remarkable results through its innovative solutions, encompassing cellular refrigeration monitoring with early alerts to prevent breakdowns, groundbreaking owner-maintained fire extinguishers for specialized fire protection, and enhanced home safety with bilingual voice alerts and digital displays in their Carbon Monoxide Alarms. These solutions collectively reflect their commitment to safeguarding businesses and homes while leveraging cutting-edge technology for optimal efficiency and security.
                 </p>
-              
+
                 <div className="azib-tech">
                   <h3>Technologies Used</h3>
                   <img className="conjun" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739427783/opqweeeeeee3_uomaqp.png' alt="conjun" />
@@ -290,18 +290,23 @@ const generateMetadata = ({ params }) => ({
               You can send us the details of your project, and a member of our
               team will contact you shortly.
             </p>
-            <button>
-          <Link href="/contact-us" className="rely-btnn">
-              Request A Call{" "}
-              <img width={13} className=" inline ml-2" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740470749/arrow4_lt3soz.png' alt="ml" />
+            <button className="req-button">
+              <Link href="/contact-us">
+                Start a conversation{" "}
+                <img
+                  // width={13}
+                  className=" inline ml-2 arrow-icon"
+                  src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180293/arrow4_rxxlsw.png'
+                  alt="alik"
+                />
               </Link>
             </button>
-          
+
           </div>
         </div>
-        <Footer/>
-                       {/*  buttons  */}
-                       <div className="whtsApBtns">
+        <Footer />
+        {/*  buttons  */}
+        <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
             <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739423798/whatsapp_yiaqit.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>

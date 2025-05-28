@@ -28,7 +28,11 @@ const Banner = () => {
                             Who <span> We Are</span>
                         </h2>
                         <div className='Kushaboupara'>
-                            <p>Kushel Digi Solutions has a dedicated team of experts who have delivered advanced eCommerce development and digital transformation solutions. We have deep expertise in latest technologies like Bigcommerce, Shopify, Woocommerce to deliver customised e-commerce solutions. We're here to give your brand the digital identity to make you standout in thus competitive world.</p>
+                            <p>Whether you want to fortify your brand’s identity or amplify your digital footprint, Kushel Digi Solutions
+                                is your go-to partner. Our deep domain expertise and technical prowess help us to deliver tailored digital
+                                transformation solutions to our partners. We will pave the road to innovation for your brand with custom
+                                eCommerce development and data-driven marketing strategies. With us, you can rest assured that you
+                                will gain a superior competitive edge in this fast-paced world.</p>
                         </div>
                         {/* <div className='Kushabouparbtn'>
                             <Link href="/contact-us"> <button>Get in touch <FaArrowRight/></button></Link>

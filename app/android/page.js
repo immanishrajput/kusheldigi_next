@@ -118,7 +118,9 @@ const Android = ({ notify }) => {
                   <h4 className="ml-3">Custom App Development Consultation</h4>
                 </div>
                 <p>
-                  When you search for a company for an Android app. Kushel Digi Android app development company is the best choice for you. A fully functioning business developing your digital accountabilityWe are an Android App Development Company that gives attention to successful projects.</p>
+                  Our expert consultants will walk you through about the benefits a custom Android app can bring to the
+                  table for your brand. With us, you can rest assured that all your questions will be answered thoroughly
+                  without leaving any gap. Our domain expertise allows us to cater to your clients’ needs till the very end.</p>
               </div>
               <div className="android-box android-box2 android-card11">
                 <div className="android0-img flex ">
@@ -197,23 +199,22 @@ const Android = ({ notify }) => {
               <div className="android-usas1">
                 <div className="android-usast1">
                   <h3>1</h3>
-                  <p>Multi-platform exposure</p>
+                  <p>Wider market reach</p>
                 </div>
 
                 <div className="android-usast1 android-usast2">
                   <h3>2</h3>
-                  <p>Greater sources of revenue</p>
+                  <p>Higher flexibility and customization</p>
                 </div>
-              </div>
-              <div className="android-usas1">
+               
                 <div className="android-usast1">
                   <h3>3</h3>
-                  <p>Multi-platform exposure</p>
+                  <p>Cost-effective development</p>
                 </div>
 
                 <div className="android-usast1 android-usast2">
                   <h3>4</h3>
-                  <p>Greater sources of revenue</p>
+                  <p>Seamless integration</p>
                 </div>
               </div>
             </div>

@@ -124,7 +124,10 @@ const Html = () => {
 
 
                                 <h3>Web Tool Integration</h3>
-                                <p>It helps students to bundle together other tools they use to improve the overall experience of users. not limiting themselves primarily to the components that are geared to a location with the outcome of making end-user experience better than ever.</p>
+                                <p>With seamless web tool integration, HTML5 development allows professionals to integrate modern
+                                    software frameworks, multimedia elements, and APIs. It offers end-to-end support for different features,
+                                    like geolocation, audio and video content, and offline storage. Hence, the dependency on third-party
+                                    plugins can be eliminate completely.</p>
                             </div>
                         </div>
 
@@ -197,12 +200,13 @@ const Html = () => {
                             <div className="html_dev_box">
                                 {/* <img src={zz6} alt="zz" /> */}
                                 <svg width="97" height="87" viewBox="0 0 97 87" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <                                  path d="M1.61719 2.16797V84.8193H95.0134V2.16797H1.61719ZM63.529 7.63985L53.2318 20.0637H7.08907V7.63985H63.529ZM89.5395 79.3484H7.08907V25.5366H55.8031L70.6368 7.63985H89.5395V79.3484Z" fill="#0E52FC" stroke="white" strokeWidth="0.93871" strokeMiterlimit="10" />
-                                    <                                  path d="M38.9399 56.1725C38.9399 58.736 36.8524 60.8235 34.2889 60.8235C31.7234 60.8235 29.6379 58.736 29.6379 56.1725V39.1172H24.1641V56.1725C24.1641 61.7541 28.7063 66.2954 34.2889 66.2954C39.8715 66.2954 44.4118 61.7531 44.4118 56.1725V39.1172H38.9399V56.1725Z" fill="#0E52FC" stroke="white" strokeWidth="0.93871" strokeMiterlimit="10" />
-                                    <                                  path d="M65.0769 39.0254L60.6091 47.0696L56.1413 39.0254H49.8828L57.4784 52.7061L49.8828 66.3858H56.1413L60.6091 58.3415L65.0769 66.3858H71.3354L63.7398 52.7061L71.3354 39.0254H65.0769Z" fill="#0E52FC" stroke="white" strokeWidth="0.93871" strokeMiterlimit="10" />
+                                    <path d="M1.61719 2.16797V84.8193H95.0134V2.16797H1.61719ZM63.529 7.63985L53.2318 20.0637H7.08907V7.63985H63.529ZM89.5395 79.3484H7.08907V25.5366H55.8031L70.6368 7.63985H89.5395V79.3484Z" fill="#0E52FC" stroke="white" strokeWidth="0.93871" strokeMiterlimit="10" />
+                                    <path d="M38.9399 56.1725C38.9399 58.736 36.8524 60.8235 34.2889 60.8235C31.7234 60.8235 29.6379 58.736 29.6379 56.1725V39.1172H24.1641V56.1725C24.1641 61.7541 28.7063 66.2954 34.2889 66.2954C39.8715 66.2954 44.4118 61.7531 44.4118 56.1725V39.1172H38.9399V56.1725Z" fill="#0E52FC" stroke="white" strokeWidth="0.93871" strokeMiterlimit="10" />
+                                    <path d="M65.0769 39.0254L60.6091 47.0696L56.1413 39.0254H49.8828L57.4784 52.7061L49.8828 66.3858H56.1413L60.6091 58.3415L65.0769 66.3858H71.3354L63.7398 52.7061L71.3354 39.0254H65.0769Z" fill="#0E52FC" stroke="white" strokeWidth="0.93871" strokeMiterlimit="10" />
                                 </svg>
-                                <h3>User Experience</h3>
-                                <p>Smooth navigation and fast load times are features of HTML sites' complete user experience, which draws compliments from frequent users.</p>
+                                <h3>Enhanced user experience</h3>
+                                <p>HTML5 websites offer a stellar user experience through faster loading times and a seamless navigation
+                                    system. This further increases the time spent on each page and amplify the interaction with the users.</p>
                             </div>
                         </div>
 
@@ -377,7 +381,7 @@ const Html = () => {
                     <div className="kay_btn">
                         <Link href="/contact-us">
                             <button>
-                               Let's Discuss
+                                Let's Discuss
                             </button> </Link>
                     </div>
                 </div>

@@ -462,9 +462,8 @@ function rideready() {
 
           <div className="csizbot">
            <a href="contact-us"><button>
-              <span>Get A Quote For Your Project</span>
-            </button></a> 
-            <p>Or Start a conversation</p>
+              <span>Start a conversation</span>
+            </button></a>
           </div>
         </div>
       </section>

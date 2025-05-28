@@ -36,23 +36,23 @@ const SubhAlloys = () => {
     window.open(callUrl, "_blank");
   }
 
-const generateMetadata = ({ params }) => ({
+  const generateMetadata = ({ params }) => ({
     title: 'Kusheldigi.com/subhAlloy',
-    description:"web agency, web design agency , best web design agency in the world, web design agency, web design services, web design and development agency"
+    description: "web agency, web design agency , best web design agency in the world, web design agency, web design services, web design and development agency"
   });
-  
-useEffect(() => {
+
+  useEffect(() => {
     const { title, description } = generateMetadata({ params: {} });
     document.title = title;
     let metaDescription = document.querySelector('meta[name="description"]');
-    metaDescription ? metaDescription.content = description : 
+    metaDescription ? metaDescription.content = description :
       document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
   }, []);
 
   return (
     <>
 
-<Head>
+      <Head>
         {/* Open Graph (OG) Meta Tags */}
         <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
         <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
@@ -67,10 +67,10 @@ useEffect(() => {
         <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
         <meta name="twitter:url" content="https://www.kusheldigi.com/" />
       </Head>
-      
-    <Navbar/>
+
+      <Navbar />
       {/* <helmet> */}
-        <link rel="canonical" href="https://www.kusheldigi.com/kick-eez" />
+      <link rel="canonical" href="https://www.kusheldigi.com/kick-eez" />
       {/* </helmet> */}
       <div className="ser-main">
         <div>
@@ -79,7 +79,7 @@ useEffect(() => {
               <div className="left-section-kids">
                 <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460708/subh_tobjrf.svg' alt="img"></img>
                 <p className="shoots_premium kooo">
-                Shubhalloys buys and sells iron cuttings as per the demand requirement of their clients. Traditionally, the company was operating with manual processes for ordering and transactions, which was very time-consuming and tended to show several inefficiencies.
+                  Shubhalloys buys and sells iron cuttings as per the demand requirement of their clients. Traditionally, the company was operating with manual processes for ordering and transactions, which was very time-consuming and tended to show several inefficiencies.
 
                 </p>
                 <h1>Technologies Used</h1>
@@ -97,12 +97,12 @@ useEffect(() => {
             <div className="MadFish_press">
               <div className="MadFish-back crazy-back">
                 <div className="MadFish-back1">
-                 
+
                   <div className="MadFish_press_para crazy_cms">
                     <p>
-                    Kushel Digi Solutions is excited to taken up the project of Shubhalloys to develop a custom software platform that automates and streamlines their buying and selling operations. 
+                      Kushel Digi Solutions is excited to taken up the project of Shubhalloys to develop a custom software platform that automates and streamlines their buying and selling operations.
 
-                </p>
+                    </p>
                     {/* <h3>Empower Yourself to</h3>
                     <h3>Easily <span>Modify Your</span> </h3>
                     <h3><span>Website</span></h3> */}
@@ -175,14 +175,14 @@ useEffect(() => {
             <div className="step-backs2">
               <p>
 
-              Shubhalloys approached Kushel Digi Solutions with the need to find a solution to automate their iron-cutting selling process. Conventionally, they were into tons of manual work, right from taking orders to filling the requirements of the clients. They wanted a system where their clients can log in, place orders, and track their request status directly via some digital platform. This shall reduce the need for manual tasks, increase efficiency, and make the interaction experience more seamless for their clients.
+                Shubhalloys approached Kushel Digi Solutions with the need to find a solution to automate their iron-cutting selling process. Conventionally, they were into tons of manual work, right from taking orders to filling the requirements of the clients. They wanted a system where their clients can log in, place orders, and track their request status directly via some digital platform. This shall reduce the need for manual tasks, increase efficiency, and make the interaction experience more seamless for their clients.
 
 
               </p>
 
             </div>
           </div>
-         
+
         </div>
         <div className="challenge-story">
           <div className="challenge-story1">
@@ -197,7 +197,7 @@ useEffect(() => {
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  Shubhalloys relied on the outdated ways of order management and fulfilling customer requirements, which were inefficient to scale.
+                    Shubhalloys relied on the outdated ways of order management and fulfilling customer requirements, which were inefficient to scale.
 
 
 
@@ -206,7 +206,7 @@ useEffect(() => {
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  Create an easy-to-use interface that will ensure seamless adaption of the software by both Shubhalloys staff and clients.
+                    Create an easy-to-use interface that will ensure seamless adaption of the software by both Shubhalloys staff and clients.
 
 
 
@@ -216,7 +216,7 @@ useEffect(() => {
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  Integration of software seamlessly with their existing operations while enabling customers to log on and interact with the system in real time.
+                    Integration of software seamlessly with their existing operations while enabling customers to log on and interact with the system in real time.
 
 
 
@@ -225,7 +225,7 @@ useEffect(() => {
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  The system had to be scalable to grow with an ever-increasing client base for Shubhalloys and handle increased volumes of transactions.
+                    The system had to be scalable to grow with an ever-increasing client base for Shubhalloys and handle increased volumes of transactions.
 
 
                   </p>
@@ -241,7 +241,7 @@ useEffect(() => {
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  We developed a software platform using React.js in the front and Node.js at the back, automating the buying and selling of iron cuttings. 
+                    We developed a software platform using React.js in the front and Node.js at the back, automating the buying and selling of iron cuttings.
 
 
                   </p>
@@ -250,7 +250,7 @@ useEffect(() => {
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  The software makes it easy for Shubhalloys' clients to browse, place orders, and track their purchases.
+                    The software makes it easy for Shubhalloys' clients to browse, place orders, and track their purchases.
 
                   </p>
                 </div>
@@ -258,7 +258,7 @@ useEffect(() => {
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  The software lets clients interact in real time with the inventory of Shubhalloys.
+                    The software lets clients interact in real time with the inventory of Shubhalloys.
 
                   </p>
 
@@ -267,7 +267,7 @@ useEffect(() => {
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  We used Node.js to create the back-end for a system that would be able to handle Shubhalloys' operations as they were but also support future needs.
+                    We used Node.js to create the back-end for a system that would be able to handle Shubhalloys' operations as they were but also support future needs.
 
                   </p>
                 </div>
@@ -276,7 +276,7 @@ useEffect(() => {
             </div>
           </div>
         </div>
-      
+
 
         <div className="bg_crazy11">
           <div className="bg_cms">
@@ -290,7 +290,7 @@ useEffect(() => {
           </div>
         </div>
 
-      
+
         <div className="azib kickazib">
           <div className="azib1">
             <div className="azib1-sect">
@@ -300,7 +300,7 @@ useEffect(() => {
               </div>
               <div className="azib1-second">
                 <p>
-                Automation significantly raised the efficiency of Shubhalloys' operations by removing manual handling and thus reducing errors in order management. The client experience has also become seamless, with clients logging in themselves and placing direct orders through the system. Greater satisfaction among customers translates into repeat business. This scalable platform ensures Shubhalloys will be able to meet the demands for growth from their clients without a degrade in performance.
+                  Automation significantly raised the efficiency of Shubhalloys' operations by removing manual handling and thus reducing errors in order management. The client experience has also become seamless, with clients logging in themselves and placing direct orders through the system. Greater satisfaction among customers translates into repeat business. This scalable platform ensures Shubhalloys will be able to meet the demands for growth from their clients without a degrade in performance.
 
                 </p>
 
@@ -415,19 +415,19 @@ useEffect(() => {
               You can send us the details of your project, and a member of our
               team will contact you shortly.
             </p>
-           
-              <button>
+
+            <button className="req-button">
               <Link href="/contact-us">
-                Request A Call{" "}
+                Start a conversation{" "}
                 <img
-                  width={13}
-                  className=" inline ml-2"
-                  src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460181/arrow4_mwiyiu.png'
+                  // width={13}
+                  className=" inline ml-2 arrow-icon"
+                  src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180293/arrow4_rxxlsw.png'
                   alt="alik"
                 />
-                  </Link>
-              </button>
-          
+              </Link>
+            </button>
+
           </div>
         </div>
 
@@ -442,7 +442,7 @@ useEffect(() => {
 
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };

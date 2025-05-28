@@ -11906,7 +11906,7 @@ body {
 #hemesh-seo-kushel .card3 h3 {
     font-weight: 700;
     font-size: 20px;
-    line-height: 40px;
+    line-height: 32px;
     padding-top: 5px
 }
 
@@ -25844,7 +25844,7 @@ form button {
         width: 120px;
     }
 
-     .footer2Imagelast img {
+    .footer2Imagelast img {
         max-width: 100px;
     }
 }
@@ -32190,7 +32190,11 @@ form button:hover {}
 }
 
 .req-sect button:hover svg path {
-    fill: #fff
+  fill: #fff;
+}
+
+.req-button:hover .arrow-icon {
+  filter: brightness(0) invert(1);
 }
 
 .rely-btnn button {
@@ -32931,7 +32935,7 @@ form button:hover {}
     font-size: 18px;
     font-weight: 500;
     color: #33475b;
-    margin-top: 20px;
+    margin: auto;
 }
 
 .demo-hire-sect a {
@@ -34778,14 +34782,14 @@ form button:hover {}
 }
 
 .android-usas1 {
-    display: flex;
-    align-items: center;
-    justify-content: center
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
 }
 
-.android-usast2 {
+/* .android-usast2 {
     margin-left: 70px
-}
+} */
 
 .android-usast1 h3 {
     text-align: center;
@@ -41249,8 +41253,8 @@ video {
 }
 
 .thir_img img {
-    max-width: 185px;
-    width: 180px;
+    max-width: 300px;
+    width: 100%;
 }
 
 .thir_img p {
@@ -41260,7 +41264,7 @@ video {
     transform: translate(-50%, -50%);
     white-space: nowrap;
     color: #fff;
-    font-size: 13px
+    font-size: 12.5px
 }
 
 .body_website {
@@ -45295,6 +45299,17 @@ video {
     margin-top: 14px
 }
 
+.wordpress-paras ul {
+    list-style: disc;
+    list-style-position: inside;
+    padding: 10px;
+}
+
+.wordpress-paras ul li {
+    color: #33475b;
+    font-size: 17px;
+}
+
 .wordpress_about_right img {
     max-width: 600px;
     width: 100%;
@@ -45403,6 +45418,12 @@ video {
     #kushel-next-js .kushel-next-js-content1 img {
         display: none;
     }
+
+    .wordpress-paras ul li {
+        /* list-style-position: outside; */
+        text-align:center;
+    }
+
 }
 
 .one_stet_sect button {
@@ -49938,6 +49959,7 @@ option {
     font-weight: 800;
     color: #101010;
     line-height: 25px;
+    text-transform: inherit;
 }
 
 #hemesh-services .services-card-3 p {
@@ -50626,7 +50648,7 @@ option {
     text-align: left !important;
     color: #202020 !important;
     cursor: pointer;
-} 
+}
 
 .left-head-services:hover {
     color: #0B56E4 !important
@@ -71480,9 +71502,7 @@ option {
     }
 
     .android-usas1 {
-        display: flex;
-        align-items: self-start;
-        height: 90px;
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .android-fun1 h2 {
@@ -75308,7 +75328,7 @@ input::-webkit-inner-spin-button {
 .blogClockTime1 {
     display: flex;
     justify-content: space-between;
-    gap: 52%;
+    /* gap: 52%; */
     align-items: center;
 }
 
@@ -75483,12 +75503,13 @@ input::-webkit-inner-spin-button {
     gap: 5px;
 }
 
-.bimageloDiPargaphhh { 
+.bimageloDiPargaphhh {
     font-size: 15px;
     font-weight: 600;
     display: flex;
     align-items: center;
     gap: 5px;
+    color: #000000;
 }
 
 .bimageloDiPargaph1 {
@@ -75604,8 +75625,8 @@ input::-webkit-inner-spin-button {
     padding-top: 50px;
 }
 
-.cardBlogStImgContainer{
-    min-height: 450px;
+.cardBlogStImgContainer {
+    min-height: 460px;
 }
 
 .cardBlogStImg img {

@@ -501,8 +501,8 @@ src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746785005/Group_1171279
           </div>
 
           <div className="csizbot">
-           <a href="/contact-us"><button><span>Get A Quote For Your Project</span></button></a> 
-            <p>Or Start a conversation</p>
+           <a href="/contact-us"><button><span>Or Start a conversation</span></button></a> 
+            {/* <p>Or Start a conversation</p> */}
           </div>
 
 

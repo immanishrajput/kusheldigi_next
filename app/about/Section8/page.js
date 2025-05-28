@@ -28,7 +28,7 @@ const Section8 = () => {
     {
       title: "Quality",
       description:
-        "Excellence is not merely a target, it's our norm. All projects we implement undergo strict quality control, from design to delivery level. We drive for precision, performance, and polish, and the end product not only lives up to expectations but surpasses them.",
+        "Since the very beginning, we have cherished quality over everything else. That’s why our experts implement stringent QA strategies for every project we work on. From prototype designing to campaign launch, we thrive for optimal performance and maximum precision. This is how we ensure our digital marketing solutions can cater to all your business requirements and future goals.",
       img:"https://res.cloudinary.com/dd9tagtiw/image/upload/v1744262112/Quality_prwocp.png",
       className: "quality-excellence",
     },
