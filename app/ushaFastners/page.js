@@ -499,13 +499,12 @@ function Page() {
                 <div className="c2sixconta">
 
                     <div className="cssixtop">
-                        <h4>Got a new project idea? Let’s make it happen!          </h4>
+                        <h4>Got a new project idea? Let’s make it happen!</h4>
                         <p>See how our specialized approach can drive your project forward with impactful results          </p>
                     </div>
 
                     <div className="csizbot">
-                        <a href="/contact-us"><button><span>Get A Quote For Your Project</span></button></a>
-                        <p>Or Start a conversation</p>
+                        <a href="/contact-us"><button><span>Start a conversation</span></button></a>
                     </div>
 
 

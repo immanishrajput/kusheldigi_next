@@ -32,49 +32,49 @@ const Ai2 = () => {
     }
     const generateMetadata = ({ params }) => ({
         title: 'Kusheldigi.com/Ai',
-        description:"web agency, web design agency , best web design agency in the world, web design agency, web design services, web design and development agency"
-      });
-      
+        description: "web agency, web design agency , best web design agency in the world, web design agency, web design services, web design and development agency"
+    });
+
     useEffect(() => {
         const { title, description } = generateMetadata({ params: {} });
         document.title = title;
         let metaDescription = document.querySelector('meta[name="description"]');
-        metaDescription ? metaDescription.content = description : 
-          document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-      }, []);
+        metaDescription ? metaDescription.content = description :
+            document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+    }, []);
 
 
     return (
         <>
 
-<Head>
-        {/* Open Graph (OG) Meta Tags */}
-        <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
-        <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
-        <meta property="og:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
-        <meta property="og:url" content="https://www.kusheldigi.com/" />
-        <meta property="og:type" content="website" />
+            <Head>
+                {/* Open Graph (OG) Meta Tags */}
+                <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
+                <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
+                <meta property="og:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
+                <meta property="og:url" content="https://www.kusheldigi.com/" />
+                <meta property="og:type" content="website" />
 
-        {/* Twitter Card Meta Tags */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Kushel Digi | Expert eCommerce Development Services" />
-        <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
-        <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
-        <meta name="twitter:url" content="https://www.kusheldigi.com/" />
-      </Head>
-      
-        <Navbar/>
+                {/* Twitter Card Meta Tags */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Kushel Digi | Expert eCommerce Development Services" />
+                <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
+                <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
+                <meta name="twitter:url" content="https://www.kusheldigi.com/" />
+            </Head>
+
+            <Navbar />
             {/* <helmet> */}
-                <link rel="canonical" href="https://www.kusheldigi.com/kick-eez" />
+            <link rel="canonical" href="https://www.kusheldigi.com/kick-eez" />
             {/* </helmet> */}
             <div className="ser-main">
                 <div>
                     <div className="side-bg-trio">
                         <div className="first-kick-pads incheingh11">
                             <div className="left-section-kids">
-                                <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738993896/hghh_r30or2.png' width="170"  alt="img"></img>
+                                <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738993896/hghh_r30or2.png' width="170" alt="img"></img>
                                 <p className="shoots_premium mt_top">
-                                A & I Parts Center was founded over 40 years ago by Bill Blain. From a local parts supplier, the firm has evolved into being a household name in the market. Today, A & I Parts Center is spread across several other towns in Texas, namely Texline, Dalhart, Guymon, Stratford, Amarillo, and Dumas. The firm sells top-grade parts and value for money to different communities with great care and professional skills.
+                                    A & I Parts Center was founded over 40 years ago by Bill Blain. From a local parts supplier, the firm has evolved into being a household name in the market. Today, A & I Parts Center is spread across several other towns in Texas, namely Texline, Dalhart, Guymon, Stratford, Amarillo, and Dumas. The firm sells top-grade parts and value for money to different communities with great care and professional skills.
 
                                 </p>
                                 <h1 >Technologies Used</h1>
@@ -96,7 +96,7 @@ const Ai2 = () => {
               </div> */}
                                     <div className="MadFish_press_para crazy_cms">
                                         <p>
-                                        Kushel Digi Solutions is proud to undertake the project of A & I Parts Center to develop an eCommerce platform using BigCommerce's technology. Our team has built an excellent user-friendly  online store that would improve customer experience and streamline inventory management.
+                                            Kushel Digi Solutions is proud to undertake the project of A & I Parts Center to develop an eCommerce platform using BigCommerce's technology. Our team has built an excellent user-friendly  online store that would improve customer experience and streamline inventory management.
 
                                         </p>
                                         {/* <h3>Empower Yourself to</h3>
@@ -181,7 +181,7 @@ const Ai2 = () => {
                         </div>
                         <div className="step-backs2">
                             <p>
-                            A & I Parts Center, being a trusted supplier of quality parts for more than 40 years, started small like a local retail store founded by Bill Blain; however, the demand became greater and their company grew to multiple locations across the state of Texas ultimately A & I Parts realized the opportunity to reach a greater niche through an online platform. They knew that they needed to refresh their approach in order to serve customers better and, so, they set a goal to establish a robust eCommerce platform which could scale up along with the increasing stock and customer base.
+                                A & I Parts Center, being a trusted supplier of quality parts for more than 40 years, started small like a local retail store founded by Bill Blain; however, the demand became greater and their company grew to multiple locations across the state of Texas ultimately A & I Parts realized the opportunity to reach a greater niche through an online platform. They knew that they needed to refresh their approach in order to serve customers better and, so, they set a goal to establish a robust eCommerce platform which could scale up along with the increasing stock and customer base.
 
                             </p>
 
@@ -206,27 +206,27 @@ const Ai2 = () => {
                                 <div className="challenge-list1">
                                     <div className="nilust"></div>
                                     <p>
-                                    To design a system that can ensure personal touch of A & I Parts stay intact in transition towards the ecommerce market.
+                                        To design a system that can ensure personal touch of A & I Parts stay intact in transition towards the ecommerce market.
 
                                     </p>
                                 </div>
                                 <div className="challenge-list1">
                                     <div className="nilust"></div>
                                     <p>
-                                    To Provide real-time synchronization of inventory across all stores and the online store
+                                        To Provide real-time synchronization of inventory across all stores and the online store
 
                                     </p>
                                 </div>
                                 <div className="challenge-list1">
                                     <div className="nilust"></div>
                                     <p>
-                                    Design with a focus on both technologically advanced and regular customers and, most importantly, user-friendly interface
+                                        Design with a focus on both technologically advanced and regular customers and, most importantly, user-friendly interface
                                     </p>
                                 </div>
                                 <div className="challenge-list1">
                                     <div className="nilust"></div>
                                     <p>
-                                    Creating a platform that would support growth and easily handle increased traffic and transactions.
+                                        Creating a platform that would support growth and easily handle increased traffic and transactions.
 
                                     </p>
                                 </div>
@@ -241,7 +241,7 @@ const Ai2 = () => {
                                 <div className="challenge-list1">
                                     <div className="nilust"></div>
                                     <p>
-                                    Implemented BigCommerce to create a scalable, customizable platform for A & I Parts’ online presence.Inventory synchronization.
+                                        Implemented BigCommerce to create a scalable, customizable platform for A & I Parts’ online presence.Inventory synchronization.
 
                                     </p>
                                 </div>
@@ -249,14 +249,14 @@ const Ai2 = () => {
                                 <div className="challenge-list1">
                                     <div className="nilust"></div>
                                     <p>
-                                    Real-time management tools were integrated to synchronize stock across physical stores and the online platform.
+                                        Real-time management tools were integrated to synchronize stock across physical stores and the online platform.
                                     </p>
                                 </div>
 
                                 <div className="challenge-list1">
                                     <div className="nilust"></div>
                                     <p>
-                                    Easy interface to browse and pick desired products with an easy checkout process.
+                                        Easy interface to browse and pick desired products with an easy checkout process.
                                     </p>
 
                                 </div>
@@ -264,7 +264,7 @@ const Ai2 = () => {
                                 <div className="challenge-list1">
                                     <div className="nilust"></div>
                                     <p>
-                                    Optimized Performance to ensure the website is optimized for speed and scalability.
+                                        Optimized Performance to ensure the website is optimized for speed and scalability.
                                     </p>
                                 </div>
 
@@ -305,7 +305,7 @@ const Ai2 = () => {
                             </div>
                             <div className="azib1-second">
                                 <p>
-                                The new A & I Parts Center eCommerce platform gives the company access to multiple locations other than the firm's actual locations and it is convenient for several customers to access the wide parts catalog. Operations have become streamlined where there is a reduction in manual errors, and more accurate stock management has been introduced. Additionally, the easy use of the platform makes the overall experience better, hence increasing online sales and keeping customers
+                                    The new A & I Parts Center eCommerce platform gives the company access to multiple locations other than the firm's actual locations and it is convenient for several customers to access the wide parts catalog. Operations have become streamlined where there is a reduction in manual errors, and more accurate stock management has been introduced. Additionally, the easy use of the platform makes the overall experience better, hence increasing online sales and keeping customers
                                 </p>
 
                                 <div className="azib-tech">
@@ -322,10 +322,10 @@ const Ai2 = () => {
                         </div>
                     </div>
                 </div>
-             
-                  <div className="client-apperication">
-                   
-                   </div>
+
+                <div className="client-apperication">
+
+                </div>
 
                 <div className="other-project">
                     <h2 className="text-center ">OTHER PROJECTS</h2>
@@ -405,19 +405,19 @@ const Ai2 = () => {
                             You can send us the details of your project, and a member of our
                             team will contact you shortly.
                         </p>
-                       
-                            <button>
+
+                        <button className="req-button">
                             <Link href="/contact-us">
-                                Request A Call{" "}
+                                Start a conversation{" "}
                                 <img
-                                    width={13}
-                                    className=" inline ml-2"
-                                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991012/arrow4_bdorn7.png'
+                                    // width={13}
+                                    className=" inline ml-2 arrow-icon"
+                                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180293/arrow4_rxxlsw.png'
                                     alt="alik"
                                 />
-                                      </Link>
-                            </button>
-                  
+                            </Link>
+                        </button>
+
                     </div>
                 </div>
 
@@ -432,7 +432,7 @@ const Ai2 = () => {
 
                 </div>
             </div>
-            <Footer/>
+            <Footer />
         </>
     );
 };

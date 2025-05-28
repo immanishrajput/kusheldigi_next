@@ -22,14 +22,14 @@ const GraphicDesign = ({ notify }) => {
     const phoneNumber = "9045301702";
 
     const whatAppHandler = () => {
-      const whatsappUrl = `https://wa.me/${phoneNumber}`;
-      window.open(whatsappUrl, "_blank");
+        const whatsappUrl = `https://wa.me/${phoneNumber}`;
+        window.open(whatsappUrl, "_blank");
     };
-    const callHandler=()=>{
-      const callUrl = `tel:${phoneNumber}`;
-      window.open(callUrl, "_blank");
+    const callHandler = () => {
+        const callUrl = `tel:${phoneNumber}`;
+        window.open(callUrl, "_blank");
     }
-  
+
     const scrollToTop = () => {
         // Scroll to the top of the page with smooth behavior
         window.scrollTo({
@@ -37,39 +37,39 @@ const GraphicDesign = ({ notify }) => {
             behavior: 'smooth',
         });
     };
-const generateMetadata = ({ params }) => ({
-          title: "KushelDigi Solutions- Creative Graphic Design company",
-          description: 'the best graphic design company, Kushel Digi Solutions offers a range of graphic design services, such as motion graphics, infographics, logos, and more.',
-        });
-        
-      useEffect(() => {
-          const { title, description } = generateMetadata({ params: {} });
-          document.title = title;
-          let metaDescription = document.querySelector('meta[name="description"]');
-          metaDescription ? metaDescription.content = description : 
+    const generateMetadata = ({ params }) => ({
+        title: "KushelDigi Solutions- Creative Graphic Design company",
+        description: 'the best graphic design company, Kushel Digi Solutions offers a range of graphic design services, such as motion graphics, infographics, logos, and more.',
+    });
+
+    useEffect(() => {
+        const { title, description } = generateMetadata({ params: {} });
+        document.title = title;
+        let metaDescription = document.querySelector('meta[name="description"]');
+        metaDescription ? metaDescription.content = description :
             document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-        }, []);
+    }, []);
     return (
         <>
 
-<Head>
-        {/* Open Graph (OG) Meta Tags */}
-        <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
-        <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
-        <meta property="og:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
-        <meta property="og:url" content="https://www.kusheldigi.com/" />
-        <meta property="og:type" content="website" />
+            <Head>
+                {/* Open Graph (OG) Meta Tags */}
+                <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
+                <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
+                <meta property="og:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
+                <meta property="og:url" content="https://www.kusheldigi.com/" />
+                <meta property="og:type" content="website" />
 
-        {/* Twitter Card Meta Tags */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Kushel Digi | Expert eCommerce Development Services" />
-        <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
-        <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
-        <meta name="twitter:url" content="https://www.kusheldigi.com/" />
-      </Head>
-      
-        <Navbar/>   
-           
+                {/* Twitter Card Meta Tags */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Kushel Digi | Expert eCommerce Development Services" />
+                <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
+                <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
+                <meta name="twitter:url" content="https://www.kusheldigi.com/" />
+            </Head>
+
+            <Navbar />
+
             <div className="ser-main">
                 <div className="graphic_back0">
                     <div className="graphic_back1">
@@ -79,7 +79,7 @@ const generateMetadata = ({ params }) => ({
                             <p>
                                 Kushel Digi Solution is a creative and professional graphic design company. Our team specializes in crafting and making a unique digital design for websites which make your business stand out. We are providing graphic designing services in the USA and all over the world.
                             </p>
-                           <button>    <Link href="/contact-us"> Lets get started<svg width="13" height="13" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <button>    <Link href="/contact-us"> Lets get started<svg width="13" height="13" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8 16L6.575 14.6L12.175 9H0V7H12.175L6.575 1.4L8 0L16 8L8 16Z" fill="white" />
                             </svg>
                             </Link>  </button>
@@ -202,7 +202,8 @@ const generateMetadata = ({ params }) => ({
                                     </div>
                                     <div className="arts-head">
                                         <h3>Video Production</h3>
-                                        <p>Get original designs for your social media channels. static, animated or video, from instagram to youtube or Facebook.</p>
+                                        <p>Whether you want a static or an animated video, our graphic designers will create authentic and the best
+                                            multimedia content with high-quality graphics.</p>
                                     </div>
                                 </div>
 
@@ -234,7 +235,8 @@ const generateMetadata = ({ params }) => ({
                                     </div>
                                     <div className="arts-head">
                                         <h3>Email Design</h3>
-                                        <p>Get original designs for your social media channels. static, animated or video, from instagram to youtube or Facebook.</p>
+                                        <p>At Kushel Digi Solutions, we meticulously craft custom email templates aligned with your brand identity
+                                            and the target demographics.</p>
                                     </div>
                                 </div>
 
@@ -271,7 +273,7 @@ const generateMetadata = ({ params }) => ({
 
                 <div className="what_makes">
                     <div className="what_makes1">
-                        
+
                         <div className="make-head">
                             <h3>
                                 How Graphic Designing help in Business
@@ -284,32 +286,32 @@ const generateMetadata = ({ params }) => ({
 
                             </p>
                             <Link href="/contact-us">
-                                <button>Book a Call</button> 
-                                </Link>
+                                <button>Book a Call</button>
+                            </Link>
                         </div>
-                        
-                    </div>
-                   
-                </div>
-              
-                <Website/>
-                <GraphicFAQ/>
 
-                
+                    </div>
+
+                </div>
+
+                <Website />
+                <GraphicFAQ />
+
+
 
                 <div className="whtsApBtns">
-          <button onClick={whatAppHandler}>
-            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
-          </button>
-          <button onClick={callHandler}>
-            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991783/telephone_k9aecl.png' alt="call-icon" title="call-icon" />
-          </button>
+                    <button onClick={whatAppHandler}>
+                        <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+                    </button>
+                    <button onClick={callHandler}>
+                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991783/telephone_k9aecl.png' alt="call-icon" title="call-icon" />
+                    </button>
 
-        </div>
+                </div>
 
 
             </div>
-            <Footer/>
+            <Footer />
         </>
     )
 }

@@ -509,9 +509,8 @@ src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746643901/Group_1171279
 
           <div className="csizbot">
            <a href="contact-us"><button>
-              <span>Get A Quote For Your Project</span>
+              <span>Start a conversation</span>
             </button></a> 
-            <p>Or Start a conversation</p>
           </div>
         </div>
       </section>

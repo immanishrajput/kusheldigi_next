@@ -240,13 +240,7 @@ const Page = () => {
                     <Link href={`/blog/${getAllBlogs[0]?.slug}`}>
                       <div className="bimageloDiPARa12">
                         <p className="bimageloDiPara">
-                          {getAllBlogs[0]?.title?.slice(0, 24)}
-                        </p>
-                        <p className="bimageloDiPara">
-                          {getAllBlogs[0]?.title?.slice(24, 47)}
-                        </p>
-                        <p className="bimageloDiPara">
-                          {getAllBlogs[0]?.title?.slice(47)}
+                          {getAllBlogs[0]?.title}
                         </p>
                       </div>
                     </Link>
@@ -390,7 +384,7 @@ const Page = () => {
                   .map((item, index) => (
                     <div className="cardBlogSt" key={index}>
                       <Link href={`/blog/${item.slug}`}>
-                        <div>
+                        <div className="cardBlogStImgContainer">
                           <div className="cardBlogStImg">
                             <img src={item.images?.[0]} alt={item.title} />
                           </div>

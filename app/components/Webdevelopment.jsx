@@ -272,24 +272,24 @@ const generateMetadata = ({ params }) => ({
         </div>
 
         <div className="why_website">
-          <h2>Why website designing?</h2>
+          <h2>Why choose website designing services?</h2>
           <div className="thir_button_flex">
             <div onClick={ChangeImage1} className="thir_img">
-              <p>Customized design</p>
+              <p>Customized UI design</p>
               <img id="img1" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462387/thir1_z1wk7c.png' alt="Customized design" title="Customized design" />
             </div>
             <div onClick={ChangeImage2} className="thir_img">
             </div>
             <div onClick={ChangeImage3} className="thir_img">
-              <p>Contact & Graphics</p>
+              <p>User-centric graphics and content</p>
               <img id="img3" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462387/thir1_z1wk7c.png' alt="Contact & Graphics" title="Contact & Graphics" />
             </div>
             <div onClick={ChangeImage4} className="thir_img">
-              <p>SEO Service</p>
+              <p>Optimized for SEO</p>
               <img id="img4" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462387/thir1_z1wk7c.png' alt="SEO Service" title="SEO Service" />
             </div>
             <div onClick={ChangeImage5} className="thir_img" >
-              <p>Website Maintenance</p>
+              <p>Continuous website maintenance</p>
               <img id="img5" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462387/thir1_z1wk7c.png' alt="Website Maintenance" title="Website Maintenance" />
             </div>
           </div>
@@ -307,12 +307,12 @@ const generateMetadata = ({ params }) => ({
                     </div>
 
                     <div className="left_span">
-                      <span className="left_hire">Here are the benefits of customized website design:</span>
-                      <span>It supports and establishes your brand</span>
-                      <span>It optimized the customer experience</span>
-                      <span>It helps increase SEO optimization</span>
-                      <span>It gives better control over website hosting</span>
-                      <span>It gives better control over website hosting</span>
+                      <span className="left_hire">Explore here the benefits of customized website design:</span>
+                      <span>Tailored web design will help reflect your online brand’s unique identity.</span>
+                      <span>A custom website will be optimized for higher SEO rankings.</span>
+                      <span>Streamlined navigation and intuitive interface will improve the end-user experience.</span>
+                      <span>Stand out in the competitive market with a custom website design.</span>
+                      <span>Scale the website’s custom design template as your business grows with time.</span>
                     </div>
                   </div>
                   <div className="right_website">
@@ -772,7 +772,7 @@ const generateMetadata = ({ params }) => ({
                 onMouseLeave={() => setHovered8(false)}
               >
                 <img src={hovered8 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462317/posis8_bmwskf.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461862/dec7_xhtkrl.png'} alt="SPORTS" title="SPORTS" />
-                <p>SPORTS ( outdoor & indoor )</p>
+                <p>Sports ( outdoor & indoor )</p>
               </div>
             </div>
           </div>

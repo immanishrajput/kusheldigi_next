@@ -14,7 +14,7 @@ const whatAppHandler = () => {
   const whatsappUrl = `https://wa.me/${phoneNumber}`;
   window.open(whatsappUrl, "_blank");
 };
-const callHandler=()=>{
+const callHandler = () => {
   const callUrl = `tel:${phoneNumber}`;
   window.open(callUrl, "_blank");
 }
@@ -24,17 +24,17 @@ const Service = () => {
     title: 'Digital Transformation & eCommerce Development Experts',
     description: 'Looking for Expert eCommerce solutions? Kushel Digi Solutions is the most trsuted ecommerce development company having 2000+ Satisfied clients across the globe.',
   });
-   useEffect(() => {
+  useEffect(() => {
     const { title, description } = generateMetadata({ params: {} });
     document.title = title;
     let metaDescription = document.querySelector('meta[name="description"]');
-    metaDescription ? metaDescription.content = description : 
+    metaDescription ? metaDescription.content = description :
       document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
   }, []);
   return (
     <>
 
-<Head>
+      <Head>
         {/* Open Graph (OG) Meta Tags */}
         <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
         <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
@@ -49,17 +49,17 @@ const Service = () => {
         <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
         <meta name="twitter:url" content="https://www.kusheldigi.com/" />
       </Head>
-      
-    <Navbar/>
-    {/* <Helmet> */}
-       <link rel="canonical" href="https://www.kusheldigi.com/service"/> 
-    {/* </Helmet> */}
+
+      <Navbar />
+      {/* <Helmet> */}
+      <link rel="canonical" href="https://www.kusheldigi.com/service" />
+      {/* </Helmet> */}
       <div id="hemesh-services">
         <div className="services-banner">
           <div className="services">
             <div className="services-content">
               <h1>Solving problems with technology</h1>
-              <p>     
+              <p>
                 Our Unfaltering allegiance to insaturation and customer atonement drives us to deliver transformative services that efficiently address the ever evolving  demands of bussiness in the digital world,ensuring exceeding results and driving impactful transubstantiation .
               </p>
             </div>
@@ -69,7 +69,7 @@ const Service = () => {
           <div className="services1">
             <div className="services-content1">
               <div className="left-image">
-                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739428578/group1_y9ck1i.png' alt="ABOUT COMPANY"  title="ABOUT COMPANY"/>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739428578/group1_y9ck1i.png' alt="ABOUT COMPANY" title="ABOUT COMPANY" />
               </div>
               <div className="right-content">
                 <h3>ABOUT COMPANY</h3>
@@ -88,7 +88,7 @@ const Service = () => {
                     viewBox="0 0 20 20"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
-                    style={{marginTop:"4px"}}
+                    style={{ marginTop: "4px" }}
                   >
                     <circle
                       opacity="0.2"
@@ -100,7 +100,9 @@ const Service = () => {
                     <circle cx={10} cy={10} r={6} fill="#1163FF" />
                   </svg>
                   <p>
-                    <span>Collaboration:</span> Our goal is to wreak together talented individuals from diverse backgrounds and render them platform to work together ,share ideas and create groundbreaking solutions. 
+                    <span>Collaboration:</span> We have created a team of experts hailing from different backgrounds and having diverse skillsets. Such a
+                    level of granular collaboration allows us to craft groundbreaking ideas for our clients and deliver optimal
+                    service quality.
                   </p>
                 </div>
                 <div className="main-content">
@@ -111,7 +113,7 @@ const Service = () => {
                     viewBox="0 0 20 20"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
-                    style={{marginTop:"4px"}}
+                    style={{ marginTop: "4px" }}
                   >
                     <circle
                       opacity="0.2"
@@ -123,18 +125,18 @@ const Service = () => {
                     <circle cx={10} cy={10} r={6} fill="#1163FF" />
                   </svg>
                   <p>
-                    <span>Innovation:</span> Invovation is at the heart of everything we do. We acquiesce emerging technologies ,stay ahead of industry trends ,and continuously analyze new possibilties 
+                    <span>Innovation:</span> Invovation is at the heart of everything we do. We acquiesce emerging technologies ,stay ahead of industry trends ,and continuously analyze new possibilties
                   </p>
                 </div>
                 <div className="main-content">
                   <svg
-                  className="main_content_left_icons"
+                    className="main_content_left_icons"
                     width={15}
                     height={15}
                     viewBox="0 0 20 20"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
-                    style={{marginTop:"4px"}}
+                    style={{ marginTop: "4px" }}
                   >
                     <circle
                       opacity="0.2"
@@ -151,27 +153,27 @@ const Service = () => {
                 </div>
                 <div className="services-button">
                   <Link href="/contact-us">
-                  <button type="button">
-                    <p>
-                      Know More
-                      
-                      <svg
-                        className="right_icon"
-                        width={16}
-                        height={16}
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M12 24L9.8625 21.9L18.2625 13.5H0V10.5H18.2625L9.8625 2.1L12 0L24 12L12 24Z"
-                          fill="white"
-                        />
-                      </svg>
-                    
-                      
-                    </p>
-                  </button>
+                    <button type="button">
+                      <p>
+                        Know More
+
+                        <svg
+                          className="right_icon"
+                          width={16}
+                          height={16}
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 24L9.8625 21.9L18.2625 13.5H0V10.5H18.2625L9.8625 2.1L12 0L24 12L12 24Z"
+                            fill="white"
+                          />
+                        </svg>
+
+
+                      </p>
+                    </button>
                   </Link>
                 </div>
               </div>
@@ -322,14 +324,14 @@ const Service = () => {
                         fill="#3C83CB"
                       />
                     </svg>
-                    <h4>UX/UI DESIGN</h4>
+                    <h4>UX/UI Design</h4>
                     <p>
                       we have been adept to streamline and improve the
                       interaction between the target customers of our clients,
                       business and their online presece thanks to our expertise
                       in user experience design(UX).
                     </p>
-                <Link href="ui-ux-design">  <h3>Read More</h3> </Link>  
+                    <Link href="ui-ux-design">  <h3>Read More</h3> </Link>
                     <div className="underline1">
                       <hr />
                     </div>
@@ -362,14 +364,14 @@ const Service = () => {
                         fill="#3C83CB"
                       />
                     </svg>
-                    <h4>ECOMMERCE DEVELOPMENT</h4>
+                    <h4>eCommerce Development</h4>
                     <p>
-                      In the apace evolving digital epoch,the exaction for
-                      robust ecommerce website creation services is escalating
-                      ,particularly within the dynamic economies of developed
-                      nations like USA.
+                      At Kushel Digi Solutions, we capitalize on different technologies, like WooCommerce and Shopify to
+                      develop the best eCommerce stores for our clients. In addition, we also ensure the storefronts are
+                      customized to meet your business requirements. Our experts will align the eCommerce app with your
+                      brand identity to fortify your digital presence.
                     </p>
-                 <Link href="ecommerce-development">  <h3>Read More</h3></Link> 
+                    <Link href="ecommerce-development">  <h3>Read More</h3></Link>
                     <div className="underline1">
                       <hr />
                     </div>
@@ -378,9 +380,9 @@ const Service = () => {
               </div>
               <div className="services-right-images">
                 <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739428619/group2_tdmgoh.png' alt="our services" title="our services" />
-              
+
               </div>
-            
+
             </div>
             <div className="services-card-2">
               <div className="services-card-3">
@@ -423,13 +425,13 @@ const Service = () => {
                     fill="#3C83CB"
                   />
                 </svg>
-                <h4>APP DESIGN AND DEVELOPMENT</h4>
-                
+                <h4>App Design and Development</h4>
+
                 <p>
-                  Our mobile developers have nimble thinking and coding skills.
-                  They surpass in creating mobile apps in any language whether
-                  it is indigene or cross platform ,and can seamster them to
-                  your specific customization and requirements.
+                  Our expert developers use a custom technology stack to develop intuitive and user-friendly mobile apps.
+                  We ensure high responsiveness across all platforms so that your brand’s market outreach can be
+                  amplified. To top it all, we also work on custom development solutions to align the software with your
+                  business goals.
                 </p>
                 <Link href="mobile-application-development"><h3>Read More</h3></Link>
                 <div className="underline1">
@@ -480,15 +482,14 @@ const Service = () => {
                     fill="#3C83CB"
                   />
                 </svg>
-                <h4>WEBSITE DEVELOPMENT</h4>
+                <h4>Website Development</h4>
                 <p>
-                  In the digital era of today, do you want your business to be
-                  successful ? In the digital presence ,to develop your online
-                  presence you will need an website ,your website functions
-                  likewise to salesperson ,discussing your goods and services
-                  and highlighting situations in which you surpass.
+                  The website will be the first point of contact between your target audience and the online brand. That’s
+                  why we at Kushel Digi Solutions, ensure that it can reflect your brand’s identity in every sense. Our
+                  development strategies always include latest market trends to ensure the website can resonate with your
+                  target demographics instantly.
                 </p>
-             <Link href="web-development"> <h3>Read More</h3></Link>  
+                <Link href="web-development"> <h3>Read More</h3></Link>
                 <div className="underline1">
                   <hr />
                 </div>
@@ -537,13 +538,13 @@ const Service = () => {
                     fill="#3C83CB"
                   />
                 </svg>
-                <h4>DIGITAL MARKETING</h4>
+                <h4>Digital Marketing</h4>
                 <p>
-                  we use our years of competence and knowledge to provide
-                  solutions to our clients that are not only carrying out but
-                  also ingenious.
+                  From SEO to paid advertisements, we will help improve your brand’s outreach through tailored digital
+                  marketing solutions. Our strategies are backed by data and thorough market research. So, outsmarting
+                  your competitors and gaining a strong foothold in the market won’t be difficult.
                 </p>
-              <Link href="digital-marketing-agency"> <h3>Read More</h3></Link> 
+                <Link href="digital-marketing-agency"> <h3>Read More</h3></Link>
                 <div className="underline1">
                   <hr />
                 </div>
@@ -556,9 +557,9 @@ const Service = () => {
             <div className="services-side-logo">
               <div className="services-icons4">
                 <div className="services-icons-card">
-                    <div className="group-iconsss">
+                  <div className="group-iconsss">
                     <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739428649/services-group2345_ipa2bs.png' alt="Our Technologies" title="Our Technologies" />
-                    </div>
+                  </div>
                   {/* <img src="./images/services-group2345.png" alt="kushel" /> */}
                 </div>
                 <div className="services-content4">
@@ -778,18 +779,18 @@ const Service = () => {
             </div>
           </div>
         </div>
-       
+
       </div>
       <div className="whtsApBtns">
-          <button onClick={whatAppHandler}>
-            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739423798/whatsapp_yiaqit.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
-          </button>
-          <button onClick={callHandler}>
-            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739423855/telephone_bcbfsw.png' alt="call-icon" title="call-icon" />
-          </button>
+        <button onClick={whatAppHandler}>
+          <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739423798/whatsapp_yiaqit.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+        </button>
+        <button onClick={callHandler}>
+          <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739423855/telephone_bcbfsw.png' alt="call-icon" title="call-icon" />
+        </button>
 
-        </div>
-        <Footer/>
+      </div>
+      <Footer />
     </>
   );
 };

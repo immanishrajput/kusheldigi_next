@@ -1,5 +1,5 @@
 "use client"
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 
 import Head from 'next/head';
 
@@ -48,6 +48,8 @@ const Flutters = ({ notify }) => {
     metaDescription ? metaDescription.content = description :
       document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
   }, []);
+
+  const [selected, setSelected] = useState("code");
 
   return (
     <>
@@ -206,7 +208,7 @@ const Flutters = ({ notify }) => {
 
                   </p>
                 </div>
-               
+
                 <div className="flutter-ads-box flutter-ad-bx1">
                   <svg width="50" height="51" viewBox="0 0 50 51" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clipPath="url(#clip0_2179_648)">
@@ -265,19 +267,89 @@ const Flutters = ({ notify }) => {
 
           <div className="review">
             <div className="leftreview">
-              <h5>Code review</h5>
-              <h5>Reduced development time</h5>
-              <h5>Increased time-to-market speed</h5>
-              <h5>Versatility</h5>
-              <h5>Flexibility</h5>
-              <h5>Great performance</h5>
+              <h5 onClick={() => setSelected("code")}>Code review</h5>
+              <h5 onClick={() => setSelected("dev")}>Reduced development time</h5>
+              <h5 onClick={() => setSelected("market")}>Increased time to market speed</h5>
+              <h5 onClick={() => setSelected("versatility")}>Versatility</h5>
+              <h5 onClick={() => setSelected("flexibility")}>Flexibility</h5>
+              <h5 onClick={() => setSelected("performance")}>Optimized performance</h5>
             </div>
+
             <div className="rightreview">
-              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169940/fragment_rkvxpo.png' alt="Code Review" title='Code Review' />
-              <div className="codeReview">
-                <h5><span className="oi">OI/</span>Code Review</h5>
-                <p>Our team will perform end-to-end quality control of the code so that you will never encounter its incorrect operation.</p>
-              </div>
+              {selected === "code" && (
+                <>
+                  <img
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169940/fragment_rkvxpo.png"
+                    alt="Code Review"
+                  />
+                  <div className="codeReview">
+                    <h5><span className="oi">OI/</span>Code Review</h5>
+                    <p>
+                      Our experts will run an end-to-end analysis of the code for accurate quality control. By doing so, we
+                      ensure timely bug resolution and performance optimization.
+                    </p>
+                  </div>
+                </>
+              )}
+
+              {selected === "dev" && (
+                <>
+                  <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169940/fragment_rkvxpo.png"
+                    alt="Dev Time" />
+                  <div className="codeReview">
+                    <h5><span className="oi">OI/</span>Reduced development time</h5>
+                    <p>We implement agile methodology to develop web apps using Flutter. Hence, the overall development
+                      timeline will be reduced significantly.</p>
+                  </div>
+                </>
+              )}
+
+              {selected === "market" && (
+                <>
+                  <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169940/fragment_rkvxpo.png"
+                    alt="Time to Market" />
+                  <div className="codeReview">
+                    <h5><span className="oi">OI/</span>Increased time to market speed</h5>
+                    <p>Thanks to our planned approach and decades of industry expertise, we assure you faster time to market.</p>
+                  </div>
+                </>
+              )}
+
+              {selected === "versatility" && (
+                <>
+                  <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169940/fragment_rkvxpo.png"
+                    alt="Versatility" />
+                  <div className="codeReview">
+                    <h5><span className="oi">OI/</span>Versatility</h5>
+                    <p>Whether it’s an eCommerce storefront or a blogging site, we are expert in designing versatile and
+                      responsive web apps.</p>
+                  </div>
+                </>
+              )}
+
+              {selected === "flexibility" && (
+                <>
+                  <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169940/fragment_rkvxpo.png"
+                    alt="Flexibility" />
+                  <div className="codeReview">
+                    <h5><span className="oi">OI/</span>Flexibility</h5>
+                    <p>Web apps developed with Flutter can be scaled on the go. So, we can easily accommodate your growing
+                      business needs.</p>
+                  </div>
+                </>
+              )}
+
+              {selected === "performance" && (
+                <>
+                  <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169940/fragment_rkvxpo.png"
+                    alt="Performance" />
+                  <div className="codeReview">
+                    <h5><span className="oi">OI/</span>Optimized performance</h5>
+                    <p>Kushel Digi Solutions ensures that our Flutter-based web apps will deliver stellar user experience in all
+                      aspects.</p>
+                  </div>
+                </>
+              )}
             </div>
           </div>
 
@@ -286,20 +358,20 @@ const Flutters = ({ notify }) => {
           </div>
         </div>
 
-        <div className="let-flutter"> 
-            <div className="let-flutter1">
-              <h3>
-                Let's talk about your <br />
-                project
-              </h3>
-              <p>
-                Leave a request - we will analyze your current situation and help
-                you choose a site to scale your business
-              </p>
-            </div>
-            <div className="let-flutter2">
-              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169903/gurav_nhcgzw.png' alt="kusheldigi-project" title='kusheldigi-project' />
-            </div> 
+        <div className="let-flutter">
+          <div className="let-flutter1">
+            <h3>
+              Let's talk about your <br />
+              project
+            </h3>
+            <p>
+              Leave a request - we will analyze your current situation and help
+              you choose a site to scale your business
+            </p>
+          </div>
+          <div className="let-flutter2">
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169903/gurav_nhcgzw.png' alt="kusheldigi-project" title='kusheldigi-project' />
+          </div>
         </div>
 
         {/* <ContactForm1 notify={notify} /> */}

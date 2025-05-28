@@ -85,10 +85,12 @@ const WordPress = () => {
                     <div className="wordpress-back012 ">
                         <div className="wordpress-back1">
                             <div className="word_press_head">
-                                <h1>Empowering Web Presence Wordpress Developing Solutions</h1>
+                                <h1>Amplifying digital footprint with custom WordPress
+                                    development</h1>
                             </div>
                             <div className="word_press_para">
-                                <p>WordPress development is the building as well as maintenance of WordPress websites. It is an open-source platform ,to design In India. Migrate or maintain outstanding WordPress Website at a great price.</p>
+                                <p>Launch a user-friendly and intuitive website with our promising WordPress development services.
+                                    Leverage its built-in features to extend the website’s functionality and enhance its overall performance.</p>
                             </div>
                             <br />
                             <Link href="/contact-us" className="buttunn buttunn1"><button>Lets get started
@@ -105,14 +107,29 @@ const WordPress = () => {
 
                 <div className="wordpress_about ">
                     <div className="wordpress_about_left">
-                        <h2>WHY USE <span>WORDPRESS</span> TO BUILD A WEBSITE? </h2>
+                        <h2>Why <span>WordPress</span> is used for building a website?</h2>
                         <div className="wordpress-paras">
-                            <p>The experts at kushel Digi knows the importance of a high-quality website that allows products as well as services to reach a wider audience. In today’s digital world, it is important to have a website where one can easily manage content as well as services. Whether one can be a big publisher or an e-commerce store owner if you want a A super scalable , SEO-friendly online based system that can enhance your business performance. Kushel Digi offers a custom WordPress development
-                                Service that aims to transform a unique ideas into A comprehensive website.
+                            <p>Known as one of the most powerful Content Management Systems, WordPress has a user-friendly design
+                                for easy operations and streamlined navigations. Whether you want to design an eCommerce storefront or
+                                build a blogging website, this platform provides all the necessary plugins and tools required. No more
+                                requirements of deep knowledge about coding! From a vast library of diverse themes to innumerable
+                                plugins, you can now build a website that will deliver a stellar experience to your end users.</p>
+
+                            <p>
+                                Here are a few benefits of using WordPress for building a website!
                             </p>
-                            <p>Web design is important because it impacts how your audience perceives your brand. It identifies the goals of a website or a webpage and promotes
-                                accessibility for all potential users. Good design   is so much more than creating a good-looking product. Design influence what we think, the
-                                the way we feel and decisions we make.</p>
+
+                            <ul>
+                                <li>Thousands of personalized themes and plugins are available</li>
+                                <li>Offers full-scale customizability and scalability for the websites</li>
+                                <li>Easy to use and manage, especially beneficial for non-coders</li>
+                                <li>Allows optimization of the websites for better SEO performance</li>
+                                <li>Mobile-responsiveness and highly secured platform</li>
+                            </ul>
+
+                            <p>If you want to harness these benefits, wait no longer and connect our WordPress experts at Kushel Digi
+                                Solutions.</p>
+
                         </div>
                         <Link href="/contact-us">
                             <button>Book a Free Consultation</button> </Link>
@@ -125,10 +142,11 @@ const WordPress = () => {
                 </div>
 
                 <div className="wordpress_serv">
-                    <h3> WHAT IS THE SIGNIFICANCE OF WEB DEVELOPMENT AT <span>KUSHELDIGI?</span></h3>
+                    <h3> Why choose <span>Kushel Digi</span> for WordPress development?</h3>
                     <div className="word_parat">
-                        <p>WordPress is the world’s most- used Website builder and powers website for Some of the biggest brands in the world. It is the best way to build a website, In a modular ecosystem. The most
-                            Significant advantage of WordPress is It’s unmatched potential for scalability, This means as businesses advance Or expands,there will be a powerful Platform,that can meet the requirements For growth.</p>
+                        <p>Our decade-long expertise in WordPress allows us to design tailored solutions to fit in your business
+                            requirements thoroughly. Kushel Digi will ensure your website can deliver a stellar user experience by
+                            utilizing the built-in themes and plugins available in this CMS.</p>
                     </div>
 
                     <div className="wordPressji_cards">
@@ -139,21 +157,24 @@ const WordPress = () => {
                                     <path d="M0 0C61.7545 0 47.3839 41.1696 47.5134 47.5134L58 58H54.6339L45.442 48.808C40.3929 49.3259 29.3884 53.3393 17.7366 44.0179C6.08482 34.8259 6.73214 23.692 0 0ZM10.2277 5.95536C3.88393 2.97768 9.58036 7.25 9.58036 7.25C15.4062 11.2634 18.125 16.7009 21.2321 22.7857C25.375 30.5536 31.4598 40.7812 39.875 44.4062C48.2902 48.0312 44.4062 46.0893 40.6518 43.3705C37.0268 40.6518 31.8482 32.1071 28.8705 26.5402C24.8571 18.7723 20.9732 11.1339 10.2277 5.95536Z" fill="#0E52FC" />
                                 </svg>
                                 <h3>Modern UX/UI Design</h3>
-                                <p>kushel digi does exceptional custom design and also modify the theme of our choice.</p>
+                                <p>Our experts will design a modern interface for your website by customizing the themes available in
+                                    WordPress.</p>
                             </div>
                             <div className="wordPressji_box">
                                 <svg width="58" height="55" viewBox="0 0 58 55" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M19.2944 44.2895C19.2944 44.5166 19.0605 44.6302 18.7097 44.6302C18.3589 44.7438 18.125 44.5166 18.125 44.2895C18.125 44.0624 18.3589 43.8353 18.7097 43.8353C19.0605 43.8353 19.2944 44.0624 19.2944 44.2895ZM15.6694 43.7217C15.7863 43.4946 16.1371 43.381 16.4879 43.4946C16.8387 43.6081 16.9556 43.8353 16.9556 44.0624C16.8387 44.2895 16.4879 44.4031 16.254 44.2895C15.9032 44.2895 15.6694 43.9488 15.6694 43.7217ZM20.9315 43.6081C21.1653 43.4946 21.5161 43.7217 21.5161 43.9488C21.6331 44.176 21.3992 44.2895 21.0484 44.4031C20.6976 44.5166 20.3468 44.4031 20.3468 44.176C20.3468 43.8353 20.5806 43.6081 20.9315 43.6081ZM28.5323 0C44.7863 0 58 12.0377 58 27.7093C58 40.3148 50.0484 51.1033 38.3548 54.8509C36.8347 55.1916 36.25 54.2831 36.25 53.4881C36.25 52.5796 36.3669 47.81 36.3669 44.0624C36.3669 41.3369 35.4315 39.6334 34.379 38.7249C40.9274 38.0436 47.8266 37.1351 47.8266 26.233C47.8266 23.0533 46.6573 21.5769 44.7863 19.5328C45.0202 18.7379 46.0726 15.7852 44.4355 11.8105C41.9798 11.0156 36.3669 14.8767 36.3669 14.8767C34.0282 14.1954 31.5726 13.9682 29 13.9682C26.5444 13.9682 24.0887 14.1954 21.75 14.8767C21.75 14.8767 16.0202 11.1292 13.6815 11.8105C12.0444 15.7852 12.9798 18.7379 13.3306 19.5328C11.4597 21.5769 10.5242 23.0533 10.5242 26.233C10.5242 37.1351 17.1895 38.0436 23.7379 38.7249C22.8024 39.5199 22.1008 40.7691 21.8669 42.5861C20.1129 43.381 15.9032 44.6302 13.3306 40.2013C11.6935 37.4757 8.77016 37.2486 8.77016 37.2486C5.96371 37.2486 8.65323 39.0656 8.65323 39.0656C10.5242 39.8606 11.8105 43.1539 11.8105 43.1539C13.5645 48.2642 21.75 46.5608 21.75 46.5608C21.75 48.9456 21.75 52.8067 21.75 53.6017C21.75 54.2831 21.2823 55.1916 19.7621 54.9644C8.06855 51.1033 0 40.3148 0 27.7093C0 12.0377 12.3952 0 28.5323 0ZM11.3427 39.1792C11.4597 39.0656 11.6935 39.1792 11.9274 39.2928C12.1613 39.5199 12.1613 39.8606 12.0444 39.9741C11.8105 40.0877 11.5766 39.9741 11.3427 39.8606C11.2258 39.6334 11.1089 39.2928 11.3427 39.1792ZM10.0565 38.2707C10.1734 38.1571 10.2903 38.1571 10.5242 38.2707C10.7581 38.3842 10.875 38.4978 10.875 38.6114C10.7581 38.8385 10.5242 38.8385 10.2903 38.7249C10.0565 38.6114 9.93952 38.4978 10.0565 38.2707ZM13.7984 42.3589C14.0323 42.1318 14.3831 42.2454 14.6169 42.4725C14.8508 42.6996 14.8508 43.0403 14.7339 43.1539C14.6169 43.381 14.2661 43.2675 14.0323 43.0403C13.6815 42.8132 13.6815 42.4725 13.7984 42.3589ZM12.5121 40.6555C12.746 40.5419 12.9798 40.6555 13.2137 40.8826C13.3306 41.1098 13.3306 41.4504 13.2137 41.564C12.9798 41.6776 12.746 41.564 12.5121 41.3369C12.2782 41.1098 12.2782 40.7691 12.5121 40.6555Z" fill="#0E52FC" />
                                 </svg>
                                 <h3>Plugins and Functionality</h3>
-                                <p>The experts of Kushel digi can equip the website with the best plugins in the market.</p>
+                                <p>Extend your website’s functionality with different plugins WordPress has to offer, including payment
+                                    gateways, custom calendar, and analytical tools.</p>
                             </div>
                             <div className="wordPressji_box">
                                 <svg width="43" height="57" viewBox="0 0 43 57" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M16.6849 38.9648C17.1328 39.2988 17.1328 39.8555 16.7969 40.3008L14.7812 42.416C14.6693 42.5273 14.3333 42.6387 14.1094 42.6387C13.8854 42.6387 13.6615 42.5273 13.4375 42.416L6.94271 36.4043C6.60677 35.959 6.60677 35.4023 6.94271 34.957L13.4375 28.9453C13.7734 28.6113 14.4453 28.6113 14.7812 28.9453L16.7969 31.0605C17.1328 31.5059 17.1328 32.0625 16.6849 32.5078L12.9896 35.625L16.6849 38.8535V38.9648ZM41.3203 10.9102C42.3281 11.9121 43 13.3594 43 14.6953V51.6562C43 54.6621 40.5365 57 37.625 57H5.375C2.35156 57 0 54.6621 0 51.6562V5.34375C0 2.44922 2.35156 0 5.375 0H28.2187C29.5625 0 31.0182 0.556641 32.026 1.55859L41.3203 10.9102ZM28.6667 5.78906V14.25H37.1771L28.6667 5.78906ZM37.625 51.6562V19.5937H25.9792C24.4115 19.5937 23.2917 18.4805 23.2917 16.9219V5.34375H5.375V51.6562H37.625ZM23.4036 23.8242L26.2031 24.6035C26.651 24.8262 26.987 25.3828 26.875 25.8281L20.7161 46.8691C20.6042 47.3145 20.0443 47.6484 19.4844 47.5371L16.7969 46.6465C16.237 46.5352 15.901 45.9785 16.125 45.5332L22.1719 24.4922C22.3958 24.0469 22.8437 23.7129 23.4036 23.8242ZM26.2031 32.3965C25.7552 32.0625 25.7552 31.3945 26.0911 31.0605L28.1068 28.9453C28.4427 28.6113 29.1146 28.6113 29.4505 28.9453L35.9453 34.957C36.2812 35.291 36.2812 35.959 35.9453 36.4043L29.4505 42.416C29.1146 42.75 28.4427 42.75 28.1068 42.416L26.0911 40.3008C25.7552 39.8555 25.7552 39.2988 26.2031 38.8535L29.8984 35.625L26.2031 32.5078V32.3965Z" fill="#0E52FC" />
                                 </svg>
-                                <h3>Websites of Any Kind</h3>
-                                <p>With the help of WordPress immense Scalability, one can turn all kinds of Projects into reality.</p>
+                                <h3>Support for all websites</h3>
+                                <p>Whether you want an eCommerce storefront or a blogging website, Kushel Digi will help transform your
+                                    vision into reality using WordPress.</p>
                             </div>
 
                             <div className="wordPressji_box">
@@ -161,14 +182,16 @@ const WordPress = () => {
                                     <path d="M29 0C45.0104 0 58 12.9576 58 28.9286C58 34.2522 56.4896 39.2746 53.9722 43.4933C53.4688 44.4978 52.3611 45 51.2535 45H6.64583C5.53819 45 4.43056 44.4978 3.92708 43.4933C1.40972 39.2746 0 34.2522 0 28.9286C0 12.9576 12.8889 0 29 0ZM29 6.42857C27.1875 6.42857 25.7778 7.93527 25.7778 9.64286C25.7778 11.4509 27.1875 12.8571 29 12.8571C29.6042 12.8571 30.2083 12.6563 30.7118 12.2545L31.6181 9.54241C31.7188 9.24107 31.9201 9.04018 32.0208 8.83929C31.6181 7.53348 30.4097 6.42857 29 6.42857ZM9.66667 35.3571C11.3785 35.3571 12.8889 33.9509 12.8889 32.1429C12.8889 30.4353 11.3785 28.9286 9.66667 28.9286C7.85417 28.9286 6.44444 30.4353 6.44444 32.1429C6.44444 33.9509 7.85417 35.3571 9.66667 35.3571ZM14.5 19.2857C16.2118 19.2857 17.7222 17.8795 17.7222 16.0714C17.7222 14.3638 16.2118 12.8571 14.5 12.8571C12.6875 12.8571 11.2778 14.3638 11.2778 16.0714C11.2778 17.8795 12.6875 19.2857 14.5 19.2857ZM39.2708 12.0536C39.6736 10.8482 39.0694 9.44196 37.7604 9.04018C36.4514 8.53795 35.1424 9.24107 34.7396 10.5469L28.4965 29.029C25.1736 29.2299 22.5556 32.0424 22.5556 35.3571C22.5556 36.5625 22.8576 37.6674 23.3611 38.5714H34.5382C35.0417 37.6674 35.4444 36.5625 35.4444 35.3571C35.4444 33.4487 34.5382 31.7411 33.1285 30.5357L39.2708 12.0536ZM40.7813 17.779C41.3854 18.683 42.2917 19.2857 43.5 19.3862C45.2118 19.3862 46.7222 17.8795 46.7222 16.1719C46.7222 14.3638 45.2118 12.9576 43.5 12.9576C43.0972 12.9576 42.6944 12.9576 42.2917 13.1585L40.7813 17.779ZM48.3333 35.3571C50.0451 35.3571 51.5556 33.9509 51.5556 32.1429C51.5556 30.4353 50.0451 28.9286 48.3333 28.9286C46.5208 28.9286 45.1111 30.4353 45.1111 32.1429C45.1111 33.9509 46.5208 35.3571 48.3333 35.3571Z" fill="#0E52FC" />
                                 </svg>
                                 <h3>Speed and Performance</h3>
-                                <p>When it comes to catching, there is no one–size–fits–solution, so determine and implement the appropriate approach based on their unique solution.</p>
+                                <p>Our experts will optimize the WordPress website for excellent loading speeds and optimal performance
+                                    deliveries.</p>
                             </div>
                             <div className="wordPressji_box">
                                 <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M29 0C44.9032 0 58 13.0968 58 29C58 45.0202 44.9032 58 29 58C12.9798 58 0 45.0202 0 29C0 13.0968 12.9798 0 29 0ZM38.5887 41.8629C39.5242 40.9274 40.2258 39.5242 40.2258 38.004C40.2258 37.0685 39.7581 36.1331 39.1734 35.5484L37.5363 33.9113C36.8347 33.2097 35.8992 32.7419 34.8468 32.7419H27.129C25.9597 32.2742 24.5565 29 23.3871 29C22.1008 29 20.9315 28.7661 19.7621 28.1815L18.4758 27.5968C18.0081 27.3629 17.7742 26.8952 17.7742 26.3105C17.7742 25.7258 18.125 25.1411 18.7097 25.0242L22.3347 23.7379C22.4516 23.7379 22.6855 23.7379 22.9194 23.7379C23.3871 23.7379 23.8548 23.8548 24.0887 24.0887L25.2581 25.1411C25.375 25.2581 25.6089 25.2581 25.8427 25.2581H26.5444C27.246 25.2581 27.5968 24.5565 27.3629 23.9718L25.4919 20.3468C25.4919 20.2298 25.375 19.996 25.375 19.879C25.375 19.6452 25.4919 19.4113 25.7258 19.1774L26.8952 18.125C27.0121 17.8911 27.246 17.7742 27.4798 17.7742H28.5323C28.7661 17.7742 29 17.7742 29.2339 17.5403L30.1694 16.6048C30.5202 16.254 30.5202 15.6694 30.1694 15.3185L29.5847 14.7339C29.2339 14.3831 29.2339 13.7984 29.5847 13.4476L31.3387 11.6935C32.0403 10.9919 32.0403 9.70565 31.3387 9.00403L28.0645 5.72984C27.129 5.72984 26.0766 5.84677 25.2581 5.96371V7.36694C25.2581 8.77016 23.7379 9.58871 22.4516 9.00403L19.6452 7.60081C14.2661 9.93952 10.0565 14.1492 7.60081 19.5282C8.77016 21.2823 10.5242 23.8548 11.6935 25.4919C12.2782 26.4274 12.9798 27.129 13.7984 27.9476H13.9153C14.9677 29 16.254 29.8185 17.5403 30.5202C19.1774 31.3387 21.6331 32.625 23.2702 33.5605C24.4395 34.2621 25.2581 35.5484 25.2581 36.8347V40.5766C25.2581 41.629 25.6089 42.5645 26.3105 43.2661C28.0645 45.0202 29.1169 47.7097 29 49.2298V52.3871C30.6371 52.3871 32.2742 52.2702 33.9113 51.9194L36.0161 46.4234C36.25 45.7218 36.3669 45.1371 36.4839 44.4355C36.6008 43.9677 36.8347 43.5 37.1855 43.1492C37.6532 42.7984 38.121 42.3306 38.5887 41.8629ZM48.7621 31.2218L52.1532 32.0403C52.2702 31.1048 52.3871 30.0524 52.3871 29C52.3871 25.2581 51.4516 21.75 49.8145 18.5927L48.2944 19.4113C47.8266 19.6452 47.4758 19.879 47.2419 20.3468L44.9032 23.7379C44.6694 24.2056 44.4355 24.7903 44.4355 25.375C44.4355 25.8427 44.6694 26.4274 44.9032 26.8952L47.0081 30.0524C47.4758 30.6371 48.0605 30.9879 48.7621 31.2218Z" fill="#0E52FC" />
                                 </svg>
-                                <h3>Worldwide Website</h3>
-                                <p>Our professionals can build you a multilingual site to make your business appealing to international audiences.</p>
+                                <h3>Multilingual support</h3>
+                                <p>We can design a website that will support multiple languages. So, now reach out to international
+                                    demographics with ease through a powerful, multilingual website.</p>
 
                             </div>
                             <div className="wordPressji_box">
@@ -176,31 +199,34 @@ const WordPress = () => {
                                     <path d="M29 4.59677C15.5524 4.59677 4.67742 15.3992 4.67742 28.5C4.67742 41.7157 15.5524 52.4032 29 52.4032C42.3306 52.4032 53.3226 41.7157 53.3226 28.5C53.3226 15.3992 42.3306 4.59677 29 4.59677ZM29 0C44.9032 0 58 12.871 58 28.5C58 44.2439 44.9032 57 29 57C12.9798 57 0 44.2439 0 28.5C0 12.871 12.9798 0 29 0ZM29 6.43548C41.3952 6.43548 51.4516 16.3185 51.4516 28.5C51.4516 40.7964 41.3952 50.5645 29 50.5645C16.4879 50.5645 6.54839 40.7964 6.54839 28.5C6.54839 16.3185 16.4879 6.43548 29 6.43548ZM29 11.4919C26.6613 11.4919 24.7903 13.4456 24.7903 15.629C24.7903 17.9274 26.6613 19.7661 29 19.7661C31.2218 19.7661 33.2097 17.9274 33.2097 15.629C33.2097 13.4456 31.2218 11.4919 29 11.4919ZM42.6815 22.869C43.7339 22.5242 44.3186 21.6048 44.0847 20.5706C43.8508 19.6512 42.7984 18.9617 41.8629 19.1915C30.5202 21.8347 27.3629 21.8347 16.0202 19.1915C15.0847 18.9617 14.0323 19.6512 13.7984 20.5706C13.5645 21.6048 14.1492 22.5242 15.2016 22.869C18.4758 23.5585 21.6331 24.248 24.7903 24.5927C24.6734 36.1996 23.3871 38.7278 21.8669 42.5202C21.3992 43.5544 21.9839 44.8185 23.0363 45.1633C24.0887 45.623 25.375 45.0484 25.7258 44.0141C26.7782 41.4859 27.7137 39.3024 28.4153 34.9355H29.4677C30.1694 39.3024 31.1048 41.4859 32.1573 44.0141C32.5081 45.0484 33.7944 45.623 34.8468 45.1633C35.8992 44.8185 36.4839 43.5544 36.0161 42.5202C34.496 38.7278 33.2097 36.1996 33.0927 24.5927C36.25 24.248 39.4073 23.5585 42.6815 22.869Z" fill="#0E52FC" />
                                 </svg>
                                 <h3>Accessibility</h3>
-                                <p>Developers take high pride in accessibility, which means that they build a website that can be effortlessly used as well as enjoyed, But it can be free for everyone. </p>
+                                <p>At Kushel Digi, we will build a WordPress website that can be accessed from anywhere without any
+                                    hurdle. Increase your brand’s outreach with an intuitive and user-friendly interface.</p>
                             </div>
 
                             <div className="wordPressji_box">
                                 <svg width="36" height="58" viewBox="0 0 36 58" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M30.6 0C33.525 0 36 2.49219 36 5.4375V52.5625C36 55.6211 33.525 58 30.6 58H5.4C2.3625 58 0 55.6211 0 52.5625V5.4375C0 2.49219 2.3625 0 5.4 0H30.6ZM18 54.375C19.9125 54.375 21.6 52.7891 21.6 50.75C21.6 48.8242 19.9125 47.125 18 47.125C15.975 47.125 14.4 48.8242 14.4 50.75C14.4 52.7891 15.975 54.375 18 54.375ZM30.6 42.1406V6.79687C30.6 6.11719 29.925 5.4375 29.25 5.4375H6.75C5.9625 5.4375 5.4 6.11719 5.4 6.79687V42.1406C5.4 42.9336 5.9625 43.5 6.75 43.5H29.25C29.925 43.5 30.6 42.9336 30.6 42.1406Z" fill="#0E52FC" />
                                 </svg>
-                                <h3>Responsive Design</h3>
-                                <p>Make sure the website runs smoothly onany type of design.</p>
+                                <h3>Device Responsiveness</h3>
+                                <p>Our WordPress developers ensure the websites build can deliver an omnichannel and uniform
+                                    performance and experience across all devices.</p>
 
                             </div>
                             <div className="wordPressji_box">
                                 <svg width="56" height="39" viewBox="0 0 56 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M8.4 16.7143C5.25 16.7143 2.8 14.2768 2.8 11.1429C2.8 8.09598 5.25 5.57143 8.4 5.57143C11.4625 5.57143 14 8.09598 14 11.1429C14 14.2768 11.4625 16.7143 8.4 16.7143ZM47.6 16.7143C44.45 16.7143 42 14.2768 42 11.1429C42 8.09598 44.45 5.57143 47.6 5.57143C50.6625 5.57143 53.2 8.09598 53.2 11.1429C53.2 14.2768 50.6625 16.7143 47.6 16.7143ZM50.4 19.5C53.4625 19.5 56 22.0246 56 25.0714V27.8571C56 29.4241 54.6875 30.6429 53.2 30.6429H47.425C46.8125 26.5513 44.3625 23.0692 40.775 21.154C41.825 20.1964 43.225 19.5 44.8 19.5H50.4ZM28 19.5C22.575 19.5 18.2 15.1473 18.2 9.75C18.2 4.43973 22.575 0 28 0C33.3375 0 37.8 4.43973 37.8 9.75C37.8 15.1473 33.3375 19.5 28 19.5ZM34.65 22.2857C40.25 22.2857 44.8 26.8125 44.8 32.3839V34.8214C44.8 37.1719 42.875 39 40.6 39H15.4C13.0375 39 11.2 37.1719 11.2 34.8214V32.3839C11.2 26.8125 15.6625 22.2857 21.2625 22.2857H21.9625C23.8 23.1563 25.8125 23.6786 28 23.6786C30.1 23.6786 32.1125 23.1563 33.95 22.2857H34.65ZM15.1375 21.154C11.55 23.0692 9.1 26.5513 8.4875 30.6429H2.8C1.225 30.6429 0 29.4241 0 27.8571V25.0714C0 22.0246 2.45 19.5 5.6 19.5H11.2C12.6875 19.5 14.0875 20.1964 15.1375 21.154Z" fill="#0E52FC" />
                                 </svg>
-                                <h3>Multi-User Capacity</h3>
-                                <p>Experts will ensure complete control over the site by generating Different accounts with specific permission for user access.</p>
+                                <h3>Multi-user capacity</h3>
+                                <p>We will give you the optimal control of your website by seamlessly integrating role-based access
+                                    functionality.</p>
                             </div>
                             <div className="wordPressji_box">
                                 <svg width="58" height="46" viewBox="0 0 58 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M46.4456 17.1875L45.63 18.5391C45.3581 18.9896 44.8144 19.1698 44.2707 18.9896C43.2738 18.6292 42.277 17.9984 41.3707 17.3677C41.0082 17.0073 40.827 16.3766 41.0989 15.926L41.9145 14.6646C41.2801 13.9437 40.7364 13.0427 40.4645 12.1416H38.9239C38.3802 12.1416 37.9271 11.7812 37.8364 11.2406C37.6552 10.1593 37.6552 8.98796 37.8364 7.9067C37.9271 7.36607 38.3802 6.91555 38.9239 6.91555H40.4645C40.7364 6.0145 41.2801 5.20355 41.9145 4.48272L41.0989 3.22125C40.827 2.68062 41.0082 2.13999 41.3707 1.77957C42.277 1.05873 43.2738 0.518103 44.2707 0.0675786C44.8144 -0.112631 45.3581 0.0675786 45.63 0.608208L46.4456 1.86968C47.3518 1.68947 48.3487 1.68947 49.2549 1.86968L50.0705 0.608208C50.3424 0.0675786 50.8861 -0.112631 51.4299 0.0675786C52.4267 0.518103 53.4236 1.05873 54.3298 1.77957C54.6923 2.13999 54.8735 2.68062 54.6016 3.22125L53.786 4.48272C54.4204 5.20355 54.9641 6.0145 55.236 6.91555H56.7766C57.3203 6.91555 57.7734 7.36607 57.8641 7.9067C58.0453 8.98796 58.0453 10.0692 57.8641 11.2406C57.7734 11.7812 57.3203 12.1416 56.7766 12.1416H55.236C54.9641 13.0427 54.4204 13.9437 53.786 14.6646L54.6016 15.926C54.8735 16.3766 54.6923 17.0073 54.3298 17.3677C53.4236 17.9984 52.4267 18.6292 51.4299 18.9896C50.8861 19.1698 50.3424 18.9896 50.0705 18.5391L49.2549 17.1875C48.3487 17.3677 47.3518 17.3677 46.4456 17.1875ZM45.4488 11.9614C48.983 14.5745 52.9704 10.6098 50.2518 7.18586C46.7175 4.48272 42.8207 8.44733 45.4488 11.9614ZM35.0271 25.8376L38.1083 27.2792C39.0145 27.8199 39.377 28.9011 39.0145 29.8923C38.1989 32.1449 36.6583 34.1272 35.1178 35.8392C34.4834 36.6501 33.3053 36.8304 32.3991 36.3798L29.771 34.848C28.3211 36.0194 26.5992 37.0106 24.7868 37.6413V40.7049C24.7868 41.7861 24.0618 42.6872 22.9743 42.8674C20.7994 43.2278 18.4432 43.2278 16.1776 42.8674C15.0901 42.6872 14.3652 41.7861 14.3652 40.7049V37.6413C12.4621 37.0106 10.8309 36.0194 9.3809 34.848L6.75284 36.2897C5.84662 36.8304 4.66852 36.6501 3.94354 35.8392C2.49358 34.1272 0.952989 32.1449 0.137384 29.8923C-0.225107 28.9912 0.137384 27.8199 1.13423 27.2792L4.12478 25.8376C3.76229 23.9454 3.76229 21.9631 4.12478 20.0709L1.13423 18.5391C0.137384 17.9984 -0.225107 16.9172 0.137384 15.926C0.952989 13.7635 2.49358 11.7812 3.94354 9.97911C4.66852 9.25827 5.75599 8.98796 6.75284 9.52859L9.3809 11.0604C10.8309 9.7989 12.4621 8.80775 14.3652 8.17701V5.20355C14.3652 4.1223 15.0901 3.22125 16.087 3.04104C18.3526 2.68062 20.7087 2.68062 22.9743 3.04104C24.0618 3.22125 24.7868 4.1223 24.7868 5.20355V8.17701C26.5992 8.80775 28.3211 9.7989 29.771 11.0604L32.3991 9.52859C33.3053 8.98796 34.4834 9.16817 35.1178 9.97911C36.6583 11.7812 38.1989 13.7635 39.0145 15.926C39.377 16.9172 39.0145 17.9984 38.1083 18.5391L35.0271 20.0709C35.3896 21.9631 35.3896 23.9454 35.0271 25.8376ZM24.3337 27.7298C29.6804 20.7917 21.7962 12.8625 14.8183 18.1787C9.3809 25.1167 17.3557 33.046 24.3337 27.7298ZM46.4456 44.1288L45.63 45.4804C45.3581 45.9309 44.8144 46.1112 44.2707 45.9309C43.2738 45.5705 42.277 44.9398 41.3707 44.219C41.0082 43.9486 40.827 43.3179 41.0989 42.8674L41.9145 41.5158C41.2801 40.795 40.7364 39.984 40.4645 39.083H38.9239C38.3802 39.083 37.9271 38.7226 37.8364 38.1819C37.6552 37.1007 37.6552 35.9293 37.8364 34.848C37.9271 34.3074 38.3802 33.8569 38.9239 33.8569H40.4645C40.7364 32.9558 41.2801 32.1449 41.9145 31.4241L41.0989 30.1626C40.827 29.622 41.0082 29.0813 41.3707 28.7209C42.277 28.0001 43.2738 27.4595 44.2707 27.0089C44.8144 26.8287 45.3581 27.0089 45.63 27.5496L46.4456 28.811C47.3518 28.6308 48.3487 28.6308 49.2549 28.811L50.0705 27.5496C50.3424 27.0089 50.8861 26.8287 51.4299 27.0089C52.4267 27.4595 53.4236 28.0001 54.3298 28.7209C54.6923 29.0813 54.8735 29.622 54.6016 30.1626L53.786 31.4241C54.4204 32.1449 54.9641 32.9558 55.236 33.8569H56.7766C57.3203 33.8569 57.7734 34.3074 57.8641 34.848C58.0453 35.9293 58.0453 37.0106 57.8641 38.1819C57.7734 38.7226 57.3203 39.083 56.7766 39.083H55.236C54.9641 39.984 54.4204 40.795 53.786 41.5158L54.6016 42.8674C54.8735 43.3179 54.6923 43.9486 54.3298 44.219C53.4236 44.9398 52.4267 45.5705 51.4299 45.9309C50.8861 46.1112 50.3424 45.9309 50.0705 45.4804L49.2549 44.1288C48.3487 44.3091 47.3518 44.3091 46.4456 44.1288ZM45.4488 38.8127C48.983 41.5158 52.9704 37.5512 50.2518 34.1272C46.7175 31.4241 42.8207 35.3887 45.4488 38.8127Z" fill="#0E52FC" />
                                 </svg>
-                                <h3>Complete Customization</h3>
-                                <p>Vipe Studio’s professionals will maximize your website’s potential by introducing you to WordPress’ versatile customization options.</p>
-
+                                <h3>End-to-end customization</h3>
+                                <p>Reach out to us to have a WordPress website customized to meet your future goals and the target
+                                    demographics.</p>
                             </div>
                         </div>
                     </div>
@@ -211,16 +237,18 @@ const WordPress = () => {
                 <div className='word_benefits'>
                     <div className='wordnew addflex'>
                         <h3 className='head'>Benefits of <span className='wordblue'>WordPress</span> Development Services</h3>
-                        <p className='pra'>Best WordPress Developers that astonish our clients with refinement and superiority</p>
+                        <p className='pra'>Delivering a reliable WordPress website tailored to our clients’ needs.</p>
                         <div className='word_benefits_main_section'>
                             <div className='word_benefits_section'>
                                 <div className='word_benefits_box'>
                                     <h3>Execution Architecture</h3>
-                                    <p>We cautiously model each web application to guarantee elite and low framework costs.</p>
+                                    <p>We always ensure that the technology stack is chosen in a way to reduce the development costs while
+                                        guaranteeing optimal performance.</p>
                                 </div>
                                 <div className='word_benefits_box-2'>
                                     <h3>Imaginative UI/UX Design</h3>
-                                    <p>We offer imaginative and UI/UX planning and web application plan models.</p>
+                                    <p>Our WordPress developers will design an intuitive and user-friendly interface. Leverage our custom
+                                        themes to build a strong connection between your target audience and the online brand.</p>
 
                                 </div>
                             </div>
@@ -250,7 +278,7 @@ const WordPress = () => {
 
 
                 <div className='wordpress_cater'>
-                    <h3 className='h21'>WHAT INDUSTRIES CATER BY kusheldigi?</h3>
+                    <h3 className='h21'>WHAT INDUSTRIES CATER BY KUSHELDIGI?</h3>
                     <p className='p2112'>Industries kusheldigi cater are:</p>
                     <div className='wordpress_cater_cards'>
                         <div className='wordpress_cater_card'>
@@ -264,7 +292,7 @@ const WordPress = () => {
                                     <rect width="50" height="50" fill="white" />
                                     <path d="M5.81528 25.6304C5.4732 24.7674 5.13113 23.9619 4.84607 23.214C3.42075 18.7838 3.76283 14.6413 6.84151 11.0166C9.46408 7.90971 12.8278 6.64394 16.8757 7.16176C19.7263 7.50696 22.2349 8.7152 24.6294 10.1536C25.0285 10.4412 25.3136 10.4412 25.7697 10.1536C28.3352 8.60013 31.0718 7.27683 34.0935 6.98915C38.0274 6.70148 41.2771 8.13985 43.7286 11.1892C46.7503 14.9865 46.9213 19.1865 45.382 23.6167C45.268 23.9619 45.1539 24.2496 44.9829 24.7099C46.1231 24.7099 47.2064 24.7099 48.2896 24.7099C48.5747 24.7099 48.9738 24.5948 49.2018 24.7674C49.5439 24.94 49.7719 25.2852 50 25.5154C49.7149 25.7455 49.4869 26.1483 49.1448 26.1483C48.0616 26.2058 46.9783 26.2633 45.9521 26.1483C44.7548 26.0332 44.0707 26.3784 43.4436 27.4716C40.878 31.7291 37.3432 35.1812 33.5234 38.2306C31.1288 40.1292 28.5063 41.7977 26.0547 43.6389C25.5416 44.0416 25.0855 43.9265 24.6294 43.6389C22.748 42.3731 20.8666 41.2224 19.0992 39.8416C14.7662 36.5045 10.7184 32.8223 7.58267 28.277C6.89852 27.299 6.27138 27.0113 5.18814 27.0688C3.81984 27.1839 2.45154 27.0688 1.02623 27.0688C0.4561 27.0688 0 26.9537 0 26.3209C0 25.6304 0.513113 25.5729 1.08324 25.5729C2.62258 25.6304 4.16192 25.6304 5.81528 25.6304ZM43.2725 24.7099C44.5268 22.1784 45.1539 19.4742 44.6978 16.7125C43.6716 11.0166 38.2554 7.50696 32.7252 8.8878C30.3307 9.46315 28.1072 10.5563 26.0547 11.9371C25.4846 12.3399 25.0285 12.3399 24.4584 11.9371C23.6032 11.3618 22.748 10.844 21.8358 10.3837C19.2702 9.17548 16.6477 8.25492 13.683 8.7152C10.2623 9.23301 6.95553 12.1673 6.04333 15.6194C5.13113 19.0139 5.87229 22.1208 7.41163 25.1126C7.52566 25.3428 7.92474 25.5154 8.20981 25.5154C10.3193 25.5729 12.3717 25.5154 14.4812 25.5729C15.0513 25.5729 15.2794 25.3428 15.5074 24.8825C16.5907 22.6962 17.6739 20.5674 18.7571 18.4386C18.9282 18.1509 19.3273 17.8057 19.6693 17.8057C19.8974 17.8057 20.2965 18.2084 20.4105 18.5537C21.4937 21.2003 22.52 23.9044 23.5462 26.6085C24.0593 27.8743 24.5154 29.0825 25.0285 30.3483C25.4846 29.2551 25.8267 28.162 26.1117 27.1264C27.195 23.3291 28.2782 19.4742 29.4185 15.6769C29.5325 15.2166 29.6465 14.6413 30.3307 14.6988C30.9578 14.6988 31.0718 15.2166 31.1859 15.6769C31.4139 16.4249 31.642 17.1728 31.87 17.9208C32.4401 19.8194 33.0673 21.7756 33.6944 23.8469C34.2075 23.0414 34.6636 22.4085 35.1197 21.7181C35.6899 20.9126 36.26 20.9126 36.7731 21.7756C37.2862 22.6386 37.7993 23.5592 38.3124 24.4222C38.4265 24.5948 38.7115 24.825 38.9396 24.825C40.4219 24.7099 41.8472 24.7099 43.2725 24.7099ZM30.4447 18.3811C30.3877 18.3811 30.3307 18.3811 30.2737 18.3811C30.2167 18.5537 30.1596 18.7263 30.1026 18.8413C28.7913 23.4441 27.423 28.0469 26.1117 32.6497C25.9977 33.11 25.9407 33.6853 25.2566 33.7429C24.5724 33.8004 24.4584 33.225 24.2303 32.7072C22.748 28.9099 21.3227 25.1702 19.8404 21.3729C19.7263 21.0852 19.6123 20.7975 19.4413 20.3948C18.4151 22.4085 17.4458 24.3071 16.5336 26.2058C16.1916 26.8387 15.7925 27.1264 15.1083 27.1264C13.2269 27.0688 11.3455 27.1264 9.46408 27.1264C9.23603 27.1264 8.95097 27.1264 8.72292 27.1264C8.66591 27.1839 8.66591 27.299 8.60889 27.3565C9.57811 28.5072 10.4333 29.773 11.4595 30.8661C14.9943 34.836 19.0992 38.173 23.4892 41.1649C25.1995 42.3731 25.1995 42.3731 26.9669 41.1649C31.699 37.9429 36.146 34.3182 39.8518 29.888C40.764 28.7949 41.5621 27.5866 42.5314 26.2633C40.992 26.2633 39.7948 26.2633 38.5405 26.2633C37.9704 26.2633 37.5713 26.0907 37.2862 25.5154C36.8871 24.7674 36.431 24.0195 35.9179 23.214C35.2908 24.1345 34.7206 24.9976 34.1505 25.803C33.6374 26.4935 33.0103 26.3784 32.6682 25.6304C32.5542 25.4003 32.4972 25.1702 32.4401 24.94C31.756 22.6962 31.1289 20.5674 30.4447 18.3811Z" fill="#33475B" />
                                 </svg>
-                                <p>HEALTHCARE</p>
+                                <p>Healthcare</p>
 
                             </div>
                             <div className='wordpress_cater_box'
@@ -295,7 +323,7 @@ const WordPress = () => {
                                     <path d="M23.5589 46.7734C23.3616 46.7734 23.0985 46.8391 22.967 46.7734C22.7039 46.5764 22.375 46.3137 22.375 46.1166C22.375 45.9196 22.7039 45.5255 22.967 45.4598C23.2958 45.3285 23.7562 45.3285 24.0851 45.4598C24.3482 45.5255 24.677 45.9196 24.677 46.0509C24.677 46.3137 24.3482 46.5764 24.0851 46.7734C24.0193 46.8391 23.7562 46.7734 23.5589 46.7734Z" fill="#33475B" />
                                     <path d="M31.1285 46.7724C30.9312 46.7724 30.7339 46.8381 30.6023 46.7724C30.3392 46.5754 30.0762 46.3783 30.0104 46.1156C29.9446 45.9186 30.2077 45.5245 30.3392 45.4588C30.8654 45.3932 31.4574 45.4588 32.0493 45.5245C32.1809 45.5245 32.3124 46.1156 32.2467 46.247C31.9836 46.5097 31.5889 46.7067 31.2601 46.9694C31.1943 46.9038 31.1943 46.8381 31.1285 46.7724Z" fill="#33475B" />
                                 </svg>
-                                <p>TRAVEL AND TOURISM</p>
+                                <p>Travel and Tourism</p>
 
                             </div>
                             <div className='wordpress_cater_box'
@@ -303,7 +331,7 @@ const WordPress = () => {
                                 onMouseLeave={() => setHovered3(false)}
                             >
                                 <img className="npp3_img" src={hovered3 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464035/dilll3_pbwdix.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463810/npp3_aaugnx.avif'} alt="E-COMMERCE AND RETAIL" title='E-COMMERCE AND RETAIL' />
-                                <p>E-COMMERCE AND RETAIL</p>
+                                <p>e-Commerce and Retail</p>
                             </div>
 
                             <div className='wordpress_cater_box'
@@ -318,7 +346,7 @@ const WordPress = () => {
                                     <path d="M43.7574 27.3774C43.7574 28.2783 42.9905 29.044 42.1335 28.999C41.2764 28.999 40.5547 28.2783 40.5547 27.3774C40.5547 26.4766 41.2313 25.7559 42.1335 25.7559C42.9905 25.7109 43.7574 26.4315 43.7574 27.3774Z" fill="#33475B" />
                                     <path d="M16.2419 27.3774C16.2419 28.2332 15.475 28.9989 14.618 28.9989C13.7609 28.9989 13.0392 28.2783 12.9941 27.4224C12.949 26.5666 13.7158 25.7559 14.618 25.7559C15.475 25.7559 16.2419 26.4765 16.2419 27.3774Z" fill="#33475B" />
                                 </svg>
-                                <p>TRANSPORTATION AND LOGISTIC </p>
+                                <p>Transportation and Logistic</p>
 
                             </div>
                             <div className='wordpress_cater_box'
@@ -326,7 +354,7 @@ const WordPress = () => {
                                 onMouseLeave={() => setHovered5(false)}
                             >
                                 <img src={hovered5 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464068/dilll5_qnexhe.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463849/npp5_q2cmy4.avif'} alt="SOCIAL NETWORKING" title='SOCIAL NETWORKING' />
-                                <p>SOCIAL NETWORKING</p>
+                                <p>Social Networking</p>
 
                             </div>
                             <div className='wordpress_cater_box'
@@ -334,7 +362,7 @@ const WordPress = () => {
                                 onMouseLeave={() => setHovered6(false)}
                             >
                                 <img src={hovered6 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464097/dilll6_shk9rg.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463888/npp6_qmcju4.avif'} alt="BANKING AND FINANCE" title='BANKING AND FINANCE' />
-                                <p>BANKING AND FINANCE</p>
+                                <p>Banking and Finance</p>
 
                             </div>
 
@@ -345,7 +373,7 @@ const WordPress = () => {
                                 <svg width="51" height="50" viewBox="0 0 51 47" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M39.3105 19.5238C39.3105 23.9806 39.3105 28.2592 39.3105 32.6567C39.608 32.4784 39.7865 32.419 39.9651 32.3001C41.8694 31.0522 43.7143 29.7448 45.6186 28.5563C47.5825 27.249 50.0225 28.2592 50.439 30.5768C50.6771 31.7653 50.201 32.7161 49.3083 33.4886C47.3445 35.2714 45.3806 36.9947 43.4762 38.7774C42.3455 39.7876 41.1553 40.7979 40.0841 41.8675C38.6558 43.1749 36.9895 43.8285 35.1447 44.0662C30.5623 44.7199 25.98 45.3736 21.3976 46.0273C20.1479 46.2055 18.9577 46.1461 17.7079 45.6707C14.5538 44.4228 11.3997 43.2343 8.12663 42.0458C7.9481 43.2343 7.53152 44.3039 6.22227 44.5416C4.97254 44.7199 3.6633 44.7199 2.35405 44.5416C1.22334 44.4228 0.68774 43.472 0.568718 42.4024C0.509206 41.927 0.449695 41.4515 0.568718 41.0356C0.628229 40.7384 0.985296 40.5007 1.22334 40.263C1.46138 40.5007 1.69943 40.7979 1.93747 41.0356V41.095C2.0565 43.3531 2.0565 43.3531 4.31792 43.3531C4.61547 43.3531 4.91303 43.3531 5.15107 43.3531C6.10325 43.3531 6.57934 42.8777 6.57934 41.9864C6.57934 36.5193 6.57934 31.0522 6.57934 25.5257C6.57934 24.6343 6.10325 24.2183 5.21059 24.1589C4.61547 24.1589 4.02036 24.1589 3.42525 24.1589C2.35405 24.1589 1.93747 24.5749 1.93747 25.6445C1.93747 29.0317 1.93747 32.419 1.93747 35.8656C1.93747 36.0439 1.99699 36.341 1.93747 36.4599C1.75894 36.6976 1.5209 37.1135 1.28285 37.0541C0.985296 36.9947 0.747251 36.6976 0.568718 36.4599C0.449695 36.341 0.568718 36.1033 0.568718 35.925C0.568718 32.4784 0.628229 29.0912 0.568718 25.6445C0.568718 24.0995 1.58041 22.5544 3.48476 22.7327C4.07987 22.7921 4.67498 22.7327 5.2701 22.7327C6.8769 22.7327 7.88859 23.6835 8.00761 25.2879C8.00761 25.4068 8.00761 25.5257 8.06712 25.7039C9.19783 25.7634 10.269 25.8228 11.3402 25.8822C11.3402 23.8617 11.3402 21.9007 11.3402 19.7614C10.6261 20.4151 9.97147 21.0094 9.37636 21.5442C8.12663 22.6733 6.63885 22.7327 5.56765 21.6036C4.55596 20.534 4.67499 19.0483 5.92472 17.8598C7.65054 16.2554 9.31685 14.6509 11.0427 13.0464C11.2807 12.8087 11.5188 12.3333 11.5188 11.9768C11.5783 10.0752 11.5188 8.11416 11.5188 6.21256C11.5188 4.90521 11.8758 4.54867 13.1851 4.54867C14.1968 4.54867 15.268 4.54867 16.2797 4.54867C17.5294 4.54867 17.8269 4.84578 17.8865 6.0937C17.8865 6.21255 17.8865 6.27198 17.8865 6.50968C18.065 6.33141 18.2435 6.272 18.3625 6.15315C20.0289 4.6081 21.6357 3.06302 23.302 1.51797C24.6112 0.27005 25.98 0.27005 27.2892 1.51797C30.6218 4.60807 33.8949 7.69819 37.1681 10.7883C37.5846 11.1448 37.8822 11.5608 37.4656 12.0362C36.9895 12.5116 36.5729 12.1551 36.2159 11.7985C33.0023 8.76785 29.7292 5.73714 26.4561 2.70647C25.5039 1.8151 25.0873 1.8151 24.1351 2.70647C18.4221 8.05472 12.709 13.4624 6.99592 18.8107C6.81739 18.9889 6.69836 19.1672 6.51983 19.3455C6.16276 19.8209 6.22227 20.4151 6.69836 20.7123C7.05543 20.8905 7.59103 20.8905 8.00761 20.7717C8.36468 20.6528 8.60272 20.2963 8.90028 20.0586C13.9587 15.3046 19.0172 10.5506 24.0161 5.79658C24.1946 5.67773 24.3137 5.49944 24.4922 5.38059C25.0278 4.84577 25.4444 4.84577 25.98 5.38059C30.6813 9.83746 35.4422 14.2349 40.1436 18.6324C40.8577 19.2861 41.5124 19.9397 42.2265 20.5934C42.8216 21.1282 43.4167 21.1282 43.8928 20.6528C44.3689 20.1774 44.3094 19.5237 43.7738 18.9889C42.5836 17.8598 41.3338 16.7308 40.1436 15.6017C39.9651 15.4234 39.727 15.3046 39.6675 15.1263C39.608 14.8292 39.5485 14.4132 39.727 14.2349C39.9056 14.0566 40.4412 13.9972 40.6197 14.1755C42.167 15.6017 43.7738 16.9685 45.2021 18.5135C46.0947 19.4643 45.7972 20.9499 44.9045 21.8413C44.0118 22.6733 42.5241 22.7327 41.5719 21.9008C41.2148 21.6036 40.8577 21.2471 40.5007 20.8905C40.0841 20.2368 39.727 19.9397 39.3105 19.5238ZM32.1691 34.7959C32.2286 33.2509 31.1574 31.9436 29.5506 31.7059C28.0033 31.4682 26.4561 31.3493 24.9088 31.171C21.6357 30.8739 18.4816 30.3391 15.5655 28.6158C13.3041 27.249 10.6856 26.8924 8.00761 27.0113C8.00761 27.3084 7.9481 27.5461 7.9481 27.8432C7.9481 31.7653 7.9481 35.7467 7.9481 39.6688C7.9481 40.2036 8.12663 40.5007 8.66223 40.679C11.8163 41.8675 15.0299 43.1154 18.184 44.2445C18.9577 44.5416 19.7908 44.6011 20.624 44.5416C21.8142 44.4822 23.0639 44.2445 24.2541 44.0662C27.7653 43.5314 31.2765 43.056 34.7876 42.5212C36.1564 42.3429 37.4656 42.0458 38.5368 41.095C41.8694 38.1238 45.1425 35.1525 48.4752 32.1813C49.1893 31.5276 49.2488 30.6362 48.7132 29.9231C48.1181 29.1506 47.2254 29.0911 46.2137 29.7448C43.1192 31.7653 40.0841 33.8452 37.049 35.8656C36.692 36.1033 36.3349 36.341 35.9183 36.341C34.9066 36.341 33.9545 36.2816 32.9428 36.2221C29.6101 35.925 26.218 35.6279 22.8854 35.3308C21.0405 35.1525 19.1957 35.0337 17.3509 34.8554C16.8748 34.796 16.5177 34.6177 16.5772 34.0829C16.6367 33.548 16.9938 33.4292 17.4699 33.4292C18.2435 33.4886 18.9577 33.548 19.7313 33.6074C22.4688 33.8451 25.2658 34.0828 28.0033 34.3205C29.3721 34.5582 30.7409 34.6771 32.1691 34.7959ZM30.0267 30.3391C32.4072 30.9927 33.5379 32.5972 33.7164 34.8554C35.0852 35.2119 36.2754 35.0336 37.2871 34.0234C37.5251 33.7857 37.7632 33.4292 37.7632 33.132C37.7632 28.3186 37.7632 23.5052 37.7632 18.6324C37.7632 18.3353 37.6441 18.0381 37.4656 17.8598C33.5379 14.1755 29.6101 10.4912 25.6229 6.7474C25.5039 6.62855 25.3849 6.56912 25.2063 6.45027C21.1001 10.3129 17.0533 14.1161 13.0065 17.9787C12.8875 18.0975 12.7685 18.3947 12.7685 18.5729C12.7685 20.8905 12.7685 23.2675 12.7685 25.5851C12.7685 25.8228 13.0065 26.1199 13.1851 26.1793C14.6133 26.833 15.9821 27.4273 17.4104 28.0215C18.4221 28.4375 19.4337 28.794 20.5645 29.2694C20.5645 28.794 20.5645 28.4969 20.5645 28.2592C20.5645 25.9416 20.5645 23.6241 20.5645 21.3065C20.5645 20.2963 21.0405 19.8209 21.9927 19.8209C24.1351 19.8209 26.337 19.8209 28.4794 19.8209C29.3721 19.8209 29.9077 20.3557 29.9077 21.3065C29.9077 23.0893 29.9077 24.872 29.9077 26.6547C30.0267 27.8432 30.0267 29.0911 30.0267 30.3391ZM28.5389 21.3065C26.337 21.3065 24.1946 21.3065 22.0522 21.3065C22.0522 24.0401 22.0522 26.7141 22.0522 29.4477C24.2541 29.6854 26.337 29.9231 28.5389 30.1608C28.5389 27.1301 28.5389 24.2183 28.5389 21.3065ZM12.947 11.0854C13.8992 10.194 14.6729 9.30264 15.5655 8.64897C16.6367 7.87644 16.5177 6.86625 16.3987 5.85602C15.2085 5.85602 14.0777 5.85602 12.947 5.85602C12.947 7.57935 12.947 9.24324 12.947 11.0854Z" fill="#33475B" />
                                 </svg>
-                                <p>REAL ESTATE</p>
+                                <p>Real Estate</p>
 
                             </div>
                             <div className='wordpress_cater_box'
@@ -354,7 +382,7 @@ const WordPress = () => {
                                 onMouseLeave={() => setHovered8(false)}
                             >
                                 <img src={hovered8 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464123/dilll8_svknnh.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463921/npp8_pdq7f0.avif'} alt="MANUFACTURING" />
-                                <p>MANUFACTURING</p>
+                                <p>Manufacturing</p>
 
                             </div>
                             <div className='wordpress_cater_box'
@@ -362,7 +390,7 @@ const WordPress = () => {
                                 onMouseLeave={() => setHovered9(false)}
                             >
                                 <img src={hovered9 ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740464156/dilll9_dbvfrl.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740463952/npp9_scyppc.avif'} alt="MEDIA AND ENTERTAINMENT" />
-                                <p>MEDIA AND ENTERTAINMENT</p>
+                                <p>Media and Entertainment</p>
 
                             </div>
                         </div>
@@ -464,27 +492,20 @@ const WordPress = () => {
 
                             <div className="wordpress_agency_box wordpress_agency_box1">
                                 <h3>WordPress Support and Maintenance</h3>
-                                <p>As a dependable WordPress
-                                    Organisation, we give the highest improvement administrations.
-                                    If one discovers any bugs with their site,
-                                    Reach at kusheldigi and they will fix the issue.
+                                <p>Being a reputable WordPress development company, we at Kushel Digi Solutions, will ensure to fix any
+                                    performance issue or underlying bug with promptness.
                                 </p>
                             </div>
                             <div className="wordpress_agency_box wordpress_agency_box1">
                                 <h3>Non-disclosure Agreement</h3>
-                                <p>We regret the protection and privacy of
-                                    Customers, we are prepare to
-                                    Sign an NDA to give affirmation
-                                    about their wordpress web development project.
+                                <p>We always adhere to the stringent security guidelines and regulations. That’s why we always sign an
+                                    NDA with our clients to ensure their confidential business information will remain protected in our hands.
                                 </p>
                             </div>
                             <div className="wordpress_agency_box wordpress_agency_box6">
                                 <h3>SEO cordial Websites</h3>
-                                <p>Our developers consist to be the
-                                    most recent rules while coding your
-                                    website site. We deals with other sites and perform important enhancements
-                                    to guarantee that your site is internet
-                                    searcher well –disposed.
+                                <p>Our WordPress developers will optimize the website for higher SEO performance. From optimizing the
+                                    multimedia content to structuring the on-site content, we guarantee higher online ranking.
                                 </p>
 
                             </div>

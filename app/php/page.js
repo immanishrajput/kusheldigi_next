@@ -104,27 +104,27 @@ const Php = () => {
         let metaDescription = document.querySelector('meta[name="description"]');
         metaDescription ? metaDescription.content = description :
             document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-            // document.favicon = favicon
+        // document.favicon = favicon
     }, []);
     return (
         <>
 
-<Head>
-        {/* Open Graph (OG) Meta Tags */}
-        <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
-        <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
-        <meta property="og:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
-        <meta property="og:url" content="https://www.kusheldigi.com/" />
-        <meta property="og:type" content="website" />
+            <Head>
+                {/* Open Graph (OG) Meta Tags */}
+                <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
+                <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
+                <meta property="og:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
+                <meta property="og:url" content="https://www.kusheldigi.com/" />
+                <meta property="og:type" content="website" />
 
-        {/* Twitter Card Meta Tags */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Kushel Digi | Expert eCommerce Development Services" />
-        <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
-        <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
-        <meta name="twitter:url" content="https://www.kusheldigi.com/" />
-      </Head>
-      
+                {/* Twitter Card Meta Tags */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Kushel Digi | Expert eCommerce Development Services" />
+                <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
+                <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
+                <meta name="twitter:url" content="https://www.kusheldigi.com/" />
+            </Head>
+
             <Navbar />
 
             <div className="ser-main">
@@ -223,7 +223,12 @@ const Php = () => {
                                     <>
                                         <div className="main_php_para">
                                             <p>
-                                                Extensions and add-ons for PHP development have many benefits. These tools give PHP developers a distinctive and extensive capability that helps in the creation of stronger and practical web applications. Enhancements in security, performance, database operations, optimisation, and other areas are made possible by these extensions and add-ons. these developers will improve the usability of their website.
+                                                PHP development allows developers to extend the software’s functionality without building from scratch,
+                                                thanks for its support for innumerable add-ons and extensions. It comes with a vast library of different
+                                                pre-built modules. These can be leveraged to integrate CMS, payment gateways, analytical tools, and
+                                                other features with the software seamlessly. As a result, the overall development cost and efforts can be
+                                                reduced significantly. On top of everything, the extensions allow easy scalability of both SME and
+                                                enterprise-level applications.
                                             </p>
                                         </div>
                                     </>
@@ -293,9 +298,12 @@ const Php = () => {
                             <div className="php_stackflow_box">
                                 <div className="stackflows">
                                     <h3>4</h3>
-                                    <h4>PHP-friendly Experiences</h4>
+                                    <h4>PHP-friendly Expertise</h4>
                                     <hr />
-                                    <p>Experiences created by PHP are intuitive in Hindi. It is an excellent programming language that makes web development easy and intuitive. PHP has excellent compatibility and user experience, making it simple to create and manage web sites and applications.</p>
+                                    <p>Kushel Digi Solutions has formed a team of PHP experts who come with decades of industry-level
+                                        experience. They leverage their deep domain knowledge and technical prowess to deliver custom and
+                                        competitive solutions. Whether you want a responsive PHP website or a personalized interface, we have
+                                        got your back.</p>
                                 </div>
                             </div>
                             <div className="php_stackflow_box">
@@ -580,11 +588,14 @@ const Php = () => {
                         <h3>Our Engagment Models</h3>
                         <div className="engag_php_card">
                             <div className="engag_php_box">
-                                <h3>Fix cost and time</h3>
+                                <h3>Estimating timeline and cost</h3>
                                 {/* <img src={engag1} alt="Fix cost and time" title="Fix cost and time" /> */}
                                 <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724845398/download_5_jyiqem.png" alt="Fix cost and time" title="Fix cost and time" />
                                 <p>
-                                    We estimate the scope of the after gathering a complete understanding of the clear requirements and the hours it would take for development and deployment. Once we have gathered the data, we share a fixed cost and time estimate with you  when we will deliver the project.
+                                    Once we gather the exact business requirements, our experts will design a proper estimate of the
+                                    development time and the costs involved. This will help you have a clear idea about the overall timeline,
+                                    from designing to deployment. Scoping will be made easier for enhanced collaboration and streamlined
+                                    workflows.
                                 </p>
                             </div>
                             <div className="engag_php_box">
@@ -616,9 +627,9 @@ const Php = () => {
                     </div>
                 </div>
 
-                            <Website/>
+                <Website />
                 <PhpFAQ />
-              
+
 
                 <div className="whtsApBtns">
                     <button onClick={whatAppHandler}>

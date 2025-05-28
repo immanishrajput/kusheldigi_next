@@ -49,23 +49,23 @@ const TopBrass = () => {
 
 
 
-const generateMetadata = ({ params }) => ({
-         title: 'Kusheldigi.com/topbrass',
-         description:"web agency, web design agency , best web design agency in the world, web design agency, web design services, web design and development agency"
-       });
-       
-     useEffect(() => {
-         const { title, description } = generateMetadata({ params: {} });
-         document.title = title;
-         let metaDescription = document.querySelector('meta[name="description"]');
-         metaDescription ? metaDescription.content = description : 
-           document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-       }, []);
+    const generateMetadata = ({ params }) => ({
+        title: 'Kusheldigi.com/topbrass',
+        description: "web agency, web design agency , best web design agency in the world, web design agency, web design services, web design and development agency"
+    });
+
+    useEffect(() => {
+        const { title, description } = generateMetadata({ params: {} });
+        document.title = title;
+        let metaDescription = document.querySelector('meta[name="description"]');
+        metaDescription ? metaDescription.content = description :
+            document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+    }, []);
 
     return (
         <>
-        <Navbar/>
-        
+            <Navbar />
+
             <div className="ser-main">
                 <div>
                     <div className="side-bg-trio">
@@ -73,7 +73,7 @@ const generateMetadata = ({ params }) => ({
                             <div className="left-section-kids">
                                 <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740458745/logoWh_gbgwzr.svg' width="200" alt="img"></img>
                                 <p className="shoots_premium mt_top">
-                                Top Brass sells everything from army clothes and footwear to gun accessories, optics, tactical gear, and bags to make sure the military personnel and outdoor enthusiasts have everything they need.
+                                    Top Brass sells everything from army clothes and footwear to gun accessories, optics, tactical gear, and bags to make sure the military personnel and outdoor enthusiasts have everything they need.
                                 </p>
                                 <h1 >Technologies Used</h1>
                                 <div className="main-box-logic flex">
@@ -94,7 +94,7 @@ const generateMetadata = ({ params }) => ({
                                     </div> */}
                                     <div className="MadFish_press_para">
                                         <p>
-                                        Kushel Digi Solutions elated to taken up the work of  Top Brass to design and build a contemporary eCommerce marketplace on the BigCommerce platform.to provide optimized shopping experience for the military professional and outdoor enthusiast.
+                                            Kushel Digi Solutions elated to taken up the work of  Top Brass to design and build a contemporary eCommerce marketplace on the BigCommerce platform.to provide optimized shopping experience for the military professional and outdoor enthusiast.
                                         </p>
                                     </div>
                                 </div>
@@ -124,7 +124,7 @@ const generateMetadata = ({ params }) => ({
                     </div>
                 </div>
 
-               
+
                 <div className="fourth-plate-juuls">
                     <div className="left-card-hub">
                         <div className="vl-chic vl_chic2">
@@ -165,7 +165,7 @@ const generateMetadata = ({ params }) => ({
                         </div>
                         <div className="step-backs2">
                             <p>
-                            Top Brass was established with a vision of providing high-quality military and tactical gear not only to professional military but also to outdoor enthusiasts as well as other professionals who are tactical. Top Brass recognised the need to change and expand the reach of its business thus took the business online in an eCommerce manner to keep things seamless, friendly, and durable/accessible as synonymous with the products.
+                                Top Brass was established with a vision of providing high-quality military and tactical gear not only to professional military but also to outdoor enthusiasts as well as other professionals who are tactical. Top Brass recognised the need to change and expand the reach of its business thus took the business online in an eCommerce manner to keep things seamless, friendly, and durable/accessible as synonymous with the products.
 
                             </p>
 
@@ -190,28 +190,28 @@ const generateMetadata = ({ params }) => ({
                                 <div className="challenge-list1">
                                     <div className="nilust"></div>
                                     <p>
-                                    To develop an organized, intuitive platform to showcase a broad range of military products, from clothing to gun accessories.
+                                        To develop an organized, intuitive platform to showcase a broad range of military products, from clothing to gun accessories.
 
                                     </p>
                                 </div>
                                 <div className="challenge-list1">
                                     <div className="nilust"></div>
                                     <p>
-                                    Ensure that customers can easily navigate through to find certain products in a very vast catalog.
+                                        Ensure that customers can easily navigate through to find certain products in a very vast catalog.
 
                                     </p>
                                 </div>
                                 <div className="challenge-list1">
                                     <div className="nilust"></div>
                                     <p>
-                                    Incorporate real-time inventory updates within a dynamic product line with frequent restocks.
+                                        Incorporate real-time inventory updates within a dynamic product line with frequent restocks.
 
                                     </p>
                                 </div>
                                 <div className="challenge-list1">
                                     <div className="nilust"></div>
                                     <p>
-                                    A secure and scalable platform able to accommodate sensitive transactions and increased traffic during periods of high demand.
+                                        A secure and scalable platform able to accommodate sensitive transactions and increased traffic during periods of high demand.
 
                                     </p>
                                 </div>
@@ -226,7 +226,7 @@ const generateMetadata = ({ params }) => ({
                                 <div className="challenge-list1">
                                     <div className="nilust"></div>
                                     <p>
-                                       BigCommerce was integrated to create a scalable and flexible eCommerce platform for Top Brass with its unique product offerings.
+                                        BigCommerce was integrated to create a scalable and flexible eCommerce platform for Top Brass with its unique product offerings.
 
                                     </p>
                                 </div>
@@ -234,7 +234,7 @@ const generateMetadata = ({ params }) => ({
                                 <div className="challenge-list1">
                                     <div className="nilust"></div>
                                     <p>
-                                    A user-friendly interface was made by designing categorization that is well-organized for army gear, clothing, footwear, optics, and accessories.
+                                        A user-friendly interface was made by designing categorization that is well-organized for army gear, clothing, footwear, optics, and accessories.
 
                                     </p>
                                 </div>
@@ -242,7 +242,7 @@ const generateMetadata = ({ params }) => ({
                                 <div className="challenge-list1">
                                     <div className="nilust"></div>
                                     <p>
-                                    Automation was put into place to live track inventory levels in real time across all product lines.
+                                        Automation was put into place to live track inventory levels in real time across all product lines.
                                     </p>
 
                                 </div>
@@ -250,7 +250,7 @@ const generateMetadata = ({ params }) => ({
                                 <div className="challenge-list1">
                                     <div className="nilust"></div>
                                     <p>
-                                    Optimized Performance to ensure security and responsiveness of the site on mobile devices, with seamless handling of large volumes of traffic and transactions. 
+                                        Optimized Performance to ensure security and responsiveness of the site on mobile devices, with seamless handling of large volumes of traffic and transactions.
 
                                     </p>
                                 </div>
@@ -292,7 +292,7 @@ const generateMetadata = ({ params }) => ({
                             </div>
                             <div className="azib1-second">
                                 <p>
-                                The new Top Brass eCommerce platform has given the much-required extension to the reach of the company in making its vast army and tactical products available to large numbers of people. Ease of using the interface, including categorization of the products, has simplified customers' journeys for increased use and online sales. Real-time inventory synchronization has minimized errors in stock, while the process of order fulfillment has also been smoothened.
+                                    The new Top Brass eCommerce platform has given the much-required extension to the reach of the company in making its vast army and tactical products available to large numbers of people. Ease of using the interface, including categorization of the products, has simplified customers' journeys for increased use and online sales. Real-time inventory synchronization has minimized errors in stock, while the process of order fulfillment has also been smoothened.
 
                                 </p>
 
@@ -398,23 +398,23 @@ const generateMetadata = ({ params }) => ({
                             You can send us the details of your project, and a member of our
                             team will contact you shortly.
                         </p>
-                   
-                            <button>
+
+                        <button className="req-button">
                             <Link href="/contact-us">
-                                Request A Call{" "}
+                                Start a conversation{" "}
                                 <img
-                                    width={13}
-                                    className=" inline ml-2"
-                                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740458119/arrow4_klt3uz.png'
+                                    // width={13}
+                                    className=" inline ml-2 arrow-icon"
+                                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180293/arrow4_rxxlsw.png'
                                     alt="alik"
                                 />
-                                   </Link>
-                            </button>
-                     
+                            </Link>
+                        </button>
+
                     </div>
                 </div>
 
-                <Footer/>
+                <Footer />
 
                 {/*  buttons  */}
                 <div className="whtsApBtns">
@@ -431,4 +431,4 @@ const generateMetadata = ({ params }) => ({
     );
 };
 
-export default TopBrass ;
+export default TopBrass;

@@ -99,22 +99,22 @@ const Nodejsdev2 = () => {
       behavior: 'smooth',
     });
   };
-const generateMetadata = ({ params }) => ({
-      title: 'Leading Node.js Development Company for Your Business',
-      description: 'KushelDigi Solutions excels as a leading Node.js development company, specializing in the creation of high-quality web and mobile applications.',
-    });
-    
+  const generateMetadata = ({ params }) => ({
+    title: 'Leading Node.js Development Company for Your Business',
+    description: 'KushelDigi Solutions excels as a leading Node.js development company, specializing in the creation of high-quality web and mobile applications.',
+  });
+
   useEffect(() => {
-      const { title, description } = generateMetadata({ params: {} });
-      document.title = title;
-      let metaDescription = document.querySelector('meta[name="description"]');
-      metaDescription ? metaDescription.content = description : 
-        document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-    }, []);
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description :
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
   return (
     <>
 
-<Head>
+      <Head>
         {/* Open Graph (OG) Meta Tags */}
         <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
         <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
@@ -129,9 +129,9 @@ const generateMetadata = ({ params }) => ({
         <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
         <meta name="twitter:url" content="https://www.kusheldigi.com/" />
       </Head>
-      
-    <Navbar/>
-      
+
+      <Navbar />
+
       <div className="ser-main">
         <div className="node_dev_ss node-bg">
           <div className="node_dev_ss-back01">
@@ -173,9 +173,12 @@ const generateMetadata = ({ params }) => ({
         <div className="node_dev_ss_serv dine-1234">
           <h2>
             {" "}
-            <span>Node js </span>Services Offerings
+            Our <span>NodeJS </span>service attributes
           </h2>
-          <p>We Provide custom Node.js Development: Our Node.js solutions are unique parts, due to its uniformity are serving-the-purpose processes and with this end in mind, they should suit your aims and requirements perfectly. Customers are provided with modules exclusively discussed during the consulting which are developed by our team of software developers.</p>
+          <p>From custom applications to API designing and integration, our NodeJS development services will cover
+            everything you need. Our experts will craft tailored solutions aligned perfectly with your business
+            requirements and future goals. That’s how we ensure you can stay ahead in the curve with a responsive
+            and high-performing website developed using NodeJS.</p>
           <div className="node_dev_ss_cards">
             <div className="node_dev_ss_card">
               <div className="node_dev_ss_box">
@@ -203,7 +206,9 @@ const generateMetadata = ({ params }) => ({
                 </svg>
                 <h3>Real-time Application</h3>
                 <p>
-                  join us in live conversation and information collection that directly connects you to the technology in use and the data in action. Instant streaming and a seamless way of manipulation of information are the underlying principles in designing and developing our apps which make the experience very interactive.
+                  Whether you want a live streaming app or an online game, our NodeJS developers will help transform
+                  your vision into reality. This JavaScript technology is based on an event-driven, non-blocking architecture
+                  that reduces latency and delivers seamless user experience in real time.
                 </p>
               </div>
               <div className="node_dev_ss_box">
@@ -220,7 +225,7 @@ const generateMetadata = ({ params }) => ({
                   Our team always stands with you when such an issue is about building powerful enterprise applications using node.js. We stand step by step with the big industries and provide a chain of efficient procedures with a deeper body of knowledge to help create quality products perfect for business operations.
                 </p>
               </div>
-            
+
               <div className="node_dev_ss_box">
                 <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M24.1633 57.333H2.66406V59.1521C2.66406 60.3541 3.72457 61.333 5.02678 61.333H24.6641C24.3425 60.6658 24.1633 59.9281 24.1633 59.1521V57.333Z" fill="#1265FF" />
@@ -262,7 +267,9 @@ const generateMetadata = ({ params }) => ({
                 </svg>
                 <h3>Maintenance and Support</h3>
                 <p>
-                  We provide an extensive support of maintenance and guidance delivers the writeselfhealth of the operating system, Nodejs. Shoot us a note to reap our services meant to relieve you of the burden of maintaining that quality and performance of all elements of the system.
+                  At Kushel Digi Solutions, we extend our ongoing support after deploying the NodeJS application to the
+                  live server. From applying data patches to deploying security upgrades, we ensure timely performance
+                  optimization.
                 </p>
               </div>
             </div>
@@ -362,8 +369,15 @@ const generateMetadata = ({ params }) => ({
                       <div>
                         <h3>Real-time dashboard</h3>
                         <p>
-                          The Node.js has no limitations in the sense of developing the web apps that deal with real-time operations. However, we have an impressive solution for our one application, which is a real-time dashboard. Capitalizing in Node.js' event driven architecture and its pretty appyarance, we can make dashboard that refreshes data live and generates the insights available instantly. It can be the monitoring dashboard for the website analytics status, the sales dashboard permitting to track performances real-time or the social media dashboard for displaying live social media metrics. we have experience of it from head to toes. Be confident of the smooth data feed, effective data handling, and simple command a real-time dashboard
-                          when our competent programmers work on that.
+                          Our expert team of developers at Kushel Digi Solutions will integrate powerful libraries for frontend, like
+                          React with the NodeJS backend to create dynamic and responsive dashboards. We leverage the event-
+                          driven, non-blocking architecture of NodeJS to amplify the app’s performance and eliminate the need of
+                          page reloads. Our team also ensures that the WebSockets used can streamline the communication between
+                          the client and server. It will further help in displaying real-time metrics with faster data updates on the
+                          dashboard.
+                          Whether you want a monitoring dashboard for tracking sales or a real-time social media dashboard, we
+                          have got your back. What’s more, we will also integrate advanced features, like role-based access, push
+                          notifications, and data filtering for a stellar user experience.
                         </p>
                       </div>
                     </>
@@ -468,7 +482,7 @@ const generateMetadata = ({ params }) => ({
           <h2>
             {" "}
             Why are <span>Kushel Digi</span> the best Node.js development services for your business?
-          development services? </h2>
+            development services? </h2>
           <div className="node_dev_ss_cards3">
             <div className="node_dev_ss_card3">
               <div className="node_dev_ss_box3">
@@ -565,8 +579,8 @@ const generateMetadata = ({ params }) => ({
             </div>
           </div>
         </div>
-       
-        <NodejsFAQ/>
+
+        <NodejsFAQ />
 
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
@@ -578,7 +592,7 @@ const generateMetadata = ({ params }) => ({
 
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };
