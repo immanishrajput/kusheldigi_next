@@ -104,10 +104,10 @@ function page() {
        link:"/kick-eez"
     },
     {
-      img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217009/down3_ucxpri.png",
-      title1: "Sites And Scopes",
+      img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746541118/image_3_dptpxb.png",
+      title1: "A&I Parts Center",
       title2: "E-commerce, Bigcomerce ",
-      link:"/sites"
+      link:"/Ai2"
     },
   ];
 

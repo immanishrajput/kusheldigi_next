@@ -26,11 +26,10 @@ const Footer = () => {
                   width="170"
                   height="56"
                   class="kdssslogo"
-                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/f_auto,q_auto,w_170,h_56/v1739012691/logo_zckmvw.png"
-                  srcset="
-    https://res.cloudinary.com/dd9tagtiw/image/upload/f_auto,q_auto,w_170,h_56/v1739012691/logo_zckmvw.png 1x,
-    https://res.cloudinary.com/dd9tagtiw/image/upload/f_auto,q_auto,w_340,h_112/v1739012691/logo_zckmvw.png 2x,
-    https://res.cloudinary.com/dd9tagtiw/image/upload/f_auto,q_auto,w_510,h_168/v1739012691/logo_zckmvw.png 3x"
+                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png"
+                  srcset="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png 1x,
+                          https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png 2x,
+                          https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png 3x"
                   alt="KushelDigi Solutions Logo"
                   title="KushelDigi Solutions Logo"
                 />
@@ -46,16 +45,16 @@ const Footer = () => {
                 <div className="foot11 foot12">
                   <h5>Services</h5>
                   <div className="foot10 flex flex-col">
-                    <Link href="/mobile-application-development">Mobile App Development</Link>
-                    <Link href="/ecommerce-development">E-commerce Development</Link>
-                    <Link href="/web-development">Website Development</Link>
-                    <Link href="/digital-marketing-agency">Digital Marketing</Link>
+                    <Link href="/mobile-application-development" className="footLink">Mobile App Development</Link>
+                    <Link href="/ecommerce-development" className="footLink">E-commerce Development</Link>
+                    <Link href="/web-development" className="footLink">Website Development</Link>
+                    <Link href="/digital-marketing-agency" className="footLink">Digital Marketing</Link>
                     {/* <Link to="/">Web Application Development</Link> */}
-                    <Link href="/ui-ux-design">UI/UX Design</Link>
-                    <Link href="/graphic-design">Graphic Design</Link>
-                    <Link href="/staff-augmentation">Staff Augmentation</Link>
-                    <Link href="/multi-level-marketing">Multi-Level Marketing</Link>
-                    <Link href="/custom-software-development">Software Development</Link>
+                    <Link href="/ui-ux-design" className="footLink">UI/UX Design</Link>
+                    <Link href="/graphic-design" className="footLink">Graphic Design</Link>
+                    <Link href="/staff-augmentation" className="footLink">Staff Augmentation</Link>
+                    <Link href="/multi-level-marketing" className="footLink">Multi-Level Marketing</Link>
+                    <Link href="/custom-software-development" className="footLink">Software Development</Link>
 
 
                   </div>
@@ -63,13 +62,13 @@ const Footer = () => {
                 <div className="foot11 foot13">
                   <h5>Company</h5>
                   <div className="foot10 reji flex flex-col">
-                    <Link href="/about">About Us</Link>
+                    <Link href="/about" className="footLink">About Us</Link>
                     {/* <Link href="/career">Career</Link> */}
-                    <Link href="/hire">Hiring</Link>
+                    <Link href="/hire" className="footLink">Hiring</Link>
 
-                    <Link href="/privacy">Privacy Policy</Link>
+                    <Link href="/privacy" className="footLink">Privacy Policy</Link>
 
-                    <Link href="/terms">Terms of services</Link>
+                    <Link href="/terms" className="footLink">Terms of services</Link>
 
                   </div>
                 </div>
@@ -142,12 +141,13 @@ const Footer = () => {
                   height="122"
                   loading="lazy"
                   decoding="async"
-                  src="https://res.cloudinary.com/dal5dlztv/image/upload/f_auto,q_auto,w_120,h_122,c_scale/v1748276974/b6_pevpva.webp"
-                  srcSet="https://res.cloudinary.com/dal5dlztv/image/upload/f_auto,q_auto,w_120,h_122,c_scale/v1748276974/b6_pevpva.webp 1x,
-                          https://res.cloudinary.com/dal5dlztv/image/upload/f_auto,q_auto,w_120,h_122,c_scale/v1748276974/b6_pevpva.webp 2x"
+                  src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748276974/b6_pevpva.webp"
+                  srcSet="https://res.cloudinary.com/dal5dlztv/image/upload/v1748276974/b6_pevpva.webp 1x,
+                          https://res.cloudinary.com/dal5dlztv/image/upload/v1748276974/b6_pevpva.webp 2x"
                   alt="logo" />
               </Link>
             </div>
+
             <div className="footer2Image">
               <Link href="https://clutch.co/profile/kushel-digi-solutions" target="blank">
                 <img
@@ -155,29 +155,41 @@ const Footer = () => {
                   height="122"
                   loading="lazy"
                   decoding="async"
-                  src="https://res.cloudinary.com/dal5dlztv/image/upload/f_auto,q_auto,w_120,h_122,c_scale/v1748276892/b4_el1k1k.webp"
-                  srcSet="https://res.cloudinary.com/dal5dlztv/image/upload/f_auto,q_auto,w_120,h_122,c_scale/v1748276892/b4_el1k1k.webp 1x,
-                          https://res.cloudinary.com/dal5dlztv/image/upload/f_auto,q_auto,w_120,h_122,c_scale/v1748276892/b4_el1k1k.webp 2x"
+                  src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748276892/b4_el1k1k.webp"
+                  srcSet="https://res.cloudinary.com/dal5dlztv/image/upload/v1748276892/b4_el1k1k.webp 1x,
+                          https://res.cloudinary.com/dal5dlztv/image/upload/v1748276892/b4_el1k1k.webp 2x"
                   alt="logo" />
               </Link>
             </div>
-            <div className="footer2Imagelat">
+
+            <div className="footer2Image">
               <Link href="https://www.goodfirms.co/company/kushel-digi-solutions-1" target="blank">
                 <img
-                  src="https://res.cloudinary.com/dal5dlztv/image/upload/f_auto,q_auto,w_84,h_72/v1748276912/b5_qrflkl.webp"
-                  alt="logo"
-                  width="84"
-                  height="72"
-                  loading="lazy" />
-
+                  width="120"
+                  height="122"
+                  loading="lazy"
+                  decoding="async"
+                  src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1748514234/B-2_io9vgp.webp"
+                  srcSet="https://res.cloudinary.com/dqjbzgksw/image/upload/v1748514234/B-2_io9vgp.webp 1x,
+                          https://res.cloudinary.com/dqjbzgksw/image/upload/v1748514234/B-2_io9vgp.webp 2x"
+                  alt="logo" />
               </Link>
             </div>
+
             <div className="footer2Image">
-              <img width="106" height="108" loading="lazy"
-                src="https://res.cloudinary.com/dbcmdtr3r/image/upload/w_106,h_108,c_fill,q_auto,f_auto/v1743446909/top-e-4_vx3hne.png"
-                // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742993106/ecommerce-developers-india_zfydfo.png" 
-                alt="logo" />
+              <Link href="#" target="blank">
+                <img
+                  width="120"
+                  height="122"
+                  loading="lazy"
+                  decoding="async"
+                  src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1748519991/file_1748519923-1748519924_easb6z.webp"
+                  srcSet="https://res.cloudinary.com/dqjbzgksw/image/upload/v1748519991/file_1748519923-1748519924_easb6z.webp 1x,
+                          https://res.cloudinary.com/dqjbzgksw/image/upload/v1748519991/file_1748519923-1748519924_easb6z.webp 2x"
+                  alt="logo" />
+              </Link>
             </div>
+
             <div className="footer2Image">
               <Link href="https://partners.bigcommerce.com/directory/partner/1983347/kushel-digi-solutions" target="blank">
                 <img
@@ -185,22 +197,23 @@ const Footer = () => {
                   height="122"
                   loading="lazy"
                   decoding="async"
-                  src="https://res.cloudinary.com/dal5dlztv/image/upload/f_auto,q_auto,w_120,h_122,c_scale/v1748276865/b2_cxuq7l.webp"
-                  srcSet="https://res.cloudinary.com/dal5dlztv/image/upload/f_auto,q_auto,w_120,h_122,c_scale/v1748276865/b2_cxuq7l.webp 1x,
-                          https://res.cloudinary.com/dal5dlztv/image/upload/f_auto,q_auto,w_120,h_122,c_scale/v1748276865/b2_cxuq7l.webp 2x"
+                  src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748276865/b2_cxuq7l.webp"
+                  srcSet="https://res.cloudinary.com/dal5dlztv/image/upload/v1748276865/b2_cxuq7l.webp 1x,
+                          https://res.cloudinary.com/dal5dlztv/image/upload/v1748276865/b2_cxuq7l.webp 2x"
                   alt="logo" />
               </Link>
             </div>
+
             <div className="footer2Imagelast">
               <img
                 width="137"
                 height="140"
                 loading="lazy"
                 decoding="async"
-                src="https://res.cloudinary.com/dal5dlztv/image/upload/f_auto,q_auto,w_137,h_140,c_scale/v1748276849/b1_szuidn.webp"
+                src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748276849/b1_szuidn.webp"
                 srcset="
-                    https://res.cloudinary.com/dal5dlztv/image/upload/f_auto,q_auto,w_137,h_140,c_scale/v1748276849/b1_szuidn.webp 1x,
-                    https://res.cloudinary.com/dal5dlztv/image/upload/f_auto,q_auto,w_274,h_280,c_scale/v1748276849/b1_szuidn.webp 2x"
+                    https://res.cloudinary.com/dal5dlztv/image/upload/v1748276849/b1_szuidn.webp 1x,
+                    https://res.cloudinary.com/dal5dlztv/image/upload/v1748276849/b1_szuidn.webp 2x"
                 alt="logo" />
 
             </div>

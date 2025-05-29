@@ -1,5 +1,5 @@
 "use client"
-import React,{useState,useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import Head from 'next/head';
@@ -10,6 +10,29 @@ import Link from "next/link";
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
 import '../globals.css'
+
+
+const projects = [
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216954/down1_kgzcrg.png",
+    title1: "Topbrass tactical",
+    title2: "E-commerce, Bigcomerce ",
+    link: "/topbrass"
+  },
+  {
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746541117/image_5_tw9wok.png",
+    title1: "Graco Corporation",
+    title2: "E-commerce, Bigcomerce ",
+    link: "/graco-corp"
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217009/down3_ucxpri.png",
+    title1: "Sights & Scopes",
+    title2: "E-commerce, Bigcomerce ",
+    link: "/sites"
+  },
+];
+
 const ProTrucks = () => {
   const [perPage, setPerPage] = useState(3);
   useEffect(() => {
@@ -29,29 +52,29 @@ const ProTrucks = () => {
     const whatsappUrl = `https://wa.me/${phoneNumber}`;
     window.open(whatsappUrl, "_blank");
   };
-  const callHandler=()=>{
+  const callHandler = () => {
     const callUrl = `tel:${phoneNumber}`;
     window.open(callUrl, "_blank");
   }
 
-const generateMetadata = ({ params }) => ({
-         title: 'Kusheldigi.com/Slidesdesign',
-         description:"Web Development Company | Kushel Digi Solutions"
-       });
-       
-     useEffect(() => {
-         const { title, description } = generateMetadata({ params: {} });
-         document.title = title;
-         let metaDescription = document.querySelector('meta[name="description"]');
-         metaDescription ? metaDescription.content = description : 
-           document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-       }, []);
- 
+  const generateMetadata = ({ params }) => ({
+    title: 'Kusheldigi.com/Slidesdesign',
+    description: "Web Development Company | Kushel Digi Solutions"
+  });
+
+  useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description :
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
+
 
   return (
     <>
 
-<Head>
+      <Head>
         {/* Open Graph (OG) Meta Tags */}
         <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
         <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
@@ -66,9 +89,9 @@ const generateMetadata = ({ params }) => ({
         <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
         <meta name="twitter:url" content="https://www.kusheldigi.com/" />
       </Head>
-    <Navbar/>
-    
-    
+      <Navbar />
+
+
       <div className="ser-main">
 
         <div>
@@ -153,7 +176,7 @@ const generateMetadata = ({ params }) => ({
                 Slides365 aimed to serve various needs of professionals by offering subscription-based templates, presentations, design slides, and industry-specific slides. In short, the company aimed to make the chore of creating effective presentations a little easier by providing readymade templates in several sectors. Slides365 wanted to make its services and customer experience even better by searching for a digital partner that could uplift their online platform and make the browsing, subscription, and downloading of presentations easier for users.
 
               </p>
-             
+
             </div>
           </div>
           <div className="step-images flex items-center justify-center mt-20">
@@ -183,21 +206,21 @@ const generateMetadata = ({ params }) => ({
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  Their old website was making difficult for users to navigate through the vast library of templates.
+                    Their old website was making difficult for users to navigate through the vast library of templates.
 
                   </p>
                 </div>
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  The platform lacked a good design that can allow easy access to templates, leading to a high bounce rate.
+                    The platform lacked a good design that can allow easy access to templates, leading to a high bounce rate.
 
                   </p>
                 </div>
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  Handling different subscription plans was complex which requires a solution to automate and simplify the process.
+                    Handling different subscription plans was complex which requires a solution to automate and simplify the process.
 
                   </p>
                 </div>
@@ -210,33 +233,33 @@ const generateMetadata = ({ params }) => ({
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  We designed a fully scalable website that can efficiently facilitate Slides365 in managing and organizing its huge template library.
+                    We designed a fully scalable website that can efficiently facilitate Slides365 in managing and organizing its huge template library.
 
                   </p>
                 </div>
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  Our team conducted extensive user research to redesign the interface that focus on ease in navigation and improved search functionality.
+                    Our team conducted extensive user research to redesign the interface that focus on ease in navigation and improved search functionality.
 
                   </p>
                 </div>
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                  We introduced sophisticated automation in subscription handling, thereby allowing users to subscribe and renew plans.
+                    We introduced sophisticated automation in subscription handling, thereby allowing users to subscribe and renew plans.
 
                   </p>
                 </div>
               </div>
             </div>
-           
+
           </div>
         </div>
 
         <div className="kick-start kick-start22">
           <div className="kick-first kick-first222">
-        
+
             <div className="kickds">
               <img className="kick_mart" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469466/shshhshshshsshshshshsh_jvhisw.png' alt="kick5" />
             </div>
@@ -249,8 +272,8 @@ const generateMetadata = ({ params }) => ({
             />
           </div>
         </div>
-       
-       
+
+
         <div className="azib">
           <div className="azib1">
             <div className="azib1-sect">
@@ -260,10 +283,10 @@ const generateMetadata = ({ params }) => ({
               </div>
               <div className="azib1-second">
                 <p>
-                With an optimized user experience and automation of processes, subscription sign-ups increased 30% within the first month. This redesign brought a decrease in bounce rates and an increase in surfing user engagement. The BigCommerce-based platform has now become scalable, future-ready, and able to bear more load. Performance improvement and load time enabled Slides365 to hold its position in the competitive market, while this intuitive interface became vital for increasing customer satisfaction.
+                  With an optimized user experience and automation of processes, subscription sign-ups increased 30% within the first month. This redesign brought a decrease in bounce rates and an increase in surfing user engagement. The BigCommerce-based platform has now become scalable, future-ready, and able to bear more load. Performance improvement and load time enabled Slides365 to hold its position in the competitive market, while this intuitive interface became vital for increasing customer satisfaction.
 
                 </p>
-           
+
                 <div className="azib-tech">
                   <h3>Technologies Used</h3>
                   <img className="conjun" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469571/opqweeeeeee3_ufykxc.png' alt="conjun" />
@@ -278,7 +301,7 @@ const generateMetadata = ({ params }) => ({
           </div>
         </div>
 
-        <div className="other-project">
+        {/* <div className="other-project">
           <h2 className="text-center ">OTHER PROJECTS</h2>
           <Splide
             aria-label="Our Services"
@@ -345,7 +368,34 @@ const generateMetadata = ({ params }) => ({
               </div>
             </SplideSlide>
           </Splide>
-        </div>
+        </div> */}
+
+
+        <section className="sc2sevensec">
+          <div className="sc2sevnconta">
+            <div className="sc2sev_head">
+              <h2>Related Projects</h2>
+              <p></p>
+            </div>
+
+            <div className="sc2_Sev_projects">
+              {projects?.map((project, index) => (
+                <div key={index} className="singlprojseve">
+                  <img src={project?.img} alt="kushel" />
+
+                  <div className="seven_titls">
+                    <p className="sep1">{project?.title1}</p>
+                    <p className="sep2">{project?.title2}</p>
+                  </div>
+
+                  <a href={project?.link}> <button>
+                    <span>Case study</span>
+                  </button></a>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
 
         <div className="req">
           <div className="req-sect">
@@ -357,8 +407,8 @@ const generateMetadata = ({ params }) => ({
               You can send us the details of your project, and a member of our
               team will contact you shortly.
             </p>
-           
-             <button className="req-button">
+
+            <button className="req-button">
               <Link href="/contact-us">
                 Start a conversation{" "}
                 <img
@@ -367,13 +417,13 @@ const generateMetadata = ({ params }) => ({
                   src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180293/arrow4_rxxlsw.png'
                   alt="alik"
                 />
-                   </Link>
-              </button>
-      
+              </Link>
+            </button>
+
           </div>
         </div>
 
-        
+
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
             <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469695/whatsapp_ubh9of.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
@@ -385,9 +435,9 @@ const generateMetadata = ({ params }) => ({
         </div>
 
       </div>
-      <Footer/>
+      <Footer />
     </>
-    
+
   );
 };
 

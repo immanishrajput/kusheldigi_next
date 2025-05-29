@@ -69,7 +69,7 @@ const Website = () => {
                             alt="Services Icon"
                             title="Services Icon"
                             decoding="async"
-                            src="https://res.cloudinary.com/dal5dlztv/image/upload/f_auto,q_auto,w_38,h_38,c_scale/v1748282768/Mask_group_84_wktybx.png"
+                            src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748282768/Mask_group_84_wktybx.png"
                             class="services-box-inner-img"
                           />
 
@@ -210,7 +210,7 @@ const Website = () => {
                             alt="Services Icon"
                             title="Services Icon"
                             decoding="async"
-                            src='https://res.cloudinary.com/dal5dlztv/image/upload/f_auto,q_auto,w_38,h_38,c_scale/v1748282769/Mask_group_83_xjfebg.png'
+                            src='https://res.cloudinary.com/dal5dlztv/image/upload/v1748282769/Mask_group_83_xjfebg.png'
                             // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287002/node-js-mongo-DB-icon_rhqrop.svg"
                             className='services-box-inner-img'
                           />
@@ -390,7 +390,7 @@ const Website = () => {
                             alt="Services Icon"
                             title="Services Icon"
                             decoding="async"
-                            src='https://res.cloudinary.com/dal5dlztv/image/upload/f_auto,q_auto,w_38,h_38,c_scale/v1748282763/Mask_group_85_bo8liz.png'
+                            src='https://res.cloudinary.com/dal5dlztv/image/upload/v1748282763/Mask_group_85_bo8liz.png'
                             // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287002/node-js-mongo-DB-icon_rhqrop.svg"
                             className='services-box-inner-img'
                           />
@@ -564,7 +564,7 @@ const Website = () => {
                             alt="Services Icon"
                             title="Services Icon"
                             decoding="async"
-                            src='https://res.cloudinary.com/dal5dlztv/image/upload/f_auto,q_auto,w_38,h_38,c_scale/v1748282762/Mask_group_86_bfmolw.png'
+                            src='https://res.cloudinary.com/dal5dlztv/image/upload/v1748282762/Mask_group_86_bfmolw.png'
                             // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287001/mobile-app-development-icon_pqivui.svg"
                             className='services-box-inner-img'
                           />
@@ -710,7 +710,7 @@ const Website = () => {
                             alt="Services Icon"
                             title="Services Icon"
                             decoding="async"
-                            src='https://res.cloudinary.com/dal5dlztv/image/upload/f_auto,q_auto,w_38,h_38,c_scale/v1748282763/Mask_group_87_ya5zpl.png'
+                            src='https://res.cloudinary.com/dal5dlztv/image/upload/v1748282763/Mask_group_87_ya5zpl.png'
                             // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287001/microsoft-icon_qefjxk.svg"
                             className='services-box-inner-img'
                           />
@@ -882,7 +882,7 @@ const Website = () => {
                             alt="Services Icon"
                             title="Services Icon"
                             decoding="async"
-                            src='https://res.cloudinary.com/dal5dlztv/image/upload/f_auto,q_auto,w_38,h_38,c_scale/v1748282762/Mask_group_88_bvmruv.png'
+                            src='https://res.cloudinary.com/dal5dlztv/image/upload/v1748282762/Mask_group_88_bvmruv.png'
                             // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287001/ML_eznvvj.svg"
                             className='services-box-inner-img'
                           />

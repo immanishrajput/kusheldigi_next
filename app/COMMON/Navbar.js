@@ -12,7 +12,7 @@ import { useRouter } from "next/navigation";
 
 const data = [
   {
-    title: "About",
+    title: "About Us",
     navigate: "/about",
     subpart: [
       // {
@@ -165,14 +165,14 @@ const data = [
         ],
       },
       {
-        title: "aPP & WEB DESIGING",
+        title: "UI & UX Designing",
         navigate: "/ui-ux-design",
-        subpart: [
-          {
-            title: "UI & UX Designing",
-            navigate: "/ui-ux-design",
-          },
-        ],
+        // subpart: [
+        //   {
+        //     title: "UI & UX Designing",
+        //     navigate: "/ui-ux-design",
+        //   },
+        // ],
       },
       {
         title: "custom software development",
@@ -406,11 +406,11 @@ const Navbar = () => {
                     width="170"
                     height="56"
                     class="kdssslogo"
-                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/f_auto,q_auto,w_170,h_56/v1739012691/logo_zckmvw.png"
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png"
                     srcset="
-    https://res.cloudinary.com/dd9tagtiw/image/upload/f_auto,q_auto,w_170,h_56/v1739012691/logo_zckmvw.png 1x,
-    https://res.cloudinary.com/dd9tagtiw/image/upload/f_auto,q_auto,w_340,h_112/v1739012691/logo_zckmvw.png 2x,
-    https://res.cloudinary.com/dd9tagtiw/image/upload/f_auto,q_auto,w_510,h_168/v1739012691/logo_zckmvw.png 3x"
+    https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png 1x,
+    https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png 2x,
+    https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png 3x"
                     alt="KushelDigi Solutions Logo"
                     title="KushelDigi Solutions Logo"
                   />
@@ -426,7 +426,7 @@ const Navbar = () => {
                         className="sar descfont textTransform-navbar"
                         href="/about"
                       >
-                        About
+                        About Us
                       </Link>
                       {/* <div className="ser-nav10 megaMenu">
                         <div className="compan flex items-start justify-between compan1">
@@ -585,12 +585,12 @@ const Navbar = () => {
                             <div className="left-side-servises-containt">
                               <div className="left-head-services">
                                 <Link href="/ui-ux-design">
-                                  App & Web Designing
+                                  UI & UX Designing
                                 </Link>
                               </div>
-                              <div className="left-containt-services">
+                              {/* <div className="left-containt-services">
                                 <Link href="/ui-ux-design">UI & UX Designing </Link>
-                              </div>
+                              </div> */}
                             </div>
                             <div className="left-side-servises-containt">
                               <div className="left-head-services left-head-services-bootom">
@@ -730,7 +730,7 @@ const Navbar = () => {
                   {/* </Link> */}
                   <li className="mar">
                     <Link className="bts-naba" href="/contact-us">
-                      <button className="sar contactusbtns tart">
+                      <button className="sar contactusbtns tart" id="contactusbtns">
                         Contact Us
                       </button>
                     </Link>

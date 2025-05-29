@@ -8,6 +8,28 @@ import Link from "next/link";
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
 import '../globals.css'
+
+const projects = [
+    {
+        img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217009/down3_ucxpri.png",
+        title1: "Sights & Scopes",
+        title2: "E-commerce, Bigcomerce ",
+        link: "/sites"
+    },
+    {
+        img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216979/down2_m0c8fa.png",
+        title1: "Kickeez",
+        title2: "E-commerce, Bigcomerce ",
+        link: "/kick-eez"
+    },
+    {
+        img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746541118/image_3_dptpxb.png",
+        title1: "A&I Parts Center",
+        title2: "E-commerce, Bigcomerce ",
+        link: "/Ai2"
+    },
+];
+
 const CrazyCMS = () => {
   const [perPage, setPerPage] = useState(3);
   useEffect(() => {
@@ -33,21 +55,21 @@ const CrazyCMS = () => {
 
   const generateMetadata = ({ params }) => ({
     title: 'Kusheldigi.com/crazyCMS',
-    description:"web agency, web design agency , best web design agency in the world, web design agency, web design services, web design and development agency"
+    description: "web agency, web design agency , best web design agency in the world, web design agency, web design services, web design and development agency"
   });
-  
-useEffect(() => {
+
+  useEffect(() => {
     const { title, description } = generateMetadata({ params: {} });
     document.title = title;
     let metaDescription = document.querySelector('meta[name="description"]');
-    metaDescription ? metaDescription.content = description : 
+    metaDescription ? metaDescription.content = description :
       document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
   }, []);
 
   return (
     <>
 
-<Head>
+      <Head>
         {/* Open Graph (OG) Meta Tags */}
         <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
         <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
@@ -62,9 +84,9 @@ useEffect(() => {
         <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
         <meta name="twitter:url" content="https://www.kusheldigi.com/" />
       </Head>
-      
-    <Navbar/>
-     
+
+      <Navbar />
+
 
       <div className="ser-main">
         <div>
@@ -73,7 +95,7 @@ useEffect(() => {
               <div className="left-section-kids">
                 <img src={"https://res.cloudinary.com/ecommerce-website/image/upload/v1725976849/favicon_1_1_iprzaf.svg"} alt="img"></img>
                 <p className="shoots_premium kooo">
-                My Crazy Simple CMS is an user-friendly content management system which is designed to simplify website management for businesses of all sizes. It emowers users to create, edit, and manage content without any technical expertise.
+                  My Crazy Simple CMS is an user-friendly content management system which is designed to simplify website management for businesses of all sizes. It emowers users to create, edit, and manage content without any technical expertise.
 
                 </p>
                 <h1>Technologies Used</h1>
@@ -102,7 +124,7 @@ useEffect(() => {
                   we’ve redefined shooting comfort and precision, setting new
                   industry standards.
                 </p> */}
-                    <h3>Manage Your Website 
+                    <h3>Manage Your Website
                     </h3>
                     <h3>with Ease – No Tech</h3>
                     <h3><span>Skills Required!</span></h3>
@@ -369,7 +391,7 @@ useEffect(() => {
           </p>
           <h4>Matt Reeder</h4>
         </div> */}
-        <div className="other-project">
+        {/* <div className="other-project">
           <h2 className="text-center ">OTHER PROJECTS</h2>
           <Splide
             aria-label="Our Services"
@@ -436,7 +458,34 @@ useEffect(() => {
               </div>
             </SplideSlide>
           </Splide>
-        </div>
+        </div> */}
+
+        <section className="sc2sevensec">
+          <div className="sc2sevnconta">
+            <div className="sc2sev_head">
+              <h2>Related Projects</h2>
+              <p></p>
+            </div>
+
+            <div className="sc2_Sev_projects">
+              {projects?.map((project, index) => (
+                <div key={index} className="singlprojseve">
+                  <img src={project?.img} alt="kushel" />
+
+                  <div className="seven_titls">
+                    <p className="sep1">{project?.title1}</p>
+                    <p className="sep2">{project?.title2}</p>
+                  </div>
+
+                  <a href={project?.link}> <button>
+                    <span>Case study</span>
+                  </button></a>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         <div className="req">
           <div className="req-sect">
             <h3>
@@ -447,8 +496,8 @@ useEffect(() => {
               You can send us the details of your project, and a member of our
               team will contact you shortly.
             </p>
-          
-              <button className="req-button">
+
+            <button className="req-button">
               <Link href="/contact-us">
                 Start a conversation{" "}
                 <img
@@ -457,9 +506,9 @@ useEffect(() => {
                   src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180293/arrow4_rxxlsw.png'
                   alt="alik"
                 />
-                   </Link>
-              </button>
-          
+              </Link>
+            </button>
+
           </div>
         </div>
 
@@ -474,7 +523,7 @@ useEffect(() => {
 
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };

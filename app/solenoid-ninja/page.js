@@ -11,6 +11,29 @@ import Footer from '../COMMON/Footer';
 
 import '../globals.css'
 import Head from 'next/head';
+
+
+const projects = [
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216954/down1_kgzcrg.png",
+    title1: "Topbrass tactical",
+    title2: "E-commerce, Bigcomerce ",
+    link: "/topbrass"
+  },
+  {
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746541117/image_5_tw9wok.png",
+    title1: "Graco Corporation",
+    title2: "E-commerce, Bigcomerce ",
+    link: "/graco-corp"
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217009/down3_ucxpri.png",
+    title1: "Sights & Scopes",
+    title2: "E-commerce, Bigcomerce ",
+    link: "/sites"
+  },
+];
+
 const Solenoid = () => {
 
 
@@ -301,6 +324,33 @@ const Solenoid = () => {
           </p>
           <h4>Sandeep Sharma</h4>
         </div>
+
+
+        <section className="sc2sevensec">
+          <div className="sc2sevnconta">
+            <div className="sc2sev_head">
+              <h2>Related Projects</h2>
+              <p></p>
+            </div>
+
+            <div className="sc2_Sev_projects">
+              {projects?.map((project, index) => (
+                <div key={index} className="singlprojseve">
+                  <img src={project?.img} alt="kushel" />
+
+                  <div className="seven_titls">
+                    <p className="sep1">{project?.title1}</p>
+                    <p className="sep2">{project?.title2}</p>
+                  </div>
+
+                  <a href={project?.link}> <button>
+                    <span>Case study</span>
+                  </button></a>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
 
         <div className="req">
           <div className="req-sect">

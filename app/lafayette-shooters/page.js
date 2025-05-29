@@ -171,7 +171,7 @@ function Page() {
                             {/* left  */}
                             <div className="ca1firleft">
                                 <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746889440/Group_1171279370_vcvyey.png" alt="kushel" />
-                                <p>RaceWax</p>
+                                <p>Lafayette Shooters</p>
                             </div>
 
                             <p className="ca1firrigh">

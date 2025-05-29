@@ -16,6 +16,28 @@ import Footer from "../COMMON/Footer";
 import Navbar from "../COMMON/Navbar";
 import '../globals.css'
 
+
+const projects = [
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216954/down1_kgzcrg.png",
+    title1: "Topbrass tactical",
+    title2: "E-commerce, Bigcomerce ",
+    link: "/topbrass"
+  },
+  {
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746541117/image_5_tw9wok.png",
+    title1: "Graco Corporation",
+    title2: "E-commerce, Bigcomerce ",
+    link: "/graco-corp"
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217009/down3_ucxpri.png",
+    title1: "Sights & Scopes",
+    title2: "E-commerce, Bigcomerce ",
+    link: "/sites"
+  },
+];
+
 const Kickiz = () => {
   const [perPage, setPerPage] = useState(3);
   useEffect(() => {
@@ -34,7 +56,7 @@ const Kickiz = () => {
     const whatsappUrl = `https://wa.me/${phoneNumber}`;
     window.open(whatsappUrl, "_blank");
   };
-  const callHandler=()=>{
+  const callHandler = () => {
     const callUrl = `tel:${phoneNumber}`;
     window.open(callUrl, "_blank");
   }
@@ -52,18 +74,18 @@ const Kickiz = () => {
     title: 'Kushel Digi Solutions Case Study- Kick-Eez',
     description: "Kushel Digi Solutions' case study on Kick-Eez highlights successful digital transformation, boosting brand visibility and driving sales through website development.",
   });
-  
-useEffect(() => {
+
+  useEffect(() => {
     const { title, description } = generateMetadata({ params: {} });
     document.title = title;
     let metaDescription = document.querySelector('meta[name="description"]');
-    metaDescription ? metaDescription.content = description : 
+    metaDescription ? metaDescription.content = description :
       document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
   }, []);
   return (
     <>
 
-<Head>
+      <Head>
         {/* Open Graph (OG) Meta Tags */}
         <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
         <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
@@ -78,9 +100,9 @@ useEffect(() => {
         <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
         <meta name="twitter:url" content="https://www.kusheldigi.com/" />
       </Head>
-      
-    <Navbar/>
-   
+
+      <Navbar />
+
       <div className="ser-main">
         <div>
           <div className="side-bg-trio">
@@ -105,28 +127,28 @@ useEffect(() => {
                 <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739181014/Group_1000006637_mnbkzj.png' id="total-group" alt="img"></img>
               </div>
             </div>
-                  {/* *********************************************** */}
-        <div className="MadFish_press">
-          <div className="MadFish-back">
-            <div className="MadFish-back1">
-              <div className="MadFish_press_head">
-                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253403/madlogooooo_be7bvx.png' alt="madlogooooo" />              
-              </div>
-              <div className="MadFish_press_para">
-                <p>
-                  Elevate your shooting comfort with KICK-EEZ, offering premium
-                  American-made recoil pads and accessories. <span>MadFish</span>  Solutions
-                  played a key role in bringing KICK-EEZ to life. Together,
-                  we’ve redefined shooting comfort and precision, setting new
-                  industry standards.
-                </p>
+            {/* *********************************************** */}
+            <div className="MadFish_press">
+              <div className="MadFish-back">
+                <div className="MadFish-back1">
+                  <div className="MadFish_press_head">
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253403/madlogooooo_be7bvx.png' alt="madlogooooo" />
+                  </div>
+                  <div className="MadFish_press_para">
+                    <p>
+                      Elevate your shooting comfort with KICK-EEZ, offering premium
+                      American-made recoil pads and accessories. <span>MadFish</span>  Solutions
+                      played a key role in bringing KICK-EEZ to life. Together,
+                      we’ve redefined shooting comfort and precision, setting new
+                      industry standards.
+                    </p>
+                  </div>
+                </div>
+                <div className="MadFish-back2">
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253359/matsection_gir7lg.png' alt="MadFish" />
+                </div>
               </div>
             </div>
-            <div className="MadFish-back2">
-              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253359/matsection_gir7lg.png' alt="MadFish" />
-            </div>
-          </div>
-        </div>
             {/* ************************************************** */}
             <div className="second-service-conte">
               <p className="service-hinking">Services Provided</p>
@@ -147,7 +169,7 @@ useEffect(() => {
             </div>
           </div>
         </div>
-  
+
         {/* *********************************************** */}
         <div className="third-wireframe-homie">
           <div className="inner-third-local">
@@ -205,10 +227,10 @@ useEffect(() => {
             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253286/Group_1000006505_1_ez6xxs.png' id="gang" alt="img" />
           </div>
         </div>{" "}
-      
+
         <div className="kick-start kick-start22">
           <div className="kick-first kick-first222">
-           
+
             <div className="kickds">
               <img className="kick_mart" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180216/kick5_xhzccf.png' alt="kick5" />
             </div>
@@ -228,7 +250,7 @@ useEffect(() => {
             />
           </div>
         </div>
-   
+
         <div className="back-story">
           <div className="step1-back">
             <div className="step-backs1">
@@ -237,14 +259,14 @@ useEffect(() => {
             </div>
             <div className="step-backs2">
               <p>
-             
+
                 Three years ago, RJ bought the business and used Shopify to
                 create its first online store. He had a clear logo and a strong
                 brand. The website failed to make an emotional connection with
                 the customer or explain the problem that he solved. The website
                 makes use of ShipStation.
               </p>
-            
+
             </div>
           </div>
           <div className="step-images flex items-center justify-center mt-20">
@@ -271,7 +293,7 @@ useEffect(() => {
                     solves.
                   </p>
                 </div>
-               
+
               </div>
             </div>
             <div className="challenge-box ml-3 challenge-box2 challenge-box3 ">
@@ -320,10 +342,10 @@ useEffect(() => {
           <ul>
             <li>Make it easier for customers to reach our company.</li>
             <li>
-            Minimize misunderstandings about returns, exchanges, especially when choosing replacement products.
+              Minimize misunderstandings about returns, exchanges, especially when choosing replacement products.
             </li>
             <li>Enhance the efficiency and effectiveness of our client service.
-</li>
+            </li>
           </ul>
         </div>
 
@@ -352,7 +374,7 @@ useEffect(() => {
                   been achieved by KICK-EEZ. The emotional connection between
                   the customer and the company has become stronger.
                 </p>
-           
+
                 <div className="azib-tech">
                   <h3>Technologies Used</h3>
                   <img className="conjun" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180754/opqweeeeeee3_xujeli.png' alt="kushel" />
@@ -458,97 +480,124 @@ useEffect(() => {
           </Splide>
         </div> */}
 
-<div className="other-project">
-      <h3 className="other-project-heading">OTHER PROJECTS</h3>
-      <Splide
-        aria-label="Our Services"
-        options={{
-          perPage: 3,
-          perMove: 1,
-          autoplay: true,
-          pauseOnHover: true,
-          type: "loop",
-          interval: 2000,
-          drag: true,
-          gap: '1rem',
-          breakpoints: {
-            1280: { perPage: 3 },
-            1024: { perPage: 2 },
-            640: { perPage: 1 },
-          },
-        }}
-      >
-        {/* Slide 1 */}
-        <SplideSlide>
-          <div className="other-card" id="other-card-1">
-            <div className="other-box" id="other-box-1">
-              <img
-                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180461/rel1_azwccy.png"
-                alt="rel1"
-                id="other-img-1"
-              />
-            </div>
-            <div className="other-tox-para" id="other-tox-para-1">
-              <h3 id="title-1">RELY INNOVATION</h3>
-              <p id="desc-1">
-                Get peace of mind. Install alarms that not only notify you of danger,
-                but also clearly instruct you on what to do next.
-              </p>
-              <Link href="/rely">
-                <button className="view-btn" id="view-btn-1">View</button>
-              </Link>
-            </div>
-          </div>
-        </SplideSlide>
+        {/* <div className="other-project">
+          <h3 className="other-project-heading">OTHER PROJECTS</h3>
+          <Splide
+            aria-label="Our Services"
+            options={{
+              perPage: 3,
+              perMove: 1,
+              autoplay: true,
+              pauseOnHover: true,
+              type: "loop",
+              interval: 2000,
+              drag: true,
+              gap: '1rem',
+              breakpoints: {
+                1280: { perPage: 3 },
+                1024: { perPage: 2 },
+                640: { perPage: 1 },
+              },
+            }}
+          >
+            
+            <SplideSlide>
+              <div className="other-card" id="other-card-1">
+                <div className="other-box" id="other-box-1">
+                  <img
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180461/rel1_azwccy.png"
+                    alt="rel1"
+                    id="other-img-1"
+                  />
+                </div>
+                <div className="other-tox-para" id="other-tox-para-1">
+                  <h3 id="title-1">RELY INNOVATION</h3>
+                  <p id="desc-1">
+                    Get peace of mind. Install alarms that not only notify you of danger,
+                    but also clearly instruct you on what to do next.
+                  </p>
+                  <Link href="/rely">
+                    <button className="view-btn" id="view-btn-1">View</button>
+                  </Link>
+                </div>
+              </div>
+            </SplideSlide>
 
-        {/* Slide 2 */}
-        <SplideSlide>
-          <div className="other-card" id="other-card-2">
-            <div className="other-box" id="other-box-2">
-              <img
-                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180527/rel2_up6uex.png"
-                alt="rel2"
-                id="other-img-2"
-              />
-            </div>
-            <div className="other-tox-para" id="other-tox-para-2">
-              <h3 id="title-2">PRO TRUCKS</h3>
-              <p id="desc-2">
-                Aftermarket suspension lift kits, leveling kits and accessories for
-                4X4 off-road truck and jeep enthusiasts.
-              </p>
-              <Link href="/pro-track">
-                <button className="view-btn" id="view-btn-2">View</button>
-              </Link>
-            </div>
-          </div>
-        </SplideSlide>
+           
+            <SplideSlide>
+              <div className="other-card" id="other-card-2">
+                <div className="other-box" id="other-box-2">
+                  <img
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180527/rel2_up6uex.png"
+                    alt="rel2"
+                    id="other-img-2"
+                  />
+                </div>
+                <div className="other-tox-para" id="other-tox-para-2">
+                  <h3 id="title-2">PRO TRUCKS</h3>
+                  <p id="desc-2">
+                    Aftermarket suspension lift kits, leveling kits and accessories for
+                    4X4 off-road truck and jeep enthusiasts.
+                  </p>
+                  <Link href="/pro-track">
+                    <button className="view-btn" id="view-btn-2">View</button>
+                  </Link>
+                </div>
+              </div>
+            </SplideSlide>
 
-        {/* Slide 3 */}
-        <SplideSlide>
-          <div className="other-card" id="other-card-3">
-            <div className="other-box" id="other-box-3">
-              <img
-                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180622/rel3_calt2h.png"
-                alt="rel3"
-                id="other-img-3"
-              />
+            
+            <SplideSlide>
+              <div className="other-card" id="other-card-3">
+                <div className="other-box" id="other-box-3">
+                  <img
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180622/rel3_calt2h.png"
+                    alt="rel3"
+                    id="other-img-3"
+                  />
+                </div>
+                <div className="other-tox-para" id="other-tox-para-3">
+                  <h3 id="title-3">SOLENOID NINJA</h3>
+                  <p id="desc-3">
+                    Due to high volatility in the materials market we are currently
+                    experiencing longer than normal lead times.
+                  </p>
+                  <Link href="/solenoid-ninja">
+                    <button className="view-btn" id="view-btn-3">View</button>
+                  </Link>
+                </div>
+              </div>
+            </SplideSlide>
+          </Splide>
+        </div> */}
+
+
+        <section className="sc2sevensec">
+          <div className="sc2sevnconta">
+            <div className="sc2sev_head">
+              <h2>Related Projects</h2>
+              <p></p>
             </div>
-            <div className="other-tox-para" id="other-tox-para-3">
-              <h3 id="title-3">SOLENOID NINJA</h3>
-              <p id="desc-3">
-                Due to high volatility in the materials market we are currently
-                experiencing longer than normal lead times.
-              </p>
-              <Link href="/solenoid-ninja">
-                <button className="view-btn" id="view-btn-3">View</button>
-              </Link>
+
+            <div className="sc2_Sev_projects">
+              {projects?.map((project, index) => (
+                <div key={index} className="singlprojseve">
+                  <img src={project?.img} alt="kushel" />
+
+                  <div className="seven_titls">
+                    <p className="sep1">{project?.title1}</p>
+                    <p className="sep2">{project?.title2}</p>
+                  </div>
+
+                  <a href={project?.link}> <button>
+                    <span>Case study</span>
+                  </button></a>
+                </div>
+              ))}
             </div>
           </div>
-        </SplideSlide>
-      </Splide>
-    </div>
-  
+        </section>
+
 
         <div className="req">
           <div className="req-sect">
@@ -560,8 +609,8 @@ useEffect(() => {
               You can send us the details of your project, and a member of our
               team will contact you shortly.
             </p>
-            
-              <button className="req-button">
+
+            <button className="req-button">
               <Link href="/contact-us">
                 Start a conversation{" "}
                 <img
@@ -570,14 +619,14 @@ useEffect(() => {
                   src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180293/arrow4_rxxlsw.png'
                   alt="alik"
                 />
-                   </Link>
-              </button>
-         
+              </Link>
+            </button>
+
           </div>
         </div>
 
-               {/*  buttons  */}
-               <div className="whtsApBtns">
+        {/*  buttons  */}
+        <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
             <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172941/whatsapp_cowbb8.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
@@ -587,7 +636,7 @@ useEffect(() => {
 
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };

@@ -194,7 +194,7 @@ body {
   padding: 12px;
   transition: all .1sease;
   vertical-align: middle;
-  /* width: 100%; */
+  width: 100%;
 }
 
 @media (max-width:1275px) {
@@ -295,12 +295,11 @@ body {
 
 .contact-emailInput,
 .contact-textArea {
-  width: 98%;
+  width: 100%;
 }
 
 .contact-htmlForm-btn {
   width: 100%;
-
   font-weight: 700;
   font-size: 16px;
   height: 50px;
@@ -488,6 +487,10 @@ body {
 
   .contact-first-div {
     grid-template-columns: 1fr;
+  }
+
+  .left-contact-heading {
+    width: 100%;
   }
 }
 

@@ -7,6 +7,7 @@ import Navbar from '../COMMON/Navbar';
 
 
 import Footer from '../COMMON/Footer';
+import Website from '../components/Home/HomeForm';
 
 const Privacy = () => {
 
@@ -122,7 +123,9 @@ const Privacy = () => {
           </p>
         </div>
       </div>
-      <ContactForm1 />
+      {/* <ContactForm1 /> */}
+
+      <Website/>
  
     {/*  buttons  */}
     <div className="whtsApBtns">

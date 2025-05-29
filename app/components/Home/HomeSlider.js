@@ -51,7 +51,7 @@ const Slider = () => {
               </div>
               <div className="right-carousel-item">
                 <h3 className="right-carousel-heading">
-                  2nd amendment
+                  2nd amendment Guns
                 </h3>
                 <div className="right-service-stack-div">
                   <div className="right-service-stack">
@@ -237,7 +237,7 @@ const Slider = () => {
               </div>
               <div className="right-carousel-item">
                 <h3 className="right-carousel-heading">
-                  Sight & Scopes
+                  Sites & Scopes
                 </h3>
                 <div className="right-service-stack-div">
                   <div className="right-service-stack">

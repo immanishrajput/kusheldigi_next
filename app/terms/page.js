@@ -8,6 +8,7 @@ import Head from 'next/head';
 
 import '../globals.css'
 import Footer from "../COMMON/Footer";
+import Website from "../components/Home/HomeForm";
 const Terms = () => {
 
  
@@ -596,7 +597,9 @@ const generateMetadata = ({ params }) => ({
           </div>
         </div>
       </div>
-      <ContatForm1 />
+      {/* <ContatForm1 /> */}
+
+      <Website/>
 
           
        {/*  buttons  */}

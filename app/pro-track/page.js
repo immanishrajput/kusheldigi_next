@@ -8,9 +8,28 @@ import Navbar from "../COMMON/Navbar";
 
 import Link from "next/link";
 
+const projects = [
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216954/down1_kgzcrg.png",
+    title1: "Topbrass tactical",
+    title2: "E-commerce, Bigcomerce ",
+    link: "/topbrass"
+  },
+  {
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746541117/image_5_tw9wok.png",
+    title1: "Graco Corporation",
+    title2: "E-commerce, Bigcomerce ",
+    link: "/graco-corp"
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217009/down3_ucxpri.png",
+    title1: "Sights & Scopes",
+    title2: "E-commerce, Bigcomerce ",
+    link: "/sites"
+  },
+];
+
 const ProTrucks = () => {
-
-
 
   const phoneNumber = "9045301702";
 
@@ -18,7 +37,7 @@ const ProTrucks = () => {
     const whatsappUrl = `https://wa.me/${phoneNumber}`;
     window.open(whatsappUrl, "_blank");
   };
-  const callHandler=()=>{
+  const callHandler = () => {
     const callUrl = `tel:${phoneNumber}`;
     window.open(callUrl, "_blank");
   }
@@ -31,21 +50,21 @@ const ProTrucks = () => {
     });
   };
   const generateMetadata = ({ params }) => ({
-         title: 'Kushel Digi Solutions Case Study- pro-track',
-         description: 'Kushel Digi Solutions crafted a dynamic website for Pro-Track, enhancing user experience and showcasing their services, driving online engagement and growth.',
-       });
-       
-     useEffect(() => {
-         const { title, description } = generateMetadata({ params: {} });
-         document.title = title;
-         let metaDescription = document.querySelector('meta[name="description"]');
-         metaDescription ? metaDescription.content = description : 
-           document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-       }, []);
+    title: 'Kushel Digi Solutions Case Study- pro-track',
+    description: 'Kushel Digi Solutions crafted a dynamic website for Pro-Track, enhancing user experience and showcasing their services, driving online engagement and growth.',
+  });
+
+  useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description :
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
   return (
     <>
 
-<Head>
+      <Head>
         {/* Open Graph (OG) Meta Tags */}
         <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
         <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
@@ -60,9 +79,9 @@ const ProTrucks = () => {
         <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
         <meta name="twitter:url" content="https://www.kusheldigi.com/" />
       </Head>
-      
-    <Navbar/>
-    
+
+      <Navbar />
+
       <div className="ser-main">
         <div>
           <div className="side-bg-trio">
@@ -167,7 +186,7 @@ const ProTrucks = () => {
             <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740471960/hh5_dhnp6b.png' id="gang" alt="img" />
           </div>
         </div>{" "}
-      
+
         <div className="back-story">
           <div className="step1-back">
             <div className="step-backs1">
@@ -185,7 +204,7 @@ const ProTrucks = () => {
                 BigCommerce setup, data import, Zoho sales automation, and SEO
                 services.
               </p>
-           
+
             </div>
           </div>
           <div className="step-images flex items-center justify-center mt-20">
@@ -213,7 +232,7 @@ const ProTrucks = () => {
               <div className="challenge-list mt-8">
                 <div className="challenge-list1">
                   <p>
-                  Amidst remarkable success, the business aspires to leap into the digital realm. Luke's unwavering dedication to this transition is evident as he's enlisted a social media specialist to bolster his brand's online presence.
+                    Amidst remarkable success, the business aspires to leap into the digital realm. Luke's unwavering dedication to this transition is evident as he's enlisted a social media specialist to bolster his brand's online presence.
 
                   </p>
                 </div>
@@ -225,14 +244,14 @@ const ProTrucks = () => {
               <div className="challenge-list mt-8">
                 <div className="challenge-list1">
                   <p>
-                  We're embarking on creating a store with a distinctive design. The Data Here to There plugin will seamlessly import all essential data, covering categories, products, images, pricing, and specifications. In addition, we're integrating the innovative MadFish Launch Pack, which encompasses:
+                    We're embarking on creating a store with a distinctive design. The Data Here to There plugin will seamlessly import all essential data, covering categories, products, images, pricing, and specifications. In addition, we're integrating the innovative MadFish Launch Pack, which encompasses:
 
                   </p>
                 </div>
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>Comprehensive BigCommerce training.
-</p>
+                  </p>
                 </div>
                 <div className="challenge-list1">
                   <div className="nilust"></div>
@@ -245,7 +264,7 @@ const ProTrucks = () => {
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>The development of 20 SEO-centric category descriptions.
-</p>
+                  </p>
                 </div>
                 <div className="challenge-list1">
                   <p>
@@ -280,7 +299,7 @@ const ProTrucks = () => {
               </div>
               <div className="azib1-second">
                 <p>
-                The incorporation of Zoho CRM Plus and website optimization has significantly elevated customer-business interaction. The streamlined onboarding form adds substantial convenience for customers, resulting in a notable enhancement of the overall business experience.
+                  The incorporation of Zoho CRM Plus and website optimization has significantly elevated customer-business interaction. The streamlined onboarding form adds substantial convenience for customers, resulting in a notable enhancement of the overall business experience.
 
                 </p>
                 <div className="azib-tech">
@@ -300,10 +319,38 @@ const ProTrucks = () => {
           <h2>Client Appreciation</h2>
           <p>
             “We would like to express our sincere appreciation to the diligent Affle team for your steadfast dedication, patience, and consistent assistance. The application has been well-received, with favourable feedback, and we are fully dedicated to its continual improvement and progression as we look forward to our sustained expansion in the future.
-”
+            ”
           </p>
           <h4>Matt Reeder</h4>
         </div>
+
+        <section className="sc2sevensec">
+          <div className="sc2sevnconta">
+            <div className="sc2sev_head">
+              <h2>Related Projects</h2>
+              <p></p>
+            </div>
+
+            <div className="sc2_Sev_projects">
+              {projects?.map((project, index) => (
+                <div key={index} className="singlprojseve">
+                  <img src={project?.img} alt="kushel" />
+
+                  <div className="seven_titls">
+                    <p className="sep1">{project?.title1}</p>
+                    <p className="sep2">{project?.title2}</p>
+                  </div>
+
+                  <a href={project?.link}> <button>
+                    <span>Case study</span>
+                  </button></a>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+
         <div className="req">
           <div className="req-sect">
             <h3>
@@ -314,8 +361,8 @@ const ProTrucks = () => {
               You can send us the details of your project, and a member of our
               team will contact you shortly.
             </p>
-          
-              <button className="req-button">
+
+            <button className="req-button">
               <Link href="/contact-us">
                 Start a conversation{" "}
                 <img
@@ -324,13 +371,13 @@ const ProTrucks = () => {
                   src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180293/arrow4_rxxlsw.png'
                   alt="alik"
                 />
-                   </Link>
-              </button>
-            
+              </Link>
+            </button>
+
           </div>
         </div>
-                       {/*  buttons  */}
-                       <div className="whtsApBtns">
+        {/*  buttons  */}
+        <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
             <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469695/whatsapp_ubh9of.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
@@ -340,7 +387,7 @@ const ProTrucks = () => {
 
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };
