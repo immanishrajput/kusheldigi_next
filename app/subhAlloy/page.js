@@ -13,6 +13,29 @@ import "@splidejs/react-splide/css";
 import '../globals.css'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
+
+
+
+const projects = [
+    {
+        img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217009/down3_ucxpri.png",
+        title1: "Sights & Scopes",
+        title2: "E-commerce, Bigcomerce ",
+        link: "/sites"
+    },
+    {
+        img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216979/down2_m0c8fa.png",
+        title1: "Kickeez",
+        title2: "E-commerce, Bigcomerce ",
+        link: "/kick-eez"
+    },
+    {
+        img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746541118/image_3_dptpxb.png",
+        title1: "A&I Parts Center",
+        title2: "E-commerce, Bigcomerce ",
+        link: "/Ai2"
+    },
+];
 const SubhAlloys = () => {
   const [perPage, setPerPage] = useState(3);
   useEffect(() => {
@@ -337,7 +360,7 @@ const SubhAlloys = () => {
           </p>
           <h4>Matt Reeder</h4>
         </div> */}
-        <div className="other-project">
+        {/* <div className="other-project">
           <h2 className="text-center ">OTHER PROJECTS</h2>
           <Splide
             aria-label="Our Services"
@@ -404,7 +427,34 @@ const SubhAlloys = () => {
               </div>
             </SplideSlide>
           </Splide>
-        </div>
+        </div> */}
+
+        <section className="sc2sevensec">
+          <div className="sc2sevnconta">
+            <div className="sc2sev_head">
+              <h2>Related Projects</h2>
+              <p></p>
+            </div>
+
+            <div className="sc2_Sev_projects">
+              {projects?.map((project, index) => (
+                <div key={index} className="singlprojseve">
+                  <img src={project?.img} alt="kushel" />
+
+                  <div className="seven_titls">
+                    <p className="sep1">{project?.title1}</p>
+                    <p className="sep2">{project?.title2}</p>
+                  </div>
+
+                  <a href={project?.link}> <button>
+                    <span>Case study</span>
+                  </button></a>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         <div className="req">
           <div className="req-sect">
             <h3>

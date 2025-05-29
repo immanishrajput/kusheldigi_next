@@ -15144,6 +15144,7 @@ body {
 
 .singlprojseve img {
     width: 100%;
+    border-radius: 16px;
 }
 
 .seven_titls {
@@ -23113,7 +23114,7 @@ input[type=number] {
 
 #homePhoneDiv>.react-tel-input {
     padding: 9px !important;
-    width: 85%;
+    width: 100%;
 }
 
 #homePhoneDiv>.react-tel-input>.flag-dropdown {
@@ -23394,6 +23395,7 @@ input[type=number] {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap:15px;
     padding: 10px 60px;
     position: relative;
     top: 3px;
@@ -23861,12 +23863,14 @@ input[type=number] {
     line-height: 23.48px;
     color: #0E151D;
     font-family: "sf-ui-display-regular", sans-serif !important
-}
+} 
 
 .navbar ul li .sar:hover {
     color: #0c62ff;
-    border-bottom: 1.5px solid #0c62ff
+    /* border-bottom: 1.5px solid #0c62ff */
+    text-decoration: underline !important;
 }
+
 
 .navbar ul li .tart:hover {
     color: none !important;
@@ -23894,7 +23898,11 @@ input[type=number] {
 
 .bts-naba {
     opacity: 1 !important;
-    color: #ffffff !important
+    color: #ffffff !important;
+}
+
+#contactusbtns{
+    text-decoration: none !important;
 }
 
 .newAbout12 .nWaBTn {
@@ -28807,41 +28815,42 @@ form button {
 #other-project {
     padding: 4rem 1rem;
     background-color: #f9f9f9;
-  }
-  
-  /* Heading of the section */
-  #other-project-heading {
+}
+
+/* Heading of the section */
+#other-project-heading {
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
     margin-bottom: 2rem;
-    color: #1f2937; /* dark gray */
-  }
-  
-  /* First Slide Image Container */
-  #other-box1,
-  #other-box2,
-  #other-box3 {
+    color: #1f2937;
+    /* dark gray */
+}
+
+/* First Slide Image Container */
+#other-box1,
+#other-box2,
+#other-box3 {
     width: 100%;
     height: 200px;
     padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  #other-box1 img,
-  #other-box2 img,
-  #other-box3 img {
+}
+
+#other-box1 img,
+#other-box2 img,
+#other-box3 img {
     max-height: 100%;
     max-width: 100%;
     object-fit: contain;
-  }
-  
-  /* First Slide Button */
-  #other-btn1,
-  #other-btn2,
-  #other-btn3 {
+}
+
+/* First Slide Button */
+#other-btn1,
+#other-btn2,
+#other-btn3 {
     background-color: #2563eb;
     color: #fff;
     padding: 0.5rem 1.25rem;
@@ -28850,14 +28859,14 @@ form button {
     border-radius: 9999px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
-  
-  #other-btn1:hover,
-  #other-btn2:hover,
-  #other-btn3:hover {
+}
+
+#other-btn1:hover,
+#other-btn2:hover,
+#other-btn3:hover {
     background-color: #1d4ed8;
-  }
-  
+}
+
 /*  */
 
 .business-box {
@@ -29811,6 +29820,10 @@ form button:hover {}
 .foot10 a:hover {
     color: #0039ff;
     transition: .5s
+}
+
+.foot10 .footLink{
+    color: #000 !important;
 }
 
 .foot15 {
@@ -32249,11 +32262,11 @@ form button:hover {}
 }
 
 .req-sect button:hover svg path {
-  fill: #fff;
+    fill: #fff;
 }
 
 .req-button:hover .arrow-icon {
-  filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
 }
 
 .rely-btnn button {
@@ -32367,7 +32380,7 @@ form button:hover {}
 
 .azib-images {
     position: relative;
-    top: 10%
+    top: 6%
 }
 
 .azib-images .soling1 {
@@ -45480,7 +45493,7 @@ video {
 
     .wordpress-paras ul li {
         /* list-style-position: outside; */
-        text-align:center;
+        text-align: center;
     }
 
 }
@@ -57925,7 +57938,7 @@ option {
     }
 
     .navbar ul .sar {
-        margin-left: 20px;
+        margin-left: 15px;
     }
 
     .navbar ul li button {

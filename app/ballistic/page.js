@@ -11,6 +11,28 @@ import Footer from "../COMMON/Footer";
 import '../globals.css'
 
 
+const projects = [
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216954/down1_kgzcrg.png",
+    title1: "Topbrass tactical",
+    title2: "E-commerce, Bigcomerce ",
+    link: "/topbrass"
+  },
+  {
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746541117/image_5_tw9wok.png",
+    title1: "Graco Corporation",
+    title2: "E-commerce, Bigcomerce ",
+    link: "/graco-corp"
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217009/down3_ucxpri.png",
+    title1: "Sights & Scopes",
+    title2: "E-commerce, Bigcomerce ",
+    link: "/sites"
+  },
+];
+
+
 const Ballistic = () => {
   const [perPage, setPerPage] = useState(3);
   useEffect(() => {
@@ -34,25 +56,25 @@ const Ballistic = () => {
     window.open(callUrl, "_blank");
   }
 
-const generateMetadata = ({ params }) => ({
-         title: 'Kusheldigi.com/ballistic',
-         description:"Web Development Company | Kushel Digi Solutions"
-       });
-       
-     useEffect(() => {
-         const { title, description } = generateMetadata({ params: {} });
-         document.title = title;
-         let metaDescription = document.querySelector('meta[name="description"]');
-         metaDescription ? metaDescription.content = description : 
-           document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-       }, []);
+  const generateMetadata = ({ params }) => ({
+    title: 'Kusheldigi.com/ballistic',
+    description: "Web Development Company | Kushel Digi Solutions"
+  });
+
+  useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description :
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
 
   return (
     <>
 
-    <Navbar/>
+      <Navbar />
       {/* <helmet> */}
-        <link rel="canonical" href="https://www.kusheldigi.com/kick-eez" />
+      <link rel="canonical" href="https://www.kusheldigi.com/kick-eez" />
       {/* </helmet> */}
 
       <div className="ser-main">
@@ -62,8 +84,8 @@ const generateMetadata = ({ params }) => ({
               <div className="left-section-kids ">
                 <img loading="lazy" src={"https://res.cloudinary.com/ecommerce-website/image/upload/v1725976506/image_75_1_aha5l9.svg"} id="plus-circle" className="ballistic" alt="img"></img>
                 <p className="shoots_premium">
-                Ballistic Dummy Lab is the leading developer of the most physiologically correct human analogues for the firearms testing, medical training, and special effects in film and television industries. It is recognized by its innovative products made of organic and synthetic 
-                 gel, which have set the global standard of realism and accuracy.
+                  Ballistic Dummy Lab is the leading developer of the most physiologically correct human analogues for the firearms testing, medical training, and special effects in film and television industries. It is recognized by its innovative products made of organic and synthetic
+                  gel, which have set the global standard of realism and accuracy.
                 </p>
                 <h1>Technologies Used</h1>
                 <div className="main-box-logic flex">
@@ -84,7 +106,7 @@ const generateMetadata = ({ params }) => ({
                   </div>
                   <div className="MadFish_press_para">
                     <p>
-                    Kushel Digi Solutions is excited to contribute to the development of this excellent solutions for the firearms testing, medical training, and special effects industries for Ballistic Dummy lab.
+                      Kushel Digi Solutions is excited to contribute to the development of this excellent solutions for the firearms testing, medical training, and special effects industries for Ballistic Dummy lab.
                     </p>
                   </div>
                 </div>
@@ -270,28 +292,28 @@ const generateMetadata = ({ params }) => ({
 
         </div> */}
 
-<div className="kick-start kick-start22">
-                    <div className="kick-first kick-first222">
+        <div className="kick-start kick-start22">
+          <div className="kick-first kick-first222">
 
-                        <div className="kickds">
-                            <img loading="lazy" width="210" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995361/ballistic_zidjq3.png' alt="kick5" />
-                        </div>
-                    </div>
-                    <div className="kick-second kick-second222 relative">
-                        <div className="about165">
-                            <img
-                                className="absolute about161 animate__animated animate__pulse animate__infinite"
-                                src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738996335/ellipse44_ov7l61.png'
-                                alt="kushel"
-                            />
-                        </div>
-                        <img
-                            className=" relative z-10 about162 pick222"
-                            src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738996280/mostrecoil_eust8k.png'
-                            alt="aa"
-                        />
-                    </div>
-                </div>
+            <div className="kickds">
+              <img loading="lazy" width="210" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995361/ballistic_zidjq3.png' alt="kick5" />
+            </div>
+          </div>
+          <div className="kick-second kick-second222 relative">
+            <div className="about165">
+              <img
+                className="absolute about161 animate__animated animate__pulse animate__infinite"
+                src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738996335/ellipse44_ov7l61.png'
+                alt="kushel"
+              />
+            </div>
+            <img
+              className=" relative z-10 about162 pick222"
+              src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738996280/mostrecoil_eust8k.png'
+              alt="aa"
+            />
+          </div>
+        </div>
 
 
         <div className="azib kickazib">
@@ -321,8 +343,8 @@ const generateMetadata = ({ params }) => ({
           </div>
         </div>
 
-        <div className="client-apperication">
-         
+        {/* <div className="client-apperication">
+
         </div>
 
         <div className="other-project ">
@@ -392,21 +414,47 @@ const generateMetadata = ({ params }) => ({
               </div>
             </SplideSlide>
           </Splide>
-        </div>
+        </div> */}
+
+        <section className="sc2sevensec">
+          <div className="sc2sevnconta">
+            <div className="sc2sev_head">
+              <h2>Related Projects</h2>
+              <p></p>
+            </div>
+
+            <div className="sc2_Sev_projects">
+              {projects?.map((project, index) => (
+                <div key={index} className="singlprojseve">
+                  <img src={project?.img} alt="kushel" />
+
+                  <div className="seven_titls">
+                    <p className="sep1">{project?.title1}</p>
+                    <p className="sep2">{project?.title2}</p>
+                  </div>
+
+                  <a href={project?.link}> <button>
+                    <span>Case study</span>
+                  </button></a>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
 
         <div className="req">
           <div className="req-sect">
             <h3>
               Would You Like To Talk To <br /> About Your Project?
             </h3>
-           
+
             <p>
               {" "}
               You can send us the details of your project, and a member of our
               team will contact you shortly.
             </p>
-           
-              <button className="req-button">
+
+            <button className="req-button">
               <Link href="/contact-us">
                 Start a conversation{" "}
                 <img
@@ -415,14 +463,14 @@ const generateMetadata = ({ params }) => ({
                   src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180293/arrow4_rxxlsw.png'
                   alt="alik"
                 />
-                   </Link>
-              </button>
-      
+              </Link>
+            </button>
+
           </div>
         </div>
 
-  
-        <Footer/>
+
+        <Footer />
         {/*  buttons  */}
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
@@ -433,9 +481,9 @@ const generateMetadata = ({ params }) => ({
           </button>
 
         </div>
-        
+
       </div>
-      
+
 
     </>
   );
