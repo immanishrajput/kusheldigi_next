@@ -19,7 +19,7 @@ import Footer from "../COMMON/Footer";
 const projects = [
     {
         img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217009/down3_ucxpri.png",
-        title1: "Sights & Scopes",
+        title1: "Sites & Scopes",
         title2: "E-commerce, Bigcomerce ",
         link: "/sites"
     },

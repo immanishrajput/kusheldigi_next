@@ -62,7 +62,7 @@ function Home2Swiper() {
             },
             {
               src: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743074113/page-4_wlgfqf.jpg",
-              title: "Sights and Scopes",
+              title: "Sites and Scopes",
               buttons: ["B2B", "Drop Shipping"],
               link:"sites"
             },
