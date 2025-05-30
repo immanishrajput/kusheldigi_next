@@ -135,6 +135,20 @@ function Page() {
     };  /* Slide-out animation */
 
 
+    const generateMetadata = ({ params }) => ({
+        title: 'Survival Mode | Ecommerce Growth with BigCommerce Website Development',
+        description: "See how Survival Mode Tactical boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
+    });
+
+    useEffect(() => {
+        const { title, description } = generateMetadata({ params: {} });
+        document.title = title;
+        let metaDescription = document.querySelector('meta[name="description"]');
+        metaDescription ? metaDescription.content = description :
+            document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+    }, []);
+
+
     return (
         <div className="case1wrap home-main">
 
@@ -209,16 +223,16 @@ function Page() {
                     <div className="sc2_main_content">
                         <h1>Client Background</h1>
 
-                       <p>
+                        <p>
                             It offers a broad range of clothing, airsoft, survival gear, bags and packs, knives and blades, etc.             </p>
 
                         <p>    The brand has also gained a strong reputation for maintaining the quality and building a loyal customer base.
                         </p>
                         <p> However, the website owned by the client had several loopholes. Kushel Digi Solutions stepped in and decided to eradicate the loopholes using our years of expertise. We modernized the website, including the storefront and backend, to bring out a fresh perspective. </p>
-                     
-                         <p>
-                         We got the opportunity from Madfish Solutions and we truly appreciate the trust they put in us for rebuilding a successful ecommerce platform            </p>
-                     
+
+                        <p>
+                            We got the opportunity from Madfish Solutions and we truly appreciate the trust they put in us for rebuilding a successful ecommerce platform            </p>
+
                     </div>
                 </div>
 
@@ -246,7 +260,7 @@ function Page() {
                 <div className="portfolioImageChallenge">
                     <img
                         src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322289/Group_1171279376_-_Copy_ldbeat.png"
-     
+
                         alt="kushel"
                     />
                 </div>
@@ -265,10 +279,10 @@ function Page() {
                         </div>
 
                         <p className="s3theeparas">
-                        We formulated a strategic solution to increase sales. At first, we had to choose a platform for a fresh design of the website.                        </p>
+                            We formulated a strategic solution to increase sales. At first, we had to choose a platform for a fresh design of the website.                        </p>
 
                         <p className="s3theeparas">
-                        Our team decided to go with Figma. Once the design was ready, the next choice we made was BigCommerce architecture for scalable development.                         </p>
+                            Our team decided to go with Figma. Once the design was ready, the next choice we made was BigCommerce architecture for scalable development.                         </p>
                         {/* <p>We also did a thorough research to identify the market gaps and analyze the best possible solution for the business. </p> */}
 
                     </div>
@@ -308,7 +322,7 @@ function Page() {
                             <div className="cas3circldata" id="cas3circldata1">
                                 <h4>User-Friendly and Responsive Website
                                 </h4>
-                                <p>Our team transformed the website into a user-friendly and responsive one. In addition, we facilitated access to popular categories and streamlined the checkout process. It was important to do so so that people can make well-informed decisions. 
+                                <p>Our team transformed the website into a user-friendly and responsive one. In addition, we facilitated access to popular categories and streamlined the checkout process. It was important to do so so that people can make well-informed decisions.
                                 </p>
                             </div>
 
@@ -344,7 +358,7 @@ function Page() {
                 <SplideSlide>
                     <section className="case3secfour">
                         {/* <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" /> */}
-                         <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747327973/sm-hero_2_wzq5us.png" alt="kushel" className="c1btimage" />
+                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747327973/sm-hero_2_wzq5us.png" alt="kushel" className="c1btimage" />
                         <div className="cas3s4con" id="cas3s4connn">
 
                             <div className="bgshowdb1">
@@ -354,8 +368,8 @@ function Page() {
 
                             <div className="cas3circldata" id="cas3circldata1">
                                 <h4>Smart Technology Integrations </h4>
-                                <p>Keeping design and development in mind, we integrated the platform with some third-party plugins for additional support and functionality. From automated inventory to SEO plugin, our BigCommerce experts added everything necessary to upscale Black Rhino's performance. 
-                                
+                                <p>Keeping design and development in mind, we integrated the platform with some third-party plugins for additional support and functionality. From automated inventory to SEO plugin, our BigCommerce experts added everything necessary to upscale Black Rhino's performance.
+
                                 </p>
                             </div>
 

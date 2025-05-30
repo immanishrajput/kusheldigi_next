@@ -51,8 +51,8 @@ const Rely = () => {
   };
 
   const generateMetadata = ({ params }) => ({
-    title: 'Kushel Digi Solutions Case Study- rely',
-    description: 'Discover how Kushel Digi Solutions crafted an impactful website for Rely, boosting their online presence with cutting-edge design and functionality.',
+    title: 'Rely Innovations | Ecommerce Growth with BigCommerce Website Development',    
+    description: "See how Rely Innovations boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study.",
   });
 
   useEffect(() => {

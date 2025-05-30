@@ -14915,6 +14915,7 @@ body {
     line-height: 44px;
     text-align: center;
     color: #FFFFFF;
+    margin:0;
 }
 
 .cssixtop p {
@@ -16038,7 +16039,7 @@ body {
 .cssixtop {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
 .cssixtop h4 {
@@ -19514,7 +19515,7 @@ body {
 }
 
 .testswipsingle {
-    min-height: 400px;
+    min-height: 450px !important;
     padding: 30px;
     border-radius: 10px;
     display: flex;

@@ -50,8 +50,8 @@ const ProTrucks = () => {
     });
   };
   const generateMetadata = ({ params }) => ({
-    title: 'Kushel Digi Solutions Case Study- pro-track',
-    description: 'Kushel Digi Solutions crafted a dynamic website for Pro-Track, enhancing user experience and showcasing their services, driving online engagement and growth.',
+    title: 'Pro Trucks and Cars | Ecommerce Growth with BigCommerce Website Development',
+        description: "See how Pro Trucks and Cars boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study.",
   });
 
   useEffect(() => {

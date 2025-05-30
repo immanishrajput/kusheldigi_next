@@ -136,6 +136,20 @@ function Page() {
     };  /* Slide-out animation */
 
 
+    const generateMetadata = ({ params }) => ({
+        title: 'Lafayette Shooters | Ecommerce Growth with BigCommerce Website Development',
+        description: "See how Lafayette Shooters boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
+    });
+
+    useEffect(() => {
+        const { title, description } = generateMetadata({ params: {} });
+        document.title = title;
+        let metaDescription = document.querySelector('meta[name="description"]');
+        metaDescription ? metaDescription.content = description :
+            document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+    }, []);
+
+
     return (
         <div className="case1wrap home-main">
 
@@ -280,21 +294,21 @@ function Page() {
                         </div>
 
                         <p className="s3theeparas">
-                        Kushel Digi Solutions developed a custom BigCommerce website for Lafayette Shooters, focusing on creating a visually engaging and easy-to-navigate storefront.
+                            Kushel Digi Solutions developed a custom BigCommerce website for Lafayette Shooters, focusing on creating a visually engaging and easy-to-navigate storefront.
 
                         </p>
 
                         <p className="s3theeparas">
-                        We ensured the design reflected their outdoor and sporting brand identity while simplifying the customer journey with clear product categorization and a fast, user-friendly interface.
+                            We ensured the design reflected their outdoor and sporting brand identity while simplifying the customer journey with clear product categorization and a fast, user-friendly interface.
 
 
 
                         </p>
-                        <p className="s3theeparas">In order to enhance the backend processes, we incorporated real-time inventory monitoring, automated order management, and secure payment gateway. 
-                            </p>
+                        <p className="s3theeparas">In order to enhance the backend processes, we incorporated real-time inventory monitoring, automated order management, and secure payment gateway.
+                        </p>
 
-                            <p className="s3theeparas">This helped the Lafayette Shooters team manage their store better while providing customers with a seamless shopping experience across all devices.
-                            </p>
+                        <p className="s3theeparas">This helped the Lafayette Shooters team manage their store better while providing customers with a seamless shopping experience across all devices.
+                        </p>
 
                     </div>
                     <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746889442/Group_1171279339_pf8mug.png" alt="kushel" className="c3antoimg" />
@@ -356,7 +370,7 @@ function Page() {
                             <div className="cas3circldata" id="cas3circldata1">
                                 <h4>Similar Product Comparison Feature</h4>
                                 <p>An important feature to the site is the ability to compare similar products side-by-side. This feature allows customers to make informed decisions by directly viewing product details ultimately helping them choose items that best fit their needs.
-                                
+
                                 </p>
                             </div>
 
@@ -377,7 +391,7 @@ function Page() {
                             </div>
 
                             <div className="cas3circldata" id="cas3circldata1">
-                                <h4>Mobile-Responsive Design 
+                                <h4>Mobile-Responsive Design
 
                                 </h4>
                                 <p>As we have integrated the BigCommerce solution as the foundation, we ensured the platform is fully responsive on mobile devices. Customers can easily browse, compare, and make purchases seamlessly.
@@ -497,12 +511,12 @@ function Page() {
                 <div className="result_Portfolio">
                     <h5>Result & Impact</h5>
                     <h6>
-                    In the first quarter of launching the new BigCommerce-powered website, the company saw a 65% increase in online sales.
+                        In the first quarter of launching the new BigCommerce-powered website, the company saw a 65% increase in online sales.
                     </h6>
                     <ul>
                         <li>driven by a more intuitive and mobile-responsive user experience.</li>
                         <li>Website loading speeds improved by 30%, reducing bounce rates and keeping customers engaged.
-                        
+
                         </li>
                         {/* <li>Back-end integrations enabled the team to manage inventory, orders, and customer interactions more efficiently. </li> */}
 

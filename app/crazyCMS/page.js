@@ -54,17 +54,18 @@ const CrazyCMS = () => {
   }
 
   const generateMetadata = ({ params }) => ({
-    title: 'Kusheldigi.com/crazyCMS',
-    description: "web agency, web design agency , best web design agency in the world, web design agency, web design services, web design and development agency"
-  });
+      title: 'MyCrazySimpleCMS | Ecommerce Growth with BigCommerce Website Development',
+      description: "See how MyCrazySimpleCMS boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
+    });
+  
+    useEffect(() => {
+      const { title, description } = generateMetadata({ params: {} });
+      document.title = title;
+      let metaDescription = document.querySelector('meta[name="description"]');
+      metaDescription ? metaDescription.content = description :
+        document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+    }, []);
 
-  useEffect(() => {
-    const { title, description } = generateMetadata({ params: {} });
-    document.title = title;
-    let metaDescription = document.querySelector('meta[name="description"]');
-    metaDescription ? metaDescription.content = description :
-      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-  }, []);
 
   return (
     <>

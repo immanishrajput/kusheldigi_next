@@ -136,6 +136,20 @@ function Page() {
     };  /* Slide-out animation */
 
 
+    const generateMetadata = ({ params }) => ({
+        title: 'Four Oaks Farm Country Store | Ecommerce Growth with BigCommerce Website Development',
+        description: "See how Four Oaks Farm Country Store boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
+      });
+    
+      useEffect(() => {
+        const { title, description } = generateMetadata({ params: {} });
+        document.title = title;
+        let metaDescription = document.querySelector('meta[name="description"]');
+        metaDescription ? metaDescription.content = description :
+          document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+      }, []);
+
+
     return (
         <div className="case1wrap home-main">
 
@@ -171,11 +185,11 @@ function Page() {
                             {/* left  */}
                             <div className="ca1firleft">
                                 <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746891179/Group_1171279369_qmin7o.png" alt="kushel" />
-                                <p> Four Oak Farm</p>
+                                <p> Four Oaks Farm</p>
                             </div>
 
                             <p className="ca1firrigh">
-                            Four Oak Farm is a family-owned organic farm committed to providing fresh, chemical-free produce and handmade goods right to consumers' doors.
+                            Four Oaks Farm is a family-owned organic farm committed to providing fresh, chemical-free produce and handmade goods right to consumers' doors.
                                 {/* 2nd Amendment Armory is the most trusted firearms provider of high-quality gun accessories, serving customers both locally in Brandon, FL and across the nation. */}
                             </p>
                         </div>

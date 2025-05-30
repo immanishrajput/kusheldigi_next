@@ -29,7 +29,7 @@ export default function BigCommercePortfolio({page}) {
       <div className="left-b2b-cardsKcom">
         <div className="left-b2b-cardKcom">
           <div className="b2b-logoKcom">
-            <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744024691/shooters_1_atm6x0.png" alt="Shopify Plus" />
+            <img loading="lazy" src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1748593401/Typ_CS_koameb.webp" alt="Shopify Plus" />
             <Link href="https://typhoondefense.com/" id="human" className="hover-linkCom"> View Case Study <MdArrowOutward /></Link>
           </div>
           
@@ -42,7 +42,7 @@ export default function BigCommercePortfolio({page}) {
         <div className="left-b2b-cardKcom-2">
           <div className="b2b-logoKcom">
            
-           <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744024692/typoon_r4qbbn.png" alt="Shopify Plus" />
+           <img loading="lazy" src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1748593399/lafa_CS_xab3zf.webp" alt="Shopify Plus" />
            <Link href="https://lafayetteshooters.com/" id="human" className="hover-linkCom"> View Case Study<MdArrowOutward /></Link>
           </div>
          
@@ -55,7 +55,7 @@ export default function BigCommercePortfolio({page}) {
         
         <div className="left-b2b-cardKcom-3">
           <div className="b2b-logoKcom">
-            <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744024693/indrpal-9_aupyjc.png" alt="Shopify Plus" />
+            <img loading="lazy" src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1748593400/graco_CS_ltf0je.webp" alt="Shopify Plus" />
             <Link href="https://graco-corp.com/" id="human" className="hover-linkCom"> View Case Study <MdArrowOutward/></Link>
           </div>
          
@@ -69,7 +69,7 @@ export default function BigCommercePortfolio({page}) {
       <div className="right-b2b-cardsKcom">
         <div className="right-b2b-cardKcom">
           <div className="b2b-logoKcom">
-            <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744024692/Untitled-indrpal-10_en8ton.png" alt="Shopify Plus" />
+            <img loading="lazy" src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1748593399/four_CS_kl40rc.webp" alt="Shopify Plus" />
             <Link href="https://fouroaksfarm.com/" id="human" className="hover-linkCom">View Case Study <MdArrowOutward /> </Link>
           </div>
          
@@ -81,7 +81,7 @@ export default function BigCommercePortfolio({page}) {
         </div>
         <div className="right-b2b-cardKcom">
           <div className="b2b-logoKcom">
-            <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744024697/krap-stap_tzepfo.png" alt="Shopify Plus" />
+            <img loading="lazy" src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1748593400/fraap_CS_hnut2s.webp" alt="Shopify Plus" />
             <a href="https://krappstrapp.com/" id="human" className="hover-linkCom">View Case Study <MdArrowOutward /></a>
           </div>
           
@@ -93,7 +93,7 @@ export default function BigCommercePortfolio({page}) {
         </div>
         <div className="right-b2b-cardKcom">
           <div className="b2b-logoKcom">
-            <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744175096/tap-brass_wun8e3.png" alt="Shopify Plus" />
+            <img loading="lazy" src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1748593399/top_CS_zv8zon.webp" alt="Shopify Plus" />
             <a href="https://topbrasstactical.com/" id="human" className="hover-linkCom">View Case Study <MdArrowOutward /></a>
           </div>
          

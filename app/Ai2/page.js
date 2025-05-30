@@ -11,7 +11,7 @@ import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
 import { Import } from "lucide-react";
 function Ai() {
-    
+
   const d1 = [
     {
       title1: "Industries",
@@ -96,19 +96,19 @@ function Ai() {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216954/down1_kgzcrg.png",
       title1: "Topbrass tactical",
       title2: "E-commerce, Bigcomerce ",
-      link:"/topbrass"
+      link: "/topbrass"
     },
     {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216979/down2_m0c8fa.png",
       title1: "Kickeez",
       title2: "E-commerce, Bigcomerce ",
-       link:"/kick-eez"
+      link: "/kick-eez"
     },
     {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217009/down3_ucxpri.png",
       title1: "Sites & Scopes",
       title2: "E-commerce, Bigcomerce ",
-      link:"/sites"
+      link: "/sites"
     },
   ];
 
@@ -127,23 +127,23 @@ function Ai() {
   };
 
   const generateMetadata = ({ params }) => ({
-           title: 'Kusheldigi.com/Ai',
-           description:"Web Development Company | Kushel Digi Solutions"
-         });
-         
-       useEffect(() => {
-           const { title, description } = generateMetadata({ params: {} });
-           document.title = title;
-           let metaDescription = document.querySelector('meta[name="description"]');
-           metaDescription ? metaDescription.content = description : 
-             document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-         }, []);
-  
+    title: 'A&I Parts Center | Ecommerce Growth with BigCommerce Website Development',
+    description: "See how A&I Parts Center boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
+  });
+
+  useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description :
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
+
   return (
     <div className="case1wrap home-main">
 
 
-        <Navbar/>
+      <Navbar />
       {/* first sectino */}
       <section className="case1firsec" id="AiPortfolioImage">
         <img
@@ -172,7 +172,7 @@ function Ai() {
               </div>
 
               <p className="ca1firrigh">
-              AI Parts Center is a well-known name in the automotive industry. Being in this business for over more than 40 years, it provides a broad range of auto parts and accessories. 
+                A&I Parts Center is a well-known name in the automotive industry. Being in this business for over more than 40 years, it provides a broad range of auto parts and accessories.
               </p>
             </div>
 
@@ -205,13 +205,13 @@ function Ai() {
 
           <div className="sc2_main_content">
             <h1>Client Background</h1><p>
-         The company is empowering multiple vehicle models with physical stores located in Texline, Dalhart, Guymon, Stratford, and Amarillo areas. It has earned a strong brand reputation by focusing on community-focused approach and exceptional customer service. No wonder why it is a go-to destination for DIYers and professionals. </p>
+              The company is empowering multiple vehicle models with physical stores located in Texline, Dalhart, Guymon, Stratford, and Amarillo areas. It has earned a strong brand reputation by focusing on community-focused approach and exceptional customer service. No wonder why it is a go-to destination for DIYers and professionals. </p>
             <p>
-            As the brand is expanding their footprint in the digital space, <b>Kushel Digi Solutions</b> provided a great support in taking their business further via digital presence. <b>Madfish Solutions</b> has offered us this opportunity to work on a reputed brand projects like AI Parts Center, which we are grateful for. 
+              As the brand is expanding their footprint in the digital space, <b>Kushel Digi Solutions</b> provided a great support in taking their business further via digital presence. <b>Madfish Solutions</b> has offered us this opportunity to work on a reputed brand projects like AI Parts Center, which we are grateful for.
             </p>
           </div>
         </div>
-        
+
 
         <img
           src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744626323/Ellipse_2616_b05zg1.png"
@@ -221,28 +221,28 @@ function Ai() {
       </section>
 
       <div className="PortfolioChallenges">
-          <div className="PortfolioChallengeMain">
-            <h4> Challenges</h4>
-            <p> Behind the development of the digital storefront, there were plenty of challenges. One of them was to maintain the essence (brand personality) of its established brand. Other than them, we tackled the following hurdles: </p>
-            <div>
-              <ul>
-                <li>
+        <div className="PortfolioChallengeMain">
+          <h4> Challenges</h4>
+          <p> Behind the development of the digital storefront, there were plenty of challenges. One of them was to maintain the essence (brand personality) of its established brand. Other than them, we tackled the following hurdles: </p>
+          <div>
+            <ul>
+              <li>
                 The previous design was outdated, and it required a creative revamp.
-                </li>
-                <li>Ecommerce features were limited, and only basic functionalities were there.</li>
-                <li>There was a strong need to improve design and include modern elements. </li>
-                <li>Poor mobile user experience was leading to reduced sales due to clunky navigation and slow load times.</li>
-              </ul>
-            </div>
-            </div>
-<div className="portfolioImageChallenge">
-<img
+              </li>
+              <li>Ecommerce features were limited, and only basic functionalities were there.</li>
+              <li>There was a strong need to improve design and include modern elements. </li>
+              <li>Poor mobile user experience was leading to reduced sales due to clunky navigation and slow load times.</li>
+            </ul>
+          </div>
+        </div>
+        <div className="portfolioImageChallenge">
+          <img
             src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744631255/Group_1171281276_psr4aw.png"
             alt="kushel"
           />
-</div>
-         
         </div>
+
+      </div>
 
       {/* third section  */}
       <section className="case3secthir">
@@ -255,16 +255,16 @@ function Ai() {
             </div>
 
             <p className="s3theeparas">
-            Considering the challenges, our <b>professional web design company</b> formulated an entire approach from scratch to achieve the desired outcome. From designing to deployment, we ensured to build a scalable and user-friendly e-commerce solution.  </p>
+              Considering the challenges, our <b>professional web design company</b> formulated an entire approach from scratch to achieve the desired outcome. From designing to deployment, we ensured to build a scalable and user-friendly e-commerce solution.  </p>
 
             <p className="s3theeparas">
-            Our expert team members carefully analyzed the situation of the website before drafting the solution. We accessed the backend and front-end features, noted down the loopholes and shared them with the client. 
+              Our expert team members carefully analyzed the situation of the website before drafting the solution. We accessed the backend and front-end features, noted down the loopholes and shared them with the client.
 
             </p>
 
-            
+
             <p className="s3theeparas">
-            For redesigning the site, our web designers prepared a fresh layout on Figma. Working closely with the client, visuals were created in a way that they resonate with the brand’s legacy. 
+              For redesigning the site, our web designers prepared a fresh layout on Figma. Working closely with the client, visuals were created in a way that they resonate with the brand’s legacy.
 
             </p>
           </div>
@@ -283,8 +283,8 @@ function Ai() {
         options={{
           type: "loop",
           perPage: 1,
-        
-          autoplay:true,
+
+          autoplay: true,
           interval: 3000,
           pagination: true,
           arrows: false,
@@ -311,9 +311,9 @@ function Ai() {
 
               <div className="cas3circldata2" id="case3Portfolio_Aii">
                 <h4>E-commerce Development in BigCommerce
-              </h4>
+                </h4>
                 <p>
-                After finishing the redesign part, we created the site using <b>headless BigCommerce development</b>. This is a long-term and scalable choice to manage inventory, secure checkout, and customize product listings. In fact, building a customized digital storefront is fun with <b>BigCommerce </b>
+                  After finishing the redesign part, we created the site using <b>headless BigCommerce development</b>. This is a long-term and scalable choice to manage inventory, secure checkout, and customize product listings. In fact, building a customized digital storefront is fun with <b>BigCommerce </b>
 
                 </p>
               </div>
@@ -342,7 +342,7 @@ function Ai() {
               <div className="cas3circldata2" id="case3Portfolio_Aii">
                 <h4>Ecommerce Development.  </h4>
                 <p>
-                We started with storefront creation, improving search functionality, and integrated payment gateways while building backend infrastructure. 
+                  We started with storefront creation, improving search functionality, and integrated payment gateways while building backend infrastructure.
 
                 </p>
               </div>
@@ -352,16 +352,16 @@ function Ai() {
 
         <SplideSlide>
           <section className="case3secfour2">
-          <img loading="lazy" className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png" alt="kushel" />
+            <img loading="lazy" className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png" alt="kushel" />
 
             <div className="cas3s4con" >
-             
+
 
               <div className="cas3circldata2" id="case3Portfolio_Aii">
                 <h4>App Integrations</h4>
                 <p>
-             
-                BigCommerce supports third-party applications so we integrated the useful ones to the website. The integrated apps will turn AI Parts Center into a full-fledged Ecommerce platform. 
+
+                  BigCommerce supports third-party applications so we integrated the useful ones to the website. The integrated apps will turn AI Parts Center into a full-fledged Ecommerce platform.
                 </p>
               </div>
               <div className="bgshowdb2" id="imgPortfolio_Ai_Phone">
@@ -378,15 +378,15 @@ function Ai() {
 
         <SplideSlide>
           <section className="case3secfour2">
-          <img loading="lazy" className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png" alt="kushel" />
+            <img loading="lazy" className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png" alt="kushel" />
 
             <div className="cas3s4con" id="imgPortfolio_Phone">
-             
+
 
               <div className="cas3circldata2" id="case3Portfolio_Aii">
                 <h4>Storefront Simplification</h4>
                 <p>
-                We also created the storefront to simplify the access to product details to help your customers in making the informed decision. It was important to include aesthetic images to bring clarity for the  audience too. Working with our expert designers, the product detail section was well-taken care of. 
+                  We also created the storefront to simplify the access to product details to help your customers in making the informed decision. It was important to include aesthetic images to bring clarity for the  audience too. Working with our expert designers, the product detail section was well-taken care of.
                 </p>
               </div>
               <div className="bgshowdb2" id="imgPortfolio_Ai_Phone">
@@ -400,7 +400,7 @@ function Ai() {
             </div>
           </section>
 
-{/* <section className="case3secfour2">
+          {/* <section className="case3secfour2">
           <img loading="lazy" className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png" alt="kushel" />
 
             <div className="cas3s4con" id="imgPortfolio_Phone">
@@ -433,7 +433,7 @@ function Ai() {
           <div className="c2fivtopsec">
             <h4>How we build the E-Commerce development Process</h4>
             <p>
-            We’ll turn your custom tech solutions into powerful brands by crafting unique customer experiences at every digital touchpoint with:
+              We’ll turn your custom tech solutions into powerful brands by crafting unique customer experiences at every digital touchpoint with:
 
             </p>
           </div>
@@ -446,9 +446,8 @@ function Ai() {
                 <p
                   key={index}
                   onClick={() => handleSelectionChange(index)}
-                  className={`${
-                    selectS4 === index && "addthsomfbg"
-                  } cursor-pointer`}
+                  className={`${selectS4 === index && "addthsomfbg"
+                    } cursor-pointer`}
                 >
                   {d2Item?.title}
                 </p>
@@ -486,7 +485,7 @@ function Ai() {
                 interval: 3000,
                 pagination: true,
                 arrows: false,
-                pauseOnHover:false
+                pauseOnHover: false
               }}
             >
               {d2?.map((item, index) => (
@@ -525,20 +524,20 @@ function Ai() {
       </section>
 
       <div className="Mainresult_Portfolio">
-<div className="result_Portfolio">
-  <h5>Result & Impact</h5>
-  <h6>
-  We successfully created a solution that reflected their brand values and met modern digital standards. Following were additional impacts noticed by the client
-  </h6>
-  <ul>
-    <li>More customer engagement</li>
-    <li>Higher conversion rates </li>
-    <li>Modern layout and intuitive design</li>
-    <li> Advanced Customer Support features </li>
-  </ul>
- 
-</div>
-</div>
+        <div className="result_Portfolio">
+          <h5>Result & Impact</h5>
+          <h6>
+            We successfully created a solution that reflected their brand values and met modern digital standards. Following were additional impacts noticed by the client
+          </h6>
+          <ul>
+            <li>More customer engagement</li>
+            <li>Higher conversion rates </li>
+            <li>Modern layout and intuitive design</li>
+            <li> Advanced Customer Support features </li>
+          </ul>
+
+        </div>
+      </div>
 
       {/* six section  */}
       <section className="cs2sexiesec">
@@ -561,9 +560,9 @@ function Ai() {
           </div>
 
           <div className="csizbot">
-           <a href="contact-us"><button>
+            <a href="contact-us"><button>
               <span>Or Start a conversation</span>
-            </button></a> 
+            </button></a>
             {/* <p>Or Start a conversation</p> */}
           </div>
         </div>
@@ -587,15 +586,15 @@ function Ai() {
                   <p className="sep2">{project?.title2}</p>
                 </div>
 
-              <a href={project?.link}> <button>
+                <a href={project?.link}> <button>
                   <span>Case study</span>
-                </button></a> 
+                </button></a>
               </div>
             ))}
           </div>
         </div>
       </section>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

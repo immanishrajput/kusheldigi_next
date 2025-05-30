@@ -126,8 +126,8 @@ function riffle() {
   };
 
   const generateMetadata = ({ params }) => ({
-           title: 'Kusheldigi.com/graco',
-           description:"Web Development Company | Kushel Digi Solutions"
+           title: 'Rifle Supply | Ecommerce Growth with BigCommerce Website Development',
+           description:"See how Rifle Supply boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
          });
          
        useEffect(() => {
@@ -167,11 +167,11 @@ function riffle() {
                     alt="kushel"
                   />
                 </div>
-                <p>Riffle Supply</p>
+                <p>Rifle Supply</p>
               </div>
 
               <p className="ca1firrigh">
-              RifleSupply is an exclusive shop for firearms, parts, and accessories. The brand deals in a wide range of products related to rifles, guns, Glock shops, AR parts, and much more. It is well-known for its expansive inventory with more than 4800 products available on its website. 
+              Rifle Supply is an exclusive shop for firearms, parts, and accessories. The brand deals in a wide range of products related to rifles, guns, Glock shops, AR parts, and much more. It is well-known for its expansive inventory with more than 4800 products available on its website. 
               </p>
             </div>
 
@@ -283,7 +283,7 @@ src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746643901/Group_1171279
           type: "loop",
           perPage: 1,
           autoplay: true,
-          interval: 3000,
+          interval: 6000,
           pagination: true,
           arrows: false,
           pauseOnHover: false

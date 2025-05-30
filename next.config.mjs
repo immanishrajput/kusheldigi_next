@@ -85,6 +85,11 @@ const nextConfig = {
         destination: '/woocommerce-development',
         permanent: true,
       },
+      {
+        source: '/rifflesuppy',
+        destination: '/riflesupply',
+        permanent: true,
+      },
     ];
   },
 };

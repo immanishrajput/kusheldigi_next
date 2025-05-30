@@ -57,8 +57,8 @@ const Ballistic = () => {
   }
 
   const generateMetadata = ({ params }) => ({
-    title: 'Kusheldigi.com/ballistic',
-    description: "Web Development Company | Kushel Digi Solutions"
+    title: 'Ballistic Dummy Lab | Ecommerce Growth with BigCommerce Website Development',
+        description: "See how Ballistic Dummy Lab boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study.",
   });
 
   useEffect(() => {

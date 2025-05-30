@@ -9,7 +9,7 @@ import TalkToConsult from '@/app/components/TalkToConsult';
 const CaseStudy = () => {
   const caseStudies = [
     {
-      img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744175098/home-banner-3_1_i2ugio.jpg',
+      img: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1748593401/laf_ubjua9.webp',
       className: 'bigBannerFirst',
       smHeading: 'Certified BigCommerce Agency',
       smallBtnText: 'View Case Study',
@@ -25,7 +25,7 @@ const CaseStudy = () => {
       ],
     },
     {
-      img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829271/lovely-1_hhxfih.jpg',
+      img: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1748593400/typhoon_nznsvh.webp',
       className: 'bigBannerSecond',
       smHeading: 'Certified BigCommerce Agency',
       smallBtnText: 'View Case Study',
@@ -41,7 +41,7 @@ const CaseStudy = () => {
       ],
     },
     {
-      img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829270/lovely-3_fanqxf.jpg',
+      img: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1748593400/grac_iqippr.webp',
       className: 'bigBannerThird',
       smHeading: 'Certified BigCommerce Agency',
       smallBtnText: 'View Case Study',
@@ -57,7 +57,7 @@ const CaseStudy = () => {
       ],
     },
     {
-      img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744291962/four-oaks-farm_ku70ia.png',
+      img: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1748593400/four_oaks_aa0b2d.webp',
       className: 'bigBannerFourth',
       smHeading: 'Certified BigCommerce Agency',
       smallBtnText: 'View Case Study',
@@ -73,7 +73,7 @@ const CaseStudy = () => {
       ],
     },
     {
-      img: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829269/lovely-5_akjurr.jpg',
+      img: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1748593403/krap_strap_tzsk4q.webp',
       className: 'bigBannerFifth',
       smHeading: 'Certified BigCommerce Agency',
       smallBtnText: 'View Case Study',

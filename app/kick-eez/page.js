@@ -71,8 +71,8 @@ const Kickiz = () => {
     });
   };
   const generateMetadata = ({ params }) => ({
-    title: 'Kushel Digi Solutions Case Study- Kick-Eez',
-    description: "Kushel Digi Solutions' case study on Kick-Eez highlights successful digital transformation, boosting brand visibility and driving sales through website development.",
+    title: 'KICK-EEZ | Ecommerce Growth with BigCommerce Website Development',
+    description: "See how KICK-EEZ boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study.",
   });
 
   useEffect(() => {

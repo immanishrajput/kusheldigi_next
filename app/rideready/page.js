@@ -125,18 +125,18 @@ function rideready() {
     }, 300);
   };
 
-  const generateMetadata = ({ params }) => ({
-           title: 'Kusheldigi.com/rideready',
-           description:"Web Development Company | Kushel Digi Solutions"
-         });
-         
-       useEffect(() => {
-           const { title, description } = generateMetadata({ params: {} });
-           document.title = title;
-           let metaDescription = document.querySelector('meta[name="description"]');
-           metaDescription ? metaDescription.content = description : 
-             document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-         }, []);
+ const generateMetadata = ({ params }) => ({
+     title: 'RideReady | Ecommerce Growth with BigCommerce Website Development',
+     description: "See how RideReady boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
+   });
+ 
+   useEffect(() => {
+     const { title, description } = generateMetadata({ params: {} });
+     document.title = title;
+     let metaDescription = document.querySelector('meta[name="description"]');
+     metaDescription ? metaDescription.content = description :
+       document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+   }, []);
   
   return (
     <div className="case1wrap home-main">
