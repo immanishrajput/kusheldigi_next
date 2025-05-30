@@ -68,9 +68,9 @@ const Website = () => {
     }
     if (
       formData.name2.trim() === '' ||
-      formData.phone2.trim() === '' ||
+      formData.phone2.trim() === '91' ||
       formData.email2.trim() === '' ||
-      formData.message2.trim() === '91'
+      formData.message2.trim() === ''
     ) {
       toast.error("Please fill all the fields!!");
       return;

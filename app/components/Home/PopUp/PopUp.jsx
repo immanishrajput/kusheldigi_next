@@ -9,6 +9,7 @@ import popupAboveCompanies from "../../../assests/popup-upper-companies.png";
 import popupBelowCompanies from "../../../assests/popup-below-companies.png";
 import { useRouter } from "next/navigation";
 import Image from 'next/image';
+import { toast } from "react-toastify";
 
 const Popup = () => {
   const [firstNo, setFirstNo] = useState(0);
@@ -36,11 +37,11 @@ const Popup = () => {
   const verifyCaptcha = (e) => {
     e.preventDefault();
     if (parseInt(userAnswer) !== correctAnswer) {
-      alert("Wrong Captcha! Try again.");
+      toast.error("Wrong Captcha! Try again.");
       generateCaptcha();
       return;
     }
-    alert("Captcha Verified!!");
+    toast.success("Captcha Verified!!");
     setCaptchaVerified(true);
   };
 
@@ -87,10 +88,31 @@ const Popup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (!captchaVerified) {
-      alert("Please verify the CAPTCHA before submitting.");
-      return;
-    }
+   const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+   
+       if (!emailRegex.test(formData.email)) {
+         toast.error("Invalid email address!");
+         return;
+       }
+       if (
+         formData.firstName.trim() === '' ||
+         formData.phone.trim() === '91' ||
+         formData.email.trim() === ''
+       ) {
+         toast.error("Please fill all the fields!!");
+         return;
+       }
+       if (!captchaVerified) {
+         toast.error("Please Verify the Captcha !!");
+         generateCaptcha();
+         return;
+       }
+       if (parseInt(userAnswer) !== correctAnswer) {
+         toast.error("Wrong Captcha! Try again.");
+         generateCaptcha();
+         setCaptchaVerified(false);
+         return;
+       }
 
     setLoading(true);
 
