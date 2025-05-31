@@ -4,12 +4,13 @@ import { useEffect, useState } from "react";
 import { TiTick } from "react-icons/ti";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
-import './riffle.css'
-
+import '../Ai/Ai.css'
+import './aI.CSS'
 import '../globals.css'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
-function riffle() {
+import { Import } from "lucide-react";
+function Ai() {
 
   const d1 = [
     {
@@ -126,8 +127,8 @@ function riffle() {
   };
 
   const generateMetadata = ({ params }) => ({
-    title: 'Rifle Supply | Ecommerce Growth with BigCommerce Website Development',
-    description: "See how Rifle Supply boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
+    title: 'A&I Parts Center | Ecommerce Growth with BigCommerce Website Development',
+    description: "See how A&I Parts Center boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
   });
 
   useEffect(() => {
@@ -144,7 +145,7 @@ function riffle() {
 
       <Navbar />
 
-      <link rel="canonical" href="https://www.kusheldigi.com/riflesupply" />
+      <link rel="canonical" href="https://www.kusheldigi.com/aipartscenter" />
 
       {/* first sectino */}
       <section className="case1firsec" id="AiPortfolioImage">
@@ -166,15 +167,15 @@ function riffle() {
               <div className="ca1firleft">
                 <div>
                   <img
-                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745921174/standardlogo_400px_nobackground_1678492593__36894_kmlufu.webp"
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622906/Group_1171279213_ahxsmd.png"
                     alt="kushel"
                   />
                 </div>
-                <p>Rifle Supply</p>
+                <p>A&I Parts Center</p>
               </div>
 
               <p className="ca1firrigh">
-                Rifle Supply is an exclusive shop for firearms, parts, and accessories. The brand deals in a wide range of products related to rifles, guns, Glock shops, AR parts, and much more. It is well-known for its expansive inventory with more than 4800 products available on its website.
+                A&I Parts Center is a well-known name in the automotive industry. Being in this business for over more than 40 years, it provides a broad range of auto parts and accessories.
               </p>
             </div>
 
@@ -207,10 +208,9 @@ function riffle() {
 
           <div className="sc2_main_content">
             <h1>Client Background</h1><p>
-              At present, the company is serving gun enthusiasts, professional shooters, and enforcement agencies. It’s a trusted name for the firearms dealership. If you are planning to upgrade your handgun or any other firearm-related equipment, then RifleSupply is worth checking out.  </p>
+              The company is empowering multiple vehicle models with physical stores located in Texline, Dalhart, Guymon, Stratford, and Amarillo areas. It has earned a strong brand reputation by focusing on community-focused approach and exceptional customer service. No wonder why it is a go-to destination for DIYers and professionals. </p>
             <p>
-              However, what you are seeing on the website today has been transformed by Kushel Digi Solutions with their expert team efforts. <b>MadFish Solutions </b> has offered us this opportunity, which we successfully worked on to our best.
-
+              As the brand is expanding their footprint in the digital space, <b>Kushel Digi Solutions</b> provided a great support in taking their business further via digital presence. <b>Madfish Solutions</b> has offered us this opportunity to work on a reputed brand projects like AI Parts Center, which we are grateful for.
             </p>
           </div>
         </div>
@@ -226,25 +226,21 @@ function riffle() {
       <div className="PortfolioChallenges">
         <div className="PortfolioChallengeMain">
           <h4> Challenges</h4>
-          <p> RifleSupply was facing several obstacles to its growth:</p>
+          <p> Behind the development of the digital storefront, there were plenty of challenges. One of them was to maintain the essence (brand personality) of its established brand. Other than them, we tackled the following hurdles: </p>
           <div>
             <ul>
               <li>
-                The older website lacked mobile efficiency. No mobile-friendly interface was affecting the sales.
+                The previous design was outdated, and it required a creative revamp.
               </li>
-              <li>Most of the website elements were outdated, and an entire revamp was the only way to fix them. </li>
-              <li>The website was complex to use, as many of the product details were missing. </li>
-              <li>Compliance complexity was another factor that we had to work on to make the site’s design align with it. </li>
-              <li>Real-time product availability was missing, so prospects used to step away from the website. </li>
-              <li>The absence of search filters was creating difficulty in scrolling through the broad range of products. </li>
-              <li>Marketing efforts were clearly invisible. Poor On-page SEO and inadequate customer engagement were a big challenge to cover up. </li>
+              <li>Ecommerce features were limited, and only basic functionalities were there.</li>
+              <li>There was a strong need to improve design and include modern elements. </li>
+              <li>Poor mobile user experience was leading to reduced sales due to clunky navigation and slow load times.</li>
             </ul>
           </div>
         </div>
         <div className="portfolioImageChallenge">
           <img
-            src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746643901/Group_1171279276_eyfkn6.png"
-            // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744631255/Group_1171281276_psr4aw.png"
+            src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744631255/Group_1171281276_psr4aw.png"
             alt="kushel"
           />
         </div>
@@ -256,23 +252,28 @@ function riffle() {
         <div className="sc3sectcont">
           {/* left side */}
           <div className="s3secltleft">
-            <div className="c3s3_head2" id="riffle_solution">
+            <div className="c3s3_head2" id="AiUnique_solution">
               <h3>Solution</h3>
               <p></p>
             </div>
 
             <p className="s3theeparas">
-              Though many challenges were there, our expert teammates found the appropriate solutions to create what customers will love to go through. The main parts that required attention were website layout and storefront development. For both, choosing the right tool is going to make all the difference. </p>
+              Considering the challenges, our <b>professional web design company</b> formulated an entire approach from scratch to achieve the desired outcome. From designing to deployment, we ensured to build a scalable and user-friendly e-commerce solution.  </p>
 
             <p className="s3theeparas">
-              Throughout the development stage, Kushel Digi Solutions took the responsibility of changing digital transformation from scratch. We formulated the roadmap from start to end for making this redesigning project successful and then executed the plans with a collaborative approach.
+              Our expert team members carefully analyzed the situation of the website before drafting the solution. We accessed the backend and front-end features, noted down the loopholes and shared them with the client.
+
+            </p>
+
+
+            <p className="s3theeparas">
+              For redesigning the site, our web designers prepared a fresh layout on Figma. Working closely with the client, visuals were created in a way that they resonate with the brand’s legacy.
 
             </p>
           </div>
 
           <img
-            src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746643899/Group_1171279278_n6mfn8.png"
-            // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744631255/Group_1171281276_psr4aw.png"
+            src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746715049/Group_1171279258_s2smnp.png"
             alt="kushel"
             className="c3antoimg"
           />
@@ -285,8 +286,9 @@ function riffle() {
         options={{
           type: "loop",
           perPage: 1,
+
           autoplay: true,
-          interval: 6000,
+          interval: 3000,
           pagination: true,
           arrows: false,
           pauseOnHover: false
@@ -296,23 +298,26 @@ function riffle() {
           <section className="case3secfour2">
             <img
               className="case4bggirl"
-              src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747333600/Group_1171279293_xbmklo.png"
+              src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png"
               alt="kushel"
             />
-            <div className="cas3s4con" id="cas3s4conn">
+            <div className="cas3s4con">
               <div className="bgshowdb2">
                 <img
-                  src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746707943/Group_1171279287_1_fo74cr.png"
+                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632483/Group_1171281280_ukeiu6.png"
                   alt="kushel"
                   className="shadowbg2"
+                  id="shadodo"
+
                 />
               </div>
 
-              <div className="cas3circldata2" id="case3Portfolio_riffle">
-                <h4>Custom Layout Design
+              <div className="cas3circldata2" id="case3Portfolio_Aii">
+                <h4>E-commerce Development in BigCommerce
                 </h4>
                 <p>
-                  With the help of Figma, our expert designers crafted a fresh UI that included modern web layout elements. This was done in alignment with RifleSupply’s brand image.
+                  After finishing the redesign part, we created the site using <b>headless BigCommerce development</b>. This is a long-term and scalable choice to manage inventory, secure checkout, and customize product listings. In fact, building a customized digital storefront is fun with <b>BigCommerce </b>
+
                 </p>
               </div>
             </div>
@@ -323,23 +328,24 @@ function riffle() {
           <section className="case3secfour2">
             <img
               className="case4bggirl"
-              src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747333600/Group_1171279293_xbmklo.png"
+              src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png"
               alt="kushel"
             />
 
-            <div className="cas3s4con" id="cas3s4conn">
+            <div className="cas3s4con">
               <div className="bgshowdb2">
                 <img
-                  src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746707940/Group_1171279292_vbrwty.png"
+                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632482/Group_1171281283_kpau8o.png"
                   alt="kushel"
                   className="shadowbg2"
+                  id="shadodo"
                 />
               </div>
 
-              <div className="cas3circldata2" id="case3Portfolio_riffle">
-                <h4>Headless BigCommerce Development </h4>
+              <div className="cas3circldata2" id="case3Portfolio_Aii">
+                <h4>Ecommerce Development.  </h4>
                 <p>
-                  We created a high-performing wholesale Ecommerce platform using BigCommerce. It has everything to fit the needs of RifeSupply and engage customers in the long run. From featuring countless products to making it scalable. BigCommerce turned out to be a limitless choice.
+                  We started with storefront creation, improving search functionality, and integrated payment gateways while building backend infrastructure.
 
                 </p>
               </div>
@@ -349,31 +355,78 @@ function riffle() {
 
         <SplideSlide>
           <section className="case3secfour2">
-            <img className="case4bggirl" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747333600/Group_1171279293_xbmklo.png" alt="kushel" />
+            <img loading="lazy" className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png" alt="kushel" />
 
-            <div className="cas3s4con" id="imgPortfolio_Phone">
+            <div className="cas3s4con" >
 
 
-              <div className="cas3circldata2" id="case3Portfolio_riffle">
-                <h4>
-                  App Integrations
-                </h4>
+              <div className="cas3circldata2" id="case3Portfolio_Aii">
+                <h4>App Integrations</h4>
                 <p>
-                  One of the advantages of choosing BigCommerce is that plenty of app integrations are available to download. We integrated third-party tools for real-time inventory sync, SEO marketing tools, and advanced filtering to meet customers’ demands easily. Apart from that, we also simplified marketing for RifleSupply.
+
+                  BigCommerce supports third-party applications so we integrated the useful ones to the website. The integrated apps will turn AI Parts Center into a full-fledged Ecommerce platform.
                 </p>
               </div>
               <div className="bgshowdb2" id="imgPortfolio_Ai_Phone">
                 <img
-                  src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746707940/Group_1171279297_m7cscj.png"
+                  src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746778355/rajat_mockup_odyonm.png"
                   alt="kushel"
-                  className="shadowbg3"
+                  className="shadowbg2"
+                  id="shadodo"
                 />
               </div>
             </div>
           </section>
         </SplideSlide>
 
+        <SplideSlide>
+          <section className="case3secfour2">
+            <img loading="lazy" className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png" alt="kushel" />
 
+            <div className="cas3s4con" id="imgPortfolio_Phone">
+
+
+              <div className="cas3circldata2" id="case3Portfolio_Aii">
+                <h4>Storefront Simplification</h4>
+                <p>
+                  We also created the storefront to simplify the access to product details to help your customers in making the informed decision. It was important to include aesthetic images to bring clarity for the  audience too. Working with our expert designers, the product detail section was well-taken care of.
+                </p>
+              </div>
+              <div className="bgshowdb2" id="imgPortfolio_Ai_Phone">
+                <img
+                  src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746778355/rajat_mockup_odyonm.png"
+                  alt="kushel"
+                  className="shadowbg2"
+                  id="shadodo"
+                />
+              </div>
+            </div>
+          </section>
+
+          {/* <section className="case3secfour2">
+          <img loading="lazy" className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622912/Group_1171279215_qc1xkm.png" alt="kushel" />
+
+            <div className="cas3s4con" id="imgPortfolio_Phone">
+             
+
+              <div className="cas3circldata2" id="case3Portfolio_riffle">
+                <h4>
+              	App Integrations
+                </h4>
+                <p>
+                One of the advantages of choosing BigCommerce is that plenty of app integrations are available to download. We integrated third-party tools for real-time inventory sync, SEO marketing tools, and advanced filtering to meet customers’ demands easily. Apart from that, we also simplified marketing for RifleSupply. 
+                </p>
+              </div>
+              <div className="bgshowdb2" id="imgPortfolio_Ai_Phone">
+                <img
+                  src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746707940/Group_1171279297_m7cscj.png"
+                  alt="kushel"
+                  className="shadowbg2"
+                />
+              </div>
+            </div>
+          </section> */}
+        </SplideSlide>
       </Splide>
 
       {/* fivth  section  */}
@@ -406,7 +459,7 @@ function riffle() {
 
             {/* Right Section with Animation */}
             <div className={`c2fibbotrigh ${animationDirection} `}>
-              <img src={selectdata?.img} className="selectdataimg" alt="kushel" />
+              <img loading="lazy" src={selectdata?.img} className="selectdataimg" alt="kushel" />
               <div className="serigh_macont">
                 <h4>
                   <span>0{selectS4 + 1}/</span> {selectdata?.title}
@@ -477,18 +530,18 @@ function riffle() {
         <div className="result_Portfolio">
           <h5>Result & Impact</h5>
           <h6>
-            Our <b>BigCommerce website development </b> process and efforts paid off when the results started showing up. We witnessed these changes after updating the website:
+            We successfully created a solution that reflected their brand values and met modern digital standards. Following were additional impacts noticed by the client
           </h6>
           <ul>
-            <li>Better conversions were happening due to responsive design. </li>
-            <li>Improved compliance automation reduced the burden on the website handler. </li>
-            <li>Order accuracy and real-time data became easily accessible. </li>
-            <li> Web pages started loading faster, which improved customer satisfaction. </li>
-            <li>Robust On-Page SEO empowers a website with an edge in Google Search Ranking. </li>
+            <li>More customer engagement</li>
+            <li>Higher conversion rates </li>
+            <li>Modern layout and intuitive design</li>
+            <li> Advanced Customer Support features </li>
           </ul>
-          <p>Overall, working with RifleSupply was a great experience, and we are open to collaborating further. </p>
+
         </div>
       </div>
+
       {/* six section  */}
       <section className="cs2sexiesec">
         <img
@@ -511,12 +564,12 @@ function riffle() {
 
           <div className="csizbot">
             <a href="contact-us"><button>
-              <span>Start a conversation</span>
+              <span>Or Start a conversation</span>
             </button></a>
+            {/* <p>Or Start a conversation</p> */}
           </div>
         </div>
       </section>
-
 
       {/* seven section  */}
       <section className="sc2sevensec">
@@ -529,7 +582,7 @@ function riffle() {
           <div className="sc2_Sev_projects">
             {projects?.map((project, index) => (
               <div key={index} className="singlprojseve">
-                <img src={project?.img} alt="kushel" />
+                <img loading="lazy" src={project?.img} alt="kushel" />
 
                 <div className="seven_titls">
                   <p className="sep1">{project?.title1}</p>
@@ -549,4 +602,4 @@ function riffle() {
   );
 }
 
-export default riffle;
+export default Ai;

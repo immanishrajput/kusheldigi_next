@@ -29,8 +29,8 @@ const Ankitcrouser = [
     leftitle: "Top Brass Tactical",
     quote:
       "Top Brass resolutely back the front-line hero. We are spirited supporters of the 2nd Amendment. Moreover, we proclaim the values of diligence, fairness, and the standard American demeanour.",
-    rightimg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739430318/topbrass_x4lygw.png',
-    link: "https://topbrasstactical.com/",
+    rightimg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739430318/topbrasstactical_x4lygw.png',
+    link: "https://topbrasstacticaltactical.com/",
     target: "_blank"
   },
   {

@@ -1,42 +1,39 @@
 "use client"
 import React, { useState, useEffect } from "react";
-
-import Link from "next/link";
-
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/react-splide/css";
 import Head from 'next/head';
 
 
-import { Splide, SplideSlide } from "@splidejs/react-splide";
-import "@splidejs/react-splide/css";
+import Link from "next/link";
 
-
-import '../globals.css'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
-
+import '../globals.css'
 
 
 const projects = [
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216954/down1_kgzcrg.png",
+    title1: "Topbrass tactical",
+    title2: "E-commerce, Bigcomerce ",
+    link: "/topbrasstactical"
+  },
+  {
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746541117/image_5_tw9wok.png",
+    title1: "Graco Corporation",
+    title2: "E-commerce, Bigcomerce ",
+    link: "/graco-corp"
+  },
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217009/down3_ucxpri.png",
     title1: "Sites & Scopes",
     title2: "E-commerce, Bigcomerce ",
     link: "/sitesandscopes"
   },
-  {
-    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216979/down2_m0c8fa.png",
-    title1: "Kickeez",
-    title2: "E-commerce, Bigcomerce ",
-    link: "/kick-eez"
-  },
-  {
-    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746541118/image_3_dptpxb.png",
-    title1: "A&I Parts Center",
-    title2: "E-commerce, Bigcomerce ",
-    link: "/aipartscenter"
-  },
 ];
-const SubhAlloys = () => {
+
+const ProTrucks = () => {
   const [perPage, setPerPage] = useState(3);
   useEffect(() => {
     if (window.matchMedia("(max-width: 800px)").matches) {
@@ -46,6 +43,7 @@ const SubhAlloys = () => {
       setPerPage(1);
     }
   }, []);
+
 
 
   const phoneNumber = "9045301702";
@@ -60,8 +58,8 @@ const SubhAlloys = () => {
   }
 
   const generateMetadata = ({ params }) => ({
-    title: 'Shubhalloys | Ecommerce Growth with BigCommerce Website Development',
-    description: "See how Shubhalloys boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
+    title: 'Slides365 | Ecommerce Growth with BigCommerce Website Development',
+    description: "See how Slides365 boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
   });
 
   useEffect(() => {
@@ -71,6 +69,7 @@ const SubhAlloys = () => {
     metaDescription ? metaDescription.content = description :
       document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
   }, []);
+
 
   return (
     <>
@@ -89,105 +88,84 @@ const SubhAlloys = () => {
         <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
         <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
         <meta name="twitter:url" content="https://www.kusheldigi.com/" />
-      </Head>
 
+        <link rel="canonical" href="https://www.kusheldigi.com/slides365" />
+
+      </Head>
       <Navbar />
-      {/* <helmet> */}
-      <link rel="canonical" href="https://www.kusheldigi.com/kick-eez" />
-      {/* </helmet> */}
+
+
       <div className="ser-main">
+
         <div>
           <div className="side-bg-trio">
-            <div className="first-kick-pads last-kick-pad incheingh">
+            <div className="first-kick-pads">
               <div className="left-section-kids">
-                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460708/subh_tobjrf.svg' alt="img"></img>
-                <p className="shoots_premium kooo">
-                  Shubhalloys buys and sells iron cuttings as per the demand requirement of their clients. Traditionally, the company was operating with manual processes for ordering and transactions, which was very time-consuming and tended to show several inefficiencies.
-
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469466/shshhshshshsshshshshsh_jvhisw.png' className="pru188888888" alt="img"></img>
+                <p className="shoots_premium">
+                  1000+ Innovative Slides Design
                 </p>
                 <h1>Technologies Used</h1>
                 <div className="main-box-logic flex">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460629/omis_vemej2.svg' id="sim" alt="img"></img>
-                  <img className="pokli" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461094/priyajan1_x4oaox.svg' id="rotat" alt="img"></img>
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461134/priyajan2_xz7lcm.svg' id="rotat" alt="img"></img>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469533/opqweeeeeee2_esl0em.png' id="rotat" alt="img"></img>
                 </div>
               </div>
-              <div className="right-section-kids ramit">
-                <img className="sotal-group fotal-group" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460669/fast_br7yb2.svg' id="total-group" alt="img"></img>
+              <div className="right-section-kids">
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469177/Slidesrightimg_rvsjsn.png' id="total-group" alt="img"></img>
               </div>
             </div>
-            {/* *********************************************** */}
-            <div className="MadFish_press">
-              <div className="MadFish-back crazy-back">
-                <div className="MadFish-back1">
 
-                  <div className="MadFish_press_para crazy_cms">
-                    <p>
-                      Kushel Digi Solutions is excited to taken up the project of Shubhalloys to develop a custom software platform that automates and streamlines their buying and selling operations.
-
-                    </p>
-                    {/* <h3>Empower Yourself to</h3>
-                    <h3>Easily <span>Modify Your</span> </h3>
-                    <h3><span>Website</span></h3> */}
-                  </div>
-                </div>
-                <div className="MadFish-back2">
-                  <img className="subh_img" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460775/testjpg_olkdwb.svg' alt="MadFish" />
-                </div>
-              </div>
-            </div>
             {/* ************************************************** */}
             <div className="second-service-conte">
               <p className="service-hinking">Services Provided</p>
               <div className="main-img-mighty">
                 <div className="bepolo">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460334/Group_1000004718_sj24jc.png' id="ux-safari" alt="img"></img>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469062/Group_1000004718_dxn05g.png' id="ux-safari" alt="img"></img>
                   <p>UX/UI Website Design</p>
                 </div>
                 <div className="bepolo">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460375/Group_1000004715_ggew67.png' id="web-safari" alt="img"></img>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469103/Group_1000004715_baclcb.png' id="web-safari" alt="img"></img>
                   <p>Website Development</p>
                 </div>
                 <div className="bepolo">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460409/Group_1000004716_qd1fj4.png' id="qa-safari" alt="img"></img>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469138/Group_1000004716_l61etj.png' id="qa-safari" alt="img"></img>
                   <p>QA & Website Testing</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        {/* ******************************************** */}
 
         <div className="fourth-plate-juuls">
           <div className="left-card-hub">
             <div className="vl-chic">
               <p className="fila">Font</p>
-              <div className="ywo-stem">
+              <div className="ywo-stem so_change">
                 <div className="light-aa">
                   <p className="hoo">Aa</p>
-                  <p className="roboto-tip">Gilroy</p>
+                  <p className="roboto-tip">Poppins</p>
                 </div>
                 <div className="dark-aa">
                   <p className="dark-canny">Aa</p>
-                  <p className="prompt-tip">Gilroy</p>
+                  <p className="prompt-tip">Poppins</p>
                 </div>
-                {/* <div className="medium-aa">
-                  <p className="medium">Aa</p>
-                  <p className="node-tip">Roboto</p>
-                </div> */}
+                <div className="dark-aa">
+                  <p className="dark-canny">Aa</p>
+                  <p className="prompt-tip">Poppins</p>
+                </div>
               </div>
               <div className="sub-worm">
                 <p className="tool">Tools Use</p>
-                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460442/Group_1000006500_1_rhvxs0.png' id="pals-circle" alt="img"></img>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469226/Group_1000006500_1_ytxicy.png' id="pals-circle" alt="img"></img>
               </div>
             </div>
           </div>
           <div className="right-card-omega">
             <p>Color Plate</p>
-            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460815/mr_ve3pgb.svg' id="gang" alt="img" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469273/slidescolorplat_kbdmt2.png' id="gang" alt="img" />
           </div>
-        </div>{" "}
-
-
+        </div>
 
         <div className="back-story">
           <div className="step1-back">
@@ -197,124 +175,109 @@ const SubhAlloys = () => {
             </div>
             <div className="step-backs2">
               <p>
-
-                Shubhalloys approached Kushel Digi Solutions with the need to find a solution to automate their iron-cutting selling process. Conventionally, they were into tons of manual work, right from taking orders to filling the requirements of the clients. They wanted a system where their clients can log in, place orders, and track their request status directly via some digital platform. This shall reduce the need for manual tasks, increase efficiency, and make the interaction experience more seamless for their clients.
-
+                {" "}
+                Slides365 aimed to serve various needs of professionals by offering subscription-based templates, presentations, design slides, and industry-specific slides. In short, the company aimed to make the chore of creating effective presentations a little easier by providing readymade templates in several sectors. Slides365 wanted to make its services and customer experience even better by searching for a digital partner that could uplift their online platform and make the browsing, subscription, and downloading of presentations easier for users.
 
               </p>
 
             </div>
           </div>
-
+          <div className="step-images flex items-center justify-center mt-20">
+            <img
+              className="stepback solenoid-stepback1"
+              src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469326/slidesfirst1_kpz7xt.png'
+              alt="stepback"
+            />
+            <img
+              className="stepback1 solenoid-stepback1"
+              src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469365/slidesfirst2_wufisz.png'
+              alt="stepback1"
+            />
+          </div>
         </div>
+
         <div className="challenge-story">
           <div className="challenge-story1">
             <h3 className="nila">02</h3>
             <h3>Challenges & Solutions</h3>
           </div>
-          <div className="challenge-story2 flex gap-4">
-            <div className="challenge-box challenge-box2  ">
+          <div className="challenge-story2 flex">
+            <div className="challenge-box challenge-box2">
               <h4>Challenges</h4>
               <div className="chal"></div>
               <div className="challenge-list mt-8">
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                    Shubhalloys relied on the outdated ways of order management and fulfilling customer requirements, which were inefficient to scale.
-
-
+                    Their old website was making difficult for users to navigate through the vast library of templates.
 
                   </p>
                 </div>
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                    Create an easy-to-use interface that will ensure seamless adaption of the software by both Shubhalloys staff and clients.
-
-
-
+                    The platform lacked a good design that can allow easy access to templates, leading to a high bounce rate.
 
                   </p>
                 </div>
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                    Integration of software seamlessly with their existing operations while enabling customers to log on and interact with the system in real time.
-
-
+                    Handling different subscription plans was complex which requires a solution to automate and simplify the process.
 
                   </p>
                 </div>
-                <div className="challenge-list1">
-                  <div className="nilust"></div>
-                  <p>
-                    The system had to be scalable to grow with an ever-increasing client base for Shubhalloys and handle increased volumes of transactions.
-
-
-                  </p>
-                </div>
-
               </div>
             </div>
-            <div className="challenge-box challenge-box2  ">
-              <h4>Solutions</h4>
+            <div className="challenge-box challenge-box2">
+              <h4>Solution</h4>
               <div className="chal"></div>
               <div className="challenge-list mt-8">
-
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                    We developed a software platform using React.js in the front and Node.js at the back, automating the buying and selling of iron cuttings.
-
+                    We designed a fully scalable website that can efficiently facilitate Slides365 in managing and organizing its huge template library.
 
                   </p>
                 </div>
-
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                    The software makes it easy for Shubhalloys' clients to browse, place orders, and track their purchases.
+                    Our team conducted extensive user research to redesign the interface that focus on ease in navigation and improved search functionality.
 
                   </p>
                 </div>
-
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                    The software lets clients interact in real time with the inventory of Shubhalloys.
-
-                  </p>
-
-                </div>
-
-                <div className="challenge-list1">
-                  <div className="nilust"></div>
-                  <p>
-                    We used Node.js to create the back-end for a system that would be able to handle Shubhalloys' operations as they were but also support future needs.
+                    We introduced sophisticated automation in subscription handling, thereby allowing users to subscribe and renew plans.
 
                   </p>
                 </div>
-
               </div>
             </div>
+
+          </div>
+        </div>
+
+        <div className="kick-start kick-start22">
+          <div className="kick-first kick-first222">
+
+            <div className="kickds">
+              <img className="kick_mart" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469466/shshhshshshsshshshshsh_jvhisw.png' alt="kick5" />
+            </div>
+          </div>
+          <div className="kick-second kick-second222 relative">
+            <img
+              className=" relative z-10 about162 pick222"
+              src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469407/slidesfirst3_dkkobs.png'
+              alt="hh8"
+            />
           </div>
         </div>
 
 
-        <div className="bg_crazy11">
-          <div className="bg_cms">
-            <div className="bg_left">
-              <img className="kpiu11" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460848/prek1_jjt5jh.svg' alt="lojj" />
-            </div>
-            <div className="bg_right">
-              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460891/prek2_nk7mb9.svg' className="llgg" alt="lojj" />
-              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460923/prek3_x7v8r4.svg' className="ep44 ep455" alt="kushel" />
-            </div>
-          </div>
-        </div>
-
-
-        <div className="azib kickazib">
+        <div className="azib">
           <div className="azib1">
             <div className="azib1-sect">
               <div className="azib1-first">
@@ -323,43 +286,24 @@ const SubhAlloys = () => {
               </div>
               <div className="azib1-second">
                 <p>
-                  Automation significantly raised the efficiency of Shubhalloys' operations by removing manual handling and thus reducing errors in order management. The client experience has also become seamless, with clients logging in themselves and placing direct orders through the system. Greater satisfaction among customers translates into repeat business. This scalable platform ensures Shubhalloys will be able to meet the demands for growth from their clients without a degrade in performance.
+                  With an optimized user experience and automation of processes, subscription sign-ups increased 30% within the first month. This redesign brought a decrease in bounce rates and an increase in surfing user engagement. The BigCommerce-based platform has now become scalable, future-ready, and able to bear more load. Performance improvement and load time enabled Slides365 to hold its position in the competitive market, while this intuitive interface became vital for increasing customer satisfaction.
 
                 </p>
 
                 <div className="azib-tech">
                   <h3>Technologies Used</h3>
-                  <div className="fopping">
-                    <div className="spoing">
-                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460954/nodes11_enp8zn.svg' alt="kushel" />
-                      <p>Node Js</p>
-                    </div>
-                    <div className="spoing kint">
-                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460988/reacts11_nymoom.svg' alt="kushel" />
-                      <p>React</p>
-                    </div>
-                  </div>
+                  <img className="conjun" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469571/opqweeeeeee3_ufykxc.png' alt="conjun" />
                 </div>
               </div>
             </div>
-
             <div className="azib-images flex items-center justify-center">
-              <img className="sohhh" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461028/srikant_euqrgi.svg' alt="azib" />
-              <img className="sohhh" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461063/srikant1_e0evmu.svg' alt="azib" />
-              {/* <img src={azib4} alt="azib" /> */}
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468972/slidesHome_page_design_vkr6ta.png' alt="pt4" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469018/slidesaboutPLP_Page_z_hj8qry.png' alt="pt5" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468888/rel3_ipsytb.png' alt="pt6" />
             </div>
           </div>
         </div>
-        {/* <div className="client-apperication">
-          <h2>Client Appreciation</h2>
-          <p>
-            “Thank you Affle team for all your hardwork, patience and continuous
-            support. The app is getting positive reviews and we hope to continue
-            to improve and evolve the app. Looking forward to our continued
-            growth.”
-          </p>
-          <h4>Matt Reeder</h4>
-        </div> */}
+
         {/* <div className="other-project">
           <h2 className="text-center ">OTHER PROJECTS</h2>
           <Splide
@@ -377,7 +321,7 @@ const SubhAlloys = () => {
             <SplideSlide>
               <div className="other-card">
                 <div className="other-box">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460223/rel1_j208ol.png' alt="rel1" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468813/rel1_fbna1l.png' alt="rel1" />
                 </div>
                 <div className="other-tox-para">
                   <h3>RELY INNOVATION</h3>
@@ -387,7 +331,7 @@ const SubhAlloys = () => {
                     next.
                   </p>
                   <Link href="/relysafety">
-                    <button className="kick_eez-btn">View</button>
+                    <button>View</button>
                   </Link>
                 </div>
               </div>
@@ -395,7 +339,7 @@ const SubhAlloys = () => {
             <SplideSlide>
               <div className="other-card">
                 <div className="other-box other-box1">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460263/rel2_i8y9cn.png' alt="rel1" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468851/rel2_nsgmh5.png' alt="rel1" />
                 </div>
                 <div className="other-tox-para">
                   <h3>PRO TRUCKS</h3>
@@ -412,7 +356,7 @@ const SubhAlloys = () => {
             <SplideSlide>
               <div className="other-card">
                 <div className="other-box other-box3">
-                  <img className="rel3" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460298/rel3_f3zql8.png' alt="rel1" />
+                  <img className="rel3" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740468888/rel3_ipsytb.png' alt="rel1" />
                 </div>
                 <div className="other-tox-para">
                   <h3>SOLENOID NINJA</h3>
@@ -428,6 +372,7 @@ const SubhAlloys = () => {
             </SplideSlide>
           </Splide>
         </div> */}
+
 
         <section className="sc2sevensec">
           <div className="sc2sevnconta">
@@ -481,20 +426,22 @@ const SubhAlloys = () => {
           </div>
         </div>
 
-        {/*  buttons  */}
+
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740401400/whatsapp_qknuap.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469695/whatsapp_ubh9of.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740401442/telephone_rg2izx.png' alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469745/telephone_twhjto.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>
+
       </div>
       <Footer />
     </>
+
   );
 };
 
-export default SubhAlloys;
+export default ProTrucks;

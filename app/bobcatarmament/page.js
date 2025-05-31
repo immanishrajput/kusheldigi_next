@@ -6,6 +6,7 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
 import '../globals.css'
 import Navbar from "../COMMON/Navbar";
+
 import Footer from "../COMMON/Footer";
 import Head from 'next/head';
 
@@ -133,6 +134,19 @@ function Page() {
         }, 300); // Time for the slide-out transition to complete
     };  /* Slide-out animation */
 
+    const generateMetadata = ({ params }) => ({
+        title: 'Bobcat Armament | Ecommerce Growth with BigCommerce Website Development',
+        description: "See how Bobcat Armament boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
+    });
+
+    useEffect(() => {
+        const { title, description } = generateMetadata({ params: {} });
+        document.title = title;
+        let metaDescription = document.querySelector('meta[name="description"]');
+        metaDescription ? metaDescription.content = description :
+            document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+    }, []);
+
 
     return (
         <div className="case1wrap home-main">
@@ -151,6 +165,9 @@ function Page() {
                 <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
                 <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
                 <meta name="twitter:url" content="https://www.kusheldigi.com/" />
+
+                <link rel="canonical" href="https://www.kusheldigi.com/bobcatarmament" />
+
             </Head>
 
             <Navbar />
@@ -158,7 +175,7 @@ function Page() {
 
             <section className="case1firsec">
 
-                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322288/Group_1171279379_-_Copy_r6tcr6.png" alt="kushel" className="case1fill" />
+                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748206060/Group_1171279440_b6eium.png" alt="kushel" className="case1fill" />
                 {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216400/case1fil_bwtual.png" alt="kushel" className="case1fill" />
         <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216437/case1bg_j1tw2e.png" alt="kushel" className="case1bg" /> */}
 
@@ -168,13 +185,13 @@ function Page() {
                         <div className="case1fifirco">
                             {/* left  */}
                             <div className="ca1firleft">
-                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747323201/logo-white-new_1687810777__26159.original_tyhlxx.png" alt="kushel" />
-                                <p> Hit Bazar </p>
+                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748205987/Group_1171279467_1_fsnkjv.png" alt="kushel" />
+                                <p> Bobcat Armament </p>
                             </div>
 
                             <p className="ca1firrigh">
-                            Hit Bazar is a well-known wholesale grocery business that offers quality food essentials at very reasonable prices. 
-                            </p>
+
+                                Bobcat Armament is a premium supplier of firearms, ammunition, tactical gear, and other accessories for responsible gun owners.                             </p>
                         </div>
 
                         {/* secont */}
@@ -208,16 +225,16 @@ function Page() {
                     <div className="sc2_main_content">
                         <h1>Client Background</h1>
 
-                       <p>
-                       Hit Bazar has emerged as a well-respected name within the wholesale grocery business mostly to bulk consumers, restaurants, and retailers.            </p>
+                        {/* <p>
+            2nd Amendment Guns is a service-disabled veteran business located in the prime location of Las Vegas, Nevada. Behind its foundation, the company represents a commitment to the people and the Constitution to serve. 
+            </p> */}
+                        <p>
+                            It manufactures world-class reloading equipment, flame throwers, and many other products for law enforcement agencies, too. By staying committed to quality, safety, and performance, it has created a loyal customer base across the United States. </p>
+                        <p>
 
-                        <p>    While more customers want to place online orders, the company realized they needed an online digital storefront that is scalable as well as convenient to maintain.
-                        </p>
-                        <p> Their desire was to upgrade processes while preserving ease of use as well as confidence that they have established offline.  </p>
-                     
-                         <p>
-                         Madfish Solutions has given us the opportunity to implement our expertise in this project.        </p>
-                     
+                            Despite the growing reputation and steady traffic, Bobcat Armament's digital storefront wasn’t impressive enough to meet the modern needs of prospects.                </p>
+                        <p> There were a lot of modifications required to match modern eCommerce standards. This is when Kushel Digi Solutions worked to enhance the backend and frontend. Madfish offered this opportunity to us, which we are thankful for. </p>
+
                     </div>
                 </div>
 
@@ -229,24 +246,21 @@ function Page() {
                     <div>
                         {/* <h5>Before we started working on the project, there were the following challenges to tackle:-</h5> */}
                         <h5>
-                            1. No prior online existence or digital cataloging system.
-
+                            1. A clunky navigation system that can overwhelm new users.
                         </h5>
-                        {/* <p>Selling firearms requires compliance with a Federal Firearms License. The business has to pass through age verification, location-based restrictions, and a lot of other things to be eligible to run an <b>E-commerce shopping</b>. </p> */}
-                        <h5>2. Manual order placement through phone and WhatsApp, causing inefficiencies. </h5>
-                        {/* <p>The previous website had many issues, such as UI and UX design, performance, and improper infrastructure. It was becoming a hindrance to traffic growth and scalability.</p> */}
-                        <h5>3.Bulk product listings and price fluctuations becoming difficult to manage .</h5>
-                        {/* <p>As the inventory is large, finding the right product is pretty difficult. The users have to struggle because no advanced filtering and search refinements are there. </p> */}
-                        <h5>4.Requirement for multi-user access and role-based management for employees.</h5>
-                        {/* <p>Many of the potential customers exist on mobile, but the site wasn’t mobile-friendly. </p> */}
-                        <h5>5.Poor visibility and restricted reach beyond the local market.</h5>
+                        <h5>2. Poor product categorization in many sections. </h5>
+
+                        <h5>3.No filtering feature. </h5>
+                        <h5>4.Mobile responsiveness issues that affect the mobile-first shoppers' experience .</h5>
+                        <h5>Confusing checkout options. </h5>
+                        <h6>Lack of clear delivery information </h6>
 
                     </div>
                 </div>
                 <div className="portfolioImageChallenge">
                     <img
-                        src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322289/Group_1171279376_-_Copy_ldbeat.png"
-     
+                        src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748206020/Group_1171279442_souvfl.png"
+                        // src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746514576/2nd-A-challenges_hdngwv.png"
                         alt="kushel"
                     />
                 </div>
@@ -265,20 +279,19 @@ function Page() {
                         </div>
 
                         <p className="s3theeparas">
-                        Kushel Digi Solutions designed a custom eCommerce website in BigCommerce according to the specific requirements of a wholesale grocery model.</p>
-                        <p className="s3theeparas">
-                        Our team decided to go with Figma. Once the design was ready, the next choice we made was BigCommerce architecture for scalable development.                         </p>
-                        {/* <p>We also did a thorough research to identify the market gaps and analyze the best possible solution for the business. </p> */}
-                        <p className="s3theeparas">We made the website mobile-responsive, enabling shop owners and retailers to order easily anytime from anywhere on any device.
-                        </p>
-                        <p className="s3theeparas">Our team has also integrated secure payment gateways, real-time inventory management, and a checkout experience which is easy for customers.</p>
-                        <p className="s3theeparas"> Roles of staff were set up so that different access levels are permitted for admins, warehouse personnel, and order processors. Kushel Digi never compromised on making a robust SEO friendly </p>
-                        <p className="s3theeparas">architecture and an easy-to-use interface. As a result the site enabled Hit Bazar to transition effortlessly from offline selling to online commerce.
-                        </p>
-                    </div>
-                    <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322288/Group_1171279378_-_Copy_un4a6y.png" alt="kushel" className="c3antoimg" />
+                            To eradicate the challenges and transform it into a full-fledged ecommerce platform, we prepared a tailored multi-phase strategy and enhanced usability.                        </p>
 
-                    {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216571/case3ano_uv19e1.png" alt="kushel" className="c3antoimg" /> */}
+                        <p className="s3theeparas">
+                            Our team started by analyzing user behaviour and noting down all the pain points.                       </p>
+
+                        <p className="s3theeparas">  From here, we designed a creative roadmap to reimagine the site's appearance.</p>
+
+                        <p className="s3theeparas">Our approach wasn't limited to frontend optimization, it also involved platform migration, intelligent data handling, and much more. </p>
+                        {/* <p className="s3theeparas">The design part is carried out on Figma with the help of our experienced web designers. Thereafter, we crafted a visually appealing and intuitive web design to align it with the brand’s image. Matching the client’s expectations was another challenge that we accomplished.</p> */}
+                        <p className="s3theeparas">We were focused primarily on easing the shopping experience for the customers and empowering them to have better control over inventory and performance.</p>
+                    </div>
+                    <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748205051/Group_1171279441_fbhopf.png" alt="kushel" className="c3antoimg" />
+
                 </div>
             </section>
 
@@ -299,21 +312,19 @@ function Page() {
             >
                 <SplideSlide>
                     <section className="case3secfour" >
-                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747327973/sm-hero_2_wzq5us.png" alt="kushel" className="c1btimage" />
+                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748205988/image_198_ptlnj0.png" alt="kushel" className="c1btimage" />
 
                         <div className="cas3s4con" id="cas3s4connn">
 
                             <div className="bgshowdb1" >
-                                < img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322289/Group_1171279386_zuyozu.png" />
-                                {/* <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746710597/Group_1171279306_o1qdhn.png" alt="kushel" className="ca2insideimg adjustheighimg" /> */}
-                                {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
+                                < img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748206022/Group_1171279452_lowfm3.png" />
+
                             </div>
 
-                            <div className="cas3circldata" id="cas3circldata1">
-                                <h4>Wholesale-Ready Capability
-
+                            <div className="cas3circldata" id="cas3circldata11">
+                                <h4>Storefront Design
                                 </h4>
-                                <p>We launched bulk order capabilities, price-tiering, and personalized product filters enabling businesses to purchase in bulk and maintain their budgets easily. This enabled Hit Bazar to support an array of wholesale customers with different order requirements and price expectations.                                . 
+                                <p>Our experts started with the complete visual overall by remoderning the interface. This was done on Figma to maintain a crystal clear product clarity and turning the page design intuitive. First, a fresh site layout was prepared with improvised product categories and fast access to multiple services. We also ensured to meet the compliantary measures in the design part.
                                 </p>
                             </div>
 
@@ -325,22 +336,19 @@ function Page() {
 
                 <SplideSlide>
                     <section className="case3secfour" id="case3secfour22">
-                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747327973/sm-hero_2_wzq5us.png" alt="kushel" className="c1btimage" />
+                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748205988/image_198_ptlnj0.png" alt="kushel" className="c1btimage" />
 
                         <div className="cas3s4con" id="cas3s4connn">
 
                             <div className="bgshowdb1" id="bgshowdb11">
-                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322290/Group_1171279382_-_Copy_lua8c3.png" />
-                                {/* <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454204/e-commerce-development_wu34yd.png" alt="kushel" className="ca2insideimg adjustheighimg" />
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
+                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748206035/Group_1171279447_wbknvn.png" />
+
                             </div>
 
-                            <div className="cas3circldata" id="cas3circldata1">
-                                <h4>Simple Inventory Management
-
+                            <div className="cas3circldata" id="cas3circldata11">
+                                <h4>Migration to BigCommerce
                                 </h4>
-                                <p>Our team has designed the back-end in a way to support large product lists with distinct stock and price changes. It enables the Hit Bazar team to easily update without technical assistance. It has drastically minimized turnaround time for manual stock updates .
-                                </p>
+                                <p>Once the design was ready, we wanted to advance Bobcat’s inventory management. For this, there wasn't any other platform as good as BigCommerce. Its flexibility, scalability, and robust infrastructure empower Bobcat in numerous ways. Combination of Bigcommerce and smart integration with third-party plugins simplified the ecommerce development.  </p>
                             </div>
 
                         </div>
@@ -350,20 +358,19 @@ function Page() {
 
                 <SplideSlide>
                     <section className="case3secfour">
-                        {/* <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" /> */}
-                         <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747327973/sm-hero_2_wzq5us.png" alt="kushel" className="c1btimage" />
+                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748205988/image_198_ptlnj0.png" alt="kushel" className="c1btimage" />
+
                         <div className="cas3s4con" id="cas3s4connn">
 
-                            <div className="bgshowdb1">
-                                {/* <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784464/Group_1171279316_nc1yiv.png" alt="kushel" className="ca2insideimg addheightimage" /> */}
-                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322287/Group_1171279385_hzudvi.png" alt="kushel" className="" />
+                            <div className="bgshowdb1" id="bgshowdb11">
+
+                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748206028/Group_1171279444_xsxi4e.png" />
+
                             </div>
 
-                            <div className="cas3circldata" id="cas3circldata1">
-                                <h4>Mobile Responsive Ordering Experience
-                                </h4>
-                                <p>Our experts team focused on mobile-first approach that can facilitate retailers and restaurant entrepreneurs to place fast orders on the move. It ultimately minimized  turnaround time and also enhances convenience for repeat customers.                                . 
-                                
+                            <div className="cas3circldata" id="cas3circldata11">
+                                <h4>Custom Filtering and SEO </h4>
+                                <p>We created a custom filter to search products in the form of caliber, weapon type, brand, etc.This significantly raised the shopping experience and improved the customer retention rate.
                                 </p>
                             </div>
 
@@ -479,14 +486,15 @@ function Page() {
             <div className="Mainresult_Portfolio">
                 <div className="result_Portfolio">
                     <h5>Result & Impact</h5>
-                    {/* <h6>
-                        Users can now find certifications faster and understand what they’re signing up for:-
-                    </h6> */}
+                    <h6>
+                        After the launch, we noticed the following results:-
+                    </h6>
                     <ul>
-                        <li>Since we launched Hit Bazar's BigCommerce-powered store, the company was able to grow beyond the physical boundaries, and new customers flocked to it from surrounding areas. </li>
-                        <li> Online orders picked up gradually, and the simplified backend reduced errors made manually along with the speed of order processing.  </li>
-                        <li> The platform allowed Hit Bazar to work more effectively, fulfill growing customer expectations, and establish itself as a technologically advanced wholesale brand.                        </li>
-                        {/* <li>Automating some functionalities freed up resources for fulfilling customer expectations and delivering better service.</li> */}
+                        <li> Mobile conversion rates soared by 34%</li>
+                        <li>The engagement rate of users increased</li>
+                        <li>Bounce</li>
+                        <li>the rate was reducing at a noticeable rate</li>
+
 
                     </ul>
 
@@ -509,6 +517,7 @@ function Page() {
 
                     <div className="csizbot">
                         <a href="/contact-us"><button><span>Start a conversation</span></button></a>
+                        {/* <p>Or Start a conversation</p> */}
                     </div>
 
 

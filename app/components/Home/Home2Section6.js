@@ -22,7 +22,7 @@ const data = [
     para: "At Slides365, we strive to help people tell their story effectively. Your invisible friend inside the PowerPoint helps you create the Professional Presentations.",
     type: "D2C",
     type2: "E-commerce",
-    link: "/Slidesdesign",
+    link: "/slides365",
   },
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1724767164/Rectangle_30182_3_fkohiq.png",
@@ -39,7 +39,7 @@ const data = [
     para: "Aftermarket suspension lift kits, leveling kits and accessories for 4X4 off-road truck and jeep enthusiasts",
     type: "B2B",
     type2: "Military & Tactical Industry",
-    link: "/pro-track",
+    link: "/protrucksandcars",
     alt: "Pro Truck"
   },
   {
@@ -48,7 +48,7 @@ const data = [
     para: "Rely products give you clarity and peace of mind. More than just beeps - Rely helps you understand what’s occurring in your home and what to do next.",
     type: "B2B",
     type2: "Gunshop",
-    link: "/rely",
+    link: "/relysafety",
     alt: "Rely Innovation"
   },
   {

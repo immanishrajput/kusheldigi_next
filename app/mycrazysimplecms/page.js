@@ -1,42 +1,36 @@
 "use client"
 import React, { useState, useEffect } from "react";
-
-import Link from "next/link";
-
 import Head from 'next/head';
-
-
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 
-
-import '../globals.css'
+import Link from "next/link";
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
-
-
+import '../globals.css'
 
 const projects = [
-  {
-    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217009/down3_ucxpri.png",
-    title1: "Sites & Scopes",
-    title2: "E-commerce, Bigcomerce ",
-    link: "/sitesandscopes"
-  },
-  {
-    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216979/down2_m0c8fa.png",
-    title1: "Kickeez",
-    title2: "E-commerce, Bigcomerce ",
-    link: "/kick-eez"
-  },
-  {
-    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746541118/image_3_dptpxb.png",
-    title1: "A&I Parts Center",
-    title2: "E-commerce, Bigcomerce ",
-    link: "/aipartscenter"
-  },
+    {
+        img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217009/down3_ucxpri.png",
+        title1: "Sites & Scopes",
+        title2: "E-commerce, Bigcomerce ",
+        link: "/sitesandscopes"
+    },
+    {
+        img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216979/down2_m0c8fa.png",
+        title1: "Kickeez",
+        title2: "E-commerce, Bigcomerce ",
+        link: "/kick-eez"
+    },
+    {
+        img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746541118/image_3_dptpxb.png",
+        title1: "A&I Parts Center",
+        title2: "E-commerce, Bigcomerce ",
+        link: "/aipartscenter"
+    },
 ];
-const SubhAlloys = () => {
+
+const CrazyCMS = () => {
   const [perPage, setPerPage] = useState(3);
   useEffect(() => {
     if (window.matchMedia("(max-width: 800px)").matches) {
@@ -60,17 +54,18 @@ const SubhAlloys = () => {
   }
 
   const generateMetadata = ({ params }) => ({
-    title: 'Shubhalloys | Ecommerce Growth with BigCommerce Website Development',
-    description: "See how Shubhalloys boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
-  });
+      title: 'MyCrazySimpleCMS | Ecommerce Growth with BigCommerce Website Development',
+      description: "See how MyCrazySimpleCMS boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
+    });
+  
+    useEffect(() => {
+      const { title, description } = generateMetadata({ params: {} });
+      document.title = title;
+      let metaDescription = document.querySelector('meta[name="description"]');
+      metaDescription ? metaDescription.content = description :
+        document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+    }, []);
 
-  useEffect(() => {
-    const { title, description } = generateMetadata({ params: {} });
-    document.title = title;
-    let metaDescription = document.querySelector('meta[name="description"]');
-    metaDescription ? metaDescription.content = description :
-      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-  }, []);
 
   return (
     <>
@@ -89,50 +84,58 @@ const SubhAlloys = () => {
         <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
         <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
         <meta name="twitter:url" content="https://www.kusheldigi.com/" />
+
+            <link rel="canonical" href="https://www.kusheldigi.com/mycrazysimplecms" />
+
       </Head>
 
       <Navbar />
-      {/* <helmet> */}
-      <link rel="canonical" href="https://www.kusheldigi.com/kick-eez" />
-      {/* </helmet> */}
+
+
       <div className="ser-main">
         <div>
           <div className="side-bg-trio">
-            <div className="first-kick-pads last-kick-pad incheingh">
+            <div className="first-kick-pads incheingh">
               <div className="left-section-kids">
-                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460708/subh_tobjrf.svg' alt="img"></img>
+                <img src={"https://res.cloudinary.com/ecommerce-website/image/upload/v1725976849/favicon_1_1_iprzaf.svg"} alt="img"></img>
                 <p className="shoots_premium kooo">
-                  Shubhalloys buys and sells iron cuttings as per the demand requirement of their clients. Traditionally, the company was operating with manual processes for ordering and transactions, which was very time-consuming and tended to show several inefficiencies.
+                  My Crazy Simple CMS is an user-friendly content management system which is designed to simplify website management for businesses of all sizes. It emowers users to create, edit, and manage content without any technical expertise.
 
                 </p>
                 <h1>Technologies Used</h1>
                 <div className="main-box-logic flex">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460629/omis_vemej2.svg' id="sim" alt="img"></img>
-                  <img className="pokli" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461094/priyajan1_x4oaox.svg' id="rotat" alt="img"></img>
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461134/priyajan2_xz7lcm.svg' id="rotat" alt="img"></img>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164002/omis_n83hlt.svg' id="sim" alt="img"></img>
+                  <img className="pokli" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164078/omis1_bvorfv.svg' id="rotat" alt="img"></img>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164141/omis2_la92fb.svg' id="rotat" alt="img"></img>
                 </div>
               </div>
-              <div className="right-section-kids ramit">
-                <img className="sotal-group fotal-group" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460669/fast_br7yb2.svg' id="total-group" alt="img"></img>
+              <div className="right-section-kids">
+                <img className="trimmer" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739163389/trimer_apxb7o.svg' id="total-group" alt="img"></img>
               </div>
             </div>
             {/* *********************************************** */}
             <div className="MadFish_press">
               <div className="MadFish-back crazy-back">
                 <div className="MadFish-back1">
-
+                  {/* <div className="MadFish_press_head">
+                <img src={madlogooooo} alt="madlogooooo" />              
+              </div> */}
                   <div className="MadFish_press_para crazy_cms">
-                    <p>
-                      Kushel Digi Solutions is excited to taken up the project of Shubhalloys to develop a custom software platform that automates and streamlines their buying and selling operations.
-
-                    </p>
-                    {/* <h3>Empower Yourself to</h3>
-                    <h3>Easily <span>Modify Your</span> </h3>
-                    <h3><span>Website</span></h3> */}
+                    {/* <p>
+                  Elevate your shooting comfort with KICK-EEZ, offering premium
+                  American-made recoil pads and accessories. <span>MadFish</span>  Solutions
+                  played a key role in bringing KICK-EEZ to life. Together,
+                  we’ve redefined shooting comfort and precision, setting new
+                  industry standards.
+                </p> */}
+                    <h3>Manage Your Website
+                    </h3>
+                    <h3>with Ease – No Tech</h3>
+                    <h3><span>Skills Required!</span></h3>
                   </div>
                 </div>
                 <div className="MadFish-back2">
-                  <img className="subh_img" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460775/testjpg_olkdwb.svg' alt="MadFish" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164312/lies_knj48x.svg' alt="MadFish" />
                 </div>
               </div>
             </div>
@@ -141,15 +144,15 @@ const SubhAlloys = () => {
               <p className="service-hinking">Services Provided</p>
               <div className="main-img-mighty">
                 <div className="bepolo">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460334/Group_1000004718_sj24jc.png' id="ux-safari" alt="img"></img>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739163443/Group_1000004718_z5qvvk.png' id="ux-safari" alt="img"></img>
                   <p>UX/UI Website Design</p>
                 </div>
                 <div className="bepolo">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460375/Group_1000004715_ggew67.png' id="web-safari" alt="img"></img>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739163601/Group_1000004715_a72pso.png' id="web-safari" alt="img"></img>
                   <p>Website Development</p>
                 </div>
                 <div className="bepolo">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460409/Group_1000004716_qd1fj4.png' id="qa-safari" alt="img"></img>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740476804/Group_1000004716_qbwjdi.png' id="qa-safari" alt="img"></img>
                   <p>QA & Website Testing</p>
                 </div>
               </div>
@@ -159,16 +162,16 @@ const SubhAlloys = () => {
 
         <div className="fourth-plate-juuls">
           <div className="left-card-hub">
-            <div className="vl-chic">
+            <div className="vl-chic vl-chic33">
               <p className="fila">Font</p>
               <div className="ywo-stem">
                 <div className="light-aa">
                   <p className="hoo">Aa</p>
-                  <p className="roboto-tip">Gilroy</p>
+                  <p className="roboto-tip">Inter</p>
                 </div>
                 <div className="dark-aa">
                   <p className="dark-canny">Aa</p>
-                  <p className="prompt-tip">Gilroy</p>
+                  <p className="prompt-tip">Desporm</p>
                 </div>
                 {/* <div className="medium-aa">
                   <p className="medium">Aa</p>
@@ -177,17 +180,40 @@ const SubhAlloys = () => {
               </div>
               <div className="sub-worm">
                 <p className="tool">Tools Use</p>
-                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460442/Group_1000006500_1_rhvxs0.png' id="pals-circle" alt="img"></img>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739163658/Group_1000006500_1_yywdth.png' id="pals-circle" alt="img"></img>
               </div>
             </div>
           </div>
           <div className="right-card-omega">
             <p>Color Plate</p>
-            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460815/mr_ve3pgb.svg' id="gang" alt="img" />
+            <img src={"https://res.cloudinary.com/ecommerce-website/image/upload/v1725980437/Group_1000006505_nfqk7l.svg"} id="gang" alt="img" />
           </div>
         </div>{" "}
 
 
+
+        {/* <div className="kick-start kick-start22">
+          <div className="kick-first kick-first222">
+           
+            <div className="kickds">
+              <img className="kick_mart" src={kick5} alt="kick5" />
+            </div>
+          </div>
+          <div className="kick-second kick-second222 relative">
+            <div className="about165">
+              <img
+                className="absolute about161 animate__animated animate__pulse animate__infinite"
+                src={angrag}
+                alt="kushel"
+              />
+            </div>
+            <img
+              className=" relative z-10 about162 pick222"
+              src={pick2}
+              alt="aa"
+            />
+          </div>
+        </div> */}
 
         <div className="back-story">
           <div className="step1-back">
@@ -198,14 +224,16 @@ const SubhAlloys = () => {
             <div className="step-backs2">
               <p>
 
-                Shubhalloys approached Kushel Digi Solutions with the need to find a solution to automate their iron-cutting selling process. Conventionally, they were into tons of manual work, right from taking orders to filling the requirements of the clients. They wanted a system where their clients can log in, place orders, and track their request status directly via some digital platform. This shall reduce the need for manual tasks, increase efficiency, and make the interaction experience more seamless for their clients.
-
+                My Crazy Simple CMS was created for ease and smoothness in managing websites by non-technical users and small businesses. This is supposed to be a platform where one may empower users to manage their websites without requiring any sort of coding, which in most circumstances is absent in the complex options available in CMS. They have chosen Kushel Digi Solutions to design and develop a scalable, intuitive CMS that could appeal to both beginners and advanced users.
 
               </p>
 
             </div>
           </div>
-
+          {/* <div className="step-images flex items-center justify-center mt-20">
+            <img className="stepback" src={stepback1} alt="stepback" />
+            <img className="stepback1" src={stepback} alt="stepback1" />
+          </div> */}
         </div>
         <div className="challenge-story">
           <div className="challenge-story1">
@@ -220,7 +248,15 @@ const SubhAlloys = () => {
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                    Shubhalloys relied on the outdated ways of order management and fulfilling customer requirements, which were inefficient to scale.
+                    Designing an intuitive interface that would consider both the needs of the beginners and advanced users, without overwhelming either group.
+
+
+                  </p>
+                </div>
+                <div className="challenge-list1">
+                  <div className="nilust"></div>
+                  <p>
+                    Ensuring the platform was highly scalable for more users and increased websites to be managed.
 
 
 
@@ -229,17 +265,7 @@ const SubhAlloys = () => {
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                    Create an easy-to-use interface that will ensure seamless adaption of the software by both Shubhalloys staff and clients.
-
-
-
-
-                  </p>
-                </div>
-                <div className="challenge-list1">
-                  <div className="nilust"></div>
-                  <p>
-                    Integration of software seamlessly with their existing operations while enabling customers to log on and interact with the system in real time.
+                    Combining the powers of Python that allow more flexibility on the backend with the strong performance and functionality of Laravel.
 
 
 
@@ -248,7 +274,7 @@ const SubhAlloys = () => {
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                    The system had to be scalable to grow with an ever-increasing client base for Shubhalloys and handle increased volumes of transactions.
+                    Creating a robust content editor that offers flexibility but remains easy to use, even for users with no technical background.
 
 
                   </p>
@@ -264,16 +290,7 @@ const SubhAlloys = () => {
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                    We developed a software platform using React.js in the front and Node.js at the back, automating the buying and selling of iron cuttings.
-
-
-                  </p>
-                </div>
-
-                <div className="challenge-list1">
-                  <div className="nilust"></div>
-                  <p>
-                    The software makes it easy for Shubhalloys' clients to browse, place orders, and track their purchases.
+                    We developed a user-centric interface that focuses on simplicity that can allow users to manage their websites easily along with advanced features for power users
 
                   </p>
                 </div>
@@ -281,8 +298,14 @@ const SubhAlloys = () => {
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                    The software lets clients interact in real time with the inventory of Shubhalloys.
+                    The CMS has been developed using Python and Laravel to ensure scalability of architecture, complementing the growth in the user base of the platform.
+                  </p>
+                </div>
 
+                <div className="challenge-list1">
+                  <div className="nilust"></div>
+                  <p>
+                    We have included a drag-and-drop content editor where no coding is needed. This gives a user total control over design and content on their website.
                   </p>
 
                 </div>
@@ -290,8 +313,7 @@ const SubhAlloys = () => {
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                    We used Node.js to create the back-end for a system that would be able to handle Shubhalloys' operations as they were but also support future needs.
-
+                    Our UX/UI team worked in such a way that the platform's dashboard should be intuitive, clean, and easy to navigate that can ensure  seamless user onboarding and management.
                   </p>
                 </div>
 
@@ -299,21 +321,35 @@ const SubhAlloys = () => {
             </div>
           </div>
         </div>
+        {/* <div className="goals-statgy">
+          <h2>Goals and Strategies</h2>
+          <ul>
+            <li>Make it easier for customers to reach our company.</li>
+            <li>
+            Minimize misunderstandings about returns, exchanges, especially when choosing replacement products.
+            </li>
+            <li>Enhance the efficiency and effectiveness of our client service.
+</li>
+          </ul>
+        </div> */}
 
-
-        <div className="bg_crazy11">
+        <div className="bg_crazy">
           <div className="bg_cms">
             <div className="bg_left">
-              <img className="kpiu11" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460848/prek1_jjt5jh.svg' alt="lojj" />
+              <img className="kpiu" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164574/fs_f3frw2.svg' alt="lojj" />
             </div>
             <div className="bg_right">
-              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460891/prek2_nk7mb9.svg' className="llgg" alt="lojj" />
-              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460923/prek3_x7v8r4.svg' className="ep44 ep455" alt="kushel" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164623/lojj_i355y6.svg' className="llgg" alt="lojj" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164664/ellipse44_noomie.png' className="ep44" alt="kushel" />
             </div>
           </div>
         </div>
 
-
+        {/* <div className="bg-video-wrap">
+          <video src="/static/images/rima.mp4" loop muted autoPlay></video>
+          <div className="overlay"></div>
+          <img className="kini" src={kick5} alt="aa" />
+        </div> */}
         <div className="azib kickazib">
           <div className="azib1">
             <div className="azib1-sect">
@@ -323,20 +359,19 @@ const SubhAlloys = () => {
               </div>
               <div className="azib1-second">
                 <p>
-                  Automation significantly raised the efficiency of Shubhalloys' operations by removing manual handling and thus reducing errors in order management. The client experience has also become seamless, with clients logging in themselves and placing direct orders through the system. Greater satisfaction among customers translates into repeat business. This scalable platform ensures Shubhalloys will be able to meet the demands for growth from their clients without a degrade in performance.
-
+                  This led to the development of My Crazy Simple CMS: an impressively user-friendly platform that saw user adoption increase by 30% in just a few months since the launch date.The combination of Python and Laravel ensured scalability, allowing the platform to seamlessly handle a growing user base Users have praised the intuitiveness in design and find it easy to navigate and manage the websites very easily without requiring technical expertise. The result of this project was a successful simplification of yet a powerful CMS which made the management of websites as easy as possible for the user.
                 </p>
 
                 <div className="azib-tech">
                   <h3>Technologies Used</h3>
                   <div className="fopping">
                     <div className="spoing">
-                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460954/nodes11_enp8zn.svg' alt="kushel" />
-                      <p>Node Js</p>
+                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164356/kping1_bopri1.svg' alt="kushel" />
+                      <p>Python</p>
                     </div>
                     <div className="spoing kint">
-                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460988/reacts11_nymoom.svg' alt="kushel" />
-                      <p>React</p>
+                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164437/kping_c2vncx.svg' alt="kushel" />
+                      <p>Laravel</p>
                     </div>
                   </div>
                 </div>
@@ -344,8 +379,8 @@ const SubhAlloys = () => {
             </div>
 
             <div className="azib-images flex items-center justify-center">
-              <img className="sohhh" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461028/srikant_euqrgi.svg' alt="azib" />
-              <img className="sohhh" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461063/srikant1_e0evmu.svg' alt="azib" />
+              <img className="sohhh" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164493/crazy1_otsyod.svg' alt="azib" />
+              <img className="sohhh" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164534/crazy2_pdnjyu.svg' alt="azib" />
               {/* <img src={azib4} alt="azib" /> */}
             </div>
           </div>
@@ -377,7 +412,7 @@ const SubhAlloys = () => {
             <SplideSlide>
               <div className="other-card">
                 <div className="other-box">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460223/rel1_j208ol.png' alt="rel1" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739163172/rel1_nqyk1x.png' alt="rel1" />
                 </div>
                 <div className="other-tox-para">
                   <h3>RELY INNOVATION</h3>
@@ -395,7 +430,7 @@ const SubhAlloys = () => {
             <SplideSlide>
               <div className="other-card">
                 <div className="other-box other-box1">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460263/rel2_i8y9cn.png' alt="rel1" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739163216/rel2_nrjco0.png' alt="rel1" />
                 </div>
                 <div className="other-tox-para">
                   <h3>PRO TRUCKS</h3>
@@ -412,7 +447,7 @@ const SubhAlloys = () => {
             <SplideSlide>
               <div className="other-card">
                 <div className="other-box other-box3">
-                  <img className="rel3" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460298/rel3_f3zql8.png' alt="rel1" />
+                  <img className="rel3" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739163252/rel3_taz3o0.png' alt="rel1" />
                 </div>
                 <div className="other-tox-para">
                   <h3>SOLENOID NINJA</h3>
@@ -484,10 +519,10 @@ const SubhAlloys = () => {
         {/*  buttons  */}
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740401400/whatsapp_qknuap.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740401442/telephone_rg2izx.png' alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991783/telephone_k9aecl.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>
@@ -497,4 +532,4 @@ const SubhAlloys = () => {
   );
 };
 
-export default SubhAlloys;
+export default CrazyCMS;

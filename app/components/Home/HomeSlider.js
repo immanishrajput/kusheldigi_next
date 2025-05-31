@@ -73,7 +73,7 @@ const Slider = () => {
                 <p className="right-carousel-para">
                   2nd Amendment Armory is known for being a leading provider of high-quality firearms and tactical equipment  serving customers both locally in Brandon, FL and across the nation.usted firearms provider of high-quality gun accessories.
                 </p>
-                <Link href="/2ndamendment">
+                <Link href="/2ndamendmentguns">
                   <button className="left-carousel-btn blue-bg right-carousel-inner-btn">
                     View Case Study
                   </button>
@@ -174,7 +174,7 @@ const Slider = () => {
 
                   Slides365 aimed to serve various needs of professionals by offering subscription-based templates, presentations, design slides, and industry-specific slides.
                 </p>
-                <Link href="/Slidesdesign">
+                <Link href="/slides365">
                   <button className="left-carousel-btn blue-bg right-carousel-inner-btn">
                     View Case Study
                   </button>
@@ -260,7 +260,7 @@ const Slider = () => {
 
                   Sites and Scopes has specialized experience in delivering high performance optics and accessories for marksmen, hunters, and tactical professionals.
                 </p>
-                <Link href="/sites">
+                <Link href="/sitesandscopes">
                   <button className="left-carousel-btn blue-bg right-carousel-inner-btn">
                     View Case Study
                   </button>
@@ -303,7 +303,7 @@ const Slider = () => {
 
                   The idea of our webstore started small, but quickly gathered speed after we encountered frequent requests from individuals and companies looking for small quantity, high-quality electromagnetic components.
                 </p>
-                <Link href="/topbrass">
+                <Link href="/topbrasstactical">
                   <button className="left-carousel-btn blue-bg right-carousel-inner-btn">
                     View Case Study
                   </button>

@@ -100,7 +100,7 @@ const projects = [
         img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216954/down1_kgzcrg.png",
         title1: "Topbrass tactical",
         title2: "E-commerce, Bigcomerce ",
-        link: "topbrass"
+        link: "/topbrasstactical"
     },
     {
         img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216979/down2_m0c8fa.png",
@@ -113,7 +113,7 @@ const projects = [
         img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217009/down3_ucxpri.png",
         title1: "Sites And Scopes",
         title2: "E-commerce, Bigcomerce ",
-        link: "sites"
+        link: "/sitesandscopes"
     },
 ]
 

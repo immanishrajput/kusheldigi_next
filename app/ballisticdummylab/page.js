@@ -1,42 +1,39 @@
+
 "use client"
+
 import React, { useState, useEffect } from "react";
-
 import Link from "next/link";
-
 import Head from 'next/head';
-
-
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-
-
-import '../globals.css'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
-
+import '../globals.css'
 
 
 const projects = [
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216954/down1_kgzcrg.png",
+    title1: "Topbrass tactical",
+    title2: "E-commerce, Bigcomerce ",
+    link: "/topbrasstactical"
+  },
+  {
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746541117/image_5_tw9wok.png",
+    title1: "Graco Corporation",
+    title2: "E-commerce, Bigcomerce ",
+    link: "/graco-corp"
+  },
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217009/down3_ucxpri.png",
     title1: "Sites & Scopes",
     title2: "E-commerce, Bigcomerce ",
     link: "/sitesandscopes"
   },
-  {
-    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216979/down2_m0c8fa.png",
-    title1: "Kickeez",
-    title2: "E-commerce, Bigcomerce ",
-    link: "/kick-eez"
-  },
-  {
-    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746541118/image_3_dptpxb.png",
-    title1: "A&I Parts Center",
-    title2: "E-commerce, Bigcomerce ",
-    link: "/aipartscenter"
-  },
 ];
-const SubhAlloys = () => {
+
+
+const Ballistic = () => {
   const [perPage, setPerPage] = useState(3);
   useEffect(() => {
     if (window.matchMedia("(max-width: 800px)").matches) {
@@ -60,8 +57,8 @@ const SubhAlloys = () => {
   }
 
   const generateMetadata = ({ params }) => ({
-    title: 'Shubhalloys | Ecommerce Growth with BigCommerce Website Development',
-    description: "See how Shubhalloys boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
+    title: 'Ballistic Dummy Lab | Ecommerce Growth with BigCommerce Website Development',
+    description: "See how Ballistic Dummy Lab boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study.",
   });
 
   useEffect(() => {
@@ -75,64 +72,46 @@ const SubhAlloys = () => {
   return (
     <>
 
-      <Head>
-        {/* Open Graph (OG) Meta Tags */}
-        <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
-        <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
-        <meta property="og:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
-        <meta property="og:url" content="https://www.kusheldigi.com/" />
-        <meta property="og:type" content="website" />
-
-        {/* Twitter Card Meta Tags */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Kushel Digi | Expert eCommerce Development Services" />
-        <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
-        <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
-        <meta name="twitter:url" content="https://www.kusheldigi.com/" />
-      </Head>
-
       <Navbar />
       {/* <helmet> */}
-      <link rel="canonical" href="https://www.kusheldigi.com/kick-eez" />
+      <link rel="canonical" href="https://www.kusheldigi.com/ballisticdummylab" />
       {/* </helmet> */}
+
       <div className="ser-main">
         <div>
           <div className="side-bg-trio">
-            <div className="first-kick-pads last-kick-pad incheingh">
-              <div className="left-section-kids">
-                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460708/subh_tobjrf.svg' alt="img"></img>
-                <p className="shoots_premium kooo">
-                  Shubhalloys buys and sells iron cuttings as per the demand requirement of their clients. Traditionally, the company was operating with manual processes for ordering and transactions, which was very time-consuming and tended to show several inefficiencies.
-
+            <div className="first-kick-pads incheingh iynyj">
+              <div className="left-section-kids ">
+                <img loading="lazy" src={"https://res.cloudinary.com/ecommerce-website/image/upload/v1725976506/image_75_1_aha5l9.svg"} id="plus-circle" className="ballistic" alt="img"></img>
+                <p className="shoots_premium">
+                  Ballistic Dummy Lab is the leading developer of the most physiologically correct human analogues for the firearms testing, medical training, and special effects in film and television industries. It is recognized by its innovative products made of organic and synthetic
+                  gel, which have set the global standard of realism and accuracy.
                 </p>
                 <h1>Technologies Used</h1>
                 <div className="main-box-logic flex">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460629/omis_vemej2.svg' id="sim" alt="img"></img>
-                  <img className="pokli" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461094/priyajan1_x4oaox.svg' id="rotat" alt="img"></img>
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461134/priyajan2_xz7lcm.svg' id="rotat" alt="img"></img>
+                  <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995220/opqweeeeeee_azs2la.png' id="sim" alt="img"></img>
+                  <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995270/opqweeeeeee2_vxdqbc.png' id="rotat" alt="img"></img>
                 </div>
               </div>
-              <div className="right-section-kids ramit">
-                <img className="sotal-group fotal-group" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460669/fast_br7yb2.svg' id="total-group" alt="img"></img>
+              <div className="right-section-kids">
+                <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995743/balisticright_kdawdg.png' className="ballisticRi" id="total-group" alt="img"></img>
               </div>
             </div>
             {/* *********************************************** */}
             <div className="MadFish_press">
-              <div className="MadFish-back crazy-back">
+              <div className="MadFish-back">
                 <div className="MadFish-back1">
-
-                  <div className="MadFish_press_para crazy_cms">
+                  <div className="MadFish_press_head">
+                    <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995629/madlogooooo_xosnia.png' alt="madlogooooo" />
+                  </div>
+                  <div className="MadFish_press_para">
                     <p>
-                      Kushel Digi Solutions is excited to taken up the project of Shubhalloys to develop a custom software platform that automates and streamlines their buying and selling operations.
-
+                      Kushel Digi Solutions is excited to contribute to the development of this excellent solutions for the firearms testing, medical training, and special effects industries for Ballistic Dummy lab.
                     </p>
-                    {/* <h3>Empower Yourself to</h3>
-                    <h3>Easily <span>Modify Your</span> </h3>
-                    <h3><span>Website</span></h3> */}
                   </div>
                 </div>
                 <div className="MadFish-back2">
-                  <img className="subh_img" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460775/testjpg_olkdwb.svg' alt="MadFish" />
+                  <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995792/elivateright_qh3tj3.png' alt="MadFish" />
                 </div>
               </div>
             </div>
@@ -141,15 +120,15 @@ const SubhAlloys = () => {
               <p className="service-hinking">Services Provided</p>
               <div className="main-img-mighty">
                 <div className="bepolo">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460334/Group_1000004718_sj24jc.png' id="ux-safari" alt="img"></img>
+                  <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995461/Group_1000004718_ak9vhy.png' id="ux-safari" alt="img"></img>
                   <p>UX/UI Website Design</p>
                 </div>
                 <div className="bepolo">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460375/Group_1000004715_ggew67.png' id="web-safari" alt="img"></img>
+                  <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995505/Group_1000004715_fycg7j.png' id="web-safari" alt="img"></img>
                   <p>Website Development</p>
                 </div>
                 <div className="bepolo">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460409/Group_1000004716_qd1fj4.png' id="qa-safari" alt="img"></img>
+                  <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995546/Group_1000004716_wfdkyq.png' id="qa-safari" alt="img"></img>
                   <p>QA & Website Testing</p>
                 </div>
               </div>
@@ -157,18 +136,21 @@ const SubhAlloys = () => {
           </div>
         </div>
 
+        {/* *********************************************** */}
+
+        {/* ******************************************** */}
         <div className="fourth-plate-juuls">
           <div className="left-card-hub">
-            <div className="vl-chic">
+            <div className="vl-chic vl-chic22">
               <p className="fila">Font</p>
               <div className="ywo-stem">
                 <div className="light-aa">
                   <p className="hoo">Aa</p>
-                  <p className="roboto-tip">Gilroy</p>
+                  <p className="roboto-tip">Urbanist</p>
                 </div>
                 <div className="dark-aa">
                   <p className="dark-canny">Aa</p>
-                  <p className="prompt-tip">Gilroy</p>
+                  <p className="prompt-tip">Urbanist</p>
                 </div>
                 {/* <div className="medium-aa">
                   <p className="medium">Aa</p>
@@ -177,16 +159,15 @@ const SubhAlloys = () => {
               </div>
               <div className="sub-worm">
                 <p className="tool">Tools Use</p>
-                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460442/Group_1000006500_1_rhvxs0.png' id="pals-circle" alt="img"></img>
+                <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995586/Group_1000006500_1_fbbz4c.png' id="pals-circle" alt="img"></img>
               </div>
             </div>
           </div>
           <div className="right-card-omega">
             <p>Color Plate</p>
-            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460815/mr_ve3pgb.svg' id="gang" alt="img" />
+            <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995859/batcolorplate_wznd4z.png' id="gang" alt="img" />
           </div>
         </div>{" "}
-
 
 
         <div className="back-story">
@@ -198,15 +179,21 @@ const SubhAlloys = () => {
             <div className="step-backs2">
               <p>
 
-                Shubhalloys approached Kushel Digi Solutions with the need to find a solution to automate their iron-cutting selling process. Conventionally, they were into tons of manual work, right from taking orders to filling the requirements of the clients. They wanted a system where their clients can log in, place orders, and track their request status directly via some digital platform. This shall reduce the need for manual tasks, increase efficiency, and make the interaction experience more seamless for their clients.
+                Ballistic Dummy Lab wanted to move away from the manual sales process and sell on a fully automated eCommerce platform for the growing customer base. Their goal was an online storefront reflecting expertise, providing excellent user experiences, and an online storefront that seamlessly integrates with operations.
+
 
 
               </p>
 
             </div>
           </div>
-
+          <div className="step-images flex  justify-center mt-20">
+            <img loading="lazy" className="batleft heightcum" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738996203/batleft_thcjdp.png' alt="stepback" />
+            <img loading="lazy" className="batleft " src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995959/batmiddle_xjv0yf.png' alt="stepback1" />
+            <img loading="lazy" className="batleft heightcum" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995916/batright_mxtkv1.png' alt="stepback1" />
+          </div>
         </div>
+
         <div className="challenge-story">
           <div className="challenge-story1">
             <h3 className="nila">02</h3>
@@ -220,37 +207,25 @@ const SubhAlloys = () => {
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                    Shubhalloys relied on the outdated ways of order management and fulfilling customer requirements, which were inefficient to scale.
-
-
-
+                    Complex Showcase of Products that were to be made in such a manner as to highlight the unique selling points.
                   </p>
                 </div>
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                    Create an easy-to-use interface that will ensure seamless adaption of the software by both Shubhalloys staff and clients.
-
-
-
-
+                    One system to handle high traffic and increased demand across industry types.
                   </p>
                 </div>
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                    Integration of software seamlessly with their existing operations while enabling customers to log on and interact with the system in real time.
-
-
-
+                    International customers had to be supported with a easy buying experience.
                   </p>
                 </div>
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                    The system had to be scalable to grow with an ever-increasing client base for Shubhalloys and handle increased volumes of transactions.
-
-
+                    Seamless backend integration was necessary to manage inventory, process orders, and ship merchandise.
                   </p>
                 </div>
 
@@ -264,7 +239,14 @@ const SubhAlloys = () => {
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                    We developed a software platform using React.js in the front and Node.js at the back, automating the buying and selling of iron cuttings.
+                    We customized Shopify to highlight the distinctive features of Ballistic Dummy Lab products. Thus, very detailed product pages with high-quality visuals were possible.
+                  </p>
+                </div>
+
+                <div className="challenge-list1">
+                  <div className="nilust"></div>
+                  <p>
+                    Configured Shopify to be scalable to handle high traffic volumes while leading customers through an end-to-end experience locally and internationally.
 
 
                   </p>
@@ -273,15 +255,9 @@ const SubhAlloys = () => {
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                    The software makes it easy for Shubhalloys' clients to browse, place orders, and track their purchases.
+                    Optimized the platform for search engines and built a user friendly interface to attract and retain customers around the world.
 
-                  </p>
-                </div>
 
-                <div className="challenge-list1">
-                  <div className="nilust"></div>
-                  <p>
-                    The software lets clients interact in real time with the inventory of Shubhalloys.
 
                   </p>
 
@@ -290,7 +266,8 @@ const SubhAlloys = () => {
                 <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
-                    We used Node.js to create the back-end for a system that would be able to handle Shubhalloys' operations as they were but also support future needs.
+                    Built an effective inventory and order management system that fits with their production and shipping.
+
 
                   </p>
                 </div>
@@ -300,16 +277,41 @@ const SubhAlloys = () => {
           </div>
         </div>
 
+        {/* <div className="ballilabwrap">
 
-        <div className="bg_crazy11">
-          <div className="bg_cms">
-            <div className="bg_left">
-              <img className="kpiu11" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460848/prek1_jjt5jh.svg' alt="lojj" />
+          <div className="ballisconta">
+
+            <img loading="lazy" src={ballistic} className="lerbalifsd" alt="kushel" />
+
+            <div className="rightballis">
+              <img loading="lazy" src={recoil} className="recoil432" alt="kushel" />
+              <img loading="lazy" src={el44} className="el44" alt="kushel" />
             </div>
-            <div className="bg_right">
-              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460891/prek2_nk7mb9.svg' className="llgg" alt="lojj" />
-              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460923/prek3_x7v8r4.svg' className="ep44 ep455" alt="kushel" />
+
+          </div>
+
+        </div> */}
+
+        <div className="kick-start kick-start22">
+          <div className="kick-first kick-first222">
+
+            <div className="kickds">
+              <img loading="lazy" width="210" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995361/ballistic_zidjq3.png' alt="kick5" />
             </div>
+          </div>
+          <div className="kick-second kick-second222 relative">
+            <div className="about165">
+              <img
+                className="absolute about161 animate__animated animate__pulse animate__infinite"
+                src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738996335/ellipse44_ov7l61.png'
+                alt="kushel"
+              />
+            </div>
+            <img
+              className=" relative z-10 about162 pick222"
+              src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738996280/mostrecoil_eust8k.png'
+              alt="aa"
+            />
           </div>
         </div>
 
@@ -323,44 +325,29 @@ const SubhAlloys = () => {
               </div>
               <div className="azib1-second">
                 <p>
-                  Automation significantly raised the efficiency of Shubhalloys' operations by removing manual handling and thus reducing errors in order management. The client experience has also become seamless, with clients logging in themselves and placing direct orders through the system. Greater satisfaction among customers translates into repeat business. This scalable platform ensures Shubhalloys will be able to meet the demands for growth from their clients without a degrade in performance.
-
+                  The development of Ballistic Dummy Lab's eCommerce platform has greatly streamlined their sales process which enables the automation and ultimately  improved efficiency. This resulted in increased global reach, attracting more customers from various industries. It also enhances the overall user experience with seamless navigation and product discovery. The scalable Shopify platform now supports higher traffic and order volumes ultimately positioning Ballistic Dummy Lab for continuous growth.
                 </p>
 
                 <div className="azib-tech">
                   <h3>Technologies Used</h3>
-                  <div className="fopping">
-                    <div className="spoing">
-                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460954/nodes11_enp8zn.svg' alt="kushel" />
-                      <p>Node Js</p>
-                    </div>
-                    <div className="spoing kint">
-                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460988/reacts11_nymoom.svg' alt="kushel" />
-                      <p>React</p>
-                    </div>
-                  </div>
+                  <img loading="lazy" className="conjun" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995317/opqweeeeeee3_k1i3rr.png' alt="kushel" />
                 </div>
               </div>
             </div>
 
             <div className="azib-images flex items-center justify-center">
-              <img className="sohhh" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461028/srikant_euqrgi.svg' alt="azib" />
-              <img className="sohhh" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740461063/srikant1_e0evmu.svg' alt="azib" />
-              {/* <img src={azib4} alt="azib" /> */}
+              <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738996453/HOME32_w7ghbu.png' alt="azib" />
+              <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738996501/PRODUCTdd_efgvyg.png' alt="azib" />
+              <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738996392/CATALOG2_ab9mrk.png' alt="azib" />
             </div>
           </div>
         </div>
+
         {/* <div className="client-apperication">
-          <h2>Client Appreciation</h2>
-          <p>
-            “Thank you Affle team for all your hardwork, patience and continuous
-            support. The app is getting positive reviews and we hope to continue
-            to improve and evolve the app. Looking forward to our continued
-            growth.”
-          </p>
-          <h4>Matt Reeder</h4>
-        </div> */}
-        {/* <div className="other-project">
+
+        </div>
+
+        <div className="other-project ">
           <h2 className="text-center ">OTHER PROJECTS</h2>
           <Splide
             aria-label="Our Services"
@@ -377,7 +364,7 @@ const SubhAlloys = () => {
             <SplideSlide>
               <div className="other-card">
                 <div className="other-box">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460223/rel1_j208ol.png' alt="rel1" />
+                  <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995014/rel1_qw4omv.png' alt="rel1" />
                 </div>
                 <div className="other-tox-para">
                   <h3>RELY INNOVATION</h3>
@@ -395,7 +382,7 @@ const SubhAlloys = () => {
             <SplideSlide>
               <div className="other-card">
                 <div className="other-box other-box1">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460263/rel2_i8y9cn.png' alt="rel1" />
+                  <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995139/rel2_godfrk.png' alt="rel1" />
                 </div>
                 <div className="other-tox-para">
                   <h3>PRO TRUCKS</h3>
@@ -412,7 +399,7 @@ const SubhAlloys = () => {
             <SplideSlide>
               <div className="other-card">
                 <div className="other-box other-box3">
-                  <img className="rel3" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460298/rel3_f3zql8.png' alt="rel1" />
+                  <img loading="lazy" className="rel3" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991207/rel3_kus4kk.png' alt="rel1" />
                 </div>
                 <div className="other-tox-para">
                   <h3>SOLENOID NINJA</h3>
@@ -460,6 +447,7 @@ const SubhAlloys = () => {
             <h3>
               Would You Like To Talk To <br /> About Your Project?
             </h3>
+
             <p>
               {" "}
               You can send us the details of your project, and a member of our
@@ -481,20 +469,24 @@ const SubhAlloys = () => {
           </div>
         </div>
 
+
+        <Footer />
         {/*  buttons  */}
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740401400/whatsapp_qknuap.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img loading="lazy" className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740401442/telephone_rg2izx.png' alt="call-icon" title="call-icon" />
+            <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991783/telephone_k9aecl.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>
+
       </div>
-      <Footer />
+
+
     </>
   );
 };
 
-export default SubhAlloys;
+export default Ballistic;

@@ -5,8 +5,9 @@ import { TiTick } from "react-icons/ti";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
 import '../globals.css'
-import './insta.css'
+import './race.css'
 import Navbar from "../COMMON/Navbar";
+
 import Footer from "../COMMON/Footer";
 import Head from 'next/head';
 
@@ -135,6 +136,20 @@ function Page() {
   };  /* Slide-out animation */
 
 
+  const generateMetadata = ({ params }) => ({
+    title: 'Race Wax | Ecommerce Growth with BigCommerce Website Development',
+    description: "See how Race Wax boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
+  });
+
+  useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description :
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
+
+
   return (
     <div className="case1wrap home-main">
 
@@ -152,6 +167,9 @@ function Page() {
         <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
         <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
         <meta name="twitter:url" content="https://www.kusheldigi.com/" />
+
+        <link rel="canonical" href="https://www.kusheldigi.com/racewax" />
+
       </Head>
 
       <Navbar />
@@ -159,7 +177,7 @@ function Page() {
 
       <section className="case1firsec">
 
-        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747932054/Group_1171279390_tb73xq.png" alt="kushel" className="case1fill" />
+        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746860097/Group_1171279322_mj1rnm.png" alt="kushel" className="case1fill" />
         {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216400/case1fil_bwtual.png" alt="kushel" className="case1fill" />
         <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216437/case1bg_j1tw2e.png" alt="kushel" className="case1bg" /> */}
 
@@ -169,12 +187,14 @@ function Page() {
             <div className="case1fifirco">
               {/* left  */}
               <div className="ca1firleft">
-                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748016554/Vector_4_hnx29x.png" alt="kushel" />
-                <p>Instacertify </p>
+                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746889440/Group_1171279371_nqoess.png" alt="kushel" />
+                <p>RaceWax</p>
               </div>
 
               <p className="ca1firrigh">
-                Instacertify is a product testing and consultancy firm dedicatedly working to meet compliance needs of individuals and businesses.              {/* 2nd Amendment Armory is the most trusted firearms provider of high-quality gun accessories, serving customers both locally in Brandon, FL and across the nation. */}
+                RaceWax is a premier worldwide supplier of ski and snowboard waxes and tuning accessories, which are used by enthusiasts in more than 80 countries.
+
+                {/* 2nd Amendment Armory is the most trusted firearms provider of high-quality gun accessories, serving customers both locally in Brandon, FL and across the nation. */}
               </p>
             </div>
 
@@ -213,12 +233,15 @@ function Page() {
             2nd Amendment Guns is a service-disabled veteran business located in the prime location of Las Vegas, Nevada. Behind its foundation, the company represents a commitment to the people and the Constitution to serve. 
             </p> */}
             <p>
-              Its expertise ranges from BIS, CRS, ISI to CDSCO, WPC, E-waste management and more. The journey of firms started with independent working but now its client base is spread across the globe.            </p>
+              Established in 1999 by Marc and Emelda, RaceWax started out as a home-based business prompted by their son's competitive skiing.
+            </p>
             <p>
 
-              Instacertify is serving dual purposes as well, like helping users to browse through various certifications and understand the process. On the other hand, you can discover varied products. Despite being such a robust platform and offering a wide range of products, Instacertify was lagging due to an outdated website.
+              The company expanded gradually over the years to eventually run out of a huge warehouse in Denver, Colorado under new management.
+
             </p>
-            <p> Kushel Digi Solutions accessed the loopholes of the platform and figured out what needs to be done to make it better for all the site visitors. Madfish offered us this opportunity and we are thankful to them. </p>
+            <p> With its established reputation and increasing international orders, RaceWax  looked for a more robust, easier-to-use digital storefront to drive its growth.
+            </p>
 
           </div>
         </div>
@@ -229,24 +252,23 @@ function Page() {
         <div className="PortfolioChallengeMain">
           <h4> Challenges</h4>
           <div>
-            <h5>Before we started working on the project, there were the following challenges to tackle:-</h5>
             <h5>
-              1. The interface was disappointing, making it difficult to find the product.
+              1. Outdated website structure with poor mobile responsiveness
             </h5>
             {/* <p>Selling firearms requires compliance with a Federal Firearms License. The business has to pass through age verification, location-based restrictions, and a lot of other things to be eligible to run an <b>E-commerce shopping</b>. </p> */}
-            <h5>2. The platform’s ecommerce design wasn’t up to the mark to represent the brand identity. </h5>
+            <h5>2. Manual product management leading to inefficiencies</h5>
             {/* <p>The previous website had many issues, such as UI and UX design, performance, and improper infrastructure. It was becoming a hindrance to traffic growth and scalability.</p> */}
-            <h5>3.It was failing to provide a full-fledged ecommerce experience. </h5>
+            <h5>3. Lack of integrated payment and shipping tools for global outreach</h5>
             {/* <p>As the inventory is large, finding the right product is pretty difficult. The users have to struggle because no advanced filtering and search refinements are there. </p> */}
-            <h5>4. Page loading was too slow, and this was pushing people away from the site.</h5>
+            <h5>4. Complicated navigation and poor user experience</h5>
             {/* <p>Many of the potential customers exist on mobile, but the site wasn’t mobile-friendly. </p> */}
-            <h5>The backend wasn’t ready to help with long-term growth and enable advanced features. </h5>
+            <h5>5.Weak SEO performance and low discoverability</h5>
 
           </div>
         </div>
         <div className="portfolioImageChallenge">
           <img
-            src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747932053/Group_1171279387_kjdfmj.png"
+            src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746860243/Group_1171279336_elrenb.png"
             // src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746514576/2nd-A-challenges_hdngwv.png"
             alt="kushel"
           />
@@ -266,16 +288,20 @@ function Page() {
             </div>
 
             <p className="s3theeparas">
-              As the challenges were known, it was the time to formulate the solutions and take the website development to the next level.
+              Our team of experts at Kushel Digi Solutions has created a fully bespoke eCommerce website on BigCommerce. We have revamped the site with a simple yet stunning user interface that portrays the brand's business image and performance-driven product range.
+
             </p>
 
             <p className="s3theeparas">
-              For the design part, we relied on Figma and carried on the development process on BigCommerce.
+              The new website boasts sophisticated product categorization, intelligent filtering options, and mobile responsiveness to provide an impeccable shopping experience on all devices.
+
+
             </p>
-            {/* <p>We also did a thorough research to identify the market gaps and analyze the best possible solution for the business. </p> */}
+            <p className="s3theeparas">Our team has also implemented secure global payment gateways on backend and dynamic shipping tools to streamline checkout and fulfillment processes. The system was implemented to simplify inventory and order management and make it simple for the RaceWax team. We also added SEO-optimized architecture to improve search visibility and provided
+              . </p>
 
           </div>
-          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747932054/Group_1171279388_wj3xtg.png" alt="kushel" className="c3antoimg" />
+          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746860091/Group_1171279335_altan6.png" alt="kushel" className="c3antoimg" />
 
           {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216571/case3ano_uv19e1.png" alt="kushel" className="c3antoimg" /> */}
         </div>
@@ -298,20 +324,20 @@ function Page() {
       >
         <SplideSlide>
           <section className="case3secfour" >
-            <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748016713/Rectangle_16_1_jklxl9.png" alt="kushel" className="c1btimage" />
+            <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747328503/racewax-footerbanner-desktop-optimized_1_qqcyx2.png" alt="kushel" className="c1btimage" />
 
             <div className="cas3s4con" id="cas3s4connn">
 
               <div className="bgshowdb1" >
-                < img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747933917/Group_1171279391_lyescs.png" />
+                < img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746860086/Group_1171279328_xezpfu.png" />
                 {/* <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746710597/Group_1171279306_o1qdhn.png" alt="kushel" className="ca2insideimg adjustheighimg" /> */}
                 {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
               </div>
 
-              <div className="cas3circldata" id="cas3circldata12">
-                <h4>New Design on Figma
-                </h4>
-                <p>With Figma, we created a professional design to simplify browsing on desktop or mobile. Our team completed the entire site layout within a few days.   </p>
+              <div className="cas3circldata" id="cas3circldata1">
+                <h4>Scalable BigCommerce-Based Infrastructure </h4>
+                <p>Our experts team has leveraged BigCommerce's diversity to support large product catalogs, high traffic volumes, and global commerce functionality to build a platform that could scale with the brand. Its inherent scalability provided stable performance during promotion campaigns and holiday shopping seasons.
+                </p>
               </div>
 
             </div>
@@ -322,19 +348,21 @@ function Page() {
 
         <SplideSlide>
           <section className="case3secfour" id="case3secfour22">
-            <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748016713/Rectangle_16_1_jklxl9.png" alt="kushel" className="c1btimage" />
+            <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747328503/racewax-footerbanner-desktop-optimized_1_qqcyx2.png" alt="kushel" className="c1btimage" />
 
             <div className="cas3s4con" id="cas3s4connn">
 
               <div className="bgshowdb1" id="bgshowdb11">
-                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747933917/Group_1171279397_qomwgt.png" />
+                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746860087/Group_1171279331_p9ldg7.png" />
                 {/* <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454204/e-commerce-development_wu34yd.png" alt="kushel" className="ca2insideimg adjustheighimg" />
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
               </div>
 
-              <div className="cas3circldata" id="cas3circldata12">
-                <h4>Switching to BigCommerce</h4>
-                <p>No wonder we decided to go with BigCommerce; it is the best ecommerce platform right now. This aided in building a scalable Instacertify successful ecommerce website. We also got the flexibility to build both an online store and an informative guide at the same time.  </p>
+              <div className="cas3circldata" id="cas3circldata1">
+                <h4>Improved UX for Global Shoppers
+                </h4>
+                <p>From mobile responsiveness to easy product filtering, the new design streamlined the shopping experience for customers globally, resulting in increased engagement and reduced bounce rates.Localization capabilities and multi-currency functionality assisted in enhancing conversions region-wise.
+                </p>
               </div>
 
             </div>
@@ -344,21 +372,20 @@ function Page() {
 
         <SplideSlide>
           <section className="case3secfour">
-            <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748016713/Rectangle_16_1_jklxl9.png" alt="kushel" className="c1btimage" />
+            <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747328503/racewax-footerbanner-desktop-optimized_1_qqcyx2.png" alt="kushel" className="c1btimage" />
 
             <div className="cas3s4con" id="cas3s4connn">
 
-              <div className="bgshowdb1" id="bgshowdb11">
-                {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
-                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748012482/Group_1171279427_i9qwvj.png" />
-
-                {/* <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747934508/Group_1171279404_1_usz4hj.png" alt="kushel" className="ca2insideimg adjustheighimg" />
-             */}
+              <div className="bgshowdb1">
+                {/* <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784464/Group_1171279316_nc1yiv.png" alt="kushel" className="ca2insideimg addheightimage" /> */}
+                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746860087/Group_1171279334_okkuos.png" alt="kushel" className="" />
               </div>
 
-              <div className="cas3circldata" id="cas3circldata12">
-                <h4>Adding Smart Integration </h4>
-                <p>To make the site run more efficiently, we integrated the site with smart plugins to simplify inventory management and automate some processes.
+              <div className="cas3circldata" id="cas3circldata1">
+                <h4>Mobile-First Experience
+
+                </h4>
+                <p>The site was optimized for mobile users from the ground up, with quick loading times, responsive design, and effortless browsing on any device. Touch-friendly navigation and streamlined checkout procedures ensured smooth mobile shopping.
                 </p>
               </div>
 
@@ -475,12 +502,14 @@ function Page() {
         <div className="result_Portfolio">
           <h5>Result & Impact</h5>
           <h6>
-            Users can now find certifications faster and understand what they’re signing up for:-
+            After the launch, RaceWax experienced enhanced site speed, enhanced user engagement, and a significant boost in international sales.
           </h6>
           <ul>
-            <li>The load time of the site improved, so visitors engage with the site for a long time.</li>
-            <li>A clear navigation makes it easy for the users to explore and convert them. </li>
-            <li>More sales are flowing with the improvement in product pages and checkout flow.  </li>
+            <li>The improved backend minimized manual labor, while the optimized frontend assisted in building their brand identity and customer trust.</li>
+            <li> In total, the platform upgrade set RaceWax.com up for further global expansion and long-term digital success.
+
+            </li>
+            {/* <li>Back-end integrations enabled the team to manage inventory, orders, and customer interactions more efficiently. </li> */}
 
           </ul>
 

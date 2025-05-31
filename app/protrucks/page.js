@@ -36,8 +36,8 @@ const ProTrucks = () => {
     });
   };
  const generateMetadata = ({ params }) => ({
-              title: 'Kushel Digi Solutions Case Study- pro-track',
-              description: "Kushel Digi Solutions crafted a dynamic website for Pro-Track, enhancing user experience and showcasing their services, driving online engagement and growth."
+              title: 'Kushel Digi Solutions Case Study- protrucksandcars',
+              description: "Kushel Digi Solutions crafted a dynamic website for protrucksandcars, enhancing user experience and showcasing their services, driving online engagement and growth."
             });
             
           useEffect(() => {

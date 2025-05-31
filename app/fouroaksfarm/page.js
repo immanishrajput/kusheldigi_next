@@ -5,7 +5,9 @@ import { TiTick } from "react-icons/ti";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
 import '../globals.css'
+import './four.css'
 import Navbar from "../COMMON/Navbar";
+
 import Footer from "../COMMON/Footer";
 import Head from 'next/head';
 
@@ -134,6 +136,20 @@ function Page() {
     };  /* Slide-out animation */
 
 
+    const generateMetadata = ({ params }) => ({
+        title: 'Four Oaks Farm Country Store | Ecommerce Growth with BigCommerce Website Development',
+        description: "See how Four Oaks Farm Country Store boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
+    });
+
+    useEffect(() => {
+        const { title, description } = generateMetadata({ params: {} });
+        document.title = title;
+        let metaDescription = document.querySelector('meta[name="description"]');
+        metaDescription ? metaDescription.content = description :
+            document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+    }, []);
+
+
     return (
         <div className="case1wrap home-main">
 
@@ -151,6 +167,9 @@ function Page() {
                 <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
                 <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
                 <meta name="twitter:url" content="https://www.kusheldigi.com/" />
+
+                <link rel="canonical" href="https://www.kusheldigi.com/fouroaksfarm" />
+
             </Head>
 
             <Navbar />
@@ -158,7 +177,7 @@ function Page() {
 
             <section className="case1firsec">
 
-                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322288/Group_1171279379_-_Copy_r6tcr6.png" alt="kushel" className="case1fill" />
+                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746889443/Group_1171279347_xnrtvr.png" alt="kushel" className="case1fill" />
                 {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216400/case1fil_bwtual.png" alt="kushel" className="case1fill" />
         <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216437/case1bg_j1tw2e.png" alt="kushel" className="case1bg" /> */}
 
@@ -168,12 +187,13 @@ function Page() {
                         <div className="case1fifirco">
                             {/* left  */}
                             <div className="ca1firleft">
-                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747323201/logo-white-new_1687810777__26159.original_tyhlxx.png" alt="kushel" />
-                                <p> Hit Bazar </p>
+                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746891179/Group_1171279369_qmin7o.png" alt="kushel" />
+                                <p> Four Oaks Farm</p>
                             </div>
 
                             <p className="ca1firrigh">
-                            Hit Bazar is a well-known wholesale grocery business that offers quality food essentials at very reasonable prices. 
+                                Four Oaks Farm is a family-owned organic farm committed to providing fresh, chemical-free produce and handmade goods right to consumers' doors.
+                                {/* 2nd Amendment Armory is the most trusted firearms provider of high-quality gun accessories, serving customers both locally in Brandon, FL and across the nation. */}
                             </p>
                         </div>
 
@@ -208,16 +228,23 @@ function Page() {
                     <div className="sc2_main_content">
                         <h1>Client Background</h1>
 
-                       <p>
-                       Hit Bazar has emerged as a well-respected name within the wholesale grocery business mostly to bulk consumers, restaurants, and retailers.            </p>
-
-                        <p>    While more customers want to place online orders, the company realized they needed an online digital storefront that is scalable as well as convenient to maintain.
+                        {/* <p>
+            2nd Amendment Guns is a service-disabled veteran business located in the prime location of Las Vegas, Nevada. Behind its foundation, the company represents a commitment to the people and the Constitution to serve. 
+            </p> */}
+                        <p>
+                            The founders of Four Oak Farm began with a small plot and a grand idea: to provide organic living and make it available and reliable.
                         </p>
-                        <p> Their desire was to upgrade processes while preserving ease of use as well as confidence that they have established offline.  </p>
-                     
-                         <p>
-                         Madfish Solutions has given us the opportunity to implement our expertise in this project.        </p>
-                     
+                        <p>
+
+                            Four Oak Farm has made a loyal offline customer base over the years due to their dedication to sustainable farming and high-quality produce.
+
+                        </p>
+                        <p>As demand spread through word-of-mouth and farmers' markets around the area, manually handling orders became a challenge.
+
+                        </p>
+
+                        <p>Having no background in online activities, they needed a digital platform that would do justice to their brand, streamline processes, and improve customer experience and for this they joined forces with Kushel Digi Solutions to create a modern eCommerce platform using BigCommerce.
+                        </p>
                     </div>
                 </div>
 
@@ -227,26 +254,35 @@ function Page() {
                 <div className="PortfolioChallengeMain">
                     <h4> Challenges</h4>
                     <div>
-                        {/* <h5>Before we started working on the project, there were the following challenges to tackle:-</h5> */}
+                        <h5>Four Oak Farm encountered several challenges when shifting from offline to online:-</h5>
                         <h5>
-                            1. No prior online existence or digital cataloging system.
+                            1. Lack of technical expertise and digital infrastructure
 
                         </h5>
                         {/* <p>Selling firearms requires compliance with a Federal Firearms License. The business has to pass through age verification, location-based restrictions, and a lot of other things to be eligible to run an <b>E-commerce shopping</b>. </p> */}
-                        <h5>2. Manual order placement through phone and WhatsApp, causing inefficiencies. </h5>
+                        <h5>2. Challenge in demonstrating seasonal and variable stock
+                        </h5>
                         {/* <p>The previous website had many issues, such as UI and UX design, performance, and improper infrastructure. It was becoming a hindrance to traffic growth and scalability.</p> */}
-                        <h5>3.Bulk product listings and price fluctuations becoming difficult to manage .</h5>
+                        <h5>3. Need for an visually appealing but simple user experience
+                        </h5>
                         {/* <p>As the inventory is large, finding the right product is pretty difficult. The users have to struggle because no advanced filtering and search refinements are there. </p> */}
-                        <h5>4.Requirement for multi-user access and role-based management for employees.</h5>
+                        <h5>4.Handling online payments, inventory, and orders
+
+
+
+                        </h5>
                         {/* <p>Many of the potential customers exist on mobile, but the site wasn’t mobile-friendly. </p> */}
-                        <h5>5.Poor visibility and restricted reach beyond the local market.</h5>
+                        <h5>5.Maintaining their brand's natural and personal feel in the online space
+
+                        </h5>
+
 
                     </div>
                 </div>
                 <div className="portfolioImageChallenge">
                     <img
-                        src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322289/Group_1171279376_-_Copy_ldbeat.png"
-     
+                        src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746890111/Group_1171279351_pkuy7h.png"
+                        // src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746514576/2nd-A-challenges_hdngwv.png"
                         alt="kushel"
                     />
                 </div>
@@ -265,18 +301,25 @@ function Page() {
                         </div>
 
                         <p className="s3theeparas">
-                        Kushel Digi Solutions designed a custom eCommerce website in BigCommerce according to the specific requirements of a wholesale grocery model.</p>
+                            Kushel Digi Solutions created a custom eCommerce website for Four Oak Farm on BigCommerce to build a robust online presence. The website had a clean, rustic look that reflected the organic nature of the farm while providing a user-friendly and hassle-free shopping experience. We integrated seasonal product offerings, flexible inventory management, and made sure the platform was completely responsive and mobile-compatible to reach more customers.
+
+                        </p>
+
                         <p className="s3theeparas">
-                        Our team decided to go with Figma. Once the design was ready, the next choice we made was BigCommerce architecture for scalable development.                         </p>
-                        {/* <p>We also did a thorough research to identify the market gaps and analyze the best possible solution for the business. </p> */}
-                        <p className="s3theeparas">We made the website mobile-responsive, enabling shop owners and retailers to order easily anytime from anywhere on any device.
+                            In order to enhance operations, we incorporated secure payment gateways, real-time inventory visibility, and optimized backend processes. We also trained the farm staff to help them deal with orders, update products, and monitor stock with ease. This created a powerful, scalable platform that enabled Four Oak Farm to transition to the digital age successfully and provide an improved service to customers.
+
+
+
+
                         </p>
-                        <p className="s3theeparas">Our team has also integrated secure payment gateways, real-time inventory management, and a checkout experience which is easy for customers.</p>
-                        <p className="s3theeparas"> Roles of staff were set up so that different access levels are permitted for admins, warehouse personnel, and order processors. Kushel Digi never compromised on making a robust SEO friendly </p>
-                        <p className="s3theeparas">architecture and an easy-to-use interface. As a result the site enabled Hit Bazar to transition effortlessly from offline selling to online commerce.
+                        <p className="s3theeparas">In order to enhance the backend processes, we incorporated real-time inventory monitoring, automated order management, and secure payment gateway.
                         </p>
+
+                        <p className="s3theeparas">This helped the Lafayette Shooters team manage their store better while providing customers with a seamless shopping experience across all devices.
+                        </p>
+
                     </div>
-                    <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322288/Group_1171279378_-_Copy_un4a6y.png" alt="kushel" className="c3antoimg" />
+                    <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746890111/Group_1171279352_xh9btn.png" alt="kushel" className="c3antoimg" />
 
                     {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216571/case3ano_uv19e1.png" alt="kushel" className="c3antoimg" /> */}
                 </div>
@@ -299,21 +342,20 @@ function Page() {
             >
                 <SplideSlide>
                     <section className="case3secfour" >
-                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747327973/sm-hero_2_wzq5us.png" alt="kushel" className="c1btimage" />
+                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
 
                         <div className="cas3s4con" id="cas3s4connn">
 
                             <div className="bgshowdb1" >
-                                < img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322289/Group_1171279386_zuyozu.png" />
+                                < img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746890110/Group_1171279358_xnqjon.png" />
                                 {/* <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746710597/Group_1171279306_o1qdhn.png" alt="kushel" className="ca2insideimg adjustheighimg" /> */}
                                 {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
                             </div>
 
                             <div className="cas3circldata" id="cas3circldata1">
-                                <h4>Wholesale-Ready Capability
-
+                                <h4>Custom BigCommerce Store
                                 </h4>
-                                <p>We launched bulk order capabilities, price-tiering, and personalized product filters enabling businesses to purchase in bulk and maintain their budgets easily. This enabled Hit Bazar to support an array of wholesale customers with different order requirements and price expectations.                                . 
+                                <p>Our Bigcommerce experts have developed and designed a custom BigCommerce store that is best suited for Four Oak Farm's brand image and business requirements.  Design layout looks to back-end architecture, all was created from scratch to ensure that the site not only looks attractive but also interacts with customers smoothly. The result was a genuine online storefront that perfectly showcased their organic heritage while ensuring a smooth user experience.
                                 </p>
                             </div>
 
@@ -325,21 +367,22 @@ function Page() {
 
                 <SplideSlide>
                     <section className="case3secfour" id="case3secfour22">
-                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747327973/sm-hero_2_wzq5us.png" alt="kushel" className="c1btimage" />
+                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
 
                         <div className="cas3s4con" id="cas3s4connn">
 
                             <div className="bgshowdb1" id="bgshowdb11">
-                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322290/Group_1171279382_-_Copy_lua8c3.png" />
+                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746890110/Group_1171279368_z9lt6s.png" />
                                 {/* <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454204/e-commerce-development_wu34yd.png" alt="kushel" className="ca2insideimg adjustheighimg" />
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
                             </div>
 
                             <div className="cas3circldata" id="cas3circldata1">
-                                <h4>Simple Inventory Management
-
+                                <h4>Smart Inventory and Order Management
                                 </h4>
-                                <p>Our team has designed the back-end in a way to support large product lists with distinct stock and price changes. It enables the Hit Bazar team to easily update without technical assistance. It has drastically minimized turnaround time for manual stock updates .
+                                <p>Our teams have implemented an advanced inventory and order management system to improve efficiency within the BigCommerce platform. It helped Four Oak Farm monitor real-time stock levels, seasonally control product availability, automate order statuses, and get low-stock notifications. This system has effectively saved labor, eliminated errors, and enhanced fulfillment efficiency, making it simpler for the team to meet customer demand reliably.
+
+
                                 </p>
                             </div>
 
@@ -350,20 +393,22 @@ function Page() {
 
                 <SplideSlide>
                     <section className="case3secfour">
-                        {/* <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" /> */}
-                         <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747327973/sm-hero_2_wzq5us.png" alt="kushel" className="c1btimage" />
+                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
+
                         <div className="cas3s4con" id="cas3s4connn">
 
                             <div className="bgshowdb1">
                                 {/* <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784464/Group_1171279316_nc1yiv.png" alt="kushel" className="ca2insideimg addheightimage" /> */}
-                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322287/Group_1171279385_hzudvi.png" alt="kushel" className="" />
+                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746890110/Group_1171279366_cmavji.png" alt="kushel" className="" />
                             </div>
 
                             <div className="cas3circldata" id="cas3circldata1">
-                                <h4>Mobile Responsive Ordering Experience
+                                <h4>Mobile-First Approach
+
+
                                 </h4>
-                                <p>Our experts team focused on mobile-first approach that can facilitate retailers and restaurant entrepreneurs to place fast orders on the move. It ultimately minimized  turnaround time and also enhances convenience for repeat customers.                                . 
-                                
+                                <p>With the realization of increasing mobile shoppers, we adopted a mobile-first approach in development strategy. The site was crafted to function seamlessly on all devices, particularly smartphones and tablets—so that it would load fast, respond well, and have touch-friendly navigation. This helped Four Oak Farm extend its reach and provide an smooth shopping experience on whatever platform visitors were using.
+
                                 </p>
                             </div>
 
@@ -479,14 +524,16 @@ function Page() {
             <div className="Mainresult_Portfolio">
                 <div className="result_Portfolio">
                     <h5>Result & Impact</h5>
-                    {/* <h6>
-                        Users can now find certifications faster and understand what they’re signing up for:-
-                    </h6> */}
+                    <h6>
+                        The store launch using the BigCommerce platform changed everything for Four Oak Farm in terms of engaging with customers.
+                    </h6>
                     <ul>
-                        <li>Since we launched Hit Bazar's BigCommerce-powered store, the company was able to grow beyond the physical boundaries, and new customers flocked to it from surrounding areas. </li>
-                        <li> Online orders picked up gradually, and the simplified backend reduced errors made manually along with the speed of order processing.  </li>
-                        <li> The platform allowed Hit Bazar to work more effectively, fulfill growing customer expectations, and establish itself as a technologically advanced wholesale brand.                        </li>
-                        {/* <li>Automating some functionalities freed up resources for fulfilling customer expectations and delivering better service.</li> */}
+                        <li>in customer engagement after the first two months and started receiving steady online orders.</li>
+                        <li>The website not just improved backend management but also enhanced their brand presence through a professional, glossy, and easy-to-use platform.
+
+
+                        </li>
+                        {/* <li>Back-end integrations enabled the team to manage inventory, orders, and customer interactions more efficiently. </li> */}
 
                     </ul>
 

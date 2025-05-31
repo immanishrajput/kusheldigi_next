@@ -5,8 +5,9 @@ import { TiTick } from "react-icons/ti";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
 import '../globals.css'
-import './insta.css'
+import './amend.css'
 import Navbar from "../COMMON/Navbar";
+
 import Footer from "../COMMON/Footer";
 import Head from 'next/head';
 
@@ -135,6 +136,20 @@ function Page() {
   };  /* Slide-out animation */
 
 
+  const generateMetadata = ({ params }) => ({
+    title: '2nd Amendment Guns | Ecommerce Growth with BigCommerce Website Development',
+    description: "See how 2nd Amendment Guns boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
+  });
+
+  useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description :
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
+
+
   return (
     <div className="case1wrap home-main">
 
@@ -152,6 +167,9 @@ function Page() {
         <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
         <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
         <meta name="twitter:url" content="https://www.kusheldigi.com/" />
+
+        <link rel="canonical" href="https://www.kusheldigi.com/2ndamendmentguns" />
+
       </Head>
 
       <Navbar />
@@ -159,9 +177,9 @@ function Page() {
 
       <section className="case1firsec">
 
-        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747932054/Group_1171279390_tb73xq.png" alt="kushel" className="case1fill" />
-        {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216400/case1fil_bwtual.png" alt="kushel" className="case1fill" />
-        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216437/case1bg_j1tw2e.png" alt="kushel" className="case1bg" /> */}
+        <img loading="lazy" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454210/2nd-home-banner_qpuz1w.jpg" alt="kushel" className="case1fill" />
+        {/* <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216400/case1fil_bwtual.png" alt="kushel" className="case1fill" />
+        <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216437/case1bg_j1tw2e.png" alt="kushel" className="case1bg" /> */}
 
         <div className="cas1cont1wrap">
           <div className="case1fircont">
@@ -169,12 +187,13 @@ function Page() {
             <div className="case1fifirco">
               {/* left  */}
               <div className="ca1firleft">
-                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748016554/Vector_4_hnx29x.png" alt="kushel" />
-                <p>Instacertify </p>
+                <img loading="lazy" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784821/Group_1171279311_lf5dmj.png" alt="kushel" />
+                <p>2ndamendment Guns</p>
               </div>
 
               <p className="ca1firrigh">
-                Instacertify is a product testing and consultancy firm dedicatedly working to meet compliance needs of individuals and businesses.              {/* 2nd Amendment Armory is the most trusted firearms provider of high-quality gun accessories, serving customers both locally in Brandon, FL and across the nation. */}
+                2nd Amendment Guns is a service-disabled veteran business located in the prime location of Las Vegas, Nevada. Behind its foundation, the company represents a commitment to the people and the Constitution to serve.
+                {/* 2nd Amendment Armory is the most trusted firearms provider of high-quality gun accessories, serving customers both locally in Brandon, FL and across the nation. */}
               </p>
             </div>
 
@@ -204,7 +223,7 @@ function Page() {
       {/* secon section  */}
       <section className="case2secsec">
         <div className="case2seccont">
-          <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746537844/madfish-logo1_ghjavp.png" alt="kushel" className="cs2i1" />
+          <img loading="lazy" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746537844/madfish-logo1_ghjavp.png" alt="kushel" className="cs2i1" />
 
           <div className="sc2_main_content">
             <h1>Client Background</h1>
@@ -213,40 +232,40 @@ function Page() {
             2nd Amendment Guns is a service-disabled veteran business located in the prime location of Las Vegas, Nevada. Behind its foundation, the company represents a commitment to the people and the Constitution to serve. 
             </p> */}
             <p>
-              Its expertise ranges from BIS, CRS, ISI to CDSCO, WPC, E-waste management and more. The journey of firms started with independent working but now its client base is spread across the globe.            </p>
+              After serving 32 years in the military, the owner of 2nd Amendment Guns and Accessories is offering a wide range of firearms and ammunition. The brand empowers “The People” of the United States of America through education, arms, and training.
+            </p>
             <p>
 
-              Instacertify is serving dual purposes as well, like helping users to browse through various certifications and understand the process. On the other hand, you can discover varied products. Despite being such a robust platform and offering a wide range of products, Instacertify was lagging due to an outdated website.
+              At its Ecommerce platform, you can find ammunition equipment for Second Amendment enthusiasts, survival gear, optics, and a lot more. The brand is also providing a secure and legally compliant shopping experience for seasoned firearm owners.
+
             </p>
-            <p> Kushel Digi Solutions accessed the loopholes of the platform and figured out what needs to be done to make it better for all the site visitors. Madfish offered us this opportunity and we are thankful to them. </p>
+            <p> Since 2012, it has positioned itself as a reliable platform for the public service, and the community support has helped to step up in the Ecommerce world. However, Kushel Digi Solutions have played a crucial role in bringing it into the limelight with their expertise. <b>MadFish Solutions</b>  has offered us this opportunity and our team has put their best efforts to make it a successful project. </p>
 
           </div>
         </div>
 
-        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216538/c2el1_ljp05j.png" alt="kushel" className="c2el1" />
+        <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216538/c2el1_ljp05j.png" alt="kushel" className="c2el1" />
       </section>
       <div className="PortfolioChallenges">
         <div className="PortfolioChallengeMain">
           <h4> Challenges</h4>
           <div>
-            <h5>Before we started working on the project, there were the following challenges to tackle:-</h5>
             <h5>
-              1. The interface was disappointing, making it difficult to find the product.
+              1. Regulatory Complexity
             </h5>
-            {/* <p>Selling firearms requires compliance with a Federal Firearms License. The business has to pass through age verification, location-based restrictions, and a lot of other things to be eligible to run an <b>E-commerce shopping</b>. </p> */}
-            <h5>2. The platform’s ecommerce design wasn’t up to the mark to represent the brand identity. </h5>
-            {/* <p>The previous website had many issues, such as UI and UX design, performance, and improper infrastructure. It was becoming a hindrance to traffic growth and scalability.</p> */}
-            <h5>3.It was failing to provide a full-fledged ecommerce experience. </h5>
-            {/* <p>As the inventory is large, finding the right product is pretty difficult. The users have to struggle because no advanced filtering and search refinements are there. </p> */}
-            <h5>4. Page loading was too slow, and this was pushing people away from the site.</h5>
-            {/* <p>Many of the potential customers exist on mobile, but the site wasn’t mobile-friendly. </p> */}
-            <h5>The backend wasn’t ready to help with long-term growth and enable advanced features. </h5>
+            <p>Selling firearms requires compliance with a Federal Firearms License. The business has to pass through age verification, location-based restrictions, and a lot of other things to be eligible to run an <b>E-commerce shopping</b>. </p>
+            <h5>2. Outdated Platform</h5>
+            <p>The previous website had many issues, such as UI and UX design, performance, and improper infrastructure. It was becoming a hindrance to traffic growth and scalability.</p>
+            <h5>3. Limited Search Experience</h5>
+            <p>As the inventory is large, finding the right product is pretty difficult. The users have to struggle because no advanced filtering and search refinements are there. </p>
+            <h5>4. Mobile-Friendliness</h5>
+            <p>Many of the potential customers exist on mobile, but the site wasn’t mobile-friendly. </p>
 
           </div>
         </div>
         <div className="portfolioImageChallenge">
           <img
-            src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747932053/Group_1171279387_kjdfmj.png"
+            src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746785005/Group_1171279298_a4is5k.png"
             // src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746514576/2nd-A-challenges_hdngwv.png"
             alt="kushel"
           />
@@ -266,18 +285,20 @@ function Page() {
             </div>
 
             <p className="s3theeparas">
-              As the challenges were known, it was the time to formulate the solutions and take the website development to the next level.
+              Kushel Digi Solutions was ready for the challenges of transforming the site into a full-fledged <b>E-commerce solution</b>. We tailored our design strategy as per the requirements of the client.
+
             </p>
 
             <p className="s3theeparas">
-              For the design part, we relied on Figma and carried on the development process on BigCommerce.
+              From building the storefront using high-quality images to helping customers make well-informed decisions, we have made all these possible.
+
             </p>
-            {/* <p>We also did a thorough research to identify the market gaps and analyze the best possible solution for the business. </p> */}
+            <p className="s3theeparas">We also did a thorough research to identify the market gaps and analyze the best possible solution for the business. </p>
 
           </div>
-          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747932054/Group_1171279388_wj3xtg.png" alt="kushel" className="c3antoimg" />
+          <img loading="lazy" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746514576/2nd-A-solutions_s6apxz.png" alt="kushel" className="c3antoimg" />
 
-          {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216571/case3ano_uv19e1.png" alt="kushel" className="c3antoimg" /> */}
+          {/* <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216571/case3ano_uv19e1.png" alt="kushel" className="c3antoimg" /> */}
         </div>
       </section>
 
@@ -298,20 +319,19 @@ function Page() {
       >
         <SplideSlide>
           <section className="case3secfour" >
-            <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748016713/Rectangle_16_1_jklxl9.png" alt="kushel" className="c1btimage" />
+            <img loading="lazy" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747333030/abouthome_1_uy6fbd.png" alt="kushel" className="c1btimage" />
 
             <div className="cas3s4con" id="cas3s4connn">
 
               <div className="bgshowdb1" >
-                < img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747933917/Group_1171279391_lyescs.png" />
-                {/* <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746710597/Group_1171279306_o1qdhn.png" alt="kushel" className="ca2insideimg adjustheighimg" /> */}
-                {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
+                < img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784460/Group_1171279313_zyrxoy.png" />
+                {/* <img loading="lazy" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746710597/Group_1171279306_o1qdhn.png" alt="kushel" className="ca2insideimg adjustheighimg" /> */}
+                {/* <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
               </div>
 
-              <div className="cas3circldata" id="cas3circldata12">
-                <h4>New Design on Figma
-                </h4>
-                <p>With Figma, we created a professional design to simplify browsing on desktop or mobile. Our team completed the entire site layout within a few days.   </p>
+              <div className="cas3circldata" id="cas3circldata1">
+                <h4>Design Phase (Figma) </h4>
+                <p>At first, we started with Figma to redesign the entire UI and UX. Keeping in mind the brand’s image, the design part featured clean and organized layouts. Our emphasis was on streamlining navigation while building a responsive site structure.  </p>
               </div>
 
             </div>
@@ -322,19 +342,19 @@ function Page() {
 
         <SplideSlide>
           <section className="case3secfour" id="case3secfour22">
-            <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748016713/Rectangle_16_1_jklxl9.png" alt="kushel" className="c1btimage" />
+            <img loading="lazy" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747333030/abouthome_1_uy6fbd.png" alt="kushel" className="c1btimage" />
 
             <div className="cas3s4con" id="cas3s4connn">
 
               <div className="bgshowdb1" id="bgshowdb11">
-                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747933917/Group_1171279397_qomwgt.png" />
-                {/* <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454204/e-commerce-development_wu34yd.png" alt="kushel" className="ca2insideimg adjustheighimg" />
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
+                <img loading="lazy" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784461/Group_1171279309_1_z8a9ol.png" />
+                {/* <img loading="lazy" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454204/e-commerce-development_wu34yd.png" alt="kushel" className="ca2insideimg adjustheighimg" />
+            <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
               </div>
 
-              <div className="cas3circldata" id="cas3circldata12">
-                <h4>Switching to BigCommerce</h4>
-                <p>No wonder we decided to go with BigCommerce; it is the best ecommerce platform right now. This aided in building a scalable Instacertify successful ecommerce website. We also got the flexibility to build both an online store and an informative guide at the same time.  </p>
+              <div className="cas3circldata" id="cas3circldata1">
+                <h4> E-Commerce Development</h4>
+                <p>Once done with the design, the development was completed using <b>BigCommerce development</b>. It was the best choice because the platform supports a robust storefront creation for product feed management. We considered everything before finishing the site’s design, like FFL selection, age verification, state-based restrictions, etc.  </p>
               </div>
 
             </div>
@@ -344,22 +364,18 @@ function Page() {
 
         <SplideSlide>
           <section className="case3secfour">
-            <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748016713/Rectangle_16_1_jklxl9.png" alt="kushel" className="c1btimage" />
+            <img loading="lazy" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747333030/abouthome_1_uy6fbd.png" alt="kushel" className="c1btimage" />
 
             <div className="cas3s4con" id="cas3s4connn">
 
-              <div className="bgshowdb1" id="bgshowdb11">
-                {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
-                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748012482/Group_1171279427_i9qwvj.png" />
-
-                {/* <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747934508/Group_1171279404_1_usz4hj.png" alt="kushel" className="ca2insideimg adjustheighimg" />
-             */}
+              <div className="bgshowdb1">
+                {/* <img loading="lazy" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784464/Group_1171279316_nc1yiv.png" alt="kushel" className="ca2insideimg addheightimage" /> */}
+                <img loading="lazy" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784464/Group_1171279316_nc1yiv.png" alt="kushel" className="" />
               </div>
 
-              <div className="cas3circldata" id="cas3circldata12">
-                <h4>Adding Smart Integration </h4>
-                <p>To make the site run more efficiently, we integrated the site with smart plugins to simplify inventory management and automate some processes.
-                </p>
+              <div className="cas3circldata" id="cas3circldata1">
+                <h4>App Integrations </h4>
+                <p>Now, the website is ready to launch. But before doing so, it was important to integrate additional tools for operational performance. The integration covered inventory management, SEO marketing, payment smoothness, and so on. </p>
               </div>
 
             </div>
@@ -398,7 +414,7 @@ function Page() {
 
             {/* Right Section with Animation */}
             <div className={`c2fibbotrigh ${animationDirection} `}>
-              <img src={selectdata?.img} className="selectdataimg" alt="kushel" />
+              <img loading="lazy" src={selectdata?.img} className="selectdataimg" alt="kushel" />
               <div className="serigh_macont">
                 <h4>
                   <span>0{selectS4 + 1}/</span> {selectdata?.title}
@@ -437,7 +453,7 @@ function Page() {
 
                     <div className={`c2fibbotrigh`}>
 
-                      <img src={item?.data?.img} className="selectdataimg" alt="kushel" />
+                      <img loading="lazy" src={item?.data?.img} className="selectdataimg" alt="kushel" />
 
                       <div className="serigh_macont">
 
@@ -475,12 +491,12 @@ function Page() {
         <div className="result_Portfolio">
           <h5>Result & Impact</h5>
           <h6>
-            Users can now find certifications faster and understand what they’re signing up for:-
+            The improvement in the website led to significant changes in order placement, more customer flow, and streamlined operation.
           </h6>
           <ul>
-            <li>The load time of the site improved, so visitors engage with the site for a long time.</li>
-            <li>A clear navigation makes it easy for the users to explore and convert them. </li>
-            <li>More sales are flowing with the improvement in product pages and checkout flow.  </li>
+            <li>The intuitive UI kept the visitors hooked for longer durations, causing a noticeable drop in bounce rates.</li>
+            <li>With faster site performance and simplified product discovery, the client experienced a boost in conversion rate. </li>
+            <li>Back-end integrations enabled the team to manage inventory, orders, and customer interactions more efficiently. </li>
 
           </ul>
 
@@ -491,8 +507,8 @@ function Page() {
       {/* six section  */}
       <section className="cs2sexiesec">
 
-        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216672/similarl1_kq1btu.png" alt="kushel" className="similarl1" />
-        <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216703/similarl2_yt5kqi.png" alt="kushel" className="similarl2" />
+        <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216672/similarl1_kq1btu.png" alt="kushel" className="similarl1" />
+        <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216703/similarl2_yt5kqi.png" alt="kushel" className="similarl2" />
 
         <div className="c2sixconta">
 
@@ -502,7 +518,8 @@ function Page() {
           </div>
 
           <div className="csizbot">
-            <a href="/contact-us"><button><span>Start a conversation</span></button></a>
+            <a href="/contact-us"><button><span>Or Start a conversation</span></button></a>
+            {/* <p>Or Start a conversation</p> */}
           </div>
 
 
@@ -526,7 +543,7 @@ function Page() {
             {
               projects?.map((project, index) => (
                 <div key={index} className="singlprojseve">
-                  <img src={project?.img} alt="kushel" />
+                  <img loading="lazy" src={project?.img} alt="kushel" />
 
                   <div className="seven_titls">
                     <p className="sep1">{project?.title1}</p>

@@ -10,7 +10,7 @@ import '../globals.css'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
 function rideready() {
-    
+
   const d1 = [
     {
       title1: "Industries",
@@ -95,19 +95,19 @@ function rideready() {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216954/down1_kgzcrg.png",
       title1: "Topbrass tactical",
       title2: "E-commerce, Bigcomerce ",
-      link:"/topbrass"
+      link: "/topbrasstactical"
     },
     {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216979/down2_m0c8fa.png",
       title1: "Kickeez",
       title2: "E-commerce, Bigcomerce ",
-       link:"/kick-eez"
+      link: "/kick-eez"
     },
     {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217009/down3_ucxpri.png",
       title1: "Sites And Scopes",
       title2: "E-commerce, Bigcomerce ",
-      link:"/sites"
+      link: "/sitesandscopes"
     },
   ];
 
@@ -125,24 +125,26 @@ function rideready() {
     }, 300);
   };
 
- const generateMetadata = ({ params }) => ({
-     title: 'RideReady | Ecommerce Growth with BigCommerce Website Development',
-     description: "See how RideReady boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
-   });
- 
-   useEffect(() => {
-     const { title, description } = generateMetadata({ params: {} });
-     document.title = title;
-     let metaDescription = document.querySelector('meta[name="description"]');
-     metaDescription ? metaDescription.content = description :
-       document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-   }, []);
-  
+  const generateMetadata = ({ params }) => ({
+    title: 'RideReady | Ecommerce Growth with BigCommerce Website Development',
+    description: "See how RideReady boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
+  });
+
+  useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description :
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
+
   return (
     <div className="case1wrap home-main">
 
 
-        <Navbar/>
+      <Navbar />
+      <link rel="canonical" href="https://www.kusheldigi.com/rideready" />
+
       {/* first sectino */}
       <section className="case1firsec">
         <img
@@ -171,7 +173,7 @@ function rideready() {
               </div>
 
               <p className="ca1firrigh">
-              Ride ready is a well known name for the services of maintenance and repair works of Arctic Cat, Kawasaki, Stihl, Echo, Shindaiwa, Kioti, and N & N.
+                Ride ready is a well known name for the services of maintenance and repair works of Arctic Cat, Kawasaki, Stihl, Echo, Shindaiwa, Kioti, and N & N.
               </p>
             </div>
 
@@ -206,7 +208,7 @@ function rideready() {
             <h1>Client Background</h1>
 
             <p>
-            Ride Ready is one of the few trustworthy names in chainsaws and auto repair. The company provides excellent customer service and a wide range of quality products. Their product line is among the most in-demand brands in the industry, including Arctic Cat, Kawasaki, Stihl, Echo, Shindaiwa, Kioti, and N & N. Besides sales, Ride Ready also take care of maintaining and repairing work  ATVs and UTVs so their customers' vehicles run smoothly for years. The parts department is the largest in the area, offering a good inventory of new accessories and components.
+              Ride Ready is one of the few trustworthy names in chainsaws and auto repair. The company provides excellent customer service and a wide range of quality products. Their product line is among the most in-demand brands in the industry, including Arctic Cat, Kawasaki, Stihl, Echo, Shindaiwa, Kioti, and N & N. Besides sales, Ride Ready also take care of maintaining and repairing work  ATVs and UTVs so their customers' vehicles run smoothly for years. The parts department is the largest in the area, offering a good inventory of new accessories and components.
 
             </p>
           </div>
@@ -230,13 +232,13 @@ function rideready() {
             </div>
 
             <p className="s3theeparas">
-            Creating an excellent online shopping experience has always been at the top of the list for companies like Ride Ready as it is known for its outstanding customer service and vast selection of high-quality products. Despite their success, Ride Ready faced a challenge common among traditional businesses transitioning online by creating an intuitive e-commerce application that can reflect their stellar in-store experience. Customers wanted to have a digital space where they could easily navigate the company's large catalog and search for specific brands according to their needs.
+              Creating an excellent online shopping experience has always been at the top of the list for companies like Ride Ready as it is known for its outstanding customer service and vast selection of high-quality products. Despite their success, Ride Ready faced a challenge common among traditional businesses transitioning online by creating an intuitive e-commerce application that can reflect their stellar in-store experience. Customers wanted to have a digital space where they could easily navigate the company's large catalog and search for specific brands according to their needs.
 
             </p>
 
             <p className="s3theeparas">
               {" "}
-              Kushel Digi Solutions initiated engagement with Ride Ready through intense consultation to gain in-depth insights into their goals, customers, and what they actually wanted to do. Equipped with such insight, we came up with a strategy to integrate Bigcommerce into their ecommerce platform to make it the most high performance and user friendly platform. 
+              Kushel Digi Solutions initiated engagement with Ride Ready through intense consultation to gain in-depth insights into their goals, customers, and what they actually wanted to do. Equipped with such insight, we came up with a strategy to integrate Bigcommerce into their ecommerce platform to make it the most high performance and user friendly platform.
 
             </p>
           </div>
@@ -281,7 +283,7 @@ function rideready() {
               <div className="cas3circldata2">
                 <h4>Effective Brand-Based Search Feature</h4>
                 <p>
-                Ride Ready has a number of great selling points due to associations with top brands such as Arctic Cat and Stihl. To best utilize this, we have a powerful search-by-brands feature in place. This allows customers to select products for the manufacturer and immediately show them what they are looking for without their having browsed through useless items.
+                  Ride Ready has a number of great selling points due to associations with top brands such as Arctic Cat and Stihl. To best utilize this, we have a powerful search-by-brands feature in place. This allows customers to select products for the manufacturer and immediately show them what they are looking for without their having browsed through useless items.
 
                 </p>
               </div>
@@ -309,7 +311,7 @@ function rideready() {
               <div className="cas3circldata2">
                 <h4>Advanced product detail pages                </h4>
                 <p>
-                It is a widely known fact  that online shoppers always seek in-depth information related to the product. We have included sophisticated product detail pages that contain high-quality image, specifications, compatibility data, and usage instructions. The biggest benefit of this feature is that it  allows customers to make well-informed buying decisions ultimately reducing returns and unhappiness.
+                  It is a widely known fact  that online shoppers always seek in-depth information related to the product. We have included sophisticated product detail pages that contain high-quality image, specifications, compatibility data, and usage instructions. The biggest benefit of this feature is that it  allows customers to make well-informed buying decisions ultimately reducing returns and unhappiness.
 
                 </p>
               </div>
@@ -319,7 +321,7 @@ function rideready() {
 
         <SplideSlide>
           <section className="case3secfour2">
-          <img className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1732632243/eeeeeeeeeee_1_cxsdo7.png" alt="kushel" />
+            <img className="case4bggirl" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1732632243/eeeeeeeeeee_1_cxsdo7.png" alt="kushel" />
 
             <div className="cas3s4con">
               <div className="bgshowdb2">
@@ -333,7 +335,7 @@ function rideready() {
               <div className="cas3circldata2">
                 <h4>Easy Navigation for Intuitive Browsing                </h4>
                 <p>
-                Simple navigation menu lies at the heart of our approach: With Ride ready coming to the users through all levels of wide-ranging products, we have designed a streamlined menu to place the products into clearly meaningful and accessible categories. Now, customers can find their specific items or services in just a few clicks if they're looking for ATV parts or perhaps booking a repair appointment.
+                  Simple navigation menu lies at the heart of our approach: With Ride ready coming to the users through all levels of wide-ranging products, we have designed a streamlined menu to place the products into clearly meaningful and accessible categories. Now, customers can find their specific items or services in just a few clicks if they're looking for ATV parts or perhaps booking a repair appointment.
 
                 </p>
               </div>
@@ -349,7 +351,7 @@ function rideready() {
           <div className="c2fivtopsec">
             <h4>How we build the E-Commerce development Process</h4>
             <p>
-            Kushel Digi committed to transform your tech solutions into impactful brands by ensuring unique customer experiences at every digital touchpoint through our  structured process.
+              Kushel Digi committed to transform your tech solutions into impactful brands by ensuring unique customer experiences at every digital touchpoint through our  structured process.
 
             </p>
           </div>
@@ -362,9 +364,8 @@ function rideready() {
                 <p
                   key={index}
                   onClick={() => handleSelectionChange(index)}
-                  className={`${
-                    selectS4 === index && "addthsomfbg"
-                  } cursor-pointer`}
+                  className={`${selectS4 === index && "addthsomfbg"
+                    } cursor-pointer`}
                 >
                   {d2Item?.title}
                 </p>
@@ -402,7 +403,7 @@ function rideready() {
                 interval: 3000,
                 pagination: true,
                 arrows: false,
-                pauseOnHover:false
+                pauseOnHover: false
               }}
             >
               {d2?.map((item, index) => (
@@ -461,7 +462,7 @@ function rideready() {
           </div>
 
           <div className="csizbot">
-           <a href="contact-us"><button>
+            <a href="contact-us"><button>
               <span>Start a conversation</span>
             </button></a>
           </div>
@@ -486,15 +487,15 @@ function rideready() {
                   <p className="sep2">{project?.title2}</p>
                 </div>
 
-              <a href={project?.link}> <button>
+                <a href={project?.link}> <button>
                   <span>Case study</span>
-                </button></a> 
+                </button></a>
               </div>
             ))}
           </div>
         </div>
       </section>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

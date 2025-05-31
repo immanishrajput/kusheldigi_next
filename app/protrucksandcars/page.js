@@ -1,17 +1,12 @@
 "use client"
-import React, { useEffect } from 'react'
-
-
-import Link from 'next/link';
-
-
-
-import Navbar from '../COMMON/Navbar';
-import Footer from '../COMMON/Footer';
-
+import React, { useEffect } from "react";
 import '../globals.css'
-import Head from 'next/head';
 
+import Head from 'next/head';
+import Footer from "../COMMON/Footer";
+import Navbar from "../COMMON/Navbar";
+
+import Link from "next/link";
 
 const projects = [
   {
@@ -34,8 +29,7 @@ const projects = [
   },
 ];
 
-const Solenoid = () => {
-
+const ProTrucks = () => {
 
   const phoneNumber = "9045301702";
 
@@ -48,9 +42,16 @@ const Solenoid = () => {
     window.open(callUrl, "_blank");
   }
 
+  const scrollToTop = () => {
+    // Scroll to the top of the page with smooth behavior
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
   const generateMetadata = ({ params }) => ({
-    title: 'Solenoid Ninja | Ecommerce Growth with BigCommerce Website Development',
-    description: "See how Solenoid Ninja boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
+    title: 'Pro Trucks and Cars | Ecommerce Growth with BigCommerce Website Development',
+    description: "See how Pro Trucks and Cars boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study.",
   });
 
   useEffect(() => {
@@ -60,7 +61,6 @@ const Solenoid = () => {
     metaDescription ? metaDescription.content = description :
       document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
   }, []);
-
   return (
     <>
 
@@ -78,32 +78,31 @@ const Solenoid = () => {
         <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
         <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
         <meta name="twitter:url" content="https://www.kusheldigi.com/" />
-
-        <link rel="canonical" href="https://www.kusheldigi.com/solenoid-ninja" />
-
+        <link rel="canonical" href="https://www.kusheldigi.com/protrucksandcars" />
       </Head>
 
       <Navbar />
-
       <div className="ser-main">
-
         <div>
           <div className="side-bg-trio">
             <div className="first-kick-pads">
               <div className="left-section-kids">
-                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740466127/pru3_g5s5nh.png' className='pru3' alt="img"></img>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472140/pru_yxgfwt.png' className="pru" alt="img"></img>
                 <p className="shoots_premium">
-                  <span className="heightlisght_premium"> Given that </span>{" "}
-                  the materials market is highly volatile, we are currently facing extended lead times beyond the usual duration.
+                  <span className="heightlisght_premium"> Pro Trucks,</span> a
+                  family-owned business, is here to turn your dream vehicle into
+                  a reality. We specialize in crafting unique, functional, and
+                  amazing rides. From mild to wild, we're here to bring your
+                  vision to life!
                 </p>
-                <h1>Technologies Used</h1>
+                <h3>Technologies Used</h3>
                 <div className="main-box-logic flex">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740466166/opqweeeeeee_sk342j.png' id="sim" alt="img"></img>
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740466215/opqweeeeeee2_ifxf28.png' id="rotat" alt="img"></img>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472204/opqweeeeeee_cu9os9.png' id="sim" alt="img"></img>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472246/opqweeeeeee2_h8sne3.png' id="rotat" alt="img"></img>
                 </div>
               </div>
               <div className="right-section-kids">
-                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740465585/solenoidfff_kuelry.png' id="total-group" alt="img"></img>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740471895/pro-trucks-s_lpnj4a.png' id="total-group" alt="ProTrucks bussiness"></img>
               </div>
             </div>
             {/* ........................................ */}
@@ -111,34 +110,39 @@ const Solenoid = () => {
               <div className="MadFish-back">
                 <div className="MadFish-back1">
                   <div className="MadFish_press_head">
-                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740466295/madlogooooo_qfa43j.png' alt="madlogooooo" />
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472327/madlogooooo_ujlity.png' alt="madlogooooo" />
                   </div>
                   <div className="MadFish_press_para">
                     <p>
-                      Materials market volatility has led to extended lead times. Solenoid Ninja, in collaboration withc <span>MadFish </span>  Solutions, enhances your access to expertise and innovation. Elevate your procurement experience with us. Experience innovation like never before, backed by our partnership with MadFish Solutions.
-
+                      Pro Trucks, a family-owned business, makes your dream
+                      vehicle a reality, from mild to wild. The Pro Trucks
+                      program, backed by <span>MadFish</span> Solutions, ensures
+                      you experience excellence and innovation. Choose us for
+                      your automotive dreams, and drive your dreams with Pro
+                      Trucks and MadFish Solutions.
                     </p>
                   </div>
                 </div>
                 <div className="MadFish-back2">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740466353/mad5_zfip4i.png' alt="MadFish" />
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472364/mad2_yqpzdu.png' alt="MadFish" />
                 </div>
               </div>
             </div>
+
             {/* ************************************************** */}
             <div className="second-service-conte">
               <p className="service-hinking">Services Provided</p>
               <div className="main-img-mighty">
                 <div className="bepolo">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740465812/Group_1000004718_i84dou.png' id="ux-safari" alt="img"></img>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740471802/Group_1000004718_lmr8qb.png' id="ux-safari" alt="img"></img>
                   <p>UX/UI Website Design</p>
                 </div>
                 <div className="bepolo">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740465850/Group_1000004715_tpdkn9.png' id="web-safari" alt="img"></img>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740471834/Group_1000004715_scfvbs.png' id="web-safari" alt="img"></img>
                   <p>Website Development</p>
                 </div>
                 <div className="bepolo">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740465883/Group_1000004716_kcepfr.png' id="qa-safari" alt="img"></img>
+                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740471863/Group_1000004716_crcvh6.png' id="qa-safari" alt="img"></img>
                   <p>QA & Website Testing</p>
                 </div>
               </div>
@@ -146,20 +150,17 @@ const Solenoid = () => {
           </div>
         </div>
         {/* *********************************************** */}
-        <div className="third-wireframe-homie-solenoid-s">
-          <div className="inner-third-local-solenoid-s">
+        <div className="third-wireframe-homie-PRO-TRUCKS">
+          <div className="inner-third-local-PRO-TRUCKS">
             <p>Wireframes</p>
-            <div className="three-section-lab-solenoid-s">
-
-              <div className="single_big-solenoid-s">
-                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740466082/hh9_kord2h.png' id="pads-cats" alt="img"></img>
+            <div className="three-section-lab-PRO-TRUCKS">
+              <div className="single_big-PRO-TRUCKS">
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740471993/mnop1_weym0u.png' id="pads-cats" alt="img"></img>
               </div>
-
             </div>
           </div>
         </div>
         {/* ******************************************** */}
-
         <div className="fourth-plate-juuls">
           <div className="left-card-hub">
             <div className="vl-chic">
@@ -173,21 +174,18 @@ const Solenoid = () => {
                   <p className="dark-canny">Aa</p>
                   <p className="prompt-tip">Montserrat</p>
                 </div>
-
               </div>
               <div className="sub-worm">
                 <p className="tool">Tools Use</p>
-                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740465913/Group_1000006500_1_ugrnng.png' id="pals-circle" alt="img"></img>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740471932/Group_1000006500_1_iwrrru.png' id="pals-circle" alt="img"></img>
               </div>
             </div>
           </div>
           <div className="right-card-omega">
             <p>Color Plate</p>
-            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740465943/hh10_hqhqt1.png' id="gang" alt="img" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740471960/hh5_dhnp6b.png' id="gang" alt="img" />
           </div>
         </div>{" "}
-
-
 
         <div className="back-story">
           <div className="step1-back">
@@ -197,78 +195,80 @@ const Solenoid = () => {
             </div>
             <div className="step-backs2">
               <p>
-                Solenoid Ninja was born out of a passionate engineer's desire to simplify and enhance the world of solenoid valves. Fueled by a deep understanding of industrial automation and a commitment to innovation, Solenoid Ninja set out to provide a comprehensive online platform that offers not only a wide range of high-quality solenoid valves but also valuable expertise and guidance. With a dedication to serving diverse industries and solving intricate fluid control challenges, Solenoid Ninja quickly established itself as a trusted source of solenoid solutions.
-
+                {" "}
+                Pro Trucks and Cars, a thriving family business, renowned for
+                its aftermarket performance vehicle expertise, is now embracing
+                the digital era under the leadership of Luke Kowalski. This
+                project, initiated on December 5, 2022, with a target completion
+                date of February 28, 2023, includes E-commerce site design,
+                BigCommerce setup, data import, Zoho sales automation, and SEO
+                services.
               </p>
 
             </div>
           </div>
           <div className="step-images flex items-center justify-center mt-20">
-            <img className="stepback solenoid-stepback" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740466009/hh13_huc3c1.png' alt="stepback" />
-            <img className="stepback1 solenoid-stepback1" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740465975/hh12_ij0naa.png' alt="stepback1" />
+            <img
+              className="stepback solenoid-stepback1"
+              src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472046/hh6_n2xwok.png'
+              alt="stepback"
+            />
+            <img
+              className="stepback1 solenoid-stepback1"
+              src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472076/hh7_g47ct7.png'
+              alt="stepback1"
+            />
           </div>
         </div>
-
-
-
-
         <div className="challenge-story">
           <div className="challenge-story1">
             <h3 className="nila">02</h3>
-            <h3>
-              Challenges  & Solutions
-            </h3>
+            <h3>Challenges & Solutions</h3>
           </div>
           <div className="challenge-story2 flex">
-            <div className="challenge-box">
+            <div className="challenge-box challenge-box2">
               <h4>Challenges</h4>
               <div className="chal"></div>
               <div className="challenge-list mt-8">
                 <div className="challenge-list1">
-                  <div className="nilust"></div>
                   <p>
-                    Solenoid Ninja encountered various challenges on its path to becoming a prominent solenoid valve provider. They encompassed navigating the complexities of the constantly evolving industrial automation landscape, managing supply chain disruptions, and maintaining consistent product quality. Moreover, establishing a robust online presence and fostering trust within a diverse customer base were critical challenges in an intensely competitive market. However, Solenoid Ninja's unwavering commitment to innovation and customer satisfaction empowered the company to overcome these obstacles and prosper.
+                    Amidst remarkable success, the business aspires to leap into the digital realm. Luke's unwavering dedication to this transition is evident as he's enlisted a social media specialist to bolster his brand's online presence.
+
                   </p>
                 </div>
-
               </div>
             </div>
-            <div className="challenge-box ml-3">
+            <div className="challenge-box challenge-box3 ml-3 challenge-box2">
               <h4>Solutions</h4>
               <div className="chal"></div>
               <div className="challenge-list mt-8">
                 <div className="challenge-list1">
-                  <div className="nilust"></div>
                   <p>
-                    In response to the challenges at hand, Solenoid Ninja adopted a multifaceted approach. First, they diversified their product range, expanding to encompass a wide variety of solenoid valves tailored to meet the needs of diverse industries. Additionally, they streamlined their supply chain management, implementing strategies to mitigate disruptions and ensure on-time deliveries.
-                  </p>
-                </div>
-                <div className="challenge-list1">
-                  <div className="nilust"></div>
-                  <p>
-                    Diversified product range
+                    We're embarking on creating a store with a distinctive design. The Data Here to There plugin will seamlessly import all essential data, covering categories, products, images, pricing, and specifications. In addition, we're integrating the innovative MadFish Launch Pack, which encompasses:
 
                   </p>
                 </div>
                 <div className="challenge-list1">
                   <div className="nilust"></div>
-                  <p>
-                    Streamlined supply chain
-
+                  <p>Comprehensive BigCommerce training.
                   </p>
                 </div>
                 <div className="challenge-list1">
                   <div className="nilust"></div>
-                  <p>
-                    Quality assurance
-
-
-                  </p>
+                  <p>In-depth competitive analysis.</p>
                 </div>
                 <div className="challenge-list1">
                   <div className="nilust"></div>
+                  <p>Precise SEO keyword analysis.</p>
+                </div>
+                <div className="challenge-list1">
+                  <div className="nilust"></div>
+                  <p>The development of 20 SEO-centric category descriptions.
+                  </p>
+                </div>
+                <div className="challenge-list1">
                   <p>
-                    Online expertise
+                    -The next steps involve the installation of an email marketing program, the utilisation of Google Analytics and Google Search Console, and the creation of a keyword-rich email template for marketing. We’re developing an SEO project using our in-house tools customised for SE Ranking. To ensure effective marketplace management, we’re formulating a detailed plan along with regular reviews at 30, 60, and 90-day checkpoints. During the initial year, we'll conduct quarterly reviews for continuous refinement. In the realm of client engagement, we're also setting up Zoho CRM Plus, offering email marketing, marketing automation, chatbots, and customer support chat – a powerful tool with significant future revenue potential.
 
                   </p>
                 </div>
@@ -276,21 +276,21 @@ const Solenoid = () => {
             </div>
           </div>
         </div>
-
-        <div className="kick-start kick-start22">
+        {/* <div className="kick-start kick-start22">
           <div className="kick-first kick-first222">
-
             <div className="kickds">
-              <img className="kick_mart" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740465534/trackent1_go22cp.png' alt="kick5" />
+              <img className="kick_mart" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740471646/trackent_mkilsg.png' alt="kick5" />
             </div>
           </div>
           <div className="kick-second kick-second222 relative">
-
-            <img className=" relative z-10 about162 pick222" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740466045/hh14_pshfou.png' alt="pick" />
+            <img3
+              className=" relative z-10 about162 pick222"
+              src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472105/hh8_g9ouy9.png'
+              alt="hh8"
+            />
           </div>
-        </div>
-
-        <div className="azib">
+        </div> */}
+        <div className="azib prozib">
           <div className="azib1">
             <div className="azib1-sect">
               <div className="azib1-first">
@@ -299,35 +299,30 @@ const Solenoid = () => {
               </div>
               <div className="azib1-second">
                 <p>
-                  Solenoid Ninja's dedication to diversifying its product range, streamlining its supply chain, and maintaining product quality has led to increased customer satisfaction, reduced lead times, and a stronger position as a trusted solenoid valve provider in the competitive industrial automation market.
-                </p>
+                  The incorporation of Zoho CRM Plus and website optimization has significantly elevated customer-business interaction. The streamlined onboarding form adds substantial convenience for customers, resulting in a notable enhancement of the overall business experience.
 
+                </p>
                 <div className="azib-tech">
                   <h3>Technologies Used</h3>
-                  <img className="conjun" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740466249/opqweeeeeee3_i2cpk8.png' alt="conjun" />
+                  <img className="conjun" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472284/opqweeeeeee3_kgmddp.png' alt="conjun" />
                 </div>
               </div>
             </div>
-
             <div className="azib-images flex items-center justify-center">
-              <img className='soling1' src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740465629/soling1_ebqfkl.jpg' alt="soli" />
-              <img className='soling1' src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740465671/soling2_zdmrks.jpg' alt="soli" />
-              <img className='soling1' src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740465743/soling3_wzj01p.jpg' alt="soli" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740471744/pt5_laoigm.jpg' alt="pt4" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740471772/pt6_acyz4q.jpg' alt="pt5" />
+              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740471716/pt4_c1gon0.jpg' alt="pt6" />
             </div>
           </div>
         </div>
-
         <div className="client-apperication">
           <h2>Client Appreciation</h2>
           <p>
-            “Thank you Affle team for all your hardwork, patience and continuous
-            support. The app is getting positive reviews and we hope to continue
-            to improve and evolve the app. Looking forward to our continued
-            growth.”
+            “We would like to express our sincere appreciation to the diligent Affle team for your steadfast dedication, patience, and consistent assistance. The application has been well-received, with favourable feedback, and we are fully dedicated to its continual improvement and progression as we look forward to our sustained expansion in the future.
+            ”
           </p>
-          <h4>Sandeep Sharma</h4>
+          <h4>Matt Reeder</h4>
         </div>
-
 
         <section className="sc2sevensec">
           <div className="sc2sevnconta">
@@ -355,6 +350,7 @@ const Solenoid = () => {
           </div>
         </section>
 
+
         <div className="req">
           <div className="req-sect">
             <h3>
@@ -365,6 +361,7 @@ const Solenoid = () => {
               You can send us the details of your project, and a member of our
               team will contact you shortly.
             </p>
+
             <button className="req-button">
               <Link href="/contact-us">
                 Start a conversation{" "}
@@ -376,23 +373,23 @@ const Solenoid = () => {
                 />
               </Link>
             </button>
+
           </div>
         </div>
-
         {/*  buttons  */}
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740466393/whatsapp_onug09.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469695/whatsapp_ubh9of.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
           <button onClick={callHandler}>
-            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740466433/telephone_g3zvoj.png' alt="call-icon" title="call-icon" />
+            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469745/telephone_twhjto.png' alt="call-icon" title="call-icon" />
           </button>
 
         </div>
       </div>
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Solenoid
+export default ProTrucks;

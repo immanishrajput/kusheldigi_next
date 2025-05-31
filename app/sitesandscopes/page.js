@@ -4,12 +4,12 @@ import { useEffect, useState } from "react";
 import { TiTick } from "react-icons/ti";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
-import './riffle.css'
+import './sites.css'
 
 import '../globals.css'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
-function riffle() {
+function page() {
 
   const d1 = [
     {
@@ -32,11 +32,11 @@ function riffle() {
       data: {
         img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216631/c2d1_j5clbp.png",
         title: "Discovery Phase",
-        para: "Realizing the importance of a firm workflow foundation firsthand, we dedicate a separate chunk of work to researching, studying, and understanding your business's core needs and vision for a desired product or service.",
+        para: "This phase is the foundation of a successful project. We focus on having a deep understanding about your business, target audience and goals to ensure that our solutions align with your business goal.",
         points: [
-          "Analyzing niches, competitors, & requirements",
-          "Strategizing time and cost-efficient workflows",
-          "Aiming for individually optimized results",
+          "In-depth Market Research",
+          "Requirement Analysis",
+          "Strategic Planning for effective execution ",
         ],
       },
     },
@@ -104,10 +104,10 @@ function riffle() {
       link: "/kick-eez"
     },
     {
-      img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217009/down3_ucxpri.png",
-      title1: "Sites & Scopes",
+      img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746541118/image_3_dptpxb.png",
+      title1: "A&I Parts Center",
       title2: "E-commerce, Bigcomerce ",
-      link: "/sitesandscopes"
+      link: "/aipartscenter"
     },
   ];
 
@@ -126,8 +126,8 @@ function riffle() {
   };
 
   const generateMetadata = ({ params }) => ({
-    title: 'Rifle Supply | Ecommerce Growth with BigCommerce Website Development',
-    description: "See how Rifle Supply boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
+    title: 'Sites and Scopes | Ecommerce Growth with BigCommerce Website Development',
+    description: "See how Sites and Scopes boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
   });
 
   useEffect(() => {
@@ -144,17 +144,17 @@ function riffle() {
 
       <Navbar />
 
-      <link rel="canonical" href="https://www.kusheldigi.com/riflesupply" />
+      <link rel="canonical" href="https://www.kusheldigi.com/sitesandscopes" />
 
       {/* first sectino */}
-      <section className="case1firsec" id="AiPortfolioImage">
+      <section className="case1firsec">
         <img
           src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216400/case1fil_bwtual.png"
           alt="kushel"
           className="case1fill"
         />
         <img
-          src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622906/Group_1171279216_j6teud.png"
+          src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744695577/pistol-sights_2_f2ydiu.png"
           alt="kushel"
           className="case1bg"
         />
@@ -166,15 +166,15 @@ function riffle() {
               <div className="ca1firleft">
                 <div>
                   <img
-                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745921174/standardlogo_400px_nobackground_1678492593__36894_kmlufu.webp"
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744699185/Group_1171279222_byjflc.png"
                     alt="kushel"
                   />
                 </div>
-                <p>Rifle Supply</p>
+                <p>Sites and Scopes</p>
               </div>
 
               <p className="ca1firrigh">
-                Rifle Supply is an exclusive shop for firearms, parts, and accessories. The brand deals in a wide range of products related to rifles, guns, Glock shops, AR parts, and much more. It is well-known for its expansive inventory with more than 4800 products available on its website.
+                Sites and Scopes has specialized experience in delivering high performance optics and accessories for marksmen, hunters, and tactical professionals. All their aim is on delivering a precision-engineered product for utmost reliability and clearness in any environment.
               </p>
             </div>
 
@@ -197,82 +197,57 @@ function riffle() {
       </section>
 
       {/* secon section  */}
-      <section className="case2secsec2" id="case2_Background_Port">
+      <section className="case2secsec2" id="case2SiteScope">
         <div className="case2seccont">
           <img
-            src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746537844/madfish-logo1_ghjavp.png"
+            src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216503/case2imgs1_xngbpg.png"
             alt="kushel"
             className="cs2i1"
           />
 
           <div className="sc2_main_content">
-            <h1>Client Background</h1><p>
-              At present, the company is serving gun enthusiasts, professional shooters, and enforcement agencies. It’s a trusted name for the firearms dealership. If you are planning to upgrade your handgun or any other firearm-related equipment, then RifleSupply is worth checking out.  </p>
+            <h1>Client Background</h1>
+
             <p>
-              However, what you are seeing on the website today has been transformed by Kushel Digi Solutions with their expert team efforts. <b>MadFish Solutions </b> has offered us this opportunity, which we successfully worked on to our best.
+              Sites and Scopes has specialized experience in delivering high performance optics and accessories for marksmen, hunters, and tactical professionals. All their aim is on delivering a precision-engineered product for utmost reliability and clearness in any environment.
 
             </p>
           </div>
         </div>
 
-
         <img
-          src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744626323/Ellipse_2616_b05zg1.png"
+          src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744696116/Ellipse_2616_2_a0lkd1.png"
           alt="kushel"
           className="c2el1"
         />
       </section>
-
-      <div className="PortfolioChallenges">
-        <div className="PortfolioChallengeMain">
-          <h4> Challenges</h4>
-          <p> RifleSupply was facing several obstacles to its growth:</p>
-          <div>
-            <ul>
-              <li>
-                The older website lacked mobile efficiency. No mobile-friendly interface was affecting the sales.
-              </li>
-              <li>Most of the website elements were outdated, and an entire revamp was the only way to fix them. </li>
-              <li>The website was complex to use, as many of the product details were missing. </li>
-              <li>Compliance complexity was another factor that we had to work on to make the site’s design align with it. </li>
-              <li>Real-time product availability was missing, so prospects used to step away from the website. </li>
-              <li>The absence of search filters was creating difficulty in scrolling through the broad range of products. </li>
-              <li>Marketing efforts were clearly invisible. Poor On-page SEO and inadequate customer engagement were a big challenge to cover up. </li>
-            </ul>
-          </div>
-        </div>
-        <div className="portfolioImageChallenge">
-          <img
-            src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746643901/Group_1171279276_eyfkn6.png"
-            // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744631255/Group_1171281276_psr4aw.png"
-            alt="kushel"
-          />
-        </div>
-
-      </div>
 
       {/* third section  */}
       <section className="case3secthir">
         <div className="sc3sectcont">
           {/* left side */}
           <div className="s3secltleft">
-            <div className="c3s3_head2" id="riffle_solution">
+            <div className="c3s3_head2" id="c3_SitesScope">
               <h3>Solution</h3>
               <p></p>
             </div>
 
             <p className="s3theeparas">
-              Though many challenges were there, our expert teammates found the appropriate solutions to create what customers will love to go through. The main parts that required attention were website layout and storefront development. For both, choosing the right tool is going to make all the difference. </p>
+              Sites & Scope  was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help, they wanted to implement a more user-friendly ecommerce platform, refine search engine optimization (SEO), develop content to support that optimization, and launch an intelligent digital advertising campaign to maximize return on ad spend (ROAS).
+
+
+
+            </p>
 
             <p className="s3theeparas">
-              Throughout the development stage, Kushel Digi Solutions took the responsibility of changing digital transformation from scratch. We formulated the roadmap from start to end for making this redesigning project successful and then executed the plans with a collaborative approach.
+              {" "}
+              The new BigCommerce website for Gordy & Sons needed to successfully integrate their graphical point-of-sale environment and inventory management system, CounterPoint. It was critical that the two systems communicated seamlessly to ensure accurate, real-time data for product inventory, orders, and customer detail.
 
             </p>
           </div>
 
           <img
-            src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746643899/Group_1171279278_n6mfn8.png"
-            // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744631255/Group_1171281276_psr4aw.png"
+            src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744699366/Group_1171281292_wjrtby.png"
             alt="kushel"
             className="c3antoimg"
           />
@@ -286,7 +261,7 @@ function riffle() {
           type: "loop",
           perPage: 1,
           autoplay: true,
-          interval: 6000,
+          interval: 3000,
           pagination: true,
           arrows: false,
           pauseOnHover: false
@@ -296,23 +271,23 @@ function riffle() {
           <section className="case3secfour2">
             <img
               className="case4bggirl"
-              src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747333600/Group_1171279293_xbmklo.png"
+              src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744697099/Superior_Optics_Unbeatable_Performance._posiad.png"
               alt="kushel"
             />
-            <div className="cas3s4con" id="cas3s4conn">
+            <div className="cas3s4con" id="case3_Black_PortCircle">
               <div className="bgshowdb2">
                 <img
-                  src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746707943/Group_1171279287_1_fo74cr.png"
+                  src=" https://res.cloudinary.com/dd9tagtiw/image/upload/v1744699370/Group_1171281294_vdobgy.png"
                   alt="kushel"
-                  className="shadowbg2"
+                  className="shadowbg2" id="caBlack_PortCircle"
                 />
               </div>
 
-              <div className="cas3circldata2" id="case3Portfolio_riffle">
-                <h4>Custom Layout Design
-                </h4>
+              <div className="cas3circldata2" id="sites_port_circle">
+                <h4>Custom Catalog Page</h4>
                 <p>
-                  With the help of Figma, our expert designers crafted a fresh UI that included modern web layout elements. This was done in alignment with RifleSupply’s brand image.
+                  2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help.
+
                 </p>
               </div>
             </div>
@@ -323,23 +298,23 @@ function riffle() {
           <section className="case3secfour2">
             <img
               className="case4bggirl"
-              src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747333600/Group_1171279293_xbmklo.png"
+              src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744697099/Superior_Optics_Unbeatable_Performance._posiad.png"
               alt="kushel"
             />
 
-            <div className="cas3s4con" id="cas3s4conn">
+            <div className="cas3s4con">
               <div className="bgshowdb2">
                 <img
-                  src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746707940/Group_1171279292_vbrwty.png"
+                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744699365/Group_1171281295_ia7uff.png"
                   alt="kushel"
                   className="shadowbg2"
                 />
               </div>
 
-              <div className="cas3circldata2" id="case3Portfolio_riffle">
-                <h4>Headless BigCommerce Development </h4>
+              <div className="cas3circldata2" id="sites_port_circle">
+                <h4>Product Detail Page</h4>
                 <p>
-                  We created a high-performing wholesale Ecommerce platform using BigCommerce. It has everything to fit the needs of RifeSupply and engage customers in the long run. From featuring countless products to making it scalable. BigCommerce turned out to be a limitless choice.
+                  2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help.
 
                 </p>
               </div>
@@ -349,31 +324,28 @@ function riffle() {
 
         <SplideSlide>
           <section className="case3secfour2">
-            <img className="case4bggirl" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747333600/Group_1171279293_xbmklo.png" alt="kushel" />
+            <img className="case4bggirl"
+              src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744697099/Superior_Optics_Unbeatable_Performance._posiad.png" alt="kushel" />
 
-            <div className="cas3s4con" id="imgPortfolio_Phone">
-
-
-              <div className="cas3circldata2" id="case3Portfolio_riffle">
-                <h4>
-                  App Integrations
-                </h4>
-                <p>
-                  One of the advantages of choosing BigCommerce is that plenty of app integrations are available to download. We integrated third-party tools for real-time inventory sync, SEO marketing tools, and advanced filtering to meet customers’ demands easily. Apart from that, we also simplified marketing for RifleSupply.
-                </p>
-              </div>
-              <div className="bgshowdb2" id="imgPortfolio_Ai_Phone">
+            <div className="cas3s4con">
+              <div className="bgshowdb2">
                 <img
-                  src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746707940/Group_1171279297_m7cscj.png"
+                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744699364/Group_1171281296_oqb8jn.png"
                   alt="kushel"
-                  className="shadowbg3"
+                  className="shadowbg2"
                 />
+              </div>
+
+              <div className="cas3circldata2" id="sites_port_circle">
+                <h4>Advance Filtering or Shorting Features</h4>
+                <p>
+                  2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help.
+
+                </p>
               </div>
             </div>
           </section>
         </SplideSlide>
-
-
       </Splide>
 
       {/* fivth  section  */}
@@ -383,7 +355,7 @@ function riffle() {
           <div className="c2fivtopsec">
             <h4>How we build the E-Commerce development Process</h4>
             <p>
-              We’ll turn your custom tech solutions into powerful brands by crafting unique customer experiences at every digital touchpoint with:
+              Kushel Digi committed to transform your tech solutions into impactful brands by ensuring unique customer experiences at every digital touchpoint through our  structured process.
 
             </p>
           </div>
@@ -473,22 +445,6 @@ function riffle() {
         </div>
       </section>
 
-      <div className="Mainresult_Portfolio">
-        <div className="result_Portfolio">
-          <h5>Result & Impact</h5>
-          <h6>
-            Our <b>BigCommerce website development </b> process and efforts paid off when the results started showing up. We witnessed these changes after updating the website:
-          </h6>
-          <ul>
-            <li>Better conversions were happening due to responsive design. </li>
-            <li>Improved compliance automation reduced the burden on the website handler. </li>
-            <li>Order accuracy and real-time data became easily accessible. </li>
-            <li> Web pages started loading faster, which improved customer satisfaction. </li>
-            <li>Robust On-Page SEO empowers a website with an edge in Google Search Ranking. </li>
-          </ul>
-          <p>Overall, working with RifleSupply was a great experience, and we are open to collaborating further. </p>
-        </div>
-      </div>
       {/* six section  */}
       <section className="cs2sexiesec">
         <img
@@ -504,8 +460,8 @@ function riffle() {
 
         <div className="c2sixconta">
           <div className="cssixtop">
-            <h4>Have a similar project in mind?      </h4>
-            <p>Discover how our expertise can benefit your project
+            <h4>Got a new project idea? Let’s make it happen!            </h4>
+            <p>See how our specialized approach can drive your project forward with impactful results
             </p>
           </div>
 
@@ -516,7 +472,6 @@ function riffle() {
           </div>
         </div>
       </section>
-
 
       {/* seven section  */}
       <section className="sc2sevensec">
@@ -549,4 +504,4 @@ function riffle() {
   );
 }
 
-export default riffle;
+export default page;

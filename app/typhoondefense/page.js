@@ -10,7 +10,7 @@ import '../globals.css'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
 function typhoon() {
-    
+
   const d1 = [
     {
       title1: "Industries",
@@ -95,19 +95,19 @@ function typhoon() {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216954/down1_kgzcrg.png",
       title1: "Topbrass tactical",
       title2: "E-commerce, Bigcomerce ",
-      link:"/topbrass"
+      link: "/topbrasstactical"
     },
     {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216979/down2_m0c8fa.png",
       title1: "Kickeez",
       title2: "E-commerce, Bigcomerce ",
-       link:"/kick-eez"
+      link: "/kick-eez"
     },
     {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217009/down3_ucxpri.png",
       title1: "Sites & Scopes",
       title2: "E-commerce, Bigcomerce ",
-      link:"/sites"
+      link: "/sitesandscopes"
     },
   ];
 
@@ -125,24 +125,27 @@ function typhoon() {
     }, 300);
   };
 
- const generateMetadata = ({ params }) => ({
-     title: 'Typhoon Defense | Ecommerce Growth with BigCommerce Website Development',
-     description: "See how Typhoon Defense boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
-   });
- 
-   useEffect(() => {
-     const { title, description } = generateMetadata({ params: {} });
-     document.title = title;
-     let metaDescription = document.querySelector('meta[name="description"]');
-     metaDescription ? metaDescription.content = description :
-       document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-   }, []);
-  
+  const generateMetadata = ({ params }) => ({
+    title: 'Typhoon Defense | Ecommerce Growth with BigCommerce Website Development',
+    description: "See how Typhoon Defense boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
+  });
+
+  useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description :
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
+
   return (
     <div className="case1wrap home-main">
 
 
-        <Navbar/>
+      <Navbar />
+
+      <link rel="canonical" href="https://www.kusheldigi.com/typhoondefense" />
+
       {/* first sectino */}
       <section className="case1firsec" id="AiPortfolioImage">
         {/* <img
@@ -156,7 +159,7 @@ function typhoon() {
           className="case1bg"
         /> */}
         <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454198/home-banner-typhoon_ivzg2y.jpg" alt="kushel"
-          className="case1fill"/>
+          className="case1fill" />
 
         <div className="cas1cont1wrap">
           <div className="case1fircont">
@@ -173,7 +176,7 @@ function typhoon() {
               </div>
 
               <p className="ca1firrigh">
-              Typhoon Defense is an ultimate firearm manufacturer that blends the magic of innovation, creativity, and superior craftsmanship. 
+                Typhoon Defense is an ultimate firearm manufacturer that blends the magic of innovation, creativity, and superior craftsmanship.
               </p>
             </div>
 
@@ -206,13 +209,13 @@ function typhoon() {
 
           <div className="sc2_main_content">
             <h1>Client Background</h1><p>
-            Typhoon Defense is an ultimate firearm manufacturer that blends the magic of innovation, creativity, and superior craftsmanship. It is leading the Bigcommerce landscape by designing unparalleled firearms.  </p>
+              Typhoon Defense is an ultimate firearm manufacturer that blends the magic of innovation, creativity, and superior craftsmanship. It is leading the Bigcommerce landscape by designing unparalleled firearms.  </p>
             <p>
-            Typhoon Defense implements exceptional expertise, innovative design, and supreme quality to build customer-centric products. This is a name to trust for precision engineering, reliability, and durability. It also delivers impressive customer service which is beyond your expectations so you can get the best for your shooting needs. Kushel Digit Solutions help them achieve better results by developing their website and optimising it for search engines for effective results. We get this projet opportunity from <b> MadFish Solutions,</b> which we are appreciable for,
+              Typhoon Defense implements exceptional expertise, innovative design, and supreme quality to build customer-centric products. This is a name to trust for precision engineering, reliability, and durability. It also delivers impressive customer service which is beyond your expectations so you can get the best for your shooting needs. Kushel Digit Solutions help them achieve better results by developing their website and optimising it for search engines for effective results. We get this projet opportunity from <b> MadFish Solutions,</b> which we are appreciable for,
             </p>
           </div>
         </div>
-        
+
 
         <img
           src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744626323/Ellipse_2616_b05zg1.png"
@@ -222,21 +225,21 @@ function typhoon() {
       </section>
 
       <div className="PortfolioChallenges">
-          <div className="PortfolioChallengeMain">
-            <h4> Challenges</h4>
-            <p> Behind the completion of this project, there were multiple challenges. One of them was minimal online exposure. Other than that, the client's digital infrastructure lacked the flexibility and modern layout. These two factors were reducing competitiveness. Even the product listings weren’t up to the mark and it was important to enhance security  </p>
-            <div>
-            
-            </div>
-            </div>
-<div className="portfolioImageChallenge">
-<img
+        <div className="PortfolioChallengeMain">
+          <h4> Challenges</h4>
+          <p> Behind the completion of this project, there were multiple challenges. One of them was minimal online exposure. Other than that, the client's digital infrastructure lacked the flexibility and modern layout. These two factors were reducing competitiveness. Even the product listings weren’t up to the mark and it was important to enhance security  </p>
+          <div>
+
+          </div>
+        </div>
+        <div className="portfolioImageChallenge">
+          <img
             src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746514576/typhoon-solutions5_c5pvse.png"
             alt="kushel"
           />
-</div>
-         
         </div>
+
+      </div>
 
       {/* third section  */}
       <section className="case3secthir">
@@ -245,25 +248,25 @@ function typhoon() {
           <div className="s3secltleft">
             <div className="c3s3_head2" id="typhoon_solution">
               <h3>Solution</h3>
-            <p></p>
+              <p></p>
             </div>
 
             <p className="s3theeparas">
-            Kushel Digi Solutions is driving digital transformation for Typhoon Defense by utilizing innovative digital tools and <b>bigcommerce theme development</b> strategies. After analyzing the nature of their business, Our expert team creates a roadmap of how to build a strong online presence for them utilizing <b>bigcommerce website development</b> service. Along with that, we plan strategies to effectively optimize their site performance. KushelDigi Solutions ensures that Typhoon Defense reaches its prospective audience effectively.   </p>
+              Kushel Digi Solutions is driving digital transformation for Typhoon Defense by utilizing innovative digital tools and <b>bigcommerce theme development</b> strategies. After analyzing the nature of their business, Our expert team creates a roadmap of how to build a strong online presence for them utilizing <b>bigcommerce website development</b> service. Along with that, we plan strategies to effectively optimize their site performance. KushelDigi Solutions ensures that Typhoon Defense reaches its prospective audience effectively.   </p>
 
             <p className="s3theeparas">
-            It is following a strategic digital marketing approach to build brand visibility making Typhoon Defense more recognizable and accessible. This transformation is a game changer, helping the brand to engage with potential customers easily. 
+              It is following a strategic digital marketing approach to build brand visibility making Typhoon Defense more recognizable and accessible. This transformation is a game changer, helping the brand to engage with potential customers easily.
 
             </p>
 
-            
+
             <p className="s3theeparas">
-            Kushel Digi Solutions is not just promoting Typhoon Defense but also enhancing its positioning and credibility by implementing strategic <b>bigcommerce app development</b> solutions.
+              Kushel Digi Solutions is not just promoting Typhoon Defense but also enhancing its positioning and credibility by implementing strategic <b>bigcommerce app development</b> solutions.
 
             </p>
           </div>
-          
-          
+
+
           <img
             // src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746516784/typhoon-solutions3_g3i3xm.png"
             src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746643324/Group_1171279260_1_lufqvo.png"
@@ -305,11 +308,11 @@ function typhoon() {
 
               <div className="cas3circldata2" id="case3Portfolio_typhoon">
                 <h4>Conducting Competitor Research and Analysis
-              </h4>
+                </h4>
                 <p>
-                Competitor research and analysis build the foundation to figure out the gaps in the current market and utilize the right ideas to market the firearms. Kusheldigi figures out the areas that need improvement and then formulates strategies to stand out in the competition.
-                {/* Thus, Kusheldigi keeps Typhoon Defense ahead in the ever-evolving digital landscape using a data-driven approach and effectively executing <b>bigcommerce custom development</b> services */}
-                {/* It uses the end data from research to modify the website’s design, functionality, and content in one go. */}
+                  Competitor research and analysis build the foundation to figure out the gaps in the current market and utilize the right ideas to market the firearms. Kusheldigi figures out the areas that need improvement and then formulates strategies to stand out in the competition.
+                  {/* Thus, Kusheldigi keeps Typhoon Defense ahead in the ever-evolving digital landscape using a data-driven approach and effectively executing <b>bigcommerce custom development</b> services */}
+                  {/* It uses the end data from research to modify the website’s design, functionality, and content in one go. */}
                 </p>
               </div>
             </div>
@@ -344,8 +347,8 @@ function typhoon() {
               </div>
             </div>
           </section> */}
-             
-             <section className="case3secfour2">
+
+          <section className="case3secfour2">
             <img
               className="case4bggirl"
               src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746519647/design-phase-background-typhoon_odls52.jpg"
@@ -363,10 +366,10 @@ function typhoon() {
 
               <div className="cas3circldata2" id="case3Portfolio_typhoon">
                 <h4>Secure and Reliable Ecommerce Platform
-              </h4>
-              <p>
-                Kusheldigi ensured that Typhoon Defense stays competitive and secure with a reliable ecommerce platform. It created a full-fledged ecommerce site based on <b>bigcommerce local theme development</b> to boost their sales and revenue. The website features SSL encryption, a secured payment process, responsive design, software updates, and much more. As the business keeps flourishing, the website will work adaptably according to the evolving market needs to bring long-term success. 
-                {/* It will meet evolving customer expectations by keeping the website performance optimal. */}
+                </h4>
+                <p>
+                  Kusheldigi ensured that Typhoon Defense stays competitive and secure with a reliable ecommerce platform. It created a full-fledged ecommerce site based on <b>bigcommerce local theme development</b> to boost their sales and revenue. The website features SSL encryption, a secured payment process, responsive design, software updates, and much more. As the business keeps flourishing, the website will work adaptably according to the evolving market needs to bring long-term success.
+                  {/* It will meet evolving customer expectations by keeping the website performance optimal. */}
                 </p>
               </div>
             </div>
@@ -376,24 +379,24 @@ function typhoon() {
 
         <SplideSlide>
           <section className="case3secfour2">
-            
-          <img className="case4bggirl" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746519647/design-phase-background-typhoon_odls52.jpg" alt="kushel" />
+
+            <img className="case4bggirl" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746519647/design-phase-background-typhoon_odls52.jpg" alt="kushel" />
 
             <div className="cas3s4con" id="imgPortfolio_Phone">
-             
+
 
               <div className="cas3circldata2" id="case3Portfolio_typhoon">
                 <h4>
-                Maintenance and Support 
+                  Maintenance and Support
                 </h4>
                 <p>
-             
-                Post-website development stage, Kusheldigi takes care of the maintenance and support part to optimize the website performance. It works on resolving errors quickly so that Typhoon Defense never has to worry about it. This eliminates the error within seconds to run your business smoothly. With 24/7 technical support and a proactive approach, it maintains stability and enhances long-term success. 
-                {/* The Kushaldigi team continuously monitors website traffic and boosts loading speeds to enhance the user experience. */}
+
+                  Post-website development stage, Kusheldigi takes care of the maintenance and support part to optimize the website performance. It works on resolving errors quickly so that Typhoon Defense never has to worry about it. This eliminates the error within seconds to run your business smoothly. With 24/7 technical support and a proactive approach, it maintains stability and enhances long-term success.
+                  {/* The Kushaldigi team continuously monitors website traffic and boosts loading speeds to enhance the user experience. */}
                 </p>
               </div>
               <div className="bgshowdb2" id="imgPortfolio_Ai_Phone">
-                
+
                 <img
                   // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632484/Group_1171281284_dpqrse.png"
                   src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746803424/Group_1171279310_dkjyfg.png"
@@ -405,7 +408,7 @@ function typhoon() {
           </section>
         </SplideSlide>
 
-       
+
       </Splide>
 
       {/* fivth  section  */}
@@ -415,7 +418,7 @@ function typhoon() {
           <div className="c2fivtopsec">
             <h4>How we build the E-Commerce development Process</h4>
             <p>
-            We’ll turn your custom tech solutions into powerful brands by crafting unique customer experiences at every digital touchpoint with:
+              We’ll turn your custom tech solutions into powerful brands by crafting unique customer experiences at every digital touchpoint with:
 
             </p>
           </div>
@@ -428,9 +431,8 @@ function typhoon() {
                 <p
                   key={index}
                   onClick={() => handleSelectionChange(index)}
-                  className={`${
-                    selectS4 === index && "addthsomfbg"
-                  } cursor-pointer`}
+                  className={`${selectS4 === index && "addthsomfbg"
+                    } cursor-pointer`}
                 >
                   {d2Item?.title}
                 </p>
@@ -468,7 +470,7 @@ function typhoon() {
                 interval: 3000,
                 pagination: true,
                 arrows: false,
-                pauseOnHover:false
+                pauseOnHover: false
               }}
             >
               {d2?.map((item, index) => (
@@ -505,15 +507,15 @@ function typhoon() {
           </div>
         </div>
       </section>
-    
-    
+
+
       <div className="Mainresult_Portfolio">
-<div className="result_Portfolio">
-  <h5>Result & Impact</h5>
- <p>Within the first few months of launch, Typhoon Defense noticed a significant increase in website traffic. The sales were rising, conversions turned double, and the platform became more scalable. This evolved digital presence positioned Typhoon Defense as a modern, reliable, and innovative firearm manufacturer. </p>
- 
-</div>
-</div>
+        <div className="result_Portfolio">
+          <h5>Result & Impact</h5>
+          <p>Within the first few months of launch, Typhoon Defense noticed a significant increase in website traffic. The sales were rising, conversions turned double, and the platform became more scalable. This evolved digital presence positioned Typhoon Defense as a modern, reliable, and innovative firearm manufacturer. </p>
+
+        </div>
+      </div>
 
       {/* six section  */}
       <section className="cs2sexiesec">
@@ -536,9 +538,9 @@ function typhoon() {
           </div>
 
           <div className="csizbot">
-           <a href="contact-us"><button>
+            <a href="contact-us"><button>
               <span>Start a conversation</span>
-            </button></a> 
+            </button></a>
             {/* <p>Or Start a conversation</p> */}
           </div>
         </div>
@@ -562,15 +564,15 @@ function typhoon() {
                   <p className="sep2">{project?.title2}</p>
                 </div>
 
-              <a href={project?.link}> <button>
+                <a href={project?.link}> <button>
                   <span>Case study</span>
-                </button></a> 
+                </button></a>
               </div>
             ))}
           </div>
         </div>
       </section>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
