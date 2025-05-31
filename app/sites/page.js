@@ -127,7 +127,7 @@ function page() {
 
   const generateMetadata = ({ params }) => ({
     title: 'Sites and Scopes | Ecommerce Growth with BigCommerce Website Development',
-    description: "See how Sites and Scopes boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study.",
+    description: "See how Sites and Scopes boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
   });
 
   useEffect(() => {
@@ -230,7 +230,8 @@ function page() {
             </div>
 
             <p className="s3theeparas">
-              Sites & Scope  was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help, they wanted to implement a more user-friendly ecommerce platform, refine search engine optimization (SEO), develop content to support that optimization, and launch an intelligent digital advertising campaign to maximize return on ad spend (ROAS). 
+              Sites & Scope  was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help, they wanted to implement a more user-friendly ecommerce platform, refine search engine optimization (SEO), develop content to support that optimization, and launch an intelligent digital advertising campaign to maximize return on ad spend (ROAS).
+
 
 
             </p>
@@ -282,8 +283,8 @@ function page() {
               <div className="cas3circldata2" id="sites_port_circle">
                 <h4>Custom Catalog Page</h4>
                 <p>
-                2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help.
-                  
+                  2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help.
+
                 </p>
               </div>
             </div>
@@ -310,8 +311,8 @@ function page() {
               <div className="cas3circldata2" id="sites_port_circle">
                 <h4>Product Detail Page</h4>
                 <p>
-                2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help.
-                  
+                  2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help.
+
                 </p>
               </div>
             </div>
@@ -320,9 +321,9 @@ function page() {
 
         <SplideSlide>
           <section className="case3secfour2">
-          <img className="case4bggirl"
-             src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744697099/Superior_Optics_Unbeatable_Performance._posiad.png" alt="kushel" />
-              
+            <img className="case4bggirl"
+              src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744697099/Superior_Optics_Unbeatable_Performance._posiad.png" alt="kushel" />
+
             <div className="cas3s4con">
               <div className="bgshowdb2">
                 <img
@@ -335,8 +336,8 @@ function page() {
               <div className="cas3circldata2" id="sites_port_circle">
                 <h4>Advance Filtering or Shorting Features</h4>
                 <p>
-                2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help.
-                  
+                  2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help.
+
                 </p>
               </div>
             </div>
@@ -351,8 +352,8 @@ function page() {
           <div className="c2fivtopsec">
             <h4>How we build the E-Commerce development Process</h4>
             <p>
-            Kushel Digi committed to transform your tech solutions into impactful brands by ensuring unique customer experiences at every digital touchpoint through our  structured process.
-              
+              Kushel Digi committed to transform your tech solutions into impactful brands by ensuring unique customer experiences at every digital touchpoint through our  structured process.
+
             </p>
           </div>
 
@@ -364,9 +365,9 @@ function page() {
                 <p
                   key={index}
                   onClick={() => handleSelectionChange(index)}
-                  className={`${
-                    selectS4 ===cursor-pointer`}
-                    
+                  className={`${selectS4 === index && "addthsomfbg"
+                    } cursor-pointer`}
+                >
                   {d2Item?.title}
                 </p>
               ))}
@@ -403,8 +404,8 @@ function page() {
                 interval: 3000,
                 pagination: true,
                 arrows: false,
-                pauseOnHover:false
-                 
+                pauseOnHover: false
+              }}
             >
               {d2?.map((item, index) => (
                 <SplideSlide key={index}>
@@ -462,9 +463,9 @@ function page() {
           </div>
 
           <div className="csizbot">
-           <a href="contact-us"><button>
-               <span>Start a conversation</span>
-            </button></a> 
+            <a href="contact-us"><button>
+              <span>Start a conversation</span>
+            </button></a>
           </div>
         </div>
       </section>
@@ -487,16 +488,16 @@ function page() {
                   <p className="sep2">{project?.title2}</p>
                 </div>
 
-              <a href={project?.link}> <button>
-                    <span>Case study</span>
-                </button></a> 
+                <a href={project?.link}> <button>
+                  <span>Case study</span>
+                </button></a>
               </div>
             ))}
           </div>
         </div>
       </section>
-      <Footer/>
-    </div>  
+      <Footer />
+    </div>
   );
 }
 
