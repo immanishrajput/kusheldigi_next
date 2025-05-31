@@ -53,10 +53,10 @@ export default function Porfolioo({page}) {
         <div className="Shopify-left-b2b-cardKcom">
           <div className="Shopify-b2b-logoKcom">
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743402463/lovely-6-page-2_atom41.jpg" alt="Shopify Plus" />
-            <Link href="/2ndamendment" id="Shopify-human" className="hover-linkCom"> View Case Study <MdArrowOutward /></Link>
+            <Link href="/2ndamendmentguns" id="Shopify-human" className="hover-linkCom"> View Case Study <MdArrowOutward /></Link>
           </div>
           
-          <a href="/2ndamendment" className="Shopify-b2b-btnKcom">
+          <a href="/2ndamendmentguns" className="Shopify-b2b-btnKcom">
           2ndamendment
             <p>{page}</p>
           </a>  
@@ -66,10 +66,10 @@ export default function Porfolioo({page}) {
           <div className="Shopify-b2b-logoKcom">
            
            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743402463/lovely-6-page-6_wfoqas.jpg" alt="Shopify Plus" />
-           <Link href="/sites" id="Shopify-human" className="hover-linkCom"> View Case Study<MdArrowOutward /></Link>
+           <Link href="/sitesandscopes" id="Shopify-human" className="hover-linkCom"> View Case Study<MdArrowOutward /></Link>
           </div>
          
-          <a href="/sites" className="Shopify-b2b-btnKcom">
+          <a href="/sitesandscopes" className="Shopify-b2b-btnKcom">
           Sites And Scopes 
             <p>{page}</p>
           </a>  
@@ -79,10 +79,10 @@ export default function Porfolioo({page}) {
         <div className="Shopify-left-b2b-cardKcom-3">
           <div className="Shopify-b2b-logoKcom">
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743402463/lovely-6-page-1_lbb6yj.jpg" alt="Shopify Plus" />
-            <Link href="/topbrass" id="Shopify-human" className="hover-linkCom"> View Case Study <MdArrowOutward/></Link>
+            <Link href="/topbrasstactical" id="Shopify-human" className="hover-linkCom"> View Case Study <MdArrowOutward/></Link>
           </div>
          
-          <a href="/topbrass" className="Shopify-b2b-btnKcom">
+          <a href="/topbrasstactical" className="Shopify-b2b-btnKcom">
           Top Brass Tactical
             <p>{page}</p>
           </a>
@@ -105,10 +105,10 @@ export default function Porfolioo({page}) {
         <div className="Shopify-right-b2b-cardKcom">
           <div className="Shopify-b2b-logoKcom">
             <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744009340/indrpal-6_xkecsz.png" alt="Shopify Plus" />
-            <a href="/Slidesdesign" id="Shopify-human" className="hover-linkCom">View Case Study <MdArrowOutward /></a>
+            <a href="/slides365" id="Shopify-human" className="hover-linkCom">View Case Study <MdArrowOutward /></a>
           </div>
           
-          <a href="/Slidesdesign" className="Shopify-b2b-btnKcom">
+          <a href="/slides365" className="Shopify-b2b-btnKcom">
           Slides 365
             <p>{page}</p>
           </a>

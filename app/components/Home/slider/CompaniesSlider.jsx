@@ -24,7 +24,7 @@ const slider2Images = [
   { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668955/2AA_Logo_Black_2_1_ickkxz.png', className: 'armore-img' },
   { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668955/sa_rqpzv0.png' },
   { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668954/graco_tw5ipb.png' },
-  { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668954/topbrass_miqpat.png' },
+  { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668954/topbrasstactical_miqpat.png' },
   { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668954/solenoid_f5nbub.png' },
   { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668954/typhoon_sorthk.png' },
 ];

@@ -32,7 +32,7 @@ const portfolioData = [
     ],
     links: {
       liveStore: 'https://www.phastekperformance.com/',
-      caseStudy: '/pro-track',
+      caseStudy: '/protrucksandcars',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -51,7 +51,7 @@ const portfolioData = [
     ],
     links: {
       liveStore: 'https://www.phastekperformance.com/',
-      caseStudy: '/rely',
+      caseStudy: '/relysafety',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -87,7 +87,7 @@ const portfolioData = [
     ],
     links: {
 
-      caseStudy: '/ballistic',
+      caseStudy: '/ballisticdummylab',
       platform: '/shopify-development',
     },
     case: ' View Case Study',
@@ -105,7 +105,7 @@ const portfolioData = [
     ],
     links: {
       liveStore: 'https://www.phastekperformance.com/',
-      caseStudy: '/sites',
+      caseStudy: '/sitesandscopes',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -124,7 +124,7 @@ const portfolioData = [
     ],
     links: {
       liveStore: 'https://www.phastekperformance.com/',
-      caseStudy: '/topbrass',
+      caseStudy: '/topbrasstactical',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -142,7 +142,7 @@ const portfolioData = [
     ],
     links: {
       liveStore: 'https://www.phastekperformance.com/',
-      caseStudy: '/Slidesdesign',
+      caseStudy: '/slides365',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -161,7 +161,7 @@ const portfolioData = [
     ],
     links: {
       liveStore: 'https://www.phastekperformance.com/',
-      caseStudy: '/2ndamendment',
+      caseStudy: '/2ndamendmentguns',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -180,7 +180,7 @@ const portfolioData = [
     ],
     links: {
 
-      caseStudy: '/blackRhino',
+      caseStudy: '/blackrhinoconcealment',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -244,7 +244,7 @@ const portfolioData = [
       liveStore: 'https://www.phastekperformance.com/',
 
       caseStudy: '/Ai',
-      caseStudy: '/Race-wax',
+      caseStudy: '/racewax',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -305,7 +305,7 @@ const portfolioData = [
       liveStore: 'https://www.phastekperformance.com/',
 
       caseStudy: '/Ai',
-      caseStudy: '/Krap-strap',
+      caseStudy: '/krappstrapp',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -325,7 +325,7 @@ const portfolioData = [
       liveStore: 'https://www.phastekperformance.com/',
 
       caseStudy: '/Ai',
-      caseStudy: '/bobcat',
+      caseStudy: '/bobcatarmament',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -345,7 +345,7 @@ const portfolioData = [
       liveStore: 'https://www.phastekperformance.com/',
 
       caseStudy: '/Ai',
-      caseStudy: '/serve',
+      caseStudy: '/servapure',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -404,7 +404,7 @@ const portfolioData = [
       liveStore: 'https://www.phastekperformance.com/',
 
       caseStudy: '/Ai',
-      caseStudy: '/lafayette-shooters',
+      caseStudy: '/lafayetteshooters',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -426,7 +426,7 @@ const portfolioData = [
       liveStore: 'https://www.phastekperformance.com/',
 
       caseStudy: '/Ai',
-      caseStudy: '/four-farm',
+      caseStudy: '/fouroaksfarm',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -448,7 +448,7 @@ const portfolioData = [
       liveStore: 'https://www.phastekperformance.com/',
 
       caseStudy: '/Ai',
-      caseStudy: '/Ai2',
+      caseStudy: '/aipartscenter',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -560,7 +560,7 @@ const portfolioData = [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
     links: {
-      caseStudy: '/crazyCMS',
+      caseStudy: '/mycrazysimplecms',
       // platform: '#',
     },
     case: ' View Case Study',
@@ -597,7 +597,7 @@ const portfolioData = [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
     links: {
-      caseStudy: '/woodView',
+      caseStudy: '/woodview',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',

@@ -5,7 +5,9 @@ import { TiTick } from "react-icons/ti";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
 import '../globals.css'
+import './krap.css'
 import Navbar from "../COMMON/Navbar";
+
 import Footer from "../COMMON/Footer";
 import Head from 'next/head';
 
@@ -133,6 +135,19 @@ function Page() {
         }, 300); // Time for the slide-out transition to complete
     };  /* Slide-out animation */
 
+    const generateMetadata = ({ params }) => ({
+        title: 'Krapp Strapp | Ecommerce Growth with BigCommerce Website Development',
+        description: "See how Krapp Strapp boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
+    });
+
+    useEffect(() => {
+        const { title, description } = generateMetadata({ params: {} });
+        document.title = title;
+        let metaDescription = document.querySelector('meta[name="description"]');
+        metaDescription ? metaDescription.content = description :
+            document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+    }, []);
+
 
     return (
         <div className="case1wrap home-main">
@@ -151,6 +166,9 @@ function Page() {
                 <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
                 <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
                 <meta name="twitter:url" content="https://www.kusheldigi.com/" />
+
+            <link rel="canonical" href="https://www.kusheldigi.com/krappstrapp" />
+
             </Head>
 
             <Navbar />
@@ -158,7 +176,7 @@ function Page() {
 
             <section className="case1firsec">
 
-                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322288/Group_1171279379_-_Copy_r6tcr6.png" alt="kushel" className="case1fill" />
+                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748015355/Group_1171279414_ayzx7l.png" alt="kushel" className="case1fill" />
                 {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216400/case1fil_bwtual.png" alt="kushel" className="case1fill" />
         <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216437/case1bg_j1tw2e.png" alt="kushel" className="case1bg" /> */}
 
@@ -168,12 +186,12 @@ function Page() {
                         <div className="case1fifirco">
                             {/* left  */}
                             <div className="ca1firleft">
-                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747323201/logo-white-new_1687810777__26159.original_tyhlxx.png" alt="kushel" />
-                                <p> Hit Bazar </p>
+                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748014394/krapp-strapp-logo_1726251600__26374.original_1_fx2cjv.png" alt="kushel" />
+                                <p> Krapp Strapp </p>
                             </div>
 
                             <p className="ca1firrigh">
-                            Hit Bazar is a well-known wholesale grocery business that offers quality food essentials at very reasonable prices. 
+                                Krapp Strapp brings game-changing innovation and an ultimate bathroom solution that enhances every outdoor experience.             {/* 2nd Amendment Armory is the most trusted firearms provider of high-quality gun accessories, serving customers both locally in Brandon, FL and across the nation. */}
                             </p>
                         </div>
 
@@ -208,16 +226,16 @@ function Page() {
                     <div className="sc2_main_content">
                         <h1>Client Background</h1>
 
-                       <p>
-                       Hit Bazar has emerged as a well-respected name within the wholesale grocery business mostly to bulk consumers, restaurants, and retailers.            </p>
+                        {/* <p>
+            2nd Amendment Guns is a service-disabled veteran business located in the prime location of Las Vegas, Nevada. Behind its foundation, the company represents a commitment to the people and the Constitution to serve. 
+            </p> */}
+                        <p>
+                            Built by the dynamic duo Bob Legg and Keith Lindsey, it provides tailored solutions to make the trip to nature more enjoyable. </p>
+                        <p>
 
-                        <p>    While more customers want to place online orders, the company realized they needed an online digital storefront that is scalable as well as convenient to maintain.
-                        </p>
-                        <p> Their desire was to upgrade processes while preserving ease of use as well as confidence that they have established offline.  </p>
-                     
-                         <p>
-                         Madfish Solutions has given us the opportunity to implement our expertise in this project.        </p>
-                     
+                            The company is working on creating outdoor necessities to help hunters, hikers, and outdoor lovers explore the wild with utmost comfort.                </p>
+                        <p> Adventurers can experience the thrill of nature at their convenience and bid adieu to the strain and the need to hug trees. We received this project from MadFish Solutions. </p>
+
                     </div>
                 </div>
 
@@ -229,24 +247,20 @@ function Page() {
                     <div>
                         {/* <h5>Before we started working on the project, there were the following challenges to tackle:-</h5> */}
                         <h5>
-                            1. No prior online existence or digital cataloging system.
-
+                            1. The site was lacking many modern features, and its outdated design was making it look pretty bad to the prospects.
                         </h5>
-                        {/* <p>Selling firearms requires compliance with a Federal Firearms License. The business has to pass through age verification, location-based restrictions, and a lot of other things to be eligible to run an <b>E-commerce shopping</b>. </p> */}
-                        <h5>2. Manual order placement through phone and WhatsApp, causing inefficiencies. </h5>
-                        {/* <p>The previous website had many issues, such as UI and UX design, performance, and improper infrastructure. It was becoming a hindrance to traffic growth and scalability.</p> */}
-                        <h5>3.Bulk product listings and price fluctuations becoming difficult to manage .</h5>
-                        {/* <p>As the inventory is large, finding the right product is pretty difficult. The users have to struggle because no advanced filtering and search refinements are there. </p> */}
-                        <h5>4.Requirement for multi-user access and role-based management for employees.</h5>
-                        {/* <p>Many of the potential customers exist on mobile, but the site wasn’t mobile-friendly. </p> */}
-                        <h5>5.Poor visibility and restricted reach beyond the local market.</h5>
+                        <h5>2. A whole roadmap from scratch was required for rebuilding the site in a new way. </h5>
+
+                        {/* <h5>3.Modernizing the site design to align it with the current trend of web development. </h5>
+              <h5>4.Boosting user retention and long-term engagement.</h5>
+              <h5>The backend wasn’t ready to help with long-term growth and enable advanced features. </h5> */}
 
                     </div>
                 </div>
                 <div className="portfolioImageChallenge">
                     <img
-                        src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322289/Group_1171279376_-_Copy_ldbeat.png"
-     
+                        src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748015354/Group_1171279422_hxqznt.png"
+                        // src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746514576/2nd-A-challenges_hdngwv.png"
                         alt="kushel"
                     />
                 </div>
@@ -265,20 +279,21 @@ function Page() {
                         </div>
 
                         <p className="s3theeparas">
-                        Kushel Digi Solutions designed a custom eCommerce website in BigCommerce according to the specific requirements of a wholesale grocery model.</p>
-                        <p className="s3theeparas">
-                        Our team decided to go with Figma. Once the design was ready, the next choice we made was BigCommerce architecture for scalable development.                         </p>
-                        {/* <p>We also did a thorough research to identify the market gaps and analyze the best possible solution for the business. </p> */}
-                        <p className="s3theeparas">We made the website mobile-responsive, enabling shop owners and retailers to order easily anytime from anywhere on any device.
+                            Kushel Digi Solutions strenuously worked to transform the website’s presence and functionality, giving it a modern aesthetic look to attract visitors.
                         </p>
-                        <p className="s3theeparas">Our team has also integrated secure payment gateways, real-time inventory management, and a checkout experience which is easy for customers.</p>
-                        <p className="s3theeparas"> Roles of staff were set up so that different access levels are permitted for admins, warehouse personnel, and order processors. Kushel Digi never compromised on making a robust SEO friendly </p>
-                        <p className="s3theeparas">architecture and an easy-to-use interface. As a result the site enabled Hit Bazar to transition effortlessly from offline selling to online commerce.
-                        </p>
-                    </div>
-                    <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322288/Group_1171279378_-_Copy_un4a6y.png" alt="kushel" className="c3antoimg" />
 
-                    {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216571/case3ano_uv19e1.png" alt="kushel" className="c3antoimg" /> */}
+                        <p className="s3theeparas">
+                            We are grateful to receive such a challenging yet intersting opportunity  and come together to revamp Krapp Strap’s site.
+                        </p>
+
+                        <p className="s3theeparas"> As a professional web design company, our expert analysts examined the business and figured out what would work best for the Krapp Strap.</p>
+
+                        <p className="s3theeparas">As it’s an e-commerce brand, our team formulated the entire roadmap to redesign the website and make it responsive to drive conversions and traffic. </p>
+                        <p className="s3theeparas">The design part is carried out on Figma with the help of our experienced web designers. Thereafter, we crafted a visually appealing and intuitive web design to align it with the brand’s image. Matching the client’s expectations was another challenge that we accomplished.</p>
+                        <p className="s3theeparas">After structuring the website using responsive design, the next part was to integrate BigCommerce and develop custom Ecommerce solutions.</p>
+                    </div>
+                    <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748015356/Group_1171279423_ylax98.png" alt="kushel" className="c3antoimg" />
+
                 </div>
             </section>
 
@@ -299,21 +314,19 @@ function Page() {
             >
                 <SplideSlide>
                     <section className="case3secfour" >
-                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747327973/sm-hero_2_wzq5us.png" alt="kushel" className="c1btimage" />
+                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748015828/strapp-in-usev4_1_3_rdc88s.png" alt="kushel" className="c1btimage" />
 
                         <div className="cas3s4con" id="cas3s4connn">
 
                             <div className="bgshowdb1" >
-                                < img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322289/Group_1171279386_zuyozu.png" />
-                                {/* <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746710597/Group_1171279306_o1qdhn.png" alt="kushel" className="ca2insideimg adjustheighimg" /> */}
-                                {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
+                                < img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748015354/Group_1171279426_hlphuo.png" />
+
                             </div>
 
-                            <div className="cas3circldata" id="cas3circldata1">
-                                <h4>Wholesale-Ready Capability
-
+                            <div className="cas3circldata" id="cas3circldata11">
+                                <h4>E-Commerce Development
                                 </h4>
-                                <p>We launched bulk order capabilities, price-tiering, and personalized product filters enabling businesses to purchase in bulk and maintain their budgets easily. This enabled Hit Bazar to support an array of wholesale customers with different order requirements and price expectations.                                . 
+                                <p>Considering the long-term vision of Krapp Strap and flexibility, BigCommerce turned out as our first choice for creating its e-commerce website.In the development phase, we focused on headless BigCommerce development, which separates the backend and front end to enable greater flexibility.
                                 </p>
                             </div>
 
@@ -325,22 +338,18 @@ function Page() {
 
                 <SplideSlide>
                     <section className="case3secfour" id="case3secfour22">
-                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747327973/sm-hero_2_wzq5us.png" alt="kushel" className="c1btimage" />
+                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748015828/strapp-in-usev4_1_3_rdc88s.png" alt="kushel" className="c1btimage" />
 
                         <div className="cas3s4con" id="cas3s4connn">
 
                             <div className="bgshowdb1" id="bgshowdb11">
-                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322290/Group_1171279382_-_Copy_lua8c3.png" />
-                                {/* <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454204/e-commerce-development_wu34yd.png" alt="kushel" className="ca2insideimg adjustheighimg" />
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
+                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748015353/Group_1171279432_kpuaxz.png" />
+
                             </div>
 
-                            <div className="cas3circldata" id="cas3circldata1">
-                                <h4>Simple Inventory Management
-
-                                </h4>
-                                <p>Our team has designed the back-end in a way to support large product lists with distinct stock and price changes. It enables the Hit Bazar team to easily update without technical assistance. It has drastically minimized turnaround time for manual stock updates .
-                                </p>
+                            <div className="cas3circldata" id="cas3circldata11">
+                                <h4>App Integrations</h4>
+                                <p>We integrated various apps into the BigCommerce platform to enhance the functionalities and simplify inventory management, order processing, customer support, and much more. Our custom ecommerce development process and integrations empower Krapp Strap to enhance operational efficiency in the long term.  </p>
                             </div>
 
                         </div>
@@ -350,20 +359,19 @@ function Page() {
 
                 <SplideSlide>
                     <section className="case3secfour">
-                        {/* <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" /> */}
-                         <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747327973/sm-hero_2_wzq5us.png" alt="kushel" className="c1btimage" />
+                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748015828/strapp-in-usev4_1_3_rdc88s.png" alt="kushel" className="c1btimage" />
+
                         <div className="cas3s4con" id="cas3s4connn">
 
-                            <div className="bgshowdb1">
-                                {/* <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784464/Group_1171279316_nc1yiv.png" alt="kushel" className="ca2insideimg addheightimage" /> */}
-                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322287/Group_1171279385_hzudvi.png" alt="kushel" className="" />
+                            <div className="bgshowdb1" id="bgshowdb11">
+
+                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748015353/Group_1171279431_x9bs0f.png" />
+
                             </div>
 
-                            <div className="cas3circldata" id="cas3circldata1">
-                                <h4>Mobile Responsive Ordering Experience
-                                </h4>
-                                <p>Our experts team focused on mobile-first approach that can facilitate retailers and restaurant entrepreneurs to place fast orders on the move. It ultimately minimized  turnaround time and also enhances convenience for repeat customers.                                . 
-                                
+                            <div className="cas3circldata" id="cas3circldata11">
+                                <h4>Post-Development Support </h4>
+                                <p>To ensure the long-term success of Krapp Strap and maintain its competitiveness, we offer post-development support. As a trustworthy E-Commerce development partner, Kushel Digi makes sure that the Krapp Strap site performance never runs down. In case any technical issue arises, it quickly resolves so that the customers can access it anytime and anywhere.
                                 </p>
                             </div>
 
@@ -480,13 +488,14 @@ function Page() {
                 <div className="result_Portfolio">
                     <h5>Result & Impact</h5>
                     {/* <h6>
-                        Users can now find certifications faster and understand what they’re signing up for:-
-                    </h6> */}
+  Users can now find certifications faster and understand what they’re signing up for:-
+  </h6> */}
                     <ul>
-                        <li>Since we launched Hit Bazar's BigCommerce-powered store, the company was able to grow beyond the physical boundaries, and new customers flocked to it from surrounding areas. </li>
-                        <li> Online orders picked up gradually, and the simplified backend reduced errors made manually along with the speed of order processing.  </li>
-                        <li> The platform allowed Hit Bazar to work more effectively, fulfill growing customer expectations, and establish itself as a technologically advanced wholesale brand.                        </li>
-                        {/* <li>Automating some functionalities freed up resources for fulfilling customer expectations and delivering better service.</li> */}
+                        <li> Upsurge in traffic and SERP rank</li>
+                        <li>Conversion rate improved</li>
+                        <li>Customers were engaging for a longer duration on the platform</li>
+                        <li>People were feeling more comfortable making payments</li>
+
 
                     </ul>
 

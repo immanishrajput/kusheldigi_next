@@ -322,9 +322,9 @@ const generateMetadata = ({ params }) => ({
               <h3 className="font-bold mb-2 mt-4">OUR PORTFOLIO</h3>
             </div>
             <div className="home512 flex flex-wrap justify-center mt-14">
-              <PortCard pads='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740459517/a9_d6mwrh.png' heading={heading} link="/2ndamendment" />
+              <PortCard pads='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740459517/a9_d6mwrh.png' heading={heading} link="/2ndamendmentguns" />
               <PortCard pads='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740459558/pads_djmmp8.png' heading={heading1} link="/kick-eez" />
-              <PortCard heading={heading2} pads='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740459598/bds_j6udgd.png' link="/pro-track" />
+              <PortCard heading={heading2} pads='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740459598/bds_j6udgd.png' link="/protrucksandcars" />
               {/* <PortCard heading={heading3} pads={jones} link="" /> */}
             </div>
           </div>

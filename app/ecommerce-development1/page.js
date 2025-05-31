@@ -745,14 +745,14 @@ const USA = ({ notify }) => {
             <div className="home512 flex flex-wrap justify-center mt-14">
               <PortCard heading={heading} pads={"https://res.cloudinary.com/dgif730br/image/upload/v1732807218/image_ak8xup.png"} para={para1} link="/rideready" target="_self"/>
               {/* https://res.cloudinary.com/dd9tagtiw/image/upload/v1724756981/Rectangle_17701_rgm3pb.png */}
-              <PortCard heading={heading1} pads={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1725886339/Group_1000010185_1_h1dk25.png"} para={para2} link="/Slidesdesign" target="_self" />
+              <PortCard heading={heading1} pads={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1725886339/Group_1000010185_1_h1dk25.png"} para={para2} link="/slides365" target="_self" />
               {/* https://res.cloudinary.com/dd9tagtiw/image/upload/v1724756978/HOME_1_dgsuqj.png */}
-              <PortCard heading={heading2} pads={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1725886338/image_6_s5p9p0.png"} para={para3} link="/topbrass" target="_self"/>
+              <PortCard heading={heading2} pads={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1725886338/image_6_s5p9p0.png"} para={para3} link="/topbrasstactical" target="_self"/>
               {/* https://res.cloudinary.com/dd9tagtiw/image/upload/v1724758481/jones.0d98683e5468971b2f7d_taeqvk.png */}
-              <PortCard heading={heading3} pads={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1725886339/image_5_ds431l.png"} para={para4} link="/sites" target="_self"/>
+              <PortCard heading={heading3} pads={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1725886339/image_5_ds431l.png"} para={para4} link="/sitesandscopes" target="_self"/>
 
               {/* =========================another two========== */}
-              <PortCard heading={heading4} pads={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1725886340/Group_1171275953_ylodxi.png"} para={para5} link="/ballistic" target="_self"/>
+              <PortCard heading={heading4} pads={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1725886340/Group_1171275953_ylodxi.png"} para={para5} link="/ballisticdummylab" target="_self"/>
               <PortCard heading={heading5} pads={"https://res.cloudinary.com/dd9tagtiw/image/upload/v1730447686/home-slider-1_ujqnho.png"} para={para6} link="/Ai" target="_self"/>
             </div>
           </div>

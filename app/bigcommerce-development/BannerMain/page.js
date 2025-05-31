@@ -15,7 +15,7 @@ const CaseStudy = () => {
       smallBtnText: 'View Case Study',
       smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744175094/circle_vvibyg.png',
       heading: 'Expert BigCommerce Development Solutions for Scalable Growth',
-      link: '/lafayette-shooters',
+      link: '/lafayetteshooters',
       bigCommerce: [
         {
           bigImg1: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745816937/lovely_icon-01_u037ec.png',
@@ -63,7 +63,7 @@ const CaseStudy = () => {
       smallBtnText: 'View Case Study',
       smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744291960/four-oaks-farm-circle_umugkf.png',
       heading: 'Expert BigCommerce Development Solutions for Scalable Growth',
-      link: '/four-farm',
+      link: '/fouroaksfarm',
       bigCommerce: [
         {
           bigImg1: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745816937/lovely_icon-01_u037ec.png',
@@ -79,7 +79,7 @@ const CaseStudy = () => {
       smallBtnText: 'View Case Study',
       smallImg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1743829268/lovely-5-3_tykoz4.jpg',
       heading: 'Expert BigCommerce Development Solutions for Scalable Growth',
-      link: '/Krap-strap',
+      link: '/krappstrapp',
       bigCommerce: [
         {
           bigImg1: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745816937/lovely_icon-01_u037ec.png',

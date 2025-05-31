@@ -395,7 +395,7 @@ useEffect(() => {
                     of danger, but also clearly instructs you on what to do
                     next.
                   </p>
-                  <Link href="/rely">
+                  <Link href="/relysafety">
                     <button className="kick_eez-btn">View</button>
                   </Link>
                 </div>
@@ -412,7 +412,7 @@ useEffect(() => {
                     Aftermarket suspension lift kits, leveling kits and
                     accessories for 4X4 off-road truck and jeep enthusiasts
                   </p>
-                  <Link href="/pro-track">
+                  <Link href="/protrucksandcars">
                     <button>View</button>
                   </Link>
                 </div>

@@ -10,7 +10,7 @@ import '../globals.css'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
 function graco() {
-    
+
   const d1 = [
     {
       title1: "Industries",
@@ -95,19 +95,19 @@ function graco() {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216954/down1_kgzcrg.png",
       title1: "Topbrass tactical",
       title2: "E-commerce, Bigcomerce ",
-      link:"/topbrass"
+      link: "/topbrasstactical"
     },
     {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216979/down2_m0c8fa.png",
       title1: "Kickeez",
       title2: "E-commerce, Bigcomerce ",
-       link:"/kick-eez"
+      link: "/kick-eez"
     },
     {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217009/down3_ucxpri.png",
       title1: "Sites & Scopes",
       title2: "E-commerce, Bigcomerce ",
-      link:"/sites"
+      link: "/sitesandscopes"
     },
   ];
 
@@ -125,28 +125,31 @@ function graco() {
     }, 300);
   };
 
- const generateMetadata = ({ params }) => ({
-     title: 'Graco Corporation | Ecommerce Growth with BigCommerce Website Development',
-     description: "See how Graco Corporation boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
-   });
- 
-   useEffect(() => {
-     const { title, description } = generateMetadata({ params: {} });
-     document.title = title;
-     let metaDescription = document.querySelector('meta[name="description"]');
-     metaDescription ? metaDescription.content = description :
-       document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-   }, []);
-  
+  const generateMetadata = ({ params }) => ({
+    title: 'Graco Corporation | Ecommerce Growth with BigCommerce Website Development',
+    description: "See how Graco Corporation boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
+  });
+
+  useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description :
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
+
   return (
     <div className="case1wrap home-main">
 
 
-        <Navbar/>
+      <Navbar />
+
+      <link rel="canonical" href="https://www.kusheldigi.com/graco-corp" />
+
       {/* first sectino */}
       <section className="case1firsec" id="AiPortfolioImage">
-        <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454195/Garcoo-homebanner_odvhrn.jpg"  alt="kushel"
-          className="case1fill"/>
+        <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454195/Garcoo-homebanner_odvhrn.jpg" alt="kushel"
+          className="case1fill" />
         {/* <img
           src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216400/case1fil_bwtual.png"
           alt="kushel"
@@ -173,7 +176,7 @@ function graco() {
               </div>
 
               <p className="ca1firrigh">
-              Graco Corporation is the global leader in manufacturing fluid handling products
+                Graco Corporation is the global leader in manufacturing fluid handling products
               </p>
             </div>
 
@@ -206,15 +209,15 @@ function graco() {
 
           <div className="sc2_main_content">
             <h1>Client Background</h1><p>
-            Graco Corporation is the global leader in manufacturing fluid handling products. Adhering to the quality, the company is known for its cutting-edge innovation, hardware, and industrial equipment solutions. It has built a strong reputation based on customer satisfaction. </p>
+              Graco Corporation is the global leader in manufacturing fluid handling products. Adhering to the quality, the company is known for its cutting-edge innovation, hardware, and industrial equipment solutions. It has built a strong reputation based on customer satisfaction. </p>
             <p>
-         
-The brand is catering to the needs of individual consumers as well as businesses. Its robust supply chain enables the sale of an extensive range of products. While it has already established its digital footprint and is constantly scaling, <b> Kushel Digi Solutions </b> stepped in to redesign the digital store. <b>MadFish Solutions </b>offered us this project which we successfully implemented with our efforts.
+
+              The brand is catering to the needs of individual consumers as well as businesses. Its robust supply chain enables the sale of an extensive range of products. While it has already established its digital footprint and is constantly scaling, <b> Kushel Digi Solutions </b> stepped in to redesign the digital store. <b>MadFish Solutions </b>offered us this project which we successfully implemented with our efforts.
 
             </p>
           </div>
         </div>
-        
+
 
         <img
           src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744626323/Ellipse_2616_b05zg1.png"
@@ -224,26 +227,26 @@ The brand is catering to the needs of individual consumers as well as businesses
       </section>
 
       <div className="PortfolioChallenges">
-          <div className="PortfolioChallengeMain">
-            <h4> Challenges</h4>
-            <p> Graco’s website featured an old-fashioned website layout. The products were placed in a cluttered position, and the response times were low, too.  </p>
-            <br/>
-            <p>Apart from them, the site was lacking some advanced features like product filtering, searchability, inventory tracking, and mobile optimization. </p>
-            <br/>
-            <p>To tackle the above challenges, we required a strategic roadmap. Our team ensured the design of an effective roadmap to achieve the website improvement goals. </p>
-            <div>
-            
-            </div>
-            </div>
-<div className="portfolioImageChallenge">
-<img
-src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746643908/Group_1171279265_1_wuvyh6.png"
+        <div className="PortfolioChallengeMain">
+          <h4> Challenges</h4>
+          <p> Graco’s website featured an old-fashioned website layout. The products were placed in a cluttered position, and the response times were low, too.  </p>
+          <br />
+          <p>Apart from them, the site was lacking some advanced features like product filtering, searchability, inventory tracking, and mobile optimization. </p>
+          <br />
+          <p>To tackle the above challenges, we required a strategic roadmap. Our team ensured the design of an effective roadmap to achieve the website improvement goals. </p>
+          <div>
+
+          </div>
+        </div>
+        <div className="portfolioImageChallenge">
+          <img
+            src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746643908/Group_1171279265_1_wuvyh6.png"
             // src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523269/garcoo-challenges_fd93as.png"
             alt="kushel"
           />
-</div>
-         
         </div>
+
+      </div>
 
       {/* third section  */}
       <section className="case3secthir">
@@ -252,22 +255,22 @@ src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746643908/Group_1171279
           <div className="s3secltleft">
             <div className="c3s3_head2" id="graco_solution">
               <h3>Solution</h3>
-            <p></p>
+              <p></p>
             </div>
 
             <p className="s3theeparas">
-            Being aware of the challenges, we knew what solutions needed now to fix the websites. We had to work on the design, <b>ecommerce development</b>, and building a perfect <b>B2B commerce platform</b>.</p>
+              Being aware of the challenges, we knew what solutions needed now to fix the websites. We had to work on the design, <b>ecommerce development</b>, and building a perfect <b>B2B commerce platform</b>.</p>
 
             <p className="s3theeparas">
-           
-For this, designing a plan from beginning to the end of the project was the first approach of the team. We studied the website carefully and noted where the most improvement needed. Following the issues and building the roadmap, Kushel Digi Solutions team was ready to redesign the Graco Corporation’s website. We helped the brand with every possible thing like enhancing website  product quality, optimizing images, fixing issues, and so on. 
- 
+
+              For this, designing a plan from beginning to the end of the project was the first approach of the team. We studied the website carefully and noted where the most improvement needed. Following the issues and building the roadmap, Kushel Digi Solutions team was ready to redesign the Graco Corporation’s website. We helped the brand with every possible thing like enhancing website  product quality, optimizing images, fixing issues, and so on.
+
 
             </p>
           </div>
 
           <img
-          src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746643901/Group_1171279267_nuyi0r.png"
+            src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746643901/Group_1171279267_nuyi0r.png"
             // src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523269/garcoo-solutions_b7vifc.png"
             alt="kushel"
             className="c3antoimg"
@@ -298,8 +301,8 @@ For this, designing a plan from beginning to the end of the project was the firs
             <div className="cas3s4con" id="cas3s4conn">
               <div className="bgshowdb2">
                 <img
-              
-               src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746700604/Group_1171279280_svpfzr.png"
+
+                  src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746700604/Group_1171279280_svpfzr.png"
                   // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744632483/Group_1171281280_ukeiu6.png"
                   alt="kushel"
                   className="shadowbg2"
@@ -308,10 +311,10 @@ For this, designing a plan from beginning to the end of the project was the firs
 
               <div className="cas3circldata2" id="case3Portfolio_graco">
                 <h4>Custom Layout
-              </h4>
+                </h4>
                 <p>
-           
-To design the custom layout of the Graco Corporation, we created a clean and modern Figma design. Our primary focus was on product clarity, quick navigation, enhancing usability, and creating a full-fledged <b> Ecommerce system</b>. 
+
+                  To design the custom layout of the Graco Corporation, we created a clean and modern Figma design. Our primary focus was on product clarity, quick navigation, enhancing usability, and creating a full-fledged <b> Ecommerce system</b>.
 
 
                 </p>
@@ -340,7 +343,7 @@ To design the custom layout of the Graco Corporation, we created a clean and mod
               <div className="cas3circldata2" id="case3Portfolio_graco">
                 <h4> BigCommerce Development Product Optimization</h4>
                 <p>
-                After completing the design, we decided to migrate the entire website to BigCommerce. Undoubtedly, there couldn’t have been any other choice better than a <b> headless ecommerce platform</b>. With full, scalable, and enterprise-level features, it had all that Graco Corporation required to grow.  
+                  After completing the design, we decided to migrate the entire website to BigCommerce. Undoubtedly, there couldn’t have been any other choice better than a <b> headless ecommerce platform</b>. With full, scalable, and enterprise-level features, it had all that Graco Corporation required to grow.
 
                 </p>
               </div>
@@ -350,18 +353,18 @@ To design the custom layout of the Graco Corporation, we created a clean and mod
 
         <SplideSlide>
           <section className="case3secfour2">
-          <img className="case4bggirl" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747333850/gracoil_4_jvx6xg.png" alt="kushel" />
+            <img className="case4bggirl" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747333850/gracoil_4_jvx6xg.png" alt="kushel" />
 
             <div className="cas3s4con" id="imgPortfolio_Phone">
-             
+
 
               <div className="cas3circldata2" id="case3Portfolio_graco">
                 <h4>
-              
-                Smart Integrations
+
+                  Smart Integrations
                 </h4>
                 <p>
-                Now, both the design and development of the Ecommerce shop are ready. The next area to enhance was customer relationship management and search engine optimization. For them, we used smart integration options. BigCommerce provides integrations to a plethora of third-party applications. 
+                  Now, both the design and development of the Ecommerce shop are ready. The next area to enhance was customer relationship management and search engine optimization. For them, we used smart integration options. BigCommerce provides integrations to a plethora of third-party applications.
                 </p>
               </div>
               <div className="bgshowdb2" id="imgPortfolio_Ai_Phone">
@@ -375,7 +378,7 @@ To design the custom layout of the Graco Corporation, we created a clean and mod
           </section>
         </SplideSlide>
 
-       
+
       </Splide>
 
       {/* fivth  section  */}
@@ -385,7 +388,7 @@ To design the custom layout of the Graco Corporation, we created a clean and mod
           <div className="c2fivtopsec">
             <h4>How we build the E-Commerce development Process</h4>
             <p>
-            We’ll turn your custom tech solutions into powerful brands by crafting unique customer experiences at every digital touchpoint with:
+              We’ll turn your custom tech solutions into powerful brands by crafting unique customer experiences at every digital touchpoint with:
 
             </p>
           </div>
@@ -398,9 +401,8 @@ To design the custom layout of the Graco Corporation, we created a clean and mod
                 <p
                   key={index}
                   onClick={() => handleSelectionChange(index)}
-                  className={`${
-                    selectS4 === index && "addthsomfbg"
-                  } cursor-pointer`}
+                  className={`${selectS4 === index && "addthsomfbg"
+                    } cursor-pointer`}
                 >
                   {d2Item?.title}
                 </p>
@@ -438,7 +440,7 @@ To design the custom layout of the Graco Corporation, we created a clean and mod
                 interval: 3000,
                 pagination: true,
                 arrows: false,
-                pauseOnHover:false
+                pauseOnHover: false
               }}
             >
               {d2?.map((item, index) => (
@@ -478,16 +480,16 @@ To design the custom layout of the Graco Corporation, we created a clean and mod
 
 
       <div className="Mainresult_Portfolio">
-<div className="result_Portfolio">
-  <h5>Result & Impact</h5>
-  <p>
-  When everything was ready, it was the wait for the results and impacts to witness. Within a few days of launching the upgraded website, the loading time increased significantly. The product interface was simplified, and navigating through it became easier than ever. 
-  </p>
- <p> The implementation of other features, like automated inventory management, improved productivity for the company. In fact, more users started using the website and engaged with pages for a long period. </p>
- <p>For more such ecommerce development solutions, you can reach out to us and let us showcase what we can do for your website. </p>
- 
-</div>
-</div>
+        <div className="result_Portfolio">
+          <h5>Result & Impact</h5>
+          <p>
+            When everything was ready, it was the wait for the results and impacts to witness. Within a few days of launching the upgraded website, the loading time increased significantly. The product interface was simplified, and navigating through it became easier than ever.
+          </p>
+          <p> The implementation of other features, like automated inventory management, improved productivity for the company. In fact, more users started using the website and engaged with pages for a long period. </p>
+          <p>For more such ecommerce development solutions, you can reach out to us and let us showcase what we can do for your website. </p>
+
+        </div>
+      </div>
       {/* six section  */}
       <section className="cs2sexiesec">
         <img
@@ -510,9 +512,9 @@ To design the custom layout of the Graco Corporation, we created a clean and mod
           </div>
 
           <div className="csizbot">
-           <a href="contact-us"><button>
+            <a href="contact-us"><button>
               <span>Start a conversation</span>
-            </button></a>  
+            </button></a>
           </div>
         </div>
       </section>
@@ -535,15 +537,15 @@ To design the custom layout of the Graco Corporation, we created a clean and mod
                   <p className="sep2">{project?.title2}</p>
                 </div>
 
-              <a href={project?.link}> <button>
+                <a href={project?.link}> <button>
                   <span>Case study</span>
-                </button></a> 
+                </button></a>
               </div>
             ))}
           </div>
         </div>
       </section>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

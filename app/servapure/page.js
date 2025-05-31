@@ -6,6 +6,7 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
 import '../globals.css'
 import Navbar from "../COMMON/Navbar";
+
 import Footer from "../COMMON/Footer";
 import Head from 'next/head';
 
@@ -133,6 +134,19 @@ function Page() {
         }, 300); // Time for the slide-out transition to complete
     };  /* Slide-out animation */
 
+    const generateMetadata = ({ params }) => ({
+        title: 'ServAPure | Ecommerce Growth with BigCommerce Website Development',
+        description: "See how ServAPure boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
+    });
+
+    useEffect(() => {
+        const { title, description } = generateMetadata({ params: {} });
+        document.title = title;
+        let metaDescription = document.querySelector('meta[name="description"]');
+        metaDescription ? metaDescription.content = description :
+            document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+    }, []);
+
 
     return (
         <div className="case1wrap home-main">
@@ -151,6 +165,9 @@ function Page() {
                 <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
                 <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
                 <meta name="twitter:url" content="https://www.kusheldigi.com/" />
+
+                <link rel="canonical" href="https://www.kusheldigi.com/servapure" />
+
             </Head>
 
             <Navbar />
@@ -158,7 +175,7 @@ function Page() {
 
             <section className="case1firsec">
 
-                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322288/Group_1171279379_-_Copy_r6tcr6.png" alt="kushel" className="case1fill" />
+                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748206691/Group_1171279456_s3eflo.png" alt="kushel" className="case1fill" />
                 {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216400/case1fil_bwtual.png" alt="kushel" className="case1fill" />
         <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216437/case1bg_j1tw2e.png" alt="kushel" className="case1bg" /> */}
 
@@ -168,13 +185,12 @@ function Page() {
                         <div className="case1fifirco">
                             {/* left  */}
                             <div className="ca1firleft">
-                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747323201/logo-white-new_1687810777__26159.original_tyhlxx.png" alt="kushel" />
-                                <p> Hit Bazar </p>
+                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748206713/sp-logo_1718202719__08634_1_1_qov0dt.png" alt="kushel" />
+                                <p> Serv A Pure </p>
                             </div>
 
                             <p className="ca1firrigh">
-                            Hit Bazar is a well-known wholesale grocery business that offers quality food essentials at very reasonable prices. 
-                            </p>
+                                Serv A Pure is a trusted leader of water purification and filtration systems. It is providing a plethora of filtration solutions through its broad range of products for residential, commercial, and industrial needs.                            </p>
                         </div>
 
                         {/* secont */}
@@ -208,16 +224,17 @@ function Page() {
                     <div className="sc2_main_content">
                         <h1>Client Background</h1>
 
-                       <p>
-                       Hit Bazar has emerged as a well-respected name within the wholesale grocery business mostly to bulk consumers, restaurants, and retailers.            </p>
+                        {/* <p>
+            2nd Amendment Guns is a service-disabled veteran business located in the prime location of Las Vegas, Nevada. Behind its foundation, the company represents a commitment to the people and the Constitution to serve. 
+            </p> */}
+                        <p>
+                            The brand is putting full emphasis on creating top-notch water flow meters, Water purifier pumps, water softener resins, deionized water, etc. </p>
+                        <p>
 
-                        <p>    While more customers want to place online orders, the company realized they needed an online digital storefront that is scalable as well as convenient to maintain.
-                        </p>
-                        <p> Their desire was to upgrade processes while preserving ease of use as well as confidence that they have established offline.  </p>
-                     
-                         <p>
-                         Madfish Solutions has given us the opportunity to implement our expertise in this project.        </p>
-                     
+                            With more than 78 years of experience in water purification excellence, it has left a strong mark on the lives of people.                </p>
+                        <p> As the demand for its product started growing and customers wanted more, Serve a Pure identified a strong need for creating a user-friendly platform.  </p>
+                        <p>That’s when Kushel Digi Solutions arrived to reimagine the storefront and transform it into a scalable shopping store. So we ensured to cater to the needs of the client and optimize the shipping experience. Madfish offered the opportunity to us to work on this project.</p>
+
                     </div>
                 </div>
 
@@ -227,26 +244,22 @@ function Page() {
                 <div className="PortfolioChallengeMain">
                     <h4> Challenges</h4>
                     <div>
-                        {/* <h5>Before we started working on the project, there were the following challenges to tackle:-</h5> */}
+                        <h5>Though the Serve A Pure website was functional, it posed several barriers to customers in shopping. Many information was lacking on the site, so it was difficult to make an informed choice for anyone:-</h5>
                         <h5>
-                            1. No prior online existence or digital cataloging system.
-
+                            1. The site had an outdated design with no professional appearance.
                         </h5>
-                        {/* <p>Selling firearms requires compliance with a Federal Firearms License. The business has to pass through age verification, location-based restrictions, and a lot of other things to be eligible to run an <b>E-commerce shopping</b>. </p> */}
-                        <h5>2. Manual order placement through phone and WhatsApp, causing inefficiencies. </h5>
-                        {/* <p>The previous website had many issues, such as UI and UX design, performance, and improper infrastructure. It was becoming a hindrance to traffic growth and scalability.</p> */}
-                        <h5>3.Bulk product listings and price fluctuations becoming difficult to manage .</h5>
-                        {/* <p>As the inventory is large, finding the right product is pretty difficult. The users have to struggle because no advanced filtering and search refinements are there. </p> */}
-                        <h5>4.Requirement for multi-user access and role-based management for employees.</h5>
-                        {/* <p>Many of the potential customers exist on mobile, but the site wasn’t mobile-friendly. </p> */}
-                        <h5>5.Poor visibility and restricted reach beyond the local market.</h5>
+                        <h5>2. Product layout was cluttered, making it difficult for users to find specific filters. </h5>
+
+                        <h5>3.Mobile-friendliness wasn’t there, and this was affecting sales. </h5>
+                        <h5>4.Missing modern elements to track the sales rate or search for the products through filtered options.</h5>
+                        {/* <h5>The backend wasn’t ready to help with long-term growth and enable advanced features. </h5>  */}
 
                     </div>
                 </div>
                 <div className="portfolioImageChallenge">
                     <img
-                        src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322289/Group_1171279376_-_Copy_ldbeat.png"
-     
+                        src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748206866/Group_1171279453_mh2slx.png"
+                        // src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746514576/2nd-A-challenges_hdngwv.png"
                         alt="kushel"
                     />
                 </div>
@@ -265,20 +278,20 @@ function Page() {
                         </div>
 
                         <p className="s3theeparas">
-                        Kushel Digi Solutions designed a custom eCommerce website in BigCommerce according to the specific requirements of a wholesale grocery model.</p>
-                        <p className="s3theeparas">
-                        Our team decided to go with Figma. Once the design was ready, the next choice we made was BigCommerce architecture for scalable development.                         </p>
-                        {/* <p>We also did a thorough research to identify the market gaps and analyze the best possible solution for the business. </p> */}
-                        <p className="s3theeparas">We made the website mobile-responsive, enabling shop owners and retailers to order easily anytime from anywhere on any device.
+                            When the challenges were visible, our team collaborated to develop the entire project plan. From designing the roadmap to analyzing the competitors, we were fully committed to extending the legacy of Serve A Pure.
                         </p>
-                        <p className="s3theeparas">Our team has also integrated secure payment gateways, real-time inventory management, and a checkout experience which is easy for customers.</p>
-                        <p className="s3theeparas"> Roles of staff were set up so that different access levels are permitted for admins, warehouse personnel, and order processors. Kushel Digi never compromised on making a robust SEO friendly </p>
-                        <p className="s3theeparas">architecture and an easy-to-use interface. As a result the site enabled Hit Bazar to transition effortlessly from offline selling to online commerce.
-                        </p>
-                    </div>
-                    <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322288/Group_1171279378_-_Copy_un4a6y.png" alt="kushel" className="c3antoimg" />
 
-                    {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216571/case3ano_uv19e1.png" alt="kushel" className="c3antoimg" /> */}
+                        <p className="s3theeparas">
+                            At first, we explored what options we have for the site design. Depending on the existing design, our experts chose Figma to prepare a fresh layout including the product details and everything else.                        </p>
+
+                        <p className="s3theeparas"> Once the ecommerce design was ready, the next thing to do was to migrate the site to a reliable ecommerce platform.</p>
+
+                        {/* <p className="s3theeparas">As it’s an e-commerce brand, our team formulated the entire roadmap to redesign the website and make it responsive to drive conversions and traffic. </p>
+                        <p className="s3theeparas">The design part is carried out on Figma with the help of our experienced web designers. Thereafter, we crafted a visually appealing and intuitive web design to align it with the brand’s image. Matching the client’s expectations was another challenge that we accomplished.</p>
+                        <p className="s3theeparas">After structuring the website using responsive design, the next part was to integrate BigCommerce and develop custom Ecommerce solutions.</p> */}
+                    </div>
+                    <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748269807/Group_1171279482_cgj84c.png" alt="kushel" className="c3antoimg" />
+
                 </div>
             </section>
 
@@ -299,21 +312,19 @@ function Page() {
             >
                 <SplideSlide>
                     <section className="case3secfour" >
-                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747327973/sm-hero_2_wzq5us.png" alt="kushel" className="c1btimage" />
+                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748205988/image_198_ptlnj0.png" alt="kushel" className="c1btimage" />
 
                         <div className="cas3s4con" id="cas3s4connn">
 
                             <div className="bgshowdb1" >
-                                < img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322289/Group_1171279386_zuyozu.png" />
-                                {/* <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746710597/Group_1171279306_o1qdhn.png" alt="kushel" className="ca2insideimg adjustheighimg" /> */}
-                                {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
+                                < img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748208378/Group_1171279460_ogyvub.png" />
+
                             </div>
 
-                            <div className="cas3circldata" id="cas3circldata1">
-                                <h4>Wholesale-Ready Capability
-
+                            <div className="cas3circldata" id="cas3circldata11">
+                                <h4>UI/UX Redesign
                                 </h4>
-                                <p>We launched bulk order capabilities, price-tiering, and personalized product filters enabling businesses to purchase in bulk and maintain their budgets easily. This enabled Hit Bazar to support an array of wholesale customers with different order requirements and price expectations.                                . 
+                                <p>We started with a full redesign in Figma while putting focus on clarity and ease of use. The new interface prioritized intuitive navigation, simplified product pages, and a responsive layout for mobile and desktop.
                                 </p>
                             </div>
 
@@ -325,22 +336,18 @@ function Page() {
 
                 <SplideSlide>
                     <section className="case3secfour" id="case3secfour22">
-                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747327973/sm-hero_2_wzq5us.png" alt="kushel" className="c1btimage" />
+                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748205988/image_198_ptlnj0.png" alt="kushel" className="c1btimage" />
 
                         <div className="cas3s4con" id="cas3s4connn">
 
                             <div className="bgshowdb1" id="bgshowdb11">
-                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322290/Group_1171279382_-_Copy_lua8c3.png" />
-                                {/* <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454204/e-commerce-development_wu34yd.png" alt="kushel" className="ca2insideimg adjustheighimg" />
-            <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
+                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748206811/Group_1171279463_rrt1ui.png" />
+
                             </div>
 
-                            <div className="cas3circldata" id="cas3circldata1">
-                                <h4>Simple Inventory Management
-
-                                </h4>
-                                <p>Our team has designed the back-end in a way to support large product lists with distinct stock and price changes. It enables the Hit Bazar team to easily update without technical assistance. It has drastically minimized turnaround time for manual stock updates .
-                                </p>
+                            <div className="cas3circldata" id="cas3circldata11">
+                                <h4>BigCommerce Migration</h4>
+                                <p>We shifted the entire site to BigCommerce to build an enterprise-grade eCommerce platform. This choice improved loading time and saved resources for the company.   </p>
                             </div>
 
                         </div>
@@ -350,20 +357,20 @@ function Page() {
 
                 <SplideSlide>
                     <section className="case3secfour">
-                        {/* <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" /> */}
-                         <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747327973/sm-hero_2_wzq5us.png" alt="kushel" className="c1btimage" />
+                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748205988/image_198_ptlnj0.png" alt="kushel" className="c1btimage" />
+
                         <div className="cas3s4con" id="cas3s4connn">
 
-                            <div className="bgshowdb1">
-                                {/* <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784464/Group_1171279316_nc1yiv.png" alt="kushel" className="ca2insideimg addheightimage" /> */}
-                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747322287/Group_1171279385_hzudvi.png" alt="kushel" className="" />
+                            <div className="bgshowdb1" id="bgshowdb11">
+
+                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748208152/Group_1171279466_3_bwzrv9.png" />
+
                             </div>
 
-                            <div className="cas3circldata" id="cas3circldata1">
-                                <h4>Mobile Responsive Ordering Experience
+                            <div className="cas3circldata" id="cas3circldata11">
+                                <h4>Smart Integrations
                                 </h4>
-                                <p>Our experts team focused on mobile-first approach that can facilitate retailers and restaurant entrepreneurs to place fast orders on the move. It ultimately minimized  turnaround time and also enhances convenience for repeat customers.                                . 
-                                
+                                <p>For additional functions on the website, our team integrated the platform with third-party plugins. It simplified CRM, inventory management, SEO optimization, and many other things.
                                 </p>
                             </div>
 
@@ -479,14 +486,16 @@ function Page() {
             <div className="Mainresult_Portfolio">
                 <div className="result_Portfolio">
                     <h5>Result & Impact</h5>
-                    {/* <h6>
-                        Users can now find certifications faster and understand what they’re signing up for:-
-                    </h6> */}
+                    <h6>
+                        After launch, Serve a Pure saw immediate benefits:-
+                    </h6>
                     <ul>
-                        <li>Since we launched Hit Bazar's BigCommerce-powered store, the company was able to grow beyond the physical boundaries, and new customers flocked to it from surrounding areas. </li>
-                        <li> Online orders picked up gradually, and the simplified backend reduced errors made manually along with the speed of order processing.  </li>
-                        <li> The platform allowed Hit Bazar to work more effectively, fulfill growing customer expectations, and establish itself as a technologically advanced wholesale brand.                        </li>
-                        {/* <li>Automating some functionalities freed up resources for fulfilling customer expectations and delivering better service.</li> */}
+                        <li> Improved site speed and mobile performance</li>
+                        <li>Increased product discoverability via smart filters and search features</li>
+                        <li>Higher user engagement and longer session durations</li>
+                        <li>    • Streamlined operations that enabled the team to focus more on customer service and growth
+                            With the efforts of Kushel Digi Solutions, Serve a Pure is now equipped with a digital store as pure and efficient as the water it helps deliver.</li>
+
 
                     </ul>
 

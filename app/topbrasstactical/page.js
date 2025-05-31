@@ -1,14 +1,42 @@
+
 "use client"
+
 import React, { useState, useEffect } from "react";
+
+
+// import { NavLink } from "react-router-dom";
+
+import Link from "next/link";
+;
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import Head from 'next/head';
-import Link from "next/link";
+// import "../components/css/app2.css";
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
 import '../globals.css'
 
-const Ai2 = () => {
+const projects = [
+    {
+        img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217009/down3_ucxpri.png",
+        title1: "Sites & Scopes",
+        title2: "E-commerce, Bigcomerce ",
+        link: "/sitesandscopes"
+    },
+    {
+        img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216979/down2_m0c8fa.png",
+        title1: "Kickeez",
+        title2: "E-commerce, Bigcomerce ",
+        link: "/kick-eez"
+    },
+    {
+        img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746541118/image_3_dptpxb.png",
+        title1: "A&I Parts Center",
+        title2: "E-commerce, Bigcomerce ",
+        link: "/aipartscenter"
+    },
+];
+
+const TopBrass = () => {
     const [perPage, setPerPage] = useState(3);
     useEffect(() => {
         if (window.matchMedia("(max-width: 800px)").matches) {
@@ -30,9 +58,12 @@ const Ai2 = () => {
         const callUrl = `tel:${phoneNumber}`;
         window.open(callUrl, "_blank");
     }
+
+
+
     const generateMetadata = ({ params }) => ({
-        title: 'Kusheldigi.com/Ai',
-        description: "web agency, web design agency , best web design agency in the world, web design agency, web design services, web design and development agency"
+        title: 'Top Brass Tactical | Ecommerce Growth with BigCommerce Website Development',
+        description: "See how Top Brass Tactical boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study.",
     });
 
     useEffect(() => {
@@ -43,69 +74,47 @@ const Ai2 = () => {
             document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
     }, []);
 
-
     return (
         <>
-
-            <Head>
-                {/* Open Graph (OG) Meta Tags */}
-                <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
-                <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
-                <meta property="og:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
-                <meta property="og:url" content="https://www.kusheldigi.com/" />
-                <meta property="og:type" content="website" />
-
-                {/* Twitter Card Meta Tags */}
-                <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Kushel Digi | Expert eCommerce Development Services" />
-                <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
-                <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
-                <meta name="twitter:url" content="https://www.kusheldigi.com/" />
-            </Head>
-
             <Navbar />
-            {/* <helmet> */}
-            <link rel="canonical" href="https://www.kusheldigi.com/kick-eez" />
-            {/* </helmet> */}
+
+            <link rel="canonical" href="https://www.kusheldigi.com/topbrasstactical" />
+
+
             <div className="ser-main">
                 <div>
                     <div className="side-bg-trio">
-                        <div className="first-kick-pads incheingh11">
+                        <div className="first-kick-pads">
                             <div className="left-section-kids">
-                                <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738993896/hghh_r30or2.png' width="170" alt="img"></img>
+                                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740458745/logoWh_gbgwzr.svg' width="200" alt="img"></img>
                                 <p className="shoots_premium mt_top">
-                                    A & I Parts Center was founded over 40 years ago by Bill Blain. From a local parts supplier, the firm has evolved into being a household name in the market. Today, A & I Parts Center is spread across several other towns in Texas, namely Texline, Dalhart, Guymon, Stratford, Amarillo, and Dumas. The firm sells top-grade parts and value for money to different communities with great care and professional skills.
-
+                                    Top Brass sells everything from army clothes and footwear to gun accessories, optics, tactical gear, and bags to make sure the military personnel and outdoor enthusiasts have everything they need.
                                 </p>
                                 <h1 >Technologies Used</h1>
                                 <div className="main-box-logic flex">
-                                    <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992050/tim1_fqlls7.svg' id="sim" alt="img"></img>
-                                    <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992101/tim2_mg6etc.svg' id="rotat" alt="img"></img>
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740458624/tim1_djoonz.svg' id="sim" alt="img"></img>
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740458662/tim2_jcg2ku.svg' id="rotat" alt="img"></img>
                                 </div>
                             </div>
                             <div className="right-section-kids">
-                                <img loading="lazy" className="ai_site fi_site111" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991975/ai_k36pnr.svg' alt="img"></img>
+                                <img className="ai_site" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740458701/topo_xp4gak.svg' alt="img"></img>
                             </div>
                         </div>
                         {/* *********************************************** */}
                         <div className="MadFish_press">
-                            <div className="MadFish-back crazy-back">
+                            <div className="MadFish-back">
                                 <div className="MadFish-back1">
                                     {/* <div className="MadFish_press_head">
-                <img loading="lazy" src={madlogooooo} alt="madlogooooo" />              
-              </div> */}
-                                    <div className="MadFish_press_para crazy_cms">
+                                        <img src={madlogooooo} alt="madlogooooo" />
+                                    </div> */}
+                                    <div className="MadFish_press_para">
                                         <p>
-                                            Kushel Digi Solutions is proud to undertake the project of A & I Parts Center to develop an eCommerce platform using BigCommerce's technology. Our team has built an excellent user-friendly  online store that would improve customer experience and streamline inventory management.
-
+                                            Kushel Digi Solutions elated to taken up the work of  Top Brass to design and build a contemporary eCommerce marketplace on the BigCommerce platform.to provide optimized shopping experience for the military professional and outdoor enthusiast.
                                         </p>
-                                        {/* <h3>Empower Yourself to</h3>
-                    <h3>Easily <span>Modify Your</span> </h3>
-                    <h3><span>Website</span></h3> */}
                                     </div>
                                 </div>
                                 <div className="MadFish-back2">
-                                    <img loading="lazy" className="subh_img" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992205/markanda_p1f0xj.svg' alt="MadFish" />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740458850/tele_h4aiiw.svg' alt="MadFish" />
                                 </div>
                             </div>
                         </div>
@@ -114,15 +123,15 @@ const Ai2 = () => {
                             <p className="service-hinking">Services Provided</p>
                             <div className="main-img-mighty">
                                 <div className="bepolo">
-                                    <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991375/Group_1000004718_s2l8wf.png' id="ux-safari" alt="img"></img>
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740458311/Group_1000004718_daoc30.png' id="ux-safari" alt="img"></img>
                                     <p>UX/UI Website Design</p>
                                 </div>
                                 <div className="bepolo">
-                                    <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991440/Group_1000004715_ap2ujz.png' id="web-safari" alt="img"></img>
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740458450/Group_1000004715_sjnwhb.png' id="web-safari" alt="img"></img>
                                     <p>Website Development</p>
                                 </div>
                                 <div className="bepolo">
-                                    <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991619/Group_1000004716_ungahx.png' id="qa-safari" alt="img"></img>
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740458481/Group_1000004716_zvmrmj.png' id="qa-safari" alt="img"></img>
                                     <p>QA & Website Testing</p>
                                 </div>
                             </div>
@@ -130,29 +139,19 @@ const Ai2 = () => {
                     </div>
                 </div>
 
-                {/* *********************************************** */}
-                <div className="third-wireframe-homie">
-                    <div className="inner-third-local yomni">
-                        <p>Wireframes</p>
-                        <div className="three-section-lab tree_sery">
-                            <img loading="lazy" className="yosuf" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992273/yosuf_zhetss.svg' alt="kushel" />
-                            <img loading="lazy" className="yosuf1" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992370/yosuf1_vhw2ik.svg' alt="kushel" />
-                        </div>
-                    </div>
-                </div>
-                {/* ******************************************** */}
+
                 <div className="fourth-plate-juuls">
                     <div className="left-card-hub">
-                        <div className="vl-chic vl_chic1">
+                        <div className="vl-chic vl_chic2">
                             <p className="fila">Font</p>
                             <div className="ywo-stem">
                                 <div className="light-aa">
                                     <p className="hoo">Aa</p>
-                                    <p className="roboto-tip">Montserrat</p>
+                                    <p className="roboto-tip">DM Sans</p>
                                 </div>
                                 <div className="dark-aa">
                                     <p className="dark-canny">Aa</p>
-                                    <p className="prompt-tip">Montserrat</p>
+                                    <p className="prompt-tip">TT Mussels Trl</p>
                                 </div>
                                 {/* <div className="medium-aa">
                                     <p className="medium">Aa</p>
@@ -161,13 +160,13 @@ const Ai2 = () => {
                             </div>
                             <div className="sub-worm">
                                 <p className="tool">Tools Use</p>
-                                <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991672/Group_1000006500_1_ooftdq.png' id="pals-circle" alt="img"></img>
+                                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740458536/Group_1000006500_1_b5zq8p.png' id="pals-circle" alt="img"></img>
                             </div>
                         </div>
                     </div>
                     <div className="right-card-omega">
                         <p>Color Plate</p>
-                        <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992454/platai_qvrycg.svg' id="gang" alt="img" />
+                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740458914/zva_euor3u.svg' id="gang" alt="img" />
                     </div>
                 </div>{" "}
 
@@ -181,17 +180,17 @@ const Ai2 = () => {
                         </div>
                         <div className="step-backs2">
                             <p>
-                                A & I Parts Center, being a trusted supplier of quality parts for more than 40 years, started small like a local retail store founded by Bill Blain; however, the demand became greater and their company grew to multiple locations across the state of Texas ultimately A & I Parts realized the opportunity to reach a greater niche through an online platform. They knew that they needed to refresh their approach in order to serve customers better and, so, they set a goal to establish a robust eCommerce platform which could scale up along with the increasing stock and customer base.
+                                Top Brass was established with a vision of providing high-quality military and tactical gear not only to professional military but also to outdoor enthusiasts as well as other professionals who are tactical. Top Brass recognised the need to change and expand the reach of its business thus took the business online in an eCommerce manner to keep things seamless, friendly, and durable/accessible as synonymous with the products.
 
                             </p>
 
                         </div>
                     </div>
-                    <div className="step-images  flex items-start salaruu  justify-center mt-20">
-                        <img loading="lazy" className="batleft heightcum addmarginautoples" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992536/tii1_x5yfau.svg' alt="stepback" />
-                        <img loading="lazy" className="batleft addmarginautoples" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992643/tii2_uwbzqp.svg' alt="stepback1" />
-                        <img loading="lazy" className="batleft addmarginautoples heightcum" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992734/tii3_lezawg.svg' alt="stepback1" />
-                    </div>
+                    {/* <div className="step-images flex items-start salaruu  justify-center mt-20">
+                        <img className="batleft heightcum" src={tii1} alt="stepback" />
+                        <img className="batleft " src={tii2} alt="stepback1" />
+                        <img className="batleft heightcum" src={tii3} alt="stepback1" />
+                    </div> */}
                 </div>
                 <div className="challenge-story">
                     <div className="challenge-story1">
@@ -206,27 +205,28 @@ const Ai2 = () => {
                                 <div className="challenge-list1">
                                     <div className="nilust"></div>
                                     <p>
-                                        To design a system that can ensure personal touch of A & I Parts stay intact in transition towards the ecommerce market.
+                                        To develop an organized, intuitive platform to showcase a broad range of military products, from clothing to gun accessories.
 
                                     </p>
                                 </div>
                                 <div className="challenge-list1">
                                     <div className="nilust"></div>
                                     <p>
-                                        To Provide real-time synchronization of inventory across all stores and the online store
+                                        Ensure that customers can easily navigate through to find certain products in a very vast catalog.
 
                                     </p>
                                 </div>
                                 <div className="challenge-list1">
                                     <div className="nilust"></div>
                                     <p>
-                                        Design with a focus on both technologically advanced and regular customers and, most importantly, user-friendly interface
+                                        Incorporate real-time inventory updates within a dynamic product line with frequent restocks.
+
                                     </p>
                                 </div>
                                 <div className="challenge-list1">
                                     <div className="nilust"></div>
                                     <p>
-                                        Creating a platform that would support growth and easily handle increased traffic and transactions.
+                                        A secure and scalable platform able to accommodate sensitive transactions and increased traffic during periods of high demand.
 
                                     </p>
                                 </div>
@@ -241,7 +241,7 @@ const Ai2 = () => {
                                 <div className="challenge-list1">
                                     <div className="nilust"></div>
                                     <p>
-                                        Implemented BigCommerce to create a scalable, customizable platform for A & I Parts’ online presence.Inventory synchronization.
+                                        BigCommerce was integrated to create a scalable and flexible eCommerce platform for Top Brass with its unique product offerings.
 
                                     </p>
                                 </div>
@@ -249,14 +249,15 @@ const Ai2 = () => {
                                 <div className="challenge-list1">
                                     <div className="nilust"></div>
                                     <p>
-                                        Real-time management tools were integrated to synchronize stock across physical stores and the online platform.
+                                        A user-friendly interface was made by designing categorization that is well-organized for army gear, clothing, footwear, optics, and accessories.
+
                                     </p>
                                 </div>
 
                                 <div className="challenge-list1">
                                     <div className="nilust"></div>
                                     <p>
-                                        Easy interface to browse and pick desired products with an easy checkout process.
+                                        Automation was put into place to live track inventory levels in real time across all product lines.
                                     </p>
 
                                 </div>
@@ -264,7 +265,8 @@ const Ai2 = () => {
                                 <div className="challenge-list1">
                                     <div className="nilust"></div>
                                     <p>
-                                        Optimized Performance to ensure the website is optimized for speed and scalability.
+                                        Optimized Performance to ensure security and responsiveness of the site on mobile devices, with seamless handling of large volumes of traffic and transactions.
+
                                     </p>
                                 </div>
 
@@ -273,24 +275,24 @@ const Ai2 = () => {
                     </div>
                 </div>
 
-                <div className="kick-start kick-start22 picko_start">
+                <div className="kick-start kick-start22">
                     <div className="kick-first kick-first222">
 
                         <div className="kickds">
-                            <img loading="lazy" className="kick_mart alisaaa" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738993836/gthj_au8qgi.png' alt="kick5" />
+                            <img className="kick_mart" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740458745/logoWh_gbgwzr.svg' alt="kick5" />
                         </div>
                     </div>
                     <div className="kick-second kick-second222 relative">
                         <div className="about165">
                             <img
                                 className="absolute about161 animate__animated animate__pulse animate__infinite"
-                                src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990949/angrag_uutvur.png'
+                                src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740458999/elle_s4hohz.svg'
                                 alt="kushel"
                             />
                         </div>
                         <img
                             className=" relative z-10 about162 pick222"
-                            src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738992836/chanderi_k0sabx.svg'
+                            src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740458960/seto_xpf6je.svg'
                             alt="aa"
                         />
                     </div>
@@ -305,29 +307,35 @@ const Ai2 = () => {
                             </div>
                             <div className="azib1-second">
                                 <p>
-                                    The new A & I Parts Center eCommerce platform gives the company access to multiple locations other than the firm's actual locations and it is convenient for several customers to access the wide parts catalog. Operations have become streamlined where there is a reduction in manual errors, and more accurate stock management has been introduced. Additionally, the easy use of the platform makes the overall experience better, hence increasing online sales and keeping customers
+                                    The new Top Brass eCommerce platform has given the much-required extension to the reach of the company in making its vast army and tactical products available to large numbers of people. Ease of using the interface, including categorization of the products, has simplified customers' journeys for increased use and online sales. Real-time inventory synchronization has minimized errors in stock, while the process of order fulfillment has also been smoothened.
+
                                 </p>
 
                                 <div className="azib-tech">
                                     <h3>Technologies Used</h3>
-                                    <img loading="lazy" className="conjun" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991255/opqweeeeeee3_eg5uxy.png' alt="kushel" />
+                                    <img className="conjun" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740458263/opqweeeeeee3_dpv1er.png' alt="kushel" />
                                 </div>
                             </div>
                         </div>
 
                         <div className="azib-images flex items-center justify-center">
-                            <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738993134/inki1_brw3dr.svg' alt="azib" />
-                            <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738993201/inki2_cnzhrn.svg' alt="azib" />
-                            <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738993540/inki3_np8d8k.svg' alt="azib" />
+                            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740459049/skl1_aunlwp.svg' alt="azib" />
+                            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740459091/skl2_qqr6nw.svg' alt="azib" />
+                            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740459153/skl3_ja9vui.svg' alt="azib" />
                         </div>
                     </div>
                 </div>
-
-                <div className="client-apperication">
-
-                </div>
-
-                <div className="other-project">
+                {/* <div className="client-apperication">
+                    <h2>Client Appreciation</h2>
+                    <p>
+                        “Thank you Affle team for all your hardwork, patience and continuous
+                        support. The app is getting positive reviews and we hope to continue
+                        to improve and evolve the app. Looking forward to our continued
+                        growth.”
+                    </p>
+                    <h4>Matt Reeder</h4>
+                </div> */}
+                {/* <div className="other-project">
                     <h2 className="text-center ">OTHER PROJECTS</h2>
                     <Splide
                         aria-label="Our Services"
@@ -344,7 +352,7 @@ const Ai2 = () => {
                         <SplideSlide>
                             <div className="other-card">
                                 <div className="other-box">
-                                    <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991093/rel1_ovaydf.png' alt="rel1" />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740458160/rel1_mhhgkk.png' alt="rel1" />
                                 </div>
                                 <div className="other-tox-para">
                                     <h3>RELY INNOVATION</h3>
@@ -362,7 +370,7 @@ const Ai2 = () => {
                         <SplideSlide>
                             <div className="other-card">
                                 <div className="other-box other-box1">
-                                    <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991160/rel2_oi6z9l.png' alt="rel1" />
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740458200/rel2_cihpad.png' alt="rel1" />
                                 </div>
                                 <div className="other-tox-para">
                                     <h3>PRO TRUCKS</h3>
@@ -379,7 +387,7 @@ const Ai2 = () => {
                         <SplideSlide>
                             <div className="other-card">
                                 <div className="other-box other-box3">
-                                    <img loading="lazy" className="rel3" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991207/rel3_kus4kk.png' alt="rel1" />
+                                    <img className="rel3" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740458230/rel3_rmixzh.png' alt="rel1" />
                                 </div>
                                 <div className="other-tox-para">
                                     <h3>SOLENOID NINJA</h3>
@@ -394,7 +402,37 @@ const Ai2 = () => {
                             </div>
                         </SplideSlide>
                     </Splide>
-                </div>
+                </div> */}
+
+
+                <section className="sc2sevensec">
+                    <div className="sc2sevnconta">
+                        <div className="sc2sev_head">
+                            <h2>Related Projects</h2>
+                            <p></p>
+                        </div>
+
+                        <div className="sc2_Sev_projects">
+                            {projects?.map((project, index) => (
+                                <div key={index} className="singlprojseve">
+                                    <img src={project?.img} alt="kushel" />
+
+                                    <div className="seven_titls">
+                                        <p className="sep1">{project?.title1}</p>
+                                        <p className="sep2">{project?.title2}</p>
+                                    </div>
+
+                                    <a href={project?.link}> <button>
+                                        <span>Case study</span>
+                                    </button></a>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </section>
+
+
+
                 <div className="req">
                     <div className="req-sect">
                         <h3>
@@ -421,23 +459,21 @@ const Ai2 = () => {
                     </div>
                 </div>
 
+                <Footer />
+
                 {/*  buttons  */}
                 <div className="whtsApBtns">
                     <button onClick={whatAppHandler}>
-                        <img loading="lazy" className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+                        <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740401400/whatsapp_qknuap.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
                     </button>
                     <button onClick={callHandler}>
-                        <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991783/telephone_k9aecl.png' alt="call-icon" title="call-icon" />
+                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740401442/telephone_rg2izx.png' alt="call-icon" title="call-icon" />
                     </button>
 
                 </div>
             </div>
-            <Footer />
         </>
     );
 };
 
-export default Ai2;
-
-
-
+export default TopBrass;

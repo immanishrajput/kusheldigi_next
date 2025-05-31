@@ -18,7 +18,7 @@ const projects = [
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217009/down3_ucxpri.png",
     title1: "Sites & Scopes",
     title2: "E-commerce, Bigcomerce ",
-    link: "/sites"
+    link: "/sitesandscopes"
   },
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216979/down2_m0c8fa.png",
@@ -30,7 +30,7 @@ const projects = [
     img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746541118/image_3_dptpxb.png",
     title1: "A&I Parts Center",
     title2: "E-commerce, Bigcomerce ",
-    link: "/Ai2"
+    link: "/aipartscenter"
   },
 ];
 
@@ -86,6 +86,9 @@ const WoodView = () => {
         <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
         <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
         <meta name="twitter:url" content="https://www.kusheldigi.com/" />
+
+      <link rel="canonical" href="https://www.kusheldigi.com/woodview" />
+
       </Head>
 
       <Navbar />
@@ -370,7 +373,7 @@ const WoodView = () => {
                     of danger, but also clearly instructs you on what to do
                     next.
                   </p>
-                  <Link href="/rely">
+                  <Link href="/relysafety">
                     <button className="kick_eez-btn">View</button>
                   </Link>
                 </div>
@@ -387,7 +390,7 @@ const WoodView = () => {
                     Aftermarket suspension lift kits, leveling kits and
                     accessories for 4X4 off-road truck and jeep enthusiasts
                   </p>
-                  <Link href="/pro-track">
+                  <Link href="/protrucksandcars">
                     <button>View</button>
                   </Link>
                 </div>
