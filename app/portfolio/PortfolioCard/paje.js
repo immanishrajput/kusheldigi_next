@@ -199,7 +199,7 @@ const portfolioData = [
     ],
     links: {
       caseStudy: '/Ai',
-      caseStudy: '/Survival',
+      caseStudy: '/thesurvivalmode',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
