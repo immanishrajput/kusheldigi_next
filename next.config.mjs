@@ -175,11 +175,11 @@ const nextConfig = {
         destination: '/mycrazysimplecms',
         permanent: true,
       },
-      // {
-      //   source: '/woodView',
-      //   destination: '/woodview',
-      //   permanent: true,
-      // },
+      {
+        source: '/woodView',
+        destination: '/woodview',
+        permanent: true,
+      },
       {
         source: '/1/HfN/1179i0w3irc8z891wyjkde58o1ogucdfccfaa.placename',
         destination: '/contact-us',
