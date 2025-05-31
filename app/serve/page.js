@@ -134,6 +134,19 @@ function Page() {
         }, 300); // Time for the slide-out transition to complete
     };  /* Slide-out animation */
 
+    const generateMetadata = ({ params }) => ({
+        title: 'ServAPure | Ecommerce Growth with BigCommerce Website Development',
+        description: "See how ServAPure boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
+      });
+    
+      useEffect(() => {
+        const { title, description } = generateMetadata({ params: {} });
+        document.title = title;
+        let metaDescription = document.querySelector('meta[name="description"]');
+        metaDescription ? metaDescription.content = description :
+          document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+      }, []);
+
 
     return (
         <div className="case1wrap home-main">
@@ -170,11 +183,11 @@ function Page() {
                             {/* left  */}
                             <div className="ca1firleft">
                                 <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748206713/sp-logo_1718202719__08634_1_1_qov0dt.png" alt="kushel" />
-                                <p> Serve A Pure </p>
+                                <p> Serv A Pure </p>
                             </div>
 
                             <p className="ca1firrigh">
-                            Serve A Pure is a trusted leader of water purification and filtration systems. It is providing a plethora of filtration solutions through its broad range of products for residential, commercial, and industrial needs.                            </p>
+                            Serv A Pure is a trusted leader of water purification and filtration systems. It is providing a plethora of filtration solutions through its broad range of products for residential, commercial, and industrial needs.                            </p>
                         </div>
 
                         {/* secont */}

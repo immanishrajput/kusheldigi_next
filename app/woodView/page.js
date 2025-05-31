@@ -14,24 +14,24 @@ import '../globals.css'
 import Link from "next/link";
 
 const projects = [
-    {
-        img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217009/down3_ucxpri.png",
-        title1: "Sites & Scopes",
-        title2: "E-commerce, Bigcomerce ",
-        link: "/sites"
-    },
-    {
-        img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216979/down2_m0c8fa.png",
-        title1: "Kickeez",
-        title2: "E-commerce, Bigcomerce ",
-        link: "/kick-eez"
-    },
-    {
-        img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746541118/image_3_dptpxb.png",
-        title1: "A&I Parts Center",
-        title2: "E-commerce, Bigcomerce ",
-        link: "/Ai2"
-    },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217009/down3_ucxpri.png",
+    title1: "Sites & Scopes",
+    title2: "E-commerce, Bigcomerce ",
+    link: "/sites"
+  },
+  {
+    img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216979/down2_m0c8fa.png",
+    title1: "Kickeez",
+    title2: "E-commerce, Bigcomerce ",
+    link: "/kick-eez"
+  },
+  {
+    img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746541118/image_3_dptpxb.png",
+    title1: "A&I Parts Center",
+    title2: "E-commerce, Bigcomerce ",
+    link: "/Ai2"
+  },
 ];
 
 const WoodView = () => {
@@ -57,8 +57,8 @@ const WoodView = () => {
     window.open(callUrl, "_blank");
   };
   const generateMetadata = ({ params }) => ({
-    title: 'Kusheldigi.com/woodView',
-    description: "Web Development Company | Kushel Digi Solutions"
+    title: 'The WoodView | Ecommerce Growth with BigCommerce Website Development',
+    description: "See how WoodView boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
   });
 
   useEffect(() => {

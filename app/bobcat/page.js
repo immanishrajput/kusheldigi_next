@@ -134,6 +134,19 @@ function Page() {
         }, 300); // Time for the slide-out transition to complete
     };  /* Slide-out animation */
 
+    const generateMetadata = ({ params }) => ({
+        title: 'Bobcat Armament | Ecommerce Growth with BigCommerce Website Development',
+        description: "See how Bobcat Armament boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
+      });
+    
+      useEffect(() => {
+        const { title, description } = generateMetadata({ params: {} });
+        document.title = title;
+        let metaDescription = document.querySelector('meta[name="description"]');
+        metaDescription ? metaDescription.content = description :
+          document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+      }, []);
+
 
     return (
         <div className="case1wrap home-main">

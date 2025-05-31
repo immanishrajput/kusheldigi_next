@@ -58,8 +58,8 @@ const ProTrucks = () => {
   }
 
   const generateMetadata = ({ params }) => ({
-    title: 'Kusheldigi.com/Slidesdesign',
-    description: "Web Development Company | Kushel Digi Solutions"
+    title: 'Slides365 | Ecommerce Growth with BigCommerce Website Development',
+    description: "See how Slides365 boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
   });
 
   useEffect(() => {

@@ -49,8 +49,8 @@ const Solenoid = () => {
   }
 
   const generateMetadata = ({ params }) => ({
-    title: 'Kushel Digi Solutions Case Study- solenoid-ninja',
-    description: "Explore the Kushel Digi Solutions case study on Solenoid Ninja: Discover how expert UX/UI design and website development enhanced their digital presence."
+    title: 'Solenoid Ninja | Ecommerce Growth with BigCommerce Website Development',
+    description: "See how Solenoid Ninja boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
   });
 
   useEffect(() => {

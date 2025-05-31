@@ -62,8 +62,8 @@ const TopBrass = () => {
 
 
     const generateMetadata = ({ params }) => ({
-        title: 'Kusheldigi.com/topbrass',
-        description: "web agency, web design agency , best web design agency in the world, web design agency, web design services, web design and development agency"
+        title: 'Top Brass Tactical | Ecommerce Growth with BigCommerce Website Development',
+        description: "See how Top Brass Tactical boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study.",
     });
 
     useEffect(() => {

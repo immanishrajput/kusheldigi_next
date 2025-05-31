@@ -126,8 +126,8 @@ function page() {
   };
 
   const generateMetadata = ({ params }) => ({
-    title: 'Kusheldigi.com/blackRhino',
-    description: "Web Development Company | Kushel Digi Solutions"
+    title: 'Black Rhino Concealment | Ecommerce Growth with BigCommerce Website Development',
+    description: "See how Black Rhino Concealment boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
   });
 
   useEffect(() => {
@@ -384,15 +384,15 @@ function page() {
             <div className="cas3s4con" id="cas3s4connn">
 
               <div className="bgshowdb1" id="" >
-                < img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747158480/Group_1171281286_1_b2cgzf_we0mgd.png" id="bgshowdb12"/>
+                < img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747158480/Group_1171281286_1_b2cgzf_we0mgd.png" id="bgshowdb12" />
                 {/* <img loading="lazy" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746710597/Group_1171279306_o1qdhn.png" alt="kushel" className="ca2insideimg adjustheighimg" /> */}
                 {/* <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
               </div>
 
               <div className="cas3circldata" id="cas3circldata1">
-              <h4>Custom UI/UX Design</h4>
-              <p>
-              We crafted a modern and responsive design on Figma while keeping a clean layout to reflect Black Rhino’s brand identity. Our primary focus was on intuitive product navigation and mobile responsiveness. The design was structured to ease navigation for the users. One of the most important goal we tried to cover is simplifying the buying journey.
+                <h4>Custom UI/UX Design</h4>
+                <p>
+                  We crafted a modern and responsive design on Figma while keeping a clean layout to reflect Black Rhino’s brand identity. Our primary focus was on intuitive product navigation and mobile responsiveness. The design was structured to ease navigation for the users. One of the most important goal we tried to cover is simplifying the buying journey.
 
                 </p>
               </div>
@@ -415,8 +415,8 @@ function page() {
               </div>
 
               <div className="cas3circldata" id="cas3circldata1">
-              <h4> BigCommerce Migration & Optimization</h4>
-              <p>
+                <h4> BigCommerce Migration & Optimization</h4>
+                <p>
                   Our team moved the site to BigCommerce for better performance. This platform supports headless ecommerce development that can contribute to the growth of the brand at a significant level. The new setup led to many improvements like lightning-fast performance and scalable architecture. We also made the shopping experience seamless for all the device users.
 
                 </p>              </div>
@@ -438,8 +438,8 @@ function page() {
               </div>
 
               <div className="cas3circldata" id="cas3circldata1">
-              <h4>Smart Integrations  </h4>
-              <p>
+                <h4>Smart Integrations  </h4>
+                <p>
                   We also implemented smart integrations via BigCommerce robust app ecosystem. Our experts integrated CRM tools, inventory management, SEO enhancements, and search filters for an unparalleled performance.
 
                 </p>              </div>

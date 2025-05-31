@@ -135,6 +135,19 @@ function Page() {
         }, 300); // Time for the slide-out transition to complete
     };  /* Slide-out animation */
 
+    const generateMetadata = ({ params }) => ({
+        title: 'Krapp Strapp | Ecommerce Growth with BigCommerce Website Development',
+        description: "See how Krapp Strapp boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
+    });
+
+    useEffect(() => {
+        const { title, description } = generateMetadata({ params: {} });
+        document.title = title;
+        let metaDescription = document.querySelector('meta[name="description"]');
+        metaDescription ? metaDescription.content = description :
+            document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+    }, []);
+
 
     return (
         <div className="case1wrap home-main">
@@ -171,11 +184,11 @@ function Page() {
                             {/* left  */}
                             <div className="ca1firleft">
                                 <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748014394/krapp-strapp-logo_1726251600__26374.original_1_fx2cjv.png" alt="kushel" />
-                                <p> Krapp Strap </p>
+                                <p> Krapp Strapp </p>
                             </div>
 
                             <p className="ca1firrigh">
-                                Krapp Strap brings game-changing innovation and an ultimate bathroom solution that enhances every outdoor experience.             {/* 2nd Amendment Armory is the most trusted firearms provider of high-quality gun accessories, serving customers both locally in Brandon, FL and across the nation. */}
+                                Krapp Strapp brings game-changing innovation and an ultimate bathroom solution that enhances every outdoor experience.             {/* 2nd Amendment Armory is the most trusted firearms provider of high-quality gun accessories, serving customers both locally in Brandon, FL and across the nation. */}
                             </p>
                         </div>
 
@@ -263,11 +276,11 @@ function Page() {
                         </div>
 
                         <p className="s3theeparas">
-                        Kushel Digi Solutions strenuously worked to transform the website’s presence and functionality, giving it a modern aesthetic look to attract visitors.
+                            Kushel Digi Solutions strenuously worked to transform the website’s presence and functionality, giving it a modern aesthetic look to attract visitors.
                         </p>
 
                         <p className="s3theeparas">
-                        We are grateful to receive such a challenging yet intersting opportunity  and come together to revamp Krapp Strap’s site.
+                            We are grateful to receive such a challenging yet intersting opportunity  and come together to revamp Krapp Strap’s site.
                         </p>
 
                         <p className="s3theeparas"> As a professional web design company, our expert analysts examined the business and figured out what would work best for the Krapp Strap.</p>
@@ -328,7 +341,7 @@ function Page() {
 
                             <div className="bgshowdb1" id="bgshowdb11">
                                 <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748015353/Group_1171279432_kpuaxz.png" />
-                               
+
                             </div>
 
                             <div className="cas3circldata" id="cas3circldata11">
@@ -348,10 +361,10 @@ function Page() {
                         <div className="cas3s4con" id="cas3s4connn">
 
                             <div className="bgshowdb1" id="bgshowdb11">
-                          
+
                                 <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748015353/Group_1171279431_x9bs0f.png" />
 
-                      </div>
+                            </div>
 
                             <div className="cas3circldata" id="cas3circldata11">
                                 <h4>Post-Development Support </h4>
@@ -479,7 +492,7 @@ function Page() {
                         <li>Conversion rate improved</li>
                         <li>Customers were engaging for a longer duration on the platform</li>
                         <li>People were feeling more comfortable making payments</li>
-                
+
 
                     </ul>
 

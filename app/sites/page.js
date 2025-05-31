@@ -10,7 +10,7 @@ import '../globals.css'
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
 function page() {
-    
+
   const d1 = [
     {
       title1: "Industries",
@@ -95,19 +95,19 @@ function page() {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216954/down1_kgzcrg.png",
       title1: "Topbrass tactical",
       title2: "E-commerce, Bigcomerce ",
-      link:"/topbrass"
+      link: "/topbrass"
     },
     {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216979/down2_m0c8fa.png",
       title1: "Kickeez",
       title2: "E-commerce, Bigcomerce ",
-       link:"/kick-eez"
+      link: "/kick-eez"
     },
     {
       img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746541118/image_3_dptpxb.png",
       title1: "A&I Parts Center",
       title2: "E-commerce, Bigcomerce ",
-      link:"/Ai2"
+      link: "/Ai2"
     },
   ];
 
@@ -126,23 +126,23 @@ function page() {
   };
 
   const generateMetadata = ({ params }) => ({
-           title: 'Kusheldigi.com/Sites',
-           description:"Web Development Company | Kushel Digi Solutions"
-         });
-         
-       useEffect(() => {
-           const { title, description } = generateMetadata({ params: {} });
-           document.title = title;
-           let metaDescription = document.querySelector('meta[name="description"]');
-           metaDescription ? metaDescription.content = description : 
-             document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-         }, []);
-  
+    title: 'Sites and Scopes | Ecommerce Growth with BigCommerce Website Development',
+    description: "See how Sites and Scopes boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
+  });
+
+  useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description :
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
+
   return (
     <div className="case1wrap home-main">
 
 
-        <Navbar/>
+      <Navbar />
       {/* first sectino */}
       <section className="case1firsec">
         <img
@@ -171,7 +171,7 @@ function page() {
               </div>
 
               <p className="ca1firrigh">
-              Sites and Scopes has specialized experience in delivering high performance optics and accessories for marksmen, hunters, and tactical professionals. All their aim is on delivering a precision-engineered product for utmost reliability and clearness in any environment.
+                Sites and Scopes has specialized experience in delivering high performance optics and accessories for marksmen, hunters, and tactical professionals. All their aim is on delivering a precision-engineered product for utmost reliability and clearness in any environment.
               </p>
             </div>
 
@@ -206,7 +206,7 @@ function page() {
             <h1>Client Background</h1>
 
             <p>
-            Sites and Scopes has specialized experience in delivering high performance optics and accessories for marksmen, hunters, and tactical professionals. All their aim is on delivering a precision-engineered product for utmost reliability and clearness in any environment.
+              Sites and Scopes has specialized experience in delivering high performance optics and accessories for marksmen, hunters, and tactical professionals. All their aim is on delivering a precision-engineered product for utmost reliability and clearness in any environment.
 
             </p>
           </div>
@@ -224,13 +224,14 @@ function page() {
         <div className="sc3sectcont">
           {/* left side */}
           <div className="s3secltleft">
-            <div className="c3s3_head2" id="c3_SitesScope"> 
+            <div className="c3s3_head2" id="c3_SitesScope">
               <h3>Solution</h3>
               <p></p>
             </div>
 
             <p className="s3theeparas">
-            Sites & Scope  was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help, they wanted to implement a more user-friendly ecommerce platform, refine search engine optimization (SEO), develop content to support that optimization, and launch an intelligent digital advertising campaign to maximize return on ad spend (ROAS). 
+              Sites & Scope  was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help, they wanted to implement a more user-friendly ecommerce platform, refine search engine optimization (SEO), develop content to support that optimization, and launch an intelligent digital advertising campaign to maximize return on ad spend (ROAS).
+
 
 
             </p>
@@ -282,7 +283,7 @@ function page() {
               <div className="cas3circldata2" id="sites_port_circle">
                 <h4>Custom Catalog Page</h4>
                 <p>
-                2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help.
+                  2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help.
 
                 </p>
               </div>
@@ -310,7 +311,7 @@ function page() {
               <div className="cas3circldata2" id="sites_port_circle">
                 <h4>Product Detail Page</h4>
                 <p>
-                2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help.
+                  2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help.
 
                 </p>
               </div>
@@ -320,8 +321,8 @@ function page() {
 
         <SplideSlide>
           <section className="case3secfour2">
-          <img className="case4bggirl"
-           src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744697099/Superior_Optics_Unbeatable_Performance._posiad.png" alt="kushel" />
+            <img className="case4bggirl"
+              src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744697099/Superior_Optics_Unbeatable_Performance._posiad.png" alt="kushel" />
 
             <div className="cas3s4con">
               <div className="bgshowdb2">
@@ -335,7 +336,7 @@ function page() {
               <div className="cas3circldata2" id="sites_port_circle">
                 <h4>Advance Filtering or Shorting Features</h4>
                 <p>
-                2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help.
+                  2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help.
 
                 </p>
               </div>
@@ -351,7 +352,7 @@ function page() {
           <div className="c2fivtopsec">
             <h4>How we build the E-Commerce development Process</h4>
             <p>
-            Kushel Digi committed to transform your tech solutions into impactful brands by ensuring unique customer experiences at every digital touchpoint through our  structured process.
+              Kushel Digi committed to transform your tech solutions into impactful brands by ensuring unique customer experiences at every digital touchpoint through our  structured process.
 
             </p>
           </div>
@@ -364,9 +365,8 @@ function page() {
                 <p
                   key={index}
                   onClick={() => handleSelectionChange(index)}
-                  className={`${
-                    selectS4 === index && "addthsomfbg"
-                  } cursor-pointer`}
+                  className={`${selectS4 === index && "addthsomfbg"
+                    } cursor-pointer`}
                 >
                   {d2Item?.title}
                 </p>
@@ -404,7 +404,7 @@ function page() {
                 interval: 3000,
                 pagination: true,
                 arrows: false,
-                pauseOnHover:false
+                pauseOnHover: false
               }}
             >
               {d2?.map((item, index) => (
@@ -463,9 +463,9 @@ function page() {
           </div>
 
           <div className="csizbot">
-           <a href="contact-us"><button>
+            <a href="contact-us"><button>
               <span>Start a conversation</span>
-            </button></a> 
+            </button></a>
           </div>
         </div>
       </section>
@@ -488,15 +488,15 @@ function page() {
                   <p className="sep2">{project?.title2}</p>
                 </div>
 
-              <a href={project?.link}> <button>
+                <a href={project?.link}> <button>
                   <span>Case study</span>
-                </button></a> 
+                </button></a>
               </div>
             ))}
           </div>
         </div>
       </section>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
