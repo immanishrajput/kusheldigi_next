@@ -255,7 +255,7 @@ const caseStudies = [
 
     img2: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478580/custom11_kznig4.png',
     btnText: "VIEW LIVE SITE",
-    // link: "/Digitalmna",
+    // link: "/digitalmna",
     alt: "case study-DigitalMnA Partners",
     category: ["website"],
     width: 500,
@@ -269,7 +269,7 @@ const caseStudies = [
 
     img2: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478756/webinstalogo_rutcoc.png',
     // btnText: "VIEW CASE STUDY",
-    link: "/Digitalmna",
+    link: "/digitalmna",
     alt: "case study-DigitalMnA Partners",
     category: ["software"],
     width: 500,
@@ -283,7 +283,7 @@ const caseStudies = [
 
     img2: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478856/webobtech_km5zcs.png',
     // btnText: "VIEW CASE STUDY",
-    link: "/Digitalmna",
+    link: "/digitalmna",
     alt: "case study-DigitalMnA Partners",
     category: ["software"],
     width: 500,
@@ -297,7 +297,7 @@ const caseStudies = [
 
     img2: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477171/abimg11_aiqpei.png',
     btnText: "VIEW CASE STUDY",
-    link: "/Digitalmna",
+    link: "/digitalmna",
     alt: "case study-DigitalMnA Partners",
     category: ["software"],
     width: 500,
@@ -311,7 +311,7 @@ const caseStudies = [
 
     img2: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478612/webauxlogo_sxf2ww.png',
     // btnText: "VIEW CASE STUDY",
-    link: "/Digitalmna",
+    link: "/digitalmna",
     alt: "case study-DigitalMnA Partners",
     category: ["software"],
     width: 500,
@@ -325,7 +325,7 @@ const caseStudies = [
 
     img2: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478786/webjuniorlogo_pvlv7i.png',
     // btnText: "VIEW CASE STUDY",
-    link: "/Digitalmna",
+    link: "/digitalmna",
     alt: "case study-DigitalMnA Partners",
     category: ["software"],
     width: 500,
@@ -339,7 +339,7 @@ const caseStudies = [
 
     img2: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478645/websuvrinlogo_cdrlkl.png',
     // btnText: "VIEW CASE STUDY",
-    link: "/Digitalmna",
+    link: "/digitalmna",
     alt: "case study-DigitalMnA Partners",
     category: ["software"],
     width: 500,
@@ -352,7 +352,7 @@ const caseStudies = [
 
     img2: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478824/touffle_le6ygd.png',
     // btnText: "VIEW CASE STUDY",
-    link: "/Digitalmna",
+    link: "/digitalmna",
     alt: "case study-DigitalMnA Partners",
     category: ["software"],
     width: 500,
@@ -365,7 +365,7 @@ const caseStudies = [
 
     img2: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478721/webmajorlogo_ejcx63.png',
     // btnText: "VIEW CASE STUDY",
-    link: "/Digitalmna",
+    link: "/digitalmna",
     alt: "case study-DigitalMnA Partners",
     category: ["software"],
     width: 500,
@@ -378,7 +378,7 @@ const caseStudies = [
 
     img2: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
     // btnText: "VIEW CASE STUDY",
-    link: "/Digitalmna",
+    link: "/digitalmna",
     alt: "case study-DigitalMnA Partners",
     category: ["software"],
     width: 500,

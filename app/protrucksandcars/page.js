@@ -87,7 +87,7 @@ const ProTrucks = () => {
           <div className="side-bg-trio">
             <div className="first-kick-pads">
               <div className="left-section-kids">
-                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472140/pru_yxgfwt.png' className="pru" alt="img"></img>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472140/pru_yxgfwt.png' className="pru" alt="protrucksandcars logo"></img>
                 <p className="shoots_premium">
                   <span className="heightlisght_premium"> Pro Trucks,</span> a
                   family-owned business, is here to turn your dream vehicle into

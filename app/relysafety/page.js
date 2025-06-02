@@ -75,7 +75,7 @@ const Rely = () => {
           <div className="side-bg-trio">
             <div className="first-kick-pads">
               <div className="left-section-kids">
-                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739427666/pouo_qmi6uz.png' className="pru1" alt="img"></img>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739427666/pouo_qmi6uz.png' className="pru1" alt="relyinnovation logo"></img>
                 <p className="shoots_premium">
                   <span className="heightlisght_premium">
 

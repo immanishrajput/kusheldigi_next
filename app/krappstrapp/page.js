@@ -186,7 +186,7 @@ function Page() {
                         <div className="case1fifirco">
                             {/* left  */}
                             <div className="ca1firleft">
-                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748014394/krapp-strapp-logo_1726251600__26374.original_1_fx2cjv.png" alt="kushel" />
+                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748014394/krapp-strapp-logo_1726251600__26374.original_1_fx2cjv.png" alt="krappstrapp logo" />
                                 <p> Krapp Strapp </p>
                             </div>
 

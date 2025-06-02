@@ -99,23 +99,23 @@ useEffect(() => {
 
         <div className="pgppp-ser">
           <div className="pgp_service">
-            <div className="pgp_card dine-123">
+            <div className="pgp_card">
               <div className="pgp_box">
                 <h3>20+</h3>
                 <p>
-                  Dedicated PHP <br /> Developers
+                  Dedicated PHP Developers
                 </p>
               </div>
               <div className="pgp_box">
                 <h3>50+</h3>
                 <p>
-                  PHP-based projects <br /> deployed
+                  PHP-based projects deployed
                 </p>
               </div>
               <div className="pgp_box">
                 <h3>1000+</h3>
                 <p>
-                  Satisfied customer <br /> base
+                  Satisfied customer base
                 </p>
               </div>
             </div>

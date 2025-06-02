@@ -31,8 +31,8 @@ const ProTrucks = () => {
   }
 
   const generateMetadata = ({ params }) => ({
-    title: "Kushel Digi Solutions Case Study- Digitalmna",
-    description: 'Kushel Digi Solutions delivered exceptional UX/UI design and website development for Digitalmna, enhancing user experience and driving digital growth.',
+    title: "DigitalMNA | Ecommerce Growth with BigCommerce Website Development",
+    description: 'See how DigitalMNA boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study.',
   });
   
 useEffect(() => {
@@ -59,6 +59,9 @@ useEffect(() => {
         <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
         <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
         <meta name="twitter:url" content="https://www.kusheldigi.com/" />
+
+      <link rel="canonical" href="https://www.kusheldigi.com/digitalmna" />
+
       </Head>
       
     <Navbar/>
@@ -67,7 +70,7 @@ useEffect(() => {
           <div className="side-bg-trio">
             <div className="first-kick-pads">
               <div className="left-section-kids">
-                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739167878/innermnalogoimgsmall_omnflp.png' className="pru12" alt="img"></img>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739167878/innermnalogoimgsmall_omnflp.png' className="pru12" alt="digitalmna logo"></img>
                 <p className="shoots_premium">
                   <span className="heightlisght_premium"> DigitalMnA</span>
                   is a full-service Merger and acquisition company helping

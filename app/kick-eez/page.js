@@ -111,11 +111,11 @@ const Kickiz = () => {
           <div className="side-bg-trio">
             <div className="first-kick-pads">
               <div className="left-section-kids">
-                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180844/Mask_group_nph9bb.png' id="plus-circle" alt="img"></img>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180844/Mask_group_nph9bb.png' id="plus-circle" alt="kick-eez logo"></img>
                 <p className="shoots_premium">
                   <span className="heightlisght_premium">
                     {" "}
-                    KICK- EEZ Premium,
+                    KICK-EEZ Premium,
                   </span>{" "}
                   Made in America recoil pads and accessories to make your
                   shooting experience more comfortable.

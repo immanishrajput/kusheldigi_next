@@ -103,7 +103,7 @@ const WoodView = () => {
               <div className="left-section-kids">
                 <img
                   src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740401658/viewimg2_a4jlb6.png'
-                  alt="img"
+                  alt="woodview logo"
                 ></img>
                 <p className="shoots_premium kooo">
                   Wood View focuses on mental health, autism support, and counseling services for individual and family support. The programs offered help improve mental well-being through personalized care and professional guidance.

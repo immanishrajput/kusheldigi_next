@@ -167,7 +167,7 @@ function page() {
                 <div>
                   <img
                     src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744634586/Group_1171279232_zsu9e3.png"
-                    alt="kushel"
+                    alt="Black Rhino Concealment logo"
                   />
                 </div>
                 <p>Black Rhino Concealment</p>

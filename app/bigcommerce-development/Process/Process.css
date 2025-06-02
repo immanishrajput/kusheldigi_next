@@ -390,7 +390,7 @@
 #phase9Name {
     position: absolute;
     bottom: 8px;
-    right: 86px;
+    right: 135px;
     opacity: 0;
     animation: textAnimation 0.5s ease-in-out forwards;
 }

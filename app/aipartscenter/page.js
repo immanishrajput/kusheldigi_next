@@ -168,7 +168,7 @@ function Ai() {
                 <div>
                   <img
                     src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744622906/Group_1171279213_ahxsmd.png"
-                    alt="kushel"
+                    alt="ai&partscenter logo"
                   />
                 </div>
                 <p>A&I Parts Center</p>
