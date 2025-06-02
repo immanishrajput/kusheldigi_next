@@ -180,11 +180,11 @@ const nextConfig = {
         destination: '/mycrazysimplecms',
         permanent: true,
       },
-      {
-        source: '/woodView',
-        destination: '/woodview',
-        permanent: true,
-      },
+      // {
+      //   source: '/woodView',
+      //   destination: '/woodview',
+      //   permanent: true,
+      // },
       {
         source: '/instacertified',
         destination: '/instacertify',
