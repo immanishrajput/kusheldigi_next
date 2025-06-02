@@ -456,7 +456,7 @@ const ReactJsHire = () => {
                 <ServiceCommon/>
 
               
-                <ReactHireFAQ/>
+                {/* <ReactHireFAQ/> */}
 
                 <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
