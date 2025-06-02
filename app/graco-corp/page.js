@@ -169,7 +169,7 @@ function graco() {
                 <div>
                   <img
                     src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745914642/graco_corporation_logo_1705399297__51656_o9u82r.webp"
-                    alt="kushel"
+                    alt="graco-corporation logo"
                   />
                 </div>
                 <p>GRACO CORPORATION</p>

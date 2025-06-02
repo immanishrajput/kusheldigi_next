@@ -169,7 +169,7 @@ function typhoon() {
                 <div>
                   <img
                     src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745911384/typhoondefense_achn4u.webp"
-                    alt="kushel"
+                    alt="typhoon defense logo"
                   />
                 </div>
                 <p>TYPHOON DEFENSE</p>

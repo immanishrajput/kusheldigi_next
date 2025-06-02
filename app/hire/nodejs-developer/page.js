@@ -492,7 +492,7 @@ const generateMetadata = ({ params }) => ({
 
                 <ServiceCommon />
 
-             <NodeHireFAQ/>
+             {/* <NodeHireFAQ/> */}
                 <div className="whtsApBtns">
                     <button onClick={whatAppHandler}>
                         <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469695/whatsapp_ubh9of.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />

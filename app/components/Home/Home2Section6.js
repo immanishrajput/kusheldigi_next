@@ -30,7 +30,7 @@ const data = [
     para: "DigitalMnA is a full-service Merger and Acquisition company helping companies Sell and Buy assets by creating value.",
     type: "Real Estate",
     type2: "",
-    link: "/Digitalmna",
+    link: "/digitalmna",
     alt: "digital mna"
   },
   {

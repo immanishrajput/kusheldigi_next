@@ -167,7 +167,7 @@ function riffle() {
                 <div>
                   <img
                     src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745921174/standardlogo_400px_nobackground_1678492593__36894_kmlufu.webp"
-                    alt="kushel"
+                    alt="rifle supply logo"
                   />
                 </div>
                 <p>Rifle Supply</p>

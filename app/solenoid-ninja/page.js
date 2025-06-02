@@ -91,7 +91,7 @@ const Solenoid = () => {
           <div className="side-bg-trio">
             <div className="first-kick-pads">
               <div className="left-section-kids">
-                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740466127/pru3_g5s5nh.png' className='pru3' alt="img"></img>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740466127/pru3_g5s5nh.png' className='pru3' alt="solenoid-ninja logo"></img>
                 <p className="shoots_premium">
                   <span className="heightlisght_premium"> Given that </span>{" "}
                   the materials market is highly volatile, we are currently facing extended lead times beyond the usual duration.

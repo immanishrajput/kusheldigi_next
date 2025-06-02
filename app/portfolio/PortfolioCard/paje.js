@@ -266,7 +266,7 @@ const portfolioData = [
   //     liveStore: 'https://www.phastekperformance.com/',
 
   //     caseStudy: '/Ai',
-  //     caseStudy: '/instacertified',
+  //     caseStudy: '/instacertify',
   //     platform: '/bigcommerce-development',
   //   },
   //   case: ' View Case Study',
@@ -384,7 +384,7 @@ const portfolioData = [
   //     liveStore: 'https://www.phastekperformance.com/',
 
   //     caseStudy: '/Ai',
-  //     caseStudy: '/ushaFastners',
+  //     caseStudy: '/ushafasteners',
   //     platform: '/bigcommerce-development',
   //   },
   //   case:' View Case Study',

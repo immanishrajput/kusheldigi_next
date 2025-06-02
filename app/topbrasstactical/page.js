@@ -86,7 +86,7 @@ const TopBrass = () => {
                     <div className="side-bg-trio">
                         <div className="first-kick-pads">
                             <div className="left-section-kids">
-                                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740458745/logoWh_gbgwzr.svg' width="200" alt="img"></img>
+                                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740458745/logoWh_gbgwzr.svg' width="200" alt="topbrasstactical logo"></img>
                                 <p className="shoots_premium mt_top">
                                     Top Brass sells everything from army clothes and footwear to gun accessories, optics, tactical gear, and bags to make sure the military personnel and outdoor enthusiasts have everything they need.
                                 </p>

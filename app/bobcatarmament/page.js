@@ -185,7 +185,7 @@ function Page() {
                         <div className="case1fifirco">
                             {/* left  */}
                             <div className="ca1firleft">
-                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748205987/Group_1171279467_1_fsnkjv.png" alt="kushel" />
+                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748205987/Group_1171279467_1_fsnkjv.png" alt="bobcatarmament logo" />
                                 <p> Bobcat Armament </p>
                             </div>
 

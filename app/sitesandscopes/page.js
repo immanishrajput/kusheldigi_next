@@ -167,7 +167,7 @@ function page() {
                 <div>
                   <img
                     src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744699185/Group_1171279222_byjflc.png"
-                    alt="kushel"
+                    alt="sitesandscopes logo"
                   />
                 </div>
                 <p>Sites and Scopes</p>

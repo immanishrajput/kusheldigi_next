@@ -166,7 +166,7 @@ function rideready() {
                 <div className="catficircle">
                   <img
                     src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1732622216/logo_1_1688114115__84399_2_x00biw.png"
-                    alt="kushel"
+                    alt="rideready logo"
                   />
                 </div>
                 <p>Ride Ready</p>

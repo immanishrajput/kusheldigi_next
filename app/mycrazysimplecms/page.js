@@ -97,7 +97,7 @@ const CrazyCMS = () => {
           <div className="side-bg-trio">
             <div className="first-kick-pads incheingh">
               <div className="left-section-kids">
-                <img src={"https://res.cloudinary.com/ecommerce-website/image/upload/v1725976849/favicon_1_1_iprzaf.svg"} alt="img"></img>
+                <img src={"https://res.cloudinary.com/ecommerce-website/image/upload/v1725976849/favicon_1_1_iprzaf.svg"} alt="mycrazysimplecms logo"></img>
                 <p className="shoots_premium kooo">
                   My Crazy Simple CMS is an user-friendly content management system which is designed to simplify website management for businesses of all sizes. It emowers users to create, edit, and manage content without any technical expertise.
 

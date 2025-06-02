@@ -86,6 +86,11 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/1/HfN/1179i0w3irc8z891wyjkde58o1ogucdfccfaa.placename',
+        destination: '/contact-us',
+        permanent: true,
+      },
+      {
         source: '/rifflesuppy',
         destination: '/riflesupply',
         permanent: true,
@@ -181,8 +186,23 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: '/1/HfN/1179i0w3irc8z891wyjkde58o1ogucdfccfaa.placename',
-        destination: '/contact-us',
+        source: '/instacertified',
+        destination: '/instacertify',
+        permanent: true,
+      },
+      {
+        source: '/Digitalmna',
+        destination: '/digitalmna',
+        permanent: true,
+      },
+      {
+        source: '/Hitbaazar',
+        destination: '/hitbaazar',
+        permanent: true,
+      },
+      {
+        source: '/ushaFastners',
+        destination: '/ushafasteners',
         permanent: true,
       },
     ];

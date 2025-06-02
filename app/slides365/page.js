@@ -101,7 +101,7 @@ const ProTrucks = () => {
           <div className="side-bg-trio">
             <div className="first-kick-pads">
               <div className="left-section-kids">
-                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469466/shshhshshshsshshshshsh_jvhisw.png' className="pru188888888" alt="img"></img>
+                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740469466/shshhshshshsshshshshsh_jvhisw.png' className="pru188888888" alt="slides365 logo"></img>
                 <p className="shoots_premium">
                   1000+ Innovative Slides Design
                 </p>

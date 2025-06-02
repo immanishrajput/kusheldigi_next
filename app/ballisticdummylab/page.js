@@ -82,7 +82,7 @@ const Ballistic = () => {
           <div className="side-bg-trio">
             <div className="first-kick-pads incheingh iynyj">
               <div className="left-section-kids ">
-                <img loading="lazy" src={"https://res.cloudinary.com/ecommerce-website/image/upload/v1725976506/image_75_1_aha5l9.svg"} id="plus-circle" className="ballistic" alt="img"></img>
+                <img loading="lazy" src={"https://res.cloudinary.com/ecommerce-website/image/upload/v1725976506/image_75_1_aha5l9.svg"} id="plus-circle" className="ballistic" alt="ballisticdummylab logo"></img>
                 <p className="shoots_premium">
                   Ballistic Dummy Lab is the leading developer of the most physiologically correct human analogues for the firearms testing, medical training, and special effects in film and television industries. It is recognized by its innovative products made of organic and synthetic
                   gel, which have set the global standard of realism and accuracy.

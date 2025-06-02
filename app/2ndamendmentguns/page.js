@@ -187,7 +187,7 @@ function Page() {
             <div className="case1fifirco">
               {/* left  */}
               <div className="ca1firleft">
-                <img loading="lazy" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784821/Group_1171279311_lf5dmj.png" alt="kushel" />
+                <img loading="lazy" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784821/Group_1171279311_lf5dmj.png" alt="2ndamendmentguns logo" />
                 <p>2ndamendment Guns</p>
               </div>
 
