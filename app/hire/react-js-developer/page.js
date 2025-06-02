@@ -20,65 +20,65 @@ const ReactJsHire = () => {
     useEffect(() => {
         if (window.matchMedia("(max-width: 1150px)").matches) {
             setPerPage(2);
-          }
-          if (window.matchMedia("(max-width: 850px)").matches) {
+        }
+        if (window.matchMedia("(max-width: 850px)").matches) {
             setPerPage(1);
-          }
+        }
     }, []);
 
 
-  
+
     const phoneNumber = "9045301702";
 
     const whatAppHandler = () => {
-      const whatsappUrl = `https://wa.me/${phoneNumber}`;
-      window.open(whatsappUrl, "_blank");
+        const whatsappUrl = `https://wa.me/${phoneNumber}`;
+        window.open(whatsappUrl, "_blank");
     };
-    const callHandler=()=>{
-      const callUrl = `tel:${phoneNumber}`;
-      window.open(callUrl, "_blank");
+    const callHandler = () => {
+        const callUrl = `tel:${phoneNumber}`;
+        window.open(callUrl, "_blank");
     }
-  
-  
+
+
     const scrollToTop = () => {
-      // Scroll to the top of the page with smooth behavior
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth',
-      });
+        // Scroll to the top of the page with smooth behavior
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
     };
-     const generateMetadata = ({ params }) => ({
+    const generateMetadata = ({ params }) => ({
         title: 'KushelDigi : Job Search Marketplace. Tech Job Hunting Simplified',
-        description:"Web Development Company | Kushel Digi Solutions"
-      });
-      
+        description: "Web Development Company | Kushel Digi Solutions"
+    });
+
     useEffect(() => {
         const { title, description } = generateMetadata({ params: {} });
         document.title = title;
         let metaDescription = document.querySelector('meta[name="description"]');
-        metaDescription ? metaDescription.content = description : 
-          document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-      }, []);
+        metaDescription ? metaDescription.content = description :
+            document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+    }, []);
     return (
         <>
-        <Navbar/>
-       
+            <Navbar />
+
             <div className="ser-main">
 
-            <div className="phppp-main">
-                <div className="php-back">
-                    <div className="php-back1">
-                        <h1>Hire ReactJS Developers</h1>
-                        <p>
-                            Looking to create a front-end application that not only sells but also compliments your modern idea? Hire ReactJS developers from DianApps to escalate your dream project.
-                        </p>
-                        <Link href="/contact-us">
-                        <button>Hire Developer</button> </Link>
+                <div className="phppp-main">
+                    <div className="php-back">
+                        <div className="php-back1">
+                            <h1>Hire ReactJS Developers</h1>
+                            <p>
+                                Looking to create a front-end application that not only sells but also compliments your modern idea? Hire ReactJS developers from DianApps to escalate your dream project.
+                            </p>
+                            <Link href="/contact-us">
+                                <button>Hire Developer</button> </Link>
+                        </div>
+                        <div className="php-back2">
+                            <ContactForm3 />
+                        </div>
                     </div>
-                    <div className="php-back2">
-                        <ContactForm3/>
-                    </div>
-                </div>
                 </div>
 
                 <div className="pgp_service dine-1234">
@@ -240,71 +240,71 @@ const ReactJsHire = () => {
                         </Splide>
                     </div> */}
 
-                   
-<div className="migration_card">
-  <Splide
-    className="w-full z-50"
-    aria-label="React JS Services"
-    options={{
-      perPage: perPage,
-      perMove: 1,
-      autoplay: true,
-      pauseOnHover: true,
-      type: "loop",
-      interval: 2000,
-      drag: true,
-      gap: '1rem',
-      breakpoints: {
-        1024: { perPage: 2 },
-        768: { perPage: 1 },
-        480: { perPage: 1 },
-      },
-    }}
-  >
-    {[
-      {
-        title: "React JS Consultancy",
-        desc: "Looking for a front-end ReactJS solution? Our senior ReactJS executives may assist you to clarify all your concerns and queries while helping to create scalable solutions. We don’t just sketch your business workflows but also find various tactics & proposals to make sure the brand is ready to rank from day one of its releases.",
-      },
-      {
-        title: "Material Design Integrations",
-        desc: "Your fantastic app concept merits a beautiful design solution. Our innovative UI/UX designers and ReactJS developers work together to create a feature-rich and aesthetically appealing front-end design that encourages customers to explore the platform and choose the customer journey.",
-      },
-      {
-        title: "Single Page Apps",
-        desc: "We take all critical measures to improve your website visitors' experience by creating Single Page Apps with quicker response times, server-side rendering that benefits Google SERPs and dynamic content that adjusts to suit varied user preferences. DianApps never fails to deliver the ultimate results to its clients.",
-      },
-      {
-        title: "Custom & Real-time Apps",
-        desc: "No matter what sector your company is in or how unique your ReactJS app development needs are. Our ReactJS developers are capable of delivering modern, real-time web app solutions adapted to your individual requirements, resulting in improved outcomes and great ROIs for the long run accomplishments.",
-      },
-      {
-        title: "Plugin Implementation",
-        desc: "Our ReactJS engineers make full use of the ReactJS front-end JavaScript library's full power to construct reusable plugins and widgets, improving the usability of your business-critical solution, which ultimately helps you stand out from the competition and claim success.",
-      },
-      {
-        title: "App Migration",
-        desc: "We use the best practices of the ReactJS library to effortlessly transfer your conventional apps to ReactJS for greater performance and, as a result, more potential to gain users' interest, leading to a higher return on investment and sustainability.",
-      },
-      {
-        title: "App Support & Maintenance",
-        desc: "Hire specialized ReactJS developers for app maintenance and support services as needed to ensure the top-notch performance of your ReactJS application at all times. They deliver app version upgrades with bug fixes and security patches on a regular and proactive basis to keep your app up to date in all technical aspects.",
-      },
-    ].map((item, i) => (
-      <SplideSlide key={i}>
-        <div className="migration_box">
-          <div className="mig1">
-            <h4>{i + 1}</h4>
-          </div>
-          <div className="mig2">
-            <h3>{item.title}</h3>
-            <p>{item.desc}</p>
-          </div>
-        </div>
-      </SplideSlide>
-    ))}
-  </Splide>
-</div>
+
+                    <div className="migration_card">
+                        <Splide
+                            className="w-full z-50"
+                            aria-label="React JS Services"
+                            options={{
+                                perPage: perPage,
+                                perMove: 1,
+                                autoplay: true,
+                                pauseOnHover: true,
+                                type: "loop",
+                                interval: 2000,
+                                drag: true,
+                                gap: '1rem',
+                                breakpoints: {
+                                    1024: { perPage: 2 },
+                                    768: { perPage: 1 },
+                                    480: { perPage: 1 },
+                                },
+                            }}
+                        >
+                            {[
+                                {
+                                    title: "React JS Consultancy",
+                                    desc: "Looking for a front-end ReactJS solution? Our senior ReactJS executives may assist you to clarify all your concerns and queries while helping to create scalable solutions. We don’t just sketch your business workflows but also find various tactics & proposals to make sure the brand is ready to rank from day one of its releases.",
+                                },
+                                {
+                                    title: "Material Design Integrations",
+                                    desc: "Your fantastic app concept merits a beautiful design solution. Our innovative UI/UX designers and ReactJS developers work together to create a feature-rich and aesthetically appealing front-end design that encourages customers to explore the platform and choose the customer journey.",
+                                },
+                                {
+                                    title: "Single Page Apps",
+                                    desc: "We take all critical measures to improve your website visitors' experience by creating Single Page Apps with quicker response times, server-side rendering that benefits Google SERPs and dynamic content that adjusts to suit varied user preferences. DianApps never fails to deliver the ultimate results to its clients.",
+                                },
+                                {
+                                    title: "Custom & Real-time Apps",
+                                    desc: "No matter what sector your company is in or how unique your ReactJS app development needs are. Our ReactJS developers are capable of delivering modern, real-time web app solutions adapted to your individual requirements, resulting in improved outcomes and great ROIs for the long run accomplishments.",
+                                },
+                                {
+                                    title: "Plugin Implementation",
+                                    desc: "Our ReactJS engineers make full use of the ReactJS front-end JavaScript library's full power to construct reusable plugins and widgets, improving the usability of your business-critical solution, which ultimately helps you stand out from the competition and claim success.",
+                                },
+                                {
+                                    title: "App Migration",
+                                    desc: "We use the best practices of the ReactJS library to effortlessly transfer your conventional apps to ReactJS for greater performance and, as a result, more potential to gain users' interest, leading to a higher return on investment and sustainability.",
+                                },
+                                {
+                                    title: "App Support & Maintenance",
+                                    desc: "Hire specialized ReactJS developers for app maintenance and support services as needed to ensure the top-notch performance of your ReactJS application at all times. They deliver app version upgrades with bug fixes and security patches on a regular and proactive basis to keep your app up to date in all technical aspects.",
+                                },
+                            ].map((item, i) => (
+                                <SplideSlide key={i}>
+                                    <div className="migration_box">
+                                        <div className="mig1">
+                                            <h4>{i + 1}</h4>
+                                        </div>
+                                        <div className="mig2">
+                                            <h3>{item.title}</h3>
+                                            <p>{item.desc}</p>
+                                        </div>
+                                    </div>
+                                </SplideSlide>
+                            ))}
+                        </Splide>
+                    </div>
 
 
                 </div>
@@ -315,10 +315,10 @@ const ReactJsHire = () => {
 
 
                         <hr className="get_mig1" />
-                        
+
                         <Link href="/contact-us">
 
-                        <button>Let's Connect</button> </Link>
+                            <button>Let's Connect</button> </Link>
 
                         <hr className="get_mig2" />
                     </div>
@@ -412,7 +412,7 @@ const ReactJsHire = () => {
                                     <h4>Daily, weekly, and monthly updates</h4>
                                 </div>
                                 <div className="frenta" >
-                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741002499/frema_nyozfz.png' alt="Flexible engagement models"  title='Flexible engagement models'/>
+                                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1741002499/frema_nyozfz.png' alt="Flexible engagement models" title='Flexible engagement models' />
                                     <h4>Flexible engagement models</h4>
                                 </div>
                             </div>
@@ -453,22 +453,22 @@ const ReactJsHire = () => {
 
                 {/* <ContactForm1 /> */}
 
-                <ServiceCommon/>
+                <ServiceCommon />
 
-              
+
                 {/* <ReactHireFAQ/> */}
 
                 <div className="whtsApBtns">
-          <button onClick={whatAppHandler}>
-            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172941/whatsapp_cowbb8.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
-          </button>
-          <button onClick={callHandler}>
-            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172987/telephone_qjoh3j.png' alt="call-icon" title="call-icon" />
-          </button>
+                    <button onClick={whatAppHandler}>
+                        <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172941/whatsapp_cowbb8.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+                    </button>
+                    <button onClick={callHandler}>
+                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172987/telephone_qjoh3j.png' alt="call-icon" title="call-icon" />
+                    </button>
 
-        </div>
+                </div>
             </div>
-            <Footer/>
+            <Footer />
         </>
     )
 }
