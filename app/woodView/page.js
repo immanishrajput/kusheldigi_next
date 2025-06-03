@@ -87,7 +87,7 @@ const WoodView = () => {
         <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
         <meta name="twitter:url" content="https://www.kusheldigi.com/" />
 
-        <link rel="canonical" href="https://www.kusheldigi.com/woodview" />
+        <link rel="canonical" href="https://www.kusheldigi.com/woodView" />
 
       </Head>
 

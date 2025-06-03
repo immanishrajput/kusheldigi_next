@@ -597,7 +597,7 @@ const portfolioData = [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
     links: {
-      caseStudy: '/woodview',
+      caseStudy: '/woodView',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',

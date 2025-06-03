@@ -91,7 +91,7 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: '/rifflesuppy',
+        source: '/rifflesupply',
         destination: '/riflesupply',
         permanent: true,
       },
@@ -198,11 +198,6 @@ const nextConfig = {
       {
         source: '/ushaFastners',
         destination: '/ushafasteners',
-        permanent: true,
-      },
-      {
-        source: '/woodView',
-        destination: '/woodview',
         permanent: true,
       },
     ];
