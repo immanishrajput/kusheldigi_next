@@ -209,7 +209,7 @@ const caseStudies = [
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1725886339/Group_1171275960_jrfrmk.png",
     img2: "https://res.cloudinary.com/ecommerce-website/image/upload/v1725952841/image_76_tovttv.svg",
     btnText: "VIEW CASE STUDY",
-    link: "/woodview",
+    link: "/woodView",
     alt: "case study-Bulletproof",
     category: ["website"],
     width: 500,
