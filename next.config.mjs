@@ -180,11 +180,6 @@ const nextConfig = {
         destination: '/mycrazysimplecms',
         permanent: true,
       },
-      // {
-      //   source: '/woodView',
-      //   destination: '/woodview',
-      //   permanent: true,
-      // },
       {
         source: '/instacertified',
         destination: '/instacertify',
@@ -203,6 +198,11 @@ const nextConfig = {
       {
         source: '/ushaFastners',
         destination: '/ushafasteners',
+        permanent: true,
+      },
+      {
+        source: '/woodView',
+        destination: '/woodview',
         permanent: true,
       },
     ];
