@@ -92,7 +92,6 @@
 
 #phase2 {
     width: 100px;
-    ;
 }
 
 #phase3 {
@@ -361,7 +360,7 @@
 #phase7Name {
     position: absolute;
     top: 31px;
-    right: 438px;
+    right: 452px;
     display: flex;
     opacity: 0;
     flex-direction: column;
@@ -397,8 +396,8 @@
 
 #phase10Name {
     position: absolute;
-    top: 53px;
-    right: 126px;
+    top: 60px;
+    right: 146px;
     display: flex;
     opacity: 0;
     flex-direction: column;
@@ -419,7 +418,7 @@
 #phase11Name {
     position: absolute;
     top: 0px;
-    right: -27px;
+    right: -17px;
     opacity: 0;
     display: flex;
     flex-direction: column;
@@ -500,35 +499,37 @@
 }
 
 .agile7phase {
-    right: 419px !important;
+    right: 436px !important;
 }
 
 .agile8phase {
-    right: 155px !important;
+    right: 172px !important;
 }
 
 .agile9phase {
-    right: 293px !important;
+    right: 276px !important;
 }
 
 .agile3phase {
-    left: 129px !important;
+    left: 150px !important;
 }
 
 .agile10phase {
-    right: 126px !important;
+    right: 145px !important;
 }
 
 .agile11phase {
-    right: -25px !important;
+    right: -58px !important;
 }
 
 .first-copmpany {
     margin-right: 30px;
+    margin-bottom: 0;
 }
 
 .second-copmpany {
     margin-left: 30px;
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {

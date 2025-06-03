@@ -538,7 +538,7 @@
 }
 
 .agile7phase {
-    right: 419px !important;
+    right: 436px !important;
 }
 
 .agile8phase {
@@ -546,15 +546,15 @@
 }
 
 .agile9phase {
-    right: 293px !important;
+    right: 276px !important;
 }
 
 .agile3phase {
-    left: 129px !important;
+    left: 150px !important;
 }
 
 .agile10phase {
-    right: 126px !important;
+    right: 145px !important;
 }
 
 .agile11phase {
@@ -563,10 +563,12 @@
 
 .first-copmpany {
     margin-right: 30px;
+    margin-bottom: 0;
 }
 
 .second-copmpany {
     margin-left: 30px;
+    margin-bottom: 0;
 }
 
 @media(max-width:1232px) {

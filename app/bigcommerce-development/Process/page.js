@@ -115,12 +115,13 @@ const Progress = ({page}) => {
                                 <div id='phase10' className="process-button"></div>
                                 <div id='phase10Name'>
                                     <span className=''>06</span>
-                                    <span className='procBCom'>Final Touches</span>
+                                    {/* <span className='procBCom'>Final Touches</span> */}
+                                    <span className='procBCom'>Deployment</span>
                                 </div>
                                 <div id='phase11' className="process-button"></div>
                                 <div id='phase11Name'>
                                     <span className=''>07</span>
-                                    <span className='procBCom'>Deployment</span>
+                                    <span className='procBCom'>Hyper Care</span>
                                 </div>
                             </>
                         ) : (
@@ -188,7 +189,7 @@ const Progress = ({page}) => {
                                 <div id='phase11' className="process-button"></div>
                                 <div id='phase11Name' className='agile11phase'>
                                     <span className=''>07</span>
-                                    <span className='procBCom'>Launch <br/> & Ongoing <br/> Support</span>
+                                    <span className='procBCom'>Launch & Ongoing <br/> Support</span>
                                 </div>
                            </>
                         )
