@@ -76578,7 +76578,7 @@ input::-webkit-inner-spin-button {
 }
 
 .mainBloContentSt {
-    margin-top: 90px;
+    margin-top: 70px;
     display: flex;
     gap: 50px;
     align-items: self-start;
@@ -76609,7 +76609,7 @@ input::-webkit-inner-spin-button {
 
 .mainBloContentPa {
     width: 763px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
 }
 
@@ -77204,17 +77204,17 @@ input::-webkit-inner-spin-button {
 
 .cardBlogStpaara {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 21px;
     color: black;
-    line-height: 32px;
+    line-height: 26px;
     font-family: 'Poppins', sans-serif;
     margin-top: 8px;
 }
 
 .cardBlogStpaaragr {
     padding-top: 8px;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 15px;
+    line-height: 23px;
     color: #040404;
 }
 
