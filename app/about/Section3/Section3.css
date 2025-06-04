@@ -24,7 +24,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* gap: 65%; */
 }
 
 .profileCiclr {
@@ -80,25 +79,10 @@
     text-decoration: none;
 }
 
-/* responsive  */
-@media(max-width:1200px) {
-
-    /* .profileLinksec {
-        gap: 35%;
-    } */
-}
-
 @media (max-width: 1024px) {
     .proficardsec p {
         font-size: 20px;
     }
-
-    /* .profileLinksec {
-        gap: 110px;
-    } */
-
-
-
 }
 
 @media (max-width: 768px) {
@@ -139,8 +123,6 @@
         flex-direction: row;
         align-items: center;
         gap: 10px;
-        /* display: grid; */
-        /* gap: 20px; */
     }
 
     .profileLinksec {

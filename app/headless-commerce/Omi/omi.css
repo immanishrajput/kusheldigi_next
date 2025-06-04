@@ -7,7 +7,6 @@
 .storefront-section {
     padding: 50px 50px;
     background-color: #fff;
-    font-family: sans-serif;
   }
   
   .storefront-container {
@@ -24,7 +23,7 @@
     flex: 1 1 450px;
     display: flex;
     justify-content: center;
-    margin-bottom: 30px; /* spacing on smaller screens */
+    margin-bottom: 30px;
   }
   
   .storefront-image {

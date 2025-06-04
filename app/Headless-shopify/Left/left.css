@@ -1,5 +1,5 @@
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -8,8 +8,7 @@
   .sleft-section {
     background-color: #f9fafb;
     padding: 80px 20px;
-    text-align: center;
-    font-family: "Segoe UI", sans-serif;
+    text-align: center; 
   }
   
   .sleft-title {

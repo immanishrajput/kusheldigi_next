@@ -41,7 +41,7 @@ opacity: 0;
 }
 
 .s7cont h3{
-      font-family: sf-ui-display-medium, sans-serif;
+       
   font-size: 40px;
   font-weight: 600;
   line-height: 50px;
@@ -88,7 +88,7 @@ max-width: 72px;
 max-height: 72px;
 }
 .s8heading {
-    font-family: sf-ui-display-medium, sans-serif;
+     
 font-size: 20px;
 font-weight: 600;
 line-height: 30px;
@@ -100,7 +100,7 @@ align-items: center; /* Vertically centers the text */
 }
 
 .s8apra{
-      font-family: sf-ui-display-medium, sans-serif;
+       
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -175,7 +175,7 @@ justify-content: center;
   margin: 0 auto;
 }
 .s5content h3{
-      font-family: sf-ui-display-medium, sans-serif;
+       
   font-size: 44px;
   font-weight: 400;
   line-height: 54px;
@@ -187,7 +187,7 @@ color: #0E151D;
 
 }
 .s5content h3 span{
-      font-family: sf-ui-display-medium, sans-serif;
+       
   font-size: 44px;
   font-weight: 800;
   line-height: 60px;
@@ -195,7 +195,7 @@ color: #0E151D;
   
 }
 .s5content p{
-  font-family: Inter;
+   
   font-size: 20px;
   font-weight: 400;
   z-index: 10;
@@ -218,7 +218,7 @@ background-color: transparent;
 
 }
 .s5cont button span{ 
-      font-family: sf-ui-display-medium, sans-serif;
+       
   font-size: 18px;
   font-weight: 400;
   line-height: 31.97px;
@@ -363,7 +363,7 @@ z-index: 0;
 @media (max-width:900px) {
 
 .s5content h3{
-    font-family: sf-ui-display-medium, sans-serif;
+     
 font-size: 44px;
 font-weight: 400;
 line-height: 70px;
@@ -371,7 +371,7 @@ text-align: center;
 color: #0E151D;    
 }
 .s5content h3 span{
-    font-family: sf-ui-display-medium, sans-serif;
+     
 font-size: 44px;
 font-weight: 700;
 line-height: 70px;
@@ -379,7 +379,7 @@ text-align: center;
 
 }
 .s5content p{
-font-family: Inter;
+ 
 font-size: 20px;
 font-weight: 400;
 line-height: 35px;
@@ -389,7 +389,7 @@ color: #101010;
 
 
 .s5cont button span{ 
-    font-family: sf-ui-display-medium, sans-serif;
+     
 font-size: 20px;
 font-weight: 400;
 line-height: 31.97px;

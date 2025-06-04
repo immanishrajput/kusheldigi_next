@@ -1,7 +1,6 @@
 .case-study-container {
     max-width: 1720px;
     margin: 0 auto;
-    /* padding: 170px 60px 20px; */
     padding-top: 140px;
 }
 
@@ -11,7 +10,6 @@
     margin: auto;
     position: relative;
     overflow: hidden;
-    /* border-radius: 12px; */
 }
 
 .case-img {
@@ -101,10 +99,6 @@
     padding: 5px;
     border-radius: 60px;
 }
-/* 
-.bigcommerceImg-card > img:nth-child(2){
-    width: 35px;
-} */
 
 .flex-bigcommerce-banner-btns {
     display: flex;
