@@ -30,7 +30,6 @@
   padding: 37px 0px 27px 0px;
   display: grid;
   grid-template-columns: 1fr;
-  /* gap: 20px; */
 }
 
 @media (min-width: 768px) {
@@ -58,7 +57,6 @@
 .core-value-card {
   color: #1e1e1e;
   padding: 30px 20px;
-  /* border-radius: 10px; */
   text-align: left;
   border: 2px solid #3b83f6ca;
   border-top: none;
@@ -94,7 +92,6 @@
 }
 
 .core-value-description {
-  /* width: 770px; */
   padding-left: 73px;
   font-size: 18px;
   margin-top: 5px;

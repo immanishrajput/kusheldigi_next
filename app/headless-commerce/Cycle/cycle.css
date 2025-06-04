@@ -1,8 +1,7 @@
 .full-cycle-container {
     max-width: 1720px;
     margin: 0 auto;
-    padding: 50px 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 50px 50px; 
   }
   
   .header-with-buttons {

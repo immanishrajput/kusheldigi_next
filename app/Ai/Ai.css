@@ -1,15 +1,18 @@
-#AiUnique_solution p{
+#AiUnique_solution p {
     width: 70px;
     height: 0px;
     border: 2px solid #B30739;
 }
-#case3Portfolio_Aii{
-    background:#681317 ;
+
+#case3Portfolio_Aii {
+    background: #681317;
 }
-#case2_Background_Port{
+
+#case2_Background_Port {
     background-color: #F9F9F9;
 }
-#imgPortfolio_Phone{
+
+#imgPortfolio_Phone {
     max-width: 1300px;
     width: 100%;
     position: absolute;
@@ -17,14 +20,12 @@
     left: 0;
     right: 100px;
     bottom: 0;
-     display: flex; 
+    display: flex;
     justify-content: center;
     margin: 0 auto;
-    /* padding: 0px 20px; */
     align-items: center;
-    /* gap: 20px; */
 }
-#imgPortfolio_Ai_Phone{
-max-width: 100%;
 
+#imgPortfolio_Ai_Phone {
+    max-width: 100%;
 }

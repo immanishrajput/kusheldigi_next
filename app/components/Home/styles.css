@@ -10,7 +10,7 @@
 .swiplidebtn p,
 .swiplidebtn span {
   font-weight: 500;
-  font-family: sf-ui-display-medium, sans-serif
+   
 }
 
 .rotatesvg svg,
@@ -152,7 +152,7 @@
 }
 
 .h2braswiperwrap h3 {
-  font-family: sf-ui-display-medium, sans-serif;
+   
   font-size: 32px;
   font-weight: 600;
   line-height: 70px;
@@ -164,7 +164,7 @@
 .testiTopDetails .tettopleft p:nth-child(2),
 .viewworkbtns span {
   color: #000;
-  font-family: sf-ui-display-medium, sans-serif
+   
 }
 
 .viewworkbtns span {
@@ -241,7 +241,7 @@
 }
 
 .reviewsss {
-  font-family: sf-ui-display-medium, sans-serif;
+   
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -251,7 +251,7 @@
 
 .projectre,
 .reviewname {
-  font-family: sf-ui-display-medium, sans-serif;
+   
   font-size: 18px;
   line-height: 28px;
   text-align: left;
