@@ -205,7 +205,7 @@ const Rely = () => {
             <h3 className="nila">02</h3>
             <h3>Challenges & Solutions</h3>
           </div>
-          <div className="challenge-story2 flex">
+          <div className="challenge-story2 flex gap-3">
             <div className="challenge-box">
               <h4>Challenges</h4>
               <div className="chal"></div>

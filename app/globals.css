@@ -5,13 +5,13 @@
 
 /* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Wix+Madefor+Display:wght@400..800&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     font-family: "Poppins", sans-serif !important;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     overflow-x: none !important;
-    /* letter-spacing: 0 !important; */
 }
 
 html,
@@ -970,7 +970,7 @@ body {
 }
 
 .tool {
-    padding-top: 4rem;
+    padding-top: 2rem;
     font-size: 30px;
     font-weight: 700;
     line-height: 50px;
@@ -4633,7 +4633,7 @@ body {
     height: 40px
 }
 
-.btn button { 
+.btn button {
     font-family: "Poppins", sans-serif !important;
     align-items: center;
     background-color: #0B56E4;
@@ -4890,7 +4890,7 @@ body {
 
 }
 
-.benefit-card { 
+.benefit-card {
     min-height: 630px;
     margin-top: 25px;
     background-color: #fff;
@@ -5517,7 +5517,7 @@ body {
     margin: auto
 }
 
-.clubk-content h2 { 
+.clubk-content h2 {
     font-size: 34px;
     font-weight: 700;
     line-height: 44px;
@@ -5528,7 +5528,7 @@ body {
     padding-bottom: 20px
 }
 
-.clubk-content h2 span { 
+.clubk-content h2 span {
     font-size: 34px;
     font-weight: 700;
     line-height: 44px;
@@ -5564,7 +5564,7 @@ body {
 }
 
 .clubk-content-first h2 {
-     
+
     font-size: 34px;
     font-weight: 700;
     line-height: 44px;
@@ -5575,7 +5575,7 @@ body {
 }
 
 .clubk-content-first h2 span {
-     
+
     font-size: 34px;
     font-weight: 700;
     line-height: 44px;
@@ -5584,7 +5584,7 @@ body {
 }
 
 .clubk-content-first p {
-     
+
     font-size: 20px;
     font-weight: 400;
     line-height: 34px;
@@ -5641,7 +5641,7 @@ body {
 }
 
 .clubk-content-second h2 {
-     
+
     font-size: 34px;
     font-weight: 700;
     line-height: 35px;
@@ -5652,7 +5652,7 @@ body {
 }
 
 .clubk-content-second h2 span {
-     
+
     font-size: 34px;
     font-weight: 700;
     line-height: 35px;
@@ -5661,7 +5661,7 @@ body {
 }
 
 .clubk-content-second p {
-     
+
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
@@ -5868,7 +5868,7 @@ body {
 }
 
 .clubk-under-text h4 {
-     
+
     font-size: 24px;
     font-weight: 700;
     line-height: 28.6px;
@@ -5877,7 +5877,7 @@ body {
 }
 
 .clubk-under-text p {
-     
+
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -5891,7 +5891,7 @@ body {
 }
 
 .clubk-fourth-section-content h1 {
-     
+
     font-size: 34px;
     font-weight: 700;
     line-height: 38px;
@@ -5901,7 +5901,7 @@ body {
 }
 
 .clubk-fourth-section-content h1 span {
-     
+
     font-size: 34px;
     font-weight: 700;
     line-height: 38px;
@@ -5911,7 +5911,7 @@ body {
 }
 
 .clubk-fourth-section-content p {
-     
+
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
@@ -5932,7 +5932,7 @@ body {
 }
 
 .clubk-text-content h4 {
-     
+
     font-size: 24px;
     font-weight: 700;
     line-height: 28.6px;
@@ -5942,7 +5942,7 @@ body {
 }
 
 .clubk-text-content p {
-     
+
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -5960,7 +5960,7 @@ body {
 }
 
 .clubk-flex-content h2 {
-     
+
     font-size: 34px;
     font-weight: 700;
     line-height: 54px;
@@ -5969,7 +5969,7 @@ body {
 }
 
 .clubk-flex-content h2 span {
-     
+
     font-size: 34px;
     font-weight: 700;
     line-height: 54px;
@@ -5978,7 +5978,7 @@ body {
 }
 
 .clubk-flex-content p {
-     
+
     font-size: 20px;
     font-weight: 400;
     line-height: 34px;
@@ -5993,7 +5993,7 @@ body {
     width: 180px;
     color: #388FE7;
     border: 1px solid #388FE7;
-     
+
     font-size: 24px;
     font-weight: 800;
     line-height: 34px;
@@ -6051,7 +6051,7 @@ body {
 }
 
 .clubk-card h4 {
-     
+
     font-size: 24px;
     font-weight: 700;
     line-height: 28px;
@@ -6060,7 +6060,7 @@ body {
 }
 
 .clubk-card p {
-     
+
     font-size: 19px;
     font-weight: 400;
     line-height: 30px;
@@ -6109,7 +6109,7 @@ body {
 }
 
 .clubk-heading h2 {
-     
+
     font-size: 34px;
     font-weight: 800;
     line-height: 54px;
@@ -6119,7 +6119,7 @@ body {
 }
 
 .clubk-heading h2 span {
-     
+
     font-size: 34px;
     font-weight: 800;
     line-height: 54px;
@@ -6128,7 +6128,7 @@ body {
 }
 
 .clubk-heading p {
-     
+
     font-size: 24px;
     font-weight: 400;
     line-height: 34px;
@@ -6147,7 +6147,7 @@ body {
 }
 
 .clubk-top-heading h2 {
-     
+
     font-size: 34px;
     font-weight: 700;
     line-height: 44px;
@@ -6156,7 +6156,7 @@ body {
 }
 
 .clubk-top-heading h2 span {
-     
+
     font-size: 34px;
     font-weight: 700;
     line-height: 44px;
@@ -6189,7 +6189,7 @@ body {
 }
 
 .clubk-slider-card-icon h4 {
-     
+
     font-size: 24px;
     font-weight: 700;
     line-height: 51.19px;
@@ -6208,7 +6208,7 @@ body {
 }
 
 .clubk-slider-card p {
-     
+
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
@@ -6219,7 +6219,7 @@ body {
 }
 
 .clubk-content-second3 h2 {
-     
+
     font-size: 44px;
     font-weight: 700;
     line-height: 54px;
@@ -6228,7 +6228,7 @@ body {
 }
 
 .clubk-content-second3 h2 span {
-     
+
     font-size: 44px;
     font-weight: 700;
     line-height: 54px;
@@ -6238,7 +6238,7 @@ body {
 }
 
 .clubk-content-second3 p {
-     
+
     font-size: 24px;
     font-weight: 400;
     line-height: 34px;
@@ -7101,7 +7101,7 @@ body {
 
 #kushel-headless-commerce .headless-commerce-api-nextstep-partfirst p,
 .headless-commerce-apicall p {
-     
+
     font-size: 30px;
     font-weight: 500;
     line-height: 40px;
@@ -9461,7 +9461,7 @@ body {
     align-items: center
 }
 
-#kushel-next-js .button-group button { 
+#kushel-next-js .button-group button {
     width: 145px;
     padding: 10px;
     cursor: pointer;
@@ -10257,7 +10257,7 @@ body {
     padding-top: 30px
 }
 
-#hemesh-ppc .Button button { 
+#hemesh-ppc .Button button {
     align-items: center;
     background-color: #0B56E4;
     border: none;
@@ -10403,7 +10403,7 @@ body {
     width: 240px
 }
 
-#hemesh-ppc .buttonn button { 
+#hemesh-ppc .buttonn button {
     align-items: center;
     background-color: #0B56E4;
     border: none;
@@ -10684,7 +10684,7 @@ body {
     padding-top: 30px
 }
 
-#hemesh-ppc .button1 button { 
+#hemesh-ppc .button1 button {
     width: 219px;
     align-items: center;
     background-color: #0B56E4;
@@ -12722,7 +12722,7 @@ body {
 }
 
 .usa-workculture-manage-containt h2 {
-     
+
     font-size: 27px;
     font-weight: 700;
     line-height: 31.96px;
@@ -12744,7 +12744,7 @@ body {
 }
 
 .card-USA-icons h2 {
-     
+
     font-size: 34px;
     font-weight: 700;
     line-height: 40px;
@@ -14139,7 +14139,7 @@ body {
 }
 
 .bigs9topcon h3 {
-     
+
     font-size: 38px;
     font-weight: 700;
     line-height: 48px;
@@ -14869,7 +14869,7 @@ body {
     line-height: 44px;
     text-align: center;
     color: #FFFFFF;
-    margin:0;
+    margin: 0;
 }
 
 .cssixtop p {
@@ -17074,7 +17074,7 @@ body {
 }
 
 .s9cont h3 {
-     
+
     font-size: 36px;
     font-weight: 600;
     line-height: 46px;
@@ -17102,7 +17102,7 @@ body {
 }
 
 .sinprleft {
-     
+
     font-size: 18px;
     font-weight: 600;
     max-width: 345px;
@@ -17120,7 +17120,7 @@ body {
 }
 
 .signprorigh p {
-     
+
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
@@ -17129,7 +17129,7 @@ body {
 }
 
 .signprorigh p:nth-child(2) span {
-     
+
     font-size: 18px;
     font-weight: 700;
     line-height: 28px;
@@ -17204,7 +17204,7 @@ body {
 }
 
 .singles1item .itemdata span {
-     
+
     font-size: 28px;
     font-weight: 500;
     line-height: 38px;
@@ -17212,7 +17212,7 @@ body {
 }
 
 .singles1item .itemdata p {
-     
+
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -17253,7 +17253,7 @@ body {
 }
 
 .singlquestion .answer {
-     
+
     font-size: 16px;
     max-width: 1300px;
     font-weight: 400;
@@ -17324,7 +17324,7 @@ body {
     }
 
     .sinprleft {
-         
+
         font-size: 24px;
         font-weight: 600;
         max-width: auto;
@@ -17479,7 +17479,7 @@ body {
 }
 
 .h2s4cont h2 {
-     
+
     font-size: 40px;
     font-weight: 700;
     line-height: 50px;
@@ -17520,7 +17520,7 @@ body {
 }
 
 .weiteemright span {
-     
+
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
@@ -17541,7 +17541,7 @@ body {
 }
 
 .weitemleft .itemconte .ictitle {
-     
+
     font-size: 24px;
     font-weight: 600;
     line-height: 34px;
@@ -17550,7 +17550,7 @@ body {
 }
 
 .weitemleft .itemconte .ipara {
-     
+
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
@@ -17592,7 +17592,7 @@ body {
 }
 
 .h3tags {
-     
+
     font-size: 20px;
     font-weight: 500;
     line-height: 44px;
@@ -18038,7 +18038,7 @@ body {
 }
 
 .banheadings h1 {
-     
+
     font-size: 34px;
     font-weight: 400;
     line-height: 54px;
@@ -18046,7 +18046,7 @@ body {
 }
 
 .banheadings h2 {
-     
+
     font-size: 56px;
     font-weight: 900;
     line-height: 30px;
@@ -18075,14 +18075,14 @@ body {
 }
 
 .h2bantakCir p {
-     
+
     font-size: 16px;
     font-weight: 400;
     color: #ffffff;
 }
 
 .h2bantakCir2 p {
-     
+
     font-size: 16px;
     font-weight: 400;
     color: #ffffff;
@@ -18150,7 +18150,7 @@ body {
 }
 
 .hoebaninner label p {
-     
+
     font-size: 28px;
     font-weight: 600;
     line-height: 38px;
@@ -18158,7 +18158,7 @@ body {
 }
 
 .hoebaninner label span {
-     
+
     font-size: 22px;
     font-weight: 300;
     line-height: 32px;
@@ -18240,7 +18240,7 @@ body {
     }
 
     .h2bantakCir2 p {
-         
+
         font-size: 10px;
         font-weight: 400;
         color: #ffffff;
@@ -18339,7 +18339,7 @@ body {
 }
 
 .h2sec3left .whoweare span {
-     
+
     font-size: 16px;
     font-weight: 700;
     line-height: 44px;
@@ -18347,7 +18347,7 @@ body {
 }
 
 .h3eheaing {
-     
+
     font-size: 32px;
     font-weight: 800;
     line-height: 38px;
@@ -18378,7 +18378,7 @@ body {
 }
 
 .h3para {
-     
+
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -18430,7 +18430,7 @@ body {
 }
 
 .h2sec6cont h3 {
-     
+
     font-size: 26px;
     font-weight: 600;
     line-height: 36px;
@@ -18439,7 +18439,7 @@ body {
 }
 
 .s6para {
-     
+
     font-size: 30px;
     font-weight: 400;
     line-height: 40px;
@@ -18476,7 +18476,7 @@ body {
 }
 
 .singeldata .sdmid span {
-     
+
     font-size: 22px;
     font-weight: 600;
     line-height: 34px;
@@ -18484,7 +18484,7 @@ body {
 }
 
 .singeldata .dpara {
-     
+
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -18501,7 +18501,7 @@ body {
 }
 
 .spandt1 {
-     
+
     font-size: 14px;
     font-weight: 400;
     line-height: 38px;
@@ -18568,7 +18568,7 @@ body {
 }
 
 .s6viallwork span {
-     
+
     font-size: 16px;
     font-weight: 400;
     line-height: 38px;
@@ -18670,7 +18670,7 @@ body {
 }
 
 .s7cont h3 {
-     
+
     font-size: 40px;
     font-weight: 600;
     line-height: 50px;
@@ -18715,7 +18715,7 @@ body {
 }
 
 .s8heading {
-     
+
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
@@ -18727,7 +18727,7 @@ body {
 }
 
 .s8apra {
-     
+
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -18802,7 +18802,7 @@ body {
 }
 
 .s5content h3 {
-     
+
     font-size: 44px;
     font-weight: 400;
     line-height: 54px;
@@ -18814,7 +18814,7 @@ body {
 }
 
 .s5content h3 span {
-     
+
     font-size: 44px;
     font-weight: 800;
     line-height: 60px;
@@ -18822,7 +18822,7 @@ body {
 }
 
 .s5content p {
-     
+
     font-size: 20px;
     font-weight: 400;
     z-index: 10;
@@ -18845,7 +18845,7 @@ body {
 }
 
 .s5cont button span {
-     
+
     font-size: 18px;
     font-weight: 400;
     line-height: 31.97px;
@@ -18995,7 +18995,7 @@ body {
 
 @media (max-width:900px) {
     .s5content h3 {
-         
+
         font-size: 44px;
         font-weight: 400;
         line-height: 70px;
@@ -19004,7 +19004,7 @@ body {
     }
 
     .s5content h3 span {
-         
+
         font-size: 44px;
         font-weight: 700;
         line-height: 70px;
@@ -19012,7 +19012,7 @@ body {
     }
 
     .s5content p {
-         
+
         font-size: 20px;
         font-weight: 400;
         line-height: 35px;
@@ -19021,7 +19021,7 @@ body {
     }
 
     .s5cont button span {
-         
+
         font-size: 20px;
         font-weight: 400;
         line-height: 31.97px;
@@ -19073,7 +19073,7 @@ body {
 }
 
 .s8para1 {
-     
+
     font-size: 20px;
     font-weight: 400;
     line-height: 54px;
@@ -19082,7 +19082,7 @@ body {
 }
 
 .s8h4 {
-     
+
     font-size: 34px;
     font-weight: 600;
     line-height: 54px;
@@ -19095,7 +19095,7 @@ body {
 }
 
 .s8para2 {
-     
+
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -19133,7 +19133,7 @@ body {
 }
 
 .sEcoRight .scoripara1 {
-     
+
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -19151,7 +19151,7 @@ body {
 }
 
 .leamorediv .text32 {
-     
+
     font-size: 16px;
     font-weight: 600;
     line-height: 30px;
@@ -19240,7 +19240,7 @@ body {
 .swiplidebtn p,
 .swiplidebtn span {
     font-weight: 500;
-     
+
 }
 
 .rotatesvg svg,
@@ -19382,7 +19382,7 @@ body {
 }
 
 .h2braswiperwrap h3 {
-     
+
     font-size: 32px;
     font-weight: 600;
     line-height: 70px;
@@ -19394,7 +19394,7 @@ body {
 .testiTopDetails .tettopleft p:nth-child(2),
 .viewworkbtns span {
     color: #000;
-     
+
 }
 
 .viewworkbtns span {
@@ -19477,7 +19477,7 @@ body {
 
 
 .reviewsss {
-     
+
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -19498,7 +19498,7 @@ body {
 }
 
 .reviewname {
-     
+
     font-size: 18px;
     text-align: left;
     color: #222
@@ -20921,7 +20921,7 @@ body {
 }
 
 .bigs9topcon h3 {
-     
+
     font-size: 38px;
     font-weight: 700;
     line-height: 48px;
@@ -20988,7 +20988,7 @@ body {
     max-width: 13em;
     width: 100%;
     color: #FFF;
-     
+
     font-size: 34px;
     font-style: normal;
     font-weight: 700;
@@ -20997,7 +20997,7 @@ body {
 
 .ccs_content p {
     color: #FFF;
-     
+
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -21065,12 +21065,12 @@ body {
     font-size: 34px;
     font-weight: 700;
     line-height: 40px;
-     
+
     max-width: 16em;
 }
 
 .service_para p {
-     
+
     max-width: 34em;
     color: #404040;
     font-size: 20px;
@@ -21108,7 +21108,7 @@ body {
 
 .css_khuBest_parat p {
     color: #404040;
-     
+
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -21165,7 +21165,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 30px;
-     
+
     text-align: center;
     width: 20em;
     margin: 12px auto;
@@ -21177,7 +21177,7 @@ body {
     font-weight: 400;
     text-align: center;
     line-height: 30px;
-     
+
     width: 52em;
     margin: 12px auto;
 }
@@ -21215,7 +21215,7 @@ body {
 
 .css_single_benifit h2 {
     margin-top: 10px !important;
-     
+
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
@@ -21227,7 +21227,7 @@ body {
 
 .css_single_benifit h3 {
     font-weight: 400;
-     
+
     color: #183646;
     line-height: 28px;
     text-align: Center;
@@ -21243,7 +21243,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 30px;
-     
+
     text-align: center;
 }
 
@@ -21253,7 +21253,7 @@ body {
     font-weight: 400;
     text-align: center;
     line-height: 30px;
-     
+
     width: 50em;
     margin: 12px auto;
 }
@@ -21289,7 +21289,7 @@ body {
 }
 
 .css_softS_singleServ h2 {
-     
+
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
@@ -21302,7 +21302,7 @@ body {
 .css_softS_singleServ h3 {
     text-align: left;
     font-weight: 400;
-     
+
     color: #183646;
     line-height: 28px;
     font-size: 14px;
@@ -21328,14 +21328,14 @@ body {
     font-size: 26px;
     font-weight: 700;
     line-height: 34px;
-     
+
     max-width: 100%;
     width: 21em;
     margin: 20px 0px;
 }
 
 .joinCS_para p {
-     
+
     max-width: 100%;
     color: #FFFFFF;
     font-size: 18px;
@@ -21377,7 +21377,7 @@ body {
 }
 
 .joinCsbox h3 {
-     
+
     font-weight: 700;
     font-size: 18px;
     line-height: 28px;
@@ -21386,7 +21386,7 @@ body {
 }
 
 .joinCsbox p {
-     
+
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
@@ -21692,7 +21692,7 @@ body {
 
 .nwPorSec1Con .nwPorInter h1 {
     color: #FFF;
-     
+
     font-size: 54px;
     font-style: normal;
     font-weight: 700;
@@ -21702,7 +21702,7 @@ body {
 .nwPorSec1Con .nwPorInter p {
     color: #FFF;
     text-align: center;
-     
+
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -21737,7 +21737,7 @@ body {
 .nwPortSec1 .nwPorDisBtn span {
     color: #0039ff;
     text-align: center;
-     
+
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -21790,7 +21790,7 @@ body {
 .nwPortSec2 .nwPS2_sin h2 {
     color: #FFF;
     text-align: center;
-     
+
     font-size: 80px;
     font-style: normal;
     font-weight: 700;
@@ -21807,7 +21807,7 @@ body {
 .nwPortSec2 .nwPS2_sin .nwS2Titl {
     color: #FFF;
     text-align: center;
-     
+
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -21830,7 +21830,7 @@ body {
 
 .nwPortSec2 .mwPS2_bttom .nwPs2head {
     color: #FFF;
-     
+
     font-size: 44px;
     font-style: normal;
     font-weight: 700;
@@ -23015,7 +23015,7 @@ body {
 }
 
 body {
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 input::-webkit-outer-spin-button,
@@ -23187,7 +23187,7 @@ input[type=number] {
 
 .first-header span {
     margin-left: 10px;
-     
+
     font-weight: 400;
     text-transform: capitalize;
     font-size: 18px
@@ -23232,7 +23232,7 @@ input[type=number] {
     font-weight: 400;
     text-transform: capitalize;
     font-size: 16px;
-    margin-left: 10px; 
+    margin-left: 10px;
 }
 
 .g9fontsize {
@@ -23245,7 +23245,7 @@ input[type=number] {
 
 .email {
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
 
 .port-card2 b {
@@ -23320,7 +23320,7 @@ input[type=number] {
     align-items: center
 }
 
-.timer p { 
+.timer p {
     font-size: 16.5px;
     color: #fff;
     margin-left: 15px
@@ -23341,7 +23341,7 @@ input[type=number] {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap:15px;
+    gap: 15px;
     padding: 10px 60px;
     position: relative;
     top: 3px;
@@ -23364,12 +23364,12 @@ input[type=number] {
 }
 
 .navbar ul li a {
-     
+
     font-size: 18px;
     font-weight: 600;
     line-height: 23.48px;
     text-align: right;
-    color: #0E151D; 
+    color: #0E151D;
 }
 
 .ser-nav1 a {
@@ -23401,7 +23401,7 @@ input[type=number] {
     font-weight: 700;
     font-size: 16px;
     opacity: 0.8 !important;
-    margin-left: 12px; 
+    margin-left: 12px;
     text-transform: capitalize;
     letter-spacing: .5px
 }
@@ -23412,7 +23412,7 @@ input[type=number] {
 
 .tag1 .yamini {
     font-size: 16px !important;
-    opacity: .7; 
+    opacity: .7;
     margin: 10px 28px;
     text-transform: capitalize !important
 }
@@ -23586,7 +23586,7 @@ input[type=number] {
     width: 150px !important;
     height: 35px !important;
     max-width: 100% !important;
-    border-radius: 4px; 
+    border-radius: 4px;
     font-weight: 500 !important;
     cursor: pointer;
     font-size: 13px !important
@@ -23799,15 +23799,15 @@ input[type=number] {
 }
 
 .navbar ul li p {
-     
+
     font-size: 18px;
     font-weight: 600;
     line-height: 23.48px;
-    color: #0E151D; 
-} 
+    color: #0E151D;
+}
 
 .navbar ul li .sar:hover {
-    color: #0c62ff; 
+    color: #0c62ff;
     text-decoration: underline !important;
 }
 
@@ -23841,7 +23841,7 @@ input[type=number] {
     color: #ffffff !important;
 }
 
-#contactusbtns{
+#contactusbtns {
     text-decoration: none !important;
 }
 
@@ -24107,7 +24107,7 @@ input[type=number] {
 
 .whatweCando-container h2 {
     color: #0E151D;
-     
+
     font-size: 44px;
     font-weight: 700;
     line-height: 60px;
@@ -25190,7 +25190,7 @@ hr {
 }
 
 .akki-inside-left-contain h1 {
-     
+
     font-size: 36px;
     font-weight: 700;
     line-height: 1.2;
@@ -25218,7 +25218,7 @@ hr {
 }
 
 .akki-right-formcontain h2 {
-     
+
     font-size: 36px;
     font-weight: 700;
     line-height: 1.2;
@@ -25445,11 +25445,11 @@ hr {
 .crazy_cms h3 {
     color: #33475B;
     font-size: 44px;
-    font-weight: 400; 
+    font-weight: 400;
 }
 
 .crazy_cms span {
-    font-weight: 700; 
+    font-weight: 700;
 }
 
 .fopping {
@@ -25813,7 +25813,7 @@ form button {
 
 .second-footer p {
     color: #33475b;
-     
+
     font-weight: 400;
     font-size: 20px;
     margin-left: 15px;
@@ -25831,7 +25831,7 @@ form button {
 
 .third-footer .maa {
     color: #fff;
-     
+
     font-weight: 400;
     font-size: 20px;
     margin-left: 15px;
@@ -25849,7 +25849,7 @@ form button {
 
 .fourth-footer p {
     color: #fff;
-     
+
     font-weight: 400;
     font-size: 20px;
     margin-left: 15px;
@@ -25868,7 +25868,7 @@ form button {
 
 .information p {
     color: #fff;
-     
+
     font-weight: 400;
     font-size: 17px
 }
@@ -25893,14 +25893,14 @@ form button {
 
 .second-lower h3 {
     color: #fff;
-     
+
     font-weight: 600;
     font-style: italic;
     font-size: 18px
 }
 
 .first-lower .atthe {
-     
+
     font-weight: 600;
     font-style: italic;
     color: #fff;
@@ -26123,7 +26123,7 @@ form button {
 .home1111 .tokin {
     font-size: 20px;
     font-weight: 400;
-    margin-top: 12px; 
+    margin-top: 12px;
     color: #fff;
     width: 29em;
     max-width: 100%
@@ -26132,7 +26132,7 @@ form button {
 .tokin1 {
     font-size: 20px;
     font-weight: 400;
-    margin-top: 12px; 
+    margin-top: 12px;
     color: #fff;
     width: 29em
 }
@@ -26141,7 +26141,7 @@ form button {
     font-size: 20px;
     line-height: 30px;
     font-weight: 400;
-    margin-top: 12px; 
+    margin-top: 12px;
     color: #fff;
     width: 29em
 }
@@ -26649,7 +26649,7 @@ form button {
 
 .new-portfolio2-heading1 h2 {
     color: #FFF;
-     
+
     font-size: 44px;
     font-style: normal;
     font-weight: 800;
@@ -26672,7 +26672,7 @@ form button {
 
 .portfolio2-flex-section-icon .portfolio2-flex-icon p {
     color: #FFF;
-     
+
     font-size: 22px;
     font-style: normal;
     font-weight: 600;
@@ -26703,7 +26703,7 @@ form button {
 
 .portfolio2-under-card-section h2 {
     color: #FFF;
-     
+
     font-size: 34px;
     font-style: normal;
     font-weight: 800;
@@ -26714,7 +26714,7 @@ form button {
 .portfolio2-under-card-section p {
     width: 100%;
     color: #FFF;
-     
+
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -26818,7 +26818,7 @@ form button {
     width: 208px !important;
     align-items: center;
     background-color: #0B56E4;
-    border: none;
+    border: none !important;
     border-radius: 28px;
     color: #fff;
     display: flex;
@@ -26871,7 +26871,7 @@ form button {
     background-color: #fff;
     color: #000;
     padding: 11px 60px;
-     
+
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -27538,7 +27538,7 @@ form button {
 }
 
 .excellent h2 {
-    color: #404040; 
+    color: #404040;
     font-weight: 600;
     font-size: 19.5px;
     letter-spacing: .5px
@@ -27624,7 +27624,7 @@ form button {
     padding: 100px 0
 }
 
-.home612 p { 
+.home612 p {
     color: #000;
     font-size: 25px
 }
@@ -27692,7 +27692,7 @@ form button {
     width: 205px
 }
 
-.web-button button { 
+.web-button button {
     width: 190px;
     align-items: center;
     background-color: #0B56E4;
@@ -28072,7 +28072,7 @@ form button {
 
 .customize h2 {
     text-align: center;
-    color: #101010; 
+    color: #101010;
     font-weight: 500;
     font-size: 37px;
     line-height: 42px
@@ -28327,7 +28327,7 @@ form button {
     color: #fff;
     font-weight: 500;
     font-size: 19.5px;
-    border-radius: 30px; 
+    border-radius: 30px;
     letter-spacing: .5px
 }
 
@@ -28499,7 +28499,7 @@ form button {
     width: 100%
 }
 
-.trants button { 
+.trants button {
     position: absolute;
     top: 209px
 }
@@ -28748,9 +28748,9 @@ form button {
     font-weight: bold;
     text-align: center;
     margin-bottom: 2rem;
-    color: #1f2937; 
+    color: #1f2937;
 }
- 
+
 #other-box1,
 #other-box2,
 #other-box3 {
@@ -28769,7 +28769,7 @@ form button {
     max-width: 100%;
     object-fit: contain;
 }
- 
+
 #other-btn1,
 #other-btn2,
 #other-btn3 {
@@ -28953,10 +28953,6 @@ form button {
     margin-left: 2rem
 }
 
-.business-box {
-    margin-bottom: 45px
-}
-
 .business-card-img {
     position: absolute;
     padding: 17px;
@@ -28980,7 +28976,7 @@ form button {
     margin-bottom: 13px;
     font-weight: 700;
     font-size: 22px;
-    font-weight: 600 !important; 
+    font-weight: 600 !important;
     color: black;
 }
 
@@ -29045,7 +29041,7 @@ form button:hover {}
 .why-choose h2 {
     font-size: 36px;
     color: #010c1e;
-    font-weight: 700; 
+    font-weight: 700;
     text-align: center;
     line-height: 46px
 }
@@ -29086,7 +29082,7 @@ form button:hover {}
 }
 
 .chose-head h3 {
-    font-size: 23px; 
+    font-size: 23px;
     font-weight: 700;
     color: #010c1e;
     line-height: 30px;
@@ -29739,7 +29735,7 @@ form button:hover {}
     transition: .5s
 }
 
-.foot10 .footLink{
+.foot10 .footLink {
     color: #000 !important;
 }
 
@@ -29808,7 +29804,7 @@ form button:hover {}
     padding-bottom: 40px;
 }
 
-.footer-btn button { 
+.footer-btn button {
     width: 160px;
     height: 45px;
     border-radius: 50px;
@@ -30224,7 +30220,7 @@ form button:hover {}
 
 .partner-box a {
     color: #085881;
-    text-decoration: underline; 
+    text-decoration: underline;
     font-size: 14px;
     display: flex;
     align-items: center;
@@ -30365,7 +30361,7 @@ form button:hover {}
 
 .bigcom_box_contant h3 {
     color: #fff;
-     
+
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
@@ -30878,7 +30874,7 @@ form button:hover {}
 }
 
 .ben-da button {
-    margin: 0 auto; 
+    margin: 0 auto;
     max-width: 200px;
     width: 100%;
     align-items: center;
@@ -31127,7 +31123,7 @@ form button:hover {}
     width: 24em
 }
 
-.first-experiencedji button { 
+.first-experiencedji button {
     align-items: center;
     background-color: #0B56E4;
     border: none !important;
@@ -31287,7 +31283,7 @@ form button:hover {}
     line-height: 46px
 }
 
-.deliver-p p { 
+.deliver-p p {
     font-size: 19px;
     color: #33475b;
     width: 58%;
@@ -31320,7 +31316,7 @@ form button:hover {}
     line-height: 46px
 }
 
-.benifits-ui .when-p { 
+.benifits-ui .when-p {
     font-size: 19px;
     color: #33475b;
     width: 58%;
@@ -31538,7 +31534,7 @@ form button:hover {}
     width: 32em
 }
 
-.how-did-second button { 
+.how-did-second button {
     align-items: center;
     background-color: #0B56E4;
     border: none;
@@ -31674,7 +31670,7 @@ form button:hover {}
 
 .kick-box h4 {
     font-size: 21px;
-    color: #fff;   
+    color: #fff;
     font-weight: 500
 }
 
@@ -31700,7 +31696,7 @@ form button:hover {}
 }
 
 .kick-fard h5 {
-     
+
     font-weight: 500;
     font-size: 19px;
     color: #fff;
@@ -31708,7 +31704,7 @@ form button:hover {}
 }
 
 .kick-fard p {
-     
+
     font-weight: 400 !important;
     font-size: 15.5px;
     color: #fff;
@@ -31718,13 +31714,13 @@ form button:hover {}
 .visit-kart p {
     color: #fff;
     font-size: 12px;
-     
+
     font-weight: 500
 }
 
 .visit-kart .kinza {
     font-size: 19px;
-     
+
     color: #fff;
     text-decoration: underline;
     margin-top: 10px
@@ -31982,7 +31978,8 @@ form button:hover {}
 .challenge-box3 {
     height: 320px;
     overflow-y: scroll;
-    position: relative
+    position: relative;
+    margin: 0;
 }
 
 .challenge-box3::-webkit-scrollbar {
@@ -32125,13 +32122,13 @@ form button:hover {}
     color: #fff;
     font-size: 35px;
     font-weight: 700;
-     
+
     text-align: center
 }
 
 .req-sect p {
     color: #fff;
-     
+
     font-size: 19px;
     text-align: center;
     font-weight: 400;
@@ -32145,7 +32142,7 @@ form button:hover {}
 .req-sect button {
     background-color: #fff;
     color: #000;
-     
+
     font-size: 17.5px;
     width: 270px;
     height: 70px;
@@ -32507,7 +32504,7 @@ form button:hover {}
     position: relative
 }
 
-.first-hiring button { 
+.first-hiring button {
     align-items: center;
     font-family: 'Poppins', sans-serif !important;
     background-color: #0B56E4;
@@ -32642,7 +32639,7 @@ form button:hover {}
     position: relative;
 }
 
-.hired-help-sect button { 
+.hired-help-sect button {
     align-items: center;
     background-color: #0B56E4;
     border: none;
@@ -32663,7 +32660,6 @@ form button:hover {}
 
 .hired-help-sect button:hover {
     background-color: #fff;
-    border: 1px solid #0039ff;
     color: #0B56E4
 }
 
@@ -32776,7 +32772,7 @@ form button:hover {}
 }
 
 .benifits-hire button {
-    align-items: center; 
+    align-items: center;
     background-color: #0B56E4;
     border: none;
     border-radius: 28px;
@@ -32925,7 +32921,7 @@ form button:hover {}
 }
 
 .demo-hire-sect button {
-    align-items: center; 
+    align-items: center;
     background-color: #0B56E4;
     border: none;
     border-radius: 28px;
@@ -33592,7 +33588,7 @@ form button:hover {}
     color: #fff;
     font-size: 15.5px;
     cursor: pointer;
-     
+
     margin-top: 35px
 }
 
@@ -33880,7 +33876,7 @@ form button:hover {}
 
 .posify1 p {
     font-size: 22.5px;
-     
+
     color: #33475b;
     opacity: .9;
     margin-top: 5px
@@ -33888,7 +33884,7 @@ form button:hover {}
 
 .posify1 span {
     font-size: 22.5px;
-     
+
     color: #085881;
     opacity: .9;
     margin-top: 5px
@@ -34032,7 +34028,7 @@ form button:hover {}
 .discover h2 {
     color: #202020;
     font-size: 34px;
-    font-weight: 500; 
+    font-weight: 500;
 }
 
 .discover1 p {
@@ -34312,7 +34308,7 @@ form button:hover {}
     color: #fff;
     font-weight: 500;
     font-size: 15.5px;
-     
+
     font-weight: 400;
     text-decoration: underline;
     text-align: center;
@@ -34471,7 +34467,7 @@ form button:hover {}
     padding: 40px 0 100px 0
 }
 
-.android-back1 button { 
+.android-back1 button {
     align-items: center;
     background-color: #0B56E4;
     border: none !important;
@@ -35059,7 +35055,7 @@ video {
     margin-top: 15px
 }
 
-.ios-kickstart button { 
+.ios-kickstart button {
     align-items: center;
     background-color: #0B56E4;
     border: none;
@@ -36941,14 +36937,14 @@ video {
 
 .other-tox-para h3 {
     color: #33475b;
-    font-weight: bolder; 
+    font-weight: bolder;
     font-size: 19px
 }
 
 .other-tox-para p {
     color: #202020;
     font-weight: 500;
-    font-size: 14px; 
+    font-size: 14px;
 }
 
 .other-tox-para::before {
@@ -36973,7 +36969,7 @@ video {
     color: #fff;
     border-radius: 5px;
     font-size: 13px;
-    font-weight: 600; 
+    font-weight: 600;
     margin-top: 30px
 }
 
@@ -38910,7 +38906,7 @@ video {
     width: 100%
 }
 
-.magento_back1 button { 
+.magento_back1 button {
     align-items: center;
     background-color: #0B56E4;
     border: none;
@@ -39625,7 +39621,7 @@ video {
     max-width: 100%
 }
 
-.php-back1 button { 
+.php-back1 button {
     align-items: center;
     background-color: #0B56E4;
     border: none;
@@ -39714,7 +39710,7 @@ video {
     border-radius: 3px
 }
 
-.form_exam_btn button { 
+.form_exam_btn button {
     float: right;
     align-items: center;
     background-color: #0B56E4;
@@ -39750,7 +39746,7 @@ video {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap:10px;
+    gap: 10px;
     background-color: #fff;
     padding: 40px 100px
 }
@@ -40252,7 +40248,7 @@ video {
 }
 
 .php_ben1 button {
-    display: inline !important; 
+    display: inline !important;
     max-width: 270px;
     width: 100%;
     height: 64px;
@@ -41332,10 +41328,10 @@ video {
     font-family: 'Poppins', sans-serif !important;
 }
 
-.solution_back1 button { 
+.solution_back1 button {
     align-items: center;
     background-color: #0B56E4;
-    border: none;
+    border: none !important;
     border-radius: 28px;
     color: #fff;
     display: inline;
@@ -41350,7 +41346,7 @@ video {
     margin-top: 40px
 }
 
-.solution_back1 button:hover { 
+.solution_back1 button:hover {
     background-color: #fff;
     border: 1px solid #0039ff;
     color: #0B56E4
@@ -41508,7 +41504,7 @@ video {
 
 .our_commerce1 h6 {
     text-align: center;
-    font-size: 26px;
+    font-size: 36px;
     font-weight: 700;
     font-family: 'Poppins', sans-serif !important;
     color: #33475b
@@ -41517,13 +41513,12 @@ video {
 .our_commerce1 p {
     text-align: center;
     margin: 0 auto;
-    font-size: 18.5px;
-    width: 49em;
-    line-height: 30px;
-    margin-top: 25px;
+    font-size: 17px;
+    line-height: 25px;
+    margin-top: 14px;
     font-family: 'Poppins', sans-serif !important;
     font-weight: 400;
-    color: #33475b
+    color: #33475b;
 }
 
 .skyRoket {
@@ -41579,7 +41574,7 @@ video {
 .skyRoket button {
     align-items: center;
     background-color: #0B56E4;
-    border: none;
+    border: none !important;
     border-radius: 28px;
     color: #fff;
     display: flex;
@@ -41800,7 +41795,6 @@ video {
 
 .boost_sect button:hover {
     background-color: #fff;
-    border: 1px solid #0039ff;
     color: #0B56E4
 }
 
@@ -42194,7 +42188,7 @@ video {
 }
 
 .tool {
-    padding-top: 4rem;
+    padding-top: 2rem;
     font-size: 30px;
     font-family: 'Poppins', sans-serif !important;
     font-weight: 700;
@@ -45381,7 +45375,7 @@ video {
         display: none;
     }
 
-    .wordpress-paras ul li { 
+    .wordpress-paras ul li {
         text-align: center;
     }
 
@@ -48961,7 +48955,7 @@ video {
 
 .hoGet_inTouchWrap .getINleftSide .getInPARA {
     color: #FFF;
-     
+
     font-family: 'Poppins', sans-serif !important;
     font-size: 19px;
     font-style: normal;
@@ -49930,6 +49924,7 @@ option {
     font-family: 'Poppins', sans-serif !important;
     max-width: 18em;
     width: 100%;
+    min-height: 212px;
     line-height: 21px;
     text-align: left
 }
@@ -50050,7 +50045,7 @@ option {
 }
 
 #hemesh-services .services-card-second2 {
-    max-width: 210px;
+    max-width: 250px;
     width: 100%;
     font-family: 'Poppins', sans-serif !important;
     height: 250px;
@@ -50826,7 +50821,7 @@ option {
     right: 0%;
 }
 
-.smallnavwrap {
+/* .smallnavwrap {
     width: 100%;
     height: fit-content;
     background-color: white;
@@ -50834,7 +50829,18 @@ option {
     height: 100vh;
     max-height: 100vh;
     overflow-y: scroll;
+} */
+
+
+.smallnavwrap {
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+    padding: 10px 25px 20px;
+    background-color: white;
 }
+
 
 .mob-nav2-active {
     top: 40px;
@@ -52490,7 +52496,7 @@ option {
     width: 2rem
 }
 
-.captcha p { 
+.captcha p {
     margin-right: 2rem
 }
 
@@ -75287,7 +75293,7 @@ input::-webkit-inner-spin-button {
 
 .blogClockTime1 {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -75412,7 +75418,7 @@ input::-webkit-inner-spin-button {
     padding: 20px 0px 0px 0px;
 }
 
-.bimageloDiPa { 
+.bimageloDiPa {
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
@@ -77222,7 +77228,7 @@ input::-webkit-inner-spin-button {
     font-weight: 600;
     font-size: 17px;
     line-height: 40px;
-    color: #222; 
+    color: #222;
 }
 
 .cardBlogStpaarw1 {
