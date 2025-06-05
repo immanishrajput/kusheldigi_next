@@ -243,6 +243,10 @@ const data = [
       },
     ],
   },
+  {
+    title: "Contact Us",
+    navigate: "/contact-us",
+  },
 ];
 
 const Navbar = () => {

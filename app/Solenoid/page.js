@@ -196,7 +196,7 @@ const Solenoid = () => {
               Challenges  & Solutions
             </h3>
           </div>
-          <div className="challenge-story2 flex">
+          <div className="challenge-story2 flex gap-3">
             <div className="challenge-box">
               <h4>Challenges</h4>
               <div className="chal"></div>

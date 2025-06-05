@@ -135,7 +135,7 @@ const Solution = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-14 px-11 py-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 px-11 py-8">
               <div className="business-box busi-box relative text-center cursor-pointer">
                 <div className="business-card-img">
                   <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740481029/penda_b2myld.png' alt="E-commerce Consulting" title="E-commerce Consulting" />
