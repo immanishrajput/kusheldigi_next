@@ -212,7 +212,7 @@ const Page = () => {
         {!isCategorySelected && (
           <>
             <br />
-            <br />
+            {/* <br /> */}
           </>
         )}
 
