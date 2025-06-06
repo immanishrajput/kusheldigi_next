@@ -139,7 +139,7 @@
   .hero-containerMa {
     flex-direction: column;
     text-align: center;
-    gap: 0rem;
+    gap: 2rem;
     background: #e4edf3 !important;
     padding: 11rem 45px 0 45px;
   }

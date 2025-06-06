@@ -242,33 +242,23 @@ body {
   }
 
   #homePhoneDiv>.react-tel-input {
-    width: 92% !important;
+    width: 100% !important;
   }
 }
 
 @media (max-width:410px) {
   .contact-input {
-    width: 78%;
+    width: 75%;
   }
 
   #homePhoneDiv>.react-tel-input {
-    width: 78% !important;
-  }
-}
-
-@media (max-width:410px) {
-  .contact-input {
-    width: 78%;
-  }
-
-  #homePhoneDiv>.react-tel-input {
-    width: 78% !important;
+    width: 75% !important;
   }
 }
 
 @media (max-width:372px) {
   #homePhoneDiv>.react-tel-input {
-    width: 78% !important;
+    width: 81% !important;
   }
 }
 
@@ -277,21 +267,6 @@ body {
     padding: 40px 20px 40px !important;
   }
 }
-
-@media(max-width:340px) {
-
-  .contact-input,
-  .contact-textArea {
-    /* width: 80% !important; */
-  }
-
-  /* #homePhoneDiv>.react-tel-input {
-    width: 86% !important;
-  } */
-}
-
-
-@media screen and (max-width:350px) {}
 
 .contact-emailInput,
 .contact-textArea {
@@ -315,7 +290,6 @@ body {
 }
 
 @media (max-width:769px) {
-
   .contact-htmlForm-btn {
     width: 100%;
   }
@@ -532,7 +506,7 @@ body {
   }
 
   .right {
-    width: 90% !important;
+    width: 98% !important;
   }
 
   .contact-container>.container {
@@ -558,9 +532,9 @@ body {
     width: 90% !important;
   }
 
-  .right {
+  /* .right {
     width: 90% !important;
-  }
+  } */
 
   .contact-heading {
     font-size: 24px !important;
@@ -798,8 +772,7 @@ body {
   justify-content: center;
   gap: 20px;
   padding: 40px 0px 0px 0px;
-  margin: 0 auto;
-  /* max-width: 1200px; */
+  margin: 0 auto; 
 }
 
 .left-b2b-cards,
@@ -842,24 +815,6 @@ body {
 .left-b2b-card-2:hover .b2b-logo img {
   transform: scale(1.03);
 }
-
-/* 
-.left-b2b-card-2{
-  position: relative;
-  background: #fff;
-  border: 1px solid #80808045;
-  border-radius: 10px;
-  text-align: left;
-  width: 600px;
-  max-width: 100%;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-  overflow: hidden;
-}
-.left-b2b-card-2:hover{
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  transform: translateY(-5px);
-} */
 
 .left-b2b-card,
 .right-b2b-card {
@@ -1042,14 +997,12 @@ body {
   .b2b-paraa {
     padding-top: 20px;
   }
-
 }
 
 @media (max-width: 576px) {
   .b2b-head {
     width: 100%;
-    font-size: 32px;
-    /* line-height: 38px; */
+    font-size: 32px; 
   }
 
   .contact-heading {
@@ -1384,7 +1337,7 @@ body {
 
 @media screen and (max-width:340px) {
   .contact-first-div>div {
-    width: 75%;
+    width: 88%;
   }
 
   .down-contact-name-input {
