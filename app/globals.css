@@ -1511,6 +1511,85 @@ body {
     padding: 60px 100px
 }
 
+
+.container-benefits {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.benefits-heading {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #222;
+    text-align: center;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+
+.benefit-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.benefit-card:hover {
+    transform: translateY(-6px);
+}
+
+.benefit-icon {
+    max-width: 60px;
+    margin-bottom: 20px;
+}
+
+.benefit-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #333;
+    text-align: center;
+}
+
+.benefit-text {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    .benefits-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .benefits-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .benefit-card {
+        padding: 20px;
+    }
+
+    .benefit-icon {
+        max-width: 50px;
+    }
+}
+
+
 .containnn {
     padding: 60px 100px 0 100px
 }
@@ -3573,7 +3652,9 @@ body {
 }
 
 .group-main {
-    width: 100%
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1720px;
 }
 
 .jio {
@@ -3599,7 +3680,7 @@ body {
     font-weight: 600;
     line-height: 40px;
     text-align: left;
-    color: #fff;
+    color: #000000;
     max-width: 61%
 }
 
@@ -4866,7 +4947,7 @@ body {
     background-color: #F9F9F9
 }
 
-.benefit-section {
+/* .benefit-section {
     padding: 60px 70px 60px 70px;
 }
 
@@ -4894,7 +4975,7 @@ body {
     margin-top: 25px;
     background-color: #fff;
     box-shadow: 0 4px 5px 0 rgb(0 0 0 / .1)
-}
+} */
 
 .card-img img {
     width: 100%
@@ -25951,7 +26032,9 @@ form button {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    padding: 70px 100px
+    padding: 70px 100px;
+    max-width: 1720px;
+    margin: 0 auto;
 }
 
 .staffimg1 img {
@@ -47008,7 +47091,7 @@ video {
 
 .buttunn {
     display: block;
-    width: 198px
+    width: auto;
 }
 
 .node_dev_ss-back2 img {
@@ -51124,7 +51207,9 @@ option {
 }
 
 .staff-cap {
-    padding: 70px 100px;
+    padding: 70px 80px;
+    max-width: 1720px;
+    margin: 0 auto;
     background-color: #fafafa
 }
 
@@ -51149,42 +51234,72 @@ option {
     padding: 65px 0
 }
 
-.card {
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-top: 20px;
+}
+
+.card-item {
+    background: #fff;
+    border-radius: 10px;
+    padding: 24px 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin-top: 50px
+    transition: transform 0.3s ease;
 }
 
-.box1212 {
-    background-color: #fff;
-    width: 390px;
-    padding: 40px 30px;
-    height: 280px;
-    margin: 0 8px;
-    box-shadow: 0 4px 4px rgb(0 0 0 / .05);
-    border-radius: 8px;
-    cursor: pointer
+.card-item:hover {
+    transform: translateY(-5px);
 }
 
-.box1212:hover {
-    background-color: #1265FF !important
+.card-icon {
+    max-width: 70px;
+    margin-bottom: 16px;
 }
 
-.box1212:hover .sard h3 {
-    color: #fff
+.card-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #222;
+    text-align: center;
 }
 
-.box1212:hover .sard h2 {
-    color: #fff
+.staff-para {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.5;
+    text-align: center;
 }
 
-.box1212:hover .staff-para p {
-    color: #fff
+@media (max-width: 992px) {
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
-.box1212:hover .sard img {
-    filter: invert(1)
+@media (max-width: 600px) {
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .card-item {
+        padding: 20px;
+    }
+
+    .card-icon {
+        max-width: 60px;
+    }
+}
+
+.main-contanier {
+    max-width: 1720px;
+    margin: 0 auto;
 }
 
 .content1122 {
@@ -54905,6 +55020,8 @@ option {
 .staff-paper {
     display: flex;
     align-items: self-start;
+    margin: 0 auto;
+    max-width: 1720px;
 }
 
 .local-left {
@@ -55020,7 +55137,7 @@ option {
     font-size: 32px;
     font-weight: 700;
     text-align: left;
-    color: #fff;
+    color: #000000;
     width: 14em;
     max-width: 100%;
     line-height: 46px
@@ -55066,9 +55183,11 @@ option {
     line-height: 54px;
     letter-spacing: 0em;
     text-align: center;
-    margin-top: 6rem;
     color: #33475b
 }
+
+
+
 
 .strick {
     font-family: "Poppins", sans-serif;
@@ -55162,7 +55281,9 @@ option {
 
 .our-hightlight {
     display: flex;
-    margin-bottom: 4rem
+    margin-bottom: 4rem;
+    margin: 0 auto;
+    max-width: 1720px;
 }
 
 .safolo-left {
@@ -55212,10 +55333,10 @@ option {
 .ylo {
     font-family: "Poppins", sans-serif;
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 600;
     line-height: 40px;
     letter-spacing: 0em;
-    text-align: left
+    text-align: left;
 }
 
 .tile {
@@ -55256,13 +55377,11 @@ option {
     padding-right: 8rem
 }
 
-.step-part {}
-
 .line_btn {
     display: flex;
     align-items: center;
     justify-content: left;
-    transform: translateY(15px);
+    transform: translateY(29px);
 }
 
 @media (max-width:1400px) {
@@ -62457,7 +62576,7 @@ option {
     .contact {
         width: 100%;
         max-width: 100% !important;
-        padding: 5rem 3rem !important
+        padding: 0rem 3rem !important
     }
 
     .glory {
@@ -64784,6 +64903,11 @@ option {
 
     .approach {
         padding: 40px 0 0;
+    }
+
+    .teach-teams {
+        height: 350px !important;
+        padding-top: 10px;
     }
 }
 
@@ -70454,7 +70578,7 @@ option {
     }
 
     .staff-cap {
-        padding: 70px 20px !important
+        padding: 70px 20px 0 !important
     }
 
     .staff-process {
@@ -74515,7 +74639,6 @@ textarea {
 .content {
     padding: 10px;
     display: flex;
-    flex-direction: column;
     gap: 8px;
     justify-content: space-between;
     height: 100%;
@@ -76822,6 +76945,7 @@ input::-webkit-inner-spin-button {
 }
 
 @media (max-width: 480px) {
+
     .profile-info h4,
     .profile-info p {
         font-size: 12px;
@@ -77836,9 +77960,9 @@ input::-webkit-inner-spin-button {
 
 @media screen and (max-width:600px) {
     .primary-heading {
-        font-size: 1.7rem;
+        font-size: 24px !important;
         font-weight: 600 !important;
-        line-height: 2.2rem !important;
+        line-height: 32px !important;
         text-align: center;
     }
 

@@ -79,7 +79,7 @@ const Footer = () => {
 
                       <p>Sales:</p>
                     </div>
-                    <a href="mailto:shubham@kusheldigi.com">
+                    <a href="mailto:info@kusheldigi.com">
                       <div className="flex foot140 items-center marginnn">
 
                         <h5>info@kusheldigi.com</h5>
