@@ -255,44 +255,44 @@ const portfolioData = [
 
 
 
-  // {
-  //   id: 'automotive-105',
-  //   logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748016554/Vector_4_hnx29x.png',
-  //   platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
-  //   description: [
-  //     "UX/UI Website Design", "Website Development", "QA & Website Testing"
-  //   ],
-  //   links: {
-  //     liveStore: 'https://www.phastekperformance.com/',
+  {
+    id: 'automotive-105',
+    logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748016554/Vector_4_hnx29x.png',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    description: [
+      "UX/UI Website Design", "Website Development", "QA & Website Testing"
+    ],
+    links: {
+      liveStore: 'https://www.phastekperformance.com/',
 
-  //     caseStudy: '/Ai',
-  //     caseStudy: '/instacertify',
-  //     platform: '/bigcommerce-development',
-  //   },
-  //   case: ' View Case Study',
-  //   case1: 'BigCommerce',
-  //   line: '|',
-  //   category: ["ecommerce"],
-  // },
-  // {
-  //   id: 'automotive-106',
-  //   logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748016554/Group_1171279433_zut9do.png',
-  //   platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
-  //   description: [
-  //     "UX/UI Website Design", "Website Development", "QA & Website Testing"
-  //   ],
-  //   links: {
-  //     liveStore: 'https://www.phastekperformance.com/',
+      caseStudy: '/Ai',
+      caseStudy: '/instacertify',
+      platform: '/bigcommerce-development',
+    },
+    case: ' View Case Study',
+    case1: 'BigCommerce',
+    line: '|',
+    category: ["ecommerce"],
+  },
+  {
+    id: 'automotive-106',
+    logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748016554/Group_1171279433_zut9do.png',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    description: [
+      "UX/UI Website Design", "Website Development", "QA & Website Testing"
+    ],
+    links: {
+      liveStore: 'https://www.phastekperformance.com/',
 
-  //     caseStudy: '/Ai',
-  //     caseStudy: '/career-beacon',
-  //     platform: '/bigcommerce-development',
-  //   },
-  //   case: ' View Case Study',
-  //   case1: 'BigCommerce',
-  //   line: '|',
-  //   category: ["ecommerce"],
-  // },
+      caseStudy: '/Ai',
+      caseStudy: '/thecareerbeacon',
+      platform: '/bigcommerce-development',
+    },
+    case: ' View Case Study',
+    case1: 'BigCommerce',
+    line: '|',
+    category: ["ecommerce"],
+  },
 
   {
     id: 'automotive-107',
@@ -373,25 +373,25 @@ const portfolioData = [
   //   category: ["ecommerce"],
   // },
 
-  // {
-  //   id: 'automotive-111',
-  //   logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748275036/Group_1171279500_ugv0xr.png',
-  //   platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
-  //   description: [
-  //       "UX/UI Website Design","Website Development","QA & Website Testing"
-  // ],
-  //   links: {
-  //     liveStore: 'https://www.phastekperformance.com/',
+  {
+    id: 'automotive-111',
+    logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748275036/Group_1171279500_ugv0xr.png',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    description: [
+        "UX/UI Website Design","Website Development","QA & Website Testing"
+  ],
+    links: {
+      liveStore: 'https://www.phastekperformance.com/',
 
-  //     caseStudy: '/Ai',
-  //     caseStudy: '/ushafasteners',
-  //     platform: '/bigcommerce-development',
-  //   },
-  //   case:' View Case Study',
-  //   case1:'BigCommerce',
-  //   line:'|',
-  //   category: ["ecommerce"],
-  // },
+      caseStudy: '/Ai',
+      caseStudy: '/ushafasteners',
+      platform: '/bigcommerce-development',
+    },
+    case:' View Case Study',
+    case1:'BigCommerce',
+    line:'|',
+    category: ["ecommerce"],
+  },
 
   {
     id: 'automotive-150',
@@ -663,23 +663,23 @@ const portfolioData = [
     line: '|',
     category: ["website"],
   },
-  {
-    id: 'automotive-18',
-    // companyName: 'Instacertify',
-    logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478756/webinstalogo_rutcoc.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409710/Next_js1_lcqcpn.png',
-    description: [
-      "UX/UI Website Design", "Website Development", "QA & Website Testing"
-    ],
-    links: {
-      caseStudy: '#',
-      platform: '/next-js',
-    },
-    case: ' View Case Study',
-    case1: 'Next js',
-    line: '|',
-    category: ["software"],
-  },
+  // {
+  //   id: 'automotive-18',
+  //   // companyName: 'Instacertify',
+  //   logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478756/webinstalogo_rutcoc.png',
+  //   platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409710/Next_js1_lcqcpn.png',
+  //   description: [
+  //     "UX/UI Website Design", "Website Development", "QA & Website Testing"
+  //   ],
+  //   links: {
+  //     caseStudy: '#',
+  //     platform: '/next-js',
+  //   },
+  //   case: ' View Case Study',
+  //   case1: 'Next js',
+  //   line: '|',
+  //   category: ["software"],
+  // },
   {
     id: 'automotive-19',
     // companyName: 'OBTECH',
@@ -689,7 +689,7 @@ const portfolioData = [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
     links: {
-      caseStudy: '#',
+      caseStudy: '/obtechenterprise',
       platform: '/php',
     },
     case: ' View Case Study',
@@ -697,23 +697,23 @@ const portfolioData = [
     line: '|',
     category: ["software"],
   },
-  // {
-  //   id: 'automotive-20',
-  //   // companyName: 'DigitalMnA',
-  //   logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748270331/Group_1171279472_1_lkh4bv.png',
-  //   platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
-  //   description: [
-  //     "UX/UI Website Design", "Website Development", "QA & Website Testing"
-  //   ],
-  //   links: {
-  //     caseStudy: '/digital',
-  //     platform: '/next-js',
-  //   },
-  //   case: ' View Case Study',
-  //   case1: 'Next js',
-  //   line: '|',
-  //   category: ["software"],
-  // },
+  {
+    id: 'automotive-20',
+    // companyName: 'DigitalMnA',
+    logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748270331/Group_1171279472_1_lkh4bv.png',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    description: [
+      "UX/UI Website Design", "Website Development", "QA & Website Testing"
+    ],
+    links: {
+      caseStudy: '/digitalmna',
+      platform: '/next-js',
+    },
+    case: ' View Case Study',
+    case1: 'Next js',
+    line: '|',
+    category: ["software"],
+  },
   {
     id: 'automotive-21',
     // companyName: 'Auxible',
@@ -930,6 +930,38 @@ const portfolioData = [
     ],
     links: {
       caseStudy: '#',
+      // platform: '/bigcommerce-development',
+    },
+    case: ' View Case Study',
+    case1: 'BigCommerce',
+    category: ["oddodevelop"],
+  },
+  {
+    id: 'automotive-34',
+
+    // logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
+    //  platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    description: [
+      "UX/UI Website Design", "Website Development", "QA & Website Testing"
+    ],
+    links: {
+      caseStudy: '/nestohub',
+      // platform: '/bigcommerce-development',
+    },
+    case: ' View Case Study',
+    case1: 'BigCommerce',
+    category: ["oddodevelop"],
+  },
+  {
+    id: 'automotive-35',
+
+    // logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478690/webushalogo_kkmm5o.png',
+    //  platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    description: [
+      "UX/UI Website Design", "Website Development", "QA & Website Testing"
+    ],
+    links: {
+      caseStudy: '/pinkysky',
       // platform: '/bigcommerce-development',
     },
     case: ' View Case Study',

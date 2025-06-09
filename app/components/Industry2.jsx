@@ -29,9 +29,10 @@ const Ankitcrouser = [
     leftitle: "Top Brass Tactical",
     quote:
       "Top Brass resolutely back the front-line hero. We are spirited supporters of the 2nd Amendment. Moreover, we proclaim the values of diligence, fairness, and the standard American demeanour.",
-    rightimg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739430318/topbrasstactical_x4lygw.png',
-    link: "https://topbrasstacticaltactical.com/",
-    target: "_blank"
+    // rightimg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739430318/topbrasstactical_x4lygw.png',
+    rightimg: 'https://res.cloudinary.com/dqjbzgksw/image/upload/f_auto,q_auto,w_1080/v1748249452/1_c2jrzl.webp',
+    link: "/topbrasstactical",
+    // target: "_blank"
   },
   {
     // rightitle: "Visit link",
@@ -53,8 +54,8 @@ const Ankitcrouser = [
     quote:
       "KICK-EEZ® sells a wide selection of shotgun and rifle recoil pads and shooting supplies. Our products are proudly MADE IN AMERICA and utilize Sorbothane.",
     rightimg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739179375/kickeez_vrv0rs.png',
-    link: "https://kickeezproducts.com/",
-    target: "_blank"
+    link: "/kick-eez",
+    // target: "_blank"
   },
   {
     // rightitle: "Visit link",
@@ -76,8 +77,8 @@ const Ankitcrouser = [
     quote:
       "DigitalMnA is a full-service Merger and Acquisition company helping companies Sell and Buy assets by creating value.",
     rightimg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739179410/digitalmna_znwlsh.png',
-    link: "https://www.digitalmna.com/",
-    target: "_blank"
+    link: "/digitalmna",
+    // target: "_blank"
   },
   {
     // rightitle: "Visit link",
@@ -99,8 +100,8 @@ const Ankitcrouser = [
     quote:
       "Slides365, strive to help people tell their story effectively. Your invisible friend inside the PowerPoint helps you create the Professional Presentations. We are working towards creating an experience for you telling your story.",
     rightimg: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739179452/slide365_obxkik.png',
-    link: "https://slides365.com/",
-    target: "_blank"
+    link: "/slides365",
+    // target: "_blank"
   },
   {
     // rightitle: "Visit link",
@@ -1061,14 +1062,13 @@ function Industries() {
                 {currentItem.svgleft}
                 <h2>{currentItem.leftitle}</h2>
                 <p>{currentItem.quote}</p>
-                <a href="/portfolio">
+                <a href={currentItem.link} target={currentItem.target || "_self"}>
                   <div className="USA-ourWork-buton-group23">
                     <button type="button">
-                      {" "}
                       <span>Case study </span>
                       <svg
                         width="20"
-                        height="20S"
+                        height="20"
                         viewBox="0 0 24 24"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -1081,6 +1081,7 @@ function Industries() {
                     </button>
                   </div>
                 </a>
+
                 <div className="USA-ourWork-aero-left">
                   <svg
                     onClick={handlePrev}

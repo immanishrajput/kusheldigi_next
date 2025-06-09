@@ -255,7 +255,7 @@ const caseStudies = [
 
     img2: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478580/custom11_kznig4.png',
     btnText: "VIEW LIVE SITE",
-    // link: "/digitalmna",
+    link: "/digitalmna",
     alt: "case study-DigitalMnA Partners",
     category: ["website"],
     width: 500,

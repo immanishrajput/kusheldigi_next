@@ -5,7 +5,7 @@ import { TiTick } from "react-icons/ti";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
 import '../globals.css'
-import './usha.css'
+import './nestohub.css'
 import Navbar from "../COMMON/Navbar";
 
 import Footer from "../COMMON/Footer";
@@ -15,7 +15,7 @@ import Head from 'next/head';
 const d1 = [
     {
         title1: "Industries",
-        title2: "web+sales crm",
+        title2: "Real Estate",
     },
     {
         title1: "Client Location",
@@ -124,20 +124,18 @@ function Page() {
     const [animationDirection, setAnimationDirection] = useState('slide-in-right');
 
     const handleSelectionChange = (index) => {
-        // Set slide-out animation
         setAnimationDirection('slide-out-left');
 
         setTimeout(() => {
-            // Update selected data and slide in from right
             setSelectS4(index);
             setSelectdata(d2[index].data);
             setAnimationDirection('slide-in-right');
-        }, 300); // Time for the slide-out transition to complete
-    };  /* Slide-out animation */
+        }, 300);
+    };
 
     const generateMetadata = ({ params }) => ({
-        title: "Usha Fasteners | Ecommerce Growth with BigCommerce Website Development",
-        description: 'See how Usha Fasteners boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study.',
+        title: "NESTOHUB | Ecommerce Growth with BigCommerce Website Development",
+        description: 'See how NESTOHUB boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study.',
     });
 
     useEffect(() => {
@@ -167,7 +165,7 @@ function Page() {
                 <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
                 <meta name="twitter:url" content="https://www.kusheldigi.com/" />
 
-                <link rel="canonical" href="https://www.kusheldigi.com/ushafasteners" />
+                <link rel="canonical" href="https://www.kusheldigi.com/nestohub" />
 
             </Head>
 
@@ -186,12 +184,14 @@ function Page() {
                         <div className="case1fifirco">
                             {/* left  */}
                             <div className="ca1firleft">
-                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748275036/Group_1171279500_ugv0xr.png" alt="usha fastener logo" />
-                                <p>Usha Fastener </p>
+                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748275036/Group_1171279500_ugv0xr.png" alt="nestohub logo" />
+                                <p>Nestohub</p>
                             </div>
 
                             <p className="ca1firrigh">
-                                Usha Fastener is a cutting-edge brand of industrial fasteners and precision components. It deals with the manufacturing of bolts, screws, washers, nuts, and much more.  </p>
+                                Nestohub serves as a connecting medium between brokers and builders, simplifying property
+                                searches.In the real estate world, it is bringing a significant digital transformation to bridge the
+                                gap between buyers, sellers, and real estate professionals.</p>
                         </div>
 
                         {/* secont */}
@@ -225,29 +225,14 @@ function Page() {
 
                     <div className="sc2_main_content">
                         <h1>Client Background</h1>
-
-                        {/* <p>
-            2nd Amendment Guns is a service-disabled veteran business located in the prime location of Las Vegas, Nevada. Behind its foundation, the company represents a commitment to the people and the Constitution to serve. 
-            </p> */}
-                        {/* <p>
-                        Having decades of experience serving the automotive industry, construction, and manufacturing sectors, it has built a strong name for quality and durability. </p>
-                        <p>
-
-                        As their product range is expanding and the way the company is growing, maintaining a strong digital presence has become more important than ever.   </p>
-                        <p>However, its website was outdated when Kushel Digi Solutions was informed about fixing the growth gaps. </p>
-                        <p>Madfish offered this opportunity to us and our team developed a future-ready platform. More details are given below.</p>
-                        <p>However, the journey wasn’t easy because we had to set a clear timeline to deliver results yet we did it successfully with combined team efforts.</p> */}
-                        <p>
-                            Usha Fastener is a cutting-edge brand of industrial fasteners and precision components. It deals
-                            with the manufacturing of bolts, screws, washers, nuts, and much more. Having decades of
-                            experience serving the automotive industry, construction, and manufacturing sectors, it has built
-                            a strong name for quality and durability.
+                        <p>Moreover, the platform is also working
+                            as a digital customer management tool to help brokers manage their clients.
                         </p>
                         <p>
-                            As their product range is expanding and the way the company is growing, maintaining a strong
-                            digital presence has become more important than ever. However, its website was outdated when
-                            Kushel Digi Solutions was informed about fixing the growth gaps. Our team developed a future-
-                            ready platform. More details are given below.
+                            When the brand approached Kushel Digi Solutions, they wanted a modern, fast, and interactive
+                            platform to deliver real-time experiences. To meet this requirement, our team analyzed the
+                            business and recreated the website with modern elements. We wanted to deliver what the client
+                            was expecting from us.
                         </p>
 
                     </div>
@@ -259,18 +244,12 @@ function Page() {
                 <div className="PortfolioChallengeMain">
                     <h4>Challenges</h4>
                     <div>
-                        {/* <h5>Though the Serve A Pure website was functional, it posed several barriers to customers in shopping. Many information was lacking on the site, so it was difficult to make an informed choice for anyone:-</h5> */}
-                        <h5>
-                            1. Outdated HTML pages with a poor interface.
-                        </h5>
-                        <h5>2. Improper product structure and CMS support.</h5>
-
-                        <h5>3. Weak SEO optimization and page performance were slow. </h5>
-                        <h5>4. Limited options for user engagement with no CTA .</h5>
-                        <h5>5. Many missing elements that are important to be on the site.</h5>
-
-                        <h5>Dealing with challenges demanded a thoughtful approach, and our team was ready to implement it by creating the entire project roadmap. </h5>
-
+                        <p>
+                            The primary challenge we were facing was a single-page application development to handle
+                            complex data interactions, dynamic search filters, and more. The client also wanted a modular
+                            codebase for scalability. We had to look at many other aspects, such as a fresh design, mobile-
+                            responsiveness, map integration, API integration, etc.
+                        </p>
                     </div>
                 </div>
                 <div className="portfolioImageChallenge">
@@ -294,17 +273,10 @@ function Page() {
                             <p></p>
                         </div>
 
-                        <p className="s3theeparas">
-                            We were well aware of what kind of <strong>ecommerce website design</strong> was required for the client. </p>
-
-                        <p className="s3theeparas">
-                            We adopted a scalable approach to build a reusable design and logic across multiple site sections. </p>
-
-                        <p className="s3theeparas"> The must-do step was the creation of a fresh layout of the sites, including all the pages.</p>
-
-                        <p className="s3theeparas">For this, we used Figma, and all the site setup was completed at BigCommerce for <strong>headless ecommerce development.</strong> </p>
-                        {/* <p className="s3theeparas">The design part is carried out on Figma with the help of our experienced web designers. Thereafter, we crafted a visually appealing and intuitive web design to align it with the brand’s image. Matching the client’s expectations was another challenge that we accomplished.</p>
-                        <p className="s3theeparas">After structuring the website using responsive design, the next part was to integrate BigCommerce and develop custom Ecommerce solutions.</p> */}
+                        <p className="s3theeparas">Considering all the challenges, we knew that this project would be an interesting choice to work
+                            on. From creating the frontend and backend to simplifying payment, our creative team did it all.
+                            For Nestohub, our developers used a ReactJS-powered front end that provides a seamless and
+                            interactive property browsing experience..Here are some key components of the solution.</p>
                     </div>
                     <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748275038/Group_1171279485_ih2wii.png" alt="kushel" className="c3antoimg" />
 
@@ -338,10 +310,17 @@ function Page() {
                             </div>
 
                             <div className="cas3circldata" id="cas3circldata14">
-                                <h4>UI/UX Revamp
+                                <h4>Planning and Execution
                                 </h4>
-                                <p>With the help of Figma, we created the design from scratch to match the brand alignment. We also focused on clarity, performance, and minimalistic layouts to highlight product categories in a better way. Every product page was structured and optimized using high-quality images, tables, CTAs, and inquiry buttons.
+                                <p>The development process was divided into strategic phases:
                                 </p>
+                                <h5>
+                                    1. Discussion with the client to understand end-user needs and future vision.
+                                </h5>
+                                <h5>2. Wireframe creation and interactive mockup</h5>
+
+                                <h5>3. Responsive SPA development using modern React JS patterns.</h5>
+                                <h5>4. API integration and testing to ensure the website works in optimal condition.</h5>
                             </div>
 
                         </div>
@@ -362,8 +341,11 @@ function Page() {
                             </div>
 
                             <div className="cas3circldata" id="cas3circldata14">
-                                <h4>Performance & Speed</h4>
-                                <p>The site required a speed boost, so we increased the page loading times by optimizing all the elements. The SEO experts at our firm utilized keywords to make it more efficient. On the other hand, we finished the Ecommerce website design at BigCommerce. It has all the functionalities that we were looking for in growth.   </p>
+                                <h4>Front-End Development</h4>
+                                <p>When we created the roadmap of the project, the first thing we were looking to build was the
+                                    front-end of the website. It was pretty messed up, so we created a rough <strong>ecommerce framework</strong>
+                                    on Figma and then started building the front-end with ReactJS. This helped us to add some
+                                    animation effects on the website to make it attractive.</p>
                             </div>
 
                         </div>
@@ -384,9 +366,11 @@ function Page() {
                             </div>
 
                             <div className="cas3circldata" id="cas3circldata14">
-                                <h4>Post-development Support
+                                <h4>Content Creation
                                 </h4>
-                                <p>Once the site was ready, Kushel Digi Solutions ensured the smooth running of the website by offering post-development support.
+                                <p>The older content on the website lacked an SEO-friendly part, so we researched trendy keywords
+                                    to improve website ranking. All the contents were created in a way that the visitors can take the
+                                    desired action.
                                 </p>
                             </div>
 
@@ -488,9 +472,6 @@ function Page() {
 
                                 ))
                             }
-
-
-
                         </Splide>
                     </div>
 
@@ -502,14 +483,11 @@ function Page() {
             <div className="Mainresult_Portfolio">
                 <div className="result_Portfolio">
                     <h5>Result & Impact</h5>
-                    {/* <h6>
-                    With our strenuous efforts, we were able to reach these results for Digital MNA:-
-  </h6> */}
                     <ul>
-                        <li>Page speed improved by 51%</li>
-                        <li>Bounce rate fell to a significant level</li>
-                        <li>Users started inquiring about products, so the sales increased</li>
-                        <li>SEO metrics were enhanced, and page ranking improved within 1.5 months after development</li>
+                        <li>3x increase in average session duration, representing higher engagement</li>
+                        <li>Reduction in bounce rate because of faster navigation and better UI</li>
+                        <li>Streamlined listing updates that enable realtors to quickly modify properties</li>
+                        <li>Scalable frontend foundation ready for future features like predictive AI search</li>
                     </ul>
 
                 </div>
