@@ -30,7 +30,7 @@ const partners = [
     // img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233924/WhatsApp_Image_2025-03-29_at_12.40.31_PM_1_lgmnkv.jpg",
     img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1747983170/file_1747981617-1747981618_thowcm.webp",
     alt: "WooCommerce Partner",
-    link: "/woocommerce",
+    link: "/woocommerce-development",
   },
   {
     // img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233924/WhatsApp_Image_2025-03-29_at_12.40.31_PM_2_nenngq.jpg",
@@ -65,8 +65,6 @@ var settings = {
   slidesToShow: 1,
   slidesToScroll: 1,
 };
-
-
 
 const Our = () => {
 

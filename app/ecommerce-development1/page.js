@@ -166,7 +166,7 @@ const USA = ({ notify }) => {
                   </div></Link>
                 </SplideSlide>
                 <SplideSlide>
-                  <Link href="/woocommerce"><div className="home4121">
+                  <Link href="/woocommerce-development"><div className="home4121">
                     <img
                       className=" block m-auto"
                       src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739168534/a5_dwu0as.png'

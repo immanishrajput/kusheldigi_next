@@ -28,6 +28,7 @@
 .benefits-of-working-cards {
     padding: 20px;
     border-radius: 10px;
+    border: 1px solid #bab3b3;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 }

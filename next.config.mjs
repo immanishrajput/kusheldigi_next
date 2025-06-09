@@ -185,8 +185,13 @@ const nextConfig = {
         destination: '/instacertify',
         permanent: true,
       },
+      // {
+      //   source: '/Digitalmna',
+      //   destination: '/digitalmna',
+      //   permanent: true,
+      // },
       {
-        source: '/Digitalmna',
+        source: '/digital',
         destination: '/digitalmna',
         permanent: true,
       },
@@ -198,6 +203,11 @@ const nextConfig = {
       {
         source: '/ushaFastners',
         destination: '/ushafasteners',
+        permanent: true,
+      },
+      {
+        source: '/career-beacon',
+        destination: '/thecareerbeacon',
         permanent: true,
       },
       {
