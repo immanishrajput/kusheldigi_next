@@ -15,7 +15,7 @@ function Ai() {
   const d1 = [
     {
       title1: "Industries",
-      title2: "Ecommerce",
+      title2: "E-commerce",
     },
     {
       title1: "Client Location",
@@ -55,7 +55,7 @@ function Ai() {
       },
     },
     {
-      title: "Development",
+      title: "Web Development",
       data: {
         img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216850/c1bg4_wxl6sh.png",
         title: "Web development",
@@ -286,12 +286,11 @@ function Ai() {
         options={{
           type: "loop",
           perPage: 1,
-
           autoplay: true,
           interval: 3000,
           pagination: true,
           arrows: false,
-          pauseOnHover: false
+          pauseOnHover: true
         }}
       >
         <SplideSlide>
@@ -530,7 +529,7 @@ function Ai() {
         <div className="result_Portfolio">
           <h5>Result & Impact</h5>
           <h6>
-            We successfully created a solution that reflected their brand values and met modern digital standards. Following were additional impacts noticed by the client
+            We successfully created a solution that reflected their brand values and met modern digital standards. Following were additional impacts noticed by the client:
           </h6>
           <ul>
             <li>More customer engagement</li>

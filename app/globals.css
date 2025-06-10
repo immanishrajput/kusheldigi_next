@@ -14568,7 +14568,7 @@ body {
 .PortfolioChallengeMain h5 {
     padding-top: 11px;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     color: #002421;
 }
 
@@ -16246,7 +16246,7 @@ body {
     justify-content: center;
     gap: 10px;
     border-radius: 50%;
-    background: #681317;
+    background: #68131787;
     border: 3px solid #FFFFFF;
     padding: 0px 20px;
 }
@@ -78056,4 +78056,15 @@ input::-webkit-inner-spin-button {
     .core-value-card {
         border: none !important;
     }
+}
+
+.splide__slide {
+    user-select: text !important;
+    -webkit-user-select: text !important;
+}
+
+.splide__slide {
+    user-select: text !important;
+    -webkit-user-select: text !important;
+    -ms-user-select: text !important;
 }

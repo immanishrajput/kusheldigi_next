@@ -14,7 +14,7 @@ import Head from 'next/head';
 const d1 = [
   {
     title1: "Industries",
-    title2: "Ecommerce",
+    title2: "E-commerce",
   },
   {
     title1: "Client Location",
@@ -54,7 +54,7 @@ const d2 = [
     }
   },
   {
-    title: "Development",
+    title: "Web Development",
     data: {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216850/c1bg4_wxl6sh.png",
       title: "Web development",
@@ -323,7 +323,7 @@ function Page() {
           type: 'loop',
           perPage: 1,
           pauseOnFocus: false,
-          pauseOnHover: false,
+          pauseOnHover: true,
           autoplay: true,
           interval: 3000,
           pagination: true,

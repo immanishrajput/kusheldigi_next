@@ -14,7 +14,7 @@ function typhoon() {
   const d1 = [
     {
       title1: "Industries",
-      title2: "Ecommerce",
+      title2: "E-commerce",
     },
     {
       title1: "Client Location",
@@ -54,7 +54,7 @@ function typhoon() {
       },
     },
     {
-      title: "Development",
+      title: "Web Development",
       data: {
         img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216850/c1bg4_wxl6sh.png",
         title: "Web development",
@@ -176,7 +176,7 @@ function typhoon() {
               </div>
 
               <p className="ca1firrigh">
-                Typhoon Defense is an ultimate firearm manufacturer that blends the magic of innovation, creativity, and superior craftsmanship.
+                Typhoon Defense is an ultimate firearm manufacturer that blends the magic of innovation, creativity, and superior craftsmanship. It is leading the Bigcommerce landscape by designing unparalleled firearms.
               </p>
             </div>
 
@@ -208,10 +208,12 @@ function typhoon() {
           />
 
           <div className="sc2_main_content">
-            <h1>Client Background</h1><p>
-              Typhoon Defense is an ultimate firearm manufacturer that blends the magic of innovation, creativity, and superior craftsmanship. It is leading the Bigcommerce landscape by designing unparalleled firearms.  </p>
+            <h1>Client Background</h1>
             <p>
-              Typhoon Defense implements exceptional expertise, innovative design, and supreme quality to build customer-centric products. This is a name to trust for precision engineering, reliability, and durability. It also delivers impressive customer service which is beyond your expectations so you can get the best for your shooting needs. Kushel Digit Solutions help them achieve better results by developing their website and optimising it for search engines for effective results. We get this projet opportunity from <b> MadFish Solutions,</b> which we are appreciable for,
+              Typhoon Defense implements exceptional expertise, innovative design, and supreme quality to build customer-centric products. This is a name to trust for precision engineering, reliability, and durability. The brand also delivers impressive customer service beyond your expectations so you can get the best for your shooting needs.
+            </p>
+            <p>
+              Kushel Digi Solutions helps them achieve better results by developing their website and optimizing it for search engines to produce effective results. We get this project opportunity from <strong>MadFish Solutions.</strong>
             </p>
           </div>
         </div>
@@ -227,7 +229,7 @@ function typhoon() {
       <div className="PortfolioChallenges">
         <div className="PortfolioChallengeMain">
           <h4> Challenges</h4>
-          <p> Behind the completion of this project, there were multiple challenges. One of them was minimal online exposure. Other than that, the client's digital infrastructure lacked the flexibility and modern layout. These two factors were reducing competitiveness. Even the product listings weren’t up to the mark and it was important to enhance security  </p>
+          <p> Behind the completion of this project, there were multiple challenges. One of them was minimal online exposure. Other than that, the client's digital infrastructure lacked flexibility and a modern layout. These two factors were reducing competitiveness. Even the product listings weren’t up to the mark and this was an important factor to enhance the security. </p>
           <div>
 
           </div>
@@ -252,7 +254,7 @@ function typhoon() {
             </div>
 
             <p className="s3theeparas">
-              Kushel Digi Solutions is driving digital transformation for Typhoon Defense by utilizing innovative digital tools and <b>bigcommerce theme development</b> strategies. After analyzing the nature of their business, Our expert team creates a roadmap of how to build a strong online presence for them utilizing <b>bigcommerce website development</b> service. Along with that, we plan strategies to effectively optimize their site performance. KushelDigi Solutions ensures that Typhoon Defense reaches its prospective audience effectively.   </p>
+              Kushel Digi Solutions is driving digital transformation for Typhoon Defense by utilizing innovative digital tools and <b>bigcommerce theme development</b> strategies. After analyzing the nature of their business, Our expert team creates a roadmap of how to build a strong online presence for them utilizing <b>bigcommerce website development</b> service. Along with that, we plan strategies to effectively optimize their site performance. Kushel Digi Solutions ensures that Typhoon Defense reaches its prospective audience effectively.   </p>
 
             <p className="s3theeparas">
               It is following a strategic digital marketing approach to build brand visibility making Typhoon Defense more recognizable and accessible. This transformation is a game changer, helping the brand to engage with potential customers easily.
@@ -286,7 +288,7 @@ function typhoon() {
           interval: 3000,
           pagination: true,
           arrows: false,
-          pauseOnHover: false
+          pauseOnHover: true
         }}
       >
         <SplideSlide>

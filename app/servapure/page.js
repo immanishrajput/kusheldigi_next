@@ -14,7 +14,7 @@ import Head from 'next/head';
 const d1 = [
     {
         title1: "Industries",
-        title2: "Ecommerce",
+        title2: "E-commerce",
     },
     {
         title1: "Client Location",
@@ -54,7 +54,7 @@ const d2 = [
         }
     },
     {
-        title: "Development",
+        title: "Web Development",
         data: {
             img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216850/c1bg4_wxl6sh.png",
             title: "Web development",
@@ -303,7 +303,7 @@ function Page() {
                     type: 'loop',
                     perPage: 1,
                     pauseOnFocus: false,
-                    pauseOnHover: false,
+                    pauseOnHover: true,
                     autoplay: true,
                     interval: 3000,
                     pagination: true,
@@ -490,10 +490,10 @@ function Page() {
                         After launch, Serve a Pure saw immediate benefits:-
                     </h6>
                     <ul>
-                        <li> Improved site speed and mobile performance</li>
+                        <li>Improved site speed and mobile performance</li>
                         <li>Increased product discoverability via smart filters and search features</li>
                         <li>Higher user engagement and longer session durations</li>
-                        <li>    • Streamlined operations that enabled the team to focus more on customer service and growth
+                        <li>Streamlined operations that enabled the team to focus more on customer service and growth
                             With the efforts of Kushel Digi Solutions, Serve a Pure is now equipped with a digital store as pure and efficient as the water it helps deliver.</li>
 
 

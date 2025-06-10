@@ -14,7 +14,7 @@ function riffle() {
   const d1 = [
     {
       title1: "Industries",
-      title2: "Ecommerce",
+      title2: "E-commerce",
     },
     {
       title1: "Client Location",
@@ -54,7 +54,7 @@ function riffle() {
       },
     },
     {
-      title: "Development",
+      title: "Web Development",
       data: {
         img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216850/c1bg4_wxl6sh.png",
         title: "Web development",
@@ -289,7 +289,7 @@ function riffle() {
           interval: 6000,
           pagination: true,
           arrows: false,
-          pauseOnHover: false
+          pauseOnHover: true
         }}
       >
         <SplideSlide>
@@ -339,7 +339,7 @@ function riffle() {
               <div className="cas3circldata2" id="case3Portfolio_riffle">
                 <h4>Headless BigCommerce Development </h4>
                 <p>
-                  We created a high-performing wholesale Ecommerce platform using BigCommerce. It has everything to fit the needs of RifeSupply and engage customers in the long run. From featuring countless products to making it scalable. BigCommerce turned out to be a limitless choice.
+                  We created a high-performing wholesale Ecommerce platform using BigCommerce. It has everything to fit the needs of Riflesupply and engage customers in the long run. From featuring countless products to making it scalable. BigCommerce turned out to be a limitless choice.
 
                 </p>
               </div>

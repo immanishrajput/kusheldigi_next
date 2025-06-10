@@ -15,7 +15,7 @@ import Head from 'next/head';
 const d1 = [
     {
         title1: "Industries",
-        title2: "Ecommerce",
+        title2: "E-commerce",
     },
     {
         title1: "Client Location",
@@ -55,7 +55,7 @@ const d2 = [
         }
     },
     {
-        title: "Development",
+        title: "Web Development",
         data: {
             img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216850/c1bg4_wxl6sh.png",
             title: "Web development",
@@ -177,7 +177,7 @@ function Page() {
 
             <section className="case1firsec">
 
-                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746889443/Group_1171279347_xnrtvr.png" alt="kushel" className="case1fill" />
+                <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1749551372/Group_1171279354_yedsmh.png" alt="kushel" className="case1fill" />
                 {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216400/case1fil_bwtual.png" alt="kushel" className="case1fill" />
         <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216437/case1bg_j1tw2e.png" alt="kushel" className="case1bg" /> */}
 
@@ -232,11 +232,11 @@ function Page() {
             2nd Amendment Guns is a service-disabled veteran business located in the prime location of Las Vegas, Nevada. Behind its foundation, the company represents a commitment to the people and the Constitution to serve. 
             </p> */}
                         <p>
-                            The founders of Four Oak Farm began with a small plot and a grand idea: to provide organic living and make it available and reliable.
+                            The founders of Four Oaks Farm began with a small plot and a grand idea: to provide organic living and make it available and reliable.
                         </p>
                         <p>
 
-                            Four Oak Farm has made a loyal offline customer base over the years due to their dedication to sustainable farming and high-quality produce.
+                            Four Oaks Farm has made a loyal offline customer base over the years due to their dedication to sustainable farming and high-quality produce.
 
                         </p>
                         <p>As demand spread through word-of-mouth and farmers' markets around the area, manually handling orders became a challenge.
@@ -254,7 +254,7 @@ function Page() {
                 <div className="PortfolioChallengeMain">
                     <h4> Challenges</h4>
                     <div>
-                        <h5>Four Oak Farm encountered several challenges when shifting from offline to online:-</h5>
+                        <h5>Four Oaks Farm encountered several challenges when shifting from offline to online:-</h5>
                         <h5>
                             1. Lack of technical expertise and digital infrastructure
 
@@ -301,12 +301,12 @@ function Page() {
                         </div>
 
                         <p className="s3theeparas">
-                            Kushel Digi Solutions created a custom eCommerce website for Four Oak Farm on BigCommerce to build a robust online presence. The website had a clean, rustic look that reflected the organic nature of the farm while providing a user-friendly and hassle-free shopping experience. We integrated seasonal product offerings, flexible inventory management, and made sure the platform was completely responsive and mobile-compatible to reach more customers.
+                            Kushel Digi Solutions created a custom eCommerce website for Four Oaks Farm on BigCommerce to build a robust online presence. The website had a clean, rustic look that reflected the organic nature of the farm while providing a user-friendly and hassle-free shopping experience. We integrated seasonal product offerings, flexible inventory management, and made sure the platform was completely responsive and mobile-compatible to reach more customers.
 
                         </p>
 
                         <p className="s3theeparas">
-                            In order to enhance operations, we incorporated secure payment gateways, real-time inventory visibility, and optimized backend processes. We also trained the farm staff to help them deal with orders, update products, and monitor stock with ease. This created a powerful, scalable platform that enabled Four Oak Farm to transition to the digital age successfully and provide an improved service to customers.
+                            In order to enhance operations, we incorporated secure payment gateways, real-time inventory visibility, and optimized backend processes. We also trained the farm staff to help them deal with orders, update products, and monitor stock with ease. This created a powerful, scalable platform that enabled Four Oaks Farm to transition to the digital age successfully and provide an improved service to customers.
 
 
 
@@ -333,7 +333,7 @@ function Page() {
                     type: 'loop',
                     perPage: 1,
                     pauseOnFocus: false,
-                    pauseOnHover: false,
+                    pauseOnHover: true,
                     autoplay: true,
                     interval: 3000,
                     pagination: true,
@@ -342,7 +342,7 @@ function Page() {
             >
                 <SplideSlide>
                     <section className="case3secfour" >
-                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
+                        <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1749551372/Group_1171279354_yedsmh.png" alt="kushel" className="c1btimage" />
 
                         <div className="cas3s4con" id="cas3s4connn">
 
@@ -355,7 +355,7 @@ function Page() {
                             <div className="cas3circldata" id="cas3circldata1">
                                 <h4>Custom BigCommerce Store
                                 </h4>
-                                <p>Our Bigcommerce experts have developed and designed a custom BigCommerce store that is best suited for Four Oak Farm's brand image and business requirements.  Design layout looks to back-end architecture, all was created from scratch to ensure that the site not only looks attractive but also interacts with customers smoothly. The result was a genuine online storefront that perfectly showcased their organic heritage while ensuring a smooth user experience.
+                                <p>Our Bigcommerce experts have developed and designed a custom BigCommerce store that is best suited for Four Oaks Farm's brand image and business requirements.  Design layout looks to back-end architecture, all was created from scratch to ensure that the site not only looks attractive but also interacts with customers smoothly. The result was a genuine online storefront that perfectly showcased their organic heritage while ensuring a smooth user experience.
                                 </p>
                             </div>
 
@@ -367,7 +367,7 @@ function Page() {
 
                 <SplideSlide>
                     <section className="case3secfour" id="case3secfour22">
-                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
+                        <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1749551372/Group_1171279354_yedsmh.png" alt="kushel" className="c1btimage" />
 
                         <div className="cas3s4con" id="cas3s4connn">
 
@@ -380,7 +380,7 @@ function Page() {
                             <div className="cas3circldata" id="cas3circldata1">
                                 <h4>Smart Inventory and Order Management
                                 </h4>
-                                <p>Our teams have implemented an advanced inventory and order management system to improve efficiency within the BigCommerce platform. It helped Four Oak Farm monitor real-time stock levels, seasonally control product availability, automate order statuses, and get low-stock notifications. This system has effectively saved labor, eliminated errors, and enhanced fulfillment efficiency, making it simpler for the team to meet customer demand reliably.
+                                <p>Our teams have implemented an advanced inventory and order management system to improve efficiency within the BigCommerce platform. It helped Four Oaks Farm monitor real-time stock levels, seasonally control product availability, automate order statuses, and get low-stock notifications. This system has effectively saved labor, eliminated errors, and enhanced fulfillment efficiency, making it simpler for the team to meet customer demand reliably.
 
 
                                 </p>
@@ -393,7 +393,7 @@ function Page() {
 
                 <SplideSlide>
                     <section className="case3secfour">
-                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
+                        <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1749551372/Group_1171279354_yedsmh.png" alt="kushel" className="c1btimage" />
 
                         <div className="cas3s4con" id="cas3s4connn">
 
@@ -407,7 +407,7 @@ function Page() {
 
 
                                 </h4>
-                                <p>With the realization of increasing mobile shoppers, we adopted a mobile-first approach in development strategy. The site was crafted to function seamlessly on all devices, particularly smartphones and tablets—so that it would load fast, respond well, and have touch-friendly navigation. This helped Four Oak Farm extend its reach and provide an smooth shopping experience on whatever platform visitors were using.
+                                <p>With the realization of increasing mobile shoppers, we adopted a mobile-first approach in development strategy. The site was crafted to function seamlessly on all devices, particularly smartphones and tablets—so that it would load fast, respond well, and have touch-friendly navigation. This helped Four Oaks Farm extend its reach and provide an smooth shopping experience on whatever platform visitors were using.
 
                                 </p>
                             </div>
@@ -525,10 +525,10 @@ function Page() {
                 <div className="result_Portfolio">
                     <h5>Result & Impact</h5>
                     <h6>
-                        The store launch using the BigCommerce platform changed everything for Four Oak Farm in terms of engaging with customers.
+                        The store launch using the BigCommerce platform changed everything for Four Oaks Farm in terms of engaging with customers.
                     </h6>
                     <ul>
-                        <li>in customer engagement after the first two months and started receiving steady online orders.</li>
+                        <li>In customer engagement after the first two months and started receiving steady online orders.</li>
                         <li>The website not just improved backend management but also enhanced their brand presence through a professional, glossy, and easy-to-use platform.
 
 

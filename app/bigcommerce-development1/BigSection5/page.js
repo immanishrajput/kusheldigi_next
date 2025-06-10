@@ -20,19 +20,19 @@ function BigSection5() {
         <Splide
           options={{
             type: "loop",
-  perPage: 1,
-  focus: "center",
-  gap: "40px",
-  autoplay: true,
-  interval: 3000,       
-  pauseOnHover: false,   
-  pagination:false 
+            perPage: 1,
+            focus: "center",
+            gap: "40px",
+            autoplay: true,
+            interval: 3000,
+            pauseOnHover: false,
+            pagination: false
           }}
           className="branchswipe3"
-          ref={splideRef} 
+          ref={splideRef}
         >
 
-  
+
           <SplideSlide>
             <div className="singlsesc5bg">
               {/* left side */}
@@ -78,7 +78,7 @@ function BigSection5() {
 
           <SplideSlide>
             <div className="singlsesc5bg">
-              
+
               {/* left side */}
               <div className="bg5left">
 
@@ -113,7 +113,7 @@ function BigSection5() {
 
               {/* right side */}
               <div className="bg5rights">
-              <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1725534481/Group_1171275864_1_gyu5h7.png" alt="kushel" />
+                <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1725534481/Group_1171275864_1_gyu5h7.png" alt="kushel" />
               </div>
             </div>
           </SplideSlide>
@@ -137,9 +137,9 @@ function BigSection5() {
           </button>
         </div>
 
-  <div className="allprojectbtns">
-    <button onClick={()=>router.push("/portfolio")}><span>View All Projects</span></button>
-  </div>
+        <div className="allprojectbtns">
+          <button onClick={() => router.push("/portfolio")}><span>View All Projects</span></button>
+        </div>
 
       </div>
     </div>

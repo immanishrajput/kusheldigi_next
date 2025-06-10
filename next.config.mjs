@@ -185,16 +185,16 @@ const nextConfig = {
         destination: '/instacertify',
         permanent: true,
       },
-      {
-        source: '/Digitalmna',
-        destination: '/digitalmna',
-        permanent: true,
-      },
       // {
-      //   source: '/digital',
+      //   source: '/Digitalmna',
       //   destination: '/digitalmna',
       //   permanent: true,
       // },
+      {
+        source: '/digital',
+        destination: '/digitalmna',
+        permanent: true,
+      },
       {
         source: '/Hitbaazar',
         destination: '/hitbaazar',
