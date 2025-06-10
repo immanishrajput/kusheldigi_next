@@ -55,7 +55,7 @@ const d2 = [
         }
     },
     {
-        title: "Development",
+        title: "Web Development",
         data: {
             img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216850/c1bg4_wxl6sh.png",
             title: "Web development",
@@ -238,8 +238,7 @@ function Page() {
                         <p>Madfish offered this opportunity to us and our team developed a future-ready platform. More details are given below.</p>
                         <p>However, the journey wasn’t easy because we had to set a clear timeline to deliver results yet we did it successfully with combined team efforts.</p> */}
                         <p>
-                            Usha Fastener is a cutting-edge brand of industrial fasteners and precision components. It deals
-                            with the manufacturing of bolts, screws, washers, nuts, and much more. Having decades of
+                            Having decades of
                             experience serving the automotive industry, construction, and manufacturing sectors, it has built
                             a strong name for quality and durability.
                         </p>
@@ -275,7 +274,7 @@ function Page() {
                 </div>
                 <div className="portfolioImageChallenge">
                     <img
-                        src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748206866/Group_1171279453_mh2slx.png"
+                        src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1749550292/Group_1171279503_uqjotu.png"
                         // src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746514576/2nd-A-challenges_hdngwv.png"
                         alt="kushel"
                     />
@@ -319,7 +318,7 @@ function Page() {
                     type: 'loop',
                     perPage: 1,
                     pauseOnFocus: false,
-                    pauseOnHover: false,
+                    pauseOnHover: true,
                     autoplay: true,
                     interval: 3000,
                     pagination: true,
@@ -333,7 +332,7 @@ function Page() {
                         <div className="cas3s4con" id="cas3s4connn">
 
                             <div className="bgshowdb1" >
-                                < img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748208378/Group_1171279460_ogyvub.png" />
+                                < img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1749550837/Group_1171279490_moisiy.png" />
 
                             </div>
 

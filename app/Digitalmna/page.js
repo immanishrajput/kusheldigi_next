@@ -55,7 +55,7 @@ const d2 = [
     }
   },
   {
-    title: "Development",
+    title: "Web Development",
     data: {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216850/c1bg4_wxl6sh.png",
       title: "Web development",
@@ -192,7 +192,7 @@ function Page() {
               </div>
 
               <p className="ca1firrigh">
-                In the world of digital marketing, Digital MNA is rocking as a performance-driven digital marketing agency.  </p>
+                In the world of digital marketing, Digital MNA is rocking as a performance-driven digital marketing agency.It offers services in SEO, content strategy, paid media, and social media.  </p>
             </div>
 
             {/* secont */}
@@ -240,13 +240,12 @@ function Page() {
                         <p>However, the journey wasn’t easy because we had to set a clear timeline to deliver results yet we did it successfully with combined team efforts.</p> */}
 
             <p>
-              In the world of digital marketing, Digital MNA is rocking as a performance-driven digital
-              marketing agency. It offers services in SEO, content strategy, paid media, and social media. The
-              company aims to upscale businesses and aid in their success and growth.
+               The
+              company aims to upscale businesses and aid in their success and growth.While it is doing a lot for the businesses and has a good clientele, the website wasn’t able to
+              attract visitors. 
             </p>
             <p>
-              While it is doing a lot for the businesses and has a good clientele, the website wasn’t able to
-              attract visitors. Lacking sophistication and a technical edge to reflect their potential was a big
+              Lacking sophistication and a technical edge to reflect their potential was a big
               drawback. Kushe Digi Solutions wanted to fix that with its broad expertise.
             </p>
             <p>
@@ -327,7 +326,7 @@ function Page() {
           type: 'loop',
           perPage: 1,
           pauseOnFocus: false,
-          pauseOnHover: false,
+          pauseOnHover: true,
           autoplay: true,
           interval: 3000,
           pagination: true,

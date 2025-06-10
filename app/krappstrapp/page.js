@@ -15,7 +15,7 @@ import Head from 'next/head';
 const d1 = [
     {
         title1: "Industries",
-        title2: "Ecommerce",
+        title2: "E-commerce",
     },
     {
         title1: "Client Location",
@@ -55,7 +55,7 @@ const d2 = [
         }
     },
     {
-        title: "Development",
+        title: "Web Development",
         data: {
             img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216850/c1bg4_wxl6sh.png",
             title: "Web development",
@@ -123,17 +123,15 @@ function Page() {
     const [selectdata, setSelectdata] = useState(d2[0].data);
     const [animationDirection, setAnimationDirection] = useState('slide-in-right');
 
-    const handleSelectionChange = (index) => {
-        // Set slide-out animation
+    const handleSelectionChange = (index) => { 
         setAnimationDirection('slide-out-left');
 
-        setTimeout(() => {
-            // Update selected data and slide in from right
+        setTimeout(() => { 
             setSelectS4(index);
             setSelectdata(d2[index].data);
             setAnimationDirection('slide-in-right');
-        }, 300); // Time for the slide-out transition to complete
-    };  /* Slide-out animation */
+        }, 300);
+    };  
 
     const generateMetadata = ({ params }) => ({
         title: 'Krapp Strapp | Ecommerce Growth with BigCommerce Website Development',
@@ -283,10 +281,10 @@ function Page() {
                         </p>
 
                         <p className="s3theeparas">
-                            We are grateful to receive such a challenging yet intersting opportunity  and come together to revamp Krapp Strap’s site.
+                            We are grateful to receive such a challenging yet interesting opportunity  and come together to revamp Krapp Strapp’s site.
                         </p>
 
-                        <p className="s3theeparas"> As a professional web design company, our expert analysts examined the business and figured out what would work best for the Krapp Strap.</p>
+                        <p className="s3theeparas"> As a professional web design company, our expert analysts examined the business and figured out what would work best for the Krapp Strapp.</p>
 
                         <p className="s3theeparas">As it’s an e-commerce brand, our team formulated the entire roadmap to redesign the website and make it responsive to drive conversions and traffic. </p>
                         <p className="s3theeparas">The design part is carried out on Figma with the help of our experienced web designers. Thereafter, we crafted a visually appealing and intuitive web design to align it with the brand’s image. Matching the client’s expectations was another challenge that we accomplished.</p>
@@ -305,7 +303,7 @@ function Page() {
                     type: 'loop',
                     perPage: 1,
                     pauseOnFocus: false,
-                    pauseOnHover: false,
+                    pauseOnHover: true,
                     autoplay: true,
                     interval: 3000,
                     pagination: true,
@@ -326,7 +324,7 @@ function Page() {
                             <div className="cas3circldata" id="cas3circldata11">
                                 <h4>E-Commerce Development
                                 </h4>
-                                <p>Considering the long-term vision of Krapp Strap and flexibility, BigCommerce turned out as our first choice for creating its e-commerce website.In the development phase, we focused on headless BigCommerce development, which separates the backend and front end to enable greater flexibility.
+                                <p>Considering the long-term vision of Krapp Strapp and flexibility, BigCommerce turned out as our first choice for creating its e-commerce website.In the development phase, we focused on headless BigCommerce development, which separates the backend and front end to enable greater flexibility.
                                 </p>
                             </div>
 
@@ -349,7 +347,7 @@ function Page() {
 
                             <div className="cas3circldata" id="cas3circldata11">
                                 <h4>App Integrations</h4>
-                                <p>We integrated various apps into the BigCommerce platform to enhance the functionalities and simplify inventory management, order processing, customer support, and much more. Our custom ecommerce development process and integrations empower Krapp Strap to enhance operational efficiency in the long term.  </p>
+                                <p>We integrated various apps into the BigCommerce platform to enhance the functionalities and simplify inventory management, order processing, customer support, and much more. Our custom ecommerce development process and integrations empower Krapp Strapp to enhance operational efficiency in the long term.  </p>
                             </div>
 
                         </div>
@@ -371,7 +369,7 @@ function Page() {
 
                             <div className="cas3circldata" id="cas3circldata11">
                                 <h4>Post-Development Support </h4>
-                                <p>To ensure the long-term success of Krapp Strap and maintain its competitiveness, we offer post-development support. As a trustworthy E-Commerce development partner, Kushel Digi makes sure that the Krapp Strap site performance never runs down. In case any technical issue arises, it quickly resolves so that the customers can access it anytime and anywhere.
+                                <p>To ensure the long-term success of Krapp Strapp and maintain its competitiveness, we offer post-development support. As a trustworthy E-Commerce development partner, Kushel Digi makes sure that the Krapp Strapp site performance never runs down. In case any technical issue arises, it quickly resolves so that the customers can access it anytime and anywhere.
                                 </p>
                             </div>
 

@@ -4,11 +4,7 @@ import React, { useState, useEffect } from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import Head from 'next/head';
-
-
-
 import Footer from "../COMMON/Footer";
-
 import Navbar from "../COMMON/Navbar";
 import '../globals.css'
 import Link from "next/link";

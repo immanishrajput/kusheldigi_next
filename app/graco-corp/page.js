@@ -14,7 +14,7 @@ function graco() {
   const d1 = [
     {
       title1: "Industries",
-      title2: "Ecommerce",
+      title2: "E-commerce",
     },
     {
       title1: "Client Location",
@@ -54,7 +54,7 @@ function graco() {
       },
     },
     {
-      title: "Development",
+      title: "Web Development",
       data: {
         img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216850/c1bg4_wxl6sh.png",
         title: "Web development",
@@ -176,7 +176,7 @@ function graco() {
               </div>
 
               <p className="ca1firrigh">
-                Graco Corporation is the global leader in manufacturing fluid handling products
+                Graco Corporation is the global leader in manufacturing fluid handling products.
               </p>
             </div>
 
@@ -209,7 +209,7 @@ function graco() {
 
           <div className="sc2_main_content">
             <h1>Client Background</h1><p>
-              Graco Corporation is the global leader in manufacturing fluid handling products. Adhering to the quality, the company is known for its cutting-edge innovation, hardware, and industrial equipment solutions. It has built a strong reputation based on customer satisfaction. </p>
+              Adhering to the quality, the company is known for its cutting-edge innovation, hardware, and industrial equipment solutions. It has built a strong reputation based on customer satisfaction. </p>
             <p>
 
               The brand is catering to the needs of individual consumers as well as businesses. Its robust supply chain enables the sale of an extensive range of products. While it has already established its digital footprint and is constantly scaling, <b> Kushel Digi Solutions </b> stepped in to redesign the digital store. <b>MadFish Solutions </b>offered us this project which we successfully implemented with our efforts.
@@ -288,7 +288,7 @@ function graco() {
           interval: 3000,
           pagination: true,
           arrows: false,
-          pauseOnHover: false
+          pauseOnHover: true
         }}
       >
         <SplideSlide>
