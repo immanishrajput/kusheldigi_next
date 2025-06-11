@@ -16,31 +16,38 @@ const BlogSection = ({ page }) => {
             const data = await response.json();
 
             if (response.ok) {
-                let allBlogs = [];
-
-                data?.data?.forEach((category) => {
-                    if (Array.isArray(category.blogs)) {
-                        allBlogs = allBlogs.concat(category.blogs);
-                    }
-                });
-
-                const domainFiltered = allBlogs.filter(
-                    (blog) => Array.isArray(blog.domain) && blog.domain.includes(allowedDomain)
+                // Match only category title that equals 'page' prop
+                const filteredCategory = data?.data?.find(
+                    (category) => category?.title?.toLowerCase().trim() === page.toLowerCase().trim()
                 );
 
-                const uniqueBlogs = [];
-                const blogIds = new Set();
+                if (filteredCategory && Array.isArray(filteredCategory.blogs)) {
+                    // Filter blogs based on allowed domain
+                    const domainFiltered = filteredCategory.blogs.filter(
+                        (blog) =>
+                            Array.isArray(blog.domain) &&
+                            blog.domain.includes(allowedDomain)
+                    );
 
-                domainFiltered.forEach((blog) => {
-                    if (!blogIds.has(blog._id)) {
-                        blogIds.add(blog._id);
-                        uniqueBlogs.push(blog);
-                    }
-                });
+                    // Remove duplicates by blog ID
+                    const uniqueBlogs = [];
+                    const blogIds = new Set();
 
-                uniqueBlogs.sort((a, b) => new Date(b.date) - new Date(a.date));
+                    domainFiltered.forEach((blog) => {
+                        if (!blogIds.has(blog._id)) {
+                            blogIds.add(blog._id);
+                            uniqueBlogs.push(blog);
+                        }
+                    });
 
-                setFilteredBlogs(uniqueBlogs.slice(0, 3)); // Only 3 latest
+                    // Sort by latest date
+                    uniqueBlogs.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+                    // Set only top 3
+                    setFilteredBlogs(uniqueBlogs.slice(0, 3));
+                } else {
+                    setFilteredBlogs([]);
+                }
             } else {
                 console.error('Failed to fetch categories:', data?.message);
             }
@@ -71,7 +78,7 @@ const BlogSection = ({ page }) => {
                 <div className="blog-section-blogs-wrapper">
                     {filteredBlogs.length > 0 ? (
                         filteredBlogs.map((blog, index) => (
-                            <Link key={index} href={`/blogdetails/${blog._id}`} className="blog-section-blog">
+                            <Link key={index} href={`/blog/${blog?.slug}`} className="blog-section-blog">
                                 <img src={blog.images?.[0]} alt="blogs" className="blog-section-blog-image" />
 
                                 <div className="blog-section-content">
