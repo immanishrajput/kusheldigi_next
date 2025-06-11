@@ -12,6 +12,11 @@ import MagentoServices from "../magento-development/MagentoServices/MagentoServi
 import BenefitsOfWorkingKDS from "../custom-software-development/BenefitsOfWorkingWKDS/BenefitsOfWorkingKDS";
 import ProcessCustom from "../custom-software-development/ProcessCustomSoftware/ProcessCustom";
 import HomeForm from "../components/Home/HomeForm"
+import CustomBanner from "../custom-software-development/CustomBanner/page";
+import CustomBenefits from "../custom-software-development/CustomBenefits/page";
+import IndustryCustom from "../custom-software-development/IndustryCustom/page";
+import CustomAbout from "../custom-software-development/CustomAbout/page";
+import CustomCallAction from "../custom-software-development/CustomCallAction/page";
 
 const customBenefitData = [
   {
@@ -1110,14 +1115,14 @@ const customServiceData = [
 function CustomSoftware() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
- 
+
   const phoneNumber = "9045301702";
 
   const whatAppHandler = () => {
     const whatsappUrl = `https://wa.me/${phoneNumber}`;
     window.open(whatsappUrl, "_blank");
   };
-  const callHandler=()=>{
+  const callHandler = () => {
     const callUrl = `tel:${phoneNumber}`;
     window.open(callUrl, "_blank");
   }
@@ -1152,21 +1157,21 @@ function CustomSoftware() {
 
 
   const generateMetadata = ({ params }) => ({
-      title: "Custom Software Development & Automation Solutions | Kushel Digi",
-      description: 'Transform your business with Kushel Digi’s custom software, automation, and maintenance services. Future-proof, scalable, and designed for your industry’s demands.',
-    });
-    
+    title: "Custom Software Development & Automation Solutions | Kushel Digi",
+    description: 'Transform your business with Kushel Digi’s custom software, automation, and maintenance services. Future-proof, scalable, and designed for your industry’s demands.',
+  });
+
   useEffect(() => {
-      const { title, description } = generateMetadata({ params: {} });
-      document.title = title;
-      let metaDescription = document.querySelector('meta[name="description"]');
-      metaDescription ? metaDescription.content = description : 
-        document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-    }, []);
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description :
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
   return (
     <>
 
-<Head>
+      <Head>
         {/* Open Graph (OG) Meta Tags */}
         <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
         <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
@@ -1181,12 +1186,12 @@ function CustomSoftware() {
         <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
         <meta name="twitter:url" content="https://www.kusheldigi.com/" />
       </Head>
-      
-    <Navbar/>
-    <div className="ser-main">
-    <div id="customSoftware">
-    
-{/*      
+
+      <Navbar />
+      <div className="ser-main">
+        <div id="customSoftware">
+
+          {/*      
       <section className="ccs_page">
         <div className="css_main_banner">
         <div className="ccs_banner dine-123">
@@ -1512,22 +1517,23 @@ Count on our dedicated support team for prompt assistance, ensuring smooth opera
 
 
 
-    </div>
-    <CustomSoftwareBanner/>
-    <SecondCustomSection/>
-    <CustomSoftwareSolutions/>
-    <MagentoServices leftContent={CutsomSoftwareServicesLeft} services={CutsomSoftwareServicesRight}/>
-    <BenefitsOfWorkingKDS/>
-    <ProcessCustom/>
+        </div>
+        <CustomBanner />
+        <CustomBenefits />
+        {/* <IndustryCustom/> */}
+        <CustomAbout />
+        <CustomCallAction />
 
+        <CustomSoftwareBanner />
+        <SecondCustomSection />
+        <CustomSoftwareSolutions />
+        <MagentoServices leftContent={CutsomSoftwareServicesLeft} services={CutsomSoftwareServicesRight} />
+        <BenefitsOfWorkingKDS />
+        <ProcessCustom />
 
+        <HomeForm />
 
-
-
-
-    <HomeForm/>
-
-    <div className="whtsApBtns">
+        <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
             <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
           </button>
@@ -1537,8 +1543,8 @@ Count on our dedicated support team for prompt assistance, ensuring smooth opera
 
         </div>
 
-    </div>
-    <Footer/>
+      </div>
+      <Footer />
     </>
   );
 }
