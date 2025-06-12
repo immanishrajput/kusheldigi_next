@@ -50,7 +50,7 @@ const Website = () => {
           </div>
           <div className="section-grid">
             <div className="section-grid-item services-we-served-list">
-              <ul className="services-box-grid list-unstyled">
+              <ul className="services-box-grid list-unstyled" >
                 <li
                   id="services-box-0"
                   data-index={0}

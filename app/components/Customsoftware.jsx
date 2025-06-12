@@ -17,6 +17,8 @@ import CustomBenefits from "../custom-software-development/CustomBenefits/page";
 import IndustryCustom from "../custom-software-development/IndustryCustom/page";
 import CustomAbout from "../custom-software-development/CustomAbout/page";
 import CustomCallAction from "../custom-software-development/CustomCallAction/page";
+import CustomPortfolio from "../custom-software-development/CustomPortfolio/page";
+import CustomServices from "../custom-software-development/CustomServices/page";
 
 const customBenefitData = [
   {
@@ -1520,9 +1522,11 @@ Count on our dedicated support team for prompt assistance, ensuring smooth opera
         </div>
         <CustomBanner />
         <CustomBenefits />
-        {/* <IndustryCustom/> */}
+        <IndustryCustom/>
         <CustomAbout />
         <CustomCallAction />
+        <CustomPortfolio/>
+        {/* <CustomServices/> */}
 
         <CustomSoftwareBanner />
         <SecondCustomSection />

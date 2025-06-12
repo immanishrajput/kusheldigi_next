@@ -41,7 +41,7 @@ const CustomBenefits = () => {
   return (
     <div className="custom-benefits-section">
       <h2 className="main-heading">
-        Reap the benefits of custom software development with Luxoft
+        Reap the benefits of custom software development with <br/> Kushel Digi Solutions
       </h2>
 
       <div className="benefits-container">
