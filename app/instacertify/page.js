@@ -222,7 +222,7 @@ function Page() {
       <section className="case2secsec">
         <div className="case2seccont">
           {/* <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746537844/madfish-logo1_ghjavp.png" alt="kushel" className="cs2i1" /> */}
-          <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748016554/Vector_4_hnx29x.png" alt="kushel" className="cs2i1" />
+          <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216503/case2imgs1_xngbpg.png" alt="kushel" className="cs2i1" />
 
           <div className="sc2_main_content">
             <h1>Client Background</h1>
