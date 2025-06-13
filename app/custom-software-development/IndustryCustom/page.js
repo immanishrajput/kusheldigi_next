@@ -84,11 +84,13 @@ function IndustryCustom() {
                 </div>
               </div>
               <div className="sector-footer">
-                <button className="sector-btn">
-                  <span className="btn-text">View Industry</span>
-                  <span className="btn-icon"><MdArrowOutward /></span>
-                </button>
-              </div>
+  <button className="sector-btn">
+    <span className="btn-icon left-icon"><MdArrowOutward /></span>
+    <span className="btn-text">View Industry</span>
+    <span className="btn-icon right-icon"><MdArrowOutward /></span>
+  </button>
+</div>
+
             </div>
           </div>
         ))}

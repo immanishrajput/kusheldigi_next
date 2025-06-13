@@ -202,36 +202,61 @@
 }
 
 .sector-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    font-weight: 600;
-    font-size: 14px;
-    cursor: pointer;
-    color: #ffffff;
-    border: none;
-    position: relative;
-    transition: background 0.3s ease;
-}
-
-.btn-icon {
-    order: 2;
-    transition: all 0.3s ease;
-    transform: translateX(0);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  color: #ffffff;
+  border: none;
+  position: relative;
+  background: transparent;
+  padding: 0;
 }
 
 .btn-text {
-    order: 1;
-    transition: all 0.3s ease;
+  transition: transform 0.4s ease;
 }
 
-.sector-btn:hover .btn-icon {
-    order: 0;
-    transform: translateX(1px);
+.btn-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: white !important;
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  line-height: 1;
+  overflow: hidden;
+  width: 0;
+  opacity: 0;
+  transform: scale(0.9) translateX(8px);
+  transition: opacity 0.4s ease, transform 0.4s ease, width 0.4s ease;
+  pointer-events: none;
 }
 
-.sector-btn:hover .btn-text {
-    order: 1;
+.right-icon {
+  width: auto;
+  opacity: 1;
+  transform: scale(1) translateX(0);
+  pointer-events: auto;
+}
+
+.sector-btn:hover .left-icon {
+  width: auto;
+  opacity: 1;
+  transform: scale(1) translateX(0);
+  pointer-events: auto;
+}
+
+.sector-btn:hover .right-icon {
+  width: 0;
+  opacity: 0;
+  transform: scale(0.9) translateX(-8px);
+  pointer-events: none;
 }
 
 @media (max-width: 1024px) {
@@ -247,8 +272,7 @@
 
 @media (max-width: 768px) {
     .sector-card {
-        max-width: 100%;
-        /* height: auto; */
+        max-width: 100%; 
     }
 
     .sector-slider-container {
@@ -264,8 +288,7 @@
 
 @media (max-width: 480px) {
     .sector-card {
-        width: 100%;
-        /* height: auto; */
+        width: 100%; 
     }
 
     .slider-title {

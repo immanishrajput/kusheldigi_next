@@ -1521,12 +1521,14 @@ Count on our dedicated support team for prompt assistance, ensuring smooth opera
 
         </div>
         <CustomBanner />
+        <CustomAbout />
         <CustomBenefits />
         <IndustryCustom/>
-        <CustomAbout />
         <CustomCallAction />
+        <CustomServices/>
         <CustomPortfolio/>
-        {/* <CustomServices/> */}
+
+
 
         <CustomSoftwareBanner />
         <SecondCustomSection />
