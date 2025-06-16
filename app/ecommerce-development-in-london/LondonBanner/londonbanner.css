@@ -1,0 +1,190 @@
+.london-banner-section {
+    background: url('https://res.cloudinary.com/dqjbzgksw/image/upload/v1750054035/5e27c046b41701e73a605bbd36da9708d278712b_ivakpj.jpg');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.london-banner-overlay {
+    background: rgba(0, 0, 0, .7); 
+    min-height: 580px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.london-banner-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.london-banner-heading {
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-transform: math-auto;
+
+}
+
+.london-banner-heading .london-banner-span {
+    color: #fff;
+    font-size: 55px !important;
+}
+
+.london-banner-subtext {
+    font-size: 18px;
+    line-height: 1.7;
+    padding: 20px 0;
+    color: #ddd;
+    margin: auto;
+    max-width: 920px;
+    text-align: center;
+}
+
+.london-banner-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.london-banner-btn-yellow,
+.london-banner-btn-outline {
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.london-banner-btn-yellow {
+    background-color: #0c61ff;
+    color: #fff;
+    border: none;
+}
+
+.london-banner-btn-yellow:hover {
+    background-color: #fff;
+    color: #0c61ff;
+}
+
+.london-banner-btn-outline {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.london-banner-btn-outline:hover {
+    background-color: #0c61ff;
+    color: #fff;
+    border-color: #0c61ff;
+}
+
+@media (max-width: 1024px) {
+    .london-banner-heading {
+        font-size: 48px;
+    }
+
+    .london-banner-heading .london-banner-span {
+        font-size: 48px !important;
+    }
+
+    .london-banner-subtext {
+        font-size: 17px;
+        max-width: 90%;
+    }
+
+     .london-banner-overlay {
+        padding: 60px 15px;
+        min-height: auto;
+    }
+
+    .london-banner-section {
+        min-height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .london-banner-overlay {
+        padding: 60px 15px;
+        min-height: auto;
+    }
+
+    .london-banner-section {
+        min-height: auto;
+    }
+
+    .london-banner-heading {
+        font-size: 34px;
+    }
+
+    .london-banner-heading .london-banner-span {
+        font-size: 34px !important;
+    }
+
+    .london-banner-subtext {
+        font-size: 16px;
+        padding: 16px 0;
+    }
+
+    .london-banner-buttons {
+        gap: 15px;
+    }
+
+    .london-banner-btn-yellow,
+    .london-banner-btn-outline {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .london-banner-clutch {
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .london-banner-heading {
+        font-size: 26px;
+    }
+
+    .london-banner-heading .london-banner-span {
+        font-size: 26px !important;
+    }
+
+    .london-banner-subtext {
+        font-size: 15px;
+        padding: 12px 0;
+        max-width: 100%;
+    }
+
+    .london-banner-overlay {
+        padding: 40px 15px;
+        min-height: auto;
+    }
+
+    .london-banner-buttons {
+        gap: 12px;
+    }
+
+    .london-banner-btn-yellow,
+    .london-banner-btn-outline {
+        font-size: 15px;
+        padding: 10px 24px;
+        width: 60%;
+    }
+
+    .london-banner-clutch {
+        font-size: 14px;
+    }
+}

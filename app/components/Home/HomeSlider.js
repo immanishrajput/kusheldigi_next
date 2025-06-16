@@ -71,7 +71,7 @@ const Slider = () => {
                   </div>
                 </div>
                 <p className="right-carousel-para">
-                  2nd Amendment Armory is known for being a leading provider of high-quality firearms and tactical equipment  serving customers both locally in Brandon, FL and across the nation.usted firearms provider of high-quality gun accessories.
+                  2nd Amendment Guns is known for being a leading provider of high-quality firearms and tactical equipment  serving customers both locally in Brandon, FL and across the nation.usted firearms provider of high-quality gun accessories.
                 </p>
                 <Link href="/2ndamendmentguns">
                   <button className="left-carousel-btn blue-bg right-carousel-inner-btn">
@@ -101,7 +101,7 @@ const Slider = () => {
               </div>
               <div className="right-carousel-item">
                 <h3 className="right-carousel-heading">
-                  Kickeez
+                  KICK-EEZ
                 </h3>
                 <div className="right-service-stack-div">
                   <div className="right-service-stack">
@@ -123,7 +123,7 @@ const Slider = () => {
                   </div>
                 </div>
                 <p className="right-carousel-para">
-                  KICK- EEZ Premium known for Made in America recoil pads and accessories to make your shooting experience more comfortable.
+                  KICK-EEZ Premium known for Made in America recoil pads and accessories to make your shooting experience more comfortable.
                 </p>
                 <Link href="/kick-eez">
                   <button

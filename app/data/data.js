@@ -154,7 +154,7 @@ export const whyHeadlessShopifyByKDS = [
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1743422485/svg2_v9hk1a.svg",
     alt: "OmniChannel Icon",
-    title: "Mobile-First Approac",
+    title: "Mobile-First Approach",
     description:
       "Our Shopify Headless stores are responsive, mobile-friendly, and built to deliver a best shopping experience across smartphones, tablets and desktops.",
     className: "blue",

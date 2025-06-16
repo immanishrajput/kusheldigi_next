@@ -30,8 +30,7 @@ const Footer = () => {
                   srcset="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png 1x,
                           https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png 2x,
                           https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png 3x"
-                  alt="KushelDigi Solutions Logo"
-                  title="KushelDigi Solutions Logo"
+                  alt="Kushel Digi Solutions official logo for ecommerce  development agency India"
                 />
 
                 <h4 className="text-start">

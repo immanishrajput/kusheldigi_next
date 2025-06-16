@@ -119,7 +119,7 @@ const NewBanner = () => {
                             src='https://res.cloudinary.com/dal5dlztv/image/upload/v1746528478/Bigcommerce2_z9tsl7.png'
                             width={110}
                             height={110}
-                            alt='bigcommerce'
+                            alt='BigCommerce website development service icon Kushel Digi Solutions Noida'
                         // src="https://res.cloudinary.com/dgif730br/image/upload/v1743151035/floatingIcon2_hsudze.png" alt="" 
 
                         />
@@ -129,7 +129,7 @@ const NewBanner = () => {
                             src='https://res.cloudinary.com/dal5dlztv/image/upload/v1746528477/shopify1_qfeocx.png'
                             width={110}
                             height={110}
-                            alt='shopify'
+                            alt='Shopify ecommerce  website design service icon Kushel Digi Solutions'
                         // src="https://res.cloudinary.com/dgif730br/image/upload/v1743151035/floatingIcon1_twd70z.png" alt=""
 
                         />
@@ -140,7 +140,7 @@ const NewBanner = () => {
                             src='https://res.cloudinary.com/dal5dlztv/image/upload/v1746528477/Magento_zxs0hr.png'
                             width={110}
                             height={110}
-                            alt='magento'
+                            alt='Magento ecommerce  development service icon Kushel Digi Solutions'
                         />
                     </div>
                 </div>
