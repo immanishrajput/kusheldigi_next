@@ -35,12 +35,12 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Expert eCommerce & BigCommerce Development Company | Kushel Digi",
-    description: "Transform your online presence with Kushel Digi Solutions eCommerce development, BigCommerce solutions, and tailored B2B and marketplace platforms. Start your project today! ",
+    description: "Work with 8+ year ecommerce experts to build, optimize, and grow your ecommerce store—BigCommerce and Shopify design, development, integrations, and apps.",
     images: [{ url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png", width: 1200, height: 630 }],
   },
   openGraph: {
     title: "Expert eCommerce & BigCommerce Development Company | Kushel Digi",
-    description: "Transform your online presence with Kushel Digi Solutions eCommerce development, BigCommerce solutions, and tailored B2B and marketplace platforms. Start your project today! ",
+    description: "Work with 8+ year ecommerce experts to build, optimize, and grow your ecommerce store—BigCommerce and Shopify design, development, integrations, and apps.",
     url: "https://www.kusheldigi.com/",
     type: "website",
     images: [{ url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png", width: 1200, height: 630, alt: "kushel" }],

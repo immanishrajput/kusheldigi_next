@@ -11,49 +11,49 @@ const partners = [
   {
     // img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233923/WhatsApp_Image_2025-03-29_at_12.40.32_PM_apddld.jpg",
     img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1747983170/file_1747981544-1747981545_crwtsv.webp",
-    alt: "bigcommerce Partner",
+    alt: "BigCommerce certified partner icon Kushel Digi Solutions",
     link: "/bigcommerce-development",
   },
   {
     // img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233927/WhatsApp_Image_2025-03-29_at_12.40.30_PM_vhjqvg.jpg",
     img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1747983170/file_1747981534-1747981535_ecpeyu.webp",
-    alt: "bigcommerce-certified Partner",
+    alt: "BigCommerce certified agency partner icon Kushel Digi Solutions",
     link: "/headless-bigcommerce",
   },
   {
     // img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233929/WhatsApp_Image_2025-03-29_at_12.40.30_PM_1_flmzht.jpg",
     img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1747983170/file_1747981552-1747981553_m0q5uq.webp",
-    alt: "Magento Partner",
+    alt: "Magento ecommerce  web design services icon Kushel Digi Solutions",
     link: "/magento-development",
   },
   {
     // img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233924/WhatsApp_Image_2025-03-29_at_12.40.31_PM_1_lgmnkv.jpg",
     img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1747983170/file_1747981617-1747981618_thowcm.webp",
-    alt: "WooCommerce Partner",
+    alt: "Woocommerce ecommerce  web design services icon Kushel Digi Solutions",
     link: "/woocommerce-development",
   },
   {
     // img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233924/WhatsApp_Image_2025-03-29_at_12.40.31_PM_2_nenngq.jpg",
     img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1747983170/file_1747981628-1747981654_u94rjy.webp",
-    alt: "AWS Partner",
+    alt: "aws ecommerce  web design services icon Kushel Digi Solutions",
     link: "#",
   },
   {
     // img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233924/WhatsApp_Image_2025-03-29_at_12.40.31_PM_ae7idi.jpg",
     img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1747983170/file_1747982845-1747982846_amhpie.webp",
-    alt: "/shopify",
+    alt: "Shopify ecommerce  website development service icon Kushel Digi Solutions",
     link: "/shopify-development",
   },
   {
     // img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743234242/WhatsApp_Image_2025-03-29_at_12.40.32_PM_hfpuyo.jpg",
     img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1747978933/file_1747978763-1747978782_gy3ins.webp",
-    alt: "Shopify Plus Partner",
+    alt: "Shopify plus ecommerce  web development icon Kushel Digi Solutions",
     link: "/headless-shopify",
   },
   {
     // img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233923/WhatsApp_Image_2025-03-29_at_12.40.29_PM_q5esb4.jpg",
     img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1747983170/file_1747982834-1747982838_wjc8tf.webp",
-    alt: "klaviyo",
+    alt: "klaviyo ecommerce  website marketing platform icon Kushel Digi Solutions",
     link: "#",
   },
 ];
@@ -126,7 +126,7 @@ const Our = () => {
               <img
                 loading="lazy"
                 src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866486/circle-arrow-icon_dcxfmm.svg"
-                alt="partner"
+                alt="Arrow icon for website interaction Kushel Digi Solutions"
               />
             </span>
 
@@ -162,7 +162,7 @@ const Our = () => {
                 <img
                   loading="lazy"
                   src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1741866486/circle-arrow-icon_dcxfmm.svg"
-                  alt="partner"
+                  alt="Arrow icon for website interaction Kushel Digi Solutions"
                 />
               </span>
 
