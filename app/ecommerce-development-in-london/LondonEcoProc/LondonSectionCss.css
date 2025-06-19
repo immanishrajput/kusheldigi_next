@@ -75,8 +75,8 @@
   /* CTA Button */
   .londonecomproc1-connect-btn {
     background-color: #0047ff;
-    color: #fff;
-    border: none;
+    border: 1px solid #0051ff;
+    color: #fff; 
     padding: 12px 24px;
     margin-top: 30px;
     border-radius: 25px;
@@ -87,7 +87,9 @@
   }
   
   .londonecomproc1-connect-btn:hover {
-    background-color: #0033cc;
+    background-color: #ffffff;
+    color: #0051ff;
+    border: 1px solid #0051ff;
   }
   /* Zig-zag effect for cards */
 .londonecomproc1-card:nth-child(even) {

@@ -11,7 +11,7 @@
   margin-bottom: 2rem !important;
   text-align: center;
   max-width: 600px;
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 /* Wrapper to center the grid */
@@ -87,14 +87,16 @@
   font-weight: 500;
   background-color: #007BFF;
   color: white;
-  border: none;
+  border: 1px solid #0051ff;
   border-radius: 50px;
   cursor: pointer;
   transition: background 0.3s ease;
 }
 
 .ecom-btn:hover {
-  background-color: #0056b3;
+  background-color: #fff;
+  color: #0051ff;
+  border: 1px solid #0051ff;
 }
 
 .ecom-btn.secondary {
@@ -111,14 +113,17 @@
 
 @media (max-width: 992px) {
   .ecom-london-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 cards per row on tablets */
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 cards per row on tablets */
   }
 }
- 
+
 @media (max-width: 768px) {
-.ecom-london-grid {
-    grid-template-columns: 1fr; /* 1 card per row on mobile */
+  .ecom-london-grid {
+    grid-template-columns: 1fr;
+    /* 1 card per row on mobile */
   }
+
   .ecom-london-title {
     font-size: 2rem;
   }

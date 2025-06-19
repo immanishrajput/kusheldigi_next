@@ -10,7 +10,7 @@
   position: relative;
   gap: 40px;
 }
- 
+
 .why-choose-left {
   flex: 1;
   position: sticky;
@@ -39,22 +39,25 @@
   font-weight: 500;
   background-color: #1253f8;
   color: #fff;
-  border: none;
+  border: 1px solid #0051ff;
+
   border-radius: 32px;
   cursor: pointer;
   transition: background 0.3s ease;
 }
 
 .talk-btn:hover {
-  background-color: #0f45c8;
+  background-color: #fff;
+  color: #0051ff;
+  border: 1px solid #0051ff;
 }
- 
+
 .why-choose-right {
   flex: -1;
   position: relative;
   padding-left: 30px;
 }
- 
+
 .vertical-line {
   position: absolute;
   left: 59px;
@@ -65,7 +68,7 @@
   border-left: 2px solid #c5cdf5;
   z-index: 0;
 }
- 
+
 .why-step {
   display: flex;
   align-items: flex-start;
@@ -91,12 +94,12 @@
   width: 65px;
   height: 60px;
 }
- 
+
 .step-content {
   background: #fff;
   padding: 16px 20px;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   max-width: 500px;
 }
 
@@ -113,7 +116,7 @@
   color: #555;
   line-height: 1.6;
 }
- 
+
 @media (max-width: 1200px) {
   .why-choose-container {
     flex-direction: column;

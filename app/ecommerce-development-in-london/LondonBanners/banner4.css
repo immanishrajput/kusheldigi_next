@@ -42,13 +42,16 @@
   color: #fff;
   padding: 14px 28px;
   font-size: 16px;
+  border: 1px solid #0051ff;
   border-radius: 30px;
   text-decoration: none;
   transition: background 0.3s ease;
 }
 
 .ecom-button:hover {
-  background-color: #163edb;
+  background-color: #fff;
+  color: #0051ff;
+  border: 1px solid #0051ff;
 }
 
 /* Responsive Tweaks */
