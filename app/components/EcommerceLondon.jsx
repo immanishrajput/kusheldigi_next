@@ -36,9 +36,6 @@ const Page = () => {
             <LondonBanners />
             <EcommerceServices />
             <LondonSecSlider/>
-             {/* <LondonSlides /> */}
-            {/* <CaseStudies/> */}
-            {/* <LondonSlides /> */}
             <CustomBenefitsSection/>
             <CallToAction />
             <WhyChooseLondon />
