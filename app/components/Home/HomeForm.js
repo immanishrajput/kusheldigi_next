@@ -209,7 +209,7 @@ const Website = () => {
                     height="30"
                     loading="lazy"
                     src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742367985/istockphoto-1471401435-612x612-removebg-preview_yk8kie.png"
-                    alt="call"
+                    alt="Indian flag icon"
                   />
                 </p>
                 <a href="tel:+919045301702">
@@ -255,7 +255,7 @@ const Website = () => {
                 className="contact-company"
                 src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446905/LOGOS-1_dhbr7h.png"
                 // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743073826/contact-upper-companies_pwuwvi.png"
-                alt="companies"
+                alt="some project logos by Kushel Digi Solutions "
                 style={{ margin: '0px auto', width: '70%', }}
               />
               <Image
@@ -265,7 +265,7 @@ const Website = () => {
                 className="contact-company"
                 src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446905/LOGO-2_mhkyhy.png"
                 // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743073826/contact-below-companies_qyrqms.png"
-                alt="companies"
+                alt="some project logos by Kushel Digi Solutions "
                 style={{ margin: '15px auto', width: '60%', }}
               />
             </div>

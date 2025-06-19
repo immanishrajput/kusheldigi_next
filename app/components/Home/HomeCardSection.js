@@ -21,7 +21,7 @@ const router = useRouter();
           <Image width="219" height="50" loading='lazy' 
 // src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/bigcommerce-3_xfn6e6.png'       
    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742835775/bigcommerce-logo_quhwmf.webp" 
-          alt="BigCommerce" />
+          alt="BigCommerce development services official logo" />
         </div>
         <h3>
           Certified  BigCommerce Partner Agency
@@ -48,7 +48,7 @@ const router = useRouter();
           <Image width="156" height="46" loading='lazy' 
       
           src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742835726/shopify-logo_bcrvfv.webp" 
-          alt="Shopify Plus" />
+          alt="Shopify development services official logo " />
         </div>
         <h3>
           Certified  Shopify Plus Agency
@@ -75,7 +75,7 @@ const router = useRouter();
           <Image width="156" height="46" loading='lazy' 
           // src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446905/magento-4_c38yp2.png'
           src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742835726/manish_sir_logo_e3ckbh.png" 
-          alt="WooCommerce" />
+          alt="Magento development services official logo" />
         </div>
         <h3>
           Expert  Magento Agency

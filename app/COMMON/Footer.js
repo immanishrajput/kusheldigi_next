@@ -143,7 +143,7 @@ const Footer = () => {
                   src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748276974/b6_pevpva.webp"
                   srcSet="https://res.cloudinary.com/dal5dlztv/image/upload/v1748276974/b6_pevpva.webp 1x,
                           https://res.cloudinary.com/dal5dlztv/image/upload/v1748276974/b6_pevpva.webp 2x"
-                  alt="logo" />
+                  alt="Designrush ecommerce listing platform" />
               </Link>
             </div>
 
@@ -157,7 +157,7 @@ const Footer = () => {
                   src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748276892/b4_el1k1k.webp"
                   srcSet="https://res.cloudinary.com/dal5dlztv/image/upload/v1748276892/b4_el1k1k.webp 1x,
                           https://res.cloudinary.com/dal5dlztv/image/upload/v1748276892/b4_el1k1k.webp 2x"
-                  alt="logo" />
+                  alt="Cluth ecommerce listing platform" />
               </Link>
             </div>
 
@@ -171,7 +171,7 @@ const Footer = () => {
                   src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1748514234/B-2_io9vgp.webp"
                   srcSet="https://res.cloudinary.com/dqjbzgksw/image/upload/v1748514234/B-2_io9vgp.webp 1x,
                           https://res.cloudinary.com/dqjbzgksw/image/upload/v1748514234/B-2_io9vgp.webp 2x"
-                  alt="logo" />
+                  alt="goodfirms ecommerce listing platform" />
               </Link>
             </div>
 
@@ -185,7 +185,7 @@ const Footer = () => {
                   src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1748519991/file_1748519923-1748519924_easb6z.webp"
                   srcSet="https://res.cloudinary.com/dqjbzgksw/image/upload/v1748519991/file_1748519923-1748519924_easb6z.webp 1x,
                           https://res.cloudinary.com/dqjbzgksw/image/upload/v1748519991/file_1748519923-1748519924_easb6z.webp 2x"
-                  alt="logo" />
+                  alt="Cluth ecommerce listing platform" />
               </Link>
             </div>
 
@@ -199,7 +199,7 @@ const Footer = () => {
                   src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748276865/b2_cxuq7l.webp"
                   srcSet="https://res.cloudinary.com/dal5dlztv/image/upload/v1748276865/b2_cxuq7l.webp 1x,
                           https://res.cloudinary.com/dal5dlztv/image/upload/v1748276865/b2_cxuq7l.webp 2x"
-                  alt="logo" />
+                  alt="BigCommerce development services official logo " />
               </Link>
             </div>
 
@@ -213,7 +213,7 @@ const Footer = () => {
                 srcset="
                     https://res.cloudinary.com/dal5dlztv/image/upload/v1748276849/b1_szuidn.webp 1x,
                     https://res.cloudinary.com/dal5dlztv/image/upload/v1748276849/b1_szuidn.webp 2x"
-                alt="logo" />
+                alt="8+ years of Experience in ecommerce website development" />
 
             </div>
           </div>
@@ -238,7 +238,7 @@ const Footer = () => {
                         height="35"
                         style={{ width: '35px', height: '35px', display: 'block' }}
                         src="https://res.cloudinary.com/dgif730br/image/upload/f_auto,q_auto,w_35,h_35,c_scale/v1741074958/linkedin_logo-01_gvkq3i_ccm6sd.png"
-                        alt="linkedin"
+                        alt="LinkedIn social media icon for ecommerce website development by Kushel Digi Solutions"
                       />
 
                     </a>
@@ -249,7 +249,7 @@ const Footer = () => {
                         width={35}
                         height={35}
                         style={{ width: '35px', height: '35px', display: 'block' }}
-                        src='https://res.cloudinary.com/dgif730br/image/upload/f_auto,q_auto,w_35,h_35,c_scale/v1741075336/instagram_logo-01_dzqg3b_xzp4ys.png' alt="iconm" />
+                        src='https://res.cloudinary.com/dgif730br/image/upload/f_auto,q_auto,w_35,h_35,c_scale/v1741075336/instagram_logo-01_dzqg3b_xzp4ys.png' alt="Instagram social media icon for ecommerce   website development by Kushel Digi Solutions" />
                     </a>
                     <a
                       target="_blank"
@@ -261,7 +261,7 @@ const Footer = () => {
                         width={35}
                         height={35}
                         style={{ width: '35px', height: '35px', display: 'block' }}
-                        src='https://res.cloudinary.com/dgif730br/image/upload/f_auto,q_auto,w_35,h_35,c_scale/v1741075570/facebook_logo-01_b88kjo_mhhfn3.png' alt="icon" />
+                        src='https://res.cloudinary.com/dgif730br/image/upload/f_auto,q_auto,w_35,h_35,c_scale/v1741075570/facebook_logo-01_b88kjo_mhhfn3.png' alt="Facebook social media icon for ecommerce   website development by Kushel Digi Solutions" />
                     </a>
                     <a target="_blank" href="https://twitter.com/KushelDigisoln" rel="noopener">
                       {/* https://res.cloudinary.com/dd9tagtiw/image/upload/v1740224179/twitter_logo-01_xh3vqk.png */}
@@ -271,7 +271,7 @@ const Footer = () => {
                         width={35}
                         height={35}
                         style={{ width: '35px', height: '35px', display: 'block' }}
-                        src='https://res.cloudinary.com/dgif730br/image/upload/f_auto,q_auto,w_35,h_35,c_scale/v1741075813/twitter_logo-01_xh3vqk_ksousv.png' alt="young2" />
+                        src='https://res.cloudinary.com/dgif730br/image/upload/f_auto,q_auto,w_35,h_35,c_scale/v1741075813/twitter_logo-01_xh3vqk_ksousv.png' alt="Twitter social media icon for ecommerce   website development by Kushel Digi Solutions" />
                     </a>
                     {/* <a target="_blank" href="https://www.behance.net/kushelsolucti" rel="noopener">
                       { https://res.cloudinary.com/dd9tagtiw/image/upload/v1740224178/behance_logo-01_x6vc9l.png }

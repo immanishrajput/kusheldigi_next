@@ -42,7 +42,7 @@ const Result1 = ({weExpert}) => {
             <div className="logoImgcbom">
               <img
                 src={weExpert?.logo}
-                alt=""
+                alt="Magento ecommerce  website development icon Kushel Digi Solutions"
               />
             </div>
           </div>

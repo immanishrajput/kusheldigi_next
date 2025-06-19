@@ -120,7 +120,7 @@ const CaseStudy = () => {
             {caseStudies[currentIndex].bigCommerce.map((item, index) => (
               <div key={index} className='bigcommerceImg-card'>
                 <img loading='lazy' src={item.bigImg1} alt='bigImg1' />
-                <img loading='lazy' src={item.bigImg3} alt='bigImg3' />
+                <img loading='lazy' src={item.bigImg3} alt='BigCommerce certified partner icon Kushel Digi Solutions' />
               </div>
             ))}
 

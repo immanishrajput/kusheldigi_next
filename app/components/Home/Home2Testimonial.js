@@ -135,7 +135,7 @@ function Home2Testimonial() {
 
               <div className='testImageCloud'>
                 <div>
-                  <Image loading="lazy" width={120} height={18} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
+                  <Image loading="lazy" width={120} height={18} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='icon for ecommerce website development ' />
                 </div>
 
                 <div className='testImage'>
@@ -144,7 +144,7 @@ function Home2Testimonial() {
                     width={70}
                     height={70}
                     src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842698/rajat-mithal-logo_ig2ccd.png"
-                    alt="Rajat Mithal company logo"
+                    alt="Mithal Industries logo for ecommerce website development by Kushel Digi Solutions"
                   />
                 </div>
 
@@ -163,7 +163,7 @@ function Home2Testimonial() {
             <div className='testswipsingle'>
               <div className='testImageCloud'>
                 <div>
-                  <Image loading="lazy" width={120} height={18} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
+                  <Image loading="lazy" width={120} height={18} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='icon for ecommerce website development ' />
                 </div>
 
                 <div className='testImage'>
@@ -172,7 +172,7 @@ function Home2Testimonial() {
                     width={70}
                     height={70}
                     src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842494/manish-bhai-1_hmba1g.png"
-                    alt="Manish Bhai company logo" />
+                    alt="Slide365 project logo by Kushel Digi Solutions" />
                 </div>
               </div>
               <p className='reviewsss'>
@@ -189,7 +189,7 @@ function Home2Testimonial() {
             <div className='testswipsingle'>
               <div className='testImageCloud'>
                 <div className='testImage1'>
-                  <Image loading="lazy" width={120} height={18} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
+                  <Image loading="lazy" width={120} height={18} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='icon for ecommerce website development ' />
                 </div>
 
                 <div className='testImage'>
@@ -198,7 +198,7 @@ function Home2Testimonial() {
                     width={70}
                     height={70}
                     src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842480/manish-bhai-3_uz3ee0.png"
-                    alt="Manish Bhai company logo" />
+                    alt="Project logo for ecommerce website development by Kushel Digi Solutions" />
                 </div>
               </div>
               <p className='reviewsss'>
@@ -215,7 +215,7 @@ function Home2Testimonial() {
             <div className='testswipsingle'>
               <div className='testImageCloud'>
                 <div>
-                  <Image loading="lazy" width={120} height={18} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='Stars' />
+                  <Image loading="lazy" width={120} height={18} src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739014063/h2stars_qci2lf.webp' alt='icon for ecommerce website development ' />
                 </div>
 
                 <div className='testImage'>
@@ -223,7 +223,7 @@ function Home2Testimonial() {
                     loading="lazy"
                     width={70}
                     height={70}
-                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842486/manish-bhai-2_strlgl.png" alt="Manish Bhai company logo" />
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1745842486/manish-bhai-2_strlgl.png" alt="Nirviex project logo for ecommerce website development by Kushel Digi Solutions" />
                 </div>
               </div>
               <p className='reviewsss'>
