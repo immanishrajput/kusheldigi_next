@@ -1,0 +1,134 @@
+.process-section {
+  background: #fff;
+  padding: 60px 40px;
+  font-family: sans-serif;
+}
+
+.process-toggle {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 35px;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  width: 1350px;
+}
+
+.process-toggle span {
+  cursor: pointer;
+  color: #ccc;
+  transition: 0.3s;
+}
+
+.process-toggle span.active {
+  color: #000;
+}
+
+.switch {
+  width: 142px;
+  height: 73px;
+  background: #eee;
+  border-radius: 50px;
+  position: relative;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.switch.active {
+  background: #0B56E4; 
+}
+
+.switch-circle {
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border-radius: 50% !important;
+  position: absolute;
+  top: 7px;
+  left: 5px;
+  transition: all 0.3s ease;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.switch-circle.right {
+  left: 78px;
+}
+
+
+.process-divider {
+  width: 100%;
+  max-width: 1350px;
+  height: 1px;
+  background: rgba(0, 0, 0, 1);
+  margin: 20px auto 40px;
+}
+
+
+.process-row {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start; 
+  max-width: 1350px;
+  width: 100%; 
+}
+
+.process-description {
+  flex: 1 1 400px;
+  font-size: 20px;
+  color: #333;
+  max-width: 400px;
+  line-height: 1.6;
+}
+
+.process-columns {
+  display: flex;
+  flex: 3 1 700px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.process-column {
+  border-left: 1px solid rgba(0, 0, 0, 1);
+  padding-left: 20px;
+  min-width: 160px;
+}
+
+.process-column h4 {
+  font-size: 20px;
+  margin-bottom: 35px;
+  color: #111;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.process-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.process-column li {
+  font-size: 18px;
+  color: #222;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .process-row {
+    flex-direction: column;
+  }
+
+  .process-columns {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .process-description {
+    max-width: 100%;
+  }
+}
