@@ -12,7 +12,7 @@ function Flagship() {
       <div className="flagship-cards">
         <div className="flagship-card">
           <div className="flagship-logo">
-            <Image width={26} height={22} loading='lazy' src="https://res.cloudinary.com/dgif730br/image/upload/v1743511655/m1_a4lm2y_av5bgd.jpg" alt="Shopify Plus" />
+            <Image width={26} height={22} loading='lazy' src="https://res.cloudinary.com/dgif730br/image/upload/v1743511655/m1_a4lm2y_av5bgd.jpg" alt="Product image example for ecommerce website development " />
           </div>
           <h3>Ecommerce development</h3>
           <ul className="flagship-ul">
@@ -38,7 +38,7 @@ function Flagship() {
               height={22}
               src='https://res.cloudinary.com/dgif730br/image/upload/v1743512070/m2_gfvosm_ozm8ho.jpg'
 
-              alt="BigCommerce" />
+              alt="Category thumbnail for ecommerce website development " />
           </div>
           <h3>Ecommerce consulting</h3>
           <ul className="flagship-ul">
@@ -67,7 +67,7 @@ function Flagship() {
               height={22}
               // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808147/m3_iuyndc.svg" 
               src='https://res.cloudinary.com/dgif730br/image/upload/v1743512200/m3_iuyndc_dx2bfo.jpg'
-              alt="WooCommerce" />
+              alt="Featured product thumbnail for online store" />
           </div>
           <h3>Replatforming</h3>
           <ul className="flagship-ul">
@@ -95,7 +95,7 @@ function Flagship() {
               height={22}
               // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808147/m4_miupd6.svg" 
               src='https://res.cloudinary.com/dgif730br/image/upload/v1743512303/m4_miupd6_luofo2.jpg'
-              alt="Shopify Plus" />
+              alt="Product image example for ecommerce website development project" />
           </div>
           <h3>Mobile development</h3>
           <ul className="flagship-ul">
@@ -126,7 +126,7 @@ function Flagship() {
               height={22}
               // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808146/m6_klddr8.svg"
               src='https://res.cloudinary.com/dgif730br/image/upload/v1743512907/m6_klddr8_msygqp.jpg'
-              alt="WooCommerce" />
+              alt="Team collaboration image icon for ecommerce website development" />
           </div>
           <h3>Ecommerce design</h3>
           <ul className="flagship-ul">
@@ -156,7 +156,7 @@ function Flagship() {
               height={22}
               // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742808146/m5_nuxmzb.svg"
               src='https://res.cloudinary.com/dgif730br/image/upload/v1743512716/m5_nuxmzb_rauksj.jpg'
-              alt="BigCommerce" />
+              alt="Creative design concept icon for BigCommerce website development" />
           </div>
           <h3>Technical support</h3>
           <ul className="flagship-ul">

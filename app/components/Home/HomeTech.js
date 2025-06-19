@@ -23,31 +23,31 @@ const partners = [
   {
     // img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233929/WhatsApp_Image_2025-03-29_at_12.40.30_PM_1_flmzht.jpg",
     img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1747983170/file_1747981552-1747981553_m0q5uq.webp",
-    alt: "Magento ecommerce  web design services icon Kushel Digi Solutions",
+    alt: "Magento ecommerce web design services icon Kushel Digi Solutions",
     link: "/magento-development",
   },
   {
     // img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233924/WhatsApp_Image_2025-03-29_at_12.40.31_PM_1_lgmnkv.jpg",
     img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1747983170/file_1747981617-1747981618_thowcm.webp",
-    alt: "Woocommerce ecommerce  web design services icon Kushel Digi Solutions",
+    alt: "Woocommerce ecommerce web design services icon Kushel Digi Solutions",
     link: "/woocommerce-development",
   },
   {
     // img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233924/WhatsApp_Image_2025-03-29_at_12.40.31_PM_2_nenngq.jpg",
     img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1747983170/file_1747981628-1747981654_u94rjy.webp",
-    alt: "aws ecommerce  web design services icon Kushel Digi Solutions",
+    alt: "aws ecommerce web design services icon Kushel Digi Solutions",
     link: "#",
   },
   {
     // img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743233924/WhatsApp_Image_2025-03-29_at_12.40.31_PM_ae7idi.jpg",
     img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1747983170/file_1747982845-1747982846_amhpie.webp",
-    alt: "Shopify ecommerce  website development service icon Kushel Digi Solutions",
+    alt: "Shopify ecommerce website development service icon Kushel Digi Solutions",
     link: "/shopify-development",
   },
   {
     // img: "https://res.cloudinary.com/dal5dlztv/image/upload/v1743234242/WhatsApp_Image_2025-03-29_at_12.40.32_PM_hfpuyo.jpg",
     img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1747978933/file_1747978763-1747978782_gy3ins.webp",
-    alt: "Shopify plus ecommerce  web development icon Kushel Digi Solutions",
+    alt: "Shopify plus ecommerce web development icon Kushel Digi Solutions",
     link: "/headless-shopify",
   },
   {

@@ -66,8 +66,7 @@ const Website = () => {
 
                           <img
                             loading="lazy"
-                            alt="Services Icon"
-                            title="Services Icon"
+                            alt="Team collaboration image for ecommerce  website project development"
                             decoding="async"
                             src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748282768/Mask_group_84_wktybx.png"
                             class="services-box-inner-img"
@@ -80,7 +79,7 @@ const Website = () => {
                       </Link>
                     </div>
                     <span className={`services-box-down-icon ${activeIndex === 0 ? "rotate180" : ''}`}>
-                      <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="" />
+                      <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="Dropdown menu arrow icon for website navigation UI" />
                     </span>
                   </div>
                   <div className="services-box-right-corner">
@@ -207,8 +206,7 @@ const Website = () => {
                         >
                           <img
                             loading='lazy'
-                            alt="Services Icon"
-                            title="Services Icon"
+                            alt="Creative design team working on ecommerce  website development project"
                             decoding="async"
                             src='https://res.cloudinary.com/dal5dlztv/image/upload/v1748282769/Mask_group_83_xjfebg.png'
                             // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287002/node-js-mongo-DB-icon_rhqrop.svg"
@@ -236,7 +234,7 @@ const Website = () => {
                     <span className={`services-box-down-icon ${activeIndex === 1 ? "rotate180" : ''}`}>
                       <img loading='lazy'
                         src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg"
-                        alt="" />
+                        alt="Dropdown arrow icon for ecommerce  website navigation menu" />
                     </span>
                   </div>
                   <div className="services-box-right-corner">
@@ -387,8 +385,7 @@ const Website = () => {
                         >
                           <img
                             loading='lazy'
-                            alt="Services Icon"
-                            title="Services Icon"
+                            alt="Project team brainstorming for ecommerce   website design and launch"  
                             decoding="async"
                             src='https://res.cloudinary.com/dal5dlztv/image/upload/v1748282763/Mask_group_85_bo8liz.png'
                             // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287002/node-js-mongo-DB-icon_rhqrop.svg"
@@ -414,7 +411,7 @@ const Website = () => {
                       </h3>
                     </div>
                     <span className={`services-box-down-icon ${activeIndex === 2 ? "rotate180" : ''}`}>
-                      <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="" />
+                      <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="Dropdown arrow icon " />
                     </span>
                   </div>
                   <div className="services-box-right-corner">
@@ -561,7 +558,7 @@ const Website = () => {
                         >
                           <img
                             loading='lazy'
-                            alt="Services Icon"
+                            alt="Creative team collaborating on ecommerce  website development project"
                             title="Services Icon"
                             decoding="async"
                             src='https://res.cloudinary.com/dal5dlztv/image/upload/v1748282762/Mask_group_86_bfmolw.png'
@@ -589,7 +586,7 @@ const Website = () => {
                       </h3>
                     </div>
                     <span className={`services-box-down-icon ${activeIndex === 3 ? "rotate180" : ''}`}>
-                      <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="" />
+                      <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="Dropdown arrow icon " />
                     </span>
                   </div>
                   <div className="services-box-right-corner">
@@ -707,7 +704,7 @@ const Website = () => {
                         >
                           <img
                             loading='lazy'
-                            alt="Services Icon"
+                            alt="Team collaboration and planning for ecommerce  website development project"
                             title="Services Icon"
                             decoding="async"
                             src='https://res.cloudinary.com/dal5dlztv/image/upload/v1748282763/Mask_group_87_ya5zpl.png'
@@ -734,7 +731,7 @@ const Website = () => {
                       </Link>
                     </div>
                     <span className={`services-box-down-icon ${activeIndex === 4 ? "rotate180" : ''}`}>
-                      <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="" />
+                      <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="Dropdown arrow icon for ecommerce  website navigation menu" />
                     </span>
                   </div>
                   <div className="services-box-right-corner">
@@ -879,7 +876,7 @@ const Website = () => {
                         >
                           <img
                             loading='lazy'
-                            alt="Services Icon"
+                            alt="Team discussion for ecommerce  website project planning icon"
                             title="Services Icon"
                             decoding="async"
                             src='https://res.cloudinary.com/dal5dlztv/image/upload/v1748282762/Mask_group_88_bvmruv.png'
@@ -904,7 +901,7 @@ const Website = () => {
                       <h3 className="h6 services-box-title">Performance Marketing</h3>
                     </div>
                     <span className={`services-box-down-icon ${activeIndex === 5 ? "rotate180" : ''}`}>
-                      <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="" />
+                      <img loading='lazy' src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287120/dropdown-arrow_aafea7.svg" alt="Dropdown arrow icon " />
                     </span>
                   </div>
                   <div className="services-box-right-corner">

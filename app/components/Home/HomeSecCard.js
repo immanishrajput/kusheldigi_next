@@ -19,7 +19,7 @@ function Advance() {
              
               <Image loading='lazy'  width="599" height="299"
                 src='https://res.cloudinary.com/dqjbzgksw/image/upload/v1747982612/file_1747977192-1747977194_fg0v2k.webp'
-                alt="B2B" />
+                alt="B2B ecommerce website development for fashion industry " />
             </div>
             <div className="b2b-contain">
               <h3 className="b2b-headsss">B2B</h3>
@@ -37,7 +37,7 @@ function Advance() {
               <Image loading='lazy'  width="599" height="299"
                
                 src='https://res.cloudinary.com/dqjbzgksw/image/upload/v1747982612/file_1747977172-1747977173_uxa2uv.webp'
-                alt="Multi-vendor" />
+                alt="Multi Vendor ecommerce website development for healthcare industry" />
             </div>
             <div className="b2b-contain">
               <h3 className="b2b-headsss">Multi-vendor</h3>
@@ -59,7 +59,7 @@ function Advance() {
               <Image loading='lazy' width="599" height="299"
                 // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806527/b12_tpd0aj.webp" 
                 src='https://res.cloudinary.com/dqjbzgksw/image/upload/v1747982612/file_1747977182-1747977184_mi8acb.webp'
-                alt="B2C" />
+                alt="B2C ecommerce website development for travel industry" />
             </div>
             <div className="b2b-contain">
               <h3 className="b2b-headsss">B2C</h3>
@@ -79,7 +79,7 @@ function Advance() {
               <Image loading='lazy' width="599" height="299"
                 // src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1742806526/b14_y69yn7.webp"
                 src='https://res.cloudinary.com/dqjbzgksw/image/upload/v1747982612/file_1747977159-1747977160_bx4i0a.webp'
-                alt="D2C" />
+                alt="D2C ecommerce website development for financial industry" />
             </div>
             <div className="b2b-contain">
               <h3 className="b2b-headsss">D2C</h3>
