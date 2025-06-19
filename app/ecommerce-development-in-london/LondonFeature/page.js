@@ -66,4 +66,4 @@ const features = [
     text: "In order to optimize costs and business processes, we can connect any management module of our online store with the management.",
   },
 ];
-export default EcommerceFeatures
+export default EcommerceFeatures;

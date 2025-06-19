@@ -30,4 +30,4 @@ function LondonMakes() {
       </section>
     );
   }
-  export default LondonMakes
+  export default LondonMakes;

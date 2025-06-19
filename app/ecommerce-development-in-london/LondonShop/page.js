@@ -35,15 +35,5 @@ function londonshop() {
   )
 }
 
-export default londonshop
-
-
-// "use client"
-// import React from 'react'
-// import "./londonshop.css"
-// export function Londonshop() {
-//     return (
-     
-//     );
-//   }
+export default londonshop;
   
