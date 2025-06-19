@@ -38,7 +38,6 @@ const Page = () => {
             <LondonSecSlider/>
              {/* <LondonSlides /> */}
             {/* <CaseStudies/> */}
-            {/* <LondonCaseStudy/> */}
             {/* <LondonSlides /> */}
             <CustomBenefitsSection/>
             <CallToAction />
