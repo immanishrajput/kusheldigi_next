@@ -18,7 +18,6 @@ import LondonEcoPro from '../ecommerce-development-in-london/LondonEcoProc/page'
 import LondonShop from '../ecommerce-development-in-london/LondonShop/page'
 import LondonMakeUs from '../ecommerce-development-in-london/LondonMakeUs/page'
 import LondonFeature from '../ecommerce-development-in-london/LondonFeature/page'
-import LondonSlides from '../ecommerce-development-in-london/LondonSlides/page' 
 import CustomBenefitsSection from '../ecommerce-development-in-london/CustomBenefitsSection/page'
 import LondonSecSlider from '../ecommerce-development-in-london/LondonSecSlider/page'
 
@@ -43,7 +42,6 @@ const Page = () => {
             <LondonShop />
             <LondonMakeUs />
             <LondonFeature />
-            
             <Website />
             <Footer />
         </div>
