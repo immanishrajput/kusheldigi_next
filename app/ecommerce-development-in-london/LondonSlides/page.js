@@ -3,7 +3,7 @@ import React from 'react'
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import './londoncase.css';
+import './londonslides.css';
 
 const caseStudies = [
   {
@@ -30,7 +30,7 @@ const caseStudies = [
   },
 ];
 
-function LondonCaseStudy() {
+function LondonSlides() {
   const settings = {
     dots: true,
     arrows: false,
@@ -81,4 +81,4 @@ function LondonCaseStudy() {
     </section>
   );
 }
-export default LondonCaseStudy()
+export default LondonSlides()

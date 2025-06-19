@@ -4,16 +4,25 @@ import React from 'react'
 import Navbar from '../COMMON/Navbar'
 import '../globals.css'
 
+
 import LondonBanner from '../ecommerce-development-in-london/LondonBanner/page'
 import LogoSlider from '../ecommerce-development-in-london/LogoSlider/page'
 import StatsSection from '../ecommerce-development-in-london/StatsSection/page'
 import LondonBanners from '../ecommerce-development-in-london/LondonBanners/page'
 import EcommerceServices from '../ecommerce-development-in-london/LondonEcomServ/page'
-import CaseStudies from '../ecommerce-development-in-london/LondonCaseStudy/page'
 import Footer from '../COMMON/Footer'
 import Website from './Home/HomeForm'
 import CallToAction from '../ecommerce-development-in-london/CtaLondon/page'
 import WhyChooseLondon from '../ecommerce-development-in-london/WhyChooseLondon/page'
+import LondonEcoPro from '../ecommerce-development-in-london/LondonEcoProc/page'
+import LondonShop from '../ecommerce-development-in-london/LondonShop/page'
+import LondonMakeUs from '../ecommerce-development-in-london/LondonMakeUs/page'
+import LondonFeature from '../ecommerce-development-in-london/LondonFeature/page'
+import LondonSlides from '../ecommerce-development-in-london/LondonSlides/page' 
+import CustomBenefitsSection from '../ecommerce-development-in-london/CustomBenefitsSection/page'
+import LondonSecSlider from '../ecommerce-development-in-london/LondonSecSlider/page'
+
+
 
 const Page = () => {
     return (
@@ -22,16 +31,24 @@ const Page = () => {
             <Navbar />
             
             <LondonBanner />
-            <LogoSlider/>
-            <StatsSection/>
-            <LondonBanners/>
-            <EcommerceServices/>
+            <LogoSlider />
+            <StatsSection />
+            <LondonBanners />
+            <EcommerceServices />
+            <LondonSecSlider/>
+             {/* <LondonSlides /> */}
             {/* <CaseStudies/> */}
-            <CallToAction/>
-            <WhyChooseLondon/>
-
-            <Website/>
-            <Footer/>
+            {/* <LondonCaseStudy/> */}
+            {/* <LondonSlides /> */}
+            <CustomBenefitsSection/>
+            <CallToAction />
+            <WhyChooseLondon />
+            <LondonEcoPro />
+            <LondonShop />
+            <LondonMakeUs />
+            <LondonFeature />
+            <Website />
+            <Footer />
         </div>
     )
 }

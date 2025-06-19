@@ -1,0 +1,133 @@
+.case-study-section {
+    padding: 60px 20px;
+    background: #fdfdfd;
+  }
+  
+  .case-study-card {
+    display: flex !important;
+    flex-direction: row;
+    background: #fff7f1;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 30px;
+    align-items: center;
+    gap: 50px !important;
+    max-width: 1100px;
+    margin: auto;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.07);
+  }
+  
+  .case-study-left {
+    position: relative;
+    flex: 1;
+  }
+  
+  .case-study-image-wrapper {
+    position: relative;
+ 
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .case-study-image {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .view-button {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    background: #2d2d2d;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .case-study-right {
+    flex: 1;
+  }
+  
+  .case-study-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .case-study-tags {
+    margin-bottom: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+  }
+  
+  
+  .case-study-tag {
+    background: #f0f0f0;
+    color: #000;
+    border-radius: 15px;
+    padding: 4px 12px;
+    margin-right: 8px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .case-study-description {
+    margin: 15px 0;
+    font-size: 16px;
+  }
+  
+  .case-study-results {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+    font-size: 16px;
+  }
+  
+  .case-study-results li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-top: 1px solid #ddd;
+  }
+  
+  /* Responsive Styling */
+  @media screen and (max-width: 1024px) {
+    .case-study-card {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .view-button {
+      left: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .case-study-title {
+      font-size: 22px;
+    }
+  
+    .case-study-description,
+    .case-study-results li {
+      font-size: 14px;
+    }
+  
+    .view-button {
+      padding: 6px 12px;
+      font-size: 14px;
+    }
+  
+    .case-study-image-wrapper {
+      padding: 10px;
+    }
+  }
+  
