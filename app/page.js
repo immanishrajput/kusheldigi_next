@@ -149,7 +149,7 @@ const HomePage = ({ props }) => {
             <Image
               className="what-image-universal"
               src="https://res.cloudinary.com/dbpqjxox7/image/upload/v1738230407/whatsapp_ztk2oe.png"
-              alt="whatsApp-kusheldigi"
+              alt="Whatsapp icon chat us "
               title="whatsApp-kusheldigi"
               width={50}
               height={50}
@@ -158,7 +158,7 @@ const HomePage = ({ props }) => {
           <button onClick={callHandler}>
             <Image
               src="https://res.cloudinary.com/dbpqjxox7/image/upload/v1738230446/telephone_wnquao.png"
-              alt="call-icon"
+              alt="Call to action icon call now"
               title="call-icon"
               width={50}
               height={50}

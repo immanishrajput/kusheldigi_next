@@ -1,4 +1,4 @@
-import EcommerceLondon from '../components/EcommerceLondon'
+import EcommerceBelgium from '../components/EcommerceBelgium'; 
 export const metadata = {
   openGraph: {
     title: "Top eCommerce Development Company | Kushel Digi Solutions.",
@@ -9,14 +9,14 @@ export const metadata = {
   },
 }
 
-const LondonEcommerce = ({ notify }) => {
+const BelgiumEcommerce = ({ notify }) => {
   
   return (
-    <> 
-    <EcommerceLondon notify={notify} />
+    <>
+    <EcommerceBelgium notify={notify} />
     </>
   );
 };
 
-export default LondonEcommerce;
+export default BelgiumEcommerce;
 

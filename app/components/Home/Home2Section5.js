@@ -52,21 +52,21 @@ function Home2Section5() {
               <Image
                 src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724767136/Group_1000011223_in1dh6.png"
                 className="nodejs1 displaynone sameimgs5"
-                alt="NodeJS"
+                alt="Node.js technology icon for ecommerce website development"
                 width={100}
                 height={100}
               />
               <Image
                 src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724767140/Group_1000011229_1_ayymso.png"
                 className="angular1 displaynone sameimgs5"
-                alt="Angular"
+                alt="Angular technology icon for ecommerce website development"
                 width={100}
                 height={100}
               />
               <Image
                 src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724767137/Group_1000011225_cqba1f.png"
                 className="react1 displaynone sameimgs5"
-                alt="React"
+                alt="React technology icon for ecommerce website development"
                 width={100}
                 height={100}
               />
@@ -74,35 +74,35 @@ function Home2Section5() {
               <Image
                 src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724766977/Group_1000011216_p62mua.png"
                 className="vue1 displaynone sameimgs5"
-                alt="Vue"
+                alt="Vue.js technology icon for eCommerce website development"
                 width={100}
                 height={100}
               />
               <Image
                 src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724767065/Group_1000011219_1_bmakmn.png"
                 className="larvel1 displaynone sameimgs5"
-                alt="Laravel"
+                alt="Laravel technology icon for ecommerce website development"
                 width={100}
                 height={100}
               />
               <Image
                 src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724766976/Group_112_ed3s7q.png"
                 className="php1 displaynone sameimgs5"
-                alt="PHP"
+                alt="php technology icon for ecommerce website development"
                 width={100}
                 height={100}
               />
               <Image
                 src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724767138/Group_1000011227_1_prwr0a.png"
                 className="html1 displaynone sameimgs5"
-                alt="HTML"
+                alt="HTML5 technology icon for ecommerce website development"
                 width={100}
                 height={100}
               />
               <Image
                 src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724766980/Group_1000011218_1_thqeyc.png"
                 className="wordpress1 displaynone sameimgs5"
-                alt="WordPress"
+                alt="wordpress technology icon for ecommerce website development"
                 width={100}
                 height={100}
               />

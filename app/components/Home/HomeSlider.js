@@ -41,7 +41,7 @@ const Slider = () => {
                   height={523}
                   loading="lazy"
                   src="https://res.cloudinary.com/dqjbzgksw/image/upload/w_498,h_523,c_limit/v1747983177/file_1747921390-1747921391_eeth9a.webp"
-                  alt="carousel-image"
+                  alt="2ndamendment Guns ecommerce  website development services portfolio image"
                 />
 
                 <div className="left-carousel-btn-div">
@@ -91,7 +91,7 @@ const Slider = () => {
                   height={523}
                   loading="lazy"
                   src="https://res.cloudinary.com/dqjbzgksw/image/upload/w_498,h_523,c_limit/v1747983178/file_1747921375-1747921377_rfowkk.webp"
-                  alt="carousel-image"
+                  alt="KICK-EEZ ecommerce website development services portfolio image"
                 />
 
                 <div className="left-carousel-btn-div">
@@ -143,7 +143,7 @@ const Slider = () => {
             <div className="carousel-item">
               <div className="left-carousel-item">
 
-                <Image width={498} height={523} loading="lazy" src={"https://res.cloudinary.com/dqjbzgksw/image/upload/w_498,h_523,c_limit/v1747983171/file_1747921354-1747921359_t6jppi.webp"} alt="carousel-image" />
+                <Image width={498} height={523} loading="lazy" src={"https://res.cloudinary.com/dqjbzgksw/image/upload/w_498,h_523,c_limit/v1747983171/file_1747921354-1747921359_t6jppi.webp"} alt="Slides365 ecommerce website development services portfolio image" />
                 <div className="left-carousel-btn-div">
                   <div className="left-carousel-btn">D2C</div>
                   <div className="left-carousel-btn blue-bg">E-commerce</div>
@@ -186,7 +186,7 @@ const Slider = () => {
           <SwiperSlide>
             <div className="carousel-item">
               <div className="left-carousel-item">
-                <Image width={498} height={523} loading="lazy" src={"https://res.cloudinary.com/dqjbzgksw/image/upload/w_498,h_523,c_limit/v1747983171/file_1747921258-1747921260_n65kdd.webp"} alt="carousel-image" />
+                <Image width={498} height={523} loading="lazy" src={"https://res.cloudinary.com/dqjbzgksw/image/upload/w_498,h_523,c_limit/v1747983171/file_1747921258-1747921260_n65kdd.webp"} alt="Black Rhino ecommerce website development services portfolio image" />
                 <div className="left-carousel-btn-div">
 
                   <div className="left-carousel-btn blue-bg">Real Estate</div>
@@ -229,7 +229,7 @@ const Slider = () => {
           <SwiperSlide>
             <div className="carousel-item">
               <div className="left-carousel-item">
-                <Image width={498} height={523} loading="lazy" src={"https://res.cloudinary.com/dqjbzgksw/image/upload/w_498,h_523,c_limit/v1747983172/sight_scope_i6pns0.webp"} alt="carousel-image" />
+                <Image width={498} height={523} loading="lazy" src={"https://res.cloudinary.com/dqjbzgksw/image/upload/w_498,h_523,c_limit/v1747983172/sight_scope_i6pns0.webp"} alt="Sites & scopes ecommerce website development services portfolio image" />
                 <div className="left-carousel-btn-div">
                   <div className="left-carousel-btn ">B2B</div>
                   <div className="left-carousel-btn blue-bg">Gunshop</div>
@@ -272,7 +272,7 @@ const Slider = () => {
           <SwiperSlide>
             <div className="carousel-item">
               <div className="left-carousel-item">
-                <Image width={498} height={523} loading="lazy" src={"https://res.cloudinary.com/dqjbzgksw/image/upload/w_498,h_523,c_limit/v1747983171/file_1747921193-1747921195_qjddam.webp"} alt="carousel-image" />
+                <Image width={498} height={523} loading="lazy" src={"https://res.cloudinary.com/dqjbzgksw/image/upload/w_498,h_523,c_limit/v1747983171/file_1747921193-1747921195_qjddam.webp"} alt="Top Brass Tactical ecommerce website development services portfolio image" />
                 <div className="left-carousel-btn-div">
                   <div className="left-carousel-btn ">B2B</div>
                   <div className="left-carousel-btn blue-bg">E-commerce</div>
