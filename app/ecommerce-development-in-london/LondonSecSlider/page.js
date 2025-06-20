@@ -5,7 +5,6 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Image from "next/image";
 import './londonslider.css';
-import { Autoplay } from 'swiper/modules';
 
 const caseStudies = [
   {
@@ -37,58 +36,69 @@ function LondonSecSlider() {
     dots: true,
     arrows: false,
     infinite: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 1, // ✅ only one slide shown
     slidesToScroll: 1,
-    autoplay: true,    
+    pauseOnHover: false,
     responsive: [
-      { breakpoint: 768, settings: { slidesToShow: 1 } },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
     ]
   };
 
   return (
     <section className="case-study-section">
-    <Slider {...settings}>
-      {caseStudies.map((study, i) => (
-        <div key={i} className="case-study-card">
-          <div className="case-study-left">
-            <h2 className="case-study-title left-title">{study.title}</h2>
-            
-            <div className="case-study-image-wrapper">
-              <Image
-                src={study.image}
-                alt={study.title}
-                width={400}
-                height={300}
-                className="case-study-image"
-              />
-              <button className="view-button">View</button>
+      <h1>Case studies</h1>
+      <p>Our Works Speaks for itself</p>
+      <div>
+        <p className='hrline'></p>
+      </div>
+      <Slider {...settings} className='case-slides'>
+        {caseStudies.map((study) => (
+          <div key={study.title}>
+            <div className="case-study-card">
+              <div className="case-study-left">
+                <h2 className="case-study-title left-title">{study.title}</h2>
+                <div className="case-study-image-wrapper">
+                  <Image
+                    src={study.image}
+                    alt={study.title}
+                    width={400}
+                    height={300}
+                    className="case-study-image"
+                  />
+                  <button className="view-button">View</button>
+                </div>
+              </div>
+              <div className="case-study-right">
+                <div className="case-study-tags">
+                  {study.tags.map((tag, idx) => (
+                    <span key={idx} className="case-study-tag">{tag}</span>
+                  ))}
+                </div>
+                <p className="case-study-description">
+                  <strong>What We Did:</strong> {study.description}
+                </p>
+                <ul className="case-study-results">
+                  {study.results.map((res, idx) => (
+                    <li key={idx}>
+                      <span>{res.label}</span>
+                      <strong>{res.value}</strong>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
-          <div className="case-study-right">
-            <div className="case-study-tags">
-              {study.tags.map((tag, idx) => (
-                <span key={idx} className="case-study-tag">
-                  {tag}
-                </span>
-              ))}
-            </div>
-            <p className="case-study-description">
-              <strong>What We Did:</strong> {study.description}
-            </p>
-            <ul className="case-study-results">
-              {study.results.map((res, idx) => (
-                <li key={idx}>
-                  <span>{res.label}</span>
-                  <strong>{res.value}</strong>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      ))}
-    </Slider>
-  </section>
+        ))}
+      </Slider>
+    </section>
   );
 }
 

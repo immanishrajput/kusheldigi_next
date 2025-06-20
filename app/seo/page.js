@@ -1130,7 +1130,7 @@ function Seo2() {
                           </clipPath>
                         </defs>
                       </svg>
-                      <h4>Google-Friendly Content</h4>
+                      <h4  className='friendly'>Google-Friendly Content</h4>
                       <p>
                         Boost SEO marketing with a tailored content strategy. Get
                         relevant, valuable content that drives website traffic and
