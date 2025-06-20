@@ -60,7 +60,6 @@ function EcommerceBelgium() {
             <Banner3/>
             <Banner11/>
             <UseAccorrodian/>
-
             <Website/>
             <Footer />
 
