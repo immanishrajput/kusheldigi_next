@@ -16,6 +16,14 @@ import BelgiumEcomServ from '../ecommerce-development-in-belgium/BelgiumEcomServ
 import BelgiumShop from '../ecommerce-development-in-belgium/BelgiumShop/page';
 import BelgiumMakeUs from '../ecommerce-development-in-belgium/BelgiumMakeUs/page';
 import Website from './Home/HomeForm';
+import Banner3 from '../ecommerce-development/Banner3/Page';
+import HomeCardSection from '../components/Home/HomeCardSection'
+import HomeSecCard from '../components/Home/HomeSecCard'
+import Banner11 from '../ecommerce-development/Banner10/page';
+import UseAccorrodian from '../COMMON/UseAccorrodian'
+import Banner12 from '../ecommerce-development/Banner11/page';
+import LondonSecSlider from '../ecommerce-development-in-london/LondonSecSlider/page';
+import Features from '../ecommerce-development-in-belgium/Features/page'
 
 const phoneNumber = "9045301702";
 
@@ -40,13 +48,18 @@ function EcommerceBelgium() {
             <StatsSection/>
             <Cutting1Section />
             <BelgiumEcomServ/>
+            <LondonSecSlider/>
             <WhyChooseBelgium/>
             <DesignDevelopment/>
             <BelgiumShop/>
             <BelgiumMakeUs/>
             <IndustryTabs/>
-
-
+            <Features/>
+            <HomeCardSection/>
+            <Banner12/>
+            <Banner3/>
+            <Banner11/>
+            <UseAccorrodian/>
 
             <Website/>
             <Footer />

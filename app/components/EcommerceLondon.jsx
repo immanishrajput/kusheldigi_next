@@ -21,10 +21,11 @@ import LondonFeature from '../ecommerce-development-in-london/LondonFeature/page
 import CustomBenefitsSection from '../ecommerce-development-in-london/CustomBenefitsSection/page'
 import LondonSecSlider from '../ecommerce-development-in-london/LondonSecSlider/page'
 import HomeCardSection from '../components/Home/HomeCardSection'
-import HomeSecCard from '../components/Home/HomeSecCard'
+
 import Banner3 from '../ecommerce-development/Banner3/Page'
 import Banner11 from '../ecommerce-development/Banner10/page'
 import UseAccorrodian from '../COMMON/UseAccorrodian'
+import Banner12 from '../ecommerce-development/Banner11/page'
 
 
 
@@ -48,10 +49,11 @@ const Page = () => {
             <LondonMakeUs />
             <LondonFeature />
             <HomeCardSection/>
-            <HomeSecCard/>
+            <Banner12/>
             <CustomBenefitsSection/>
             <Banner3/>
             <Banner11/>
+           
             <UseAccorrodian/>
             <Website/>
             <Footer />
