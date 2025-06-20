@@ -19,11 +19,12 @@ import Website from './Home/HomeForm';
 import Banner3 from '../ecommerce-development/Banner3/Page';
 import HomeCardSection from '../components/Home/HomeCardSection'
 import HomeSecCard from '../components/Home/HomeSecCard'
-import Banner11 from '../ecommerce-development/Banner10/page';
+
 import UseAccorrodian from '../COMMON/UseAccorrodian'
 import Banner12 from '../ecommerce-development/Banner11/page';
 import LondonSecSlider from '../ecommerce-development-in-london/LondonSecSlider/page';
 import Features from '../ecommerce-development-in-belgium/Features/page'
+import CustomBenefitsSection from '../ecommerce-development-in-london/CustomBenefitsSection/page';
 
 const phoneNumber = "9045301702";
 
@@ -57,8 +58,9 @@ function EcommerceBelgium() {
             <Features/>
             <HomeCardSection/>
             <Banner12/>
+             <CustomBenefitsSection/>
             <Banner3/>
-            <Banner11/>
+            {/* <Banner11/> */}
             <UseAccorrodian/>
             <Website/>
             <Footer />
