@@ -20,6 +20,12 @@ import LondonMakeUs from '../ecommerce-development-in-london/LondonMakeUs/page'
 import LondonFeature from '../ecommerce-development-in-london/LondonFeature/page'
 import CustomBenefitsSection from '../ecommerce-development-in-london/CustomBenefitsSection/page'
 import LondonSecSlider from '../ecommerce-development-in-london/LondonSecSlider/page'
+import HomeCardSection from '../components/Home/HomeCardSection'
+import HomeSecCard from '../components/Home/HomeSecCard'
+import Banner3 from '../ecommerce-development/Banner3/Page'
+import Banner11 from '../ecommerce-development/Banner10/page'
+import UseAccorrodian from '../COMMON/UseAccorrodian'
+
 
 
 
@@ -35,14 +41,19 @@ const Page = () => {
             <LondonBanners />
             <EcommerceServices />
             <LondonSecSlider/>
-            <CustomBenefitsSection/>
             <CallToAction />
             <WhyChooseLondon />
             <LondonEcoPro />
             <LondonShop />
             <LondonMakeUs />
             <LondonFeature />
-            <Website />
+            <HomeCardSection/>
+            <HomeSecCard/>
+            <CustomBenefitsSection/>
+            <Banner3/>
+            <Banner11/>
+            <UseAccorrodian/>
+            <Website/>
             <Footer />
         </div>
     )
