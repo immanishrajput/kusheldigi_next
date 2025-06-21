@@ -1,0 +1,125 @@
+.devloprocess1-wrapper {
+  padding: 60px 40px;
+  max-width: 1300px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.devloprocess1-heading {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000;
+}
+
+.devloprocess1-subtext {
+  font-size: 17px;
+  color: #555;
+  max-width: 700px;
+  margin: 12px 0 40px;
+}
+
+.devloprocess1-timeline {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.devloprocess1-step {
+  flex: 1;
+  position: relative;
+}
+
+.devloprocess1-icon {
+  position: relative;
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+  background-color: #0056d2;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.devloprocess1-timeline {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.devloprocess1-timeline::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  right: 40px;
+  height: 2px;
+  background-color: #000;
+  z-index: 0;
+}
+
+
+.devloprocess1-content {
+  margin-top: 30px;
+}
+
+.devloprocess1-content h3 {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.devloprocess1-content ol {
+  list-style-position: inside;
+  padding: 0;
+  margin: 8px 0 0;
+}
+
+.devloprocess1-content li {
+  font-size: 14px;
+  color: #333;
+padding: 6px 0px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .devloprocess1-timeline {
+    flex-wrap: wrap;
+  }
+
+  .devloprocess1-step {
+    flex: 1 1 45%;
+    margin-bottom: 40px;
+  }
+
+  .devloprocess1-line {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .devloprocess1-step {
+    flex: 1 1 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .devloprocess1-heading {
+    font-size: 24px;
+  }
+
+  .devloprocess1-subtext {
+    font-size: 14px;
+  }
+
+  .devloprocess1-content h3 {
+    font-size: 15px;
+  }
+
+  .devloprocess1-content li {
+    font-size: 13px;
+  }
+}

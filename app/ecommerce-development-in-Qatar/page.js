@@ -1,5 +1,4 @@
-import EcommerceLondon from '../components/EcommerceLondon'
-import EcommerceQatar from '../components/EcoomerceQatar';
+import EcommerceQatar from '../components/EcommerceQatar';
 export const metadata = {
   openGraph: {
     title: "Top eCommerce Development Company | Kushel Digi Solutions.",

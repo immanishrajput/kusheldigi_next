@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import './qatarecomser.css';
+import './qatarecomser.css'; // Assuming you have a CSS file for styles
 
 const features = [
   {
@@ -61,24 +61,24 @@ const features = [
 
 const QatarEcomServ = () => {
   return (
-   <section className="ecom-london-section">
-      <h3 className="ecom-london-title">Our E-commerce Website Development Services</h3> 
+   <section className="ecom-qatar-section">
+      <h3 className="ecom-qatar-title">Our E-commerce Website Development Services</h3> 
       
-      <div className="ecom-london-grid-wrapper">
-        <div className="ecom-london-grid">
+      <div className="ecom-qatar-grid-wrapper">
+        <div className="ecom-qatar-grid">
           {features.map((feature, index) => (
-            <div key={index} className="ecom-london-card">
-              <div className="ecom-london-icon">
-                <img src={feature.icon} alt={feature.title} className="ecom-london-icon-img" />
-                <h3 className="ecom-london-card-title">{feature.title}</h3>
+            <div key={index} className="ecom-qatar-card">
+              <div className="ecom-qatar-icon">
+                <img src={feature.icon} alt={feature.title} className="ecom-qatar-icon-img" />
+                <h3 className="ecom-qatar-card-title">{feature.title}</h3>
               </div>
-              <p className="ecom-london-description">{feature.description}</p>
+              <p className="ecom-qatar-description">{feature.description}</p>
             </div>
           ))}
         </div>
       </div>
 
-      <div className="ecom-london-buttons">
+      <div className="ecom-qatar-buttons">
         <button className="ecom-btn">Start Your Project</button>
         <button className="ecom-btn secondary">Get a Free Quote</button>
       </div>
