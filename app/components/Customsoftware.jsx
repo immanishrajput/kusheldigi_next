@@ -1520,13 +1520,13 @@ Count on our dedicated support team for prompt assistance, ensuring smooth opera
 
 
         </div>
-        <CustomBanner />
+        {/* <CustomBanner />
         <CustomAbout />
         <CustomBenefits />
         <IndustryCustom/>
         <CustomCallAction />
         <CustomServices/>
-        <CustomPortfolio/>
+        <CustomPortfolio/> */}
 
 
 
