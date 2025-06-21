@@ -220,6 +220,16 @@ const nextConfig = {
         destination: '/blog/comprehensive-guide-to-modern-e-commerce-solutions-website-design-development-ai-packaging-and-more',
         permanent: true,
       },
+      {
+        source: '/Headless-shopify',
+        destination: '/headless-shopify',
+        permanent: true,
+      },
+      {
+        source: '/Headless-Bigcommerce',
+        destination: '/headless-bigcommerce',
+        permanent: true,
+      },
     ];
   },
 };
