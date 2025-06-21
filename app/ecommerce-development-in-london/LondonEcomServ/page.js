@@ -79,8 +79,8 @@ const EcommerceServices = () => {
       </div>
 
       <div className="ecom-london-buttons">
-        <button className="ecom-btn">Start Your Project</button>
-        <button className="ecom-btn secondary">Get a Free Quote</button>
+        <button className="ecom-btn">Book a Call</button>
+        <button className="ecom-btn secondary">Request an Audit</button>
       </div>
     </section>
   );

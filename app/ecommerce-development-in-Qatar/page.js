@@ -9,7 +9,7 @@ export const metadata = {
   },
 }
 
-const LondonEcommerce = ({ notify }) => {
+const QatarEcommerce = ({ notify }) => {
   
   return (
     <> 
@@ -18,5 +18,5 @@ const LondonEcommerce = ({ notify }) => {
   );
 };
 
-export default LondonEcommerce;
+export default QatarEcommerce;
 
