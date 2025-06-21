@@ -4,33 +4,33 @@ import './whylondon.css';
 
 const steps = [
   {
-    title: "Decades of Experience",
-    desc: "With decades of years’ experience in eCommerce web development, our London design agency has a proven track record of delivering unique features and high-quality solutions.",
+    title: "Tailored E-Commerce Website Solutions",
+    desc: "We don't follow one-size-fits-all rules in website design. We value your suggestions and needs and create according to them.",
     image: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073420/Group_1171281413_b7dwf6.png", // replace with your actual image path
   },
   {
-    title: "On-time Delivery",
-    desc: "We value your time and promise on-time delivery for all projects. Our proficient eCommerce developers adhere strictly to timelines without compromising on quality.",
+    title: "On-Time Project Delivery",
+    desc: "We value your due dates. Our skilled team completes the work within the due date without sacrificing quality.",
     image: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073419/Group_1171281412_m4wjmx.png",
   },
   {
-    title: "Agile Development Process",
-    desc: "We follow an agile development process, ensuring every project stage is executed efficiently while remaining flexible to changes.",
+    title: "Responsive & Mobile-Optimized Design",
+    desc: "We know that most of the customers use phones while shopping. So we create mobile-friendly interface that functions flawlessly across all platforms.",
     image: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073409/Group_1171281523_k2vfml.png",
   },
   {
-    title: "Support & Maintenance",
-    desc: "Our London office offers continuous support and maintenance, ensuring seamless integration with CMS systems, accountancy software, and order fulfilment systems.",
+    title: "Trusted & Secure Payment Integration",
+    desc: "We include reliable, secure payment methods to provide your clients with a hassle-free, secure purchasing experience, increasing both your sales and their trust.",
     image: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281524_ksva3g.png",
   },
   {
-    title: "High Performance",
-    desc: "Our London office offers continuous support and maintenance, ensuring seamless integration with CMS systems, accountancy software, and order fulfilment systems.",
+    title: "SEO-Optimized E-Commerce Development",
+    desc: "We implement SEO best practices to improve your store’s Google ranking. It attracts Google’s traffic that converts.",
     image: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281525_qnpwgi.png",
   },
   {
-    title: "NDA Policy",
-    desc: "Our London office offers continuous support and maintenance, ensuring seamless integration with CMS systems, accountancy software, and order fulfilment systems.",
+    title: "Ongoing Maintenance & Technical Support",
+    desc: "Our work doesn’t stop here. Our support staff makes sure your ecommerce business remains quick, safe, and effective with bug fixes and upgrades.",
     image: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281414_nyzkrn.png",
   },
 ];
@@ -41,9 +41,10 @@ const WhyChooseLondon = () => {
       <div className="why-choose-container">
         {/* Left side */}
         <div className="why-choose-left">
-          <h2>Why Choose Us As Your Custom<br />e-Commerce Website<br />Development Company</h2>
-          <p>We’re a leading eCommerce website development services agency in London, known for bespoke eCommerce development projects and our client-first approach.</p>
-          <button className="talk-btn">Talk to an Expert</button>
+          <h2>Why Choose Kushel Digi for <br/> E-Commerce Development?</h2>
+          <p>We at KushalDigi create websites that make sales from day one. We help companies succeed in a competitive market by focusing on performance, design, and user experience.
+</p>
+          <button className="talk-btn">Talk to Our Experts Today</button>
         </div>
 
         {/* Right side */}

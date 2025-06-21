@@ -14,6 +14,7 @@ import './londonfeat.css';
           {features.map((item) => (
             <div key={item.id} className="ecom-card">
               <div className="ecom-number">{item.id}</div>
+              <h4 className="ecom-titlle">{item.title}</h4>
               <p className="ecom-text">{item.text}</p>
             </div>
           ))}
@@ -31,39 +32,48 @@ import './londonfeat.css';
 const features = [
   {
     id: 1,
-    text: "We program the virtual store to measure according to the characteristics of each company and the particular specifications of each client.",
+    title: "Tailor-Made for Your Business",
+    text: "Every store is built around your products and customers, so it feels like home to both.",
   },
   {
     id: 2,
-    text: "Our e-commerce solution is fully scalable, being able to incorporate new functionalities in the future.",
+    title:"Scalable for Future Growth",
+    text: "When your goals get bigger, your site can stretch with them. New features, extra traffic, or a fresh payment method- no sweat.",
   },
   {
     id: 3,
-    text: "The online stores that we develop evolve in the same way that your business evolves.",
+    title:"Evolves with Your Brand",
+    text: " Built to change alongside your vision, our platforms keep you ready for the next big idea.",
   },
   {
     id: 4,
-    text: "Online stores optimized for search engines for maximum visibility.",
+    title:"SEO-Optimized for Maximum Visibility",
+    text: "We plant smart, proven SEO habits on every page, so search engines notice you sooner and shoppers find you naturally.",
   },
   {
     id: 5,
-    text: "Our online stores are optimized for search engines and connected to access and navigation statistics recording systems to analyze visits and user behavior in our store in order to maximize conversion.",
+    title:"Built-in Site Analytics",
+    text: "Every site includes traffic and behavior dashboards that help you see who visits, how they move, and where sales drop.",
   },
   {
     id: 6,
-    text: "You can add the metatags or keywords for the search engines of all the pages that are generated from the administration module of our online stores .",
+    title:"No-Code Meta Tag Control",
+    text: "Change page titles, descriptions, and keywords straight from the dashboard- nothing more technical than a form.",
   },
   {
     id: 7,
-    text: "We connect our online store with the management software (ERP SOFTWARE) used by the company",
+    title:"ERP and Inventory Links",
+    text: "We plug your store into any back-office system so orders, stock, and reports flow without duplicate entries.",
   },
   {
     id: 8,
-    text: "In order to optimize costs and business processes, we can connect any management module of our online store with the management.",
+    title:"Smart Automation Tools",
+    text: "Automatic email alerts, stock notices, and shipment tracking trim manual tasks and let your team focus on growth.",
   },
   {
     id: 9,
-    text: "In order to optimize costs and business processes, we can connect any management module of our online store with the management.",
+    title:"Custom Back-End Modules",
+    text: "Need a special workflow? We craft flexible panels that fit your business, making daily management quick and clear.",
   },
 ];
 export default EcommerceFeatures;

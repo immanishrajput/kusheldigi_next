@@ -78,6 +78,14 @@
     justify-content: center;
 }
 
+.ecom-titlle {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 0;
+}
+
 .ecom-text {
     color: #3c3c3c;
     font-size: 16px;
@@ -109,7 +117,7 @@
     cursor: pointer;
 }
 
-.connect-btn:hover{
+.connect-btn:hover {
     background-color: #fff;
     color: #0051ff;
     border: 1px solid #0051ff;
@@ -125,7 +133,7 @@
     cursor: pointer;
 }
 
-.demo-btn:hover{
+.demo-btn:hover {
     background-color: #0051ff;
     color: #fff;
     border: 1px solid #0051ff;

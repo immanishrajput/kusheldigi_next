@@ -6,50 +6,50 @@ import "./LondonSectionCss.css";
 const steps = [
   {
     number: "01",
-    title: "Project Scope",
-    desc: "We start with a detailed proposal and project scope, identifying your specific ecommerce app development needs, project plan, and cost considerations.",
+    title: "Understanding Business Objectives",
+    desc: "We begin by sitting down with you to clarify what success looks like for your store. Knowing your goals guides our approach and lets us map out tactics that fit your day-to-day needs.",
     color: "green",
   },
   {
     number: "02",
-    title: "Planning",
-    desc: "In the planning stage, we analyse ecommerce statistics and study market trends to create a strategic process flow for your ecommerce project.In the planning stage, we analyse ecommerce statistics and study market trends to create a strategic process flow.",
+    title: "Planning Strategically",
+    desc: "Then we dig into competitor sites, industry trends, and real user journeys. The insights let us craft a plan that's truly yours and keeps the path to great results clear.",
     color: "red",
   },
   {
     number: "03",
-    title: "Ecommerce Website Design",
-    desc: "Ensure your project’s success with a dedicated team of experts. Let’s ask difficult questions and dig deeper to truly understand the essence of your product.",
+    title: "E-Commerce Website Design",
+    desc: "Our designers build a clean, tempting layout that feels natural and nudges visitors toward the checkout button.",
     color: "orange",
   },
   {
     number: "04",
-    title: "Ecommerce Website Development",
-    desc: "Our expert ecommerce website development team specialise in developing a bespoke ecommerce store, using cutting-edge technologies to deliver high-performing and robust ecommerce solutions.",
+    title: "Robust Website Development",
+    desc: "With code, we shape a speedy, responsive, and expandable shop that performs wherever and on whatever people browse.",
     color: "green",
   },
   {
     number: "05",
-    title: "Platform-Specific Development",
-    desc: "Whether it's Shopify, Magento, or WooCommerce, our team is skilled in platform-specific ecommerce development, tailoring your store to your chosen platform's best practices.",
+    title: "Platform-Specific Solutions",
+    desc: "Whether you lean on WooCommerce, Shopify, or a custom setup, we choose the backbone that matches your vision and future growth.",
     color: "red",
   },
   {
     number: "06",
-    title: "System Integration",
-    desc: "We integrate your ecommerce platform with vital systems, including CRM, inventory management, and payment gateways, ensuring seamless ecommerce project management.",
+    title: "Integrations with E-Commerce",
+    desc: "Your store will be linked to email marketing software, accounting software, ERPs, and shipping companies., because we plug in every tool that streamlines work and saves you clicks.",
     color: "green",
   },
   {
     number: "07",
-    title: "Testing",
-    desc: "our expert team conducts eCommerce website testing to ensure the functionality, usability, and security of your ecommerce website, ensuring your customers enjoy a flawless experience.",
+    title: "Examining",
+    desc: "Before the doors open, QA runs security checks, tests on every device, and hunts tiny bugs so that launch day feels smooth.",
     color: "green",
   },
   {
     number: "08",
     title: "Post-Launch Support",
-    desc: "Our services extend beyond website development, providing post-launch support, regular updates, and performance monitoring to keep your ecommerce store at its best.",
+    desc: "After release, we keep watching the numbers, offer quick fixes, and share ideas, so your e-commerce brand never stops climbing.",
     color: "red",
   },
 ];
@@ -58,7 +58,7 @@ export default function Londonecomproc1() {
   return (
     <section className="londonecomproc1-section">
       <h2 className="londonecomproc1-heading">
-        Our Ecommerce Development <br /> Process
+      How Do We Build High-Performing <br/> E-Commerce Websites?
       </h2>
       <div className="londonecomproc1-grid">
         {steps.map((step, i) => (
@@ -69,7 +69,7 @@ export default function Londonecomproc1() {
           </div>
         ))}
       </div>
-      <button className="londonecomproc1-connect-btn">Let’s Connect</button>
+      <button className="londonecomproc1-connect-btn">Start Your E-Commerce Journey</button>
     </section>
   );
 }
