@@ -6,7 +6,6 @@ import Navbar from '../COMMON/Navbar';
 import Footer from '../COMMON/Footer';
 import Website from './Home/HomeForm';
 import QatarBanner from '../ecommerce-development-in-qatar/QatarBanner/page';
-import LogoSlider from '../ecommerce-development-in-qatar/LogoQatar/page';
 import QatarStack from '../ecommerce-development-in-qatar/QatarStack/page';
 import QatarEcomServ from '../ecommerce-development-in-qatar/QatarEcomServ/page';
 import EcommerceExpertise from '../ecommerce-development-in-qatar/EcommerceExpertise/page';
@@ -19,6 +18,7 @@ import CustomBenefitsSection from '../ecommerce-development-in-london/CustomBene
 import Banner3 from '../ecommerce-development/Banner3/Page';
 import Banner11 from '../ecommerce-development/Banner10/page';
 import FAQ from '../COMMON/UseAccorrodian';
+import LogoQatar from '../ecommerce-development-in-qatar/LogoQatar/page';
 
 
 
@@ -40,7 +40,7 @@ function EcommerceQatar() {
             <Navbar />
 
             <QatarBanner/>
-            <LogoSlider/>
+            <LogoQatar/>
             <QatarStack/>
             <QatarEcomServ/>
             <EcommerceExpertise/>

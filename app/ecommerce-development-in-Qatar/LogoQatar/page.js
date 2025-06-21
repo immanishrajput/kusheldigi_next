@@ -18,7 +18,7 @@ const logos = [
   'https://res.cloudinary.com/dqjbzgksw/image/upload/v1750058139/471e7d7f34b22321062235925e64fe72fdfba1e7_yc4w6r.png',
 ];
 
-const LogoSlider = () => {
+const LogoQatar = () => {
   return (
     <div className="logo-slider-wrapper">
   <div className="logo-slider-inner">
@@ -36,4 +36,4 @@ const LogoSlider = () => {
   );
 };
 
-export default LogoSlider;
+export default LogoQatar;
