@@ -4,30 +4,34 @@ import "./londonmake.css"
 import londonshop from '../LondonShop/page';
 
 function LondonMakes() {
-    return (
-      <section className="different1-wrapper">
-        <div className="different1-container">
-          <div className="different1-left">
-            <h2>What makes us different?</h2>
-            <p>
-              Developing an eCommerce website involves various factors, and our
-              professional team can integrate perfect applications based on your
-              business nature. There are different types of eCommerce websites and
-              multiple goals.
-            </p>
-            <p>
-              Our adept team will analyze and incorporate apt programming languages
-              and themes to function the site and create feasibility for users. Our
-              team is well-versed in the latest trends and technologies. The team of
-              Olio Global AdTech is enthusiastic, energetic and constantly focuses on
-              delivering hassle-free services for customers.
-            </p>
-          </div>
-          <div className="different1-right">
-            <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1750233792/difference_1_pfr3lr.png" alt="Business Planning" />
-          </div>
+  return (
+    <section className="different1-wrapper">
+      <div className="different1-container">
+        <div className="different1-left">
+          <h2>What Makes Us Different?</h2>
+          <p>
+            At KushelDigi Solutions, we think creating an ecommerce site is more than just a slick look- helping our clients meet their goals and guiding shoppers where they want to go matters most.
+          </p>
+          <p>
+          So we hand-pick the right mix of tech, tools, and features after listening to your industry, audience, and planning for growth.
+          </p>
+          <p>
+          Still learning ourselves, we track new trends and deliver stores that load fast, work hard, and leave tomorrow's door wide open.
+          </p>
+          <p>
+          From the first sketch to the final launch, we give you a smooth journey, and that ease shows up for every visitor who clicks your link.
+          </p>
+          <p>
+          
+We don't just set up carts- we craft the kind of solution that quietly drives sales.
+
+          </p>
         </div>
-      </section>
-    );
-  }
-  export default LondonMakes;
+        <div className="different1-right">
+          <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1750233792/difference_1_pfr3lr.png" alt="Business Planning" />
+        </div>
+      </div>
+    </section>
+  );
+}
+export default LondonMakes;

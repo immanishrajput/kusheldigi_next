@@ -5,30 +5,31 @@ import './stats.css';
 const stats = [
   {
     icon: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1750061987/Group_1171281270_w0ruti.png',
-    title: 'Elite ecommerce Solutions',
+    title: 'E-Commerce Success Stories',
+    
     values: [
-      { number: '110+', label: 'High-Impact Projects' },
-      { number: '90+', label: 'Brands Trust Us' },
+      { number: '120+', label: 'Successful Projects Delivered' },
+      { number: '100+', label: 'Trusted Brands & Clients' },
     ],
     className: 'card-blue',
   },
   {
     icon: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1750061987/Group_1171281271_y74agq.png',
-    title: 'Massive Transaction Success',
+    title: 'Driving Real Results',
     values: [
-      { number: '1M+', label: 'Seamless Orders' },
-      { number: '1.5M+', label: 'Revenue' },
+      { number: '1M+', label: 'Orders Processed Smoothly' },
+      { number: '£2M+', label: 'Revenue Generated' },
     ],
     className: 'card-yellow',
   },
   {
     icon: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1750061987/Group_1171281269_xafwik.png',
-    title: 'Thriving User Base',
+    title: 'Growing Community',
     values: [
       {
         number: '1M+',
         label:
-          'Engaged Shoppers | Skyrocketing sales & customer retention',
+          'Active & Engaged Customers | Boosting repeat purchases, customer loyalty, and long-term sales growth.',
       },
     ],
     className: 'card-green',
