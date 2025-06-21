@@ -34,7 +34,7 @@ const callHandler = () => {
     const callUrl = `tel:${phoneNumber}`;
     window.open(callUrl, "_blank");
 }
-function EcommerceQatar() {
+function QatarEcommerce() {
     return (
         <div>
             <div className='ser-main'></div>
@@ -74,4 +74,4 @@ function EcommerceQatar() {
     )
 }
 
-export default EcommerceQatar;
+export default QatarEcommerce;
