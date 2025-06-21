@@ -736,6 +736,7 @@ strong {
   flex-wrap: wrap;
   gap: 3.125rem 2rem;
   margin-bottom: 0;
+  list-style: none !important;
 }
 
 @media only screen and (min-width: 768px) {

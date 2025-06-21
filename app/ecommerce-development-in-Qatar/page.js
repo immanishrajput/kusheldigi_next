@@ -1,5 +1,4 @@
-import QatarEcommerce from '../components/QatarEcommerce';
-import EcommerceQatar from '../components/QatarEcommerce';
+import EcommerceQatar from '../components/EcommerceQatar';
 export const metadata = {
   openGraph: {
     title: "Top eCommerce Development Company | Kushel Digi Solutions.",
@@ -10,14 +9,14 @@ export const metadata = {
   },
 }
 
-const EcommerceQatar = ({ notify }) => {
+const QatarEcommerce = ({ notify }) => {
   
   return (
     <> 
-    <QatarEcommerce notify={notify} />
+    <EcommerceQatar notify={notify} />
     </>
   );
 };
 
-export default EcommerceQatar;
+export default QatarEcommerce;
 

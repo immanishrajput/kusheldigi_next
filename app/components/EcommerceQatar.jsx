@@ -23,7 +23,6 @@ import FAQ from '../COMMON/UseAccorrodian';
 import LogoQatar from '../ecommerce-development-in-qatar/LogoQatar/page';
 
 
-
 const phoneNumber = "9045301702";
 
 const whatAppHandler = () => {
@@ -34,7 +33,7 @@ const callHandler = () => {
     const callUrl = `tel:${phoneNumber}`;
     window.open(callUrl, "_blank");
 }
-function QatarEcommerce() {
+function EcommerceQatar() {
     return (
         <div>
             <div className='ser-main'></div>
@@ -74,4 +73,4 @@ function QatarEcommerce() {
     )
 }
 
-export default QatarEcommerce;
+export default EcommerceQatar;

@@ -21,8 +21,8 @@ import './londonfeat.css';
         </div>
 
         <div className="ecom-buttons">
-          <button className="connect-btn">Let's Connect</button>
-          <button className="demo-btn">Schedule a Demo</button>
+          <button className="connect-btn">Request a No-Cost Audit</button>
+          {/* <button className="demo-btn">Schedule a Demo</button> */}
         </div>
       </div>
     </section>

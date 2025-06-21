@@ -55,16 +55,25 @@ export const metadata = {
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "Service",
+  "@type": ["LocalBusiness", "Service"],
   "serviceType": [
     "eCommerce Website Development",
     "BigCommerce Website Development"
   ],
-  "provider": {
-    "@type": "Organization",
-    "name": "Kushel Digi Solutions",
-    "url": "https://www.kusheldigi.com/"
+  "name": "Kushel Digi Solutions",
+  "description": "Transform your online presence with Kushel Digi Solutions eCommerce development, BigCommerce solutions, and tailored B2B and marketplace platforms. Start your project today!",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "First Floor, D242, F-32B, Sector 63 Rd, Noida, 201301, Uttar Pradesh",
+    "addressLocality": "Noida",
+    "addressRegion": "Uttar Pradesh",
+    "postalCode": "201301",
+    "addressCountry": "IN"
   },
+  "telephone": "+91-9045301702",
+  "url": "https://www.kusheldigi.com/",
+  "openingHours": "Mon-Sat 10:00-17:00",
+  "priceRange": "$$",
   "areaServed": [
     {
       "@type": "Country",
@@ -78,21 +87,8 @@ const jsonLd = {
       "@type": "Country",
       "name": "UAE"
     }
-  ],
-  "description": "Transform your online presence with Kushel Digi Solutions eCommerce development, BigCommerce solutions, and tailored B2B and marketplace platforms. Start your project today!",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "First Floor, D242, F-32B, Sector 63 Rd, Noida, 201301, Uttar Pradesh",
-    "addressLocality": "Noida",
-    "addressRegion": "Uttar Pradesh",
-    "postalCode": "201301",
-    "addressCountry": "IN"
-  },
-  "telephone": "+91-9045301702",
-  "url": "https://www.kusheldigi.com/",
-  "openingHours": "Mon-Sat 10:00AM-05:00AM",
-  "priceRange": "$$"
-};
+  ]
+}
 
 
 
