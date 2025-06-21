@@ -10,14 +10,14 @@ const LondonBanner = () => {
                     {/* Left Content */}
                     <div className="london-banner-left">
                         <h1 className="london-banner-heading">
-                            eCommerce Development<br />
+                            E-Commerce Development<br />
                             <span className="london-banner-span">Company in London</span>
                         </h1>
                         <p className="london-banner-subtext">
-                            As a top <strong>e-Commerce development</strong> company in <strong>London, UK, SpaceStem</strong> specialises in building an <strong>eCommerce</strong> website for your unique online business needs. Our <strong>custom e-Commerce</strong> solutions provide the perfect digital platform for your eCommerce store or portal, leading to online success.
+                        Looking to grow your online business with a trusted ecommerce development company in London? Kushel Digi Solutions specializes in creating custom, mobile-friendly, and conversion-focused eCommerce websites. Our solutions are designed to boost your sales while we handle the tech—so you can focus on your business.
                         </p>
                         <div className="london-banner-buttons">
-                            <button className="london-banner-btn-yellow">Let's Connect</button>
+                            <button className="london-banner-btn-yellow">Get a Free Consultation</button>
                             <button className="london-banner-btn-outline">Schedule a Demo</button>
                         </div>
                         

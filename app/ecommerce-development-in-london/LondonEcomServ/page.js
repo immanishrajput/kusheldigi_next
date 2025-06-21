@@ -5,64 +5,64 @@ import './ecomserv.css';
 const features = [
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965474/Mask_group_75_obmlwf.png",
-    title: "Ecommerce Consulting",
+    title: "Customized E-Commerce Creation",
     description:
-      "We advise businesses on the best eCommerce strategies and software selection. We also guide them in application development to meet their unique electronic-commerce requirements."
+      "We do not use pre-made templates; instead create fresh and customized templates for each business. We create scalable, unique ecommerce websites that are suited to your audience, brand, and objectives."
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965473/Mask_group_76_jziqdb.png",
-    title: "Custom Ecommerce Development",
+    title: " Expert WooCommerce & WordPress Integration",
     description:
-      `Our developers deliver custom ecommerce solutions tailored to your business needs. They create an ecommerce store that enhances your digital business footprint.`
+      `Our team builds Powerful platforms with seamless performance and plugin support by using the versatility of WordPress and WooCommerce.`
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965473/Mask_group_77_syi4ue.png",
-    title: "Platform-Based Ecommerce Development",
+    title: "Conversion-Focused Shopify Store Development",
     description:
-      `As a top ecommerce web development company, we specialise in creating high-performing stores. We utilise all major platforms and the latest ecommerce software.`
+      `We create Designs That Turn Visitors Into buyers. Our team makes it simple for your clients to peruse, buy, and return.`
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965468/Mask_group_78_d9e39s.png",
-    title: "Ecommerce Website Design",
+    title: "Mobile-Responsive eCommerce Design",
     description:
-      `Our designers craft engaging ecommerce site designs. These designs look great and offer a seamless user experience, which helps to boost sales.`
+      `Because shoppers now buy almost everything from their phones, our flexible layouts guarantee your site displays and performs beautifully on desktops, tablets, and handhelds alike.`
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_79_sv7ryx.png",
-    title: "Ecommerce Integrations",
+    title: "SEO-Optimized eCommerce Integration",
     description:
-      `We provide seamless integration of your ecommerce platform with third-party applications. This ensures that your business processes are interconnected for efficient operations.`
+      ` We adhere to SEO best practices during development to improve your store's search engine ranking and organic traffic from day one.`
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_80_xj1zov.png",
-    title: "Ecommerce Migration",
+    title: "Secure Payment Gateway Integration",
     description:
-      `Our developers handle ecommerce migration. They ensure the smooth transition of your ecommerce store from one platform to another with minimal disruption.`
+      `We connect reputable payment systems such as Stripe and PayPal to give your consumers a seamless and safe checkout experience.`
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_81_ct53bt.png",
-    title: "Ecommerce Audit",
+    title: "Integrated Analytics for E-Commerce Insights",
     description:
-      `We perform comprehensive audits of your ecommerce site. We identify potential improvements to enhance your store's performance, security, and user experience.`
+      `Keep track of what matters the most. We installed integrated analytics and tracking solutions to assist you in comprehending sales performance, consumer behavior, and expansion prospects.`
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_82_mpn6s4.png",
-    title: "Ecommerce Support and Evolution",
+    title: "AI-Powered Personalization",
     description:
-      `Our dedicated support team offers ongoing ecommerce site maintenance and evolution. This ensures your store stays updated, secure, and competitive.`
+      `More intelligent experiences while shopping. We include AI-powered suggestions and customization features that improve client satisfaction, sales, and engagement.`
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_82_mpn6s4.png",
-    title: "Ecommerce Support and Evolution",
+    title: "Ongoing Support, Migration & Upgrades",
     description:
-      `Our dedicated support team offers ongoing ecommerce site maintenance and evolution. This ensures your store stays updated, secure, and competitive.`
+      `We always have your back. Launch is not the end of our work. To keep your ecommerce business safe, quick, and cutting-edge, we provide ongoing monitoring, upgrades, and support.`
   }
 ];
 
 const EcommerceServices = () => {
   return (
    <section className="ecom-london-section">
-      <h3 className="ecom-london-title">Our E-commerce Website Development Services</h3> 
+      <h3 className="ecom-london-title">What Makes Our E-Commerce Services Stand Out</h3> 
       
       <div className="ecom-london-grid-wrapper">
         <div className="ecom-london-grid">

@@ -10,22 +10,22 @@ const caseStudies = [
   {
     title: 'Top Brass Tactical',
     tags: ['B2B', 'Military & tactical industry'],
-    description: 'Magento to BigCommerce Migration, Data Migration, BigCommerce store Design, Custom Theme Development, SEO, Integration.',
+    description: 'UX/UI Design, Full Website Development, Magento to BigCommerce Migration, Custom Theme Development, and QA & Testing.',
     results: [
-      { label: 'INCREASED CONVERSIONS', value: '+85%' },
-      { label: 'INCREASED REVENUE', value: '+58%' },
-      { label: 'INCREASED AOV', value: '+6%' },
+      { label: 'INCREASED CONVERSIONS', value: '+80%' },
+      { label: 'HIGHER REVENUE', value: '+60%' },
+      { label: 'BOOSTED AOV', value: '+8%' },
     ],
     image: 'https://res.cloudinary.com/dbcmdtr3r/image/upload/v1750254082/Group_1171280314_abngnl.png',
   },
   {
     title: 'Black Rhino Concealment',
     tags: ['B2B', 'Holsters and accessories'],
-    description: 'BigCommerce Migration, ERP Integration, SEO, Theme Customization, and Performance Tuning.',
+    description: 'Custom UI/UX Design in Figma, BigCommerce Replatforming & Development, Smart 3rd-Party Integrations (CRM, Inventory, SEO tools), Site Speed Optimization & Mobile Responsiveness, and End-to-End QA Testing.',
     results: [
-      { label: 'INCREASED CONVERSIONS', value: '+70%' },
-      { label: 'RETURN CUSTOMERS', value: '+45%' },
-      { label: 'INCREASED ROI', value: '+30%' },
+      { label: 'INCREASED CONVERSIONS', value: '+80%' },
+      { label: 'RETURN CUSTOMERS', value: '+50%' },
+      { label: 'BOOSTED ROI', value: '+32%' },
     ],
     image: 'https://res.cloudinary.com/dbcmdtr3r/image/upload/v1750254081/Group_1171281350_yll41m.png',
   },
@@ -41,7 +41,7 @@ function LondonSecSlider() {
     speed: 500,
     slidesToShow: 1, // ✅ only one slide shown
     slidesToScroll: 1,
-    pauseOnHover: false,
+    pauseOnHover: true,
     responsive: [
       {
         breakpoint: 768,
@@ -55,7 +55,7 @@ function LondonSecSlider() {
   return (
     <section className="case-study-section">
       <h1>Case studies</h1>
-      <p>Our Works Speaks for itself</p>
+      <p>Our Works Speaks for themselves</p>
       <div>
         <p className='hrline'></p>
       </div>
