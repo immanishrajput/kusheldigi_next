@@ -5,11 +5,13 @@ import '../globals.css'
 import Navbar from '../COMMON/Navbar';
 import Footer from '../COMMON/Footer';
 import Website from './Home/HomeForm';
-import QatarBanner from '../ecommerce-development-in-qatar/QatarBanner/page';
-import QatarStack from '../ecommerce-development-in-qatar/QatarStack/page';
-import QatarEcomServ from '../ecommerce-development-in-qatar/QatarEcomServ/page';
-import EcommerceExpertise from '../ecommerce-development-in-qatar/EcommerceExpertise/page';
+
+// import QatarBanner from '../ecommerce-development-in-qatar/QatarBanner/page';
+// import QatarStack from '../ecommerce-development-in-qatar/QatarStack/page';
+// import QatarEcomServ from '../ecommerce-development-in-qatar/QatarEcomServ/page';
+// import EcommerceExpertise from '../ecommerce-development-in-qatar/EcommerceExpertise/page';
 import QatarBenfit from '../ecommerce-development-in-qatar/QatarBenfit/page';
+
 import QatarEcomDev from '../ecommerce-development-in-qatar/QatarEcomDev/page';
 import QatarFeatures from '../ecommerce-development-in-qatar/QatarFeatures/page';
 import UnleashingSection from '../ecommerce-development-in-qatar/UnleashingSection/page';
@@ -18,7 +20,7 @@ import CustomBenefitsSection from '../ecommerce-development-in-london/CustomBene
 import Banner3 from '../ecommerce-development/Banner3/Page';
 import Banner11 from '../ecommerce-development/Banner10/page';
 import FAQ from '../COMMON/UseAccorrodian';
-import LogoQatar from '../ecommerce-development-in-qatar/LogoQatar/page';
+// import LogoQatar from '../ecommerce-development-in-qatar/LogoQatar/page';
 
 
 
@@ -39,20 +41,27 @@ function EcommerceQatar() {
 
             <Navbar />
 
-            <QatarBanner/>
-            <LogoQatar/>
-            <QatarStack/>
-            <QatarEcomServ/>
-            <EcommerceExpertise/>
-            <QatarBenfit/>
-            <QatarEcomDev/>
-            <QatarFeatures/>
-            <UnleashingSection/>
-            <Banner12/>
-            <CustomBenefitsSection/>
-            <Banner3/>
-            <Banner11/>
-            <FAQ/>
+            {/* <QatarBanner />
+            <LogoQatar />
+            <QatarStack />
+            <QatarEcomServ />
+            <EcommerceExpertise /> */}
+
+            <h2>
+                hello
+            </h2>
+
+
+            <QatarBenfit />
+            <QatarEcomDev />
+            <QatarFeatures />
+            <UnleashingSection />
+            <Banner12 />
+            <CustomBenefitsSection />
+            <Banner3 />
+            <Banner11 />
+            <FAQ />
+
             <Website />
             <Footer />
 
