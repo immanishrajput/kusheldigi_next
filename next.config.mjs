@@ -230,6 +230,11 @@ const nextConfig = {
         destination: '/headless-bigcommerce',
         permanent: true,
       },
+      {
+        source:'/ecommerce-development-in-Qatar',
+        destination: '/ecommerce-development-in-qatar',
+        permanent: true,
+      }
     ];
   },
 };
