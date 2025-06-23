@@ -210,26 +210,26 @@ const nextConfig = {
         destination: '/thecareerbeacon',
         permanent: true,
       },
-      {
-        source: '/woodview',
-        destination: '/woodView',
-        permanent: true,
-      },
+      // {
+      //   source: '/woodview',
+      //   destination: '/woodView',
+      //   permanent: true,
+      // },
       {
         source: '/blogdetails/675a7b9b03dec66b0a76fb04',
         destination: '/blog/comprehensive-guide-to-modern-e-commerce-solutions-website-design-development-ai-packaging-and-more',
         permanent: true,
       },
-      {
-        source: '/Headless-shopify',
-        destination: '/headless-shopify',
-        permanent: true,
-      },
-      {
-        source: '/Headless-Bigcommerce',
-        destination: '/headless-bigcommerce',
-        permanent: true,
-      }
+      // {
+      //   source: '/Headless-shopify',
+      //   destination: '/headless-shopify',
+      //   permanent: true,
+      // },
+      // {
+      //   source: '/Headless-Bigcommerce',
+      //   destination: '/headless-bigcommerce',
+      //   permanent: true,
+      // }
     ];
   },
 };
