@@ -1,4 +1,4 @@
-import EcommerceQatar from "../components/EcommerceQatar"; 
+import QatarEcommerce from "../components/QatarEcommerce";
 
 export const metadata = {
   openGraph: {
@@ -19,5 +19,5 @@ export const metadata = {
 };
 
 export default function Page({ notify }) {
-  return <EcommerceQatar notify={notify} />;
+  return <QatarEcommerce notify={notify} />;
 }
