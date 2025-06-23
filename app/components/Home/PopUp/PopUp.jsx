@@ -64,7 +64,7 @@ const Popup = () => {
   }, []);
 
   const [formData, setFormData] = useState({
-    firstName: "",
+    name: "",
     email: "",
     phone: "",
   });

@@ -10,7 +10,8 @@ import Image from "next/image";
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const Website = () => {
+const 
+Website = () => {
   const [firstNo, setFirstNo] = useState(0);
   const [secondNo, setSecondNo] = useState(0);
   const [userAnswer, setUserAnswer] = useState("");
@@ -276,28 +277,6 @@ const Website = () => {
             </h3>
             <form onSubmit={handleForm} className="contact-htmlForm" id="contacthtmlForm">
               <div className="contact-first-div">
-
-                {/* <div>
-                  <label htmlFor="name" className="contact-label">
-                    Name
-                  </label>
-                  <input
-                    className="contact-input"
-                    type="text"
-                    placeholder="Your Name"
-                    name="fullName"
-                    id="name"
-                    required
-                    value={formData?.fullName}
-                    onChange={(e) => {
-                      const value = e.target.value;
-                      if (/^[A-Za-z ]*$/.test(value)) {
-                        handleFormChange(e);
-                      }
-                    }}
-                  />
-                </div> */}
-
                 <div>
                   <label htmlFor="name2" className="contact-label">
                     Name
@@ -320,23 +299,6 @@ const Website = () => {
                   />
                 </div>
 
-                {/* <div>
-
-                  <label htmlFor="name" className="contact-label">
-                    Name
-                  </label>
-                  <br />
-                  <input
-                    className="contact-input"
-                    type="text"
-                    placeholder="Your Name"
-                    name="fullName"
-                    id="name"
-                    required
-                    value={formData?.fullName}
-                    onChange={handleFormChange}
-                  />
-                </div> */}
                 <div id="homePhoneDiv">
                   <label htmlFor="phone2" className="contact-label">
                     Phone Number
@@ -362,28 +324,6 @@ const Website = () => {
                     countryCodeEditable={false}
                   />
                 </div>
-
-
-                {/* //   <label htmlFor="phoneNo" className="contact-label">
-//     Phone Number
-//   </label>
-//   <input
-//     className="contact-input"
-//     type="number"
-//     placeholder="Phone Number"
-//     name="phoneNo"
-//     id="phoneNo"
-//     ref={phoneInputRef}
-//     value={formData?.phoneNo}
-//     onChange={(e) => {
-//       const value = e.target.value;
-//       if (/^\d{0, 10}$/.test(value)) {
-//         handleFormChange(e);
-//       }
-//     }}
-//     required
-//   />
-// </div> */}
 
               </div>
               <div className="contact-div">

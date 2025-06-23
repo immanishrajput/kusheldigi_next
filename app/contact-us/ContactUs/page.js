@@ -169,7 +169,7 @@ const ContactUs = () => {
       const result = await response.json();
       console.log(result);
 
-      if (response.ok) {
+      if (response.ok || response.success === true || response.status === 200) {
         navigate.push('/success');
         generateCaptcha();
       } else {
