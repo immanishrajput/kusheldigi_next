@@ -11,7 +11,7 @@ const DelhiBanner = () => {
                     <div className="london-banner-left">
                         <h1 className="london-banner-heading">
                             E-Commerce Development<br />
-                            <span className="london-banner-span">Company in London</span>
+                            <span className="london-banner-span">Company in Delhi</span>
                         </h1>
                         <p className="london-banner-subtext">
                         Looking to grow your online business with a trusted ecommerce development company in London? Kushel Digi Solutions specializes in creating custom, mobile-friendly, and conversion-focused eCommerce websites. Our solutions are designed to boost your sales while we handle the tech—so you can focus on your business.
