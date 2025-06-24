@@ -5,10 +5,8 @@ import "intl-tel-input/build/css/intlTelInput.css";
 import intlTelInput from "intl-tel-input";
 import { RxCross1 } from "react-icons/rx";
 import "./PopUp.css";
-import popupAboveCompanies from "../../../assests/popup-upper-companies.png";
-import popupBelowCompanies from "../../../assests/popup-below-companies.png";
 import { useRouter } from "next/navigation";
-import Image from 'next/image';
+import Image from "next/image";
 import { toast } from "react-toastify";
 
 const Popup = () => {
@@ -29,7 +27,7 @@ const Popup = () => {
     setUserAnswer("");
     setCaptchaVerified(false);
   };
-
+  
   useEffect(() => {
     generateCaptcha();
   }, []);
@@ -44,7 +42,7 @@ const Popup = () => {
     toast.success("Captcha Verified!!");
     setCaptchaVerified(true);
   };
-
+  
   const phoneInputRef = useRef(null);
 
   useEffect(() => {
@@ -68,15 +66,20 @@ const Popup = () => {
     email: "",
     phone: "",
   });
-
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
+
     let updatedValue = value;
 
-    if (name === "popMobile") {
+    if (name === "phone") {
       updatedValue = value.replace(/[^0-9]/g, "").slice(0, 10);
+    }
+
+    if (name === "firstName") {
+      // ✅ Name only alphabets and spaces
+      updatedValue = value.replace(/[^a-zA-Z\s]/g, "");
     }
 
     setFormData((prevState) => ({
@@ -84,35 +87,35 @@ const Popup = () => {
       [name]: updatedValue,
     }));
   };
-
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-   const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-   
-       if (!emailRegex.test(formData.email)) {
-         toast.error("Invalid email address!");
-         return;
-       }
-       if (
-         formData.firstName.trim() === '' ||
-         formData.phone.trim() === '91' ||
-         formData.email.trim() === ''
-       ) {
-         toast.error("Please fill all the fields!!");
-         return;
-       }
-       if (!captchaVerified) {
-         toast.error("Please Verify the Captcha !!");
-         generateCaptcha();
-         return;
-       }
-       if (parseInt(userAnswer) !== correctAnswer) {
-         toast.error("Wrong Captcha! Try again.");
-         generateCaptcha();
-         setCaptchaVerified(false);
-         return;
-       }
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+    if (!emailRegex.test(formData.email)) {
+      toast.error("Invalid email address!");
+      return;
+    }
+    if (
+      formData.firstName.trim() === "" ||
+      formData.phone.trim() === "" ||
+      formData.email.trim() === ""
+    ) {
+      toast.error("Please fill all the fields!!");
+      return;
+    }
+    if (!captchaVerified) {
+      toast.error("Please Verify the Captcha!!");
+      generateCaptcha();
+      return;
+    }
+    if (parseInt(userAnswer) !== correctAnswer) {
+      toast.error("Wrong Captcha! Try again.");
+      generateCaptcha();
+      setCaptchaVerified(false);
+      return;
+    }
 
     setLoading(true);
 
@@ -121,11 +124,10 @@ const Popup = () => {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "mode": "no-cors"
+          "mode": "no-cors",
         },
         body: JSON.stringify(formData),
       });
-
       const result = await response.json();
       console.log("Result--->>", result);
 
@@ -142,7 +144,7 @@ const Popup = () => {
       generateCaptcha();
     }
   };
-
+  
   const [showPopUp, setShowPopUp] = useState(false);
 
   useEffect(() => {
@@ -164,7 +166,7 @@ const Popup = () => {
             <div className="upper-modal-box">
               <div className="upper-left-content">
                 <h3 className="popup-form-heading">
-                  Hey Hey! Before You Leave...&#128075;
+                  Hey Hey! Before You Leave...👋
                 </h3>
                 <hr className="popup-hr" />
                 <p className="popupup-sm-heading">
@@ -174,7 +176,6 @@ const Popup = () => {
                   <img
                     width={20}
                     src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446922/right-icon_dqytxe.png"
-                    //  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743073896/Eo_circle_green_checkmark.svg_1_say3rb.png"
                     alt=""
                   />{" "}
                   Development Blueprint.
@@ -183,7 +184,6 @@ const Popup = () => {
                   <img
                     width={20}
                     src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446922/right-icon_dqytxe.png"
-                    //  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743073896/Eo_circle_green_checkmark.svg_1_say3rb.png"
                     alt=""
                   />{" "}
                   Tentative Budget.
@@ -192,7 +192,6 @@ const Popup = () => {
                   <img
                     width={20}
                     src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446922/right-icon_dqytxe.png"
-                    // src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1743073896/Eo_circle_green_checkmark.svg_1_say3rb.png"
                     alt=""
                   />{" "}
                   Estimated Time-To-Market.
@@ -283,7 +282,6 @@ const Popup = () => {
                         id="ans-captch"
                       />
                     </div>
-
                     <span className="captcha-btn" onClick={verifyCaptcha}>
                       Verify Captcha
                     </span>
@@ -297,6 +295,7 @@ const Popup = () => {
                     {loading ? "Sending..." : "Submit"}
                   </button>
                   {loading && <span className="loader3"></span>}
+
                   <Image
                     style={{ width: "70%", margin: "10px auto" }}
                     className="popup-companies"
@@ -318,6 +317,7 @@ const Popup = () => {
                 </form>
               </div>
             </div>
+            
           </div>
         </div>
       )}
