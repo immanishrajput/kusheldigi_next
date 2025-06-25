@@ -55,6 +55,7 @@
   background: #fff; 
   gap: 40px;
   flex-wrap: wrap;
+  flex-direction: row;
   max-width: 1720px; 
 }
 

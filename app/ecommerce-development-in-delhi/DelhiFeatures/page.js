@@ -12,45 +12,45 @@ import {
 
 const features = [
   {
-    title: 'Mobile–Optimized Design',
+    title: 'Mobile–Optimized Responsive Design',
     icon: <FaMobileAlt />,
     description:
-      'Ensure a seamless shopping experience across all devices. Our websites are fully responsive, delivering fast load times and smooth navigation on smartphones, tablets, and desktops.',
+      'In order to increase sales, we design fully responsive ecommerce websites, meaning they look great and function well on any device.',
     color: 'blue',
   },
   {
-    title: 'User–Friendly Admin Panel',
+    title: 'SEO-Optimized Architecture',
     icon: <FaRegUserCircle />,
     description:
-      'Ensure a seamless shopping experience across all devices. Our websites are fully responsive, delivering fast load times and smooth navigation on smartphones, tablets, and desktops.',
+      "To improve your online store's visibility and bring in more natural visitors, we include search engine optimization (SEO) in our ecommerce development services.",
     color: 'peach',
   },
   {
-    title: 'SEO & Marketing Tools',
+    title: 'Lightspeed Loading',
     icon: <FaSearch />,
     description:
-      'Ensure a seamless shopping experience across all devices. Our websites are fully responsive, delivering fast load times and smooth navigation on smartphones, tablets, and desktops.',
+      'When websites load faster, consumers are pleased. We make sure that all of our ecommerce sites are fast so that users have a better experience and the bounce rates are lower.',
+    color: 'white',
+  },
+  {
+    title: 'Intelligent Product Search & Filtering',
+    icon: <FaLock />,
+    description:
+      "With the help of our e-commerce development agency's predictive search and clever filters, customers can simply and quickly locate the products they need.",
     color: 'white',
   },
   {
     title: 'Secure Payment Gateway Integration',
-    icon: <FaLock />,
-    description:
-      'We integrate trusted and secure payment gateways to provide safe and flexible payment options for your customers, supporting credit cards, wallets, UPI, and more.',
-    color: 'white',
-  },
-  {
-    title: 'Advanced Product Filtering & Search',
     icon: <FaFilter />,
     description:
-      'We integrate trusted and secure payment gateways to provide safe and flexible payment options for your customers, supporting credit cards, wallets, UPI, and more.',
+      'To ensure that your consumers can shop with complete peace of mind, we include only the most reliable and secure payment channels.',
     color: 'blue',
   },
   {
-    title: 'Scalable & Customizable Architecture',
+    title: 'Easy CMS & Inventory Management',
     icon: <FaExpandAlt />,
     description:
-      'We integrate trusted and secure payment gateways to provide safe and flexible payment options for your customers, supporting credit cards, wallets, UPI, and more.',
+      'Designed with busy company owners and non-tech teams in mind, our user-friendly backend makes managing goods, content, and orders a breeze.',
     color: 'peach',
   },
 ];
@@ -58,7 +58,7 @@ const features = [
 const DelhiFeatures = () => {
   return (
     <section className="Teaturesstop1-features-wrapper">
-      <h2>Features Of Our E–commerce Websites</h2>
+      <h2>What Features Make Our E-Commerce Websites Stand Out?</h2>
       <div className="Teaturesstop1-features-grid">
         {features.map((feature, index) => (
           <div className={`Teaturesstop1-feature-item ${feature.color}`} key={index}>

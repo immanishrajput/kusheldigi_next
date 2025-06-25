@@ -5,64 +5,64 @@ import './delhicomser.css'; // Assuming you have a CSS file for styles
 const features = [
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965474/Mask_group_75_obmlwf.png",
-    title: "Ecommerce Consulting",
+    title: "Custom E-Commerce Website Development",
     description:
-      "We advise businesses on the best eCommerce strategies and software selection. We also guide them in application development to meet their unique electronic-commerce requirements."
+      "We create ecommerce websites from scratch for scaling companies, giving them better value and control over the user experience."
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965473/Mask_group_76_jziqdb.png",
-    title: "Custom Ecommerce Development",
+    title: "Shopify Store Development",
     description:
-      `Our developers deliver custom ecommerce solutions tailored to your business needs. They create an ecommerce store that enhances your digital business footprint.`
+      `Our team in Delhi offers mobile-responsive Shopify store development services with unique branding features and secure payment gateways to boost conversions.`
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965473/Mask_group_77_syi4ue.png",
-    title: "Platform-Based Ecommerce Development",
+    title: "WooCommerce Website Design",
     description:
-      `As a top ecommerce web development company, we specialise in creating high-performing stores. We utilise all major platforms and the latest ecommerce software.`
+      `Order your WordPress-based WooCommerce website, which is SEO optimized, easy to manage, and supports endless third-party application plugins.`
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965468/Mask_group_78_d9e39s.png",
-    title: "Ecommerce Website Design",
+    title: "Magento Development & Migration",
     description:
-      `Our designers craft engaging ecommerce site designs. These designs look great and offer a seamless user experience, which helps to boost sales.`
+      `We build comprehensive Magento ecommerce stores and provide migration services from BigCommerce, Shopify, or any other store without losing data.`
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_79_sv7ryx.png",
-    title: "Ecommerce Integrations",
+    title: "Mobile-Responsive E-Commerce Design Layouts",
     description:
-      `We provide seamless integration of your ecommerce platform with third-party applications. This ensures that your business processes are interconnected for efficient operations.`
+      `Every online shop we design is mobile-responsive, improving navigation and load speed on all devices for enhanced customer interaction and engagement.`
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_80_xj1zov.png",
-    title: "Ecommerce Migration",
+    title: "Third-Party Integration Services",
     description:
-      `Our developers handle ecommerce migration. They ensure the smooth transition of your ecommerce store from one platform to another with minimal disruption.`
+      `Automate shipping partners, CRMs, ERP payments, and analytics directly into your ecommerce site for full automation.`
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_81_ct53bt.png",
-    title: "Ecommerce Audit",
+    title: " UX/UI For E-Commerce Websites",
     description:
-      `We perform comprehensive audits of your ecommerce site. We identify potential improvements to enhance your store's performance, security, and user experience.`
+      `Focused on online shoppers from Delhi improves usability while boosting brand recall and enhancing customer loyalty resulting in improved NPS scores.`
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_82_mpn6s4.png",
-    title: "Ecommerce Support and Evolution",
+    title: "E-Commerce Website Maintenance & Support",
     description:
-      `Our dedicated support team offers ongoing ecommerce site maintenance and evolution. This ensures your store stays updated, secure, and competitive.`
+      `Keep your website running optimally by receiving strategic updates alongside bug fixes speed improvement, and evasive minimization under active supervision.`
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_82_mpn6s4.png",
-    title: "Ecommerce Support and Evolution",
+    title: "E-Commerce SEO and Speed Optimization",
     description:
-      `Our dedicated support team offers ongoing ecommerce site maintenance and evolution. This ensures your store stays updated, secure, and competitive.`
+      `Improve sales and visibility with ecommerce SEO services that include speed optimization of meta setup, schema, keywords, and architecture.`
   }
 ];
 
 const DelhiEcomServ = () => {
   return (
    <section className="ecom-qatar-section">
-      <h3 className="ecom-qatar-title">Our E-commerce Website Development Services</h3> 
+      <h3 className="ecom-qatar-title">Why Choose Our E-Commerce Website Development Services?</h3> 
       
       <div className="ecom-qatar-grid-wrapper">
         <div className="ecom-qatar-grid">

@@ -9,25 +9,26 @@ function DelhiMakes() {
         <div className="different1-left">
           <h2>What Makes Us Different?</h2>
           <p>
-            At KushelDigi Solutions, we think creating an ecommerce site is more than just a slick look- helping our clients meet their goals and guiding shoppers where they want to go matters most.
+            Kushel Digi Solutions stands out as an ecommerce development company based in Delhi because we go beyond coding. We create digital commerce successes.
           </p>
           <p>
-            So we hand-pick the right mix of tech, tools, and features after listening to your industry, audience, and planning for growth.
+            Mobile-friendly, online shops that push real growth for businesses and deep insight into the Delhi ecommerce market are user-centric features of our store designs.
           </p>
           <p>
-            Still learning ourselves, we track new trends and deliver stores that load fast, work hard, and leave tomorrow's door wide open.
+            Our skilled digital commerce team crafts custom-built Shopify, Magento, and WooCommerce ecommerce websites with best-in-class SEO practices, ensuring they remain competitive within the industry while achieving all your business objectives.
           </p>
           <p>
-            From the first sketch to the final launch, we give you a smooth journey, and that ease shows up for every visitor who clicks your link.
+            Your online shop can have flawless third-party integration, fast load times, and secure payment systems for simplified shopping experiences.
           </p>
           <p>
-
-            We don't just set up carts- we craft the kind of solution that quietly drives sales.
-
+            Whether migrating from existing stores or creating new ones entirely from scratch, we offer guaranteed timelines, transparent pricing models, and constant assistance post-delivery irrespective of the scope of work.
+          </p>
+          <p>
+            For turning browsers into buyers alone select Kushel—the trusted ecommerce agency in Delhi.
           </p>
         </div>
         <div className="different1-right">
-          <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1750233792/difference_1_pfr3lr.png" alt="Business Planning" />
+          <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1750762025/online-shopping-concept_oztxuj.png" alt="Business Planning" />
         </div>
       </div>
     </section>

@@ -225,11 +225,16 @@ const nextConfig = {
       //   destination: '/headless-shopify',
       //   permanent: true,
       // },
-      // {
-      //   source: '/Headless-Bigcommerce',
-      //   destination: '/headless-bigcommerce',
-      //   permanent: true,
-      // }
+      {
+        source: '/native',
+        destination: '/react-native',
+        permanent: true,
+      },
+      {
+        source: '/nodejs-developer',
+        destination: '/node-js-developer',
+        permanent: true,
+      }
     ];
   },
 };

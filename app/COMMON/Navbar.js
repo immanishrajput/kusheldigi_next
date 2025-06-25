@@ -97,12 +97,12 @@ const data = [
         ],
       },
       {
-        title: "Cross Platform app development ",
-        navigate: "/native",
+        // title: "Cross Platform app development ",
+        // navigate: "/native",
         subpart: [
           {
             title: "React Native",
-            navigate: "/native",
+            navigate: "/react-native",
           },
           {
             title: "Flutter",
@@ -215,7 +215,7 @@ const data = [
       },
       {
         title: "Hire Node Js Developer",
-        navigate: "/hire/nodejs-developer",
+        navigate: "/hire/node-js-developer",
       },
       {
         title: "Hire React Js Developer",
@@ -528,13 +528,13 @@ const Navbar = () => {
                               </div>
                             </div>
                             <div className="left-side-servises-containt">
-                              <div className="left-head-services">
+                              {/* <div className="left-head-services">
                                 <Link href="/native">
                                   Cross Platform App Development
                                 </Link>
-                              </div>
+                              </div> */}
                               <div className="left-containt-services">
-                                <Link href="/native">React Native </Link>
+                                <Link href="/react-native">React Native </Link>
                                 <span>|</span>
                                 <Link href="/flutter">Flutter </Link>
                                 <span>|</span>
@@ -687,7 +687,7 @@ const Navbar = () => {
                           </div>
                           <div className="dummy">
                             {" "}
-                            <Link href="/hire/nodejs-developer">
+                            <Link href="/hire/node-js-developer">
                               <span>Hire Node Js Developer</span>
                             </Link>
                           </div>

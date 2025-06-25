@@ -28,7 +28,7 @@ We don't just set up carts- we craft the kind of solution that quietly drives sa
           </p>
         </div>
         <div className="different1-right">
-          <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1750233792/difference_1_pfr3lr.png" alt="Business Planning" />
+          <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1750762025/online-shopping-concept_oztxuj.png" alt="Business Planning" />
         </div>
       </div>
     </section>

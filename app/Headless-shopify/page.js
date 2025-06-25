@@ -1,5 +1,5 @@
 "use client"
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from '../COMMON/Navbar'
 import Troff from './Troff/page'
 import Ssss from './Ssss/page'
@@ -15,6 +15,7 @@ import HomeForm from '../components/Home/HomeForm'
 import Footer from '../COMMON/Footer'
 import BigBanner6 from "../bigcommerce-development/BigBanner6/page";
 import { whyHeadlessShopifyByKDS, whyHeadlessShopifyByKDSHeading } from '../data/data'
+
 const phoneNumber = "9045301702";
 
 const whatAppHandler = () => {
@@ -25,7 +26,23 @@ const callHandler = () => {
   const callUrl = `tel:${phoneNumber}`;
   window.open(callUrl, "_blank");
 }
+
+
 function page() {
+    const generateMetadata = ({ params }) => ({
+          title: 'Headless Shopify Development Company | Kushel Digi',
+          description: 'Experience next-gen ecommerce with headless Shopify. Custom design, secure checkout, global scalability, and ongoing support. Get your free quote now!',
+        });
+        
+      useEffect(() => {
+          const { title, description } = generateMetadata({ params: {} });
+          document.title = title;
+          let metaDescription = document.querySelector('meta[name="description"]');
+          metaDescription ? metaDescription.content = description : 
+            document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+        }, []);
+        
+
   return (
     <div>
       <Navbar/>
@@ -57,4 +74,4 @@ function page() {
   )
 }
 
-export default page
+export default page;

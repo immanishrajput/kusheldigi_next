@@ -62,8 +62,7 @@ const
     const handleForm = async (e) => {
       e.preventDefault();
       // const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-      const emailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.com$/;
-
+      const emailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.[a-zA-Z]{2,}$/;
 
       if (!emailRegex.test(formData.email2)) {
         toast.error("Invalid email address!");
