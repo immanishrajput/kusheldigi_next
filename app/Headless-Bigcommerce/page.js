@@ -1,5 +1,5 @@
 "use client"
-import React from 'react'
+import React, { useEffect } from 'react'
 import Sync1 from './Sync1/page'
 import Luna from './Luna/page'
 import Sumo from './Sumo/page'
@@ -28,6 +28,20 @@ const callHandler = () => {
   window.open(callUrl, "_blank");
 }
 function page() {
+
+  const generateMetadata = ({ params }) => ({
+            title: 'Headless BigCommerce Development Company | Kushel Digi',
+            description: 'Launch blazing-fast, secure headless BigCommerce stores in the USA. API-first, scalable solutions by certified experts. Get a free consultation today!',
+          });
+          
+        useEffect(() => {
+            const { title, description } = generateMetadata({ params: {} });
+            document.title = title;
+            let metaDescription = document.querySelector('meta[name="description"]');
+            metaDescription ? metaDescription.content = description : 
+              document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+          }, []);
+
   return (
     <div>
       <Navbar/>

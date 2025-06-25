@@ -23,7 +23,7 @@ function QatarShop() {
           </div>
           <div className="Conversions1-right">
             <img
-              src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1750231672/EcomNewbanner_1_mon3ra.png"
+              src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1750762025/increase-conversion-rate-2018_wzhcs9.png"
               alt="60% shoppers leave bad UX"
             />
           </div>

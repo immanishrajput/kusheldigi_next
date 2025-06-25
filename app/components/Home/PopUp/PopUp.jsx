@@ -77,7 +77,7 @@ const Popup = () => {
       updatedValue = value.replace(/[^0-9]/g, "").slice(0, 10);
     }
 
-    if (name === "firstName") {
+    if (name === "name") {
       // ✅ Name only alphabets and spaces
       updatedValue = value.replace(/[^a-zA-Z\s]/g, "");
     }
@@ -91,14 +91,16 @@ const Popup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    // const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+      const emailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.[a-zA-Z]{2,}$/;
+
 
     if (!emailRegex.test(formData.email)) {
       toast.error("Invalid email address!");
       return;
     }
     if (
-      formData.firstName.trim() === "" ||
+      formData.name.trim() === "" ||
       formData.phone.trim() === "" ||
       formData.email.trim() === ""
     ) {
@@ -140,7 +142,7 @@ const Popup = () => {
       console.error("❌ Error while sending email:", error);
     } finally {
       setLoading(false);
-      setFormData({ firstName: "", email: "", phone: "" });
+      setFormData({ name: "", email: "", phone: "" });
       generateCaptcha();
     }
   };
@@ -242,8 +244,8 @@ const Popup = () => {
                       className="pop-contact-input"
                       type="text"
                       placeholder="Your Name"
-                      name="firstName"
-                      value={formData?.firstName}
+                      name="name"
+                      value={formData?.name}
                       onChange={handleChange}
                       required
                     />

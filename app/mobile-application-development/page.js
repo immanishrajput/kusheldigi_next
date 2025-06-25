@@ -144,7 +144,7 @@ const MobileApp = ({ notify }) => {
                 }}
               >
                 <SplideSlide>
-                  <Link href="/native"><div className="home4121">
+                  <Link href="/react-native"><div className="home4121">
                     <img className=" block m-auto" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739339163/reactjs_fia8qf.png' alt="react native" title="react native" />
                     <p>REACT NATIVE</p>
                   </div></Link>

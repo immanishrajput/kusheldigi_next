@@ -14,25 +14,13 @@ export default function UnleashingSection() {
         </div>
         <div className="unleashing1-right">
           <h2>
-            Unleashing Limitless Possibilities <br />
-            With <span>Mesmeric Ecommerce Websites</span>
+            How Can Mesmerizing Website Development In Delhi Boost Your Growth Potential?
           </h2>
           <p>
-            The ecommerce industry has expanded at an exponential rate in the past twenty years,
-            but so has the competition in the field. Your ecommerce website serves as the backbone
-            of your online business, directly impacting the brand’s presence and growth in the
-            market. Therefore, although choosing the best e-commerce website development agency in
-            India is a tricky business you can’t afford to opt for the wrong one. Offering your
-            potential customers an immersive and appealing shopping experience sits high on the
-            priority list. Thus, creating a site that is equipped with the latest features and
-            offers seamless navigation to your customers is what we at TIS aim to provide.
+            With us at Kushel Digi Solutions, we offer more than just developing a simple website. We construct high-performing ecommerce websites that ensure maximum conversions. As one of the leading ecommerce development companies in Delhi, we serve startups, SMEs, and enterprises by enabling them to access fully developed online stores tailored to modern digital businesses. We incorporate user-friendly design elements, focus on site load times, and flawless operation as our primary steps to the mobile-first approach. Be it Shopify store development, Magento customization, WooCommerce design, or even making a one-off bespoke ecommerce application - our solutions are mobile-ready, GDPR compliant, and focused on sustained success.
           </p>
           <p>
-            Our unmatched expertise in the field of ecommerce website development and our
-            progressive approach to delivering the best possible product has earned us the position
-            of the best ecommerce website development company in India. We strive to craft bespoke
-            websites for our clients that are tailored to their business needs and also provide a
-            streamlined online journey to their customers.
+            In addition to product catalog setup with advanced filtering options, payment gateway integration, linking CRM/ERP systems, and real-time analytics monitoring — our team of ecommerce specialists pays attention to everything in detail which ensures flawless operation throughout. We understand how the market operates here in Delhi so we solve problems for your consumers. Let us enhance your individuality by creating an amazing visually appealing website that is guaranteed to maximize sales.
           </p>
 
          
@@ -40,7 +28,7 @@ export default function UnleashingSection() {
         
       </div>
       <div className="unleashing1-buttons">
-            <button className="btn-blue">Schedule a Demo</button>
+            <button className="btn-blue">Schedule Your Free Consultation Now!</button>
             <button className="btn-outline">View Portfolio</button>
           </div>
     </section>

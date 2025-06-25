@@ -25,6 +25,7 @@ import LondonFAQ from '../ecommerce-development-in-london/LondonFAQ/page'
 import LondonSolution from '../ecommerce-development-in-london/LondonSolution/Page'
 import LondonSec12 from '../ecommerce-development-in-london/LondonSec12/page'
 import LondonCardSection from '../ecommerce-development-in-london/LondonCardSection/page'
+import BlogSection from '../ecommerce-development-in-london/BlogSection/BlogSection'
 
 
 const Page = () => {
@@ -50,6 +51,7 @@ const Page = () => {
             <CustomBenefitsSection/>
             <LondonSolution/>
             <IndustryBanner/> 
+            <BlogSection/>
             <LondonFAQ/>
             <Website/>
             <Footer />

@@ -4,16 +4,16 @@ import './delhibenfit.css'; // Assuming you have a CSS file for styles
 
 const benefits = [
   {
-    title: 'Startups',
-    description: 'Startups looking to establish their brand online with a strong foundation.'
+    title: 'Startups and New Businesses',
+    description: 'Start your online shop with custom ecommerce design and grow quickly with a mobile-friendly, cost-effective solution.'
   },
   {
-    title: 'Small to Medium Enterprises',
-    description: 'Small to Medium Enterprises aiming to expand their reach and boost sales through an efficient online store.'
+    title: 'Small and Medium Enterprises (SMEs)',
+    description: 'Enhance sales, improve customer experience, and automate operations with efficient integrations powered by ecommerce automation tools.'
   },
   {
-    title: 'Large Enterprises',
-    description: 'Large Enterprises that require scalable solutions to manage a high volume of transactions and complex operations.'
+    title: 'Large Enterprises & Brands',
+    description: 'Get advanced features of ecommerce for multi-channel selling and enterprise-level security for online business transactions of greatly expanding volumes.'
   }
 ];
 

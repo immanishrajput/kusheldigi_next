@@ -25,6 +25,8 @@ import Banner12 from '../ecommerce-development/Banner11/page';
 import LondonSecSlider from '../ecommerce-development-in-london/LondonSecSlider/page';
 import Features from '../ecommerce-development-in-belgium/Features/page'
 import CustomBenefitsSection from '../ecommerce-development-in-london/CustomBenefitsSection/page';
+import CallToAction from '../ecommerce-development-in-belgium/CtaBelgium/page';
+import BlogSection from '../ecommerce-development-in-belgium/BlogSection/BlogSection';
 
 const phoneNumber = "9045301702";
 
@@ -50,6 +52,7 @@ function EcommerceBelgium() {
             <Cutting1Section />
             <BelgiumEcomServ/>
             <LondonSecSlider/>
+            <CallToAction/>
             <WhyChooseBelgium/>
             <DesignDevelopment/>
             <BelgiumShop/>
@@ -61,7 +64,9 @@ function EcommerceBelgium() {
              <CustomBenefitsSection/>
             <Banner3/>
             {/* <Banner11/> */}
+            <BlogSection/>
             <UseAccorrodian/>
+
             <Website/>
             <Footer />
 

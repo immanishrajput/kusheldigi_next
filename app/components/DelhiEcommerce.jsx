@@ -24,6 +24,8 @@ import DelhiEngage from '../ecommerce-development-in-delhi/DelhiEngage/page'
 import DelhiFAQ from '../ecommerce-development-in-delhi/DelhiFAQ/page'
 import Website from './Home/HomeForm'
 import Footer from '../COMMON/Footer'
+import CallToAction from '../ecommerce-development-in-delhi/CtaDelhi/page'
+import BlogSection from '../ecommerce-development-in-delhi/BlogSection/BlogSection'
 
 
 const DelhiEcommerce = () => {
@@ -38,6 +40,7 @@ const DelhiEcommerce = () => {
             <UnleashingSection/>
             <DelhiEcomServ/>
             <DelhiSecSlider/>
+            <CallToAction/>
             <DelhiBenfit/>
             <DelhiProcessSec/>
             <DelhiEngage/>
@@ -49,6 +52,7 @@ const DelhiEcommerce = () => {
             <DelhiSec12/>
             <DelhiCustomBenefitsSection/>
             <DelhiSolution/>
+            <BlogSection/>
 
             <DelhiFAQ/>
             <Website/>

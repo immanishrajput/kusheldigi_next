@@ -8,27 +8,30 @@ function DelhiEngage() {
     {
       id: "1",
       img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750665227/Group1171281669_gbfzak.png",
-      text: "Managed Team",
-      pra: "Your product, our dedicated team. From concept to completion, we handle it all.",
+      text: "Assigned E-Commerce Team",
+      pra: "From the initial concept to ongoing support, our dedicated teams help ecommerce businesses at each step.",
+      buttonText: "Contact For Further Information",
     },
     {
       id: "2",
       img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750665227/how-we-help-you-icon1_tddd2p.png",
-      text: "Staff Augmentation",
-      pra: "Need extra hands? Our experts seamlessly join your team, providing the skills you need, when you need them.",
+      text: "Joined Team Business Model",
+      pra: "Do you need extra design and development professionals? Our ecommerce specialists seamlessly join your in-house team whenever needed.",
+      buttonText: "Hire Specialists Today ",
     },
     {
       id: "3",
       img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750665227/how-we-help-you-icon_yrjxo3.png",
-      text: "Fixed Cost",
-      pra: "Upfront price, guaranteed delivery. Your project completed on time and within budget.",
+      text: "Fixed Cost Model Offer",
+      pra: "Recommended to clients with a clear scope of work: transparent pricing, fixed timelines, and guaranteed delivery—no hidden fees or unexpected costs.",
+      buttonText: "Request a Free Quote",
     },
   ];
 
   return (
     <div className="engagement-container">
       <div className="engagement-title">
-        <h2>Engagement Models for Our E-commerce Development Services</h2>
+        <h2>Flexible Engagement Models to Suit Your Business Needs</h2>
       </div>
 
       <div className="engagement-cards">
@@ -47,7 +50,7 @@ function DelhiEngage() {
               <h5>{item.text}</h5>
               <p>{item.pra}</p>
             </div>
-            <button>Contact Us For Details</button>
+            <button className="engagement-button">{item.buttonText}</button>
           </div>
         ))}
       </div>

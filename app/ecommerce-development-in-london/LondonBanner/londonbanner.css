@@ -298,6 +298,14 @@
 }
 
 @media (max-width: 480px) {
+    .london-banner-content-wrapper {
+        padding: 0px 10px;
+    }
+
+    .london-banner-left {
+        padding: 0;
+    }
+
     .london-banner-heading {
         font-size: 26px;
         text-align: center;
@@ -339,6 +347,7 @@
     .london-banner-images {
         flex-direction: column;
         align-items: center;
+        padding-bottom: 0;
     }
 }
 
