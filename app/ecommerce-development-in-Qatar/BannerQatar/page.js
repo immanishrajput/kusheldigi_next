@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 
 import "./qatar.css";
 
-const QatarBanner = () => {
+const BannerQatar = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -52,12 +52,12 @@ const QatarBanner = () => {
   useEffect(() => {
     if (phoneInputRef.current) {
       const iti = intlTelInput(phoneInputRef.current, {
-        initialCountry: "gb",
+        initialCountry: "qa",
         geoIpLookup: (callback) => {
           fetch("https://ipapi.co/json")
             .then((res) => res.json())
             .then((data) => callback(data.country_code))
-            .catch(() => callback("gb"));
+            .catch(() => callback("qa"));
         },
         utilsScript:
           "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
@@ -161,33 +161,33 @@ const QatarBanner = () => {
   };
 
     return (
-        <section className="london-banner-section">
-            <div className="london-banner-overlay">
-                <div className="london-banner-content-wrapper">
+        <section className="qatar-banner-section">
+            <div className="qatar-banner-overlay">
+                <div className="qatar-banner-content-wrapper">
                     {/* Left Content */}
-                    <div className="london-banner-left">
-                        <h1 className="london-banner-heading">
+                    <div className="qatar-banner-left">
+                        <h1 className="qatar-banner-heading">
                             E-Commerce Development
                             <br />
-                            <span className="london-banner-span">Company in Qatar</span>
+                            <span className="qatar-banner-span">Company in Qatar</span>
                         </h1>
-                        <p className="london-banner-subtext">
+                        <p className="qatar-banner-subtext">
                             Looking to grow your online business with a trusted ecommerce
-                            development company in London? Kushel Digi Solutions specializes
+                            development company in qatar? Kushel Digi Solutions specializes
                             in creating custom, mobile-friendly, and conversion-focused
                             eCommerce websites. Our solutions are designed to boost your sales
                             while we handle the tech—so you can focus on your business.
                         </p>
-                        <div className="london-banner-buttons">
-                            <button className="london-banner-btn-yellow">
+                        <div className="qatar-banner-buttons">
+                            <button className="qatar-banner-btn-yellow">
                                 Get a Free Consultation
                             </button>
-                            <button className="london-banner-btn-outline">
+                            <button className="qatar-banner-btn-outline">
                                 Schedule a Demo
                             </button>
                         </div>
 
-                        <div className="london-banner-images">
+                        <div className="qatar-banner-images">
                             <img
                                 src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1750757052/Group_1171281720_x2l3jk.png"
                                 alt="eCommerce Development in noida"
@@ -207,7 +207,7 @@ const QatarBanner = () => {
                     </div>
 
                     {/* Right Form */}
-                    <div className="london-banner-form">
+                    <div className="qatar-banner-form">
                         <form className="form-box" onSubmit={handleSubmit}>
                             <h3 className="form-heading">
                                 Are you ready to start <strong>your project?</strong>
@@ -293,4 +293,4 @@ const QatarBanner = () => {
     );
 };
 
-export default QatarBanner;
+export default BannerQatar;

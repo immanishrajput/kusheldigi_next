@@ -3,7 +3,6 @@ import React from "react";
 import "../globals.css";
 
 import Navbar from "../COMMON/Navbar";
-import QatarBanner from "../ecommerce-development-in-qatar/QatarBanner/page";
 import LogoQatar from "../ecommerce-development-in-qatar/LogoQatar/page";
 import QatarStack from "../ecommerce-development-in-qatar/QatarStack/page";
 import EcommerceExpertise from "../ecommerce-development-in-delhi/EcommerceExpertise/page";
@@ -23,6 +22,7 @@ import Website from "./Home/HomeForm";
 import Footer from "../COMMON/Footer";
 import CallToAction from "../ecommerce-development-in-qatar/CtaQatar/page";
 import BlogSection from "../ecommerce-development-in-qatar/BlogSection/BlogSection";
+import BannerQatar from "../ecommerce-development-in-qatar/BannerQatar/page";
 
 const phoneNumber = "9045301702";
 
@@ -41,8 +41,9 @@ function QatarEcommerce() {
       <div className="ser-main"></div>
 
       <Navbar />
-      
-      <QatarBanner />
+
+      <BannerQatar/>
+
       <LogoQatar/>
       <QatarStack/>
       <EcommerceExpertise/>
