@@ -1,32 +1,38 @@
-"use client"
-import React from 'react'
-import "./belgiummake.css" 
+"use client";
+import React from "react";
+import "./belgiummake.css";
 
 function BelgiumMakeUs() {
-    return (
-      <section className="different1-wrapper">
-        <div className="different1-container">
-          <div className="different1-left">
-            <h2>What makes us different?</h2>
-            <p>
-              Developing an eCommerce website involves various factors, and our
-              professional team can integrate perfect applications based on your
-              business nature. There are different types of eCommerce websites and
-              multiple goals.
-            </p>
-            <p>
-              Our adept team will analyze and incorporate apt programming languages
-              and themes to function the site and create feasibility for users. Our
-              team is well-versed in the latest trends and technologies. The team of
-              Olio Global AdTech is enthusiastic, energetic and constantly focuses on
-              delivering hassle-free services for customers.
-            </p>
-          </div>
-          <div className="different1-right">
-            <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1750762025/online-shopping-concept_oztxuj.png" alt="Business Planning" />
-          </div>
+  return (
+    <section className="different1-wrapper">
+      <div className="different1-container">
+        <div className="different1-left">
+          <h2>What makes us different?</h2>
+          <p>
+            Your online store will be built specifically for your brand with
+            Kushel Digi Solutions because we know that every ecommerce business
+            is different. We prioritize understanding your objectives and target
+            market in order to create a custom ecommerce solution. You can count
+            on us to build an online store for you that is smooth, fast,
+            flexible, and user-first as we expertly guide you on the most
+            suitable platform selection, theme customization, and intelligent
+            payment gateway integration.
+          </p>
+          <p>
+            Our seasoned industry experts utilize cutting-edge technologies to
+            ensure that every online retail platform they design is not only
+            beautiful but also protected, easily manageable as your business
+            grows, and ready to convert customers from the very beginning.
+          </p>
         </div>
-      </section>
-    );
-  }
-  export default BelgiumMakeUs;
+        <div className="different1-right">
+          <img
+            src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1750233792/difference_1_pfr3lr.png"
+            alt="Business Planning"
+          />
+        </div>
+      </div>
+    </section>
+  );
+}
+export default BelgiumMakeUs;

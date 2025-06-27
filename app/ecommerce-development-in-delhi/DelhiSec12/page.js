@@ -47,9 +47,9 @@ function DelhiSec12() {
     <section className="sec---abc">
       <div className="headdd-div">
         <div className="heaaader-content">
-          <h3 className="primary-heading">Looking for Custom E-Commerce Solutions That Scale?</h3>
-          <h6 className="secondary-heading">Whether you're launching your first product or managing a global firm, our tailored ecommerce systems are designed to scale alongside your goals. At KushelDigi, we craft smooth, high-speed online stores that deliver measurable results and sustain growth over time.</h6>
-          <h5>Business models, we deliver for</h5>
+          <h3 className="primary-heading">Need Scalable, Custom E-Commerce Development Services for your Business Model?</h3>
+          <h6 className="secondary-heading">Kushel Digi Solutions provides customized ecommerce solutions that grow with you and give you long-lasting results, whether you're just starting or operating a big business.</h6>
+          {/* <h5>Business models, we deliver for</h5> */}
         </div>
         <div className="linkss">
           <ul>
@@ -65,7 +65,7 @@ function DelhiSec12() {
       <div id="b2c" className="contttent-wrapper">
         <div className="ecom-content">
           <h3 className={activeSection === "b2c" ? "underline" : ""}>B2C</h3>
-          <p>Reach everyday shoppers with clean, flexible, and mobile-ready stores. Our B2C sites emphasize fast load times, high engagement, and clear paths from booking to browsing.</p>
+          <p>Our ecommerce development services assist B2C businesses build online shops that load quickly, work well on mobile devices, have easy navigation, safe payments, and a good chance of turning visitors into customers.</p>
          <a href="#form-section">
          <button className="button-b2" onClick={() => scrollToForm()}>DEVELOP B2C ECOMMERCE</button>
          </a>
@@ -81,7 +81,7 @@ function DelhiSec12() {
         </div>
         <div className="ecom-content">
           <h3 className={activeSection === "b2b" ? "underline" : ""}>B2B</h3>
-          <p>Wholesale and bulk-selling outfits face distinct challenges, and we know it. Our B2B tools streamline bulk pricing, specialized catalogs, and account-specific ordering, so fashion distributors and retailers complete orders quickly and with less fuss.</p>
+          <p>We make ecommerce websites for B2B organizations that make it easier for customers to purchase by adding features like bulk ordering, bespoke pricing, and ERP connections.</p>
         <a href="#form-section">
           <button className="button-b2" onClick={() => scrollToForm()}>DEVELOP B2B ECOMMERCE</button>
           </a>
@@ -90,8 +90,8 @@ function DelhiSec12() {
 
       <div id="multi-vendors" className="contttent-wrapper">
         <div className="ecom-content">
-          <h3 className={activeSection === "multi-vendors" ? "underline" : ""}>Multi Vendors</h3>
-          <p>Want to host several sellers under one roof? We create **multi-vendor marketplaces** that bundle centralized control, safe onboarding, and simple shopping, making them ideal for healthcare goods or medical supplies.</p>
+          <h3 className={activeSection === "multi-vendors" ? "underline" : ""}>Marketplace with Multiple Vendors</h3>
+          <p>With our bespoke ecommerce development, you may start your marketplace with vendor dashboards, commission monitoring, product approval, and safe administration of many sellers.</p>
           <a href="#form-section">
           <button className="button-b2" onClick={() => scrollToForm()}>DEVELOP MULTI-VENDOR ECOMMERCE</button>
           </a>
@@ -107,7 +107,7 @@ function DelhiSec12() {
         </div>
         <div className="ecom-content">
           <h3 className={activeSection === "d2c" ? "underline" : ""}>D2C </h3>
-          <p>Help your brand talk straight to customers and slice through the middleman. Our D2C platforms power tailored shopping journeys, loyalty rewards, and secure checkouts that inspire trust and boost earnings.</p>
+          <p>As a top ecommerce development firm, we help D2C companies connect with consumers directly by creating online stores that are tailored to each customer, can grow with the business, and are designed to get people to buy.</p>
           <a href="#form-section" onClick={() => scrollToForm()}> <button className="button-b2">DEVELOP D2C ECOMMERCE</button> </a>
         </div>
       </div>

@@ -7,12 +7,13 @@
 .process-toggle {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
+
   gap: 35px;
   font-size: 60px;
   font-weight: 700;
   margin-bottom: 20px;
-  width: 1350px;
+  max-width: 1350px;
+  width: 100%;
 }
 
 .process-toggle span {
@@ -36,7 +37,7 @@
 }
 
 .switch.active {
-  background: #0B56E4; 
+  background: #0b56e4;
 }
 
 .switch-circle {
@@ -53,8 +54,9 @@
 
 .switch-circle.right {
   left: 78px;
+  width: 60px !important;
+  height: 60px !important;
 }
-
 
 .process-divider {
   width: 100%;
@@ -64,14 +66,13 @@
   margin: 20px auto 40px;
 }
 
-
 .process-row {
   display: flex;
   gap: 40px;
   align-items: flex-start;
-  justify-content: flex-start; 
+  justify-content: flex-start;
   max-width: 1350px;
-  width: 100%; 
+  width: 100%;
 }
 
 .process-description {
@@ -84,7 +85,7 @@
 
 .process-columns {
   display: flex;
-  flex: 3 1 700px;
+  /* flex: 3 1 700px; */
   gap: 40px;
   flex-wrap: wrap;
 }
@@ -118,7 +119,46 @@
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+  .process-toggle {
+    font-size: 45px;
+    justify-content: center;
+  }
+
+  .process-row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .process-description{
+    flex: 0;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .switch {
+    width: 100px;
+    height: 50px;
+  }
+
+  .switch-circle {
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    left: 8px;
+  }
+
+  .switch-circle.right {
+    left: 60px;
+    height: 30px !important;
+    width: 30px !important;
+  }
+}
+
+/* @media (max-width: 768px) {
   .process-row {
     flex-direction: column;
   }
@@ -129,6 +169,166 @@
   }
 
   .process-description {
+    text-align: center;
     max-width: 100%;
+    margin-bottom: -300px;
+  }
+} */
+
+@media (max-width: 768px) {
+  .process-section {
+    padding: 40px 20px;
+  }
+
+  .process-columns {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px auto;
+    flex-wrap: nowrap;
+  }
+
+  .process-toggle {
+    font-size: 36px;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .switch {
+    width: 100px;
+    height: 50px;
+  }
+
+  .switch-circle {
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    left: 8px;
+  }
+
+  .switch-circle.right {
+    left: 60px;
+    height: 30px !important;
+    width: 30px !important;
+  }
+
+  .process-description {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    /* margin-bottom: -200px; */
+  }
+
+  .process-column {
+    padding-left: 15px;
+    /* border-left: 2px solid rgba(0, 0, 0, 0.1); */
+    height: fit-content;
+  }
+
+  .process-column h4 {
+    font-size: 18px;
+  }
+
+  .process-column li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 640px) {
+  .process-toggle {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .process-toggle {
+    font-size: 28px;
+    gap: 16px;
+  }
+
+  .switch {
+    width: 80px;
+    height: 40px;
+  }
+
+  .switch-circle {
+    width: 24px;
+    height: 24px;
+    top: 8px;
+    left: 6px;
+  }
+
+  .process-columns {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px auto;
+  }
+
+  .switch-circle.right {
+    left: 48px;
+    height: 24px !important;
+    width: 24px !important;
+  }
+
+  .process-description {
+    text-align: center;
+    font-size: 16px;
+    /* margin-bottom: -300px; */
+  }
+
+  .process-column h4 {
+    font-size: 16px;
+  }
+
+  .process-column li {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 375px) {
+  .process-toggle {
+    flex-direction: column;
+    width: 200px;
+    font-size: 28px;
+    gap: 16px;
+  }
+
+  .switch {
+    width: 80px;
+    height: 40px;
+  }
+
+  .switch-circle {
+    width: 24px;
+    height: 24px;
+    top: 8px;
+    left: 6px;
+  }
+
+  .process-columns {
+    padding-top: 30px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .switch-circle.right {
+    left: 48px;
+  }
+
+  .process-description {
+    font-size: 16px;
+  }
+
+  .process-column h4 {
+    font-size: 16px;
+  }
+
+  .process-column li {
+    font-size: 14px;
   }
 }

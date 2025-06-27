@@ -11,7 +11,7 @@ const LondonBanner = () => {
     const [formData, setFormData] = useState({
         name: "",
         email: "",
-        phone: "",
+        // phone: "",
     });
 
     const [firstNo, setFirstNo] = useState(0);
@@ -21,7 +21,6 @@ const LondonBanner = () => {
     const [captchaVerified, setCaptchaVerified] = useState(false);
 
     const router = useRouter();
-
 
     const generateCaptcha = () => {
         const num1 = Math.floor(Math.random() * 10);
@@ -52,7 +51,7 @@ const LondonBanner = () => {
 
     useEffect(() => {
         if (phoneInputRef.current) {
-            intlTelInput(phoneInputRef.current, {
+            const iti = intlTelInput(phoneInputRef.current, {
                 initialCountry: "gb",
                 geoIpLookup: (callback) => {
                     fetch("https://ipapi.co/json")
@@ -63,19 +62,23 @@ const LondonBanner = () => {
                 utilsScript:
                     "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
             });
+
+            // Optional: Store the instance if you ever need to validate
+            phoneInputRef.current._iti = iti;
         }
     }, []);
 
     const [loading, setLoading] = useState(false);
 
     const handleChange = (e) => {
+        e.preventDefault();
         const { name, value } = e.target;
 
         let updatedValue = value;
 
-        if (name === "phone") {
-            updatedValue = value.replace(/[^0-9]/g, "").slice(0, 10);
-        }
+        // if (name === "phone") {
+        //     updatedValue = value.replace(/[^0-9]/g, "").slice(0, 10);
+        // }
 
         if (name === "name") {
             // ✅ Name only alphabets and spaces
@@ -91,9 +94,14 @@ const LondonBanner = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
+        const phone = phoneInputRef.current?.value || "";
+
+        if (!formData.name || !formData.email || !phone) {
+            toast.error("Please fill all the fields!");
+            return;
+        }
         // const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
         const emailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.[a-zA-Z]{2,}$/;
-
 
         if (!emailRegex.test(formData.email)) {
             toast.error("Invalid email address!");
@@ -101,7 +109,7 @@ const LondonBanner = () => {
         }
         if (
             formData.name.trim() === "" ||
-            formData.phone.trim() === "" ||
+            phone.trim() === "" ||
             formData.email.trim() === ""
         ) {
             toast.error("Please fill all the fields!!");
@@ -122,13 +130,17 @@ const LondonBanner = () => {
         setLoading(true);
 
         try {
+            const dataToSend = {
+                ...formData,
+                phone,
+            };
             const response = await fetch("https://backend.kusheldigi.com/contact", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
                     mode: "no-cors",
                 },
-                body: JSON.stringify(formData),
+                body: JSON.stringify(dataToSend),
             });
             const result = await response.json();
             console.log("Result--->>", result);
@@ -142,7 +154,8 @@ const LondonBanner = () => {
             console.error("❌ Error while sending email:", error);
         } finally {
             setLoading(false);
-            setFormData({ name: "", email: "", phone: "" });
+            setFormData({ name: "", email: "" });
+            phoneInputRef.current.value = ""; // reset manually
             generateCaptcha();
         }
     };
@@ -204,12 +217,11 @@ const LondonBanner = () => {
                             <input
                                 type="text"
                                 name="name"
-                                placeholder="Full Name"
+                                placeholder="Full Name*"
                                 className="form-input"
                                 value={formData?.name}
                                 onChange={handleChange}
                                 required
-
                             />
                             <input
                                 type="email"
@@ -226,11 +238,11 @@ const LondonBanner = () => {
                                 <input
                                     type="tel"
                                     name="phone"
-                                    placeholder="Mobile Number"
+                                    placeholder="Mobile Number*"
                                     maxLength={10}
                                     className="form-input phone-input"
-                                    value={formData?.phone}
-                                    onChange={handleChange}
+                                    // value={formData?.phone}
+                                    // onChange={handleChange}
                                     ref={phoneInputRef}
                                     required
                                 />
@@ -253,8 +265,6 @@ const LondonBanner = () => {
                                     Verify Captcha
                                 </span>
                             </div>
-
-
 
                             <div className="mt-btn">
                                 <button

@@ -298,6 +298,14 @@
 }
 
 @media (max-width: 480px) {
+    .belgium-banner-content-wrapper {
+        padding: 0px 10px;
+    }
+
+    .belgium-banner-left {
+        padding: 0;
+    }
+
     .belgium-banner-heading {
         font-size: 26px;
         text-align: center;
@@ -339,6 +347,7 @@
     .belgium-banner-images {
         flex-direction: column;
         align-items: center;
+        padding-bottom: 0;
     }
 }
 

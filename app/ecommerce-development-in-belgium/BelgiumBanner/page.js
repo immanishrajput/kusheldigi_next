@@ -11,7 +11,7 @@ const BelgiumBanner = () => {
     const [formData, setFormData] = useState({
         name: "",
         email: "",
-        phone: "",
+        // phone: "",
     });
 
     const [firstNo, setFirstNo] = useState(0);
@@ -21,7 +21,6 @@ const BelgiumBanner = () => {
     const [captchaVerified, setCaptchaVerified] = useState(false);
 
     const router = useRouter();
-
 
     const generateCaptcha = () => {
         const num1 = Math.floor(Math.random() * 10);
@@ -52,30 +51,34 @@ const BelgiumBanner = () => {
 
     useEffect(() => {
         if (phoneInputRef.current) {
-            intlTelInput(phoneInputRef.current, {
-                initialCountry: "be",
+            const iti = intlTelInput(phoneInputRef.current, {
+                initialCountry: "gb",
                 geoIpLookup: (callback) => {
                     fetch("https://ipapi.co/json")
                         .then((res) => res.json())
                         .then((data) => callback(data.country_code))
-                        .catch(() => callback("be"));
+                        .catch(() => callback("gb"));
                 },
                 utilsScript:
                     "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
             });
+
+            // Optional: Store the instance if you ever need to validate
+            phoneInputRef.current._iti = iti;
         }
     }, []);
 
     const [loading, setLoading] = useState(false);
 
     const handleChange = (e) => {
+        e.preventDefault();
         const { name, value } = e.target;
 
         let updatedValue = value;
 
-        if (name === "phone") {
-            updatedValue = value.replace(/[^0-9]/g, "").slice(0, 10);
-        }
+        // if (name === "phone") {
+        //     updatedValue = value.replace(/[^0-9]/g, "").slice(0, 10);
+        // }
 
         if (name === "name") {
             // ✅ Name only alphabets and spaces
@@ -91,8 +94,14 @@ const BelgiumBanner = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
+        const phone = phoneInputRef.current?.value || "";
+
+        if (!formData.name || !formData.email || !phone) {
+            toast.error("Please fill all the fields!");
+            return;
+        }
         // const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-      const emailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.[a-zA-Z]{2,}$/;
+        const emailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.[a-zA-Z]{2,}$/;
 
         if (!emailRegex.test(formData.email)) {
             toast.error("Invalid email address!");
@@ -100,7 +109,7 @@ const BelgiumBanner = () => {
         }
         if (
             formData.name.trim() === "" ||
-            formData.phone.trim() === "" ||
+            phone.trim() === "" ||
             formData.email.trim() === ""
         ) {
             toast.error("Please fill all the fields!!");
@@ -121,13 +130,17 @@ const BelgiumBanner = () => {
         setLoading(true);
 
         try {
+            const dataToSend = {
+                ...formData,
+                phone,
+            };
             const response = await fetch("https://backend.kusheldigi.com/contact", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
                     mode: "no-cors",
                 },
-                body: JSON.stringify(formData),
+                body: JSON.stringify(dataToSend),
             });
             const result = await response.json();
             console.log("Result--->>", result);
@@ -141,7 +154,8 @@ const BelgiumBanner = () => {
             console.error("❌ Error while sending email:", error);
         } finally {
             setLoading(false);
-            setFormData({ name: "", email: "", phone: "" });
+            setFormData({ name: "", email: "" });
+            phoneInputRef.current.value = ""; // reset manually
             generateCaptcha();
         }
     };
@@ -158,11 +172,12 @@ const BelgiumBanner = () => {
                             <span className="belgium-banner-span">Company in Belgium</span>
                         </h1>
                         <p className="belgium-banner-subtext">
-                            Looking to grow your online business with a trusted ecommerce
-                            development company in belgium? Kushel Digi Solutions specializes
-                            in creating custom, mobile-friendly, and conversion-focused
-                            eCommerce websites. Our solutions are designed to boost your sales
-                            while we handle the tech—so you can focus on your business.
+                            Want to expand your e-commerce business in Belgium? Kushel Digi
+                            Solutions designs bespoke e-commerce websites tailored to your
+                            brand, which are mobile-friendly and boost conversions. As a
+                            leading ecommerce development company in Belgium, we enable
+                            businesses to streamline operations, improve user experience, and
+                            automate for sustainable growth.
                         </p>
                         <div className="belgium-banner-buttons">
                             <button className="belgium-banner-btn-yellow">
@@ -207,7 +222,7 @@ const BelgiumBanner = () => {
                                 className="form-input"
                                 value={formData?.name}
                                 onChange={handleChange}
-                                    required
+                                required
 
                             />
                             <input
@@ -217,7 +232,7 @@ const BelgiumBanner = () => {
                                 className="form-input"
                                 value={formData?.email}
                                 onChange={handleChange}
-                                    required
+                                required
                             />
 
                             <div className="form-phone-wrapper">
@@ -225,11 +240,11 @@ const BelgiumBanner = () => {
                                 <input
                                     type="tel"
                                     name="phone"
-                                    placeholder="Mobile Number"
+                                    placeholder="Mobile Number*"
                                     maxLength={10}
                                     className="form-input phone-input"
-                                    value={formData?.phone}
-                                    onChange={handleChange}
+                                    // value={formData?.phone}
+                                    // onChange={handleChange}
                                     ref={phoneInputRef}
                                     required
                                 />

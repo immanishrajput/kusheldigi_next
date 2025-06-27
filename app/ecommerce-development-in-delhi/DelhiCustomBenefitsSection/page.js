@@ -5,58 +5,58 @@ import './delhicustombenfit.css';
 
 const benefits = [
   {
-    title: "Personalized Shopping Experience",
+    title: "100% Tailored to Your Business",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764190/Mask_group_16_oi6gcy.png",
     description:
-      "With a bespoke ecommerce site, you can line up product suggestions, headlines, and special deals to match what each visitor has already done. The result feels personal, keeps shoppers interested, lifts their happiness, and encourages them to come back.",
+      "Custom ecommerce websites are well suited to your brand, goals, and consumer journey. No pre-made templates are used.",
   },
   {
-    title: " Higher Conversion Rates",
+    title: "Adaptable for Future Expansion",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764189/Mask_group_17_dkxalb.png",
     description:
-      "When the whole store speaks to your target audience and the goals you set, buying feels easy rather than clumsy. Coupled with clear CTAs and tidy paths from browse to checkout, this layout steadily pushes conversion rates north.",
+      "Our ecommerce development services ensure that your website evolves with your business, accommodating more users, products, and traffic over time.",
   },
   {
-    title: "Mobile Responsive",
+    title: "An Intuitive Interface",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764189/Mask_group_18_qwtqbo.png",
     description:
-      "Your shop will resize, reorganize, and run smoothly on every screen, smartphone, tablet, or old-school laptop. That mobile-first polish lets people flip between devices without squinting or swiping forever, making the buy-it-now tap almost automatic.",
+      "We create user-friendly online shops that engage clients, hence reducing bounce rates.",
   },
   {
-    title: "Advanced Analytics",
+    title: "Enhanced Security Features",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_20_ygsgyv.png",
     description:
-      "Built-in reports lay out who is shopping, what they're ignoring, and which campaigns are paying the bills. Measuring live numbers lets you steer stock, tweak offers, and slice revenue faster than waiting on end-of-month emails.",
+      "Custom ecommerce platforms provide the utmost security to safeguard customer data and ensure secure transactions.",
   },
   {
-    title: "Faster Load Times",
+    title: "Accelerated Loading Speeds",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764185/Mask_group_19_lxvran.png",
     description:
-      "Custom code stays lean because we only include what adds value. Pages pop open in a blink, frustrating less, bouncing fewer, and nudging search engines to give your brand a higher seat.",
+      "To enhance client satisfaction and improve SEO rankings, our ecommerce development business ensures that all processes are executed with utmost efficiency.",
   },
   {
-    title: "Secure Payment Gateways",
+    title: "Adaptability in Integration",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_21_ynyqfc.png",
     description:
-      "We link your store to highly regarded, PCI-safe gateways such as Stripe and PayPal. Shoppers know their card data is protected, so they feel at ease and that helps you earn their trust.",
+      "Payment gateways, analytics, CRMs, and ERPs may be effortlessly interconnected via fully customizable options.",
   },
   {
-    title: "Easy Checkout Process",
+    title: "Mobile-First Design",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_22_yyaiul.png",
     description:
-      "A clear, no-fuss checkout cuts cart drop-offs and leaves buyers happy. Since each step can be tailored, customers breeze through the process, and you keep the sale.",
+      "We create ecommerce websites optimized for mobile devices, enhancing sales and engagement.",
   },
   {
-    title: "Third-Party Integrations",
+    title: "SEO-Optimized Structure",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_23_bn1ywe.png",
     description:
-      "Plug your shop into any favorite marketing app, stock tool, CRM, or ERP. Seamless links let you automate routine work, run operations smoothly, and grow without headaches.",
+      "Utilize integrated SEO techniques like as meta tags, optimized URLs, and schema markup to enhance online visibility.",
   },
   {
-    title: "Long-Term Cost Efficiency",
+    title: "Absolute Control and Ownership",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_24_lyevyw.png",
     description:
-      "Custom build-outs may cost more upfront, but they pay you back over time. You dodge endless subscription bills, enjoy full control, and shape a system that scales with your success.",
+      "Engaging in custom ecommerce development gives you complete authority over the code, functionalities, and content of your website. No platform restrictions or concealed expenses exist.",
   },
 ];
   
@@ -67,10 +67,11 @@ export default function DelhiCustomBenefitsSection() {
     <section className="custom-benefits-section">
       <div className="custom-benefits-container">
         <h2 className="custom-benefits-title">
-        What Are the Benefits of Having a Custom <br/> E-Commerce Website?
+        {/* What Are the Benefits of Having a Custom <br/> E-Commerce Website? */}
+        Why Invest in a Custom E-Commerce Website for Your Business?
         </h2>
         <p className="custom-benefits-subtext">
-        Get an ecommerce solution by customizing every aspect of your online store to match your unique business needs.
+        Custom ecommerce development provides your company with complete control, enhanced performance, and sustainable growth tailored to your requirements.
         </p>
 
         <div className="custom-benefits-grid">

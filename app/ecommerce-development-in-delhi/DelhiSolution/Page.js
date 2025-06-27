@@ -9,49 +9,49 @@ const DelhiSolution = () => {
         <section className="left-sectionEcom">
           <h6>Ecommerce Development Agency</h6>
           <h2 className='primary-heading'>
-            Ecommerce Solutions for Higher Conversions and Growth
+            E-Commerce Solutions that Help You Get More Sales and Grow
           </h2>
           <p>
-            Since 2017, Kushel Digi has been delivering Custom Ecommerce Solutions for more than 1000+ clients across globe. We are committed to help your business grow faster.
+            Since 2017, Kushel Digi has helped over 1000 companies across the globe by providing unique ecommerce development services. This has helped businesses expand quicker and smarter.
           </p>
           <Link href="/contact-us"><button>
             Get a Free Consultation Today</button> </Link>
         </section>
         <section className="right-sectionEcom">
           <div className="content-blockEcom">
-            <h3>Custom E-Commerce Solutions</h3>
+            <h3>Design for Conversion</h3>
             <p>
-            Off-the-shelf templates rarely meet real-world needs, so we write each feature for your growth plan, buyer habits, and catalog layout, giving shoppers a smooth, branded path from interest to checkout.
+              We make clean, easy-to-use ecommerce websites that help visitors make rapid judgments and increase the number of people who buy things.
             </p>
           </div>
           <div className="content-blockEcom">
-            <h3>Advanced Tech Integration</h3>
+            <h3>Improved Checkout Experience</h3>
             <p>
-            Whether it's AI recommendations, headless setups, or intelligent search, our engineers reach for proven tools that keep your store fast, flexible, and ready for tomorrow's trends.
+              Our ecommerce development professionals can help you make your checkout experience faster, safer, and easier, which will help you reduce cart abandonment.
             </p>
           </div>
           <div className="content-blockEcom">
-            <h3>Ongoing Support</h3>
+            <h3>Smart Filters and Navigation</h3>
             <p>
-            Go-live is just the start; we monitor speed, apply updates, fix issues, and watch the market with you, so your shop keeps shining while competitors flicker out.
+              With predictive search, dynamic filters, and easy-to-use category layouts, you can help consumers discover what they want quickly.
             </p>
           </div>
           <div className="content-blockEcom">
-            <h3>Mobile-First Design</h3>
+            <h3>Mobile-First Development</h3>
             <p>
-            With phones driving sales, we sketch every page on a small screen first scale up, giving every visitor, thumb or mouse, the same quick, friendly experience.
+              All of our ecommerce development solutions are made with mobile devices in mind, so they work well on smartphones and tablets and get more people involved.
             </p>
           </div>
           <div className="content-blockEcom">
-            <h3>SEO & Speed Optimized</h3>
+            <h3>Scalable Architecture</h3>
             <p>
-            Clean code, smart schema, crisp images, and tiny load times are baked into every build, letting search engines notice you sooner and shoppers leave on the first page.
+              We make ecommerce websites that can easily expand with your company as your products, traffic, and objectives change.
             </p>
           </div>
           <div className="content-blockEcom">
-            <h3>Secure Payment Systems</h3>
+            <h3>Ongoing Support and Optimization</h3>
             <p>
-            We connect Stripe, PayPal, Razorpay, and other secure gateways, turning nervous buyers into loyal fans with fast, safe checkouts that guard their data and your reputation.
+              Our work doesn't stop when we launch. To help your company flourish, we are always working on making things faster, better, and easier to use.
             </p>
           </div>
         </section>
