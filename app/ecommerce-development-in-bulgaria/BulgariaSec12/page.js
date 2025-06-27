@@ -1,8 +1,8 @@
 "use client"
 import React, { useState, useEffect } from "react";
-import './Banner11.css';
+import './londonsec.css';
 
-function Banner12() {
+function BulgariaSec12() {
   const [activeSection, setActiveSection] = useState("");
 
   useEffect(() => {
@@ -47,9 +47,9 @@ function Banner12() {
     <section className="sec---abc">
       <div className="headdd-div">
         <div className="heaaader-content">
-          <h3 className="primary-heading">Expert Ecommerce Solutions for Modern Businesses</h3>
-          <h6 className="secondary-heading">Doesn’t matter whether you're a small business or a large enterprise, our custom ecommerce solutions are designed to grow with you. We believe in delivering seamless, high-performing online stores that drive results.</h6>
-          <h5>Business Models We Deliver For</h5>
+          <h3 className="primary-heading">Looking for Custom E-Commerce Solutions That Scale?</h3>
+          <h6 className="secondary-heading">Whether you're launching your first product or managing a global firm, our tailored ecommerce systems are designed to scale alongside your goals. At KushelDigi, we craft smooth, high-speed online stores that deliver measurable results and sustain growth over time.</h6>
+          <h5>Business models, we deliver for</h5>
         </div>
         <div className="linkss">
           <ul>
@@ -65,7 +65,7 @@ function Banner12() {
       <div id="b2c" className="contttent-wrapper">
         <div className="ecom-content">
           <h3 className={activeSection === "b2c" ? "underline" : ""}>B2C</h3>
-          <p>Our experts at Kushel Digi have long years of experience in designing ecommerce solutions suited for wholesale, bulk ordering, and corporate transactions. We optimize B2B sales channels for higher efficiency.</p>
+          <p>Reach everyday shoppers with clean, flexible, and mobile-ready stores. Our B2C sites emphasize fast load times, high engagement, and clear paths from booking to browsing.</p>
          <a href="#form-section">
          <button className="button-b2" onClick={() => scrollToForm()}>DEVELOP B2C ECOMMERCE</button>
          </a>
@@ -81,7 +81,7 @@ function Banner12() {
         </div>
         <div className="ecom-content">
           <h3 className={activeSection === "b2b" ? "underline" : ""}>B2B</h3>
-          <p>Kushel Digi has expertise to deliver engaging, scalable, and user-friendly ecommerce solutions that connect businesses with end customers. Our team is committed to help brands grow their online presence and boost sales.</p>
+          <p>Wholesale and bulk-selling outfits face distinct challenges, and we know it. Our B2B tools streamline bulk pricing, specialized catalogs, and account-specific ordering, so fashion distributors and retailers complete orders quickly and with less fuss.</p>
         <a href="#form-section">
           <button className="button-b2" onClick={() => scrollToForm()}>DEVELOP B2B ECOMMERCE</button>
           </a>
@@ -91,7 +91,7 @@ function Banner12() {
       <div id="multi-vendors" className="contttent-wrapper">
         <div className="ecom-content">
           <h3 className={activeSection === "multi-vendors" ? "underline" : ""}>Multi Vendors</h3>
-          <p>We have delivered various marketplace solutions that allow multiple sellers to showcase and sell their products on a single platform. We ensure smooth vendor management, secure transactions, and excellent shopping experience for customers.</p>
+          <p>Want to host several sellers under one roof? We create **multi-vendor marketplaces** that bundle centralized control, safe onboarding, and simple shopping, making them ideal for healthcare goods or medical supplies.</p>
           <a href="#form-section">
           <button className="button-b2" onClick={() => scrollToForm()}>DEVELOP MULTI-VENDOR ECOMMERCE</button>
           </a>
@@ -107,7 +107,7 @@ function Banner12() {
         </div>
         <div className="ecom-content">
           <h3 className={activeSection === "d2c" ? "underline" : ""}>D2C </h3>
-          <p>We have been helping brands to establish a direct connection with consumers by removing intermediaries. We create personalized ecommerce experiences to enhance brand loyalty and maximize profit.</p>
+          <p>Help your brand talk straight to customers and slice through the middleman. Our D2C platforms power tailored shopping journeys, loyalty rewards, and secure checkouts that inspire trust and boost earnings.</p>
           <a href="#form-section" onClick={() => scrollToForm()}> <button className="button-b2">DEVELOP D2C ECOMMERCE</button> </a>
         </div>
       </div>
@@ -115,4 +115,4 @@ function Banner12() {
   );
 }
 
-export default Banner12;
+export default BulgariaSec12;
