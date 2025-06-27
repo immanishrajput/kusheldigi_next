@@ -1,151 +1,104 @@
-"use client";
-import React from "react";
-import "./homeBan.css";
+"use client"
+import React from 'react'
+import './homeBan.css'
 // import Link from 'next/link'
-import Image from "next/image";
-import { useRouter } from "next/navigation";
+import Image from 'next/image';
+import { useRouter } from 'next/navigation'
 function Card() {
   const router = useRouter();
   return (
     <section className="platforms">
-      <h3 className="plt-head primary-heading">
-        Delivering Results with Leading E-Commerce Platforms
+      <h3 className="plt-head primary-heading">Delivering Success with the Best Ecommerce Platforms
+
       </h3>
       <p className="plt-para secondary-heading">
-        At Kushel Digi Solutions, we build lightning-fast, secure stores on
-        Shopify, WooCommerce, and Magento, all backed by their vast ecosystems.
-        From custom code to gentle migrations or full-feature upgrades, our
-        developers combine experience and care to deliver exactly what you need.
-        Your store deserves the best, and we are here to deliver it.
+        Our expert team has specialised experience in  top-tier ecommerce technologies to provide seamless migration, custom development, and optimized solutions according to your business needs. Don't settle for less, we will let your brand get the best.
       </p>
       <div className="plt-cards">
+
         <div className="plt-card">
           <div className="plt-logo">
-            <Image
-              width="219"
-              height="50"
-              loading="lazy"
-              // src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/bigcommerce-3_xfn6e6.png'
+            <Image width="219" height="50" loading='lazy'
+              // src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446873/bigcommerce-3_xfn6e6.png'       
               src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742835775/bigcommerce-logo_quhwmf.webp"
-              alt="BigCommerce development services official logo"
-            />
+              alt="BigCommerce development services official logo" />
           </div>
-          <h3>Your Expert BigCommerce Partner</h3>
+          <h3>
+            Certified  BigCommerce Partner Agency
+          </h3>
           <ul className="plt-ul">
-            <li className="plt-li">
-              BigCommerce Store Migration & Replatforming
-            </li>
-            <li className="plt-li">Custom BigCommerce App Development</li>
-            <li className="plt-li">BigCommerce Store Setup & Launch</li>
-            <li className="plt-li"> BigCommerce API Integrations</li>
-            <li className="plt-li">
-              {" "}
-              B2B eCommerce Solutions with BigCommerce
-            </li>
-            <li className="plt-li">D2C eCommerce Solutions with BigCommerce</li>
-            <li className="plt-li">
-              BigCommerce for Regulated & Niche Industries
-            </li>
-            <li className="plt-li">
-              Headless Commerce Development on BigCommerce
-            </li>
-            <li className="plt-li">
-              Full-Service BigCommerce Website Development
-            </li>
-            <li className="plt-li">
-              BigCommerce Development for Healthcare Brands
-            </li>
+            <li className="plt-li"> BigCommerce Replatforming & Migration Services</li>
+            <li className="plt-li"> BigCommerce Custom  App Development</li>
+            <li className="plt-li"> BigCommerce Store Setup & Implementation</li>
+            <li className="plt-li"> BigCommerce API Integration Services</li>
+            <li className="plt-li"> BigCommerce B2B Solutions</li>
+            <li className="plt-li">BigCommerce D2C solutions</li>
+            <li className="plt-li">BigCommerce for Regulated Industries</li>
+            <li className="plt-li"> BigCommerce Headless Commerce Development  </li>
+            <li className="plt-li">BigCommerce Website Development </li>
+            <li className="plt-li">Big Commerce Website development for Healthcare</li>
           </ul>
           {/* <Link href="/bigcommerce-development" className="plt-btn">
           Learn More
         </Link> */}
-          <span
-            onClick={() => router.push("/bigcommerce-development")}
-            className="plt-btn"
-          >
-            Learn More{" "}
-          </span>
+          <span onClick={() => router.push("/bigcommerce-development")} className="plt-btn">Learn More </span>
         </div>
         <div className="plt-card">
           <div className="plt-logo">
-            <Image
-              width="156"
-              height="46"
-              loading="lazy"
+            <Image width="156" height="46" loading='lazy'
+
               src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742835726/shopify-logo_bcrvfv.webp"
-              alt="Shopify development services official logo "
-            />
+              alt="Shopify development services official logo " />
           </div>
-          <h3>Official Shopify Plus Partner Agency</h3>
+          <h3>
+            Certified  Shopify Plus Agency
+          </h3>
           <ul className="plt-ul">
-            <li className="plt-li">
-              Shopify Replatforming & Migration Services{" "}
-            </li>
-            <li className="plt-li">Custom Shopify App Development</li>
-            <li className="plt-li">
-              Shopify Conversion Rate Optimization (CRO)
-            </li>
-            <li className="plt-li">UI/UX Design for Shopify Stores</li>
-            <li className="plt-li">
-              Performance Optimization for Shopify Websites
-            </li>
-            <li className="plt-li">B2B eCommerce Solutions on Shopify</li>
-            <li className="plt-li">D2C Shopify Solutions for Growing Brands</li>
-            <li className="plt-li">Seamless Shopify API Integrations</li>
-            <li className="plt-li">
-              Full-Service Shopify Website Development{" "}
-            </li>
-            <li className="plt-li">
-              Headless Commerce Development with Shopify{" "}
-            </li>
+            <li className="plt-li">Shopify Replatforming & Store Migration </li>
+            <li className="plt-li">Shopify App Development Custom</li>
+            <li className="plt-li">Shopify Conversion Rate Optimization (CRO) </li>
+            <li className="plt-li">UI/UX Design for Shopify Stores </li>
+            <li className="plt-li">Performance Optimization for Shopify Sites</li>
+            <li className="plt-li">Shopify B2B Solutions</li>
+            <li className="plt-li">Shopify D2C Solutions</li>
+            <li className="plt-li">Shopify API Integration</li>
+            <li className="plt-li">Shopify Website Development </li>
+            <li className="plt-li">Shopify Headless Storefront Development </li>
           </ul>
           {/* <Link href="/shopify-development" className="plt-btn">
           Learn More
         </Link> */}
-          <span
-            onClick={() => router.push("/shopify-development")}
-            className="plt-btn"
-          >
-            Learn More{" "}
-          </span>
+          <span onClick={() => router.push("/shopify-development")} className="plt-btn">Learn More </span>
         </div>
         <div className="plt-card">
           <div className="plt-logo">
-            <Image
-              width="156"
-              height="46"
-              loading="lazy"
+            <Image width="156" height="46" loading='lazy'
               // src='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743446905/magento-4_c38yp2.png'
               src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742835726/manish_sir_logo_e3ckbh.png"
-              alt="Magento development services official logo"
-            />
+              alt="Magento development services official logo" />
           </div>
-          <h3>Trusted Magento Development Agency</h3>
+          <h3>
+            Expert  Magento Agency
+          </h3>
           <ul className="plt-ul">
-            <li className="plt-li">Magento Store Replatforming & Migration </li>
-            <li className="plt-li">Custom Magento Theme Design & Build</li>
-            <li className="plt-li">Magento Extension Development Services</li>
-            <li className="plt-li"> B2B eCommerce Development on Magento</li>
-            <li className="plt-li">
-              Magento Integration with Third-Party Tools
-            </li>
-            <li className="plt-li">End-to-End Magento Website Development</li>
-            <li className="plt-li"> Headless Commerce Solutions for Magento</li>
-            <li className="plt-li">Magento D2C Store Setup & Optimization</li>
+            <li className="plt-li">Magento Replatforming & Migration </li>
+            <li className="plt-li"> Custom Magento Theme Design & Development </li>
+            <li className="plt-li"> Magento Extension Development</li>
+            <li className="plt-li"> Magento B2B Store Development</li>
+            <li className="plt-li">Magento Integrations with Third-Party Systems</li>
+            <li className="plt-li">Magento Website Development</li>
+            <li className="plt-li"> Magento Headless Commerce Solutions</li>
+            <li className="plt-li">Magento D2C Store Development</li>
           </ul>
           {/* <Link href="/magento-development" className="plt-btn">
           Learn More
         </Link> */}
-          <span
-            onClick={() => router.push("/magento-development")}
-            className="plt-btn"
-          >
-            Learn More{" "}
-          </span>
+          <span onClick={() => router.push("/magento-development")} className="plt-btn">Learn More </span>
         </div>
       </div>
     </section>
-  );
+
+  )
 }
 
-export default Card;
+export default Card
