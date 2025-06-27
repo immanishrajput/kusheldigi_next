@@ -1,6 +1,6 @@
 // components/Cutting1Section.jsx
-import Image from 'next/image';
-import './cuttingedge.css';
+import Image from "next/image";
+import "./cuttingedge.css";
 
 export default function Cutting1Section() {
   return (
@@ -8,39 +8,33 @@ export default function Cutting1Section() {
       <div className="cutting1-container">
         <div className="cutting1-left">
           <h2>
-            Cutting-Edge Ecommerce<br />
-            Development Services<br />
-            That Drive Performance
+            Boost Your Online Sales with Belgium’s
+            <br />
+            E-Commerce Experts
           </h2>
           <p>
-            As a leading ecommerce development company in belgium we offer
-            comprehensive ecommerce solutions tailored to your business needs.
-            Whether you're launching a new online store or upgrading an existing
-            platform, our team creates scalable, secure, and high-performance ecommerce websites that provide seamless customer experiences and drive sales growth. We leverage the latest technologies and industry best practices to help you succeed in today’s fast-paced digital market.
+            Enhance your online store with our advanced ecommerce development
+            services. We are one of the best ecommerce development companies in
+            Belgium and design bespoke websites that are mobile-friendly, easy
+            to navigate, and efficient. Meeting and exceeding your business
+            objectives is our forte. We help boost sales, optimize processes,
+            and provide an effortless shopping experience. Be it a new store or
+            upgrading an existing one, we equip you with industry solutions to
+            thrive in the ever-evolving digital market.
           </p>
-          <button className="cutting1-btn">Talk to an Expert</button>
+          <button className="cutting1-btn">Let’s Build Your Store</button>
         </div>
 
         <div className="cutting1-right">
-          <div className="cutting1-image-wrapper">
-            <Image
-              src="https://res.cloudinary.com/dal5dlztv/image/upload/v1750328181/Group_1171281511_tenksh.png"
-              alt="Ecommerce Visual"
-              width={500}
-              height={500}
-              className="cutting1-image"
-            />
-            {/* <div className="cutting1-stats">
-              <div>
-                <strong>92%</strong>
-                <p>Project Success</p>
-              </div>
-              <div>
-                <strong>63%</strong>
-                <p>Happy Clients</p>
-              </div>
-            </div> */}
-          </div>
+          <Image
+            src="https://res.cloudinary.com/dal5dlztv/image/upload/v1750328181/Group_1171281511_tenksh.png"
+            alt="Ecommerce Visual"
+            width={500}
+            height={500}
+            className="cutting1-image"
+          />
+          {/* <div className="cutting1-image-wrapper">
+          </div> */}
         </div>
       </div>
     </section>

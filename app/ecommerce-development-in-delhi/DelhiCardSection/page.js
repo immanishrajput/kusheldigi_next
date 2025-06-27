@@ -8,11 +8,9 @@ function DelhiCardSection() {
   const router = useRouter();
   return (
     <section className="platforms">
-      <h3 className="plt-head primary-heading">Delivering Results with Leading E-Commerce Platforms</h3>
+      <h3 className="plt-head primary-heading">Delivering Success with the Best E-Commerce Platforms</h3>
       <p className="plt-para secondary-heading">
-        At KushelDigi Solutions, we build lightning-fast, secure stores on Shopify, WooCommerce, and Magento, all backed by their vast ecosystems.
-        From custom code to gentle migrations or full-feature upgrades, our developers combine experience and care to deliver exactly what you need.
-
+        Kushel Digi Solutions is an expert in making safe, high-performance ecommerce websites using Shopify, WooCommerce, and Magento, which are all trusted across the globe. We provide your online shop with the accuracy, power, and polish it needs.
       </p>
       <div className="plt-cards">
 
@@ -24,7 +22,7 @@ function DelhiCardSection() {
               alt="BigCommerce development services official logo" />
           </div>
           <h3>
-          Your Expert BigCommerce Partner
+            Your Expert BigCommerce Partner
           </h3>
           <ul className="plt-ul">
             <li className="plt-li"> BigCommerce Store Migration & Replatforming</li>
@@ -34,7 +32,7 @@ function DelhiCardSection() {
             <li className="plt-li"> B2B eCommerce Solutions with BigCommerce</li>
             <li className="plt-li"> D2C eCommerce Solutions with BigCommerce</li>
             <li className="plt-li"> BigCommerce for Regulated & Niche Industries</li>
-            <li className="plt-li"> BigCommerce Headless Commerce Development</li>
+            <li className="plt-li"> Headless Commerce Development on BigCommerce</li>
             <li className="plt-li"> Full-Service BigCommerce Website Development</li>
             <li className="plt-li"> BigCommerce Development for Healthcare Brands</li>
           </ul>
@@ -51,7 +49,7 @@ function DelhiCardSection() {
               alt="Shopify development services official logo " />
           </div>
           <h3>
-          Official Shopify Plus Partner Agency
+            Official Shopify Plus Partner Agency
           </h3>
           <ul className="plt-ul">
             <li className="plt-li">Shopify Replatforming & Migration Services</li>
@@ -78,7 +76,7 @@ function DelhiCardSection() {
               alt="Magento development services official logo" />
           </div>
           <h3>
-          Trusted Magento Development Agency
+            Trusted Magento Development Agency
           </h3>
           <ul className="plt-ul">
             <li className="plt-li">Magento Store Replatforming & Migration</li>

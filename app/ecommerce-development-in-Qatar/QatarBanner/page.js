@@ -8,144 +8,157 @@ import { useRouter } from "next/navigation";
 import "./qatar.css";
 
 const QatarBanner = () => {
-    const [formData, setFormData] = useState({
-        name: "",
-        email: "",
-        phone: "",
-    });
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    // phone: "",
+  });
 
-    const [firstNo, setFirstNo] = useState(0);
-    const [secondNo, setSecondNo] = useState(0);
-    const [userAnswer, setUserAnswer] = useState("");
-    const [correctAnswer, setCorrectAnswer] = useState(0);
-    const [captchaVerified, setCaptchaVerified] = useState(false);
+  const [firstNo, setFirstNo] = useState(0);
+  const [secondNo, setSecondNo] = useState(0);
+  const [userAnswer, setUserAnswer] = useState("");
+  const [correctAnswer, setCorrectAnswer] = useState(0);
+  const [captchaVerified, setCaptchaVerified] = useState(false);
 
-    const router = useRouter();
+  const router = useRouter();
 
+  const generateCaptcha = () => {
+    const num1 = Math.floor(Math.random() * 10);
+    const num2 = Math.floor(Math.random() * 10);
+    setFirstNo(num1);
+    setSecondNo(num2);
+    setCorrectAnswer(num1 + num2);
+    setUserAnswer("");
+    setCaptchaVerified(false);
+  };
 
-    const generateCaptcha = () => {
-        const num1 = Math.floor(Math.random() * 10);
-        const num2 = Math.floor(Math.random() * 10);
-        setFirstNo(num1);
-        setSecondNo(num2);
-        setCorrectAnswer(num1 + num2);
-        setUserAnswer("");
-        setCaptchaVerified(false);
-    };
+  useEffect(() => {
+    generateCaptcha();
+  }, []);
 
-    useEffect(() => {
-        generateCaptcha();
-    }, []);
+  const verifyCaptcha = (e) => {
+    e.preventDefault();
+    if (parseInt(userAnswer) !== correctAnswer) {
+      toast.error("Wrong Captcha! Try again.");
+      generateCaptcha();
+      return;
+    }
+    toast.success("Captcha Verified!!");
+    setCaptchaVerified(true);
+  };
 
-    const verifyCaptcha = (e) => {
-        e.preventDefault();
-        if (parseInt(userAnswer) !== correctAnswer) {
-            toast.error("Wrong Captcha! Try again.");
-            generateCaptcha();
-            return;
-        }
-        toast.success("Captcha Verified!!");
-        setCaptchaVerified(true);
-    };
+  const phoneInputRef = useRef(null);
 
-    const phoneInputRef = useRef(null);
+  useEffect(() => {
+    if (phoneInputRef.current) {
+      const iti = intlTelInput(phoneInputRef.current, {
+        initialCountry: "gb",
+        geoIpLookup: (callback) => {
+          fetch("https://ipapi.co/json")
+            .then((res) => res.json())
+            .then((data) => callback(data.country_code))
+            .catch(() => callback("gb"));
+        },
+        utilsScript:
+          "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+      });
 
-    useEffect(() => {
-        if (phoneInputRef.current) {
-            intlTelInput(phoneInputRef.current, {
-                initialCountry: "qa",
-                geoIpLookup: (callback) => {
-                    fetch("https://ipapi.co/json")
-                        .then((res) => res.json())
-                        .then((data) => callback(data.country_code))
-                        .catch(() => callback("qa"));
-                },
-                utilsScript:
-                    "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
-            });
-        }
-    }, []);
+      // Optional: Store the instance if you ever need to validate
+      phoneInputRef.current._iti = iti;
+    }
+  }, []);
 
-    const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(false);
 
-    const handleChange = (e) => {
-        const { name, value } = e.target;
+  const handleChange = (e) => {
+    e.preventDefault();
+    const { name, value } = e.target;
 
-        let updatedValue = value;
+    let updatedValue = value;
 
-        if (name === "phone") {
-            updatedValue = value.replace(/[^0-9]/g, "").slice(0, 10);
-        }
+    // if (name === "phone") {
+    //     updatedValue = value.replace(/[^0-9]/g, "").slice(0, 10);
+    // }
 
-        if (name === "name") {
-            // ✅ Name only alphabets and spaces
-            updatedValue = value.replace(/[^a-zA-Z\s]/g, "");
-        }
+    if (name === "name") {
+      // ✅ Name only alphabets and spaces
+      updatedValue = value.replace(/[^a-zA-Z\s]/g, "");
+    }
 
-        setFormData((prevState) => ({
-            ...prevState,
-            [name]: updatedValue,
-        }));
-    };
+    setFormData((prevState) => ({
+      ...prevState,
+      [name]: updatedValue,
+    }));
+  };
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
+  const handleSubmit = async (e) => {
+    e.preventDefault();
 
-        // const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-      const emailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.[a-zA-Z]{2,}$/;
+    const phone = phoneInputRef.current?.value || "";
+    
+    if (!formData.name || !formData.email || !phone) {
+      toast.error("Please fill all the fields!");
+      return;
+    }
+    // const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.[a-zA-Z]{2,}$/;
 
+    if (!emailRegex.test(formData.email)) {
+      toast.error("Invalid email address!");
+      return;
+    }
+    if (
+      formData.name.trim() === "" ||
+      phone.trim() === "" ||
+      formData.email.trim() === ""
+    ) {
+      toast.error("Please fill all the fields!!");
+      return;
+    }
+    if (!captchaVerified) {
+      toast.error("Please Verify the Captcha!!");
+      generateCaptcha();
+      return;
+    }
+    if (parseInt(userAnswer) !== correctAnswer) {
+      toast.error("Wrong Captcha! Try again.");
+      generateCaptcha();
+      setCaptchaVerified(false);
+      return;
+    }
 
-        if (!emailRegex.test(formData.email)) {
-            toast.error("Invalid email address!");
-            return;
-        }
-        if (
-            formData.name.trim() === "" ||
-            formData.phone.trim() === "" ||
-            formData.email.trim() === ""
-        ) {
-            toast.error("Please fill all the fields!!");
-            return;
-        }
-        if (!captchaVerified) {
-            toast.error("Please Verify the Captcha!!");
-            generateCaptcha();
-            return;
-        }
-        if (parseInt(userAnswer) !== correctAnswer) {
-            toast.error("Wrong Captcha! Try again.");
-            generateCaptcha();
-            setCaptchaVerified(false);
-            return;
-        }
+    setLoading(true);
 
-        setLoading(true);
+    try {
+      const dataToSend = {
+        ...formData,
+        phone,
+      };
+      const response = await fetch("https://backend.kusheldigi.com/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          mode: "no-cors",
+        },
+        body: JSON.stringify(dataToSend),
+      });
+      const result = await response.json();
+      console.log("Result--->>", result);
 
-        try {
-            const response = await fetch("https://backend.kusheldigi.com/contact", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                    mode: "no-cors",
-                },
-                body: JSON.stringify(formData),
-            });
-            const result = await response.json();
-            console.log("Result--->>", result);
-
-            if (response.ok || response.success === true || response.status === 200) {
-                router.push("/success");
-            } else {
-                alert(`❌ Failed to send email: ${result.message || "Unknown error"}`);
-            }
-        } catch (error) {
-            console.error("❌ Error while sending email:", error);
-        } finally {
-            setLoading(false);
-            setFormData({ name: "", email: "", phone: "" });
-            generateCaptcha();
-        }
-    };
+      if (response.ok || response.success === true || response.status === 200) {
+        router.push("/success");
+      } else {
+        alert(`❌ Failed to send email: ${result.message || "Unknown error"}`);
+      }
+    } catch (error) {
+      console.error("❌ Error while sending email:", error);
+    } finally {
+      setLoading(false);
+      setFormData({ name: "", email: "" });
+      phoneInputRef.current.value = ""; // reset manually
+      generateCaptcha();
+    }
+  };
 
     return (
         <section className="london-banner-section">
@@ -208,7 +221,7 @@ const QatarBanner = () => {
                                 className="form-input"
                                 value={formData?.name}
                                 onChange={handleChange}
-                                    required
+                                required
 
                             />
                             <input
@@ -218,19 +231,19 @@ const QatarBanner = () => {
                                 className="form-input"
                                 value={formData?.email}
                                 onChange={handleChange}
-                                    required
+                                required
                             />
 
-                            <div className="form-phone-wrapper">
+                             <div className="form-phone-wrapper">
                                 {/* <span className="form-country-code">(+1)</span> */}
                                 <input
                                     type="tel"
                                     name="phone"
-                                    placeholder="Mobile Number"
+                                    placeholder="Mobile Number*"
                                     maxLength={10}
                                     className="form-input phone-input"
-                                    value={formData?.phone}
-                                    onChange={handleChange}
+                                    // value={formData?.phone}
+                                    // onChange={handleChange}
                                     ref={phoneInputRef}
                                     required
                                 />
@@ -241,7 +254,7 @@ const QatarBanner = () => {
                                     <label htmlFor="ans-captch" className="visually-hidden">
                                         {`${firstNo} + ${secondNo} = `}
                                     </label>
-                                    <input
+                                    <input 
                                         type="number"
                                         value={userAnswer}
                                         onChange={(e) => setUserAnswer(e.target.value)}
