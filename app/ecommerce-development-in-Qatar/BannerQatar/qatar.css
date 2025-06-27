@@ -1,4 +1,4 @@
-.london-banner-section {
+.qatar-banner-section {
     background: url('https://res.cloudinary.com/dbcmdtr3r/image/upload/v1750416918/What-Are-the-Top-10-Tourist-Places-to-Visit-in-Qatar_hnsawm.png');
     position: relative;
     background-position: center;
@@ -7,7 +7,7 @@
     min-height: 500px;
 }
 
-.london-banner-overlay {
+.qatar-banner-overlay {
     background: rgba(0, 0, 0, .7);
     min-height: 580px;
     display: flex;
@@ -16,12 +16,12 @@
     padding: 0 20px;
 }
 
-.london-banner-container {
+.qatar-banner-container {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.london-banner-heading {
+.qatar-banner-heading {
     font-size: 45px;
     font-weight: 800;
     line-height: 1.3;
@@ -31,26 +31,26 @@
 
 }
 
-.london-banner-heading .london-banner-span {
+.qatar-banner-heading .qatar-banner-span {
     color: #fff;
     font-size: 45px !important;
 }
 
-.london-banner-subtext {
+.qatar-banner-subtext {
     font-size: 18px;
     line-height: 1.7;
     padding: 20px 0;
     color: #ddd;
 }
 
-.london-banner-buttons {
+.qatar-banner-buttons {
     display: flex;
     gap: 20px;
     padding: 10px 0px;
 }
 
-.london-banner-btn-yellow,
-.london-banner-btn-outline {
+.qatar-banner-btn-yellow,
+.qatar-banner-btn-outline {
     padding: 12px 28px;
     font-size: 16px;
     font-weight: 600;
@@ -59,31 +59,31 @@
     transition: all 0.3s ease;
 }
 
-.london-banner-btn-yellow {
+.qatar-banner-btn-yellow {
     background-color: #0c61ff;
     color: #fff;
     border: none;
 }
 
-.london-banner-btn-yellow:hover {
+.qatar-banner-btn-yellow:hover {
     background-color: #fff;
     color: #0c61ff;
 }
 
-.london-banner-btn-outline {
+.qatar-banner-btn-outline {
     background-color: transparent;
     color: #fff;
     border: 2px solid #fff;
 }
 
-.london-banner-btn-outline:hover {
+.qatar-banner-btn-outline:hover {
     background-color: #0c61ff;
     color: #fff;
     border-color: #0c61ff;
 }
 
 
-.london-banner-content-wrapper {
+.qatar-banner-content-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -94,12 +94,12 @@
     text-align: left;
 }
 
-.london-banner-left {
+.qatar-banner-left {
     max-width: 785px;
     padding: 55px 0px 0;
 }
 
-.london-banner-form {
+.qatar-banner-form {
     flex: 1;
     max-width: 500px;
     background-color: #fff;
@@ -115,14 +115,14 @@
 
 }
 
-.london-banner-images {
+.qatar-banner-images {
     display: flex;
     justify-content: start;
     padding: 40px 0px;
     gap: 30px;
 }
 
-.london-banner-images img {
+.qatar-banner-images img {
     width: 100%;
     max-width: 150px;
     height: auto;
@@ -219,124 +219,124 @@
 }
 
 @media (max-width: 1024px) {
-    .london-banner-heading {
+    .qatar-banner-heading {
         font-size: 48px;
     }
 
-    .london-banner-heading .london-banner-span {
+    .qatar-banner-heading .qatar-banner-span {
         font-size: 48px !important;
     }
 
-    .london-banner-subtext {
+    .qatar-banner-subtext {
         font-size: 17px;
         max-width: 90%;
     }
 
-    .london-banner-overlay {
+    .qatar-banner-overlay {
         padding: 60px 15px;
         min-height: auto;
     }
 
-    .london-banner-section {
+    .qatar-banner-section {
         min-height: auto;
     }
 
-    .london-banner-content-wrapper {
+    .qatar-banner-content-wrapper {
         flex-direction: column;
         gap: 0px;
         align-items: center;
     }
 
-    .london-banner-form {
+    .qatar-banner-form {
         width: 100%;
         max-width: 500px;
         margin-top: 40px;
     }
 
-    .london-banner-left {
+    .qatar-banner-left {
         text-align: center;
     }
 }
 
 @media (max-width: 768px) {
-    .london-banner-overlay {
+    .qatar-banner-overlay {
         padding: 60px 15px;
         min-height: auto;
     }
 
-    .london-banner-section {
+    .qatar-banner-section {
         min-height: auto;
     }
 
-    .london-banner-heading {
+    .qatar-banner-heading {
         font-size: 34px;
     }
 
-    .london-banner-heading .london-banner-span {
+    .qatar-banner-heading .qatar-banner-span {
         font-size: 34px !important;
     }
 
-    .london-banner-subtext {
+    .qatar-banner-subtext {
         font-size: 16px;
         padding: 16px 0;
     }
 
-    .london-banner-buttons {
+    .qatar-banner-buttons {
         gap: 15px;
     }
 
-    .london-banner-btn-yellow,
-    .london-banner-btn-outline {
+    .qatar-banner-btn-yellow,
+    .qatar-banner-btn-outline {
         width: 100%;
         max-width: 300px;
     }
 
-    .london-banner-clutch {
+    .qatar-banner-clutch {
         flex-direction: column;
         gap: 8px;
     }
 }
 
 @media (max-width: 480px) {
-    .london-banner-heading {
+    .qatar-banner-heading {
         font-size: 26px;
         text-align: center;
     }
 
-    .london-banner-heading .london-banner-span {
+    .qatar-banner-heading .qatar-banner-span {
         font-size: 26px !important;
     }
 
-    .london-banner-subtext {
+    .qatar-banner-subtext {
         font-size: 15px;
         text-align: center;
         padding: 12px 0;
         max-width: 100%;
     }
 
-    .london-banner-overlay {
+    .qatar-banner-overlay {
         padding: 40px 15px;
         min-height: auto;
     }
 
-    .london-banner-buttons {
+    .qatar-banner-buttons {
         gap: 12px;
     }
 
-    .london-banner-btn-yellow,
-    .london-banner-btn-outline {
+    .qatar-banner-btn-yellow,
+    .qatar-banner-btn-outline {
         font-size: 15px;
         padding: 10px 24px;
         width: 60%;
     }
 
-    .london-banner-clutch {
+    .qatar-banner-clutch {
         font-size: 14px;
     }
 }
 
 @media (max-width: 600px) {
-    .london-banner-images {
+    .qatar-banner-images {
         flex-direction: column;
         align-items: center;
     }
@@ -358,7 +358,7 @@
 }
 
 @media (max-width: 400px) {
-    .london-banner-buttons {
+    .qatar-banner-buttons {
         flex-direction: column;
         align-items: center;
     }

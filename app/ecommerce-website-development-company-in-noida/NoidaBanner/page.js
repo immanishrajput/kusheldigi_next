@@ -52,12 +52,12 @@ const NoidaBanner = () => {
     useEffect(() => {
         if (phoneInputRef.current) {
             const iti = intlTelInput(phoneInputRef.current, {
-                initialCountry: "gb",
+                initialCountry: "in",
                 geoIpLookup: (callback) => {
                     fetch("https://ipapi.co/json")
                         .then((res) => res.json())
                         .then((data) => callback(data.country_code))
-                        .catch(() => callback("gb"));
+                        .catch(() => callback("in"));
                 },
                 utilsScript:
                     "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
