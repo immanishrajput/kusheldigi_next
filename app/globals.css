@@ -23539,6 +23539,17 @@ input[type=number] {
     box-shadow: 0 0 3px rgb(0 0 0 / .3)
 }
 
+.loc-nav{
+    position: absolute;
+    z-index: 999;
+    background: #fff;
+    box-shadow: 0 0 3px rgb(0 0 0 / .3) !important;
+    border-radius: 0 2px 2px 2px;
+    top: 4rem;
+    padding: 0;
+    left: -25rem
+}
+
 .ser-nav10 {
     position: fixed;
     z-index: 999;
@@ -50674,6 +50685,16 @@ option {
     font-size: 16px !important;
     font-weight: 400 !important;
     line-height: 48px !important;
+    text-align: left !important;
+    color: #202020 !important
+}
+
+.loc-left span,
+.loc-right span {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 40px !important;
     text-align: left !important;
     color: #202020 !important
 }

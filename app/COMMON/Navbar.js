@@ -202,6 +202,36 @@ const data = [
     navigate: "/blog",
   },
   {
+    title: "Location",
+    // navigate: "/hire",
+    subpart: [
+      {
+        title: "London",
+        navigate: "/ecommerce-development-in-london",
+      },
+      {
+        title: "Bulgaria",
+        navigate: "/ecommerce-development-in-bulgaria",
+      },
+      {
+        title: "Belgium",
+        navigate: "/ecommerce-development-in-belgium",
+      },
+      {
+        title: "Delhi",
+        navigate: "/ecommerce-development-in-delhi",
+      },
+      {
+        title: "Noida",
+        navigate: "/ecommerce-website-development-company-in-noida",
+      },
+      {
+        title: "Qatar",
+        navigate: "/ecommerce-development-in-qatar",
+      },
+    ],
+  },
+  {
     title: "Hire",
     navigate: "/hire",
     subpart: [
@@ -660,6 +690,122 @@ const Navbar = () => {
                       {/* <NavLink className="sar descfont textTransform-navbar" to="/blog">
                         Blogs
                       </NavLink> */}
+                    </div>
+                  </li>
+
+
+                  <li className="mar" style={{ position: "relative" }}>
+                    <div onClick={() => router.push("")} className="flex items-center cursor-pointer nb-0 navLinks">
+                      <p id="hireNav" className="sar descfont textTransform-navbar" to="">
+                          Location
+                      </p>
+                    </div>
+
+                    <div className="loc-nav megaMenu">
+                      <div className="hire-dropmenu-main">
+                        <div className="loc-left">
+                          <div className="dummy">
+                            <Link href="/ecommerce-development-in-london">
+                              <span>London</span>
+                            </Link>
+                          </div>
+                          <div className="dummy">
+                            {" "}
+                            <Link href="/ecommerce-development-in-belgium">
+                              <span>Belgium</span>
+                            </Link>
+                          </div>
+                          <div className="dummy">
+                            {" "}
+                            <Link href="/ecommerce-development-in-delhi">
+                              <span>Delhi</span>
+                            </Link>
+                          </div>
+                          <div className="dummy">
+                            {" "}
+                            <Link href="/ecommerce-website-development-in-noida">
+                              <span>Noida</span>
+                            </Link>
+                          </div>
+                          <div className="dummy">
+                            <Link href="/ecommerce-development-in-bulgaria">
+                              <span>Bulgaria</span>
+                            </Link>
+                          </div>
+                        </div>
+                        <div className="loc-right">
+                          <div className="dummy">
+                            {" "}
+                            <Link href="/ecommerce-development-in-qatar">
+                              <span>Qatar</span>
+                            </Link>
+                          </div>
+                          <div className="dummy">
+                            <Link href="">
+                              <span>London</span>
+                            </Link>
+                          </div>
+                          <div className="dummy">
+                            <Link href="">
+                              <span>London</span>
+                            </Link>
+                          </div>
+                          <div className="dummy">
+                            {" "}
+                            <Link href="">
+                              <span>London</span>
+                            </Link>
+                          </div>
+                        </div>
+                        <div className="loc-right">
+                          <div className="dummy">
+                            {" "}
+                            <Link href="/ecommerce-development-in-qatar">
+                              <span>Qatar</span>
+                            </Link>
+                          </div>
+                          <div className="dummy">
+                            <Link href="/hire/ios-developer">
+                              <span>London</span>
+                            </Link>
+                          </div>
+                          <div className="dummy">
+                            <Link href="/hire/flutter-developer">
+                              <span>London</span>
+                            </Link>
+                          </div>
+                          <div className="dummy">
+                            {" "}
+                            <Link href="/hire/react-native-developer">
+                              <span>London</span>
+                            </Link>
+                          </div>
+                        </div>
+                        <div className="loc-right">
+                          <div className="dummy">
+                            {" "}
+                            <Link href="/hire/android-developer">
+                              <span>Qatar</span>
+                            </Link>
+                          </div>
+                          <div className="dummy">
+                            <Link href="/hire/ios-developer">
+                              <span>London</span>
+                            </Link>
+                          </div>
+                          <div className="dummy">
+                            <Link href="/hire/flutter-developer">
+                              <span>London</span>
+                            </Link>
+                          </div>
+                          <div className="dummy">
+                            {" "}
+                            <Link href="/hire/react-native-developer">
+                              <span>London</span>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </li>
 
