@@ -170,7 +170,7 @@ const ContactUs = () => {
       console.log(result);
 
       if (response.ok || response.success === true || response.status === 200) {
-        navigate.push('/success');
+        navigate.push('/thankyou');
         generateCaptcha();
       } else {
         toast.error(JSON.stringify(response), "Unknown error");

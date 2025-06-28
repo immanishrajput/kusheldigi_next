@@ -183,7 +183,7 @@
   } */
 
   .view-button {
-    left: 78%;
+    left: 84%;
     padding: 4px 6px;
     font-size: 11px;
   }
@@ -198,7 +198,7 @@
 @media screen and (max-width: 385px) {
   .view-button1 {
     width: 30px;
-    height: 25px;
+    height: 26px;
     left: 95%;
     padding: 0px;
   }

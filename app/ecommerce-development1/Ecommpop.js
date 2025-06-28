@@ -221,7 +221,7 @@ maxLength="45"
   required
 />
                       <hr />
-                 <a href='/success'> <button><span>Submit</span><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                 <a href='/thankyou'> <button><span>Submit</span><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                         <path d="M8.46817 16.883L7.04466 15.4803L12.6388 9.86957H0.476562V7.86573H12.6388L7.04466 2.25498L8.46817 0.852295L16.4598 8.86765L8.46817 16.883Z" fill="white" />
                       </svg></button> </a> 
                       {message && (

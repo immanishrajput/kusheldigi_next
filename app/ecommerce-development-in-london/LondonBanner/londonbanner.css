@@ -221,24 +221,36 @@
 @media (max-width: 1024px) {
     .london-banner-heading {
         font-size: 48px;
+        text-align: center;
+
     }
 
     .london-banner-heading .london-banner-span {
         font-size: 48px !important;
+        text-align: center;
+
     }
 
     .london-banner-subtext {
         font-size: 17px;
-        max-width: 90%;
+        /* max-width: 90%; */
+        text-align: center;
+
     }
 
     .london-banner-overlay {
         padding: 60px 15px;
         min-height: auto;
+        text-align: center;
+
     }
 
     .london-banner-section {
         min-height: auto;
+    }
+
+    .london-banner-buttons , .london-banner-images {
+        justify-content: center;
     }
 
     .london-banner-content-wrapper {
@@ -249,12 +261,13 @@
 
     .london-banner-form {
         width: 100%;
-        max-width: 500px;
+        max-width: 600px;
         margin-top: 40px;
     }
 
     .london-banner-left {
-        text-align: center;
+        padding-top: 20px;
+        max-width: 100%;
     }
 }
 
@@ -335,7 +348,7 @@
     .london-banner-btn-outline {
         font-size: 15px;
         padding: 10px 24px;
-        width: 60%;
+        width: 70%;
     }
 
     .london-banner-clutch {
@@ -363,6 +376,7 @@
 
     .form-input {
         font-size: 13px;
+        width: 250px;
     }
 }
 

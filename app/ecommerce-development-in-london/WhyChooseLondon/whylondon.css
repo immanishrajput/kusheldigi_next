@@ -40,7 +40,6 @@
   background-color: #1253f8;
   color: #fff;
   border: 1px solid #0051ff;
-
   border-radius: 32px;
   cursor: pointer;
   transition: background 0.3s ease;
@@ -117,7 +116,8 @@
   line-height: 1.6;
 }
 
-@media (max-width: 1200px) {
+/* ========== RESPONSIVE STYLES ========== */
+@media (max-width: 1024px) {
   .why-choose-container {
     flex-direction: column;
   }
@@ -125,6 +125,7 @@
   .why-choose-left {
     position: relative;
     top: 0;
+    padding-bottom: 30px;
   }
 
   .why-choose-right {
@@ -133,5 +134,124 @@
 
   .vertical-line {
     left: 24px;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .why-choose-section {
+    padding: 60px 30px;
+  }
+
+  .why-choose-left h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .why-choose-left p {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .talk-btn {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .step-icon {
+    width: 50px;
+    height: 42px;
+    margin-right: 16px;
+  }
+
+  .step-icon img {
+    width: 50px;
+    height: 46px;
+  }
+
+  .step-content {
+    padding: 14px 16px;
+  }
+
+  .step-content h4 {
+    font-size: 18px;
+  }
+
+  .step-content p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .why-choose-section {
+    padding: 50px 20px;
+  }
+
+  .step-icon {
+    width: 42px;
+    height: 38px;
+  }
+
+  .step-icon img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .step-content h4 {
+    font-size: 16px;
+  }
+
+  .step-content p {
+    font-size: 13px;
+  }
+
+  .vertical-line {
+    left: 18px;
+  }
+}
+
+@media (max-width: 360px) {
+  .why-choose-left h2 {
+    font-size: 22px;
+  }
+
+  .why-choose-left p {
+    font-size: 14px;
+  }
+
+  .step-content {
+    padding: 12px 14px;
+  }
+
+  .step-content p {
+    font-size: 12.5px;
+  }
+
+  .talk-btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .why-choose-left h2 {
+    font-size: 20px;
+  }
+
+  .why-choose-left p {
+    font-size: 13px;
+  }
+
+  .step-content {
+    padding: 10px 12px;
+  }
+
+  .step-content p {
+    font-size: 12px;
+  }
+
+  .talk-btn {
+    font-size: 13px;
+    padding: 8px 16px;
   }
 }

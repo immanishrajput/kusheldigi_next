@@ -79,7 +79,7 @@ const ContactForm1 = ({ notify }) => {
         setLoading(true);
 
         setTimeout(() => {
-            router.push("/success");
+            router.push("/thankyou");
             setLoading(false);
         }, 1500);
 

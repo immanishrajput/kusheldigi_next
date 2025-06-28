@@ -49,7 +49,7 @@ const ContactForm = ({ notify }) => {
 
         setTimeout(() => {
           setShowPopup(false); // Hide popup after 2 seconds
-          router.push("/success");
+          router.push("/thankyou");
         }, 1000);
       } else {
         alert(data.message || "Submission failed");
@@ -63,7 +63,7 @@ const ContactForm = ({ notify }) => {
 
   //   setTimeout(() => {
   //     //  notify("success" , "Successfully Submitted");
-  //     navigate("/success");
+  //     navigate("/thankyou");
   //     setloading(false);
   //   }, 1500)
   //   const res = await fetch("https://backend.kusheldigi.com/contact2", {

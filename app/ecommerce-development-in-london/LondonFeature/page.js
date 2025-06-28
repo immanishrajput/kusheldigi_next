@@ -2,6 +2,16 @@
 import React from 'react'
 import './londonfeat.css';
 
+
+const scrollToFormHome = () => {
+        const formSection = document.getElementById('form-section');
+        if (formSection) {
+            const yOffset = -120;
+            const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+            window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+    };
+
  function EcommerceFeatures() {
   return (
     <section className="ecom-section">
@@ -21,7 +31,7 @@ import './londonfeat.css';
         </div>
 
         <div className="ecom-buttons">
-          <button className="connect-btn">Request a No-Cost Audit</button>
+          <button onClick={scrollToFormHome} className="connect-btn">Request a No-Cost Audit</button>
           {/* <button className="demo-btn">Schedule a Demo</button> */}
         </div>
       </div>

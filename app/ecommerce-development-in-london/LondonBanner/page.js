@@ -6,6 +6,7 @@ import { toast } from "react-toastify";
 import { useRouter } from "next/navigation";
 
 import "./londonbanner.css";
+import { Navigate } from "react-router-dom";
 
 const LondonBanner = () => {
     const [formData, setFormData] = useState({
@@ -146,7 +147,7 @@ const LondonBanner = () => {
             console.log("Result--->>", result);
 
             if (response.ok || response.success === true || response.status === 200) {
-                router.push("/success");
+                router.push("/thankyou");
             } else {
                 alert(`❌ Failed to send email: ${result.message || "Unknown error"}`);
             }
@@ -157,6 +158,18 @@ const LondonBanner = () => {
             setFormData({ name: "", email: "" });
             phoneInputRef.current.value = ""; // reset manually
             generateCaptcha();
+        }
+    };
+
+
+    const navigate = useRouter();
+
+    const scrollToFormHome = () => {
+        const formSection = document.getElementById('form-section');
+        if (formSection) {
+            const yOffset = -120;
+            const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+            window.scrollTo({ top: y, behavior: 'smooth' });
         }
     };
 
@@ -179,12 +192,24 @@ const LondonBanner = () => {
                             while we handle the tech—so you can focus on your business.
                         </p>
                         <div className="london-banner-buttons">
-                            <button className="london-banner-btn-yellow">
+                            {/* <button className="london-banner-btn-yellow">
+                                Get a Free Consultation
+                            </button> */}
+                            <button onClick={scrollToFormHome} className="london-banner-btn-yellow">
                                 Get a Free Consultation
                             </button>
-                            <button className="london-banner-btn-outline">
+                            <button
+                                onClick={() =>
+                                    window.open(
+                                        'https://calendly.com/shubham-goq0/sales-discovery-call?month=2025-06&utm_source=Email&utm_medium=email&utm_campaign=Chalendly',
+                                        '_blank'
+                                    )
+                                }
+                                className="london-banner-btn-outline"
+                            >
                                 Schedule a Demo
                             </button>
+
                         </div>
 
                         <div className="london-banner-images">
