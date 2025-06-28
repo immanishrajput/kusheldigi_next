@@ -1,6 +1,8 @@
 'use client';
 import React from 'react';
 import './ecomserv.css';
+import { HiArrowSmallRight } from "react-icons/hi2";
+
 
 const features = [
   {
@@ -59,11 +61,20 @@ const features = [
   }
 ];
 
+ const scrollToFormHome = () => {
+        const formSection = document.getElementById('form-section');
+        if (formSection) {
+            const yOffset = -120;
+            const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+            window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+    };
+
 const EcommerceServices = () => {
   return (
-   <section className="ecom-london-section">
-      <h3 className="ecom-london-title">What Makes Our E-Commerce Services Stand Out</h3> 
-      
+    <section className="ecom-london-section">
+      <h3 className="ecom-london-title">What Makes Our E-Commerce Services Stand Out</h3>
+
       <div className="ecom-london-grid-wrapper">
         <div className="ecom-london-grid">
           {features.map((feature, index) => (
@@ -79,8 +90,13 @@ const EcommerceServices = () => {
       </div>
 
       <div className="ecom-london-buttons">
-        <button className="ecom-btn">Book a Call</button>
-        <button className="ecom-btn secondary">Request an Audit</button>
+        <button className="ecom-btn primary">Book a Call
+          {/* Book a Call <HiArrowSmallRight /> */}
+        </button>
+        {/* <button className="ecom-btn secondary">Request an Audit</button> */}
+        <button onClick={scrollToFormHome} className="ecom-btn secondary">
+          Request an Audit
+        </button>
       </div>
     </section>
   );

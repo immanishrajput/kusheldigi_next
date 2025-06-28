@@ -2,6 +2,7 @@
 
 import React from "react";
 import "./LondonSectionCss.css";
+import { useRouter } from "next/navigation";
 
 const steps = [
   {
@@ -54,11 +55,16 @@ const steps = [
   },
 ];
 
+
+
 export default function Londonecomproc1() {
+
+const navigate = useRouter();
+
   return (
     <section className="londonecomproc1-section">
       <h2 className="londonecomproc1-heading">
-      How Do We Build High-Performing <br/> E-Commerce Websites?
+        How Do We Build High-Performing <br /> E-Commerce Websites?
       </h2>
       <div className="londonecomproc1-grid">
         {steps.map((step, i) => (
@@ -69,7 +75,10 @@ export default function Londonecomproc1() {
           </div>
         ))}
       </div>
-      <button className="londonecomproc1-connect-btn">Start Your E-Commerce Journey</button>
+      {/* <button className="londonecomproc1-connect-btn">Start Your E-Commerce Journey</button> */}
+      <button onClick={() => navigate.push('/contact-us')} className="londonecomproc1-connect-btn">
+        Start Your E-Commerce Journey
+      </button>
     </section>
   );
 }

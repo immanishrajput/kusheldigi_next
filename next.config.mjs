@@ -234,6 +234,11 @@ const nextConfig = {
         source: '/nodejs-developer',
         destination: '/node-js-developer',
         permanent: true,
+      },
+      {
+        source: '/success',
+        destination: '/thankyou',
+        permanent: true,
       }
     ];
   },

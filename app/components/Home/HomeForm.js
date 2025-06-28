@@ -112,7 +112,7 @@ const
         console.log(result);
 
         if (response.ok || response.status === 200 || response.success === true) {
-          navigate.push('/success');
+          navigate.push('/thankyou');
           generateCaptcha();
         } else {
           alert(JSON.stringify(response), "Unknown error");

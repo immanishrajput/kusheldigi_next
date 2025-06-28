@@ -134,7 +134,7 @@ const Popup = () => {
       console.log("Result--->>", result);
 
       if (response.ok) {
-        router.push("/success");
+        router.push("/thankyou");
       } else {
         alert(`❌ Failed to send email: ${result.message || "Unknown error"}`);
       }

@@ -248,11 +248,11 @@ body {
 
 @media (max-width:410px) {
   .contact-input {
-    width: 75%;
+    width: 86% !important;
   }
 
   #homePhoneDiv>.react-tel-input {
-    width: 75% !important;
+    width: 86% !important;
   }
 }
 

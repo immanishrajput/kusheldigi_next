@@ -35,6 +35,15 @@ const steps = [
   },
 ];
 
+const scrollToFormHome = () => {
+        const formSection = document.getElementById('form-section');
+        if (formSection) {
+            const yOffset = -120;
+            const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+            window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+    };
+
 const WhyChooseLondon = () => {
   return (
     <section className="why-choose-section">
@@ -44,7 +53,7 @@ const WhyChooseLondon = () => {
           <h2>Why Choose Kushel Digi for <br/> E-Commerce Development?</h2>
           <p>We at KushalDigi create websites that make sales from day one. We help companies succeed in a competitive market by focusing on performance, design, and user experience.
 </p>
-          <button className="talk-btn">Talk to Our Experts Today</button>
+          <button onClick={scrollToFormHome} className="talk-btn">Talk to Our Experts Today</button>
         </div>
 
         {/* Right side */}
