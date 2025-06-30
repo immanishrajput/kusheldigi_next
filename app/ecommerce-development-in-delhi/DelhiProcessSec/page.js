@@ -1,3 +1,4 @@
+"use client"
 import React, { useEffect, useRef, useState } from "react";
 import "./delhiprocess.css";
 
@@ -98,9 +99,8 @@ const OurProcessSection = () => {
             <h2 className="our-process-heading">Our Process</h2>
           </div>
 
-          <div className={`process-content ${
-    window.innerWidth <= 768 ? "scroll-snap-container" : ""
-  }`}>
+          <div className={`process-content ${window.innerWidth <= 768 ? "scroll-snap-container" : ""
+            }`}>
             {steps.map((step, index) => (
               <div
                 className={`timeline-wrapper ${index === activeIndex ? "active" : ""}`}
