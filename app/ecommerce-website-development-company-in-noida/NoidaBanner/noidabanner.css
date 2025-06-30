@@ -71,9 +71,9 @@
 }
 
 .noida-banner-btn-outline {
-    background-color: transparent;
-    color: #fff;
-    border: 2px solid #fff;
+    background-color: #fff;
+    color: #0c61ff;
+    border: 1px solid #0c61ff;
 }
 
 .noida-banner-btn-outline:hover {

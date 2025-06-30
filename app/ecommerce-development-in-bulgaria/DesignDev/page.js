@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import "./design.css";
 
 const designData = {
-  paragraph: `At Kushel Digi Solutions, we do not only engage in design; rather, we develop experiences. With over 15 years of experience in the industry, we have developed a streamlined and effective design process where every critical detail is captured from the wireframe stage to the final delivery.`,
+  paragraph: `At Kushel Digi Solutions, we do not only engage in design; rather, we develop experiences. With over 15 years of experience in the industry, we have developed a streamlined and effective design ecom-process where every critical detail is captured from the wireframe stage to the final delivery.`,
   columns: [
     {
       title: "UX Research",
@@ -29,7 +29,7 @@ const designData = {
 };
 
 const developmentData = {
-  paragraph: `Our development process emphasizes quality and clean architecture, so the code is always scalable. We observe industry best practices during testing phases and ongoing maintenance tasks.`,
+  paragraph: `Our development ecom-process emphasizes quality and clean architecture, so the code is always scalable. We observe industry best practices during testing phases and ongoing maintenance tasks.`,
   columns: [
     {
       title: "ARCHITECTURE",
@@ -59,8 +59,8 @@ const DesignDevelopment = () => {
   const current = active === "design" ? designData : developmentData;
 
   return (
-    <section className="process-section">
-      <div className="process-toggle">
+    <section className="ecom-process-section">
+      <div className="ecom-process-toggle">
         <span
           className={active === "design" ? "active" : ""}
           onClick={() => setActive("design")}
@@ -88,14 +88,14 @@ const DesignDevelopment = () => {
         </span>
       </div>
 
-      <div className="process-divider"></div>
+      <div className="ecom-process-divider"></div>
 
-      <div className="process-row">
-        <div className="process-description">{current.paragraph}</div>
+      <div className="ecom-process-row">
+        <div className="ecom-process-description">{current.paragraph}</div>
 
-        <div className="process-columns">
+        <div className="ecom-process-columns">
           {current.columns.map((col, i) => (
-            <div className="process-column" key={i}>
+            <div className="ecom-process-column" key={i}>
               <h4>{col.title}</h4>
               <ul>
                 {col.items.map((item, idx) => (

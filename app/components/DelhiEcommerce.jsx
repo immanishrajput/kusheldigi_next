@@ -1,6 +1,6 @@
 "use client"
 
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../globals.css'
 import Navbar from '../COMMON/Navbar'
 import DelhiBanner from '../ecommerce-development-in-delhi/DelhiBanner/page'
@@ -28,7 +28,36 @@ import CallToAction from '../ecommerce-development-in-delhi/CtaDelhi/page'
 import BlogSection from '../ecommerce-development-in-delhi/BlogSection/BlogSection'
 
 
+const phoneNumber = "9045301702";
+
+const whatAppHandler = () => {
+    const whatsappUrl = `https://wa.me/${phoneNumber}`;
+    window.open(whatsappUrl, "_blank");
+};
+const callHandler = () => {
+    const callUrl = `tel:${phoneNumber}`;
+    window.open(callUrl, "_blank");
+}
+
 const DelhiEcommerce = () => {
+
+const generateMetadata = ({ params }) => {
+    return {
+      title: 'eCommerce Website Development Company in Delhi | Kushel Digi',
+      description: 'Looking for ecommerce website development in Delhi? Kushel Digi builds secure, scalable, and custom ecommerce websites to grow your online business effectively.',
+      metadataBase: new URL(`https://www.kusheldigi.com/`),
+    }
+  };
+
+  useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+
+    metaDescription ? metaDescription.content = description :
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
+
     return (
         <div>
             <div className='ser-main'></div>
@@ -57,6 +86,16 @@ const DelhiEcommerce = () => {
             <DelhiFAQ/>
             <Website/>
             <Footer/>
+
+            <div className="whtsApBtns">
+                <button onClick={whatAppHandler}>
+                    <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+                </button>
+                <button onClick={callHandler}>
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480725/telephone_h8clxy.png' alt="call-icon" title="call-icon" />
+                </button>
+
+            </div>
 
             
         </div>

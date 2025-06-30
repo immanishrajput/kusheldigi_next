@@ -226,6 +226,10 @@ const data = [
         navigate: "/ecommerce-website-development-company-in-noida",
       },
       {
+        title: "Denmark",
+        navigate: "/ecommerce-development-in-denmark",
+      },
+      {
         title: "Qatar",
         navigate: "/ecommerce-development-in-qatar",
       },
@@ -316,6 +320,7 @@ const Navbar = () => {
 
   return (
     <>
+    <nav>
       <div id="foou">
         <div id="header1" className="overflow-auto w-full">
           <div className="header1-main">
@@ -723,7 +728,7 @@ const Navbar = () => {
                           </div>
                           <div className="dummy">
                             {" "}
-                            <Link href="/ecommerce-website-development-in-noida">
+                            <Link href="/ecommerce-website-development-company-in-noida">
                               <span>Noida</span>
                             </Link>
                           </div>
@@ -741,8 +746,8 @@ const Navbar = () => {
                             </Link>
                           </div>
                           <div className="dummy">
-                            <Link href="">
-                              <span>London</span>
+                            <Link href="/ecommerce-development-in-denmark">
+                              <span>Denmark</span>
                             </Link>
                           </div>
                           <div className="dummy">
@@ -998,6 +1003,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+    </nav>
     </>
   );
 };

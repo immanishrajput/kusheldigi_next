@@ -756,7 +756,7 @@ strong {
 
 @media (max-width:450px) {
   .services-we-served .section-grid .section-grid-item .services-box-item .services-box-title {
-    font-size: 14px;
+    font-size: 16px;
     width: 200px;
   }
 }
@@ -867,7 +867,7 @@ strong {
       padding: 0px 1.25rem !important;
     } */
   .services-we-served .section-grid .section-grid-item .services-box-list-nav>li h4 {
-    font-size: medium;
+    font-size: 14px;
     line-height: normal;
     margin: 0px;
   }
@@ -958,7 +958,7 @@ strong {
 
 @media (max-width:375px) {
   .services-we-served .section-grid .section-grid-item .services-box-item .services-box-title {
-    font-size: 14px;
+    font-size: 16px;
     width: 150px;
   }
 }

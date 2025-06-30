@@ -28,6 +28,17 @@ import LondonCardSection from '../ecommerce-development-in-london/LondonCardSect
 import BlogSection from '../ecommerce-development-in-london/BlogSection/BlogSection'
 
 
+const phoneNumber = "9045301702";
+
+const whatAppHandler = () => {
+    const whatsappUrl = `https://wa.me/${phoneNumber}`;
+    window.open(whatsappUrl, "_blank");
+};
+const callHandler = () => {
+    const callUrl = `tel:${phoneNumber}`;
+    window.open(callUrl, "_blank");
+}
+
 const Page = () => {
 
 const generateMetadata = ({ params }) => {
@@ -73,6 +84,17 @@ const generateMetadata = ({ params }) => {
             <LondonFAQ/>
             <Website/>
             <Footer />
+
+
+            <div className="whtsApBtns">
+                <button onClick={whatAppHandler}>
+                    <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+                </button>
+                <button onClick={callHandler}>
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480725/telephone_h8clxy.png' alt="call-icon" title="call-icon" />
+                </button>
+
+            </div>
         </div>
     )
 }

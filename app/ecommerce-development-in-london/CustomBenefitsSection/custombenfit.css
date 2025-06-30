@@ -2,7 +2,7 @@
 .custom-benefits-section {
   background: #f7f7f7;
   padding: 60px 20px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .custom-benefits-container {
@@ -43,10 +43,10 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  overflow-y: auto;
-  height: 500px;
-  scroll-snap-type: y mandatory;
-  scrollbar-width: thin;
+  /* overflow-y: auto; */
+  height: 660px;
+  /* scroll-snap-type: y mandatory; */
+  /* scrollbar-width: thin; */
   position: relative;
 }
 
@@ -93,12 +93,12 @@
   z-index: 1;
 }
 
-
-
 /* Right Card */
 .custom-benefits-content {
   flex: 1;
   max-width: 600px;
+  position: sticky;
+  top: 225px;
 }
 
 .custom-benefits-card {
@@ -111,9 +111,14 @@
 }
 
 .custom-benefits-icon {
-  font-size: 2rem;
   margin-bottom: 1rem;
-  color: #2d5eff;
+}
+
+.custom-benefits-img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  display: block;
 }
 
 .custom-benefits-card h3 {
@@ -130,7 +135,8 @@
   line-height: 1.7;
 }
 
-@media (max-width: 768px) {
+
+@media (max-width: 700px) {
   .custom-benefits-grid {
     flex-direction: column;
     align-items: center;
@@ -147,9 +153,6 @@
 }
 
 @media (max-width: 480px) {
-  .custom-benefits-item {
-    font-size: 16px;
-  }
   .custom-benefits-title {
     font-size: 1.75rem;
   }
@@ -165,4 +168,10 @@
   .custom-benefits-card p {
     font-size: 0.95rem;
   }
+}
+
+@media (max-width: 425px) {
+.custom-benefits-item{
+  font-size: 19.1px;
+}
 }

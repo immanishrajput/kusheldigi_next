@@ -1,7 +1,6 @@
 "use client"
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../globals.css'
-
 
 import Navbar from '../COMMON/Navbar';
 import Footer from '../COMMON/Footer';
@@ -18,8 +17,6 @@ import BelgiumMakeUs from '../ecommerce-development-in-belgium/BelgiumMakeUs/pag
 import Website from './Home/HomeForm';
 import Banner3 from '../ecommerce-development/Banner3/Page';
 import HomeCardSection from '../components/Home/HomeCardSection'
-import HomeSecCard from '../components/Home/HomeSecCard'
-
 import UseAccorrodian from '../COMMON/UseAccorrodian'
 import Banner12 from '../ecommerce-development/Banner11/page';
 import LondonSecSlider from '../ecommerce-development-in-london/LondonSecSlider/page';
@@ -39,6 +36,24 @@ const callHandler = () => {
     window.open(callUrl, "_blank");
 }
 function EcommerceBelgium() {
+
+const generateMetadata = ({ params }) => {
+    return {
+      title: 'eCommerce Website Development Company in Belgium',
+      description: 'Get expert ecommerce website development in Belgium. Kushel Digi offers scalable, secure, and tailored ecommerce solutions for your business growth.',
+      metadataBase: new URL(`https://www.kusheldigi.com/`),
+    }
+  };
+
+  useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+
+    metaDescription ? metaDescription.content = description :
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
+
     return (
         <div>
             <div className='ser-main'></div>
@@ -63,9 +78,9 @@ function EcommerceBelgium() {
             <Banner12/>
              <CustomBenefitsSection/>
             <Banner3/>
-            {/* <Banner11/> */}
             <BlogSection/>
             <UseAccorrodian/>
+
 
             <Website/>
             <Footer />

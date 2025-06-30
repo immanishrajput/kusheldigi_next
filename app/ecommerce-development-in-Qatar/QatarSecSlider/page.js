@@ -58,7 +58,7 @@ function QatarSecSlider() {
 
   return (
     <section className="case-study-section">
-      <h1>Case studies</h1>
+      <div className="case-studies-heading">Case studies</div>
       <p>Our Works Speaks for themselves</p>
       <div>
         <p className="hrline"></p>

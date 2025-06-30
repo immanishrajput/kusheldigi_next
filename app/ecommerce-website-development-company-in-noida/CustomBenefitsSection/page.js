@@ -62,6 +62,7 @@ const benefits = [
 
 export default function CustomBenefitsSection() {
   const [activeIndex, setActiveIndex] = useState(0);
+  
 
   return (
     <section className="custom-benefits-section">

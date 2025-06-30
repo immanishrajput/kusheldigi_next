@@ -1,13 +1,11 @@
-.process-section {
+.ecom-process-section {
   background: #fff;
-  padding: 60px 40px;
-  font-family: sans-serif;
+  padding: 60px 60px;
 }
 
-.process-toggle {
+.ecom-process-toggle {
   display: flex;
   align-items: center;
-
   gap: 35px;
   font-size: 60px;
   font-weight: 700;
@@ -16,13 +14,13 @@
   width: 100%;
 }
 
-.process-toggle span {
+.ecom-process-toggle span {
   cursor: pointer;
   color: #ccc;
   transition: 0.3s;
 }
 
-.process-toggle span.active {
+.ecom-process-toggle span.active {
   color: #000;
 }
 
@@ -58,15 +56,15 @@
   height: 60px !important;
 }
 
-.process-divider {
+.ecom-process-divider {
   width: 100%;
-  max-width: 1350px;
+  max-width: 1720px;
   height: 1px;
   background: rgba(0, 0, 0, 1);
   margin: 20px auto 40px;
 }
 
-.process-row {
+.ecom-process-row {
   display: flex;
   gap: 40px;
   align-items: flex-start;
@@ -75,7 +73,7 @@
   width: 100%;
 }
 
-.process-description {
+.ecom-process-description {
   flex: 1 1 400px;
   font-size: 20px;
   color: #333;
@@ -83,20 +81,20 @@
   line-height: 1.6;
 }
 
-.process-columns {
+.ecom-process-columns {
   display: flex;
   /* flex: 3 1 700px; */
   gap: 40px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
-.process-column {
+.ecom-process-column {
   border-left: 1px solid rgba(0, 0, 0, 1);
   padding-left: 20px;
   min-width: 160px;
 }
 
-.process-column h4 {
+.ecom-process-column h4 {
   font-size: 20px;
   margin-bottom: 35px;
   color: #111;
@@ -105,13 +103,13 @@
   font-weight: 400;
 }
 
-.process-column ul {
+.ecom-process-column ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.process-column li {
+.ecom-process-column li {
   font-size: 18px;
   color: #222;
   margin-bottom: 8px;
@@ -120,19 +118,19 @@
 
 /* Responsive */
 @media (max-width: 1024px) {
-  .process-toggle {
+  .ecom-process-toggle {
     font-size: 45px;
     justify-content: center;
   }
 
-  .process-row {
+  .ecom-process-row {
     flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 20px;
   }
 
-  .process-description{
+  .ecom-process-description{
     flex: 0;
     max-width: 100%;
     text-align: center;
@@ -159,16 +157,16 @@
 }
 
 /* @media (max-width: 768px) {
-  .process-row {
+  .ecom-process-row {
     flex-direction: column;
   }
 
-  .process-columns {
+  .ecom-process-columns {
     flex-direction: column;
     gap: 24px;
   }
 
-  .process-description {
+  .ecom-process-description {
     text-align: center;
     max-width: 100%;
     margin-bottom: -300px;
@@ -176,11 +174,11 @@
 } */
 
 @media (max-width: 768px) {
-  .process-section {
+  .ecom-process-section {
     padding: 40px 20px;
   }
 
-  .process-columns {
+  .ecom-process-columns {
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -188,7 +186,7 @@
     flex-wrap: nowrap;
   }
 
-  .process-toggle {
+  .ecom-process-toggle {
     font-size: 36px;
     gap: 20px;
     align-items: center;
@@ -213,37 +211,37 @@
     width: 30px !important;
   }
 
-  .process-description {
+  .ecom-process-description {
     text-align: center;
     font-size: 18px;
     line-height: 1.6;
     /* margin-bottom: -200px; */
   }
 
-  .process-column {
+  .ecom-process-column {
     padding-left: 15px;
     /* border-left: 2px solid rgba(0, 0, 0, 0.1); */
     height: fit-content;
   }
 
-  .process-column h4 {
+  .ecom-process-column h4 {
     font-size: 18px;
   }
 
-  .process-column li {
+  .ecom-process-column li {
     font-size: 16px;
   }
 }
 
 @media (max-width: 640px) {
-  .process-toggle {
+  .ecom-process-toggle {
     display: flex !important;
     flex-direction: column !important;
   }
 }
 
 @media (max-width: 500px) {
-  .process-toggle {
+  .ecom-process-toggle {
     font-size: 28px;
     gap: 16px;
   }
@@ -260,7 +258,7 @@
     left: 6px;
   }
 
-  .process-columns {
+  .ecom-process-columns {
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -273,24 +271,24 @@
     width: 24px !important;
   }
 
-  .process-description {
+  .ecom-process-description {
     text-align: center;
     font-size: 16px;
     /* margin-bottom: -300px; */
   }
 
-  .process-column h4 {
+  .ecom-process-column h4 {
     font-size: 16px;
   }
 
-  .process-column li {
+  .ecom-process-column li {
     font-size: 14px;
     text-align: center;
   }
 }
 
 @media (max-width: 375px) {
-  .process-toggle {
+  .ecom-process-toggle {
     flex-direction: column;
     width: 200px;
     font-size: 28px;
@@ -309,7 +307,7 @@
     left: 6px;
   }
 
-  .process-columns {
+  .ecom-process-columns {
     padding-top: 30px;
     margin: 50px auto;
     display: grid;
@@ -320,15 +318,15 @@
     left: 48px;
   }
 
-  .process-description {
+  .ecom-process-description {
     font-size: 16px;
   }
 
-  .process-column h4 {
+  .ecom-process-column h4 {
     font-size: 16px;
   }
 
-  .process-column li {
+  .ecom-process-column li {
     font-size: 14px;
   }
 }

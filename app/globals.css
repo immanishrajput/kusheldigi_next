@@ -50942,7 +50942,7 @@ option {
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     width: 100%;
-    padding: 10px 25px 20px;
+    padding: 10px 25px 35px;
     background-color: white;
 }
 
@@ -77715,6 +77715,11 @@ input::-webkit-inner-spin-button {
         font-size: 1rem;
         width: 100%;
         line-height: 25px;
+        text-align: center;
+    }
+
+    .service-stack-heading , .right-service-stack , .right-carousel-para {
+        text-align: center;
     }
 
     .carousel-item {
@@ -77725,6 +77730,10 @@ input::-webkit-inner-spin-button {
     .left-carousel-item,
     .right-carousel-item {
         width: 100%;
+    }
+
+    .right-carousel-item{
+        padding: 20px 30px;
     }
 
     .right-service-stack-div {
@@ -77742,8 +77751,8 @@ input::-webkit-inner-spin-button {
 
 .swiper-button-prev,
 .swiper-button-next {
-    width: 45px !important;
-    height: 45px !important;
+    width: 40px !important;
+    height: 40px !important;
     border: 1px solid black;
     border-radius: 50%;
     display: flex;
@@ -77756,8 +77765,8 @@ input::-webkit-inner-spin-button {
 
     .swiper-button-prev,
     .swiper-button-next {
-        width: 35px !important;
-        height: 35px !important;
+        width: 30px !important;
+        height: 30px !important;
     }
 }
 
