@@ -43,7 +43,6 @@
     font-weight: 600;
     margin-bottom: 20px;
     text-align: center;
-  
   }
   
   .stat-values {
@@ -51,7 +50,6 @@
     justify-content: center;
     align-items: flex-start;
     gap: 15px;
-    flex-wrap: wrap;
     padding-top: 20px;
   }
   

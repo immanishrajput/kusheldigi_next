@@ -3,17 +3,15 @@
   background: #fdfdfd;
 }
 
-.case-study-section h1 {
+.case-studies-heading {
   text-align: center;
   font-size: 35px;
   font-weight: 500;
-  font-family: "Poppins";
 }
 .case-study-section p {
   text-align: center;
   margin: 10px auto 20px;
   font-size: 19px;
-  font-family: "Poppins";
 }
 .hrline {
   border: 1px solid #0b56e4;
@@ -131,8 +129,9 @@
 .case-study-results {
   list-style: none;
   padding: 0;
-  margin-top: 15px;
+  padding-top: 15px;
   font-size: 16px;
+  margin: 0;
 }
 
 .case-study-results li {

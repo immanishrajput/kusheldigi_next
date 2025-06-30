@@ -1,6 +1,6 @@
 "use client"
 
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from '../COMMON/Navbar'
 import NoidaBanner from '../ecommerce-website-development-company-in-noida/NoidaBanner/page'
 import LogoSlider from '../ecommerce-website-development-company-in-noida/LogoSlider/page'
@@ -24,7 +24,37 @@ import NoidaSecSlider from '../ecommerce-website-development-company-in-noida/No
 import NoidaProcessSec from '../ecommerce-website-development-company-in-noida/NoidaProcessSec/page'
 import NoidaFeatures from '../ecommerce-website-development-company-in-noida/NoidaFeatures/page'
 
+const phoneNumber = "9045301702";
+
+const whatAppHandler = () => {
+    const whatsappUrl = `https://wa.me/${phoneNumber}`;
+    window.open(whatsappUrl, "_blank");
+};
+const callHandler = () => {
+    const callUrl = `tel:${phoneNumber}`;
+    window.open(callUrl, "_blank");
+}
+
 const page = () => {
+
+
+const generateMetadata = ({ params }) => {
+    return {
+      title: 'eCommerce Website Development Company in Noida | Kushel Digi',
+      description: 'Looking for an ecommerce website development company in Noida? Kushel Digi delivers secure, scalable ecommerce solutions tailored to your business needs.',
+      metadataBase: new URL(`https://www.kusheldigi.com/`),
+    }
+  };
+
+  useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+
+    metaDescription ? metaDescription.content = description :
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
+
     return (
         <div>
             <div className='ser-main'></div>
@@ -47,14 +77,21 @@ const page = () => {
             <NoidaSec12 />
             <CustomBenefitsSection />
             <NoidaSolution />
-
-
-
-
             <BlogSection />
             <NoidaFAQ />
             <Website />
             <Footer />
+
+
+            <div className="whtsApBtns">
+                <button onClick={whatAppHandler}>
+                    <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+                </button>
+                <button onClick={callHandler}>
+                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480725/telephone_h8clxy.png' alt="call-icon" title="call-icon" />
+                </button>
+
+            </div>
         </div>
     )
 }

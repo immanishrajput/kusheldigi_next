@@ -43,10 +43,10 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  overflow-y: auto;
-  height: 500px;
-  scroll-snap-type: y mandatory;
-  scrollbar-width: thin;
+  /* overflow-y: auto; */
+  height: 660px;
+  /* scroll-snap-type: y mandatory; */
+  /* scrollbar-width: thin; */
   position: relative;
 }
 
@@ -97,6 +97,8 @@
 .custom-benefits-content {
   flex: 1;
   max-width: 600px;
+  position: sticky;
+  top: 225px;
 }
 
 .custom-benefits-card {
@@ -134,7 +136,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
   .custom-benefits-grid {
     flex-direction: column;
     align-items: center;
@@ -166,4 +168,10 @@
   .custom-benefits-card p {
     font-size: 0.95rem;
   }
+}
+
+@media (max-width: 425px) {
+.custom-benefits-item{
+  font-size: 19.1px;
+}
 }
