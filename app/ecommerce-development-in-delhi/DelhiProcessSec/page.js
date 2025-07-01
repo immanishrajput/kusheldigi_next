@@ -1,4 +1,5 @@
-"use client"
+"use client";
+
 import React, { useEffect, useRef, useState } from "react";
 import "./delhiprocess.css";
 
@@ -64,30 +65,36 @@ const steps = [
 
 const OurProcessSection = () => {
   const [activeIndex, setActiveIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
   const stepRefs = useRef([]);
 
   useEffect(() => {
-    const handleScroll = () => {
-      const centerY = window.innerHeight / 6;
-      let closestIndex = 0;
-      let closestDistance = Infinity;
+    // Only run on client side
+    if (typeof window !== "undefined") {
+      setIsMobile(window.innerWidth <= 768);
 
-      stepRefs.current.forEach((el, i) => {
-        if (el) {
-          const box = el.getBoundingClientRect();
-          const distance = Math.abs(box.top - centerY);
-          if (distance < closestDistance) {
-            closestDistance = distance;
-            closestIndex = i;
+      const handleScroll = () => {
+        const centerY = window.innerHeight / 6;
+        let closestIndex = 0;
+        let closestDistance = Infinity;
+
+        stepRefs.current.forEach((el, i) => {
+          if (el) {
+            const box = el.getBoundingClientRect();
+            const distance = Math.abs(box.top - centerY);
+            if (distance < closestDistance) {
+              closestDistance = distance;
+              closestIndex = i;
+            }
           }
-        }
-      });
+        });
 
-      setActiveIndex(closestIndex);
-    };
+        setActiveIndex(closestIndex);
+      };
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+      window.addEventListener("scroll", handleScroll);
+      return () => window.removeEventListener("scroll", handleScroll);
+    }
   }, []);
 
   return (
@@ -99,11 +106,16 @@ const OurProcessSection = () => {
             <h2 className="our-process-heading">Our Process</h2>
           </div>
 
-          <div className={`process-content ${window.innerWidth <= 768 ? "scroll-snap-container" : ""
-            }`}>
+          <div
+            className={`process-content ${
+              isMobile ? "scroll-snap-container" : ""
+            }`}
+          >
             {steps.map((step, index) => (
               <div
-                className={`timeline-wrapper ${index === activeIndex ? "active" : ""}`}
+                className={`timeline-wrapper ${
+                  index === activeIndex ? "active" : ""
+                }`}
                 key={index}
                 ref={(el) => (stepRefs.current[index] = el)}
               >
