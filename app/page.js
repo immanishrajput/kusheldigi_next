@@ -67,9 +67,6 @@ const HomePage = ({ props }) => {
       title: 'Expert eCommerce & BigCommerce Development Company | Kushel Digi',
       description: 'Transform your online presence with Kushel Digi Solutions eCommerce development, BigCommerce solutions, and tailored B2B and marketplace platforms. Start your project today!',
       metadataBase: new URL(`https://www.kusheldigi.com/`),
-
-
-
     }
   };
 
@@ -105,6 +102,9 @@ const HomePage = ({ props }) => {
 
 
       </Head>
+
+      <main>
+
       <div className="home-main">
         <Navbar />
         {/* <Home2Banner /> */}
@@ -169,6 +169,7 @@ const HomePage = ({ props }) => {
         <HomeForm />
         <Footer />
       </div>
+      </main>
     </>
   );
 };

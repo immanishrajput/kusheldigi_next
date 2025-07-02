@@ -98,10 +98,10 @@ const Cards = ({ services,contents }) => {
     <section className="Range">
       <div className="biggsec">
         <div className="itemss">
-          <h1 className="primary-heading">
+          <h2 className="primary-heading">
            {contents?.title}
 
-          </h1>
+          </h2>
         </div>
         <div className="itemsss">
           <p className="secondary-heading">

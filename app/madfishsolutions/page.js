@@ -5,9 +5,8 @@ import { TiTick } from "react-icons/ti";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
 import '../globals.css'
-import './obtech.css'
+import './madfish.css'
 import Navbar from "../COMMON/Navbar";
-
 import Footer from "../COMMON/Footer";
 import Head from 'next/head';
 
@@ -15,15 +14,15 @@ import Head from 'next/head';
 const d1 = [
     {
         title1: "Industries",
-        title2: "IT Solution",
+        title2: "Manufacturing & Industrial",
     },
     {
         title1: "Client Location",
-        title2: "United States",
+        title2: "India",
     },
     {
         title1: "Key Technologies",
-        title2: "PHP",
+        title2: "Shopify",
     },
 ];
 
@@ -134,8 +133,8 @@ function Page() {
     };
 
     const generateMetadata = ({ params }) => ({
-        title: "Obtech Enterprise | Ecommerce Growth with BigCommerce Website Development",
-        description: 'See how Obtech Enterprise boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study.',
+        title: "MadFishSolutions | Ecommerce Growth with BigCommerce Website Development",
+        description: 'See how MadFishSolutions boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study.',
     });
 
     useEffect(() => {
@@ -165,7 +164,7 @@ function Page() {
                 <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
                 <meta name="twitter:url" content="https://www.kusheldigi.com/" />
 
-                <link rel="canonical" href="https://www.kusheldigi.com/obtechenterprise " />
+                <link rel="canonical" href="https://www.kusheldigi.com/nestohub" />
 
             </Head>
 
@@ -174,7 +173,7 @@ function Page() {
 
             <section className="case1firsec">
 
-                <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751437338/Group_1171279511_k69yqk.png" alt="kushel" className="case1fill" />
+                <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751444966/Group_1171279566_wkicdm.png" alt="kushel" className="case1fill" />
                 {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216400/case1fil_bwtual.png" alt="kushel" className="case1fill" />
         <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216437/case1bg_j1tw2e.png" alt="kushel" className="case1bg" /> */}
 
@@ -184,13 +183,12 @@ function Page() {
                         <div className="case1fifirco">
                             {/* left  */}
                             <div className="ca1firleft">
-                                <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751437338/Group_1171279510_ocghtg.png" alt="obtechenterprise logo" />
-                                 <p>Obtech Enterprise</p>
+                                <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751442984/Group_1171279548_eybqz4.png" alt="pinksky logo" />
+                                <p>MadFish Solutions</p>
                             </div>
 
                             <p className="ca1firrigh">
-                                Obtech Enterprise is an emerging international brand that offers premium-quality enterprise
-                                software engineering solutions.</p>
+                                Ezma is a sustainable and elegant brand that delivers comfort and warmth with its Cashmere Scarves. The brand is committed to creating them through expert craftsmanship, blending traditional techniques with technology for optimal results. </p>
                         </div>
 
                         {/* secont */}
@@ -224,16 +222,10 @@ function Page() {
 
                     <div className="sc2_main_content">
                         <h1>Client Background</h1>
-                        <p> This brand is serving clients across the globe with Infrastructure
-                            as a Service (IaaS) and Management as a Service (MaaS) products.
-                            Their services include ERP
-                            solutions development, CRM integration. UI/UX Design, supply chain management, and so on.
+                        <p>In recent times, the brand experienced a surge in production demand, but the site wasn’t compatible enough to handle the needs. 
                         </p>
                         <p>
-                            Knowing a vast range of services this brand offers, its platform wasn’t able to present them
-                            effectively. That’s why the client reached out to us to make certain website changes. Kushel Digi
-                            Solutions was well-prepared with its custom strategy to build a reliable PHP-backed website for
-                            Obtech Enterprises.
+                            Apart from that, the site had an outdated appearance, and it wasn’t capable of attracting potential customers. That’s when Kushel Digi Solutions was approached to bring a change in the website performance. With the coordinated approach of our team, we began to work on the project full-fledgedly. Let’s see how it went. 
                         </p>
 
                     </div>
@@ -245,23 +237,18 @@ function Page() {
                 <div className="PortfolioChallengeMain">
                     <h4>Challenges</h4>
                     <div>
-                        <p>
-                            The primary challenge was to design and develop an end-to-end e-commerce solution that is
-                            lightweight, secure, and scalable. There was a need to create a fully custom admin dashboard,
-                            clear service details, fast and optimal mobile-first user experience.
-                        </p>
-                        <br />
+                        <h5>
+                            ● The site’s performance was declining
+                        </h5>
+                        <h5>● The layout didn’t match the brand’s personality</h5>
 
-                        <p>
-                            Though we had the option of choosing CMS and other platforms but considering the client’s
-                            needs, our team said yes to the project and ensured a smooth user journey. Outdated elements
-                            were another challenge that we had to replace with modern ones.
-                        </p>
+                        <h5>● SEO elements were missing</h5>
+                        <h5>● The outdated UI and navigation were poor, too</h5>
                     </div>
                 </div>
                 <div className="portfolioImageChallenge">
                     <img
-                        src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751437338/Group_1171279506_fsejme.png"
+                        src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751444961/Group_1171279561_hzulv9.png"
                         // src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746514576/2nd-A-challenges_hdngwv.png"
                         alt="kushel"
                     />
@@ -280,16 +267,11 @@ function Page() {
                             <p></p>
                         </div>
 
-                        <p className="s3theeparas">
-                            Considering all the aspects, Kushel Digi Solutions formulated a long-term and scalable solution
-                            for Obtech Enterprises.</p>
-
-                        <p className="s3theeparas">
-                            We started with the creation of website layouts for every page to be
-                            made for the site.Knowing that the brand is serving an <strong>ecommerce enterprise solution,</strong> we
-                            ensured to use the right elements.</p>
+                        <p className="s3theeparas">With the support of our creative team, we delve deeper into the mandatory changes to be made on the website. We considered every minor element that wasn’t going well with the client’s mission and vision. </p>
+                        <p className="s3theeparas">After going through all the aspects, a fresh UI and a change in platform were required. That’s how we ended up choosing Figma for the design and Shopify for creating the storefront. </p>
+                        <p className="s3theeparas">Along with them, we also improved the quality of content to ensure it represents the same elegance that the client is delivering through the products. </p>
                     </div>
-                    <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751437338/Group_1171279508_n1e2kh.png" alt="kushel" className="c3antoimg" />
+                    <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751444958/Group_1171279564_hkef9n.png" alt="kushel" className="c3antoimg" />
 
                 </div>
             </section>
@@ -311,22 +293,21 @@ function Page() {
             >
                 <SplideSlide>
                     <section className="case3secfour" >
-                        <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751437338/Group_1171279511_k69yqk.png" alt="kushel" className="c1btimage" />
+                        <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751444966/Group_1171279566_wkicdm.png" alt="kushel" className="c1btimage" />
 
                         <div className="cas3s4con" id="cas3s4connn">
 
                             <div className="bgshowdb1" >
-                                < img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751437916/Group_1171279519_zc2ztq.png" />
+                                < img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751442984/Group_1171279551_vlhof9.png" />
 
                             </div>
 
                             <div className="cas3circldata" id="cas3circldata14">
-                                <h4>Backend Development
+                                <h4>UI/UX Design
                                 </h4>
-                                <p>We created the backend of Obtech using PHP, SQL, and other important tools to ensure user-
-                                    centric system support. The solution included the creation of a custom admin panel, product
-                                    management system, and so on.
+                                <p>Our UI/UX designers worked with full energy and enthusiasm to create a fresh layout of the website. We included the modern elements and kept in mind the SEO part. By working in collaboration, both our designers and SEO experts built what the client was looking for. 
                                 </p>
+
                             </div>
 
                         </div>
@@ -337,20 +318,18 @@ function Page() {
 
                 <SplideSlide>
                     <section className="case3secfour" id="case3secfour22">
-                        <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751437338/Group_1171279511_k69yqk.png" alt="kushel" className="c1btimage" />
+                        <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751444966/Group_1171279566_wkicdm.png" alt="kushel" className="c1btimage" />
 
                         <div className="cas3s4con" id="cas3s4connn">
 
                             <div className="bgshowdb1" id="bgshowdb11">
-                                <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751437916/Group_1171279515_abvx4l.png" />
+                                <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751438495/Group_1171279534_lzgqxn.png" />
 
                             </div>
 
                             <div className="cas3circldata" id="cas3circldata14">
-                                <h4>User Interface</h4>
-                                <p>All the UIs were developed using Figma and Bootstrap to add a modern touch. These aided in
-                                    optimizing the mobile and desktop browsing experience. In addition, the navigation has been
-                                    simplified to a great extent.</p>
+                                <h4>Storefront Creation</h4>
+                                <p>Creating the storefront was the most challenging part because we were in the dilemma of Shopify vs BigCommerce. Both platforms are great, but the client wanted sophistication and simplicity. So we discussed and realized Shopify would be the best option to build a custom ecommerce shop. </p>
                             </div>
 
                         </div>
@@ -360,22 +339,20 @@ function Page() {
 
                 <SplideSlide>
                     <section className="case3secfour">
-                        <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751437338/Group_1171279511_k69yqk.png" alt="kushel" className="c1btimage" />
+                        <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751444966/Group_1171279566_wkicdm.png" alt="kushel" className="c1btimage" />
 
                         <div className="cas3s4con" id="cas3s4connn">
 
                             <div className="bgshowdb1" id="bgshowdb11">
 
-                                <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751437917/Group_1171279572_tgsnra.png" />
+                                <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751438495/Group_1171279539_qujh3b.png" />
 
                             </div>
 
                             <div className="cas3circldata" id="cas3circldata14">
-                                <h4>Testing Q&A
+                                <h4>Social Media Integration
                                 </h4>
-                                <p>For optimal performance, we executed rigorous testing to build bug-free functionality across
-                                    browsers and devices. Along with that, Kushel Digi Solution is offering post-development
-                                    support so the client’s site runs without any interruptions or errors.
+                                <p>We integrated the social media platforms on the website to build credibility and increase conversions. This was a crucial step to spread awareness about Ezma among potential customers. 
                                 </p>
                             </div>
 
@@ -488,14 +465,12 @@ function Page() {
             <div className="Mainresult_Portfolio">
                 <div className="result_Portfolio">
                     <h5>Result & Impact</h5>
-                    <h6>
-                        The launch of Obtech Enterprise’s new website led to measurable improvements:
-                    </h6>
+                    <p>Our efforts paid off when we noticed the following results and impact:</p>
                     <ul>
-                        <li>A significant increase in conversion rate within the first quarter post-launch</li>
-                        <li>Faster load times and all thanks to optimized code and server-side caching</li>
-                        <li>Zero platform limitations, as it provides complete freedom to scale and update features</li>
-                        <li>Better customer retention rate via a faster, mobile-friendly user experience</li>
+                        <li>A significant increase in website traffic and more conversions were happening than before</li>
+                        <li>SEO factor enhanced as the visibility of the site was getting better</li>
+                        <li>Bounce rates reduce to a great level</li>
+                        <li>The shift of the storefront to Shopify simplified order and inventory management</li>
                     </ul>
 
                 </div>

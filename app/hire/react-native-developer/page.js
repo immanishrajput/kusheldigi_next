@@ -235,7 +235,7 @@ const generateMetadata = ({ params }) => ({
                 </div>
                 <div className="boost">
                     <div className="boost_sect">
-                        <h1>We hold the key to making your app rule the digital space</h1>
+                        <span>We hold the key to making your app rule the digital space</span>
                         <p>Let’s build your React Native app together!</p>
                         <div className="boost_button boost_button1">
                             <Link href="/contact-us">

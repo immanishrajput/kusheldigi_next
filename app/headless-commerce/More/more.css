@@ -18,7 +18,7 @@
     max-width: 40%;
   }
   
-  .text-content h1 {
+  .text-content h3 {
     font-size: 39px;
     font-weight: 600;
     color: #222;
@@ -113,7 +113,7 @@
   
   /* Responsive */
   @media(max-width: 1024px){
-    .text-content h1{
+    .text-content h3{
       text-align: center !important;
     }
     .text-content p {
@@ -159,7 +159,7 @@
       padding: 30px 15px;
     } */
   
-    .text-content h1{
+    .text-content h3{
       font-size: 22px;
       text-align: center;
     }

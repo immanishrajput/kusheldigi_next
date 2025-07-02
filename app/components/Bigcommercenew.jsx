@@ -50,7 +50,7 @@ const page = () => {
     window.open(callUrl, "_blank");
   }
   return (
-    <div>
+    <main>
       <Navbar />
       <BannerMain />
       <BigBanner8 weExpert={weExpertInBigCommerce} />
@@ -81,7 +81,7 @@ const page = () => {
 
       </div>
 
-    </div>
+    </main>
   )
 }
 

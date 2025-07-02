@@ -20,7 +20,7 @@ const CustomSoftwareBanner = () => {
     <div className='custom-software-dev-outer-container'>
         <div className='custom-software-dev-inner-container'>
             <div className='custom-software-dev-left'>
-                <h4 className='custom-software-banner-sm-heading'>Top software development companies</h4>
+                <h1 className='custom-software-banner-sm-heading'>Top software development companies</h1>
                 <h2 className='custom-software-banner-heading'>Empower And Elevate Your Business With Custom Software Development Services</h2>
                 <p className='custom-software-banner-para'>Rise to new levels of growth by driving efficiency with
                 software solutions that guarantee success</p>

@@ -24,8 +24,8 @@ const HeadlessCommerce = () => {
           <p>Expert eCommerce Agency</p>
           </div>
          
-          <h4 className="tripole4">Custom Headless Commerce Solutions Built for Performance, Speed & Growth
-          </h4>
+          <h1 className="tripole4">Custom Headless Commerce Solutions Built for Performance, Speed & Growth
+          </h1>
           <p className="tripole5">
           Kushel Digi Solutions offers advanced Headless Commerce Solutions by delivering fast & fully customizable shopping experiences across any device or channel.
 

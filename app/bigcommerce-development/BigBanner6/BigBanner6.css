@@ -13,7 +13,7 @@
     font-weight: bold;
 color: #0c61ff !important;
   }
-  .itemss h1 {
+  .itemss h2 {
     text-align: center;
     font-size: 2.4rem;
     max-width:790px;
@@ -166,7 +166,7 @@ color: #0c61ff !important;
     }
   }
   @media (max-width: 900px) {
-    .itemss h1{
+    .itemss h2{
         width: 100%;
     }
     .implement {
@@ -187,7 +187,7 @@ color: #0c61ff !important;
   }
   
   @media (max-width: 600px) {
-    .itemss h1{
+    .itemss h2{
         text-align: center;
         font-size: 18px !important;
         line-height: normal !important;
@@ -208,7 +208,7 @@ color: #0c61ff !important;
       grid-template-columns: 1fr;
     }
   
-    .itemss h1 {
+    .itemss h2 {
       font-size: 1.8rem;
       width: 100%;
       line-height: normal !important;
