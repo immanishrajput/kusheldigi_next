@@ -11,10 +11,8 @@ const Page = () => {
   const domainToFilter = "kusheldigi.com";
   const [getAllBlogs, setGetAllBlogs] = useState([]);
 
-
   const [allCatBlogs, setAllCatBlogs] = useState([]);
   const [recentBlog, setRecentBlog] = useState([]);
-
 
   const [visibleCategories, setVisibleCategories] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState(null);
@@ -22,13 +20,12 @@ const Page = () => {
   const [filteredBlogs, setFilteredBlogs] = useState([]);
   const [isCategorySelected, setIsCategorySelected] = useState(false);
 
-
   const fetchAllBlog = async () => {
     try {
       const response = await fetch(`${baseUrl}/api/v1/auth/getAllBlog`);
       const data = await response.json();
       if (response.ok) {
-        const filteredBlogs = data?.blogs?.filter(blog =>
+        const filteredBlogs = data?.blogs?.filter((blog) =>
           blog?.domain?.includes(domainToFilter)
         );
         setGetAllBlogs(filteredBlogs.reverse());
@@ -47,7 +44,6 @@ const Page = () => {
 
       if (response.ok) {
         setRecentBlog(data?.data);
-
       } else {
         console.error("Failed to fetch categories:", data?.message);
       }
@@ -56,14 +52,13 @@ const Page = () => {
     }
   };
 
-
   const fetchCatBlogs = async () => {
     try {
       const response = await fetch(`${baseUrl}/api/v1/auth/allcatBlogs`);
       const data = await response.json();
 
       if (response.ok) {
-        console.log("cat", data?.data)
+        console.log("cat", data?.data);
         const firstFive = data?.data.slice(0, 5);
         setAllCatBlogs(data?.data);
         setVisibleCategories(firstFive);
@@ -75,7 +70,6 @@ const Page = () => {
       console.error("Error fetching categories:", error);
     }
   };
-
 
   const featureBlogs = async () => {
     try {
@@ -92,19 +86,18 @@ const Page = () => {
     }
   };
 
-
   const handleCategoryClick = (categoryTitle) => {
     setSelectedCategory(categoryTitle);
     setIsCategorySelected(true);
-    const matchedCategory = allCatBlogs.find(cat => cat.title === categoryTitle);
+    const matchedCategory = allCatBlogs.find(
+      (cat) => cat.title === categoryTitle
+    );
     if (matchedCategory) {
       setFilteredBlogs(matchedCategory.blogs || []);
     } else {
       setFilteredBlogs([]);
     }
   };
-
-
 
   useEffect(() => {
     fetchAllBlog();
@@ -140,9 +133,6 @@ const Page = () => {
     }
   }, [selectedCategory, allCatBlogs]);
 
-
-
-
   const generateMetadata = ({ params }) => ({
     title: "Latest Top eCommerce Trends & Tech Insights | Kushel Digi Blog  ",
     description:
@@ -156,9 +146,9 @@ const Page = () => {
     metaDescription
       ? (metaDescription.content = description)
       : document.head.insertAdjacentHTML(
-        "beforeend",
-        `<meta name="description" content="${description}">`
-      );
+          "beforeend",
+          `<meta name="description" content="${description}">`
+        );
   }, []);
   const phoneNumber = "9045301702";
 
@@ -169,7 +159,7 @@ const Page = () => {
   const callHandler = () => {
     const callUrl = `tel:${phoneNumber}`;
     window.open(callUrl, "_blank");
-  }
+  };
   return (
     <div>
       <Navbar />
@@ -181,15 +171,26 @@ const Page = () => {
               <h1>Innovate with Us</h1>
             </div>
             <div className="bttnn">
-              <button className={`button category-button ${isCategorySelected === false ? "active" : ""}`} onClick={() => setIsCategorySelected(false)} >All blogs</button>
+              <button
+                className={`button category-button ${
+                  isCategorySelected === false ? "active" : ""
+                }`}
+                onClick={() => setIsCategorySelected(false)}
+              >
+                All blogs
+              </button>
               {allCatBlogs.map((item, index) => {
                 return (
                   // {`button category-button ${isCategorySelected === false ? "active" : ""                      }`}
                   <button
                     key={item._id}
                     onClick={() => handleCategoryClick(item?.title)}
-                    className={`button category-button ${selectedCategory === item.title ? "active" : ""
-                      }`}
+                    className={`button category-button ${
+                      selectedCategory === item.title &&
+                      isCategorySelected === true
+                        ? "active"
+                        : ""
+                    }`}
                   >
                     {item.title}
                   </button>
@@ -216,109 +217,93 @@ const Page = () => {
           </>
         )}
 
-        {
-          !isCategorySelected && (
-            <section className="blog-second-section">
-              <div className="bimagelogMain">
-                <div className="bimagelog">
+        {!isCategorySelected && (
+          <section className="blog-second-section">
+            <div className="bimagelogMain">
+              <div className="bimagelog">
+                <Link href={`/blog/${getAllBlogs[0]?.slug}`}>
+                  <img src={getAllBlogs[0]?.images} alt="" />
+                </Link>
+              </div>
+              <div className="bimageloDi">
+                <p className="bimageloDiPa">
+                  {new Date(getAllBlogs[0]?.date).toLocaleDateString("en-GB", {
+                    day: "numeric",
+                    month: "long",
+                    year: "numeric",
+                  })}
+                </p>
+                <div className="bimageloDiPara11">
                   <Link href={`/blog/${getAllBlogs[0]?.slug}`}>
-                    <img src={getAllBlogs[0]?.images} alt="" />
-                  </Link>
-                </div>
-                <div className="bimageloDi">
-                  <p className="bimageloDiPa">
-                    {new Date(getAllBlogs[0]?.date).toLocaleDateString(
-                      "en-GB",
-                      {
-                        day: "numeric",
-                        month: "long",
-                        year: "numeric",
-                      }
-                    )}
-                  </p>
-                  <div className="bimageloDiPara11">
-                    <Link href={`/blog/${getAllBlogs[0]?.slug}`}>
-                      <div className="bimageloDiPARa12">
-                        <p className="bimageloDiPara">
-                          {getAllBlogs[0]?.title}
-                        </p>
-                      </div>
-                    </Link>
-                    <p className="bimageloDiParra">
-                      {getAllBlogs[0]?.subdescription}
-                    </p>
-
-                    <div className="blogClockTime">
-                      <Link href={`/blog/${getAllBlogs[0]?.slug}`}>
-                        <span className="bimageloDiPaara">Read More</span>
-                      </Link>
-                      <span className="bimageloDiPargaph">
-                        <span>
-                          {" "}
-                          <FcClock className="iconBlogClock" />{" "}
-                        </span>{" "}
-                        {getAllBlogs[0]?.time}{" "}Min
-                      </span>
+                    <div className="bimageloDiPARa12">
+                      <p className="bimageloDiPara">{getAllBlogs[0]?.title}</p>
                     </div>
+                  </Link>
+                  <p className="bimageloDiParra">
+                    {getAllBlogs[0]?.subdescription}
+                  </p>
+
+                  <div className="blogClockTime">
+                    <Link href={`/blog/${getAllBlogs[0]?.slug}`}>
+                      <span className="bimageloDiPaara">Read More</span>
+                    </Link>
+                    <span className="bimageloDiPargaph">
+                      <span>
+                        {" "}
+                        <FcClock className="iconBlogClock" />{" "}
+                      </span>{" "}
+                      {getAllBlogs[0]?.time} Min
+                    </span>
                   </div>
                 </div>
               </div>
-            </section>
-          )
-        }
+            </div>
+          </section>
+        )}
 
-
-        {
-          !isCategorySelected && (
-            <section className="newMainSec">
-              <div className="newsroom-section">
-                <div className="newsroom-header">
-                  <h5>Latest Articles</h5>
-                </div>
-                <hr /> <br />
-                <div className="news-grid">
-                  {getAllBlogs.slice(0, 6).map((item, index) => {
-                    return (
-                      <Link
-                        href={`/blog/${item.slug}`}
-                        key={index}
-                        className="news-item"
-                      >
-                        <div>
-                          <img
-                            src={item.images[0]}
-                            alt=""
-                            className="news-image"
-                          />
-                        </div>
-                        <div className="news-content">
-                          <div className="news-title">
-
-                            <p className="cardBlogStpaa">
-                              {new Date(item?.date).toLocaleDateString(
-                                "en-GB",
-                                {
-                                  day: "numeric",
-                                  month: "long",
-                                  year: "numeric",
-                                }
-                              )}
-                            </p>
-                            <h3 className="news-title" id="newBlogTil">
-                              <p> {item?.title}</p>
-                            </h3>
-
-                          </div>
-                        </div>
-                      </Link>
-                    );
-                  })}
-                </div>
+        {!isCategorySelected && (
+          <section className="newMainSec">
+            <div className="newsroom-section">
+              <div className="newsroom-header">
+                <h5>Latest Articles</h5>
               </div>
-            </section>
-          )
-        }
-
+              <hr /> <br />
+              <div className="news-grid">
+                {getAllBlogs.slice(0, 6).map((item, index) => {
+                  return (
+                    <Link
+                      href={`/blog/${item.slug}`}
+                      key={index}
+                      className="news-item"
+                    >
+                      <div>
+                        <img
+                          src={item.images[0]}
+                          alt=""
+                          className="news-image"
+                        />
+                      </div>
+                      <div className="news-content">
+                        <div className="news-title">
+                          <p className="cardBlogStpaa">
+                            {new Date(item?.date).toLocaleDateString("en-GB", {
+                              day: "numeric",
+                              month: "long",
+                              year: "numeric",
+                            })}
+                          </p>
+                          <h3 className="news-title" id="newBlogTil">
+                            <p> {item?.title}</p>
+                          </h3>
+                        </div>
+                      </div>
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
+          </section>
+        )}
 
         <section className="latest-container">
           {!isCategorySelected ? (
@@ -329,7 +314,6 @@ const Page = () => {
                   <hr />
                 </div>
                 <div className="cardMainBlogSec">
-
                   {cat.blogs
                     .filter((item) => item.domain.includes("kusheldigi.com"))
                     .sort((a, b) => new Date(b.date) - new Date(a.date))
@@ -342,11 +326,14 @@ const Page = () => {
                               <img src={item.images?.[0]} alt={item.title} />
                             </div>
                             <p className="cardBlogStpaa">
-                              {new Date(item?.date).toLocaleDateString("en-GB", {
-                                day: "numeric",
-                                month: "long",
-                                year: "numeric",
-                              })}
+                              {new Date(item?.date).toLocaleDateString(
+                                "en-GB",
+                                {
+                                  day: "numeric",
+                                  month: "long",
+                                  year: "numeric",
+                                }
+                              )}
                             </p>
                             <div className="cardBlogStpaara1">
                               <p className="cardBlogStpaara">{item?.title}</p>
@@ -419,8 +406,6 @@ const Page = () => {
           )}
         </section>
 
-
-
         <section className="eightBlogSMain">
           <div className="ALLt">
             <p>All</p>
@@ -429,7 +414,6 @@ const Page = () => {
           </div>
 
           {currentTasks.length > 0 && (
-
             <div className="bimagelogMain">
               <div className="bimagelog">
                 {currentTasks[0]?.images?.[0] ? (
@@ -459,9 +443,7 @@ const Page = () => {
                 </p>
               </div>
             </div>
-
           )}
-
 
           <div className="smallBlogContainer">
             {currentTasks.length > 1 ? (
@@ -506,17 +488,24 @@ const Page = () => {
             </div>
           )}
         </section>
-
       </section>
       <Footer />
       <div className="whtsApBtns">
         <button onClick={whatAppHandler}>
-          <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+          <img
+            className="what-image-universal"
+            src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png"
+            alt="whatsApp-kusheldigi"
+            title="whatsApp-kusheldigi"
+          />
         </button>
         <button onClick={callHandler}>
-          <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480725/telephone_h8clxy.png' alt="call-icon" title="call-icon" />
+          <img
+            src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480725/telephone_h8clxy.png"
+            alt="call-icon"
+            title="call-icon"
+          />
         </button>
-
       </div>
     </div>
   );
