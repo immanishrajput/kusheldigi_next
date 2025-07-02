@@ -199,7 +199,7 @@ const FluterHire = () => {
                 {/* ==============yaha par our process lagega========== */}
 
                 <div className="android_teck">
-                    <h1>T E C H N O L O G I E S</h1>
+                    <h5>T E C H N O L O G I E S</h5>
                     <div className='ttr'></div>
                     <div className="android_tect_card">
 

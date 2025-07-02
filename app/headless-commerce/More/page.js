@@ -47,9 +47,9 @@ const CorePrinciples = () => {
     <section className="core-section" id="core-principles">
     <div className="content-wrapper">
       <div className="text-content" data-aos="fade-right">
-        <h1>
+        <h3>
           Why <span className="highlight">Headless Commerce?</span>
-        </h1>
+        </h3>
         <p>
         Headless commerce known for its unmatched flexibility, speed and scalability. It has been greatly helping modern businesses to create seamless, omnichannel experiences and adapt quickly to changing market demands.
         </p>

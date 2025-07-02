@@ -56,7 +56,7 @@ function BulgariaEcommerce() {
     }, []);
 
     return (
-        <div>
+        <main>
             <div className='ser-main'></div>
 
             <Navbar />
@@ -93,7 +93,7 @@ function BulgariaEcommerce() {
 
             </div>
 
-        </div>
+        </main>
     )
 }
 

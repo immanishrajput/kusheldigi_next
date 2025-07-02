@@ -173,7 +173,7 @@ function Page() {
 
             <section className="case1firsec">
 
-                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748275039/Group_1171279486_vowu2j.png" alt="kushel" className="case1fill" />
+                <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751438496/Group_1171279525_y9eqqo.png" alt="kushel" className="case1fill" />
                 {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216400/case1fil_bwtual.png" alt="kushel" className="case1fill" />
         <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216437/case1bg_j1tw2e.png" alt="kushel" className="case1bg" /> */}
 
@@ -183,7 +183,7 @@ function Page() {
                         <div className="case1fifirco">
                             {/* left  */}
                             <div className="ca1firleft">
-                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748275036/Group_1171279500_ugv0xr.png" alt="pinksky logo" />
+                                <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751438493/Group_1171279538_hqjkvh.png" alt="pinksky logo" />
                                 <p>Pinksky</p>
                             </div>
 
@@ -220,7 +220,7 @@ function Page() {
             <section className="case2secsec">
                 <div className="case2seccont">
                     {/* <img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746537844/madfish-logo1_ghjavp.png" alt="kushel" className="cs2i1" /> */}
-                    <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748275036/Group_1171279500_ugv0xr.png" alt="kushel" className="cs2i1" />
+                    <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216503/case2imgs1_xngbpg.png" alt="kushel" className="cs2i1" />
 
                     <div className="sc2_main_content">
                         <h1>Client Background</h1>
@@ -254,7 +254,7 @@ function Page() {
                 </div>
                 <div className="portfolioImageChallenge">
                     <img
-                        src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748206866/Group_1171279453_mh2slx.png"
+                        src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751440272/Group_1171279522_ubhqnq.png"
                         // src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746514576/2nd-A-challenges_hdngwv.png"
                         alt="kushel"
                     />
@@ -281,7 +281,7 @@ function Page() {
                             for creating the website layout, and secondly, we chose WordPress for the development of the
                             entire website.</p>
                     </div>
-                    <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748275038/Group_1171279485_ih2wii.png" alt="kushel" className="c3antoimg" />
+                    <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751440272/Group_1171279524_1_otomo8.png" alt="kushel" className="c3antoimg" />
 
                 </div>
             </section>
@@ -303,12 +303,12 @@ function Page() {
             >
                 <SplideSlide>
                     <section className="case3secfour" >
-                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748275326/Rectangle_3463646_idqaae.png" alt="kushel" className="c1btimage" />
+                        <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751438494/image_239_o5saoa.png" alt="kushel" className="c1btimage" />
 
                         <div className="cas3s4con" id="cas3s4connn">
 
                             <div className="bgshowdb1" >
-                                < img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748208378/Group_1171279460_ogyvub.png" />
+                                < img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751438496/Group_1171279533_epc5xu.png" />
 
                             </div>
 
@@ -330,12 +330,12 @@ function Page() {
 
                 <SplideSlide>
                     <section className="case3secfour" id="case3secfour22">
-                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748275326/Rectangle_3463646_idqaae.png" alt="kushel" className="c1btimage" />
+                        <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751438494/image_239_o5saoa.png" alt="kushel" className="c1btimage" />
 
                         <div className="cas3s4con" id="cas3s4connn">
 
                             <div className="bgshowdb1" id="bgshowdb11">
-                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748275039/Group_1171279495_grhb9j.png" />
+                                <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751438495/Group_1171279534_lzgqxn.png" />
 
                             </div>
 
@@ -353,13 +353,13 @@ function Page() {
 
                 <SplideSlide>
                     <section className="case3secfour">
-                        <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748275326/Rectangle_3463646_idqaae.png" alt="kushel" className="c1btimage" />
+                        <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751438494/image_239_o5saoa.png" alt="kushel" className="c1btimage" />
 
                         <div className="cas3s4con" id="cas3s4connn">
 
                             <div className="bgshowdb1" id="bgshowdb11">
 
-                                <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748275038/Group_1171279499_csqiat.png" />
+                                <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751438495/Group_1171279539_qujh3b.png" />
 
                             </div>
 

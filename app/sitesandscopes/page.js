@@ -174,7 +174,7 @@ function page() {
               </div>
 
               <p className="ca1firrigh">
-                Sites and Scopes has specialized experience in delivering high performance optics and accessories for marksmen, hunters, and tactical professionals. All their aim is on delivering a precision-engineered product for utmost reliability and clearness in any environment.
+                Sites and Scopes offers high-quality optical gear for outdoor enthusiasts, birdwatchers, wildlife photographers, and tactical users.  It also provides binoculars, rangefinders, night vision devices, and all other items that you need to explore the unseen wonders of outdoor settings.
               </p>
             </div>
 
@@ -209,8 +209,10 @@ function page() {
             <h1>Client Background</h1>
 
             <p>
-              Sites and Scopes has specialized experience in delivering high performance optics and accessories for marksmen, hunters, and tactical professionals. All their aim is on delivering a precision-engineered product for utmost reliability and clearness in any environment.
-
+              However, the modernization and evolution of search engine algorithms have led to low visibility. Though the products are still high in demand, the digital storefront needs some fixes to enhance the customer experience.
+            </p>
+            <p>
+              The moment <strong>Kushel Digi Solutions</strong> figured out the need for some transformation, we stepped into revamping their platform with our expertise. We did our best and handed over an updated website with modern design and functionalities to the client. This project acts as another milestone achievement for us which we successfully completed. We got this project opportunity from <strong>MadFish Solutions</strong> which we are thankful for.
             </p>
           </div>
         </div>
@@ -221,6 +223,31 @@ function page() {
           className="c2el1"
         />
       </section>
+
+
+      <div className="PortfolioChallenges">
+        <div className="PortfolioChallengeMain">
+          <h4>Challenges</h4>
+          <div>
+            <h5>
+              ●	Outdated UI
+            </h5>
+            <h5>●	Poor product discovery  </h5>
+
+            <h5>●	Too many backend limitations </h5>
+            <h5>●	Lack of SEO-friendly elements</h5>
+            <h5>●	Slow site loading time </h5>
+          </div>
+        </div>
+        <div className="portfolioImageChallenge">
+          <img
+            src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751442983/Group_1171279545_czumhh.png"
+            // src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746514576/2nd-A-challenges_hdngwv.png"
+            alt="kushel"
+          />
+        </div>
+
+      </div>
 
       {/* third section  */}
       <section className="case3secthir">
@@ -233,16 +260,11 @@ function page() {
             </div>
 
             <p className="s3theeparas">
-              Sites & Scope  was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help, they wanted to implement a more user-friendly ecommerce platform, refine search engine optimization (SEO), develop content to support that optimization, and launch an intelligent digital advertising campaign to maximize return on ad spend (ROAS).
-
-
-
+              Our team is well aware of the potential that this brand has in terms of growth. That’s why we crafted a strategic roadmap that aligns with the mission and vision of Sights and Scopes.
             </p>
 
             <p className="s3theeparas">
-              {" "}
-              The new BigCommerce website for Gordy & Sons needed to successfully integrate their graphical point-of-sale environment and inventory management system, CounterPoint. It was critical that the two systems communicated seamlessly to ensure accurate, real-time data for product inventory, orders, and customer detail.
-
+              While starting to work on the project, we realized the layout deserves a fresh perspective. So, we started working on the design part with the help of Figma. However, we preferred BigCommerce for designing <strong>custom b2b ecommerce solutions.</strong>
             </p>
           </div>
 
@@ -284,10 +306,9 @@ function page() {
               </div>
 
               <div className="cas3circldata2" id="sites_port_circle">
-                <h4>Custom Catalog Page</h4>
+                <h4>Redesigning with Figma</h4>
                 <p>
-                  2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help.
-
+                  The entire UI and UX redesign was completed at Figma. The design aimed to bring clarity with better functionality and ensure that the users can navigate categories without any hassle.
                 </p>
               </div>
             </div>
@@ -312,10 +333,9 @@ function page() {
               </div>
 
               <div className="cas3circldata2" id="sites_port_circle">
-                <h4>Product Detail Page</h4>
+                <h4>Migration to BigCommerce</h4>
                 <p>
-                  2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help.
-
+                  To encourage future growth, we migrated the entire Sights and Scopes platform to BigCommerce, the best <strong>ecommerce development solution.</strong> This provided the scalability and speed to handle the growing catalog and simplify backend operations.
                 </p>
               </div>
             </div>
@@ -337,16 +357,19 @@ function page() {
               </div>
 
               <div className="cas3circldata2" id="sites_port_circle">
-                <h4>Advance Filtering or Shorting Features</h4>
+                <h4>Enhanced Navigation & Filtering</h4>
                 <p>
-                  2ndamendment Armory was pursuing a new, strategically sophisticated partner to help grow their ecommerce revenue. They identified Americaneagle.com, a full-service digital agency with big brand experience and respected solutions in ecommerce, as the ideal partner to build their new site. With the agency’s help.
-
+                  By implementing the advanced filtering options, we facilitated the product categorization and restructured the menus. The prospects can easily find scopes by activity, brand, features, and more in just a few clicks.
                 </p>
               </div>
             </div>
           </section>
         </SplideSlide>
       </Splide>
+
+
+
+      
 
       {/* fivth  section  */}
       <section className="case2fivsec">
@@ -444,6 +467,35 @@ function page() {
           </div>
         </div>
       </section>
+
+
+      {/* <div className="Mainresult_Portfolio">
+        <div className="result_Portfolio">
+          <h5>SEO & Technology Integration</h5>
+          <p>To boost visibility and streamline operations, we made sure to include the following:</p>
+          <ul>
+            <li>On-page SEO enhancements (meta titles, descriptions, schema)</li>
+            <li>Automated inventory and order management plugins </li>
+            <li>Many other third-party plugins for better performance </li>
+          </ul>
+
+        </div>
+      </div> */}
+
+      <div className="Mainresult_Portfolio">
+        <div className="result_Portfolio">
+          <h5>Result & Impact</h5>
+          {/* <p>Our efforts paid off when we noticed the following results and impact:</p> */}
+          <ul>
+            <li>Load time decreased significantly, improving bounce rate and session duration</li>
+            <li>Mobile responsiveness saw a major boost, so the brand can capture a growing mobile-first audience</li>
+            <li>Conversions increased with the cleaner interface and a smoother checkout process</li>
+            <li>Organic traffic improved, leading to enhanced pages ranking higher</li>
+            <li>Operational efficiency increased due to automated tools and a more manageable backend</li>
+          </ul>
+
+        </div>
+      </div>
 
       {/* six section  */}
       <section className="cs2sexiesec">

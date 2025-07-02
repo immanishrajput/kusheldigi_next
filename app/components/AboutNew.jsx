@@ -47,7 +47,7 @@ const Page = () => {
     window.open(callUrl, "_blank");
   }
   return (
-    <div>
+    <main>
       <Navbar />
       <Banner />
       <Section2 />
@@ -71,7 +71,7 @@ const Page = () => {
           </button>
 
         </div>
-    </div>
+    </main>
   );
 };
 
