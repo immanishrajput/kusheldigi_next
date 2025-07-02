@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 
 import "./denmarkbanner.css";
 
-const DenmarkBanner = () => {
+const PolandBanner = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -52,12 +52,12 @@ const DenmarkBanner = () => {
   useEffect(() => {
     if (phoneInputRef.current) {
       const iti = intlTelInput(phoneInputRef.current, {
-        initialCountry: "dk",
+        initialCountry: "pl",
         geoIpLookup: (callback) => {
           fetch("https://ipapi.co/json")
             .then((res) => res.json())
             .then((data) => callback(data.country_code))
-            .catch(() => callback("dk"));
+            .catch(() => callback("pl"));
         },
         utilsScript:
           "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
@@ -169,7 +169,7 @@ const DenmarkBanner = () => {
             <h1 className="denmark-banner-heading">
               E-Commerce Development
               <br />
-              <span className="denmark-banner-span">Company in Denmark</span>
+              <span className="denmark-banner-span">Company in Poland</span>
             </h1>
             <p className="denmark-banner-subtext">
               Want to expand your e-commerce business in denmark? Kushel Digi
@@ -291,4 +291,4 @@ const DenmarkBanner = () => {
   );
 };
 
-export default DenmarkBanner;
+export default PolandBanner;
