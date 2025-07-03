@@ -279,7 +279,7 @@ const WordPress = () => {
 
                 <div className='wordpress_cater'>
                     <h3 className='h21'>WHAT INDUSTRIES CATER BY KUSHELDIGI?</h3>
-                    <p className='p2112'>Industries kusheldigi cater are:</p>
+                    {/* <p className='p2112'>Industries kusheldigi cater are:</p> */}
                     <div className='wordpress_cater_cards'>
                         <div className='wordpress_cater_card'>
 

@@ -63,7 +63,8 @@ const Footer = () => {
                   <div className="foot10 reji flex flex-col">
                     <Link href="/about" className="footLink">About Us</Link>
                     {/* <Link href="/career">Career</Link> */}
-                    <Link href="/hire" className="footLink">Hiring</Link>
+                    {/* <Link href="/hire" className="footLink">Hiring</Link> */}
+                    <Link href="/hire" className="footLink">Hire</Link>
 
                     <Link href="/privacy" className="footLink">Privacy Policy</Link>
 

@@ -182,9 +182,10 @@ const MobileApp = ({ notify }) => {
         </div>
 
         <div className="mobile-app dine-1234">
-          <marquee behavior="scroll" direction="right" scrollamount="20">
-            <img className="app" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739339829/mobileapi_z44pnl.png' alt=" Custom App Development & Design Company" />
-          </marquee>
+          <div class="scroll-container">
+            <img class="app" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739339829/mobileapi_z44pnl.png" alt="Custom App Development & Design Company" />
+          </div>
+
           <div className="deliver">
             <div className="first-delivery">
               <h3>

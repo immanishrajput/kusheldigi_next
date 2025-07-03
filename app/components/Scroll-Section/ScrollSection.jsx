@@ -47,7 +47,7 @@ const ScrollAnimation = () => {
         slidesToShow: 3,
         slidesToScroll: 1,
         waitForAnimate: false,
-        pauseOnHover: false,
+        pauseOnHover: true,
         responsive: [
             {
                 breakpoint: 1024,

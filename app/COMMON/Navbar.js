@@ -200,56 +200,56 @@ const data = [
     title: "Blogs",
     navigate: "/blog",
   },
-  {
-    title: "Location",
-    // navigate: "/hire",
-    subpart: [
-      {
-        title: "London",
-        navigate: "/ecommerce-development-in-london",
-      },
-      {
-        title: "Bulgaria",
-        navigate: "/ecommerce-development-in-bulgaria",
-      },
-      {
-        title: "Belgium",
-        navigate: "/ecommerce-development-in-belgium",
-      },
-      {
-        title: "Delhi",
-        navigate: "/ecommerce-development-in-delhi",
-      },
-      {
-        title: "Noida",
-        navigate: "/ecommerce-website-development-company-in-noida",
-      },
-      {
-        title: "Denmark",
-        navigate: "/ecommerce-development-in-denmark",
-      },
-      {
-        title: "Finland",
-        navigate: "/ecommerce-development-in-qatar",
-      },
-      {
-        title: "Ireland",
-        navigate: "/ecommerce-development-in-qatar",
-      },
-      {
-        title: "Netherlands",
-        navigate: "/ecommerce-development-in-qatar",
-      },
-      {
-        title: "Norway",
-        navigate: "/ecommerce-development-in-qatar",
-      },
-      {
-        title: "Poland",
-        navigate: "/ecommerce-development-in-qatar",
-      },
-    ],
-  },
+  // {
+  //   title: "Location",
+  //   // navigate: "/hire",
+  //   subpart: [
+  //     {
+  //       title: "London",
+  //       navigate: "/ecommerce-development-in-london",
+  //     },
+  //     {
+  //       title: "Bulgaria",
+  //       navigate: "/ecommerce-development-in-bulgaria",
+  //     },
+  //     {
+  //       title: "Belgium",
+  //       navigate: "/ecommerce-development-in-belgium",
+  //     },
+  //     {
+  //       title: "Delhi",
+  //       navigate: "/ecommerce-development-in-delhi",
+  //     },
+  //     {
+  //       title: "Noida",
+  //       navigate: "/ecommerce-website-development-company-in-noida",
+  //     },
+  //     {
+  //       title: "Denmark",
+  //       navigate: "/ecommerce-development-in-denmark",
+  //     },
+  //     {
+  //       title: "Finland",
+  //       navigate: "/ecommerce-development-in-qatar",
+  //     },
+  //     {
+  //       title: "Ireland",
+  //       navigate: "/ecommerce-development-in-qatar",
+  //     },
+  //     {
+  //       title: "Netherlands",
+  //       navigate: "/ecommerce-development-in-qatar",
+  //     },
+  //     {
+  //       title: "Norway",
+  //       navigate: "/ecommerce-development-in-qatar",
+  //     },
+  //     {
+  //       title: "Poland",
+  //       navigate: "/ecommerce-development-in-qatar",
+  //     },
+  //   ],
+  // },
   {
     title: "Hire",
     navigate: "/hire",
@@ -771,7 +771,7 @@ const Navbar = () => {
                         </div>
                       </li>
 
-                      <li className="mar" style={{ position: "relative" }}>
+                      {/* <li className="mar" style={{ position: "relative" }}>
                         <div
                           onClick={() => router.push("")}
                           className="flex items-center cursor-pointer nb-0 navLinks"
@@ -892,7 +892,7 @@ const Navbar = () => {
                             </div>
                           </div>
                         </div>
-                      </li>
+                      </li> */}
 
                       {/* <Link  href="/hire"> */}
                       <li className="mar" style={{ position: "relative" }}>

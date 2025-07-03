@@ -355,7 +355,7 @@ function Mlm() {
 
       <div className="ser-main">
         <div className="mlm">
-          <div className="mlm-back dine-123">
+          <div className="mlm-back">
             <div className="mlm-back1">
               <div className="mlm_head">
                 <h1>MLM Software Development<br /> Company</h1>
@@ -379,8 +379,7 @@ function Mlm() {
             </div>
           </div>
         </div>
-
-        <div className="mlm_service dine-123">
+        <div className="mlm_service">
           <div className="mlm_service1">
             <h2>Revolutionize your growth with Lead MLM Software</h2>
             <p>
@@ -401,7 +400,7 @@ function Mlm() {
 
         <div className="mlm_help">
           <div className="mlm_help_detail">
-            <div className="mlm_help_detail_head dine-1234">
+            <div className="mlm_help_detail_head">
               <h2>How can our MLM software help?</h2>
               <p>
                 In today’s dynamic business landscape, network marketing has
@@ -561,7 +560,7 @@ function Mlm() {
         </div>
 
         {/* fourth section  */}
-        <div className="softwareProduct dine-123">
+        <div className="softwareProduct">
           <div className="productDetail">
             <h2>Lead MLM Software Products.</h2>
             <h3>
@@ -605,7 +604,7 @@ function Mlm() {
             <span className="colorText">MLM</span> team.
           </h2>
 
-          <div className="benefits dine-123">
+          <div className="benefits">
             {hireBenefit.map((item, index) => (
               <div
                 onMouseEnter={() => handleHover2(index)}
@@ -630,7 +629,7 @@ function Mlm() {
 
         {/* sixth section  */}
         <div className="mlm-oursser">
-          <div className="mlmourService dine-123">
+          <div className="mlmourService">
             {/* left side */}
             <div className="leftContainer">
               <h2>
@@ -743,7 +742,7 @@ function Mlm() {
 
         {/* eight section  */}
         <div className="mlm-joinus">
-          <div className="mlmjoinUs dine-123">
+          <div className="mlmjoinUs">
             {/* left side */}
             <div className="joinUsContent">
               <h2>

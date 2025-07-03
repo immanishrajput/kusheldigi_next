@@ -309,7 +309,7 @@ const Html = () => {
                     </Splide>
                 </div>
                 <div className="benifits_html5">
-                    <h3><span>HTML5</span> Development. Benefits: - </h3>
+                    <h3><span>HTML5</span> Development Benefits</h3>
                     <div className="benifit_html_para">
                         <p> With the help of better features for images and video, the user experience is enhanced. They can view images and videos in a much better way. - The rich content can also be added in the development.HTML5 development on choosing helps you to enjoy some attractive features. Media Queries gives a platform for multi-browser compatibility, blends media features and responsive design that header all the way users indeed. Besides that, HTML5 is a great deal easier to use and catalyses the general progress of Internet technologies.</p>
                     </div>
