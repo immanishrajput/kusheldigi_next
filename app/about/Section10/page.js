@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useEffect, useState, useRef } from "react";
 import "./Section10.css";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
@@ -18,6 +18,7 @@ export default function Section10() {
   const [index, setIndex] = useState(0);
   const [visibleCards, setVisibleCards] = useState(2);
   const [cardWidth, setCardWidth] = useState(350);
+  const [paused, setPaused] = useState(false);
   const sectionRef = useRef(null);
   const [isInView, setIsInView] = useState(false);
 
@@ -37,7 +38,7 @@ export default function Section10() {
     window.addEventListener("resize", updateCards);
     return () => window.removeEventListener("resize", updateCards);
   }, []);
- 
+
   const prev = () => {
     setIndex((prevIndex) =>
       prevIndex === 0 ? Math.max(philosophyData.length - visibleCards, 0) : prevIndex - 1
@@ -49,15 +50,15 @@ export default function Section10() {
       prevIndex + visibleCards >= philosophyData.length ? 0 : prevIndex + 1
     );
   };
- 
+
   useEffect(() => {
-    if (!isInView) return;
+    if (!isInView || paused) return;
     const interval = setInterval(() => {
       next();
-    }, 5000);
+    }, 3000);
     return () => clearInterval(interval);
-  }, [visibleCards, isInView]);
- 
+  }, [visibleCards, isInView, paused]);
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -94,11 +95,18 @@ export default function Section10() {
               </span>
             </p>
             <div className="ConnetDivBtn">
-              <Link href="/contact-us"><button className="connect-btnB">Let's Connect</button></Link>
+              <Link href="/contact-us">
+                <button className="connect-btnB">Let's Connect</button>
+              </Link>
             </div>
           </div>
 
-          <div className="sliderData">
+          {/* Hover area with pause functionality */}
+          <div
+            className="sliderData"
+            onMouseEnter={() => setPaused(true)}
+            onMouseLeave={() => setPaused(false)}
+          >
             <div className="navigationWrapper">
               <button onClick={prev}><FaArrowLeft /></button>
               <button onClick={next}><FaArrowRight /></button>

@@ -297,6 +297,7 @@
   .shopify-banner-right-content::before {
     left: 20px;
     top: 84px;
+    height: 80% !important;
   }
 
   @keyframes shopifyProcessLine {
@@ -367,7 +368,7 @@
     font-size: 1.7rem;
   }
   .shopify-banner-services > h3 {
-    font-size: 14px;
+    font-size: 14px !important;
     color: #000;
   }
   .shopify-banner-services > p {

@@ -1,8 +1,6 @@
-import React, { useState } from 'react';
-// import './askques.css';
-
-
-const data = [
+import React, { useState } from "react";
+import './FAQ.css'
+const FaqData = [
   {
     question: 'Why choose Kushel Digi for digital marketing?',
     answer: 'One of the greatest digital marketing Agency in the USA, Kushel Digi Solutions, has been offering its clients the best services for website design, custom web development, mobile app development, SEO, SMO, PPC, SEM, and ORM.',
@@ -13,7 +11,7 @@ const data = [
   },
   {
     question: 'What sets Kushel Digi apart in digital marketing?',
-    answer: "Kushel Digi's commitment to innovation, client-centric practices, and a proficient team ensures effective and measurable digital marketing solutions.",
+    answer: "Kushel Digi commitment to innovation, client-centric practices, and a proficient team ensures effective and measurable digital marketing solutions.",
   },
   {
     question: 'What sets your agency apart?',
@@ -21,45 +19,54 @@ const data = [
   },
   {
     question: 'Key considerations for choosing a digital marketing provider?',
-    answer: "Consider expertise, proven results, and alignment with business objectives when selecting a digital marketing provider..",
+    answer: "Consider expertise, proven results, and alignment with business objectives when selecting a digital marketing provider.",
   },
   {
     question: 'Insights into the latest digital marketing trends and practices?',
     answer: "Stay informed about digital marketing trends by exploring industry insights, embracing best practices, and engaging with online communities for valuable perspectives.",
-  },
-  
+  }, 
 ];
 
-function DigitalFAQ() {
-  const [openIndex, setOpenIndex] = useState(null);
+const FAQ = () => {
+  const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleAnswer = (index) => {
-    setOpenIndex(openIndex === index ? null : index);
+    setActiveIndex(activeIndex === index ? null : index);
   };
 
   return (
-    <div className='home2asqueswrap'>
-      <div className='h2asqucont'>
-        
-        <h3>Frequently Asked Questions</h3>
-
-        <div className='questionss'>
-          {data.map((d, i) => (
-            <div key={i} className='singlquestion'>
-              <div className='quetiobtn' onClick={() => toggleAnswer(i)}>
-                <p>{d.question}</p>
-                <img loading="lazy" className='cursor-pointer ' src={openIndex === i ? 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1738997122/-_x52juq.png' : 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1738997032/bexi9p1tl5ahvuroe24b.png'} alt='Toggle' />
-              </div>
-
-              {/* Bottom answer */}
-              <p className={`answer ${openIndex === i ? 'visible' : ''}`}>{d.answer}</p>
+    <section className="faqr-section">
+      <h2 className="primary-heading">Frequently Asked Questions ?</h2>
+      <div className="faqr-container">
+        {FaqData.map((item, index) => (
+          <div className={`faqr-item ${activeIndex === index ? "expanded" : ""}`} key={index}>
+            <div className="faqr-question">
+              <h4 className="questionFAQR">{item.question}</h4>
+              <button className="toggle-btn" onClick={() => toggleAnswer(index)}>
+                {activeIndex === index ? "-" : "+"}
+              </button>
             </div>
-          ))}
-        </div>
-
+            <p className="faqr-answer">
+              {item.answer}
+            </p>
+          </div>
+        ))}
       </div>
-    </div>
+    </section>
   );
-}
+};
 
-export default DigitalFAQ;
+export default FAQ;
+
+
+
+
+
+
+
+
+
+
+
+
+

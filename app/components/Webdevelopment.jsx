@@ -2,10 +2,6 @@
 import React, { useState, useEffect } from "react";
 
 import Head from 'next/head';
-
-
-
-
 import Link from "next/link";
 
 import '../globals.css'
@@ -111,22 +107,22 @@ const WebDevelopmentUSA = ({ notify }) => {
       behavior: 'smooth',
     });
   };
-const generateMetadata = ({ params }) => ({
-        title: ' Build Your Dream Website Today | Web Development by Kushel Digi ',
-        description: 'Start your project with Kushel Digi Solutions—experts in custom web development, responsive design, and innovative digital solutions for every industry.',
-      });
-      
-    useEffect(() => {
-        const { title, description } = generateMetadata({ params: {} });
-        document.title = title;
-        let metaDescription = document.querySelector('meta[name="description"]');
-        metaDescription ? metaDescription.content = description : 
-          document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-      }, []);
+  const generateMetadata = ({ params }) => ({
+    title: ' Build Your Dream Website Today | Web Development by Kushel Digi ',
+    description: 'Start your project with Kushel Digi Solutions—experts in custom web development, responsive design, and innovative digital solutions for every industry.',
+  });
+
+  useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription ? metaDescription.content = description :
+      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+  }, []);
   return (
     <>
 
-<Head>
+      <Head>
         {/* Open Graph (OG) Meta Tags */}
         <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
         <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
@@ -141,13 +137,13 @@ const generateMetadata = ({ params }) => ({
         <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
         <meta name="twitter:url" content="https://www.kusheldigi.com/" />
       </Head>
-      
-    <Navbar/>
+
+      <Navbar />
       <div className="ser-main">
         <div className="ser1 serji serji1 ">
           <div className="ser11  flex items-center justify-between webDoveeee">
             <div className="ser111 webbb-paraag">
-          
+
               <h1 className="blue change_web" id="change_x">Web development services to lead<br /> the industry</h1>
               <p className="ac">
                 Solution based Web development services to skyrocket the growth
@@ -308,11 +304,11 @@ const generateMetadata = ({ params }) => ({
 
                     <div className="left_span">
                       <span className="left_hire">Explore here the benefits of customized website design:</span>
-                      <span>Tailored web design will help reflect your online brand’s unique identity.</span>
-                      <span>A custom website will be optimized for higher SEO rankings.</span>
-                      <span>Streamlined navigation and intuitive interface will improve the end-user experience.</span>
-                      <span>Stand out in the competitive market with a custom website design.</span>
-                      <span>Scale the website’s custom design template as your business grows with time.</span>
+                      <span>● Tailored web design will help reflect your online brand’s unique identity.</span>
+                      <span>● A custom website will be optimized for higher SEO rankings.</span>
+                      <span>● Streamlined navigation and intuitive interface will improve the end-user experience.</span>
+                      <span>● Stand out in the competitive market with a custom website design.</span>
+                      <span>● Scale the website’s custom design template as your business grows with time.</span>
                     </div>
                   </div>
                   <div className="right_website">
@@ -336,11 +332,11 @@ const generateMetadata = ({ params }) => ({
 
                     <div className="left_span">
                       <span className="left_hire">Here are the benefits of customized website design:</span>
-                      <span>It supports and establishes your brand</span>
-                      <span>It optimized the customer experience</span>
-                      <span>It helps increase SEO optimization</span>
-                      <span>It gives better control over website hosting</span>
-                      <span>It gives better control over website hosting</span>
+                      <span>● It supports and establishes your brand</span>
+                      <span>● It optimized the customer experience</span>
+                      <span>● It helps increase SEO optimization</span>
+                      <span>● It gives better control over website hosting</span>
+                      <span>● It gives better control over website hosting</span>
                     </div>
                   </div>
                   <div className="right_website">
@@ -363,11 +359,11 @@ const generateMetadata = ({ params }) => ({
 
                     <div className="left_span">
                       <span className="left_hire">Here are the benefits of customized website design:</span>
-                      <span>It supports and establishes your brand</span>
-                      <span>It optimized the customer experience</span>
-                      <span>It helps increase SEO optimization</span>
-                      <span>It gives better control over website hosting</span>
-                      <span>It gives better control over website hosting</span>
+                      <span>● It supports and establishes your brand</span>
+                      <span>● It optimized the customer experience</span>
+                      <span>● It helps increase SEO optimization</span>
+                      <span>● It gives better control over website hosting</span>
+                      <span>● It gives better control over website hosting</span>
                     </div>
                   </div>
                   <div className="right_website">
@@ -382,18 +378,17 @@ const generateMetadata = ({ params }) => ({
                   <div className="left_website">
                     <div className="left_web_para">
                       <p>
-
                         We provide seamless ongoing maintenance to keep your site running smoothly.
                       </p>
                     </div>
 
                     <div className="left_span">
                       <span className="left_hire">Here are the benefits of customized website design:</span>
-                      <span>It supports and establishes your brand</span>
-                      <span>It optimized the customer experience</span>
-                      <span>It helps increase SEO optimization</span>
-                      <span>It gives better control over website hosting</span>
-                      <span>It gives better control over website hosting</span>
+                      <span>● It supports and establishes your brand</span>
+                      <span>● It optimized the customer experience</span>
+                      <span>● It helps increase SEO optimization</span>
+                      <span>● It gives better control over website hosting</span>
+                      <span>● It gives better control over website hosting</span>
                     </div>
                   </div>
                   <div className="right_website">
@@ -529,7 +524,7 @@ const generateMetadata = ({ params }) => ({
 
         <div className="ben-da">
           <h3>
-            Benefits Of Working With Us 
+            Benefits Of Working With Us
             To Build Your Website
           </h3>
           <p>
@@ -540,14 +535,14 @@ const generateMetadata = ({ params }) => ({
           </p>
 
           <img className="ben-img" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724844335/vertical.036b19ce6d8d5d31e526_1_tihxl4.png" alt="Benefits Of Working With Us" title="Benefits Of Working With Us" />
-       
-            <button>
+
+          <button>
             <Link href="/contact-us">
               Request A Call{" "}
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 24L9.8625 21.9L18.2625 13.5H0V10.5H18.2625L9.8625 2.1L12 0L24 12L12 24Z" fill="white" /> </svg>
-              </Link>
-            </button>
-     
+            </Link>
+          </button>
+
         </div>
 
         <div className="development-process dine-1234">
@@ -779,9 +774,9 @@ const generateMetadata = ({ params }) => ({
         </div>
         {/* <Certified /> */}
 
-        <WebdevelopmentFAQ/>
+        <WebdevelopmentFAQ />
 
-        <Website/>
+        <Website />
 
 
         {/*  buttons  */}
@@ -795,7 +790,7 @@ const generateMetadata = ({ params }) => ({
 
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };
