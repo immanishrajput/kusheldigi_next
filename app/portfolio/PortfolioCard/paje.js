@@ -94,24 +94,24 @@ const portfolioData = [
     line: '|',
     category: ["ecommerce"],
   },
-  {
-    id: 'automotive-6',
-    // companyName: 'Sites and Scopes',
-    logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725953651/image_18_1_j5e3am.svg',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
-    description: [
-      "UX/UI Website Design", "Website Development", "QA & Website Testing"
-    ],
-    links: {
-      liveStore: 'https://www.phastekperformance.com/',
-      caseStudy: '/sitesandscopes',
-      platform: '/bigcommerce-development',
-    },
-    case: ' View Case Study',
-    case1: 'BigCommerce',
-    line: '|',
-    category: ["ecommerce"],
-  },
+  // {
+  //   id: 'automotive-6',
+  //   // companyName: 'Sites and Scopes',
+  //   logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725953651/image_18_1_j5e3am.svg',
+  //   platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+  //   description: [
+  //     "UX/UI Website Design", "Website Development", "QA & Website Testing"
+  //   ],
+  //   links: {
+  //     liveStore: 'https://www.phastekperformance.com/',
+  //     caseStudy: '/sitesandscopes',
+  //     platform: '/bigcommerce-development',
+  //   },
+  //   case: ' View Case Study',
+  //   case1: 'BigCommerce',
+  //   line: '|',
+  //   category: ["ecommerce"],
+  // },
 
   {
     id: 'automotive-7',
@@ -974,22 +974,22 @@ const portfolioData = [
     case1: 'BigCommerce',
     category: ["oddodevelop"],
   },
-  {
-    id: 'automotive-37',
+  // {
+  //   id: 'automotive-37',
 
-    logo: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1751442984/Group_1171279548_eybqz4.png',
-     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
-    description: [
-      "UX/UI Website Design", "Website Development", "QA & Website Testing"
-    ],
-    links: {
-      caseStudy: '/madfishsolutions',
-      // platform: '/bigcommerce-development',
-    },
-    case: ' View Case Study',
-    case1: 'BigCommerce',
-    category: ["oddodevelop"],
-  },
+  //   logo: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1751442984/Group_1171279548_eybqz4.png',
+  //    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+  //   description: [
+  //     "UX/UI Website Design", "Website Development", "QA & Website Testing"
+  //   ],
+  //   links: {
+  //     caseStudy: '/madfishsolutions',
+  //     // platform: '/bigcommerce-development',
+  //   },
+  //   case: ' View Case Study',
+  //   case1: 'BigCommerce',
+  //   category: ["oddodevelop"],
+  // },
 ];
 
 
