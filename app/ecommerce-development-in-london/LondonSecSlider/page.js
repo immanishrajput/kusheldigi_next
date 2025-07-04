@@ -153,12 +153,12 @@ function LondonSecSlider() {
                 </div>
               </div>
             </div>
-            <button className="view-case-button">View All Case Studies <span><RxArrowTopRight /></span></button>
+
           </div>
         ))}
 
       </Slider>
-
+      <button className="view-case-button">View All Case Studies <span><RxArrowTopRight /></span></button>
     </section>
   );
 }

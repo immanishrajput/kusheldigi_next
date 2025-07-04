@@ -1,12 +1,15 @@
 "use client";
-import React from "react";
+import React, { useRef } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
 import "./delhislider.css";
 import { useRouter } from "next/navigation";
-
+import { IoIosArrowRoundBack } from "react-icons/io";
+import { IoIosArrowRoundForward } from "react-icons/io";
+import { PiArrowBendUpRight } from "react-icons/pi";
+import { RxArrowTopRight } from "react-icons/rx";
 
 const caseStudies = [
   {
@@ -38,7 +41,6 @@ const caseStudies = [
       "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1750254081/Group_1171281350_yll41m.png",
     bgClass: "bg-maroon",
     slug: "/blackrhinoconcealment",
-
   },
   {
     title: "Sights and Scopes",
@@ -54,16 +56,14 @@ const caseStudies = [
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1751266075/Group_1171281352_jjg9qf.png",
     bgClass: "bg-navy",
     slug: "/sitesandscopes",
-
   },
 ];
 
 function DelhiSecSlider() {
   const settings = {
-    dots: true,
     arrows: false,
     infinite: true,
-    autoplay: true,
+    // autoplay: true,
     autoplaySpeed: 2000,
     speed: 500,
     slidesToShow: 1,
@@ -78,19 +78,37 @@ function DelhiSecSlider() {
       },
     ],
   };
-
+  const sliderRef = useRef(null);
   const navigate = useRouter();
-
 
   return (
     <section className="case-study-section">
-      {/* <h1>Case studies</h1> */}
-      <div className="case-studies-heading">Case studies</div>
-      <p>Our Works Speaks for themselves</p>
+      <div className="m-c-study">
+        <div className="case-study-title">
+          <div className="case-study-mtitle">
+            <div className="case-studies-heading">Case studies</div>
+            <p>Our Works Speaks for themselves</p>
+          </div>
+          <div className="case-s-i">
+            <div
+              className="icon-case"
+              onClick={() => sliderRef.current?.slickPrev()}
+            >
+              <IoIosArrowRoundBack />
+            </div>
+            <div
+              className="icon-case"
+              onClick={() => sliderRef.current?.slickNext()}
+            >
+              <IoIosArrowRoundForward />
+            </div>
+          </div>
+        </div>
+      </div>
       <div>
         <p className="hrline"></p>
       </div>
-      <Slider {...settings} className="case-slides">
+      <Slider {...settings} ref={sliderRef} className="case-slides">
         {caseStudies.map((study) => (
           <div key={study.title}>
             <div className={`card-slide ${study.bgClass}`}>
@@ -114,12 +132,14 @@ function DelhiSecSlider() {
                       height={300}
                       className="case-study-image"
                     />
-                    <button onClick={() => navigate.push(study.slug)} className="view-button">View</button>
+                    <button
+                      onClick={() => navigate.push(study.slug)}
+                      className="view-button"
+                    >
+                      View
+                    </button>
                     <div className="view-button1">
-                      <img
-                        src="https://res.cloudinary.com/dxlykgx6w/image/upload/v1750748415/Mask_group_nrob9o.png"
-                        alt="share"
-                      />
+                      <PiArrowBendUpRight />
                     </div>
                   </div>
                 </div>
@@ -141,6 +161,12 @@ function DelhiSecSlider() {
           </div>
         ))}
       </Slider>
+      <button className="view-case-button">
+        View All Case Studies{" "}
+        <span>
+          <RxArrowTopRight />
+        </span>
+      </button>
     </section>
   );
 }

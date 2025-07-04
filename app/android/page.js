@@ -287,8 +287,8 @@ const Android = ({ notify }) => {
           </div>
         </div>
 
-        <Website />
         <AndroidFAQ />
+        <Website />
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
             <img loading="lazy" className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480684/whatsapp_fuwawo.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />

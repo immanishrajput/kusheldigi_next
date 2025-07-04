@@ -51,6 +51,7 @@
   width: 50px;
   border-radius: 50%;
   padding: 5px;
+  cursor: pointer;
 }
 .card-slide {
   display: flex;
@@ -223,24 +224,48 @@
 @media screen and (max-width: 600px) {
   .case-study-title {
     font-size: 22px;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
   }
-
+  .case-study-title p {
+    text-align: center;
+  }
+  .case-study-mtitle {
+    text-align: center;
+  }
+  .case-studies-heading {
+    text-align: center;
+  }
   .case-study-description,
   .case-study-results li {
     font-size: 14px;
   }
 
+  .case-s-i {
+    justify-content: end;
+    display: flex;
+    margin-top: 5px;
+    gap: 20px;
+  }
   .title-tag {
     display: flex;
     gap: 20px;
     align-items: center;
     flex-direction: column;
   }
-
-  .title-tag h2 {
-    width: 80%;
+  .m-c-study {
+    padding: 0px 30px;
   }
 
+  .title-tag h2 {
+    text-align: center;
+    font-size: 23px;
+    width: 85%;
+  }
+  .case-study-tags {
+    flex-direction: column;
+  }
   /* .case-study-tags {
     display: flex;
     flex-direction: column;

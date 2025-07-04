@@ -322,9 +322,9 @@ const generateMetadata = ({ params }) => ({
           </div>
         </div>
 
-        <Website/>
 
       <ReactNativeFAQ/>
+        <Website/>
        
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>

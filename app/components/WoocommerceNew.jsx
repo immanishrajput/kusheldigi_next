@@ -422,8 +422,8 @@ const WooCommerce = () => {
           </div>
         </div>
 
-        <Website />
         <WooCommereceFAQ />
+        <Website />
 
 
         <div className="whtsApBtns">
