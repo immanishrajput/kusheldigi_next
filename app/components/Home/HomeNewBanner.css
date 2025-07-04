@@ -260,3 +260,15 @@
         right: -33px;
     }
 }
+
+
+
+.hidden-seo-content {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+  visibility: hidden;
+}

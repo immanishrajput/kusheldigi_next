@@ -27,7 +27,7 @@ const Popup = () => {
     setUserAnswer("");
     setCaptchaVerified(false);
   };
-  
+
   useEffect(() => {
     generateCaptcha();
   }, []);
@@ -42,7 +42,7 @@ const Popup = () => {
     toast.success("Captcha Verified!!");
     setCaptchaVerified(true);
   };
-  
+
   const phoneInputRef = useRef(null);
 
   useEffect(() => {
@@ -87,18 +87,24 @@ const Popup = () => {
       [name]: updatedValue,
     }));
   };
-  
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     // const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-      const emailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.[a-zA-Z]{2,}$/;
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.[a-zA-Z]{2,}$/;
 
 
     if (!emailRegex.test(formData.email)) {
       toast.error("Invalid email address!");
       return;
     }
+
+    if (!/^\d{10}$/.test(formData.phone)) {
+      toast.error("Please enter a valid 10-digit phone number.");
+      return;
+    }
+
     if (
       formData.name.trim() === "" ||
       formData.phone.trim() === "" ||
@@ -146,7 +152,7 @@ const Popup = () => {
       generateCaptcha();
     }
   };
-  
+
   const [showPopUp, setShowPopUp] = useState(false);
 
   useEffect(() => {
@@ -319,7 +325,7 @@ const Popup = () => {
                 </form>
               </div>
             </div>
-            
+
           </div>
         </div>
       )}
