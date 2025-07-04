@@ -681,6 +681,7 @@ body {
   padding-left: 20px;
   padding-top: 13px;
   margin-bottom: 15px;
+  margin: 0;
 }
 
 .plt-ul .plt-li {
@@ -1255,6 +1256,7 @@ body {
 .flagship-ul {
   padding-left: 20px;
   margin-bottom: 1rem;
+  margin: 0;
   list-style: square;
   /* flex-grow: 1; */
 }

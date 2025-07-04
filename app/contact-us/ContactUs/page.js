@@ -83,7 +83,7 @@ const ContactUs = () => {
   };
 
   const [formData, setFormData] = useState({
-    firstName11: '',
+    name11: '',
     phone11: '',
     email11: '',
     message11: '',
@@ -135,8 +135,14 @@ const ContactUs = () => {
       toast.error("Invalid email address!");
       return;
     }
+
+    if (!/^\d{10}$/.test(formData.phone11)) {
+      toast.error("Please enter a valid 10-digit phone number.");
+      return;
+    }
+
     if (
-      formData.firstName11.trim() === '' ||
+      formData.name11.trim() === '' ||
       formData.phone11.trim() === '91' ||
       formData.email11.trim() === '' ||
       formData.message11.trim() === '' ||
@@ -181,7 +187,7 @@ const ContactUs = () => {
     } finally {
       setLoading(false);
       setFormData({
-        firstName11: '',
+        name11: '',
         phone11: '',
         email11: '',
         message11: '',
@@ -211,7 +217,7 @@ const ContactUs = () => {
           <form onSubmit={handleForm} className="contact-formKush" id="contactForm">
             <h2>Fill in the form</h2>
 
-            <div className="contact-form1"><input type="text" name="firstName11" placeholder="Full name *" value={formData?.firstName11}
+            <div className="contact-form1"><input type="text" name="name11" placeholder="Full name *" value={formData?.name11}
               onChange={(e) => {
                 const value = e.target.value;
                 if (/^[A-Za-z ]*$/.test(value)) {
@@ -229,9 +235,10 @@ const ContactUs = () => {
                 placeholder="Phone number*"
                 maxLength={10}
                 value={formData?.phone11}
+                pattern="[0-9]{10}"
                 onChange={(e) => {
                   const value = e.target.value;
-                  if (/^\+?[0-9]{0,15}$/.test(value) || value === "") {
+                  if (/^\d{0,10}$/.test(value)) {
                     setFormData((prev) => ({ ...prev, phone11: value }));
                   }
                 }}

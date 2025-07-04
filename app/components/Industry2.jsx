@@ -1,13 +1,18 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import Head from 'next/head';
 import '../globals.css';
+import '../components/Home/slider/NewSlider.css';
 import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
 // import data from "../data/data";
 import IndustriesFAQ from "../COMMON/IndustriesFAQ";
+import Slider from "react-slick";
+import Image from "next/image";
 
 const Ankitcrouser = [
   {
@@ -127,6 +132,46 @@ const Ankitcrouser = [
     target: "_blank"
   },
 ];
+
+const slider1Images = [
+  { src: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175877/006_1_nxufng.svg', alt: "Lafayette Shooters project logo by Kushel Digi Solutions" },
+  { src: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175921/013_1_ol5byc.svg', alt: "2nd Amendment project logo by Kushel Digi Solutions" },
+  { src: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175957/015_1_zhd61k.svg', alt: "KICK-EEZ image for ecommerce website development by Kushel Digi Solutions" },
+  { src: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176045/017_1_tiv6mk.svg', alt: "Black Rhino image for ecommerce website development by Kushel Digi Solutions", className: 'black-rhino-img' },
+  { src: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176269/92945677531_1_tb9rkt.svg', alt: "CodePXLProject logo for ecommerce website development " },
+  { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668955/CodePXL_Web_Logo_1_aueiql.png', alt: "Sites and Scopes Project logo for ecommerce website development " },
+  { src: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176371/Group_2_1_zx1tqa.svg', alt: "MadFish Solutions project logo by Kushel Digi Solutions", className: 'madfish-img' },
+  { src: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176422/Group_2_2_yypji2.svg', alt: "Slide365 project logo by Kushel Digi Solutions" },
+  { src: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176477/Group_3_1_xq1tod.svg', alt: "Rifle Supply logo for ecommerce website development by Kushel Digi Solutions" },
+  { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668955/Slide365_Logo_1_sgrncf.png', className: 'ride-img', alt: "Ride ready Logo for ecommerce website development  by Kushel Digi Solutions" },
+  { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668955/70904_228x204_1_l5j13v.png', className: 'armore-img', alt: "Project logo for ecommerce website development by Kushel Digi Solutions" },
+  { src: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176591/Layer_1_4_sqlymy.svg', alt: "Serv A Pure logo for ecommerce website development " },
+  { src: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176714/images_1_xmbtva.svg', alt: "GRACO CORPORATION for ecommerce website development" },
+];
+
+// const slider2Images = [
+//   { src: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176477/Group_3_1_xq1tod.svg', alt: "Rifle Supply logo for ecommerce website development by Kushel Digi Solutions" },
+//   { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668955/Slide365_Logo_1_sgrncf.png', className: 'ride-img', alt: "Ride ready Logo for ecommerce website development  by Kushel Digi Solutions" },
+//   { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668955/70904_228x204_1_l5j13v.png', className: 'armore-img', alt: "Project logo for ecommerce website development by Kushel Digi Solutions" },
+//   { src: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176591/Layer_1_4_sqlymy.svg', alt: "Serv A Pure logo for ecommerce website development " },
+//   { src: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176714/images_1_xmbtva.svg', alt: "GRACO CORPORATION for ecommerce website development" },
+//   { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668954/topbrasstactical_miqpat.png' },
+//   { src: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1750058139/Group_1171281500_kye3hk.png', alt: "Top Brasst Logo for ecommerce website development " },
+//   { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668954/solenoid_f5nbub.png', alt: "SoleSolenoid Ninja Logo for ecommerce website development " },
+//   { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668954/typhoon_sorthk.png', alt: "Typhoon Defense Logo for ecommerce website development " },
+// ];
+
+// const slider3Images = [
+//   { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668954/bobcat_fo7ruq.png', alt: "Bobcat Armament logo for ecommerce website development by Kushel Digi Solutions" },
+//   { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668954/four_sob0lr.png', alt: "Four Oaks Farm logo for ecommerce website development by Kushel Digi Solutions" },
+//   { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668954/landf_swe3ad.jpg', alt: "Land Big FIsh logo for ecommerce website development by Kushel Digi Solutions" },
+//   { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743672316/Group_1171280670_1_fsujvq.png', alt: "Survival Mode Tactical logo for ecommerce website development by Kushel Digi Solutions" },
+//   { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668965/shooters_xyihu9.png', alt: "Lafayette Shooters Logo image for ecommerce website development by Kushel Digi Solutions" },
+//   { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668965/veteran_i5glwp.png', alt: "2nd Amendment  Logo image for ecommerce website development by Kushel Digi Solutions" },
+//   { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668956/image_4_mebvv1.png', alt: "KICK-EEZ Logo image for ecommerce website development by Kushel Digi Solutions" },
+//   { src: 'https://res.cloudinary.com/dgif730br/image/upload/v1743668955/CodePXL_Web_Logo_1_aueiql.png', alt: "CodePXL image for ecommerce website development by Kushel Digi Solutions" },
+// ];
+
 function Industries() {
   const [Page, setPage] = useState(4);
   const [Page1, setPage1] = useState(2);
@@ -191,6 +236,58 @@ function Industries() {
     metaDescription ? metaDescription.content = description :
       document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
   }, []);
+
+  const [autoplaySpeed, setAutoplaySpeed] = useState(1);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setAutoplaySpeed(4000);
+    }, 100);
+    return () => clearTimeout(timer);
+  }, []);
+
+  const commonSettings = {
+    dots: false,
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 4000,
+    autoplaySpeed: autoplaySpeed,
+    cssEase: "linear",
+    waitForAnimate: false,
+    pauseOnHover: false,
+    initialSlide: 1,
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+        }
+      }
+    ]
+  };
+
+  const renderSlider = (images, rtl = false) => (
+    <Slider {...commonSettings} rtl={rtl} className="custom-slider">
+      {images.map((img, index) => (
+        <div className="slide-item" key={index}>
+          <Image
+            width={298}
+            height={173}
+            loading="lazy"
+            src={img.src}
+            alt={img.alt}
+            className={img.className || ''}
+          />
+        </div>
+      ))}
+    </Slider>
+  );
+
+
+
+
   return (
     <>
 
@@ -1160,484 +1257,16 @@ function Industries() {
           </div>
         </div>
 
-        <div className="home8 mb-20 px-8 home-background-crouser">
-          <div className="home-background-crouser-container">
-            <h3 className="text-center">Our esteemed clients</h3>
-            <p className="text-center">Pleasure to work with</p>
-            <div className="home8-img  px-4 w-full home-background-crouser-main">
-              <Splide
-                //  className="w-full"
-                options={{
-                  perPage: Page,
-                  autoplay: true,
-                  pauseOnHover: true,
-                  type: "loop",
-                  interval: 1000,
-                  drag: true,
-                  perMove: 1,
-                }}
-              >
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175877/006_1_nxufng.svg'
-                      alt="nestohub"
-                      title="nestohub"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175921/013_1_ol5byc.svg'
-                      alt="cronous"
-                      title="cronous"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175957/015_1_zhd61k.svg'
-                      alt="prime"
-                      title="prime"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176045/017_1_tiv6mk.svg'
-                      alt="aaa media"
-                      title="aaa media"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176269/92945677531_1_tb9rkt.svg'
-                      alt="probatical"
-                      title="probatical"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176325/Black_White_1_pg2nmn.svg'
-                      alt="codepxl"
-                      title="codepxl"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176371/Group_2_1_zx1tqa.svg'
-                      alt="auxible"
-                      title="auxible"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176422/Group_2_2_yypji2.svg'
-                      alt="the careerbeacon"
-                      title="the careerbeacon"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176477/Group_3_1_xq1tod.svg'
-                      alt="pinksky"
-                      title="pinksky"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176533/Layer_1_3_wbxnkl.svg'
-                      alt="slide365"
-                      title="slide365"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176591/Layer_1_4_sqlymy.svg'
-                      alt="DLF"
-                      title="DLF"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176659/fishhead_pjhelz.svg'
-                      alt="madfish"
-                      title="madfish"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176714/images_1_xmbtva.svg'
-                      alt="shikhar"
-                      title="shikhar"
-                    />
-                  </div>
-                </SplideSlide>
-              </Splide>
+        <div className="logo-container">
+          <div className="logo-sliders">
+            <div className="logo-heading">
+              <p className="primary-heading">
+                Our esteemed clients
+              </p>
             </div>
-            <div className="home8-img  px-4 w-full home-background-crouser-main-Tablet">
-              <Splide
-                //  className="w-full"
-                options={{
-                  perPage: Page1,
-                  autoplay: true,
-                  pauseOnHover: true,
-                  type: "loop",
-                  interval: 1000,
-                  drag: true,
-                  perMove: 1,
-                }}
-              >
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175877/006_1_nxufng.svg'
-                      alt="nestohub"
-                      title="nestohub"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175921/013_1_ol5byc.svg'
-                      alt="cronous"
-                      title="cronous"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175957/015_1_zhd61k.svg'
-                      alt="prime"
-                      title="prime"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176045/017_1_tiv6mk.svg'
-                      alt="aaa media"
-                      title="aaa media"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176269/92945677531_1_tb9rkt.svg'
-                      alt="probatical"
-                      title="probatical"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176325/Black_White_1_pg2nmn.svg'
-                      alt="codepxl"
-                      title="codepxl"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176371/Group_2_1_zx1tqa.svg'
-                      alt="auxible"
-                      title="auxible"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176422/Group_2_2_yypji2.svg'
-                      alt="the careerbeacon"
-                      title="the careerbeacon"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176477/Group_3_1_xq1tod.svg'
-                      alt="pinksky"
-                      title="pinksky"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176533/Layer_1_3_wbxnkl.svg'
-                      alt="slide365"
-                      title="slide365"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176591/Layer_1_4_sqlymy.svg'
-                      alt="DLF"
-                      title="DLF"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176659/fishhead_pjhelz.svg'
-                      alt="madfish"
-                      title="madfish"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176714/images_1_xmbtva.svg'
-                      alt="shikhar"
-                      title="shikhar"
-                    />
-                  </div>
-                </SplideSlide>
-              </Splide>
-            </div>
-            <div className="home8-img  px-4 w-full home-background-crouser-main-mobile">
-              <Splide
-                //  className="w-full"
-                options={{
-                  perPage: Page2,
-                  autoplay: true,
-                  pauseOnHover: true,
-                  type: "loop",
-                  interval: 1000,
-                  drag: true,
-                  perMove: 1,
-                }}
-              >
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175877/006_1_nxufng.svg'
-                      alt="nestohub"
-                      title="nestohub"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175921/013_1_ol5byc.svg'
-                      alt="cronous"
-                      title="cronous"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739175957/015_1_zhd61k.svg'
-                      alt="prime"
-                      title="prime"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176045/017_1_tiv6mk.svg'
-                      alt="aaa media"
-                      title="aaa media"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176269/92945677531_1_tb9rkt.svg'
-                      alt="probatical"
-                      title="probatical"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176325/Black_White_1_pg2nmn.svg'
-                      alt="codepxl"
-                      title="codepxl"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176371/Group_2_1_zx1tqa.svg'
-                      alt="auxible"
-                      title="auxible"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176422/Group_2_2_yypji2.svg'
-                      alt="the careerbeacon"
-                      title="the careerbeacon"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176477/Group_3_1_xq1tod.svg'
-                      alt="pinksky"
-                      title="pinksky"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176533/Layer_1_3_wbxnkl.svg'
-                      alt="slide365"
-                      title="slide365"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176591/Layer_1_4_sqlymy.svg'
-                      alt="DLF"
-                      title="DLF"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176659/fishhead_pjhelz.svg'
-                      alt="madfish"
-                      title="madfish"
-                    />
-                  </div>
-                </SplideSlide>
-                <SplideSlide>
-                  <div className="home-background-crouser-containt">
-                    {/* <img className="chetri" src="/static/images/a15.png" alt="kushel" /> */}
-                    <img
-                      className="joki1"
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739176714/images_1_xmbtva.svg'
-                      alt="shikhar"
-                      title="shikhar"
-                    />
-                  </div>
-                </SplideSlide>
-              </Splide>
-            </div>
+            {renderSlider(slider1Images)}
+            {/* {renderSlider(slider2Images, true)} */}
+            {/* {renderSlider(slider3Images)} */}
           </div>
         </div>
       </div>
