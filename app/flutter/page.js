@@ -375,10 +375,11 @@ const Flutters = ({ notify }) => {
         </div>
 
         {/* <ContactForm1 notify={notify} /> */}
-        <Website />
+     
 
 
         <FlutterFAQ />
+           <Website />
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
             <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />

@@ -724,9 +724,9 @@ const Kotlin = () => {
           </div>
         </div>
 
-        <Website />
 
         <KotlinFAQ />
+        <Website />
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
             <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172941/whatsapp_cowbb8.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />

@@ -627,8 +627,8 @@ const Php = () => {
                     </div>
                 </div>
 
-                <Website />
                 <PhpFAQ />
+                <Website />
 
 
                 <div className="whtsApBtns">

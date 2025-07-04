@@ -521,8 +521,8 @@ const WordPress = () => {
                     </div>
                 </div>
 
-                <Website />
                 <WordpressFAQ />
+                <Website />
             </div>
             <div className="whtsApBtns">
                 <button onClick={whatAppHandler}>

@@ -294,8 +294,8 @@ const GraphicDesign = ({ notify }) => {
 
                 </div>
 
-                <Website />
                 <GraphicFAQ />
+                <Website />
 
 
 

@@ -26,33 +26,32 @@ const FaqData = [
 ];
 
 const FAQ = () => {
-  const [activeIndex, setActiveIndex] = useState(null);
-
-  const toggleAnswer = (index) => {
-    setActiveIndex(activeIndex === index ? null : index);
-  };
-
-  return (
+  const [openIndex, setOpenIndex] = useState(null);
+ 
+   const toggle = (index) => {
+     setOpenIndex(openIndex === index ? null : index);
+   };
+ 
+   return (
     <section className="faqr-section">
-      <h2>Frequently Asked Questions ?</h2>
-      <div className="faqr-container">
-        {FaqData.map((item, index) => (
-          <div className={`faqr-item ${activeIndex === index ? "expanded" : ""}`} key={index}>
-            <div className="faqr-question">
-              <h4 className="questionFAQR">{item.question}</h4>
-              <button className="toggle-btn" onClick={() => toggleAnswer(index)}>
-                {activeIndex === index ? "-" : "+"}
-              </button>
-            </div>
-            <p className="faqr-answer">
-              {item.answer}
-            </p>
-          </div>
-        ))}
-      </div>
-    </section>
-  );
-};
+       <h2 className="primary-heading">Frequently Asked Questions ?</h2>
+       <div className="faq-columns">
+         {FaqData.map((item, i) => (
+           <div
+             className={`faq-item ${openIndex === i ? "open" : ""}`}
+             key={i}
+           >
+             <div className="faq-question" onClick={() => toggle(i)}>
+               <span>{item.question}</span>
+               <button className="toggle-btn">{openIndex === i ? "−" : "+"}</button>
+             </div>
+             <div className="faq-answer">{item.answer}</div>
+           </div>
+         ))}
+       </div>
+     </section>
+   );
+ }
 
 export default FAQ;
 
