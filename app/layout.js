@@ -2,9 +2,9 @@ import Script from "next/script";
 import "./globals.css"
 import { ToastContainer } from "react-toastify";
 
-
 export const metadata = {
-
+  title: "Expert eCommerce & BigCommerce Development Company | Kushel Digi",
+  description: "Work with 8+ year ecommerce experts to build, optimize, and grow your ecommerce store—BigCommerce and Shopify design, development, integrations, and apps.",
   keywords: [
     "Best Web Design Agency",
     "Professional Web Design Company",
@@ -27,41 +27,94 @@ export const metadata = {
     "Ecommerce UX Agency",
     "Custom App Development for BigCommerce and Shopify Stores"
   ],
-  metadataBase: new URL(`https://www.kusheldigi.com/`),
-  alternates: {
-    canonical: './',
+  authors: [{ name: "Kushel Digi Solutions" }],
+  creator: "Kushel Digi Solutions",
+  publisher: "Kushel Digi Solutions",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
   },
-
+  metadataBase: new URL("https://www.kusheldigi.com/"),
+  alternates: {
+    canonical: "https://www.kusheldigi.com/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   twitter: {
     card: "summary_large_image",
     title: "Expert eCommerce & BigCommerce Development Company | Kushel Digi",
     description: "Work with 8+ year ecommerce experts to build, optimize, and grow your ecommerce store—BigCommerce and Shopify design, development, integrations, and apps.",
-    images: [{ url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png", width: 1200, height: 630 }],
+    images: [{ 
+      url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png", 
+      width: 1200, 
+      height: 630,
+      alt: "Kushel Digi Solutions - eCommerce Development Company"
+    }],
+    creator: "@kusheldigi",
+    site: "@kusheldigi",
   },
   openGraph: {
     title: "Expert eCommerce & BigCommerce Development Company | Kushel Digi",
     description: "Work with 8+ year ecommerce experts to build, optimize, and grow your ecommerce store—BigCommerce and Shopify design, development, integrations, and apps.",
     url: "https://www.kusheldigi.com/",
     type: "website",
-    images: [{ url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png", width: 1200, height: 630, alt: "kushel" }],
+    siteName: "Kushel Digi Solutions",
+    locale: "en_US",
+    images: [{ 
+      url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png", 
+      width: 1200, 
+      height: 630, 
+      alt: "Kushel Digi Solutions - Expert eCommerce Development Company"
+    }],
   },
-
   verification: {
-    google: 'u8hOCEYTlB2dEFUZ297M4Kzx-y4H_RU35SXKUqwsEzA',
+    google: "u8hOCEYTlB2dEFUZ297M4Kzx-y4H_RU35SXKUqwsEzA",
   },
-
+  viewport: "width=device-width, initial-scale=1",
+  themeColor: "#000000",
+  category: "technology",
+  classification: "business",
+  other: {
+    "revisit-after": "7 days",
+    "language": "English",
+    "distribution": "global",
+    "rating": "general",
+    "HandheldFriendly": "True",
+    "MobileOptimized": "320",
+    "geo.region": "IN-UP",
+    "geo.placename": "Noida",
+    "geo.position": "28.5355;77.3910",
+    "ICBM": "28.5355, 77.3910",
+  },
 };
-
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": ["LocalBusiness", "Service"],
+  "@type": ["LocalBusiness", "Organization", "WebSite"],
   "serviceType": [
     "eCommerce Website Development",
-    "BigCommerce Website Development"
+    "BigCommerce Website Development",
+    "Shopify Development",
+    "Magento Development",
+    "eCommerce Consulting"
   ],
   "name": "Kushel Digi Solutions",
   "description": "Transform your online presence with Kushel Digi Solutions eCommerce development, BigCommerce solutions, and tailored B2B and marketplace platforms. Start your project today!",
+  "url": "https://www.kusheldigi.com/",
+  "logo": "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png",
+  "image": "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "First Floor, D242, F-32B, Sector 63 Rd, Noida, 201301, Uttar Pradesh",
@@ -70,10 +123,31 @@ const jsonLd = {
     "postalCode": "201301",
     "addressCountry": "IN"
   },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+91-9045301702",
+      "contactType": "customer service",
+      "availableLanguage": ["English", "Hindi"],
+      "areaServed": "IN"
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+1-585-566-2070",
+      "contactType": "customer service",
+      "availableLanguage": "English",
+      "areaServed": "US"
+    }
+  ],
   "telephone": "+91-9045301702",
-  "url": "https://www.kusheldigi.com/",
+  "email": "info@kusheldigi.com",
   "openingHours": "Mon-Sat 10:00-17:00",
   "priceRange": "$$",
+  "foundingDate": "2016",
+  "founder": {
+    "@type": "Person",
+    "name": "Kushel Digi Team"
+  },
   "areaServed": [
     {
       "@type": "Country",
@@ -86,34 +160,232 @@ const jsonLd = {
     {
       "@type": "Country",
       "name": "UAE"
+    },
+    {
+      "@type": "Country",
+      "name": "Canada"
+    },
+    {
+      "@type": "Country",
+      "name": "Australia"
+    }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "eCommerce Development Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "BigCommerce Development",
+          "description": "Custom BigCommerce store development and optimization"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Shopify Development",
+          "description": "Shopify and Shopify Plus store development"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Magento Development",
+          "description": "Custom Magento eCommerce solutions"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "eCommerce Consulting",
+          "description": "Strategic eCommerce consulting and optimization"
+        }
+      }
+    ]
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/kusheldigi",
+    "https://twitter.com/kusheldigi",
+    "https://www.facebook.com/kusheldigi",
+    "https://www.instagram.com/kusheldigi"
+  ],
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.kusheldigi.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+};
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Kushel Digi Solutions",
+  "url": "https://www.kusheldigi.com/",
+  "description": "Expert eCommerce and BigCommerce development company",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Kushel Digi Solutions"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.kusheldigi.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.kusheldigi.com/"
     }
   ]
-}
-
-
+};
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        {/* Essential Meta Tags */}
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        
+        {/* Additional SEO Meta Tags */}
+        <meta name="language" content="English" />
+        <meta name="revisit-after" content="7 days" />
+        <meta name="distribution" content="global" />
+        <meta name="rating" content="general" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        
+        {/* Geo Tags */}
+        <meta name="geo.region" content="IN-UP" />
+        <meta name="geo.placename" content="Noida" />
+        <meta name="geo.position" content="28.5355;77.3910" />
+        <meta name="ICBM" content="28.5355, 77.3910" />
+        
+        {/* Preconnect for Performance */}
+        <link rel="preconnect" href="https://res.cloudinary.com" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        
+        {/* Favicon */}
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
+        
+        {/* Hreflang for International SEO */}
+        <link rel="alternate" hrefLang="en-us" href="https://www.kusheldigi.com/" />
+        <link rel="alternate" hrefLang="en-in" href="https://www.kusheldigi.com/" />
+        <link rel="alternate" hrefLang="x-default" href="https://www.kusheldigi.com/" />
+        
+        {/* JSON-LD Structured Data */}
         <Script
-          id="faq-schema"
+          id="organization-schema"
           type="application/ld+json"
+          strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(jsonLd),
           }}
         />
-        <Script async src={`https://www.googletagmanager.com/gtag/js?id=G-K7DSK87RV0`}></Script>
-        <script dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-K7DSK87RV0', { page_path: window.location.pathname });
-          `
-        }} />
+        
+        <Script
+          id="website-schema"
+          type="application/ld+json"
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(websiteSchema),
+          }}
+        />
+        
+        <Script
+          id="breadcrumb-schema"
+          type="application/ld+json"
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(breadcrumbSchema),
+          }}
+        />
+        
+        {/* Google Analytics */}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-K7DSK87RV0"
+          strategy="afterInteractive"
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-K7DSK87RV0', {
+                page_path: window.location.pathname,
+                anonymize_ip: true,
+                cookie_flags: 'SameSite=None;Secure'
+              });
+            `,
+          }}
+        />
+        
+        {/* Google Tag Manager (Optional - add your GTM ID) */}
+        {/* <Script
+          id="google-tag-manager"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','GTM-XXXXXXX');
+            `,
+          }}
+        /> */}
+        
+        {/* Microsoft Clarity (Optional) */}
+        <Script
+          id="microsoft-clarity"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+              })(window, document, "clarity", "script", "YOUR_CLARITY_ID");
+            `,
+          }}
+        />
       </head>
       <body>
+        {/* Google Tag Manager (noscript) - Uncomment if using GTM */}
+        {/* <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          ></iframe>
+        </noscript> */}
+        
         <ToastContainer position="bottom-right" />
         {children}
       </body>
