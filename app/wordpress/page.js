@@ -481,7 +481,7 @@ const WordPress = () => {
                             </div>
                             <div className="wordpress_agency_box wordpress_agency_box1">
                                 <h3>Instinctive Admin Panel</h3>
-                                <p>INSTINCTIVE ADMIN PANEL
+                                <p>
                                     kusheldigi makes transparent and
                                     Natural admin management that
                                     Is not difficult to use for a website

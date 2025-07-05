@@ -6,22 +6,22 @@ const tabData = {
   Speed: {
     label: "Speed",
     heading: "Kushel Digi Solutions builds PWAs to deliver speed at every step from loading the homepage to completing checkout.",
-    content1: "Headless: Uses service workers to cache content and resources. Instant load time even on slow networks",
-    content2: "PWA: Reduces bounce rate and improves user satisfaction. Smooth performance across pages and actions",
+    content1: " Uses service workers to cache content and resources. Instant load time even on slow networks",
+    content2: " Reduces bounce rate and improves user satisfaction. Smooth performance across pages and actions",
     image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743795855/Speed-Tab-Picture_1_cqbsnh.png",
   },
   MobileFirstUX: {
     label: "Mobile-First UX",
     heading: "PWAs mainly prioritize mobile usability. These are designed for smaller screens by offering intuitive interfaces, smooth scrolling, and gesture-friendly navigation.",
-    content1: "Headless : Touch-optimized and responsive layout. Fast transitions and lightweight interactions",
-    content2: "PWA: Consistent user experience across devices Supports mobile gestures and animations",
+    content1: " Touch-optimized and responsive layout. Fast transitions and lightweight interactions",
+    content2: " Consistent user experience across devices Supports mobile gestures and animations",
     image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743854131/Uniqueness-Tab-Picture.png_1_tqkhcb.png",
   },
   OfflineBrowsing: {
     label: "Offline Browsing",
     heading: "PWAs allow users to access essential content even when they’re offline or on unstable connections. This helps to keep customers engaged no matter their connectivity.",
-    content1: "Headless : Works without an active internet connection. Caches product pages and assets",
-    content2: "PWA: Enhances reliability in low-network areas Improves accessibility and user trust",
+    content1: " Works without an active internet connection. Caches product pages and assets",
+    content2: " Enhances reliability in low-network areas Improves accessibility and user trust",
     image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743854193/Agility-Tab-Picture.png_1_zq3pfu.png",
   },
   AppLikeExperience: {

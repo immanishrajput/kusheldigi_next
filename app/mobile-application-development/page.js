@@ -183,7 +183,7 @@ const MobileApp = ({ notify }) => {
 
         <div className="mobile-app dine-1234">
           <div class="scroll-container">
-            <img class="app" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739339829/mobileapi_z44pnl.png" alt="Custom App Development & Design Company" />
+            <img class="app image-text-dark" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739339829/mobileapi_z44pnl.png" alt="Custom App Development & Design Company" />
           </div>
 
           <div className="deliver">

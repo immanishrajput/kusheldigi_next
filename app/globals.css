@@ -4251,7 +4251,7 @@ body {
   }
 
   .risk-morning-chipo .billing-mozo {
-    padding: 0 0 10px !important;
+    padding: 15px !important;
   }
 }
 
@@ -4262,7 +4262,7 @@ body {
   }
 
   .risk-morning-chipo .billing-mozo {
-    padding: 0 0 10px !important;
+    padding:15px !important;
   }
 }
 
@@ -28536,7 +28536,10 @@ form button {
 .scroll-container .app {
   display: inline-block;
   white-space: nowrap;
-  animation: scrollRight 10s linear infinite; /* slower: 15s instead of 5s */
+    animation: scrollRight 10s linear infinite; /* slower: 15s instead of 5s */
+}
+.image-text-dark{
+filter: brightness(0.8);
 }
 
 @keyframes scrollRight {
@@ -32895,7 +32898,14 @@ form button:hover {}
 .letsay h5:hover path {
   fill: #0072bc !important;
 }
-
+.button-letsay{
+      margin-bottom: 16px;
+    background-color: aliceblue;
+    width: 120%;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 5px;
+}
 .letsit {
   display: flex;
   font-family: "Poppins", sans-serif !important;
@@ -37287,7 +37297,10 @@ video {
   margin: 18px 0;
   text-align: left;
 }
-
+.kotlin-li-d{
+      padding: 0px 12px;
+    list-style: disc;
+}
 @media (max-width: 900px) {
   .kotlinContent-para p {
     text-align: left;
@@ -41196,8 +41209,12 @@ video {
   position: relative;
   cursor: pointer;
   margin: 0 2px;
+   transition: transform 0.4s ease, box-shadow 0.4s ease;  
 }
+.thir_img:hover {
+  transform: scale(1.06);
 
+}
 .thir_img img {
   max-width: 300px;
   width: 100%;
@@ -48454,7 +48471,7 @@ font-size: 28px !important;
   width: 45%;
   min-width: 700px;
   padding: 60px 100px;
-  margin-left: 60px;
+  /* margin-left: 60px; */
 }
 
 .mlm_help_detail_head h2 {
@@ -59439,6 +59456,10 @@ option {
 
   .leftreview {
     border-right: none;
+    display: contents;
+   /* display:flex;
+   align-items:center;
+   flex-direction:column; */
   }
 }
 
@@ -64598,7 +64619,7 @@ option {
   }
 
   .mlm_help_detail_head {
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
 }
 
@@ -74900,6 +74921,7 @@ input::-webkit-inner-spin-button {
   overflow: hidden;
 }
 
+
 .faq-question {
   padding: 20px;
   font-size: 19px;
@@ -74952,6 +74974,27 @@ input::-webkit-inner-spin-button {
     }
 }
 
+@media screen  and (max-width:500px){
+  .faq-question {
+
+  font-size: 16px;
+  font-weight: 600;
+  height: 120px;
+  display: flex;
+  gap: 18px;
+
+}
+.faqr-section {
+     padding: 50px 30px;
+}
+.toggle-btn{
+  padding: 6px;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+}
+    
+}
 
 /* .faqr-section {
   max-width: 1720px;
