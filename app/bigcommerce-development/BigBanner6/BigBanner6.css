@@ -252,10 +252,10 @@ color: #0c61ff !important;
   @media (max-width:450px){
     .blue{
       font-size: 14px !important;
-      height: 410px;
+      height: 423px;
     }
     .gray{
-      height: 410px;
+      height: 423px;
       font-size: 14px !important;
     }
   }
