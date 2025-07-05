@@ -1,5 +1,5 @@
 "use client"
-import { useEffect } from 'react'
+import React from 'react'
 import BigBanner3 from '../bigcommerce-development/BigBanner3/page'
 import BigBanner4 from '../bigcommerce-development/BigBanner4/page'
 import BigBanner6 from "../bigcommerce-development/BigBanner6/page"
@@ -25,64 +25,79 @@ import { BigCommerceFeatures } from "../data/data";
 import { BigCommerceFeaturesContent } from "../data/data";
 import Banner9 from '../ecommerce-development/Banner8/page';
 import { weExpertInBigCommerce } from "../data/data"
+import Image from 'next/image';
 
-const page = () => {
-  const generateMetadata = ({ params }) => ({
-    title: ' Best BigCommerce Development Services| Kushel Digi Solutions',
-    description: "Boost your online store with Kushel Digi’s expert BigCommerce development, seamless migration, custom design, and scalable eCommerce solutions for business growth"
-  });
-
-  useEffect(() => {
-    const { title, description } = generateMetadata({ params: {} });
-    document.title = title;
-    let metaDescription = document.querySelector('meta[name="description"]');
-    metaDescription ? metaDescription.content = description :
-      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-  }, []);
+const BigCommerceComponent = ({ notify }) => {
   const phoneNumber = "9045301702";
 
   const whatAppHandler = () => {
     const whatsappUrl = `https://wa.me/${phoneNumber}`;
     window.open(whatsappUrl, "_blank");
   };
+
   const callHandler = () => {
     const callUrl = `tel:${phoneNumber}`;
     window.open(callUrl, "_blank");
-  }
+  };
+
   return (
-    <main>
+    <main role="main">
       <Navbar />
       <BannerMain />
       <BigBanner8 weExpert={weExpertInBigCommerce} />
       <BigBanner7 />
       <BigBanner3 />
-      {/* <Banner10 page='BigCommerce'/> */}
       <BigCommercePortfolio page={'BigCommerce'} />
       <Banner9 page='Delivering powerful, high performance BigCommerce solutions for our clients.' />
       <Process page='BigCommerce' />
       <BigBanner6 services={whyBigCommereByKDS} contents={whyBigCommereByKDSHeading} />
-      <BigBanner4 page='Our Bigcommerce Experts are Ready to Launch your Dream Store today!' img='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743157130/bigcommerce-logo-icon_um7a4x.png' />
-
+      <BigBanner4
+        page='Our BigCommerce Experts are Ready to Launch your Dream Store today!'
+        img='https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743157130/bigcommerce-logo-icon_um7a4x.png'
+      />
       <BigBanner9 />
       <ServicesSection services={BigCommerceServices} contents={BigCommerceServicesHeading} />
       <FeatureSection services={BigCommerceFeatures} contents={BigCommerceFeaturesContent} />
-
       <BlogSection page="bigcommerce" />
       <BigAskQuestion />
       <HomeForm />
       <Footer />
-      <div className="whtsApBtns">
-        <button onClick={whatAppHandler}>
-          <img loading="lazy" className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
-        </button>
-        <button onClick={callHandler}>
-          <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480725/telephone_h8clxy.png' alt="call-icon" title="call-icon" />
-        </button>
 
+      <div className="whtsApBtns" role="region" aria-label="Contact buttons">
+        <button
+          onClick={whatAppHandler}
+          aria-label="Chat with us on WhatsApp"
+          title="Contact BigCommerce experts on WhatsApp"
+          type="button"
+        >
+          <Image
+            className="what-image-universal"
+            src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png"
+            alt="WhatsApp contact icon for BigCommerce development inquiries"
+            title="Contact BigCommerce developers on WhatsApp"
+            width={50}
+            height={50}
+            loading="lazy"
+          />
+        </button>
+        <button
+          onClick={callHandler}
+          aria-label="Call us now"
+          title="Call our BigCommerce experts"
+          type="button"
+        >
+          <Image
+            src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480725/telephone_h8clxy.png"
+            alt="Phone call icon for BigCommerce development consultation"
+            title="Call BigCommerce development experts"
+            width={50}
+            height={50}
+            loading="lazy"
+          />
+        </button>
       </div>
-
     </main>
   )
 }
 
-export default page
+export default BigCommerceComponent
