@@ -103,9 +103,9 @@ const CaseStudy = () => {
   return (
     <div className='case-study-container'>
       <div className='case-wrapper'>
-        <h4 className='big-card-heading primary-heading'>
+        <h1 className='big-card-heading primary-heading'>
           {caseStudies[currentIndex].heading}
-        </h4>
+        </h1>
         <div className='case-card'>
           <img
             loading='lazy'
