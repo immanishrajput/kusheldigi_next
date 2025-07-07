@@ -170,7 +170,6 @@ function page() {
                     alt="Black Rhino Concealment logo"
                   />
                 </div>
-                <p>Black Rhino Concealment</p>
               </div>
 
               <p className="ca1firrigh">

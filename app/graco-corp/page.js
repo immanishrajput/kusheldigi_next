@@ -172,7 +172,6 @@ function graco() {
                     alt="graco-corporation logo"
                   />
                 </div>
-                <p>GRACO CORPORATION</p>
               </div>
 
               <p className="ca1firrigh">

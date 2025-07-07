@@ -184,7 +184,6 @@ function Page() {
                             {/* left  */}
                             <div className="ca1firleft">
                                 <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751442984/Group_1171279548_eybqz4.png" alt="pinksky logo" />
-                                <p>EZMA</p>
                             </div>
 
                             <p className="ca1firrigh">
@@ -271,7 +270,7 @@ function Page() {
                         <p className="s3theeparas">After going through all the aspects, a fresh UI and a change in platform were required. That’s how we ended up choosing Figma for the design and Shopify for creating the storefront. </p>
                         <p className="s3theeparas">Along with them, we also improved the quality of content to ensure it represents the same elegance that the client is delivering through the products. </p>
                     </div>
-                    <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751440272/Group_1171279524_1_otomo8.png" alt="kushel" className="c3antoimg" />
+                    <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751442983/Group_1171279545_czumhh.png" alt="kushel" className="c3antoimg" />
 
                 </div>
             </section>
@@ -323,7 +322,7 @@ function Page() {
                         <div className="cas3s4con" id="cas3s4connn">
 
                             <div className="bgshowdb1" id="bgshowdb11">
-                                <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751438495/Group_1171279534_lzgqxn.png" />
+                                <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751871359/Group_1171279554_1_awrypf.png" />
 
                             </div>
 
@@ -345,7 +344,7 @@ function Page() {
 
                             <div className="bgshowdb1" id="bgshowdb11">
 
-                                <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751438495/Group_1171279539_qujh3b.png" />
+                                <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751871360/Group_1171279557_yfdodm.png" />
 
                             </div>
 

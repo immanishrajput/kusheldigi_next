@@ -188,7 +188,6 @@ function Page() {
               {/* left  */}
               <div className="ca1firleft">
                 <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748270331/Group_1171279472_1_lkh4bv.png" alt="kushel" />
-                <p> Digital MNA </p>
               </div>
 
               <p className="ca1firrigh">

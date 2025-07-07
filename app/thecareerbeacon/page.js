@@ -187,7 +187,6 @@ function Page() {
               {/* left  */}
               <div className="ca1firleft">
                 <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748016554/Group_1171279433_zut9do.png" alt="kushel" />
-                <p> Career Beacon </p>
               </div>
 
               <p className="ca1firrigh">

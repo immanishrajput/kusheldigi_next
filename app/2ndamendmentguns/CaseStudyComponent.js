@@ -160,7 +160,7 @@ export default function CaseStudyComponent() {
 
       <section className="case1firsec">
 
-        <img loading="lazy" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454210/2nd-home-banner_qpuz1w.jpg" alt="kushel" className="case1fill" />
+        <img loading="lazy" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454210/2nd-home-banner_qpuz1w.jpg" alt="2nd Amendment  Logo image for ecommerce website development by Kushel Digi Solutions" className="case1fill" />
         {/* <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216400/case1fil_bwtual.png" alt="kushel" className="case1fill" />
         <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216437/case1bg_j1tw2e.png" alt="kushel" className="case1bg" /> */}
 
@@ -171,7 +171,6 @@ export default function CaseStudyComponent() {
               {/* left  */}
               <div className="ca1firleft">
                 <img loading="lazy" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784821/Group_1171279311_lf5dmj.png" alt="2ndamendmentguns logo" />
-                <p>2ndamendment Guns</p>
               </div>
 
               <p className="ca1firrigh">
@@ -206,7 +205,7 @@ export default function CaseStudyComponent() {
       {/* secon section  */}
       <section className="case2secsec">
         <div className="case2seccont">
-          <img loading="lazy" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746537844/madfish-logo1_ghjavp.png" alt="kushel" className="cs2i1" />
+          <img loading="lazy" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746537844/madfish-logo1_ghjavp.png" alt="MadFish Solutions project logo by Kushel Digi Solutions" className="cs2i1" />
 
           <div className="sc2_main_content">
             <h1>Client Background</h1>
@@ -227,7 +226,7 @@ export default function CaseStudyComponent() {
           </div>
         </div>
 
-        <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216538/c2el1_ljp05j.png" alt="kushel" className="c2el1" />
+        <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216538/c2el1_ljp05j.png" alt="circle icon" className="c2el1" />
       </section>
       <div className="PortfolioChallenges">
         <div className="PortfolioChallengeMain">
@@ -250,7 +249,7 @@ export default function CaseStudyComponent() {
           <img
             src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746785005/Group_1171279298_a4is5k.png"
             // src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746514576/2nd-A-challenges_hdngwv.png"
-            alt="kushel"
+            alt="2nd Amendment  Logo image for ecommerce website development by Kushel Digi Solutions"
           />
         </div>
 
@@ -279,7 +278,7 @@ export default function CaseStudyComponent() {
             <p className="s3theeparas">We also did a thorough research to identify the market gaps and analyze the best possible solution for the business. </p>
 
           </div>
-          <img loading="lazy" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746514576/2nd-A-solutions_s6apxz.png" alt="kushel" className="c3antoimg" />
+          <img loading="lazy" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746514576/2nd-A-solutions_s6apxz.png" alt="2nd Amendment  Logo image for ecommerce website development by Kushel Digi Solutions" className="c3antoimg" />
 
           {/* <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216571/case3ano_uv19e1.png" alt="kushel" className="c3antoimg" /> */}
         </div>

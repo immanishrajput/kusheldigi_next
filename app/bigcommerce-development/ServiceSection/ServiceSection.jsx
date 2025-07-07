@@ -26,7 +26,7 @@ const ServiceSection = ({services,contents}) => {
                     key={index}
                     className={`big-services-card ${service.highlighted ? 'highlighted' : ''}`}
                 >
-                    <img loading="lazy" src={service.icon}/>
+                    <img loading="lazy" src={service.icon} alt={service.title}/>
                     <h3>{service.title}</h3>
                     <p>{service.description}</p>
                 </div>

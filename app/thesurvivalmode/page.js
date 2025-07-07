@@ -187,7 +187,7 @@ function Page() {
                             {/* left  */}
                             <div className="ca1firleft">
                                 <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747323201/logo-white-new_1687810777__26159.original_tyhlxx.png" alt="thesurvivalmode logo" />
-                                <p>Survival Mode Tactical </p>
+                               
                             </div>
 
                             <p className="ca1firrigh">

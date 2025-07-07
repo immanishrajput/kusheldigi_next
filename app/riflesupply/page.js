@@ -170,7 +170,6 @@ function riffle() {
                     alt="rifle supply logo"
                   />
                 </div>
-                <p>Rifle Supply</p>
               </div>
 
               <p className="ca1firrigh">

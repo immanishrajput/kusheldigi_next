@@ -9,11 +9,9 @@ const Page = () => {
     <div className="shopy-containerEcom">
   <section className="shopy-left-sectionEcom">
     {/* <h6>Ecommerce Development Agency</h6> */}
-    <h1>
+    <h3>
     Design. Develop. Grow with Kushel Digi Solutions
-
-
-    </h1>
+    </h3>
     <p>
     Since 2017, Kushel Digi has been delivering Custom Ecommerce Solutions for more than 1000+ clients across globe. We are committed to help your business grow faster. 
     </p>

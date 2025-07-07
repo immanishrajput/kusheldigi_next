@@ -186,7 +186,6 @@ function Page() {
                             {/* left  */}
                             <div className="ca1firleft">
                                 <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748206713/sp-logo_1718202719__08634_1_1_qov0dt.png" alt="servapure logo" />
-                                <p> Serv A Pure </p>
                             </div>
 
                             <p className="ca1firrigh">

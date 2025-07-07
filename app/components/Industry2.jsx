@@ -13,6 +13,7 @@ import Footer from "../COMMON/Footer";
 import IndustriesFAQ from "../COMMON/IndustriesFAQ";
 import Slider from "react-slick";
 import Image from "next/image";
+import Website from "./Home/HomeForm";
 
 const Ankitcrouser = [
   {
@@ -224,18 +225,6 @@ function Industries() {
       behavior: "smooth",
     });
   };
-  const generateMetadata = ({ params }) => ({
-    title: 'Scalable eCommerce Services for All Industries | Kushel Digi',
-    description: 'Explore industry-specific eCommerce services from Kushel Digi—healthcare, retail, finance, education, fashion, entertainment, and more. Boost your business today! ',
-  });
-
-  useEffect(() => {
-    const { title, description } = generateMetadata({ params: {} });
-    document.title = title;
-    let metaDescription = document.querySelector('meta[name="description"]');
-    metaDescription ? metaDescription.content = description :
-      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-  }, []);
 
   const [autoplaySpeed, setAutoplaySpeed] = useState(1);
 
@@ -284,9 +273,6 @@ function Industries() {
       ))}
     </Slider>
   );
-
-
-
 
   return (
     <>
@@ -1273,6 +1259,8 @@ function Industries() {
 
 
       <IndustriesFAQ />
+
+      <Website/>
       <div className="whtsApBtns">
         <button onClick={whatAppHandler}>
           <img

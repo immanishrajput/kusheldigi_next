@@ -171,7 +171,6 @@ function Ai() {
                     alt="ai&partscenter logo"
                   />
                 </div>
-                <p>A&I Parts Center</p>
               </div>
 
               <p className="ca1firrigh">

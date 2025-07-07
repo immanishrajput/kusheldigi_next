@@ -187,7 +187,6 @@ function Page() {
               {/* left  */}
               <div className="ca1firleft">
                 <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748016554/Vector_4_hnx29x.png" alt="instacertify logo" />
-                <p>Instacertify </p>
               </div>
 
               <p className="ca1firrigh">

@@ -169,7 +169,6 @@ function rideready() {
                     alt="rideready logo"
                   />
                 </div>
-                <p>Ride Ready</p>
               </div>
 
               <p className="ca1firrigh">
