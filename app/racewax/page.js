@@ -188,7 +188,7 @@ function Page() {
               {/* left  */}
               <div className="ca1firleft">
                 <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746889440/Group_1171279371_nqoess.png" alt="racewax logo" />
-                <p>RaceWax</p>
+                
               </div>
 
               <p className="ca1firrigh">

@@ -34,10 +34,9 @@
   color: #0b60ff;
   font-weight: 500;
   margin-bottom: 12px;
-  /* letter-spacing: 5px; */
 }
 
-.Big-headless-intro-text h1 {
+.Big-headless-intro-text h3 {
   font-size: 42px;
   font-weight: 600;
   color: #1c1e21;
@@ -48,7 +47,7 @@
 
 .Big-headless-intro-description {
   font-size: 18px !important;
-  line-height: normal;
+  line-height: 28px;
   padding: 15px 0px 0px 0px;
   color: #444;
   margin-bottom: 30px;
@@ -127,7 +126,7 @@
     text-align: center;
   }
 
-  .Big-headless-intro-text h1 {
+  .Big-headless-intro-text h3 {
     text-align: center;
     font-size: 21px;
   }

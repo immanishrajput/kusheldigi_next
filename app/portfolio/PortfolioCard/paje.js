@@ -9,6 +9,7 @@ const portfolioData = [
     // companyName: 'Kick-eez',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477030/abImg1_vyhxn6.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt:"Kick-eez Logo image for portfolio by Kushel Digi Solutions",
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -26,6 +27,7 @@ const portfolioData = [
     // companyName: 'Pro Trucks',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477086/abimg2_vksyx7.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt:"Protrucksandcars Logo image for portfolio by Kushel Digi Solutions",
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -45,6 +47,7 @@ const portfolioData = [
     // companyName: 'Rely',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477117/abimg3_tsrgwp.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt:"Rely Saftey Logo image for portfolio by Kushel Digi Solutions",
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -63,6 +66,7 @@ const portfolioData = [
     // companyName: 'Solenoid Ninja',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477144/abimg5_wfhlp8.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt:"Solenoid Ninja Logo image for portfolio by Kushel Digi Solutions",
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -81,6 +85,7 @@ const portfolioData = [
     // companyName: 'Ballistic Dummy Lab',
     logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725952762/image_75_ywf6np.svg',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409123/Shoplift1_kzo9i1.png',
+    alt:"Ballistic Dummy Lab Logo image for portfolio by Kushel Digi Solutions",
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -99,6 +104,7 @@ const portfolioData = [
   //   // companyName: 'Sites and Scopes',
   //   logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725953651/image_18_1_j5e3am.svg',
   //   platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    // alt:"Sites and Scopes Logo image for portfolio by Kushel Digi Solutions",
   //   description: [
   //     "UX/UI Website Design", "Website Development", "QA & Website Testing"
   //   ],
@@ -118,6 +124,7 @@ const portfolioData = [
     // companyName: 'Top Brass Tactical',
     logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725953729/logo-white_1_1689966883__67774_1_yqlhdf.svg',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt:"Top Brass Tactical Logo image for portfolio by Kushel Digi Solutions",
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -136,6 +143,7 @@ const portfolioData = [
     // companyName: 'Slides365',
     logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725953057/slide_1_gelwuz.svg',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt:"Slides 365 Logo image for portfolio by Kushel Digi Solutions",
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -155,6 +163,7 @@ const portfolioData = [
     // companyName: '2ndamendment Armory',
     logo: 'https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784821/Group_1171279311_lf5dmj.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt:"2ndamendmentguns Logo image for portfolio by Kushel Digi Solutions",
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -174,6 +183,7 @@ const portfolioData = [
     id: 'automotive-59',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744637742/lovely_nymplp.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt:"Black Rhino Conceakment Logo image for portfolio by Kushel Digi Solutions",    
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -193,6 +203,7 @@ const portfolioData = [
     id: 'automotive-501',
     logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1747323201/logo-white-new_1687810777__26159.original_tyhlxx.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt:"The Survival Mode Logo image for portfolio by Kushel Digi Solutions",
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -232,10 +243,9 @@ const portfolioData = [
 
   {
     id: 'automotive-104',
-
-
     logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1746889440/Group_1171279371_nqoess.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt:"Racewax Logo image for portfolio by Kushel Digi Solutions",
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -258,6 +268,7 @@ const portfolioData = [
     id: 'automotive-105',
     logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748016554/Vector_4_hnx29x.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt:"InstaCertify Logo image for portfolio by Kushel Digi Solutions",
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -277,6 +288,7 @@ const portfolioData = [
     id: 'automotive-106',
     logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748016554/Group_1171279433_zut9do.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt:"The Career Beacon Logo image for portfolio by Kushel Digi Solutions",
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -297,6 +309,7 @@ const portfolioData = [
     id: 'automotive-107',
     logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748014394/krapp-strapp-logo_1726251600__26374.original_1_fx2cjv.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt:"Krapp Strapp Logo image for portfolio by Kushel Digi Solutions",
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -317,6 +330,7 @@ const portfolioData = [
     id: 'automotive-108',
     logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748205987/Group_1171279467_jynsvv.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt:"Bobcatarmament Logo image for portfolio by Kushel Digi Solutions",
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -337,6 +351,7 @@ const portfolioData = [
     id: 'automotive-109',
     logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748206714/sp-logo_1718202719__08634_1_lu5l3i.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt:'Serv A Pure logo for ecommerce website development by Kushel Digi Solutions',
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -376,6 +391,7 @@ const portfolioData = [
     id: 'automotive-111',
     logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748275036/Group_1171279500_ugv0xr.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt:'Usha Fasteners Logo image for portfolio by Kushel Digi Solutions',
     description: [
         "UX/UI Website Design","Website Development","QA & Website Testing"
   ],
@@ -396,6 +412,7 @@ const portfolioData = [
     id: 'automotive-150',
     logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1746889440/Group_1171279370_vcvyey.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt:'Lafayette Shooters Logo image for portfolio by Kushel Digi Solutions',
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -416,6 +433,7 @@ const portfolioData = [
     id: 'automotive-151',
     logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1746891179/Group_1171279369_qmin7o.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt:'Four Oaks Farm Logo image for portfolio by Kushel Digi Solutions',
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -437,6 +455,7 @@ const portfolioData = [
     // companyName: 'Ai',
     logo: 'https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747159088/Group_1171279373_mutmdz.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt:'AI & Parts Center Logo image for portfolio by Kushel Digi Solutions',
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -458,6 +477,7 @@ const portfolioData = [
     // companyName: 'Ride Ready',
     logo: 'https://res.cloudinary.com/dgif730br/image/upload/v1732807319/logo_1_1688114115__84399_2_iaqhon.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt:'Ride Ready Logo image for portfolio by Kushel Digi Solutions',
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -475,10 +495,9 @@ const portfolioData = [
 
   {
     id: 'automotive-100',
-
-    // companyName: 'Ride Ready',
     logo: 'https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746544184/typhoondefense_achn4u_1_y7ncf8.webp',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt:'Typhoon Defense Logo image for portfolio by Kushel Digi Solutions',
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -500,6 +519,7 @@ const portfolioData = [
     // companyName: 'riflesupply',
     logo: 'https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746544785/graco_corporation_logo_1705399297__51656_o9u82r_t8qznl.webp',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt:'Graco Corporation Logo image for portfolio by Kushel Digi Solutions',
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -522,6 +542,7 @@ const portfolioData = [
     // companyName: 'Ride Ready',
     logo: 'https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747159162/Group_1171279372_x9l907.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt:"Rifle Supply Logo image for portfolio by Kushel Digi Solutions",
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -536,16 +557,12 @@ const portfolioData = [
     category: ["ecommerce"],
   },
 
-
-
-
-
-
   {
     id: 'automotive-12',
     // companyName: 'My CMS',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477196/mycms_dc994l.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409212/laravel_ckyqzi.png',
+    alt:'MyCrazy SimpleCMS Logo image for portfolio by Kushel Digi Solutions',
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -558,6 +575,7 @@ const portfolioData = [
     line: '|',
     category: ["website"],
   },
+  
   {
     id: 'automotive-13',
     // companyName: 'FairChild',
@@ -583,6 +601,7 @@ const portfolioData = [
     // companyName: 'Wood View',
     logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725952841/image_76_tovttv.svg',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409212/laravel_ckyqzi.png',
+    alt:"Wood View Logo image for portfolio by Kushel Digi Solutions",
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -600,6 +619,7 @@ const portfolioData = [
     // companyName: 'HRMS',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477326/hrmsname_ljnty9.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745408641/node_js_xqb6ug.png',
+    alt:"HRMS Logo image for portfolio by Kushel Digi Solutions",
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -621,6 +641,7 @@ const portfolioData = [
     // companyName: 'Shubhalloys',
     logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725952993/SHUBHALLOYS_j2i6dz.svg',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745408641/node_js_xqb6ug.png',
+    alt:"SubhAlloy Logo image for portfolio by Kushel Digi Solutions",
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -675,6 +696,7 @@ const portfolioData = [
     // companyName: 'OBTECH',
     logo: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1751437338/Group_1171279510_ocghtg.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409465/PHP_az1lyx.png',
+    alt:"Obtech Enterprise Logo image for portfolio by Kushel Digi Solutions",
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -692,6 +714,7 @@ const portfolioData = [
     // companyName: 'DigitalMnA',
     logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748270331/Group_1171279472_1_lkh4bv.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt:"Digital MNA Logo image for portfolio by Kushel Digi Solutions",
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -709,6 +732,7 @@ const portfolioData = [
     // companyName: 'Auxible',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740478612/webauxlogo_sxf2ww.png',
     // platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt:"Auxible Logo image for portfolio by Kushel Digi Solutions",
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -947,6 +971,7 @@ const portfolioData = [
 
     logo: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1751438493/Group_1171279538_hqjkvh.png',
      platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt:"Pinky Sky Logo image for portfolio by Kushel Digi Solutions",
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -963,6 +988,7 @@ const portfolioData = [
 
     logo: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1751442984/Group_1171279548_eybqz4.png',
      platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt:"EZMA Logo image for portfolio by Kushel Digi Solutions",
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
@@ -1024,7 +1050,7 @@ const Portfolio = () => {
           {filteredCaseStudies.map((item, index) => (
             <div className="client each-portfolio-cards automotive" id={item?.id} key={index}>
               <div className="each-portfolio">
-                <img src={item?.logo} className="top-company-logos" />
+                <img src={item?.logo} alt={item?.alt} className="top-company-logos" />
                 <img src={item?.platformLogo} className="bottom-platform-logo" />
                 <div className="card-overlayMain">
                   <div className="overlay-content">

@@ -187,7 +187,6 @@ function Page() {
                             {/* left  */}
                             <div className="ca1firleft">
                                 <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748275036/Group_1171279500_ugv0xr.png" alt="usha fastener logo" />
-                                <p>Usha Fastener </p>
                             </div>
 
                             <p className="ca1firrigh">

@@ -188,7 +188,6 @@ function Page() {
                             {/* left  */}
                             <div className="ca1firleft">
                                 <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746891179/Group_1171279369_qmin7o.png" alt="fouroaksfarm logo" />
-                                <p> Four Oaks Farm</p>
                             </div>
 
                             <p className="ca1firrigh">

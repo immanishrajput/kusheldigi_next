@@ -11,11 +11,10 @@ const Luna = () => {
         </div>
         <div className="Big-headless-intro-text">
           <p className="Big-headless-intro-subheading">Certified BigCommerce Agency</p>
-          <h1>What Is Headless BigCommerce?
-          </h1>
+          <h3>What Is Headless BigCommerce?
+          </h3>
           <p className="Big-headless-intro-description">
           Headless BigCommerce is an advanced ecommerce configuration in which the front-end (what visitors see) is isolated from the back-end (where you enter products, orders, etc.). Its flexible design enables you to utilize contemporary technologies such as React.js, Next.js, or Vue.js to develop lightning-fast, highly customizable storefronts, Unlike conventional ecommerce sites where style and functionality are closely interdependent, headless commerce provides you with unlimited creative liberty, quicker loading speeds, smooth integrations, and an omnichannel ready-for-the-future solution.
-
           </p>
           <div className="big-btn"> 
   <Link href="/contact-us" className="Big-headless-intro-button">

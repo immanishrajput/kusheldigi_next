@@ -172,7 +172,6 @@ function typhoon() {
                     alt="typhoon defense logo"
                   />
                 </div>
-                <p>TYPHOON DEFENSE</p>
               </div>
 
               <p className="ca1firrigh">

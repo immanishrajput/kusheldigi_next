@@ -185,7 +185,6 @@ function Page() {
                             {/* left  */}
                             <div className="ca1firleft">
                                 <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751437338/Group_1171279510_ocghtg.png" alt="obtechenterprise logo" />
-                                 <p>Obtech Enterprise</p>
                             </div>
 
                             <p className="ca1firrigh">

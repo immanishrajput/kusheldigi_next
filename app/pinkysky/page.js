@@ -184,7 +184,7 @@ function Page() {
                             {/* left  */}
                             <div className="ca1firleft">
                                 <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1751438493/Group_1171279538_hqjkvh.png" alt="pinksky logo" />
-                                <p>Pinksky</p>
+
                             </div>
 
                             <p className="ca1firrigh">
