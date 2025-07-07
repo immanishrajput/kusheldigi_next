@@ -32901,7 +32901,7 @@ form button:hover {}
 .button-letsay{
       margin-bottom: 16px;
     background-color: aliceblue;
-    width: 120%;
+    width:107%;
     padding: 15px;
     border: 1px solid;
     border-radius: 5px;
@@ -35454,7 +35454,10 @@ video {
   white-space: nowrap;
   font-weight: 700;
 }
-
+.d-display .oi{
+  color: #388fe7;
+  font-size: 16px;
+}
 .codeReview span {
   margin-right: 15px;
 }
@@ -37354,7 +37357,22 @@ video {
 .kotlin-plat {
   background-color: #085881;
 }
-
+@media screen and (max-width: 575px) {
+  .card-kotlin{
+    flex-direction: column;
+  }
+  .box-kotlin{
+    display: flex;
+    margin-bottom: 6px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .box-kotlin p{
+    text-align: center !important;
+  }
+}
 .kotlin-platform {
   padding: 20px 100px;
   display: flex;
@@ -41742,6 +41760,14 @@ width: 400px !important;
 font-size: 28px !important;
   }  
 } */
+ @media screen and (max-width:650px) {
+  .boost_sect  {
+width: 74%;
+  }
+   .boost_sect h3 {
+    font-size: 23px;
+   }
+}
 .boost_sect h3 {
   color: #fff;
   font-family: "Poppins", sans-serif !important;
@@ -42843,14 +42869,20 @@ font-size: 28px !important;
 .what_makes {
   padding: 80px 0;
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
 }
 
 .what_makes1 {
   padding: 0 100px;
 }
+.make-head{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
 
+}
 .make-head h3 {
   color: #33475b;
   font-weight: 700;
@@ -42861,7 +42893,7 @@ font-size: 28px !important;
   color: #33475b;
   font-size: 18.5px;
   font-weight: 400;
-  width: 30em;
+  width: 49em;
   max-width: 100%;
   margin-top: 18px;
   line-height: 30px;
@@ -58842,7 +58874,7 @@ option {
   }
 
   .make-head p {
-    width: 22em;
+    width: 41em;
   }
 
   .homeswar-sect {
@@ -61789,7 +61821,7 @@ option {
   }
 
   .support-modern2 {
-    margin-top: 30px;
+    /* margin-top: 30px; */
   }
 
   .flutter-back {
@@ -61822,7 +61854,7 @@ option {
   }
 
   .codeReview h5 {
-    font-size: 30px;
+    font-size: 27px;
   }
 
   .codeReview>p {
@@ -66164,7 +66196,7 @@ option {
   }
 
   .boost_sect h3 {
-    font-size: 17px;
+    /* font-size: 17px; */
     line-height: 32px;
   }
 
@@ -66856,11 +66888,22 @@ option {
     padding: 0 10px 0 0;
   }
 }
-
+.d-display{
+  display: none;
+}
 @media screen and (max-width: 685px) {
   .hero-content h1 {
     text-align: center;
   }
+}
+
+@media screen and (max-width: 470px) {
+.d-span-none{
+  display: none;
+}
+.d-display{
+  display: block;
+}
 }
 
 @media screen and (max-width: 450px) {
@@ -67648,7 +67691,7 @@ option {
   }
 
   .boost_sect h3 {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 32px;
   }
 
@@ -68761,7 +68804,7 @@ option {
   }
 
   .codeReview h5 {
-    font-size: 25px;
+    font-size: 24px;
   }
 
   .codeReview>p {
@@ -70981,7 +71024,7 @@ option {
   }
 
   .codeReview h5 {
-    font-size: 25px;
+    font-size: 22px;
     line-height: 32px;
     text-align: center;
   }
@@ -74975,26 +75018,43 @@ input::-webkit-inner-spin-button {
 }
 
 @media screen  and (max-width:500px){
+  .primary-heading{
+    text-align: center !important;
+  }
   .faq-question {
-
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
-  height: 120px;
+  height: 67px;
   display: flex;
   gap: 18px;
-
 }
 .faqr-section {
-     padding: 50px 30px;
+  padding: 50px 30px;
 }
 .toggle-btn{
   padding: 6px;
   display: flex ;
   justify-content: center;
   align-items: center;
+}  
+.faq-item.open .faq-answer{
+      padding: 0px 20px 13px 20px;
+    /* max-height: 400px; */
+    font-size: 13px;
+}  
+.faq-answer{
+  font-size: 13px;
 }
-    
+.faq-item{
+margin-bottom: 7px;
 }
+}
+@media screen  and (max-width:330px){
+  .faq-question {
+  line-height: 20px;
+  height: 73px;
+
+}}
 
 /* .faqr-section {
   max-width: 1720px;
@@ -78011,7 +78071,7 @@ input::-webkit-inner-spin-button {
     font-size: 24px !important;
     font-weight: 600 !important;
     line-height: 32px !important;
-    text-align: center;
+    text-align: center !important;
   }
 
   .secondary-heading {

@@ -291,6 +291,7 @@
     .Big-banner-right-content::before {
         left: 20px;
         top: 84px;
+        height: 79.1% !important;
     }
 
     @keyframes shopifyProcessLine {

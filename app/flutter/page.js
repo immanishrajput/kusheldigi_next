@@ -297,7 +297,9 @@ const Flutters = ({ notify }) => {
                   <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169940/fragment_rkvxpo.png"
                     alt="Dev Time" />
                   <div className="codeReview">
-                    <h5><span className="oi">OI/</span>Reduced development time</h5>
+                  
+                     <h5 className='d-span-none'><span className="oi">OI</span>Reduced development </h5>
+                    <div className='d-display'> <h5 className='oi'>OI/</h5><h5>Reduced development <br/>time</h5></div>
                     <p>We implement agile methodology to develop web apps using Flutter. Hence, the overall development
                       timeline will be reduced significantly.</p>
                   </div>
@@ -309,7 +311,9 @@ const Flutters = ({ notify }) => {
                   <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169940/fragment_rkvxpo.png"
                     alt="Time to Market" />
                   <div className="codeReview">
-                    <h5><span className="oi">OI/</span>Increased time to market speed</h5>
+                    
+                    <h5 className='d-span-none'><span className="oi">OI</span>Increased time to  market speed</h5>
+                    <div className='d-display'> <h5 className='oi'>OI/</h5><h5>Increased time to  market <br/> speed</h5>  </div>
                     <p>Thanks to our planned approach and decades of industry expertise, we assure you faster time to market.</p>
                   </div>
                 </>
