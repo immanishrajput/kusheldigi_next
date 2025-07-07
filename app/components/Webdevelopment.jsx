@@ -52,7 +52,7 @@ const WebDevelopmentUSA = ({ notify }) => {
 
   const ChangeImage1 = () => {
     setTab(1);
-    document.getElementById("img1").src = `https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462387/thir1_z1wk7c.png`;
+    document.getElementById("img1").src = `https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462641/thir2_c5altu.png`;
     document.getElementById("img3").src = `https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462387/thir1_z1wk7c.png`;
     document.getElementById("img4").src = `https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462387/thir1_z1wk7c.png`;
     document.getElementById("img5").src = `https://res.cloudinary.com/dd9tagtiw/image/upload/v1740462387/thir1_z1wk7c.png`;
@@ -240,7 +240,7 @@ const WebDevelopmentUSA = ({ notify }) => {
         </div>
 
         <div className="developments dine-1234">
-          <marquee behavior="scroll" direction="right" scrollamount="20">
+          <marquee behavior="scroll" direction="right" scrollamount="5">
             <img className="dev1" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724843340/download_1_gibf3h.png
 " alt=" Web Design animation" title=" Web Design animation" />
           </marquee>

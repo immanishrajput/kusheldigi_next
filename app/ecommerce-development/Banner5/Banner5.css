@@ -76,7 +76,11 @@
     color: #444;
     margin-top: 10px;
   }
-  
+    @media screen and (max-width: 768px) {
+ .con--1-flex p {
+   text-align: center;
+  }
+    }
   /* Responsive Design */
   
   /* Tablet View - 2 Cards Per Row */
@@ -152,9 +156,9 @@
     }
   
     .con--1-flex h5 {
-        font-size: 16px;
+        font-size: 18px;
         text-align:center;
-        font-weight: 500;
+        font-weight: 600;
     }
   
     .con--1-flex p {
