@@ -292,7 +292,7 @@
     .shopify-banner-right-content::before {
         left: 20px;
         top: 84px;
-        height: 78% !important;
+        height: 73% !important;
     }
 
     @keyframes customProcessLine {
