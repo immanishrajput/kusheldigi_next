@@ -105,7 +105,7 @@ const generateMetadata = ({ params }) => ({
         <div className="experiencedji">
           <div className="first-experiencedji">
             <h2>
-              Get Experienced UI/UX Design <br />
+              Get Experienced UI/UX Design 
               Services!
             </h2>
             <div className="para-exp">
