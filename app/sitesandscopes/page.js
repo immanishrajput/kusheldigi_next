@@ -170,7 +170,6 @@ function page() {
                     alt="sitesandscopes logo"
                   />
                 </div>
-                <p>Sites and Scopes</p>
               </div>
 
               <p className="ca1firrigh">

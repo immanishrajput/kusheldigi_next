@@ -1,15 +1,13 @@
 'use client'
 
-import React, { useEffect } from 'react';
-import "./HomeNewBanner.css";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import dynamic from "next/dynamic";
+import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 import { FaArrowRightLong } from 'react-icons/fa6';
 import { HiShoppingCart } from "react-icons/hi";
-import { useRouter } from 'next/navigation';
-import dynamic from "next/dynamic";
-import Link from 'next/link';
-import Image from 'next/image';
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
+import "./HomeNewBanner.css";
 
 const Slider = dynamic(() => import("react-slick"), { ssr: false });
 
@@ -124,22 +122,6 @@ const NewBanner = () => {
             />
           </div>
         </div>
-      </div>
-
-      {/* ✅ SEO-boosting hidden content */}
-      <div className="hidden-seo-content" aria-hidden="true">
-        <h2>Custom eCommerce Development for All Industries</h2>
-        <p>
-          Kushel Digi Solutions builds and optimizes ecommerce platforms using BigCommerce, Shopify, and Magento.
-          As a certified partner, we specialize in creating responsive, scalable, and conversion-focused online stores.
-          Our services cater to retail, B2B, fashion, education, and other industries looking for digital growth.
-        </p>
-        <ul>
-          <li>BigCommerce Certified Development Partner</li>
-          <li>Custom Shopify Store Setup and Design</li>
-          <li>Magento eCommerce Solutions</li>
-          <li>End-to-End Performance Optimization</li>
-        </ul>
       </div>
     </section>
   )
