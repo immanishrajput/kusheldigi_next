@@ -21,7 +21,7 @@ function Home2Section5() {
   }, []);
 
   return (
-    <div className="s5wrap">
+    <section className="s5wrap">
       <div className="s5maincont">
         <div className="s5cont">
           <div className="s5content">
@@ -169,7 +169,7 @@ function Home2Section5() {
           )}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

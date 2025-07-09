@@ -131,7 +131,7 @@ const
     }
 
     return (
-      <div>
+      <>
         <div className="contact-container" id="form-section">
           <div className="inner-contact-container" id="innerIdcont">
             <div className="left">
@@ -413,7 +413,7 @@ const
             </div>
           </div>
         </div >
-      </div >
+        </>
     );
   };
 

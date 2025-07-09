@@ -55,23 +55,6 @@ const FAQ = () => {
   const toggle = (index) => {
     setOpenIndex(openIndex === index ? null : index);
   };
-  const generateMetadata = ({ params }) => ({
-    title: "KushelDigi Solutions- Top shopify development company",
-    description:
-      "Kushel Digi Solutions experience, you can unlock Shopify's full potential Put your trust in the Shopify development services to build your online success.",
-  });
-
-  useEffect(() => {
-    const { title, description } = generateMetadata({ params: {} });
-    document.title = title;
-    let metaDescription = document.querySelector('meta[name="description"]');
-    metaDescription
-      ? (metaDescription.content = description)
-      : document.head.insertAdjacentHTML(
-          "beforeend",
-          `<meta name="description" content="${description}">`
-        );
-  }, []);
   return (
      <section className="faqr-section">
       <h2 className="primary-heading">Frequently Asked Questions ?</h2>

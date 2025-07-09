@@ -4,19 +4,19 @@ import './Section7.css';
 
 const Section7 = () => {
   const [activeYear, setActiveYear] = useState(2017);
-const [blinkYear, setBlinkYear] = useState(null);
-const [blinkContent, setBlinkContent] = useState(false);
+  const [blinkYear, setBlinkYear] = useState(null);
+  const [blinkContent, setBlinkContent] = useState(false);
 
-const handleTabClick = (year) => {
-  setBlinkYear(year);
-  setBlinkContent(true);
-  setActiveYear(year);
+  const handleTabClick = (year) => {
+    setBlinkYear(year);
+    setBlinkContent(true);
+    setActiveYear(year);
 
-  setTimeout(() => {
-    setBlinkYear(null);
-    setBlinkContent(false);
-  }, 400);
-};
+    setTimeout(() => {
+      setBlinkYear(null);
+      setBlinkContent(false);
+    }, 400);
+  };
   const data = {
     2017: {
       title: " Foundation of Kushel Digi ",
@@ -70,50 +70,38 @@ const handleTabClick = (year) => {
   };
 
   return (
-   <section className="growthStory">
-     <div className="growth-story-container">
-      <h2 className="growth-story-title">Our growth story</h2>
-      <div className="growth-story-tabs">
-        {Object.keys(data).map((year) => (
-          // <button
-          //   key={year}
-          //   className={`growth-story-tab ${
-          //     activeYear === Number(year) ? "active" : ""
-          //   }`}
-          //   onClick={() => setActiveYear(Number(year))}
-          // >
-          //   {year}
-          
-          // </button>
-           <button
-          key={year}
-          className={`growth-story-tab ${
-            activeYear === Number(year) ? "active" : ""
-          } ${blinkYear === Number(year) ? "blink-tab" : ""}`}
-          onClick={() => handleTabClick(Number(year))}
-        >
-          {year}
-           </button>
-        
+    <>
+      <section className="growthStory">
+        <div className="growth-story-container">
+          <h2 className="growth-story-title">Our growth story</h2>
+          <div className="growth-story-tabs">
+            {Object.keys(data).map((year) => (
+              <button
+                key={year}
+                className={`growth-story-tab ${activeYear === Number(year) ? "active" : ""
+                  } ${blinkYear === Number(year) ? "blink-tab" : ""}`}
+                onClick={() => handleTabClick(Number(year))}
+              >
+                {year}
+              </button>
+            ))}
 
-           
-        ))}
-        
-      </div>
-      <hr className="growthHr"/>
-      <div className="growth-story-content">
-        <img loading='lazy'
-          src={data[activeYear].image}
-          alt={data[activeYear].title}
-          className="growth-story-image"
-        />
-        <div className="growth-story-text">
-          <h3>{data[activeYear].title}</h3>
-          <p>{data[activeYear].description}</p>
+          </div>
+          <hr className="growthHr" />
+          <div className="growth-story-content">
+            <img loading='lazy'
+              src={data[activeYear].image}
+              alt={data[activeYear].title}
+              className="growth-story-image"
+            />
+            <div className="growth-story-text">
+              <h3>{data[activeYear].title}</h3>
+              <p>{data[activeYear].description}</p>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-   </section>
+      </section>
+    </>
   );
 };
 

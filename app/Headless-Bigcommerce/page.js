@@ -1,80 +1,31 @@
-"use client"
-import React, { useEffect } from 'react'
-import Sync1 from './Sync1/page'
-import Luna from './Luna/page'
-import Sumo from './Sumo/page'
-import Telephonic from './Telephonic/page'
-import Track from './Track/page'
-import Power from './Power/page'
-import Partner from './Partner/page'
-import Salot from './Salot/page'
-import Splet from './Splet/page'
-import Serviicess from './Serviicess/page'
-import Pernoun from './Pernoun/page'
-import Actionnn from './Actionnn/page'
-import Navbar from '../COMMON/Navbar'
-import Footer from '../COMMON/Footer'
-import BigBanner6 from '../bigcommerce-development/BigBanner6/page'
-import { whyHeadlessBigcommerceByKDS, whyHeadlessBigcommerceByKDSHeading } from '../data/data'
-import HomeForm from '../components/Home/HomeForm'
-const phoneNumber = "9045301702";
+import HeadlessComponent from "./HeadlessComponent";
 
-const whatAppHandler = () => {
-  const whatsappUrl = `https://wa.me/${phoneNumber}`;
-  window.open(whatsappUrl, "_blank");
+export const metadata = {
+  metadataBase: new URL("https://www.kusheldigi.com"),
+  alternates: {
+    canonical: "/headless-bigcommerce",
+  },
+  title: "Headless BigCommerce Development Company | Kushel Digi",
+  description:
+    "Launch blazing-fast, secure headless BigCommerce stores in the USA. API-first, scalable solutions by certified experts. Get a free consultation today!",
+  openGraph: {
+    title: "Kushel Digi | Expert eCommerce Development Services",
+    description:
+      "We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development.",
+    url: "https://www.kusheldigi.com/headless-bigcommerce",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png",
+        width: 800,
+        height: 600,
+        alt: "Kushel Digi Logo",
+      },
+    ],
+  },
 };
-const callHandler = () => {
-  const callUrl = `tel:${phoneNumber}`;
-  window.open(callUrl, "_blank");
-}
-function page() {
 
-  const generateMetadata = ({ params }) => ({
-            title: 'Headless BigCommerce Development Company | Kushel Digi',
-            description: 'Launch blazing-fast, secure headless BigCommerce stores in the USA. API-first, scalable solutions by certified experts. Get a free consultation today!',
-          });
-          
-        useEffect(() => {
-            const { title, description } = generateMetadata({ params: {} });
-            document.title = title;
-            let metaDescription = document.querySelector('meta[name="description"]');
-            metaDescription ? metaDescription.content = description : 
-              document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-          }, []);
+const Page = () => {
+  return <HeadlessComponent />;
+};
 
-  return (
-    <div>
-      <Navbar/>
-      <Sync1/>
-      <Luna/>
-      <Sumo/>
-      <Serviicess/>
-      <Pernoun/>
-      <Actionnn/>
-      <Telephonic/>
-      <Track/>
-      <Splet/>
-      {/* <Discover/> */}
-      {/* <Mention/> */}
-      <Power/>
-      <Partner/>
-     
-      <Salot/>
-      {/* <Mouse/> */}
-      <BigBanner6 services={whyHeadlessBigcommerceByKDS} contents={whyHeadlessBigcommerceByKDSHeading}/>
-      <HomeForm/>
-      <Footer/>
-      <div className="whtsApBtns">
-          <button onClick={whatAppHandler}>
-            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
-          </button>
-          <button onClick={callHandler}>
-            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740480725/telephone_h8clxy.png' alt="call-icon" title="call-icon" />
-          </button>
-
-        </div>
-    </div>
-  )
-}
-
-export default page
+export default Page;

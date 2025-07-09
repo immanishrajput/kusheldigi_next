@@ -1,39 +1,32 @@
 "use client"
-import React, { useEffect, useState } from "react";
 
 import Head from 'next/head';
 
 
-import '../globals.css'
+import '../globals.css';
 
 
-import ContactForm1 from "../COMMON/ContactForm1";
-import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import Link from "next/link";
 
-import Navbar from "../COMMON/Navbar";
-import MagentoFAQ from '../COMMON/MagentoFAQ'
-import Footer from "../COMMON/Footer";
-import ChooseMagento from "../magento-development/ChooseMagento/ChooseMagento";
-import CallAction from "../magento-development/CallAction/CallAction";
-import UpgradeServices from "../magento-development/UpgradeServices/UpgradeServices";
-import WhyChooseMagento from "../magento-development/WhyChooseMagento/WhyChooseMagento";
-import MagentoServices from "../magento-development/MagentoServices/MagentoServices"
-import BlogSection from "../COMMON/BlogSection/BlogSection";
-import MagentoPortfolio from "../magento-development/MagentoPortfolio/MagentoPortfolio";
-import ServicesSection from "../bigcommerce-development/ServiceSection/ServiceSection";
-import FeatureSection from "../bigcommerce-development/FeaturesSection/FeatureSection";
-import BigBanner6 from "../bigcommerce-development/BigBanner6/page";
-import Banner8 from '../ecommerce-development/Banner8/page'
-import { BigCommerceFeatures, BigCommerceFeaturesContent, BigCommerceServices, BigCommerceServicesHeading, whyBigCommereByKDS, whyBigCommereByKDSHeading ,weExpertInMagento ,MagentoFeatures,MagentoFeaturesContent,MagentoServicesLeft,MagentoServicesRight, MagentoServicesSectionContent, MagentoServicesHeading} from "../data/data";
-import MagentoBanner from "../magento-development/MagentoBanner/MagentoBanner";
-import WhyMagento from "../magento-development/WhyMagento/WhyMagento";
-import TechWeUse from "../magento-development/TechWeUse/TechWeUse";
+import BigBanner4 from "../bigcommerce-development/BigBanner4/page";
 import BigBanner8 from "../bigcommerce-development/BigBanner8/page";
-import ShopifyProcess from "../shopify-development/ShopifyProcess/ShopifyProcess";
+import FeatureSection from "../bigcommerce-development/FeaturesSection/FeatureSection";
+import ServicesSection from "../bigcommerce-development/ServiceSection/ServiceSection";
+import BlogSection from "../COMMON/BlogSection/BlogSection";
+import Footer from "../COMMON/Footer";
+import MagentoFAQ from '../COMMON/MagentoFAQ';
+import Navbar from "../COMMON/Navbar";
 import HomeForm from "../components/Home/HomeForm";
-import BigBanner4 from "../bigcommerce-development/BigBanner4/page"
+import { MagentoFeatures, MagentoFeaturesContent, MagentoServicesHeading, MagentoServicesLeft, MagentoServicesRight, MagentoServicesSectionContent, weExpertInMagento } from "../data/data";
+import Banner8 from '../ecommerce-development/Banner8/page';
+import ChooseMagento from "../magento-development/ChooseMagento/ChooseMagento";
+import MagentoBanner from "../magento-development/MagentoBanner/MagentoBanner";
+import MagentoPortfolio from "../magento-development/MagentoPortfolio/MagentoPortfolio";
+import MagentoServices from "../magento-development/MagentoServices/MagentoServices";
+import TechWeUse from "../magento-development/TechWeUse/TechWeUse";
+import UpgradeServices from "../magento-development/UpgradeServices/UpgradeServices";
+import WhyMagento from "../magento-development/WhyMagento/WhyMagento";
+import ShopifyProcess from "../shopify-development/ShopifyProcess/ShopifyProcess";
 
 const Magento = () => {
   // const [front, setFront] = useState(1);
@@ -50,31 +43,10 @@ const Magento = () => {
   }
 
 
-
-  // const scrollToTop = () => {
-  
-  //   window.scrollTo({
-  //     top: 0,
-  //     behavior: 'smooth',
-  //   });
-  // };
-   const generateMetadata = ({ params }) => ({
-         title: 'Magento Development Experts for eCommerce Success | Kushel Digi ',
-         description: 'Kushel Digi offers Magento customization, PWA development, extension integration, and ongoing maintenance for secure, scalable, and innovative eCommerce platforms.',
-       });
-       
-     useEffect(() => {
-         const { title, description } = generateMetadata({ params: {} });
-         document.title = title;
-         let metaDescription = document.querySelector('meta[name="description"]');
-         metaDescription ? metaDescription.content = description : 
-           document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-       }, []);
-
   return (
     <>
 
-<Head>
+      <Head>
         {/* Open Graph (OG) Meta Tags */}
         <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
         <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
@@ -89,27 +61,27 @@ const Magento = () => {
         <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
         <meta name="twitter:url" content="https://www.kusheldigi.com/" />
       </Head>
-      
-    <Navbar/>
-    
-       <div className="ser-main"> 
-        <MagentoBanner/>
-        <BigBanner8 weExpert={weExpertInMagento}/>
-       <WhyMagento/>
-        <MagentoServices leftContent={MagentoServicesLeft} services={MagentoServicesRight}/>
-        <MagentoPortfolio page='Magento'/>
-        <ChooseMagento/>
 
-        <BigBanner4 img='https://res.cloudinary.com/dd9tagtiw/image/upload/v1744608968/5bb631c4aa74a3ebe4df40ac8c33ef75_qfp4u1.jpg' page='Our Magento Experts are Ready to Launch your Dream Store today!'/>
-        <UpgradeServices/>
-        <ShopifyProcess page='Magento'/>
-        <TechWeUse/>
-        <Banner8/>
+      <Navbar />
+
+      <div className="ser-main">
+        <MagentoBanner />
+        <BigBanner8 weExpert={weExpertInMagento} />
+        <WhyMagento />
+        <MagentoServices leftContent={MagentoServicesLeft} services={MagentoServicesRight} />
+        <MagentoPortfolio page='Magento' />
+        <ChooseMagento />
+
+        <BigBanner4 img='https://res.cloudinary.com/dd9tagtiw/image/upload/v1744608968/5bb631c4aa74a3ebe4df40ac8c33ef75_qfp4u1.jpg' page='Our Magento Experts are Ready to Launch your Dream Store today!' />
+        <UpgradeServices />
+        <ShopifyProcess page='Magento' />
+        <TechWeUse />
+        <Banner8 />
         {/* <BigBanner6 services={whyBigCommereByKDS} contents={whyBigCommereByKDSHeading}/> */}
-        <ServicesSection services={MagentoServicesSectionContent} contents={MagentoServicesHeading}/>
-        <FeatureSection services={MagentoFeatures} contents={MagentoFeaturesContent}/>
-        <BlogSection page="Magento Development"/> 
-       
+        <ServicesSection services={MagentoServicesSectionContent} contents={MagentoServicesHeading} />
+        <FeatureSection services={MagentoFeatures} contents={MagentoFeaturesContent} />
+        <BlogSection page="Magento Development" />
+
         {/* <div className="magentooo1">
           <div className="magento-back dine-123">
             <div className="magento_back1 magento-texted">
@@ -493,9 +465,9 @@ const Magento = () => {
 
         {/* <ContactForm1 /> */}
 
-       
-           <MagentoFAQ/>
-           <HomeForm/>
+
+        <MagentoFAQ />
+        <HomeForm />
 
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
@@ -508,7 +480,7 @@ const Magento = () => {
         </div>
 
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };

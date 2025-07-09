@@ -10,7 +10,7 @@ import Link from "next/link";
 const Slider = () => {
 
   return (
-    <div className="carousel-container">
+    <section className="carousel-container">
       <div className="inner-carousel-container">
         <h3 className="carousel-container-heading primary-heading">
           Helping Top Global Brands to Expand, Migrate & Succeed
@@ -313,7 +313,7 @@ const Slider = () => {
           </SwiperSlide>
         </Swiper>
       </div>
-    </div>
+    </section>
   );
 };
 
