@@ -60,7 +60,7 @@ export default function AndroidComponent() {
                         </div>
                     </div>
                 </div>
-                <div className="android2-app dine-1234">
+                <div className="android2-app">
                     <div className="android-fun">
                         <div className="android-fun1">
                             <h3 className="hideafter450">Our Android App</h3>

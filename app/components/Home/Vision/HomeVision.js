@@ -15,24 +15,6 @@ const Website = () => {
     setActiveIndex(activeIndex === index ? null : index);
   };
 
-  // useEffect(() => {
-  //         const handleHashChange = () => {
-  //           const section = document.getElementById("form-section");
-  //           if (section) {
-  //             setTimeout(() => {
-  //               const offset = 150;
-  //               const sectionPosition = section.getBoundingClientRect().top + window.scrollY - offset;
-  //               window.scrollTo({ top: sectionPosition, behavior: "smooth" });
-  //             }, 0);
-  //           }
-  //         };
-
-  //         window.addEventListener("hashchange", handleHashChange, false);
-
-  //         return () => {
-  //           window.removeEventListener("hashchange", handleHashChange, false);
-  //         };
-  //       }, []);
   const scrollToFormVision = () => {
     const formSection = document.getElementById("form-section");
     if (formSection) {
@@ -130,7 +112,6 @@ const Website = () => {
                         />
                       </g>
                     </svg>
-                    {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287002/node-js-mongo-DB-icon_rhqrop.svg" alt="" /> */}
                   </div>
                 </li>
                 {activeIndex === 0 && (
@@ -191,7 +172,6 @@ const Website = () => {
                       </li>
                     </ul>
                     <div className="services-box-right-corner">
-                      {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287002/node-js-mongo-DB-icon_rhqrop.svg" alt="" /> */}
                     </div>
                   </li>
                 )}
@@ -199,7 +179,6 @@ const Website = () => {
                 <li
                   id="services-box-1"
                   data-index={1}
-                  //   className="services-box-item"
                   className={`services-box-item ${
                     activeIndex === 1 ? "bg-white" : ""
                   }`}
@@ -281,7 +260,6 @@ const Website = () => {
                         />
                       </g>
                     </svg>
-                    {/* <img src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1742287002/node-js-mongo-DB-icon_rhqrop.svg" alt="" /> */}
                   </div>
                 </li>
                 {activeIndex === 1 && (
@@ -494,27 +472,6 @@ const Website = () => {
                           </Link>
                         </h4>
                       </li>
-                      {/* <li>
-                          <h4>
-                            <Link href="#" target="">
-                              <span>Cross platform</span>
-                            </Link>
-                          </h4>
-                        </li>
-                        <li>
-                          <h4>
-                            <Link href="#" target="">
-                              <span>Hybrid</span>
-                            </Link>
-                          </h4>
-                        </li>
-                        <li>
-                          <h4>
-                            <Link href="#" target="">
-                              <span>PWA(Progressive Web App)</span>
-                            </Link>
-                          </h4>
-                        </li> */}
                     </ul>
                     <div className="services-box-right-corner">
                       <svg

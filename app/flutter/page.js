@@ -98,7 +98,7 @@ const Flutters = ({ notify }) => {
             </div>
           </div>
         </div>
-        <div className="android2-app dine-1234">
+        <div className="android2-app">
           <div className="android-fun ">
             <div className="android-fun1">
               <h3>Custom flutter App Development Services</h3>
@@ -160,7 +160,7 @@ const Flutters = ({ notify }) => {
         </div>
 
         <div className="flutter-ad-bg ">
-          <div className="flutter-ad dine-1234">
+          <div className="flutter-ad">
             <h2>
               Advantages of the outsource <br /> flutter app development
             </h2>
@@ -255,7 +255,7 @@ const Flutters = ({ notify }) => {
           </div>
         </div>
 
-        <div className="container3 dine-12">
+        <div className="container3">
           <div className="approach">
             <div className="approacy1">
               <h2>Our Approach</h2>

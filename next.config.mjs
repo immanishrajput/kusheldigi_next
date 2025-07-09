@@ -355,11 +355,11 @@ const nextConfig = {
         destination: '/blog/bigcommerce-vs-shopify-which-platform-is-best-for-your-business-in-2025',
         permanent: true,
       },
-      {
-        source: '/Flutter',
-        destination: '/flutter',
-        permanent: true,
-      },
+      // {
+      //   source: '/Flutter',
+      //   destination: '/flutter',
+      //   permanent: true,
+      // },
       {
         source: '/blogs/category/uncategorized/',
         destination: '/blog',

@@ -99,25 +99,25 @@ const portfolioData = [
     line: '|',
     category: ["ecommerce"],
   },
-  // {
-  //   id: 'automotive-6',
-  //   // companyName: 'Sites and Scopes',
-  //   logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725953651/image_18_1_j5e3am.svg',
-  //   platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
-    // alt:"Sites and Scopes Logo image for portfolio by Kushel Digi Solutions",
-  //   description: [
-  //     "UX/UI Website Design", "Website Development", "QA & Website Testing"
-  //   ],
-  //   links: {
-  //     liveStore: 'https://www.phastekperformance.com/',
-  //     caseStudy: '/sitesandscopes',
-  //     platform: '/bigcommerce-development',
-  //   },
-  //   case: ' View Case Study',
-  //   case1: 'BigCommerce',
-  //   line: '|',
-  //   category: ["ecommerce"],
-  // },
+  {
+    id: 'automotive-6',
+    // companyName: 'Sites and Scopes',
+    logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725953651/image_18_1_j5e3am.svg',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt:"Sites and Scopes Logo image for portfolio by Kushel Digi Solutions",
+    description: [
+      "UX/UI Website Design", "Website Development", "QA & Website Testing"
+    ],
+    links: {
+      liveStore: 'https://www.phastekperformance.com/',
+      caseStudy: '/sitesandscopes',
+      platform: '/bigcommerce-development',
+    },
+    case: ' View Case Study',
+    case1: 'BigCommerce',
+    line: '|',
+    category: ["ecommerce"],
+  },
 
   {
     id: 'automotive-7',
@@ -970,7 +970,7 @@ const portfolioData = [
     id: 'automotive-35',
 
     logo: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1751438493/Group_1171279538_hqjkvh.png',
-     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+     platformLogo: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1751957773/Untitled-1_rzxqlx.png',
     alt:"Pinky Sky Logo image for portfolio by Kushel Digi Solutions",
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
@@ -981,13 +981,12 @@ const portfolioData = [
     },
     case: ' View Case Study',
     case1: 'BigCommerce',
-    category: ["oddodevelop"],
+    category: ["ecommerce"],
   },
   {
     id: 'automotive-36',
-
     logo: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1751442984/Group_1171279548_eybqz4.png',
-     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409123/Shoplift1_kzo9i1.png',
     alt:"EZMA Logo image for portfolio by Kushel Digi Solutions",
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
@@ -998,7 +997,7 @@ const portfolioData = [
     },
     case: ' View Case Study',
     case1: 'BigCommerce',
-    category: ["oddodevelop"],
+    category: ["ecommerce"],
   },
   // {
   //   id: 'automotive-37',
