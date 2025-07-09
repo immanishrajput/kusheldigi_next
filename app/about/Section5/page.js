@@ -13,62 +13,64 @@ const awards = [
 ];
 
 const Section5 = () => {
-    var settings = {
-        dots: true,
-        infinite: true,
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 1000,
-        pauseOnHover: true,
-        responsive: [
-            {
-              breakpoint: 1024,
-              settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
-                infinite: true,
-                dots: true
-              }
-            },
-            {
-              breakpoint: 600,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
-                initialSlide: 2
-              }
-            },
-            {
-              breakpoint: 480,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-              }
-            }
-          ]
-      };
+  var settings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    pauseOnHover: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  };
   return (
-    <section className="awdardsCom">
-      <div className="awards-sectionCom">
-        <div className="awards-headerCom">
-          <span className="lineSlash"></span>
-  
-          <h3>AWARDS AND RECOGNITION</h3>
-          <span className="lineSlash"></span>
-        </div>
+    <>
+      <section className="awdardsCom">
+        <div className="awards-sectionCom">
+          <div className="awards-headerCom">
+            <span className="lineSlash"></span>
 
-       <div id='SliderSetting'>
-       <Slider {...settings}>
-          {awards.map((award, index) => (
-            <div className="award-itemCom" key={index}>
-              <img loading='lazy' src={award.src} alt={award.alt} />
-            </div>
-          ))}
-        </Slider>
-       </div>
-      </div>
-    </section>
+            <h3>AWARDS AND RECOGNITION</h3>
+            <span className="lineSlash"></span>
+          </div>
+
+          <div id='SliderSetting'>
+            <Slider {...settings}>
+              {awards.map((award, index) => (
+                <div className="award-itemCom" key={index}>
+                  <img loading='lazy' src={award.src} alt={award.alt} />
+                </div>
+              ))}
+            </Slider>
+          </div>
+        </div>
+      </section>
+    </>
   );
 };
 

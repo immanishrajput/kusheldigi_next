@@ -1,4 +1,4 @@
-import  './askques.css'; // Using CSS Modules
+import './askques.css'; // Using CSS Modules
 import Image from 'next/image'; // Import Next.js Image component
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
@@ -82,48 +82,20 @@ const data = [
 
 function Home2Section10({ heading, heading1, para }) {
   return (
-    <div className="h2s10wrap">
-      <div className="h2s10cont">
-        <div className="s10top1">
-          <h3 className="primary-heading">{heading}</h3>
-          <h3>{heading1}</h3>
-          <p className='secondary-heading'>{para}</p>
-        </div>
+    <>
+      <section className="h2s10wrap">
+        <div className="h2s10cont">
+          <div className="s10top1">
+            <h3 className="primary-heading">{heading}</h3>
+            <h3>{heading1}</h3>
+            <p className='secondary-heading'>{para}</p>
+          </div>
 
-        <div className="industries-services-container">
-          {data.map((d, i) => (
-            <div key={i} className="industries-services">
-              {/* Use Next.js Image component for image optimization */}
-              <Image loading='lazy' src={d.img} alt={d.alt} className="itemImage" width={300} height={200} />
-              <div className="itemdata">
-                <div className="dtitlhead">
-                  <span className='industries-card-title'>{d.title}</span>
-                </div>
-                <p className='industries-card-para'>{d.desc}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-
-        <Splide
-          options={{
-            type: 'loop',
-            perPage: 1,
-            focus: 'center',
-            gap: '20px',
-            start: 0,
-            interval: 3000,
-            autoplay: true,
-            arrows: false,
-            pagination: false,
-          }}
-          className="mobile-industries-container"
-        >
-          {data.map((d, i) => (
-            <SplideSlide key={i}>
-              <div className={`industries-services`}>
+          <div className="industries-services-container">
+            {data.map((d, i) => (
+              <div key={i} className="industries-services">
                 {/* Use Next.js Image component for image optimization */}
-                <Image loading='lazy' src={d.img} alt={d.title} className="itemImage" width={300} height={200} />
+                <Image loading='lazy' src={d.img} alt={d.alt} className="itemImage" width={300} height={200} />
                 <div className="itemdata">
                   <div className="dtitlhead">
                     <span className='industries-card-title'>{d.title}</span>
@@ -131,11 +103,41 @@ function Home2Section10({ heading, heading1, para }) {
                   <p className='industries-card-para'>{d.desc}</p>
                 </div>
               </div>
-            </SplideSlide>
-          ))}
-        </Splide>
-      </div>
-    </div>
+            ))}
+          </div>
+
+          <Splide
+            options={{
+              type: 'loop',
+              perPage: 1,
+              focus: 'center',
+              gap: '20px',
+              start: 0,
+              interval: 3000,
+              autoplay: true,
+              arrows: false,
+              pagination: false,
+            }}
+            className="mobile-industries-container"
+          >
+            {data.map((d, i) => (
+              <SplideSlide key={i}>
+                <div className={`industries-services`}>
+                  {/* Use Next.js Image component for image optimization */}
+                  <Image loading='lazy' src={d.img} alt={d.title} className="itemImage" width={300} height={200} />
+                  <div className="itemdata">
+                    <div className="dtitlhead">
+                      <span className='industries-card-title'>{d.title}</span>
+                    </div>
+                    <p className='industries-card-para'>{d.desc}</p>
+                  </div>
+                </div>
+              </SplideSlide>
+            ))}
+          </Splide>
+        </div>
+      </section>
+    </>
   );
 }
 

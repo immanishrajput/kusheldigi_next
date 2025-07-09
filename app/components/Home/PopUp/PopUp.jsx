@@ -158,15 +158,15 @@ const Popup = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowPopUp(true);
-    }, 15000);
+    }, 7000);
 
     return () => clearTimeout(timer);
   }, []);
 
   return (
-    <div>
+    <>
       {showPopUp && (
-        <div className="popup-modal" id="popupModal">
+        <section className="popup-modal" id="popupModal">
           <div className="modal-box">
             <div className="cross-icon" onClick={() => setShowPopUp(false)}>
               <RxCross1 />
@@ -327,9 +327,9 @@ const Popup = () => {
             </div>
 
           </div>
-        </div>
+        </section>
       )}
-    </div>
+    </>
   );
 };
 

@@ -455,6 +455,11 @@ const nextConfig = {
         destination: '/blog',
         permanent: true,
       },
+      {
+        source: '/Graphic-Design',
+        destination: '/graphic-design',
+        permanent: true,
+      },
     ];
   },
 };

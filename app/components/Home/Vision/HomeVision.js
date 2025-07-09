@@ -151,7 +151,7 @@ const Website = () => {
                       </li>
                       <li>
                         <h4>
-                          <Link href="/custom-software-development" target="">
+                          <Link href="" target="">
                             <span>Custom E-Commerce</span>
                           </Link>
                         </h4>

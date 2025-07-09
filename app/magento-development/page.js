@@ -1,16 +1,29 @@
 
 import MagentoNew  from "../components/MagentoNew"
 
-
 export const metadata = {
-  openGraph: {
-    title: "Magento Development Experts for eCommerce Success | Kushel Digi. ",
-    description: "Kushel Digi offers Magento customization, PWA development, extension integration, and ongoing maintenance for secure, scalable, and innovative eCommerce platforms.",
-    url: "https://www.kusheldigi.com/magento-development",
-    type:"website",
-    images: [{ url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1724838206/sa4.6d83a0b214d92052eecf_e8upaw.png", width: 1200, height: 630 , alt:"kushel" }],
+  metadataBase: new URL("https://www.kusheldigi.com"),
+  alternates: {
+    canonical: "/magento-development",
   },
-}
+  title: "Magento Development Experts for eCommerce Success | Kushel Digi.",
+  description:
+    "Kushel Digi offers Magento customization, PWA development, extension integration, and ongoing maintenance for secure, scalable, and innovative eCommerce platforms.",
+  openGraph: {
+    title: "Kushel Digi | Expert eCommerce Development Services",
+    description:
+      "We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development.",
+    url: "https://www.kusheldigi.com/magento-development",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png",
+        width: 800,
+        height: 600,
+        alt: "Kushel Digi Logo",
+      },
+    ],
+  },
+};
 
 const magento = ({ notify }) => {
   

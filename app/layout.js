@@ -56,9 +56,9 @@ export const metadata = {
     card: "summary_large_image",
     title: "Expert eCommerce & BigCommerce Development Company | Kushel Digi",
     description: "Work with 8+ year ecommerce experts to build, optimize, and grow your ecommerce store—BigCommerce and Shopify design, development, integrations, and apps.",
-    images: [{ 
-      url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png", 
-      width: 1200, 
+    images: [{
+      url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png",
+      width: 1200,
       height: 630,
       alt: "Kushel Digi Solutions - eCommerce Development Company"
     }],
@@ -72,10 +72,10 @@ export const metadata = {
     type: "website",
     siteName: "Kushel Digi Solutions",
     locale: "en_US",
-    images: [{ 
-      url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png", 
-      width: 1200, 
-      height: 630, 
+    images: [{
+      url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png",
+      width: 1200,
+      height: 630,
       alt: "Kushel Digi Solutions - Expert eCommerce Development Company"
     }],
   },
@@ -259,7 +259,7 @@ export default function RootLayout({ children }) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        
+
         {/* Additional SEO Meta Tags */}
         <meta name="language" content="English" />
         <meta name="revisit-after" content="7 days" />
@@ -267,19 +267,19 @@ export default function RootLayout({ children }) {
         <meta name="rating" content="general" />
         <meta name="HandheldFriendly" content="True" />
         <meta name="MobileOptimized" content="320" />
-        
+
         {/* Geo Tags */}
         <meta name="geo.region" content="IN-UP" />
         <meta name="geo.placename" content="Noida" />
         <meta name="geo.position" content="28.5355;77.3910" />
         <meta name="ICBM" content="28.5355, 77.3910" />
-        
+
         {/* Preconnect for Performance */}
         <link rel="preconnect" href="https://res.cloudinary.com" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-        
+
         {/* Favicon */}
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -288,12 +288,12 @@ export default function RootLayout({ children }) {
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
-        
+
         {/* Hreflang for International SEO */}
         <link rel="alternate" hrefLang="en-us" href="https://www.kusheldigi.com/" />
         <link rel="alternate" hrefLang="en-in" href="https://www.kusheldigi.com/" />
         <link rel="alternate" hrefLang="x-default" href="https://www.kusheldigi.com/" />
-        
+
         {/* JSON-LD Structured Data */}
         <Script
           id="organization-schema"
@@ -303,7 +303,7 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify(jsonLd),
           }}
         />
-        
+
         <Script
           id="website-schema"
           type="application/ld+json"
@@ -312,7 +312,7 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify(websiteSchema),
           }}
         />
-        
+
         <Script
           id="breadcrumb-schema"
           type="application/ld+json"
@@ -321,7 +321,7 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify(breadcrumbSchema),
           }}
         />
-        
+
         {/* Google Analytics */}
         <Script
           async
@@ -344,7 +344,7 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
-        
+
         {/* Google Tag Manager (Optional - add your GTM ID) */}
         {/* <Script
           id="google-tag-manager"
@@ -359,7 +359,7 @@ export default function RootLayout({ children }) {
             `,
           }}
         /> */}
-        
+
         {/* Microsoft Clarity (Optional) */}
         <Script
           id="microsoft-clarity"
@@ -385,7 +385,7 @@ export default function RootLayout({ children }) {
             style={{ display: 'none', visibility: 'hidden' }}
           ></iframe>
         </noscript> */}
-        
+
         <ToastContainer position="bottom-right" />
         {children}
       </body>

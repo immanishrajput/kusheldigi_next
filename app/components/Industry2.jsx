@@ -1,18 +1,17 @@
 "use client";
-import React, { useState, useEffect } from "react";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import Head from 'next/head';
-import '../globals.css';
-import '../components/Home/slider/NewSlider.css';
-import Navbar from "../COMMON/Navbar";
+import { useEffect, useState } from "react";
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
 import Footer from "../COMMON/Footer";
+import Navbar from "../COMMON/Navbar";
+import '../components/Home/slider/NewSlider.css';
+import '../globals.css';
 // import data from "../data/data";
-import IndustriesFAQ from "../COMMON/IndustriesFAQ";
-import Slider from "react-slick";
 import Image from "next/image";
+import Slider from "react-slick";
+import IndustriesFAQ from "../COMMON/IndustriesFAQ";
 import Website from "./Home/HomeForm";
 
 const Ankitcrouser = [
