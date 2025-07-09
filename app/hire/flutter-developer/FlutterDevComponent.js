@@ -14,7 +14,7 @@ import ServiceCommon from '../../COMMON/ServiceCommon';
 
 import '../../globals.css';
 // import { Helmet } from 'react-helmet';
-const FlutterComponent = () => {
+const FlutterDevComponent = () => {
     const [tab, setTab] = useState(1);
     const [perPage, setPerPage] = useState(3);
     useEffect(() => {
@@ -287,4 +287,4 @@ const FlutterComponent = () => {
     )
 }
 
-export default FlutterComponent;
+export default FlutterDevComponent;

@@ -1,4 +1,4 @@
-import FlutterComponent from "./flutterComponent";
+import FlutterDevComponent from "./FlutterDevComponent";
 
 export const metadata = {
   metadataBase: new URL("https://www.kusheldigi.com"),
@@ -25,7 +25,7 @@ export const metadata = {
 };
 
 const Page = () => {
-  return <FlutterComponent />;
+  return <FlutterDevComponent />;
 };
 
 export default Page;
