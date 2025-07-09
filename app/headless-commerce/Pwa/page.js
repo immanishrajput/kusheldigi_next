@@ -27,7 +27,7 @@ const tabData = {
   AppLikeExperience: {
     label: "App-Like Experience",
     heading: "Most important feature of PWAs is that it behaves just like native mobile apps. They can be installed directly from a browser, run in full-screen mode, and even send push notifications",
-    content1: ":Installable on home screen Full-screen UI without browser chrome",
+    content1: "Installable on home screen Full-screen UI without browser chrome",
     content2: " Push notifications for offers and updates.Smooth interactions like native apps",
     image: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1743854192/Growth-Tab-Picture.png_1_p1qgal.png",
   },

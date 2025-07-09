@@ -179,7 +179,7 @@
     position: absolute;
     content: '';
     width: 2px;
-    height: 0px;
+  height: 88% !important;
     left: -11px;
     top: 17px;
     background: blue;
@@ -272,7 +272,12 @@
         }
     }
 }
-
+@media (min-width:1300px) and (max-width:1427px) {
+ .Big-banner-right-content::before {
+       
+        height: 91% !important;
+    }
+}
 
 @media screen and (max-width:1000px) {
     .Big-banner-flex-container {
@@ -291,7 +296,7 @@
     .Big-banner-right-content::before {
         left: 20px;
         top: 84px;
-        height: 79.1% !important;
+        height: 77% !important;
     }
 
     @keyframes shopifyProcessLine {

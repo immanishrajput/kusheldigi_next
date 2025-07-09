@@ -379,7 +379,7 @@ const GraphicDesign = ({ notify }) => {
                   <div className="arts-head">
                     <h3>Email Design</h3>
                     <p>
-                      At Kushel Digi Solution, we meticulously craft custom
+                      At Kushel Digi Solutions, we meticulously craft custom
                       email templates aligned with your brand identity and the
                       target demographics.
                     </p>
