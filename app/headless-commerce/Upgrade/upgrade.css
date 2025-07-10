@@ -29,6 +29,8 @@
     padding: 15px 0px 0px 0px;
   }
   .ulUpdate{
+    padding: 0;
+    line-height: 20px;
     list-style-type: disc;
   }
   /* Container for all cards */

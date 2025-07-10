@@ -313,7 +313,7 @@ const Flutters = ({ notify }) => {
                   <div className="codeReview">
                     
                     <h5 className='d-span-none'><span className="oi">OI</span>Increased time to  market speed</h5>
-                    <div className='d-display'> <h5 className='oi'>OI/</h5><h5>Increased time to  market <br/> speed</h5>  </div>
+                    <div className='d-display'> <h5 className='oi'>OI/</h5><h5>Increased time to  market speed</h5>  </div>
                     <p>Thanks to our planned approach and decades of industry expertise, we assure you faster time to market.</p>
                   </div>
                 </>
