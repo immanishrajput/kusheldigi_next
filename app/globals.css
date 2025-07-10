@@ -4694,7 +4694,7 @@ body {
 
 .line-1 hr {
   width: 1px;
-  height: 148px;
+  height: 179px;
   border: 1px dashed gray;
 }
 
@@ -5195,11 +5195,11 @@ body {
   }
 
   .line-1 {
-    top: 40px;
+    top: 28px;
   }
 
   .line-1 hr {
-    height: 88px;
+    height: 176px;
   }
 
   .line-2 hr {
@@ -5331,14 +5331,18 @@ body {
   }
 
   .line-1 hr {
-    height: 128px;
+    height: 140px;
   }
 
   .line-2 hr {
     height: 30px;
   }
 }
-
+@media screen and (max-width: 425px) {
+    .line-1 hr {
+        height: 219px !important;
+    }
+}
 @media (max-width: 480px) {
   .strategy-first-section h3 {
     text-align: center !important;
@@ -5490,7 +5494,7 @@ body {
   }
 
   .line-1 hr {
-    height: 156px !important;
+    height: 156px ;
   }
 
   .line-2 hr {
@@ -5544,7 +5548,7 @@ body {
   }
 
   .strategy-icon-section .icon-2 img {
-    width: 22px;
+    width: 77%;
   }
 
   .choose-section {
@@ -11716,7 +11720,7 @@ body {
 
 #hemesh-seo-kushel .seo-second-card-flex6 h4 {
   font-weight: 800;
-  font-size: 1.2rem;
+  font-size: 1.09rem;
   line-height: 0px;
 }
 
@@ -34599,11 +34603,14 @@ form button:hover {
     text-align: left;
   }
 }
-
+.ext-and h5{
+  font-size: 15px !important;
+}
 .android-fun1 .ftp {
   width: 120px;
   max-width: 100%;
   margin-top: 10px;
+  margin-bottom: 9px;
 }
 
 .ios-fun1 .ftp {
@@ -44748,6 +44755,7 @@ font-size: 28px !important;
 .one {
   max-width: 600px;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 #add .dic2 {
@@ -50956,7 +50964,16 @@ option {
   padding: 10px 0px;
   border-bottom: 1px solid #c9c9c9;
 }
+
 @media screen  and (max-width:600px) {
+  .faq-react-native{
+height: 83px !important;
+gap:0 !important;
+ font-size: 14px !important;
+}
+
+}
+@media screen  and (max-width:380px) {
   .faq-react-native{
 height: 130px !important;
 gap:0 !important;
@@ -51117,7 +51134,18 @@ gap:0 !important;
   .android-offer1 h3 {
     line-height: 28px !important;
   }
-
+.ext-sett h5 {
+  font-size: 13px !important;
+margin-left: 3px !important;
+}
+.ext-class-flu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ext-class-flu h5 {
+  margin-left: 3px !important;
+}
   .android-fun1 h5 {
     margin-left: 40px !important;
     text-align: center !important;
@@ -57163,7 +57191,7 @@ gap:0 !important;
   }
 
   #hello .first {
-    width: auto;
+    width: 309px;
     padding: 0 15px;
   }
 
@@ -59029,7 +59057,10 @@ gap:0 !important;
   }
 
   .ylo {
-    text-align: center !important;
+           margin: 10px auto;
+        width: 20%;
+        border-bottom: 1px solid;
+        text-align: center !important;
   }
 
   .tile {
@@ -65240,7 +65271,9 @@ gap:0 !important;
   .ios-back1 {
     padding: 60px 60px 0 60px;
   }
-
+.second .pre2{
+  text-align: center;
+}
   #hello .content-2-1 {
     display: flex;
     justify-content: space-between;
@@ -69221,6 +69254,7 @@ gap:0 !important;
   }
 
   .status {
+    padding: 30px 8px;
     font-size: 25px !important;
     line-height: 32px !important;
   }
@@ -71686,7 +71720,7 @@ gap:0 !important;
 
   .android-fun1 h5 {
     margin-left: 40px !important;
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .android-usa1 h3 {
@@ -72135,7 +72169,7 @@ gap:0 !important;
   }
 }
 
-@media only screen and (max-width: 421px) {
+@media only screen and (max-width: 521px) {
   .php_navbar {
     display: flex;
     flex-direction: column;
@@ -72501,7 +72535,11 @@ gap:0 !important;
     width: 19rem;
   }
 }
-
+@media only screen and (max-width: 675px) {
+#hello .second{
+  width: 309px;
+}
+  }
 @media only screen and (max-width: 355px) {
   .noida p {
     font-size: 8px !important;
@@ -72517,12 +72555,12 @@ gap:0 !important;
   }
 
   #hello .first {
-    width: auto;
-    height: auto;
+    width: 230px;
+    height: 50px;
   }
 
   #hello .second {
-    width: auto;
+    width: 230px;
     height: auto;
   }
 
@@ -75033,7 +75071,7 @@ input::-webkit-inner-spin-button {
 
 @media screen and (max-width: 480px) {
   .faqr-section {
-  padding: 50px 32px !important;
+  padding: 50px 22px !important;
 }
 .faq-columns {
   padding: 10px !important;
@@ -75061,11 +75099,7 @@ input::-webkit-inner-spin-button {
 
 
 .faqr-section {
-  /* max-width: 1720px;
-  margin: auto;
-  padding: 40px 60px;
-  background: #f5f5f5; */
-  max-width: 1720px;
+   max-width: 1720px;
   margin: 0 auto;
   padding: 50px 50px;
 }
@@ -75094,16 +75128,6 @@ input::-webkit-inner-spin-button {
   column-width: 500px;
   column-gap: 18px;
 }
-/* .faq-columns {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 18px;
-  margin-top: 20px;
-  border-radius: 10px;
-  background-color: rgba(128, 128, 128, 0.152);
-  padding: 35px;
-} */
-
 
 /* Each item is block inside columns */
 .faq-item {
@@ -75119,7 +75143,7 @@ input::-webkit-inner-spin-button {
 
 .faq-question {
   padding: 20px;
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 600;
   height: 83px;
   display: flex;
@@ -75144,7 +75168,6 @@ input::-webkit-inner-spin-button {
 }
 
 .faq-item.open .toggle-btn {
-  /* transform: rotate(45deg); */
   background-color: #cce0ff;
 }
 
@@ -75153,15 +75176,15 @@ input::-webkit-inner-spin-button {
   max-height: 0;
   padding: 0 20px;
   overflow: hidden;
-  font-size: 18px;
+  font-size: 16px;
   color: #444;
   transition: max-height 0.3s ease, padding 0.3s ease;
 }
 
 .faq-item.open .faq-answer {
- padding: 0px 20px 100px 20px;
- /* height: 500px; */
-  font-size: 18px;
+ padding: 0px 20px 20px 20px;
+max-height: 400px;
+  font-size: 16px;
 }
 /* @media screen and (max-width: 425px) {
   .faq-columns {
@@ -78218,7 +78241,14 @@ input::-webkit-inner-spin-button {
     line-height: 32px !important;
     text-align: center !important;
   }
-
+.faqr-section {
+    max-width: 1720px;
+    margin: 0 auto;
+    padding: 50px 28px;
+}
+.faq-columns{
+  padding: 18px;
+}
   .secondary-heading {
     font-size: 1rem !important;
     font-weight: 500 !important;

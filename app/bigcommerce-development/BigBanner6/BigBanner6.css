@@ -46,7 +46,7 @@ color: #0c61ff !important;
   
   
   .blue p{
-    padding: 20px 0px;
+    padding: 10px 0px;
 
     color: black;
     font-size: 17px !important ;
@@ -148,7 +148,9 @@ color: #0c61ff !important;
     line-height: 1.6;
     transform: translateZ(20px);
   }
-  
+  .gray p{
+    padding: 10px 0px !important;
+  }
  
   .blue {
     background: linear-gradient(135deg, #eaf4ff, #c2e0ff);

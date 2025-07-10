@@ -94,7 +94,7 @@ const SmmComponent = () => {
                 </p>
               </div>
               <div className="strategy-icon-section">
-                <div className="icon">
+                <div className="icon-2">
                   <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740467674/strategy_icon-1_hz7kfm.svg' alt="Real Followers" title="Real Followers" />
                 </div>
                 <div className="text">
@@ -119,7 +119,7 @@ const SmmComponent = () => {
                 </div>
               </div>
               <div className="strategy-icon-section">
-                <div className="icon">
+                <div className="icon-2">
                   <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740467748/strategy_icon-3_jsonp6.svg' alt="Real Views" title="Real Views" />
                 </div>
                 <div className="text">

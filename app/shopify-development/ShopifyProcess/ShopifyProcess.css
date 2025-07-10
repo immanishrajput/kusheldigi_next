@@ -187,7 +187,11 @@
   animation: shopifyProcessLine 4s ease-in-out forwards;
   animation-delay: 0.4s;
 }
-
+@media screen and (max-width: 1418px) {
+  .shopify-banner-right-content::before {
+    height: 548px !important;
+  }
+}
 #shopify-1st-service {
   opacity: 0;
   animation: showText 0.5s ease-in forwards;
@@ -250,7 +254,9 @@
   .shopify-banner-right-content {
     gap: 50px;
   }
-
+  .shopify-banner-right-content::before {
+    height: 516px !important;
+  }
   @keyframes shopifyProcessLine {
     0% {
       height: 0px;
