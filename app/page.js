@@ -40,7 +40,7 @@ const HomePage = ({ props }) => {
   useEffect(() => {
     const lenis = new Lenis();
 
-    function raf(time) {
+    function raf(time) { 
       lenis.raf(time);
       requestAnimationFrame(raf);
     }
