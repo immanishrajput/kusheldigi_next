@@ -116,7 +116,12 @@ function Home2Testimonial() {
                   gap: '10px',
                   width: "74%"
                 },
-                1023: {
+                1020: {
+                  perPage: 2,
+                  gap: '10px',
+                  width: "67%"
+                },
+                800: {
                   perPage: 2,
                   gap: '10px',
                   width: "55.3%"

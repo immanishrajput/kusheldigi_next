@@ -98,7 +98,7 @@ const Android = ({ notify }) => {
               <h2 className="hideafter450">Solution</h2>
               <h2 className="hidetill450">Our Android App Development Solution</h2>
               <img loading="lazy" className="ftp" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738994284/android-sis_gj4ulj.png' alt="under line" title="under line" />
-              <Link className="letsy letsay" href="/contact-us">
+              <Link className="letsy  letsay" href="/contact-us">
                 <h5>
                   Discuss your goals with us{" "}
                   <svg className="ml-2" width="15" height="13" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">

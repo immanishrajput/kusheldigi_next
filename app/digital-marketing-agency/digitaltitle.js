@@ -126,7 +126,7 @@ function DigitalMarketing({ notify }) {
 
                                 </h3>
                                 <h3 className="font-bold">
-                                    Kushel Digi Solution
+                                    Kushel Digi Solutions
 
                                 </h3>
                                 <p>

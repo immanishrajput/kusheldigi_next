@@ -93,7 +93,22 @@
         height: 320px;
      }
 }
+@media screen and (max-width:580px){
+    .choose-magento-grid-container {
+        grid-template-columns: repeat(1,1fr);
+    }
+     .choose-magento-grid-item {
+     
+        height: 250px !important;
+     }
+  }
+  @media screen and (max-width:400px){
 
+     .choose-magento-grid-item {
+     
+        height: 300px !important;
+     }
+  }
 @media screen and (max-width: 768px) {
     .choose-magento-outer-container {
         padding: 40px 30px;

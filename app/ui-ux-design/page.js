@@ -238,7 +238,7 @@ const generateMetadata = ({ params }) => ({
         <div className="how-ux ">
           <div className="how-ux1">
             <h3>
-              How is UX design valuable to my <br /> business?
+              How is UX design valuable to my business?
             </h3>
             <p>
               Everyone wants to be customer-focused, but websites often serve

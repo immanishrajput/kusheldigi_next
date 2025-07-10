@@ -100,10 +100,10 @@ const Flutters = ({ notify }) => {
         </div>
         <div className="android2-app">
           <div className="android-fun ">
-            <div className="android-fun1">
+            <div className="android-fun1 ext-class-flu">
               <h3>Custom flutter App Development Services</h3>
               <img className="ftp" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739169674/android-sis_auympb.png' alt="underline-designed" />
-              <Link className="letsy letsay" href="/contact-us">
+              <Link className="letsy button-letsay ext-sett letsay" href="/contact-us">
                 <h5>
                   Discuss your goals with us{" "}
                   <svg className="ml-2" width="15" height="13" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
