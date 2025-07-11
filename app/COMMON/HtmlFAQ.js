@@ -39,7 +39,7 @@ const FAQ = () => {
              className={`faq-item ${openIndex === i ? "open" : ""}`}
              key={i}
            >
-             <div className="faq-question faq-react-ui-ux" onClick={() => toggle(i)}>
+             <div className="faq-question faq-react-ui-new" onClick={() => toggle(i)}>
                <span>{item.question}</span>
                <button className="toggle-btn">{openIndex === i ? "−" : "+"}</button>
              </div>

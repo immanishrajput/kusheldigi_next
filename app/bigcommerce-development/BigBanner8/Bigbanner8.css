@@ -72,6 +72,10 @@ width: 620px;
         text-align: center;
         margin:auto;
     }
+    .maSecImgaec img {
+    height: 200;
+    width: 300px;
+}
 
     .bcomcImd {
         flex-direction: column;

@@ -485,11 +485,12 @@
   }
 
   .testiTopDetails .tettopleft p:first-child {
-    font-size: 16px
+    font-size: 16px;
+    text-align: center;
   }
 
   .testiTopDetails .tettopleft p:nth-child(2) {
-    font-size: 22px
+    font-size: 22px;
   }
 
   .singswiperdiv {

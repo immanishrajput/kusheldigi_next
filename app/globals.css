@@ -14500,8 +14500,8 @@ body {
 
 .PortfolioChallengeMain h5 {
   padding-top: 11px;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 17px;
+  font-weight: 500;
   color: #002421;
 }
 
@@ -15343,7 +15343,7 @@ body {
   }
 
   .singleca1bt .sli1left h3 {
-    font-size: 12px;
+    font-size: 12px !important;
     line-height: 22px;
   }
 
@@ -16607,7 +16607,11 @@ body {
     padding: 40px 20px;
   }
 }
-
+@media (max-width: 350px) {
+.case1fircont{
+padding: 0px 45px;
+}
+}
 @media (max-width: 400px) {
   .cas3circldata h4 {
     font-size: 13px !important;
@@ -31172,11 +31176,12 @@ form button:hover {
 .faq-ui-ux {
   height: 93px !important;
 }
-.faq-react-ui-ux {
-  font-size: 13.8px !important;
-  gap: 0 !important;
-  height: 109px !important;
+@media screen and (max-width:350px) {
+  .faq-react-ui-new {
+   height: 102px !important;
 }
+}
+
 .uiux-process {
   padding: 50px 100px;
 }
@@ -44528,7 +44533,7 @@ font-size: 28px !important;
   line-height: 24px;
   padding: 19px;
   text-align: center;
-  width: 240px;
+  width: 205px;
 }
 
 .Woocomerce_b p {
@@ -47660,7 +47665,7 @@ font-size: 28px !important;
 
 .node_dev_ss_box6 h3 {
   color: #33475b;
-  font-size: 19px;
+  font-size: 21px;
   font-style: normal;
   font-weight: 700;
   line-height: 38.8px;
@@ -47671,7 +47676,7 @@ font-size: 28px !important;
   color: #33475b;
   font-size: 17px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 30px;
 }
 
@@ -62277,6 +62282,7 @@ margin-left: 3px !important;
   }
 
   .android-back1 h1 {
+    text-align: center;
     font-size: 30px;
     line-height: 38px;
   }
@@ -65390,6 +65396,10 @@ margin-left: 3px !important;
 
   .node_dev_ss-back1 button {
     font-size: 14px;
+    margin: auto;
+  }
+  .buttunn1{
+    margin-top: 15px;
   }
 
   .node_dev_ss_about {
@@ -72814,6 +72824,7 @@ margin-left: 3px !important;
     flex-direction: column;
     align-items: center;
     width: 100%;
+   
   }
 
   #hemesh-services .services-content4 {
@@ -72831,7 +72842,10 @@ margin-left: 3px !important;
   #hemesh-services .services-content4 p {
     max-width: 100%;
     text-align: center;
+     min-block-size: auto;
+
   }
+    
 
   .mlm_service .mlm_service1 p {
     margin: 15px auto 0 auto;
@@ -78236,7 +78250,7 @@ max-height: 400px;
 
 @media screen and (max-width: 600px) {
   .primary-heading {
-    font-size: 24px !important;
+    font-size: 22px !important;
     font-weight: 600 !important;
     line-height: 32px !important;
     text-align: center !important;
