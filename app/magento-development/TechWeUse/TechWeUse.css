@@ -54,14 +54,14 @@
     font-weight: 500;
 }
 .tech-we-use-slide-item > ul > li::before {
-    content: "";
+    /* content: "";
     width: 5px;
     height: 5px;
     position: absolute;
     left: 7px;
     top: 15px;
     background:black;
-    border-radius: 100%;
+    border-radius: 100%; */
 }
 
 
