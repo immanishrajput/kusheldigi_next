@@ -1156,20 +1156,6 @@ function CustomSoftware() {
     setHoveredIndex2(null);
   };
 
-
-
-  const generateMetadata = ({ params }) => ({
-    title: "Custom Software Development & Automation Solutions | Kushel Digi",
-    description: 'Transform your business with Kushel Digi’s custom software, automation, and maintenance services. Future-proof, scalable, and designed for your industry’s demands.',
-  });
-
-  useEffect(() => {
-    const { title, description } = generateMetadata({ params: {} });
-    document.title = title;
-    let metaDescription = document.querySelector('meta[name="description"]');
-    metaDescription ? metaDescription.content = description :
-      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-  }, []);
   return (
     <>
 

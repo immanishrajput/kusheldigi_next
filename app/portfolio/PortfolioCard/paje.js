@@ -739,7 +739,7 @@ const portfolioData = [
     links: {
 
       caseStudy: '#',
-      platform: '/html',
+      platform: '/html5',
     },
     case: ' View Case Study',
     case1: 'HTML',

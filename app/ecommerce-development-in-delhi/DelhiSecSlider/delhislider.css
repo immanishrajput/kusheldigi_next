@@ -1,6 +1,8 @@
 .case-study-section {
   padding: 60px 20px;
   background: #fdfdfd;
+  max-width: 1720px;
+  margin: auto;
 }
 
 .case-studies-heading {
@@ -13,6 +15,7 @@
   /* text-align: center; */
   margin: 10px auto 20px;
   font-size: 19px;
+  font-weight: 500;
 }
 
 .hrline {

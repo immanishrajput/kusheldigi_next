@@ -14,6 +14,7 @@ const nextConfig = {
   },
 
   async redirects() {
+    console.log("Redirects loaded"); // Debug
     return [
       {
         source: '/web-development-in-usa',
@@ -340,11 +341,6 @@ const nextConfig = {
         destination: '/blog/bigcommerce-vs-shopify-which-platform-is-best-for-your-business-in-2025',
         permanent: true,
       },
-      // {
-      //   source: '/react-native',
-      //   destination: '/react-native',
-      //   permanent: true,
-      // },
       {
         source: '/blogs/category/digital-marketing/',
         destination: '/blog/using-facebook-custom-audience-and-lookalike-audiences-to-improve-ad-targeting-unlocking-the-power-of-precision',
@@ -456,8 +452,38 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: '/Graphic-Design',
-        destination: '/graphic-design',
+        source: '/privacy',
+        destination: '/privacy-policy',
+        permanent: true,
+      },
+      {
+        source: '/html',
+        destination: '/html5',
+        permanent: true,
+      },
+      {
+        source: '/ireland',
+        destination: '/ecommerce-development-in-ireland',
+        permanent: true,
+      },
+      {
+        source: '/blogs/web-development/',
+        destination: '/blog/the-growing-demand-for-sustainable-e-commerce-creating-eco-friendly-online-stores',
+        permanent: true,
+      },
+      {
+        source: '/blogs/category/ecommerce/',
+        destination: '/blog/how-to-use-social-media-to-build-your-ecommerce-brand-drive-conversions',
+        permanent: true,
+      },
+      {
+        source: '/blogs/category/web-development/',
+        destination: '/blog/how-to-start-your-first-shopify-store-a-beginners-tutorial',
+        permanent: true,
+      },
+      {
+        source: '/tags/ルリビタキ',
+        destination: '/blog',
         permanent: true,
       },
     ];

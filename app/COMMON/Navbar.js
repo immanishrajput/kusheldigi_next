@@ -79,7 +79,7 @@ const data = [
           },
           {
             title: "HTML5",
-            navigate: "/html",
+            navigate: "/html5",
           },
           {
             title: "Node.Js",
@@ -617,7 +617,7 @@ const Navbar = () => {
                                     <span>|</span>
                                     <Link href="/react-js">React.Js </Link>
                                     <span>|</span>
-                                    <Link href="/html">HTML5 </Link>
+                                    <Link href="/html5">HTML5 </Link>
                                     <span>|</span>
                                     <Link href="/node-js">Node.Js </Link>
                                     <span>|</span>
