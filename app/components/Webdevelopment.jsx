@@ -107,18 +107,7 @@ const WebDevelopmentUSA = ({ notify }) => {
       behavior: 'smooth',
     });
   };
-  const generateMetadata = ({ params }) => ({
-    title: ' Build Your Dream Website Today | Web Development by Kushel Digi ',
-    description: 'Start your project with Kushel Digi Solutions—experts in custom web development, responsive design, and innovative digital solutions for every industry.',
-  });
 
-  useEffect(() => {
-    const { title, description } = generateMetadata({ params: {} });
-    document.title = title;
-    let metaDescription = document.querySelector('meta[name="description"]');
-    metaDescription ? metaDescription.content = description :
-      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-  }, []);
   return (
     <>
 
@@ -189,7 +178,7 @@ const WebDevelopmentUSA = ({ notify }) => {
                   </Link>
                 </SplideSlide>
                 <SplideSlide>
-                  <Link href="/html">
+                  <Link href="/html5">
                     <div className="home4121">
                       <img className=" block m-auto" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724842978/732212_1_httgut.png
 " alt="html" title="html" />

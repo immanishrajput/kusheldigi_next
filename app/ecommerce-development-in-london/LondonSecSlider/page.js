@@ -94,7 +94,7 @@ function LondonSecSlider() {
             <div className="icon-case" onClick={() => sliderRef.current?.slickPrev()}>
               <IoIosArrowRoundBack />
             </div>
-            <div className="icon-case" onClick={() => sliderRef.current?.slickNext()}>
+            <div className="icon-case1" onClick={() => sliderRef.current?.slickNext()}>
               <IoIosArrowRoundForward />
             </div>
           </div>
@@ -158,7 +158,7 @@ function LondonSecSlider() {
         ))}
 
       </Slider>
-      <button className="view-case-button">View All Case Studies <span><RxArrowTopRight /></span></button>
+      <button onClick={() => navigate.push('/portfolio')} className="view-case-button">View All Case Studies <span><RxArrowTopRight /></span></button>
     </section>
   );
 }

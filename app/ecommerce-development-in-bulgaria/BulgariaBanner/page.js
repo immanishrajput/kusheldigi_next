@@ -285,7 +285,7 @@ const BulgariaBanner = () => {
                             <p className="form-terms">
                                 By clicking on submit, you agree to our
                                 <a href="/terms"> Terms & Condition</a> and
-                                <a href="/privacy"> Privacy policy</a>
+                                <a href="/privacy-policy"> Privacy policy</a>
                             </p>
                         </form>
                     </div>

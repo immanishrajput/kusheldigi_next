@@ -210,9 +210,13 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
   .why-choose-left h2 {
     font-size: 22px;
+  }
+  
+  .why-step{
+    margin-bottom: 30px;
   }
 
   .why-choose-left p {

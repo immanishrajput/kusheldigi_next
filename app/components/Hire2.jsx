@@ -1,12 +1,12 @@
 "use client"
-import React, { useEffect, useState } from "react";
+import { useState } from "react";
 
 // import { NavLink } from "react-router-dom";
 import Link from "next/link";
-import '../globals.css'
+import '../globals.css';
 
-import Navbar from "../COMMON/Navbar";
 import Footer from "../COMMON/Footer";
+import Navbar from "../COMMON/Navbar";
 // import { Helmet } from "react-helmet";
 
 const HireTeam = () => {
@@ -40,18 +40,6 @@ const HireTeam = () => {
       behavior: 'smooth',
     });
   };
- const generateMetadata = ({ params }) => ({
-    title: 'Kushel Digi | Job Search Marketplace Tech Job Hunting Simplified',
-    description: 'Discover your dream tech job effortlessly with KushelDigi! Our job search marketplace streamlines the process, connecting talented professionals with top tech companies. Simplify your job hunt today..',
-  });
-  
-useEffect(() => {
-    const { title, description } = generateMetadata({ params: {} });
-    document.title = title;
-    let metaDescription = document.querySelector('meta[name="description"]');
-    metaDescription ? metaDescription.content = description : 
-      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-  }, []);
 
   return (
     <>

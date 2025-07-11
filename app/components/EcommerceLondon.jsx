@@ -41,23 +41,6 @@ const callHandler = () => {
 
 const Page = () => {
 
-const generateMetadata = ({ params }) => {
-    return {
-      title: 'E-Commerce Website Development Company in London',
-      description: 'Partner with top London ecommerce developers for SEO-optimized, secure, and scalable online stores built on Shopify, BigCommerce & custom platforms.',
-      metadataBase: new URL(`https://www.kusheldigi.com/`),
-    }
-  };
-
-  useEffect(() => {
-    const { title, description } = generateMetadata({ params: {} });
-    document.title = title;
-    let metaDescription = document.querySelector('meta[name="description"]');
-
-    metaDescription ? metaDescription.content = description :
-      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-  }, []);
-
     return (
         <div>
             <div className='ser-main'></div>

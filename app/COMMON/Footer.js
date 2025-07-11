@@ -66,7 +66,7 @@ const Footer = () => {
                     {/* <Link href="/hire" className="footLink">Hiring</Link> */}
                     <Link href="/hire" className="footLink">Hire</Link>
 
-                    <Link href="/privacy" className="footLink">Privacy Policy</Link>
+                    <Link href="/privacy-policy" className="footLink">Privacy Policy</Link>
 
                     <Link href="/terms" className="footLink">Terms of services</Link>
 

@@ -1,14 +1,28 @@
 import Customsoftware from "../components/Customsoftware";
 
 export const metadata = {
-  openGraph: {
-    title: "Custom Software Development & Automation Solutions | Kushel Digi.",
-    description: "Transform your business with Kushel Digi’s custom software, automation, and maintenance services. Future-proof, scalable, and designed for your industry’s demands.",
-    url: "https://www.kusheldigi.com/custom-software-developmen",
-    type:"website",
-    images: [{ url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739164763/Group_1000009804_fpegu7.png", width: 1200, height: 630 , alt:"kushel" }],
-  },
-}
+    metadataBase: new URL("https://www.kusheldigi.com"),
+    alternates: {
+        canonical: "/custom-software-development",
+    },
+    title: "Custom Software Development & Automation Solutions | Kushel Digi",
+    description:
+        "Transform your business with Kushel Digi’s custom software, automation, and maintenance services. Future-proof, scalable, and designed for your industry’s demands.",
+    openGraph: {
+        title: "Custom Software Development & Automation Solutions | Kushel Digi",
+        description:
+            "Transform your business with Kushel Digi’s custom software, automation, and maintenance services. Future-proof, scalable, and designed for your industry’s demands.",
+        url: "https://www.kusheldigi.com/custom-software-development",
+        images: [
+            {
+                url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png",
+                width: 800,
+                height: 600,
+                alt: "Kushel Digi Logo",
+            },
+        ],
+    },
+};
 
 const custom = ({ notify }) => {
   

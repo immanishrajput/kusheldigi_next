@@ -9,7 +9,7 @@ import Navbar from '../COMMON/Navbar';
 import Footer from '../COMMON/Footer';
 import Website from '../components/Home/HomeForm';
 
-const Privacy = () => {
+const PrivacyPolicyComponent = () => {
 
   
   const phoneNumber = "9045301702";
@@ -143,4 +143,4 @@ const Privacy = () => {
   )
 }
 
-export default Privacy
+export default PrivacyPolicyComponent;
