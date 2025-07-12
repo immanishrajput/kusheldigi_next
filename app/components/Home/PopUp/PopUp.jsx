@@ -15,6 +15,7 @@ const Popup = () => {
   const [userAnswer, setUserAnswer] = useState("");
   const [correctAnswer, setCorrectAnswer] = useState(0);
   const [captchaVerified, setCaptchaVerified] = useState(false);
+  const [showPopUp, setShowPopUp] = useState(false);
 
   const router = useRouter();
 
@@ -66,6 +67,7 @@ const Popup = () => {
     email: "",
     phone: "",
   });
+
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
@@ -78,7 +80,6 @@ const Popup = () => {
     }
 
     if (name === "name") {
-      // ✅ Name only alphabets and spaces
       updatedValue = value.replace(/[^a-zA-Z\s]/g, "");
     }
 
@@ -91,9 +92,7 @@ const Popup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     const emailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.[a-zA-Z]{2,}$/;
-
 
     if (!emailRegex.test(formData.email)) {
       toast.error("Invalid email address!");
@@ -113,11 +112,13 @@ const Popup = () => {
       toast.error("Please fill all the fields!!");
       return;
     }
+
     if (!captchaVerified) {
       toast.error("Please Verify the Captcha!!");
       generateCaptcha();
       return;
     }
+
     if (parseInt(userAnswer) !== correctAnswer) {
       toast.error("Wrong Captcha! Try again.");
       generateCaptcha();
@@ -136,10 +137,12 @@ const Popup = () => {
         },
         body: JSON.stringify(formData),
       });
+
       const result = await response.json();
       console.log("Result--->>", result);
 
       if (response.ok) {
+        sessionStorage.setItem("popupSubmitted", "true"); // ✅ Prevent future popups
         router.push("/thankyou");
       } else {
         alert(`❌ Failed to send email: ${result.message || "Unknown error"}`);
@@ -153,14 +156,16 @@ const Popup = () => {
     }
   };
 
-  const [showPopUp, setShowPopUp] = useState(false);
-
+  // ✅ Show popup after delay only if not already submitted
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowPopUp(true);
-    }, 7000);
+    const isSubmitted = sessionStorage.getItem("popupSubmitted");
+    if (!isSubmitted) {
+      const timer = setTimeout(() => {
+        setShowPopUp(true);
+      }, 10000);
 
-    return () => clearTimeout(timer);
+      return () => clearTimeout(timer);
+    }
   }, []);
 
   return (
@@ -325,7 +330,6 @@ const Popup = () => {
                 </form>
               </div>
             </div>
-
           </div>
         </section>
       )}

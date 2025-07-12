@@ -771,7 +771,7 @@ const Navbar = () => {
                         </div>
                       </li>
 
-                      {/* <li className="mar" style={{ position: "relative" }}>
+                      <li className="mar" style={{ position: "relative" }}>
                         <div
                           onClick={() => router.push("")}
                           className="flex items-center cursor-pointer nb-0 navLinks"
@@ -786,7 +786,7 @@ const Navbar = () => {
                         </div>
 
                         <div className="loc-nav megaMenu">
-                          <div className="hire-dropmenu-main">
+                          <div className="loc-dropmenu-main">
                             <div className="loc-left">
                               <div className="dummy">
                                 <Link href="/ecommerce-development-in-london">
@@ -805,7 +805,7 @@ const Navbar = () => {
                                   <span>Delhi</span>
                                 </Link>
                               </div>
-                              <div className="dummy">
+                              {/* <div className="dummy">
                                 {" "}
                                 <Link href="/ecommerce-website-development-company-in-noida">
                                   <span>Noida</span>
@@ -815,9 +815,9 @@ const Navbar = () => {
                                 <Link href="/ecommerce-development-in-bulgaria">
                                   <span>Bulgaria</span>
                                 </Link>
-                              </div>
+                              </div> */}
                             </div>
-                            <div className="loc-right">
+                            {/* <div className="loc-right">
                               <div className="dummy">
                                 {" "}
                                 <Link href="/ecommerce-development-in-qatar">
@@ -846,8 +846,8 @@ const Navbar = () => {
                                   <span>Norway</span>
                                 </Link>
                               </div>
-                            </div>
-                            <div className="loc-right">
+                            </div> */}
+                            {/* <div className="loc-right">
                               <div className="dummy">
                                 {" "}
                                 <Link href="/ecommerce-development-in-qatar">
@@ -889,10 +889,10 @@ const Navbar = () => {
                                   <span>London</span>
                                 </Link>
                               </div>
-                            </div>
+                            </div> */}
                           </div>
                         </div>
-                      </li> */}
+                      </li>
 
                       {/* <Link  href="/hire"> */}
                       <li className="mar" style={{ position: "relative" }}>

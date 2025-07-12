@@ -1,14 +1,26 @@
 import DelhiEcommerce from "../components/DelhiEcommerce";
 
 export const metadata = {
-  openGraph: {
-    title: "Top eCommerce Development Company | Kushel Digi Solutions.",
-    description: "Elevate your online store with Kushel Digi expert eCommerce development. Custom, scalable solutions on Shopify, Magento, BigCommerce & more. Boost sales with seamless UX & secure payments.",
-    url: "https://www.kusheldigi.com/ecommerce-development",
-    type:"website",
-    images: [{ url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1744463967/mockup-4_h41e2o.png", width: 1200, height: 630 , alt:"kushel" }],
+  metadataBase: new URL("https://www.kusheldigi.com"),
+  alternates: {
+    canonical: "/ecommerce-development-in-delhi",
   },
-}
+  title: 'eCommerce Website Development Company in Delhi | Kushel Digi',
+      description: 'Looking for ecommerce website development in Delhi? Kushel Digi builds secure, scalable, and custom ecommerce websites to grow your online business effectively.',
+  openGraph: {
+    title: 'eCommerce Website Development Company in Delhi | Kushel Digi',
+      description: 'Looking for ecommerce website development in Delhi? Kushel Digi builds secure, scalable, and custom ecommerce websites to grow your online business effectively.',
+    url: "https://www.kusheldigi.com/ecommerce-development-in-delhi",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png",
+        width: 800,
+        height: 600,
+        alt: "Kushel Digi Logo",
+      },
+    ],
+  },
+};
 
 const EcommerceDelhi = ({ notify }) => {
   

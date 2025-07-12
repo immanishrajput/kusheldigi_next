@@ -51,7 +51,7 @@ function NetherlandCardSection() {
               alt="Shopify development services official logo " />
           </div>
           <h3>
-          Official Shopify Plus Partner Agency
+          Official Shopify Partner Agency
           </h3>
           <ul className="plt-ul">
             <li className="plt-li">Shopify Replatforming & Migration Services</li>

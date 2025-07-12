@@ -95,31 +95,30 @@ const DelhiBanner = () => {
         e.preventDefault();
 
         const phone = phoneInputRef.current?.value || "";
+        const phoneDigitsOnly = phone.replace(/\D/g, ""); // Only digits
 
         if (!formData.name || !formData.email || !phone) {
             toast.error("Please fill all the fields!");
             return;
         }
-        // const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-        const emailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.[a-zA-Z]{2,}$/;
 
+        const emailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.[a-zA-Z]{2,}$/;
         if (!emailRegex.test(formData.email)) {
             toast.error("Invalid email address!");
             return;
         }
-        if (
-            formData.name.trim() === "" ||
-            phone.trim() === "" ||
-            formData.email.trim() === ""
-        ) {
-            toast.error("Please fill all the fields!!");
+
+        if (phoneDigitsOnly.length !== 10) {
+            toast.error("Phone number must be exactly 10 digits!");
             return;
         }
+
         if (!captchaVerified) {
             toast.error("Please Verify the Captcha!!");
             generateCaptcha();
             return;
         }
+
         if (parseInt(userAnswer) !== correctAnswer) {
             toast.error("Wrong Captcha! Try again.");
             generateCaptcha();
@@ -132,7 +131,7 @@ const DelhiBanner = () => {
         try {
             const dataToSend = {
                 ...formData,
-                phone,
+                phone: phoneDigitsOnly, // send clean number
             };
             const response = await fetch("https://backend.kusheldigi.com/contact", {
                 method: "POST",
@@ -142,6 +141,7 @@ const DelhiBanner = () => {
                 },
                 body: JSON.stringify(dataToSend),
             });
+
             const result = await response.json();
             console.log("Result--->>", result);
 
@@ -160,6 +160,15 @@ const DelhiBanner = () => {
         }
     };
 
+     const scrollToFormHome = () => {
+        const formSection = document.getElementById('form-section');
+        if (formSection) {
+            const yOffset = -120;
+            const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+            window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+    };
+
     return (
         <section className="london-banner-section">
             <div className="london-banner-overlay">
@@ -175,10 +184,18 @@ const DelhiBanner = () => {
                             Seeking the top-rated ecommerce development company in Delhi? Kushel Digi Solutions creates simple-to-use, user-friendly, secure, and scalable ecommerce websites tailored to the needs of enterprises and startups. We cater to mobile-first stores from Shopify to Magento with seamless integrations. Take your business to the next level with leading ecommerce developers from Delhi, precision-engineered for performance and growth.
                         </p>
                         <div className="london-banner-buttons">
-                            <button className="london-banner-btn-yellow">
+                            <button onClick={scrollToFormHome} className="london-banner-btn-yellow">
                                 Get a Free Consultation
                             </button>
-                            <button className="london-banner-btn-outline">
+                            <button
+                                onClick={() =>
+                                    window.open(
+                                        'https://calendly.com/shubham-goq0/sales-discovery-call?month=2025-06&utm_source=Email&utm_medium=email&utm_campaign=Chalendly',
+                                        '_blank'
+                                    )
+                                }
+                                className="london-banner-btn-outline"
+                            >
                                 Schedule a Demo
                             </button>
                         </div>
@@ -236,11 +253,17 @@ const DelhiBanner = () => {
                                     type="tel"
                                     name="phone"
                                     placeholder="Mobile Number*"
-                                    maxLength={10}
                                     className="form-input phone-input"
-                                    // value={formData?.phone}
-                                    // onChange={handleChange}
                                     ref={phoneInputRef}
+                                    onInput={(e) => {
+                                        const digits = e.target.value.replace(/\D/g, ""); // remove non-digits
+                                        if (digits.length <= 10) {
+                                            e.target.value = digits;
+                                        } else {
+                                            e.target.value = digits.slice(0, 10); // trim to 11
+                                            toast.error("Only 10 digit phone number allowed!");
+                                        }
+                                    }}
                                     required
                                 />
                             </div>

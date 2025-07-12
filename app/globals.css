@@ -23446,7 +23446,7 @@ input[type="number"] {
   border-radius: 0 2px 2px 2px;
   top: 4rem;
   padding: 0;
-  left: -25rem;
+  left: -2rem;
 }
 
 .ser-nav10 {
@@ -50656,6 +50656,14 @@ option {
 .hire-dropmenu-main {
   background-color: #fff;
   width: 555px;
+  display: flex;
+  justify-content: center;
+  gap: 75px;
+  padding: 15px;
+}
+.loc-dropmenu-main {
+  background-color: #fff;
+  width: 150px;
   display: flex;
   justify-content: center;
   gap: 75px;
