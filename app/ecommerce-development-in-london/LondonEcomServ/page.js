@@ -1,7 +1,6 @@
 'use client';
-import React from 'react';
+import { useRouter } from 'next/navigation';
 import './ecomserv.css';
-import { HiArrowSmallRight } from "react-icons/hi2";
 
 
 const features = [

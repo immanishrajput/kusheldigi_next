@@ -1,10 +1,10 @@
-.ecom-london-section {
+.ecom-belgium-section {
   background-color: #f9fafb;
   padding: 80px 20px;
   text-align: center;
 }
 
-.ecom-london-title {
+.ecom-belgium-title {
   font-size: 2.5rem;
   font-weight: 600;
   color: #111;
@@ -15,13 +15,13 @@
 }
 
 /* Wrapper to center the grid */
-.ecom-london-grid-wrapper {
+.ecom-belgium-grid-wrapper {
   display: flex;
   justify-content: center;
   padding: 0 16px;
 }
 
-.ecom-london-grid {
+.ecom-belgium-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 32px;
@@ -32,7 +32,7 @@
 }
 
 
-.ecom-london-card {
+.ecom-belgium-card {
   background-color: #ffffff;
   padding: 24px;
   border-radius: 12px;
@@ -41,18 +41,18 @@
   transition: 0.3s ease;
 }
 
-.ecom-london-card:hover {
+.ecom-belgium-card:hover {
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
   background-color: rgba(239, 239, 239, 0.644);
   border-left: 4px solid #007BFF;
 }
 
-.ecom-london-icon {
+.ecom-belgium-icon {
   margin-bottom: 16px;
   text-align: left;
 }
 
-.ecom-london-icon-img {
+.ecom-belgium-icon-img {
   width: 50px;
   height: 50px;
   object-fit: contain;
@@ -60,20 +60,20 @@
   filter: brightness(0) saturate(100%) invert(21%) sepia(98%) saturate(1797%) hue-rotate(215deg) brightness(101%) contrast(103%);
 }
 
-.ecom-london-card-title {
+.ecom-belgium-card-title {
   font-size: 25px;
   font-weight: 600;
   color: #111;
   margin-bottom: 12px;
 }
 
-.ecom-london-description {
+.ecom-belgium-description {
   color: #111;
   font-size: 0.95rem;
   line-height: 1.6;
 }
 
-.ecom-london-buttons {
+.ecom-belgium-buttons {
   margin-top: 40px;
   display: flex;
   justify-content: center;
@@ -112,45 +112,45 @@
 
 
 @media (max-width: 992px) {
-  .ecom-london-grid {
+  .ecom-belgium-grid {
     grid-template-columns: repeat(2, 1fr);
     /* 2 cards per row on tablets */
   }
 }
 
 @media (max-width: 768px) {
-  .ecom-london-grid {
+  .ecom-belgium-grid {
     grid-template-columns: 1fr;
     padding: 0;
     /* 1 card per row on mobile */
   }
 
-  .ecom-london-title {
+  .ecom-belgium-title {
     font-size: 2rem;
   }
 
-  .ecom-london-section {
+  .ecom-belgium-section {
     padding: 40px 15px;
   }
 
-  .ecom-london-card-title {
+  .ecom-belgium-card-title {
     font-size: 1.1rem;
     text-align: center;
   }
 
-  .ecom-london-description {
+  .ecom-belgium-description {
     font-size: 0.9rem;
     text-align: center;
   }
 
-  .ecom-london-icon-img{
+  .ecom-belgium-icon-img{
     margin: auto;
     padding-bottom: 10px;
   }
 }
 
 @media (max-width: 480px) {
-  .ecom-london-title {
+  .ecom-belgium-title {
     font-size: 1.4rem;
   }
 

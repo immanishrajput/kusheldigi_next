@@ -41,23 +41,6 @@ const callHandler = () => {
 
 const DelhiEcommerce = () => {
 
-const generateMetadata = ({ params }) => {
-    return {
-      title: 'eCommerce Website Development Company in Delhi | Kushel Digi',
-      description: 'Looking for ecommerce website development in Delhi? Kushel Digi builds secure, scalable, and custom ecommerce websites to grow your online business effectively.',
-      metadataBase: new URL(`https://www.kusheldigi.com/`),
-    }
-  };
-
-  useEffect(() => {
-    const { title, description } = generateMetadata({ params: {} });
-    document.title = title;
-    let metaDescription = document.querySelector('meta[name="description"]');
-
-    metaDescription ? metaDescription.content = description :
-      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-  }, []);
-
     return (
         <div>
             <div className='ser-main'></div>
