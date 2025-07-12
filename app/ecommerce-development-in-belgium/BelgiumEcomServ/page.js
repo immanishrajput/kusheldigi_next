@@ -1,6 +1,7 @@
 'use client';
 import React from 'react';
 import './belgiumserv.css';
+import { useRouter } from 'next/navigation';
 
 const features = [
   {
@@ -59,13 +60,27 @@ const features = [
   }
 ];
 
+
+
+const scrollToFormHome = () => {
+  const formSection = document.getElementById('form-section');
+  if (formSection) {
+    const yOffset = -120;
+    const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+    window.scrollTo({ top: y, behavior: 'smooth' });
+  }
+};
+
 const BelgiumEcomServ = () => {
+const navigate = useRouter();
+
   return (
-   <section className="ecom-london-section">
-      <h3 className="ecom-london-title">Our E-commerce Website Development Services</h3> 
-      
-      <div className="ecom-london-grid-wrapper">
-        <div className="ecom-london-grid">
+
+    <section className="ecom-belgium-section">
+      <h3 className="ecom-belgium-title">Our E-commerce Website Development Services</h3>
+
+      <div className="ecom-belgium-grid-wrapper">
+        <div className="ecom-belgium-grid">
           {features.map((feature, index) => (
             <div key={index} className="ecom-london-card">
               <div className="ecom-london-icon">
@@ -78,9 +93,15 @@ const BelgiumEcomServ = () => {
         </div>
       </div>
 
-      <div className="ecom-london-buttons">
-        <button className="ecom-btn">Start Your Project</button>
-        <button className="ecom-btn secondary">Get a Free Quote</button>
+      <div className="ecom-belgium-buttons">
+        <button onClick={() => navigate.push('/contact-us')} className="ecom-btn primary">Book a Call
+          {/* Book a Call <HiArrowSmallRight /> */}
+        </button>
+        {/* <button className="ecom-btn secondary">Request an Audit</button> */}
+        <button onClick={scrollToFormHome} className="ecom-btn secondary">
+          Request an Audit
+        </button>
+
       </div>
     </section>
   );

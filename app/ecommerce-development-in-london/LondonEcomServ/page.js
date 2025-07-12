@@ -71,6 +71,8 @@ const features = [
     };
 
 const EcommerceServices = () => {
+  const navigate = useRouter();
+  
   return (
     <section className="ecom-london-section">
       <h3 className="ecom-london-title">What Makes Our E-Commerce Services Stand Out</h3>
@@ -90,7 +92,7 @@ const EcommerceServices = () => {
       </div>
 
       <div className="ecom-london-buttons">
-        <button className="ecom-btn primary">Book a Call
+        <button onClick={() => navigate.push('/contact-us')} className="ecom-btn primary">Book a Call
           {/* Book a Call <HiArrowSmallRight /> */}
         </button>
         {/* <button className="ecom-btn secondary">Request an Audit</button> */}
