@@ -24,7 +24,7 @@ function DenmarkCardSection() {
               alt="BigCommerce development services official logo" />
           </div>
           <h3>
-          Your Expert BigCommerce Partner
+            Your Expert BigCommerce Partner
           </h3>
           <ul className="plt-ul">
             <li className="plt-li"> BigCommerce Store Migration & Replatforming</li>
@@ -51,7 +51,7 @@ function DenmarkCardSection() {
               alt="Shopify development services official logo " />
           </div>
           <h3>
-          Official Shopify Plus Partner Agency
+            Official Shopify Partner Agency
           </h3>
           <ul className="plt-ul">
             <li className="plt-li">Shopify Replatforming & Migration Services</li>
@@ -78,7 +78,7 @@ function DenmarkCardSection() {
               alt="Magento development services official logo" />
           </div>
           <h3>
-          Trusted Magento Development Agency
+            Trusted Magento Development Agency
           </h3>
           <ul className="plt-ul">
             <li className="plt-li">Magento Store Replatforming & Migration</li>
