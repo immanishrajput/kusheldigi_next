@@ -7,7 +7,7 @@ const Section8 = () => {
     {
       title: "Innovation",
       description:
-        "Kushel Digi Solution believes that innovation is the driving force behind growth. Our team constantly explores new technologies, tools, and creative ideas to deliver smarter and more effective solutions. Our main focus is to streamline operations, enhance user experience to give your business an extra edge.",
+        "Kushel Digi Solutions believes that innovation is the driving force behind growth. Our team constantly explores new technologies, tools, and creative ideas to deliver smarter and more effective solutions. Our main focus is to streamline operations, enhance user experience to give your business an extra edge.",
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1744262112/innovation_lvddoc.png",
       className: "innovation-creativity",
     },

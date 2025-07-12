@@ -3,15 +3,14 @@
   font-family: 'Poppins', sans-serif;
 } */
 
-
 .engagement-container {
   padding: 1rem;
 }
-.engagement-card-set{
+.engagement-card-set {
   min-height: 243px;
 }
 
-.engagement-title  {
+.engagement-title {
   font-size: 30px;
   max-width: 600px;
   font-weight: bold;
@@ -22,7 +21,7 @@
 }
 
 .engagement-title h2 {
-    text-align: center;
+  text-align: center;
 }
 
 /* Flex container for cards */
@@ -37,41 +36,41 @@
 .engagement-card {
   width: 100%;
   max-width: 345px;
-  height: 332px;
+  max-height: 380px;
   margin-top: 20px;
   padding: 1rem;
-  border: 1px solid #4492DD;
+  border: 1px solid #4492dd;
   border-radius: 0.9rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease;
   background-color: white;
-  border-bottom:10px solid #4492DD ;
+  border-bottom: 10px solid #4492dd;
 }
-.engagement-card-2{
+.engagement-card-2 {
   width: 100%;
   max-width: 345px;
   padding: 1rem;
-  border: 1px solid #3AC164;
+  border: 1px solid #3ac164;
   border-radius: 0.9rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease;
   background-color: white;
-  border-bottom:10px solid #3AC164 ;
+  border-bottom: 10px solid #3ac164;
 }
-.engagement-card-3{
+.engagement-card-3 {
   width: 100%;
   max-width: 345px;
   padding: 1rem;
-  border: 1px solid #9F0909;
+  border: 1px solid #9f0909;
   border-radius: 0.9rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease;
   background-color: white;
-  border-bottom:10px solid #9F0909 ;
+  border-bottom: 10px solid #9f0909;
 }
 
 .engagement-card:hover {
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .engagement-card img {
@@ -89,7 +88,7 @@
 
 .engagement-card p {
   font-size: 20px;
-  color: #4B5563; 
+  color: #4b5563;
   margin-bottom: 0.75rem;
   text-align: center;
   line-height: 25px;
@@ -100,17 +99,17 @@
   margin: 0 auto;
   padding: 0.25rem 0.75rem;
   /* background-color: #2563EB;  */
-  color: #0C61FF;
+  color: #0c61ff;
   width: 302px;
   height: 45px;
   font-size: 0.875rem;
   border: none;
   cursor: pointer;
-   border:1.5px solid #0C61FF ;
+  border: 1.5px solid #0c61ff;
 }
 
 .engagement-card button:hover {
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* ===== Responsive Breakpoints ===== */
@@ -127,14 +126,22 @@
   .engagement-card {
     flex: 0 0 calc(33.333% - 1rem);
   }
-  .engagement-card-3{
-            flex: 0 0 calc(33.333% - 1rem);
-            min-width: 361px;
+  .engagement-card-3 {
+    flex: 0 0 calc(33.333% - 1rem);
+    min-width: 335px;
+  }
+}
+@media (max-width: 360px) {
+  .engagement-card button {
+    width: 260px;
   }
 }
 
-
-
-
-
-
+@media (max-width: 330px) {
+  .engagement-card-3 {
+    min-width: 290px;
+  }
+  .engagement-card button {
+    width: 255px;
+  }
+}
