@@ -84,7 +84,9 @@
     .featuresstop1-grid::before {
       content: none;
     }
-  
+  .border-box{
+    border-bottom: 2px dashed #2675F6 !important;
+  }
     .featuresstop1-box {
       border-right: none;
       border-bottom: 2px dashed #2675F6;

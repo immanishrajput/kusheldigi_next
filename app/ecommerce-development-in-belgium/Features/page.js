@@ -30,6 +30,7 @@ const features = [
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1750412930/Mask_group_90_jqaj34.png",
     title: "SEO & Marketing Tools",
+    border:"true",
     description:
       "Ensure a seamless shopping experience across all devices. Our websites are fully responsive, delivering fast load times and smooth navigation on smartphones, tablets, and desktops.",
   },
@@ -47,7 +48,7 @@ export default function EcommerceFeatures() {
       <h2 className="featuresstop1-heading">Features Of Our E-commerce Websites</h2>
       <div className="featuresstop1-grid">
         {features.map((item, index) => (
-          <div key={index} className="featuresstop1-box">
+          <div key={index} className={`featuresstop1-box ${item.border? "border-box":""}`}>
             <img src={item.icon} alt={item.title} />
             <h3>{item.title}</h3>
             <p>{item.description}</p>

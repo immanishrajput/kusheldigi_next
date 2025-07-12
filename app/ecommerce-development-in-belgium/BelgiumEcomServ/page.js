@@ -75,18 +75,19 @@ const BelgiumEcomServ = () => {
 const navigate = useRouter();
 
   return (
+
     <section className="ecom-belgium-section">
       <h3 className="ecom-belgium-title">Our E-commerce Website Development Services</h3>
 
       <div className="ecom-belgium-grid-wrapper">
         <div className="ecom-belgium-grid">
           {features.map((feature, index) => (
-            <div key={index} className="ecom-belgium-card">
-              <div className="ecom-belgium-icon">
-                <img src={feature.icon} alt={feature.title} className="ecom-belgium-icon-img" />
-                <h3 className="ecom-belgium-card-title">{feature.title}</h3>
+            <div key={index} className="ecom-london-card">
+              <div className="ecom-london-icon">
+                <img src={feature.icon} alt={feature.title} className="ecom-london-icon-img" />
+                <h3 className="ecom-london-card-title">{feature.title}</h3>
               </div>
-              <p className="ecom-belgium-description">{feature.description}</p>
+              <p className="ecom-london-description">{feature.description}</p>
             </div>
           ))}
         </div>
@@ -100,6 +101,7 @@ const navigate = useRouter();
         <button onClick={scrollToFormHome} className="ecom-btn secondary">
           Request an Audit
         </button>
+
       </div>
     </section>
   );

@@ -372,4 +372,7 @@
         flex-direction: column;
         align-items: center;
     }
+    .belgium-banner-content-wrapper{
+        padding: 0px 0px;
+    }
 }

@@ -1,27 +1,27 @@
-.ecom-belgium-section {
+.ecom-london-section {
   background-color: #f9fafb;
   padding: 80px 20px;
   text-align: center;
 }
 
-.ecom-belgium-title {
+.ecom-london-title {
   font-size: 2.5rem;
   font-weight: 600;
   color: #111;
   margin-bottom: 2rem !important;
   text-align: center;
-  max-width: 600px;
+  max-width: 650px;
   margin: 0 auto;
 }
 
 /* Wrapper to center the grid */
-.ecom-belgium-grid-wrapper {
+.ecom-london-grid-wrapper {
   display: flex;
   justify-content: center;
   padding: 0 16px;
 }
 
-.ecom-belgium-grid {
+.ecom-london-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 32px;
@@ -32,7 +32,7 @@
 }
 
 
-.ecom-belgium-card {
+.ecom-london-card {
   background-color: #ffffff;
   padding: 24px;
   border-radius: 12px;
@@ -41,18 +41,18 @@
   transition: 0.3s ease;
 }
 
-.ecom-belgium-card:hover {
+.ecom-london-card:hover {
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
   background-color: rgba(239, 239, 239, 0.644);
   border-left: 4px solid #007BFF;
 }
 
-.ecom-belgium-icon {
+.ecom-london-icon {
   margin-bottom: 16px;
   text-align: left;
 }
 
-.ecom-belgium-icon-img {
+.ecom-london-icon-img {
   width: 50px;
   height: 50px;
   object-fit: contain;
@@ -60,20 +60,20 @@
   filter: brightness(0) saturate(100%) invert(21%) sepia(98%) saturate(1797%) hue-rotate(215deg) brightness(101%) contrast(103%);
 }
 
-.ecom-belgium-card-title {
+.ecom-london-card-title {
   font-size: 25px;
   font-weight: 600;
   color: #111;
   margin-bottom: 12px;
 }
 
-.ecom-belgium-description {
+.ecom-london-description {
   color: #111;
   font-size: 0.95rem;
   line-height: 1.6;
 }
 
-.ecom-belgium-buttons {
+.ecom-london-buttons {
   margin-top: 40px;
   display: flex;
   justify-content: center;
@@ -112,37 +112,45 @@
 
 
 @media (max-width: 992px) {
-  .ecom-belgium-grid {
+  .ecom-london-grid {
     grid-template-columns: repeat(2, 1fr);
     /* 2 cards per row on tablets */
   }
 }
 
 @media (max-width: 768px) {
-  .ecom-belgium-grid {
+  .ecom-london-grid {
     grid-template-columns: 1fr;
+    padding: 0;
     /* 1 card per row on mobile */
   }
 
-  .ecom-belgium-title {
+  .ecom-london-title {
     font-size: 2rem;
   }
 
-  .ecom-belgium-section {
+  .ecom-london-section {
     padding: 40px 15px;
   }
 
-  .ecom-belgium-card-title {
+  .ecom-london-card-title {
     font-size: 1.1rem;
+    text-align: center;
   }
 
-  .ecom-belgium-description {
+  .ecom-london-description {
     font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .ecom-london-icon-img{
+    margin: auto;
+    padding-bottom: 10px;
   }
 }
 
 @media (max-width: 480px) {
-  .ecom-belgium-title {
+  .ecom-london-title {
     font-size: 1.4rem;
   }
 

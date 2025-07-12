@@ -363,4 +363,8 @@
         flex-direction: column;
         align-items: center;
     }
+    
+.london-banner-content-wrapper{
+    padding: 0px 0px;
+}
 }
