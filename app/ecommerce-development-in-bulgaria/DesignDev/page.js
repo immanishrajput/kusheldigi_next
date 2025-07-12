@@ -8,21 +8,29 @@ const designData = {
     {
       title: "UX Research",
       items: [
-        "PRODUCT STRATEGY",
-        "MARKET & USER ANALYSIS",
-        "CREATIVE IDEATION",
+        "PRODUCT PLANNING",
+        "MARKET & AUDIENCE ANALYSIS",
+        " CREATIVE CONCEPTS",
       ],
     },
     {
       title: "UX DESIGN",
-      items: ["PROTOTYPING", "FEEDBACK INTEGRATION", "WIREFRAMING"],
+      items: [
+        "INTERACTIVE PROTOTYPING",
+        "INCORPORATING FEEDBACK",
+        "DETAILED WIREFRAMING",
+      ],
     },
     {
       title: "UI DESIGN",
-      items: ["MOODBOARDS", "CONCEPT DEVELOPMENT", "FINAL VISUAL DESIGN"],
+      items: [
+        "INSPIRING MOODBOARDS",
+        "CREATIVE DEVELOPMENT",
+        "REFINED VISUAL DESIGN",
+      ],
     },
     {
-      title: "DELIVERY",
+      title: "SEAMLESS DELIVERY",
       items: ["POST-LAUNCH SUPPORT"],
     },
   ],
@@ -33,23 +41,19 @@ const developmentData = {
   columns: [
     {
       title: "ARCHITECTURE",
-      items: ["Code Architecture", "API Integration", "Security Reviews"],
+      items: ["Code Structure", "API Integration", " Security Checks"],
     },
     {
       title: "DEVELOPMENT",
-      items: ["Frontend Dev", "Backend Dev", "Database Manage"],
+      items: ["Frontend Dev", "Backend Dev", "Database"],
     },
     {
-      title: "QUALITY ASSURANCE",
-      items: ["Code Validation", "Function Checks", "Bugs Resolution"],
+      title: "QUALITY TEST",
+      items: ["Code Check", "Function Test", "Bug Fix"],
     },
     {
-      title: "LAUNCH & BEYOND",
-      items: [
-        "CI/CD Integration",
-        "Real-Time Monitoring",
-        "Post-Launch Support",
-      ],
+      title: "Launch & Growth",
+      items: [" CI/CD", "Monitoring", "Post Launch Support"],
     },
   ],
 };

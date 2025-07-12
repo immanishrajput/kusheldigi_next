@@ -9,17 +9,17 @@ const CallToAction = () => {
     <section className="cta-section">
       <div className="cta-container">
         <div className="cta-left">
-          <h2 className="cta-heading">Let’s Build Something Exceptional Together</h2>
+          <h2 className="cta-heading">Let’s Create Something Amazing Together!</h2>
         </div>
         <div className="cta-right">
           <button className="cta-button">
-          Get Your Free Quote Today<span className="arrow"><HiArrowSmallRight /></span>
+          Get Your Free Quote Today <span className="arrow"><HiArrowSmallRight /></span>
           </button>
         </div>
       </div>
       <hr className="cta-divider" />
       <p className="cta-subtitle">
-      Your online success starts here. Connect with us and let’s create an ecommerce experience that sets your brand apart
+     Ready to kickstart your online success? Let’s build an ecommerce experience that makes your brand truly stand out.
       </p>
     </section>
   );

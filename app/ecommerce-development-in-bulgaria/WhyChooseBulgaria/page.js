@@ -5,33 +5,33 @@ import "./whybelgium.css";
 const features = [
   {
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073420/Group_1171281413_b7dwf6.png",
-    title: "Focused On Results",
-    desc: "No fluff, only real progress: value delivery comes before anything else.",
+    title: "Results-oriented",
+    desc: "We have 10+ years of experience in delivering quality results. No fluff, only results.",
   },
   {
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073419/Group_1171281412_m4wjmx.png",
-    title: "Strategic Tech Expertise",
-    desc: "Goal-oriented ecommerce websites are made with a blend of technological expertise and creativity by our team.",
+    title: "Tailored Strategies",
+    desc: "We believe no business is the same. Our expert team understands the requirements and makes custom strategies for different businesses.",
   },
   {
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073409/Group_1171281523_k2vfml.png",
-    title: "Timely-Delivery Always",
-    desc: "Timely delivery—no delays or excuses—in any scope of work, ranging from small to complex tasks, is guaranteed.",
+    title: "Cutting-Edge Technology",
+    desc: "We use the latest technologies and tools to drive effective and faster results.",
   },
   {
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281524_ksva3g.png",
-    title: "End-to-End Maintenance & Support",
-    desc: "Your online store will always be backed up, whether it’s bug repairs or feature extensions",
+    title: "Proven Results",
+    desc: "We have proven results from various businesses. Our expert team delivers real results.",
   },
   {
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281525_qnpwgi.png",
-    title: " Highly Scalable",
-    desc: "Our ecommerce solutions are agnostic to traffic surges as well as future business expansion plans.",
+    title: " Customer-Centric Approach",
+    desc: "Your goal is our priority. You ask and we deliver.",
   },
   {
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281414_nyzkrn.png",
-    title: "Fully Confidential And Secure ",
-    desc: "With strong NDAs and enterprise-grade security in place, business data stays protected",
+    title: "Affordable Excellence",
+    desc: "We believe in delivering quality results within a budget so that start-ups can also use our services.",
   },
 ];
 
@@ -40,12 +40,10 @@ const WhyChooseBulgaria = () => {
     <section className="why-choose-section">
       <div className="why-choose-wrapper">
         <h2 className="why-choose-heading">
-          Why Choose Kushel Digi Solutions?
+         Why Kushel Digi Solutions is Your Best Choice?
         </h2>
         <p className="why-choose-subtext">
-          We design and build ecommerce platforms that scale alongside your
-          growth and provide industry-leading impact at each level. From
-          strategy to support, every aspect is taken care of.
+         We create ecommerce websites that are scalable, ERP and CMS integrated, mobile-friendly, along with SEO best practices to drive conversions from the start.
         </p>
       </div>
 
