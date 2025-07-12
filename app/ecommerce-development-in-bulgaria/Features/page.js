@@ -5,46 +5,46 @@ import "./features.css"
 const features = [
   {
     icon: "https://img.icons8.com/ios-filled/50/2675F6/smartphone.png",
-    title: "Mobile-Optimized Design",
+    title: "Mobile-Friendly Design",
     description:
-      "Ensure a seamless shopping experience across all devices. Our websites are fully responsive, delivering fast load times and smooth navigation on smartphones, tablets, and desktops.",
+      "We know that the majority of our visitors come from mobile phones; therefore, we make sure that the online store works well on mobile devices.",
   },
   {
     icon: "https://img.icons8.com/ios-filled/50/2675F6/secured-letter.png",
-    title: "Secure Payment Gateway Integration",
+    title: " Custom Design",
     description:
-      "We integrate trusted and secure payment gateways to provide safe and flexible payment options for your customers, supporting credit cards, wallets, UPI, and more.",
+      "We make custom designs for each online store. Custom layouts show what your company is all about and connect with actual customers.",
   },
   {
     icon: "https://img.icons8.com/ios-filled/50/2675F6/admin-settings-male.png",
-    title: "User-Friendly Admin Panel",
+    title: "Secure Payment Gateway Integration",
     description:
-      "Ensure a seamless shopping experience across all devices. Our websites are fully responsive, delivering fast load times and smooth navigation on smartphones, tablets, and desktops.",
+      "To develop confidence with our customers, we use gateways that are safe, quick, and allow for several payment methods. It works with UPI, debit cards, credit cards, wallets, and a lot more.",
   },
   {
     icon: "https://img.icons8.com/ios-filled/50/2675F6/filter.png",
-    title: "Advanced Product Filtering & Search",
+    title: "SEO and Marketing",
     description:
-      "We integrate trusted and secure payment gateways to provide safe and flexible payment options for your customers, supporting credit cards, wallets, UPI, and more.",
+      "We are one of the top ecommerce development companies in Bulgaria. We use SEO best practices to construct websites that start ranking right away and reach actual consumers.",
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1750412930/Mask_group_90_jqaj34.png",
-    title: "SEO & Marketing Tools",
+    title: "Scalable Architecture",
     description:
-      "Ensure a seamless shopping experience across all devices. Our websites are fully responsive, delivering fast load times and smooth navigation on smartphones, tablets, and desktops.",
+      "Our architecture may grow with us in the future. As you grow, so does your online shop. Its design, product catalogs, new product add-ons, and so on.",
   },
   {
     icon: "https://img.icons8.com/ios-filled/50/2675F6/system-task.png",
-    title: "Scalable & Customizable Architecture",
+    title: " Filters and Smart Search",
     description:
-      "We integrate trusted and secure payment gateways to provide safe and flexible payment options for your customers, supporting credit cards, wallets, UPI, and more.",
+      "We include clever product search options and filters to make it easy for customers to locate what they want in a second, so they can shop without becoming frustrated.",
   },
 ];
 
 export default function EcommerceFeatures() {
   return (
     <section className="featuresstop1-section">
-      <h2 className="featuresstop1-heading">Features Of Our E-commerce Websites</h2>
+      <h2 className="featuresstop1-heading">What Are the Top Features of Our E-commerce Websites?</h2>
       <div className="featuresstop1-grid">
         {features.map((item, index) => (
           <div key={index} className="featuresstop1-box">

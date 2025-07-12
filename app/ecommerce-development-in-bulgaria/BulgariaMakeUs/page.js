@@ -7,22 +7,13 @@ function BulgariaMakeUs() {
     <section className="different1-wrapper">
       <div className="different1-container">
         <div className="different1-left">
-          <h2>What makes us different?</h2>
+          <h2>What sets us apart?</h2>
           <p>
-            Your online store will be built specifically for your brand with
-            Kushel Digi Solutions because we know that every ecommerce business
-            is different. We prioritize understanding your objectives and target
-            market in order to create a custom ecommerce solution. You can count
-            on us to build an online store for you that is smooth, fast,
-            flexible, and user-first as we expertly guide you on the most
-            suitable platform selection, theme customization, and intelligent
-            payment gateway integration.
+           What sets us apart is building websites specifically tailored to your brand. We don't believe in a one-size-fits-all rule; we create custom templates for each business, making it unique and mesmerizing. We prioritize your needs and requirements and work according to them. Our team combines the latest technologies to create fast, responsive, and secure websites that drive conversions. 
+
           </p>
           <p>
-            Our seasoned industry experts utilize cutting-edge technologies to
-            ensure that every online retail platform they design is not only
-            beautiful but also protected, easily manageable as your business
-            grows, and ready to convert customers from the very beginning.
+            Our plus point is that, as a leading ecommerce development agency in Bulgaria, we provide post-launch support and maintenance. Our expert team keeps an eye on bugs, speed optimization, real-time monitoring, and mobile friendliness so that you can focus on business. Our services also include integrating ERP and CMS systems for seamless operations, ensuring your online store works smoothly from the backend. Don't waste time thinking. Let's create your dream store together!
           </p>
         </div>
         <div className="different1-right">
