@@ -1,19 +1,19 @@
 .sec---abc {
   margin: auto;
   max-width: 1720px;
-  padding: 20px 40px; 
+  padding: 20px 40px;
   background-color: #f8f8f8;
 }
 
 .heaaader-content {
   text-align: center;
-  font-size: 30px; 
+  font-size: 30px;
 }
 
 .heaaader-content h3 {
   margin: 15px 0px 0px 0px;
   text-align: center;
-  padding: 35px 25px 12px 25px; 
+  padding: 35px 25px 12px 25px;
   font-weight: 300;
   font-size: 36px;
 }
@@ -26,12 +26,12 @@
   text-align: center;
   font-size: 22px;
   font-weight: 400;
-  padding: 20px 0px 0px 0px; 
+  padding: 20px 0px 0px 0px;
 }
 
 .heaaader-content h6 {
   text-align: center;
-  font-size: 18px; 
+  font-size: 18px;
   font-weight: 400;
   max-width: 900px;
   margin: auto;
@@ -74,14 +74,13 @@
 .ecom-content h3 {
   text-decoration: none;
   margin-bottom: 28px;
-  font-size: 38px; 
+  font-size: 38px;
   font-weight: 400;
-
 }
 
 .ecom-content p {
   line-height: 30px;
-  font-size: 18px; 
+  font-size: 18px;
 }
 
 .button-b2 {
@@ -92,7 +91,7 @@
   border: none;
   font-size: 15px;
   font-weight: 700;
-  border-radius: 3px;
+  border-radius: 50px;
   border: 1px solid white;
 }
 
@@ -223,7 +222,7 @@
 
 @media (max-width: 768px) {
   .headdd-div {
-    position: static !important; 
+    position: static !important;
   }
 
   .contttent-wrapper {
@@ -247,7 +246,7 @@
   font-weight: bold;
   transition: all 0.3s ease;
 }
- 
+
 @media(max-width:520px) {
   .heaaader-content h6 {
     width: 100% !important;

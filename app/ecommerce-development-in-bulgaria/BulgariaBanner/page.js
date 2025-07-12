@@ -1,10 +1,10 @@
 "use client";
 
-import React, { useEffect, useRef, useState } from "react";
-import "intl-tel-input/build/css/intlTelInput.css";
 import intlTelInput from "intl-tel-input";
-import { toast } from "react-toastify";
+import "intl-tel-input/build/css/intlTelInput.css";
 import { useRouter } from "next/navigation";
+import { useEffect, useRef, useState } from "react";
+import { toast } from "react-toastify";
 
 import "./bulgariabanner.css";
 
@@ -53,12 +53,12 @@ const BulgariaBanner = () => {
     useEffect(() => {
         if (phoneInputRef.current) {
             const iti = intlTelInput(phoneInputRef.current, {
-                initialCountry: "be",
+                initialCountry: "bg",
                 geoIpLookup: (callback) => {
                     fetch("https://ipapi.co/json")
                         .then((res) => res.json())
                         .then((data) => callback(data.country_code))
-                        .catch(() => callback("be"));
+                        .catch(() => callback("bg"));
                 },
                 utilsScript:
                     "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
@@ -96,31 +96,30 @@ const BulgariaBanner = () => {
         e.preventDefault();
 
         const phone = phoneInputRef.current?.value || "";
+        const phoneDigitsOnly = phone.replace(/\D/g, ""); // Only digits
 
         if (!formData.name || !formData.email || !phone) {
             toast.error("Please fill all the fields!");
             return;
         }
-        // const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-        const emailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.[a-zA-Z]{2,}$/;
 
+        const emailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.[a-zA-Z]{2,}$/;
         if (!emailRegex.test(formData.email)) {
             toast.error("Invalid email address!");
             return;
         }
-        if (
-            formData.name.trim() === "" ||
-            phone.trim() === "" ||
-            formData.email.trim() === ""
-        ) {
-            toast.error("Please fill all the fields!!");
+
+        if (phoneDigitsOnly.length !== 11) {
+            toast.error("Phone number must be exactly 11 digits!");
             return;
         }
+
         if (!captchaVerified) {
             toast.error("Please Verify the Captcha!!");
             generateCaptcha();
             return;
         }
+
         if (parseInt(userAnswer) !== correctAnswer) {
             toast.error("Wrong Captcha! Try again.");
             generateCaptcha();
@@ -133,7 +132,7 @@ const BulgariaBanner = () => {
         try {
             const dataToSend = {
                 ...formData,
-                phone,
+                phone: phoneDigitsOnly, // send clean number
             };
             const response = await fetch("https://backend.kusheldigi.com/contact", {
                 method: "POST",
@@ -143,6 +142,7 @@ const BulgariaBanner = () => {
                 },
                 body: JSON.stringify(dataToSend),
             });
+
             const result = await response.json();
             console.log("Result--->>", result);
 
@@ -161,6 +161,19 @@ const BulgariaBanner = () => {
         }
     };
 
+
+    const scrollToFormHome = () => {
+        const formSection = document.getElementById('form-section');
+        if (formSection) {
+            const yOffset = -120;
+            const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+            window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+    };
+
+    const navigate = useRouter();
+
+
     return (
         <section className="bulgaria-banner-section">
             <div className="bulgaria-banner-overlay">
@@ -173,18 +186,26 @@ const BulgariaBanner = () => {
                             <span className="bulgaria-banner-span">Company in Bulgaria</span>
                         </h1>
                         <p className="bulgaria-banner-subtext">
-                            Want to expand your e-commerce business in bulgaria? Kushel Digi
-                            Solutions designs bespoke e-commerce websites tailored to your
-                            brand, which are mobile-friendly and boost conversions. As a
-                            leading ecommerce development company in bulgaria, we enable
-                            businesses to streamline operations, improve user experience, and
-                            automate for sustainable growth.
+                            Are you trying to find a reliable e-commerce development company
+                            in Bulgaria to help you launch your online store? We assist
+                            companies in creating conversion-based websites that increase
+                            revenue and provide a remarkable shopping experience. Kushel Digi
+                            Solutions provides cutting-edge solutions, seamless operations,
+                            and smart features on all platforms.
                         </p>
                         <div className="bulgaria-banner-buttons">
-                            <button className="bulgaria-banner-btn-yellow">
+                            <button onClick={scrollToFormHome} className="bulgaria-banner-btn-yellow">
                                 Get a Free Consultation
                             </button>
-                            <button className="bulgaria-banner-btn-outline">
+                            <button
+                                onClick={() =>
+                                    window.open(
+                                        'https://calendly.com/shubham-goq0/sales-discovery-call?month=2025-06&utm_source=Email&utm_medium=email&utm_campaign=Chalendly',
+                                        '_blank'
+                                    )
+                                }
+                                className="bulgaria-banner-btn-outline"
+                            >
                                 Schedule a Demo
                             </button>
                         </div>
@@ -242,11 +263,17 @@ const BulgariaBanner = () => {
                                     type="tel"
                                     name="phone"
                                     placeholder="Mobile Number*"
-                                    maxLength={10}
                                     className="form-input phone-input"
-                                    // value={formData?.phone}
-                                    // onChange={handleChange}
                                     ref={phoneInputRef}
+                                    onInput={(e) => {
+                                        const digits = e.target.value.replace(/\D/g, ""); // remove non-digits
+                                        if (digits.length <= 11) {
+                                            e.target.value = digits;
+                                        } else {
+                                            e.target.value = digits.slice(0, 11); // trim to 11
+                                            toast.error("Only 11 digit phone number allowed!");
+                                        }
+                                    }}
                                     required
                                 />
                             </div>
