@@ -243,13 +243,13 @@ const WordPressComponent = () => {
                                 </div>
                                 <div className='word_benefits_box-2'>
                                     <h3>Agile Development</h3>
-                                    <p>kusheldigi offers coordinated web assessment to meet particular business needs.</p>
+                                    <p>kushel digi offers coordinated web assessment to meet particular business needs.</p>
                                 </div>
                             </div>
                             <div className='word_benefits_section'>
                                 <div className='word_benefits_box'>
                                     <h3>Psychology Driven</h3>
-                                    <p>kusheldigi offers UI/UX configuration depending on the client's brain size to construct habit-forming web applications and dashboards.</p>
+                                    <p>kushel digi offers UI/UX configuration depending on the client's brain size to construct habit-forming web applications and dashboards.</p>
                                 </div>
                                 <div className='word_benefits_box-2'>
                                     <h3>Failproof</h3>
@@ -262,7 +262,7 @@ const WordPressComponent = () => {
 
 
                 <div className='wordpress_cater'>
-                    <h3 className='h21'>WHAT INDUSTRIES CATER BY KUSHELDIGI?</h3>
+                    <h3 className='h21'>WHAT INDUSTRIES CATER BY KUSHEL DIGI?</h3>
                     {/* <p className='p2112'>Industries kusheldigi cater are:</p> */}
                     <div className='wordpress_cater_cards'>
                         <div className='wordpress_cater_card'>
@@ -451,7 +451,7 @@ const WordPressComponent = () => {
                         <div className="wordpress_agency_card">
                             <div className="wordpress_agency_box wordpress_agency_box1">
                                 <h3>Experienced Developers</h3>
-                                <p>kusheldigi is enriched with experienced WordPress developers who have a profound comprehension of the platform
+                                <p>kushel digi is enriched with experienced WordPress developers who have a profound comprehension of the platform
                                     .They can achieve WordPress advancement
                                     Project with absolute flawlessness independent of the intricacy.
                                 </p>
@@ -466,7 +466,7 @@ const WordPressComponent = () => {
                             <div className="wordpress_agency_box wordpress_agency_box1">
                                 <h3>Instinctive Admin Panel</h3>
                                 <p>
-                                    kusheldigi makes transparent and
+                                    kushel digi makes transparent and
                                     Natural admin management that
                                     Is not difficult to use for a website
                                     admins.

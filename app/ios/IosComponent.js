@@ -294,7 +294,7 @@ const IosComponent = () => {
                     <div className="android-process ios-process flex-col items-center justify-center">
                         <div className="android-process1">
                             <h2 className="text-center">
-                                The Method We Follow to Become a Leading ios <br /> Application
+                                The Method We Follow to Become a Leading ios Application
                                 Development Company
                             </h2>
                         </div>

@@ -287,8 +287,8 @@ const MobileAppComponent = ({ notify }) => {
         </div>
 
         <div className="unlock">
-          <h2>How Mobile Apps Unlock</h2>
-          <h2>your Business Potential</h2>
+          <h2>How Mobile Apps Unlock
+         your Business Potential</h2>
           <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739423735/process_ucdmth.jpg' alt="process" title="process" />
         </div>
 

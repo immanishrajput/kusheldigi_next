@@ -40,7 +40,7 @@ const TechWeUse = () => {
         },
         {
             category: "Database Management",
-            items: ["MySQL", "MariaDB"]
+            items: ["MySQL", "MongoDB"]
         },
         // {
         //     category: "Cloud & Hosting Solutions",

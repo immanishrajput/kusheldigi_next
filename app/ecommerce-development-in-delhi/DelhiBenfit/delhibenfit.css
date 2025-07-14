@@ -7,10 +7,10 @@
 .benefits-heading {
   font-size: 28px;
   max-width: 600px;
-    margin: 0 auto;
+  margin: 0 auto;
   font-weight: 700;
   color: #000;
-  margin-bottom: 40px;
+  margin-bottom: 40px !important;
 }
 
 .benefits-cardss {
@@ -24,7 +24,7 @@
 .benefit-cardd {
   flex: 1 1 300px;
   max-width: 440px;
-  border: 1px solid #0B56E4;
+  border: 1px solid #0b56e4;
   border-radius: 14px;
   padding: 30px 20px;
   text-align: left;
@@ -48,7 +48,7 @@
 }
 
 .benefit-cardd:hover {
-  box-shadow: 0px 4px 12px rgba(0,0,0,.1);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 /* Responsive Styles */

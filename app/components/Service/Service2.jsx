@@ -677,7 +677,7 @@ const Service = () => {
                     </clipPath>
                   </defs>
                 </svg>
-                <h3>FRONT END</h3>
+                <h3>FRONTEND</h3>
                 <div className="service-underline">
                   <hr />
                 </div>
