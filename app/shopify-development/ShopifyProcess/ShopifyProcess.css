@@ -382,7 +382,11 @@
     color: #000;
   }
 }
-
+@media screen and (max-width: 374px) {
+  .shopify-banner-heading {
+    font-size: 1.37rem;
+  }
+}
 @media screen and (max-width: 525px) {
   .shopify-banner-services > p {
     font-size: 1.01rem;

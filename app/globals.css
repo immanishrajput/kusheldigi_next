@@ -1521,6 +1521,7 @@ body {
   margin-bottom: 40px;
   color: #222;
   text-align: center;
+   margin-bottom: 40px !important;
 }
 
 .benefits-grid {
@@ -39776,7 +39777,8 @@ video {
 }
 
 .form_exam_btn button {
-  float: right;
+  /* float: right; */
+  margin: 14px auto;
   align-items: center;
   background-color: #0b56e4;
   border: none;
@@ -57023,6 +57025,11 @@ margin-left: 3px !important;
   }
 }
 
+@media only screen and (max-width: 350px) {
+    .exam_form {
+       height: 648x;
+    }
+}
 @media only screen and (max-width: 1200px) {
   .first-ecom p {
     width: 100%;
@@ -57046,7 +57053,7 @@ margin-left: 3px !important;
 
   .exam_form {
     position: initial;
-    height: 657px;
+    height: 610px;
     max-height: 100%;
     width: 100%;
     max-width: 100%;
@@ -57181,6 +57188,11 @@ margin-left: 3px !important;
   .left-section-kids > h1 {
     margin-top: 5px !important;
   }
+}
+@media screen and (max-width: 350px) {
+    .exam_form {
+       height: 648px;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -69159,7 +69171,7 @@ margin-left: 3px !important;
   }
 
   .android-process1 h2 {
-    font-size: 25px;
+    font-size: 23px;
     text-align: center;
     line-height: 32px;
   }
@@ -72248,6 +72260,7 @@ margin-left: 3px !important;
   }
 }
 
+
 @media only screen and (max-width: 390px) {
   .noida p {
     font-size: 10px !important;
@@ -72552,6 +72565,27 @@ margin-left: 3px !important;
   .home-year12 {
     width: 19rem;
   }
+}
+@media only screen and (max-width: 330px) {
+  .header{
+    width: 320px !important;
+  }
+  .whtsApBtns {
+    z-index: 400;
+    position: fixed;
+    left: 238px;
+    /* right: 10px !important; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    top: 82vh;
+    padding: 0 0 0 20px;
+   
+}
+.popup-modal{
+  width: 320px !important;
+}
 }
 @media only screen and (max-width: 675px) {
 #hello .second{
@@ -74344,6 +74378,7 @@ article h4 {
   margin-top: -30px;
   display: flex;
   gap: 10px;
+  width: 72px;
 }
 
 #callBlinking {
@@ -78151,6 +78186,12 @@ max-height: 400px;
   }
 }
 
+@media screen and (max-width: 340px) {
+    .navbar {
+        margin: 0px;
+        width: 324px;
+    }
+  }
 .MainBloggSeCh3 {
   width: 100%;
   text-align: center;
