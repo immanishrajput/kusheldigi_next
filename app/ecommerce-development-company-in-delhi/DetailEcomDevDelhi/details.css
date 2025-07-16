@@ -1,0 +1,213 @@
+.getquote-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 28px;
+  /* background: #f9f9f9; */
+  max-height: 690px;
+  position: sticky;
+  top: 100px;
+}
+
+.getquote-form {
+  width: 390px;
+  background: #fff;
+  padding: 30px 20px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  position: relative;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.getquote-header {
+  height: 140px;
+  background: #0646e0;
+  clip-path: polygon(
+    0% -1%,
+    0% 49%,
+    12% 11%,
+    581% 17%,
+    -20% -266%,
+    378% 767%,
+    353% -147%
+  );
+  position: absolute;
+  top: 50;
+  left: 0;
+  right: 0;
+}
+/* polygon((0% -1%, 0% 91%,13% 13%, 528% 34%,-56% -290%, 378% 767%,353% -147%) */
+
+.getquote-form h2 {
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #111;
+  text-align: center;
+}
+
+.getquote-form label {
+  display: block;
+  text-align: left;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 20px 0 5px;
+  color: #222;
+}
+
+.getquote-form input[type="text"],
+.getquote-form input[type="email"] {
+  width: 100%;
+  padding: 14px;
+  background: #d9d9d9;
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+.getquote-captcha-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #111;
+}
+
+.getquote-captcha-row a {
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: underline;
+  color: #0646e0;
+}
+
+.getquote-form button {
+  width: 100%;
+  margin-top: 25px;
+  background: #0646e0;
+  color: #fff;
+  padding: 16px;
+  font-size: 18px;
+  border: none;
+  border-radius: 40px;
+  font-weight: 500;
+  cursor: pointer;
+  border: 2px solid #0b56e4;
+}
+.getquote-form button:hover {
+  background-color: white;
+  color: #0b56e4;
+  border: 2px solid #0b56e4;
+  transition: all 0.5s;
+}
+.getquote-terms {
+  font-size: 13px;
+  margin-top: 20px;
+  color: #222;
+  text-align: center;
+}
+
+.getquote-terms a {
+  color: #0646e0;
+  text-decoration: underline;
+  font-weight: 600;
+}
+.details-sec {
+  display: flex;
+  padding: 30px 60px;
+  gap: 20px;
+  max-width: 1720px;
+  margin: auto;
+}
+.details-desc {
+  display: flex;
+  flex-direction: column;
+}
+.details-desc h4 {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.details-desc p {
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+.details-desc h5 {
+  font-size: 30px;
+  font-weight: 600;
+  /* text-align: center; */
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.details-desc h6 {
+  font-size: 28px;
+  font-weight: 600;
+  /* text-align: center; */
+
+  color: #0b56e4;
+}
+
+@media screen and (max-width: 1024px) {
+  .details-sec {
+    display: flex;
+    flex-direction: column;
+  }
+  .getquote-wrapper {
+    padding: 0px;
+  }
+  .getquote-form {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .details-sec {
+    padding: 20px 50px;
+  }
+  .details-desc p {
+    text-align: center;
+  }
+  .details-desc h4,
+  h5,
+  h6 {
+    text-align: center;
+  }
+ .detail-foot{
+margin: auto;
+}
+}
+
+@media screen and (max-width: 500px) {
+  .details-sec {
+    padding: 20px 20px;
+  }
+  .details-desc p {
+    font-size: 17px;
+  }
+  .details-desc h4 {
+    font-size: 26px;
+  }
+  .details-desc h5 {
+    font-size: 26px;
+  }
+  .details-desc h6 {
+    font-size: 24px;
+  }
+  .getquote-wrapper {
+    padding: 28px 14px;
+  }
+}
+.detail-foot{
+max-width: 400px;
+}
+.detail-foot-p{
+  font-weight: 600;
+}
+.detail-foot span{
+font-weight: 600;
+}
