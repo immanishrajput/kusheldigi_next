@@ -3,13 +3,12 @@ import React, { useEffect, useRef, useState } from "react";
 import "./ContactUs.css";
 
 import { useRouter } from "next/navigation";
-import PhoneInput from "react-phone-input-2";
-import 'react-phone-input-2/lib/style.css';
-import '../../components/Home/homeBan.css'
+import { FaAward, FaUserAlt } from "react-icons/fa";
 import { GiTrophyCup } from "react-icons/gi";
-import { FaAward, FaRegUser, FaUserAlt } from "react-icons/fa";
+import 'react-phone-input-2/lib/style.css';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import '../../components/Home/homeBan.css';
 
 const ContactUs = () => {
 
@@ -207,7 +206,7 @@ const ContactUs = () => {
       const images = track.innerHTML;
       track.innerHTML += images;
     }
-  }, []);
+  }, []); 
 
 
   return (

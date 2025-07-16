@@ -23330,7 +23330,11 @@ input[type="number"] {
 
 @media (max-width: 1120px) {
   .navbar {
-    padding: 10px 35px;
+    padding: 10px 30px;
+  }
+
+  .navbar-text ul {
+    gap: 15px !important;
   }
 }
 
@@ -23340,7 +23344,7 @@ input[type="number"] {
   }
 
   .navbar-text ul {
-    gap: 20px !important;
+    gap: 14px !important;
   }
 }
 
@@ -23348,7 +23352,7 @@ input[type="number"] {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 25px;
+  gap: 20px;
   margin: 0;
   padding: 0 !important;
 }

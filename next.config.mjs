@@ -486,6 +486,16 @@ const nextConfig = {
         destination: '/blog',
         permanent: true,
       },
+      {
+        source: '/terms',
+        destination: '/terms&conditions',
+        permanent: true,
+      },
+      {
+        source: '/career',
+        destination: '/contact-us',
+        permanent: true,
+      },
     ];
   },
 };

@@ -3,7 +3,7 @@ import TermsComponent from "./TermsComponent";
 export const metadata = {
   metadataBase: new URL("https://www.kusheldigi.com"),
   alternates: {
-    canonical: "/terms",
+    canonical: "/terms&conditions",
   },
   title: "KushelDigi Solutions- Creative Graphic Design company",
   description:
@@ -12,7 +12,7 @@ export const metadata = {
     title: "KushelDigi Solutions- Creative Graphic Design company",
     description:
       "The best graphic design company, Kushel Digi Solutionss offers a range of graphic design services, such as motion graphics, infographics, logos, and more.",
-    url: "https://www.kusheldigi.com/terms",
+    url: "https://www.kusheldigi.com/terms&conditions",
     images: [
       {
         url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png",
