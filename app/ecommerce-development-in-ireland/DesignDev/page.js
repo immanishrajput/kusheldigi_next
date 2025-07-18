@@ -3,23 +3,34 @@ import React, { useState } from "react";
 import "./design.css";
 
 const designData = {
-  paragraph: `At Kushel Digi Solutions, we do not only engage in design; rather, we develop experiences. With over 15 years of experience in the industry, we have developed a streamlined and effective design ecom-process where every critical detail is captured from the wireframe stage to the final delivery.`,
+  paragraph: `With more than 15 years of experience, Kushel Digi Solutions has developed a comprehensive but easy-to-follow design process that incorporates every component required from the wireframe stage to the finished product.
+
+
+`,
   columns: [
     {
       title: "UX Research",
       items: [
-        "PRODUCT STRATEGY",
-        "MARKET & USER ANALYSIS",
-        "CREATIVE IDEATION",
+        "   PRODUCT PLANNING",
+        "MARKET & AUDIENCE ANALYSIS",
+        " CREATIVE CONCEPTS",
       ],
     },
     {
       title: "UX DESIGN",
-      items: ["PROTOTYPING", "FEEDBACK INTEGRATION", "WIREFRAMING"],
+      items: [
+        "INTERACTIVE PROTOTYPING",
+        "INCORPORATING FEEDBACK",
+        "DETAILED WIREFRAMING",
+      ],
     },
     {
       title: "UI DESIGN",
-      items: ["MOODBOARDS", "CONCEPT DEVELOPMENT", "FINAL VISUAL DESIGN"],
+      items: [
+        "INSPIRING MOODBOARDS",
+        "CREATIVE DEVELOPMENT",
+        "REFINED VISUAL DESIGN",
+      ],
     },
     {
       title: "DELIVERY",
@@ -29,27 +40,23 @@ const designData = {
 };
 
 const developmentData = {
-  paragraph: `Our development ecom-process emphasizes quality and clean architecture, so the code is always scalable. We observe industry best practices during testing phases and ongoing maintenance tasks.`,
+  paragraph: `To ensure that the code can always be scaled, Kushel Digi Solutions prioritizes quality and transparency throughout the development process. We use best methods in the industry for testing and continuous maintenance.`,
   columns: [
     {
       title: "ARCHITECTURE",
-      items: ["Code Architecture", "API Integration", "Security Reviews"],
+      items: ["Code Architecture", "API Integration", "Security Checks"],
     },
     {
       title: "DEVELOPMENT",
-      items: ["Frontend Dev", "Backend Dev", "Database Manage"],
+      items: ["Frontend ", "Backend ", "Database "],
     },
     {
-      title: "QUALITY ASSURANCE",
-      items: ["Code Validation", "Function Checks", "Bugs Resolution"],
+      title: "QUALITY TEST",
+      items: ["Code Check", "Function Test", "Bug Fix"],
     },
     {
-      title: "LAUNCH & BEYOND",
-      items: [
-        "CI/CD Integration",
-        "Real-Time Monitoring",
-        "Post-Launch Support",
-      ],
+      title: "Launch & Growth",
+      items: [" CI/CD", "Monitoring", "Post Launch Support"],
     },
   ],
 };

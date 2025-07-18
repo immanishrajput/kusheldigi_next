@@ -1,6 +1,7 @@
 'use client';
 import React from 'react';
 import './belgiumserv.css';
+import { useRouter } from 'next/navigation';
 
 const features = [
   {
@@ -59,7 +60,18 @@ const features = [
   }
 ];
 
+const scrollToFormHome = () => {
+  const formSection = document.getElementById('form-section');
+  if (formSection) {
+    const yOffset = -120;
+    const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+    window.scrollTo({ top: y, behavior: 'smooth' });
+  }
+};
+
 const BulgariaEcomServ = () => {
+  const navigate = useRouter();
+  
   return (
    <section className="ecom-belgium-section">
       <h3 className="ecom-belgium-title">What E-Commerce Website Development Services Do We Offer?
@@ -80,8 +92,14 @@ const BulgariaEcomServ = () => {
       </div>
 
       <div className="ecom-belgium-buttons">
-        <button className="ecom-btn">Start Your Project</button>
-        <button className="ecom-btn secondary">Get a Free Quote</button>
+        <button onClick={() => navigate.push('/contact-us')} className="ecom-btn primary">Book a Call
+          {/* Book a Call <HiArrowSmallRight /> */}
+        </button>
+        {/* <button className="ecom-btn secondary">Request an Audit</button> */}
+        <button onClick={scrollToFormHome} className="ecom-btn secondary">
+          Request an Audit
+        </button>
+
       </div>
     </section>
   );

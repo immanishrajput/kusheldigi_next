@@ -5,33 +5,33 @@ import "./whydenmark.css";
 const features = [
   {
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073420/Group_1171281413_b7dwf6.png",
-    title: "Focused On Results",
-    desc: "No fluff, only real progress: value delivery comes before anything else.",
+    title: "Proven E-Commerce Expertise",
+    desc: "At Kushel Digi Solutions, we have decades of experience in crafting custom ecommerce websites that drive more sales, traffic, and long-term growth.",
   },
   {
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073419/Group_1171281412_m4wjmx.png",
-    title: "Strategic Tech Expertise",
-    desc: "Goal-oriented ecommerce websites are made with a blend of technological expertise and creativity by our team.",
+    title: "Tailored Solutions, No Templates",
+    desc: "Because no two businesses share the same DNA, we begin each online-store project with a clean blueprint. By tailoring design, features, and navigation, we craft a shopping experience that moves smoothly and feels distinctly yours.",
   },
   {
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073409/Group_1171281523_k2vfml.png",
-    title: "Timely-Delivery Always",
-    desc: "Timely delivery—no delays or excuses—in any scope of work, ranging from small to complex tasks, is guaranteed.",
+    title: "Full-Service Support",
+    desc: "From strategy to development, integrations and post-launch, we provide full-service support. Our expert team handles end-to-end custom ecommerce solutions in-house so that you won't worry about gaps in service.",
   },
   {
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281524_ksva3g.png",
-    title: "End-to-End Maintenance & Support",
-    desc: "Your online store will always be backed up, whether it’s bug repairs or feature extensions",
+    title: "Cutting-Edge Tech Stack",
+    desc: "We create ecommerce stores using platforms like Shopify, Magento, WooCommerce or headless stacks. It assures fast loading, data protection and scalable for future growth.",
   },
   {
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281525_qnpwgi.png",
-    title: " Highly Scalable",
-    desc: "Our ecommerce solutions are agnostic to traffic surges as well as future business expansion plans.",
+    title: " Transparent Process",
+    desc: "Our work is as transparent as water. We give you timely updates, code reviews and straight feedback at every step, so that you won't get a sudden shock on the launch day.",
   },
   {
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281414_nyzkrn.png",
-    title: "Fully Confidential And Secure ",
-    desc: "With strong NDAs and enterprise-grade security in place, business data stays protected",
+    title: "Client-Centered Approach ",
+    desc: "Because your results drive our reputation, we listen, adapt to fresh insights, and chase solutions that boost revenue while keeping your customers happy.",
   },
 ];
 
@@ -40,12 +40,12 @@ const WhyChooseDenmark = () => {
     <section className="why-choose-section">
       <div className="why-choose-wrapper">
         <h2 className="why-choose-heading">
-          Why Choose Kushel Digi Solutions?
+         Why Should You Choose Kushel Digi Solutions?
         </h2>
         <p className="why-choose-subtext">
-          We design and build ecommerce platforms that scale alongside your
+          {/* We design and build ecommerce platforms that scale alongside your
           growth and provide industry-leading impact at each level. From
-          strategy to support, every aspect is taken care of.
+          strategy to support, every aspect is taken care of. */}
         </p>
       </div>
 

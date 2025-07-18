@@ -1,61 +1,89 @@
 "use client";
 import React from "react";
 import "./denmarkserv.css";
+import { useRouter } from "next/navigation";
 
 const features = [
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965474/Mask_group_75_obmlwf.png",
     title: "Ecommerce Consulting",
     description:
-      "We advise businesses on the best eCommerce strategies and software selection. We also guide them in application development to meet their unique electronic-commerce requirements.",
+      "Are you considering starting an ecommerce website but are unsure where to start? Allow our experts to meticulously develop a strategy for you that will provide results.",
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965473/Mask_group_76_jziqdb.png",
-    title: "Custom Ecommerce Development",
-    description: `Our developers deliver custom ecommerce solutions tailored to your business needs. They create an ecommerce store that enhances your digital business footprint.`,
+    title: "E-Commerce Design (UI/UX)",
+    description: `
+With eye-catching designs and graphics, our UI/UX team produces engaging user experiences that urge users to click. Giving your users an unforgettable experience is the goal of our design services, which will help you stay conversion-focused at all times.
+`,
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965473/Mask_group_77_syi4ue.png",
-    title: "Platform-Based Ecommerce Development",
-    description: `As a top ecommerce web development company, we specialise in creating high-performing stores. We utilise all major platforms and the latest ecommerce software.`,
+    title: "E-Commerce Development",
+    description: `
+As a leading ecommerce development company in Ireland, we provide highly customized ecommerce software that enables you to put sales first and let the others worry about automated ecommerce software solutions.
+`,
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965468/Mask_group_78_d9e39s.png",
-    title: "Ecommerce Website Design",
-    description: `Our designers craft engaging ecommerce site designs. These designs look great and offer a seamless user experience, which helps to boost sales.`,
+    title: "After-Launch Support",
+    description: `
+We provide post-launch support and services that handle migration, updates, blog resolution, and other problems, ensuring that your ecommerce apps are always up to date.
+`,
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_79_sv7ryx.png",
-    title: "Ecommerce Integrations",
-    description: `We provide seamless integration of your ecommerce platform with third-party applications. This ensures that your business processes are interconnected for efficient operations.`,
+    title: "E-Commerce Migration",
+    description: `
+Want to relocate your online store? Let us do this for you. Our knowledgeable staff moves your current business to a new online store without erasing any data or daily traffic.
+`,
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_80_xj1zov.png",
-    title: "Ecommerce Migration",
-    description: `Our developers handle ecommerce migration. They ensure the smooth transition of your ecommerce store from one platform to another with minimal disruption.`,
+    title: "Platform-Based E-Commerce Solution",
+    description: `
+Our ecommerce expertise allows us to develop across platforms on Magento, WooCommerce and Shopify. Its flexibility will enable us to recommend the best platform for your web requirements and your budget.
+`,
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_81_ct53bt.png",
-    title: "Ecommerce Audit",
-    description: `We perform comprehensive audits of your ecommerce site. We identify potential improvements to enhance your store's performance, security, and user experience.`,
+    title: "E-Commerce Integration",
+    description: `
+We use cutting-edge third-party tools and technology to create a complete, data-driven ecommerce experience that meets your specific requirements.
+`,
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_82_mpn6s4.png",
-    title: "Ecommerce Support and Evolution",
-    description: `Our dedicated support team offers ongoing ecommerce site maintenance and evolution. This ensures your store stays updated, secure, and competitive.`,
+    title: "E-Commerce Support",
+    description: ` 
+We ensure your website works well on all devices. We provide end-to-end support to ensure your website works smoothly with no errors and bugs.
+`,
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_82_mpn6s4.png",
-    title: "Ecommerce Support and Evolution",
-    description: `Our dedicated support team offers ongoing ecommerce site maintenance and evolution. This ensures your store stays updated, secure, and competitive.`,
+    title: "E-Commerce Audit",
+    description: `
+An ecommerce audit carefully checks your online store's performance, such as its website speed, SEO, user experience, mobile friendliness, and checkout process, to find ways to make it better that will bring in more visitors, convert them into customers, and boost overall sales.
+`,
   },
 ];
 
+const scrollToFormHome = () => {
+  const formSection = document.getElementById('form-section');
+  if (formSection) {
+    const yOffset = -120;
+    const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+    window.scrollTo({ top: y, behavior: 'smooth' });
+  }
+};
+
 const IrelandEcomServ = () => {
+    const navigate = useRouter();
+  
   return (
     <section className="ecom-denmark-section">
       <h3 className="ecom-denmark-title">
-        Our E-commerce Website Development Services
+  What E-Commerce Website Development Services Do We Offer?
       </h3>
 
       <div className="ecom-denmark-grid-wrapper">
@@ -76,9 +104,15 @@ const IrelandEcomServ = () => {
         </div>
       </div>
 
-      <div className="ecom-denmark-buttons">
-        <button className="ecom-btn">Start Your Project</button>
-        <button className="ecom-btn secondary">Get a Free Quote</button>
+       <div className="ecom-denmark-buttons">
+        <button onClick={() => navigate.push('/contact-us')} className="ecom-btn primary">Book a Call
+          {/* Book a Call <HiArrowSmallRight /> */}
+        </button>
+        {/* <button className="ecom-btn secondary">Request an Audit</button> */}
+        <button onClick={scrollToFormHome} className="ecom-btn secondary">
+          Request an Audit
+        </button>
+
       </div>
     </section>
   );

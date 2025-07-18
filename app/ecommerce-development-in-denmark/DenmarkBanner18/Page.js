@@ -1,64 +1,79 @@
-"use client"
-import React from 'react'
-import './DenmarkBanner3.css'
-import Link from 'next/link'
+"use client";
+import React from "react";
+import "./DenmarkBanner3.css";
+import Link from "next/link";
 const DenmarkBanner3 = () => {
   return (
     <>
-    <div className="containerEcom">
-  <section className="left-sectionEcom">
-    <h6>Ecommerce Development Agency</h6>
-    <h2 className='primary-heading'>
-   Ecommerce Solutions for Higher Conversions and Growth 
-    </h2>
-    <p>
-    Since 2017, Kushel Digi has been delivering Custom Ecommerce Solutions for more than 1000+ clients across globe. We are committed to help your business grow faster. 
-    </p>
-     <Link href="/contact-us"><button>
-      Get a Free Consultation Today</button> </Link>
-  </section>
-  <section className="right-sectionEcom">
-    <div className="content-blockEcom">
-      <h3>Custom Solutions</h3>
-      <p>
-      It doesn’t matter whether you're a startup or an established brand, we tailor our eCommerce solutions to fit your unique needs. Our customized approach helps maximize conversions and to enhance user experience.
-      </p>
-    </div>
-    <div className="content-blockEcom">
-      <h3>Advanced Technologies</h3>
-      <p>
-      Our experts at Kushel Digi has been leveraging the best ecommerce technologies like Shopify, BigCommerce and Magento to build fast, secure, and feature-rich eCommerce websites and ensure long-term scalability and efficiency.
-      </p>
-    </div>
-    <div className="content-blockEcom">
-      <h3>Ongoing Support</h3>
-      <p>
-      The biggest advantage of availing our commitment doesn’t end with development, we provide ongoing support and maintenance to keep your eCommerce store running smoothly and efficiently.
-      </p>
-    </div>
-    <div className="content-blockEcom">
-      <h3>Mobile-First Approach</h3>
-      <p>
-      With mobile shopping on the rise, we design responsive and mobile-optimized eCommerce stores. This ensures a seamless experience across all devices for better engagement and conversions.
-      </p>
-    </div> 
-     <div className="content-blockEcom">
-      <h3>SEO & Performance Optimization</h3>
-      <p>
-      We build eCommerce stores with SEO-friendly structures and fast-loading pages to improve visibility and user experience. Our optimization techniques help drive more organic traffic and boost rankings.
-      </p>
-    </div> 
-    <div className="content-blockEcom">
-      <h3>Secure & Reliable Payment Processing</h3>
-      <p>
-      We implement secure payment gateways with multiple options, ensuring a seamless and trustworthy checkout experience. From PayPal to Stripe, we integrate the best payment solutions for hassle-free transactions.
-      </p>
-    </div>
-  </section>
-</div>
-
+      <div className="containerEcom">
+        <section className="left-sectionEcom">
+          <h6>Ecommerce Development Agency</h6>
+          <h2 className="primary-heading">
+            E-Commerce Solutions to Maximise Revenue and Foster Growth
+          </h2>
+          <p>
+            Since 2017, Kushel Digi has been delivering Custom Ecommerce
+            Solutions for more than 1000+ clients across globe. We are committed
+            to help your business grow faster.
+          </p>
+          <Link href="/contact-us">
+            <button>Get a Free Consultation Today</button>{" "}
+          </Link>
+        </section>
+        <section className="right-sectionEcom">
+          <div className="content-blockEcom">
+            <h3>Tailored Online Shops</h3>
+            <p>
+              We design ecommerce platforms that work in harmony with your
+              business, products, and goals, making it simple for customers to
+              peruse, purchase, and come back for more.
+            </p>
+          </div>
+          <div className="content-blockEcom">
+            <h3>Mobile-Friendly Design </h3>
+            <p>
+              Your business will seem great and work well on all devices,
+              especially mobile ones, so customers can shop whenever and
+              wherever they choose.
+            </p>
+          </div>
+          <div className="content-blockEcom">
+            <h3>Easy Checkout Process</h3>
+            <p>
+              Reducing cart abandonment is our primary goal in streamlining the
+              checkout process. With fewer clicks, clear instructions, and
+              secure payment options, your store will see an increase in
+              completed purchases.
+            </p>
+          </div>
+          <div className="content-blockEcom">
+            <h3>Fast-Loading Websites</h3>
+            <p>
+              You must act promptly! In order to improve user experience, search
+              engine results, and visitor retention, we guarantee that your
+              website runs quickly.
+            </p>
+          </div>
+          <div className="content-blockEcom">
+            <h3>Search Engine Optimised Framework</h3>
+            <p>
+              If you want your online shop to rank higher in Google and get more
+              organic traffic, you need one of our websites built with an
+              SEO-friendly layout and clean code.
+            </p>
+          </div>
+          <div className="content-blockEcom">
+            <h3> Ongoing Support and Improvement</h3>
+            <p>
+              Managing updates, fixing issues, and helping you grow with
+              data-driven improvements and new services are all things we'll be
+              there for you after launch.
+            </p>
+          </div>
+        </section>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default DenmarkBanner3
+export default DenmarkBanner3;

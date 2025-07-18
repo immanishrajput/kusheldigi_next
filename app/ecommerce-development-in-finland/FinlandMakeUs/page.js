@@ -7,22 +7,22 @@ function FinlandMakeUs() {
     <section className="different1-wrapper">
       <div className="different1-container">
         <div className="different1-left">
-          <h2>What makes us different?</h2>
+          <h2>What Sets Us Apart as Your E-Commerce Partner?</h2>
           <p>
-            Your online store will be built specifically for your brand with
-            Kushel Digi Solutions because we know that every ecommerce business
-            is different. We prioritize understanding your objectives and target
-            market in order to create a custom ecommerce solution. You can count
-            on us to build an online store for you that is smooth, fast,
-            flexible, and user-first as we expertly guide you on the most
-            suitable platform selection, theme customization, and intelligent
-            payment gateway integration.
+            Kushel Digi Solutions builds more than just websites; we make
+            complex online stores that help grow your business. As an ecommerce
+            development company based in Finland, we are proud to offer custom
+            solutions that fit your needs.
           </p>
           <p>
-            Our seasoned industry experts utilize cutting-edge technologies to
-            ensure that every online retail platform they design is not only
-            beautiful but also protected, easily manageable as your business
-            grows, and ready to convert customers from the very beginning.
+            We invest time in understanding your objectives and put our best
+            efforts as a startup or well-known guided brand to deliver a
+            high-performing store to achieve your goals. We offer everything
+            from mobile-first design and smooth navigation to fast checkout and
+            SEO optimisation—all at competitive prices. Our unwavering
+            commitment to transparency and timely deliverables, paired with
+            ongoing support, ensures you never feel abandoned. This distinct
+            combination sets us apart from the others.
           </p>
         </div>
         <div className="different1-right">

@@ -24,6 +24,7 @@ import IrelandBanner3 from '../ecommerce-development-in-ireland/IrelandBanner3/P
 import BlogSection from '../ecommerce-development-in-ireland/BlogSection/BlogSection';
 import IrelandFAQ from '../ecommerce-development-in-ireland/IrelandFAQ/page';
 import Website from './Home/HomeForm';
+import IrelandSecSlider from '../ecommerce-development-in-ireland/IrelandSecSlider/page';
 
 
 
@@ -42,8 +43,8 @@ function EcommerceIreland() {
 
     const generateMetadata = ({ params }) => {
         return {
-            title: 'eCommerce Website Development Company in Belgium',
-            description: 'Get expert ecommerce website development in Belgium. Kushel Digi offers scalable, secure, and tailored ecommerce solutions for your business growth.',
+            title: 'eCommerce Website Development Company in Ireland',
+            description: 'Get expert ecommerce website development in Ireland. Kushel Digi offers scalable, secure, and tailored ecommerce solutions for your business growth.',
             metadataBase: new URL(`https://www.kusheldigi.com/`),
         }
     };
@@ -67,7 +68,7 @@ function EcommerceIreland() {
             <StatsSection />
             <Cutting1Section />
             <IrelandEcomServ/>
-             <LondonSecSlider />
+           <IrelandSecSlider/>
               <CallToAction />
               <WhyChooseIreland/>
                <DesignDevelopment />

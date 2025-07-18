@@ -8,56 +8,56 @@ const industries = [
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750336337/beautiful-young-woman-holding-shopping-bags_jbffef.png",
     description:
-      "We design ecommerce websites that are visually impressive and mobile-friendly for fashion brands with fast loading speeds, easy-to-navigate interfaces, and effortless shopping features, allowing apparel and accessory retailers to enhance engagement and collection display while transforming casual visitors into loyal customers.",
+      "Being among the best ecommerce development companies in Ireland, we create captivating websites that are visually appealing and attractive to visitors, hence promoting more conversions. ",
   },
   {
     title: "Automotive",
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337525/automobile-details-close-up-new-car_ybjvye.png",
     description:
-      "For the automobile industry, we offer catalogs of parts, booking systems, and comparison tools as additional aftermarket services- designed for automotive dealers, auto parts stores, and service providers to streamline complex product information in a friendly way, to improve UX.",
+      "To improve user experience, our custom ecommerce websites enable features such as spare part listings, service booking, and product compatibility checks, which lead to greater conversion rates. ",
   },
   {
     title: "Electronics",
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337525/elegant-smartphone-composition_p1vvti.png",
     description:
-      "For electronic brands that need e-commerce websites, we create multi-purpose platforms that can showcase technical specifications, enable the purchasing of related goods or services on mobile devices, and during checkout, provide dynamic updates while on desktop, providing a lag-free experience.",
+      "As one of the leading ecommerce development companies in Ireland, we integrate stock updates, detailed product specifications, warranty tracking, and comparison tools into ecommerce websites, increasing user engagement. ",
   },
   {
     title: "Food and beverages",
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337530/fast-food-with-sandwich-french-fries-red-cocktail-fork-knife-table-side-view_w73jvr.png",
     description:
-      "With functions such as dynamic menus, real-time delivery tracking, subscription models, and custom packaging for orders of F&B brands, we design enjoyable e-commerce websites enabling a fresh digital shopping experience.",
+      "For restaurants and cloud kitchens, we design visually appealing F&B websites that offer easy menu browsing, order customization, real-time order tracking, advanced delivery monitoring, and secure payments. ",
   },
   {
     title: "Luxury",
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337525/elegant-smartphone-composition_p1vvti.png",
     description:
-      "For premium luxury niche brands, our ecommerce platforms provide multi-tier branded operation systems to run elegant, precise, tailored, exclusive interfaces, making it easier for their customers through high-end security payment gateways combined with client loyalty. Make features with controlled access, and upgrade a digital storefront.",
+      "As the top ecommerce development agency in Ireland, we focus on your products’ and services’ elite-level integration by crafting visually rich websites that are appealing to the eye. ",
   },
   {
     title: "Manufacturing",
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337526/modern-technology-assembly-cars-plant-automotive-industry-shop-production-assembly-machines-top-view-process-welding-parts-car_rhjthz.png",
     description:
-      "With custom ecommerce portals designed specifically for manufacturers, we eliminate obstacles in B2B ordering systems. Custom portals optimize distributor and supplier satisfaction while improving operations through product configuration, volume pricing, and access to real-time inventory. ",
+      "We streamline bulk and B2B orders for manufacturers by offering custom quote submissions with tiered pricing as well as tailored options that integrate flawlessly with the order-to-delivery process workflow. ",
   },
   {
     title: "Furniture",
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337523/3d-rendering-modern-dining-room-living-room-with-luxury-decor_lfenl6.png",
     description:
-      "With room previews and advanced filtering, we help furniture brands sell their products with augmented reality (AR) so customers can visualize items in real space before confidently purchasing online.",
+      "Using our augmented reality websites, clients can sample and view furniture in pre-furnished rooms. These custom filters have greatly broadened client interaction with products through the use of augmented reality-powered interfaces.",
   },
   {
     title: "B2B",
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337525/two-confident-business-man-shaking-hands-meeting-office-success-dealing-greeting-partner-concept_xwu4js.png",
     description:
-      "Our focus for B2B ecommerce is personalized pricing as well as tiered access, repeat orders, and integration with CRM ERPs that enable smarter selling, empowering wholesalers, distributors, and large-scale suppliers to sell smarter and scale faster.",
+      "As part of our ecommerce offerings, our B2B solutions grant buyers advanced functionalities like tailored user accounts, bespoke pricing, as well as comprehensive order and invoice history. These automation solutions also help streamline due process workflows while scaling the business, thus enhancing operational efficiency.",
   },
 ];
 
@@ -88,7 +88,7 @@ const IndustryTabs = () => {
         <div className="industry-info">
           <h3>{industries[activeIndex].title}</h3>
           <p>{industries[activeIndex].description}</p>
-          <button className="explore-btn">Explore More</button>
+          {/* <button className="explore-btn">Explore More</button> */}
         </div>
       </div>
     </section>

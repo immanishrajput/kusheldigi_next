@@ -1,75 +1,96 @@
-'use client';
-import React from 'react';
-import './denmarkserv.css';
+"use client";
+import React from "react";
+import "./denmarkserv.css";
+import { useRouter } from "next/navigation";
 
 const features = [
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965474/Mask_group_75_obmlwf.png",
-    title: "Ecommerce Consulting",
+    title: "E-Commerce Advice",
     description:
-      "We advise businesses on the best eCommerce strategies and software selection. We also guide them in application development to meet their unique electronic-commerce requirements."
+      "We help businesses in selecting the best platforms, designs, tools and software for their online stores. We help them in crafting their dream store into a live e-commerce store. ",
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965473/Mask_group_76_jziqdb.png",
-    title: "Custom Ecommerce Development",
-    description:
-      `Our developers deliver custom ecommerce solutions tailored to your business needs. They create an ecommerce store that enhances your digital business footprint.`
+    title: "Personalised e-commerce sites",
+    description: `We build personalised online stores for brands that fit their needs and ambitions. We are a well-known e-commerce development company in Denmark.   Before building an e-commerce site, our experienced team learns about the company and the consumers it wants to target`,
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965473/Mask_group_77_syi4ue.png",
-    title: "Platform-Based Ecommerce Development",
-    description:
-      `As a top ecommerce web development company, we specialise in creating high-performing stores. We utilise all major platforms and the latest ecommerce software.`
+    title: "Mobile First Development",
+    description: `
+We know that most of our clients use mobile devices.  That's why we build ecommerce sites that work well on mobile devices.  We make sure that the sites load quickly, are easy to use, and give users a perfect experience.
+`,
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965468/Mask_group_78_d9e39s.png",
-    title: "Ecommerce Website Design",
-    description:
-      `Our designers craft engaging ecommerce site designs. These designs look great and offer a seamless user experience, which helps to boost sales.`
+    title: "Scalable Platforms",
+    description: `
+We build unique e-commerce sites using well-known platforms like BigCommerce, Shopify, and Magento. We make sure that everything meets your brand's needs and wants.
+.`,
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_79_sv7ryx.png",
     title: "Ecommerce Integrations",
-    description:
-      `We provide seamless integration of your ecommerce platform with third-party applications. This ensures that your business processes are interconnected for efficient operations.`
+    description: `We employ high-quality third-party solutions including ERPs, CRMs, and many more.  This links all of your business operations together, making sure they all run smoothly.`,
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_80_xj1zov.png",
-    title: "Ecommerce Migration",
-    description:
-      `Our developers handle ecommerce migration. They ensure the smooth transition of your ecommerce store from one platform to another with minimal disruption.`
+    title: "E-Commerce Migration",
+    description: `You may easily move between websites.   Our team of specialists knows how to move online stores without losing any data.   We assure that sales and traffic won't go down.`,
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_81_ct53bt.png",
-    title: "Ecommerce Audit",
-    description:
-      `We perform comprehensive audits of your ecommerce site. We identify potential improvements to enhance your store's performance, security, and user experience.`
+    title: " E-Commerce Audit",
+    description: `
+Our expert team carefully monitors your website and finds out the errors and scope for improvements to improve the website’s speed, security, and user experience.
+`,
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_82_mpn6s4.png",
-    title: "Ecommerce Support and Evolution",
-    description:
-      `Our dedicated support team offers ongoing ecommerce site maintenance and evolution. This ensures your store stays updated, secure, and competitive.`
+    title: "Speed and Performance Improvement",
+    description: `
+No one likes slow websites, and it impacts sales. So we ensure that your website is bug-free and loads faster by tweaking the code, reducing file size and speeding up servers.
+`,
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_82_mpn6s4.png",
-    title: "Ecommerce Support and Evolution",
-    description:
-      `Our dedicated support team offers ongoing ecommerce site maintenance and evolution. This ensures your store stays updated, secure, and competitive.`
-  }
+    title: "Post Launch Support and Maintenance",
+    description: `
+Our work continue after launch also. We keep an eye on your e-commerce store, fix bugs, update plugins, and adding new features, so that your online store works smoothly.
+`,
+  },
 ];
 
+const scrollToFormHome = () => {
+  const formSection = document.getElementById("form-section");
+  if (formSection) {
+    const yOffset = -120;
+    const y =
+      formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+    window.scrollTo({ top: y, behavior: "smooth" });
+  }
+};
+
 const DenmarkEcomServ = () => {
+  const navigate = useRouter();
+
   return (
-   <section className="ecom-denmark-section">
-      <h3 className="ecom-denmark-title">Our E-commerce Website Development Services</h3> 
-      
+    <section className="ecom-denmark-section">
+      <h3 className="ecom-denmark-title">
+        What E-commerce Website Development Services Do We Offer?
+      </h3>
+
       <div className="ecom-denmark-grid-wrapper">
         <div className="ecom-denmark-grid">
           {features.map((feature, index) => (
             <div key={index} className="ecom-denmark-card">
               <div className="ecom-denmark-icon">
-                <img src={feature.icon} alt={feature.title} className="ecom-denmark-icon-img" />
+                <img
+                  src={feature.icon}
+                  alt={feature.title}
+                  className="ecom-denmark-icon-img"
+                />
                 <h3 className="ecom-denmark-card-title">{feature.title}</h3>
               </div>
               <p className="ecom-denmark-description">{feature.description}</p>
@@ -79,8 +100,17 @@ const DenmarkEcomServ = () => {
       </div>
 
       <div className="ecom-denmark-buttons">
-        <button className="ecom-btn">Start Your Project</button>
-        <button className="ecom-btn secondary">Get a Free Quote</button>
+        <button
+          onClick={() => navigate.push("/contact-us")}
+          className="ecom-btn primary"
+        >
+          Book a Call
+          {/* Book a Call <HiArrowSmallRight /> */}
+        </button>
+        {/* <button className="ecom-btn secondary">Request an Audit</button> */}
+        <button onClick={scrollToFormHome} className="ecom-btn secondary">
+          Request an Audit
+        </button>
       </div>
     </section>
   );

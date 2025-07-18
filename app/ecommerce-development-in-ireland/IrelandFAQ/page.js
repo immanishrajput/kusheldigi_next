@@ -1,80 +1,76 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 const FaqData = [
   {
-    question: 'Can you link my online store with a CRM or ERP?',
-    answer: 'Definitely! Well, connect your site with the CRM, ERP, accounting, or stock apps you already use so that every order and customer flows to the right place.',
+    question:
+      "Why should I choose a custom ecommerce development company in Ireland?",
+    answer:
+      "You should always choose custom ecommerce development because it offers flexibility, fast, responsive, secure and mobile friendliness, ensuring higher conversion rates.",
   },
   {
-    question: ' Do you create marketplaces where multiple vendors sell?',
-    answer: '  Sure thing. Our multi-vendor platforms include custom dashboards, commission rules, safe payments, ratings, and built-in support, giving you everything needed to run a thriving hub.',
+    question: "Can you build ecommerce websites that are mobile-friendly?",
+    answer:
+      "Yes, we build fully mobile-responsive websites because we understand that most of the visitors are mobile users.",
   },
   {
-    question: ' Will I be able to see what shoppers do and how sales move?',
-    answer: " Absolutely; we set up Google Analytics, heat maps, and sales reports, letting you watch clicks, spot trends, and adjust quickly with real numbers behind every choice.",
+    question:
+      "Do you support integration with third-party tools like CRM, ERP, and payment gateways?",
+    answer:
+      "Yes absolutely! We integrate all the essential third-party tools like CRM, ERP and payment gateways for the smooth functioning of your website.",
   },
   {
-    question: '  Is training part of the package when the site launches?',
-    answer: " Definitely. You'll get friendly step-by-step videos and written guides so adding products, packing orders, or updating pages feels natural, not nerve-wracking.",
+    question: "Which platforms do you use to build ecommerce websites?",
+    answer:
+      "We use popular website building platforms like Shopify, BigCommerce and Magento according to your business needs and wants.",
   },
   {
-    question: 'Can you set up my shop to work in other countries?',
-    answer: " For sure. Well, add multi-currency pricing, translated text, and tax rules by region so your store feels familiar to visitors no matter where they log in.",
+    question: "How long does it usually take to launch an online store?",
+    answer:
+      "The timeline completely depends on the type of website and its complexity, and features. Basic Online Store- 3-4 weeks Customized Online Store- 4-8 weeks",
   },
   {
-    question: 'Can you add subscriptions or repeat billing for my products?',
-    answer: " You bet. Whether it's a monthly box, software access, or ongoing service, we build secure auto-billing and renewal cycles that keep customers happy and revenue steady.",
+    question: "What is the cost of creating an online store?",
+    answer:
+      "The cost depends on various points like the platform you choose, the type of website you want, and additional add-on features, so the price is completely customizable according to the brand's needs.",
   },
   {
-    question: 'Can I offer discounts, coupons, and loyalty points in my store?',
-    answer: " Absolutely! We can set up tailored promotions, coupon codes, automatic discounts, and a loyalty program to keep customers coming back and excited to buy.",
+    question: "Can you design custom ecommerce websites to match my brand?",
+    answer:
+      "As a leading ecommerce website development company in Ireland, we design custom websites that are fast, responsive, secure and mobile-friendly to match your brand.",
   },
   {
-    question: ' Will my store be compliant with data protection laws like GDPR?',
-    answer: "  Yes, it will. We follow industry best practices, including clear cookie banners and easy user controls, to keep your site in line with GDPR and other privacy rules.",
+    question:
+      "Do you provide ongoing support and maintenance after the website goes live?",
+    answer:
+      "Yes, we provide post-launch support like quickly fixing errors, updating software and plugins and adding additional features. So that you can focus on your business goals.",
   },
- 
 ];
 
 const IrelandFAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);
- 
-   const toggle = (index) => {
-     setOpenIndex(openIndex === index ? null : index);
-   };
- 
-   return (
+
+  const toggle = (index) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
+
+  return (
     <section className="faqr-section">
-       <h2 className="primary-heading">Frequently Asked Questions ?</h2>
-       <div className="faq-columns">
-         {FaqData.map((item, i) => (
-           <div
-             className={`faq-item ${openIndex === i ? "open" : ""}`}
-             key={i}
-           >
-             <div className="faq-question" onClick={() => toggle(i)}>
-               <span>{item.question}</span>
-               <button className="toggle-btn">{openIndex === i ? "−" : "+"}</button>
-             </div>
-             <div className="faq-answer">{item.answer}</div>
-           </div>
-         ))}
-       </div>
-     </section>
-   );
- }
+      <h2 className="primary-heading">Frequently Asked Questions ?</h2>
+      <div className="faq-columns">
+        {FaqData.map((item, i) => (
+          <div className={`faq-item ${openIndex === i ? "open" : ""}`} key={i}>
+            <div className="faq-question" onClick={() => toggle(i)}>
+              <span>{item.question}</span>
+              <button className="toggle-btn">
+                {openIndex === i ? "−" : "+"}
+              </button>
+            </div>
+            <div className="faq-answer">{item.answer}</div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
 
 export default IrelandFAQ;
-
-
-
-
-
-
-
-
-
-
-
-
-

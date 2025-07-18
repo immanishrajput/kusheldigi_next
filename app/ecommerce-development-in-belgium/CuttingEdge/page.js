@@ -1,8 +1,11 @@
 // components/Cutting1Section.jsx
 import Image from "next/image";
 import "./cuttingedge.css";
+import { useRouter } from "next/navigation";
 
 export default function Cutting1Section() {
+      const navigate = useRouter();
+  
   return (
     <section className="cutting1-section">
       <div className="cutting1-container">
@@ -22,7 +25,7 @@ export default function Cutting1Section() {
             upgrading an existing one, we equip you with industry solutions to
             thrive in the ever-evolving digital market.
           </p>
-          <button className="cutting1-btn">Let’s Build Your Store</button>
+          <button onClick={() => navigate.push('/contact-us')} className="cutting1-btn">Let’s Build Your Store</button>
         </div>
 
         <div className="cutting1-right">

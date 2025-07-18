@@ -1,28 +1,30 @@
 // components/Cutting1Section.jsx
 import Image from "next/image";
 import "./cuttingedge.css";
+import { useRouter } from "next/navigation";
 
 export default function Cutting1Section() {
+      const navigate = useRouter();
+  
   return (
     <section className="cutting1-section">
       <div className="cutting1-container">
         <div className="cutting1-left">
           <h2>
-            Boost Your Online Sales with Belgium’s
-            <br />
-            E-Commerce Experts
+            Want to Boost Your Online Sales with Finland’s E-Commerce Experts?
           </h2>
           <p>
-            Enhance your online store with our advanced ecommerce development
-            services. We are one of the best ecommerce development companies in
-            Belgium and design bespoke websites that are mobile-friendly, easy
-            to navigate, and efficient. Meeting and exceeding your business
-            objectives is our forte. We help boost sales, optimize processes,
-            and provide an effortless shopping experience. Be it a new store or
-            upgrading an existing one, we equip you with industry solutions to
-            thrive in the ever-evolving digital market.
+            Do you want to increase sales? We are a top ecommerce development
+            company in Finland, equipped to manage all of your business’s
+            requirements. Our personalized online stores make buying incredibly
+            simple for all users, are safe, and function flawlessly on mobile
+            devices. Our team's SEO experts employ the newest techniques,
+            integrate safe getaways and apply SEO best practices. We provide you
+            with industry solutions to succeed in the constantly changing
+            digital market, whether you're opening a new store or renovating an
+            old one.
           </p>
-          <button className="cutting1-btn">Let’s Build Your Store</button>
+          <button onClick={() => navigate.push('/contact-us')} className="cutting1-btn">Let’s Build Your Store</button>
         </div>
 
         <div className="cutting1-right">

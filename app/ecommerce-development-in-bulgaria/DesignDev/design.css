@@ -91,7 +91,7 @@
 .ecom-process-column {
   border-left: 1px solid rgba(0, 0, 0, 1);
   padding-left: 20px;
-  min-width: 160px;
+  min-width: 157px;
 }
 
 .ecom-process-column h4 {
@@ -100,7 +100,7 @@
   color: #111;
   text-transform: uppercase;
   letter-spacing: 0;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .ecom-process-column ul {
@@ -113,7 +113,7 @@
   font-size: 18px;
   color: #222;
   margin-bottom: 8px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /* Responsive */
@@ -130,7 +130,7 @@
     gap: 20px;
   }
 
-  .ecom-process-description{
+  .ecom-process-description {
     flex: 0;
     max-width: 100%;
     text-align: center;
@@ -283,7 +283,7 @@
 
   .ecom-process-column li {
     font-size: 14px;
-    text-align: center;
+    /* text-align: center; */
   }
 }
 
@@ -293,6 +293,7 @@
     width: 200px;
     font-size: 28px;
     gap: 16px;
+    margin: auto;
   }
 
   .switch {

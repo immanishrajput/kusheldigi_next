@@ -1,26 +1,39 @@
-"use client"
-import React from 'react'
-import "./denmarkshop.css"
+"use client";
+import React from "react";
+import "./denmarkshop.css";
 function DenmarkShop() {
   return (
     <div>
-       <section className="Conversions1-wrapper">
+      <section className="Conversions1-wrapper">
         <div className="Conversions1-container">
           <div className="Conversions1-left">
             <h2>
-              From Low Sales to High <br />
-              Conversions, Our eCommerce <br />
-              Developers Have You Covered!
+              Struggling with Low Sales? Here's How Our E-Commerce Developers
+              Can Help!
             </h2>
             <ul className="Conversions1-dashlist">
-  <li><span>–</span> Boost Sales with Advanced eCommerce Features</li>
-  <li><span>–</span> Enhance Customer Experience with Seamless Navigation</li>
-  <li><span>–</span> Improve Customer Acquisition</li>
-  <li><span>–</span> Optimize Product Discovery for Increased Visibility</li>
-</ul>
+              <li>
+                <span>–</span> Our unique ecommerce solutions help you get more
+                sales.
+              </li>
+              <li>
+                <span>–</span>Websites that are easy to use and work well on all
+                devices.
+              </li>
+              <li>
+                <span>–</span>
+                From the start, SEO-friendly online retailers draw in their
+                target customers.
+              </li>
+              <li>
+                <span>–</span>
+                We give help after launch to boost performance and return on
+                investment.
+              </li>
+            </ul>
             <p>
-              Don’t let a poorly designed eCommerce site drain your profits. We can
-              turn things around fast.
+              Let us help you transform your ecommerce problems into genuine
+              company development.
             </p>
           </div>
           <div className="Conversions1-right">
@@ -32,8 +45,7 @@ function DenmarkShop() {
         </div>
       </section>
     </div>
-  )
+  );
 }
 
 export default DenmarkShop;
-  

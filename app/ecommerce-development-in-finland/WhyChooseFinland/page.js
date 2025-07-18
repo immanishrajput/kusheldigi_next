@@ -5,33 +5,33 @@ import './whyfinland.css';
 const features = [
     {
         icon: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073420/Group_1171281413_b7dwf6.png',
-        title: 'Decades of Experience',
-        desc: 'We only take payment after deliverables are met, ensuring complete customer satisfaction.',
+        title: 'Tailored E-Commerce Store',
+        desc: 'We build bespoke ecommerce sites that meet the demands of both the company and its target market.',
     },
     {
         icon: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073419/Group_1171281412_m4wjmx.png',
-        title: 'On-time Delivery',
-        desc: 'Our proven record includes successful projects with Thomson Reuters, Deloitte, HPCL, and SBI.',
+        title: 'Knowing about Expert Platforms',
+        desc: 'We are one of the best ecommerce development firms in Finland, and we have worked with a lot of different platforms.  We utilise a lot of sophisticated platforms, such as WooCommerce, Magento, and Shopify.',
     },
     {
         icon: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073409/Group_1171281523_k2vfml.png',
-        title: 'Agile Development Process',
-        desc: 'We only take payment after deliverables are met, ensuring complete customer satisfaction.',
+        title: 'Mobile Responsive Design',
+        desc: 'Because the majority of our users are on mobile devices, we make sure our websites operate on all of them.',
     },
     {
         icon: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281524_ksva3g.png',
-        title: 'Support & Maintenance',
-        desc: 'Get startup-level attention with enterprise-level reliability, security and expertise.',
+        title: 'Transparent & Reliable Process',
+        desc: 'We provide every bit of detail about your online store, ensuring clear communication and dependable project timelines.',
     },
     {
         icon: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281525_qnpwgi.png',
-        title: 'High Performance',
-        desc: 'We only take payment after deliverables are met, ensuring complete customer satisfaction.',
+        title: 'End-to-End Services',
+        desc: 'From getting ready to after the launch. We design visually appealing, fast, responsive, mobile-friendly ecommerce stores that engage real audiences and gain more conversions.',
     },
     {
         icon: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281414_nyzkrn.png',
-        title: 'NDA Policy',
-        desc: 'We only take payment after deliverables are met, ensuring complete customer satisfaction.',
+        title: 'Proven Industry Experience',
+        desc: 'We have decades of experience in designing ecommerce websites with 1000+ happy clients.',
     },
 ];
 
@@ -39,7 +39,7 @@ const WhyChooseFinland = () => {
     return (
         <section className="why-choose-section">
             <div className="why-choose-wrapper">
-                <h2 className="why-choose-heading">Why Choose kushel Digi Solutions</h2>
+                <h2 className="why-choose-heading">Why Partner with Kushel Digi Solutions?</h2>
                 <p className="why-choose-subtext">
                     Kushel Digi Solutions is a leading software development company focused on delivering cutting-edge and customized tech solutions.
                 </p>
