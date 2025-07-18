@@ -1,8 +1,167 @@
 "use client"
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
+import "intl-tel-input/build/css/intlTelInput.css";
+import intlTelInput from "intl-tel-input";
+import { toast } from "react-toastify";
 import "./details.css"
 
+import { useRouter } from "next/navigation";
+
+
 export default function DetailEcomDev() {
+    const [formData, setFormData] = useState({
+        name: "",
+        email: "",
+        // phone: "",
+    });
+
+    const [firstNo, setFirstNo] = useState(0);
+    const [secondNo, setSecondNo] = useState(0);
+    const [userAnswer, setUserAnswer] = useState("");
+    const [correctAnswer, setCorrectAnswer] = useState(0);
+    const [captchaVerified, setCaptchaVerified] = useState(false);
+
+    const router = useRouter();
+
+    const generateCaptcha = () => {
+        const num1 = Math.floor(Math.random() * 10);
+        const num2 = Math.floor(Math.random() * 10);
+        setFirstNo(num1);
+        setSecondNo(num2);
+        setCorrectAnswer(num1 + num2);
+        setUserAnswer("");
+        setCaptchaVerified(false);
+    };
+
+    useEffect(() => {
+        generateCaptcha();
+    }, []);
+
+    const verifyCaptcha = (e) => {
+        e.preventDefault();
+        if (parseInt(userAnswer) !== correctAnswer) {
+            toast.error("Wrong Captcha! Try again.");
+            generateCaptcha();
+            return;
+        }
+        toast.success("Captcha Verified!!");
+        setCaptchaVerified(true);
+    };
+
+    const phoneInputRef = useRef(null);
+
+    useEffect(() => {
+        if (phoneInputRef.current) {
+            const iti = intlTelInput(phoneInputRef.current, {
+                initialCountry: "in",
+                geoIpLookup: (callback) => {
+                    fetch("https://ipapi.co/json")
+                        .then((res) => res.json())
+                        .then((data) => callback(data.country_code))
+                        .catch(() => callback("in"));
+                },
+                utilsScript:
+                    "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+            });
+
+            // Optional: Store the instance if you ever need to validate
+            phoneInputRef.current._iti = iti;
+        }
+    }, []);
+
+    const [loading, setLoading] = useState(false);
+
+    const handleChange = (e) => {
+        e.preventDefault();
+        const { name, value } = e.target;
+
+        let updatedValue = value;
+
+        // if (name === "phone") {
+        //     updatedValue = value.replace(/[^0-9]/g, "").slice(0, 10);
+        // }
+
+        if (name === "name") {
+            // ✅ Name only alphabets and spaces
+            updatedValue = value.replace(/[^a-zA-Z\s]/g, "");
+        }
+
+        setFormData((prevState) => ({
+            ...prevState,
+            [name]: updatedValue,
+        }));
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+
+        const phone = phoneInputRef.current?.value || "";
+        const phoneDigitsOnly = phone.replace(/\D/g, ""); // Only digits
+
+        if (!formData.name || !formData.email || !phone) {
+            toast.error("Please fill all the fields!");
+            return;
+        }
+
+        const emailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.[a-zA-Z]{2,}$/;
+        if (!emailRegex.test(formData.email)) {
+            toast.error("Invalid email address!");
+            return;
+        }
+
+        if (phoneDigitsOnly.length !== 10) {
+            toast.error("Phone number must be exactly 10 digits!");
+            return;
+        }
+
+        if (!captchaVerified) {
+            toast.error("Please Verify the Captcha!!");
+            generateCaptcha();
+            return;
+        }
+
+        if (parseInt(userAnswer) !== correctAnswer) {
+            toast.error("Wrong Captcha! Try again.");
+            generateCaptcha();
+            setCaptchaVerified(false);
+            return;
+        }
+
+        setLoading(true);
+
+        try {
+            const dataToSend = {
+                ...formData,
+                phone: phoneDigitsOnly, // send clean number
+            };
+            const response = await fetch("https://backend.kusheldigi.com/contact", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    mode: "no-cors",
+                },
+                body: JSON.stringify(dataToSend),
+            });
+
+            const result = await response.json();
+            console.log("Result--->>", result);
+
+            if (response.ok || response.success === true || response.status === 200) {
+                router.push("/thankyou");
+            } else {
+                alert(`❌ Failed to send email: ${result.message || "Unknown error"}`);
+            }
+        } catch (error) {
+            console.error("❌ Error while sending email:", error);
+        } finally {
+            setLoading(false);
+            setFormData({ name: "", email: "" });
+            phoneInputRef.current.value = ""; // reset manually
+            generateCaptcha();
+        }
+    };
+
+
     return (
         <section className='details-sec'>
             <div className='details-desc'>
@@ -74,7 +233,7 @@ export default function DetailEcomDev() {
 
                 <h5>Why Choose Us As You ECommerce Development Company in Noida? </h5>
                 <p>Choosing Kushel Digi Solutions as your web development company in Delhi means partnering with a team of experienced professionals dedicated to delivering exceptional results. Our team of developers, designers, and project managers have years of experience creating custom websites tailored to your business needs.We pride ourselves on delivering high-quality work on time and within budget. Our development process is transparent, and we keep you informed every step of the way. We use the latest technologies and tools to build user-friendly, responsive, and optimized websites for search engines. We believe in building long-term relationships with our clients. We strive to exceed your expectations and deliver websites that help you achieve your business goals. </p>
-<p>Here are some key points on why you should choose us as your ECommerce Development Company in Noida? </p>
+                <p>Here are some key points on why you should choose us as your ECommerce Development Company in Noida? </p>
                 <h5>Expert Team of Developers</h5>
                 <p>Kushel Digi Solutions is backed by an expert team of developers skilled in delivering exceptional digital solutions to clients across various industries. Our team comprises experienced developers passionate about their work and striving to create innovative and cutting-edge solutions that meet our client's requirements.</p>
                 <p>Our developers are proficient in various programming languages and have extensive knowledge of the latest technologies and tools to build robust and scalable digital products. We believe in staying ahead of the curve by constantly updating our skills and expertise to ensure our clients receive the best-in-class digital solutions.</p>
@@ -102,39 +261,100 @@ export default function DetailEcomDev() {
                 <p>We use customization techniques such as personalized branding, unique website design, custom software development, and targeted digital marketing strategies to create bespoke solutions that meet our client's business needs.</p>
                 <p>We take pride in our ability to provide customized solutions that exceed our client's expectations. We are committed to delivering exceptional services that help our clients achieve their digital goals and stay ahead of the competition.</p>
 
-           <div className="detail-foot">
-         <h5>Our Contact Address</h5>
-        <p className="detail-foot-p">Kushel Digi Solutions</p>
-        <p><span>PHONE :</span> +91 9045301702</p>
-        <p><span>EMAIL :</span> info@kusheldigi.com</p>
-        <p><span>ADDRESS :</span> First Floor, D242, F-32B, Sector 63 Rd, Noida, 201301 Uttar Pradesh</p>
-       </div>
+                <div className="detail-foot">
+                    <h5>Our Contact Address</h5>
+                    <p className="detail-foot-p">Kushel Digi Solutions</p>
+                    <p><span>PHONE :</span> +91 9045301702</p>
+                    <p><span>EMAIL :</span> info@kusheldigi.com</p>
+                    <p><span>ADDRESS :</span> First Floor, D242, F-32B, Sector 63 Rd, Noida, 201301 Uttar Pradesh</p>
+                </div>
             </div>
-            <form className="getquote-wrapper ">
+            <form className="getquote-wrapper" onSubmit={handleSubmit}>
                 <div className="getquote-form">
                     <div className="getquote-header"></div>
                     <h2>GET A FREE QUOTE</h2>
 
-                    <label>Enter your name</label>
-                    <input type="text" />
+                    <label className='getquote-form-label'>Enter your name</label>
+                    <input
+                        type="text"
+                        name="name"
+                        placeholder="Full Name*"
+                        className="form-input"
+                        value={formData?.name}
+                        onChange={handleChange}
+                        required
+                    />
 
-                    <label>Enter your Email</label>
-                    <input type="email" />
+                    <label className='getquote-form-label'>Enter your Email</label>
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Email*"
+                        className="form-input"
+                        value={formData?.email}
+                        onChange={handleChange}
+                        required
+                    />
 
-                    <label>Contact No.</label>
-                    <input type="text" />
+                    <label className='getquote-form-label'>Contact No.</label>
+                    <div className="form-phone-wrapper">
+                        {/* <span className="form-country-code">(+1)</span> */}
+                        <input
+                            type="tel"
+                            name="phone"
+                            placeholder="Mobile Number*"
+                            className="form-input phone-input"
+                            ref={phoneInputRef}
+                            onInput={(e) => {
+                                const digits = e.target.value.replace(/\D/g, "");
+                                if (digits.length <= 10) {
+                                    e.target.value = digits;
+                                } else {
+                                    e.target.value = digits.slice(0, 10); // trim to 11
+                                    toast.error("Only 10 digit phone number allowed!");
+                                }
+                            }}
+                            required
+                        />
 
-                    <div className="getquote-captcha-row">
+                    </div>
+
+                    {/* <div className="getquote-captcha-row">
                         <span>1 + 3</span>
                         <a href="#">VERIFY</a>
                     </div>
-                    <input type="text" />
+                    <input type="text" /> */}
 
-                    <button type="submit">SUBMIT</button>
+                    <div className="captcha-box">
+                        <div className="inputcapt">
+                            <label htmlFor="ans-captch" className="visually-hidden">
+                                {`${firstNo} + ${secondNo} = `}
+                            </label>
+                            <input
+                                type="number"
+                                value={userAnswer}
+                                onChange={(e) => setUserAnswer(e.target.value)}
+                                required
+                                id="ans-captch"
+                            />
+                        </div>
+                        <span className="captcha-btn" onClick={verifyCaptcha}>
+                            Verify Captcha
+                        </span>
+                    </div>
+
+                    <button
+                        className="form-submit-btn"
+                        type="submit"
+                        disabled={loading}
+                    >
+                        {loading ? "Sending..." : "Submit"}
+                    </button>
+                    {loading && <span className="loader3"></span>}
 
                     <p className="getquote-terms">
                         By clicking on submit, you agree to<br />
-                        our <a href="#">Terms & Condition</a> and <a href="#">Privacy policy</a>
+                        our <a href="/terms&conditions">Terms & Condition</a> and <a href="/privacy-policy">Privacy policy</a>
                     </p>
                 </div>
             </form>

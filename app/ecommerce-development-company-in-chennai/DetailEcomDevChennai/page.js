@@ -8,7 +8,7 @@ import "./details.css"
 import { useRouter } from "next/navigation";
 
 
-export default function DetailEcomDevDelhi() {
+export default function DetailEcomDevChennai() {
     const [formData, setFormData] = useState({
         name: "",
         email: "",
@@ -165,7 +165,7 @@ export default function DetailEcomDevDelhi() {
     return (
         <section className='details-sec'>
             <div className='details-desc'>
-                <h4>ECommerce Development Company in Noida - Get a Website Developed That Truly Represents Your Brand</h4>
+                <h4>ECommerce Development Company in Chennai - Get a Website Developed That Truly Represents Your Brand</h4>
                 <p>kushel Digi is a leading web development company in Delhi that offers customized
                     website development solutions to businesses of all sizes. We understand that
                     your website is the face of your brand on the internet, and it needs to be
@@ -186,15 +186,15 @@ export default function DetailEcomDevDelhi() {
                     stays up-to-date with the latest technologies and security patches. We aim to
                     help you achieve your business objectives through an engaging, effective website
                     that represents your brand in the best possible way.</p>
-                <p>If you're looking for a reliable web development company in Delhi NCR (Noida, Gurgaon),
+                <p>If you're looking for a reliable web development company in Delhi NCR (Chennai, Gurgaon),
                     look no further than EZ Rankings. Contact us today to discuss your website development
                     needs and get a quote.</p>
-                <h5>Our Web Development Services Noida Include –</h5>
+                <h5>Our Web Development Services Chennai Include –</h5>
                 <p>We offer a comprehensive range of Web Development Services Delhi that cater to the diverse needs of businesses. Our solutions for Web Development Delhi NCR are designed to be flexible, scalable, and customizable to suit the unique requirements of each business.</p>
                 <p>Our expert web developers and designers work closely with you to understand your business objectives and deliver a website tailored to your specific needs. Whether you need a simple website or a complex e-commerce platform, we have the expertise and experience to provide a website that meets your requirements and exceeds your expectations.</p>
                 <p>Our expert web developers and designers work closely with you to understand your business objectives and deliver a website tailored to your specific needs. Whether you need a simple website or a complex e-commerce platform, we have the expertise and experience to provide a website that meets your requirements and exceeds your expectations.</p>
 
-                <h5>Our Web Development Services Noida Include –</h5>
+                <h5>Our Web Development Services Chennai Include –</h5>
                 <h6>Custom Web Application Development</h6>
                 <p>At Kushel Digi, we provide customized web application development services to help businesses automate their workflows, streamline their operations, and enhance their online presence. Our team of expert web developers has years of experience building custom web applications that are scalable, secure, and user-friendly. We follow a proven development methodology to ensure that your custom web application is delivered on time, within budget, and to your specifications. We work closely with you throughout the development process to understand your business requirements and to provide regular updates and progress reports.</p>
                 <p>We use the latest web technologies and frameworks to develop custom web applications that are fast, responsive, and optimized for search engines. Our developers are proficient in PHP, Python, Ruby on Rails, and other programming languages and frameworks, allowing us to develop custom web applications that meet your business needs.</p>
@@ -231,9 +231,9 @@ export default function DetailEcomDevDelhi() {
                 <p>We help businesses upgrade their web applications to the latest technologies and frameworks, ensuring they are future-proof and can handle increased traffic and user demand. We also provide migration services that help businesses move their applications to new platforms, ensuring they are fully compatible and optimized for performance.</p>
                 <p>Our Upgradation & Migration services include consultation, analysis, planning, design, development, testing, and deployment. We also provide ongoing maintenance and support to ensure your upgraded or migrated application runs smoothly and efficiently. Contact us today to learn more about our Upgradation & Migration services and how we can help you upgrade and migrate your web applications seamlessly.</p>
 
-                <h5>Why Choose Us As You ECommerce Development Company in Noida? </h5>
+                <h5>Why Choose Us As You ECommerce Development Company in Chennai? </h5>
                 <p>Choosing Kushel Digi Solutions as your web development company in Delhi means partnering with a team of experienced professionals dedicated to delivering exceptional results. Our team of developers, designers, and project managers have years of experience creating custom websites tailored to your business needs.We pride ourselves on delivering high-quality work on time and within budget. Our development process is transparent, and we keep you informed every step of the way. We use the latest technologies and tools to build user-friendly, responsive, and optimized websites for search engines. We believe in building long-term relationships with our clients. We strive to exceed your expectations and deliver websites that help you achieve your business goals. </p>
-                <p>Here are some key points on why you should choose us as your ECommerce Development Company in Noida? </p>
+                <p>Here are some key points on why you should choose us as your ECommerce Development Company in Chennai? </p>
                 <h5>Expert Team of Developers</h5>
                 <p>Kushel Digi Solutions is backed by an expert team of developers skilled in delivering exceptional digital solutions to clients across various industries. Our team comprises experienced developers passionate about their work and striving to create innovative and cutting-edge solutions that meet our client's requirements.</p>
                 <p>Our developers are proficient in various programming languages and have extensive knowledge of the latest technologies and tools to build robust and scalable digital products. We believe in staying ahead of the curve by constantly updating our skills and expertise to ensure our clients receive the best-in-class digital solutions.</p>
