@@ -1,4 +1,5 @@
 // components/Cutting1Section.jsx
+"use client";
 import Image from "next/image";
 import "./cuttingedge.css";
 import { useRouter } from "next/navigation";
