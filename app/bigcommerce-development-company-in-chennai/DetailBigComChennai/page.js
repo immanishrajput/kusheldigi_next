@@ -8,7 +8,7 @@ import "./details.css"
 import { useRouter } from "next/navigation";
 
 
-export default function DetailBigComDelhi() {
+export default function DetailBigComChennai() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",

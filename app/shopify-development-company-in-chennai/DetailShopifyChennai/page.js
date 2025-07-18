@@ -8,7 +8,7 @@ import "./details.css"
 import { useRouter } from "next/navigation";
 
 
-export default function DetailEcomDevDelhi() {
+export default function DetailShopifyChennai() {
     const [formData, setFormData] = useState({
         name: "",
         email: "",
