@@ -1,28 +1,28 @@
 "use client"
-import React, { useEffect } from 'react'
-import '../globals.css'
+import { useEffect } from 'react';
+import Footer from '../COMMON/Footer';
 import Navbar from '../COMMON/Navbar';
+import BlogSection from '../ecommerce-development-in-denmark/BlogSection/BlogSection';
+import CallToAction from '../ecommerce-development-in-denmark/CtaBelgium/page';
+import Cutting1Section from '../ecommerce-development-in-denmark/CuttingEdge/page';
 import DenmarkBanner from '../ecommerce-development-in-denmark/DenmarkBanner/page';
+import DenmarkBanner3 from '../ecommerce-development-in-denmark/DenmarkBanner18/Page';
+import DenmarkCardSection from '../ecommerce-development-in-denmark/DenmarkCardSection/page';
+import DenmarkCustomBenefitsSection from '../ecommerce-development-in-denmark/DenmarkCustomBenefitsSection/page';
+import DenmarkEcomServ from '../ecommerce-development-in-denmark/DenmarkEcomServ/page';
+import DenmarkFAQ from '../ecommerce-development-in-denmark/DenmarkFAQ/page';
+import IndustryTabs from '../ecommerce-development-in-denmark/DenmarkIndustry/page';
+import DenmarkMakeUs from '../ecommerce-development-in-denmark/DenmarkMakeUs/page';
+import DenmarkSec12 from '../ecommerce-development-in-denmark/DenmarkSec12/page';
+import DenmarkShop from '../ecommerce-development-in-denmark/DenmarkShop/page';
+import DesignDevelopment from '../ecommerce-development-in-denmark/DesignDev/page';
+import Features from '../ecommerce-development-in-denmark/Features/page';
 import LogoSlider from '../ecommerce-development-in-denmark/LogoSlider/page';
 import StatsSection from '../ecommerce-development-in-denmark/StatsSection/page';
-import Cutting1Section from '../ecommerce-development-in-denmark/CuttingEdge/page';
-import DenmarkEcomServ from '../ecommerce-development-in-denmark/DenmarkEcomServ/page';
-import LondonSecSlider from '../ecommerce-development-in-london/LondonSecSlider/page';
-import CallToAction from '../ecommerce-development-in-denmark/CtaBelgium/page';
 import WhyChooseDenmark from '../ecommerce-development-in-denmark/WhyChooseDenmark/page';
-import DesignDevelopment from '../ecommerce-development-in-denmark/DesignDev/page';
-import DenmarkShop from '../ecommerce-development-in-denmark/DenmarkShop/page';
-import DenmarkMakeUs from '../ecommerce-development-in-denmark/DenmarkMakeUs/page';
-import IndustryTabs from '../ecommerce-development-in-denmark/DenmarkIndustry/page';
-import Features from '../ecommerce-development-in-denmark/Features/page'
-import DenmarkCardSection from '../ecommerce-development-in-denmark/DenmarkCardSection/page';
-import DenmarkSec12 from '../ecommerce-development-in-denmark/DenmarkSec12/page';
-import DenmarkCustomBenefitsSection from '../ecommerce-development-in-denmark/DenmarkCustomBenefitsSection/page';
-import DenmarkBanner3 from '../ecommerce-development-in-denmark/DenmarkBanner18/Page';
-import BlogSection from '../ecommerce-development-in-denmark/BlogSection/BlogSection';
-import DenmarkFAQ from '../ecommerce-development-in-denmark/DenmarkFAQ/page';
+import '../globals.css';
 import Website from './Home/HomeForm';
-import Footer from '../COMMON/Footer';
+import DenmarkSecSlider from '../ecommerce-development-in-denmark/DenmarkSecSlider/page';
 
 
 const phoneNumber = "9045301702";
@@ -39,8 +39,8 @@ function EcommerceDenmark() {
 
     const generateMetadata = ({ params }) => {
         return {
-            title: 'eCommerce Website Development Company in Belgium',
-            description: 'Get expert ecommerce website development in Belgium. Kushel Digi offers scalable, secure, and tailored ecommerce solutions for your business growth.',
+            title: 'eCommerce Website Development Company in Denmark',
+            description: 'Get expert ecommerce website development in Denmark. Kushel Digi offers scalable, secure, and tailored ecommerce solutions for your business growth.',
             metadataBase: new URL(`https://www.kusheldigi.com/`),
         }
     };
@@ -65,7 +65,7 @@ function EcommerceDenmark() {
             <StatsSection />
             <Cutting1Section />
             <DenmarkEcomServ />
-            <LondonSecSlider />
+            <DenmarkSecSlider />
             <CallToAction />
             <WhyChooseDenmark />
             <DesignDevelopment />

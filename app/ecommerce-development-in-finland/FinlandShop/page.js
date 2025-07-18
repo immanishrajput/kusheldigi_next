@@ -1,26 +1,36 @@
-"use client"
-import React from 'react'
-import "./finlandshop.css"
+"use client";
+import React from "react";
+import "./finlandshop.css";
 function FinlandShop() {
   return (
     <div>
-       <section className="Conversions1-wrapper">
+      <section className="Conversions1-wrapper">
         <div className="Conversions1-container">
           <div className="Conversions1-left">
             <h2>
-              From Low Sales to High <br />
-              Conversions, Our eCommerce <br />
-              Developers Have You Covered!
+              Struggling to Convert Visitors Into Customers? We Build Stores
+              That Sell
             </h2>
             <ul className="Conversions1-dashlist">
-  <li><span>–</span> Boost Sales with Advanced eCommerce Features</li>
-  <li><span>–</span> Enhance Customer Experience with Seamless Navigation</li>
-  <li><span>–</span> Improve Customer Acquisition</li>
-  <li><span>–</span> Optimize Product Discovery for Increased Visibility</li>
-</ul>
+              <li>
+                <span>–</span> Boost conversions with our tailored ecommerce
+                solutions.
+              </li>
+              <li>
+                <span>–</span> A fast and responsive online store helps in
+                better conversion
+              </li>
+              <li>
+                <span>–</span> Mobile-friendly ecommerce websites increase user
+                engagement and drive more traffic.
+              </li>
+              <li>
+                <span>–</span> SEO optimized websites rank on Google from the
+                first day of launch.
+              </li>
+            </ul>
             <p>
-              Don’t let a poorly designed eCommerce site drain your profits. We can
-              turn things around fast.
+          Allow us to turn your ecommerce issues into actual business development.
             </p>
           </div>
           <div className="Conversions1-right">
@@ -32,8 +42,7 @@ function FinlandShop() {
         </div>
       </section>
     </div>
-  )
+  );
 }
 
 export default FinlandShop;
-  

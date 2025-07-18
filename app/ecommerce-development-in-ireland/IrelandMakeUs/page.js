@@ -7,22 +7,23 @@ function IrelandMakeUs() {
     <section className="different1-wrapper">
       <div className="different1-container">
         <div className="different1-left">
-          <h2>What makes us different?</h2>
+          <h2>How Are We Different from Other E-Commerce Service Providers?</h2>
           <p>
-            Your online store will be built specifically for your brand with
-            Kushel Digi Solutions because we know that every ecommerce business
-            is different. We prioritize understanding your objectives and target
-            market in order to create a custom ecommerce solution. You can count
-            on us to build an online store for you that is smooth, fast,
-            flexible, and user-first as we expertly guide you on the most
-            suitable platform selection, theme customization, and intelligent
-            payment gateway integration.
+            A custom ecommerce website makes it easy for customers to talk to
+            you. Kushel Digi Solutions can help you find new customers, produce
+            ads, and market your business. Our skilled staff knows your goals
+            and the people you want to sell to in order to create a custom
+            ecommerce solution. We make sure that our online store is quick,
+            efficient, safe, mobile-friendly, and user-first so that our
+            customers have the best experience possible. We improve SEO best
+            practices so that your website ranks high on Google SERP.
           </p>
           <p>
-            Our seasoned industry experts utilize cutting-edge technologies to
-            ensure that every online retail platform they design is not only
-            beautiful but also protected, easily manageable as your business
-            grows, and ready to convert customers from the very beginning.
+            Our professional team uses the right third-party tools to make sure
+            that your online business runs perfectly. After the start, we offer
+            support that includes bug fixes, the newest feature updates, and
+            fixing any other technical issues that come up. Join our team to
+            make your dream online store a reality.
           </p>
         </div>
         <div className="different1-right">

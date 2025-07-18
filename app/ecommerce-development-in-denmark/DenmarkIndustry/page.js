@@ -8,56 +8,56 @@ const industries = [
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750336337/beautiful-young-woman-holding-shopping-bags_jbffef.png",
     description:
-      "We design ecommerce websites that are visually impressive and mobile-friendly for fashion brands with fast loading speeds, easy-to-navigate interfaces, and effortless shopping features, allowing apparel and accessory retailers to enhance engagement and collection display while transforming casual visitors into loyal customers.",
+      "We create fashion websites with add-on features such as size charts, quick images, and lookbooks, delivering smooth, fast, and mobile-first websites that keep shoppers coming back.",
   },
   {
     title: "Automotive",
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337525/automobile-details-close-up-new-car_ybjvye.png",
     description:
-      "For the automobile industry, we offer catalogs of parts, booking systems, and comparison tools as additional aftermarket services- designed for automotive dealers, auto parts stores, and service providers to streamline complex product information in a friendly way, to improve UX.",
+      "We are Bulgaria's top ecommerce development business, and we make product catalogues, clever search options, and high-quality photos easier to use. It makes it easy for vehicle lovers to get around and have a wonderful time buying.",
   },
   {
     title: "Electronics",
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337525/elegant-smartphone-composition_p1vvti.png",
     description:
-      "For electronic brands that need e-commerce websites, we create multi-purpose platforms that can showcase technical specifications, enable the purchasing of related goods or services on mobile devices, and during checkout, provide dynamic updates while on desktop, providing a lag-free experience.",
+      "In Denmark’s developing tech sector, we make ecommerce websites that are easy to navigate, provide product catalogues, and speed up transactions for enterprises.",
   },
   {
     title: "Food and beverages",
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337530/fast-food-with-sandwich-french-fries-red-cocktail-fork-knife-table-side-view_w73jvr.png",
     description:
-      "With functions such as dynamic menus, real-time delivery tracking, subscription models, and custom packaging for orders of F&B brands, we design enjoyable e-commerce websites enabling a fresh digital shopping experience.",
+      "We are an ecommerce development business in Bulgaria that makes online stores for food and drink companies. These stores have features like delivery choices, bespoke packaging, parcel alternatives, smart search, and subscription models.",
   },
   {
     title: "Luxury",
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337525/elegant-smartphone-composition_p1vvti.png",
     description:
-      "For premium luxury niche brands, our ecommerce platforms provide multi-tier branded operation systems to run elegant, precise, tailored, exclusive interfaces, making it easier for their customers through high-end security payment gateways combined with client loyalty. Make features with controlled access, and upgrade a digital storefront.",
+      "We provide rich clients who want luxury products, beautiful designs, one-of-a-kind features, high-end websites, and a perfect shopping experience.",
   },
   {
     title: "Manufacturing",
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337526/modern-technology-assembly-cars-plant-automotive-industry-shop-production-assembly-machines-top-view-process-welding-parts-car_rhjthz.png",
     description:
-      "With custom ecommerce portals designed specifically for manufacturers, we eliminate obstacles in B2B ordering systems. Custom portals optimize distributor and supplier satisfaction while improving operations through product configuration, volume pricing, and access to real-time inventory. ",
+      "Our best website development firm makes supply chains more efficient, makes it easier to place large orders, and improves connections between businesses and customers. ",
   },
   {
     title: "Furniture",
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337523/3d-rendering-modern-dining-room-living-room-with-luxury-decor_lfenl6.png",
     description:
-      "With room previews and advanced filtering, we help furniture brands sell their products with augmented reality (AR) so customers can visualize items in real space before confidently purchasing online.",
+      "We assist furniture stores in getting visitors to buy by showing off high-quality photos, letting buyers customise their furniture in 3D, and making their websites look nice.",
   },
   {
     title: "B2B",
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337525/two-confident-business-man-shaking-hands-meeting-office-success-dealing-greeting-partner-concept_xwu4js.png",
     description:
-      "Our focus for B2B ecommerce is personalized pricing as well as tiered access, repeat orders, and integration with CRM ERPs that enable smarter selling, empowering wholesalers, distributors, and large-scale suppliers to sell smarter and scale faster.",
+      "As a leading ecommerce development firm in Bulgaria, we offer B2B platforms that make it easier to talk to each other, handle big orders, and build commercial partnerships that will last.",
   },
 ];
 
@@ -88,7 +88,7 @@ const IndustryTabs = () => {
         <div className="industry-info">
           <h3>{industries[activeIndex].title}</h3>
           <p>{industries[activeIndex].description}</p>
-          <button className="explore-btn">Explore More</button>
+          {/* <button className="explore-btn">Explore More</button> */}
         </div>
       </div>
     </section>

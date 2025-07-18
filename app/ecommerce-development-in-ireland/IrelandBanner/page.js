@@ -160,6 +160,15 @@ const IrelandBanner = () => {
     }
   };
 
+   const scrollToFormHome = () => {
+        const formSection = document.getElementById('form-section');
+        if (formSection) {
+            const yOffset = -120;
+            const y = formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+            window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+    };
+
   return (
     <section className="denmark-banner-section">
       <div className="denmark-banner-overlay">
@@ -172,18 +181,30 @@ const IrelandBanner = () => {
               <span className="denmark-banner-span">Company in Ireland</span>
             </h1>
             <p className="denmark-banner-subtext">
-              Want to expand your e-commerce business in denmark? Kushel Digi
-              Solutions designs bespoke e-commerce websites tailored to your
-              brand, which are mobile-friendly and boost conversions. As a
-              leading ecommerce development company in denmark, we enable
-              businesses to streamline operations, improve user experience, and
-              automate for sustainable growth.
+              Are you losing out on sales because you're not online? We offer
+              specialized digital commerce solutions as a reputable ecommerce
+              development company in Ireland to assist Irish companies in being
+              more visible online. Kushel Digi Solutions specializes in creating
+              ecommerce websites that are safe, transparent, quick, and simple
+              to use. These websites enable customers to place orders and make
+              payments online around the clock, every day of the year!
             </p>
             <div className="denmark-banner-buttons">
-              <button className="denmark-banner-btn-yellow">
+              <button
+                onClick={scrollToFormHome}
+                className="denmark-banner-btn-yellow"
+              >
                 Get a Free Consultation
               </button>
-              <button className="denmark-banner-btn-outline">
+              <button
+                onClick={() =>
+                  window.open(
+                    "https://calendly.com/shubham-goq0/sales-discovery-call?month=2025-06&utm_source=Email&utm_medium=email&utm_campaign=Chalendly",
+                    "_blank"
+                  )
+                }
+                className="denmark-banner-btn-outline"
+              >
                 Schedule a Demo
               </button>
             </div>

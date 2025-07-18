@@ -88,7 +88,7 @@ const IndustryTabs = () => {
         <div className="industry-info">
           <h3>{industries[activeIndex].title}</h3>
           <p>{industries[activeIndex].description}</p>
-          <button className="explore-btn">Explore More</button>
+          {/* <button className="explore-btn">Explore More</button> */}
         </div>
       </div>
     </section>

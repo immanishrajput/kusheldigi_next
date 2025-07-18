@@ -2,38 +2,37 @@
 import React, { useState } from "react";
 const FaqData = [
   {
-    question: 'Can you link my online store with a CRM or ERP?',
-    answer: 'Definitely! Well, connect your site with the CRM, ERP, accounting, or stock apps you already use so that every order and customer flows to the right place.',
+    question: 'Which is the leading ecommerce development company in Denmark?',
+    answer: 'Kushel Digi Solutions is the leading ecommerce company in Denmark.',
   },
   {
-    question: ' Do you create marketplaces where multiple vendors sell?',
-    answer: '  Sure thing. Our multi-vendor platforms include custom dashboards, commission rules, safe payments, ratings, and built-in support, giving you everything needed to run a thriving hub.',
+    question: 'Can you audit and SEO optimise the existing ecommerce store?',
+    answer: 'Yes, definitely! We can audit and SEO optimise your existing ecommerce store, and it will start ranking in Google SERP.',
   },
   {
-    question: ' Will I be able to see what shoppers do and how sales move?',
-    answer: " Absolutely; we set up Google Analytics, heat maps, and sales reports, letting you watch clicks, spot trends, and adjust quickly with real numbers behind every choice.",
+    question: 'Do you offer mobile-optimised website designs?',
+    answer: 'Yes, we understand most of the visitors are mobile users, so we mobile-optimize ecommerce stores.',
   },
   {
-    question: '  Is training part of the package when the site launches?',
-    answer: " Definitely. You'll get friendly step-by-step videos and written guides so adding products, packing orders, or updating pages feels natural, not nerve-wracking.",
+    question: 'Will my ecommerce website be SEO optimised?',
+    answer: 'Yes, we implement SEO best practices in creating ecommerce websites.',
   },
   {
-    question: 'Can you set up my shop to work in other countries?',
-    answer: " For sure. Well, add multi-currency pricing, translated text, and tax rules by region so your store feels familiar to visitors no matter where they log in.",
+    question: 'Do you provide post-launch website support?',
+    answer: 'Yes, we are here for you to provide regular maintenance, updates, bug fixes, and support plans so that you can focus on your business.',
   },
   {
-    question: 'Can you add subscriptions or repeat billing for my products?',
-    answer: " You bet. Whether it's a monthly box, software access, or ongoing service, we build secure auto-billing and renewal cycles that keep customers happy and revenue steady.",
+    question: 'Do you create custom ecommerce website designs?',
+    answer: 'Yes, we believe that no website is the same. So we craft entirely custom, mobile-friendly ecommerce designs that suit your business needs and target audiences.',
   },
   {
-    question: 'Can I offer discounts, coupons, and loyalty points in my store?',
-    answer: " Absolutely! We can set up tailored promotions, coupon codes, automatic discounts, and a loyalty program to keep customers coming back and excited to buy.",
+    question: 'Will my website expand as my business grows?',
+    answer: 'Yes, we create scalable websites that grow along with your brand.',
   },
   {
-    question: ' Will my store be compliant with data protection laws like GDPR?',
-    answer: "  Yes, it will. We follow industry best practices, including clear cookie banners and easy user controls, to keep your site in line with GDPR and other privacy rules.",
+    question: 'Which platforms do you work with - Shopify, WooCommerce, or Magento?',
+    answer: 'We prefer all three platforms. Whether you prefer Shopify, WooCommerce or Magento, we can create a seamless website, choosing any platform that works for your brand.',
   },
- 
 ];
 
 const DenmarkFAQ = () => {

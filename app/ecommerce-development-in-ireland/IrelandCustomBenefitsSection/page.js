@@ -1,65 +1,65 @@
 "use client";
 
 import { useState } from "react";
-import './irelandcustombenfit.css';
+import "./irelandcustombenfit.css";
 
 const benefits = [
   {
-    title: "100% Tailored to Your Business",
+    title: "Recognizing a Brand as Different",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764190/Mask_group_16_oi6gcy.png",
     description:
-      "Custom ecommerce websites are well suited to your brand, goals, and consumer journey. No pre-made templates are used.",
+      "Your personalized website shows off your business's colors, logos, and brand voice. This helps you stand out from rivals that utilize templates and gives you more flexibility over time.",
   },
   {
-    title: "Adaptable for Future Expansion",
+    title: "Custom Layouts and Features",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764189/Mask_group_17_dkxalb.png",
     description:
-      "Our ecommerce development services ensure that your website evolves with your business, accommodating more users, products, and traffic over time.",
+      "With custom filters, sophisticated search, support for many languages, or anything else, you can get exactly what your shop requires. You won't have to deal with inflexible templates or extra features that you don't need at this shop.",
   },
   {
-    title: "An Intuitive Interface",
+    title: "Better Experience for Users",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764189/Mask_group_18_qwtqbo.png",
     description:
-      "We create user-friendly online shops that engage clients, hence reducing bounce rates.",
+      "When you put customer relationship management systems right next to your business, they make it simple for your customers to find what they're looking for based on their purchasing habits. They also load quickly and make checkout go smoothly, which encourages repeat purchases.",
   },
   {
-    title: "Enhanced Security Features",
+    title: "Mobile Responsive",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_20_ygsgyv.png",
     description:
-      "Custom ecommerce platforms provide the utmost security to safeguard customer data and ensure secure transactions.",
+      "Most people who shop use their phones; therefore, your business has to be mobile-first, with quick loading times and great looks on all screens.",
   },
   {
-    title: "Accelerated Loading Speeds",
+    title: "Better SEO Results",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764185/Mask_group_19_lxvran.png",
     description:
-      "To enhance client satisfaction and improve SEO rankings, our ecommerce development business ensures that all processes are executed with utmost efficiency.",
+      "Custom-built websites include clean code, good design, and clever meta tags. These things help the website rank better on the SEO graph and help the customers get the custom websites they want.",
   },
   {
-    title: "Adaptability in Integration",
+    title: "Custom Integrations",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_21_ynyqfc.png",
     description:
-      "Payment gateways, analytics, CRMs, and ERPs may be effortlessly interconnected via fully customizable options.",
+      "Businesses that use bespoke websites may speed up their operations by integrating third-party systems like CRM, ERP, shipping, and marketing tools into their processes.",
   },
   {
-    title: "Mobile-First Design",
+    title: "Flexible Scalability",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_22_yyaiul.png",
     description:
-      "We create ecommerce websites optimized for mobile devices, enhancing sales and engagement.",
+      "Your website may grow with your company. You may now add new features, product categories, or user roles to your site without having to completely rebuild it.",
   },
   {
-    title: "SEO-Optimized Structure",
+    title: "Better Control and Security",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_23_bn1ywe.png",
     description:
-      "Utilize integrated SEO techniques like as meta tags, optimized URLs, and schema markup to enhance online visibility.",
+      "With bespoke development, you have full control over the unique security layers, upgrades, and data processing protections, which keep important company and customer information secure.",
   },
   {
-    title: "Absolute Control and Ownership",
+    title: "Edge over the Competition",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_24_lyevyw.png",
     description:
-      "Engaging in custom ecommerce development gives you complete authority over the code, functionalities, and content of your website. No platform restrictions or concealed expenses exist.",
+      "In very competitive marketplaces, a personalized shop gives you an advantage. A website made just for your company, not one that is based on a generic design, can help your brand grow.",
   },
 ];
-  
+
 export default function IrelandCustomBenefitsSection() {
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -67,11 +67,13 @@ export default function IrelandCustomBenefitsSection() {
     <section className="custom-benefits-section">
       <div className="custom-benefits-container">
         <h2 className="custom-benefits-title">
-        {/* What Are the Benefits of Having a Custom <br/> E-Commerce Website? */}
-        Why Invest in a Custom E-Commerce Website for Your Business?
+          {/* What Are the Benefits of Having a Custom <br/> E-Commerce Website? */}
+          What Are the Benefits of Having a Custom E-Commerce Website?
         </h2>
         <p className="custom-benefits-subtext">
-        Custom ecommerce development provides your company with complete control, enhanced performance, and sustainable growth tailored to your requirements.
+          A bespoke shop puts your brand, features, and consumer experience
+          front and center. It is completely personalized to help you reach your
+          goals and stand out from the competition.{" "}
         </p>
 
         <div className="custom-benefits-grid">
@@ -79,7 +81,9 @@ export default function IrelandCustomBenefitsSection() {
             {benefits.map((item, index) => (
               <li
                 key={index}
-                className={`custom-benefits-item ${index === activeIndex ? "active" : ""}`}
+                className={`custom-benefits-item ${
+                  index === activeIndex ? "active" : ""
+                }`}
                 onClick={() => setActiveIndex(index)}
               >
                 <span className="custom-benefits-dot" />

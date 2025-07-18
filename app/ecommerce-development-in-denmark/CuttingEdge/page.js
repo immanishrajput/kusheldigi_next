@@ -1,28 +1,29 @@
 // components/Cutting1Section.jsx
 import Image from "next/image";
 import "./cuttingedge.css";
+import { useRouter } from "next/navigation";
 
 export default function Cutting1Section() {
+
+      const navigate = useRouter();
+  
   return (
     <section className="cutting1-section">
       <div className="cutting1-container">
         <div className="cutting1-left">
           <h2>
-            Boost Your Online Sales with Belgium’s
-            <br />
-            E-Commerce Experts
+            Looking for E-commerce Development Services That Drive Growth?
           </h2>
           <p>
-            Enhance your online store with our advanced ecommerce development
-            services. We are one of the best ecommerce development companies in
-            Belgium and design bespoke websites that are mobile-friendly, easy
-            to navigate, and efficient. Meeting and exceeding your business
-            objectives is our forte. We help boost sales, optimize processes,
-            and provide an effortless shopping experience. Be it a new store or
-            upgrading an existing one, we equip you with industry solutions to
-            thrive in the ever-evolving digital market.
+            Want to boost your sales? We're a leading ecommerce development
+            company in Denmark, ready to handle everything your business needs.
+            Our custom online shops are safe, work great on phones, and make
+            shopping super easy for every visitor. The SEO pros on our team use
+            the latest tricks so your site starts climbing the rankings from day
+            one. To keep everything running smoothly behind the scenes, we also
+            plug in the newest tools and tech from around the industry.
           </p>
-          <button className="cutting1-btn">Let’s Build Your Store</button>
+          <button onClick={() => navigate.push('/contact-us')} className="cutting1-btn">Let’s Build Your Store</button>
         </div>
 
         <div className="cutting1-right">

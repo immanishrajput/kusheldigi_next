@@ -2,39 +2,39 @@
 import React, { useState } from "react";
 const FaqData = [
   {
-    question: 'Can you link my online store with a CRM or ERP?',
-    answer: 'Definitely! Well, connect your site with the CRM, ERP, accounting, or stock apps you already use so that every order and customer flows to the right place.',
+    question: 'How long does it take to build an ecommerce site?',
+    answer: 'The timeline relies on how complicated and big the ecommerce shop is. It takes us 3–4 weeks to make a simple website, and 6–8 weeks to make a unique, complicated website.',
   },
   {
-    question: ' Do you create marketplaces where multiple vendors sell?',
-    answer: '  Sure thing. Our multi-vendor platforms include custom dashboards, commission rules, safe payments, ratings, and built-in support, giving you everything needed to run a thriving hub.',
+    question: 'Is my online store going to work on phones?',
+    answer: 'Without a doubt, our online shops are mobile-friendly and work well on all kinds of devices.',
   },
   {
-    question: ' Will I be able to see what shoppers do and how sales move?',
-    answer: " Absolutely; we set up Google Analytics, heat maps, and sales reports, letting you watch clicks, spot trends, and adjust quickly with real numbers behind every choice.",
+    question: 'What kind of support do you offer after the launch?',
+    answer: 'We offer help and upkeep after the sale, such as solving bugs, changing plugins, and adding new features to make sure the website works well.',
   },
   {
-    question: '  Is training part of the package when the site launches?',
-    answer: " Definitely. You'll get friendly step-by-step videos and written guides so adding products, packing orders, or updating pages feels natural, not nerve-wracking.",
+    question: 'Will I be able to keep track of sales and products?',
+    answer: "Yes, of course, you will be able to keep track of sales and products. Through our custom-made control tools, you don't even need to know anything about computers to do it.",
   },
   {
-    question: 'Can you set up my shop to work in other countries?',
-    answer: " For sure. Well, add multi-currency pricing, translated text, and tax rules by region so your store feels familiar to visitors no matter where they log in.",
+    question: 'Can I move my store to a different platform?',
+    answer: 'Yes! We make sure that your style, data, and SEO results stay the same during the change with our safe and easy transfer methods.',
   },
   {
-    question: 'Can you add subscriptions or repeat billing for my products?',
-    answer: " You bet. Whether it's a monthly box, software access, or ongoing service, we build secure auto-billing and renewal cycles that keep customers happy and revenue steady.",
+    question: 'Are payment channels built in?',
+    answer: 'Yes. Security platforms like Stripe, PayPal, Klarna, and Razorpay are built in. These make it possible for safe and easy payment choices during checkout.',
   },
   {
-    question: 'Can I offer discounts, coupons, and loyalty points in my store?',
-    answer: " Absolutely! We can set up tailored promotions, coupon codes, automatic discounts, and a loyalty program to keep customers coming back and excited to buy.",
+    question: 'Will you be able to change how the software works to fit the way your business works?',
+    answer: 'Without a doubt, we create unique, custom, and flexible choices for all types of businesses, whether they are B2B, B2C, D2C, or multi-vendor. Everything is made just for you.',
   },
   {
-    question: ' Will my store be compliant with data protection laws like GDPR?',
-    answer: "  Yes, it will. We follow industry best practices, including clear cookie banners and easy user controls, to keep your site in line with GDPR and other privacy rules.",
+    question: 'How much does an ecommerce site cost?',
+    answer: 'Large businesses, new businesses, and companies that are growing are all provided for. Different factors, like the first choice of style and platform, affect the price of each deal.',
   },
- 
 ];
+
 
 const FinlandFAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);

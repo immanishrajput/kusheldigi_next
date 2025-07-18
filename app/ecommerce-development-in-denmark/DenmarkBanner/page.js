@@ -160,6 +160,16 @@ const DenmarkBanner = () => {
     }
   };
 
+  const scrollToFormHome = () => {
+    const formSection = document.getElementById("form-section");
+    if (formSection) {
+      const yOffset = -120;
+      const y =
+        formSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: "smooth" });
+    }
+  };
+
   return (
     <section className="denmark-banner-section">
       <div className="denmark-banner-overlay">
@@ -172,18 +182,29 @@ const DenmarkBanner = () => {
               <span className="denmark-banner-span">Company in Denmark</span>
             </h1>
             <p className="denmark-banner-subtext">
-              Want to expand your e-commerce business in denmark? Kushel Digi
-              Solutions designs bespoke e-commerce websites tailored to your
-              brand, which are mobile-friendly and boost conversions. As a
-              leading ecommerce development company in denmark, we enable
-              businesses to streamline operations, improve user experience, and
-              automate for sustainable growth.
+              Dreaming of an online store that converts clicks to conversions?
+              Look no further, Kushel Digi Solutions, a leading ecommerce
+              development company in Denmark, specialises in crafting fast,
+              secure, mobile-friendly ecommerce stores with third-party
+              integration and post-launch support. We are here to support you
+              throughout so that you can focus on your business.
             </p>
             <div className="denmark-banner-buttons">
-              <button className="denmark-banner-btn-yellow">
+              <button
+                onClick={scrollToFormHome}
+                className="denmark-banner-btn-yellow"
+              >
                 Get a Free Consultation
               </button>
-              <button className="denmark-banner-btn-outline">
+              <button
+                onClick={() =>
+                  window.open(
+                    "https://calendly.com/shubham-goq0/sales-discovery-call?month=2025-06&utm_source=Email&utm_medium=email&utm_campaign=Chalendly",
+                    "_blank"
+                  )
+                }
+                className="denmark-banner-btn-outline"
+              >
                 Schedule a Demo
               </button>
             </div>

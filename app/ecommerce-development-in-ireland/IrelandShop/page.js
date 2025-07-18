@@ -1,26 +1,37 @@
-"use client"
-import React from 'react'
-import "./Irelandshop.css"
+"use client";
+import React from "react";
+import "./Irelandshop.css";
 function IrelandShop() {
   return (
     <div>
-       <section className="Conversions1-wrapper">
+      <section className="Conversions1-wrapper">
         <div className="Conversions1-container">
           <div className="Conversions1-left">
             <h2>
-              From Low Sales to High <br />
-              Conversions, Our eCommerce <br />
-              Developers Have You Covered!
+              Want to Turn Low Sales into High Conversions with Expert
+              E-Commerce Developers?
             </h2>
             <ul className="Conversions1-dashlist">
-  <li><span>–</span> Boost Sales with Advanced eCommerce Features</li>
-  <li><span>–</span> Enhance Customer Experience with Seamless Navigation</li>
-  <li><span>–</span> Improve Customer Acquisition</li>
-  <li><span>–</span> Optimize Product Discovery for Increased Visibility</li>
-</ul>
+              <li>
+                <span>–</span> Provide a flawless online buying experience on
+                all platforms, such as desktop and mobile.
+              </li>
+              <li>
+                <span>–</span> Use cutting-edge ERP technologies to streamline
+                your company's operations.
+              </li>
+              <li>
+                <span>–</span> Use our bespoke ecommerce platform to improve
+                your company's results.
+              </li>
+              <li>
+                <span>–</span> Better conversion is facilitated by an online
+                shop that is quick and responsive.
+              </li>
+            </ul>
             <p>
-              Don’t let a poorly designed eCommerce site drain your profits. We can
-              turn things around fast.
+              Let’s turn your dream project into reality with Kushel Digi
+              Solutions.
             </p>
           </div>
           <div className="Conversions1-right">
@@ -32,8 +43,7 @@ function IrelandShop() {
         </div>
       </section>
     </div>
-  )
+  );
 }
 
 export default IrelandShop;
-  

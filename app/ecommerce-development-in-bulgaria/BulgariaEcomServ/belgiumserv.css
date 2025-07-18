@@ -10,7 +10,7 @@
   color: #111;
   margin-bottom: 2rem !important;
   text-align: center;
-  max-width: 600px;
+  max-width: 650px;
   margin: 0 auto;
 }
 
@@ -121,6 +121,7 @@
 @media (max-width: 768px) {
   .ecom-belgium-grid {
     grid-template-columns: 1fr;
+    padding: 0;
     /* 1 card per row on mobile */
   }
 
@@ -134,10 +135,17 @@
 
   .ecom-belgium-card-title {
     font-size: 1.1rem;
+    text-align: center;
   }
 
   .ecom-belgium-description {
     font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .ecom-belgium-icon-img{
+    margin: auto;
+    padding-bottom: 10px;
   }
 }
 

@@ -1,10 +1,10 @@
-"use client"
-import React from 'react'
-import "./belgiumshop.css"
+"use client";
+import React from "react";
+import "./belgiumshop.css";
 function BelgiumShop() {
   return (
     <div>
-       <section className="Conversions1-wrapper">
+      <section className="Conversions1-wrapper">
         <div className="Conversions1-container">
           <div className="Conversions1-left">
             <h2>
@@ -13,14 +13,24 @@ function BelgiumShop() {
               Developers Have You Covered!
             </h2>
             <ul className="Conversions1-dashlist">
-  <li><span>–</span> Boost Sales with Advanced eCommerce Features</li>
-  <li><span>–</span> Enhance Customer Experience with Seamless Navigation</li>
-  <li><span>–</span> Improve Customer Acquisition</li>
-  <li><span>–</span> Optimize Product Discovery for Increased Visibility</li>
-</ul>
+              <li>
+                <span>–</span> Boost Sales with Advanced eCommerce Features
+              </li>
+              <li>
+                <span>–</span> Enhance Customer Experience with Seamless
+                Navigation
+              </li>
+              <li>
+                <span>–</span> Improve Customer Acquisition
+              </li>
+              <li>
+                <span>–</span> Optimize Product Discovery for Increased
+                Visibility
+              </li>
+            </ul>
             <p>
-              Don’t let a poorly designed eCommerce site drain your profits. We can
-              turn things around fast.
+              Don’t let a poorly designed eCommerce site drain your profits. We
+              can turn things around fast.
             </p>
           </div>
           <div className="Conversions1-right">
@@ -32,8 +42,7 @@ function BelgiumShop() {
         </div>
       </section>
     </div>
-  )
+  );
 }
 
 export default BelgiumShop;
-  

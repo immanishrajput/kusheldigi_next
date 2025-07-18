@@ -5,49 +5,50 @@ import "./features.css"
 const features = [
   {
     icon: "https://img.icons8.com/ios-filled/50/2675F6/smartphone.png",
-    title: "Mobile-Optimized Design",
+    title: "Secure Payment Integration",
     description:
-      "Ensure a seamless shopping experience across all devices. Our websites are fully responsive, delivering fast load times and smooth navigation on smartphones, tablets, and desktops.",
+      "To ensure safe transaction processing, we integrate reliable payment options, Stripe, PayPal, and Klarna.",
   },
   {
     icon: "https://img.icons8.com/ios-filled/50/2675F6/secured-letter.png",
-    title: "Secure Payment Gateway Integration",
+    title: "Mobile Responsive Design",
     description:
-      "We integrate trusted and secure payment gateways to provide safe and flexible payment options for your customers, supporting credit cards, wallets, UPI, and more.",
+      "Cell phones and tablets are indispensable for daily use; hence, ecommerce websites are designed to be mobile responsive to enhance user experience.",
   },
   {
     icon: "https://img.icons8.com/ios-filled/50/2675F6/admin-settings-male.png",
-    title: "User-Friendly Admin Panel",
+    title: "Easy-to-Use Admin Panel ",
     description:
-      "Ensure a seamless shopping experience across all devices. Our websites are fully responsive, delivering fast load times and smooth navigation on smartphones, tablets, and desktops.",
+      " No technical know-how or coding skills are required. Product, order, and content management is effortless with a click.",
   },
   {
     icon: "https://img.icons8.com/ios-filled/50/2675F6/filter.png",
-    title: "Advanced Product Filtering & Search",
+    title: "SEO Optimized Structure ",
     description:
-      "We integrate trusted and secure payment gateways to provide safe and flexible payment options for your customers, supporting credit cards, wallets, UPI, and more.",
+      "As an ecommerce development company in Finland, we build websites with proper SEO so that your websites can rank from day one.  ",
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1750412930/Mask_group_90_jqaj34.png",
-    title: "SEO & Marketing Tools",
+    title: "Fast Loading Speed",
+      border:"true",
     description:
-      "Ensure a seamless shopping experience across all devices. Our websites are fully responsive, delivering fast load times and smooth navigation on smartphones, tablets, and desktops.",
+      "We improve customer experience by fast loading speed. This is achieved through optimizing image and script sizes, bug fixing and hosting, compressing CSS, and clearing the cache.  ",
   },
   {
     icon: "https://img.icons8.com/ios-filled/50/2675F6/system-task.png",
-    title: "Scalable & Customizable Architecture",
+    title: "Advanced Search and Filters  ",
     description:
-      "We integrate trusted and secure payment gateways to provide safe and flexible payment options for your customers, supporting credit cards, wallets, UPI, and more.",
+      "Our ecommerce development company in Finland includes smart filtering and search tools, making it easy for users to find exactly what they’re looking for in seconds.",
   },
 ];
 
 export default function EcommerceFeatures() {
   return (
     <section className="featuresstop1-section">
-      <h2 className="featuresstop1-heading">Features Of Our E-commerce Websites</h2>
+      <h2 className="featuresstop1-heading">What Features Do We Offer as a Trusted E-Commerce Development Company in Finland?</h2>
       <div className="featuresstop1-grid">
         {features.map((item, index) => (
-          <div key={index} className="featuresstop1-box">
+          <div key={index} className={`featuresstop1-box ${item.border? "border-box":""}`}>
             <img src={item.icon} alt={item.title} />
             <h3>{item.title}</h3>
             <p>{item.description}</p>

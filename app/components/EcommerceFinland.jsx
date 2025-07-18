@@ -1,29 +1,29 @@
 "use client"
-import React, { useEffect } from 'react'
-import '../globals.css'
+import { useEffect } from 'react';
 import Navbar from '../COMMON/Navbar';
+import CallToAction from '../ecommerce-development-in-finland/CtaBelgium/page';
+import Cutting1Section from '../ecommerce-development-in-finland/CuttingEdge/page';
 import FinlandBanner from '../ecommerce-development-in-finland/FinlandBanner/page';
+import FinlandEcomServ from '../ecommerce-development-in-finland/FinlandEcomServ/page';
 import LogoSlider from '../ecommerce-development-in-finland/LogoSlider/page';
 import StatsSection from '../ecommerce-development-in-finland/StatsSection/page';
-import Cutting1Section from '../ecommerce-development-in-finland/CuttingEdge/page';
-import FinlandEcomServ from '../ecommerce-development-in-finland/FinlandEcomServ/page';
-import LondonSecSlider from '../ecommerce-development-in-london/LondonSecSlider/page';
-import CallToAction from '../ecommerce-development-in-finland/CtaBelgium/page';
+import '../globals.css';
 
-import DesignDevelopment from '../ecommerce-development-in-finland/DesignDev/page';
-import FinlandShop from '../ecommerce-development-in-finland/FinlandShop/page';
-import FinlandMakeUs from '../ecommerce-development-in-finland/FinlandMakeUs/page';
-import IndustryTabs from '../ecommerce-development-in-finland/FinlandIndustry/page';
-import EcommerceFeatures from '../ecommerce-development-in-finland/Features/page';
-import FinlandCardSection from '../ecommerce-development-in-finland/FinlandCardSection/page';
-import FinlandSec12 from '../ecommerce-development-in-finland/FinlandSec12/page';
-import FinlandCustomBenefitsSection from '../ecommerce-development-in-finland/FinlandCustomBenefitsSection/page';
-import FinlandBanner3 from '../ecommerce-development-in-finland/FinlandBanner3/Page';
-import BlogSection from '../ecommerce-development-in-finland/BlogSection/BlogSection';
-import FinlandFAQ from '../ecommerce-development-in-finland/FinlandFAQ/page';
-import Website from './Home/HomeForm';
 import Footer from '../COMMON/Footer';
+import BlogSection from '../ecommerce-development-in-finland/BlogSection/BlogSection';
+import DesignDevelopment from '../ecommerce-development-in-finland/DesignDev/page';
+import EcommerceFeatures from '../ecommerce-development-in-finland/Features/page';
+import FinlandBanner3 from '../ecommerce-development-in-finland/FinlandBanner3/Page';
+import FinlandCardSection from '../ecommerce-development-in-finland/FinlandCardSection/page';
+import FinlandCustomBenefitsSection from '../ecommerce-development-in-finland/FinlandCustomBenefitsSection/page';
+import FinlandFAQ from '../ecommerce-development-in-finland/FinlandFAQ/page';
+import IndustryTabs from '../ecommerce-development-in-finland/FinlandIndustry/page';
+import FinlandMakeUs from '../ecommerce-development-in-finland/FinlandMakeUs/page';
+import FinlandSec12 from '../ecommerce-development-in-finland/FinlandSec12/page';
+import FinlandSecSlider from '../ecommerce-development-in-finland/FinlandSecSlider/page';
+import FinlandShop from '../ecommerce-development-in-finland/FinlandShop/page';
 import WhyChooseFinland from '../ecommerce-development-in-finland/WhyChooseFinland/page';
+import Website from './Home/HomeForm';
 
 
 
@@ -41,8 +41,8 @@ function EcommerceFinland() {
 
     const generateMetadata = ({ params }) => {
         return {
-            title: 'eCommerce Website Development Company in Belgium',
-            description: 'Get expert ecommerce website development in Belgium. Kushel Digi offers scalable, secure, and tailored ecommerce solutions for your business growth.',
+            title: 'eCommerce Website Development Company in Finland',
+            description: 'Get expert ecommerce website development in Finland. Kushel Digi offers scalable, secure, and tailored ecommerce solutions for your business growth.',
             metadataBase: new URL(`https://www.kusheldigi.com/`),
         }
     };
@@ -66,7 +66,7 @@ function EcommerceFinland() {
             <StatsSection />
             <Cutting1Section />
             <FinlandEcomServ />
-            <LondonSecSlider />
+            <FinlandSecSlider/>
             <CallToAction />
             <WhyChooseFinland />
             <DesignDevelopment />

@@ -8,18 +8,26 @@ const designData = {
     {
       title: "UX Research",
       items: [
-        "PRODUCT STRATEGY",
-        "MARKET & USER ANALYSIS",
-        "CREATIVE IDEATION",
+        "   PRODUCT PLANNING",
+        "MARKET & AUDIENCE ANALYSIS",
+        " CREATIVE CONCEPTS",
       ],
     },
     {
       title: "UX DESIGN",
-      items: ["PROTOTYPING", "FEEDBACK INTEGRATION", "WIREFRAMING"],
+      items: [
+        "INTERACTIVE PROTOTYPING",
+        "INCORPORATING FEEDBACK",
+        "DETAILED WIREFRAMING",
+      ],
     },
     {
       title: "UI DESIGN",
-      items: ["MOODBOARDS", "CONCEPT DEVELOPMENT", "FINAL VISUAL DESIGN"],
+      items: [
+        "INSPIRING MOODBOARDS",
+        "CREATIVE DEVELOPMENT",
+        "REFINED VISUAL DESIGN",
+      ],
     },
     {
       title: "DELIVERY",
@@ -29,27 +37,23 @@ const designData = {
 };
 
 const developmentData = {
-  paragraph: `Our development ecom-process emphasizes quality and clean architecture, so the code is always scalable. We observe industry best practices during testing phases and ongoing maintenance tasks.`,
+  paragraph: `At Kushel Digi Solutions, we focus on quality and clear architecture in our development process, which ensures that the code can always be scaled. During testing and continuous maintenance, we use the finest procedures in the industry. `,
   columns: [
     {
       title: "ARCHITECTURE",
-      items: ["Code Architecture", "API Integration", "Security Reviews"],
+      items: ["Code Structure", "API Integration", " Security Checks"],
     },
     {
       title: "DEVELOPMENT",
-      items: ["Frontend Dev", "Backend Dev", "Database Manage"],
+      items: ["Frontend ", "Backend ", "Database"],
     },
     {
-      title: "QUALITY ASSURANCE",
-      items: ["Code Validation", "Function Checks", "Bugs Resolution"],
+      title: "QUALITY TEST",
+      items: ["Code Check", "Function Test", "Bug Fix"],
     },
     {
-      title: "LAUNCH & BEYOND",
-      items: [
-        "CI/CD Integration",
-        "Real-Time Monitoring",
-        "Post-Launch Support",
-      ],
+      title: "Launch & Growth",
+      items: [" CI/CD", "Monitoring", "Post Launch Support"],
     },
   ],
 };
