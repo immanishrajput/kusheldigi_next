@@ -1,54 +1,59 @@
 "use client";
 import React from "react";
-import "./features.css"
+import "./features.css";
 
 const features = [
   {
     icon: "https://img.icons8.com/ios-filled/50/2675F6/smartphone.png",
-    title: "Mobile-Optimized Design",
+    title: "Fully Mobile Responsive",
     description:
-      "Ensure a seamless shopping experience across all devices. Our websites are fully responsive, delivering fast load times and smooth navigation on smartphones, tablets, and desktops.",
+      "We understand most of your customers shop through mobile phones, so we create mobile-friendly websites. Customers can shop and browse from smartphones, tablets, or desktops.",
   },
   {
     icon: "https://img.icons8.com/ios-filled/50/2675F6/secured-letter.png",
-    title: "Secure Payment Gateway Integration",
+    title: "Safe Gateway Payment Integration",
     description:
-      "We integrate trusted and secure payment gateways to provide safe and flexible payment options for your customers, supporting credit cards, wallets, UPI, and more.",
-  },
-  {
-    icon: "https://img.icons8.com/ios-filled/50/2675F6/admin-settings-male.png",
-    title: "User-Friendly Admin Panel",
-    description:
-      "Ensure a seamless shopping experience across all devices. Our websites are fully responsive, delivering fast load times and smooth navigation on smartphones, tablets, and desktops.",
+      "We pay special attention to integrating payment gateways for your online stores. It helps in fast online transactions with SSL Encryption for security.",
   },
   {
     icon: "https://img.icons8.com/ios-filled/50/2675F6/filter.png",
-    title: "Advanced Product Filtering & Search",
+    title: "Improved Product Filters",
     description:
-      "We integrate trusted and secure payment gateways to provide safe and flexible payment options for your customers, supporting credit cards, wallets, UPI, and more.",
+      "We add smart filters within the categories. It helps users to locate what they need, thus improving navigation within the store.",
+  },
+  {
+    icon: "https://img.icons8.com/ios-filled/50/2675F6/admin-settings-male.png",
+    title: "Exceptional Speed Performance",
+    description:
+      "Exceptional speeds not only enhance user experience but greatly assist SEO performance by reducing load times and bounce rates, all of which optimize ecommerce platforms.",
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1750412930/Mask_group_90_jqaj34.png",
-    title: "SEO & Marketing Tools",
-    border:"true",
+    title: "Architecture Friendly With SEO",
+    border: "true",
     description:
-      "Ensure a seamless shopping experience across all devices. Our websites are fully responsive, delivering fast load times and smooth navigation on smartphones, tablets, and desktops.",
+      "Our experts design ecommerce websites using clean code, meta tags, and URL structures, thus following SEO best practices. It allows a website to rank higher on search engines, resulting in a traffic increase. ",
   },
   {
     icon: "https://img.icons8.com/ios-filled/50/2675F6/system-task.png",
-    title: "Scalable & Customizable Architecture",
+    title: "Easy Inventory & Order Management",
     description:
-      "We integrate trusted and secure payment gateways to provide safe and flexible payment options for your customers, supporting credit cards, wallets, UPI, and more.",
+      "Enables automated order alert control alongside real-time inventory engagement, streamlining SKU management, extending control over feature edits through backend levels, and simplifying operations for the online store.",
   },
 ];
 
 export default function EcommerceFeatures() {
   return (
     <section className="featuresstop1-section">
-      <h2 className="featuresstop1-heading">Features Of Our E-commerce Websites</h2>
+      <h2 className="featuresstop1-heading">
+        Features Of Our E-commerce Websites
+      </h2>
       <div className="featuresstop1-grid">
         {features.map((item, index) => (
-          <div key={index} className={`featuresstop1-box ${item.border? "border-box":""}`}>
+          <div
+            key={index}
+            className={`featuresstop1-box ${item.border ? "border-box" : ""}`}
+          >
             <img src={item.icon} alt={item.title} />
             <h3>{item.title}</h3>
             <p>{item.description}</p>

@@ -6,15 +6,18 @@ const designData = {
   paragraph: `At Kushel Digi Solutions, we do not only engage in design; rather, we develop experiences. With over 15 years of experience in the industry, we have developed a streamlined and effective design ecom-process where every critical detail is captured from the wireframe stage to the final delivery.`,
   columns: [
     {
-      title: "UX Research",
+      title: "User Experience (UX) Research",
       items: [
-        "PRODUCT STRATEGY",
-        "MARKET & USER ANALYSIS",
-        "CREATIVE IDEATION",
+      "  PRODUCT STRATEGY",
+
+"MARKET & USER ANALYSIS",
+
+"CREATIVE IDEATION"
+
       ],
     },
     {
-      title: "UX DESIGN",
+      title: "UX Design & Flow Mapping",
       items: ["PROTOTYPING", "FEEDBACK INTEGRATION", "WIREFRAMING"],
     },
     {

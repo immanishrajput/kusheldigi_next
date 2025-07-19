@@ -271,7 +271,7 @@
   }
 
   .case-s-i {
-    justify-content: end;
+    justify-content: center;
     display: flex;
     margin-top: 5px;
     gap: 20px;

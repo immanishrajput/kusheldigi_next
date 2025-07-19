@@ -1,29 +1,30 @@
 "use client"
-import React, { useEffect } from 'react'
-import '../globals.css'
+import { useEffect } from 'react';
+import '../globals.css';
 
-import Navbar from '../COMMON/Navbar';
 import Footer from '../COMMON/Footer';
-import Cutting1Section from '../ecommerce-development-in-belgium/CuttingEdge/page';
+import Navbar from '../COMMON/Navbar';
+import UseAccorrodian from '../COMMON/UseAccorrodian';
 import BelgiumBanner from '../ecommerce-development-in-belgium/BelgiumBanner/page';
+import BelgiumCardSection from '../ecommerce-development-in-belgium/BelgiumCardSection/page';
+import BelgiumCustomBenefitsSection from '../ecommerce-development-in-belgium/BelgiumCustomBenefitsSection/page';
+import BelgiumEcomServ from '../ecommerce-development-in-belgium/BelgiumEcomServ/page';
+import IndustryTabs from '../ecommerce-development-in-belgium/BelgiumIndustry/page';
+import BelgiumMakeUs from '../ecommerce-development-in-belgium/BelgiumMakeUs/page';
+import BelgiumSec12 from '../ecommerce-development-in-belgium/BelgiumSec12/page';
+import BelgiumSecSlider from '../ecommerce-development-in-belgium/BelgiumSecSlider/page';
+import BelgiumShop from '../ecommerce-development-in-belgium/BelgiumShop/page';
+import BlogSection from '../ecommerce-development-in-belgium/BlogSection/BlogSection';
+import CallToAction from '../ecommerce-development-in-belgium/CtaBelgium/page';
+import Cutting1Section from '../ecommerce-development-in-belgium/CuttingEdge/page';
+import DesignDevelopment from '../ecommerce-development-in-belgium/DesignDev/page';
+import Features from '../ecommerce-development-in-belgium/Features/page';
 import LogoSlider from '../ecommerce-development-in-belgium/LogoSlider/page';
 import StatsSection from '../ecommerce-development-in-belgium/StatsSection/page';
 import WhyChooseBelgium from '../ecommerce-development-in-belgium/WhyChooseBelgium/page';
-import DesignDevelopment from '../ecommerce-development-in-belgium/DesignDev/page';
-import IndustryTabs from '../ecommerce-development-in-belgium/BelgiumIndustry/page'; 
-import BelgiumEcomServ from '../ecommerce-development-in-belgium/BelgiumEcomServ/page';
-import BelgiumShop from '../ecommerce-development-in-belgium/BelgiumShop/page';
-import BelgiumMakeUs from '../ecommerce-development-in-belgium/BelgiumMakeUs/page';
 import Website from './Home/HomeForm';
-import Banner3 from '../ecommerce-development/Banner3/Page';
-import HomeCardSection from '../components/Home/HomeCardSection'
-import UseAccorrodian from '../COMMON/UseAccorrodian'
-import Banner12 from '../ecommerce-development/Banner11/page';
-import LondonSecSlider from '../ecommerce-development-in-london/LondonSecSlider/page';
-import Features from '../ecommerce-development-in-belgium/Features/page'
-import CustomBenefitsSection from '../ecommerce-development-in-london/CustomBenefitsSection/page';
-import CallToAction from '../ecommerce-development-in-belgium/CtaBelgium/page';
-import BlogSection from '../ecommerce-development-in-belgium/BlogSection/BlogSection';
+import BelgiumBanner3 from '../ecommerce-development-in-belgium/BelgiumBanner18/Page';
+import BelgiumFAQ from '../ecommerce-development-in-belgium/BelgiumFAQ/page';
 
 const phoneNumber = "9045301702";
 
@@ -66,7 +67,7 @@ const generateMetadata = ({ params }) => {
             <StatsSection/>
             <Cutting1Section />
             <BelgiumEcomServ/>
-            <LondonSecSlider/>
+            <BelgiumSecSlider/>
             <CallToAction/>
             <WhyChooseBelgium/>
             <DesignDevelopment/>
@@ -74,12 +75,12 @@ const generateMetadata = ({ params }) => {
             <BelgiumMakeUs/>
             <IndustryTabs/>
             <Features/>
-            <HomeCardSection/>
-            <Banner12/>
-             <CustomBenefitsSection/>
-            <Banner3/>
+            <BelgiumCardSection/>
+           <BelgiumSec12/>
+           <BelgiumCustomBenefitsSection/>
+           <BelgiumBanner3/>
             <BlogSection/>
-            <UseAccorrodian/>
+           <BelgiumFAQ/>
 
 
             <Website/>

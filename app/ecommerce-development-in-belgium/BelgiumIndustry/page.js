@@ -8,7 +8,7 @@ const industries = [
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750336337/beautiful-young-woman-holding-shopping-bags_jbffef.png",
     description:
-      "We design ecommerce websites that are visually impressive and mobile-friendly for fashion brands with fast loading speeds, easy-to-navigate interfaces, and effortless shopping features, allowing apparel and accessory retailers to enhance engagement and collection display while transforming casual visitors into loyal customers.",
+      "For fashion brands, we make ecommerce websites that look great, work well on mobile devices, load quickly, and have easy-to-use shopping features. This helps clothing and accessory stores improve collection display and engagement while turning casual visitors into loyal customers.",
   },
   {
     title: "Automotive",
@@ -22,14 +22,14 @@ const industries = [
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337525/elegant-smartphone-composition_p1vvti.png",
     description:
-      "For electronic brands that need e-commerce websites, we create multi-purpose platforms that can showcase technical specifications, enable the purchasing of related goods or services on mobile devices, and during checkout, provide dynamic updates while on desktop, providing a lag-free experience.",
+      "For electronic brands that need ecommerce websites, we create multi-purpose platforms that can showcase technical specifications, enable the purchasing of related goods or services on mobile devices, and during checkout, provide dynamic updates while on desktop, providing a lag-free experience.",
   },
   {
-    title: "Food and beverages",
+    title: "Food & Beverages",
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337530/fast-food-with-sandwich-french-fries-red-cocktail-fork-knife-table-side-view_w73jvr.png",
     description:
-      "With functions such as dynamic menus, real-time delivery tracking, subscription models, and custom packaging for orders of F&B brands, we design enjoyable e-commerce websites enabling a fresh digital shopping experience.",
+      "With functions such as dynamic menus, real-time delivery tracking, subscription models, and custom packaging for orders of F&B brands, we design enjoyable ecommerce websites enabling a fresh digital shopping experience.",
   },
   {
     title: "Luxury",
@@ -43,7 +43,7 @@ const industries = [
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337526/modern-technology-assembly-cars-plant-automotive-industry-shop-production-assembly-machines-top-view-process-welding-parts-car_rhjthz.png",
     description:
-      "With custom ecommerce portals designed specifically for manufacturers, we eliminate obstacles in B2B ordering systems. Custom portals optimize distributor and supplier satisfaction while improving operations through product configuration, volume pricing, and access to real-time inventory. ",
+      "We get rid of problems in B2B buying systems by making custom ecommerce sites just for makers. Custom platforms make operations better by letting you configure products, get bulk discounts, and see real-time inventory. They also make distributors and suppliers happier.",
   },
   {
     title: "Furniture",

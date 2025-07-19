@@ -6,18 +6,21 @@ import "./irelandcustombenfit.css";
 const benefits = [
   {
     title: "Recognizing a Brand as Different",
+    minWid: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764190/Mask_group_16_oi6gcy.png",
     description:
       "Your personalized website shows off your business's colors, logos, and brand voice. This helps you stand out from rivals that utilize templates and gives you more flexibility over time.",
   },
   {
     title: "Custom Layouts and Features",
+    minWid: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764189/Mask_group_17_dkxalb.png",
     description:
       "With custom filters, sophisticated search, support for many languages, or anything else, you can get exactly what your shop requires. You won't have to deal with inflexible templates or extra features that you don't need at this shop.",
   },
   {
     title: "Better Experience for Users",
+    minWid: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764189/Mask_group_18_qwtqbo.png",
     description:
       "When you put customer relationship management systems right next to your business, they make it simple for your customers to find what they're looking for based on their purchasing habits. They also load quickly and make checkout go smoothly, which encourages repeat purchases.",
@@ -48,12 +51,14 @@ const benefits = [
   },
   {
     title: "Better Control and Security",
+    minWid: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_23_bn1ywe.png",
     description:
       "With bespoke development, you have full control over the unique security layers, upgrades, and data processing protections, which keep important company and customer information secure.",
   },
   {
     title: "Edge over the Competition",
+    minWid: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_24_lyevyw.png",
     description:
       "In very competitive marketplaces, a personalized shop gives you an advantage. A website made just for your company, not one that is based on a generic design, can help your brand grow.",
@@ -61,7 +66,7 @@ const benefits = [
 ];
 
 export default function IrelandCustomBenefitsSection() {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(3);
 
   return (
     <section className="custom-benefits-section">
@@ -79,11 +84,11 @@ export default function IrelandCustomBenefitsSection() {
         <div className="custom-benefits-grid">
           <ul className="custom-benefits-list">
             {benefits.map((item, index) => (
-              <li
+               <li
                 key={index}
                 className={`custom-benefits-item ${
                   index === activeIndex ? "active" : ""
-                }`}
+                }      ${item.minWid ? "extclassMinWid" : ""} ${item.exminWid ? "exminWidclas" : ""} ${item.minWid1 ? "minWid1" : ""} ${item.exminWid2 ? "exminWid2" : ""}`}
                 onClick={() => setActiveIndex(index)}
               >
                 <span className="custom-benefits-dot" />

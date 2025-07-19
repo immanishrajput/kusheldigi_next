@@ -6,18 +6,21 @@ import "./finlandcustombenfit.css";
 const benefits = [
   {
     title: "Distinct Brand Recognition ",
+    minWid1: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764190/Mask_group_16_oi6gcy.png",
     description:
       "Your custom website shows your business’s colors, logos, and brand voice, which assists you with evergreen variability and highlights differentiated value in contrast to competitors who use templates. ",
   },
   {
     title: "Custom Features and Layouts  ",
+     minWid: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764189/Mask_group_17_dkxalb.png",
     description:
       "Get precisely what your store needs with custom-made filters, advanced search, multi-language support, or anything else. Unlike other stores, you won’t be constrained by rigid templates or unnecessary features.  ",
   },
   {
     title: "Enhanced User Experience ",
+    minWid1: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764189/Mask_group_18_qwtqbo.png",
     description:
       "Customer relationship management systems integrated directly alongside your store provide your users with easy navigation based on their buying behavior, fast loading, and smooth checkout, which boosts repeat purchases.  ",
@@ -30,24 +33,28 @@ const benefits = [
   },
   {
     title: "Enhanced SEO Results ",
+      minWid1: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764185/Mask_group_19_lxvran.png",
     description:
       " Custom-built websites have clean code, proper design, and smart meta tags, which build a higher ranking on the SEO graph and work towards winning the clients' custom websites are made for.  ",
   },
   {
     title: "Endless Custom Integrations",
+     minWid: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_21_ynyqfc.png",
     description:
       "Businesses running on custom websites can effortlessly streamline workflows with third-party systems such as CRM, ERP, shipping and marketing apps, hence optimally speeding up business operations.",
   },
   {
     title: "Scalable for Future Growth",
+     minWid: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_22_yyaiul.png",
     description:
       "Your website can develop alongside your business. It is now possible to expand with the inclusion of new features, product categories, or user roles without the requirement of a complete redesign.",
   },
   {
     title: "Stronger Security & Control ",
+     minWid: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_23_bn1ywe.png",
     description:
       "Custom development provides complete control over the custom security layers, updates, and data processing safeguards, ensuring the safety of sensitive business and customer information.  ",
@@ -61,7 +68,7 @@ const benefits = [
 ];
 
 export default function FinlandCustomBenefitsSection() {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(3);
 
   return (
     <section className="custom-benefits-section">
@@ -83,7 +90,7 @@ export default function FinlandCustomBenefitsSection() {
                 key={index}
                 className={`custom-benefits-item ${
                   index === activeIndex ? "active" : ""
-                }`}
+                }      ${item.minWid ? "extclassMinWid" : ""} ${item.exminWid ? "exminWidclas" : ""} ${item.minWid1 ? "minWid1" : ""} ${item.exminWid2 ? "exminWid2" : ""}`}
                 onClick={() => setActiveIndex(index)}
               >
                 <span className="custom-benefits-dot" />

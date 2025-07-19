@@ -5,10 +5,10 @@ import './stats.css';
 const stats = [
   {
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750061987/Group_1171281270_w0ruti.png",
-    title: "E-Commerce Success Stories",
+    title: "Successful E-commerce Businesses",
     values: [
-      { number: "120+", label: "Successful Projects Delivered" },
-      { number: "100+", label: "Trusted Brands & Clients" },
+      { number: "120+", label: "Promising Projects Delivered" },
+      { number: "100+", label: "Reliable Brands & Customers" },
     ],
     className: "card-blue",
   },
@@ -16,19 +16,19 @@ const stats = [
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750061987/Group_1171281271_y74agq.png",
     title: "Driving Real Results",
     values: [
-      { number: "1M+", label: "Orders Processed Smoothly" },
-      { number: "£2M+", label: "RevRevenue Generatedenue" },
+      { number: "1M+", label: "Orders Handled Without a Hitch" },
+      { number: "£2M+", label: "RevRevenue Generated" },
     ],
     className: "card-yellow",
   },
   {
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750061987/Group_1171281269_xafwik.png",
-    title: "Growing Community",
+    title: "Building a Community",
     values: [
       {
         number: "1.2M+",
         label:
-          "Active & Engaged Customers | Boosting repeat purchases, customer loyalty, and long-term sales growth.",
+          "Active & Interested Customers | Long-term sales increase, customer trust, and return orders all go up.",
       },
     ],
     className: "card-green",

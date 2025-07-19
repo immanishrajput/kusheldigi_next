@@ -66,7 +66,7 @@ function Banner12() {
         <div className="ecom-content">
           <h3 className={activeSection === "b2c" ? "underline" : ""}>B2C</h3>
           <p>Our experts at Kushel Digi have long years of experience in designing ecommerce solutions suited for wholesale, bulk ordering, and corporate transactions. We optimize B2B sales channels for higher efficiency.</p>
-         <a href="#form-section">
+         <a className="ext-btn-b2b" href="#form-section">
          <button className="button-b2" onClick={() => scrollToForm()}>DEVELOP B2C ECOMMERCE</button>
          </a>
         </div>
@@ -82,7 +82,7 @@ function Banner12() {
         <div className="ecom-content">
           <h3 className={activeSection === "b2b" ? "underline" : ""}>B2B</h3>
           <p>Kushel Digi has expertise to deliver engaging, scalable, and user-friendly ecommerce solutions that connect businesses with end customers. Our team is committed to help brands grow their online presence and boost sales.</p>
-        <a href="#form-section">
+        <a className="ext-btn-b2b" href="#form-section">
           <button className="button-b2" onClick={() => scrollToForm()}>DEVELOP B2B ECOMMERCE</button>
           </a>
         </div>
@@ -92,7 +92,7 @@ function Banner12() {
         <div className="ecom-content">
           <h3 className={activeSection === "multi-vendors" ? "underline" : ""}>Multi Vendors</h3>
           <p>We have delivered various marketplace solutions that allow multiple sellers to showcase and sell their products on a single platform. We ensure smooth vendor management, secure transactions, and excellent shopping experience for customers.</p>
-          <a href="#form-section">
+          <a className="ext-btn-b2b" href="#form-section">
           <button className="button-b2" onClick={() => scrollToForm()}>DEVELOP MULTI-VENDOR ECOMMERCE</button>
           </a>
         </div>
@@ -108,7 +108,7 @@ function Banner12() {
         <div className="ecom-content">
           <h3 className={activeSection === "d2c" ? "underline" : ""}>D2C </h3>
           <p>We have been helping brands to establish a direct connection with consumers by removing intermediaries. We create personalized ecommerce experiences to enhance brand loyalty and maximize profit.</p>
-          <a href="#form-section" onClick={() => scrollToForm()}> <button className="button-b2">DEVELOP D2C ECOMMERCE</button> </a>
+          <a className="ext-btn-b2b" href="#form-section" onClick={() => scrollToForm()}> <button className="button-b2">DEVELOP D2C ECOMMERCE</button> </a>
         </div>
       </div>
     </section>

@@ -66,7 +66,7 @@ function LondonSec12() {
         <div className="ecom-content">
           <h3 className={activeSection === "b2c" ? "underline" : ""}>B2C</h3>
           <p>Reach everyday shoppers with clean, flexible, and mobile-ready stores. Our B2C sites emphasize fast load times, high engagement, and clear paths from booking to browsing.</p>
-         <a href="#form-section">
+         <a  className="ext-btn-b2b" href="#form-section">
          <button className="button-b2" onClick={() => scrollToForm()}>DEVELOP B2C ECOMMERCE</button>
          </a>
         </div>
@@ -82,7 +82,7 @@ function LondonSec12() {
         <div className="ecom-content">
           <h3 className={activeSection === "b2b" ? "underline" : ""}>B2B</h3>
           <p>Wholesale and bulk-selling outfits face distinct challenges, and we know it. Our B2B tools streamline bulk pricing, specialized catalogs, and account-specific ordering, so fashion distributors and retailers complete orders quickly and with less fuss.</p>
-        <a href="#form-section">
+        <a  className="ext-btn-b2b" href="#form-section">
           <button className="button-b2" onClick={() => scrollToForm()}>DEVELOP B2B ECOMMERCE</button>
           </a>
         </div>
@@ -92,7 +92,7 @@ function LondonSec12() {
         <div className="ecom-content">
           <h3 className={activeSection === "multi-vendors" ? "underline" : ""}>Multi Vendors</h3>
           <p>Want to host several sellers under one roof? We create **multi-vendor marketplaces** that bundle centralized control, safe onboarding, and simple shopping, making them ideal for healthcare goods or medical supplies.</p>
-          <a href="#form-section">
+          <a  className="ext-btn-b2b" href="#form-section">
           <button className="button-b2" onClick={() => scrollToForm()}>DEVELOP MULTI-VENDOR ECOMMERCE</button>
           </a>
         </div>
@@ -108,7 +108,7 @@ function LondonSec12() {
         <div className="ecom-content">
           <h3 className={activeSection === "d2c" ? "underline" : ""}>D2C </h3>
           <p>Help your brand talk straight to customers and slice through the middleman. Our D2C platforms power tailored shopping journeys, loyalty rewards, and secure checkouts that inspire trust and boost earnings.</p>
-          <a href="#form-section" onClick={() => scrollToForm()}> <button className="button-b2">DEVELOP D2C ECOMMERCE</button> </a>
+          <a  className="ext-btn-b2b" href="#form-section" onClick={() => scrollToForm()}> <button className="button-b2">DEVELOP D2C ECOMMERCE</button> </a>
         </div>
       </div>
     </section>

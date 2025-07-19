@@ -18,36 +18,45 @@ const benefits = [
   },
   {
     title: "Scalability for Future Growth",
+    minWid1: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764189/Mask_group_18_qwtqbo.png",
     description:
       "Your ecommerce store grows as you grow. Add additional features, product lines, or integrations without starting again.",
   },
   {
     title: "Integrations with Additional Services",
+    minWid: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_20_ygsgyv.png",
     description:
       " We link third-party systems, such as shipping firms, CRMs, marketing platforms, and payment gateways, to improve customer experiences and business operations.",
   },
   {
     title: "Higher Safety Standards",
+    // minWid: "true",
+    exminWid: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764185/Mask_group_19_lxvran.png",
     description:
       " Custom websites that suit your company are created using advanced security procedures.   It fosters confidence and safeguards customer information..",
   },
   {
     title: "Improved SEO Outcomes",
+    // minWid: "true",
+    exminWid: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_21_ynyqfc.png",
     description:
       " We adhere to SEO best practices, which include using meta tags and keywords.   Custom websites score higher in Google SERP since they are simpler to optimize.",
   },
   {
     title: "Easy Checkout Procedure",
+    // minWid: "true",
+    exminWid: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_22_yyaiul.png",
     description:
       " When customers can check out fast and simply, they have a positive experience and are more likely to return.",
   },
   {
     title: "Cost Efficiency",
+     exminWid2: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_23_bn1ywe.png",
     description:
       "Designing a custom website may take more cost, but it pays back long term. As it is designed completely to meet your business needs, it attracts real customers and generates more sales.",
@@ -61,7 +70,7 @@ const benefits = [
 ];
 
 export default function CustomBenefitsSection() {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(3);
 
   return (
     <section className="custom-benefits-section">
@@ -82,7 +91,7 @@ export default function CustomBenefitsSection() {
                 key={index}
                 className={`custom-benefits-item ${
                   index === activeIndex ? "active" : ""
-                }`}
+                }      ${item.minWid ? "extclassMinWid" : ""} ${item.exminWid ? "exminWidclas" : ""} ${item.minWid1 ? "minWid1" : ""} ${item.exminWid2 ? "exminWid2" : ""}`}
                 onClick={() => setActiveIndex(index)}
               >
                 <span className="custom-benefits-dot" />
