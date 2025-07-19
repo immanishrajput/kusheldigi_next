@@ -10,7 +10,7 @@ export default function ChennaiStatsService() {
             // sub: "eCommerce",
             title: "eCommerce Development in Chennai",
             discp:
-                "We craft tailored ecommerce websites that captivate customers and boost sales. Let’s turn your vision into a thriving online store.",
+                "We craft e-commerce portals that resonate with the contemporary audience in Chennai. Our <strong>eCommerce Development in Chennai</strong> transforms your business idea into a fully functional online store, from concept to deployment.",
             className: "card-blue",
             route: "/ecommerce-development-company-in-chennai",
         },
@@ -19,7 +19,7 @@ export default function ChennaiStatsService() {
             // sub: "BigCommerce",
             title: "Bigcommerce Development in Chennai",
             discp:
-                "Unlock the full potential of BigCommerce with custom solutions built for growth. From seamless design to powerful integrations, we elevate your online store.",
+                "Unleash BigCommerce with solutions that are tailored to meet diverse Chennai markets. With intelligent design and scalable integrations, we build stores that grow with your business.",
             className: "card-yellow",
             route: "/bigcommerce-development-company-in-chennai",
         },
@@ -28,7 +28,7 @@ export default function ChennaiStatsService() {
             // sub: "Shopify",
             title: "Shopify Development in Chennai",
             discp:
-                "Launch a stunning Shopify store tailored to your brand and goals. From custom themes to smart integrations, we turn clicks into customers.",
+                "Set up a Shopify shop that fits the objectives of your brand. Our <strong>ecommerce development team in Chennai</strong> bridges localization with global scalability, turning clicks into conversions across the region.",
             className: "card-green center-item-noida ",
             route: "/shopify-development-company-in-chennai",
         },
@@ -36,7 +36,7 @@ export default function ChennaiStatsService() {
     return (
         <>
             <div>
-                <h3 className="service-heading">Our Services</h3>
+                <h2 className="service-heading">Our Services</h2>
                 <section className="stats-section-noida">
                     {stats.map((stat, index) => (
                         <div key={index} className={`stat-card-noida ${stat.className}`}>
@@ -47,7 +47,11 @@ export default function ChennaiStatsService() {
                                 <span>{stat.title}</span>
                                 {/* <h3>{stat.title}</h3> */}
                             </div>
-                            <p className="ptag-service">{stat.discp}</p>
+                            <p
+                                className="ptag-service"
+                                dangerouslySetInnerHTML={{ __html: stat.discp }}
+                            ></p>
+
                             <Link href={`${stat.route}`}>
                                 {" "}
                                 <button className="btn-service-visit">Visit More</button>
@@ -57,20 +61,12 @@ export default function ChennaiStatsService() {
                 </section>
 
                 <section className="service-sec2">
-                    <h4>Specialising in E-Commerce Website Development</h4>
+                    <h4>Specializing in E-Commerce Website Development</h4>
                     <p>
-                        E-commerce website development involves creating an online platform
-                        where businesses can sell products or services. In 2023, the UK
-                        e-commerce sector presented an ideal opportunity. This thriving
-                        market was bolstered by advanced technology and strong consumer
-                        engagement. In today's digitally driven UK market, e-commerce is a
-                        necessity. It expands your reach and operates around the clock.
-                        Furthermore, it offers customers the convenience of shopping from
-                        anywhere. The right development partner, such as SpaceStem, a top
-                        e-Commerce web development agency, can incorporate critical
-                        features. They can ensure your website is mobile-responsive and
-                        user-friendly. Also, they can help with SEO and create a secure
-                        transaction environment, thus making your online venture a success.
+                        Ecommerce isn’t just trending in Chennai; it’s thriving in this diverse and digitally forward city. Whether starting out as small-time fashion brands or large-scale B2B distributors, <strong>ecommerce development company in Chennai</strong> are finding their way to the internet to find more people and are looking to streamline their efforts. An effective ecommerce site today does more than generate sales—it serves as your brand’s always-on digital storefront.
+                    </p>
+                    <p>
+                        We believe in strategy, design, and technology to build high-converting ecommerce websites that are secure and scalable at Kushel Digi. Our websites are mobile-responsive, ultra-fast, and user-friendly, ensuring you reach customers locally and globally. We future-proof your store with SEO best practices and seamless backend integrations, so you can focus on scaling, not fixing.
                     </p>
                 </section>
             </div>

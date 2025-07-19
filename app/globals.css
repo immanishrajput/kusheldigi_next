@@ -19419,6 +19419,7 @@ body {
 .testiTopDetails .tettopleft {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .testiTopDetails .tettopleft p:first-child {

@@ -128,11 +128,18 @@
   flex-direction: column;
 }
 
-.details-desc h4 {
+.details-desc h3 {
   font-size: 32px;
   font-weight: 700;
   letter-spacing: 0;
   margin-top: 50px;
+  margin-bottom: 20px;
+}
+.details-desc h4 {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
