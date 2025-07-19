@@ -61,7 +61,7 @@ const benefits = [
 ];
   
 export default function FinlandCustomBenefitsSection() {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(3);
 
   return (
     <section className="custom-benefits-section">

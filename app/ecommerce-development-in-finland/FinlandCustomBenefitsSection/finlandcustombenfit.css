@@ -140,15 +140,54 @@
     flex-direction: column;
     align-items: center;
   }
+  .custom-benefits-item.active{
+        min-width: 417px !important;
+        background-color: antiquewhite;
+
+  }
 
   .custom-benefits-list {
+    display: flex;
+    scrollbar-width: thin;
     width: 100%;
     max-width: 100%;
     flex: 0;
+    overflow-y: hidden;
+    overflow-x: auto;
   }
-
+  .minWid1{
+    min-width: 319px !important;
+  }
+   /* .minWid1.active{
+    min-width: 319px !important;
+  } */
+.exminWidclas{
+     min-width: 300px !important;
+  }
+  /* .exminWidclas.active{
+     min-width: 300px !important;
+  } */
+  .exminWid2{
+    min-width: 201px !important;
+  }
+   /* .exminWid2.active{
+    min-width: 201px !important;
+  } */
   .custom-benefits-content {
     max-width: 100%;
+  }
+  .extclassMinWid{
+    min-width: 400px !important;
+  }
+    /* .extclassMinWid.active{
+    min-width: 400px !important;
+  } */
+  .custom-benefits-item {
+    line-height: 1.5;
+    min-width: 275px;
+  }
+  .custom-benefits-list::before {
+    display: none;
   }
 }
 
@@ -164,13 +203,20 @@
   }
 
   .custom-benefits-card {
-    padding: 24px;
+           align-items: center;
+        flex-direction: column;
+        display: flex;
+        padding: 24px;
   }
 
   .custom-benefits-card p {
     font-size: 0.95rem;
+    text-align: center;
   }
-  .custom-benefits-item.active{
+    .custom-benefits-card h3{
+    text-align: center;
+  }
+  .custom-benefits-item.active {
     line-height: 30px;
   }
 }
@@ -178,5 +224,31 @@
 @media (max-width: 425px) {
   .custom-benefits-item {
     font-size: 15.1px;
+    min-width: 222px !important;
   }
+    .extclassMinWid{
+    min-width: 307px !important;
+  }
+  .exminWidclas{
+     min-width: 242px !important;
+  }
+   .minWid1{
+    min-width: 280px !important;
+  }
+   .exminWid2{
+    min-width: 170px !important;
+  }
+/* 
+    .extclassMinWid.active{
+    min-width: 307px !important;
+  }
+  .exminWidclas.active{
+     min-width: 242px !important;
+  }
+   .minWid1.active{
+    min-width: 280px !important;
+  }
+   .exminWid2.active{
+    min-width: 170px !important;
+  } */
 }

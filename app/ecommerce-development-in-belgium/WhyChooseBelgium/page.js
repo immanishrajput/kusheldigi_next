@@ -5,33 +5,33 @@ import "./whybelgium.css";
 const features = [
   {
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073420/Group_1171281413_b7dwf6.png",
-    title: "Focused On Results",
-    desc: "No fluff, only real progress: value delivery comes before anything else.",
+    title: "Focused on Results",
+    desc: "We don’t talk fluff, provides one real results and value your demands.",
   },
   {
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073419/Group_1171281412_m4wjmx.png",
-    title: "Strategic Tech Expertise",
-    desc: "Goal-oriented ecommerce websites are made with a blend of technological expertise and creativity by our team.",
+    title: "Strategic Technical Expertise",
+    desc: "Our expert team creates ecommerce websites that are goal-oriented.",
   },
   {
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073409/Group_1171281523_k2vfml.png",
-    title: "Timely-Delivery Always",
-    desc: "Timely delivery—no delays or excuses—in any scope of work, ranging from small to complex tasks, is guaranteed.",
+    title: "Delivery on Time",
+    desc: "We are focused on deadlines. We promise timely delivery no matter what the size and complexity are. ",
   },
   {
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281524_ksva3g.png",
-    title: "End-to-End Maintenance & Support",
-    desc: "Your online store will always be backed up, whether it’s bug repairs or feature extensions",
+    title: "End-to-End Maintenance & Support  ",
+    desc: "Your online store will always be backed up, whether it’s bug repairs or feature extensions.",
   },
   {
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281525_qnpwgi.png",
-    title: " Highly Scalable",
+    title: "Highly Scalable  ",
     desc: "Our ecommerce solutions are agnostic to traffic surges as well as future business expansion plans.",
   },
   {
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281414_nyzkrn.png",
-    title: "Fully Confidential And Secure ",
-    desc: "With strong NDAs and enterprise-grade security in place, business data stays protected",
+    title: "Fully Confidential And Secure  ",
+    desc: "With strong NDAs and enterprise-grade security in place, business data stays protected.",
   },
 ];
 
@@ -45,7 +45,7 @@ const WhyChooseBelgium = () => {
         <p className="why-choose-subtext">
           We design and build ecommerce platforms that scale alongside your
           growth and provide industry-leading impact at each level. From
-          strategy to support, every aspect is taken care of.
+          strategy to support, every aspect is taken care of planning to help.
         </p>
       </div>
 

@@ -8,29 +8,31 @@ function BelgiumShop() {
         <div className="Conversions1-container">
           <div className="Conversions1-left">
             <h2>
-              From Low Sales to High <br />
-              Conversions, Our eCommerce <br />
-              Developers Have You Covered!
+              Turn Clicks Into Customers with Smart E-Commerce Development
             </h2>
             <ul className="Conversions1-dashlist">
               <li>
-                <span>–</span> Boost Sales with Advanced eCommerce Features
+                <span>–</span> We construct ecommerce
+                websites that drive real results.
               </li>
               <li>
-                <span>–</span> Enhance Customer Experience with Seamless
-                Navigation
+                <span>–</span>
+                 Our ecommerce websites are
+                mobile-friendly, which ensures a great user experience.
               </li>
               <li>
-                <span>–</span> Improve Customer Acquisition
+                <span>–</span>We understand that
+                in this growing industry, your website should also grow along
+                with the brand, thats why we create scalable websites.
               </li>
               <li>
-                <span>–</span> Optimize Product Discovery for Increased
-                Visibility
+                <span>–</span>
+                With analytics tools, making business
+                decisions is easier than ever through automated data analysis.
               </li>
             </ul>
             <p>
-              Don’t let a poorly designed eCommerce site drain your profits. We
-              can turn things around fast.
+            Unlock Customer Value with Intelligent E-Commerce Solution Development
             </p>
           </div>
           <div className="Conversions1-right">

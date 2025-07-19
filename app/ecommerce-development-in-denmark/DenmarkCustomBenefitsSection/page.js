@@ -6,12 +6,14 @@ import "./denmarkcustombenfit.css";
 const benefits = [
   {
     title: "Distinct Brand Identity",
+    exminWid: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764190/Mask_group_16_oi6gcy.png",
     description:
       "A custom ecommerce website is a reflection of your brand's personality, featuring a custom design, layout, and colours that are tailored to your specific needs. This distinguishes you from your competitors and fosters a stronger sense of consumer trust.",
   },
   {
     title: "Improved User Experience",
+     minWid: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764189/Mask_group_17_dkxalb.png",
     description:
       "The store is tailored to the purchasing patterns of your audience, resulting in a seamless navigation, a simple payment process, and an overall pleasurable experience. This, in turn, leads to increased satisfaction and repeat purchases.",
@@ -24,6 +26,7 @@ const benefits = [
   },
   {
     title: "Scalable as Your Business Expands",
+      minWid: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_20_ygsgyv.png",
     description:
       " Your website can expand in tandem with your business. Easily incorporate new products, features, or functionalities without necessitating a complete redesign.",
@@ -61,7 +64,7 @@ const benefits = [
 ];
 
 export default function DenmarkCustomBenefitsSection() {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(3);
 
   return (
     <section className="custom-benefits-section">
@@ -83,7 +86,7 @@ export default function DenmarkCustomBenefitsSection() {
                 key={index}
                 className={`custom-benefits-item ${
                   index === activeIndex ? "active" : ""
-                }`}
+                }      ${item.minWid ? "extclassMinWid" : ""} ${item.exminWid ? "exminWidclas" : ""} ${item.minWid1 ? "minWid1" : ""} ${item.exminWid2 ? "exminWid2" : ""}`}
                 onClick={() => setActiveIndex(index)}
               >
                 <span className="custom-benefits-dot" />

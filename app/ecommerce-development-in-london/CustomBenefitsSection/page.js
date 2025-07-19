@@ -6,12 +6,14 @@ import './custombenfit.css';
 const benefits = [
   {
     title: "Personalized Shopping Experience",
+     minWid: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764190/Mask_group_16_oi6gcy.png",
     description:
       "With a bespoke ecommerce site, you can line up product suggestions, headlines, and special deals to match what each visitor has already done. The result feels personal, keeps shoppers interested, lifts their happiness, and encourages them to come back.",
   },
   {
     title: " Higher Conversion Rates",
+     minWid1: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764189/Mask_group_17_dkxalb.png",
     description:
       "When the whole store speaks to your target audience and the goals you set, buying feels easy rather than clumsy. Coupled with clear CTAs and tidy paths from browse to checkout, this layout steadily pushes conversion rates north.",
@@ -36,24 +38,28 @@ const benefits = [
   },
   {
     title: "Secure Payment Gateways",
+     minWid1: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_21_ynyqfc.png",
     description:
       "We link your store to highly regarded, PCI-safe gateways such as Stripe and PayPal. Shoppers know their card data is protected, so they feel at ease and that helps you earn their trust.",
   },
   {
     title: "Easy Checkout Process",
+     minWid1: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_22_yyaiul.png",
     description:
       "A clear, no-fuss checkout cuts cart drop-offs and leaves buyers happy. Since each step can be tailored, customers breeze through the process, and you keep the sale.",
   },
   {
     title: "Third-Party Integrations",
+     minWid: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_23_bn1ywe.png",
     description:
       "Plug your shop into any favorite marketing app, stock tool, CRM, or ERP. Seamless links let you automate routine work, run operations smoothly, and grow without headaches.",
   },
   {
     title: "Long-Term Cost Efficiency",
+     minWid: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_24_lyevyw.png",
     description:
       "Custom build-outs may cost more upfront, but they pay you back over time. You dodge endless subscription bills, enjoy full control, and shape a system that scales with your success.",
@@ -61,7 +67,7 @@ const benefits = [
 ];
 
 export default function CustomBenefitsSection() {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(3);
 
   return (
     <section className="custom-benefits-section">
@@ -76,9 +82,11 @@ export default function CustomBenefitsSection() {
         <div className="custom-benefits-grid">
           <ul className="custom-benefits-list">
             {benefits.map((item, index) => (
-              <li
+             <li
                 key={index}
-                className={`custom-benefits-item ${index === activeIndex ? "active" : ""}`}
+                className={`custom-benefits-item ${
+                  index === activeIndex ? "active" : ""
+                }      ${item.minWid ? "extclassMinWid" : ""} ${item.exminWid ? "exminWidclas" : ""} ${item.minWid1 ? "minWid1" : ""} ${item.exminWid2 ? "exminWid2" : ""}`}
                 onClick={() => setActiveIndex(index)}
               >
                 <span className="custom-benefits-dot" />

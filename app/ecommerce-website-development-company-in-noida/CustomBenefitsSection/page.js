@@ -61,7 +61,7 @@ const benefits = [
 ];
 
 export default function CustomBenefitsSection() {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(3);
   
 
   return (

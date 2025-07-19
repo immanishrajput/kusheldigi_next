@@ -9,20 +9,17 @@ function BelgiumMakeUs() {
         <div className="different1-left">
           <h2>What makes us different?</h2>
           <p>
-            Your online store will be built specifically for your brand with
-            Kushel Digi Solutions because we know that every ecommerce business
-            is different. We prioritize understanding your objectives and target
-            market in order to create a custom ecommerce solution. You can count
-            on us to build an online store for you that is smooth, fast,
-            flexible, and user-first as we expertly guide you on the most
-            suitable platform selection, theme customization, and intelligent
-            payment gateway integration.
+            With a smart, profile-driven approach to ecommerce development, you
+            can turn clicks into customers. Create paths for users that lead to
+            sales. The experience of mobile users is important—all devices are
+            set up to help you attract and keep more customers.
           </p>
           <p>
-            Our seasoned industry experts utilize cutting-edge technologies to
-            ensure that every online retail platform they design is not only
-            beautiful but also protected, easily manageable as your business
-            grows, and ready to convert customers from the very beginning.
+            Platforms that are safe and can grow – A strong, sure plan will give
+            you the freedom to grow. Driven by data, analytics tools make it
+            easier than ever to make business choices by automatically analyzing
+            data. Get more value for your customers with smart ecommerce
+            solution development
           </p>
         </div>
         <div className="different1-right">

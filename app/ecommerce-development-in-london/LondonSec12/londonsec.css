@@ -144,11 +144,17 @@
   .ecom-content {
     padding: 0px;
     width: 100%;
+        display: flex;
+    flex-direction: column;
+      align-items: center;
   }
+
 
   .heaaader-content h5 {
     font-size: 20px;
-  }
+  }.ext-btn-b2b{
+  text-align: center !important;
+}
 
   .linkss ul {
     flex-direction: row;

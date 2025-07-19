@@ -158,6 +158,9 @@
   .minWid1{
     min-width: 319px !important;
   }
+   .minWid3{
+    min-width: 333px !important;
+  }
    /* .minWid1.active{
     min-width: 319px !important;
   } */
@@ -237,6 +240,9 @@
   }
    .exminWid2{
     min-width: 170px !important;
+  }
+  .minWid3{
+    min-width: 259px !important ;
   }
 /* 
     .extclassMinWid.active{

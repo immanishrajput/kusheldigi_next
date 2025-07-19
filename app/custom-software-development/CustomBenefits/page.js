@@ -36,7 +36,7 @@ const contentData = [
 ];
 
 const CustomBenefits = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(3);
 
   return (
     <div className="custom-benefits-section">
