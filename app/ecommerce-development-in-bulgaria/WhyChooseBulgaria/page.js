@@ -5,33 +5,33 @@ import "./whybelgium.css";
 const features = [
   {
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073420/Group_1171281413_b7dwf6.png",
-    title: "Results-oriented",
-    desc: "We have 10+ years of experience in delivering quality results. No fluff, only results.",
+    title: "Focused on Results",
+    desc: "We've been getting good results for more than 10 years. Not any filler, just results.",
   },
   {
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073419/Group_1171281412_m4wjmx.png",
-    title: "Tailored Strategies",
-    desc: "We believe no business is the same. Our expert team understands the requirements and makes custom strategies for different businesses.",
+    title: "Plans that Fit your Needs",
+    desc: "We think every business is different. Our professional team knows what each business needs and makes plans that fit those needs.",
   },
   {
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073409/Group_1171281523_k2vfml.png",
     title: "Cutting-Edge Technology",
-    desc: "We use the latest technologies and tools to drive effective and faster results.",
+    desc: "We use the newest technologies and tools to get things done faster and better.",
   },
   {
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281524_ksva3g.png",
     title: "Proven Results",
-    desc: "We have proven results from various businesses. Our expert team delivers real results.",
+    desc: "We have data from different businesses that you can see. Our skilled team gets things done.",
   },
   {
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281525_qnpwgi.png",
-    title: " Customer-Centric Approach",
-    desc: "Your goal is our priority. You ask and we deliver.",
+    title: "Focusing on the Customer",
+    desc: "We put your goal first. We give you what you ask for.",
   },
   {
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281414_nyzkrn.png",
-    title: "Affordable Excellence",
-    desc: "We believe in delivering quality results within a budget so that start-ups can also use our services.",
+    title: "Quality at a Low Cost",
+    desc: "So that start-ups can also use our services, we believe in getting good results on a budget.",
   },
 ];
 
@@ -40,10 +40,11 @@ const WhyChooseBulgaria = () => {
     <section className="why-choose-section">
       <div className="why-choose-wrapper">
         <h2 className="why-choose-heading">
-         Why Kushel Digi Solutions is Your Best Choice?
+          Why Choose Kushel Digi Solutions?
         </h2>
         <p className="why-choose-subtext">
-         We create ecommerce websites that are scalable, ERP and CMS integrated, mobile-friendly, along with SEO best practices to drive conversions from the start.
+          When we make ecommerce sites, we make sure they are mobile-friendly,
+          scalable, and use SEO best practices to get people to buy right away.{" "}
         </p>
       </div>
 

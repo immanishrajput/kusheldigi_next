@@ -11,7 +11,7 @@ function BulgariaCardSection() {
       <h3 className="plt-head primary-heading">Powering Your Growth with Top E-commerce Platforms
 </h3>
       <p className="plt-para secondary-heading">
-       We design fast, secure, tailor-made, and scalable online stores that grow along with your business using popular platforms like Shopify, WooCommerce, and Magento. Creating a new website or migrating the old one, we are here for you. Our skilled team takes care of every step. 
+       We design fast, secure, tailor-made, and scalable online stores that grow along with your business using popular platforms like Shopify, WooCommerce, and Magento.Whether Creating a new website or migrating the old one, we are here for you. Our skilled team takes care of every step. 
 
       </p>
       <div className="plt-cards">

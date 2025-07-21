@@ -6,59 +6,60 @@ import { useRouter } from 'next/navigation';
 const features = [
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965474/Mask_group_75_obmlwf.png",
-    title: " Expert E-Commerce Advice",
+    title: "Expert E-Commerce Advice",
     description:
-      "As a leading e-commerce website development Company, we advise businesses to choose the right strategy and software selections. From start to end, our experts consult every bit to meet their ecommerce store requirements."
+      "As a leading ecommerce website development Company, we advise businesses to choose the right strategy and software selections. From start to end, our experts consult every bit to meet their ecommerce store requirements."
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965473/Mask_group_76_jziqdb.png",
     title: "E-Commerce Website Design",
     description:
-      `We don't believe in pre-made templates. Every website is unique, and so are their designs. We design according to the needs and requirements of businesses. It ensures a strong online presence and improved user engagement. `
+      "We don't believe in creating websites through pre-made templates. We create custom websites tailored to your needs and wants. It ensures uniqueness, attractive and dedicated to your brand goals."
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965473/Mask_group_77_syi4ue.png",
     title: "Mobile-optimized Stores",
     description:
-      `We understand that most of the users come from mobile devices. All our websites are mobile-friendly, offering seamless experiences across all platforms. `
+      "We understand that most of your visitors are mobile users, so we ensure the ecommerce store is mobile responsive and works well on all devices."
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965468/Mask_group_78_d9e39s.png",
-    title: " Platform-Based E-Commerce Development",
+    title: "Platform-Based E-Commerce Development",
     description:
-      `We specialize in creating websites on different platforms like Shopify, Magento, WooCommerce, and more. As a top ecommerce website development company in Bulgaria, we choose the best platform for your online store.`
+      "Our expert team specializes in creating online stores using different platforms like WooCommerce, Shopify and Magento. As a trusted ecommerce development company in Bulgaria, we suggest the best platforms for your business."
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_79_sv7ryx.png",
     title: "E-Commerce Website Design",
     description:
-      `Our expert team creates mesmerizing website designs for the online store that catch users’ attention. We make sure the ecommerce websites are user-friendly and work effortlessly on all devices. `
+      "Our expert team creates mesmerizing website designs for the online store that catch users’ attention. We make sure that the ecommerce sites are easy for anyone to use and that they work well on all devices."
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_80_xj1zov.png",
-    title: "Third-Party Integrations",
+    title: "Adding Third-Party Features",
     description:
-      `We integrate third-party platforms like CRMs, payment gateways, shipping tools, and marketing software. It ensures business operations are smoother and faster. `
+      "CRMs, payment systems, shipping tools, and marketing apps are some of the third-party platforms that we use. It makes sure that the business runs more smoothly and quickly."
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_81_ct53bt.png",
-    title: "E-Commerce Migration Services",
+    title: "E-Commerce Migration",
     description:
-      `Want to change your store? We are here to solve your problems. We handle complete store migration- products, catalogs, orders, and so on. We ensure zero downtime and no loss of SEO rankings. `
+      "Do you want to change your shop? This is where we come in to help you. We move your whole store, including your goods, brochures, sales, and other things. There will be no downtime, and your SEO results will not drop."
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_82_mpn6s4.png",
-    title: "Ongoing Support",
+    title: "Ongoing Help",
     description:
-      `As a top ecommerce development agency in Bulgaria, we provide endless updates, performance monitoring, feature upgrades, and technical support to keep your store running at peak performance.`
+      "As the best ecommerce development company in Bulgaria, we offer ongoing help and maintenance, such as fixing bugs, keeping plugins up to date, and adding new features to make sure everything runs smoothly."
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_82_mpn6s4.png",
-    title: " E-Commerce Performance Audit",
+    title: "E-Commerce Performance Audit",
     description:
-      `We assess your shop's SEO, UX, speed, and structure. With our comprehensive eCommerce audit service, you'll have a clear path to improve site health, increase traffic, and enhance conversions.`
+      "We look at the SEO, UX, speed, and layout of your shop. With our full ecommerce audit service, it will be easy to make your site healthier, get more visitors, and make more sales."
   }
 ];
+
 
 const scrollToFormHome = () => {
   const formSection = document.getElementById('form-section');

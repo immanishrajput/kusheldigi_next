@@ -14,8 +14,8 @@ const BulgariaSolution = () => {
           <p>
             Kushel Digi Solutions has been developing quick, safe, and strong
             bespoke ecommerce websites for more than 1,000 customers across the
-            globe for decades. We are here to assist companies reach their goals
-            in a way that works for them.
+            globe for decades. We are here to assist companies in reaching their
+            goals in a way that works for them.
           </p>
           <Link href="/contact-us">
             <button>Get a Free Consultation Today</button>{" "}
