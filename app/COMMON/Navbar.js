@@ -583,7 +583,9 @@ const Navbar = () => {
                                       Magento{" "}
                                     </Link>
                                     <span>|</span>
-                                    <Link href="/woocommerce">WooCommerce </Link>
+                                    <Link href="/woocommerce">
+                                      WooCommerce{" "}
+                                    </Link>
                                   </div>
                                 </div>
                                 <div className="left-side-servises-containt">
@@ -740,7 +742,7 @@ const Navbar = () => {
                           <Link
                             className="sar descfont textTransform-navbar"
                             href="/blog"
-                          //  target="_blank"
+                            //  target="_blank"
                           >
                             Blogs
                           </Link>
@@ -768,41 +770,54 @@ const Navbar = () => {
                         <div className="loc-nav megaMenu">
                           <div className="loc-dropmenu-main">
                             <div className="loc-left">
-                              <div className="dummy">
-                                <Link href="/ecommerce-development-in-london">
-                                  <span>London</span>
+                              <div className="dummy ">
+                                {" "}
+                                <Link className="ext-flagD" href="/">
+                                <img className="img-flag-con"  src="https://res.cloudinary.com/dxlykgx6w/image/upload/v1753094658/european-union_coalcr.png" alt="Europe_Flag" />  <strong className="ext-dummy">Europe</strong>
                                 </Link>
                               </div>
-                              <div className="dummy">
+                              <div className="dummy ">
                                 {" "}
                                 <Link href="/ecommerce-development-in-belgium">
-                                  <span>Belgium</span>
+                                  <span className="hover-country-ext">Belgium</span>
                                 </Link>
                               </div>
-                              <div className="dummy">
+                              <div className="dummy ">
                                 {" "}
                                 <Link href="/ecommerce-development-in-denmark">
-                                  <span>Denmark</span>
+                                  <span className="hover-country-ext">Denmark</span>
                                 </Link>
                               </div>
-                              
-                            </div>
-                            <div className="loc-right">
-                              <div className="dummy">
+
+                              <div className="dummy ">
                                 {" "}
                                 <Link href="/ecommerce-development-in-finland">
-                                  <span>Finland</span>
+                                  <span className="hover-country-ext">Finland</span>
                                 </Link>
                               </div>
-                              <div className="dummy">
+                              <div className="dummy ">
                                 {" "}
                                 <Link href="/ecommerce-development-in-ireland">
-                                  <span>Ireland</span>
+                                  <span className="hover-country-ext">Ireland</span>
                                 </Link>
                               </div>
-                              <div className="dummy">
+                              <div className="dummy ">
                                 <Link href="/ecommerce-development-in-bulgaria">
-                                  <span>Bulgaria</span>
+                                  <span className="hover-country-ext">Bulgaria</span>
+                                </Link>
+                              </div>
+                            </div>
+                            <div className="loc-right">
+                              <div className="dummy ">
+                                <Link className="ext-flagD" href="/">
+                                 <img className="img-flag-con" src="https://res.cloudinary.com/dxlykgx6w/image/upload/v1753093834/united-kingdom_uflwsf.png" alt="UK_Flag" /> <strong className="ext-dummy">
+                                    United Kingdom
+                                  </strong>
+                                </Link>
+                              </div>
+                              <div className="dummy ">
+                                <Link href="/ecommerce-development-in-london">
+                                  <span className="hover-country-ext">London</span>
                                 </Link>
                               </div>
                             </div>
@@ -974,8 +989,9 @@ const Navbar = () => {
                                     .classList?.toggle("mob-nav2-active");
                                 }
                               }}
-                              className={` cursor-pointer ${curopen === index && "curopensf"
-                                }`}
+                              className={` cursor-pointer ${
+                                curopen === index && "curopensf"
+                              }`}
                             >
                               {item?.title}
                             </p>
@@ -1055,7 +1071,6 @@ const Navbar = () => {
             </div>
           </div>
         </nav>
-
       </header>
     </>
   );

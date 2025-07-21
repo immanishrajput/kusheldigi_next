@@ -22953,7 +22953,9 @@ body {
 .navbar ul li:hover .megaMenu {
   display: block;
 }
-
+.ext-dummy{
+  font-weight: 700;
+}
 .megaMenu {
   display: none;
 }
@@ -50671,16 +50673,32 @@ option {
   gap: 75px;
   padding: 15px;
 }
-
+.hover-country-ext{
+text-align: center;
+}
+.hover-country-ext:hover{
+color: #0c61ff !important;
+transition: 0.3s ease-in-out;
+border-bottom: 1px solid blue !important;
+/* font-weight: 600 !important; */
+}
 .loc-dropmenu-main {
+  /* margin-top: 5px; */
   background-color: #fff;
-  width: 220px;
+  width: 300px;
   display: flex;
   justify-content: space-around;
   gap: 20px;
   padding: 15px;
 }
-
+.ext-flagD{
+  display:flex;
+  gap: 5px;
+}
+.img-flag-con{
+  height: 20px;
+  width: 20px;
+}
 .hired-left span,
 .hired-right span {
   font-family: "Poppins", sans-serif !important;
@@ -50699,6 +50717,10 @@ option {
   line-height: 40px !important;
   text-align: left !important;
   color: #202020 !important;
+}
+.loc-left strong,
+.loc-right strong{
+font-size: 16px !important;
 }
 
 .hired-left :hover span {

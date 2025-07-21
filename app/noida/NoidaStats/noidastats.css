@@ -49,8 +49,8 @@
 
 .ptag-service {
   font-size: 18px;
-  min-height: 180px;
-  text-align: center;
+  min-height: 150px;
+  text-align: left;
 }
 
 .stat-icon {
@@ -64,11 +64,11 @@
 }
 
 .service-title {
-  font-size: 27px;
-  line-height: 38px;
-  font-weight: 600;
-  text-align: center;
-  padding-bottom: 10px;
+  font-size: 29px;
+    line-height: 33px;
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 10px;
 }
 
 .stat-icon img {

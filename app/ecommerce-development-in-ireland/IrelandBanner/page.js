@@ -91,74 +91,74 @@ const IrelandBanner = () => {
     }));
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-
-    const phone = phoneInputRef.current?.value || "";
-
-    if (!formData.name || !formData.email || !phone) {
-      toast.error("Please fill all the fields!");
-      return;
-    }
-    // const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-    const emailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.[a-zA-Z]{2,}$/;
-
-    if (!emailRegex.test(formData.email)) {
-      toast.error("Invalid email address!");
-      return;
-    }
-    if (
-      formData.name.trim() === "" ||
-      phone.trim() === "" ||
-      formData.email.trim() === ""
-    ) {
-      toast.error("Please fill all the fields!!");
-      return;
-    }
-    if (!captchaVerified) {
-      toast.error("Please Verify the Captcha!!");
-      generateCaptcha();
-      return;
-    }
-    if (parseInt(userAnswer) !== correctAnswer) {
-      toast.error("Wrong Captcha! Try again.");
-      generateCaptcha();
-      setCaptchaVerified(false);
-      return;
-    }
-
-    setLoading(true);
-
-    try {
-      const dataToSend = {
-        ...formData,
-        phone,
-      };
-      const response = await fetch("https://backend.kusheldigi.com/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          mode: "no-cors",
-        },
-        body: JSON.stringify(dataToSend),
-      });
-      const result = await response.json();
-      console.log("Result--->>", result);
-
-      if (response.ok || response.success === true || response.status === 200) {
-        router.push("/thankyou");
-      } else {
-        alert(`❌ Failed to send email: ${result.message || "Unknown error"}`);
-      }
-    } catch (error) {
-      console.error("❌ Error while sending email:", error);
-    } finally {
-      setLoading(false);
-      setFormData({ name: "", email: "" });
-      phoneInputRef.current.value = ""; // reset manually
-      generateCaptcha();
-    }
-  };
+ const handleSubmit = async (e) => {
+       e.preventDefault();
+   
+       const phone = phoneInputRef.current?.value || "";
+       const phoneDigitsOnly = phone.replace(/\D/g, ""); // Only digits
+   
+       if (!formData.name || !formData.email || !phone) {
+         toast.error("Please fill all the fields!");
+         return;
+       }
+   
+       const emailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.[a-zA-Z]{2,}$/;
+       if (!emailRegex.test(formData.email)) {
+         toast.error("Invalid email address!");
+         return;
+       }
+   
+       if (phoneDigitsOnly.length !== 9) {
+         toast.error("Phone number must be exactly 9 digits!");
+         return;
+       }
+   
+       if (!captchaVerified) {
+         toast.error("Please Verify the Captcha!!");
+         generateCaptcha();
+         return;
+       }
+   
+       if (parseInt(userAnswer) !== correctAnswer) {
+         toast.error("Wrong Captcha! Try again.");
+         generateCaptcha();
+         setCaptchaVerified(false);
+         return;
+       }
+   
+       setLoading(true);
+   
+       try {
+         const dataToSend = {
+           ...formData,
+           phone: phoneDigitsOnly, // send clean number
+         };
+         const response = await fetch("https://backend.kusheldigi.com/contact", {
+           method: "POST",
+           headers: {
+             "Content-Type": "application/json",
+             mode: "no-cors",
+           },
+           body: JSON.stringify(dataToSend),
+         });
+   
+         const result = await response.json();
+         console.log("Result--->>", result);
+   
+         if (response.ok || response.success === true || response.status === 200) {
+           router.push("/thankyou");
+         } else {
+           alert(`❌ Failed to send email: ${result.message || "Unknown error"}`);
+         }
+       } catch (error) {
+         console.error("❌ Error while sending email:", error);
+       } finally {
+         setLoading(false);
+         setFormData({ name: "", email: "" });
+         phoneInputRef.current.value = ""; // reset manually
+         generateCaptcha();
+       }
+     };
 
    const scrollToFormHome = () => {
         const formSection = document.getElementById('form-section');
@@ -257,17 +257,26 @@ const IrelandBanner = () => {
 
               <div className="form-phone-wrapper">
                 {/* <span className="form-country-code">(+1)</span> */}
-                <input
-                  type="tel"
-                  name="phone"
-                  placeholder="Mobile Number*"
-                  maxLength={10}
-                  className="form-input phone-input"
-                  // value={formData?.phone}
-                  // onChange={handleChange}
-                  ref={phoneInputRef}
-                  required
-                />
+                 <input
+                                 type="tel"
+                                 name="phone"
+                                 placeholder="Mobile Number*"
+                                 
+                                 className="form-input phone-input"
+                                 // value={formData?.phone}
+                                 // onChange={handleChange}
+                                 ref={phoneInputRef}
+                                  onInput={(e) => {
+                                   const digits = e.target.value.replace(/\D/g, ""); // remove non-digits
+                                   if (digits.length <= 9) {
+                                     e.target.value = digits;
+                                   } else {
+                                     e.target.value = digits.slice(0, 9); // trim to 11
+                                     toast.error("Only 9 digit phone number allowed!");
+                                   }
+                                 }}
+                                 required
+                               />
               </div>
 
               <div className="captcha-box">
