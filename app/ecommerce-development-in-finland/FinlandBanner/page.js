@@ -181,7 +181,7 @@ const FinlandBanner = () => {
             </h1>
             <p className="denmark-banner-subtext">
               Are you trying to find an online business that converts clicks
-              into sales? At Kushe Digi Solutions, a leading ecommerce
+              into sales? At Kushel Digi Solutions, a leading ecommerce
               development company in Finland, we offer custom website designs
               that are fast, secure, flexible, mobile-friendly, with post-launch
               support and third-party integrated. We are here to help you along
