@@ -111,7 +111,7 @@ function BulgariaSecSlider() {
                 <h2 className="case-study-title left-title">{study.title}</h2>
                 <div className="case-study-tags">
                   {study.tags.map((tag, idx) => (
-                    <span key={idx} className="case-study-tag">
+                    <span key={idx} className={`case-study-tag ${idx===1?"new-Width":""}`}>
                       {tag}
                     </span>
                   ))}
