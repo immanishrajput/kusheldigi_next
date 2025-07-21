@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import "./features.css"
+import "./features.css";
 
 const features = [
   {
@@ -30,6 +30,7 @@ const features = [
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1750412930/Mask_group_90_jqaj34.png",
     title: "Scalable Architecture",
+    border: "true",
     description:
       "Our architecture may grow with us in the future. As you grow, so does your online shop. Its design, product catalogs, new product add-ons, and so on.",
   },
@@ -44,10 +45,15 @@ const features = [
 export default function EcommerceFeatures() {
   return (
     <section className="featuresstop1-section">
-      <h2 className="featuresstop1-heading">What Are the Top Features of Our E-commerce Websites?</h2>
+      <h2 className="featuresstop1-heading">
+        What Are the Top Features of Our E-commerce Websites?
+      </h2>
       <div className="featuresstop1-grid">
         {features.map((item, index) => (
-          <div key={index} className="featuresstop1-box">
+          <div
+            key={index}
+            className={`featuresstop1-box ${item.border ? "border-box" : ""}`}
+          >
             <img src={item.icon} alt={item.title} />
             <h3>{item.title}</h3>
             <p>{item.description}</p>

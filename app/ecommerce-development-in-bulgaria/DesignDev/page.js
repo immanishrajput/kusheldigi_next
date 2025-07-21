@@ -37,7 +37,7 @@ const designData = {
 };
 
 const developmentData = {
-  paragraph: `Our development ecom-process emphasizes quality and clean architecture, so the code is always scalable. We observe industry best practices during testing phases and ongoing maintenance tasks.`,
+  paragraph: `At Kushel Digi Solutions, we focus on quality and clear architecture in our development process, which ensures that the code can always be scaled. During testing and continuous maintenance, we use the finest procedures in the industry. `,
   columns: [
     {
       title: "ARCHITECTURE",
@@ -45,7 +45,7 @@ const developmentData = {
     },
     {
       title: "DEVELOPMENT",
-      items: ["Frontend Dev", "Backend Dev", "Database"],
+      items: ["Frontend ", "Backend ", "Database"],
     },
     {
       title: "QUALITY TEST",

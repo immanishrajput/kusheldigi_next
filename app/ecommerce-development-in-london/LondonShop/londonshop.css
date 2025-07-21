@@ -110,7 +110,6 @@
   .Conversions1-left h2 {
     font-size: 22px;
     text-align: center;
-
   }
 
   .Conversions1-left li,
@@ -128,7 +127,6 @@
   .Conversions1-left h2 {
     font-size: 20px;
     text-align: center;
-
   }
 
   .Conversions1-dashlist li {
@@ -139,5 +137,11 @@
   .Conversions1-left p {
     font-size: 13px;
     text-align: center;
+  }
+}
+
+@media (max-width: 408px) {
+  .Conversions1-left li {
+    text-align: start;
   }
 }

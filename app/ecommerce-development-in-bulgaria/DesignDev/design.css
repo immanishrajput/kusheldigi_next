@@ -262,7 +262,8 @@
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 50px auto;
+    margin: 50px ;
+    /* margin-left: 20px; */
   }
 
   .switch-circle.right {
@@ -282,11 +283,16 @@
   }
 
   .ecom-process-column li {
-    font-size: 14px;
+    font-size: 13px;
     /* text-align: center; */
   }
 }
 
+@media (max-width: 405px) {
+.ecom-process-columns{
+  margin: auto;
+}
+}
 @media (max-width: 375px) {
   .ecom-process-toggle {
     flex-direction: column;
