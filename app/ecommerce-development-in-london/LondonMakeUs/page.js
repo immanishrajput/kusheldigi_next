@@ -8,7 +8,7 @@ function LondonMakes() {
     <section className="different1-wrapper">
       <div className="different1-container">
         <div className="different1-left">
-          <h2>What Makes Us Different?</h2>
+          <h2>What Sets Us Apart from Our Competitors?</h2>
           <p>
             At KushelDigi Solutions, we think creating an ecommerce site is more than just a slick look- helping our clients meet their goals and guiding shoppers where they want to go matters most.
           </p>

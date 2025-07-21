@@ -11,7 +11,7 @@ function LondonCardSection() {
       <h3 className="plt-head primary-heading">Delivering Results with Leading E-Commerce Platforms</h3>
       <p className="plt-para secondary-heading">
         At KushelDigi Solutions, we build lightning-fast, secure stores on Shopify, WooCommerce, and Magento, all backed by their vast ecosystems.
-        From custom code to gentle migrations or full-feature upgrades, our developers combine experience and care to deliver exactly what you need.
+        From custom code to gentle migrations or full-feature upgrades, our developers combine experience and care to deliver exactly what you need.Your store deserves the best, and we are here to deliver it.
 
       </p>
       <div className="plt-cards">
@@ -34,7 +34,7 @@ function LondonCardSection() {
             <li className="plt-li"> B2B eCommerce Solutions with BigCommerce</li>
             <li className="plt-li"> D2C eCommerce Solutions with BigCommerce</li>
             <li className="plt-li"> BigCommerce for Regulated & Niche Industries</li>
-            <li className="plt-li"> BigCommerce Headless Commerce Development</li>
+            <li className="plt-li">  Headless Commerce Development on BigCommerce</li>
             <li className="plt-li"> Full-Service BigCommerce Website Development</li>
             <li className="plt-li"> BigCommerce Development for Healthcare Brands</li>
           </ul>

@@ -8,13 +8,13 @@ const steps = [
   {
     number: "01",
     title: "Understanding Business Objectives",
-    desc: "We begin by sitting down with you to clarify what success looks like for your store. Knowing your goals guides our approach and lets us map out tactics that fit your day-to-day needs.",
+    desc: "We start our work by understanding your goals, target audience and business model. and lets us map out tactics that fit your day-to-day needs.",
     color: "green",
   },
   {
     number: "02",
     title: "Planning Strategically",
-    desc: "Then we dig into competitor sites, industry trends, and real user journeys. The insights let us craft a plan that's truly yours and keeps the path to great results clear.",
+    desc: "Then we have a look at competitor sites, industry trends, and real user journeys. The insights let us craft a plan that's truly yours and keeps the path to great results clear.",
     color: "red",
   },
   {
@@ -50,10 +50,11 @@ const steps = [
   {
     number: "08",
     title: "Post-Launch Support",
-    desc: "After release, we keep watching the numbers, offer quick fixes, and share ideas, so your e-commerce brand never stops climbing.",
+    desc: "After release, we keep watching the numbers, offer quick fixes, and share ideas, so your ecommerce brand never stops climbing.",
     color: "red",
   },
 ];
+
 
 
 

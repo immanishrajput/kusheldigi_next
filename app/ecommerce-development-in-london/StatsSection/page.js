@@ -5,31 +5,31 @@ import './stats.css';
 const stats = [
   {
     icon: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1750061987/Group_1171281270_w0ruti.png',
-    title: 'E-Commerce Success Stories',
+    title: 'Success Stories in E-Commerce',
     
     values: [
-      { number: '120+', label: 'Successful Projects Delivered' },
-      { number: '100+', label: 'Trusted Brands & Clients' },
+      { number: '120+', label: 'Projects That Worked Delivered ' },
+      { number: '100+', label: 'Clients and Brands You Can Trust' },
     ],
     className: 'card-blue',
   },
   {
     icon: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1750061987/Group_1171281271_y74agq.png',
-    title: 'Driving Real Results',
+    title: 'Getting Real Results',
     values: [
-      { number: '1M+', label: 'Orders Processed Smoothly' },
-      { number: '£2M+', label: 'Revenue Generated' },
+      { number: '1M+', label: 'Over 1M orders; processed smoothly' },
+      { number: '£2M+', label: 'More than £2M in sales' },
     ],
     className: 'card-yellow',
   },
   {
     icon: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1750061987/Group_1171281269_xafwik.png',
-    title: 'Growing Community',
+    title: 'Getting More Community',
     values: [
       {
-        number: '1M+',
+        number: '1.2M+',
         label:
-          'Active & Engaged Customers | Boosting repeat purchases, customer loyalty, and long-term sales growth.',
+          'active and interested customers | Long-term sales increase, customer trust, and return orders all go up.',
       },
     ],
     className: 'card-green',

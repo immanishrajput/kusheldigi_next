@@ -17,7 +17,7 @@ const scrollToFormHome = () => {
     <section className="ecom-section">
       <div className="ecom-container">
         <h2 className="ecom-heading">
-          Features Of Our E-commerce <br className="hide-on-mobile" /> Websites
+    What Are the Main Reasons to Choose Our  <br className="hide-on-mobile" /> E-Commerce Websites?
         </h2>
 
         <div className="ecom-grid">
@@ -42,48 +42,49 @@ const scrollToFormHome = () => {
 const features = [
   {
     id: 1,
-    title: "Tailor-Made for Your Business",
-    text: "Every store is built around your products and customers, so it feels like home to both.",
+    title: "Made Just for Your Business",
+    text: "Every shop is made with your goods and consumers in mind, so it feels like home to both.",
   },
   {
     id: 2,
-    title:"Scalable for Future Growth",
-    text: "When your goals get bigger, your site can stretch with them. New features, extra traffic, or a fresh payment method- no sweat.",
+    title: "Can Grow in the Future",
+    text: "Your site may grow with your ambitions as they become larger. No problem if you need more features, more visitors, or a new way to pay.",
   },
   {
     id: 3,
-    title:"Evolves with Your Brand",
-    text: " Built to change alongside your vision, our platforms keep you ready for the next big idea.",
+    title: "Evolves with Your Brand",
+    text: "Our platforms are designed to adapt to your vision, so you'll always be ready for the next great idea.",
   },
   {
     id: 4,
-    title:"SEO-Optimized for Maximum Visibility",
-    text: "We plant smart, proven SEO habits on every page, so search engines notice you sooner and shoppers find you naturally.",
+    title: "SEO-Optimized E-Commerce Store",
+    text: "We use clever, tried-and-true SEO practices on every page so that search engines discover you faster and buyers find you organically.",
   },
   {
     id: 5,
-    title:"Built-in Site Analytics",
-    text: "Every site includes traffic and behavior dashboards that help you see who visits, how they move, and where sales drop.",
+    title: "Advanced Site Analytics",
+    text: "Every site has traffic and behavior dashboards that show you who comes, how they move around, and where sales decline.",
   },
   {
     id: 6,
-    title:"No-Code Meta Tag Control",
-    text: "Change page titles, descriptions, and keywords straight from the dashboard- nothing more technical than a form.",
+    title: "Control Meta Tags Without Code",
+    text: "You may change page names, descriptions, and keywords right from the dashboard. All you need to do is fill out a form.",
   },
   {
     id: 7,
-    title:"ERP and Inventory Links",
-    text: "We plug your store into any back-office system so orders, stock, and reports flow without duplicate entries.",
+    title: "Links Between ERP and Inventory",
+    text: "We connect your business to any back-office system so that orders, stock, and reports all go through without any extra inputs.",
   },
   {
     id: 8,
-    title:"Smart Automation Tools",
-    text: "Automatic email alerts, stock notices, and shipment tracking trim manual tasks and let your team focus on growth.",
+    title: "Tools for Smart Automation",
+    text: "Automatic email notifications, stock updates, and shipping monitoring cut down on manual work so your team can concentrate on growth.",
   },
   {
     id: 9,
-    title:"Custom Back-End Modules",
-    text: "Need a special workflow? We craft flexible panels that fit your business, making daily management quick and clear.",
+    title: "Custom Modules for the Back End",
+    text: "Want a unique workflow? We make panels that are versatile and suit your company, which makes it easy to handle every day.",
   },
 ];
+
 export default EcommerceFeatures;

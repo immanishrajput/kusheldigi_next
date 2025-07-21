@@ -6,59 +6,61 @@ import './ecomserv.css';
 const features = [
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965474/Mask_group_75_obmlwf.png",
-    title: "Customized E-Commerce Creation",
+    title: "Custom E-Commerce Store",
     description:
-      "We do not use pre-made templates; instead create fresh and customized templates for each business. We create scalable, unique ecommerce websites that are suited to your audience, brand, and objectives."
+      "Pre-made templates are not our style, as we prefer to create new ones based on our clients' needs. Your organization and business goals, audience and objectives will determine how flexible and unique your ecommerce site will be. We do not constrain ourselves to industry standards and are able to provide tailored solutions for every client."
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965473/Mask_group_76_jziqdb.png",
-    title: " Expert WooCommerce & WordPress Integration",
+    title: "A Powerful Mix of WordPress and WooCommerce",
     description:
-      `Our team builds Powerful platforms with seamless performance and plugin support by using the versatility of WordPress and WooCommerce.`
+      "Our team is capable of building efficient systems with proper functioning and plugin handling due to the versatility of WordPress and WooCommerce. It is also possible to construct powerful integrated systems."
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965473/Mask_group_77_syi4ue.png",
     title: "Conversion-Focused Shopify Store Development",
     description:
-      `We create Designs That Turn Visitors Into buyers. Our team makes it simple for your clients to peruse, buy, and return.`
+      "We do a great job of generating attention remarkably while your prospective customers find it remarkably easy to browse, shopping, and come back for more."
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965468/Mask_group_78_d9e39s.png",
-    title: "Mobile-Responsive eCommerce Design",
+    title: "Mobile-responsive Online Stores",
     description:
-      `Because shoppers now buy almost everything from their phones, our flexible layouts guarantee your site displays and performs beautifully on desktops, tablets, and handhelds alike.`
+      "Since almost everything is purchased by clients on smartphone devices, we make sure that these as well as your website, perform correctly and look appealing on all gadgets."
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_79_sv7ryx.png",
-    title: "SEO-Optimized eCommerce Integration",
+    title: "E-Commerce Integrated with SEO",
     description:
-      ` We adhere to SEO best practices during development to improve your store's search engine ranking and organic traffic from day one.`
+      "In your store’s creation phase, we use top-quality SEO methods to ensure a positive ranking on search engines so you can reap free traffic almost instantly."
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_80_xj1zov.png",
-    title: "Secure Payment Gateway Integration",
+    title: "Integration of Safe Payment Methods",
     description:
-      `We connect reputable payment systems such as Stripe and PayPal to give your consumers a seamless and safe checkout experience.`
+      "Your customers’ safety is taken care of for Revilon checkout as we combine highly known payment processors like PayPal and Stripe to the checkout process, making it seamless and safe."
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_81_ct53bt.png",
-    title: "Integrated Analytics for E-Commerce Insights",
+    title: "Integrated Analytics: Learn About E-Commerce",
     description:
-      `Keep track of what matters the most. We installed integrated analytics and tracking solutions to assist you in comprehending sales performance, consumer behavior, and expansion prospects.`
+      "This is the top-of-the-line information. We installed everything and tracking systems that work within each other, which make basic customer behavior, sales trends, and potential analysis possible."
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_82_mpn6s4.png",
-    title: "AI-Powered Personalization",
+    title: "AI Customization",
     description:
-      `More intelligent experiences while shopping. We include AI-powered suggestions and customization features that improve client satisfaction, sales, and engagement.`
+      "Improved design and customer ecommerce interaction are possible. We provide AI customization proposals. These changes and customization are suggested to improve sales, meeting customers' needs, and retention."
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_82_mpn6s4.png",
-    title: "Ongoing Support, Migration & Upgrades",
+    title: "Move, Upgrade, and Continued Assistance",
     description:
-      `We always have your back. Launch is not the end of our work. To keep your ecommerce business safe, quick, and cutting-edge, we provide ongoing monitoring, upgrades, and support.`
+      "Expect something impossible? We didn’t just send the rocket. Your ecommerce is functional, protected, and industry-leading thanks to our ongoing support, monitoring, and proactive adjustments."
   }
 ];
+
+
 
  const scrollToFormHome = () => {
         const formSection = document.getElementById('form-section');

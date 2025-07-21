@@ -46,7 +46,7 @@ export default function EcommerceFeatures() {
   return (
     <section className="featuresstop1-section">
       <h2 className="featuresstop1-heading">
-        Features Of Our E-commerce Websites
+      What Makes Our E-Commerce Websites Stand Out?
       </h2>
       <div className="featuresstop1-grid">
         {features.map((item, index) => (
