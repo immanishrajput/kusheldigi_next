@@ -6,7 +6,7 @@ const steps = [
   {
     title: "Tailored E-Commerce Website Solutions",
     desc: "We don't follow one-size-fits-all rules in website design. We value your suggestions and needs and create according to them.",
-    image: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073420/Group_1171281413_b7dwf6.png", // replace with your actual image path
+    image: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073420/Group_1171281413_b7dwf6.png",
   },
   {
     title: "On-Time Project Delivery",
@@ -14,26 +14,27 @@ const steps = [
     image: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073419/Group_1171281412_m4wjmx.png",
   },
   {
-    title: "Responsive & Mobile-Optimized Design",
-    desc: "We know that most of the customers use phones while shopping. So we create mobile-friendly interface that functions flawlessly across all platforms.",
+    title: "A Mobile-Friendly and Responsive Design",
+    desc: "Most of the time, when people shop, they utilize their phones. Therefore, we design a responsive interface that works well on every device.",
     image: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073409/Group_1171281523_k2vfml.png",
   },
   {
-    title: "Trusted & Secure Payment Integration",
-    desc: "We include reliable, secure payment methods to provide your clients with a hassle-free, secure purchasing experience, increasing both your sales and their trust.",
+    title: "Integrating Secure Payment Methods",
+    desc: "By incorporating trustworthy payment options, we ensure that your consumers can shop with peace of mind, which in turn boosts your sales and earns their confidence.",
     image: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281524_ksva3g.png",
   },
   {
-    title: "SEO-Optimized E-Commerce Development",
-    desc: "We implement SEO best practices to improve your store’s Google ranking. It attracts Google’s traffic that converts.",
+    title: "SEO Optimized E-Commerce Platforms",
+    desc: "Through the use of SEO best practices, we can increase the visibility of your online business in Google's search results. It attracts Google users who are looking to make a purchase.",
     image: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281525_qnpwgi.png",
   },
   {
-    title: "Ongoing Maintenance & Technical Support",
-    desc: "Our work doesn’t stop here. Our support staff makes sure your ecommerce business remains quick, safe, and effective with bug fixes and upgrades.",
+    title: "Ongoing Maintenance and Technical Support",
+    desc: "We still have a ways to go. Our support staff will ensure that your ecommerce firm remains fast, safe, and successful by correcting issues and adding enhancements.",
     image: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281414_nyzkrn.png",
   },
 ];
+
 
 const scrollToFormHome = () => {
         const formSection = document.getElementById('form-section');

@@ -12,6 +12,8 @@
 }
 
 .custom-benefits-title {
+  width: 63%;
+  margin: auto;
   font-size: 2.25rem;
   text-align: center;
   font-weight: 700;
@@ -24,7 +26,7 @@
   padding-top: 27px;
   text-align: center;
   font-size: 1.1rem;
-  max-width: 600px;
+  max-width: 815px;
   margin: 0 auto 40px auto;
 }
 
@@ -135,6 +137,13 @@
   line-height: 1.7;
 }
 
+@media (max-width: 1024px) {
+  .custom-benefits-title{
+    width: 98%;
+    margin: auto;
+  }
+
+}
 @media (max-width: 700px) {
   .custom-benefits-grid {
     flex-direction: column;
@@ -154,10 +163,12 @@
     overflow-y: hidden;
     overflow-x: auto;
     scrollbar-width: thin;
-    
   }
   .minWid1{
     min-width: 319px !important;
+  }
+   .minWid3{
+    min-width: 333px !important;
   }
    /* .minWid1.active{
     min-width: 319px !important;
@@ -214,7 +225,7 @@
     font-size: 0.95rem;
     text-align: center;
   }
-  .custom-benefits-card h3{
+    .custom-benefits-card h3{
     text-align: center;
   }
   .custom-benefits-item.active {
@@ -238,6 +249,9 @@
   }
    .exminWid2{
     min-width: 170px !important;
+  }
+  .minWid3{
+    min-width: 259px !important ;
   }
 /* 
     .extclassMinWid.active{

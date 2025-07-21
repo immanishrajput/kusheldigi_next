@@ -2,39 +2,39 @@
 import React, { useState } from "react";
 const FaqData = [
   {
-    question: 'Can you link my online store with a CRM or ERP?',
-    answer: 'Definitely! Well, connect your site with the CRM, ERP, accounting, or stock apps you already use so that every order and customer flows to the right place.',
+    question: 'Can you connect my online store with CRM or ERP systems?',
+    answer: 'Yes, we will connect your site with the CRM, ERP, accounting, or stock apps.',
   },
   {
-    question: ' Do you create marketplaces where multiple vendors sell?',
-    answer: '  Sure thing. Our multi-vendor platforms include custom dashboards, commission rules, safe payments, ratings, and built-in support, giving you everything needed to run a thriving hub.',
+    question: 'Do you build marketplaces with multiple vendors?',
+    answer: 'Sure thing. Our multi-vendor platforms include custom dashboards, commission rules, safe payments, ratings, and built-in support, giving you everything needed to run a thriving hub.',
   },
   {
-    question: ' Will I be able to see what shoppers do and how sales move?',
-    answer: " Absolutely; we set up Google Analytics, heat maps, and sales reports, letting you watch clicks, spot trends, and adjust quickly with real numbers behind every choice.",
+    question: 'Can I track user activity and sales performance on my store?',
+    answer: 'Absolutely, we set up Google Analytics, heat maps, and sales reports, letting you watch clicks, spot trends, and adjust quickly with real numbers behind every choice.',
   },
   {
-    question: '  Is training part of the package when the site launches?',
-    answer: " Definitely. You'll get friendly step-by-step videos and written guides so adding products, packing orders, or updating pages feels natural, not nerve-wracking.",
+    question: 'Will I receive training when the site goes live?',
+    answer: "Definitely, you'll get friendly step-by-step videos and written guides so adding products, packing orders, or updating pages feels natural, not nerve-wracking.",
   },
   {
-    question: 'Can you set up my shop to work in other countries?',
-    answer: " For sure. Well, add multi-currency pricing, translated text, and tax rules by region so your store feels familiar to visitors no matter where they log in.",
+    question: 'Can you make my store work internationally?',
+    answer: 'For sure. We’ll add multi-currency pricing, translated text, and tax rules by region so your store feels familiar to visitors no matter where they log in.',
   },
   {
-    question: 'Can you add subscriptions or repeat billing for my products?',
-    answer: " You bet. Whether it's a monthly box, software access, or ongoing service, we build secure auto-billing and renewal cycles that keep customers happy and revenue steady.",
+    question: 'Is it possible to add subscriptions or recurring billing?',
+    answer: "You bet. Whether it's a monthly box, software access, or ongoing service, we build secure auto-billing and renewal cycles that keep customers happy and revenue steady.",
   },
   {
-    question: 'Can I offer discounts, coupons, and loyalty points in my store?',
-    answer: " Absolutely! We can set up tailored promotions, coupon codes, automatic discounts, and a loyalty program to keep customers coming back and excited to buy.",
+    question: 'Can I run promotions like discounts, coupons, and loyalty rewards?',
+    answer: 'Absolutely! We can set up tailored promotions, coupon codes, automatic discounts, and a loyalty program to keep customers coming back and excited to buy.',
   },
   {
-    question: ' Will my store be compliant with data protection laws like GDPR?',
-    answer: "  Yes, it will. We follow industry best practices, including clear cookie banners and easy user controls, to keep your site in line with GDPR and other privacy rules.",
+    question: 'Will my store comply with data privacy laws like GDPR?',
+    answer: 'Yes, it will. We follow industry best practices, including clear cookie banners and easy user controls, to keep your site in line with GDPR and other privacy rules.',
   },
- 
 ];
+
 
 const LondonFAQ = () => {
    const [openIndex, setOpenIndex] = useState(null);

@@ -31,7 +31,7 @@ const caseStudies = [
     title: "Black Rhino Concealment",
     tags: ["B2B", "Holsters and accessories"],
     description:
-      "Custom UI/UX Design in Figma, BigCommerce Replatforming & Development, Smart 3rd-Party Integrations (CRM, Inventory, SEO tools), Site Speed Optimization & Mobile Responsiveness, and End-to-End QA Testing.",
+      "QA Testing, Smart Third-Party Integrations, Custom UI/UX Design in Figma, and BigCommerce Re-Platforming and Developmen",
     results: [
       { label: "INCREASED CONVERSIONS", value: "+80%" },
       { label: "RETURN CUSTOMERS", value: "+50%" },
