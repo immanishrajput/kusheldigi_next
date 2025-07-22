@@ -7,61 +7,61 @@ const benefits = [
   {
     title: "Distinct Brand Recognition ",
     minWid1: "true",
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764190/Mask_group_16_oi6gcy.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753166699/Mask_group_5_s345yo.png",
     description:
       "Your custom website shows your business’s colors, logos, and brand voice, which assists you with evergreen variability and highlights differentiated value in contrast to competitors who use templates. ",
   },
   {
     title: "Custom Features and Layouts  ",
      minWid: "true",
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764189/Mask_group_17_dkxalb.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753166697/Mask_group_6_mjtfwx.png",
     description:
       "Get precisely what your store needs with custom-made filters, advanced search, multi-language support, or anything else. Unlike other stores, you won’t be constrained by rigid templates or unnecessary features.  ",
   },
   {
     title: "Enhanced User Experience ",
     minWid1: "true",
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764189/Mask_group_18_qwtqbo.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753166696/Mask_group_7_o2vovv.png",
     description:
       "Customer relationship management systems integrated directly alongside your store provide your users with easy navigation based on their buying behavior, fast loading, and smooth checkout, which boosts repeat purchases.  ",
   },
   {
     title: "Optimized For Mobile ",
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_20_ygsgyv.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753166694/Mask_group_8_iisgs5.png",
     description:
       "The majority of shoppers use phones; therefore, your store needs to be mobile-first, designed to load fast and look awesome on every screen.  ",
   },
   {
     title: "Enhanced SEO Results ",
       minWid1: "true",
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764185/Mask_group_19_lxvran.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753164429/Mask_group_15_pb1t7y.png",
     description:
       " Custom-built websites have clean code, proper design, and smart meta tags, which build a higher ranking on the SEO graph and work towards winning the clients' custom websites are made for.  ",
   },
   {
     title: "Endless Custom Integrations",
      minWid: "true",
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_21_ynyqfc.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753164428/Mask_group_16_u7gqfj.png",
     description:
       "Businesses running on custom websites can effortlessly streamline workflows with third-party systems such as CRM, ERP, shipping and marketing apps, hence optimally speeding up business operations.",
   },
   {
     title: "Scalable for Future Growth",
      minWid: "true",
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_22_yyaiul.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753166691/Mask_group_10_xgchne.png",
     description:
       "Your website can develop alongside your business. It is now possible to expand with the inclusion of new features, product categories, or user roles without the requirement of a complete redesign.",
   },
   {
     title: "Stronger Security & Control ",
      minWid: "true",
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_23_bn1ywe.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753166690/Mask_group_11_toqlcg.png",
     description:
       "Custom development provides complete control over the custom security layers, updates, and data processing safeguards, ensuring the safety of sensitive business and customer information.  ",
   },
   {
     title: "Competitive Advantage ",
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_24_lyevyw.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753166689/Mask_group_12_f3svpi.png",
     description:
       "A custom store provides an edge in highly competitive markets. Propel your brand with a website tailored specifically for your business, distinct from imitations based on generic templates.",
   },

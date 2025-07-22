@@ -5,55 +5,55 @@ import './ecomserv.css';
 
 const features = [
   {
-    icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965474/Mask_group_75_obmlwf.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753160425/Mask_group_d9v6rx.png",
     title: "Custom E-Commerce Store",
     description:
       "Pre-made templates are not our style, as we prefer to create new ones based on our clients' needs. Your organization and business goals, audience and objectives will determine how flexible and unique your ecommerce site will be. We do not constrain ourselves to industry standards and are able to provide tailored solutions for every client."
   },
   {
-    icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965473/Mask_group_76_jziqdb.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753160425/Mask_group_6_mcojgf.png",
     title: "A Powerful Mix of WordPress and WooCommerce",
     description:
       "Our team is capable of building efficient systems with proper functioning and plugin handling due to the versatility of WordPress and WooCommerce. It is also possible to construct powerful integrated systems."
   },
   {
-    icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965473/Mask_group_77_syi4ue.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753160425/Mask_group_2_xc7cz1.png",
     title: "Conversion-Focused Shopify Store Development",
     description:
       "We do a great job of generating attention remarkably while your prospective customers find it remarkably easy to browse, shopping, and come back for more."
   },
   {
-    icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965468/Mask_group_78_d9e39s.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753160425/Mask_group_3_hwmlft.png",
     title: "Mobile-responsive Online Stores",
     description:
       "Since almost everything is purchased by clients on smartphone devices, we make sure that these as well as your website, perform correctly and look appealing on all gadgets."
   },
   {
-    icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_79_sv7ryx.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753160425/Mask_group_4_ow3m5y.png",
     title: "E-Commerce Integrated with SEO",
     description:
       "In your store’s creation phase, we use top-quality SEO methods to ensure a positive ranking on search engines so you can reap free traffic almost instantly."
   },
   {
-    icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_80_xj1zov.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753160425/Mask_group_5_qblh6b.png",
     title: "Integration of Safe Payment Methods",
     description:
       "Your customers’ safety is taken care of for Revilon checkout as we combine highly known payment processors like PayPal and Stripe to the checkout process, making it seamless and safe."
   },
   {
-    icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_81_ct53bt.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753160425/Mask_group_1_x8kuay.png",
     title: "Integrated Analytics: Learn About E-Commerce",
     description:
       "This is the top-of-the-line information. We installed everything and tracking systems that work within each other, which make basic customer behavior, sales trends, and potential analysis possible."
   },
   {
-    icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_82_mpn6s4.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753160424/Mask_group_7_clil5i.png",
     title: "AI Customization",
     description:
       "Improved design and customer ecommerce interaction are possible. We provide AI customization proposals. These changes and customization are suggested to improve sales, meeting customers' needs, and retention."
   },
   {
-    icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_82_mpn6s4.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753160424/Mask_group_8_ccisek.png",
     title: "Move, Upgrade, and Continued Assistance",
     description:
       "Expect something impossible? We didn’t just send the rocket. Your ecommerce is functional, protected, and industry-leading thanks to our ongoing support, monitoring, and proactive adjustments."

@@ -1,12 +1,11 @@
-"use client"
-import React, { useEffect, useRef, useState } from 'react'
+"use client";
+import React, { useEffect, useRef, useState } from "react";
 import "intl-tel-input/build/css/intlTelInput.css";
 import intlTelInput from "intl-tel-input";
 import { toast } from "react-toastify";
-import "./details.css"
+import "./details.css";
 
 import { useRouter } from "next/navigation";
-
 
 export default function DetailBigComDelhi() {
   const [formData, setFormData] = useState({
@@ -161,112 +160,371 @@ export default function DetailBigComDelhi() {
     }
   };
 
-
   return (
-    <section className='details-sec'>
-      <div className='details-desc'>
-        <h4>ECommerce Development Company in Noida - Get a Website Developed That Truly Represents Your Brand</h4>
-        <p>kushel Digi is a leading web development company in Delhi that offers customized
-          website development solutions to businesses of all sizes. We understand that
-          your website is the face of your brand on the internet, and it needs to be
-          developed in a way that truly represents your brand identity. Our expert
-          web developers and designers work closely with you to understand your brand,
-          target audience, and business objectives before embarking on the website
-          development process.</p>
-        <p>Our web development solutions are designed to be user-friendly, responsive,
-          and scalable to meet the evolving needs of your business. Whether you need
-          a simple brochure website, a complex e-commerce platform, or a customized
-          web application, we have the expertise and experience to deliver a website
-          tailored to your requirements.</p>
-        <p>We use the latest web development technologies and frameworks to build fast,
-          secure, and reliable websites. We follow industry best practices and ensure
-          that your website is fully optimized for search engines to help you attract
-          more traffic and generate more leads.</p>
-        <p>We also provide ongoing website maintenance and support to ensure your website
-          stays up-to-date with the latest technologies and security patches. We aim to
-          help you achieve your business objectives through an engaging, effective website
-          that represents your brand in the best possible way.</p>
-        <p>If you're looking for a reliable web development company in Delhi NCR (Noida, Gurgaon),
-          look no further than EZ Rankings. Contact us today to discuss your website development
-          needs and get a quote.</p>
-        <h5>Our Web Development Services Noida Include –</h5>
-        <p>We offer a comprehensive range of Web Development Services Delhi that cater to the diverse needs of businesses. Our solutions for Web Development Delhi NCR are designed to be flexible, scalable, and customizable to suit the unique requirements of each business.</p>
-        <p>Our expert web developers and designers work closely with you to understand your business objectives and deliver a website tailored to your specific needs. Whether you need a simple website or a complex e-commerce platform, we have the expertise and experience to provide a website that meets your requirements and exceeds your expectations.</p>
-        <p>Our expert web developers and designers work closely with you to understand your business objectives and deliver a website tailored to your specific needs. Whether you need a simple website or a complex e-commerce platform, we have the expertise and experience to provide a website that meets your requirements and exceeds your expectations.</p>
+    <section className="details-sec">
+      <div className="details-desc">
+        <h4>
+          BigCommerce Development Company in Delhi – Where Vision Meets
+          Conversion
+        </h4>
+        <p>
+          First impressions are important when selling anything online. If you
+          want a BigCommerce development firm in Delhi that can help you get
+          more recurring customers, you've come to the right place. We know how
+          to make BigCommerce stores that not only look amazing but also perform
+          well and sell items. We build websites that are easy to use, work well
+          on mobile devices, and load quickly. These sites are perfect for your
+          company objectives, whether you're starting a new shop or growing an
+          established one.
+        </p>
+        <p>
+          We know how to utilise all of BigCommerce's amazing features,
+          including multichannel selling, custom APIs, product administration,
+          and safe checkout, since we've worked with it for years. We don't
+          think the same models work for everyone. We make sure that every shop
+          we construct suits your brand's look and interacts with your
+          consumers.
+        </p>
+        <p>
+          Planning and making things isn't the end of the labour, however. We
+          ensure your shop has payment options, is optimised for search engines,
+          and is easy to use on all devices. Want to switch from Magento,
+          Shopify, or WooCommerce? We will handle it without any downtime.
+        </p>
+        <p>
+          We also provide ongoing maintenance, setting up data, keeping an eye
+          on performance, and introducing new features to your business so it's
+          always ready for the future.
+        </p>
+        <p>
+          So, if you want to employ a reliable BigCommerce development firm in
+          Delhi, choose a team of builders who are dedicated to their job and
+          want to help your online business expand.
+        </p>
+        <h5>What You Get with Our BigCommerce Development Services?</h5>
+        <p>
+          You need more than just a website for your ecommerce business to run.
+          You need a plan, the ability to change things, and a promise to always
+          make it better. When you hire our BigCommerce development services, we
+          do just that. We give you everything you need to build your online
+          business, whether you're just starting or want to grow an existing
+          one.
+        </p>
+        <p>
+          We make sure that your BigCommerce store works well and looks great by
+          creating unique styles and making sure that third-party apps can
+          connect to it. Do you need help setting up goods, changing your
+          business, or a payment gateway? We'll take care of you. We also work
+          on making things run better and making them work on mobile devices so
+          that your clients may have a speedy, perfect experience no matter
+          where they are.
+        </p>
+        <p>
+          What's different about us? We do more than finish tasks; we also build
+          connections. We are honest, flexible, and determined to get things
+          done. No tech jargon that doesn't make sense; just actual answers that
+          can help you sell online more easily and earn more money. Let's make
+          something great together.
+        </p>
 
-        <h5>Our Web Development Services Noida Include –</h5>
-        <h6>Custom Web Application Development</h6>
-        <p>At Kushel Digi, we provide customized web application development services to help businesses automate their workflows, streamline their operations, and enhance their online presence. Our team of expert web developers has years of experience building custom web applications that are scalable, secure, and user-friendly. We follow a proven development methodology to ensure that your custom web application is delivered on time, within budget, and to your specifications. We work closely with you throughout the development process to understand your business requirements and to provide regular updates and progress reports.</p>
-        <p>We use the latest web technologies and frameworks to develop custom web applications that are fast, responsive, and optimized for search engines. Our developers are proficient in PHP, Python, Ruby on Rails, and other programming languages and frameworks, allowing us to develop custom web applications that meet your business needs.</p>
+        <h5> BigCommerce Development Services Delhi Include</h5>
+        <h6>Custom BigCommerce Store Design</h6>
+        <p>
+          Each brand has its own style, and that should show in your online
+          shop. We make fully unique BigCommerce store designs that fit the
+          style and goals of your brand. Our artists work closely with you to
+          make your ideas come to life, whether you want something simple and
+          clean or bright and bold.
+        </p>
+        <p>
+          We stress adaptable design, user experience, and easy access so that
+          your customers can shop without any problems. There will be a store
+          that not only looks great but also works perfectly. There are no
+          pre-made themes here. Just new, original designs that will help you
+          stand out in Delhi's growing digital market.
+        </p>
 
+        <p>
+          Everything, from the ads to the product pages to the checkout, is made
+          to turn viewers into buyers. The best part? We make sure that your
+          store looks great on all devices, including phones and computers.
+          We'll make what you dream of.
+        </p>
+        <h5>BigCommerce Development & Customization</h5>
+        <p>
+          Want more than the basics? Our BigCommerce creation and customisation
+          services in Delhi are made to make your online store stronger than
+          ever. From advanced search and browsing to product filters and group
+          styles, we make it all fit your needs. Want a tool that isn't in
+          BigCommerce but you need it? Don't worry, we'll build it for you. We
+          make sure that the back end of your site works just as well as the
+          front end, which makes it easy to manage sales, supplies, and
+          advertising.
+        </p>
+        <p>
+          We don't just care about how your store looks; we also make sure it
+          runs quickly, stays safe, and gives customers a great shopping
+          experience. Your BigCommerce site will be customised to fit the needs
+          and goals of your business, no matter how big or small it is.
+        </p>
+        <p>
+          We also use the best ways to code, so everything is stable and can be
+          expanded. We're like your tech team that works behind the scenes to
+          make sure your website does what you want it to do.
+        </p>
 
-        <p>Our custom web application development services include project management, requirement gathering, design, development, testing, deployment, and ongoing maintenance and support. We also ensure that your web application fully integrates with your existing systems and applications, providing a seamless user experience. Contact us today to learn more about our custom web application development services.</p>
-        <h5>User Experience Design</h5>
-        <p>User experience (UX) design is essential to any successful website or web application. We understand the importance of creating an engaging and intuitive user experience for your website visitors. Our team of experienced UX designers uses a data-driven approach to develop user-friendly, visually appealing designs optimized for conversions. We follow a systematic process of user research, user testing, and iterative design to create a user-centric design that aligns with your business goals. We conduct user research to gain insights into your target audience's preferences, behaviors, and pain points. Based on the findings, we develop user personas, user flows, and wireframes to create a design that meets their needs and expectations.</p>
-        <p>Our UX design services include information architecture, wireframing, prototyping, and user testing. We use the latest design tools and techniques to create visually appealing designs optimized for conversions. We also conduct A/B testing and analytics to improve the user experience and drive more conversions continuously.</p>
-        <p>We aim to create a user experience that delights your visitors, enhances your brand image, and drives more conversions. Contact us today to learn more about our UX design services and how we can help you improve your website's user experience.</p>
+        <h5>BigCommerce API & Third-Party Integrations</h5>
+        <p>
+          These days, internet stores are more than simply websites; they're
+          complete communities. We provide BigCommerce development services in
+          Delhi that involve easily adding third-party tools and APIs. We make
+          sure that all of them operate effectively together, from CRMs like
+          HubSpot and Zoho to ERPs like NetSuite and Tally.
+        </p>
 
-        <h5>Progressive Web App Development</h5>
-        <p>Progressive Web App (PWA) is an advanced web technology combining the best web and native app capabilities. We provide Progressive Web App Development services that help businesses improve their user experience, increase engagement, and boost conversions. Our team of expert web developers specializes in PWA development and has experience working with clients from diverse industries. We develop PWAs that are fast, reliable, and work seamlessly on all devices and platforms, providing a native app-like experience to users.</p>
+        <p>
+          Do you need a means to take payments, figure out shipping costs,
+          utilise live chat, or automate your marketing? We'll take care of
+          setting them up for you. You don't have to move between ten
+          applications anymore since everything is in one spot. We also link
+          your shop to sites like Amazon, Flipkart, and Google Shopping so that
+          as many people as possible can find it.
+        </p>
+        <p>
+          It's obvious to see what we want: to save you time, cut down on manual
+          effort, and make sure everything is perfect on all platforms. I/O may
+          be hard, yet we handle it all with clean code and no difficulties. You
+          can focus on growing your company while your store takes care of
+          everything else.
+        </p>
 
+        <h5>Improving BigCommerce's SEO and performance </h5>
+        <p>
+          It doesn't matter how great your shop is if no one comes in or out.
+          That's where our BigCommerce SEO and speed improvement services come
+          in. We make sure search engines can find your site right away. That
+          means things like fast loading times, design that works well on
+          phones, clear URL structures, schema code, and more.
+        </p>
+        <p>
+          We also check that your meta tags, alt texts, page layout, and product
+          details are all the best they can be. This helps you rank higher on
+          Google and other search engines. We do more than SEO, though. Besides
+          that, we make sure your site works well so that pages load quickly.
+          This keeps the number of people who buy something high and the number
+          of people who leave your site low.
+        </p>
+        <p>
+          We also use tools like Google PageSpeed Insights and GTmetrix to check
+          your site's speed and make it better. Your competitors will still be
+          trying to figure out why their site is slow, but you'll already have
+          users and sales. To put it simply, we turn your BigCommerce store into
+          a fast, Google-friendly sales machine.
+        </p>
 
-        <p>We use the latest web technologies like Service Workers, Web Push Notifications, and App Shell architecture to create PWAs that load instantly, work offline, and can be installed on the home screen of a user's device. Our PWAs are secure, responsive, and scalable, allowing businesses to reach their target audience on any device or platform.</p>
-        <p>Our PWA development services include consultation, design, development, testing, and deployment. We ensure that your PWA meets the highest standards of performance, security, and accessibility. Contact us today to learn more about our PWA development services and how we can help you enhance your online presence.</p>
+        <h5>BigCommerce Store Migration & Upgradation</h5>
+        <p>
+          Use Shopify, WooCommerce, Magento, or a different tool to run your
+          store already? Do you have an old version of BigCommerce? Not a
+          problem. Our store moving and upgrading services in Delhi make the
+          change easy and stress-free. We take care of all of your sales, users,
+          goods, groups, content, and SEO URLs, so you don't have to.
+        </p>
 
-        <h5>API Integration</h5>
-        <p>API Integration connects two or more software applications through APIs (Application Programming Interfaces) to exchange data and functionality. We provide API Integration services that help businesses streamline their workflows, increase efficiency, and enhance their online presence. Our team of expert developers has years of experience in API Integration and has worked with a wide range of APIs, including social media, payment gateway, e-commerce, and more. We follow a proven development methodology to ensure your API Integration is seamless, secure, and meets your business needs.</p>
-        <p>We work closely with you to understand your business requirements and to identify the best APIs to integrate with your existing systems and applications. We also ensure that your API Integration is fully compatible with your existing technology stack and provides a seamless user experience.</p>
-        <p>Our API Integration services include consultation, design, development, testing, and deployment. We also provide ongoing maintenance and support to ensure your API Integration runs smoothly and efficiently. Contact us today to learn more about our API Integration services and how we can help you enhance your business operations.</p>
+        <p>
+          Before we start, we also make sure that your info is backed up
+          properly. As a result? A new, up-to-date store with all the goods from
+          your old store, but without the tech problems. We will also update
+          your store without changing anything if you are already on BigCommerce
+          but using old styles or features.
+        </p>
 
-        <h5>Full Stock Development</h5>
-        <p>Full-stack development refers to developing both the front-end and back-end of a web application or website. We provide full-stack development services that help businesses build robust and scalable web applications optimized for performance, security, and user experience. Our expert developers specialize in front-end and back-end technologies, including HTML, CSS, JavaScript, PHP, Python, and more. We follow a comprehensive development process that includes requirement gathering, design, development, testing, and deployment, ensuring that your web application meets your exact business needs.</p>
+        <p>
+          You'll get better speed, more design choices, and more powerful tools
+          to help you grow. We know that moves sounds scary, but our team takes
+          care of everything in the background without you having to do
+          anything. Not a break. No mistakes. More than that, just a better
+          store that's built to grow with your business.
+        </p>
 
-        <p>We use the latest web technologies and frameworks to develop web applications that are fast, responsive, and user-friendly. Our full-stack development services include front-end development, back-end development, database integration, API integration, and more, providing a comprehensive solution for Web Development Delhi NCR. </p>
+        <h5>Progressive Web App (PWA) Development</h5>
+        <p>
+          In today's mobile-first era, speed and how easy it is to use are more
+          crucial than ever. Progressive Web Apps (PWAs) are what you need. We
+          can help you make the most of them. Our BigCommerce PWA development
+          service's purpose is to make your online shop seem like a quick mobile
+          app, but consumers don't have to download anything.
+        </p>
+        <p>
+          Your BigCommerce shop performs better, quicker, and even when your
+          internet connection is poor, when you install a PWA. It loads fast,
+          allows you to explore while you're not online, and sends you push
+          messages like native applications. The best thing is? You don't have
+          to worry about having it authorised by the app store since it still
+          works in the browser.
+        </p>
+        <p>
+          No matter whether they buy on their phone or PC, your consumers will
+          have a flawless, app-like experience that keeps them coming back.
+          Also, PWAs get people to engage more, decrease bounce rates, and
+          improve overall purchases, which is what every online company wants.
+        </p>
+        <p>
+          We handle everything, from building the front end to making sure it
+          works with your BigCommerce backend. Our PWA development solution will
+          help you get your shop ready for the future and provide your consumers
+          with a contemporary experience. We can make your shop better, smarter,
+          and quicker all at the same time.
+        </p>
 
-        <p>Our goal is to provide you with an easy-to-use, highly functional, and visually appealing web application, enhancing your brand image and driving more conversions. Contact us today to learn more about our full-stack development services and how we can help you build a robust and scalable web application.</p>
+        <h5>Why Choose Us as Your BigCommerce Development Company in Delhi?</h5>
+        <p>
+          Finding the right BigCommerce development partner in Delhi is a
+          never-ending task. The issue is that you need more than one developer.
+          You need a team that understands your business, makes things with a
+          purpose, and gets outcomes that turn into sales. If you're looking for
+          a BigCommerce development company in Delhi, choosing us can be one of
+          the finest things you can do for your business for these primary
+          reasons.
+        </p>
+        <p>
+          We not only create beautiful shopfronts, but we also make ecommerce
+          experiences that are fast, easy to use, and strong. We can help you at
+          any point, whether you want to make changes or start again. We want to
+          help your shop thrive in every way, from sales to traffic to customer
+          loyalty. We do this by offering everything from custom designs to easy
+          integrations and ongoing support.
+        </p>
+        <p>
+          Here are some key pointers on why you should choose us as your
+          BigCommerce development agency in Delhi:
+        </p>
+        <h5> End-to-End BigCommerce Expertise</h5>
+        <p>
+          We offer full BigCommerce options, from setting up to expanding. Our
+          team really knows everything there is to know about the BigCommerce
+          platform. Whether you're a small business or a big company, we make
+          sure that everything fits your needs
+        </p>
+        <p>
+          We don't have a one-size-fits-all method. Instead, we focus on your
+          business goals and fashion a plan around them. We make sure that your
+          store looks great, works perfectly, and fits your brand perfectly by
+          customising the theme, checkout flows, and advanced features.
+        </p>
+        <p>
+          We can also connect third-party apps like ERPs, CRMs, payment systems,
+          and more. Need to connect to an API? Take it as done. They know how to
+          deal with real-life ecommerce issues, so you won't just get a store
+          that works; you'll get a sales machine that rocks.
+        </p>
+        <p>
+          The best part? We make complicated tech stuff easy for you so you can
+          grow your business while we take care of the rest.
+        </p>
 
-        <h5>Upgradation & Migration</h5>
-        <p>Upgradation and migration are critical aspects of Web Development Delhi NCR that businesses must consider to ensure that their web applications and websites run efficiently and effectively. We provide Upgradation & Migration services that help businesses upgrade their technology stack and seamlessly migrate their applications to new platforms.</p>
-        <p>Our team of expert developers has extensive experience upgrading and migrating web applications to new platforms and technologies, ensuring that your applications are secure, scalable, and optimized for performance. We follow a comprehensive process that includes analysis, planning, design, development, testing, and deployment, ensuring a seamless transition to the new platform.</p>
-        <p>We help businesses upgrade their web applications to the latest technologies and frameworks, ensuring they are future-proof and can handle increased traffic and user demand. We also provide migration services that help businesses move their applications to new platforms, ensuring they are fully compatible and optimized for performance.</p>
-        <p>Our Upgradation & Migration services include consultation, analysis, planning, design, development, testing, and deployment. We also provide ongoing maintenance and support to ensure your upgraded or migrated application runs smoothly and efficiently. Contact us today to learn more about our Upgradation & Migration services and how we can help you upgrade and migrate your web applications seamlessly.</p>
+        <h5>Mobile-Optimized and SEO-Friendly Designs</h5>
+        <p>
+          More than 60% of people who shop online do so on their phones. We make
+          sure that your BigCommerce store is ready for these people. Our
+          designs are mobile-first, which means they work well and look great on
+          all screen sizes, like phones, tablets, and laptops. That means users
+          won't have to pinch or zoom, and they won't have to leave in anger.
+        </p>
+        <p>
+          We also look at more than looks. We build all of our sites with SEO
+          best practices in mind. We make sure your store is ready to rank on
+          Google by making sure the code is clean, the pages load quickly, and
+          the data is organised.
+        </p>
 
-        <h5>Why Choose Us As You ECommerce Development Company in Noida? </h5>
-        <p>Choosing Kushel Digi Solutions as your web development company in Delhi means partnering with a team of experienced professionals dedicated to delivering exceptional results. Our team of developers, designers, and project managers have years of experience creating custom websites tailored to your business needs.We pride ourselves on delivering high-quality work on time and within budget. Our development process is transparent, and we keep you informed every step of the way. We use the latest technologies and tools to build user-friendly, responsive, and optimized websites for search engines. We believe in building long-term relationships with our clients. We strive to exceed your expectations and deliver websites that help you achieve your business goals. </p>
-        <p>Here are some key points on why you should choose us as your ECommerce Development Company in Noida? </p>
-        <h5>Expert Team of Developers</h5>
-        <p>Kushel Digi Solutions is backed by an expert team of developers skilled in delivering exceptional digital solutions to clients across various industries. Our team comprises experienced developers passionate about their work and striving to create innovative and cutting-edge solutions that meet our client's requirements.</p>
-        <p>Our developers are proficient in various programming languages and have extensive knowledge of the latest technologies and tools to build robust and scalable digital products. We believe in staying ahead of the curve by constantly updating our skills and expertise to ensure our clients receive the best-in-class digital solutions.</p>
-        <p>Our developers work collaboratively with our clients to understand their unique business needs and offer customized solutions that deliver tangible results. We are committed to providing our clients with high-quality Web Development Services Delhi that meet their expectations and exceed them in every way.</p>
-        <p>We take pride in our team of developers dedicated to delivering excellence and helping our clients achieve their digital goals.</p>
+        <p>
+          When it comes to on-page optimisation, we can help with things like
+          keyword placement, product information, alt tags, and even mobile page
+          speed scores.
+        </p>
 
-        <h5>Leverage New Technology</h5>
-        <p>We believe in leveraging new technology to deliver innovative and cutting-edge solutions to our clients. Our team of experts is always up-to-date with the latest technologies and tools in the industry, allowing us to provide our clients with the most advanced digital solutions.</p>
-        <p>We understand that technology constantly evolves, and we strive to stay ahead of the curve by embracing new trends and tools. This approach enables us to create solutions that are effective and future-proof, ensuring that our clients can enjoy the benefits of their investment for years to come.</p>
+        <p>
+          When your store looks great and is also search engine friendly, you
+          get more pure traffic and a better experience for your customers. And
+          when that happens, sales follow.
+        </p>
+        <h5>Custom Solutions for Unique Business Needs</h5>
+        <p>
+          Your BigCommerce shop should indicate that your firm is different from
+          others. That's why we provide you choices that are perfect for your
+          users, company, and objectives. We create one-of-a-kind features that
+          help your company function smoothly and offer your shop an advantage
+          over the competition, whether you sell electronics, handcrafted items,
+          or a marketplace featuring goods from many companies.
+        </p>
 
-        <p>Our team is proficient in various technologies and platforms, including web development, mobile app development, and digital marketing. We use our expertise to help our clients achieve their digital goals and stay ahead of the competition.</p>
+        <p>
+          Want to manufacture your things? You need a tool. We are going to make
+          it. Need a different method to log in as a company or establish
+          prices? We will handle it. Our authors enjoy taking on new projects,
+          and we always make sure that your shop is simple to operate and
+          versatile, even as your company expands.
+        </p>
+        <p>
+          Don't worry; we won't use technical language that you don't
+          comprehend. We will use clear English to describe what we are doing
+          and assist you in making decisions at every step. Your shop is more
+          than simply a website; it's the heart of your company.
+        </p>
+        <h5>Ongoing Support and Maintenance</h5>
 
-        <p>Leveraging new technology is essential to stay ahead in today's digital landscape. We are committed to providing our clients with the best-in-class digital solutions that drive growth and maximize ROI.</p>
-        <h5>Responsive Website</h5>
-        <p>A responsive website is crucial for businesses to succeed in today's digital world, and We understand the importance of a responsive website. Our team of experts is proficient in creating responsive websites optimized for all devices, including desktops, tablets, and mobiles. Our team uses the latest technologies and tools to ensure our clients' websites are fast, secure, and visually appealing. A responsive website is essential for improving user experience and increasing engagement, leading to higher conversions and sales.</p>
-
-        <p>We follow a customer-centric approach to create responsive websites catering to our client's business requirements. Our team works collaboratively with our clients to understand their goals, target audience, and branding guidelines to ensure their website reflects their brand's personality and values.</p>
-        <p>We are committed to providing our clients with high-quality, responsive websites optimized for all devices and helping them achieve their digital goals. A responsive website is a must-have for businesses today, and we are here to help our clients stay ahead of the competition.</p>
-        <h5>Flexibility</h5>
-
-        <p>We understand that flexibility is key to delivering digital solutions that meet our client's specific business needs. We have a team of experts who are proficient in creating flexible solutions that can be customized according to our client's requirements. We follow a customer-centric approach to understand our client's unique business challenges and provide tailored solutions to address their pain points. Our team works collaboratively with our clients to ensure that their digital solutions are designed to meet their specific goals and objectives.</p>
-        <p>Flexibility is essential for delivering high-quality digital solutions that drive growth and maximize ROI. Our team is proficient in various technologies and platforms, allowing us to create custom solutions unique to each client. We take pride in providing flexible solutions that meet our client's specific business requirements. We are committed to delivering exceptional services that exceed our client's expectations and help them achieve their digital goals.</p>
-        <h5>Customization Techniques</h5>
-        <p>At Kushel Digi Solutions, customization is key to creating digital solutions that meet our client's business requirements. We have a team of experts proficient in various customization techniques to create tailored solutions that address our client's pain points. Our team works collaboratively with our clients to understand their unique challenges and requirements. We use this knowledge to create customized solutions that are unique to each of our clients. Customization is essential for delivering high-quality digital solutions that drive growth and maximize ROI.</p>
-        <p>We use customization techniques such as personalized branding, unique website design, custom software development, and targeted digital marketing strategies to create bespoke solutions that meet our client's business needs.</p>
-        <p>We take pride in our ability to provide customized solutions that exceed our client's expectations. We are committed to delivering exceptional services that help our clients achieve their digital goals and stay ahead of the competition.</p>
+        <p>
+          After launch, your BigCommerce journey doesn't end, and neither does
+          our help. We'll be here to make sure everything goes smoothly as your
+          store grows. Your store will run smoothly with our help, as we fix
+          bugs, fine-tune speed, add new features, and apply security patches.
+          We have upkeep plans that can be changed to fit your needs.
+        </p>
+        <p>
+          Need help with adding new features, organising holiday sales, or
+          dealing with large amounts of traffic? Just give us a shout—you can
+          call or text us. No more having to wait forever for help or deal with
+          answers that are too slow. We want our clients to stay with us for a
+          long time. That's why we offer continuous tracking, regular reports,
+          and clear contact all the way through. Because if your store does
+          well, your business does well, and everyone wins.
+        </p>
+        <h5>Transparent Pricing and Timely Delivery</h5>
+        <p>
+          To be honest, no one likes being surprised about money or due dates.
+          Because of this, we make it clear what things cost and when they will
+          be sent. From the start, you'll know what you're paying for and when
+          to expect results. There are no surprises or delays at the last
+          minute; everything is thought out and done in a clear way.
+        </p>
+        <p>
+          You can see how far you've come by breaking each job down into steps.
+          Do you want to change something? We'll be honest about them and change
+          the plans if we need to. We want to not only deliver quickly, but also
+          well.
+        </p>
+        <p>
+          Because we value your time and money, we keep our vows and meet our
+          goals. With us, you don't have to worry about being kept up to date.
+          We, as a trusted BigCommerce development company in Delhi, keep you up
+          to date and give you results that give your business the confidence to
+          grow.
+        </p>
 
         <div className="detail-foot">
           <h5>Our Contact Address</h5>
           <p className="detail-foot-p">Kushel Digi Solutions</p>
-          <p><span>PHONE :</span> +91 9045301702</p>
-          <p><span>EMAIL :</span> info@kusheldigi.com</p>
-          <p><span>ADDRESS :</span> First Floor, D242, F-32B, Sector 63 Rd, Noida, 201301 Uttar Pradesh</p>
+          <p>
+            <span>PHONE :</span> +91 9045301702
+          </p>
+          <p>
+            <span>EMAIL :</span> info@kusheldigi.com
+          </p>
+          <p>
+            <span>ADDRESS :</span> First Floor, D242, F-32B, Sector 63 Rd,
+            Noida, 201301 Uttar Pradesh
+          </p>
         </div>
       </div>
       <form className="getquote-wrapper" onSubmit={handleSubmit}>
@@ -274,7 +532,7 @@ export default function DetailBigComDelhi() {
           <div className="getquote-header"></div>
           <h2>GET A FREE QUOTE</h2>
 
-          <label className='getquote-form-label'>Enter your name</label>
+          <label className="getquote-form-label">Enter your name</label>
           <input
             type="text"
             name="name"
@@ -285,7 +543,7 @@ export default function DetailBigComDelhi() {
             required
           />
 
-          <label className='getquote-form-label'>Enter your Email</label>
+          <label className="getquote-form-label">Enter your Email</label>
           <input
             type="email"
             name="email"
@@ -296,7 +554,7 @@ export default function DetailBigComDelhi() {
             required
           />
 
-          <label className='getquote-form-label'>Contact No.</label>
+          <label className="getquote-form-label">Contact No.</label>
           <div className="form-phone-wrapper">
             <input
               type="tel"
@@ -315,7 +573,6 @@ export default function DetailBigComDelhi() {
               }}
               required
             />
-
           </div>
 
           {/* <div className="getquote-captcha-row">
@@ -342,21 +599,19 @@ export default function DetailBigComDelhi() {
             </span>
           </div>
 
-          <button
-            className="form-submit-btn"
-            type="submit"
-            disabled={loading}
-          >
+          <button className="form-submit-btn" type="submit" disabled={loading}>
             {loading ? "Sending..." : "Submit"}
           </button>
           {loading && <span className="loader3"></span>}
 
           <p className="getquote-terms">
-            By clicking on submit, you agree to<br />
-            our <a href="/terms&conditions">Terms & Condition</a> and <a href="/privacy-policy">Privacy policy</a>
+            By clicking on submit, you agree to
+            <br />
+            our <a href="/terms&conditions">Terms & Condition</a> and{" "}
+            <a href="/privacy-policy">Privacy policy</a>
           </p>
         </div>
       </form>
     </section>
-  )
+  );
 }

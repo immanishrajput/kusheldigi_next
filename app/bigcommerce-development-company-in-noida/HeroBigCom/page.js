@@ -8,10 +8,10 @@ export default function HeroBigCom() {
     >
       <div className="overlay-black">
         <h1>Bigcommerce Development Company in Noida</h1>
-        <div className="btn-service ">
+        {/* <div className="btn-service ">
           <button className="btn-service-ec"> Let’s Connect</button>
           <button className="btn-service-ec1"> Book a Call</button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

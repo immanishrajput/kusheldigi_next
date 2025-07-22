@@ -26,13 +26,14 @@ const benefits = [
   },
   {
     title: "More Complex Analytics",
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_20_ygsgyv.png",
+      icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764185/Mask_group_19_lxvran.png",
     description:
       "There are built-in reports that show who is shopping, what they're not interested in, and which efforts are making money. You can change stock, make offers, and cut costs faster when you measure live numbers instead of waiting for end-of-month emails.",
   },
   {
     title: "Faster Load Times",
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764185/Mask_group_19_lxvran.png",
+
+      icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_20_ygsgyv.png",
     description:
       "Custom code stays lean because we only include what adds value. Pages pop open in a blink, frustrating less, bouncing fewer, and nudging search engines to give your brand a higher seat.",
   },

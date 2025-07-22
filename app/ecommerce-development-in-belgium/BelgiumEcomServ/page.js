@@ -5,55 +5,55 @@ import { useRouter } from "next/navigation";
 
 const features = [
   {
-    icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965474/Mask_group_75_obmlwf.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753160425/Mask_group_d9v6rx.png",
     title: "Personalized E-Commerce Websites",
     description:
       "Our team designs a fully cuwtomized ecommerce websites that meets your brand goals and requirements. We don't believe in one size fits all rule, we design personalized websites while making sure customers have the greatest experience.",
   },
   {
-    icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965473/Mask_group_76_jziqdb.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753160425/Mask_group_3_hwmlft.png",
     title: "Mobile-friendly E-Commerce Websites",
     description:
       "We create mobile-responsive online stores that ensure ga reat user experience and an increase in both sales and engagement.",
   },
   {
-    icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965473/Mask_group_77_syi4ue.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753160425/Mask_group_2_xc7cz1.png",
     title: "Services for Building Shopify and WooCommerce",
     description:
       "Shopify and WooCommerce are two amazing platforms for website designing, and our team is an expert in these platforms, providing unique themes, plugins, and a backend interface.",
   },
   {
-    icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965468/Mask_group_78_d9e39s.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753160425/Mask_group_5_qblh6b.png",
     title: "Adding Payment Gateways",
     description:
       "Adding payment gateways like as Razorpay, Stripe, and PayPal allows users to pay in several currencies, make one-click transactions, and feel more secure, all while simplifying the checkout process.",
   },
   {
-    icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_79_sv7ryx.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753162297/Mask_group_3_bb84xd.png",
     title: "Enhancements to the Cart and Checkout",
     description:
       "We optimize your checkout process and cart design to increase consumer confidence and reduce cart abandonment. This results in more completed sales and recurring business.",
   },
   {
-    icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_80_xj1zov.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753160425/Mask_group_4_ow3m5y.png",
     title: "SEO for Online Stores",
     description:
       "We design an ecommerce website focusing on SEO best practices. This helps in ranking better on Google. Adding product-related keywords helps in receiving more organic traffic.",
   },
   {
-    icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_81_ct53bt.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753160425/Mask_group_2_xc7cz1.png",
     title: "Marketplace Development Services",
     description:
       "Thinking about creating your Amazon-style multi-vendor marketplace? We develop robust, scalable online platforms complete with vendor dashboards, order tracking, and commission systems processing services.",
   },
   {
-    icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_82_mpn6s4.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753162297/Mask_group_4_sw3jfz.png",
     title: "Systems for Managing Inventory and Orders",
     description:
       "Use advanced backend systems to automate processes for tracking inventory, managing orders, processing payments, and handling shipment processing for your online store. You will ensure optimal efficiency while also updating the stocks with accuracy across the entire store of your ecommerce store.",
   },
   {
-    icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_82_mpn6s4.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753160424/Mask_group_8_ccisek.png",
     title: "Website Support and Maintenance",
     description:
       "We take care of backup management, updating, performance monitoring, as well as bug fixing, so your ecommerce site is always ready, fast, safe, and friendly to users all day, every day.",

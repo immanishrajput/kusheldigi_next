@@ -6,27 +6,27 @@ import "./custombenfit.css";
 const benefits = [
   {
     title: "Unique Brand Identity",
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764190/Mask_group_16_oi6gcy.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753164433/Mask_group_11_y6hica.png",
     description:
       "Custom ecommerce websites help in standing ahead from competitors by the uniqueness of your website. Customized designs speak about your brand identity, goals and features built just for you..",
   },
   {
     title: " Better User Experience",
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764189/Mask_group_17_dkxalb.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753166696/Mask_group_7_o2vovv.png",
     description:
       "Creating mobile-friendly websites, adding smart search filters, and listing products in an accurate manner help create a seamless shopping experience.",
   },
   {
     title: "Scalability for Future Growth",
     minWid1: "true",
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764189/Mask_group_18_qwtqbo.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753166691/Mask_group_10_xgchne.png",
     description:
       "Your ecommerce store grows as you grow. Add additional features, product lines, or integrations without starting again.",
   },
   {
     title: "Integrations with Additional Services",
     minWid: "true",
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_20_ygsgyv.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753164904/Mask_group_aczusy.png",
     description:
       " We link third-party systems, such as shipping firms, CRMs, marketing platforms, and payment gateways, to improve customer experiences and business operations.",
   },
@@ -34,7 +34,7 @@ const benefits = [
     title: "Higher Safety Standards",
     // minWid: "true",
     exminWid: "true",
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764185/Mask_group_19_lxvran.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753166690/Mask_group_11_toqlcg.png",
     description:
       " Custom websites that suit your company are created using advanced security procedures.   It fosters confidence and safeguards customer information..",
   },
@@ -42,7 +42,7 @@ const benefits = [
     title: "Improved SEO Outcomes",
     // minWid: "true",
     exminWid: "true",
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_21_ynyqfc.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753164429/Mask_group_15_pb1t7y.png",
     description:
       " We adhere to SEO best practices, which include using meta tags and keywords.   Custom websites score higher in Google SERP since they are simpler to optimize.",
   },
@@ -57,13 +57,13 @@ const benefits = [
   {
     title: "Cost Efficiency",
      exminWid2: "true",
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_23_bn1ywe.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753190069/Mask_group_19_fx51tw.png",
     description:
       "Designing a custom website may take more cost, but it pays back long term. As it is designed completely to meet your business needs, it attracts real customers and generates more sales.",
   },
   {
     title: "Mobile Friendly",
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_24_lyevyw.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753166694/Mask_group_8_iisgs5.png",
     description:
       "Connect with your clients wherever they may be. Our completely responsive bespoke websites provide a seamless, quick, and easy-to-use purchasing experience across all screen sizes, including smartphones and tablets.",
   },

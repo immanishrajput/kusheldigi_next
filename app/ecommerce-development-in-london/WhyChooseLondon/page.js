@@ -6,32 +6,32 @@ const steps = [
   {
     title: "Tailored E-Commerce Website Solutions",
     desc: "We don't follow one-size-fits-all rules in website design. We value your suggestions and needs and create according to them.",
-    image: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073420/Group_1171281413_b7dwf6.png",
+    image: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753160425/Mask_group_d9v6rx.png",
   },
   {
     title: "On-Time Project Delivery",
     desc: "We value your due dates. Our skilled team completes the work within the due date without sacrificing quality.",
-    image: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073419/Group_1171281412_m4wjmx.png",
+    image: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753161374/Mask_group_jlet4b.png",
   },
   {
     title: "A Mobile-Friendly and Responsive Design",
     desc: "Most of the time, when people shop, they utilize their phones. Therefore, we design a responsive interface that works well on every device.",
-    image: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073409/Group_1171281523_k2vfml.png",
+    image: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753161374/Mask_group_1_zcgiqe.png",
   },
   {
     title: "Integrating Secure Payment Methods",
     desc: "By incorporating trustworthy payment options, we ensure that your consumers can shop with peace of mind, which in turn boosts your sales and earns their confidence.",
-    image: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281524_ksva3g.png",
+    image: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753161373/Mask_group_2_gnsaxz.png",
   },
   {
     title: "SEO Optimized E-Commerce Platforms",
     desc: "Through the use of SEO best practices, we can increase the visibility of your online business in Google's search results. It attracts Google users who are looking to make a purchase.",
-    image: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281525_qnpwgi.png",
+    image: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753160425/Mask_group_4_ow3m5y.png",
   },
   {
     title: "Ongoing Maintenance and Technical Support",
     desc: "We still have a ways to go. Our support staff will ensure that your ecommerce firm remains fast, safe, and successful by correcting issues and adding enhancements.",
-    image: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281414_nyzkrn.png",
+    image: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753160424/Mask_group_8_ccisek.png",
   },
 ];
 

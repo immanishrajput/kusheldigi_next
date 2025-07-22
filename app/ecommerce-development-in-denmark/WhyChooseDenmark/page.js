@@ -4,32 +4,32 @@ import "./whydenmark.css";
 
 const features = [
   {
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073420/Group_1171281413_b7dwf6.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753160425/Mask_group_d9v6rx.png",
     title: "Proven E-Commerce Expertise",
     desc: "At Kushel Digi Solutions, we have decades of experience in crafting custom ecommerce websites that drive more sales, traffic, and long-term growth.",
   },
   {
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073419/Group_1171281412_m4wjmx.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753162957/Mask_group_cexwc2.png",
     title: "Tailored Solutions, No Templates",
     desc: "Because no two businesses share the same DNA, we begin each online-store project with a clean blueprint. By tailoring design, features, and navigation, we craft a shopping experience that moves smoothly and feels distinctly yours.",
   },
   {
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073409/Group_1171281523_k2vfml.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753160424/Mask_group_8_ccisek.png",
     title: "Full-Service Support",
     desc: "From strategy to development, integrations and post-launch, we provide full-service support. Our expert team handles end-to-end custom ecommerce solutions in-house so that you won't worry about gaps in service.",
   },
   {
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281524_ksva3g.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753163355/Mask_group_7_quwoqn.png",
     title: "Cutting-Edge Tech Stack",
     desc: "We create ecommerce stores using platforms like Shopify, Magento, WooCommerce or headless stacks. It assures fast loading, data protection and scalable for future growth.",
   },
   {
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281525_qnpwgi.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753162956/Mask_group_6_ifgr88.png",
     title: " Transparent Process",
     desc: "Our work is as transparent as water. We give you timely updates, code reviews and straight feedback at every step, so that you won't get a sudden shock on the launch day.",
   },
   {
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281414_nyzkrn.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753163354/Mask_group_8_zkoaet.png",
     title: "Client-Centered Approach ",
     desc: "Because your results drive our reputation, we listen, adapt to fresh insights, and chase solutions that boost revenue while keeping your customers happy.",
   },

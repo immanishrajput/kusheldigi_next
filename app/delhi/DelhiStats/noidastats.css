@@ -1,6 +1,8 @@
 .stats-section-noida {
+  margin: auto;
+  width: 65%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   gap: 24px;
   padding: 60px 64px;
@@ -20,7 +22,7 @@
   background: #f0f0f0;
   padding: 30px 20px 18px;
   border-radius: 16px;
-  text-align: center;
+  /* text-align: center; */
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease;
 }
@@ -49,7 +51,7 @@
 
 .ptag-service {
   font-size: 18px;
-  min-height: 150px;
+  min-height: 116px;
   text-align: left;
 }
 
@@ -64,11 +66,11 @@
 }
 
 .service-title {
-  font-size: 29px;
-    line-height: 33px;
-    font-weight: 600;
-    text-align: left;
-    padding-bottom: 10px;
+  font-size: 26px;
+  line-height: 33px;
+  font-weight: 600;
+  text-align: left;
+  padding-bottom: 10px;
 }
 
 .stat-icon img {
@@ -115,20 +117,25 @@
   text-align: center;
 }
 
-@media screen and (max-width: 1263px) {
-  .ptag-service {
-    min-height: 180px;
-  }
-}
+
 @media screen and (max-width: 1360px) {
   .service-sec2 h4 {
     width: 90%;
     font-size: 30px;
   }
+   .stats-section-noida{
+    width: 85%;
+   }
+}
+@media screen and (max-width: 1263px) {
+  .ptag-service {
+    min-height: 180px;
+  }
 }
 @media screen and (max-width: 1024px) {
   .stats-section-noida {
     grid-template-columns: repeat(2, 1fr);
+    width: 100%;
   }
   .center-item-noida {
     grid-column: 1 / -1;

@@ -8,7 +8,7 @@ export default function NoidaStatsService() {
         {
             icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1752566045/Group_1171281752_as3wvy.png",
             // sub: "eCommerce",
-            title: "eCommerce Development in Noida",
+            title: "ECommerce Development in Noida",
             discp:
                 "Get ecommerce solutions that are made just for your company. Easily increase sales, improve the customer experience, and build your brand online.",
             className: "card-blue",
@@ -23,15 +23,15 @@ export default function NoidaStatsService() {
             className: "card-yellow",
             route: "/bigcommerce-development-company-in-noida",
         },
-        {
-            icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1752566045/Group_1171281753_eqcabi.png",
-            // sub: "Shopify",
-            title: "Shopify Development in Noida",
-            discp:
-                "Launch a stunning Shopify store tailored to your brand and goals. From custom themes to smart integrations, we turn clicks into customers.",
-            className: "card-green center-item-noida ",
-            route: "/shopify-development-company-in-noida",
-        },
+        // {
+        //     icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1752566045/Group_1171281753_eqcabi.png",
+        //     // sub: "Shopify",
+        //     title: "Shopify Development in Noida",
+        //     discp:
+        //         "Launch a stunning Shopify store tailored to your brand and goals. From custom themes to smart integrations, we turn clicks into customers.",
+        //     className: "card-green center-item-noida ",
+        //     route: "/shopify-development-company-in-noida",
+        // },
     ];
     return (
         <>
