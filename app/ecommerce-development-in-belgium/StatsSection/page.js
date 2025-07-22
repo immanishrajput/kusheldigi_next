@@ -14,10 +14,10 @@ const stats = [
   },
   {
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750061987/Group_1171281271_y74agq.png",
-    title: "Driving Real Results",
+    title: "Getting Real Results",
     values: [
       { number: "1M+", label: "Orders Handled Without a Hitch" },
-      { number: "£2M+", label: "RevRevenue Generated" },
+      { number: "£2M+", label: "Revenue Generated" },
     ],
     className: "card-yellow",
   },

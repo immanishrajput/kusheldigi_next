@@ -26,6 +26,7 @@ import LondonSolution from '../ecommerce-development-in-london/LondonSolution/Pa
 import LondonSec12 from '../ecommerce-development-in-london/LondonSec12/page'
 import LondonCardSection from '../ecommerce-development-in-london/LondonCardSection/page'
 import BlogSection from '../ecommerce-development-in-london/BlogSection/BlogSection'
+import BulgariaSecSlider from '../ecommerce-development-in-bulgaria/BulgariaSecSlider/page'
 
 
 const phoneNumber = "9045301702";
@@ -51,7 +52,8 @@ const Page = () => {
             <StatsSection />
             <LondonBanners />
             <EcommerceServices />
-            <LondonSecSlider/>
+            <BulgariaSecSlider/>
+            {/* <LondonSecSlider/> */}
             <CallToAction />
             <WhyChooseLondon />
             <LondonEcoPro />

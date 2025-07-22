@@ -38,25 +38,25 @@ const caseStudies = [
       { label: "Increased ROI", value: "+32%" },
     ],
     image:
-      "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1750254081/Group_1171281350_yll41m.png",
+      "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753192097/Group_1171281753_nbxrg0.png",
     bgClass: "bg-maroon",
     slug: "/blackrhinoconcealment",
   },
-  // {
-  //   title: "Sights and Scopes",
-  //   tags: ["B2B", "Holsters and accessories"],
-  //   description:
-  //     "End-to-end QA testing, smart third-party integrations (CRM, inventory, and SEO tools), custom UI/UX design in Figma, and BigCommerce re-platforming and development.",
-  //   results: [
-  //     { label: "Increase in Conversions", value: "+80%" },
-  //     { label: "Repeat Customers", value: "+50%" },
-  //     { label: "Increased ROI", value: "+32%" },
-  //   ],
-  //   image:
-  //     "https://res.cloudinary.com/dqjbzgksw/image/upload/v1751266075/Group_1171281352_jjg9qf.png",
-  //   bgClass: "bg-navy",
-  //   slug: "/sitesandscopes",
-  // },
+  {
+    title: "Sights And Scopes",
+    tags: ["B2B", "Holsters and accessories"],
+    description:
+      "BigCommerce Migration, Data Migration, Magento Migration, SEO tools Integration, Theme Customization and Custom Store Design.",
+    results: [
+      { label: "Increased Conversions", value: "+90%" },
+      { label: "Return Customer", value: "+60%" },
+      { label: "Boosted ROI", value: "+48%" },
+    ],
+    image:
+      "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753192097/Group_1171281352_id8dlc.png",
+    bgClass: "bg-navy",
+    slug: "/sitesandscopes",
+  },
 ];
 
 function BulgariaSecSlider() {

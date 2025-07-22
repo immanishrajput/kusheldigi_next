@@ -769,14 +769,36 @@ const Navbar = () => {
 
                         <div className="loc-nav megaMenu">
                           <div className="loc-dropmenu-main">
-                            <div className="loc-left">
+                            <div className="">
+                              <div className="dummy ">
+                                <Link className="ext-flagD" href="/">
+                                 <img className="img-flag-con" src="https://res.cloudinary.com/dxlykgx6w/image/upload/v1753193678/world_fzxwtv.png" alt="UK_Flag" /> <strong className="ext-dummy">
+                                    India
+                                  </strong>
+                                </Link>
+                              </div>
+                              <div className="loc-left">
+                                <div className="dummy ">
+                                <Link href="/delhi">
+                                  <span className="hover-country-ext">Delhi</span>
+                                </Link>
+                              </div>
+                               <div className="dummy ">
+                                <Link href="/noida">
+                                  <span className="hover-country-ext">Noida</span>
+                                </Link>
+                              </div>
+                              </div>
+                            </div>
+                            <div className="">
                               <div className="dummy ">
                                 {" "}
                                 <Link className="ext-flagD" href="/">
                                 <img className="img-flag-con"  src="https://res.cloudinary.com/dxlykgx6w/image/upload/v1753094658/european-union_coalcr.png" alt="Europe_Flag" />  <strong className="ext-dummy">Europe</strong>
                                 </Link>
                               </div>
-                              <div className="dummy ">
+                             <div className="loc-left">
+                               <div className="dummy ">
                                 {" "}
                                 <Link href="/ecommerce-development-in-belgium">
                                   <span className="hover-country-ext">Belgium</span>
@@ -806,8 +828,9 @@ const Navbar = () => {
                                   <span className="hover-country-ext">Bulgaria</span>
                                 </Link>
                               </div>
+                             </div>
                             </div>
-                            <div className="loc-right">
+                            <div className="">
                               <div className="dummy ">
                                 <Link className="ext-flagD" href="/">
                                  <img className="img-flag-con" src="https://res.cloudinary.com/dxlykgx6w/image/upload/v1753093834/united-kingdom_uflwsf.png" alt="UK_Flag" /> <strong className="ext-dummy">
@@ -815,12 +838,15 @@ const Navbar = () => {
                                   </strong>
                                 </Link>
                               </div>
-                              <div className="dummy ">
+                              <div className="loc-left">
+                                <div className="dummy ">
                                 <Link href="/ecommerce-development-in-london">
                                   <span className="hover-country-ext">London</span>
                                 </Link>
                               </div>
+                              </div>
                             </div>
+                              
                             {/* <div className="loc-right">
                               <div className="dummy">
                                 {" "}

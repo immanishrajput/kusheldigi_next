@@ -5,62 +5,62 @@ import { useRouter } from "next/navigation";
 
 const features = [
   {
-    icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965474/Mask_group_75_obmlwf.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753164905/Mask_group-2_ohpmkb.png",
     title: "Ecommerce Consulting",
     description:
       "Are you considering starting an ecommerce website but are unsure where to start? Allow our experts to meticulously develop a strategy for you that will provide results.",
   },
   {
-    icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965473/Mask_group_76_jziqdb.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753164912/Mask_group-7_b4dgnb.png",
     title: "E-Commerce Design (UI/UX)",
     description: `
 With eye-catching designs and graphics, our UI/UX team produces engaging user experiences that urge users to click. Giving your users an unforgettable experience is the goal of our design services, which will help you stay conversion-focused at all times.
 `,
   },
   {
-    icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965473/Mask_group_77_syi4ue.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753160425/Mask_group_2_xc7cz1.png",
     title: "E-Commerce Development",
     description: `
 As a leading ecommerce development company in Ireland, we provide highly customized ecommerce software that enables you to put sales first and let the others worry about automated ecommerce software solutions.
 `,
   },
   {
-    icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965468/Mask_group_78_d9e39s.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753160424/Mask_group_8_ccisek.png",
     title: "After-Launch Support",
     description: `
 We provide post-launch support and services that handle migration, updates, blog resolution, and other problems, ensuring that your ecommerce apps are always up to date.
 `,
   },
   {
-    icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_79_sv7ryx.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753164910/Mask_group-6_kvrolq.png",
     title: "E-Commerce Migration",
     description: `
 Want to relocate your online store? Let us do this for you. Our knowledgeable staff moves your current business to a new online store without erasing any data or daily traffic.
 `,
   },
   {
-    icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_80_xj1zov.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753162957/Mask_group_cexwc2.png",
     title: "Platform-Based E-Commerce Solution",
     description: `
 Our ecommerce expertise allows us to develop across platforms on Magento, WooCommerce and Shopify. Its flexibility will enable us to recommend the best platform for your web requirements and your budget.
 `,
   },
   {
-    icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_81_ct53bt.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753164431/Mask_group_13_pgy2ad.png",
     title: "E-Commerce Integration",
     description: `
 We use cutting-edge third-party tools and technology to create a complete, data-driven ecommerce experience that meets your specific requirements.
 `,
   },
   {
-    icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_82_mpn6s4.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753160424/Mask_group_8_ccisek.png",
     title: "E-Commerce Support",
     description: ` 
 We ensure your website works well on all devices. We provide end-to-end support to ensure your website works smoothly with no errors and bugs.
 `,
   },
   {
-    icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_82_mpn6s4.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753164904/Mask_group-1_cwxyam.png",
     title: "E-Commerce Audit",
     description: `
 An ecommerce audit carefully checks your online store's performance, such as its website speed, SEO, user experience, mobile friendliness, and checkout process, to find ways to make it better that will bring in more visitors, convert them into customers, and boost overall sales.

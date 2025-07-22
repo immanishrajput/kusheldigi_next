@@ -24,7 +24,8 @@ import IrelandBanner3 from '../ecommerce-development-in-ireland/IrelandBanner3/P
 import BlogSection from '../ecommerce-development-in-ireland/BlogSection/BlogSection';
 import IrelandFAQ from '../ecommerce-development-in-ireland/IrelandFAQ/page';
 import Website from './Home/HomeForm';
-import IrelandSecSlider from '../ecommerce-development-in-ireland/IrelandSecSlider/page';
+// import IrelandSecSlider from '../ecommerce-development-in-ireland/IrelandSecSlider/page';
+import BulgariaSecSlider from '../ecommerce-development-in-bulgaria/BulgariaSecSlider/page';
 
 
 
@@ -68,7 +69,8 @@ function EcommerceIreland() {
             <StatsSection />
             <Cutting1Section />
             <IrelandEcomServ/>
-           <IrelandSecSlider/>
+           {/* <IrelandSecSlider/> */}
+           <BulgariaSecSlider/>
               <CallToAction />
               <WhyChooseIreland/>
                <DesignDevelopment />

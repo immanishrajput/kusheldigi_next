@@ -12,7 +12,7 @@ import BelgiumEcomServ from '../ecommerce-development-in-belgium/BelgiumEcomServ
 import IndustryTabs from '../ecommerce-development-in-belgium/BelgiumIndustry/page';
 import BelgiumMakeUs from '../ecommerce-development-in-belgium/BelgiumMakeUs/page';
 import BelgiumSec12 from '../ecommerce-development-in-belgium/BelgiumSec12/page';
-import BelgiumSecSlider from '../ecommerce-development-in-belgium/BelgiumSecSlider/page';
+// import BelgiumSecSlider from '../ecommerce-development-in-belgium/BelgiumSecSlider/page';
 import BelgiumShop from '../ecommerce-development-in-belgium/BelgiumShop/page';
 import BlogSection from '../ecommerce-development-in-belgium/BlogSection/BlogSection';
 import CallToAction from '../ecommerce-development-in-belgium/CtaBelgium/page';
@@ -25,6 +25,7 @@ import WhyChooseBelgium from '../ecommerce-development-in-belgium/WhyChooseBelgi
 import Website from './Home/HomeForm';
 import BelgiumBanner3 from '../ecommerce-development-in-belgium/BelgiumBanner18/Page';
 import BelgiumFAQ from '../ecommerce-development-in-belgium/BelgiumFAQ/page';
+import BulgariaSecSlider from '../ecommerce-development-in-bulgaria/BulgariaSecSlider/page';
 
 const phoneNumber = "9045301702";
 
@@ -67,7 +68,8 @@ const generateMetadata = ({ params }) => {
             <StatsSection/>
             <Cutting1Section />
             <BelgiumEcomServ/>
-            <BelgiumSecSlider/>
+            <BulgariaSecSlider/>
+            {/* <BelgiumSecSlider/> */}
             <CallToAction/>
             <WhyChooseBelgium/>
             <DesignDevelopment/>

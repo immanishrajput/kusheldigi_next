@@ -4,32 +4,32 @@ import './whyfinland.css';
 
 const features = [
     {
-        icon: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073420/Group_1171281413_b7dwf6.png',
+        icon: 'https://res.cloudinary.com/dxlykgx6w/image/upload/v1753164905/Mask_group-2_ohpmkb.png',
         title: 'Tailored E-Commerce Store',
         desc: 'We build bespoke ecommerce sites that meet the demands of both the company and its target market.',
     },
     {
-        icon: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073419/Group_1171281412_m4wjmx.png',
+        icon: 'https://res.cloudinary.com/dxlykgx6w/image/upload/v1753165898/Mask_group_1_ljmxuo.png',
         title: 'Knowing about Expert Platforms',
         desc: 'We are one of the best ecommerce development firms in Finland, and we have worked with a lot of different platforms.  We utilise a lot of sophisticated platforms, such as WooCommerce, Magento, and Shopify.',
     },
     {
-        icon: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073409/Group_1171281523_k2vfml.png',
+        icon: 'https://res.cloudinary.com/dxlykgx6w/image/upload/v1753161374/Mask_group_1_zcgiqe.png',
         title: 'Mobile Responsive Design',
         desc: 'Because the majority of our users are on mobile devices, we make sure our websites operate on all of them.',
     },
     {
-        icon: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281524_ksva3g.png',
+        icon: 'https://res.cloudinary.com/dxlykgx6w/image/upload/v1753165894/Mask_group_2_movu3z.png',
         title: 'Transparent & Reliable Process',
         desc: 'We provide every bit of detail about your online store, ensuring clear communication and dependable project timelines.',
     },
     {
-        icon: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281525_qnpwgi.png',
+        icon: 'https://res.cloudinary.com/dxlykgx6w/image/upload/v1753165894/Mask_group_3_nsiccw.png',
         title: 'End-to-End Services',
         desc: 'From getting ready to after the launch. We design visually appealing, fast, responsive, mobile-friendly ecommerce stores that engage real audiences and gain more conversions.',
     },
     {
-        icon: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281414_nyzkrn.png',
+        icon: 'https://res.cloudinary.com/dxlykgx6w/image/upload/v1753165893/Mask_group_4_r87vhk.png',
         title: 'Proven Industry Experience',
         desc: 'We have decades of experience in designing ecommerce websites with 1000+ happy clients.',
     },

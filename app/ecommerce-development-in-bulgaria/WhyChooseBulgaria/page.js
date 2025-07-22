@@ -4,32 +4,32 @@ import "./whybelgium.css";
 
 const features = [
   {
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073420/Group_1171281413_b7dwf6.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753165893/Mask_group_4_r87vhk.png",
     title: "Focused on Results",
     desc: "We've been getting good results for more than 10 years. Not any filler, just results.",
   },
   {
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073419/Group_1171281412_m4wjmx.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753188928/Mask_group_15_hyzxt9.png",
     title: "Plans that Fit your Needs",
     desc: "We think every business is different. Our professional team knows what each business needs and makes plans that fit those needs.",
   },
   {
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073409/Group_1171281523_k2vfml.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753188424/Mask_group_13_znky5c.png",
     title: "Cutting-Edge Technology",
     desc: "We use the newest technologies and tools to get things done faster and better.",
   },
   {
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281524_ksva3g.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753189068/Mask_group_16_hx1ord.png",
     title: "Proven Results",
     desc: "We have data from different businesses that you can see. Our skilled team gets things done.",
   },
   {
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281525_qnpwgi.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753189354/Mask_group_17_lnklj2.png",
     title: "Focusing on the Customer",
     desc: "We put your goal first. We give you what you ask for.",
   },
   {
-    icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750073408/Group_1171281414_nyzkrn.png",
+    icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753189353/Mask_group_18_cgsrc6.png",
     title: "Quality at a Low Cost",
     desc: "So that start-ups can also use our services, we believe in getting good results on a budget.",
   },

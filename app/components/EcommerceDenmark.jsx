@@ -22,7 +22,8 @@ import StatsSection from '../ecommerce-development-in-denmark/StatsSection/page'
 import WhyChooseDenmark from '../ecommerce-development-in-denmark/WhyChooseDenmark/page';
 import '../globals.css';
 import Website from './Home/HomeForm';
-import DenmarkSecSlider from '../ecommerce-development-in-denmark/DenmarkSecSlider/page';
+// import DenmarkSecSlider from '../ecommerce-development-in-denmark/DenmarkSecSlider/page';
+import BulgariaSecSlider from '../ecommerce-development-in-bulgaria/BulgariaSecSlider/page';
 
 
 const phoneNumber = "9045301702";
@@ -65,7 +66,8 @@ function EcommerceDenmark() {
             <StatsSection />
             <Cutting1Section />
             <DenmarkEcomServ />
-            <DenmarkSecSlider />
+            <BulgariaSecSlider/>
+            {/* <DenmarkSecSlider /> */}
             <CallToAction />
             <WhyChooseDenmark />
             <DesignDevelopment />

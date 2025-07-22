@@ -20,10 +20,11 @@ import FinlandFAQ from '../ecommerce-development-in-finland/FinlandFAQ/page';
 import IndustryTabs from '../ecommerce-development-in-finland/FinlandIndustry/page';
 import FinlandMakeUs from '../ecommerce-development-in-finland/FinlandMakeUs/page';
 import FinlandSec12 from '../ecommerce-development-in-finland/FinlandSec12/page';
-import FinlandSecSlider from '../ecommerce-development-in-finland/FinlandSecSlider/page';
+// import FinlandSecSlider from '../ecommerce-development-in-finland/FinlandSecSlider/page';
 import FinlandShop from '../ecommerce-development-in-finland/FinlandShop/page';
 import WhyChooseFinland from '../ecommerce-development-in-finland/WhyChooseFinland/page';
 import Website from './Home/HomeForm';
+import BulgariaSecSlider from '../ecommerce-development-in-bulgaria/BulgariaSecSlider/page';
 
 
 
@@ -66,7 +67,8 @@ function EcommerceFinland() {
             <StatsSection />
             <Cutting1Section />
             <FinlandEcomServ />
-            <FinlandSecSlider/>
+            {/* <FinlandSecSlider/> */}
+            <BulgariaSecSlider/>
             <CallToAction />
             <WhyChooseFinland />
             <DesignDevelopment />

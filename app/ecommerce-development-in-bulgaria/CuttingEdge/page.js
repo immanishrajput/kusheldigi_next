@@ -12,9 +12,8 @@ export default function Cutting1Section() {
       <div className="cutting1-container">
         <div className="cutting1-left">
           <h2>
-            Power Up Your Online Store with Top
-            <br />
-            E-Commerce Developers in Bulgaria
+            Power Up Your Online Store with Top E-Commerce Developers in
+            Bulgaria
           </h2>
           <p>
             Kushel Digi Solutions makes ecommerce sites that are smart,
