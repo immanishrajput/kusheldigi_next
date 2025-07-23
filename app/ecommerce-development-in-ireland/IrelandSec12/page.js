@@ -49,7 +49,7 @@ function IrelandSec12() {
       <div className="headdd-div">
         <div className="heaaader-content">
           <h3 className="primary-heading">
-            Looking for Custom E-Commerce Solutions That Scale?
+           Looking for Expert E-Commerce Solutions for Your Modern Business?
           </h3>
           <h6 className="secondary-heading">
             Our ecommerce solutions are advantageous for all business types and

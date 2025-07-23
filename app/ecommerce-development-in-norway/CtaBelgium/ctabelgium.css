@@ -3,6 +3,8 @@
   color: #fff;
   padding: 60px 60px 40px;
   text-align: center;
+  max-width: 1720px;
+  margin: 0 auto;
 }
 
 .cta-container {

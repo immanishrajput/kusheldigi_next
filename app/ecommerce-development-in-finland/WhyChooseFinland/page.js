@@ -41,8 +41,7 @@ const WhyChooseFinland = () => {
             <div className="why-choose-wrapper">
                 <h2 className="why-choose-heading">Why Partner with Kushel Digi Solutions?</h2>
                 <p className="why-choose-subtext">
-                    Kushel Digi Solutions is a leading software development company focused on delivering cutting-edge and customized tech solutions.
-                </p>
+We are a well-known ecommerce development company in Finland. We make ecommerce sites that look good, load quickly, work well on mobile devices, and persuade real consumers to spend more.                </p>
             </div>
 
             <div className="why-choose-container">

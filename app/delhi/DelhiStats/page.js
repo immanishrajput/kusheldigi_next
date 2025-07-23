@@ -35,7 +35,7 @@ export default function DelhiStatsService() {
   ];
   return (
     <>
-      <div>
+      <section className="main-stats-sec">
         <h3 className="service-heading">Our Services</h3>
         <section className="stats-section-noida">
           {stats.map((stat, index) => (
@@ -71,7 +71,7 @@ export default function DelhiStatsService() {
             robust e-commerce solution that can help your company grow.
           </p>
         </section>
-      </div>
+      </section>
     </>
   );
 }

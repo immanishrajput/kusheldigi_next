@@ -35,7 +35,7 @@ export default function ChennaiStatsService() {
     ];
     return (
         <>
-            <div>
+            <section className="main-stats-sec">
                 <h2 className="service-heading">Our Services</h2>
                 <section className="stats-section-noida">
                     {stats.map((stat, index) => (
@@ -69,7 +69,7 @@ export default function ChennaiStatsService() {
                         We believe in strategy, design, and technology to build high-converting ecommerce websites that are secure and scalable at Kushel Digi. Our websites are mobile-responsive, ultra-fast, and user-friendly, ensuring you reach customers locally and globally. We future-proof your store with SEO best practices and seamless backend integrations, so you can focus on scaling, not fixing.
                     </p>
                 </section>
-            </div>
+            </section>
         </>
     );
 }

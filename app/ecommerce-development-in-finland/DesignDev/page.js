@@ -32,7 +32,7 @@ const designData = {
       ],
     },
     {
-      title: "DELIVERY",
+      title: "SEAMLESS DELIVERY",
       items: ["POST-LAUNCH SUPPORT"],
     },
   ],

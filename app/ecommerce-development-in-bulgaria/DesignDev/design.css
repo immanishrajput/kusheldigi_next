@@ -1,6 +1,8 @@
 .ecom-process-section {
   background: #fff;
   padding: 60px 60px;
+  max-width: 1720px;
+  margin: 0 auto;
 }
 
 .ecom-process-toggle {

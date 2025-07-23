@@ -8,7 +8,10 @@
   padding: 60px 64px;
   background: #fff;
 }
-
+.main-stats-sec{
+  max-width: 1720px;
+  margin: 0 auto;
+}
 .service-heading {
   font-size: 38px;
   font-weight: 600;
