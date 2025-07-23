@@ -104,8 +104,8 @@
 }
 
 .service-sec2 h4 {
-  text-align: center;
-  width: 80%;
+  /* text-align: center; */
+  width: 100%;
   margin: auto auto 25px;
   font-size: 40px;
   font-weight: 600;
@@ -114,18 +114,19 @@
 
 .service-sec2 p {
   font-size: 21px;
-  text-align: center;
+  line-height: 1.7;
+  /* text-align: center; */
 }
-
 
 @media screen and (max-width: 1360px) {
   .service-sec2 h4 {
     width: 90%;
     font-size: 30px;
+    text-align: center;
   }
-   .stats-section-noida{
+  .stats-section-noida {
     width: 85%;
-   }
+  }
 }
 @media screen and (max-width: 1263px) {
   .ptag-service {
@@ -136,6 +137,12 @@
   .stats-section-noida {
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
+  }
+  .service-sec2 p {
+    text-align: center;
+  }
+  .service-sec2 h4 {
+    text-align: center;
   }
   .center-item-noida {
     grid-column: 1 / -1;

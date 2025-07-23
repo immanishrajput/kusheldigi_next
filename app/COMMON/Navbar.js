@@ -205,29 +205,54 @@ const data = [
     // navigate: "/hire",
     subpart: [
       {
-        title: "London",
-        navigate: "/ecommerce-development-in-london",
+        title: "India",
+        navigate: "/",
+        subpart: [
+          {
+            title: "Delhi",
+            navigate: "/delhi",
+          },
+          {
+            title: "Noida",
+            navigate: "/noida",
+          },
+        ],
       },
       {
-        title: "Bulgaria",
-        navigate: "/ecommerce-development-in-bulgaria",
+        title: "Europe",
+        navigate: "/",
+        subpart: [
+          { title: "Belgium", navigate: "/ecommerce-development-in-belgium" },
+          {
+            title: "Bulgaria",
+            navigate: "/ecommerce-development-in-bulgaria",
+          },
+          {
+            title: "Denmark",
+            navigate: "/ecommerce-development-in-denmark",
+          },
+          {
+            title: "Finland",
+            navigate: "/ecommerce-development-in-finland",
+          },
+          {
+            title: "Ireland",
+            navigate: "/ecommerce-development-in-ireland",
+          },
+        ],
       },
+
       {
-        title: "Belgium",
-        navigate: "/ecommerce-development-in-belgium",
+        title: "United Kingdom",
+        navigate: "/",
+         subpart: [
+          {
+            title: "London",
+            navigate: "/ecommerce-development-in-london",
+          },
+        ]
       },
-      {
-        title: "Denmark",
-        navigate: "/ecommerce-development-in-denmark",
-      },
-      {
-        title: "Finland",
-        navigate: "/ecommerce-development-in-finland",
-      },
-      {
-        title: "Ireland",
-        navigate: "/ecommerce-development-in-ireland",
-      },
+     
     ],
   },
   {
@@ -772,81 +797,110 @@ const Navbar = () => {
                             <div className="">
                               <div className="dummy ">
                                 <Link className="ext-flagD" href="/">
-                                 <img className="img-flag-con" src="https://res.cloudinary.com/dxlykgx6w/image/upload/v1753193678/world_fzxwtv.png" alt="UK_Flag" /> <strong className="ext-dummy">
-                                    India
-                                  </strong>
+                                  <img
+                                    className="img-flag-con"
+                                    src="https://res.cloudinary.com/dxlykgx6w/image/upload/v1753193678/world_fzxwtv.png"
+                                    alt="UK_Flag"
+                                  />{" "}
+                                  <strong className="ext-dummy">India</strong>
                                 </Link>
                               </div>
                               <div className="loc-left">
                                 <div className="dummy ">
-                                <Link href="/delhi">
-                                  <span className="hover-country-ext">Delhi</span>
-                                </Link>
-                              </div>
-                               <div className="dummy ">
-                                <Link href="/noida">
-                                  <span className="hover-country-ext">Noida</span>
-                                </Link>
-                              </div>
+                                  <Link href="/delhi">
+                                    <span className="hover-country-ext">
+                                      Delhi
+                                    </span>
+                                  </Link>
+                                </div>
+                                <div className="dummy ">
+                                  <Link href="/noida">
+                                    <span className="hover-country-ext">
+                                      Noida
+                                    </span>
+                                  </Link>
+                                </div>
                               </div>
                             </div>
                             <div className="">
                               <div className="dummy ">
                                 {" "}
                                 <Link className="ext-flagD" href="/">
-                                <img className="img-flag-con"  src="https://res.cloudinary.com/dxlykgx6w/image/upload/v1753094658/european-union_coalcr.png" alt="Europe_Flag" />  <strong className="ext-dummy">Europe</strong>
+                                  <img
+                                    className="img-flag-con"
+                                    src="https://res.cloudinary.com/dxlykgx6w/image/upload/v1753094658/european-union_coalcr.png"
+                                    alt="Europe_Flag"
+                                  />{" "}
+                                  <strong className="ext-dummy">Europe</strong>
                                 </Link>
                               </div>
-                             <div className="loc-left">
-                               <div className="dummy ">
-                                {" "}
-                                <Link href="/ecommerce-development-in-belgium">
-                                  <span className="hover-country-ext">Belgium</span>
-                                </Link>
-                              </div>
-                              <div className="dummy ">
-                                {" "}
-                                <Link href="/ecommerce-development-in-denmark">
-                                  <span className="hover-country-ext">Denmark</span>
-                                </Link>
-                              </div>
+                              <div className="loc-left">
+                                <div className="dummy ">
+                                  {" "}
+                                  <Link href="/ecommerce-development-in-belgium">
+                                    <span className="hover-country-ext">
+                                      Belgium
+                                    </span>
+                                  </Link>
+                                </div>
+                                <div className="dummy ">
+                                  {" "}
+                                  <Link href="/ecommerce-development-in-denmark">
+                                    <span className="hover-country-ext">
+                                      Denmark
+                                    </span>
+                                  </Link>
+                                </div>
 
-                              <div className="dummy ">
-                                {" "}
-                                <Link href="/ecommerce-development-in-finland">
-                                  <span className="hover-country-ext">Finland</span>
-                                </Link>
+                                <div className="dummy ">
+                                  {" "}
+                                  <Link href="/ecommerce-development-in-finland">
+                                    <span className="hover-country-ext">
+                                      Finland
+                                    </span>
+                                  </Link>
+                                </div>
+                                <div className="dummy ">
+                                  {" "}
+                                  <Link href="/ecommerce-development-in-ireland">
+                                    <span className="hover-country-ext">
+                                      Ireland
+                                    </span>
+                                  </Link>
+                                </div>
+                                <div className="dummy ">
+                                  <Link href="/ecommerce-development-in-bulgaria">
+                                    <span className="hover-country-ext">
+                                      Bulgaria
+                                    </span>
+                                  </Link>
+                                </div>
                               </div>
-                              <div className="dummy ">
-                                {" "}
-                                <Link href="/ecommerce-development-in-ireland">
-                                  <span className="hover-country-ext">Ireland</span>
-                                </Link>
-                              </div>
-                              <div className="dummy ">
-                                <Link href="/ecommerce-development-in-bulgaria">
-                                  <span className="hover-country-ext">Bulgaria</span>
-                                </Link>
-                              </div>
-                             </div>
                             </div>
                             <div className="">
                               <div className="dummy ">
                                 <Link className="ext-flagD" href="/">
-                                 <img className="img-flag-con" src="https://res.cloudinary.com/dxlykgx6w/image/upload/v1753093834/united-kingdom_uflwsf.png" alt="UK_Flag" /> <strong className="ext-dummy">
+                                  <img
+                                    className="img-flag-con"
+                                    src="https://res.cloudinary.com/dxlykgx6w/image/upload/v1753093834/united-kingdom_uflwsf.png"
+                                    alt="UK_Flag"
+                                  />{" "}
+                                  <strong className="ext-dummy">
                                     United Kingdom
                                   </strong>
                                 </Link>
                               </div>
                               <div className="loc-left">
                                 <div className="dummy ">
-                                <Link href="/ecommerce-development-in-london">
-                                  <span className="hover-country-ext">London</span>
-                                </Link>
-                              </div>
+                                  <Link href="/ecommerce-development-in-london">
+                                    <span className="hover-country-ext">
+                                      London
+                                    </span>
+                                  </Link>
+                                </div>
                               </div>
                             </div>
-                              
+
                             {/* <div className="loc-right">
                               <div className="dummy">
                                 {" "}

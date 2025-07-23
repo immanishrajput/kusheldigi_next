@@ -43,9 +43,9 @@ const WhyChooseBelgium = () => {
           Why Choose Kushel Digi Solutions?
         </h2>
         <p className="why-choose-subtext">
-          We design and build ecommerce platforms that scale alongside your
-          growth and provide industry-leading impact at each level. From
-          strategy to support, every aspect is taken care of planning to help.
+          We design and build ecommerce systems that grow with your business and
+          give you the best results in the industry at every stage. Everything
+          is taken care of, from planning to help.
         </p>
       </div>
 
