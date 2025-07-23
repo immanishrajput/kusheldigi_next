@@ -35,7 +35,7 @@ export default function NoidaStatsService() {
     ];
     return (
         <>
-            <div>
+            <section className="main-stats-sec">
                 <h3 className="service-heading">Our Services</h3>
                 <section className="stats-section-noida">
                     {stats.map((stat, index) => (
@@ -63,7 +63,7 @@ export default function NoidaStatsService() {
                         No useless talk, and wastage of time- Just real results and website growth. Let's make your online business something great!
                     </p>
                 </section>
-            </div>
+            </section>
         </>
     );
 }

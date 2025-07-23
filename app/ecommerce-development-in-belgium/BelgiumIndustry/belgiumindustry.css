@@ -3,6 +3,8 @@
   padding: 60px 60px;
   text-align: center;
   font-family: "sans-serif";
+  max-width: 1720px;
+  margin: 0 auto;
 }
 
 .industry-heading {

@@ -1,6 +1,8 @@
 .why-choose-section {
   background: rgba(247, 248, 253, 1);
   padding: 80px 60px;
+    max-width: 1720px;
+  margin: 0 auto;
 }
 
 .why-choose-wrapper {

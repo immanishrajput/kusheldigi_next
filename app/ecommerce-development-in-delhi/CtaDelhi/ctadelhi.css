@@ -2,6 +2,8 @@
   background-color: #1a62ff;
   color: #fff;
   padding: 60px 60px 40px;
+  max-width: 1720px;
+  margin: 0 auto;
   text-align: center;
 }
 

@@ -1,6 +1,8 @@
 .cutting1-section {
   padding: 60px 20px;
   background-color: #f9fbfe;
+  max-width: 1720px;
+  margin: 0 auto;
 }
 
 .cutting1-container {

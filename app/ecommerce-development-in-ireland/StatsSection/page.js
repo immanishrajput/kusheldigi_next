@@ -14,7 +14,7 @@ const stats = [
   },
   {
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750061987/Group_1171281271_y74agq.png",
-    title: "Driving Real Results",
+    title: "Massive E-Commerce Impact",
     values: [
       { number: "1M+", label: "Seamless Order Processed" },
       { number: "1.4M+", label: "Revenue Generated" },
@@ -23,7 +23,7 @@ const stats = [
   },
   {
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750061987/Group_1171281269_xafwik.png",
-    title: "Growing Community",
+    title: "Thriving User Community",
     values: [
       {
         number: "1M+",

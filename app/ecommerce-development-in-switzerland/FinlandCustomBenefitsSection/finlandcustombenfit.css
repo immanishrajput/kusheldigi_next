@@ -3,6 +3,8 @@
   background: #f7f7f7;
   padding: 60px 20px;
   font-family: "Inter", sans-serif;
+  max-width: 1720px;
+  margin: 0 auto;
 }
 
 .custom-benefits-container {
