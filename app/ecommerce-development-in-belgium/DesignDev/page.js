@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import "./design.css";
 
 const designData = {
-  paragraph: `At Kushel Digi Solutions, we do not only engage in design; rather, we develop experiences. With over 15 years of experience in the industry, we have developed a streamlined and effective design ecom-process where every critical detail is captured from the wireframe stage to the final delivery.`,
+  paragraph: `At Kushel Digi Solutions, we do not only engage in design; rather, we develop experiences. With over 15 years of experience in the industry, we have developed a streamlined and effective design process where every critical detail is captured from the wireframe stage to the final delivery.`,
   columns: [
     {
       title: "User Experience (UX) Research",
@@ -32,7 +32,7 @@ const designData = {
 };
 
 const developmentData = {
-  paragraph: `Our development ecom-process emphasizes quality and clean architecture, so the code is always scalable. We observe industry best practices during testing phases and ongoing maintenance tasks.`,
+  paragraph: `Our development process emphasizes quality and clean architecture, so the code is always scalable. We observe industry best practices during testing phases and ongoing maintenance tasks.`,
   columns: [
     {
       title: "ARCHITECTURE",
@@ -40,7 +40,7 @@ const developmentData = {
     },
     {
       title: "DEVELOPMENT",
-      items: ["Frontend Dev", "Backend Dev", "Database Manage"],
+      items: ["Frontend Dev", "Backend Eng", "Database Manage"],
     },
     {
       title: "QUALITY ASSURANCE",

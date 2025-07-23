@@ -12,23 +12,17 @@ function BelgiumShop() {
             </h2>
             <ul className="Conversions1-dashlist">
               <li>
-                <span>–</span> We construct ecommerce
-                websites that drive real results.
+                <strong> Profiles-Driven Approach</strong> – We construct ecommerce websites that drive real results. 
               </li>
               <li>
-                <span>–</span>
-                 Our ecommerce websites are
-                mobile-friendly, which ensures a great user experience.
+               <strong> Mobile Users’ Experience Matters</strong> – Our ecommerce websites are mobile-friendly, which ensures a great user experience.
               </li>
               <li>
-                <span>–</span>We understand that
-                in this growing industry, your website should also grow along
-                with the brand, thats why we create scalable websites.
+                <strong>Secure & Scalable Platforms</strong> – We understand that in this growing industry, your website should also grow along with the brand, thats why we create scalable websites.
               </li>
               <li>
-                <span>–</span>
-                With analytics tools, making business
-                decisions is easier than ever through automated data analysis.
+                <strong> Data-Driven Insights</strong>
+               – With analytics tools, making business decisions is easier than ever through automated data analysis.  
               </li>
             </ul>
             <p>

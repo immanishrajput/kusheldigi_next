@@ -9,13 +9,14 @@ function BelgiumCardSection() {
   return (
     <section className="platforms">
       <h3 className="plt-head primary-heading">
-        Leveraging the Best E-Commerce Platforms to Drive Your Growth
+        Delivering Results with Leading E-Commerce Platforms
       </h3>
       <p className="plt-para secondary-heading">
-        Using well-known systems like Shopify, WooCommerce, and Magento, we
-        create scalable, customised, safe, and quick online shops that expand
-        with your company. We can help you create a new website or migrate your
-        existing one. Our knowledgeable staff handles every stage.
+        At Kushel Digi Solutions, we build lightning-fast, secure stores on
+        Shopify, WooCommerce, and Magento, all backed by their vast ecosystems.
+        From custom code to gentle migrations or full-feature upgrades, our
+        developers combine experience and care to deliver exactly what you need.
+        Your store deserves the best, and we are here to deliver it.
       </p>
       <div className="plt-cards">
         <div className="plt-card">
@@ -52,7 +53,7 @@ function BelgiumCardSection() {
             </li>
             <li className="plt-li">
               {" "}
-               Headless Commerce Development on BigCommerce
+              Headless Commerce Development on BigCommerce
             </li>
             <li className="plt-li">
               {" "}

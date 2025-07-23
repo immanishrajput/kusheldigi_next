@@ -31,7 +31,6 @@
   padding: 0 20px;
 }
 
-
 .ecom-belgium-card {
   background-color: #ffffff;
   padding: 24px;
@@ -44,7 +43,7 @@
 .ecom-belgium-card:hover {
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
   background-color: rgba(239, 239, 239, 0.644);
-  border-left: 4px solid #007BFF;
+  border-left: 4px solid #007bff;
 }
 
 .ecom-belgium-icon {
@@ -57,7 +56,8 @@
   height: 50px;
   object-fit: contain;
   margin-bottom: 10px;
-  filter: brightness(0) saturate(100%) invert(21%) sepia(98%) saturate(1797%) hue-rotate(215deg) brightness(101%) contrast(103%);
+  filter: brightness(0) saturate(100%) invert(21%) sepia(98%) saturate(1797%)
+    hue-rotate(215deg) brightness(101%) contrast(103%);
 }
 
 .ecom-belgium-card-title {
@@ -86,7 +86,7 @@
   padding: 12px 28px;
   font-size: 1rem;
   font-weight: 500;
-  background-color: #007BFF;
+  background-color: #007bff;
   color: white;
   border: 1px solid #0051ff;
   border-radius: 50px;
@@ -102,16 +102,20 @@
 
 .ecom-btn.secondary {
   background-color: #ffffff;
-  color: #007BFF;
-  border: 1px solid #007BFF;
+  color: #007bff;
+  border: 1px solid #007bff;
 }
 
 .ecom-btn.secondary:hover {
-  background-color: #007BFF;
+  background-color: #007bff;
   color: #fff;
 }
 
-
+@media (max-width: 1100px) {
+  .ecom-belgium-card:hover {
+    border-left: 0px;
+  }
+}
 @media (max-width: 992px) {
   .ecom-belgium-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -125,18 +129,17 @@
     padding: 0;
     /* 1 card per row on mobile */
   }
-
+  .ecom-belgium-card:hover {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    background-color: rgba(239, 239, 239, 0.644);
+    border-left: 4px solid #007bff;
+  }
   .ecom-belgium-title {
     font-size: 2rem;
   }
 
   .ecom-belgium-section {
     padding: 40px 15px;
-  }
-  .ecom-belgium-card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 
   .ecom-belgium-card-title {
@@ -148,12 +151,12 @@
     font-size: 0.9rem;
     text-align: center;
   }
- .ecom-belgium-card{
+  .ecom-belgium-card {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .ecom-belgium-icon-img{
+  .ecom-belgium-icon-img {
     margin: auto;
     padding-bottom: 10px;
   }
@@ -163,7 +166,9 @@
   .ecom-belgium-title {
     font-size: 1.4rem;
   }
-
+  .ecom-belgium-card:hover {
+    border-left: 0px;
+  }
   .ecom-btn {
     width: 100%;
     max-width: 260px;
