@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import "./design.css";
 
 const designData = {
-  paragraph: `At Kushel Digi Solutions, we do not only engage in design; rather, we develop experiences. With over 15 years of experience in the industry, we have developed a streamlined and effective design ecom-process where every critical detail is captured from the wireframe stage to the final delivery.`,
+  paragraph: `At Kushel Digi Solutions, we have been in the business for more than 15 years and have created a simplified and successful design approach that captures every important aspect from the wireframe stage to the final delivery. `,
   columns: [
     {
       title: "UX Research",
@@ -30,7 +30,7 @@ const designData = {
       ],
     },
     {
-      title: "DELIVERY",
+      title: "SEAMLESS DELIVERY",
       items: ["POST-LAUNCH SUPPORT"],
     },
   ],

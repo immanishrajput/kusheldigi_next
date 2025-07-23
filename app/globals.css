@@ -50713,6 +50713,8 @@ border-bottom: 1px solid blue !important;
 }
 .loc-left{
   display: grid !important;
+  line-height: 1.9;
+  padding: 0px 10px;
   grid-template-columns: repeat(3, 1fr) !important;
 }
 .loc-right{

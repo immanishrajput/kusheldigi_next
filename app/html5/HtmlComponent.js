@@ -54,7 +54,7 @@ const HtmlComponent = () => {
                     <div className="html_back">
                         <div className="html_back1">
                             <div className="html_head">
-                                <h1>Affordable HTML development <br /> services  in India</h1>
+                                <h1>Affordable HTML5 development <br /> services  in India</h1>
                             </div>
                             <div className="html_head_para">
                                 <p>HTML5 is the latest version of Hypertext Markup Language consisting of HTML, CSS, and JavaScript. HTML5 development enables developers to develop value-added apps and websites.</p>
