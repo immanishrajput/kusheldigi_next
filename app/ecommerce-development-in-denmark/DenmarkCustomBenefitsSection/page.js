@@ -73,11 +73,11 @@ export default function DenmarkCustomBenefitsSection() {
           {/* What Are the Benefits of Having a Custom <br/> E-Commerce Website? */}
           Why Should You Invest in a Custom E-Commerce Website?
         </h2>
-        <p className="custom-benefits-subtext">
+        {/* <p className="custom-benefits-subtext">
           Custom ecommerce development provides your company with complete
           control, enhanced performance, and sustainable growth tailored to your
           requirements.
-        </p>
+        </p> */}
 
         <div className="custom-benefits-grid">
           <ul className="custom-benefits-list">
