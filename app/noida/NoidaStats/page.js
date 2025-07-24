@@ -8,7 +8,7 @@ export default function NoidaStatsService() {
         {
             icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1752566045/Group_1171281752_as3wvy.png",
             // sub: "eCommerce",
-            title: "ECommerce Development in Noida",
+            title: "ECommerce Development Company in Noida",
             discp:
                 "Get ecommerce solutions that are made just for your company. Easily increase sales, improve the customer experience, and build your brand online.",
             className: "card-blue",
@@ -17,7 +17,7 @@ export default function NoidaStatsService() {
         {
             icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1752566045/Group_1171281751_lgbsp9.png",
             // sub: "BigCommerce",
-            title: "Bigcommerce Development in Noida",
+            title: "Bigcommerce Development Company in Noida",
             discp:
                 "Choosing the correct ecommerce development company in Noida helps in drastic business growth and more conversions. Solutions that are quick, easy to build, and good for search engines for your growing company.",
             className: "card-yellow",
@@ -39,7 +39,7 @@ export default function NoidaStatsService() {
                 <h3 className="service-heading">Our Services</h3>
                 <section className="stats-section-noida">
                     {stats.map((stat, index) => (
-                        <div key={index} className={`stat-card-noida ${stat.className}`}>
+                        <Link href={`${stat.route}`} key={index} className={`stat-card-noida ${stat.className}`}>
                             <div className="stat-icon">
                                 <img src={stat.icon} alt="icon" />
                             </div>
@@ -52,7 +52,7 @@ export default function NoidaStatsService() {
                                 {" "}
                                 <button className="btn-service-visit">Visit More</button>
                             </Link>
-                        </div>
+                        </Link>
                     ))}
                 </section>
 

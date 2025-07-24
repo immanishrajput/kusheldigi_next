@@ -137,7 +137,7 @@
 }
 
 .details-desc p {
-  font-size: 20px;
+  font-size: 17px;
   margin: 10px 0px;
 }
 
@@ -260,20 +260,20 @@
   .details-sec {
     padding: 20px 50px;
   }
-
+/* 
   .details-desc p {
     text-align: center;
-  }
+  } */
 
-  .details-desc h4,
+  /* .details-desc h4,
   h5,
   h6 {
     text-align: center;
-  }
+  } */
 
-  .detail-foot {
+  /* .detail-foot {
     margin: auto;
-  }
+  } */
 
   .getquote-form input[name="name"],
   .getquote-form input[name="email"],
@@ -288,19 +288,20 @@
   }
 
   .details-desc p {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .details-desc h4 {
-    font-size: 26px;
+  font-size: 23px;
   }
 
   .details-desc h5 {
-    font-size: 26px;
+  font-size: 20px;
+  margin: 20px 0px;
   }
 
   .details-desc h6 {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   .getquote-wrapper {
@@ -311,6 +312,9 @@
 @media screen and (max-width: 400px) {
 .inputcapt{
     width: 45%;
+  }
+  .details-desc p {
+    font-size: 15px;
   }
 }
 

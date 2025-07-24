@@ -123,9 +123,9 @@
 
 @media screen and (max-width: 1360px) {
   .service-sec2 h4 {
-    width: 90%;
-    font-size: 30px;
-    text-align: center;
+    width: 100%;
+    font-size: 27px;
+    /* text-align: center; */
   }
   .stats-section-noida {
     width: 85%;
@@ -142,10 +142,10 @@
     width: 100%;
   }
   .service-sec2 p {
-    text-align: center;
+    /* text-align: center; */
   }
   .service-sec2 h4 {
-    text-align: center;
+    /* text-align: center; */
   }
   .center-item-noida {
     grid-column: 1 / -1;
@@ -178,7 +178,7 @@
     padding: 20px 40px;
   }
   .service-sec2 {
-    padding: 50px 20px;
+    padding: 50px 25px;
   }
 
   .service-sec2 p {
