@@ -310,7 +310,6 @@
 
     .belgium-banner-heading {
         font-size: 26px;
-        text-align: center;
     }
 
     .belgium-banner-heading .belgium-banner-span {
@@ -319,7 +318,6 @@
 
     .belgium-banner-subtext {
         font-size: 15px;
-        text-align: center;
         padding: 12px 0;
         max-width: 100%;
     }

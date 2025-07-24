@@ -23,15 +23,15 @@ export default function ChennaiStatsService() {
             className: "card-yellow",
             route: "/bigcommerce-development-company-in-chennai",
         },
-        {
-            icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1752566045/Group_1171281753_eqcabi.png",
-            // sub: "Shopify",
-            title: "Shopify Development in Chennai",
-            discp:
-                "Set up a Shopify shop that fits the objectives of your brand. Our <strong>ecommerce development team in Chennai</strong> bridges localization with global scalability, turning clicks into conversions across the region.",
-            className: "card-green center-item-noida ",
-            route: "/shopify-development-company-in-chennai",
-        },
+        // {
+        //     icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1752566045/Group_1171281753_eqcabi.png",
+        //     // sub: "Shopify",
+        //     title: "Shopify Development in Chennai",
+        //     discp:
+        //         "Set up a Shopify shop that fits the objectives of your brand. Our <strong>ecommerce development team in Chennai</strong> bridges localization with global scalability, turning clicks into conversions across the region.",
+        //     className: "card-green center-item-noida ",
+        //     route: "/shopify-development-company-in-chennai",
+        // },
     ];
     return (
         <>
@@ -39,7 +39,7 @@ export default function ChennaiStatsService() {
                 <h2 className="service-heading">Our Services</h2>
                 <section className="stats-section-noida">
                     {stats.map((stat, index) => (
-                        <div key={index} className={`stat-card-noida ${stat.className}`}>
+                        <Link href={`${stat.route}`} className={`stat-card-noida ${stat.className}`}>
                             <div className="stat-icon">
                                 <img src={stat.icon} alt="icon" />
                             </div>
@@ -56,7 +56,7 @@ export default function ChennaiStatsService() {
                                 {" "}
                                 <button className="btn-service-visit">Visit More</button>
                             </Link>
-                        </div>
+                        </Link>
                     ))}
                 </section>
 

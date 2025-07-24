@@ -216,6 +216,10 @@ const data = [
             title: "Noida",
             navigate: "/noida",
           },
+          {
+            title: "Chennai",
+            navigate: "/chennai",
+          },
         ],
       },
       {
@@ -817,6 +821,13 @@ const Navbar = () => {
                                   <Link href="/noida">
                                     <span className="hover-country-ext">
                                       Noida
+                                    </span>
+                                  </Link>
+                                </div>
+                                <div className="dummy ">
+                                  <Link href="/chennai">
+                                    <span className="hover-country-ext">
+                                      Chennai
                                     </span>
                                   </Link>
                                 </div>
