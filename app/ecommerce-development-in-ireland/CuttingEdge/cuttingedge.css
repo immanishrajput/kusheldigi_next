@@ -117,14 +117,12 @@ padding: 0px 40px;
 
   .cutting1-left h2 {
     font-size: 34px;
-    line-height: 1.2;
-    text-align: center;
+    line-height: 1.2; 
   }
 
   .cutting1-left p {
     font-size: 15px;
-    line-height: 1.7;
-    text-align: center;
+    line-height: 1.7; 
   }
 
   .cutting1-btn {

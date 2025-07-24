@@ -136,20 +136,23 @@
   }
   .ecom-belgium-title {
     font-size: 2rem;
+    text-align: left;
   }
 
   .ecom-belgium-section {
-    padding: 40px 15px;
+    padding: 40px 30px;
   }
 
   .ecom-belgium-card-title {
     font-size: 1.1rem;
-    text-align: center;
+  }
+
+  .ecom-belgium-grid-wrapper{
+    padding: 0;
   }
 
   .ecom-belgium-description {
     font-size: 0.9rem;
-    text-align: center;
   }
   .ecom-belgium-card {
     display: flex;
@@ -157,7 +160,7 @@
     align-items: center;
   }
   .ecom-belgium-icon-img {
-    margin: auto;
+    /* margin: auto; */
     padding-bottom: 10px;
   }
 }
