@@ -286,7 +286,7 @@ export default function DetailBigCom() {
           genuinely shows off your business.
         </p>
 
-        <h5>igCommerce App & Plugin Integration</h5>
+        <h5>BigCommerce App & Plugin Integration</h5>
         <p>
           Do you want to make your BigCommerce store better? We'll take care of
           you. We help you connect and add the right apps for your needs,
@@ -477,13 +477,13 @@ export default function DetailBigCom() {
         <p>
           We'll still be here after your website goes live. In fact, we really
           start helping you after launch. We do regular maintenance, give you
-          information, and are here to help you whenever you need it
+          information, and are here to help you whenever you need it.
         </p>
         <p>
           We're always here to help, whether you need us to fix a bug, make
           changes to your content, or add new features. People, not just
           platforms, are what we want to build over time. You can chat with us,
-          call us, or email us, whichever works best for you
+          call us, or email us, whichever works best for you.
         </p>
         <p>
           We use basic words that are easy to understand and reply to right

@@ -12,7 +12,7 @@ export default function Cutting1Section() {
       <div className="cutting1-container">
         <div className="cutting1-left">
           <h2>
-            Experts in Belgian E-Commerce can help you increase your online
+            Experts in Belgium E-Commerce can help you increase your online
             sales
           </h2>
           <p>

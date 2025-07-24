@@ -1,6 +1,13 @@
 import Script from "next/script";
 import "./globals.css"
 import { ToastContainer } from "react-toastify";
+import { Poppins } from "next/font/google";
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
+});
 
 export const metadata = {
   title: "Expert eCommerce & BigCommerce Development Company | Kushel Digi",
@@ -375,7 +382,7 @@ export default function RootLayout({ children }) {
           }}
         />
       </head>
-      <body>
+      <body className={poppins.className}>
         {/* Google Tag Manager (noscript) - Uncomment if using GTM */}
         {/* <noscript>
           <iframe

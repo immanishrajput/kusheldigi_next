@@ -39,7 +39,7 @@ export default function DelhiStatsService() {
         <h3 className="service-heading">Our Services</h3>
         <section className="stats-section-noida">
           {stats.map((stat, index) => (
-            <div key={index} className={`stat-card-noida ${stat.className}`}>
+            <Link href={`${stat.route}`} key={index} className={`stat-card-noida ${stat.className}`}>
               <div className="stat-icon">
                 <img src={stat.icon} alt="icon" />
               </div>
@@ -52,7 +52,7 @@ export default function DelhiStatsService() {
                 {" "}
                 <button className="btn-service-visit">Visit More</button>
               </Link>
-            </div>
+            </Link>
           ))}
         </section>
 
