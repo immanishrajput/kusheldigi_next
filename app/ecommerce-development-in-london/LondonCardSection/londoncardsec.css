@@ -7,9 +7,9 @@ body {
 
 .contact-container {
   width: 100%;
+  background: linear-gradient(280deg, #89c7fb, #c8d5f9 62.02%, #f9f9f4);
   max-width: 1720px;
   margin: 0 auto;
-  background: linear-gradient(280deg, #89c7fb, #c8d5f9 62.02%, #f9f9f4);
 }
 
 .platforms {
@@ -264,11 +264,11 @@ body {
   }
 }
 
-@media (max-width:600px) {
+/* @media (max-width:600px) {
   .platforms {
     padding: 40px 20px 40px !important;
   }
-}
+} */
 
 .contact-emailInput,
 .contact-textArea {
@@ -567,8 +567,10 @@ body {
 }
 
 @media (max-width:1024px) {
-  .plt-head {
+  .plt-head , .plt-para {
     width: 100%;
+    text-align: left !important;
+    margin: 0 0 10px !important;
   }
 }
 
@@ -583,25 +585,17 @@ body {
 
 @media screen and (max-width:768px) {
   .platforms {
-    padding: 30px;
+    padding: 30px !important;
   }
 }
 
 @media screen and (max-width:600px) {
-  .platforms {
-    padding: 30px 0 80px;
-  }
-
   .left-contact-heading {
     width: unset !important;
     font-size: 24px !important;
     line-height: 32px;
   }
 }
-
-/* .platforms {
-  padding: 40px;
-} */
 
 .plt-head {
   margin: auto;
@@ -618,6 +612,7 @@ body {
   .plt-head {
     font-size: 27px;
     width: 95%;
+    margin: 0;
     /* line-height: 30px; */
 
   }

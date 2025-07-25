@@ -1,11 +1,11 @@
 .denmark-banner-section {
-    background: url('https://res.cloudinary.com/dxlykgx6w/image/upload/v1752843724/image_2_3_q4cv9u.png');
+    background: url('https://res.cloudinary.com/dxlykgx6w/image/upload/v1752843737/image_2_1_jmmfbl.png');
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 500px;
-     max-width: 1720px;
+    max-width: 1720px;
     margin: 0 auto;
 }
 
@@ -310,7 +310,6 @@
 
     .denmark-banner-heading {
         font-size: 26px;
-        text-align: center;
     }
 
     .denmark-banner-heading .denmark-banner-span {
@@ -319,7 +318,6 @@
 
     .denmark-banner-subtext {
         font-size: 15px;
-        text-align: center;
         padding: 12px 0;
         max-width: 100%;
     }

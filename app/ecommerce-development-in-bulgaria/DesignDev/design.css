@@ -86,7 +86,7 @@
 .ecom-process-columns {
   display: flex;
   /* flex: 3 1 700px; */
-  gap: 40px;
+  gap: 25px;
   /* flex-wrap: wrap; */
 }
 
@@ -122,20 +122,21 @@
 @media (max-width: 1024px) {
   .ecom-process-toggle {
     font-size: 45px;
-    justify-content: center;
+    /* justify-content: center; */
+    align-items: flex-start;
   }
 
   .ecom-process-row {
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
     gap: 20px;
   }
 
   .ecom-process-description {
     flex: 0;
     max-width: 100%;
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 20px;
   }
 
@@ -158,26 +159,9 @@
   }
 }
 
-/* @media (max-width: 768px) {
-  .ecom-process-row {
-    flex-direction: column;
-  }
-
-  .ecom-process-columns {
-    flex-direction: column;
-    gap: 24px;
-  }
-
-  .ecom-process-description {
-    text-align: center;
-    max-width: 100%;
-    margin-bottom: -300px;
-  }
-} */
-
 @media (max-width: 768px) {
   .ecom-process-section {
-    padding: 40px 20px;
+    padding: 40px 30px;
   }
 
   .ecom-process-columns {
@@ -191,8 +175,8 @@
   .ecom-process-toggle {
     font-size: 36px;
     gap: 20px;
-    align-items: center;
-    text-align: center;
+    /* align-items: center; */
+    /* text-align: center; */
   }
 
   .switch {
@@ -214,7 +198,7 @@
   }
 
   .ecom-process-description {
-    text-align: center;
+    /* text-align: center; */
     font-size: 18px;
     line-height: 1.6;
     /* margin-bottom: -200px; */
@@ -264,8 +248,7 @@
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 50px ;
-    /* margin-left: 20px; */
+    margin: 50px auto;
   }
 
   .switch-circle.right {
@@ -275,7 +258,6 @@
   }
 
   .ecom-process-description {
-    text-align: center;
     font-size: 16px;
     /* margin-bottom: -300px; */
   }
@@ -285,16 +267,11 @@
   }
 
   .ecom-process-column li {
-    font-size: 13px;
+    font-size: 14px;
     /* text-align: center; */
   }
 }
 
-@media (max-width: 405px) {
-.ecom-process-columns{
-  margin: auto;
-}
-}
 @media (max-width: 375px) {
   .ecom-process-toggle {
     flex-direction: column;

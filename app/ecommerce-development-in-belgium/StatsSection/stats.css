@@ -103,3 +103,43 @@
     text-align: center;
   }
 }
+
+@media (max-width: 480px) {
+  .stat-card {
+    text-align: left;
+    padding: 30px 20px;
+  }
+
+  .stat-icon {
+    margin: 0 0 16px 0;
+    justify-content: flex-start;
+  }
+
+  .stat-card h3 {
+    text-align: left;
+    font-size: 22px;
+  }
+
+  .stat-values {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 16px;
+  }
+
+  .stat-values > div {
+    text-align: left !important;
+  }
+
+  .stat-values strong {
+    text-align: left;
+  }
+
+  .stat-values span {
+    text-align: left;
+  }
+
+  .divider {
+    display: none;
+  }
+}
+

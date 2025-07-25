@@ -90,19 +90,15 @@
   .cta-right {
     width: 100%;
     display: flex;
-    justify-content: center;
     margin-top: 16px;
   }
 
   .cta-heading {
     font-size: 2rem;
-    text-align: center;
   }
 
   .cta-subtitle {
     font-size: 0.95rem;
-    padding: 0 10px;
-    text-align: center;
   }
 }
 

@@ -38,24 +38,6 @@ const callHandler = () => {
     window.open(callUrl, "_blank");
 }
 function EcommerceBelgium() {
-
-const generateMetadata = ({ params }) => {
-    return {
-      title: 'eCommerce Website Development Company in Belgium',
-      description: 'Get expert ecommerce website development in Belgium. Kushel Digi offers scalable, secure, and tailored ecommerce solutions for your business growth.',
-      metadataBase: new URL(`https://www.kusheldigi.com/`),
-    }
-  };
-
-  useEffect(() => {
-    const { title, description } = generateMetadata({ params: {} });
-    document.title = title;
-    let metaDescription = document.querySelector('meta[name="description"]');
-
-    metaDescription ? metaDescription.content = description :
-      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-  }, []);
-
     return (
         <div>
             <div className='ser-main'></div>

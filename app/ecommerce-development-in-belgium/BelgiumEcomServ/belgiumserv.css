@@ -157,7 +157,6 @@
   .ecom-belgium-card {
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
   .ecom-belgium-icon-img {
     /* margin: auto; */

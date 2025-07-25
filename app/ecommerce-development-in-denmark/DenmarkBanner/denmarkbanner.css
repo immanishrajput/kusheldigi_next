@@ -310,7 +310,6 @@
 
     .denmark-banner-heading {
         font-size: 26px;
-        text-align: center;
     }
 
     .denmark-banner-heading .denmark-banner-span {
@@ -319,7 +318,6 @@
 
     .denmark-banner-subtext {
         font-size: 15px;
-        text-align: center;
         padding: 12px 0;
         max-width: 100%;
     }

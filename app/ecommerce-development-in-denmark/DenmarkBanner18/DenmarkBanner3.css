@@ -151,7 +151,7 @@
   @media screen and (max-width:768px) {
     .left-sectionEcom h6 ,
     .left-sectionEcom h2 {
-      text-align: center;
+      text-align: left;
     }
   }
   
@@ -199,17 +199,17 @@
       line-height: 25px;
     }
     .left-sectionEcom p{
-      text-align: center;
+      /* text-align: center; */
       font-size: 14px;
       line-height: 25px;
       
     }
 
-    .left-sectionEcom h6 {
+    /* .left-sectionEcom h6 {
       text-align: center;
     }
 
     .left-sectionEcom h2 {
       text-align: center;
-    }
+    } */
   }

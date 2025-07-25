@@ -38,23 +38,6 @@ const callHandler = () => {
 
 function BulgariaEcommerce() {
 
-    const generateMetadata = ({ params }) => {
-        return {
-            title: 'eCommerce Development Company in Bulgaria | Kushel Digi',
-            description: 'Get expert ecommerce development in Bulgaria. Kushel Digi builds custom, secure, and scalable ecommerce websites to grow your online business.',
-            metadataBase: new URL(`https://www.kusheldigi.com/`),
-        }
-    };
-
-    useEffect(() => {
-        const { title, description } = generateMetadata({ params: {} });
-        document.title = title;
-        let metaDescription = document.querySelector('meta[name="description"]');
-
-        metaDescription ? metaDescription.content = description :
-            document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-    }, []);
-
     return (
         <main>
             <div className='ser-main'></div>
