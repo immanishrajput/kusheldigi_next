@@ -107,126 +107,93 @@ export const metadata = {
   },
 };
 
-const jsonLd = {
+const jsonLd ={
   "@context": "https://schema.org",
-  "@type": ["LocalBusiness", "Organization", "WebSite"],
-  "serviceType": [
-    "eCommerce Website Development",
-    "BigCommerce Website Development",
-    "Shopify Development",
-    "Magento Development",
-    "eCommerce Consulting"
-  ],
+  "@type": ["LocalBusiness", "Service"],
+  "@id": "https://www.kusheldigi.com/#organization",
   "name": "Kushel Digi Solutions",
-  "description": "Transform your online presence with Kushel Digi Solutions eCommerce development, BigCommerce solutions, and tailored B2B and marketplace platforms. Start your project today!",
   "url": "https://www.kusheldigi.com/",
   "logo": "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png",
   "image": "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png",
+  "description": "Transform your online presence with Kushel Digi Solutions eCommerce development, BigCommerce solutions, and tailored B2B and marketplace platforms. Start your project today!",
+  "foundingDate": "2017",
+  "founder": {
+    "@type": "Person",
+    "name": "Mr. Shubhaam Gupta"
+  },
+  "numberOfEmployees": 50,
+  "priceRange": "$$",
+  "telephone": "+91-9045301702",
+  "email": "info@kusheldigi.com",
+  "openingHours": "Mo-Sa 10:00-17:00",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "First Floor, D242, F-32B, Sector 63 Rd, Noida, 201301, Uttar Pradesh",
+    "streetAddress": "First Floor, D242, F-32B, Sector 63 Rd",
     "addressLocality": "Noida",
     "addressRegion": "Uttar Pradesh",
     "postalCode": "201301",
     "addressCountry": "IN"
   },
-  "contactPoint": [
-    {
-      "@type": "ContactPoint",
-      "telephone": "+91-9045301702",
-      "contactType": "customer service",
-      "availableLanguage": ["English", "Hindi"],
-      "areaServed": "IN"
-    },
-    {
-      "@type": "ContactPoint",
-      "telephone": "+1-585-566-2070",
-      "contactType": "customer service",
-      "availableLanguage": "English",
-      "areaServed": "US"
-    }
-  ],
-  "telephone": "+91-9045301702",
-  "email": "info@kusheldigi.com",
-  "openingHours": "Mon-Sat 10:00-17:00",
-  "priceRange": "$$",
-  "foundingDate": "2016",
-  "founder": {
-    "@type": "Person",
-    "name": "Kushel Digi Team"
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 28.6289676,
+    "longitude": 77.3017304
   },
+  "sameAs": [
+    "https://www.facebook.com/kusheldigisolutions/",
+    "https://www.linkedin.com/company/kusheldigisolutions/",
+    "https://www.instagram.com/kusheldigi/",
+    "https://twitter.com/KushelDigisoln"
+  ],
   "areaServed": [
-    {
-      "@type": "Country",
-      "name": "India"
-    },
-    {
-      "@type": "Country",
-      "name": "USA"
-    },
-    {
-      "@type": "Country",
-      "name": "UAE"
-    },
-    {
-      "@type": "Country",
-      "name": "Canada"
-    },
-    {
-      "@type": "Country",
-      "name": "Australia"
-    }
+    { "@type": "Country", "name": "India" },
+    { "@type": "Country", "name": "USA" },
+    { "@type": "Country", "name": "UAE" }
+  ],
+  "serviceType": [
+    "Ecommerce Website Development",
+    "BigCommerce Website Development"
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "eCommerce Development Services",
+    "name": "Website Development & Ecommerce Services",
     "itemListElement": [
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
+          "name": "Ecommerce Website Development",
+          "description": "End-to-end custom ecommerce store design and development, with scalable features, user-friendly UI/UX, secure payments, and SEO optimization."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
           "name": "BigCommerce Development",
-          "description": "Custom BigCommerce store development and optimization"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Shopify Development",
-          "description": "Shopify and Shopify Plus store development"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Magento Development",
-          "description": "Custom Magento eCommerce solutions"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "eCommerce Consulting",
-          "description": "Strategic eCommerce consulting and optimization"
+          "description": "Certified BigCommerce implementation, migration, app integration, replatforming, and ongoing support for growth."
         }
       }
     ]
   },
-  "sameAs": [
-    "https://www.linkedin.com/company/kusheldigi",
-    "https://twitter.com/kusheldigi",
-    "https://www.facebook.com/kusheldigi",
-    "https://www.instagram.com/kusheldigi"
-  ],
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://www.kusheldigi.com/search?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  }
-};
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "110"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": "Annu Koteshwara",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "reviewBody": "Kushel Digi delivered exceptional BigCommerce development services."
+    }
+  ]
+}
+
 
 const websiteSchema = {
   "@context": "https://schema.org",

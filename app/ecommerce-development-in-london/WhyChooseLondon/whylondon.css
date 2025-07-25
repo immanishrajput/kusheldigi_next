@@ -147,17 +147,17 @@
 
   .why-choose-left h2 {
     font-size: 26px;
-    text-align: center;
+    /* text-align: center; */
   }
 
   .why-choose-left p {
     font-size: 15px;
-    text-align: center;
+    /* text-align: center; */
   }
 
   .talk-btn {
     display: block;
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
 
   .step-icon {
