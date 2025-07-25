@@ -254,7 +254,7 @@
     flex-direction: column;
   }
 
-  .case-study-title p {
+  /* .case-study-title p {
     text-align: center;
   }
 
@@ -264,7 +264,7 @@
 
   .case-studies-heading {
     text-align: center;
-  }
+  } */
 
   .case-study-description,
   .case-study-results li {
@@ -272,7 +272,7 @@
   }
 
   .case-s-i {
-    justify-content: center;
+    /* justify-content: center; */
     display: flex;
     margin-top: 5px;
     gap: 20px;
@@ -296,7 +296,7 @@
   }
 
   .title-tag h2 {
-      text-align: center;
+      /* text-align: center; */
         font-size: 21px;
         width: 100%;
   }

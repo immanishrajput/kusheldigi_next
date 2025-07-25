@@ -5,10 +5,10 @@ export const metadata = {
   alternates: {
     canonical: "/ecommerce-development-in-london",
   },
-  title: "eCommerce Website Development Company in London",
+  title: "Ecommerce Website Development Company in London",
   description: "Boost your online store with expert ecommerce development services in London. Kushel Digi builds scalable, secure, and custom ecommerce websites.",
   openGraph: {
-    title: "eCommerce Website Development Company in London",
+    title: "Ecommerce Website Development Company in London",
     description: "Boost your online store with expert ecommerce development services in London. Kushel Digi builds scalable, secure, and custom ecommerce websites.",
     url: "https://www.kusheldigi.com/ecommerce-development-in-london",
     images: [

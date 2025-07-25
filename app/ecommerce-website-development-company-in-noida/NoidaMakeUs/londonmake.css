@@ -58,11 +58,6 @@
     width: 100%;
   }
 
-  .different1-left h2,
-  .different1-left p {
-    text-align: center;
-  }
-
   .different1-right {
     justify-content: center;
     width: 100%;
@@ -91,7 +86,7 @@
 
 @media (max-width: 480px) {
   .different1-wrapper {
-    padding: 50px 16px;
+    padding: 50px 30px;
   }
 
   .different1-left h2 {

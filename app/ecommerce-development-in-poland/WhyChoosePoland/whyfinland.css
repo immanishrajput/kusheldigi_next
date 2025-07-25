@@ -107,9 +107,11 @@
 
   .why-choose-heading {
     font-size: 26px;
+    text-align: left;
   }
 
   .why-choose-subtext {
     font-size: 15px;
+    text-align: left;
   }
 }

@@ -146,9 +146,9 @@ const Blogs = () => {
     metaDescription
       ? (metaDescription.content = description)
       : document.head.insertAdjacentHTML(
-          "beforeend",
-          `<meta name="description" content="${description}">`
-        );
+        "beforeend",
+        `<meta name="description" content="${description}">`
+      );
   }, []);
   const phoneNumber = "9045301702";
 
@@ -172,9 +172,8 @@ const Blogs = () => {
             </div>
             <div className="bttnn">
               <button
-                className={`button category-button ${
-                  isCategorySelected === false ? "active" : ""
-                }`}
+                className={`button category-button ${isCategorySelected === false ? "active" : ""
+                  }`}
                 onClick={() => setIsCategorySelected(false)}
               >
                 All blogs
@@ -185,12 +184,11 @@ const Blogs = () => {
                   <button
                     key={item._id}
                     onClick={() => handleCategoryClick(item?.title)}
-                    className={`button category-button ${
-                      selectedCategory === item.title &&
-                      isCategorySelected === true
+                    className={`button category-button ${selectedCategory === item.title &&
+                        isCategorySelected === true
                         ? "active"
                         : ""
-                    }`}
+                      }`}
                   >
                     {item.title}
                   </button>

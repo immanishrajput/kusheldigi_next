@@ -86,14 +86,14 @@
 .ecom-process-columns {
   display: flex;
   /* flex: 3 1 700px; */
-  gap: 40px;
+  gap: 25px;
   /* flex-wrap: wrap; */
 }
 
 .ecom-process-column {
   border-left: 1px solid rgba(0, 0, 0, 1);
   padding-left: 20px;
-  min-width: 160px;
+  min-width: 157px;
 }
 
 .ecom-process-column h4 {
@@ -102,7 +102,7 @@
   color: #111;
   text-transform: uppercase;
   letter-spacing: 0;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .ecom-process-column ul {
@@ -115,27 +115,28 @@
   font-size: 18px;
   color: #222;
   margin-bottom: 8px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /* Responsive */
 @media (max-width: 1024px) {
   .ecom-process-toggle {
     font-size: 45px;
-    justify-content: center;
+    /* justify-content: center; */
+    align-items: flex-start;
   }
 
   .ecom-process-row {
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
     gap: 20px;
   }
 
-  .ecom-process-description{
+  .ecom-process-description {
     flex: 0;
     max-width: 100%;
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 20px;
   }
 
@@ -158,26 +159,9 @@
   }
 }
 
-/* @media (max-width: 768px) {
-  .ecom-process-row {
-    flex-direction: column;
-  }
-
-  .ecom-process-columns {
-    flex-direction: column;
-    gap: 24px;
-  }
-
-  .ecom-process-description {
-    text-align: center;
-    max-width: 100%;
-    margin-bottom: -300px;
-  }
-} */
-
 @media (max-width: 768px) {
   .ecom-process-section {
-    padding: 40px 20px;
+    padding: 40px 30px;
   }
 
   .ecom-process-columns {
@@ -191,8 +175,8 @@
   .ecom-process-toggle {
     font-size: 36px;
     gap: 20px;
-    align-items: center;
-    text-align: center;
+    /* align-items: center; */
+    /* text-align: center; */
   }
 
   .switch {
@@ -214,7 +198,7 @@
   }
 
   .ecom-process-description {
-    text-align: center;
+    /* text-align: center; */
     font-size: 18px;
     line-height: 1.6;
     /* margin-bottom: -200px; */
@@ -274,7 +258,6 @@
   }
 
   .ecom-process-description {
-    text-align: center;
     font-size: 16px;
     /* margin-bottom: -300px; */
   }
@@ -285,7 +268,7 @@
 
   .ecom-process-column li {
     font-size: 14px;
-    text-align: center;
+    /* text-align: center; */
   }
 }
 
@@ -295,6 +278,7 @@
     width: 200px;
     font-size: 28px;
     gap: 16px;
+    margin: auto;
   }
 
   .switch {

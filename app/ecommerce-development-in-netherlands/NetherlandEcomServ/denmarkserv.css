@@ -130,6 +130,10 @@
     padding: 0;
     /* 1 card per row on mobile */
   }
+
+  .ecom-denmark-grid-wrapper{
+    padding: 0;
+  }
   .ecom-denmark-card:hover {
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
     background-color: rgba(239, 239, 239, 0.644);
@@ -137,28 +141,29 @@
   }
   .ecom-denmark-title {
     font-size: 2rem;
+    text-align: left;
   }
 
   .ecom-denmark-section {
-    padding: 40px 15px;
+    padding: 40px 30px;
   }
 
   .ecom-denmark-card-title {
     font-size: 1.1rem;
-    text-align: center;
+    /* text-align: center; */
   }
 
   .ecom-denmark-description {
     font-size: 0.9rem;
-    text-align: center;
+    /* text-align: center; */
   }
   .ecom-denmark-card {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
   }
   .ecom-denmark-icon-img {
-    margin: auto;
+    /* margin: auto; */
     padding-bottom: 10px;
   }
 }
