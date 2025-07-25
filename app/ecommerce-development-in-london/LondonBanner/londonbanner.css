@@ -321,7 +321,7 @@
 
     .london-banner-heading {
         font-size: 26px;
-        text-align: center;
+        text-align: left;
     }
 
     .london-banner-heading .london-banner-span {
@@ -330,7 +330,7 @@
 
     .london-banner-subtext {
         font-size: 15px;
-        text-align: center;
+        text-align: left;
         padding: 12px 0;
         max-width: 100%;
     }
@@ -383,6 +383,6 @@
 @media (max-width: 400px) {
     .london-banner-buttons {
         flex-direction: column;
-        align-items: center;
+        /* align-items: center; */
     }
 }

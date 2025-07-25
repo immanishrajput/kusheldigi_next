@@ -8,7 +8,7 @@ function londonshop() {
         <div className="Conversions1-container">
           <div className="Conversions1-left">
             <h2>
-              Turn Clicks Into Customers with <br /> Smart E-Commerce
+              Turn Clicks Into Customers with  Smart E-Commerce
               Development
             </h2>
             <ul className="Conversions1-dashlist">

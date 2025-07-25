@@ -65,7 +65,7 @@ const navigate = useRouter();
   return (
     <section className="londonecomproc1-section">
       <h2 className="londonecomproc1-heading">
-        How Do We Build High-Performing <br /> E-Commerce Websites?
+        How Do We Build High-Performing E-Commerce Websites?
       </h2>
       <div className="londonecomproc1-grid">
         {steps.map((step, i) => (
