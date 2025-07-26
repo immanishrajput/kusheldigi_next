@@ -4,11 +4,11 @@ import { useEffect, useState } from "react";
 import { TiTick } from "react-icons/ti";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
-import '../globals.css'
+import '../../globals.css'
 import './four.css'
-import Navbar from "../COMMON/Navbar";
+import Navbar from "../../COMMON/Navbar";
 
-import Footer from "../COMMON/Footer";
+import Footer from "../../COMMON/Footer";
 import Head from 'next/head';
 
 

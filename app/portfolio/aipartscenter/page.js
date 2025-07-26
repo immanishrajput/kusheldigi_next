@@ -1,15 +1,14 @@
 "use client"
 // import "./ride.css";
-import { useEffect, useState } from "react";
-import { TiTick } from "react-icons/ti";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
-import '../Ai/Ai.css'
-import './aI.CSS'
-import '../../globals.css'
-import Navbar from "../../COMMON/Navbar";
+import { useEffect, useState } from "react";
+import { TiTick } from "react-icons/ti";
 import Footer from "../../COMMON/Footer";
-import { Import } from "lucide-react";
+import Navbar from "../../COMMON/Navbar";
+import '../../globals.css';
+import '../../Ai/Ai.css';
+import './aI.CSS';
 function Ai() {
 
   const d1 = [
