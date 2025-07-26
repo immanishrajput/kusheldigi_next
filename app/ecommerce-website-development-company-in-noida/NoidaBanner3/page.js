@@ -8,26 +8,33 @@ const NoidaBanner3 = () => {
     <section className="ecommerce-section">
       <div className="ecommerce-content">
         <div className="ecommerce-text">
-          <p className="section-tag">Understanding E-Commerce Web Development with Star Web Maker</p>
+          <p className="section-tag">
+            Kushel Digi Solutions: Leading E-Commerce Web Development Redefiners
+          </p>
           <h5 className="h5-tag">
-            Grow Your Business With an <span className="highlight">Ecommerce Website</span>
+            Want to Grow Your Business with a Powerful{" "}
+            <span className="highlight">Ecommerce Website?</span>
           </h5>
           <p className="paragraph">
-            An eCommerce website is a digital marketplace where businesses showcase and sell their products or services
-            online. It functions as a virtual storefront, allowing customers to browse, select, and purchase items from
-            anywhere at any time using their computers or mobile devices. These websites are designed to provide a
-            user-friendly shopping experience, with intuitive navigation, detailed product pages, and secure checkout
-            processes.
+            Establishing an online presence is no longer a choice; it has become
+            a necessity. Smarter selling and growth for brands are only possible
+            through effective ecommerce websites, provided they are designed
+            well. Therefore, at <strong>Kushel Digi Solutions</strong> , we take pride and
+            guarantee ease of use on every ecommerce website that we design. To
+            justify being a top ecommerce development agency in Noida, we design
+            mobile-friendly, easy-to-use, fast, secure and easy navigation
+            ecommerce websites.
           </p>
           <p className="paragraph">
-            <strong>At Kushel Digi Solutions</strong>, we specialize in crafting bespoke eCommerce solutions tailored
-            to meet the unique needs of our clients. Our approach to eCommerce web development combines cutting-edge
-            technology with creative design to create engaging and functional online stores. Whether you're launching a
-            new eCommerce venture or seeking to revamp an existing platform, our team of experts is dedicated to
-            delivering robust solutions that drive sales and enhance customer satisfaction.
+            Unlike competitors, we go above and beyond by delivering complete digital solutions aimed not just at engagement but at optimizing revenue outcomes too.
+
+We equip you not only with an ecommerce store specially built for you but also with full-fledged web development services helpful in conquering the ecommerce battle. Join hands today with Kushel Digi Solutions – a leading ecommerce website development company in Noida – and watch consistent growth in your presence online.
+
           </p>
           <div className="btn-group">
-            <button className="btn-pri btn-primary">Request a Free Quote</button>
+            <button className="btn-pri btn-primary">
+              Request a Free Quote
+            </button>
             <button className="btn-pri btn-outline">Schedule a Demo</button>
           </div>
         </div>
