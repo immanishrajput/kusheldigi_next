@@ -1,16 +1,15 @@
 "use client"
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 import Head from 'next/head';
 
 
-import ContactForm1 from "../COMMON/ContactForm1";
 
 import Link from "next/link";
 
 import Footer from "../COMMON/Footer";
-import '../globals.css'
 import Navbar from "../COMMON/Navbar";
+import '../globals.css';
 // import { Helmet } from "react-helmet";
 
 

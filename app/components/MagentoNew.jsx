@@ -1,32 +1,28 @@
 "use client"
 
 import Head from 'next/head';
-
-
 import '../globals.css';
-
-
 import "@splidejs/react-splide/css";
 
-import BigBanner4 from "../bigcommerce-development/BigBanner4/page";
-import BigBanner8 from "../bigcommerce-development/BigBanner8/page";
-import FeatureSection from "../bigcommerce-development/FeaturesSection/FeatureSection";
-import ServicesSection from "../bigcommerce-development/ServiceSection/ServiceSection";
 import BlogSection from "../COMMON/BlogSection/BlogSection";
 import Footer from "../COMMON/Footer";
 import MagentoFAQ from '../COMMON/MagentoFAQ';
 import Navbar from "../COMMON/Navbar";
 import HomeForm from "../components/Home/HomeForm";
 import { MagentoFeatures, MagentoFeaturesContent, MagentoServicesHeading, MagentoServicesLeft, MagentoServicesRight, MagentoServicesSectionContent, weExpertInMagento } from "../data/data";
-import Banner8 from '../ecommerce-development/Banner8/page';
-import ChooseMagento from "../magento-development/ChooseMagento/ChooseMagento";
-import MagentoBanner from "../magento-development/MagentoBanner/MagentoBanner";
-import MagentoPortfolio from "../magento-development/MagentoPortfolio/MagentoPortfolio";
-import MagentoServices from "../magento-development/MagentoServices/MagentoServices";
-import TechWeUse from "../magento-development/TechWeUse/TechWeUse";
-import UpgradeServices from "../magento-development/UpgradeServices/UpgradeServices";
-import WhyMagento from "../magento-development/WhyMagento/WhyMagento";
-import ShopifyProcess from "../shopify-development/ShopifyProcess/ShopifyProcess";
+import BigBanner4 from "../service/bigcommerce-development/BigBanner4/page";
+import BigBanner8 from "../service/bigcommerce-development/BigBanner8/page";
+import FeatureSection from "../service/bigcommerce-development/FeaturesSection/FeatureSection";
+import ServicesSection from "../service/bigcommerce-development/ServiceSection/ServiceSection";
+import Banner8 from '../service/ecommerce-development/Banner8/page';
+import ChooseMagento from "../service/magento-development/ChooseMagento/ChooseMagento";
+import MagentoBanner from "../service/magento-development/MagentoBanner/MagentoBanner";
+import MagentoPortfolio from "../service/magento-development/MagentoPortfolio/MagentoPortfolio";
+import MagentoServices from "../service/magento-development/MagentoServices/MagentoServices";
+import TechWeUse from "../service/magento-development/TechWeUse/TechWeUse";
+import UpgradeServices from "../service/magento-development/UpgradeServices/UpgradeServices";
+import WhyMagento from "../service/magento-development/WhyMagento/WhyMagento";
+import ShopifyProcess from "../service/shopify-development/ShopifyProcess/ShopifyProcess";
 
 const Magento = () => {
   // const [front, setFront] = useState(1);
