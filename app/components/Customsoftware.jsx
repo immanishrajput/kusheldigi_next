@@ -1,24 +1,17 @@
 "use client"
-import { useEffect, useState } from "react";
 import Head from 'next/head';
-import Navbar from "../COMMON/Navbar";
+import { useState } from "react";
 import Footer from "../COMMON/Footer";
-import '../globals.css'
-import CustomSoftwareBanner from "../custom-software-development/CustomSoftwareBanner/CustomSoftwareBanner";
-import SecondCustomSection from "../custom-software-development/SecondCustomSection/SecondCustomSection";
-import CustomSoftwareSolutions from "../custom-software-development/CustomSoftwareSolutions/CustomSoftwareSolutions";
+import Navbar from "../COMMON/Navbar";
+import HomeForm from "../components/Home/HomeForm";
 import { CutsomSoftwareServicesLeft, CutsomSoftwareServicesRight } from "../data/data";
-import MagentoServices from "../magento-development/MagentoServices/MagentoServices"
-import BenefitsOfWorkingKDS from "../custom-software-development/BenefitsOfWorkingWKDS/BenefitsOfWorkingKDS";
-import ProcessCustom from "../custom-software-development/ProcessCustomSoftware/ProcessCustom";
-import HomeForm from "../components/Home/HomeForm"
-import CustomBanner from "../custom-software-development/CustomBanner/page";
-import CustomBenefits from "../custom-software-development/CustomBenefits/page";
-import IndustryCustom from "../custom-software-development/IndustryCustom/page";
-import CustomAbout from "../custom-software-development/CustomAbout/page";
-import CustomCallAction from "../custom-software-development/CustomCallAction/page";
-import CustomPortfolio from "../custom-software-development/CustomPortfolio/page";
-import CustomServices from "../custom-software-development/CustomServices/page";
+import '../globals.css';
+import BenefitsOfWorkingKDS from "../service/custom-software-development/BenefitsOfWorkingWKDS/BenefitsOfWorkingKDS";
+import CustomSoftwareBanner from "../service/custom-software-development/CustomSoftwareBanner/CustomSoftwareBanner";
+import CustomSoftwareSolutions from "../service/custom-software-development/CustomSoftwareSolutions/CustomSoftwareSolutions";
+import ProcessCustom from "../service/custom-software-development/ProcessCustomSoftware/ProcessCustom";
+import SecondCustomSection from "../service/custom-software-development/SecondCustomSection/SecondCustomSection";
+import MagentoServices from "../service/magento-development/MagentoServices/MagentoServices";
 
 const customBenefitData = [
   {

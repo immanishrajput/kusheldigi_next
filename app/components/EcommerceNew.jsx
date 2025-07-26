@@ -1,26 +1,24 @@
 "use client"
-import React from 'react'
-import Banner1 from '../ecommerce-development/Banner1/page'
-import Banner2 from '../ecommerce-development/Banner2/Page'
-import Banner3 from '../ecommerce-development/Banner3/Page'
-import Banner4 from '../ecommerce-development/Banner4/page'
-import Banner5 from '../ecommerce-development/Banner5/page'
-import Banner6 from '../ecommerce-development/Banner6/page'
-import Banner7 from '../ecommerce-development/Banner7/page'
-import  Banner8  from '../ecommerce-development/Banner8/page'
-import Banner9 from '../ecommerce-development/Banner9/page'
-import Banner10 from '../ecommerce-development/Banner10/page'
-import Banner11 from '../ecommerce-development/Banner11/page'
-import Navbar from '../COMMON/Navbar'
+import BlogSection from '../COMMON/BlogSection/BlogSection'
 import Footer from '../COMMON/Footer'
+import Navbar from '../COMMON/Navbar'
 import UseAccorrodian from '../COMMON/UseAccorrodian'
-import HomeForm from '../components/Home/HomeForm'
-import HomeFlax from '../components/Home/HomeFlax'
 import HomeCardSection from '../components/Home/HomeCardSection'
-import BlogSection from '../COMMON/BlogSection/BlogSection';
-import BigBanner6 from "../bigcommerce-development/BigBanner6/page";
-import Process from "../bigcommerce-development/Process/page"
-import { whyEcommerceCommereByKDS, whyEcommerceByKDSHeading} from '../data/data'
+import HomeFlax from '../components/Home/HomeFlax'
+import HomeForm from '../components/Home/HomeForm'
+import { whyEcommerceByKDSHeading, whyEcommerceCommereByKDS } from '../data/data'
+import BigBanner6 from "../service/bigcommerce-development/BigBanner6/page"
+import Process from "../service/bigcommerce-development/Process/page"
+import Banner1 from '../service/ecommerce-development/Banner1/page'
+import Banner10 from '../service/ecommerce-development/Banner10/page'
+import Banner11 from '../service/ecommerce-development/Banner11/page'
+import Banner2 from '../service/ecommerce-development/Banner2/Page'
+import Banner3 from '../service/ecommerce-development/Banner3/Page'
+import Banner4 from '../service/ecommerce-development/Banner4/page'
+import Banner5 from '../service/ecommerce-development/Banner5/page'
+import Banner6 from '../service/ecommerce-development/Banner6/page'
+import Banner8 from '../service/ecommerce-development/Banner8/page'
+import Banner9 from '../service/ecommerce-development/Banner9/page'
 const phoneNumber = "9045301702";
 
 const whatAppHandler = () => {

@@ -13,19 +13,19 @@ function IrelandShop() {
             </h2>
             <ul className="Conversions1-dashlist">
               <li>
-                <span>–</span> Provide a flawless online buying experience on
+                  Provide a flawless online buying experience on
                 all platforms, such as desktop and mobile.
               </li>
               <li>
-                <span>–</span> Use cutting-edge ERP technologies to streamline
+                  Use cutting-edge ERP technologies to streamline
                 your company's operations.
               </li>
               <li>
-                <span>–</span> Use our bespoke ecommerce platform to improve
+                  Use our bespoke ecommerce platform to improve
                 your company's results.
               </li>
               <li>
-                <span>–</span> Better conversion is facilitated by an online
+                  Better conversion is facilitated by an online
                 shop that is quick and responsive.
               </li>
             </ul>

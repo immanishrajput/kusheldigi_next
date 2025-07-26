@@ -1,8 +1,8 @@
 "use client"
-import React, { useState } from 'react';
-import './PortfolioCard.css';
 import Link from 'next/link';
+import { useState } from 'react';
 import { LuDot } from "react-icons/lu";
+import './PortfolioCard.css';
 const portfolioData = [
   {
     id: 'automotive-1',
@@ -14,7 +14,7 @@ const portfolioData = [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
     links: {
-      caseStudy: '/kick-eez',
+      caseStudy: '/portfolio/kick-eez',
       platform: '/bigcommerce-development',
     },
     case: 'View Case Study',
@@ -33,7 +33,7 @@ const portfolioData = [
     ],
     links: {
       liveStore: 'https://www.phastekperformance.com/',
-      caseStudy: '/protrucksandcars',
+      caseStudy: '/portfolio/protrucksandcars',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -53,7 +53,7 @@ const portfolioData = [
     ],
     links: {
       liveStore: 'https://www.phastekperformance.com/',
-      caseStudy: '/relysafety',
+      caseStudy: '/portfolio/relysafety',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -72,7 +72,7 @@ const portfolioData = [
     ],
     links: {
       liveStore: 'https://www.phastekperformance.com/',
-      caseStudy: '/solenoid-ninja',
+      caseStudy: '/portfolio/solenoid-ninja',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -91,7 +91,7 @@ const portfolioData = [
     ],
     links: {
 
-      caseStudy: '/ballisticdummylab',
+      caseStudy: '/portfolio/ballisticdummylab',
       platform: '/shopify-development',
     },
     case: ' View Case Study',
@@ -110,7 +110,7 @@ const portfolioData = [
     ],
     links: {
       liveStore: 'https://www.phastekperformance.com/',
-      caseStudy: '/sitesandscopes',
+      caseStudy: '/portfolio/sitesandscopes',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -130,7 +130,7 @@ const portfolioData = [
     ],
     links: {
       liveStore: 'https://www.phastekperformance.com/',
-      caseStudy: '/topbrasstactical',
+      caseStudy: '/portfolio/topbrasstactical',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -149,7 +149,7 @@ const portfolioData = [
     ],
     links: {
       liveStore: 'https://www.phastekperformance.com/',
-      caseStudy: '/slides365',
+      caseStudy: '/portfolio/slides365',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -169,7 +169,7 @@ const portfolioData = [
     ],
     links: {
       liveStore: 'https://www.phastekperformance.com/',
-      caseStudy: '/2ndamendmentguns',
+      caseStudy: '/portfolio/2ndamendmentguns',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -189,7 +189,7 @@ const portfolioData = [
     ],
     links: {
 
-      caseStudy: '/blackrhinoconcealment',
+      caseStudy: '/portfolio/blackrhinoconcealment',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -208,8 +208,8 @@ const portfolioData = [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
     links: {
-      caseStudy: '/Ai',
-      caseStudy: '/thesurvivalmode',
+      caseStudy: '/portfolio/Ai',
+      caseStudy: '/portfolio/thesurvivalmode',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -231,8 +231,8 @@ const portfolioData = [
   //   links: {
   //     liveStore: 'https://www.phastekperformance.com/',
 
-  //     caseStudy: '/Survival',
-  //     caseStudy: '/Survival',
+  //     caseStudy: '/portfolio/Survival',
+  //     caseStudy: '/portfolio/Survival',
   //     platform: '/bigcommerce-development',
   //   },
   //   case: ' View Case Study',
@@ -252,8 +252,8 @@ const portfolioData = [
     links: {
       liveStore: 'https://www.phastekperformance.com/',
 
-      caseStudy: '/Ai',
-      caseStudy: '/racewax',
+      caseStudy: '/portfolio/Ai',
+      caseStudy: '/portfolio/racewax',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -267,7 +267,7 @@ const portfolioData = [
   {
     id: 'automotive-105',
     logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748016554/Vector_4_hnx29x.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409212/laravel_ckyqzi.png',
     alt: "InstaCertify Logo image for portfolio by Kushel Digi Solutions",
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
@@ -275,8 +275,8 @@ const portfolioData = [
     links: {
       liveStore: 'https://www.phastekperformance.com/',
 
-      caseStudy: '/Ai',
-      caseStudy: '/instacertify',
+      caseStudy: '/portfolio/Ai',
+      caseStudy: '/portfolio/instacertify',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -287,7 +287,7 @@ const portfolioData = [
   {
     id: 'automotive-106',
     logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748016554/Group_1171279433_zut9do.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    platformLogo: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1751957773/Untitled-1_rzxqlx.png',
     alt: "The Career Beacon Logo image for portfolio by Kushel Digi Solutions",
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
@@ -295,8 +295,8 @@ const portfolioData = [
     links: {
       liveStore: 'https://www.phastekperformance.com/',
 
-      caseStudy: '/Ai',
-      caseStudy: '/thecareerbeacon',
+      caseStudy: '/portfolio/Ai',
+      caseStudy: '/portfolio/thecareerbeacon',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -316,8 +316,8 @@ const portfolioData = [
     links: {
       liveStore: 'https://www.phastekperformance.com/',
 
-      caseStudy: '/Ai',
-      caseStudy: '/krappstrapp',
+      caseStudy: '/portfolio/Ai',
+      caseStudy: '/portfolio/krappstrapp',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -337,8 +337,8 @@ const portfolioData = [
     links: {
       liveStore: 'https://www.phastekperformance.com/',
 
-      caseStudy: '/Ai',
-      caseStudy: '/bobcatarmament',
+      caseStudy: '/portfolio/Ai',
+      caseStudy: '/portfolio/bobcatarmament',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -358,8 +358,8 @@ const portfolioData = [
     links: {
       liveStore: 'https://www.phastekperformance.com/',
 
-      caseStudy: '/Ai',
-      caseStudy: '/servapure',
+      caseStudy: '/portfolio/Ai',
+      caseStudy: '/portfolio/servapure',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -377,8 +377,8 @@ const portfolioData = [
   //   links: {
   //     liveStore: 'https://www.phastekperformance.com/',
 
-  //     caseStudy: '/Ai',
-  //     caseStudy: '/digital',
+  //     caseStudy: '/portfolio/Ai',
+  //     caseStudy: '/portfolio/digital',
   //     platform: '/bigcommerce-development',
   //   },
   //   case: ' View Case Study',
@@ -390,7 +390,7 @@ const portfolioData = [
   {
     id: 'automotive-111',
     logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748275036/Group_1171279500_ugv0xr.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409345/React1_eyrvol.png',
     alt: 'Usha Fasteners Logo image for portfolio by Kushel Digi Solutions',
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
@@ -398,8 +398,8 @@ const portfolioData = [
     links: {
       liveStore: 'https://www.phastekperformance.com/',
 
-      caseStudy: '/Ai',
-      caseStudy: '/ushafasteners',
+      caseStudy: '/portfolio/Ai',
+      caseStudy: '/portfolio/ushafasteners',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -419,8 +419,8 @@ const portfolioData = [
     links: {
       liveStore: 'https://www.phastekperformance.com/',
 
-      caseStudy: '/Ai',
-      caseStudy: '/lafayetteshooters',
+      caseStudy: '/portfolio/Ai',
+      caseStudy: '/portfolio/lafayetteshooters',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -440,8 +440,8 @@ const portfolioData = [
     links: {
       liveStore: 'https://www.phastekperformance.com/',
 
-      caseStudy: '/Ai',
-      caseStudy: '/fouroaksfarm',
+      caseStudy: '/portfolio/Ai',
+      caseStudy: '/portfolio/fouroaksfarm',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -462,8 +462,8 @@ const portfolioData = [
     links: {
       liveStore: 'https://www.phastekperformance.com/',
 
-      caseStudy: '/Ai',
-      caseStudy: '/aipartscenter',
+      caseStudy: '/portfolio/Ai',
+      caseStudy: '/portfolio/aipartscenter',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -483,7 +483,7 @@ const portfolioData = [
     ],
     links: {
       liveStore: 'https://www.phastekperformance.com/',
-      caseStudy: '/rideready',
+      caseStudy: '/portfolio/rideready',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -503,7 +503,7 @@ const portfolioData = [
     ],
     links: {
       liveStore: 'https://www.phastekperformance.com/',
-      caseStudy: '/typhoondefense',
+      caseStudy: '/portfolio/typhoondefense',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -525,7 +525,7 @@ const portfolioData = [
     ],
     links: {
       liveStore: 'https://www.phastekperformance.com/',
-      caseStudy: '/graco-corp',
+      caseStudy: '/portfolio/graco-corp',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -548,7 +548,7 @@ const portfolioData = [
     ],
     links: {
       liveStore: 'https://www.phastekperformance.com/',
-      caseStudy: '/riflesupply',
+      caseStudy: '/portfolio/riflesupply',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -567,7 +567,7 @@ const portfolioData = [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
     links: {
-      caseStudy: '/mycrazysimplecms',
+      caseStudy: '/portfolio/mycrazysimplecms',
       // platform: '#',
     },
     case: ' View Case Study',
@@ -606,7 +606,7 @@ const portfolioData = [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
     links: {
-      caseStudy: '/woodView',
+      caseStudy: '/portfolio/woodView',
       platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -647,7 +647,7 @@ const portfolioData = [
     ],
     links: {
       liveStore: 'https://www.phastekperformance.com/',
-      caseStudy: '/subhAlloy',
+      caseStudy: '/portfolio/subhAlloy',
       platform: '/react-js',
       platform1: '/node-js'
     },
@@ -701,7 +701,7 @@ const portfolioData = [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
     links: {
-      caseStudy: '/obtechenterprise',
+      caseStudy: '/portfolio/obtechenterprise',
       platform: '/php',
     },
     case: ' View Case Study',
@@ -713,13 +713,13 @@ const portfolioData = [
     id: 'automotive-20',
     // companyName: 'DigitalMnA',
     logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748270331/Group_1171279472_1_lkh4bv.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409710/Next_js1_lcqcpn.png',
     alt: "Digital MNA Logo image for portfolio by Kushel Digi Solutions",
     description: [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
     links: {
-      caseStudy: '/digitalmna',
+      caseStudy: '/portfolio/digitalmna',
       platform: '/next-js',
     },
     case: ' View Case Study',
@@ -959,7 +959,7 @@ const portfolioData = [
   //     "UX/UI Website Design", "Website Development", "QA & Website Testing"
   //   ],
   //   links: {
-  //     caseStudy: '/nestohub',
+  //     caseStudy: '/portfolio/nestohub',
   //     // platform: '/bigcommerce-development',
   //   },
   //   case: ' View Case Study',
@@ -976,7 +976,7 @@ const portfolioData = [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
     links: {
-      caseStudy: '/pinkysky',
+      caseStudy: '/portfolio/pinkysky',
       // platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -992,7 +992,7 @@ const portfolioData = [
       "UX/UI Website Design", "Website Development", "QA & Website Testing"
     ],
     links: {
-      caseStudy: '/ezma',
+      caseStudy: '/portfolio/ezma',
       // platform: '/bigcommerce-development',
     },
     case: ' View Case Study',
@@ -1008,7 +1008,7 @@ const portfolioData = [
   //     "UX/UI Website Design", "Website Development", "QA & Website Testing"
   //   ],
   //   links: {
-  //     caseStudy: '/madfishsolutions',
+  //     caseStudy: '/portfolio/madfishsolutions',
   //     // platform: '/bigcommerce-development',
   //   },
   //   case: ' View Case Study',
@@ -1049,35 +1049,35 @@ const Portfolio = () => {
           {filteredCaseStudies.map((item, index) => (
             <div className="client each-portfolio-cards automotive" id={item?.id} key={index}>
               <Link href={item.links?.caseStudy}>
-              
-              <div className="each-portfolio">
-                <img src={item?.logo} alt={item?.alt} className="top-company-logos" />
-                <img src={item?.platformLogo} className="bottom-platform-logo" />
-                <div className="card-overlayMain">
-                  <div className="overlay-content">
-                    <img src={item?.logo} />
-                    <h3>{item?.companyName}</h3>
-                    {item.description?.map((content, i) => {
-                      return <div key={i} className='contentPointmain'>
-                        <LuDot className='contentPonit' />
-                        <p>{content}</p> </div>
-                    })}
-                    <ul>
 
-                      {/* <li> */}
-                      <button className='view-case-btn'>
-                        <Link href={item.links?.caseStudy}>
-                          {item.case}
-                        </Link>
-                      </button>
+                <div className="each-portfolio">
+                  <img src={item?.logo} alt={item?.alt} className="top-company-logos" />
+                  <img src={item?.platformLogo} className="bottom-platform-logo" />
+                  <div className="card-overlayMain">
+                    <div className="overlay-content">
+                      <img src={item?.logo} />
+                      <h3>{item?.companyName}</h3>
+                      {item.description?.map((content, i) => {
+                        return <div key={i} className='contentPointmain'>
+                          <LuDot className='contentPonit' />
+                          <p>{content}</p> </div>
+                      })}
+                      <ul>
 
-                      {/* </li> */}
+                        {/* <li> */}
+                        <button className='view-case-btn'>
+                          <Link href={item.links?.caseStudy}>
+                            {item.case}
+                          </Link>
+                        </button>
 
-                      {/* <li className="list-divider">{item?.line}</li> */}
-                      {/* <li> */}
+                        {/* </li> */}
+
+                        {/* <li className="list-divider">{item?.line}</li> */}
+                        {/* <li> */}
 
 
-                      {/*                  
+                        {/*                  
   <a href={item.links?.platform}>
     {item.case1} 
   </a> */}
@@ -1086,16 +1086,16 @@ const Portfolio = () => {
 
 
 
-                      {/* </li> */}
+                        {/* </li> */}
 
 
-                      {/* <li><a href={item.links?.platform}>
+                        {/* <li><a href={item.links?.platform}>
                     {item?.case1} {item?.case2}
                       </a></li> */}
-                    </ul>
+                      </ul>
+                    </div>
                   </div>
                 </div>
-              </div>
               </Link>
             </div>
           ))}

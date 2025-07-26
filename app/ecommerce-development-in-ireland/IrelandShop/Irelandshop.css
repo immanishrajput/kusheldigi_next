@@ -31,6 +31,7 @@
   list-style: disc;
   padding: 20px 0px 10px 0px;
   margin: 0;
+  margin-left: 22px;
 }
 
 .Conversions1-dashlist li {
@@ -96,9 +97,7 @@
   .Conversions1-wrapper {
     padding: 60px 30px;
   }
-.Conversions1-dashlist{
-  list-style: none;
-}
+
   .Conversions1-left h2 {
     font-size: 22px;
   }

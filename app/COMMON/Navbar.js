@@ -12,174 +12,174 @@ import { useRouter } from "next/navigation";
 const data = [
   {
     title: "About Us",
-    navigate: "/about",
+    navigate: "/service/about",
     subpart: [
       // {
       //   title: "Careers",
-      //   navigate: "/career",
+      //   navigate: "/service/career",
       // },
       // {
       //   title: "Partner With us",
-      //   navigate: "/partner"
+      //   navigate: "/service/partner"
       // },
     ],
   },
   {
     title: "Services",
-    navigate: "/service",
+    navigate: "/service/service",
     subpart: [
       {
         title: "Mobile App Development",
-        navigate: "/mobile-application-development",
+        navigate: "/service/mobile-application-development",
         subpart: [
           {
             title: "ios",
-            navigate: "/ios",
+            navigate: "/service/ios",
           },
           {
             title: "Anroid",
-            navigate: "/android",
+            navigate: "/service/android",
           },
         ],
       },
       {
         title: "E-commerce development",
-        navigate: "/ecommerce-development",
+        navigate: "/service/ecommerce-development",
         subpart: [
           {
             title: "Bigcommerce",
-            // navigate: "/bigcommerce-development"
-            navigate: "/bigcommerce-development",
+            // navigate: "/service/bigcommerce-development"
+            navigate: "/service/bigcommerce-development",
           },
           {
             title: "Shopify",
-            navigate: "/shopify-development",
+            navigate: "/service/shopify-development",
           },
           {
             title: "Magento",
-            navigate: "/magento-development",
+            navigate: "/service/magento-development",
           },
           {
             title: "WooCommerce",
-            navigate: "/woocommerce",
+            navigate: "/service/woocommerce",
           },
         ],
       },
       {
         title: "website development",
-        navigate: "/web-development",
+        navigate: "/service/web-development",
         subpart: [
           {
             title: "PHP",
-            navigate: "/php",
+            navigate: "/service/php",
           },
           {
             title: "React.Js",
-            navigate: "/react-js",
+            navigate: "/service/react-js",
           },
           {
             title: "HTML5",
-            navigate: "/html5",
+            navigate: "/service/html5",
           },
           {
             title: "Node.Js",
-            navigate: "/node-js",
+            navigate: "/service/node-js",
           },
           {
             title: "Wordpress",
-            navigate: "/wordpress",
+            navigate: "/service/wordpress",
           },
           {
             title: "Next.Js",
-            navigate: "/next-js",
+            navigate: "/service/next-js",
           },
         ],
       },
       {
         // title: "Cross Platform app development ",
-        // navigate: "/native",
+        // navigate: "/service/native",
         subpart: [
           {
             title: "React Native",
-            navigate: "/react-native",
+            navigate: "/service/react-native",
           },
           {
             title: "Flutter",
-            navigate: "/flutter",
+            navigate: "/service/flutter",
           },
           {
             title: "Kotlin",
-            navigate: "/kotlin",
+            navigate: "/service/kotlin",
           },
         ],
       },
       {
         title: "Headless commerce",
-        navigate: "/headless-commerce",
+        navigate: "/service/headless-commerce",
         subpart: [
           {
             title: "Headless shopify",
-            navigate: "/headless-shopify",
+            navigate: "/service/headless-shopify",
           },
           {
             title: "Headless bigcommerce",
-            navigate: "/headless-bigcommerce",
+            navigate: "/service/headless-bigcommerce",
           },
         ],
       },
       {
         title: "Graphic design",
-        navigate: "/graphic-design",
+        navigate: "/service/graphic-design",
         // subpart: [
         //   {
         //     title: "Adobe Photoshop",
-        //     navigate: "/graphic-design",
+        //     navigate: "/service/graphic-design",
         //   },
         //   {
         //     title: "Adobe illustrator",
-        //     navigate: "/graphic-design",
+        //     navigate: "/service/graphic-design",
         //   },
         //   {
         //     title: "Coreldraw",
-        //     navigate: "/graphic-design",
+        //     navigate: "/service/graphic-design",
         //   },
         // ],
       },
       {
         title: "Digital marketing",
-        navigate: "/digital-marketing-agency",
+        navigate: "/service/digital-marketing-agency",
         subpart: [
           {
             title: "SEO",
-            navigate: "/seo",
+            navigate: "/service/seo",
           },
           {
             title: "SMM",
-            navigate: "/smm",
+            navigate: "/service/smm",
           },
           {
             title: "PPC",
-            navigate: "/ppc",
+            navigate: "/service/ppc",
           },
         ],
       },
       {
         title: "UI & UX Designing",
-        navigate: "/ui-ux-design",
+        navigate: "/service/ui-ux-design",
         // subpart: [
         //   {
         //     title: "UI & UX Designing",
-        //     navigate: "/ui-ux-design",
+        //     navigate: "/service/ui-ux-design",
         //   },
         // ],
       },
       {
         title: "custom software development",
-        navigate: "/custom-software-development",
+        navigate: "/service/custom-software-development",
       },
       // {
       //   title: "multi-level marketing",
-      //   navigate: "/multi-level-marketing"
+      //   navigate: "/service/multi-level-marketing"
 
       // },
     ],
@@ -216,10 +216,10 @@ const data = [
             title: "Noida",
             navigate: "/noida",
           },
-          {
-            title: "Chennai",
-            navigate: "/chennai",
-          },
+          // {
+          //   title: "Chennai",
+          //   navigate: "/chennai",
+          // },
         ],
       },
       {
@@ -249,14 +249,13 @@ const data = [
       {
         title: "United Kingdom",
         navigate: "/",
-         subpart: [
+        subpart: [
           {
             title: "London",
             navigate: "/ecommerce-development-in-london",
           },
         ]
       },
-     
     ],
   },
   {
@@ -580,7 +579,7 @@ const Navbar = () => {
                                     <p
                                       onClick={() =>
                                         router.push(
-                                          "/mobile-application-development"
+                                          "/service/mobile-application-development"
                                         )
                                       }
                                     >
@@ -588,53 +587,53 @@ const Navbar = () => {
                                     </p>
                                   </div>
                                   <div className="left-containt-services">
-                                    <Link href="/ios">iOS </Link>
+                                    <Link href="/service/ios">iOS </Link>
                                     <span>|</span>
-                                    <Link href="/android">Android </Link>
+                                    <Link href="/service/android">Android </Link>
                                   </div>
                                 </div>
                                 <div className="left-side-servises-containt">
                                   <div className="left-head-services">
-                                    <Link href="/ecommerce-development">
+                                    <Link href="/service/ecommerce-development">
                                       E-Commerce Development
                                     </Link>
                                   </div>
                                   <div className="left-containt-services">
-                                    <Link href="/bigcommerce-development">
+                                    <Link href="/service/bigcommerce-development">
                                       BigCommerce{" "}
                                     </Link>
                                     <span>|</span>
-                                    <Link href="/shopify-development">
+                                    <Link href="/service/shopify-development">
                                       Shopify{" "}
                                     </Link>
                                     <span>|</span>
-                                    <Link href="/magento-development">
+                                    <Link href="/service/magento-development">
                                       Magento{" "}
                                     </Link>
                                     <span>|</span>
-                                    <Link href="/woocommerce">
+                                    <Link href="/service/woocommerce-development">
                                       WooCommerce{" "}
                                     </Link>
                                   </div>
                                 </div>
                                 <div className="left-side-servises-containt">
                                   <div className="left-head-services">
-                                    <Link href="/web-development">
+                                    <Link href="/service/web-development">
                                       Website Development
                                     </Link>
                                   </div>
                                   <div className="left-containt-services">
-                                    <Link href="/php">PHP </Link>
+                                    <Link href="/service/php">PHP </Link>
                                     <span>|</span>
-                                    <Link href="/react-js">React.Js </Link>
+                                    <Link href="/service/react-js">React.Js </Link>
                                     <span>|</span>
-                                    <Link href="/html5">HTML5 </Link>
+                                    <Link href="/service/html5">HTML5 </Link>
                                     <span>|</span>
-                                    <Link href="/node-js">Node.Js </Link>
+                                    <Link href="/service/node-js">Node.Js </Link>
                                     <span>|</span>
-                                    <Link href="/wordpress">Wordpress </Link>
+                                    <Link href="/service/wordpress">Wordpress </Link>
                                     <span>|</span>
-                                    <Link href="/next-js">Next.Js </Link>
+                                    <Link href="/service/next-js">Next.Js </Link>
                                   </div>
                                 </div>
                                 <div className="left-side-servises-containt">
@@ -644,28 +643,28 @@ const Navbar = () => {
                                 </Link>
                               </div> */}
                                   <div className="left-containt-services">
-                                    <Link href="/react-native">
+                                    <Link href="/service/react-native">
                                       React Native{" "}
                                     </Link>
                                     <span>|</span>
-                                    <Link href="/flutter">Flutter </Link>
+                                    <Link href="/service/flutter">Flutter </Link>
                                     <span>|</span>
-                                    <Link href="/kotlin">Kotlin </Link>
+                                    <Link href="/service/kotlin">Kotlin </Link>
                                   </div>
                                 </div>
 
                                 <div className="left-side-servises-containt">
                                   <div className="left-head-services">
-                                    <Link href="/headless-commerce">
+                                    <Link href="/service/headless-commerce">
                                       Headless Commerce
                                     </Link>
                                   </div>
                                   <div className="left-containt-services">
-                                    <Link href="/headless-shopify">
+                                    <Link href="/service/headless-shopify">
                                       Headless Shopify
                                     </Link>
                                     <span>|</span>
-                                    <Link href="/headless-bigcommerce">
+                                    <Link href="/service/headless-bigcommerce">
                                       Headless Bigcommerce
                                     </Link>
                                   </div>
@@ -674,7 +673,7 @@ const Navbar = () => {
                               <div className="right-service-drop">
                                 <div className="left-side-servises-containt">
                                   <div className="left-head-services">
-                                    <Link href="/graphic-design">
+                                    <Link href="/service/graphic-design">
                                       Graphic Design
                                     </Link>
                                   </div>
@@ -688,21 +687,21 @@ const Navbar = () => {
                                 </div>
                                 <div className="left-side-servises-containt">
                                   <div className="left-head-services">
-                                    <Link href="/digital-marketing-agency">
+                                    <Link href="/service/digital-marketing-agency">
                                       Digital Marketing
                                     </Link>
                                   </div>
                                   <div className="left-containt-services">
-                                    <Link href="/seo">SEO </Link>
+                                    <Link href="/service/seo">SEO </Link>
                                     <span>|</span>
-                                    <Link href="/smm">SMM </Link>
+                                    <Link href="/service/smm">SMM </Link>
                                     <span>|</span>
-                                    <Link href="/ppc">PPC </Link>
+                                    <Link href="/service/ppc">PPC </Link>
                                   </div>
                                 </div>
                                 <div className="left-side-servises-containt">
                                   <div className="left-head-services">
-                                    <Link href="/ui-ux-design">
+                                    <Link href="/service/ui-ux-design">
                                       UI & UX Designing
                                     </Link>
                                   </div>
@@ -712,14 +711,14 @@ const Navbar = () => {
                                 </div>
                                 <div className="left-side-servises-containt">
                                   <div className="left-head-services left-head-services-bootom">
-                                    <Link href="/custom-software-development">
+                                    <Link href="/service/custom-software-development">
                                       Custom Software Development
                                     </Link>
                                   </div>
                                 </div>
                                 <div className="left-side-servises-containt">
                                   <div className="left-head-services left-head-services-bootom">
-                                    {/* <Link href="/multi-level-marketing">
+                                    {/* <Link href="/service/multi-level-marketing">
                                   <span>Multi-Level Marketing</span>
                                 </Link> */}
                                   </div>
@@ -771,7 +770,7 @@ const Navbar = () => {
                           <Link
                             className="sar descfont textTransform-navbar"
                             href="/blog"
-                            //  target="_blank"
+                          //  target="_blank"
                           >
                             Blogs
                           </Link>
@@ -824,13 +823,13 @@ const Navbar = () => {
                                     </span>
                                   </Link>
                                 </div>
-                                <div className="dummy ">
+                                {/* <div className="dummy ">
                                   <Link href="/chennai">
                                     <span className="hover-country-ext">
                                       Chennai
                                     </span>
                                   </Link>
-                                </div>
+                                </div> */}
                               </div>
                             </div>
                             <div className="">
@@ -1080,9 +1079,8 @@ const Navbar = () => {
                                     .classList?.toggle("mob-nav2-active");
                                 }
                               }}
-                              className={` cursor-pointer ${
-                                curopen === index && "curopensf"
-                              }`}
+                              className={` cursor-pointer ${curopen === index && "curopensf"
+                                }`}
                             >
                               {item?.title}
                             </p>

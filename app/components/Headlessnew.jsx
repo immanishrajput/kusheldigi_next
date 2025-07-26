@@ -1,26 +1,26 @@
 "use client"
 import Navbar from '../COMMON/Navbar'
-import Action1 from '../headless-commerce/Action1/page'
-import Cycle from '../headless-commerce/Cycle/page'
-import Devlopment from '../headless-commerce/Devlopment/page'
-import Last from '../headless-commerce/Last/page'
-import Menu from '../headless-commerce/Menu/page'
-import More from '../headless-commerce/More/page'
-import Omi from '../headless-commerce/Omi/page'
-import Online from '../headless-commerce/Online/page'
-import Process from '../headless-commerce/Process/page'
-import Pwa from '../headless-commerce/Pwa/page'
-import Upgrade from '../headless-commerce/Upgrade/page'
-import Wifi from '../headless-commerce/Wifi/page'
-import Wining from '../headless-commerce/Wining/page'
+import Action1 from '../service/headless-commerce/Action1/page'
+import Cycle from '../service/headless-commerce/Cycle/page'
+import Devlopment from '../service/headless-commerce/Devlopment/page'
+import Last from '../service/headless-commerce/Last/page'
+import Menu from '../service/headless-commerce/Menu/page'
+import More from '../service/headless-commerce/More/page'
+import Omi from '../service/headless-commerce/Omi/page'
+import Online from '../service/headless-commerce/Online/page'
+import Process from '../service/headless-commerce/Process/page'
+import Pwa from '../service/headless-commerce/Pwa/page'
+import Upgrade from '../service/headless-commerce/Upgrade/page'
+import Wifi from '../service/headless-commerce/Wifi/page'
+import Wining from '../service/headless-commerce/Wining/page'
 
-import BigBanner6 from "../bigcommerce-development/BigBanner6/page"
+import BigBanner6 from "../service/bigcommerce-development/BigBanner6/page"
 import Footer from '../COMMON/Footer'
 import HomeForm from '../components/Home/HomeForm'
 import { whyHeadlessByKDS, whyHeadlessByKDSHeading } from '../data/data'
-import Action2 from '../headless-commerce/Action2/page'
-import Diff from '../headless-commerce/Diff/page'
-import HeadlessFaq from '../headless-commerce/HeadlessFaq/page'
+import Action2 from '../service/headless-commerce/Action2/page'
+import Diff from '../service/headless-commerce/Diff/page'
+import HeadlessFaq from '../service/headless-commerce/HeadlessFaq/page'
 const phoneNumber = "9045301702";
 
 const whatAppHandler = () => {
