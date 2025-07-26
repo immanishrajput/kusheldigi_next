@@ -5,10 +5,10 @@ export const metadata = {
   alternates: {
     canonical: "/ecommerce-development-in-delhi",
   },
-  title: 'eCommerce Website Development Company in Delhi | Kushel Digi',
+  title: 'Ecommerce Website Development Company in Delhi ',
       description: 'Looking for ecommerce website development in Delhi? Kushel Digi builds secure, scalable, and custom ecommerce websites to grow your online business effectively.',
   openGraph: {
-    title: 'eCommerce Website Development Company in Delhi | Kushel Digi',
+    title: 'Ecommerce Website Development Company in Delhi ',
       description: 'Looking for ecommerce website development in Delhi? Kushel Digi builds secure, scalable, and custom ecommerce websites to grow your online business effectively.',
     url: "https://www.kusheldigi.com/ecommerce-development-in-delhi",
     images: [

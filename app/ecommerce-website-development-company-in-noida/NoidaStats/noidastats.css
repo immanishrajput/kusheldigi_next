@@ -15,7 +15,7 @@
 .features-grid {
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .feature-card {
@@ -74,4 +74,34 @@
 .bg-green {
  background: linear-gradient(91.03deg, #E1F7EC 20.6%, #F2E9FE 81.72%);
 
+}
+@media screen and (max-width: 768px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+}
+@media screen and (max-width: 480px) {
+  .features-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .feature-card {
+    min-height: 180px;
+  }
+  
+  .feature-icon-wrapper {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .feature-icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .feature-title {
+    font-size: 18px;
+  }
+  
 }
