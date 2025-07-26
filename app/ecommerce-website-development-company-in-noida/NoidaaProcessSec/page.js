@@ -7,55 +7,54 @@ const steps = [
   {
     title: "Understanding Requisite",
     points: [
-      "Requirement elicitation from the client",
-      "Business analytics of the inputs.",
+      "Know what you want to achieve with your company",
+      "Figure out what your target audience requires",
     ],
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750665229/teacher-smart_chwcbk.png",
     step: "01",
   },
   {
-    title: "Defining Scope",
+    title: "Planning and Strategy",
     points: [
-      "Project scoping and requirement prioritization.",
-      "Technology stack evaluation and selection.",
+      "Set a timetable and tech stack",
+      "A personalized plan designed by ecommerce experts",
     ],
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750665242/teacher-smart_2_soxynl.jpg",
     step: "02",
   },
   {
-    title: "Architecture Wireframing",
+    title: "Design and Wireframing",
     points: [
-      "Wireframing and mockup design for workflows.",
-      "Application data and system architecture planning.",
+      "Mockups of UI/UX that are focused on the user",
+      "Design that works on mobile first and is responsive",
     ],
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750665232/teacher-smart_7_oy1cvz.jpg",
     step: "03",
   },
   {
-    title: "Development",
-    points: [
-      "Backend and frontend development.",
-      "Integration with third-party services.",
-    ],
+    title: " Growth",
+    points: ["Clean, scalable code", "Built on top of ecommerce platforms"],
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750665243/teacher-smart_4_mgh4jw.jpg",
     step: "04",
   },
   {
-    title: "Quality Assurance",
-    points: ["Manual and automated testing.", "Bug tracking and resolution."],
+    title: " Testing and Launch",
+    points: [
+      "Testing for bugs and speed",
+      "Our web development team made sure the launch went smoothly",
+    ],
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750665232/teacher-smart_5_nfatb4.jpg",
     step: "05",
   },
   {
-    title: "Deployment & Support",
+    title: "Support & Optimization",
     points: [
-      "Production deployment and go-live.",
-      "Post-launch maintenance and support.",
+      "Regular updates and corrections","The finest ecommerce website creation firm does SEO and performance optimization.",
     ],
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750665244/teacher-smart_6_pkj2nr.jpg",

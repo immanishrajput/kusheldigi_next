@@ -10,7 +10,6 @@
   color: #111827;
   margin-bottom: 0.5rem;
   text-align: center;
-
 }
 
 .key-features-section p {
@@ -82,5 +81,13 @@
 
   .feature-text {
     text-align: center;
+  }
+  .key-features-section h2 {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+  .key-features-section p {
+    font-size: 1rem;
+    text-align: left;
   }
 }

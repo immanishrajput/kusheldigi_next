@@ -7,57 +7,57 @@ import "./ecomintro.css";
 const services = [
   {
     icon: "https://res.cloudinary.com/dknrega1a/image/upload/v1750766445/offer_1_vbeaag.png",
-    title: "Ecommerce Consulting",
+    title: "E-Commerce Consulting",
     description:
-      "We advise businesses on the best eCommerce strategies and software selection. We also guide them in application development to meet their unique electronic-commerce requirements.",
+      "We help businesses in suggesting the right platform, software and other tools for better performance.",
   },
   {
     icon: "https://res.cloudinary.com/dknrega1a/image/upload/v1750766444/Group_1171281698_rame6y.png",
-    title: "Custom Ecommerce Development",
+    title: "Custom E-Commerce Development",
     description:
-      "Our developers deliver custom ecommerce solutions tailored to your business needs. They create an ecommerce store that enhances your digital business footprint.",
+      "Our specialty is building bespoke ecommerce websites with expandable functionality and a distinctive appearance.",
   },
   {
     icon: "https://res.cloudinary.com/dknrega1a/image/upload/v1750766445/test_1_nr0zzh.png",
-    title: "Platform-Based Ecommerce Development",
+    title: "Platform-Based E-Commerce Development",
     description:
-      "As a top ecommerce web development company, we specialise in creating high-performing stores. We utilise all major platforms and the latest ecommerce software.",
+      "We use well-known systems like WooCommerce, Shopify, and Magento to create ecommerce websites.  Based on the objectives of the business, we select the appropriate platform.",
   },
   {
     icon: "https://res.cloudinary.com/dknrega1a/image/upload/v1750769020/designer_1_pn7e5d.png",
-    title: "Ecommerce Website Design",
+    title: "E-Commerce Website Design ",
     description:
-      "Our designers craft engaging ecommerce site designs. These designs look great and offer a seamless user experience, which helps to boost sales.",
+      "Our designers produce visually appealing and user-friendly designs that entice clients and encourage sales.",
   },
   {
     icon: "https://res.cloudinary.com/dknrega1a/image/upload/v1750769020/hire-best-icon_1_xyh0os.png",
-    title: "Ecommerce Integrations",
+    title: "E-Commerce Integrations",
     description:
-      "We provide seamless integration of your ecommerce platform with third-party applications. This ensures that your business processes are interconnected for efficient operations.",
+      "We have no trouble integrating your business with well-known ERPs, payment processors, and shipping solutions.",
   },
   {
     icon: "https://res.cloudinary.com/dknrega1a/image/upload/v1750769020/interview_1_ujpl94.png",
-    title: "Ecommerce Migration",
+    title: "E-Commerce Migration",
     description:
-      "Our developers handle ecommerce migration. They ensure the smooth transition of your ecommerce store from one platform to another with minimal disruption.",
+      "Our main goal is to make sure that your current store's move to a new ecommerce platform is safe and seamless.",
   },
   {
     icon: "https://res.cloudinary.com/dknrega1a/image/upload/v1750769020/customer-satisfaction-icon_1_ywdfop.png",
-    title: "Ecommerce Audit",
+    title: "E-Commerce Audit",
     description:
-      "We perform comprehensive audits of your ecommerce site. We identify potential improvements to enhance your store's performance, security, and user experience.",
+      "We provide thorough site audits to enhance the website's usability, SEO, speed, and general quality.",
   },
   {
     icon: "https://res.cloudinary.com/dknrega1a/image/upload/v1750769020/support_1_fcg8fk.png",
-    title: "Ecommerce Support and Evolution",
+    title: "E-Commerce Support & Maintenance",
     description:
-      "Our dedicated support team offers ongoing ecommerce site maintenance and evolution. This ensures your store stays updated, secure, and competitive.",
+      "Our staff makes sure your business is constantly operating well by adding new features, upgrading it, and resolving problems.",
   },
   {
     icon: "https://res.cloudinary.com/dknrega1a/image/upload/v1750769020/support_1_fcg8fk.png",
-    title: "Ecommerce Support and Evolution",
+    title: "UX/UI Optimization",
     description:
-      "Our dedicated support team offers ongoing ecommerce site maintenance and evolution. This ensures your store stays updated, secure, and competitive.",
+      "We concentrate on creating clear layouts and user-friendly interfaces to enhance the user experience and promote repeat business from our customers.",
   },
 ];
 
@@ -65,9 +65,13 @@ export default function EcomServiceNoida() {
   return (
     <section className="services-section">
       <div className="services-container">
-        <h5 className="services-title">What Services Do We Provide</h5>
+        <h5 className="services-title">
+          What Services Does Our E-Commerce Development Company Offer?
+        </h5>
         <p className="services-subtext">
-          A great eCommerce website has the power to uplift your business to astounding heights, and with a reliable and trusted eCommerce development company, you can be confident that your project is in good hands. Make your eCommerce site user-friendly, rank higher on Google, improve customer relationships, decrease the cost of inventory management, keep an eye on consumer’s buying habits, sell more products across the world and generate higher ROI.
+          As a prominent ecommerce development company in Noida, Kushel Digi
+          Solutions helps small or large businesses to stand and grow in this
+          competitive world.
         </p>
 
         {services.map((service, index) => (
@@ -85,7 +89,9 @@ export default function EcomServiceNoida() {
             <div className="service-right">
               <p className="service-description">{service.description}</p>
               <div className="service-buttons">
-                <button className="btn-pri btn-primary">Request a Free Quote</button>
+                <button className="btn-pri btn-primary">
+                  Request a Free Quote
+                </button>
                 <button className="btn-pri btn-outline">Schedule a Demo</button>
               </div>
             </div>

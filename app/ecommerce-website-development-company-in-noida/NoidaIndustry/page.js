@@ -1,56 +1,57 @@
-'use client';
-import React, { useState } from 'react';
-import './belgiumindustry.css';
+"use client";
+import React, { useState } from "react";
+import "./belgiumindustry.css";
 
 const industries = [
   {
-    title: 'Fashion',
-    image: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1750336337/beautiful-young-woman-holding-shopping-bags_jbffef.png',
+    title: "Fashion",
+    image:
+      "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750336337/beautiful-young-woman-holding-shopping-bags_jbffef.png",
     description:
-      'Fashion trends shift overnight, and timing is everything. We help brands stay relevant by automating product drops, connecting campaigns to live trends, and retargeting shoppers with hyper-personalized offers that reflect their unique style.',
+      "To enhance visibility and sales for fashion retailers, we create bespoke online stores tailored for mobile use. They can now compete in the digital marketplace with increased differentiation. As an ecommerce website development company in Noida, we utilize marketing technologies to elevate brand exposure.",
   },
   {
-    title: 'Automotive',
-    image: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337525/automobile-details-close-up-new-car_ybjvye.png',
+    title: "Automotive",
+    image:
+      "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337525/automobile-details-close-up-new-car_ybjvye.png",
     description:
-      'We support auto brands with advanced marketing automation, predictive maintenance analytics, and personalized customer engagement.',
+      "Our scope of work includes the development of ecommerce stores for high-end automotive parts and accessories. Our Website development agency in Noida guarantees every client a refined customer experience with fully incorporated analytics-driven detail systems that enable seamless user interactions.",
   },
   {
-    title: 'Electronics',
-    image: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337525/elegant-smartphone-composition_p1vvti.png',
+    title: "Electronics",
+    image:
+      "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337525/elegant-smartphone-composition_p1vvti.png",
     description:
-      'Drive innovation in consumer electronics with supply chain intelligence, eCommerce automation, and product launch strategies.',
+      "Are you selling electronics? Given that we are the best ecommerce development company, do you require cutting-edge tools like advanced filtering mechanisms, product comparison features, or real-time stock control systems? Our ecommerce development firm designs robust websites embedded with upper-tier cybersecurity protocols for transaction safety during purchases.",
   },
   {
-    title: 'Food and beverages',
-    image: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337530/fast-food-with-sandwich-french-fries-red-cocktail-fork-knife-table-side-view_w73jvr.png',
+    title: "Food and Beverages",
+    image:
+      "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337530/fast-food-with-sandwich-french-fries-red-cocktail-fork-knife-table-side-view_w73jvr.png",
     description:
-      'Fashion trends shift overnight, and timing is everything. We help brands stay relevant by automating product drops, connecting campaigns to live trends, and retargeting shoppers with hyper-personalized offers that reflect their unique style.',
+      "As part of our web development services, we want to offer gourmet food brands an option to digitize their products with swift checkout features. We can also tackle snack brands that produce beverages. As an agency, we ensure that transaction interfaces as well as mobile-friendly designs operate seamlessly.",
   },
   {
-    title: 'Luxury',
-    image: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337525/elegant-smartphone-composition_p1vvti.png',
+    title: "Luxury",
+    image:
+      "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337525/elegant-smartphone-composition_p1vvti.png",
     description:
-      'We support auto brands with advanced marketing automation, predictive maintenance analytics, and personalized customer engagement.',
+      "As a leading ecommerce development company, we digitally showcase luxury products, granting access to elite buyers globally for seamless purchase, enabling unmatched convenience and accessibility.",
   },
   {
-    title: 'Manufacturing',
-    image: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337526/modern-technology-assembly-cars-plant-automotive-industry-shop-production-assembly-machines-top-view-process-welding-parts-car_rhjthz.png',
+    title: "Manufacturing",
+    image:
+      "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337526/modern-technology-assembly-cars-plant-automotive-industry-shop-production-assembly-machines-top-view-process-welding-parts-car_rhjthz.png",
     description:
-      'Drive innovation in consumer electronics with supply chain intelligence, eCommerce automation, and product launch strategies.',
+      "We assist sellers by breaking down complex product catalogs alongside B2B workflows. As an ecommerce website development agency in Noida, we build comprehensive systems tailored toward sophisticated automation of bulk ordering, quoting, CRM systems, and inter-app communications.",
   },
   {
-    title: 'Furniture',
-    image: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337523/3d-rendering-modern-dining-room-living-room-with-luxury-decor_lfenl6.png',
+    title: "Furniture",
+    image:
+      "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337523/3d-rendering-modern-dining-room-living-room-with-luxury-decor_lfenl6.png",
     description:
-      'Fashion trends shift overnight, and timing is everything. We help brands stay relevant by automating product drops, connecting campaigns to live trends, and retargeting shoppers with hyper-personalized offers that reflect their unique style.',
+      "Through partnerships within the furniture sector, we are able to create elegantly sleek webpages alongside room visualizers with dimension filters, ensuring effortless browsing tailored to ergonomic standards and beauty. Collaborate with the best ecommerce website development company to showcase your collection with style and elegance.",
   },
-  {
-    title: 'B2B',
-    image: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1750337525/two-confident-business-man-shaking-hands-meeting-office-success-dealing-greeting-partner-concept_xwu4js.png',
-    description:
-      'We support auto brands with advanced marketing automation, predictive maintenance analytics, and personalized customer engagement.',
-  }
 ];
 
 const IndustryTabs = () => {
@@ -63,7 +64,7 @@ const IndustryTabs = () => {
         {industries.map((item, index) => (
           <button
             key={index}
-            className={`industry-tab ${activeIndex === index ? 'active' : ''}`}
+            className={`industry-tab ${activeIndex === index ? "active" : ""}`}
             onClick={() => setActiveIndex(index)}
           >
             {item.title}

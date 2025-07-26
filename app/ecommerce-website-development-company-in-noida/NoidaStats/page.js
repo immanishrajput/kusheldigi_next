@@ -7,21 +7,21 @@ const NoidaStats = () => {
   const features = [
     {
       icon: "https://res.cloudinary.com/dknrega1a/image/upload/v1750754424/shops1_ydonzl.png",
-      title: "Beautiful Online Store",
+      title: "User-Friendly Online Store",
       bgClass: "bg-blue",
     },
     {
-      title: "Multiple Payment Gateways",
+      title: "Easy Integration",
       icon: "https://res.cloudinary.com/dknrega1a/image/upload/v1750754424/cash1_emha95.png",
       bgClass: "bg-yellow",
     },
     {
-      title: "Shipping Integration",
+      title: "Intelligent Shipping",
       icon: "https://res.cloudinary.com/dknrega1a/image/upload/v1750754424/data-processing1_jksesg.png",
       bgClass: "bg-purple",
     },
     {
-      title: "Mobile Optimized",
+      title: "Fully Optimized on All Mobile Devices",
       icon: "https://res.cloudinary.com/dknrega1a/image/upload/v1750754424/mobile-optimization1_pvcgdh.png",
       bgClass: "bg-green",
     },
@@ -29,7 +29,7 @@ const NoidaStats = () => {
 
   return (
     <div className="features-container">
-      <h2 className="features-title">The Best We Have For You</h2>
+      <h2 className="features-title">Here’s What You Get with Us</h2>
       <div className="features-grid">
         {features.map((feature, index) => (
           <div key={index} className={`feature-card ${feature.bgClass}`}>

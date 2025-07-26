@@ -60,7 +60,7 @@
    Icon Styles
 =========================== */
 .Teaturesstop1-icon-box {
-/* border-radius: 50px;
+  /* border-radius: 50px;
 background-color: #fff; */
   font-size: 24px;
   padding: 12px;
@@ -83,7 +83,6 @@ background-color: #fff; */
   line-height: 1.5;
   margin: 8px 0 0;
   font-weight: 500;
-
 }
 
 /* ===========================
@@ -184,8 +183,9 @@ background-color: #fff; */
   }
 
   .Teaturesstop1-features-wrapper h2 {
-    font-size: 24px;
-    margin-bottom: 25px;
+    padding: 0px 10px;
+    text-align: left;
+    font-size: 22px;
   }
 
   .Teaturesstop1-feature-item {

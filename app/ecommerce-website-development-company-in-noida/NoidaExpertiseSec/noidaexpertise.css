@@ -98,7 +98,13 @@
 @media (max-width: 768px) {
   .expertise-subheading {
     font-size: 22px;
-    text-align: center;
-
+    text-align: left;
+  }
+  .expertise-heading{
+    text-align: left;
+  }
+  .expertise-content p{
+    text-align: left;
+    font-size: 17px;
   }
 }

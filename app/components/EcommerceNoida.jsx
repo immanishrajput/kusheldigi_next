@@ -41,17 +41,14 @@ const page = () => {
         <div>
             <div className='ser-main'></div>
             <Navbar />
-
-            <NoidaBanner />
+           <NoidaBanner />
             <LogoSlider />
             <NoidaStats />
             <NoidaBanner3 />
             <EcomServiceNoida />
             <BulgariaSecSlider />
-
             <NoidaKeyFeatures />
             <NoidaExpertiseSec />
-
             <OurProcessSection />
             <NoidaShop />
             <NoidaMakes />

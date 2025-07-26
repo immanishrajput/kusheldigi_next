@@ -1,85 +1,97 @@
 "use client";
 
 import { useState } from "react";
-import './custombenfit.css';
+import "./custombenfit.css";
 
 const benefits = [
   {
-    title: "Personalized Shopping Experience",
+    title: "Unique Brand Identity",
+     minWid1: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764190/Mask_group_16_oi6gcy.png",
     description:
-      "With a bespoke ecommerce site, you can line up product suggestions, headlines, and special deals to match what each visitor has already done. The result feels personal, keeps shoppers interested, lifts their happiness, and encourages them to come back.",
+      "Capture attention by standing out from other players with unforgettable designs tailor-made to showcase the identity of best-representing businesses.",
   },
   {
-    title: " Higher Conversion Rates",
+    title: "Scale As You Grow",
+     minWid1: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764189/Mask_group_17_dkxalb.png",
     description:
-      "When the whole store speaks to your target audience and the goals you set, buying feels easy rather than clumsy. Coupled with clear CTAs and tidy paths from browse to checkout, this layout steadily pushes conversion rates north.",
+      "Focused growth strategies can easily be achieved on websites that are built from scratch as they offer limitless potential, high speed, uncompromised performance, and effortless addition of features and products, along with integration processes.",
   },
   {
-    title: "Mobile Responsive",
+    title: "Improved Experience For Users",
+     minWid: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764189/Mask_group_18_qwtqbo.png",
     description:
-      "Your shop will resize, reorganize, and run smoothly on every screen, smartphone, tablet, or old-school laptop. That mobile-first polish lets people flip between devices without squinting or swiping forever, making the buy-it-now tap almost automatic.",
+      "Every piece involved in shopping online is done while automating interactions, engaging, enjoyable, and seamless for customers, ensuring complete user satisfaction.",
   },
   {
-    title: "Advanced Analytics",
+    title: "Capable Advanced SEO",
+     minWid1: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_20_ygsgyv.png",
     description:
-      "Built-in reports lay out who is shopping, what they're ignoring, and which campaigns are paying the bills. Measuring live numbers lets you steer stock, tweak offers, and slice revenue faster than waiting on end-of-month emails.",
+      "Reaching new heights becomes possible because these websites are strategically structured, adding businesses, enabling better rankings through increasing visibility, and reaching wider customers organically.",
   },
   {
-    title: "Faster Load Times",
+    title: "Quicker Load Time",
+     minWid1: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764185/Mask_group_19_lxvran.png",
     description:
-      "Custom code stays lean because we only include what adds value. Pages pop open in a blink, frustrating less, bouncing fewer, and nudging search engines to give your brand a higher seat.",
+      "Having fewer plugins reduces the need for redundant features, which increases loading speed and responsiveness. As a result, the website performs better in retaining visitors as well.",
   },
   {
-    title: "Secure Payment Gateways",
+    title: "Complete Automation",
+     minWid1: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_21_ynyqfc.png",
     description:
-      "We link your store to highly regarded, PCI-safe gateways such as Stripe and PayPal. Shoppers know their card data is protected, so they feel at ease and that helps you earn their trust.",
+      "All automation services, such as CRMs, ERPs, payment gateways, and shipping tools, can be integrated without limitations or restrictions.",
   },
   {
-    title: "Easy Checkout Process",
+    title: "Unlimited Control & Flexibility",
+     minWid: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_22_yyaiul.png",
     description:
-      "A clear, no-fuss checkout cuts cart drop-offs and leaves buyers happy. Since each step can be tailored, customers breeze through the process, and you keep the sale.",
+      "Restrictive design templates that came with limited add-ons are a thing of the past. Users can now modify custom-designed websites without barriers or iterations needing constant changes after they're made to deal with blockages.",
   },
   {
-    title: "Third-Party Integrations",
+    title: "Better Security",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_23_bn1ywe.png",
     description:
-      "Plug your shop into any favorite marketing app, stock tool, CRM, or ERP. Seamless links let you automate routine work, run operations smoothly, and grow without headaches.",
+      " With custom development, you can implement the latest security protocols to protect customer data, ensuring a safe and trusted shopping environment.",
   },
   {
-    title: "Long-Term Cost Efficiency",
+    title: "Tailored Features & Functionality",
+     minWid: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_24_lyevyw.png",
     description:
-      "Custom build-outs may cost more upfront, but they pay you back over time. You dodge endless subscription bills, enjoy full control, and shape a system that scales with your success.",
+      "From advanced filters to custom payment options, your website is built with the exact tools your business and customers need.",
   },
 ];
 
 export default function CustomBenefitsSection() {
   const [activeIndex, setActiveIndex] = useState(3);
-  
 
   return (
     <section className="custom-benefits-section">
       <div className="custom-benefits-container">
         <h2 className="custom-benefits-title">
-          What Are the Benefits of Having a Custom <br /> E-Commerce Website?
+          Why Custom E-Commerce Websites Are Ideal for Your Business?
         </h2>
         <p className="custom-benefits-subtext">
-          Get an ecommerce solution by customizing every aspect of your online store to match your unique business needs.
+          Make your brand stand out and get noticed with a custom-tailored
+          ecommerce solution from the ecommerce website development company in
+          Noida. It supports brand objectives and provides a vision of customer
+          experience.{" "}
         </p>
 
         <div className="custom-benefits-grid">
           <ul className="custom-benefits-list">
             {benefits.map((item, index) => (
-              <li
+               <li
                 key={index}
-                className={`custom-benefits-item ${index === activeIndex ? "active" : ""}`}
+                className={`custom-benefits-item ${
+                  index === activeIndex ? "active" : ""
+                }      ${item.minWid ? "extclassMinWid" : ""} ${item.exminWid ? "exminWidclas" : ""} ${item.minWid1 ? "minWid1" : ""} ${item.exminWid2 ? "exminWid2" : ""}`}
                 onClick={() => setActiveIndex(index)}
               >
                 <span className="custom-benefits-dot" />

@@ -308,7 +308,7 @@
 
     .noida-banner-heading {
         font-size: 26px;
-        text-align: center;
+        text-align: left;
     }
 
     .noida-banner-heading .noida-banner-span {
@@ -317,7 +317,7 @@
 
     .noida-banner-subtext {
         font-size: 15px;
-        text-align: center;
+        text-align: left;
         padding: 12px 0;
         max-width: 100%;
     }
@@ -335,7 +335,7 @@
     .noida-banner-btn-outline {
         font-size: 15px;
         padding: 10px 24px;
-        width: 60%;
+        width: 100%;
     }
 
     .noida-banner-clutch {

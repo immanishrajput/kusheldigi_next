@@ -8,18 +8,35 @@ function NoidaShop() {
         <div className="Conversions1-container">
           <div className="Conversions1-left">
             <h2>
-              Turn Clicks Into Customers with Smart E-Commerce Development
+              Ready to Turn Clicks Into Customers with Smart E-Commerce
+              Development?
             </h2>
-            <ul className="Conversions1-dashlist">     
-                <li>  Turn casual visits into sales with fast, high-impact online store tools.</li>
-                <li>  Help shoppers find what they want with clear, simple menus.</li>
-                <li>  Draw in more buyers using the SEO features already built in.</li>
-                <li>  Let smart filters and predictive search put products front and center.</li>
-                <li>  Keep visitors returning with a site that works perfectly on mobile.</li>
+            <ul className="Conversions1-dashlist">
+              <li>
+                {" "}
+                Interesting designs that make it easier for users to interact
+                and stay longer.
+              </li>
+              <li> From mobile to desktop, buying is easy.</li>
+              <li>
+                {" "}
+                A simple and safe checkout process protects private data and
+                cuts down on cart abandonment.
+              </li>
+              <li>
+                {" "}
+                Assist your e-store with proprietary built-in tools designed for
+                ranking, attracting, and converting traffic.
+              </li>
+              <li>
+                {" "}
+                User behavior tracking and sales performance analysis made easy.
+              </li>
             </ul>
             <p>
-              An agile ecommerce platform can turn browsers into buyers- let's
-              create yours.
+              Work with Kushel Digi Solutions - The ecommerce website
+              development agency in Noida that builds ecommerce stores optimized
+              for selling.
             </p>
           </div>
           <div className="Conversions1-right">

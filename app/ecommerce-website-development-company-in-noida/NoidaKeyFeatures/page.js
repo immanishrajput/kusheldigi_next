@@ -5,22 +5,19 @@ import Image from "next/image";
 import "./keyfeatures.css";
 
 const features = [
-  "Secure Payment Gateways",
-  "Inventory Management",
-  "Mobile-Optimized Design",
-  "Customer Account Management",
-  "Order Tracking",
-  "Marketing & SEO Tools",
+  "Secure Payment Integration",
+  "Smart Inventory Management",
+  "Mobile-Optimized Storefront",
+  "Customer Account Dashboard",
+  "Real-Time Order Tracking",
+  "Built-in Marketing & SEO Tools",
 ];
 
 export default function NoidaKeyFeatures() {
   return (
     <section className="key-features-section">
-      <h2>Key Features</h2>
-      <p>
-        Discover the advantages of choosing <strong>Kushel Digi Solutions</strong>
-      </p>
-      <p>E-Commerce Website with WebTiger Technologies.</p>
+      <h2>Explore the Benefits of Choosing Kushel Digi Solutions </h2>
+      <p>Your Trusted E-Commerce Partner .</p>
 
       <div className="key-features-grid">
         {features.map((feature, index) => (

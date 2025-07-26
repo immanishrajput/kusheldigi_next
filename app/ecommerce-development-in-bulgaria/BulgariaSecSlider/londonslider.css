@@ -301,7 +301,7 @@
         width: 100%;
   }
   .new-Width {
-    width: 171px;
+    width: 197px;
   }
 
   /* .case-study-tags {
@@ -353,11 +353,17 @@
   .view-button1 {
     left: 95%;
   }
+   .title-tag h2 {
+    font-size: 18px;
+   }
 }
 
 @media screen and (max-width: 335px) {
   .case-study-right {
     max-width: 200px;
+  }
+  .title-tag h2{
+    width: 125%;
   }
 }
 

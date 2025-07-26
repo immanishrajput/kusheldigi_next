@@ -88,6 +88,7 @@
   
   .feature-card {
     min-height: 180px;
+    align-items: start;
   }
   
   .feature-icon-wrapper {
@@ -102,6 +103,9 @@
   
   .feature-title {
     font-size: 18px;
+    text-align: left;
   }
-  
+  .features-title{
+    text-align: left;
+  }
 }

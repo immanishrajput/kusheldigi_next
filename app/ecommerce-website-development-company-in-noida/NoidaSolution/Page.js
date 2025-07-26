@@ -1,64 +1,78 @@
-"use client"
-import React from 'react'
-import './londonsol.css'
-import Link from 'next/link'
+"use client";
+import React from "react";
+import "./londonsol.css";
+import Link from "next/link";
 const NoidaSolution = () => {
   return (
     <>
       <div className="containerEcom">
         <section className="left-sectionEcom">
           <h6>Ecommerce Development Agency</h6>
-          <h2 className='primary-heading'>
-            Ecommerce Solutions for Higher Conversions and Growth
+          <h2 className="primary-heading">
+            E-Commerce Solutions Designed to Boost Sales and Scale Your Business
           </h2>
           <p>
-            Since 2017, Kushel Digi has been delivering Custom Ecommerce Solutions for more than 1000+ clients across globe. We are committed to help your business grow faster.
+            We at Kushel Digi Solutions create creative, conversion-focused
+            ecommerce websites that will help you expand more quickly, draw in
+            the correct kind of traffic, and convert one-time visitors into
+            devoted clients.{" "}
           </p>
-          <Link href="/contact-us"><button>
-            Get a Free Consultation Today</button> </Link>
+          <Link href="/contact-us">
+            <button>Get a Free Consultation Today</button>{" "}
+          </Link>
         </section>
         <section className="right-sectionEcom">
           <div className="content-blockEcom">
-            <h3>Custom E-Commerce Solutions</h3>
+            <h3>Conversion-Optimized Design</h3>
             <p>
-            Off-the-shelf templates rarely meet real-world needs, so we write each feature for your growth plan, buyer habits, and catalog layout, giving shoppers a smooth, branded path from interest to checkout.
+              We design aesthetically pleasing layouts with unambiguous calls to
+              action, seamless navigation, and distraction-free checkout pages
+              that seamlessly assist visitors in completing a transaction.
             </p>
           </div>
           <div className="content-blockEcom">
-            <h3>Advanced Tech Integration</h3>
+            <h3>A Smooth Shopping Journey</h3>
             <p>
-            Whether it's AI recommendations, headless setups, or intelligent search, our engineers reach for proven tools that keep your store fast, flexible, and ready for tomorrow's trends.
+              Every step, from the product search to the final checkout, is made
+              to be simple, which improves consumer happiness and engagement.
             </p>
           </div>
           <div className="content-blockEcom">
-            <h3>Ongoing Support</h3>
+            <h3>Mobile & Speed Optimization</h3>
             <p>
-            Go-live is just the start; we monitor speed, apply updates, fix issues, and watch the market with you, so your shop keeps shining while competitors flicker out.
+              Your shop will load quickly and be completely responsive, which
+              will guarantee a perfect experience across all devices and lower
+              bounce rates.
             </p>
           </div>
           <div className="content-blockEcom">
-            <h3>Mobile-First Design</h3>
+            <h3>Intelligent Product Search & Filtering</h3>
             <p>
-            With phones driving sales, we sketch every page on a small screen first scale up, giving every visitor, thumb or mouse, the same quick, friendly experience.
+              We employ sophisticated search tools and filters to help visitors
+              discover what they're searching for quickly, which speeds up
+              decision-making and increases sales.
             </p>
           </div>
           <div className="content-blockEcom">
-            <h3>SEO & Speed Optimized</h3>
+            <h3>Integrated Marketing & SEO Tools</h3>
             <p>
-            Clean code, smart schema, crisp images, and tiny load times are baked into every build, letting search engines notice you sooner and shoppers leave on the first page.
+              With integrated retargeting, email marketing, and SEO solutions,
+              we help you expand your audience and increase steady traffic to
+              your business.
             </p>
           </div>
           <div className="content-blockEcom">
-            <h3>Secure Payment Systems</h3>
+            <h3>Scalable Architecture for Development</h3>
             <p>
-            We connect Stripe, PayPal, Razorpay, and other secure gateways, turning nervous buyers into loyal fans with fast, safe checkouts that guard their data and your reputation.
+              Our websites can easily accommodate additional items, orders, and
+              customers without slowing down or requiring a complete redesign
+              since they are designed to expand with your company.
             </p>
           </div>
         </section>
       </div>
-
     </>
-  )
-}
+  );
+};
 
 export default NoidaSolution;
