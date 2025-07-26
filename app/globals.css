@@ -44551,9 +44551,9 @@ font-size: 28px !important;
   gap: 5px;
   justify-content: center;
   line-height: 24px;
-  padding: 19px;
+  padding: 18px 0;
   text-align: center;
-  width: 205px;
+  width: 220px;
 }
 
 .Woocomerce_b p {
@@ -75181,11 +75181,6 @@ input::-webkit-inner-spin-button {
   }
 }
 
-
-
-
-
-
 /* faqr */
 
 @media screen and (max-width: 480px) {
@@ -75207,18 +75202,6 @@ input::-webkit-inner-spin-button {
     font-size: 13px !important;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .faqr-section {
   max-width: 1720px;
@@ -75305,7 +75288,7 @@ input::-webkit-inner-spin-button {
 
 .faq-item.open .faq-answer {
   padding: 0px 20px 20px 20px;
-  max-height: 400px;
+  max-height: 99px;
   font-size: 16px;
 }
 
