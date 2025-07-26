@@ -13,20 +13,20 @@ function DenmarkShop() {
             </h2>
             <ul className="Conversions1-dashlist">
               <li>
-                <span>–</span> Our unique ecommerce solutions help you get more
+                  Our unique ecommerce solutions help you get more
                 sales.
               </li>
               <li>
-                <span>–</span>Websites that are easy to use and work well on all
+                 Websites that are easy to use and work well on all
                 devices.
               </li>
               <li>
-                <span>–</span>
+                 
                 From the start, SEO-friendly online retailers draw in their
                 target customers.
               </li>
               <li>
-                <span>–</span>
+                 
                 We give help after launch to boost performance and return on
                 investment.
               </li>

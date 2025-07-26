@@ -13,24 +13,24 @@ function FinlandShop() {
             </h2>
             <ul className="Conversions1-dashlist">
               <li>
-                <span>–</span> Boost conversions with our tailored ecommerce
+                Boost conversions with our tailored ecommerce
                 solutions.
               </li>
               <li>
-                <span>–</span> A fast and responsive online store helps in
+                A fast and responsive online store helps in
                 better conversion
               </li>
               <li>
-                <span>–</span> Mobile-friendly ecommerce websites increase user
+                Mobile-friendly ecommerce websites increase user
                 engagement and drive more traffic.
               </li>
               <li>
-                <span>–</span> SEO optimized websites rank on Google from the
+                SEO optimized websites rank on Google from the
                 first day of launch.
               </li>
             </ul>
             <p>
-          Allow us to turn your ecommerce issues into actual business development.
+              Allow us to turn your ecommerce issues into actual business development.
             </p>
           </div>
           <div className="Conversions1-right">

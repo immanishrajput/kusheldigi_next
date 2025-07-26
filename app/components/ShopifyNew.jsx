@@ -6,22 +6,22 @@
 import Footer from '../COMMON/Footer';
 import Navbar from '../COMMON/Navbar';
 import '../globals.css';
-import BigAskQuestion from '../shopify-development/BigAskQuestion/page';
+import BigAskQuestion from '../service/shopify-development/BigAskQuestion/page';
 // import { Helmet } from 'react-helmet';
-import BigBanner4 from "../bigcommerce-development/BigBanner4/page";
-import BigBanner6 from "../bigcommerce-development/BigBanner6/page";
-import FeatureSection from '../bigcommerce-development/FeaturesSection/FeatureSection';
-import ServiceSection from '../bigcommerce-development/ServiceSection/ServiceSection';
 import BlogSection from '../COMMON/BlogSection/BlogSection';
 import HomeForm from "../components/Home/HomeForm";
-import ShopifyProcess from "../shopify-development/ShopifyProcess/ShopifyProcess";
+import BigBanner4 from "../service/bigcommerce-development/BigBanner4/page";
+import BigBanner6 from "../service/bigcommerce-development/BigBanner6/page";
+import FeatureSection from '../service/bigcommerce-development/FeaturesSection/FeatureSection';
+import ServiceSection from '../service/bigcommerce-development/ServiceSection/ServiceSection';
+import ShopifyProcess from "../service/shopify-development/ShopifyProcess/ShopifyProcess";
 
 import { ShopifyFeatures, ShopifyFeaturesContent, ShopifyServicesContent, ShopifyServicesHeading, weExpertInShopify, whyShopifyByKDS, whyShopifyByKDSHeading } from '../data/data';
-import Banner8 from '../ecommerce-development/Banner8/page';
-import ShopifyBanner from '../shopify-development/ShopifyBanner/ShopifyBanner';
-import ShopifyPortfolio from "../shopify-development/ShopifyPortfolio/page";
-import ShopifySecond from "../shopify-development/ShopifySecond/ShopifySecond";
-import ShopifyServices from "../shopify-development/ShopifyServices/ShopifyServices";
+import Banner8 from '../service/ecommerce-development/Banner8/page';
+import ShopifyBanner from '../service/shopify-development/ShopifyBanner/ShopifyBanner';
+import ShopifyPortfolio from "../service/shopify-development/ShopifyPortfolio/page";
+import ShopifySecond from "../service/shopify-development/ShopifySecond/ShopifySecond";
+import ShopifyServices from "../service/shopify-development/ShopifyServices/ShopifyServices";
 
 function Shopify3({ notify }) {
 

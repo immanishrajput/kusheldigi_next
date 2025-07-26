@@ -13,10 +13,10 @@ function NorwayShop() {
               Developers Have You Covered!
             </h2>
             <ul className="Conversions1-dashlist">
-  <li><span>–</span> Boost Sales with Advanced eCommerce Features</li>
-  <li><span>–</span> Enhance Customer Experience with Seamless Navigation</li>
-  <li><span>–</span> Improve Customer Acquisition</li>
-  <li><span>–</span> Optimize Product Discovery for Increased Visibility</li>
+  <li>  Boost Sales with Advanced eCommerce Features</li>
+  <li>  Enhance Customer Experience with Seamless Navigation</li>
+  <li>  Improve Customer Acquisition</li>
+  <li>  Optimize Product Discovery for Increased Visibility</li>
 </ul>
             <p>
               Don’t let a poorly designed eCommerce site drain your profits. We can

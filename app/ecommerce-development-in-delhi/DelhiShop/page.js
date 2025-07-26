@@ -11,11 +11,11 @@ function DelhiShop() {
             From Clicks to Conversions: Build a Store That Performs
             </h2>
             <ul className="Conversions1-dashlist">
-  <li><span>–</span> Engaging users with a fast-loading mobile interface.</li>
-  <li><span>–</span> Streamlined menus and intelligent filters for easy product navigation.</li>
-  <li><span>–</span> SEO features to enhance search engine visibility.</li>
-  <li><span>–</span> Product sales are supported by advanced filtering and smart predictive search.</li>
-  <li><span>–</span> Fully responsive design optimally functions on all devices.</li>
+  <li>  Engaging users with a fast-loading mobile interface.</li>
+  <li>  Streamlined menus and intelligent filters for easy product navigation.</li>
+  <li>  SEO features to enhance search engine visibility.</li>
+  <li>  Product sales are supported by advanced filtering and smart predictive search.</li>
+  <li>  Fully responsive design optimally functions on all devices.</li>
 </ul>
             <p>
            A quick and efficient changeable e-commerce site can convert window shopping into actual purchases. 

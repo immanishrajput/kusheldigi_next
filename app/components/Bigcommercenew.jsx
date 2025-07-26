@@ -3,21 +3,21 @@ import Image from 'next/image'
 import BlogSection from "../COMMON/BlogSection/BlogSection.jsx"
 import Footer from '../COMMON/Footer'
 import Navbar from '../COMMON/Navbar'
-import BannerMain from '../bigcommerce-development/BannerMain/page'
-import BigAskQuestion from '../bigcommerce-development/BigAskQuestion/page'
-import BigBanner3 from '../bigcommerce-development/BigBanner3/page'
-import BigBanner4 from '../bigcommerce-development/BigBanner4/page'
-import BigBanner6 from "../bigcommerce-development/BigBanner6/page"
-import BigBanner7 from '../bigcommerce-development/BigBanner7/page'
-import BigBanner8 from '../bigcommerce-development/BigBanner8/page'
-import BigBanner9 from '../bigcommerce-development/BigBanner9/page'
-import BigCommercePortfolio from '../bigcommerce-development/BigCommercePortfolio/BigCommercePortfolio'
-import FeatureSection from '../bigcommerce-development/FeaturesSection/FeatureSection'
-import Process from '../bigcommerce-development/Process/page'
-import ServicesSection from '../bigcommerce-development/ServiceSection/ServiceSection'
+import BannerMain from '../service/bigcommerce-development/BannerMain/page'
+import BigAskQuestion from '../service/bigcommerce-development/BigAskQuestion/page'
+import BigBanner3 from '../service/bigcommerce-development/BigBanner3/page'
+import BigBanner4 from '../service/bigcommerce-development/BigBanner4/page'
+import BigBanner6 from "../service/bigcommerce-development/BigBanner6/page"
+import BigBanner7 from '../service/bigcommerce-development/BigBanner7/page'
+import BigBanner8 from '../service/bigcommerce-development/BigBanner8/page'
+import BigBanner9 from '../service/bigcommerce-development/BigBanner9/page'
+import BigCommercePortfolio from '../service/bigcommerce-development/BigCommercePortfolio/BigCommercePortfolio'
+import FeatureSection from '../service/bigcommerce-development/FeaturesSection/FeatureSection'
+import Process from '../service/bigcommerce-development/Process/page'
+import ServicesSection from '../service/bigcommerce-development/ServiceSection/ServiceSection'
 import HomeForm from '../components/Home/HomeForm'
 import { BigCommerceFeatures, BigCommerceFeaturesContent, BigCommerceServices, BigCommerceServicesHeading, weExpertInBigCommerce, whyBigCommereByKDS, whyBigCommereByKDSHeading } from "../data/data"
-import Banner9 from '../ecommerce-development/Banner8/page'
+import Banner9 from '../service/ecommerce-development/Banner8/page'
 
 const BigCommerceComponent = ({ notify }) => {
   const phoneNumber = "9045301702";
