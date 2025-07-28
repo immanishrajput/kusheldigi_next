@@ -1,75 +1,81 @@
-'use client';
-import React from 'react';
-import './delhicomser.css'; // Assuming you have a CSS file for styles
+"use client";
+import React from "react";
+import "./delhicomser.css"; // Assuming you have a CSS file for styles
 
 const features = [
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965474/Mask_group_75_obmlwf.png",
     title: "Custom E-Commerce Website Development",
     description:
-      "We create ecommerce websites from scratch for scaling companies, giving them better value and control over the user experience."
+      "We start fresh when we build an online store, letting growing businesses shape how their customers experience the site from the moment they land on it.",
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965473/Mask_group_76_jziqdb.png",
-    title: "Shopify Store Development",
+    title: "Shopify Store Creation",
     description:
-      `Our team in Delhi offers mobile-responsive Shopify store development services with unique branding features and secure payment gateways to boost conversions.`
+      "Our Delhi crew whips up mobile-friendly Shopify shops that look great, work smoothly, and come packed with branding options and safe payment systems designed to turn window-shoppers into real buyers.",
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965473/Mask_group_77_syi4ue.png",
-    title: "WooCommerce Website Design",
+    title: "WooCommerce on WordPress",
     description:
-      `Order your WordPress-based WooCommerce website, which is SEO optimized, easy to manage, and supports endless third-party application plugins.`
+      "Our expert team creates WooCommerce websites through WordPress that work well on Google. It ensures an easy run, and you can install as many plugins as you want.",
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965468/Mask_group_78_d9e39s.png",
-    title: "Magento Development & Migration",
+    title: "Magento Builds and Migrations",
     description:
-      `We build comprehensive Magento ecommerce stores and provide migration services from BigCommerce, Shopify, or any other store without losing data.`
+      "We craft Magento stores and help you migrate over the platforms like BigCommerce or Shopify, ensuring zero data loss and a decrease in traffic potential.",
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_79_sv7ryx.png",
-    title: "Mobile-Responsive E-Commerce Design Layouts",
+    title: "Mobile-Responsive Designs",
     description:
-      `Every online shop we design is mobile-responsive, improving navigation and load speed on all devices for enhanced customer interaction and engagement.`
+      "We understand that most of the users are mobile users, so we ensure mobile-responsive websites.",
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_80_xj1zov.png",
-    title: "Third-Party Integration Services",
+    title: "Third-Party Integrations",
     description:
-      `Automate shipping partners, CRMs, ERP payments, and analytics directly into your ecommerce site for full automation.`
+      "As a leading website development company in Delhi, we connect planning tools, payment platforms, and analytics dashboards, so that the website runs smoothly.",
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_81_ct53bt.png",
-    title: " UX/UI For E-Commerce Websites",
+    title: "User-Centric UX/UI",
     description:
-      `Focused on online shoppers from Delhi improves usability while boosting brand recall and enhancing customer loyalty resulting in improved NPS scores.`
+      "Our design process, which is based on how people in Delhi shop, makes it easy to find your way around, helps people remember your brand, and builds customer loyalty, all of which lead to higher Net Promoter Scores.",
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_82_mpn6s4.png",
-    title: "E-Commerce Website Maintenance & Support",
+    title: "Help and Support for E-Commerce",
     description:
-      `Keep your website running optimally by receiving strategic updates alongside bug fixes speed improvement, and evasive minimization under active supervision.`
+      "We don't stop here; we also provide ongoing support and maintenance. We fix bugs, update plugins, add new features and so on, ensuring the smooth running of the website.",
   },
   {
     icon: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1744965467/Mask_group_82_mpn6s4.png",
-    title: "E-Commerce SEO and Speed Optimization",
+    title: "SEO and Speed Optimisation for E-Commerce",
     description:
-      `Improve sales and visibility with ecommerce SEO services that include speed optimization of meta setup, schema, keywords, and architecture.`
-  }
+      "We build online stores with SEO best practices in mind so that the site starts ranking right away. We make sure that meta tags are correct, keywords are in the right places, speed is monitored, mobile-friendliness is checked, and customers can find you right away.",
+  },
 ];
 
 const DelhiEcomServ = () => {
   return (
-   <section className="ecom-london-section">
-      <h3 className="ecom-london-title">Why Choose Our E-Commerce Website Development Services?</h3> 
-      
+    <section className="ecom-london-section">
+      <h3 className="ecom-london-title">
+        Why Choose Our E-Commerce Website Development Services?
+      </h3>
+
       <div className="ecom-london-grid-wrapper">
         <div className="ecom-london-grid">
           {features.map((feature, index) => (
             <div key={index} className="ecom-london-card">
               <div className="ecom-london-icon">
-                <img src={feature.icon} alt={feature.title} className="ecom-london-icon-img" />
+                <img
+                  src={feature.icon}
+                  alt={feature.title}
+                  className="ecom-london-icon-img"
+                />
                 <h3 className="ecom-london-card-title">{feature.title}</h3>
               </div>
               <p className="ecom-london-description">{feature.description}</p>

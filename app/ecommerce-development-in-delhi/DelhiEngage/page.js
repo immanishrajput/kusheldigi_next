@@ -16,7 +16,7 @@ function DelhiEngage() {
       id: "2",
       img: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750665227/how-we-help-you-icon1_tddd2p.png",
       text: "Joined Team Business Model",
-      pra: "Do you need extra design and development professionals? Our ecommerce specialists seamlessly join your in-house team whenever needed.",
+      pra: "Do you need extra design and development professionals? Our ecommerce specialists seamlessly join your in-house team whenever required.",
       buttonText: "Hire Specialists Today ",
     },
     {

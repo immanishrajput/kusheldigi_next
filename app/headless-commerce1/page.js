@@ -1,10 +1,7 @@
 "use client";
 import React, { useEffect } from "react";
 
-
-
-import Head from 'next/head';
-
+import Head from "next/head";
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -59,41 +56,63 @@ const Headless = () => {
       },
     ],
   };
-  
-   const generateMetadata = ({ params }) => ({
-          title: "Kushel Digi Solutions | Headless Commerce Web Development Company",
-          description: 'offers headless commerce development services and e-commerce solutions, including custom coding and responsive design. and we holds the experience and expertise to accommodate all your eCommerce platform needs.',
-        });
-        
-      useEffect(() => {
-          const { title, description } = generateMetadata({ params: {} });
-          document.title = title;
-          let metaDescription = document.querySelector('meta[name="description"]');
-          metaDescription ? metaDescription.content = description : 
-            document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-        }, []);
+
+  const generateMetadata = ({ params }) => ({
+    title: "Kushel Digi Solutions | Headless Commerce Web Development Company",
+    description:
+      "offers headless commerce development services and e-commerce solutions, including custom coding and responsive design. and we holds the experience and expertise to accommodate all your eCommerce platform needs.",
+  });
+
+  useEffect(() => {
+    const { title, description } = generateMetadata({ params: {} });
+    document.title = title;
+    let metaDescription = document.querySelector('meta[name="description"]');
+    metaDescription
+      ? (metaDescription.content = description)
+      : document.head.insertAdjacentHTML(
+          "beforeend",
+          `<meta name="description" content="${description}">`
+        );
+  }, []);
 
   return (
     <>
-
-<Head>
+      <Head>
         {/* Open Graph (OG) Meta Tags */}
-        <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
-        <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
-        <meta property="og:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
+        <meta
+          property="og:title"
+          content="Kushel Digi | Expert eCommerce Development Services"
+        />
+        <meta
+          property="og:description"
+          content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development."
+        />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png"
+        />
         <meta property="og:url" content="https://www.kusheldigi.com/" />
         <meta property="og:type" content="website" />
 
         {/* Twitter Card Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Kushel Digi | Expert eCommerce Development Services" />
-        <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
-        <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
+        <meta
+          name="twitter:title"
+          content="Kushel Digi | Expert eCommerce Development Services"
+        />
+        <meta
+          name="twitter:description"
+          content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development."
+        />
+        <meta
+          name="twitter:image"
+          content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png"
+        />
         <meta name="twitter:url" content="https://www.kusheldigi.com/" />
       </Head>
-      
+
       <Navbar />
-      
+
       {/* </Helmet> */}
       <div id="kushel-headless-commerce">
         <div className="headless-commerce-banner">
@@ -136,7 +155,7 @@ const Headless = () => {
                   <div className="headless-commerce-cards-flex">
                     <div className="headless-commerce-cards-column">
                       <img
-                        src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171319/card1_per93j.svg'
+                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171319/card1_per93j.svg"
                         alt="launch multichannel retail cost effectively"
                         title="launch multichannel retail cost effectively"
                       />
@@ -155,7 +174,7 @@ const Headless = () => {
                   <div className="headless-commerce-cards-flex">
                     <div className="headless-commerce-cards-column">
                       <img
-                        src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171983/flexibility_ebbdks.svg'
+                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171983/flexibility_ebbdks.svg"
                         alt="Greater design flexibility"
                         title="Greater design flexibility"
                       />
@@ -171,7 +190,7 @@ const Headless = () => {
                   <div className="headless-commerce-cards-flex">
                     <div className="headless-commerce-cards-column">
                       <img
-                        src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171818/Agile-image1_ds9fdw.svg'
+                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171818/Agile-image1_ds9fdw.svg"
                         alt="Agility in the front-end design"
                         title="Agility in the front-end design"
                       />
@@ -187,7 +206,7 @@ const Headless = () => {
                   <div className="headless-commerce-cards-flex">
                     <div className="headless-commerce-cards-column">
                       <img
-                        src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171859/Agile-backend_dbmzyy.svg'
+                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171859/Agile-backend_dbmzyy.svg"
                         alt="Agility in the back-end"
                         title="Agility in the back-end"
                       />
@@ -498,7 +517,7 @@ const Headless = () => {
                 <div className="headless-commerce-cards-content-flex5">
                   <div className="headless-commerce-cards-main5">
                     <img
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171627/cart-cards_czanq5.svg'
+                      src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171627/cart-cards_czanq5.svg"
                       alt="Ecommerce Front End"
                       title="Ecommerce Front End"
                     />
@@ -506,7 +525,7 @@ const Headless = () => {
                   </div>
                   <div className="headless-commerce-cards-main5">
                     <img
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171627/cart-cards_czanq5.svg'
+                      src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171627/cart-cards_czanq5.svg"
                       alt="Ecommerce Front End"
                       title="Ecommerce Front End"
                     />
@@ -514,7 +533,7 @@ const Headless = () => {
                   </div>
                   <div className="headless-commerce-cards-main5">
                     <img
-                      src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171627/cart-cards_czanq5.svg'
+                      src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171627/cart-cards_czanq5.svg"
                       alt="Ecommerce Front End"
                       title="Ecommerce Front End"
                     />
@@ -524,7 +543,11 @@ const Headless = () => {
                 <div className="headless-commerce-cards-content5">
                   <div className="headless-commerce-cards-flex5">
                     <div className="headless-commerce-aero-images">
-                      <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171702/aero_awb0gf.png' alt="arrow" title="arrow" />
+                      <img
+                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171702/aero_awb0gf.png"
+                        alt="arrow"
+                        title="arrow"
+                      />
                     </div>
                     <div>
                       <p>
@@ -536,7 +559,7 @@ const Headless = () => {
                   <div className="headless-commerce-cards-flex5">
                     <div className="headless-commerce-ccc">
                       <img
-                        src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171702/aero_awb0gf.png'
+                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171702/aero_awb0gf.png"
                         alt="arrow"
                         title="frontend-technology"
                       />
@@ -551,7 +574,7 @@ const Headless = () => {
                   <div className="headless-commerce-cards-flex5">
                     <div>
                       <img
-                        src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171702/aero_awb0gf.png'
+                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171702/aero_awb0gf.png"
                         alt="frontend-technology"
                         title="frontend-technology"
                       />
@@ -569,7 +592,7 @@ const Headless = () => {
                     <div className="headless-commerce-card-content-main5">
                       <img
                         className="imhggg"
-                        src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171763/api-s_wrye4k.svg'
+                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171763/api-s_wrye4k.svg"
                         alt="REST APIs"
                         title="REST APIs"
                       />
@@ -609,7 +632,7 @@ const Headless = () => {
                     <div className="headless-commerce-aero-third-section-part1">
                       <img
                         className="imhggg"
-                        src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172100/backend-svg_uu0p18.svg'
+                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172100/backend-svg_uu0p18.svg"
                         alt="BACK-END"
                         title="BACK-END"
                       />
@@ -641,19 +664,19 @@ const Headless = () => {
                     <div className="headless-commerce-aero-third-section-part3">
                       <img
                         className="imhggg"
-                        src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171907/onlineimage_cl79d6.svg'
+                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171907/onlineimage_cl79d6.svg"
                         alt="bar-graph"
                         title="bar-graph"
                       />
                       <img
                         className="imhggg"
-                        src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171907/onlineimage_cl79d6.svg'
+                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171907/onlineimage_cl79d6.svg"
                         alt="bar-graph"
                         title="bar-graph"
                       />
                       <img
                         className="imhggg"
-                        src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171907/onlineimage_cl79d6.svg'
+                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171907/onlineimage_cl79d6.svg"
                         alt="bar-graph"
                         title="bar-graph"
                       />
@@ -684,7 +707,7 @@ const Headless = () => {
                     <div className="headless-commerce-aero-third-section-part4">
                       <img
                         className="imhggg"
-                        src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172100/backend-svg_uu0p18.svg'
+                        src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172100/backend-svg_uu0p18.svg"
                         alt="DATA ANALYTICS"
                         title="DATA ANALYTICS"
                       />
@@ -721,30 +744,46 @@ const Headless = () => {
                     </div>
                     <div className="headless-commerce-api-nextstep">
                       <div className="headless-commerce-api-nextstep-partfirst">
-                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172030/erps_jftc81.svg' alt="ERP" title="ERP" />
+                        <img
+                          src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172030/erps_jftc81.svg"
+                          alt="ERP"
+                          title="ERP"
+                        />
                         <p>ERP</p>
                       </div>
                       <div className="headless-commerce-api-nextstep-partfirst">
-                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172030/erps_jftc81.svg'alt="ERP" title="ERP" />
+                        <img
+                          src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172030/erps_jftc81.svg"
+                          alt="ERP"
+                          title="ERP"
+                        />
                         <p>ERP</p>
                       </div>
                       <div className="headless-commerce-api-nextstep-partfirst">
-                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172030/erps_jftc81.svg' alt="ERP" title="ERP" />
+                        <img
+                          src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172030/erps_jftc81.svg"
+                          alt="ERP"
+                          title="ERP"
+                        />
                         <p>ERP</p>
                       </div>
                       <div className="headless-commerce-api-nextstep-partfirst">
-                        <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172030/erps_jftc81.svg' alt="ERP" title="ERP" />
+                        <img
+                          src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172030/erps_jftc81.svg"
+                          alt="ERP"
+                          title="ERP"
+                        />
                         <p>ERP</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              {/* <div class="headless-commerce-handle">
-                  <div class="headless-commerce-cards-backend">
+              {/* <div className"headless-commerce-handle">
+                  <div className"headless-commerce-cards-backend">
                         <img   src={backends} alt="kushel">
                   </div>
-                  <div class="headless-commerce-cards-para">
+                  <div className"headless-commerce-cards-para">
                       <p>BACK-END</p>
                   </div>
               </div> */}
@@ -760,7 +799,7 @@ const Headless = () => {
               <div className="headless-commerce-cards-content-flex4">
                 <div className="headless-commerce-cards-content-main4">
                   <img
-                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171382/cards3-image_fev7t7.svg'
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171382/cards3-image_fev7t7.svg"
                     alt="Informalytics"
                     title="Informalytics"
                   />
@@ -768,19 +807,22 @@ const Headless = () => {
                 </div>
                 <div className="headless-commerce-cards-content-main4">
                   <img
-                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171436/card3-image2_wpj7lq.svg'
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171436/card3-image2_wpj7lq.svg"
                     alt="Headless Theme Crafting"
                     title="Headless Theme Crafting"
                   />
                   <p>Wire planning</p>
                 </div>
                 <div className="headless-commerce-cards-content-main4">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171474/cards3-images3_zn7kpm.svg' alt="kushel" />
+                  <img
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171474/cards3-images3_zn7kpm.svg"
+                    alt="kushel"
+                  />
                   <p>Headless Theme Crafting</p>
                 </div>
                 <div className="headless-commerce-cards-content-main4">
                   <img
-                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171513/cards3-images4_wd1pme.svg'
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171513/cards3-images4_wd1pme.svg"
                     alt="API Headway"
                     title="API Headway"
                   />
@@ -788,7 +830,7 @@ const Headless = () => {
                 </div>
                 <div className="headless-commerce-cards-content-main4">
                   <img
-                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171553/cards3-images5_iykjlz.svg'
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171553/cards3-images5_iykjlz.svg"
                     alt="Headless Integration"
                     title="Headless Integration"
                   />
@@ -796,7 +838,7 @@ const Headless = () => {
                 </div>
                 <div className="headless-commerce-cards-content-main4">
                   <img
-                    src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171590/cards3-images6_btmqrt.svg'
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739171590/cards3-images6_btmqrt.svg"
                     alt="Headless Testing"
                     title="Headless Testing"
                   />
@@ -838,19 +880,23 @@ const Headless = () => {
           </div>
         </div>
       </div>
-     
+
       <HeadlessFAQ />
       <div className="whtsApBtns">
         <button onClick={whatAppHandler}>
           <img
             className="what-image-universal"
-            src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png'
+            src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1738990311/whatsapp_eohddq.png"
             alt="whatsApp-kusheldigi"
             title="whatsApp-kusheldigi"
           />
         </button>
         <button onClick={callHandler}>
-          <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991783/telephone_k9aecl.png' alt="call-icon" title="call-icon" />
+          <img
+            src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1738991783/telephone_k9aecl.png"
+            alt="call-icon"
+            title="call-icon"
+          />
         </button>
       </div>
       <Footer />

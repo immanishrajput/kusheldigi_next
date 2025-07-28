@@ -5,58 +5,43 @@ import "./delhiprocess.css";
 
 const steps = [
   {
-    title: "Understanding Requisite",
-    points: [
-      "Requirement elicitation from the client",
-      "Business analytics of the inputs.",
-    ],
+    title: "Discovery & Planning",
+    points: ["Understand goals & audience", "Finalize scope & timeline"],
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750665229/teacher-smart_chwcbk.png",
     step: "01",
   },
   {
-    title: "Defining Scope",
-    points: [
-      "Project scoping and requirement prioritization.",
-      "Technology stack evaluation and selection.",
-    ],
+    title: "UI/UX Design",
+    points: ["Mobile-first layout", "Delhi-focused visuals"],
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750665242/teacher-smart_2_soxynl.jpg",
     step: "02",
   },
   {
-    title: "Architecture Wireframing",
-    points: [
-      "Wireframing and mockup design for workflows.",
-      "Application data and system architecture planning.",
-    ],
+    title: "Development",
+    points: ["Build a responsive store", "Add core features"],
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750665232/teacher-smart_7_oy1cvz.jpg",
     step: "03",
   },
   {
-    title: "Development",
-    points: [
-      "Backend and frontend development.",
-      "Integration with third-party services.",
-    ],
+    title: "Integration",
+    points: ["Connect tools & APIs", "Smooth backend sync"],
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750665243/teacher-smart_4_mgh4jw.jpg",
     step: "04",
   },
   {
-    title: "Quality Assurance",
-    points: ["Manual and automated testing.", "Bug tracking and resolution."],
+    title: "Testing & Launch",
+    points: ["Speed & device tests", "Final launch prep"],
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750665232/teacher-smart_5_nfatb4.jpg",
     step: "05",
   },
   {
-    title: "Deployment & Support",
-    points: [
-      "Production deployment and go-live.",
-      "Post-launch maintenance and support.",
-    ],
+    title: "Support & Growth",
+    points: ["Ongoing maintenance", "SEO & performance boost"],
     image:
       "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750665244/teacher-smart_6_pkj2nr.jpg",
     step: "06",
@@ -103,7 +88,9 @@ const OurProcessSection = () => {
         {/* LEFT SIDE */}
         <div className="our-process-left">
           <div className="our-process-heading-sticky">
-            <h2 className="our-process-heading">Our Process</h2>
+            <h2 className="our-process-heading">
+              Our Website Development Process
+            </h2>
           </div>
 
           <div

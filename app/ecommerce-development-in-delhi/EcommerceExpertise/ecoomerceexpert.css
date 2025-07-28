@@ -61,6 +61,7 @@
 }
 
 /* Responsive */
+
 @media (max-width: 768px) {
   .ecomexpert1-container {
     flex-direction: column;
@@ -68,7 +69,7 @@
 
   .ecomexpert1-left h2 {
     font-size: 22px;
-    text-align: center;
+    /* text-align: center; */
   }
   .ecomexpert1-left {
     display: flex;
@@ -84,6 +85,11 @@
 
   .ecomexpert1-right p {
     font-size: 14px;
-    text-align: center;
+    /* text-align: center; */
+  }
+}
+@media (max-width: 480px) {
+  .ecomexpert1-left{
+    display: block;
   }
 }

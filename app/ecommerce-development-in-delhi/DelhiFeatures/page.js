@@ -1,6 +1,6 @@
-'use client';
-import React from 'react';
-import './delhifeatures.css'; // Assuming you have a CSS file for styles
+"use client";
+import React from "react";
+import "./delhifeatures.css"; // Assuming you have a CSS file for styles
 import {
   FaMobileAlt,
   FaRegUserCircle,
@@ -8,50 +8,50 @@ import {
   FaLock,
   FaFilter,
   FaExpandAlt,
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
 const features = [
   {
-    title: 'Mobile–Optimized Responsive Design',
+    title: "Responsive Mobile Design",
     icon: <FaMobileAlt />,
     description:
-      'In order to increase sales, we design fully responsive ecommerce websites, meaning they look great and function well on any device.',
-    color: 'blue',
+      "To boost sales, we create completely responsive ecommerce websites that look amazing and work well on all devices.",
+    color: "blue",
   },
   {
-    title: 'SEO-Optimized Architecture',
+    title: "SEO Architecture",
     icon: <FaRegUserCircle />,
     description:
-      "To improve your online store's visibility and bring in more natural visitors, we include search engine optimization (SEO) in our ecommerce development services.",
-    color: 'peach',
+      "As part of our ecommerce development services, we provide search engine optimisation (SEO) to help your online shop get more visitors and be seen more easily.",
+    color: "peach",
   },
   {
-    title: 'Lightspeed Loading',
+    title: "Loading at the Speed of Light",
     icon: <FaSearch />,
     description:
-      'When websites load faster, consumers are pleased. We make sure that all of our ecommerce sites are fast so that users have a better experience and the bounce rates are lower.',
-    color: 'white',
+      "Customers are happy when websites load quicker. We make sure that all of our online stores load quickly so that customers have a better time and don't leave the site as quickly.",
+    color: "white",
   },
   {
-    title: 'Intelligent Product Search & Filtering',
+    title: "Smart Product Search and Filtering",
     icon: <FaLock />,
     description:
-      "With the help of our e-commerce development agency's predictive search and clever filters, customers can simply and quickly locate the products they need.",
-    color: 'white',
+      "Our ecommerce development agency's smart filters and predictive search make it easy for shoppers to find the items they require.",
+    color: "white",
   },
   {
-    title: 'Secure Payment Gateway Integration',
+    title: "Integration of a Secure Payment Gateway",
     icon: <FaFilter />,
     description:
-      'To ensure that your consumers can shop with complete peace of mind, we include only the most reliable and secure payment channels.',
-    color: 'blue',
+      "We only use the safest and most reputable payment methods so that your customers may buy with total peace of mind.",
+    color: "blue",
   },
   {
-    title: 'Easy CMS & Inventory Management',
+    title: "Simple CMS and Inventory Management",
     icon: <FaExpandAlt />,
     description:
-      'Designed with busy company owners and non-tech teams in mind, our user-friendly backend makes managing goods, content, and orders a breeze.',
-    color: 'peach',
+      "Our easy-to-use backend makes it easy for busy business owners and non-tech staff to manage items, content, and orders.",
+    color: "peach",
   },
 ];
 
@@ -61,7 +61,10 @@ const DelhiFeatures = () => {
       <h2>What Features Make Our E-Commerce Websites Stand Out?</h2>
       <div className="Teaturesstop1-features-grid">
         {features.map((feature, index) => (
-          <div className={`Teaturesstop1-feature-item ${feature.color}`} key={index}>
+          <div
+            className={`Teaturesstop1-feature-item ${feature.color}`}
+            key={index}
+          >
             <div className="Teaturesstop1-icon-box">{feature.icon}</div>
             <h3>{feature.title}</h3>
             <p>{feature.description}</p>
@@ -69,11 +72,15 @@ const DelhiFeatures = () => {
         ))}
       </div>
       <div className="Teaturesstop1-buttons">
-        <a className="Teaturesstop1-button primary" href="#">Start Your Project</a>
-        <a className="Teaturesstop1-button secondary" href="#">Get a Free Quote</a>
+        <a className="Teaturesstop1-button primary" href="#">
+          Start Your Project
+        </a>
+        <a className="Teaturesstop1-button secondary" href="#">
+          Get a Free Quote
+        </a>
       </div>
     </section>
   );
 };
 
-export default  DelhiFeatures;
+export default DelhiFeatures;
