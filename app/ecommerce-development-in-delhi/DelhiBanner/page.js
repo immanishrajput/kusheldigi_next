@@ -177,8 +177,8 @@ const DelhiBanner = () => {
                     <div className="london-banner-left">
                         <h1 className="london-banner-heading">
                             E-Commerce Development
-                            <br />
-                            <span className="london-banner-span">Company in Delhi</span>
+                           
+                            <span className="london-banner-span"> Company in Delhi</span>
                         </h1>
                         <p className="london-banner-subtext">
                             Seeking the top-rated ecommerce development company in Delhi? Kushel Digi Solutions creates simple-to-use, user-friendly, secure, and scalable ecommerce websites tailored to the needs of enterprises and startups. We cater to mobile-first stores from Shopify to Magento with seamless integrations. Take your business to the next level with leading ecommerce developers from Delhi, precision-engineered for performance and growth.

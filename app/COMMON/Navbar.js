@@ -254,7 +254,7 @@ const data = [
             title: "London",
             navigate: "/ecommerce-development-in-london",
           },
-        ]
+        ],
       },
     ],
   },
@@ -589,7 +589,9 @@ const Navbar = () => {
                                   <div className="left-containt-services">
                                     <Link href="/service/ios">iOS </Link>
                                     <span>|</span>
-                                    <Link href="/service/android">Android </Link>
+                                    <Link href="/service/android">
+                                      Android{" "}
+                                    </Link>
                                   </div>
                                 </div>
                                 <div className="left-side-servises-containt">
@@ -625,15 +627,23 @@ const Navbar = () => {
                                   <div className="left-containt-services">
                                     <Link href="/service/php">PHP </Link>
                                     <span>|</span>
-                                    <Link href="/service/react-js">React.Js </Link>
+                                    <Link href="/service/react-js">
+                                      React.Js{" "}
+                                    </Link>
                                     <span>|</span>
                                     <Link href="/service/html5">HTML5 </Link>
                                     <span>|</span>
-                                    <Link href="/service/node-js">Node.Js </Link>
+                                    <Link href="/service/node-js">
+                                      Node.Js{" "}
+                                    </Link>
                                     <span>|</span>
-                                    <Link href="/service/wordpress">Wordpress </Link>
+                                    <Link href="/service/wordpress">
+                                      Wordpress{" "}
+                                    </Link>
                                     <span>|</span>
-                                    <Link href="/service/next-js">Next.Js </Link>
+                                    <Link href="/service/next-js">
+                                      Next.Js{" "}
+                                    </Link>
                                   </div>
                                 </div>
                                 <div className="left-side-servises-containt">
@@ -647,7 +657,9 @@ const Navbar = () => {
                                       React Native{" "}
                                     </Link>
                                     <span>|</span>
-                                    <Link href="/service/flutter">Flutter </Link>
+                                    <Link href="/service/flutter">
+                                      Flutter{" "}
+                                    </Link>
                                     <span>|</span>
                                     <Link href="/service/kotlin">Kotlin </Link>
                                   </div>
@@ -770,7 +782,7 @@ const Navbar = () => {
                           <Link
                             className="sar descfont textTransform-navbar"
                             href="/blog"
-                          //  target="_blank"
+                            //  target="_blank"
                           >
                             Blogs
                           </Link>
@@ -1079,8 +1091,9 @@ const Navbar = () => {
                                     .classList?.toggle("mob-nav2-active");
                                 }
                               }}
-                              className={` cursor-pointer ${curopen === index && "curopensf"
-                                }`}
+                              className={` cursor-pointer ${
+                                curopen === index && "curopensf"
+                              }`}
                             >
                               {item?.title}
                             </p>

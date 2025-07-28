@@ -213,6 +213,10 @@
   .our-process-heading-sticky {
     top: 117px;
   }
+    .our-process-heading {
+    font-size: 22px;
+    text-align: left;
+  }
   .timeline-content {
     line-height: 26px;
     top: 20px !important;

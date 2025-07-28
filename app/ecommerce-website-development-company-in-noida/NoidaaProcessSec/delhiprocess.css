@@ -220,11 +220,15 @@
   .timeline-line {
     height: 222px;
   }
+  .our-process-heading {
+    font-size: 22px;
+    text-align: left;
+  }
 }
 @media (max-width: 425px) {
-.our-process-section{
-  padding: 80px 45px;
-}
+  .our-process-section {
+    padding: 80px 45px;
+  }
 }
 @media (max-width: 375px) {
   .timeline-wrapper {
@@ -240,14 +244,14 @@
   .timeline-wrapper.active .step-title {
     width: 214px;
   }
-  .step-title{
+  .step-title {
     width: 214px;
   }
 
-  .step-icon{
+  .step-icon {
     width: 80px;
   }
-  .our-process-left{
+  .our-process-left {
     min-width: 0;
   }
 }

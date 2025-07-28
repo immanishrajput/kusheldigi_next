@@ -32,6 +32,7 @@
   margin: 0 auto 40px auto;
 }
 
+
 /* Grid Layout */
 .custom-benefits-grid {
   display: flex;
@@ -222,7 +223,7 @@
 
 @media (max-width: 480px) {
   .custom-benefits-title {
-    font-size: 1.75rem;
+    font-size: 26px;
   }
 
   .custom-benefits-grid {
@@ -263,6 +264,9 @@
 
   .extclassMinWid {
     min-width: 307px !important;
+  }
+   .extclassMinWid5 {
+    min-width: 350px !important;
   }
 
   .exminWidclas {

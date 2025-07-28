@@ -14,23 +14,41 @@ export default function UnleashingSection() {
         </div>
         <div className="unleashing1-right">
           <h2>
-            How Can Mesmerizing Website Development In Delhi Boost Your Growth Potential?
+            How can Mesmerising Website Development In Delhi help your Business
+            Grow?
           </h2>
           <p>
-            With us at Kushel Digi Solutions, we offer more than just developing a simple website. We construct high-performing ecommerce websites that ensure maximum conversions. As one of the leading ecommerce development companies in Delhi, we serve startups, SMEs, and enterprises by enabling them to access fully developed online stores tailored to modern digital businesses. We incorporate user-friendly design elements, focus on site load times, and flawless operation as our primary steps to the mobile-first approach. Be it Shopify store development, Magento customization, WooCommerce design, or even making a one-off bespoke ecommerce application - our solutions are mobile-ready, GDPR compliant, and focused on sustained success.
+            When you work with Kushel Digi Solutions, we do more than just build
+            simple websites. We create ecommerce sites that work well and get
+            the most sales possible. We are one of the best ecommerce
+            development companies in Delhi, and we help startups, small
+            businesses, and large companies by giving them access to fully built
+            online shops that are made for modern digital companies. To use a
+            mobile-first method, we pay extra attention to how easy the design
+            is to use, how fast the site loads, and how well it works with other
+            apps. Whether it's developing a Shopify store, customizing Magento,
+            designing a WooCommerce site, or crafting a bespoke ecommerce
+            application, all our services are mobile optimized, GDPR compliant,
+            and tailored for long-term achievement.
           </p>
           <p>
-            In addition to product catalog setup with advanced filtering options, payment gateway integration, linking CRM/ERP systems, and real-time analytics monitoring — our team of ecommerce specialists pays attention to everything in detail which ensures flawless operation throughout. We understand how the market operates here in Delhi so we solve problems for your consumers. Let us enhance your individuality by creating an amazing visually appealing website that is guaranteed to maximize sales.
+            Along with setting up the product catalog with advanced filters and
+            integrating the payment gateways and CRM/ERP systems, monitoring
+            analytics in real-time ensures smooth operations. With years of
+            experience in ecommerce solutions, we know how to get things done as
+            per market standards available here in Delhi, so your consumers are
+            always helped. Allow us to enhance your individuality; boost your
+            sales through stunning websites designed by our team that look
+            amazing!
           </p>
-
-         
         </div>
-        
       </div>
       <div className="unleashing1-buttons">
-            <button className="btn-blue">Schedule Your Free Consultation Now!</button>
-            <button className="btn-outline">View Portfolio</button>
-          </div>
+        <button className="btn-blue">
+          Schedule Your Free Consultation Now!
+        </button>
+        <button className="btn-outline">View Portfolio</button>
+      </div>
     </section>
   );
 }

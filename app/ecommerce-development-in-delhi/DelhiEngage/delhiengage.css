@@ -87,6 +87,7 @@
 }
 
 .engagement-card p {
+  min-height: 152px;
   font-size: 20px;
   color: #4b5563;
   margin-bottom: 0.75rem;
@@ -130,8 +131,27 @@
     flex: 0 0 calc(33.333% - 1rem);
     min-width: 335px;
   }
+  .engagement-title h2 {
+    text-align: left;
+  }
 }
-@media (max-width: 360px) {
+@media screen and (max-width: 480px) {
+  .engagement-card img {
+    margin: 5px 0;
+  }
+  .engagement-card h5 {
+    text-align: left;
+  }
+  .engagement-card p {
+    text-align: left;
+    font-size: 17px;
+  }
+  .engagement-title h2 {
+    text-align: left;
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 360px) {
   .engagement-card button {
     width: 260px;
   }

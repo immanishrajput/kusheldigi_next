@@ -1,6 +1,6 @@
-"use client"
-import React from 'react'
-import "./delhimake.css"
+"use client";
+import React from "react";
+import "./delhimake.css";
 
 function DelhiMakes() {
   return (
@@ -9,26 +9,42 @@ function DelhiMakes() {
         <div className="different1-left">
           <h2>What Makes Us Different?</h2>
           <p>
-            Kushel Digi Solutions stands out as an ecommerce development company based in Delhi because we go beyond coding. We create digital commerce successes.
+            Kushel Digi Solutions is an ecommerce development company in Delhi
+            that distinguishes out because we do more than just code. We help
+            businesses do well in digital commerce.{" "}
           </p>
           <p>
-            Mobile-friendly, online shops that push real growth for businesses and deep insight into the Delhi ecommerce market are user-centric features of our store designs.
+            Our store designs include user-friendly elements like mobile, online
+            stores that help companies expand and provide them with a lot of
+            information about the Delhi ecommerce industry.
           </p>
           <p>
-            Our skilled digital commerce team crafts custom-built Shopify, Magento, and WooCommerce ecommerce websites with best-in-class SEO practices, ensuring they remain competitive within the industry while achieving all your business objectives.
+            Our expert digital commerce team builds bespoke Shopify, Magento,
+            and WooCommerce ecommerce websites using the finest SEO strategies.
+            This keeps them competitive in the market and helps you reach all of
+            your company goals.
           </p>
           <p>
-            Your online shop can have flawless third-party integration, fast load times, and secure payment systems for simplified shopping experiences.
+            For easier purchasing, your online store may have perfect
+            third-party integration, quick load speeds, and safe payment
+            mechanisms.
           </p>
           <p>
-            Whether migrating from existing stores or creating new ones entirely from scratch, we offer guaranteed timelines, transparent pricing models, and constant assistance post-delivery irrespective of the scope of work.
+            We provide assured timeframes, clear pricing models, and ongoing
+            support after delivery, no matter how big or small the project is,
+            whether you're moving from existing locations or starting new ones
+            from scratch.
           </p>
           <p>
-            For turning browsers into buyers alone select Kushel—the trusted ecommerce agency in Delhi.
+            Choose Kushel, the most renowned ecommerce company in Delhi, to
+            transform surfers into purchasers.
           </p>
         </div>
         <div className="different1-right">
-          <img src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1750762025/online-shopping-concept_oztxuj.png" alt="Business Planning" />
+          <img
+            src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1750762025/online-shopping-concept_oztxuj.png"
+            alt="Business Planning"
+          />
         </div>
       </div>
     </section>
