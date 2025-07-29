@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { FcClock } from 'react-icons/fc';
 import "./blogNew.css";
+import pageData from './pageData';
+import Article from './Article/Article';
 
 export default function BlogNew() {
     const [activeTag, setActiveTag] = useState('all');
@@ -34,11 +36,8 @@ export default function BlogNew() {
 
     return (
         <section className="blog-main-con">
-
-
             <div className="blog-container">
                 <h1 className="heading">Innovate With Us</h1>
-
                 <div className="tags">
                     {tags.map((tag) => (
                         <button
@@ -50,7 +49,6 @@ export default function BlogNew() {
                         </button>
                     ))}
                 </div>
-
                 <div>
                     <p
                         style={{
@@ -60,37 +58,36 @@ export default function BlogNew() {
                         }}
                     />
                 </div>
-
-                <div className="blog-post">
-                    <div className="blog-image">
-                        <img
-                            src="https://res.cloudinary.com/dt2lhechn/image/upload/v1750764362/blog_images/hvvxvh4geaikafxjm5oy.jpg"
-                            alt="Blog Post"
-                            //   layout="fill"
-                            objectFit="cover"
-                        />
-                    </div>
-                    <div className="blog-content">
-                        <p className="date">24 JUNE 2025</p>
-                        <h2>BigCommerce System Integration for Large Catalog Management</h2>
-                        <p>
-                            The significant challenge faced by modern e-commerce companies is
-                            managing thousands of stock-keeping units. If your BigCommerce
-                            platform manages large inventories, then system integration becomes
-                            necessary for you.
-                        </p>
-                        <div className="blogClockTime1">
-                          <Link href={``}>
-                            <p className="cardBlogStpaarw">Read More</p>
-                          </Link>
-                          <span className="bimageloDiPargaph1">
-                            <FcClock className="iconBlogClock" />
-                            5:00 Min
-                          </span>
+                {
+                    activeTag === "all" ? <div className="blog-post">
+                        <div className="blog-image">
+                            <img
+                                src="https://res.cloudinary.com/dt2lhechn/image/upload/v1750764362/blog_images/hvvxvh4geaikafxjm5oy.jpg"
+                                alt="Blog Post"
+                                //   layout="fill"
+                                objectFit="cover" />
                         </div>
-                    </div>
-                   
-                </div>
+                        <div className="blog-content">
+                            <p className="date">24 JUNE 2025</p>
+                            <h2>BigCommerce System Integration for Large Catalog Management</h2>
+                            <p>
+                                The significant challenge faced by modern e-commerce companies is
+                                managing thousands of stock-keeping units. If your BigCommerce
+                                platform manages large inventories, then system integration becomes
+                                necessary for you.
+                            </p>
+                            <div className="blogClockTime1">
+                                <Link href={``}>
+                                    <p className="cardBlogStpaarw">Read More</p>
+                                </Link>
+                                <span className="bimageloDiPargaph1">
+                                    <FcClock className="iconBlogClock" />
+                                    5:00 Min
+                                </span>
+                            </div>
+                        </div>
+                    </div> : <Article title={activeTag}/>
+                }
             </div>
         </section>
     );

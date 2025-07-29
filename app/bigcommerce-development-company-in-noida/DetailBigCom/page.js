@@ -171,36 +171,37 @@ export default function DetailBigCom() {
           Are you dreaming of an online store? BigCommerce is the best platform
           out there, and we’re ready to help turn your dream online business
           into reality. As a prominent BigCommerce development company in Noida,
-          we create fast, responsive, secure, mobile-friendly and
+          we create fast, responsive, secure, mobile-friendly, and
           easy-to-navigate ecommerce stores that help in increasing conversions.
         </p>
         <p>
-          Our team of skilled developers knows all there is to know about
-          BigCommerce. We'll take care of everything for you, from setting up
-          your new shop to adding custom features and connecting to third-party
-          services.
+          Our skilled workers know everything there is to know about
+          BigCommerce. We'll do everything for you, from setting up your new
+          store to adding features that are unique to you and linking it to
+          other services.
         </p>
         <p>
-          We make sure that your store looks excellent and operates well on all
-          devices. It also loads fast and provides your consumers with a
-          pleasant buying experience. Every company is different, so we don't
-          use pre-made templates; rather, we craft custom ecommerce websites.
+          We make sure that your store works well on all devices and looks
+          great. Additionally, it loads quickly and makes shopping a nice
+          experience for your customers. We don't use pre-made designs because
+          every business is different. Instead, we make ecommerce websites that
+          are just right for each client.
         </p>
         <p>
-          Our expert team takes time and understands your objectives, audience
-          and business goals. We can create anything for you, from basic product
-          listings to any complicated customizations.
+          Our professional team takes the time to learn about your business
+          goals, customers, and objectives. We can make everything for you, from
+          simple lists of products to complex changes.
         </p>
         <p>
-          For a price and to discuss your website development requirements, get
-          in touch with us right now.
+          Get in touch with us right away to get a price quote and talk about
+          your website creation needs.
         </p>
         <h5>What We Offer in BigCommerce Development Services?</h5>
         <p>
-          s the best BigCommerce development business in Noida, we do everything
-          for you, from setting up your online store to making it more
-          profitable over time. We will help you in any way we can, whether you
-          are just starting or want to improve the site you already have.
+          As the best BigCommerce development business in Noida, we do
+          everything for you, from setting up your online store to making it
+          more profitable over time. We will help you in any way we can, whether
+          you are just starting or want to improve the site you already have.
         </p>
         <p>
           We design BigCommerce stores that are fast, secure, responsive, easy
@@ -345,15 +346,15 @@ export default function DetailBigCom() {
         <p>
           You don't have to worry about problems with the back end, plugins, or
           slow load times. Our support team makes sure that your site is always
-          up to date with the newest features and working smoothly. As needed,
-          we can also update your content, make changes based on the seasons,
-          and connect your marketing.
+          up to date with the newest features and is working smoothly. As
+          needed, we can also update your content, make changes based on the
+          seasons, and connect your marketing.
         </p>
         <p>
           We're like your tech partner; we're always making sure your store
           works right. No tech speak or long wait times—just quick, helpful help
           when you need it most. Because you need to feel safe about your work,
-          and we're here to give it to you
+          and we're here to give it to you.
         </p>
         {/* <p>
           Our Upgradation & Migration services include consultation, analysis,
@@ -365,28 +366,29 @@ export default function DetailBigCom() {
         </p> */}
 
         <h5>
-          What Makes Us the Right Choice for BigCommerce Development in Noida? 
+          What Makes Us the Right Choice for BigCommerce Development in Noida?
         </h5>
         <p>
           It is important to pick the best BigCommerce development agencies when
           you are thinking of creating an online store. We are here to help you
           with that. As a reliable BigCommerce development in Noida, we help
-          companies in building fast, responsive, mobile-friendly, SEO-optimized
-          and easy-to-navigate BigCommerce stores that drive sales from the
-          launch day itself.
+          companies in building fast, responsive, mobile-friendly,
+          SEO-optimized, and easy-to-navigate BigCommerce stores that drive
+          sales from the launch day itself.
         </p>
         <p>
           We also integrate third-party tools like payment gateways, custom
-          themes, add-on features and many more for a seamless user experience.
+          themes, add-on features, and many more for a seamless user experience.
           We don't just make websites; we also make full shopping experiences
           that help your business grow and succeed.
         </p>
         <p>
-          We help startups, small businesses and even established ones. We
-          believe in clear talks, clear deadlines, keeping things easy and
-          results that speak. This is why we might be the best choice for your
-          eCommerce journey:
+          We help startups, small businesses, and even established ones. We
+          believe in clear talks, clear deadlines, keeping things easy, and
+          results that speak.
         </p>
+        <p>This is why we might be the best choice for your eCommerce journey:
+</p>
         <h5>Experience That Matters</h5>
         <p>
           It doesn't matter what size business you have; we know what works. Our

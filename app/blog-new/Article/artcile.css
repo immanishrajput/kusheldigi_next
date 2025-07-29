@@ -58,3 +58,11 @@
   color: #111;
   line-height: 1.4;
 }
+@media screen and (max-width:330px) {
+  .latest-articles{
+    padding: 40px 24px;
+  }
+  .article-card{
+    width: 270px;
+  }
+}
