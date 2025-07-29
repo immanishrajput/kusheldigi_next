@@ -496,6 +496,267 @@ const nextConfig = {
         destination: '/contact-us',
         permanent: true,
       },
+      {
+        source: '/ios',
+        destination: '/service/ios',
+        permanent: true,
+      },
+      {
+        source: '/android',
+        destination: '/service/android',
+        permanent: true,
+      },
+      {
+        source: '/bigcommerce-development',
+        destination: '/service/bigcommerce-development',
+        permanent: true,
+      },
+      {
+        source: '/shopify-development',
+        destination: '/service/shopify-development',
+        permanent: true,
+      },
+      {
+        source: '/magento-development',
+        destination: '/service/magento-development',
+        permanent: true,
+      },
+      {
+        source: '/woocommerce-development',
+        destination: '/service/woocommerce-development',
+        permanent: true,
+      },
+      {
+        source: '/php',
+        destination: '/service/php',
+        permanent: true,
+      },
+      {
+        source: '/react-js',
+        destination: '/service/react-js',
+        permanent: true,
+      },
+      {
+        source: '/html5',
+        destination: '/service/html5',
+        permanent: true,
+      },
+      {
+        source: '/node-js',
+        destination: '/service/node-js',
+        permanent: true,
+      },
+      {
+        source: '/wordpress',
+        destination: '/service/wordpress',
+        permanent: true,
+      },
+      {
+        source: '/next-js',
+        destination: '/service/next-js',
+        permanent: true,
+      },
+      {
+        source: '/react-native',
+        destination: '/service/react-native',
+        permanent: true,
+      },
+      {
+        source: '/flutter',
+        destination: '/service/flutter',
+        permanent: true,
+      },
+      {
+        source: '/kotlin',
+        destination: '/service/kotlin',
+        permanent: true,
+      },
+      {
+        source: '/headless-shopify',
+        destination: '/service/headless-shopify',
+        permanent: true,
+      },
+      {
+        source: '/headless-bigcommerce',
+        destination: '/service/headless-bigcommerce',
+        permanent: true,
+      },
+      {
+        source: '/seo',
+        destination: '/service/seo',
+        permanent: true,
+      },
+      {
+        source: '/smm',
+        destination: '/service/smm',
+        permanent: true,
+      },
+      {
+        source: '/ppc',
+        destination: '/service/ppc',
+        permanent: true,
+      },
+      {
+        source: '/kick-eez',
+        destination: '/portfolio/kick-eez',
+        permanent: true,
+      },
+      {
+        source: '/protrucksandcars',
+        destination: '/portfolio/protrucksandcars',
+        permanent: true,
+      },
+      {
+        source: '/relysafety',
+        destination: '/portfolio/relysafety',
+        permanent: true,
+      },
+      {
+        source: '/solenoid-ninja',
+        destination: '/portfolio/solenoid-ninja',
+        permanent: true,
+      },
+      {
+        source: '/ballisticdummylab',
+        destination: '/portfolio/ballisticdummylab',
+        permanent: true,
+      },
+      {
+        source: '/sitesandscopes',
+        destination: '/portfolio/sitesandscopes',
+        permanent: true,
+      },
+      {
+        source: '/topbrasstactical',
+        destination: '/portfolio/topbrasstactical',
+        permanent: true,
+      },
+      {
+        source: '/slides365',
+        destination: '/portfolio/slides365',
+        permanent: true,
+      },
+      {
+        source: '/2ndamendmentguns',
+        destination: '/portfolio/2ndamendmentguns',
+        permanent: true,
+      },
+      {
+        source: '/blackrhinoconcealment',
+        destination: '/portfolio/blackrhinoconcealment',
+        permanent: true,
+      },
+      {
+        source: '/thesurvivalmode',
+        destination: '/portfolio/thesurvivalmode',
+        permanent: true,
+      },
+      {
+        source: '/racewax',
+        destination: '/portfolio/racewax',
+        permanent: true,
+      },
+      {
+        source: '/instacertify',
+        destination: '/portfolio/instacertify',
+        permanent: true,
+      },
+      {
+        source: '/thecareerbeacon',
+        destination: '/portfolio/thecareerbeacon',
+        permanent: true,
+      },
+      {
+        source: '/krappstrapp',
+        destination: '/portfolio/krappstrapp',
+        permanent: true,
+      },
+      {
+        source: '/bobcatarmament',
+        destination: '/portfolio/bobcatarmament',
+        permanent: true,
+      },
+      {
+        source: '/servapure',
+        destination: '/portfolio/servapure',
+        permanent: true,
+      },
+      {
+        source: '/ushafasteners',
+        destination: '/portfolio/ushafasteners',
+        permanent: true,
+      },
+      {
+        source: '/lafayetteshooters',
+        destination: '/portfolio/lafayetteshooters',
+        permanent: true,
+      },
+      {
+        source: '/fouroaksfarm',
+        destination: '/portfolio/fouroaksfarm',
+        permanent: true,
+      },
+      {
+        source: '/aipartscenter',
+        destination: '/portfolio/aipartscenter',
+        permanent: true,
+      },
+      {
+        source: '/rideready',
+        destination: '/portfolio/rideready',
+        permanent: true,
+      },
+      {
+        source: '/typhoondefense',
+        destination: '/portfolio/typhoondefense',
+        permanent: true,
+      },
+      {
+        source: '/graco-corp',
+        destination: '/portfolio/graco-corp',
+        permanent: true,
+      },
+      {
+        source: '/riflesupply',
+        destination: '/portfolio/riflesupply',
+        permanent: true,
+      },
+      {
+        source: '/mycrazysimplecms',
+        destination: '/portfolio/mycrazysimplecms',
+        permanent: true,
+      },
+      {
+        source: '/woodView',
+        destination: '/portfolio/woodView',
+        permanent: true,
+      },
+      {
+        source: '/subhAlloy',
+        destination: '/portfolio/subhAlloy',
+        permanent: true,
+      },
+      {
+        source: '/digitalmna',
+        destination: '/portfolio/digitalmna',
+        permanent: true,
+      },
+      {
+        source: '/obtechenterprise',
+        destination: '/portfolio/obtechenterprise',
+        permanent: true,
+      },
+      {
+        source: '/pinkysky',
+        destination: '/portfolio/pinkysky',
+        permanent: true,
+      },
+      {
+        source: '/ezma',
+        destination: '/portfolio/ezma',
+        permanent: true,
+      },
+     
     ];
   },
 };

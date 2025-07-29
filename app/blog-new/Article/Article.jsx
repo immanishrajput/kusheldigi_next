@@ -26,10 +26,10 @@ const articles = [
   }
 ];
 
-export default function Article() {
+export default function Article({title}) {
   return (
     <section className="latest-articles">
-      <h2 className="heading">Latest Articles</h2>
+      <h2 className="heading">{title}</h2>
       <div className="articles-container">
         {articles.map((article) => (
           <div key={article.id} className="article-card">

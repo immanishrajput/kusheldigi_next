@@ -60,6 +60,7 @@ export const metadata = {
 };
 import Footer from "../COMMON/Footer";
 import Navbar from "../COMMON/Navbar";
+import SectionAll from "./AllSection/SectionAll";
 import Article from "./Article/Article";
 import BlogNew from "./BlogNew";
 
@@ -69,6 +70,9 @@ export default function page() {
       <Navbar />
       <BlogNew />
       <Article />
+      {/* <Article />
+      <Article /> */}
+      <SectionAll/>
       <Footer />
     </>
   );

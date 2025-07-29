@@ -39,7 +39,7 @@
   cursor: pointer;
   font-size: 1rem;
   font-weight: 600;
-  transition: background 0.2s ease;
+  transition: background 0.3s ease-in-out;
 }
 .cardBlogStpaarw {
   font-weight: 600;
@@ -164,4 +164,25 @@
   .cardBlogStpaarw {
     font-size: 14px;
   }
+}
+.tag {
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.tag::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: #0057ff;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.8s ease;
+  z-index: -1;
+}
+
+.tag:hover::before,
+.tag.active::before {
+  transform: scaleY(1);
 }
