@@ -6,7 +6,7 @@ import "./denmarkcustombenfit.css";
 const benefits = [
   {
     title: "Tailored For Every Customer",
-    minWid3: "true",
+    minWid: "true",
     icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753165898/Mask_group_1_ljmxuo.png",
     description:
       "Allows total control of catering content with product recommendations as well as guiding users through various flows based on prior interactions and behaviors. Every visit is curated, driving stronger engagement and more sales for the brand.",
@@ -20,7 +20,7 @@ const benefits = [
   },
   {
     title: "Mobile Responsive Design",
-
+minWid: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764189/Mask_group_18_qwtqbo.png",
     description:
       "The market is driven by mobile-first users, thus having a fully responsive custom ecommerce ensures effortless, smooth browsing and easy checkout across any sized screen and device.",

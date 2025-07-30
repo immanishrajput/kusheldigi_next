@@ -811,14 +811,14 @@ const Navbar = () => {
                           <div className="loc-dropmenu-main">
                             <div className="">
                               <div className="dummy ">
-                                <Link className="ext-flagD" href="/">
+                                <div className="ext-flagD" >
                                   <img
                                     className="img-flag-con"
                                     src="https://res.cloudinary.com/dxlykgx6w/image/upload/v1753193678/world_fzxwtv.png"
                                     alt="UK_Flag"
                                   />{" "}
                                   <strong className="ext-dummy">India</strong>
-                                </Link>
+                                </div>
                               </div>
                               <div className="loc-left">
                                 <div className="dummy ">
@@ -847,14 +847,14 @@ const Navbar = () => {
                             <div className="">
                               <div className="dummy ">
                                 {" "}
-                                <Link className="ext-flagD" href="/">
+                                <div className="ext-flagD" >
                                   <img
                                     className="img-flag-con"
                                     src="https://res.cloudinary.com/dxlykgx6w/image/upload/v1753094658/european-union_coalcr.png"
                                     alt="Europe_Flag"
                                   />{" "}
                                   <strong className="ext-dummy">Europe</strong>
-                                </Link>
+                                </div>
                               </div>
                               <div className="loc-left">
                                 <div className="dummy ">
@@ -901,7 +901,7 @@ const Navbar = () => {
                             </div>
                             <div className="">
                               <div className="dummy ">
-                                <Link className="ext-flagD" href="/">
+                                <div className="ext-flagD" >
                                   <img
                                     className="img-flag-con"
                                     src="https://res.cloudinary.com/dxlykgx6w/image/upload/v1753093834/united-kingdom_uflwsf.png"
@@ -910,7 +910,7 @@ const Navbar = () => {
                                   <strong className="ext-dummy">
                                     United Kingdom
                                   </strong>
-                                </Link>
+                                </div>
                               </div>
                               <div className="loc-left">
                                 <div className="dummy ">

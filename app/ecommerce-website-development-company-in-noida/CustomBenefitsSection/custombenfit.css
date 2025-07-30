@@ -158,10 +158,10 @@
     align-items: center;
   }
 
-  .custom-benefits-item.active {
-    min-width: 417px !important;
+   .custom-benefits-item.active {
+    font-size: 15px;
+    min-width: 300px !important;
     background-color: antiquewhite;
-
   }
 
   .custom-benefits-list {

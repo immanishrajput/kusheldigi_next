@@ -1,6 +1,17 @@
 "use client";
 import React from "react";
-import "./artcile.css" 
+import "./artcile.css"
+
+import Link from "next/link";
+
+
+function slugify(title) {
+  return title
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, '') 
+    .trim()
+    .replace(/\s+/g, '-');       
+}
 
 const articles = [
   {
@@ -26,13 +37,17 @@ const articles = [
   }
 ];
 
-export default function Article({title}) {
+export default function Article({ title }) {
   return (
     <section className="latest-articles">
       <h2 className="heading">{title}</h2>
       <div className="articles-container">
         {articles.map((article) => (
-          <div key={article.id} className="article-card">
+          <Link
+            key={article.id}
+            href={`/blog-new/${slugify(article.title)}`}
+            className="article-card"
+          >
             <img
               src={article.image}
               alt={article.alt}
@@ -44,7 +59,7 @@ export default function Article({title}) {
               <div className="article-date">{article.date}</div>
               <div className="article-title">{article.title}</div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </section>

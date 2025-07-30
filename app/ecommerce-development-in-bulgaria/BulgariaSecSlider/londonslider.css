@@ -365,6 +365,9 @@
   .title-tag h2{
     width: 125%;
   }
+  .view-button {
+    left: 80% !important;
+  }
 }
 
 @media screen and (max-width: 385px) {

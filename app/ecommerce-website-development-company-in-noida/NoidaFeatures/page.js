@@ -9,11 +9,13 @@ import {
   FaFilter,
   FaExpandAlt,
 } from "react-icons/fa";
+import { MdOutlineDashboardCustomize, MdProductionQuantityLimits } from "react-icons/md";
+import { GrOptimize } from "react-icons/gr";
 
 const features = [
   {
     title: "Custom Designs",
-    icon: <FaRegUserCircle />,
+    icon: <MdOutlineDashboardCustomize />,
     description:
       "We customize ecommerce sites according to your needs and ensure they match your brand’s vibe. We don’t use pre-made templates. It helps in making your online store look unique and professional.",
     color: "blue",
@@ -41,14 +43,14 @@ const features = [
   },
   {
     title: "Easy Product & Inventory Management",
-    icon: <FaFilter />,
+    icon: <MdProductionQuantityLimits />,
     description:
       "We make adding or removing products, maintaining stock levels, and tracking the existing stocks very easy with just a few clicks.",
     color: "blue",
   },
   {
     title: "Performance Optimized",
-    icon: <FaExpandAlt />,
+    icon: <GrOptimize />,
     description:
       "As a leading ecommerce agency in Noida, we understand that speed matters. We optimize images, CSS files, scripts, and code to ensure the ecommerce site loads quickly and runs efficiently.",
     color: "peach",

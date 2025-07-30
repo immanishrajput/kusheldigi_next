@@ -89,7 +89,7 @@ const TopBrassComponent = () => {
                                 <p className="shoots_premium mt_top">
                                     Top Brass sells everything from army clothes and footwear to gun accessories, optics, tactical gear, and bags to make sure the military personnel and outdoor enthusiasts have everything they need.
                                 </p>
-                                <h1 >Technologies Used</h1>
+                                <h3>Technologies Used</h3>
                                 <div className="main-box-logic flex">
                                     <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740458624/tim1_djoonz.svg' id="sim" alt="img"></img>
                                     <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740458662/tim2_jcg2ku.svg' id="rotat" alt="img"></img>

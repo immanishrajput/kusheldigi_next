@@ -6,7 +6,7 @@ import "./blogNew.css";
 import pageData from './pageData';
 import Article from './Article/Article';
 
-export default function BlogNew() {
+export default function BlogNew({parentfunct}) {
     const [activeTag, setActiveTag] = useState('all');
 
     const tags = [
@@ -32,6 +32,7 @@ export default function BlogNew() {
         setActiveTag(id);
         // In future: Filter blogs based on this `id`
         console.log("Selected Tag:", id);
+        parentfunct(id)
     };
 
     return (

@@ -791,7 +791,7 @@ body {
   font-weight: 600;
 }
 
-.left-section-kids>h1 {
+.left-section-kids>h3 {
   font-size: 18px;
   margin-top: 35px;
   text-align: left;
@@ -51222,6 +51222,8 @@ gap:0 !important;
   .change_web {
     font-size: 17px !important;
     line-height: 25px !important;
+    border: none !important;
+    background: transparent !important;
   }
 
   .web-button button {
@@ -57235,7 +57237,7 @@ gap:0 !important;
     width: 27em !important;
   }
 
-  .left-section-kids>h1 {
+  .left-section-kids>h3 {
     margin-top: 5px !important;
   }
 }
@@ -66322,7 +66324,7 @@ gap:0 !important;
     height: 330px;
   }
 
-  .left-section-kids>h1 {
+  .left-section-kids>h3 {
     margin-top: 20px !important;
   }
 
@@ -71843,7 +71845,7 @@ gap:0 !important;
     line-height: 24px !important;
   }
 
-  .left-section-kids>h1 {
+  .left-section-kids>.hd-3 {
     font-size: 16px !important;
   }
 

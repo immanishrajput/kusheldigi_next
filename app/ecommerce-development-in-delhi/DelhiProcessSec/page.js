@@ -8,43 +8,49 @@ const steps = [
     title: "Discovery & Planning",
     points: ["Understand goals & audience", "Finalize scope & timeline"],
     image:
-      "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750665229/teacher-smart_chwcbk.png",
+      "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753862333/Rectangle_3464060_e8l41a.png",
     step: "01",
+    icon:"https://res.cloudinary.com/dxlykgx6w/image/upload/v1753861621/Mask_group_3_alhxo4.png"
   },
   {
     title: "UI/UX Design",
     points: ["Mobile-first layout", "Delhi-focused visuals"],
     image:
-      "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750665242/teacher-smart_2_soxynl.jpg",
+      "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753862306/Rectangle_3464061_oazlq3.png",
     step: "02",
+    icon:"https://res.cloudinary.com/dxlykgx6w/image/upload/v1753164912/Mask_group-7_b4dgnb.png"
   },
   {
     title: "Development",
     points: ["Build a responsive store", "Add core features"],
     image:
-      "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750665232/teacher-smart_7_oy1cvz.jpg",
+      "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753862306/Rectangle_3464062_mm9okx.png",
     step: "03",
+    icon:"https://res.cloudinary.com/dxlykgx6w/image/upload/v1753160425/Mask_group_2_xc7cz1.png"
   },
   {
     title: "Integration",
     points: ["Connect tools & APIs", "Smooth backend sync"],
     image:
-      "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750665243/teacher-smart_4_mgh4jw.jpg",
+      "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753862310/Rectangle_3464063_bvpvym.png",
     step: "04",
+    icon:"https://res.cloudinary.com/dxlykgx6w/image/upload/v1753162957/Mask_group_3_otl835.png"
   },
   {
     title: "Testing & Launch",
     points: ["Speed & device tests", "Final launch prep"],
     image:
-      "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750665232/teacher-smart_5_nfatb4.jpg",
+      "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753862305/Rectangle_3464064_oaxyfs.png",
     step: "05",
+    icon:"https://res.cloudinary.com/dxlykgx6w/image/upload/v1753162957/Mask_group_5_v6zapb.png"
   },
   {
     title: "Support & Growth",
     points: ["Ongoing maintenance", "SEO & performance boost"],
     image:
-      "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750665244/teacher-smart_6_pkj2nr.jpg",
+      "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753862306/Rectangle_3464065_xgjaui.png",
     step: "06",
+    icon:"https://res.cloudinary.com/dxlykgx6w/image/upload/v1753160424/Mask_group_8_ccisek.png"
   },
 ];
 
@@ -116,7 +122,7 @@ const OurProcessSection = () => {
                 <div className="timeline-content">
                   <div className="step-icon">
                     <img
-                      src="https://res.cloudinary.com/dknrega1a/image/upload/v1751026232/circle_icon1_j5xftk.png"
+                      src={step.icon}
                       alt="Step Icon"
                     />
                   </div>

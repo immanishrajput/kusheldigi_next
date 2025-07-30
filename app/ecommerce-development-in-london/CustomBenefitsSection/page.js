@@ -6,7 +6,7 @@ import './custombenfit.css';
 const benefits = [
   {
     title: "A Customized Shopping Experience",
-    minWid: "true",
+    extclassMinWid: "true",
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764190/Mask_group_16_oi6gcy.png",
     description:
       "If you have a custom ecommerce site, you can make product ideas, ads, and deals that are based on what each customer has already done. The result makes shoppers feel like they're part of the business, keeps them interested, makes them happier, and makes them want to come back.",

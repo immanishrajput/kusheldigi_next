@@ -373,3 +373,8 @@
         align-items: center;
     }
 }
+@media (max-width: 350px) {
+    .denmark-banner-content-wrapper {
+      padding: 0;
+    }
+}
