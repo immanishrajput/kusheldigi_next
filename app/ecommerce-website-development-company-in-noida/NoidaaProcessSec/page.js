@@ -6,6 +6,7 @@ import "./delhiprocess.css";
 const steps = [
   {
     title: "Understanding Requisite",
+    icon:"https://res.cloudinary.com/dxlykgx6w/image/upload/v1753866643/Mask_group_15_kcls2v.png",
     points: [
       "Know what you want to achieve with your company",
       "Figure out what your target audience requires",
@@ -16,48 +17,53 @@ const steps = [
   },
   {
     title: "Planning and Strategy",
+    icon:"https://res.cloudinary.com/dxlykgx6w/image/upload/v1753866642/Mask_group_16_bfaksv.png",
     points: [
       "Set a timetable and tech stack",
       "A personalized plan designed by ecommerce experts",
     ],
     image:
-      "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750665242/teacher-smart_2_soxynl.jpg",
+      "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753866236/Rectangle_3464068_vluknu.png",
     step: "02",
   },
   {
     title: "Design and Wireframing",
+    icon:"https://res.cloudinary.com/dxlykgx6w/image/upload/v1753866642/Mask_group_17_apn6i9.png",
     points: [
       "Mockups of UI/UX that are focused on the user",
       "Design that works on mobile first and is responsive",
     ],
     image:
-      "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750665232/teacher-smart_7_oy1cvz.jpg",
+      "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753862306/Rectangle_3464061_oazlq3.png",
     step: "03",
   },
   {
     title: " Growth",
+    icon:"https://res.cloudinary.com/dxlykgx6w/image/upload/v1753866642/Mask_group_18_peevfl.png",
     points: ["Clean, scalable code", "Built on top of ecommerce platforms"],
     image:
-      "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750665243/teacher-smart_4_mgh4jw.jpg",
+      "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753866177/Rectangle_3464070_sa6kjl.png",
     step: "04",
   },
   {
     title: " Testing and Launch",
+    icon:"https://res.cloudinary.com/dxlykgx6w/image/upload/v1753866642/Mask_group_19_cqao30.png",
     points: [
       "Testing for bugs and speed",
       "Our web development team made sure the launch went smoothly",
     ],
     image:
-      "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750665232/teacher-smart_5_nfatb4.jpg",
+      "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753862305/Rectangle_3464064_oaxyfs.png",
     step: "05",
   },
   {
     title: "Support & Optimization",
+    icon:"https://res.cloudinary.com/dxlykgx6w/image/upload/v1753866642/Mask_group_20_xg5o6j.png",
     points: [
       "Regular updates and corrections","The finest ecommerce website creation firm does SEO and performance optimization.",
     ],
     image:
-      "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750665244/teacher-smart_6_pkj2nr.jpg",
+      "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753862306/Rectangle_3464065_xgjaui.png",
     step: "06",
   },
 ];
@@ -128,7 +134,7 @@ const OurProcessSection = () => {
                 <div className="timeline-content">
                   <div className="step-icon">
                     <img
-                      src="https://res.cloudinary.com/dknrega1a/image/upload/v1751026232/circle_icon1_j5xftk.png"
+                      src={step.icon}
                       alt="Step Icon"
                     />
                   </div>

@@ -354,6 +354,9 @@
   .case-study-right {
     max-width: 200px;
   }
+  .view-button {
+    left: 80%;
+  }
 }
 
 @media screen and (max-width: 385px) {

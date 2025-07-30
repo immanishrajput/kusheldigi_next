@@ -6,12 +6,14 @@ import "./custombenfit.css";
 const benefits = [
   {
     title: "Unique Brand Identity",
+     minWid: "true",
     icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753164433/Mask_group_11_y6hica.png",
     description:
       "Custom ecommerce websites help in standing ahead from competitors by the uniqueness of your website. Customized designs speak about your brand identity, goals and features built just for you..",
   },
   {
     title: " Better User Experience",
+     minWid: "true",
     icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753166696/Mask_group_7_o2vovv.png",
     description:
       "Creating mobile-friendly websites, adding smart search filters, and listing products in an accurate manner help create a seamless shopping experience.",
@@ -32,31 +34,31 @@ const benefits = [
   },
   {
     title: "Higher Safety Standards",
-    // minWid: "true",
-    exminWid: "true",
+    minWid: "true",
+ 
     icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753166690/Mask_group_11_toqlcg.png",
     description:
       " Custom websites that suit your company are created using advanced security procedures.   It fosters confidence and safeguards customer information..",
   },
   {
     title: "Improved SEO Outcomes",
-    // minWid: "true",
-    exminWid: "true",
+    minWid: "true",
+
     icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753164429/Mask_group_15_pb1t7y.png",
     description:
       " We adhere to SEO best practices, which include using meta tags and keywords.   Custom websites score higher in Google SERP since they are simpler to optimize.",
   },
   {
     title: "Easy Checkout Procedure",
-    // minWid: "true",
-    exminWid: "true",
+    minWid: "true",
+  
     icon: "https://res.cloudinary.com/dqjbzgksw/image/upload/v1750764184/Mask_group_22_yyaiul.png",
     description:
       " When customers can check out fast and simply, they have a positive experience and are more likely to return.",
   },
   {
     title: "Cost Efficiency",
-     exminWid2: "true",
+   minWid: "true",
     icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753190069/Mask_group_19_fx51tw.png",
     description:
       "Designing a custom website may take more cost, but it pays back long term. As it is designed completely to meet your business needs, it attracts real customers and generates more sales.",

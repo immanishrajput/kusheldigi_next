@@ -87,7 +87,7 @@ const Ballistic = () => {
                   Ballistic Dummy Lab is the leading developer of the most physiologically correct human analogues for the firearms testing, medical training, and special effects in film and television industries. It is recognized by its innovative products made of organic and synthetic
                   gel, which have set the global standard of realism and accuracy.
                 </p>
-                <h1>Technologies Used</h1>
+                <h3>Technologies Used</h3>
                 <div className="main-box-logic flex">
                   <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995220/opqweeeeeee_azs2la.png' id="sim" alt="img"></img>
                   <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995270/opqweeeeeee2_vxdqbc.png' id="rotat" alt="img"></img>

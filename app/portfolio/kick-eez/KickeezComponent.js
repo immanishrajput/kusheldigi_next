@@ -1,40 +1,36 @@
-"use client"
+"use client";
 import React, { useState, useEffect } from "react";
 
-import Head from 'next/head';
-
+import Head from "next/head";
 
 import Link from "next/link";
 
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 
-
-
 import Footer from "../../COMMON/Footer";
 
 import Navbar from "../../COMMON/Navbar";
-import '../../globals.css'
-
+import "../../globals.css";
 
 const projects = [
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216954/down1_kgzcrg.png",
     title1: "Topbrass tactical",
     title2: "E-commerce, Bigcomerce ",
-    link: "/topbrasstactical"
+    link: "/topbrasstactical",
   },
   {
     img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746541117/image_5_tw9wok.png",
     title1: "Graco Corporation",
     title2: "E-commerce, Bigcomerce ",
-    link: "/graco-corp"
+    link: "/graco-corp",
   },
   {
     img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217009/down3_ucxpri.png",
     title1: "Sites & Scopes",
     title2: "E-commerce, Bigcomerce ",
-    link: "/sitesandscopes"
+    link: "/sitesandscopes",
   },
 ];
 
@@ -49,7 +45,6 @@ const KickeezComponent = () => {
     }
   }, []);
 
-
   const phoneNumber = "9045301702";
 
   const whatAppHandler = () => {
@@ -59,38 +54,52 @@ const KickeezComponent = () => {
   const callHandler = () => {
     const callUrl = `tel:${phoneNumber}`;
     window.open(callUrl, "_blank");
-  }
-
-
+  };
 
   const scrollToTop = () => {
     // Scroll to the top of the page with smooth behavior
     window.scrollTo({
       top: 0,
-      behavior: 'smooth',
+      behavior: "smooth",
     });
   };
- 
+
   return (
     <>
-
       <Head>
         {/* Open Graph (OG) Meta Tags */}
-        <meta property="og:title" content="Kushel Digi | Expert eCommerce Development Services" />
-        <meta property="og:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
-        <meta property="og:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
+        <meta
+          property="og:title"
+          content="Kushel Digi | Expert eCommerce Development Services"
+        />
+        <meta
+          property="og:description"
+          content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development."
+        />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png"
+        />
         <meta property="og:url" content="https://www.kusheldigi.com/" />
         <meta property="og:type" content="website" />
 
         {/* Twitter Card Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Kushel Digi | Expert eCommerce Development Services" />
-        <meta name="twitter:description" content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development." />
-        <meta name="twitter:image" content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png" />
+        <meta
+          name="twitter:title"
+          content="Kushel Digi | Expert eCommerce Development Services"
+        />
+        <meta
+          name="twitter:description"
+          content="We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development."
+        />
+        <meta
+          name="twitter:image"
+          content="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png"
+        />
         <meta name="twitter:url" content="https://www.kusheldigi.com/" />
 
         <link rel="canonical" href="https://www.kusheldigi.com/kick-eez" />
-
       </Head>
 
       <Navbar />
@@ -100,7 +109,11 @@ const KickeezComponent = () => {
           <div className="side-bg-trio">
             <div className="first-kick-pads">
               <div className="left-section-kids">
-                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180844/Mask_group_nph9bb.png' id="plus-circle" alt="kick-eez logo"></img>
+                <img
+                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180844/Mask_group_nph9bb.png"
+                  id="plus-circle"
+                  alt="kick-eez logo"
+                ></img>
                 <p className="shoots_premium">
                   <span className="heightlisght_premium">
                     {" "}
@@ -109,14 +122,26 @@ const KickeezComponent = () => {
                   Made in America recoil pads and accessories to make your
                   shooting experience more comfortable.
                 </p>
-                <h1>Technologies Used</h1>
+                <h3>Technologies Used</h3>
                 <div className="main-box-logic flex">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180661/opqweeeeeee_o4siwu.png' id="sim" alt="img"></img>
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180713/opqweeeeeee2_pktwlr.png' id="rotat" alt="img"></img>
+                  <img
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180661/opqweeeeeee_o4siwu.png"
+                    id="sim"
+                    alt="img"
+                  ></img>
+                  <img
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180713/opqweeeeeee2_pktwlr.png"
+                    id="rotat"
+                    alt="img"
+                  ></img>
                 </div>
               </div>
               <div className="right-section-kids">
-                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739181014/Group_1000006637_mnbkzj.png' id="total-group" alt="img"></img>
+                <img
+                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739181014/Group_1000006637_mnbkzj.png"
+                  id="total-group"
+                  alt="img"
+                ></img>
               </div>
             </div>
             {/* *********************************************** */}
@@ -124,20 +149,27 @@ const KickeezComponent = () => {
               <div className="MadFish-back">
                 <div className="MadFish-back1">
                   <div className="MadFish_press_head">
-                    <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253403/madlogooooo_be7bvx.png' alt="madlogooooo" />
+                    <img
+                      src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253403/madlogooooo_be7bvx.png"
+                      alt="madlogooooo"
+                    />
                   </div>
                   <div className="MadFish_press_para">
                     <p>
-                      Elevate your shooting comfort with KICK-EEZ, offering premium
-                      American-made recoil pads and accessories. <span>MadFish</span>  Solutions
-                      played a key role in bringing KICK-EEZ to life. Together,
-                      we’ve redefined shooting comfort and precision, setting new
-                      industry standards.
+                      Elevate your shooting comfort with KICK-EEZ, offering
+                      premium American-made recoil pads and accessories.{" "}
+                      <span>MadFish</span> Solutions played a key role in
+                      bringing KICK-EEZ to life. Together, we’ve redefined
+                      shooting comfort and precision, setting new industry
+                      standards.
                     </p>
                   </div>
                 </div>
                 <div className="MadFish-back2">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253359/matsection_gir7lg.png' alt="MadFish" />
+                  <img
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253359/matsection_gir7lg.png"
+                    alt="MadFish"
+                  />
                 </div>
               </div>
             </div>
@@ -146,22 +178,33 @@ const KickeezComponent = () => {
               <p className="service-hinking">Services Provided</p>
               <div className="main-img-mighty">
                 <div className="bepolo">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739181059/Group_1000004718_a47xwg.png' id="ux-safari" alt="img"></img>
+                  <img
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739181059/Group_1000004718_a47xwg.png"
+                    id="ux-safari"
+                    alt="img"
+                  ></img>
                   <p>UX/UI Website Design</p>
                 </div>
                 <div className="bepolo">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253073/Group_1000004715_fmnfpj.png' id="web-safari" alt="img"></img>
+                  <img
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253073/Group_1000004715_fmnfpj.png"
+                    id="web-safari"
+                    alt="img"
+                  ></img>
                   <p>Website Development</p>
                 </div>
                 <div className="bepolo">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253113/Group_1000004716_iwby0b.png' id="qa-safari" alt="img"></img>
+                  <img
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253113/Group_1000004716_iwby0b.png"
+                    id="qa-safari"
+                    alt="img"
+                  ></img>
                   <p>QA & Website Testing</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
         {/* *********************************************** */}
         <div className="third-wireframe-homie">
           <div className="inner-third-local">
@@ -169,21 +212,41 @@ const KickeezComponent = () => {
             <div className="three-section-lab">
               <div className="double-camp">
                 <div className="on-img">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253152/Aboust_us_sx_1_vrzkbk.png' id="pads-cats" alt="img"></img>
+                  <img
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253152/Aboust_us_sx_1_vrzkbk.png"
+                    id="pads-cats"
+                    alt="img"
+                  ></img>
                 </div>
                 <div className="too-img">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253222/Aboust_us_Header_1_nx4wfj.png' id="pads-cats" alt="img"></img>
+                  <img
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253222/Aboust_us_Header_1_nx4wfj.png"
+                    id="pads-cats"
+                    alt="img"
+                  ></img>
                 </div>
               </div>
               <div className="single_big">
-                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253186/HOME_2_1_bu8ods.png' id="pads-cats" alt="img"></img>
+                <img
+                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253186/HOME_2_1_bu8ods.png"
+                  id="pads-cats"
+                  alt="img"
+                ></img>
               </div>
               <div className="triple-badge">
                 <div className="five-cross">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180966/Group_1000006637_l5pmu6.png' id="pads-cats" alt="img"></img>
+                  <img
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180966/Group_1000006637_l5pmu6.png"
+                    id="pads-cats"
+                    alt="img"
+                  ></img>
                 </div>
                 <div className="login-faire">
-                  <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253255/Login_Screen_1_1_je822c.png' id="pads-cats" alt="img"></img>
+                  <img
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253255/Login_Screen_1_1_je822c.png"
+                    id="pads-cats"
+                    alt="img"
+                  ></img>
                 </div>
               </div>
             </div>
@@ -210,39 +273,48 @@ const KickeezComponent = () => {
               </div>
               <div className="sub-worm">
                 <p className="tool">Tools Use</p>
-                <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253323/Group_1000006500_1_tntuqq.png' id="pals-circle" alt="img"></img>
+                <img
+                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253323/Group_1000006500_1_tntuqq.png"
+                  id="pals-circle"
+                  alt="img"
+                ></img>
               </div>
             </div>
           </div>
           <div className="right-card-omega">
             <p>Color Plate</p>
-            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253286/Group_1000006505_1_ez6xxs.png' id="gang" alt="img" />
+            <img
+              src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739253286/Group_1000006505_1_ez6xxs.png"
+              id="gang"
+              alt="img"
+            />
           </div>
         </div>{" "}
-
         <div className="kick-start kick-start22">
           <div className="kick-first kick-first222">
-
             <div className="kickds">
-              <img className="kick_mart" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180216/kick5_xhzccf.png' alt="kick5" />
+              <img
+                className="kick_mart"
+                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180216/kick5_xhzccf.png"
+                alt="kick5"
+              />
             </div>
           </div>
           <div className="kick-second kick-second222 relative">
             <div className="about165">
               <img
                 className="absolute about161 animate__animated animate__pulse animate__infinite"
-                src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739179872/angrag_za5zsc.png'
+                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739179872/angrag_za5zsc.png"
                 alt="kushel"
               />
             </div>
             <img
               className=" relative z-10 about162 pick222"
-              src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739179766/pick2_ckac0c.png'
+              src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739179766/pick2_ckac0c.png"
               alt="aa"
             />
           </div>
         </div>
-
         <div className="back-story">
           <div className="step1-back">
             <div className="step-backs1">
@@ -251,19 +323,25 @@ const KickeezComponent = () => {
             </div>
             <div className="step-backs2">
               <p>
-
                 Three years ago, RJ bought the business and used Shopify to
                 create its first online store. He had a clear logo and a strong
                 brand. The website failed to make an emotional connection with
                 the customer or explain the problem that he solved. The website
                 makes use of ShipStation.
               </p>
-
             </div>
           </div>
           <div className="step-images flex items-center justify-center mt-20">
-            <img className="stepback" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180180/stepback1_gj9wcz.png' alt="stepback" />
-            <img className="stepback1" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739179934/stepback_kybzwb.png' alt="stepback1" />
+            <img
+              className="stepback"
+              src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180180/stepback1_gj9wcz.png"
+              alt="stepback"
+            />
+            <img
+              className="stepback1"
+              src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739179934/stepback_kybzwb.png"
+              alt="stepback1"
+            />
           </div>
         </div>
         <div className="challenge-story">
@@ -285,7 +363,6 @@ const KickeezComponent = () => {
                     solves.
                   </p>
                 </div>
-
               </div>
             </div>
             <div className="challenge-box ml-3 challenge-box2 challenge-box3 ">
@@ -334,13 +411,14 @@ const KickeezComponent = () => {
           <ul>
             <li>Make it easier for customers to reach our company.</li>
             <li>
-              Minimize misunderstandings about returns, exchanges, especially when choosing replacement products.
+              Minimize misunderstandings about returns, exchanges, especially
+              when choosing replacement products.
             </li>
-            <li>Enhance the efficiency and effectiveness of our client service.
+            <li>
+              Enhance the efficiency and effectiveness of our client service.
             </li>
           </ul>
         </div>
-
         {/* <div className="bg-video-wrap">
           <video src="../../public/assets/rima.mp4" loop muted autoPlay></video>
           <video 
@@ -369,15 +447,28 @@ const KickeezComponent = () => {
 
                 <div className="azib-tech">
                   <h3>Technologies Used</h3>
-                  <img className="conjun" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180754/opqweeeeeee3_xujeli.png' alt="kushel" />
+                  <img
+                    className="conjun"
+                    src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180754/opqweeeeeee3_xujeli.png"
+                    alt="kushel"
+                  />
                 </div>
               </div>
             </div>
 
             <div className="azib-images flex items-center justify-center">
-              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180334/azib2_qrxwwx.png' alt="azib" />
-              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180392/azib3_bjoshw.png' alt="azib" />
-              <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180429/azib4_hbae29.png' alt="azib" />
+              <img
+                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180334/azib2_qrxwwx.png"
+                alt="azib"
+              />
+              <img
+                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180392/azib3_bjoshw.png"
+                alt="azib"
+              />
+              <img
+                src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180429/azib4_hbae29.png"
+                alt="azib"
+              />
             </div>
           </div>
         </div>
@@ -391,7 +482,6 @@ const KickeezComponent = () => {
           </p>
           <h4>Matt Reeder</h4>
         </div>
-
         {/* <div className="other-project">
           <h3 className="text-center">OTHER PROJECTS</h3>
           <Splide
@@ -471,7 +561,6 @@ const KickeezComponent = () => {
             </SplideSlide>
           </Splide>
         </div> */}
-
         {/* <div className="other-project">
           <h3 className="other-project-heading">OTHER PROJECTS</h3>
           <Splide
@@ -562,8 +651,6 @@ const KickeezComponent = () => {
             </SplideSlide>
           </Splide>
         </div> */}
-
-
         <section className="sc2sevensec">
           <div className="sc2sevnconta">
             <div className="sc2sev_head">
@@ -581,16 +668,17 @@ const KickeezComponent = () => {
                     <p className="sep2">{project?.title2}</p>
                   </div>
 
-                  <a href={project?.link}> <button>
-                    <span>Case study</span>
-                  </button></a>
+                  <a href={project?.link}>
+                    {" "}
+                    <button>
+                      <span>Case study</span>
+                    </button>
+                  </a>
                 </div>
               ))}
             </div>
           </div>
         </section>
-
-
         <div className="req">
           <div className="req-sect">
             <h3>
@@ -608,24 +696,30 @@ const KickeezComponent = () => {
                 <img
                   // width={13}
                   className=" inline ml-2 arrow-icon"
-                  src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180293/arrow4_rxxlsw.png'
+                  src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739180293/arrow4_rxxlsw.png"
                   alt="alik"
                 />
               </Link>
             </button>
-
           </div>
         </div>
-
         {/*  buttons  */}
         <div className="whtsApBtns">
           <button onClick={whatAppHandler}>
-            <img className="what-image-universal" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172941/whatsapp_cowbb8.png' alt="whatsApp-kusheldigi" title="whatsApp-kusheldigi" />
+            <img
+              className="what-image-universal"
+              src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172941/whatsapp_cowbb8.png"
+              alt="whatsApp-kusheldigi"
+              title="whatsApp-kusheldigi"
+            />
           </button>
           <button onClick={callHandler}>
-            <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172987/telephone_qjoh3j.png' alt="call-icon" title="call-icon" />
+            <img
+              src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1739172987/telephone_qjoh3j.png"
+              alt="call-icon"
+              title="call-icon"
+            />
           </button>
-
         </div>
       </div>
       <Footer />

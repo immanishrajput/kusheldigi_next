@@ -1,7 +1,7 @@
 .latest-articles {
   background-color: #f0f8ff;
   padding: 40px 60px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-top: 40px;
 }
 
@@ -58,11 +58,17 @@
   color: #111;
   line-height: 1.4;
 }
-@media screen and (max-width:330px) {
-  .latest-articles{
+@media screen and (max-width: 425px) {
+  .articles-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 330px) {
+  .latest-articles {
     padding: 40px 24px;
   }
-  .article-card{
+  .article-card {
     width: 270px;
   }
 }

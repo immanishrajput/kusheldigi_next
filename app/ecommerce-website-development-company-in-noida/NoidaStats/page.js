@@ -6,13 +6,13 @@ import './noidastats.css';
 const NoidaStats = () => {
   const features = [
     {
-      icon: "https://res.cloudinary.com/dknrega1a/image/upload/v1750754424/shops1_ydonzl.png",
+      icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753165898/Mask_group_1_ljmxuo.png",
       title: "User-Friendly Online Store",
       bgClass: "bg-blue",
     },
     {
       title: "Easy Integration",
-      icon: "https://res.cloudinary.com/dknrega1a/image/upload/v1750754424/cash1_emha95.png",
+      icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753164904/Mask_group_aczusy.png",
       bgClass: "bg-yellow",
     },
     {
@@ -22,7 +22,7 @@ const NoidaStats = () => {
     },
     {
       title: "Fully Optimized on All Mobile Devices",
-      icon: "https://res.cloudinary.com/dknrega1a/image/upload/v1750754424/mobile-optimization1_pvcgdh.png",
+      icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1753166694/Mask_group_8_iisgs5.png",
       bgClass: "bg-green",
     },
   ];

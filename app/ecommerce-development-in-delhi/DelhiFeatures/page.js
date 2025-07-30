@@ -8,7 +8,10 @@ import {
   FaLock,
   FaFilter,
   FaExpandAlt,
+  FaSearchengin,
 } from "react-icons/fa";
+import { FaBoltLightning } from "react-icons/fa6";
+import { MdOutlineInventory2 } from "react-icons/md";
 
 const features = [
   {
@@ -20,35 +23,35 @@ const features = [
   },
   {
     title: "SEO Architecture",
-    icon: <FaRegUserCircle />,
+    icon: <FaSearchengin />,
     description:
       "As part of our ecommerce development services, we provide search engine optimisation (SEO) to help your online shop get more visitors and be seen more easily.",
     color: "peach",
   },
   {
     title: "Loading at the Speed of Light",
-    icon: <FaSearch />,
+    icon: <FaBoltLightning />,
     description:
       "Customers are happy when websites load quicker. We make sure that all of our online stores load quickly so that customers have a better time and don't leave the site as quickly.",
     color: "white",
   },
   {
     title: "Smart Product Search and Filtering",
-    icon: <FaLock />,
+    icon: <FaFilter />,
     description:
       "Our ecommerce development agency's smart filters and predictive search make it easy for shoppers to find the items they require.",
     color: "white",
   },
   {
     title: "Integration of a Secure Payment Gateway",
-    icon: <FaFilter />,
+    icon: <FaLock />,
     description:
       "We only use the safest and most reputable payment methods so that your customers may buy with total peace of mind.",
     color: "blue",
   },
   {
     title: "Simple CMS and Inventory Management",
-    icon: <FaExpandAlt />,
+    icon: <MdOutlineInventory2 />,
     description:
       "Our easy-to-use backend makes it easy for busy business owners and non-tech staff to manage items, content, and orders.",
     color: "peach",
