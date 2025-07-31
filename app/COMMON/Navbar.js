@@ -12,7 +12,7 @@ import { useRouter } from "next/navigation";
 const data = [
   {
     title: "About Us",
-    navigate: "/service/about",
+    navigate: "/about",
     subpart: [
       // {
       //   title: "Careers",
@@ -26,7 +26,7 @@ const data = [
   },
   {
     title: "Services",
-    navigate: "/service/service",
+    navigate: "/service",
     subpart: [
       {
         title: "Mobile App Development",
