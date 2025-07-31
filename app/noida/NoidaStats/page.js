@@ -12,7 +12,7 @@ export default function NoidaStatsService() {
             discp:
                 "Get ecommerce solutions that are made just for your company. Easily increase sales, improve the customer experience, and build your brand online.",
             className: "card-blue",
-            route: "/ecommerce-development-company-in-noida",
+            route: "/noida/ecommerce-development-company-in-noida",
         },
         {
             icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1752566045/Group_1171281751_lgbsp9.png",
@@ -21,7 +21,7 @@ export default function NoidaStatsService() {
             discp:
                 "Choosing the correct ecommerce development company in Noida helps in drastic business growth and more conversions. Solutions that are quick, easy to build, and good for search engines for your growing company.",
             className: "card-yellow",
-            route: "/bigcommerce-development-company-in-noida",
+            route: "/noida/bigcommerce-development-company-in-noida",
         },
         // {
         //     icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1752566045/Group_1171281753_eqcabi.png",

@@ -1,8 +1,8 @@
 "use client";
-import "../globals.css";
+import "../../globals.css";
 
-import Footer from "../COMMON/Footer";
-import Navbar from "../COMMON/Navbar";
+import Footer from "../../COMMON/Footer";
+import Navbar from "../../COMMON/Navbar";
 import HeroSectionEcom from "./HeroEComDevDelhi/page";
 import DetailEcomDev from "./DetailEcomDevDelhi/page";
 

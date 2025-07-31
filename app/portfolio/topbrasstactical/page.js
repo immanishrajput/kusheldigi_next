@@ -3,7 +3,7 @@ import TopBrassComponent from "./TopBrassComponent";
 export const metadata = {
   metadataBase: new URL("https://www.kusheldigi.com"),
   alternates: {
-    canonical: "/topbrasstactical",
+    canonical: "/portfolio/topbrasstactical",
   },
   title: "Top Brass Tactical | Ecommerce Growth with BigCommerce Website Development",
   description:
@@ -12,7 +12,7 @@ export const metadata = {
     title: "Top Brass Tactical | Ecommerce Growth with BigCommerce Website Development",
     description:
       "See how Top Brass Tactical boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study.",
-    url: "https://www.kusheldigi.com/topbrasstactical",
+    url: "https://www.kusheldigi.com/portfolio/topbrasstactical",
     images: [
       {
         url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png",

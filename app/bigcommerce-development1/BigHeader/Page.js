@@ -17,7 +17,7 @@ function BigHeader() {
             </h1>
             <p>Kushel Digi Solutions has a successful proven track record in offering modern BigCommerce solutions to grow your business. Our experts work to make sure that your online store is not  just functional but optimized for success. Let us help you leverage BigCommerce to its fullest potential and drive your eCommerce journey.            </p>
 
-         <button> <Link href="contact-us"><span>CONNECT WITH US</span></Link> </button>
+         <button> <Link href="/contact-us"><span>CONNECT WITH US</span></Link> </button>
           </div>
 
         {/* right side  */}

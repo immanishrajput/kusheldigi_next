@@ -518,7 +518,7 @@ export const MagentoServicesLeft = {
   heading: "Magento Development Services by Kushel Digi Solutions",
   subheading: "Kushel Digi Solutions emerged as a trusted Magento Development Service Provider as we high functional design stores that grows with the growth of your business efficiently.",
   buttonLabel: "Get a Free Consultation Today",
-  buttonLink: "contact-us"
+  buttonLink: "/contact-us"
 }
 
 export const MagentoServicesRight = [
@@ -557,7 +557,7 @@ export const MagentoServicesRight = [
 export const CutsomSoftwareServicesLeft = {
   heading: "Custom Software Development Offerings",
   buttonLabel: "Get a Free Consultation Today",
-  buttonLink: "contact-us"
+  buttonLink: "/contact-us"
 }
 
 

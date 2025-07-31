@@ -3,7 +3,7 @@ import AiPartComponent from "./AiPartComponent";
 export const metadata = {
   metadataBase: new URL("https://www.kusheldigi.com"),
   alternates: {
-    canonical: "/aipartscenter",
+    canonical: "/portfolio/aipartscenter",
   },
   title: 'A&I Parts Center | Ecommerce Growth with BigCommerce Website Development',
     description: "See how A&I Parts Center boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study.",

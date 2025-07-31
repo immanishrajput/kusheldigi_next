@@ -11,7 +11,7 @@ const Page = () => {
     heading: "Kushel Digi BigCommerce Development Services",
     subheading: "Kushel Digi is committed to deliver your dream ecommerce store with high powered Bigcommerce solutions.",
     buttonLabel: "Get a Free Consultation Today",
-    buttonLink: "contact-us"
+    buttonLink: "/contact-us"
   };
   
   

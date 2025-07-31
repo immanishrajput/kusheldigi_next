@@ -58,7 +58,7 @@ const Website = () => {
                         </div>
                       </div>
                       <Link
-                        href="/ecommerce-development"
+                        href="/service/ecommerce-development"
                         className="h6 services-box-title"
                       >
                         Ecommerce Development
@@ -123,28 +123,28 @@ const Website = () => {
                     <ul className="services-box-list-nav">
                       <li>
                         <h4>
-                          <Link href="/bigcommerce-development">
+                          <Link href="/service/bigcommerce-development">
                             <span>BigCommerce</span>
                           </Link>
                         </h4>
                       </li>
                       <li>
                         <h4>
-                          <Link href="/shopify-development" target="">
+                          <Link href="/service/shopify-development" target="">
                             <span>Shopify</span>
                           </Link>
                         </h4>
                       </li>
                       <li>
                         <h4>
-                          <Link href="/headless-commerce" target="">
+                          <Link href="/service/headless-commerce" target="">
                             <span>Headless</span>
                           </Link>
                         </h4>
                       </li>
                       <li>
                         <h4>
-                          <Link href="/woocommerce-development" target="">
+                          <Link href="/service/woocommerce-development" target="">
                             <span>WooCommerce</span>
                           </Link>
                         </h4>
@@ -271,7 +271,7 @@ const Website = () => {
                     <ul className="services-box-list-nav">
                       <li>
                         <h4>
-                          <Link href="/web-development" target="">
+                          <Link href="/service/web-development" target="">
                             <span>Web development</span>
                           </Link>
                         </h4>
@@ -279,7 +279,7 @@ const Website = () => {
                       <li>
                         <h4>
                           <Link
-                            href="/mobile-application-development"
+                            href="/service/mobile-application-development"
                             target=""
                           >
                             <span>Mobile app development</span>
@@ -467,7 +467,7 @@ const Website = () => {
                       </li>
                       <li>
                         <h4>
-                          <Link href="/native" target="">
+                          <Link href="/ui-ux-design" target="">
                             <span>UI/UX Services</span>
                           </Link>
                         </h4>

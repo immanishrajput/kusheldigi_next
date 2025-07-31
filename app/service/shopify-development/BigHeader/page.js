@@ -14,7 +14,7 @@ function BigHeader() {
          <h1>Your Trusted Partner in Shopify Store Development  Shopify Solutions For Your E-Commerce Success
          </h1>
 
-        <Link href="contact-us" className='bs8itemsLink'><button><span>WORK WITH US</span></button></Link> 
+        <Link href="/contact-us" className='bs8itemsLink'><button><span>WORK WITH US</span></button></Link> 
 
             
         </div>

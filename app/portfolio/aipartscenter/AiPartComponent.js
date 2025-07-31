@@ -547,7 +547,7 @@ function AiPartComponent() {
           </div>
 
           <div className="csizbot">
-            <a href="contact-us"><button>
+            <a href="/contact-us"><button>
               <span>Or Start a conversation</span>
             </button></a>
             {/* <p>Or Start a conversation</p> */}

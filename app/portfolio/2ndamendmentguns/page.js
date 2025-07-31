@@ -7,7 +7,7 @@ export const metadata = {
   publisher: "Kushel Digi Solutions",
   metadataBase: new URL("https://www.kusheldigi.com"),
   alternates: {
-    canonical: "https://www.kusheldigi.com/2ndamendmentguns",
+    canonical: "https://www.kusheldigi.com/portfolio/2ndamendmentguns",
   },
   robots: {
     index: true,
@@ -25,7 +25,7 @@ export const metadata = {
   openGraph: {
     title: "2nd Amendment Guns | eCommerce Growth with BigCommerce Development Case Study",
     description: "See how 2nd Amendment Guns boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Complete case study with measurable results.",
-    url: "https://www.kusheldigi.com/2ndamendmentguns",
+    url: "https://www.kusheldigi.com/portfolio/2ndamendmentguns",
     type: "article",
     siteName: "Kushel Digi Solutions",
     locale: "en_US",

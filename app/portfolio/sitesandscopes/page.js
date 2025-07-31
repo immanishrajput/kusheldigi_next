@@ -1,6 +1,10 @@
 import SitesCaseStudyComponent from "./SitesCaseStudyComponent";
 
 export const metadata = {
+  metadataBase: new URL("https://www.kusheldigi.com"),
+  alternates: {
+    canonical: "/portfolio/sitesandscopes",
+  },
   title: "Sites and Scopes | Ecommerce Growth with BigCommerce Website Development",
   description:
     "See how Sites and Scopes boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study.",
@@ -8,7 +12,7 @@ export const metadata = {
     title: "Sites and Scopes Case Study | Kushel Digi Solutions",
     description:
       "Explore how Kushel Digi transformed Sites and Scopes with BigCommerce ecommerce solutions. Increased performance, better UI, and real business impact.",
-    url: "https://www.kusheldigi.com/sitesandscopes",
+    url: "https://www.kusheldigi.com/portfolio/sitesandscopes",
     type: "website",
     images: [
       {

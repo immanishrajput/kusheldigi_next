@@ -1,10 +1,10 @@
 "use client"
-import '../globals.css';
+import '../../globals.css';
 
-import Footer from '../COMMON/Footer';
-import Navbar from '../COMMON/Navbar';
-import HeroBigCom from './HeroBigComDelhi/page';
-import DetailBigCom from './DetailBigComDelhi/page';
+import Footer from '../../COMMON/Footer';
+import Navbar from '../../COMMON/Navbar';
+import DetailEcomDev from './DetailEcomDev/page';
+import HeroSectionEcom from './HeroEComDev/page';
 
 
 const phoneNumber = "9045301702";
@@ -17,15 +17,16 @@ const callHandler = () => {
     const callUrl = `tel:${phoneNumber}`;
     window.open(callUrl, "_blank");
 }
-function BigcommerceDelhiComponent() {
+function EcommerceNoidaComponent() {
     return (
         <div>
             <div className='ser-main'></div>
 
             <Navbar />
-         <HeroBigCom/>
-         <DetailBigCom/>
-        
+            <HeroSectionEcom/>
+            <DetailEcomDev/>
+          
+
             <Footer/>
 
             <div className="whtsApBtns">
@@ -41,4 +42,4 @@ function BigcommerceDelhiComponent() {
     )
 }
 
-export default BigcommerceDelhiComponent;
+export default EcommerceNoidaComponent;

@@ -4,6 +4,220 @@ import { useState } from 'react';
 import { LuDot } from "react-icons/lu";
 import './PortfolioCard.css';
 const portfolioData = [
+   {
+    id: 'automotive-105',
+    logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748016554/Vector_4_hnx29x.png',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409212/laravel_ckyqzi.png',
+    alt: "InstaCertify Logo image for portfolio by Kushel Digi Solutions",
+    description: [
+      "UX/UI Website Design", "Website Development", "QA & Website Testing"
+    ],
+    links: {
+      liveStore: 'https://www.phastekperformance.com/',
+
+      caseStudy: '/portfolio/Ai',
+      caseStudy: '/portfolio/instacertify',
+      platform: '/bigcommerce-development',
+    },
+    case: ' View Case Study',
+    case1: 'BigCommerce',
+    line: '|',
+    category: ["software"],
+  },
+  {
+    id: 'automotive-106',
+    logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748016554/Group_1171279433_zut9do.png',
+    platformLogo: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1751957773/Untitled-1_rzxqlx.png',
+    alt: "The Career Beacon Logo image for portfolio by Kushel Digi Solutions",
+    description: [
+      "UX/UI Website Design", "Website Development", "QA & Website Testing"
+    ],
+    links: {
+      liveStore: 'https://www.phastekperformance.com/',
+
+      caseStudy: '/portfolio/Ai',
+      caseStudy: '/portfolio/thecareerbeacon',
+      platform: '/bigcommerce-development',
+    },
+    case: ' View Case Study',
+    case1: 'BigCommerce',
+    line: '|',
+    category: ["software"],
+  },
+  {
+    id: 'automotive-7',
+    // companyName: 'Top Brass Tactical',
+    logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725953729/logo-white_1_1689966883__67774_1_yqlhdf.svg',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt: "Top Brass Tactical Logo image for portfolio by Kushel Digi Solutions",
+    description: [
+      "UX/UI Website Design", "Website Development", "QA & Website Testing"
+    ],
+    links: {
+      liveStore: 'https://www.phastekperformance.com/',
+      caseStudy: '/portfolio/topbrasstactical',
+      platform: '/bigcommerce-development',
+    },
+    case: ' View Case Study',
+    case1: 'BigCommerce',
+    line: '|',
+    category: ["ecommerce"],
+  },
+   {
+    id: 'automotive-5',
+    // companyName: 'Ballistic Dummy Lab',
+    logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725952762/image_75_ywf6np.svg',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409123/Shoplift1_kzo9i1.png',
+    alt: "Ballistic Dummy Lab Logo image for portfolio by Kushel Digi Solutions",
+    description: [
+      "UX/UI Website Design", "Website Development", "QA & Website Testing"
+    ],
+    links: {
+
+      caseStudy: '/portfolio/ballisticdummylab',
+      platform: '/shopify-development',
+    },
+    case: ' View Case Study',
+    case1: 'Shopify',
+    line: '|',
+    category: ["ecommerce"],
+  },
+  {
+    id: 'automotive-111',
+    logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748275036/Group_1171279500_ugv0xr.png',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409345/React1_eyrvol.png',
+    alt: 'Usha Fasteners Logo image for portfolio by Kushel Digi Solutions',
+    description: [
+      "UX/UI Website Design", "Website Development", "QA & Website Testing"
+    ],
+    links: {
+      liveStore: 'https://www.phastekperformance.com/',
+
+      caseStudy: '/portfolio/Ai',
+      caseStudy: '/portfolio/ushafasteners',
+      platform: '/bigcommerce-development',
+    },
+    case: ' View Case Study',
+    case1: 'BigCommerce',
+    line: '|',
+    category: ["software"],
+  },
+   {
+    id: 'automotive-12',
+    // companyName: 'My CMS',
+    logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477196/mycms_dc994l.png',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409212/laravel_ckyqzi.png',
+    alt: 'MyCrazy SimpleCMS Logo image for portfolio by Kushel Digi Solutions',
+    description: [
+      "UX/UI Website Design", "Website Development", "QA & Website Testing"
+    ],
+    links: {
+      caseStudy: '/portfolio/mycrazysimplecms',
+      // platform: '#',
+    },
+    case: ' View Case Study',
+    case1: 'Laravel',
+    line: '|',
+    category: ["website"],
+  },
+   {
+    id: 'automotive-9',
+    // companyName: '2ndamendment Armory',
+    logo: 'https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784821/Group_1171279311_lf5dmj.png',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt: "2ndamendmentguns Logo image for portfolio by Kushel Digi Solutions",
+    description: [
+      "UX/UI Website Design", "Website Development", "QA & Website Testing"
+    ],
+    links: {
+      liveStore: 'https://www.phastekperformance.com/',
+      caseStudy: '/portfolio/2ndamendmentguns',
+      platform: '/bigcommerce-development',
+    },
+    case: ' View Case Study',
+    case1: 'BigCommerce',
+    line: '|',
+    category: ["ecommerce"],
+  },
+    {
+    id: 'automotive-14',
+    // companyName: 'Wood View',
+    logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725952841/image_76_tovttv.svg',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409212/laravel_ckyqzi.png',
+    alt: "Wood View Logo image for portfolio by Kushel Digi Solutions",
+    description: [
+      "UX/UI Website Design", "Website Development", "QA & Website Testing"
+    ],
+    links: {
+      caseStudy: '/portfolio/woodView',
+      platform: '/bigcommerce-development',
+    },
+    case: ' View Case Study',
+    case1: 'Laravel',
+    line: '|',
+    category: ["website"],
+  },
+  {
+    id: 'automotive-15',
+    // companyName: 'HRMS',
+    logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477326/hrmsname_ljnty9.png',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745408641/node_js_xqb6ug.png',
+    alt: "HRMS Logo image for portfolio by Kushel Digi Solutions",
+    description: [
+      "UX/UI Website Design", "Website Development", "QA & Website Testing"
+    ],
+    links: {
+      caseStudy: '#',
+      platform: '/react-js',
+      platform1: '/node-js'
+
+    },
+    case: ' View Case Study',
+    case1: "React js",
+    case2: [" | ", "Node"],
+    line: '|',
+    category: ["website"],
+  },
+   {
+    id: 'automotive-19',
+    // companyName: 'OBTECH',
+    logo: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1751437338/Group_1171279510_ocghtg.png',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409465/PHP_az1lyx.png',
+    alt: "Obtech Enterprise Logo image for portfolio by Kushel Digi Solutions",
+    description: [
+      "UX/UI Website Design", "Website Development", "QA & Website Testing"
+    ],
+    links: {
+      caseStudy: '/portfolio/obtechenterprise',
+      platform: '/php',
+    },
+    case: ' View Case Study',
+    case1: 'PHP',
+    line: '|',
+    category: ["software"],
+  },
+  {
+    id: 'automotive-16',
+    // companyName: 'Shubhalloys',
+    logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725952993/SHUBHALLOYS_j2i6dz.svg',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745408641/node_js_xqb6ug.png',
+    alt: "SubhAlloy Logo image for portfolio by Kushel Digi Solutions",
+    description: [
+      "UX/UI Website Design", "Website Development", "QA & Website Testing"
+    ],
+    links: {
+      liveStore: 'https://www.phastekperformance.com/',
+      caseStudy: '/portfolio/subhAlloy',
+      platform: '/react-js',
+      platform1: '/node-js'
+    },
+    case: ' View Case Study',
+    case1: 'React js',
+    case2: [" | ", "Node"],
+    line: '|',
+    category: ["website"],
+  },
+  
   {
     id: 'automotive-1',
     // companyName: 'Kick-eez',
@@ -21,6 +235,49 @@ const portfolioData = [
     case1: 'BigCommerce',
     line: '|',
     category: ["ecommerce"],
+  },
+ 
+
+  {
+    id: 'automotive-107',
+    logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748014394/krapp-strapp-logo_1726251600__26374.original_1_fx2cjv.png',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt: "Krapp Strapp Logo image for portfolio by Kushel Digi Solutions",
+    description: [
+      "UX/UI Website Design", "Website Development", "QA & Website Testing"
+    ],
+    links: {
+      liveStore: 'https://www.phastekperformance.com/',
+
+      caseStudy: '/portfolio/Ai',
+      caseStudy: '/portfolio/krappstrapp',
+      platform: '/bigcommerce-development',
+    },
+    case: ' View Case Study',
+    case1: 'BigCommerce',
+    line: '|',
+    category: ["ecommerce"],
+  },
+  {
+    id: 'automotive-16',
+    // companyName: 'Shubhalloys',
+    logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725952993/SHUBHALLOYS_j2i6dz.svg',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745408641/node_js_xqb6ug.png',
+    alt: "SubhAlloy Logo image for portfolio by Kushel Digi Solutions",
+    description: [
+      "UX/UI Website Design", "Website Development", "QA & Website Testing"
+    ],
+    links: {
+      liveStore: 'https://www.phastekperformance.com/',
+      caseStudy: '/portfolio/subhAlloy',
+      platform: '/react-js',
+      platform1: '/node-js'
+    },
+    case: ' View Case Study',
+    case1: 'React js',
+    case2: [" | ", "Node"],
+    line: '|',
+    category: ["website"],
   },
   {
     id: 'automotive-2',
@@ -62,6 +319,24 @@ const portfolioData = [
     category: ["ecommerce"],
   },
   {
+    id: 'automotive-20',
+    // companyName: 'DigitalMnA',
+    logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748270331/Group_1171279472_1_lkh4bv.png',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409710/Next_js1_lcqcpn.png',
+    alt: "Digital MNA Logo image for portfolio by Kushel Digi Solutions",
+    description: [
+      "UX/UI Website Design", "Website Development", "QA & Website Testing"
+    ],
+    links: {
+      caseStudy: '/portfolio/digitalmna',
+      platform: '/next-js',
+    },
+    case: ' View Case Study',
+    case1: 'Next js',
+    line: '|',
+    category: ["software"],
+  },
+  {
     id: 'automotive-4',
     // companyName: 'Solenoid Ninja',
     logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477144/abimg5_wfhlp8.png',
@@ -80,25 +355,7 @@ const portfolioData = [
     line: '|',
     category: ["ecommerce"],
   },
-  {
-    id: 'automotive-5',
-    // companyName: 'Ballistic Dummy Lab',
-    logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725952762/image_75_ywf6np.svg',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409123/Shoplift1_kzo9i1.png',
-    alt: "Ballistic Dummy Lab Logo image for portfolio by Kushel Digi Solutions",
-    description: [
-      "UX/UI Website Design", "Website Development", "QA & Website Testing"
-    ],
-    links: {
-
-      caseStudy: '/portfolio/ballisticdummylab',
-      platform: '/shopify-development',
-    },
-    case: ' View Case Study',
-    case1: 'Shopify',
-    line: '|',
-    category: ["ecommerce"],
-  },
+ 
   {
     id: 'automotive-6',
     // companyName: 'Sites and Scopes',
@@ -118,65 +375,27 @@ const portfolioData = [
     line: '|',
     category: ["ecommerce"],
   },
+  // {
+  //   id: 'automotive-8',
+  //   // companyName: 'Slides365',
+  //   logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725953057/slide_1_gelwuz.svg',
+  //   platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+  //   alt: "Slides 365 Logo image for portfolio by Kushel Digi Solutions",
+  //   description: [
+  //     "UX/UI Website Design", "Website Development", "QA & Website Testing"
+  //   ],
+  //   links: {
+  //     liveStore: 'https://www.phastekperformance.com/',
+  //     caseStudy: '/portfolio/slides365',
+  //     platform: '/bigcommerce-development',
+  //   },
+  //   case: ' View Case Study',
+  //   case1: 'BigCommerce',
+  //   line: '|',
+  //   category: ["ecommerce"],
+  // },
 
-  {
-    id: 'automotive-7',
-    // companyName: 'Top Brass Tactical',
-    logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725953729/logo-white_1_1689966883__67774_1_yqlhdf.svg',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
-    alt: "Top Brass Tactical Logo image for portfolio by Kushel Digi Solutions",
-    description: [
-      "UX/UI Website Design", "Website Development", "QA & Website Testing"
-    ],
-    links: {
-      liveStore: 'https://www.phastekperformance.com/',
-      caseStudy: '/portfolio/topbrasstactical',
-      platform: '/bigcommerce-development',
-    },
-    case: ' View Case Study',
-    case1: 'BigCommerce',
-    line: '|',
-    category: ["ecommerce"],
-  },
-  {
-    id: 'automotive-8',
-    // companyName: 'Slides365',
-    logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725953057/slide_1_gelwuz.svg',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
-    alt: "Slides 365 Logo image for portfolio by Kushel Digi Solutions",
-    description: [
-      "UX/UI Website Design", "Website Development", "QA & Website Testing"
-    ],
-    links: {
-      liveStore: 'https://www.phastekperformance.com/',
-      caseStudy: '/portfolio/slides365',
-      platform: '/bigcommerce-development',
-    },
-    case: ' View Case Study',
-    case1: 'BigCommerce',
-    line: '|',
-    category: ["ecommerce"],
-  },
-
-  {
-    id: 'automotive-9',
-    // companyName: '2ndamendment Armory',
-    logo: 'https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784821/Group_1171279311_lf5dmj.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
-    alt: "2ndamendmentguns Logo image for portfolio by Kushel Digi Solutions",
-    description: [
-      "UX/UI Website Design", "Website Development", "QA & Website Testing"
-    ],
-    links: {
-      liveStore: 'https://www.phastekperformance.com/',
-      caseStudy: '/portfolio/2ndamendmentguns',
-      platform: '/bigcommerce-development',
-    },
-    case: ' View Case Study',
-    case1: 'BigCommerce',
-    line: '|',
-    category: ["ecommerce"],
-  },
+ 
 
 
   {
@@ -265,68 +484,6 @@ const portfolioData = [
 
 
   {
-    id: 'automotive-105',
-    logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748016554/Vector_4_hnx29x.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409212/laravel_ckyqzi.png',
-    alt: "InstaCertify Logo image for portfolio by Kushel Digi Solutions",
-    description: [
-      "UX/UI Website Design", "Website Development", "QA & Website Testing"
-    ],
-    links: {
-      liveStore: 'https://www.phastekperformance.com/',
-
-      caseStudy: '/portfolio/Ai',
-      caseStudy: '/portfolio/instacertify',
-      platform: '/bigcommerce-development',
-    },
-    case: ' View Case Study',
-    case1: 'BigCommerce',
-    line: '|',
-    category: ["software"],
-  },
-  {
-    id: 'automotive-106',
-    logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748016554/Group_1171279433_zut9do.png',
-    platformLogo: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1751957773/Untitled-1_rzxqlx.png',
-    alt: "The Career Beacon Logo image for portfolio by Kushel Digi Solutions",
-    description: [
-      "UX/UI Website Design", "Website Development", "QA & Website Testing"
-    ],
-    links: {
-      liveStore: 'https://www.phastekperformance.com/',
-
-      caseStudy: '/portfolio/Ai',
-      caseStudy: '/portfolio/thecareerbeacon',
-      platform: '/bigcommerce-development',
-    },
-    case: ' View Case Study',
-    case1: 'BigCommerce',
-    line: '|',
-    category: ["software"],
-  },
-
-  {
-    id: 'automotive-107',
-    logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748014394/krapp-strapp-logo_1726251600__26374.original_1_fx2cjv.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
-    alt: "Krapp Strapp Logo image for portfolio by Kushel Digi Solutions",
-    description: [
-      "UX/UI Website Design", "Website Development", "QA & Website Testing"
-    ],
-    links: {
-      liveStore: 'https://www.phastekperformance.com/',
-
-      caseStudy: '/portfolio/Ai',
-      caseStudy: '/portfolio/krappstrapp',
-      platform: '/bigcommerce-development',
-    },
-    case: ' View Case Study',
-    case1: 'BigCommerce',
-    line: '|',
-    category: ["ecommerce"],
-  },
-
-  {
     id: 'automotive-108',
     logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748205987/Group_1171279467_jynsvv.png',
     platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
@@ -387,26 +544,7 @@ const portfolioData = [
   //   category: ["ecommerce"],
   // },
 
-  {
-    id: 'automotive-111',
-    logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748275036/Group_1171279500_ugv0xr.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409345/React1_eyrvol.png',
-    alt: 'Usha Fasteners Logo image for portfolio by Kushel Digi Solutions',
-    description: [
-      "UX/UI Website Design", "Website Development", "QA & Website Testing"
-    ],
-    links: {
-      liveStore: 'https://www.phastekperformance.com/',
-
-      caseStudy: '/portfolio/Ai',
-      caseStudy: '/portfolio/ushafasteners',
-      platform: '/bigcommerce-development',
-    },
-    case: ' View Case Study',
-    case1: 'BigCommerce',
-    line: '|',
-    category: ["software"],
-  },
+  
 
   {
     id: 'automotive-150',
@@ -557,24 +695,7 @@ const portfolioData = [
     category: ["ecommerce"],
   },
 
-  {
-    id: 'automotive-12',
-    // companyName: 'My CMS',
-    logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477196/mycms_dc994l.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409212/laravel_ckyqzi.png',
-    alt: 'MyCrazy SimpleCMS Logo image for portfolio by Kushel Digi Solutions',
-    description: [
-      "UX/UI Website Design", "Website Development", "QA & Website Testing"
-    ],
-    links: {
-      caseStudy: '/portfolio/mycrazysimplecms',
-      // platform: '#',
-    },
-    case: ' View Case Study',
-    case1: 'Laravel',
-    line: '|',
-    category: ["website"],
-  },
+ 
 
   {
     id: 'automotive-13',
@@ -636,27 +757,7 @@ const portfolioData = [
     category: ["website"],
   },
 
-  {
-    id: 'automotive-16',
-    // companyName: 'Shubhalloys',
-    logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725952993/SHUBHALLOYS_j2i6dz.svg',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745408641/node_js_xqb6ug.png',
-    alt: "SubhAlloy Logo image for portfolio by Kushel Digi Solutions",
-    description: [
-      "UX/UI Website Design", "Website Development", "QA & Website Testing"
-    ],
-    links: {
-      liveStore: 'https://www.phastekperformance.com/',
-      caseStudy: '/portfolio/subhAlloy',
-      platform: '/react-js',
-      platform1: '/node-js'
-    },
-    case: ' View Case Study',
-    case1: 'React js',
-    case2: [" | ", "Node"],
-    line: '|',
-    category: ["website"],
-  },
+  
   {
     id: 'automotive-17',
     // companyName: 'Inventory Propus Enterprises',

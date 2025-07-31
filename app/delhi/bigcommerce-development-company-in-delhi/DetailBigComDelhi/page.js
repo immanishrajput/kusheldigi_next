@@ -608,7 +608,7 @@ export default function DetailBigComDelhi() {
           <p className="getquote-terms">
             By clicking on submit, you agree to
             <br />
-            our <a href="/terms&conditions">Terms & Condition</a> and{" "}
+            our <a href="/terms-conditions">Terms & Condition</a> and{" "}
             <a href="/privacy-policy">Privacy policy</a>
           </p>
         </div>

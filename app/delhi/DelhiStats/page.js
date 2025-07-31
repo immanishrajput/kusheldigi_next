@@ -12,7 +12,7 @@ export default function DelhiStatsService() {
       discp:
         "We make custom e-commerce sites that are easy for people to use and help your business grow by getting more customers and more online sales.",
       className: "card-blue",
-      route: "/ecommerce-development-company-in-delhi",
+      route: "/delhi/ecommerce-development-company-in-delhi",
     },
     {
       icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1752566045/Group_1171281751_lgbsp9.png",
@@ -21,7 +21,7 @@ export default function DelhiStatsService() {
       discp:
         "You can customize BigCommerce solutions to meet the needs of your business. These solutions are built to help you sell more online and grow faster.",
       className: "card-yellow",
-      route: "/bigcommerce-development-company-in-delhi",
+      route: "/delhi/bigcommerce-development-company-in-delhi",
     },
     // {
     //     icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1752566045/Group_1171281753_eqcabi.png",
