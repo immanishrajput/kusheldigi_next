@@ -27692,7 +27692,7 @@ form button {
 }
 
 .web-button button {
-  width: 190px;
+  width: 100%;
   align-items: center;
   background-color: #0b56e4;
   border: none;
@@ -27844,6 +27844,7 @@ form button {
 #change_x {
   font-size: 40px !important;
   line-height: 50px !important;
+  color: #fff;
 }
 
 .testo {
@@ -30898,7 +30899,7 @@ form button:hover {}
 
 .ben-da button {
   margin: 0 auto;
-  max-width: 200px;
+  max-width: 220px;
   width: 100%;
   align-items: center;
   background-color: #0b56e4;
@@ -32938,7 +32939,7 @@ form button:hover {}
 .button-letsay {
   margin-bottom: 16px;
   background-color: aliceblue;
-  width: 116%;
+  width: 128%;
   padding: 15px;
   border: 1px solid;
   border-radius: 5px;
@@ -39382,7 +39383,7 @@ video {
 
 .who_com_box {
   background-color: #fff;
-  height: 363px;
+min-height: 390px;
   padding: 25px 15px;
   margin: 0 5px;
   position: relative;
@@ -39593,7 +39594,7 @@ video {
 
 .solution_test_box {
   background-color: #fef5f1;
-  height: 545px;
+min-height: 565px;
   max-width: 580px;
   width: 100%;
   margin: 0 20px;
@@ -41291,7 +41292,7 @@ video {
 
 .thir_img img {
   max-width: 300px;
-  width: 100%;
+  width: 102%;
 }
 
 .thir_img p {
@@ -41301,7 +41302,7 @@ video {
   transform: translate(-50%, -50%);
   white-space: nowrap;
   color: #fff;
-  font-size: 12.5px;
+  font-size: 10.5px;
 }
 
 .body_website {
@@ -41826,11 +41827,11 @@ font-size: 28px !important;
   }
 
   .button-letsay {
-    width: 100%;
+    width: 108%;
   }
 
   .w-btn {
-    width: 107% !important;
+    width: 110% !important;
   }
 }
 
@@ -51220,10 +51221,12 @@ gap:0 !important;
   }
 
   .change_web {
-    font-size: 17px !important;
+    font-size: 32px !important;
     line-height: 25px !important;
     border: none !important;
+    font-weight: 700;
     background: transparent !important;
+    color: #fff !important;
   }
 
   .web-button button {

@@ -159,7 +159,7 @@ const WooCommerce = () => {
                   </div>
                   <h3>PSD to WooCommerce:
                   </h3>
-                  <h3>Design to Websitee</h3>
+                  <h3>Design to Website</h3>
                   <p>
                     Turn your PSD designs into fully operational WooCommerce websites. Our specialists meticulously convert your design files into flawlessly responsive WooCommerce themes, guaranteeing a smooth and user-friendly experience.
 

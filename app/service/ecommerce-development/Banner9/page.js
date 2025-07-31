@@ -91,10 +91,10 @@ export default function Banner9({page}) {
         <div className="right-b2b-cardKcom">
           <div className="b2b-logoKcom">
             <img src="https://res.cloudinary.com/dal5dlztv/image/upload/v1748210286/t6_k6lrcg.webp" alt="Shopify Plus" />
-            <Link href="/portfolio" id="human" className="hover-linkCom">View Case Study <MdArrowOutward /> </Link>
+            <Link href="/blackrhinoconcealment" id="human" className="hover-linkCom">View Case Study <MdArrowOutward /> </Link>
           </div>
          
-          <a href="/portfolio" className="b2b-btnKcom">
+          <a href="/blackrhinoconcealment" className="b2b-btnKcom">
           Black Rhino
             <p>{page}</p>
           </a>

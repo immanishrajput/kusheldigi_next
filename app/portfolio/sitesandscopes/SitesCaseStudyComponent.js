@@ -504,7 +504,7 @@ function SitesCaseStudyComponent() {
           </div>
 
           <div className="csizbot">
-            <a href="contact-us"><button>
+            <a href="/contact-us"><button>
               <span>Start a conversation</span>
             </button></a>
           </div>

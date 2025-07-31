@@ -206,7 +206,7 @@ const data = [
     subpart: [
       {
         title: "India",
-        navigate: "/",
+        // navigate: "/",
         subpart: [
           {
             title: "Delhi",
@@ -224,7 +224,7 @@ const data = [
       },
       {
         title: "Europe",
-        navigate: "/",
+        // navigate: "/",
         subpart: [
           { title: "Belgium", navigate: "/ecommerce-development-in-belgium" },
           {
@@ -248,7 +248,7 @@ const data = [
 
       {
         title: "United Kingdom",
-        navigate: "/",
+        // navigate: "/",
         subpart: [
           {
             title: "London",

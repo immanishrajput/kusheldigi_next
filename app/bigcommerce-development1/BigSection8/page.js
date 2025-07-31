@@ -81,7 +81,7 @@ function BigSection8() {
             </div>
 
 
-          <Link href="contact-us" className="discuprojectA"><button className="discuproject"><span>Let’s Discuss your Project</span></button></Link>  
+          <Link href="/contact-us" className="discuprojectA"><button className="discuproject"><span>Let’s Discuss your Project</span></button></Link>  
 
         </div>
 

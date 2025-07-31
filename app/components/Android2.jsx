@@ -171,7 +171,7 @@ const Android = ({ notify }) => {
             {/* <img loading="lazy" src={ecosys} alt="custom android app development" title="custom android app developmen" /> */}
 
             <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1724831489/ecosys.e4d1f87f39de37f9408f_rcwddi.png
-" alt="custom android app development" title="custom android app developmen" />
+" alt="custom android app development" title="custom android app development" />
           </div>
         </div>
 

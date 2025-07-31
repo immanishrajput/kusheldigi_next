@@ -223,11 +223,21 @@ height: auto;
 }
 
 .terms-label {
-  padding: 13px 0px;
+  /* padding: 13px 0px; */
   font-size: 14px;
-  /* display: flex; */
+  display: flex;
   align-items: center;
   gap: 5px;
+}
+
+.terms-label a{
+  color: #0c61ff;
+  font-weight: 500;
+}
+
+.terms-label a:hover{
+  text-decoration: underline;
+  color: #0c61ff;
 }
 .terms-lables{
   padding: 15px 0px 0px 0px;

@@ -60,18 +60,7 @@ const TopBrassComponent = () => {
 
 
 
-    const generateMetadata = ({ params }) => ({
-        title: 'Top Brass Tactical | Ecommerce Growth with BigCommerce Website Development',
-        description: "See how Top Brass Tactical boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study.",
-    });
-
-    useEffect(() => {
-        const { title, description } = generateMetadata({ params: {} });
-        document.title = title;
-        let metaDescription = document.querySelector('meta[name="description"]');
-        metaDescription ? metaDescription.content = description :
-            document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
-    }, []);
+   
 
     return (
         <>

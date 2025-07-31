@@ -10,7 +10,7 @@ const Page = () => {
               heading: "Kushel Digi Solutions Shopify Development Services",
               subheading: "Kushel Digi is committed to deliver your dream ecommerce store with high powered Shopify solutions.",
               buttonLabel: "Get a Free Consultation Today",
-              buttonLink: "contact-us"
+              buttonLink: "/contact-us"
             };
             
             

@@ -387,8 +387,9 @@ export default function DetailBigCom() {
           believe in clear talks, clear deadlines, keeping things easy, and
           results that speak.
         </p>
-        <p>This is why we might be the best choice for your eCommerce journey:
-</p>
+        <p>
+          This is why we might be the best choice for your eCommerce journey:
+        </p>
         <h5>Experience That Matters</h5>
         <p>
           It doesn't matter what size business you have; we know what works. Our
@@ -598,7 +599,7 @@ export default function DetailBigCom() {
           <p className="getquote-terms">
             By clicking on submit, you agree to
             <br />
-            our <a href="/terms&conditions">Terms & Condition</a> and{" "}
+            our <a href="/terms-conditions">Terms & Condition</a> and{" "}
             <a href="/privacy-policy">Privacy policy</a>
           </p>
         </div>

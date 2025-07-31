@@ -92,73 +92,73 @@ const DenmarkBanner = () => {
   };
 
   const handleSubmit = async (e) => {
-      e.preventDefault();
-  
-      const phone = phoneInputRef.current?.value || "";
-      const phoneDigitsOnly = phone.replace(/\D/g, ""); // Only digits
-  
-      if (!formData.name || !formData.email || !phone) {
-        toast.error("Please fill all the fields!");
-        return;
+    e.preventDefault();
+
+    const phone = phoneInputRef.current?.value || "";
+    const phoneDigitsOnly = phone.replace(/\D/g, ""); // Only digits
+
+    if (!formData.name || !formData.email || !phone) {
+      toast.error("Please fill all the fields!");
+      return;
+    }
+
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.[a-zA-Z]{2,}$/;
+    if (!emailRegex.test(formData.email)) {
+      toast.error("Invalid email address!");
+      return;
+    }
+
+    if (phoneDigitsOnly.length !== 8) {
+      toast.error("Phone number must be exactly 8 digits!");
+      return;
+    }
+
+    if (!captchaVerified) {
+      toast.error("Please Verify the Captcha!!");
+      generateCaptcha();
+      return;
+    }
+
+    if (parseInt(userAnswer) !== correctAnswer) {
+      toast.error("Wrong Captcha! Try again.");
+      generateCaptcha();
+      setCaptchaVerified(false);
+      return;
+    }
+
+    setLoading(true);
+
+    try {
+      const dataToSend = {
+        ...formData,
+        phone: phoneDigitsOnly, // send clean number
+      };
+      const response = await fetch("https://backend.kusheldigi.com/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          mode: "no-cors",
+        },
+        body: JSON.stringify(dataToSend),
+      });
+
+      const result = await response.json();
+      console.log("Result--->>", result);
+
+      if (response.ok || response.success === true || response.status === 200) {
+        router.push("/thankyou");
+      } else {
+        alert(`❌ Failed to send email: ${result.message || "Unknown error"}`);
       }
-  
-      const emailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.[a-zA-Z]{2,}$/;
-      if (!emailRegex.test(formData.email)) {
-        toast.error("Invalid email address!");
-        return;
-      }
-  
-      if (phoneDigitsOnly.length !== 8) {
-        toast.error("Phone number must be exactly 8 digits!");
-        return;
-      }
-  
-      if (!captchaVerified) {
-        toast.error("Please Verify the Captcha!!");
-        generateCaptcha();
-        return;
-      }
-  
-      if (parseInt(userAnswer) !== correctAnswer) {
-        toast.error("Wrong Captcha! Try again.");
-        generateCaptcha();
-        setCaptchaVerified(false);
-        return;
-      }
-  
-      setLoading(true);
-  
-      try {
-        const dataToSend = {
-          ...formData,
-          phone: phoneDigitsOnly, // send clean number
-        };
-        const response = await fetch("https://backend.kusheldigi.com/contact", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            mode: "no-cors",
-          },
-          body: JSON.stringify(dataToSend),
-        });
-  
-        const result = await response.json();
-        console.log("Result--->>", result);
-  
-        if (response.ok || response.success === true || response.status === 200) {
-          router.push("/thankyou");
-        } else {
-          alert(`❌ Failed to send email: ${result.message || "Unknown error"}`);
-        }
-      } catch (error) {
-        console.error("❌ Error while sending email:", error);
-      } finally {
-        setLoading(false);
-        setFormData({ name: "", email: "" });
-        phoneInputRef.current.value = ""; // reset manually
-        generateCaptcha();
-      }
-    };
+    } catch (error) {
+      console.error("❌ Error while sending email:", error);
+    } finally {
+      setLoading(false);
+      setFormData({ name: "", email: "" });
+      phoneInputRef.current.value = ""; // reset manually
+      generateCaptcha();
+    }
+  };
 
   const scrollToFormHome = () => {
     const formSection = document.getElementById("form-section");
@@ -309,7 +309,7 @@ const DenmarkBanner = () => {
 
               <p className="form-terms">
                 By clicking on submit, you agree to our
-                <a href="/terms&conditions"> Terms & Condition</a> and
+                <a href="/terms-conditions"> Terms & Condition</a> and
                 <a href="/privacy-policy"> Privacy policy</a>
               </p>
             </form>

@@ -94,10 +94,10 @@ export default function BigCommercePortfolio({page}) {
         <div className="right-b2b-cardKcom">
           <div className="b2b-logoKcom">
             <img loading="lazy" src="https://res.cloudinary.com/dqjbzgksw/image/upload/v1748593399/top_CS_zv8zon.webp" alt="Shopify Plus" />
-            <a href="https://topbrasstacticaltactical.com/" id="human" className="hover-linkCom">View Case Study <MdArrowOutward /></a>
+            <a href="https://topbrasstactical.com/" id="human" className="hover-linkCom">View Case Study <MdArrowOutward /></a>
           </div>
          
-          <a href="https://topbrasstacticaltactical.com/" className="b2b-btnKcom">
+          <a href="https://topbrasstactical.com/" className="b2b-btnKcom">
           Top Brass Tactical
             <p>{page}</p>
           </a>

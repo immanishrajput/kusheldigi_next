@@ -1,8 +1,8 @@
 "use client"
-import '../globals.css';
+import '../../globals.css';
 
-import Footer from '../COMMON/Footer';
-import Navbar from '../COMMON/Navbar';
+import Footer from '../../COMMON/Footer';
+import Navbar from '../../COMMON/Navbar';
 import HeroBigCom from './HeroBigCom/page';
 import DetailBigCom from './DetailBigCom/page';
 

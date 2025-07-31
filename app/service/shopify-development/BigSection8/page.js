@@ -82,7 +82,7 @@ function BigSection8() {
             </div>
 
 
-          <Link href="contact-us" className="bs8items" style={{display:"inline", width:"260px", margin:"0 auto"}}><button className="discuproject"><span>Let’s Discuss your Project</span></button></Link>  
+          <Link href="/contact-us" className="bs8items" style={{display:"inline", width:"260px", margin:"0 auto"}}><button className="discuproject"><span>Let’s Discuss your Project</span></button></Link>  
 
         </div>
 
