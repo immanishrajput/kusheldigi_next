@@ -4938,6 +4938,30 @@ body {
   width: auto;
   background-color: #f9f9f9;
 }
+.benefit-heading1 h3 {
+    font-size: 38px;
+    color: #141a20;
+    font-weight: 600;
+    text-align: center;
+}
+
+.benefit-heading1 p {
+    font-size: 20px;
+    padding-top: 12px;
+    line-height: 26px;
+    text-align: center;
+
+}
+
+@media screen and (max-width:480px) {
+  .benefit-heading1 h3 {
+    font-size: 24px;
+ }
+.benefit-heading1 p {
+    font-size: 18px;
+ 
+}
+}
 
 /* .benefit-section {
     padding: 60px 70px 60px 70px;
@@ -4947,20 +4971,7 @@ body {
     text-align: center
 }
 
-.benefit-heading h3 {
-    font-size: 38px;
-    color: #141a20;
-    font-weight: 600;
-    text-align: center;
-}
 
-.benefit-heading p {
-    font-size: 20px;
-    padding-top: 12px;
-    line-height: 26px;
-    text-align: center;
-
-}
 
 .benefit-card {
     min-height: 630px;
@@ -35586,7 +35597,7 @@ video {
   font-weight: 500;
   letter-spacing: 0.5px;
   margin-top: 15px;
-  width: 240px;
+  width: 250px;
 }
 
 .native-app1 p {
@@ -48658,7 +48669,7 @@ font-size: 28px !important;
   gap: 20px;
   background-color: #fbfbfb;
   padding: 20px 10px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: space-between;
 }
 
@@ -72749,6 +72760,12 @@ gap:0 !important;
 @media (max-width: 1400px) {
   .softwareProduct .products {
     display: flex;
+
+  }
+}
+@media screen and (max-width:1280px) {
+  .softwareProduct .products {
+ 
     flex-wrap: wrap;
   }
 }

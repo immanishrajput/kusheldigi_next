@@ -21,13 +21,15 @@
 .getquote-header {
   height: 140px;
   background: #0646e0;
-  clip-path: polygon(0% -1%,
-      0% 49%,
-      12% 11%,
-      581% 17%,
-      -20% -266%,
-      378% 767%,
-      353% -147%);
+  clip-path: polygon(
+    0% -1%,
+    0% 49%,
+    12% 11%,
+    581% 17%,
+    -20% -266%,
+    378% 767%,
+    353% -147%
+  );
   position: absolute;
   top: 50;
   left: 0;
@@ -129,11 +131,18 @@
   flex-direction: column;
 }
 
-.details-desc h4 {
+.details-desc h3 {
   font-size: 32px;
   font-weight: 700;
   letter-spacing: 0;
   margin-top: 50px;
+  margin-bottom: 20px;
+}
+.details-desc h4 {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -143,6 +152,7 @@
 }
 
 .details-desc h5 {
+  line-height: 34px;
   font-size: 30px;
   font-weight: 600;
   /* text-align: center; */
@@ -261,8 +271,8 @@
   .details-sec {
     padding: 20px 50px;
   }
-/* 
-  .details-desc p {
+
+  /* .details-desc p {
     text-align: center;
   } */
 
@@ -293,12 +303,12 @@
   }
 
   .details-desc h4 {
-  font-size: 23px;
+    font-size: 23px;
   }
 
   .details-desc h5 {
-  font-size: 20px;
-  margin: 20px 0px;
+    font-size: 20px;
+    margin: 20px 0px;
   }
 
   .details-desc h6 {
@@ -311,7 +321,7 @@
 }
 
 @media screen and (max-width: 400px) {
-.inputcapt{
+  .inputcapt {
     width: 45%;
   }
   .details-desc p {

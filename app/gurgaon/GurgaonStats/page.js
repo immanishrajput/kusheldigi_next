@@ -12,7 +12,7 @@ export default function GurgaonStatsService() {
       discp:
         "Our ecommerce sites are customized to help Gurgaon grow its emerging retail and technology landscape with high conversion potential. Power up your business idea into a robust online store.",
       className: "card-blue",
-      route: "/ecommerce-development-company-in-delhi",
+      route: "/gurgaon/ecommerce-development-company-in-gurgaon",
     },
     {
       icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1752566045/Group_1171281751_lgbsp9.png",
@@ -21,7 +21,7 @@ export default function GurgaonStatsService() {
       discp:
         "Customized solutions help achieve growth through the power of BigCommerce. We do it all, from sleek design to profound integration, to get your online shop optimized in the Gurgaon market.",
       className: "card-yellow",
-      route: "/bigcommerce-development-company-in-delhi",
+      route: "/gurgaon/bigcommerce-development-company-in-gurgaon",
     },
     // {
     //     icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1752566045/Group_1171281753_eqcabi.png",
