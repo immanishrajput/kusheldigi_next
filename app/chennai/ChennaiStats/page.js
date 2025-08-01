@@ -12,7 +12,7 @@ export default function ChennaiStatsService() {
             discp:
                 "We craft e-commerce portals that resonate with the contemporary audience in Chennai. Our <strong>eCommerce Development in Chennai</strong> transforms your business idea into a fully functional online store, from concept to deployment.",
             className: "card-blue",
-            route: "/ecommerce-development-company-in-chennai",
+            route: "/chennai/ecommerce-development-company-in-chennai",
         },
         {
             icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1752566045/Group_1171281751_lgbsp9.png",
@@ -21,7 +21,7 @@ export default function ChennaiStatsService() {
             discp:
                 "Unleash BigCommerce with solutions that are tailored to meet diverse Chennai markets. With intelligent design and scalable integrations, we build stores that grow with your business.",
             className: "card-yellow",
-            route: "/bigcommerce-development-company-in-chennai",
+            route: "/chennai/bigcommerce-development-company-in-chennai",
         },
         // {
         //     icon: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1752566045/Group_1171281753_eqcabi.png",

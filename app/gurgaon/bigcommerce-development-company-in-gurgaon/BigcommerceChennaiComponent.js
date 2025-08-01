@@ -1,11 +1,11 @@
 "use client"
-import "../globals.css"
+import '../../globals.css';
 
-import Footer from '../COMMON/Footer';
-import Navbar from '../COMMON/Navbar';
-import Website from '../components/Home/HomeForm';
-import ChennaiHeroSec from './ChennaiHeroSec/page';
-import ChennaiStatsService from './ChennaiStats/page';
+import Footer from '../../COMMON/Footer';
+import Navbar from '../../COMMON/Navbar';
+import DetailBigComChennai from './DetailBigComChennai/page';
+import HeroBigComChennai from './HeroBigComChennai/page';
+
 
 const phoneNumber = "9045301702";
 
@@ -17,19 +17,16 @@ const callHandler = () => {
     const callUrl = `tel:${phoneNumber}`;
     window.open(callUrl, "_blank");
 }
-function ChennaiComponent() {
+function BigcommerceChennaiComponent() {
     return (
         <div>
             <div className='ser-main'></div>
 
             <Navbar />
-            <ChennaiHeroSec/>
-            <ChennaiStatsService/>
-            <Website/>
-            <Footer/>
+            <HeroBigComChennai />
+            <DetailBigComChennai />
 
-
-
+            <Footer />
 
             <div className="whtsApBtns">
                 <button onClick={whatAppHandler}>
@@ -44,4 +41,4 @@ function ChennaiComponent() {
     )
 }
 
-export default ChennaiComponent;
+export default BigcommerceChennaiComponent;

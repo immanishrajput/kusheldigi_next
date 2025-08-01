@@ -371,7 +371,7 @@ const SmmComponent = () => {
         {/* ------------------------Benefits section-------------------------- */}
         <div className="main-benefit-section">
           <div className="benefit-section">
-            <div className="benefit-heading">
+            <div className="benefit-heading1">
               <h3>Benefit of using our SMM Services</h3>
               <p>
                 Your social media success is largely dependent on the number of

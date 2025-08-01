@@ -152,6 +152,7 @@
 }
 
 .details-desc h5 {
+  line-height: 34px;
   font-size: 30px;
   font-weight: 600;
   /* text-align: center; */
