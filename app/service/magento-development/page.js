@@ -4,7 +4,7 @@ import MagentoNew  from "../../components/MagentoNew"
 export const metadata = {
   metadataBase: new URL("https://www.kusheldigi.com"),
   alternates: {
-    canonical: "/magento-development",
+    canonical: "/service/magento-development",
   },
   title: "Magento Development Experts for eCommerce Success | Kushel Digi.",
   description:
@@ -13,7 +13,7 @@ export const metadata = {
     title: "Kushel Digi | Expert eCommerce Development Services",
     description:
       "We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development.",
-    url: "https://www.kusheldigi.com/magento-development",
+    url: "https://www.kusheldigi.com/service/magento-development",
     images: [
       {
         url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png",

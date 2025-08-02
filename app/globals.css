@@ -803,6 +803,7 @@ body {
 
 .main-box-logic {
   padding-top: 15px;
+  margin-bottom: 20px;
 }
 
 #sim {
@@ -78497,4 +78498,39 @@ input::-webkit-inner-spin-button {
 
 .friendly {
   line-height: 1.4 !important;
+}
+
+
+.btn-case-port{
+text-align: center;
+width: 35%;
+      background: #0039ff;
+    padding: 10px 23.333px;
+    color: #fff;
+    font-size: .9rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+    letter-spacing: .327px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin: auto;
+    border-radius: 50px;
+    
+}
+.btn-case-port:hover{
+    transition: transform 0.3s ease;
+background-color: #fff;
+color: #0037ff;
+}
+@media screen and (max-width:400px) {
+  .btn-case-port{
+    width: 70%;
+}
+}
+.btn-caseG{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }

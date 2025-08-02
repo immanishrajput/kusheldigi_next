@@ -9,6 +9,7 @@ import './surivaval.css'
 import Navbar from "../../COMMON/Navbar";
 import Footer from "../../COMMON/Footer";
 import Head from 'next/head';
+import Link from "next/link";
 
 
 const d1 = [
@@ -178,9 +179,20 @@ function ThesurvivalMode() {
                                
                             </div>
 
-                            <p className="ca1firrigh">
+                          
+                             <div className="btn-caseG">
+               <p className="ca1firrigh">
                                 When survival becomes tough in a rough environment, Survival Mode acts as your savior. This brand equips individuals with the tools they require to face any difficult challenge during their adventure.          {/* 2nd Amendment Armory is the most trusted firearms provider of high-quality gun accessories, serving customers both locally in Brandon, FL and across the nation. */}
                             </p>
+                <Link
+                  className="btn-case-port"
+                  href="https://thesurvivalmode.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Go Live
+                </Link>
+              </div>
                         </div>
 
                         {/* secont */}

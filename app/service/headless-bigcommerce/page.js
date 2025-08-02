@@ -3,7 +3,7 @@ import HeadlessComponent from "./HeadlessComponent";
 export const metadata = {
   metadataBase: new URL("https://www.kusheldigi.com"),
   alternates: {
-    canonical: "/headless-bigcommerce",
+    canonical: "/service/headless-bigcommerce",
   },
   title: "Headless BigCommerce Development Company | Kushel Digi",
   description:
@@ -12,7 +12,7 @@ export const metadata = {
     title: "Kushel Digi | Expert eCommerce Development Services",
     description:
       "We offer professional website development, eCommerce solutions, and SEO services, bigcommerce development.",
-    url: "https://www.kusheldigi.com/headless-bigcommerce",
+    url: "https://www.kusheldigi.com/service/headless-bigcommerce",
     images: [
       {
         url: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1739012691/logo_zckmvw.png",

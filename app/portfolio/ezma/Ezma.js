@@ -9,6 +9,7 @@ import "./ezma.css";
 import Navbar from "../../COMMON/Navbar";
 import Footer from "../../COMMON/Footer";
 import Head from "next/head";
+import Link from "next/link";
 
 const d1 = [
   {
@@ -187,12 +188,23 @@ function Ezma() {
                 />
               </div>
 
-              <p className="ca1firrigh">
+              
+               <div className="btn-caseG">
+               <p className="ca1firrigh">
                 Ezma is a sustainable and elegant brand that delivers comfort
                 and warmth with its Cashmere Scarves. The brand is committed to
                 creating them through expert craftsmanship, blending traditional
                 techniques with technology for optimal results.{" "}
               </p>
+                <Link
+                  className="btn-case-port"
+                  href="https://ezma.co.in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Go Live
+                </Link>
+              </div>
             </div>
 
             {/* secont */}

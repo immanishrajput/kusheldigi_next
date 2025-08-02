@@ -131,6 +131,14 @@ const SubhAlloys = () => {
                     alt="img"
                   ></img>
                 </div>
+                <Link
+                  className="btn-case-port"
+                  href="https://solenoid-ninja.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Go Live
+                </Link>
               </div>
               <div className="right-section-kids ramit">
                 <img
