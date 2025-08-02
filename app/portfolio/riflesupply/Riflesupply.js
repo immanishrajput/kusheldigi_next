@@ -1,16 +1,16 @@
-"use client"
+"use client";
 // import "./ride.css";
 import { useEffect, useState } from "react";
 import { TiTick } from "react-icons/ti";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
-import './riffle.css'
+import "./riffle.css";
 
-import '../../globals.css'
+import "../../globals.css";
 import Navbar from "../../COMMON/Navbar";
 import Footer from "../../COMMON/Footer";
+import Link from "next/link";
 function Riffle() {
-
   const d1 = [
     {
       title1: "Industries",
@@ -95,25 +95,26 @@ function Riffle() {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216954/down1_kgzcrg.png",
       title1: "Topbrass tactical",
       title2: "E-commerce, Bigcomerce ",
-      link: "/topbrasstactical"
+      link: "/topbrasstactical",
     },
     {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216979/down2_m0c8fa.png",
       title1: "Kickeez",
       title2: "E-commerce, Bigcomerce ",
-      link: "/kick-eez"
+      link: "/kick-eez",
     },
     {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217009/down3_ucxpri.png",
       title1: "Sites & Scopes",
       title2: "E-commerce, Bigcomerce ",
-      link: "/sitesandscopes"
+      link: "/sitesandscopes",
     },
   ];
 
   const [selectS4, setSelectS4] = useState(0);
   const [selectdata, setSelectdata] = useState(d2[0].data);
-  const [animationDirection, setAnimationDirection] = useState("slide-in-right");
+  const [animationDirection, setAnimationDirection] =
+    useState("slide-in-right");
 
   const handleSelectionChange = (index) => {
     setAnimationDirection("slide-out-left");
@@ -126,22 +127,26 @@ function Riffle() {
   };
 
   const generateMetadata = ({ params }) => ({
-    title: 'Rifle Supply | Ecommerce Growth with BigCommerce Website Development',
-    description: "See how Rifle Supply boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study."
+    title:
+      "Rifle Supply | Ecommerce Growth with BigCommerce Website Development",
+    description:
+      "See how Rifle Supply boosted online sales with Kushel Digi Solutions custom BigCommerce website development services. Real results in this case study.",
   });
 
   useEffect(() => {
     const { title, description } = generateMetadata({ params: {} });
     document.title = title;
     let metaDescription = document.querySelector('meta[name="description"]');
-    metaDescription ? metaDescription.content = description :
-      document.head.insertAdjacentHTML('beforeend', `<meta name="description" content="${description}">`);
+    metaDescription
+      ? (metaDescription.content = description)
+      : document.head.insertAdjacentHTML(
+          "beforeend",
+          `<meta name="description" content="${description}">`
+        );
   }, []);
 
   return (
     <div className="case1wrap home-main">
-
-
       <Navbar />
 
       <link rel="canonical" href="https://www.kusheldigi.com/riflesupply" />
@@ -172,9 +177,23 @@ function Riffle() {
                 </div>
               </div>
 
-              <p className="ca1firrigh">
-                Rifle Supply is an exclusive shop for firearms, parts, and accessories. The brand deals in a wide range of products related to rifles, guns, Glock shops, AR parts, and much more. It is well-known for its expansive inventory with more than 4800 products available on its website.
-              </p>
+              <div className="btn-caseG">
+                <p className="ca1firrigh">
+                  Rifle Supply is an exclusive shop for firearms, parts, and
+                  accessories. The brand deals in a wide range of products
+                  related to rifles, guns, Glock shops, AR parts, and much more.
+                  It is well-known for its expansive inventory with more than
+                  4800 products available on its website.
+                </p>
+                <Link
+                  className="btn-case-port"
+                  href="https://riflesupply.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Go Live
+                </Link>
+              </div>
             </div>
 
             {/* secont */}
@@ -205,15 +224,22 @@ function Riffle() {
           />
 
           <div className="sc2_main_content">
-            <h1>Client Background</h1><p>
-              At present, the company is serving gun enthusiasts, professional shooters, and enforcement agencies. It’s a trusted name for the firearms dealership. If you are planning to upgrade your handgun or any other firearm-related equipment, then RifleSupply is worth checking out.  </p>
+            <h1>Client Background</h1>
             <p>
-              However, what you are seeing on the website today has been transformed by Kushel Digi Solutions with their expert team efforts. <b>MadFish Solutions </b> has offered us this opportunity, which we successfully worked on to our best.
-
+              At present, the company is serving gun enthusiasts, professional
+              shooters, and enforcement agencies. It’s a trusted name for the
+              firearms dealership. If you are planning to upgrade your handgun
+              or any other firearm-related equipment, then RifleSupply is worth
+              checking out.{" "}
+            </p>
+            <p>
+              However, what you are seeing on the website today has been
+              transformed by Kushel Digi Solutions with their expert team
+              efforts. <b>MadFish Solutions </b> has offered us this
+              opportunity, which we successfully worked on to our best.
             </p>
           </div>
         </div>
-
 
         <img
           src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744626323/Ellipse_2616_b05zg1.png"
@@ -229,14 +255,33 @@ function Riffle() {
           <div>
             <ul>
               <li>
-                The older website lacked mobile efficiency. No mobile-friendly interface was affecting the sales.
+                The older website lacked mobile efficiency. No mobile-friendly
+                interface was affecting the sales.
               </li>
-              <li>Most of the website elements were outdated, and an entire revamp was the only way to fix them. </li>
-              <li>The website was complex to use, as many of the product details were missing. </li>
-              <li>Compliance complexity was another factor that we had to work on to make the site’s design align with it. </li>
-              <li>Real-time product availability was missing, so prospects used to step away from the website. </li>
-              <li>The absence of search filters was creating difficulty in scrolling through the broad range of products. </li>
-              <li>Marketing efforts were clearly invisible. Poor On-page SEO and inadequate customer engagement were a big challenge to cover up. </li>
+              <li>
+                Most of the website elements were outdated, and an entire revamp
+                was the only way to fix them.{" "}
+              </li>
+              <li>
+                The website was complex to use, as many of the product details
+                were missing.{" "}
+              </li>
+              <li>
+                Compliance complexity was another factor that we had to work on
+                to make the site’s design align with it.{" "}
+              </li>
+              <li>
+                Real-time product availability was missing, so prospects used to
+                step away from the website.{" "}
+              </li>
+              <li>
+                The absence of search filters was creating difficulty in
+                scrolling through the broad range of products.{" "}
+              </li>
+              <li>
+                Marketing efforts were clearly invisible. Poor On-page SEO and
+                inadequate customer engagement were a big challenge to cover up.{" "}
+              </li>
             </ul>
           </div>
         </div>
@@ -247,7 +292,6 @@ function Riffle() {
             alt="kushel"
           />
         </div>
-
       </div>
 
       {/* third section  */}
@@ -261,11 +305,19 @@ function Riffle() {
             </div>
 
             <p className="s3theeparas">
-              Though many challenges were there, our expert teammates found the appropriate solutions to create what customers will love to go through. The main parts that required attention were website layout and storefront development. For both, choosing the right tool is going to make all the difference. </p>
+              Though many challenges were there, our expert teammates found the
+              appropriate solutions to create what customers will love to go
+              through. The main parts that required attention were website
+              layout and storefront development. For both, choosing the right
+              tool is going to make all the difference.{" "}
+            </p>
 
             <p className="s3theeparas">
-              Throughout the development stage, Kushel Digi Solutions took the responsibility of changing digital transformation from scratch. We formulated the roadmap from start to end for making this redesigning project successful and then executed the plans with a collaborative approach.
-
+              Throughout the development stage, Kushel Digi Solutions took the
+              responsibility of changing digital transformation from scratch. We
+              formulated the roadmap from start to end for making this
+              redesigning project successful and then executed the plans with a
+              collaborative approach.
             </p>
           </div>
 
@@ -288,7 +340,7 @@ function Riffle() {
           interval: 6000,
           pagination: true,
           arrows: false,
-          pauseOnHover: true
+          pauseOnHover: true,
         }}
       >
         <SplideSlide>
@@ -308,10 +360,11 @@ function Riffle() {
               </div>
 
               <div className="cas3circldata2" id="case3Portfolio_riffle">
-                <h4>Custom Layout Design
-                </h4>
+                <h4>Custom Layout Design</h4>
                 <p>
-                  With the help of Figma, our expert designers crafted a fresh UI that included modern web layout elements. This was done in alignment with RifleSupply’s brand image.
+                  With the help of Figma, our expert designers crafted a fresh
+                  UI that included modern web layout elements. This was done in
+                  alignment with RifleSupply’s brand image.
                 </p>
               </div>
             </div>
@@ -338,8 +391,11 @@ function Riffle() {
               <div className="cas3circldata2" id="case3Portfolio_riffle">
                 <h4>Headless BigCommerce Development </h4>
                 <p>
-                  We created a high-performing wholesale Ecommerce platform using BigCommerce. It has everything to fit the needs of Riflesupply and engage customers in the long run. From featuring countless products to making it scalable. BigCommerce turned out to be a limitless choice.
-
+                  We created a high-performing wholesale Ecommerce platform
+                  using BigCommerce. It has everything to fit the needs of
+                  Riflesupply and engage customers in the long run. From
+                  featuring countless products to making it scalable.
+                  BigCommerce turned out to be a limitless choice.
                 </p>
               </div>
             </div>
@@ -348,17 +404,22 @@ function Riffle() {
 
         <SplideSlide>
           <section className="case3secfour2">
-            <img className="case4bggirl" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747333600/Group_1171279293_xbmklo.png" alt="kushel" />
+            <img
+              className="case4bggirl"
+              src="https://res.cloudinary.com/dal5dlztv/image/upload/v1747333600/Group_1171279293_xbmklo.png"
+              alt="kushel"
+            />
 
             <div className="cas3s4con" id="imgPortfolio_Phone">
-
-
               <div className="cas3circldata2" id="case3Portfolio_riffle">
-                <h4>
-                  App Integrations
-                </h4>
+                <h4>App Integrations</h4>
                 <p>
-                  One of the advantages of choosing BigCommerce is that plenty of app integrations are available to download. We integrated third-party tools for real-time inventory sync, SEO marketing tools, and advanced filtering to meet customers’ demands easily. Apart from that, we also simplified marketing for RifleSupply.
+                  One of the advantages of choosing BigCommerce is that plenty
+                  of app integrations are available to download. We integrated
+                  third-party tools for real-time inventory sync, SEO marketing
+                  tools, and advanced filtering to meet customers’ demands
+                  easily. Apart from that, we also simplified marketing for
+                  RifleSupply.
                 </p>
               </div>
               <div className="bgshowdb2" id="imgPortfolio_Ai_Phone">
@@ -371,8 +432,6 @@ function Riffle() {
             </div>
           </section>
         </SplideSlide>
-
-
       </Splide>
 
       {/* fivth  section  */}
@@ -382,8 +441,9 @@ function Riffle() {
           <div className="c2fivtopsec">
             <h4>How we build the E-Commerce development Process</h4>
             <p>
-              We’ll turn your custom tech solutions into powerful brands by crafting unique customer experiences at every digital touchpoint with:
-
+              We’ll turn your custom tech solutions into powerful brands by
+              crafting unique customer experiences at every digital touchpoint
+              with:
             </p>
           </div>
 
@@ -395,8 +455,9 @@ function Riffle() {
                 <p
                   key={index}
                   onClick={() => handleSelectionChange(index)}
-                  className={`${selectS4 === index && "addthsomfbg"
-                    } cursor-pointer`}
+                  className={`${
+                    selectS4 === index && "addthsomfbg"
+                  } cursor-pointer`}
                 >
                   {d2Item?.title}
                 </p>
@@ -405,7 +466,11 @@ function Riffle() {
 
             {/* Right Section with Animation */}
             <div className={`c2fibbotrigh ${animationDirection} `}>
-              <img src={selectdata?.img} className="selectdataimg" alt="kushel" />
+              <img
+                src={selectdata?.img}
+                className="selectdataimg"
+                alt="kushel"
+              />
               <div className="serigh_macont">
                 <h4>
                   <span>0{selectS4 + 1}/</span> {selectdata?.title}
@@ -434,7 +499,7 @@ function Riffle() {
                 interval: 3000,
                 pagination: true,
                 arrows: false,
-                pauseOnHover: false
+                pauseOnHover: false,
               }}
             >
               {d2?.map((item, index) => (
@@ -476,16 +541,35 @@ function Riffle() {
         <div className="result_Portfolio">
           <h5>Result & Impact</h5>
           <h6>
-            Our <b>BigCommerce website development </b> process and efforts paid off when the results started showing up. We witnessed these changes after updating the website:
+            Our <b>BigCommerce website development </b> process and efforts paid
+            off when the results started showing up. We witnessed these changes
+            after updating the website:
           </h6>
           <ul>
-            <li>Better conversions were happening due to responsive design. </li>
-            <li>Improved compliance automation reduced the burden on the website handler. </li>
-            <li>Order accuracy and real-time data became easily accessible. </li>
-            <li> Web pages started loading faster, which improved customer satisfaction. </li>
-            <li>Robust On-Page SEO empowers a website with an edge in Google Search Ranking. </li>
+            <li>
+              Better conversions were happening due to responsive design.{" "}
+            </li>
+            <li>
+              Improved compliance automation reduced the burden on the website
+              handler.{" "}
+            </li>
+            <li>
+              Order accuracy and real-time data became easily accessible.{" "}
+            </li>
+            <li>
+              {" "}
+              Web pages started loading faster, which improved customer
+              satisfaction.{" "}
+            </li>
+            <li>
+              Robust On-Page SEO empowers a website with an edge in Google
+              Search Ranking.{" "}
+            </li>
           </ul>
-          <p>Overall, working with RifleSupply was a great experience, and we are open to collaborating further. </p>
+          <p>
+            Overall, working with RifleSupply was a great experience, and we are
+            open to collaborating further.{" "}
+          </p>
         </div>
       </div>
       {/* six section  */}
@@ -503,19 +587,19 @@ function Riffle() {
 
         <div className="c2sixconta">
           <div className="cssixtop">
-            <h4>Have a similar project in mind?      </h4>
-            <p>Discover how our expertise can benefit your project
-            </p>
+            <h4>Have a similar project in mind? </h4>
+            <p>Discover how our expertise can benefit your project</p>
           </div>
 
           <div className="csizbot">
-            <a href="/contact-us"><button>
-              <span>Start a conversation</span>
-            </button></a>
+            <a href="/contact-us">
+              <button>
+                <span>Start a conversation</span>
+              </button>
+            </a>
           </div>
         </div>
       </section>
-
 
       {/* seven section  */}
       <section className="sc2sevensec">
@@ -535,9 +619,12 @@ function Riffle() {
                   <p className="sep2">{project?.title2}</p>
                 </div>
 
-                <a href={project?.link}> <button>
-                  <span>Case study</span>
-                </button></a>
+                <a href={project?.link}>
+                  {" "}
+                  <button>
+                    <span>Case study</span>
+                  </button>
+                </a>
               </div>
             ))}
           </div>

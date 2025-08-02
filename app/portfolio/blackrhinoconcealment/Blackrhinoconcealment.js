@@ -1,16 +1,16 @@
-"use client"
+"use client";
 // import "./ride.css";
 import { useEffect, useState } from "react";
 import { TiTick } from "react-icons/ti";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
-import './BlackRhino.css'
+import "./BlackRhino.css";
 
-import '../../globals.css'
+import "../../globals.css";
 import Navbar from "../../COMMON/Navbar";
 import Footer from "../../COMMON/Footer";
+import Link from "next/link";
 function Blackrhinoconcealment() {
-
   const d1 = [
     {
       title1: "Industries",
@@ -95,25 +95,26 @@ function Blackrhinoconcealment() {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216954/down1_kgzcrg.png",
       title1: "Topbrass tactical",
       title2: "E-commerce, Bigcomerce ",
-      link: "/topbrasstactical"
+      link: "/topbrasstactical",
     },
     {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216979/down2_m0c8fa.png",
       title1: "Kickeez",
       title2: "E-commerce, Bigcomerce ",
-      link: "/kick-eez"
+      link: "/kick-eez",
     },
     {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217009/down3_ucxpri.png",
       title1: "Sites And Scopes",
       title2: "E-commerce, Bigcomerce ",
-      link: "/sitesandscopes"
+      link: "/sitesandscopes",
     },
   ];
 
   const [selectS4, setSelectS4] = useState(0);
   const [selectdata, setSelectdata] = useState(d2[0].data);
-  const [animationDirection, setAnimationDirection] = useState("slide-in-right");
+  const [animationDirection, setAnimationDirection] =
+    useState("slide-in-right");
 
   const handleSelectionChange = (index) => {
     setAnimationDirection("slide-out-left");
@@ -125,15 +126,14 @@ function Blackrhinoconcealment() {
     }, 300);
   };
 
-
-
   return (
     <div className="case1wrap home-main">
-
-
       <Navbar />
 
-      <link rel="canonical" href="https://www.kusheldigi.com/blackrhinoconcealment" />
+      <link
+        rel="canonical"
+        href="https://www.kusheldigi.com/blackrhinoconcealment"
+      />
 
       {/* first sectino */}
       <section className="case1firsec">
@@ -161,9 +161,22 @@ function Blackrhinoconcealment() {
                 </div>
               </div>
 
-              <p className="ca1firrigh">
-                Black Rhino Concealment is an esteemed brand of firearms holsters and tactical gear. Since 2014, it has been a trailblazer for offering custom Kydex holsters and accessories.
+              
+              <div className="btn-caseG">
+               <p className="ca1firrigh">
+                Black Rhino Concealment is an esteemed brand of firearms
+                holsters and tactical gear. Since 2014, it has been a
+                trailblazer for offering custom Kydex holsters and accessories.
               </p>
+                <Link
+                  className="btn-case-port"
+                  href="/portfolio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Go Live
+                </Link>
+              </div>
             </div>
 
             {/* secont */}
@@ -197,10 +210,22 @@ function Blackrhinoconcealment() {
             <h1>Client Background</h1>
 
             <p>
-              With the years of reputation it has built on craftsmanship and customized solutions, the brand is producing concealed carry equipment. It is blending innovation and precision perfectly to deliver a seamless experience to buyers. The brand is giving a 10% discount too for all the military, police, and first responders.
-
-              <p>Being on the path of growth, its product demand is soaring, Black Rhino has consistently proved to be at the digital forefront in the Kydex holster provider. However, it was looking to improve the digital shopping experience, and this is when Kushel Digi Solutions stepped in to help them. We revamped the ecommerce presence and gave it a fresh look. Our expert team prepared a robust plan of action to envision a custom ecommerce solution for the client.<b>Madfish</b>  offered us this opportunity which we are grateful for.</p>
-
+              With the years of reputation it has built on craftsmanship and
+              customized solutions, the brand is producing concealed carry
+              equipment. It is blending innovation and precision perfectly to
+              deliver a seamless experience to buyers. The brand is giving a 10%
+              discount too for all the military, police, and first responders.
+              <p>
+                Being on the path of growth, its product demand is soaring,
+                Black Rhino has consistently proved to be at the digital
+                forefront in the Kydex holster provider. However, it was looking
+                to improve the digital shopping experience, and this is when
+                Kushel Digi Solutions stepped in to help them. We revamped the
+                ecommerce presence and gave it a fresh look. Our expert team
+                prepared a robust plan of action to envision a custom ecommerce
+                solution for the client.<b>Madfish</b> offered us this
+                opportunity which we are grateful for.
+              </p>
             </p>
           </div>
         </div>
@@ -218,16 +243,20 @@ function Blackrhinoconcealment() {
         <div className="PortfolioChallengeMain">
           <h4> Challenges</h4>
           <div>
+            <h5>1.A dated user interface lacking visual clarity.</h5>
             <h5>
-              1.A dated user interface lacking visual clarity.
+              2.Poor product categorization and lack of filtering options.
             </h5>
-            <h5>2.Poor product categorization and lack of filtering options.</h5>
             <h5>3.Slow loading times and poor mobile experience.</h5>
-            <h5>4.Absence of modern key elements and third-party integrations. </h5>
+            <h5>
+              4.Absence of modern key elements and third-party integrations.{" "}
+            </h5>
             <h5>Unsatisfactory user-interface.</h5>
 
-            <h5>5.Addressing these challenges required a thoughtful approach that our team implemented to align it with the modern ecommerce needs. </h5>
-
+            <h5>
+              5.Addressing these challenges required a thoughtful approach that
+              our team implemented to align it with the modern ecommerce needs.{" "}
+            </h5>
           </div>
         </div>
         <div className="portfolioImageChallenge">
@@ -237,7 +266,6 @@ function Blackrhinoconcealment() {
             alt="kushel"
           />
         </div>
-
       </div>
       {/* =========================== */}
 
@@ -252,9 +280,10 @@ function Blackrhinoconcealment() {
             </div>
 
             <p className="s3theeparas">
-              Once all challenges were on the plate, wes started designing the full-fledged mobile eCommerce website. From designing the UI/UX to Figma and store on BigCommerce, everything was done with utmost perfection.
-
-
+              Once all challenges were on the plate, wes started designing the
+              full-fledged mobile eCommerce website. From designing the UI/UX to
+              Figma and store on BigCommerce, everything was done with utmost
+              perfection.
             </p>
 
             {/* <p className="s3theeparas">
@@ -282,7 +311,7 @@ function Blackrhinoconcealment() {
           interval: 3000,
           pagination: true,
           arrows: false,
-          pauseOnHover: false
+          pauseOnHover: false,
         }}
       >
         {/* <SplideSlide>
@@ -365,17 +394,21 @@ function Blackrhinoconcealment() {
           </section>
         </SplideSlide> */}
 
-
-
-
         <SplideSlide>
-          <section className="case3secfour" >
-            <img loading="lazy" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
+          <section className="case3secfour">
+            <img
+              loading="lazy"
+              src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg"
+              alt="kushel"
+              className="c1btimage"
+            />
 
             <div className="cas3s4con" id="cas3s4connn">
-
-              <div className="bgshowdb1" id="" >
-                < img src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747158480/Group_1171281286_1_b2cgzf_we0mgd.png" id="bgshowdb12" />
+              <div className="bgshowdb1" id="">
+                <img
+                  src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747158480/Group_1171281286_1_b2cgzf_we0mgd.png"
+                  id="bgshowdb12"
+                />
                 {/* <img loading="lazy" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746710597/Group_1171279306_o1qdhn.png" alt="kushel" className="ca2insideimg adjustheighimg" /> */}
                 {/* <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
               </div>
@@ -383,24 +416,35 @@ function Blackrhinoconcealment() {
               <div className="cas3circldata" id="cas3circldata1">
                 <h4>Custom UI/UX Design</h4>
                 <p>
-                  We crafted a modern and responsive design on Figma while keeping a clean layout to reflect Black Rhino’s brand identity. Our primary focus was on intuitive product navigation and mobile responsiveness. The design was structured to ease navigation for the users. One of the most important goal we tried to cover is simplifying the buying journey.
-
+                  We crafted a modern and responsive design on Figma while
+                  keeping a clean layout to reflect Black Rhino’s brand
+                  identity. Our primary focus was on intuitive product
+                  navigation and mobile responsiveness. The design was
+                  structured to ease navigation for the users. One of the most
+                  important goal we tried to cover is simplifying the buying
+                  journey.
                 </p>
               </div>
-
             </div>
-
           </section>
         </SplideSlide>
 
         <SplideSlide>
           <section className="case3secfour" id="case3secfour22">
-            <img loading="lazy" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
+            <img
+              loading="lazy"
+              src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg"
+              alt="kushel"
+              className="c1btimage"
+            />
 
             <div className="cas3s4con" id="cas3s4connn">
-
               <div className="bgshowdb1">
-                <img loading="lazy" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747158005/human_q4erqd.png" id="bgshowdb12" />
+                <img
+                  loading="lazy"
+                  src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747158005/human_q4erqd.png"
+                  id="bgshowdb12"
+                />
                 {/* <img loading="lazy" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746454204/e-commerce-development_wu34yd.png" alt="kushel" className="ca2insideimg adjustheighimg" />
             <img loading="lazy" src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1730217032/shadowbg1_eaz1s4.png" alt="kushel" className="shadowbg1" /> */}
               </div>
@@ -408,39 +452,50 @@ function Blackrhinoconcealment() {
               <div className="cas3circldata" id="cas3circldata1">
                 <h4> BigCommerce Migration & Optimization</h4>
                 <p>
-                  Our team moved the site to BigCommerce for better performance. This platform supports headless ecommerce development that can contribute to the growth of the brand at a significant level. The new setup led to many improvements like lightning-fast performance and scalable architecture. We also made the shopping experience seamless for all the device users.
-
-                </p>              </div>
-
+                  Our team moved the site to BigCommerce for better performance.
+                  This platform supports headless ecommerce development that can
+                  contribute to the growth of the brand at a significant level.
+                  The new setup led to many improvements like lightning-fast
+                  performance and scalable architecture. We also made the
+                  shopping experience seamless for all the device users.
+                </p>{" "}
+              </div>
             </div>
-
           </section>
         </SplideSlide>
 
         <SplideSlide>
           <section className="case3secfour">
-            <img loading="lazy" src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg" alt="kushel" className="c1btimage" />
+            <img
+              loading="lazy"
+              src="https://res.cloudinary.com/dal5dlztv/image/upload/v1746523673/design-phase2_ztjdex.jpg"
+              alt="kushel"
+              className="c1btimage"
+            />
 
             <div className="cas3s4con" id="cas3s4connn">
-
               <div className="bgshowdb1" id="">
                 {/* <img loading="lazy" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746784464/Group_1171279316_nc1yiv.png" alt="kushel" className="ca2insideimg addheightimage" /> */}
-                <img loading="lazy" src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747158480/Group_1171281286_1_b2cgzf_we0mgd.png" alt="kushel" id="bgshowdb12" />
+                <img
+                  loading="lazy"
+                  src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1747158480/Group_1171281286_1_b2cgzf_we0mgd.png"
+                  alt="kushel"
+                  id="bgshowdb12"
+                />
               </div>
 
               <div className="cas3circldata" id="cas3circldata1">
-                <h4>Smart Integrations  </h4>
+                <h4>Smart Integrations </h4>
                 <p>
-                  We also implemented smart integrations via BigCommerce robust app ecosystem. Our experts integrated CRM tools, inventory management, SEO enhancements, and search filters for an unparalleled performance.
-
-                </p>              </div>
-
+                  We also implemented smart integrations via BigCommerce robust
+                  app ecosystem. Our experts integrated CRM tools, inventory
+                  management, SEO enhancements, and search filters for an
+                  unparalleled performance.
+                </p>{" "}
+              </div>
             </div>
-
           </section>
         </SplideSlide>
-
-
       </Splide>
 
       {/* fivth  section  */}
@@ -450,8 +505,9 @@ function Blackrhinoconcealment() {
           <div className="c2fivtopsec">
             <h4>How we build the E-Commerce development Process</h4>
             <p>
-              Kushel Digi committed to transform your tech solutions into impactful brands by ensuring unique customer experiences at every digital touchpoint through our  structured process.
-
+              Kushel Digi committed to transform your tech solutions into
+              impactful brands by ensuring unique customer experiences at every
+              digital touchpoint through our structured process.
             </p>
           </div>
 
@@ -463,8 +519,9 @@ function Blackrhinoconcealment() {
                 <p
                   key={index}
                   onClick={() => handleSelectionChange(index)}
-                  className={`${selectS4 === index && "addthsomfbg"
-                    } cursor-pointer`}
+                  className={`${
+                    selectS4 === index && "addthsomfbg"
+                  } cursor-pointer`}
                 >
                   {d2Item?.title}
                 </p>
@@ -473,7 +530,12 @@ function Blackrhinoconcealment() {
 
             {/* Right Section with Animation */}
             <div className={`c2fibbotrigh ${animationDirection} `}>
-              <img loading="lazy" src={selectdata?.img} className="selectdataimg" alt="kushel" />
+              <img
+                loading="lazy"
+                src={selectdata?.img}
+                className="selectdataimg"
+                alt="kushel"
+              />
               <div className="serigh_macont">
                 <h4>
                   <span>0{selectS4 + 1}/</span> {selectdata?.title}
@@ -502,7 +564,7 @@ function Blackrhinoconcealment() {
                 interval: 3000,
                 pagination: true,
                 arrows: false,
-                pauseOnHover: false
+                pauseOnHover: false,
               }}
             >
               {d2?.map((item, index) => (
@@ -540,7 +602,6 @@ function Blackrhinoconcealment() {
         </div>
       </section>
 
-
       <div className="Mainresult_Portfolio">
         <div className="result_Portfolio">
           <h5>Result & Impact</h5>
@@ -548,16 +609,21 @@ function Blackrhinoconcealment() {
   The improvement in the website led to significant changes in order placement, more customer flow, and streamlined operation. 
   </h6> */}
           <ul>
-            <li>TBounce ratings started falling and conversion rate increased.</li>
-            <li>User experience turned better and this was visible with more traffic coming on the site. </li>
-            <li>Retention rate got better as automated inventory changed the way users were interaction with the product catalog. </li>
+            <li>
+              TBounce ratings started falling and conversion rate increased.
+            </li>
+            <li>
+              User experience turned better and this was visible with more
+              traffic coming on the site.{" "}
+            </li>
+            <li>
+              Retention rate got better as automated inventory changed the way
+              users were interaction with the product catalog.{" "}
+            </li>
             <li></li>
-
           </ul>
-
         </div>
       </div>
-
 
       {/* six section  */}
       <section className="cs2sexiesec">
@@ -574,15 +640,19 @@ function Blackrhinoconcealment() {
 
         <div className="c2sixconta">
           <div className="cssixtop">
-            <h4>Got a new project idea? Let’s make it happen!            </h4>
-            <p>See how our specialized approach can drive your project forward with impactful results
+            <h4>Got a new project idea? Let’s make it happen! </h4>
+            <p>
+              See how our specialized approach can drive your project forward
+              with impactful results
             </p>
           </div>
 
           <div className="csizbot">
-            <a href="/contact-us"><button>
-              <span>Start a conversation</span>
-            </button></a>
+            <a href="/contact-us">
+              <button>
+                <span>Start a conversation</span>
+              </button>
+            </a>
             {/* <p>Or Start a conversation</p> */}
           </div>
         </div>
@@ -606,9 +676,12 @@ function Blackrhinoconcealment() {
                   <p className="sep2">{project?.title2}</p>
                 </div>
 
-                <a href={project?.link}> <button>
-                  <span>Case study</span>
-                </button></a>
+                <a href={project?.link}>
+                  {" "}
+                  <button>
+                    <span>Case study</span>
+                  </button>
+                </a>
               </div>
             ))}
           </div>

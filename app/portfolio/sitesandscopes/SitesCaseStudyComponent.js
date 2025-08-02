@@ -1,16 +1,16 @@
-"use client"
+"use client";
 // import "./ride.css";
 import { useEffect, useState } from "react";
 import { TiTick } from "react-icons/ti";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
-import './sites.css'
+import "./sites.css";
 
-import '../../globals.css'
+import "../../globals.css";
 import Navbar from "../../COMMON/Navbar";
 import Footer from "../../COMMON/Footer";
+import Link from "next/link";
 function SitesCaseStudyComponent() {
-
   const d1 = [
     {
       title1: "Industries",
@@ -95,25 +95,26 @@ function SitesCaseStudyComponent() {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216954/down1_kgzcrg.png",
       title1: "Topbrass tactical",
       title2: "E-commerce, Bigcomerce ",
-      link: "/topbrasstactical"
+      link: "/topbrasstactical",
     },
     {
       img: "https://res.cloudinary.com/dd9tagtiw/image/upload/v1730216979/down2_m0c8fa.png",
       title1: "Kickeez",
       title2: "E-commerce, Bigcomerce ",
-      link: "/kick-eez"
+      link: "/kick-eez",
     },
     {
       img: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1746541118/image_3_dptpxb.png",
       title1: "A&I Parts Center",
       title2: "E-commerce, Bigcomerce ",
-      link: "/aipartscenter"
+      link: "/aipartscenter",
     },
   ];
 
   const [selectS4, setSelectS4] = useState(0);
   const [selectdata, setSelectdata] = useState(d2[0].data);
-  const [animationDirection, setAnimationDirection] = useState("slide-in-right");
+  const [animationDirection, setAnimationDirection] =
+    useState("slide-in-right");
 
   const handleSelectionChange = (index) => {
     setAnimationDirection("slide-out-left");
@@ -127,8 +128,6 @@ function SitesCaseStudyComponent() {
 
   return (
     <div className="case1wrap home-main">
-
-
       <Navbar />
 
       <link rel="canonical" href="https://www.kusheldigi.com/sitesandscopes" />
@@ -159,9 +158,23 @@ function SitesCaseStudyComponent() {
                 </div>
               </div>
 
-              <p className="ca1firrigh">
-                Sites and Scopes offers high-quality optical gear for outdoor enthusiasts, birdwatchers, wildlife photographers, and tactical users.  It also provides binoculars, rangefinders, night vision devices, and all other items that you need to explore the unseen wonders of outdoor settings.
-              </p>
+              <div className="btn-caseG">
+                <p className="ca1firrigh">
+                  Sites and Scopes offers high-quality optical gear for outdoor
+                  enthusiasts, birdwatchers, wildlife photographers, and
+                  tactical users. It also provides binoculars, rangefinders,
+                  night vision devices, and all other items that you need to
+                  explore the unseen wonders of outdoor settings.
+                </p>
+                <Link
+                  className="btn-case-port"
+                  href="/portfolio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Go Live
+                </Link>
+              </div>
             </div>
 
             {/* secont */}
@@ -195,10 +208,19 @@ function SitesCaseStudyComponent() {
             <h1>Client Background</h1>
 
             <p>
-              However, the modernization and evolution of search engine algorithms have led to low visibility. Though the products are still high in demand, the digital storefront needs some fixes to enhance the customer experience.
+              However, the modernization and evolution of search engine
+              algorithms have led to low visibility. Though the products are
+              still high in demand, the digital storefront needs some fixes to
+              enhance the customer experience.
             </p>
             <p>
-              The moment <strong>Kushel Digi Solutions</strong> figured out the need for some transformation, we stepped into revamping their platform with our expertise. We did our best and handed over an updated website with modern design and functionalities to the client. This project acts as another milestone achievement for us which we successfully completed. We got this project opportunity from <strong>MadFish Solutions</strong> which we are thankful for.
+              The moment <strong>Kushel Digi Solutions</strong> figured out the
+              need for some transformation, we stepped into revamping their
+              platform with our expertise. We did our best and handed over an
+              updated website with modern design and functionalities to the
+              client. This project acts as another milestone achievement for us
+              which we successfully completed. We got this project opportunity
+              from <strong>MadFish Solutions</strong> which we are thankful for.
             </p>
           </div>
         </div>
@@ -210,19 +232,16 @@ function SitesCaseStudyComponent() {
         />
       </section>
 
-
       <div className="PortfolioChallenges">
         <div className="PortfolioChallengeMain">
           <h4>Challenges</h4>
           <div>
-            <h5>
-              ●	Outdated UI
-            </h5>
-            <h5>●	Poor product discovery  </h5>
+            <h5>● Outdated UI</h5>
+            <h5>● Poor product discovery </h5>
 
-            <h5>●	Too many backend limitations </h5>
-            <h5>●	Lack of SEO-friendly elements</h5>
-            <h5>●	Slow site loading time </h5>
+            <h5>● Too many backend limitations </h5>
+            <h5>● Lack of SEO-friendly elements</h5>
+            <h5>● Slow site loading time </h5>
           </div>
         </div>
         <div className="portfolioImageChallenge">
@@ -232,7 +251,6 @@ function SitesCaseStudyComponent() {
             alt="kushel"
           />
         </div>
-
       </div>
 
       {/* third section  */}
@@ -246,11 +264,16 @@ function SitesCaseStudyComponent() {
             </div>
 
             <p className="s3theeparas">
-              Our team is well aware of the potential that this brand has in terms of growth. That’s why we crafted a strategic roadmap that aligns with the mission and vision of Sights and Scopes.
+              Our team is well aware of the potential that this brand has in
+              terms of growth. That’s why we crafted a strategic roadmap that
+              aligns with the mission and vision of Sights and Scopes.
             </p>
 
             <p className="s3theeparas">
-              While starting to work on the project, we realized the layout deserves a fresh perspective. So, we started working on the design part with the help of Figma. However, we preferred BigCommerce for designing <strong>custom b2b ecommerce solutions.</strong>
+              While starting to work on the project, we realized the layout
+              deserves a fresh perspective. So, we started working on the design
+              part with the help of Figma. However, we preferred BigCommerce for
+              designing <strong>custom b2b ecommerce solutions.</strong>
             </p>
           </div>
 
@@ -272,7 +295,7 @@ function SitesCaseStudyComponent() {
           interval: 3000,
           pagination: true,
           arrows: false,
-          pauseOnHover: false
+          pauseOnHover: false,
         }}
       >
         <SplideSlide>
@@ -287,14 +310,18 @@ function SitesCaseStudyComponent() {
                 <img
                   src=" https://res.cloudinary.com/dd9tagtiw/image/upload/v1744699370/Group_1171281294_vdobgy.png"
                   alt="kushel"
-                  className="shadowbg2" id="caBlack_PortCircle"
+                  className="shadowbg2"
+                  id="caBlack_PortCircle"
                 />
               </div>
 
               <div className="cas3circldata2" id="sites_port_circle">
                 <h4>Redesigning with Figma</h4>
                 <p>
-                  The entire UI and UX redesign was completed at Figma. The design aimed to bring clarity with better functionality and ensure that the users can navigate categories without any hassle.
+                  The entire UI and UX redesign was completed at Figma. The
+                  design aimed to bring clarity with better functionality and
+                  ensure that the users can navigate categories without any
+                  hassle.
                 </p>
               </div>
             </div>
@@ -321,7 +348,11 @@ function SitesCaseStudyComponent() {
               <div className="cas3circldata2" id="sites_port_circle">
                 <h4>Migration to BigCommerce</h4>
                 <p>
-                  To encourage future growth, we migrated the entire Sights and Scopes platform to BigCommerce, the best <strong>ecommerce development solution.</strong> This provided the scalability and speed to handle the growing catalog and simplify backend operations.
+                  To encourage future growth, we migrated the entire Sights and
+                  Scopes platform to BigCommerce, the best{" "}
+                  <strong>ecommerce development solution.</strong> This provided
+                  the scalability and speed to handle the growing catalog and
+                  simplify backend operations.
                 </p>
               </div>
             </div>
@@ -330,8 +361,11 @@ function SitesCaseStudyComponent() {
 
         <SplideSlide>
           <section className="case3secfour2">
-            <img className="case4bggirl"
-              src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744697099/Superior_Optics_Unbeatable_Performance._posiad.png" alt="kushel" />
+            <img
+              className="case4bggirl"
+              src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1744697099/Superior_Optics_Unbeatable_Performance._posiad.png"
+              alt="kushel"
+            />
 
             <div className="cas3s4con">
               <div className="bgshowdb2">
@@ -345,17 +379,16 @@ function SitesCaseStudyComponent() {
               <div className="cas3circldata2" id="sites_port_circle">
                 <h4>Enhanced Navigation & Filtering</h4>
                 <p>
-                  By implementing the advanced filtering options, we facilitated the product categorization and restructured the menus. The prospects can easily find scopes by activity, brand, features, and more in just a few clicks.
+                  By implementing the advanced filtering options, we facilitated
+                  the product categorization and restructured the menus. The
+                  prospects can easily find scopes by activity, brand, features,
+                  and more in just a few clicks.
                 </p>
               </div>
             </div>
           </section>
         </SplideSlide>
       </Splide>
-
-
-
-      
 
       {/* fivth  section  */}
       <section className="case2fivsec">
@@ -364,8 +397,9 @@ function SitesCaseStudyComponent() {
           <div className="c2fivtopsec">
             <h4>How we build the E-Commerce development Process</h4>
             <p>
-              Kushel Digi committed to transform your tech solutions into impactful brands by ensuring unique customer experiences at every digital touchpoint through our  structured process.
-
+              Kushel Digi committed to transform your tech solutions into
+              impactful brands by ensuring unique customer experiences at every
+              digital touchpoint through our structured process.
             </p>
           </div>
 
@@ -377,8 +411,9 @@ function SitesCaseStudyComponent() {
                 <p
                   key={index}
                   onClick={() => handleSelectionChange(index)}
-                  className={`${selectS4 === index && "addthsomfbg"
-                    } cursor-pointer`}
+                  className={`${
+                    selectS4 === index && "addthsomfbg"
+                  } cursor-pointer`}
                 >
                   {d2Item?.title}
                 </p>
@@ -387,7 +422,11 @@ function SitesCaseStudyComponent() {
 
             {/* Right Section with Animation */}
             <div className={`c2fibbotrigh ${animationDirection} `}>
-              <img src={selectdata?.img} className="selectdataimg" alt="kushel" />
+              <img
+                src={selectdata?.img}
+                className="selectdataimg"
+                alt="kushel"
+              />
               <div className="serigh_macont">
                 <h4>
                   <span>0{selectS4 + 1}/</span> {selectdata?.title}
@@ -416,7 +455,7 @@ function SitesCaseStudyComponent() {
                 interval: 3000,
                 pagination: true,
                 arrows: false,
-                pauseOnHover: false
+                pauseOnHover: false,
               }}
             >
               {d2?.map((item, index) => (
@@ -454,7 +493,6 @@ function SitesCaseStudyComponent() {
         </div>
       </section>
 
-
       {/* <div className="Mainresult_Portfolio">
         <div className="result_Portfolio">
           <h5>SEO & Technology Integration</h5>
@@ -473,13 +511,26 @@ function SitesCaseStudyComponent() {
           <h5>Result & Impact</h5>
           {/* <p>Our efforts paid off when we noticed the following results and impact:</p> */}
           <ul>
-            <li>Load time decreased significantly, improving bounce rate and session duration</li>
-            <li>Mobile responsiveness saw a major boost, so the brand can capture a growing mobile-first audience</li>
-            <li>Conversions increased with the cleaner interface and a smoother checkout process</li>
-            <li>Organic traffic improved, leading to enhanced pages ranking higher</li>
-            <li>Operational efficiency increased due to automated tools and a more manageable backend</li>
+            <li>
+              Load time decreased significantly, improving bounce rate and
+              session duration
+            </li>
+            <li>
+              Mobile responsiveness saw a major boost, so the brand can capture
+              a growing mobile-first audience
+            </li>
+            <li>
+              Conversions increased with the cleaner interface and a smoother
+              checkout process
+            </li>
+            <li>
+              Organic traffic improved, leading to enhanced pages ranking higher
+            </li>
+            <li>
+              Operational efficiency increased due to automated tools and a more
+              manageable backend
+            </li>
           </ul>
-
         </div>
       </div>
 
@@ -498,15 +549,19 @@ function SitesCaseStudyComponent() {
 
         <div className="c2sixconta">
           <div className="cssixtop">
-            <h4>Got a new project idea? Let’s make it happen!            </h4>
-            <p>See how our specialized approach can drive your project forward with impactful results
+            <h4>Got a new project idea? Let’s make it happen! </h4>
+            <p>
+              See how our specialized approach can drive your project forward
+              with impactful results
             </p>
           </div>
 
           <div className="csizbot">
-            <a href="/contact-us"><button>
-              <span>Start a conversation</span>
-            </button></a>
+            <a href="/contact-us">
+              <button>
+                <span>Start a conversation</span>
+              </button>
+            </a>
           </div>
         </div>
       </section>
@@ -529,9 +584,12 @@ function SitesCaseStudyComponent() {
                   <p className="sep2">{project?.title2}</p>
                 </div>
 
-                <a href={project?.link}> <button>
-                  <span>Case study</span>
-                </button></a>
+                <a href={project?.link}>
+                  {" "}
+                  <button>
+                    <span>Case study</span>
+                  </button>
+                </a>
               </div>
             ))}
           </div>

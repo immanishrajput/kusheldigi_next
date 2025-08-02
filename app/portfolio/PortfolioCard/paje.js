@@ -258,27 +258,27 @@ const portfolioData = [
     line: '|',
     category: ["ecommerce"],
   },
-  {
-    id: 'automotive-16',
-    // companyName: 'Shubhalloys',
-    logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725952993/SHUBHALLOYS_j2i6dz.svg',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745408641/node_js_xqb6ug.png',
-    alt: "SubhAlloy Logo image for portfolio by Kushel Digi Solutions",
-    description: [
-      "UX/UI Website Design", "Website Development", "QA & Website Testing"
-    ],
-    links: {
-      liveStore: 'https://www.phastekperformance.com/',
-      caseStudy: '/portfolio/subhAlloy',
-      platform: '/react-js',
-      platform1: '/node-js'
-    },
-    case: ' View Case Study',
-    case1: 'React js',
-    case2: [" | ", "Node"],
-    line: '|',
-    category: ["website"],
-  },
+  // {
+  //   id: 'automotive-16',
+  //   // companyName: 'Shubhalloys',
+  //   logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725952993/SHUBHALLOYS_j2i6dz.svg',
+  //   platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745408641/node_js_xqb6ug.png',
+  //   alt: "SubhAlloy Logo image for portfolio by Kushel Digi Solutions",
+  //   description: [
+  //     "UX/UI Website Design", "Website Development", "QA & Website Testing"
+  //   ],
+  //   links: {
+  //     liveStore: 'https://www.phastekperformance.com/',
+  //     caseStudy: '/portfolio/subhAlloy',
+  //     platform: '/react-js',
+  //     platform1: '/node-js'
+  //   },
+  //   case: ' View Case Study',
+  //   case1: 'React js',
+  //   case2: [" | ", "Node"],
+  //   line: '|',
+  //   category: ["website"],
+  // },
   {
     id: 'automotive-2',
     // companyName: 'Pro Trucks',
@@ -717,45 +717,45 @@ const portfolioData = [
     line: '|',
     category: ["website"],
   },
-  {
-    id: 'automotive-14',
-    // companyName: 'Wood View',
-    logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725952841/image_76_tovttv.svg',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409212/laravel_ckyqzi.png',
-    alt: "Wood View Logo image for portfolio by Kushel Digi Solutions",
-    description: [
-      "UX/UI Website Design", "Website Development", "QA & Website Testing"
-    ],
-    links: {
-      caseStudy: '/portfolio/woodView',
-      platform: '/bigcommerce-development',
-    },
-    case: ' View Case Study',
-    case1: 'Laravel',
-    line: '|',
-    category: ["website"],
-  },
-  {
-    id: 'automotive-15',
-    // companyName: 'HRMS',
-    logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477326/hrmsname_ljnty9.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745408641/node_js_xqb6ug.png',
-    alt: "HRMS Logo image for portfolio by Kushel Digi Solutions",
-    description: [
-      "UX/UI Website Design", "Website Development", "QA & Website Testing"
-    ],
-    links: {
-      caseStudy: '#',
-      platform: '/react-js',
-      platform1: '/node-js'
+  // {
+  //   id: 'automotive-14',
+  //   // companyName: 'Wood View',
+  //   logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725952841/image_76_tovttv.svg',
+  //   platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409212/laravel_ckyqzi.png',
+  //   alt: "Wood View Logo image for portfolio by Kushel Digi Solutions",
+  //   description: [
+  //     "UX/UI Website Design", "Website Development", "QA & Website Testing"
+  //   ],
+  //   links: {
+  //     caseStudy: '/portfolio/woodView',
+  //     platform: '/bigcommerce-development',
+  //   },
+  //   case: ' View Case Study',
+  //   case1: 'Laravel',
+  //   line: '|',
+  //   category: ["website"],
+  // },
+  // {
+  //   id: 'automotive-15',
+  //   // companyName: 'HRMS',
+  //   logo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1740477326/hrmsname_ljnty9.png',
+  //   platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745408641/node_js_xqb6ug.png',
+  //   alt: "HRMS Logo image for portfolio by Kushel Digi Solutions",
+  //   description: [
+  //     "UX/UI Website Design", "Website Development", "QA & Website Testing"
+  //   ],
+  //   links: {
+  //     caseStudy: '#',
+  //     platform: '/react-js',
+  //     platform1: '/node-js'
 
-    },
-    case: ' View Case Study',
-    case1: "React js",
-    case2: [" | ", "Node"],
-    line: '|',
-    category: ["website"],
-  },
+  //   },
+  //   case: ' View Case Study',
+  //   case1: "React js",
+  //   case2: [" | ", "Node"],
+  //   line: '|',
+  //   category: ["website"],
+  // },
 
   
   {
@@ -792,42 +792,42 @@ const portfolioData = [
   //   line: '|',
   //   category: ["software"],
   // },
-  {
-    id: 'automotive-19',
-    // companyName: 'OBTECH',
-    logo: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1751437338/Group_1171279510_ocghtg.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409465/PHP_az1lyx.png',
-    alt: "Obtech Enterprise Logo image for portfolio by Kushel Digi Solutions",
-    description: [
-      "UX/UI Website Design", "Website Development", "QA & Website Testing"
-    ],
-    links: {
-      caseStudy: '/portfolio/obtechenterprise',
-      platform: '/php',
-    },
-    case: ' View Case Study',
-    case1: 'PHP',
-    line: '|',
-    category: ["software"],
-  },
-  {
-    id: 'automotive-20',
-    // companyName: 'DigitalMnA',
-    logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748270331/Group_1171279472_1_lkh4bv.png',
-    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409710/Next_js1_lcqcpn.png',
-    alt: "Digital MNA Logo image for portfolio by Kushel Digi Solutions",
-    description: [
-      "UX/UI Website Design", "Website Development", "QA & Website Testing"
-    ],
-    links: {
-      caseStudy: '/portfolio/digitalmna',
-      platform: '/next-js',
-    },
-    case: ' View Case Study',
-    case1: 'Next js',
-    line: '|',
-    category: ["software"],
-  },
+  // {
+  //   id: 'automotive-19',
+  //   // companyName: 'OBTECH',
+  //   logo: 'https://res.cloudinary.com/dqjbzgksw/image/upload/v1751437338/Group_1171279510_ocghtg.png',
+  //   platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409465/PHP_az1lyx.png',
+  //   alt: "Obtech Enterprise Logo image for portfolio by Kushel Digi Solutions",
+  //   description: [
+  //     "UX/UI Website Design", "Website Development", "QA & Website Testing"
+  //   ],
+  //   links: {
+  //     caseStudy: '/portfolio/obtechenterprise',
+  //     platform: '/php',
+  //   },
+  //   case: ' View Case Study',
+  //   case1: 'PHP',
+  //   line: '|',
+  //   category: ["software"],
+  // },
+  // {
+  //   id: 'automotive-20',
+  //   // companyName: 'DigitalMnA',
+  //   logo: 'https://res.cloudinary.com/dal5dlztv/image/upload/v1748270331/Group_1171279472_1_lkh4bv.png',
+  //   platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1745409710/Next_js1_lcqcpn.png',
+  //   alt: "Digital MNA Logo image for portfolio by Kushel Digi Solutions",
+  //   description: [
+  //     "UX/UI Website Design", "Website Development", "QA & Website Testing"
+  //   ],
+  //   links: {
+  //     caseStudy: '/portfolio/digitalmna',
+  //     platform: '/next-js',
+  //   },
+  //   case: ' View Case Study',
+  //   case1: 'Next js',
+  //   line: '|',
+  //   category: ["software"],
+  // },
   {
     id: 'automotive-21',
     // companyName: 'Auxible',

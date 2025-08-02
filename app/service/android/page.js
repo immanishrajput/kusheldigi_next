@@ -9,7 +9,7 @@ export const metadata = {
   publisher: "Kushel Digi Solutions",
   metadataBase: new URL("https://www.kusheldigi.com"),
   alternates: {
-    canonical: "https://www.kusheldigi.com/android",
+    canonical: "/service/android",
   },
   robots: {
     index: true,
@@ -27,7 +27,7 @@ export const metadata = {
   openGraph: {
     title: "Best Android App Development Services | Custom Android Apps | Kushel Digi",
     description: "Leading Android app development company offering custom Android app development services. Expert Android developers creating high-quality mobile apps for businesses.",
-    url: "https://www.kusheldigi.com/android",
+    url: "https://www.kusheldigi.com/service/android",
     type: "website",
     siteName: "Kushel Digi Solutions",
     locale: "en_US",

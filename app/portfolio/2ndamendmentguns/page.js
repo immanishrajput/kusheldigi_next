@@ -7,7 +7,7 @@ export const metadata = {
   publisher: "Kushel Digi Solutions",
   metadataBase: new URL("https://www.kusheldigi.com"),
   alternates: {
-    canonical: "https://www.kusheldigi.com/portfolio/2ndamendmentguns",
+    canonical: "/portfolio/2ndamendmentguns",
   },
   robots: {
     index: true,

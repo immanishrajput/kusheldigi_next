@@ -74,10 +74,12 @@ const Solenoid = () => {
                   the materials market is highly volatile, we are currently facing extended lead times beyond the usual duration.
                 </p>
                 <h1>Technologies Used</h1>
+               
                 <div className="main-box-logic flex">
                   <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740467231/opqweeeeeee_m0ewu5.png' id="sim" alt="img"></img>
                   <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740467275/opqweeeeeee2_yddjwy.png' id="rotat" alt="img"></img>
                 </div>
+                
               </div>
               <div className="right-section-kids">
                 <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740466663/solenoidfff_igxb2s.png' id="total-group" alt="img"></img>

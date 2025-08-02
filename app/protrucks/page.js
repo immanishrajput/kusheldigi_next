@@ -292,6 +292,14 @@ const ProTrucks = () => {
                   <h3>Technologies Used</h3>
                   <img className="conjun" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740471344/opqweeeeeee3_wmtvin.png' alt="conjun" />
                 </div>
+                  <Link
+                  className="btn-case-port"
+                  href="https://solenoid-ninja.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Go Live
+                </Link>
               </div>
             </div>
             <div className="azib-images flex items-center justify-center">

@@ -6,13 +6,13 @@ export const metadata = {
   description:
     "Build future-ready online stores with Kushel Digi’s headless commerce. Get custom APIs, multi-channel integration, secure payments, and a seamless user experience.",
   alternates: {
-    canonical: "/headless-commerce",
+    canonical: "/service/headless-commerce",
   },
   openGraph: {
     title: "Headless Commerce Development Services | Kushel Digi Solutions",
     description:
       "Build future-ready online stores with Kushel Digi’s headless commerce. Get custom APIs, multi-channel integration, secure payments, and a seamless user experience. ",
-    url: "https://www.kusheldigi.com/headless-commerce",
+    url: "https://www.kusheldigi.com/service/headless-commerce",
     type: "website",
     images: [
       {

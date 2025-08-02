@@ -3,7 +3,7 @@ import '../../globals.css';
 
 import Footer from '../../COMMON/Footer';
 import Navbar from '../../COMMON/Navbar';
-import DetailBigComChennai from './DetailBigComChennai/page';
+import DetailBigComChennai from './DetailBigComGurgaon/page';
 import HeroBigComChennai from './HeroBigComChennai/page';
 
 
