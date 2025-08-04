@@ -81,6 +81,14 @@ const Ballisticdummylab = () => {
                   <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995220/opqweeeeeee_azs2la.png' id="sim" alt="img"></img>
                   <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995270/opqweeeeeee2_vxdqbc.png' id="rotat" alt="img"></img>
                 </div>
+                 <Link
+                  className="btn-case-port"
+                  href="https://ballisticdummylab.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visit Website
+                </Link>
               </div>
               <div className="right-section-kids">
                 <img loading="lazy" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1738995743/balisticright_kdawdg.png' className="ballisticRi" id="total-group" alt="img"></img>

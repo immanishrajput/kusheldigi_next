@@ -192,19 +192,19 @@ function Bobcatarmament() {
                 />
               </div>
 
-            
               <div className="btn-caseG">
                 <p className="ca1firrigh">
-                Bobcat Armament is a premium supplier of firearms, ammunition,
-                tactical gear, and other accessories for responsible gun owners.{" "}
-              </p>
+                  Bobcat Armament is a premium supplier of firearms, ammunition,
+                  tactical gear, and other accessories for responsible gun
+                  owners.{" "}
+                </p>
                 <Link
                   className="btn-case-port"
                   href="https://www.bobcatarmament.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Go Live
+                  Visit Website
                 </Link>
               </div>
             </div>

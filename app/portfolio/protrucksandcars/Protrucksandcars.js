@@ -85,7 +85,7 @@ const ProTrucks = () => {
       <div className="ser-main">
         <div>
           <div className="side-bg-trio">
-            <div className="first-kick-pads">
+            <div className="first-kick-pads1">
               <div className="left-section-kids">
                 <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472140/pru_yxgfwt.png' className="pru" alt="protrucksandcars logo"></img>
                 <p className="shoots_premium">
@@ -100,6 +100,14 @@ const ProTrucks = () => {
                   <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472204/opqweeeeeee_cu9os9.png' id="sim" alt="img"></img>
                   <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740472246/opqweeeeeee2_h8sne3.png' id="rotat" alt="img"></img>
                 </div>
+                 <Link
+                  className="btn-case-port"
+                  href="https://protrucksandcars.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visit Website
+                </Link>
               </div>
               <div className="right-section-kids">
                 <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740471895/pro-trucks-s_lpnj4a.png' id="total-group" alt="ProTrucks bussiness"></img>

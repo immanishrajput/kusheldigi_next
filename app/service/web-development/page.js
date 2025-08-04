@@ -6,11 +6,11 @@ export const metadata = {
   alternates: {
     canonical: "/service/web-development",
   },
-  title: "Build Your Dream Website Today | Web Development by Kushel Digi.",
+  title: "Build Your Dream Website Today | Web Development by Kushel Digi",
   description:
     "Start your project with Kushel Digi Solutions—experts in custom web development, responsive design, and innovative digital solutions for every industry.",
   openGraph: {
-    title: "Build Your Dream Website Today | Web Development by Kushel Digi.",
+    title: "Build Your Dream Website Today | Web Development by Kushel Digi",
     description:
       "Start your project with Kushel Digi Solutions—experts in custom web development, responsive design, and innovative digital solutions for every industry.",
     url: "https://www.kusheldigi.com/service/web-development",

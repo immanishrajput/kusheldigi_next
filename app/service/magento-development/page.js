@@ -6,7 +6,7 @@ export const metadata = {
   alternates: {
     canonical: "/service/magento-development",
   },
-  title: "Magento Development Experts for eCommerce Success | Kushel Digi.",
+  title: "Magento Development Experts for eCommerce Success | Kushel Digi",
   description:
     "Kushel Digi offers Magento customization, PWA development, extension integration, and ongoing maintenance for secure, scalable, and innovative eCommerce platforms.",
   openGraph: {

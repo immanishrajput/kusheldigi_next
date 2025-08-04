@@ -6,15 +6,15 @@ import "./blogNew.css";
 import pageData from './pageData';
 import Article from './Article/Article';
 
-export default function BlogNew({parentfunct}) {
+export default function BlogNew({ parentfunct }) {
     const [activeTag, setActiveTag] = useState('all');
 
     const tags = [
         { id: 'all', label: 'All blogs' },
-        { id: 'ecommerce', label: 'e-commerce' },
+        { id: 'eCommerce', label: 'e-commerce' },
         { id: 'web-dev', label: 'Web Development' },
-        { id: 'business', label: 'Business' },
-        { id: 'bigcommerce-dev', label: 'BigCommerce Development' },
+        { id: 'Business', label: 'Business' },
+        { id: 'bigcommerce-development', label: 'BigCommerce Development' },
         { id: 'shopify', label: 'Shopify' },
         { id: 'shopify-dev', label: 'Shopify Development' },
         { id: 'headless', label: 'Headless' },
@@ -87,7 +87,7 @@ export default function BlogNew({parentfunct}) {
                                 </span>
                             </div>
                         </div>
-                    </div> : <Article title={activeTag}/>
+                    </div> : <Article title={activeTag} />
                 }
             </div>
         </section>

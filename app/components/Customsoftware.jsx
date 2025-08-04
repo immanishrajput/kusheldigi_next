@@ -12,6 +12,13 @@ import CustomSoftwareSolutions from "../service/custom-software-development/Cust
 import ProcessCustom from "../service/custom-software-development/ProcessCustomSoftware/ProcessCustom";
 import SecondCustomSection from "../service/custom-software-development/SecondCustomSection/SecondCustomSection";
 import MagentoServices from "../service/magento-development/MagentoServices/MagentoServices";
+import CustomBenefits from '../service/custom-software-development/CustomBenefits/page';
+import CustomBanner from '../service/custom-software-development/CustomBanner/page';
+import CustomAbout from '../service/custom-software-development/CustomAbout/page';
+import IndustryCustom from '../service/custom-software-development/IndustryCustom/page';
+import CustomPortfolio from '../service/custom-software-development/CustomPortfolio/page';
+import CustomCallAction from '../service/custom-software-development/CustomCallAction/page';
+import CustomServices from '../service/custom-software-development/CustomServices/page';
 
 const customBenefitData = [
   {
@@ -1504,8 +1511,8 @@ Count on our dedicated support team for prompt assistance, ensuring smooth opera
         <CustomBenefits />
         <IndustryCustom/>
         <CustomCallAction />
-        <CustomServices/> */}
-        {/* <CustomPortfolio/> */}
+        <CustomServices/>
+        <CustomPortfolio/> */}
 
 
 

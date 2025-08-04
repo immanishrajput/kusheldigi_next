@@ -42,8 +42,6 @@ const Solenoid = () => {
     window.open(callUrl, "_blank");
   };
 
-
-
   return (
     <>
       <Head>
@@ -115,13 +113,13 @@ const Solenoid = () => {
                     alt="img"
                   ></img>
                 </div>
-                 <Link
+                <Link
                   className="btn-case-port"
                   href="https://solenoid-ninja.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Go Live
+                  Visit Website
                 </Link>
               </div>
               <div className="right-section-kids">

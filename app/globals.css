@@ -638,7 +638,16 @@ body {
 .first-kick-pads {
   background-color: #085881;
   display: flex;
-  height: 420px;
+  height: 490px;
+  clip-path: polygon(100% 0, 100% 80%, 80% 100%, 0 100%, 0 0);
+  background-position: top 0 right 30px;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+.first-kick-pads1 {
+  background-color: #085881;
+  display: flex;
+  height: 510px;
   clip-path: polygon(100% 0, 100% 80%, 80% 100%, 0 100%, 0 0);
   background-position: top 0 right 30px;
   background-repeat: no-repeat;
@@ -650,7 +659,15 @@ body {
 }
 
 .incheingh {
-  height: 545px;
+  height: 610px;
+}
+.incheingh1 {
+  height: 535px;
+}
+@media screen and (max-width:1024px) {
+  .incheingh {
+  height: 680px;
+}
 }
 
 .incheingh11 {
@@ -719,7 +736,7 @@ body {
   position: absolute;
   left: 45%;
   top: 0;
-  padding: 20px 0;
+  padding: 42px 0;
 }
 
 .ramit {
@@ -803,7 +820,7 @@ body {
 
 .main-box-logic {
   padding-top: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 #sim {
@@ -75798,6 +75815,11 @@ input::-webkit-inner-spin-button {
   justify-content: space-between;
   align-items: center;
 }
+.blogClockTime2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .bimageloDiPaara::after {
   content: "";
@@ -75886,6 +75908,10 @@ input::-webkit-inner-spin-button {
 
 @media (max-width: 1200px) {
   .blogClockTime1 {
+    justify-content: space-between;
+    gap: 0px;
+  }
+  .blogClockTime2 {
     justify-content: space-between;
     gap: 0px;
   }
@@ -76053,6 +76079,10 @@ input::-webkit-inner-spin-button {
   }
 
   .blogClockTime1 {
+    gap: 0px;
+    justify-content: space-between;
+  }
+  .blogClockTime2 {
     gap: 0px;
     justify-content: space-between;
   }
@@ -77066,7 +77096,7 @@ input::-webkit-inner-spin-button {
   font-size: 45px;
   font-weight: 800;
   font-family: "Poppins", sans-serif !important;
-  max-width: 1400px;
+  max-width: 1350px;
   margin: auto;
 }
 
@@ -78515,7 +78545,7 @@ width: 35%;
     border: none;
     cursor: pointer;
     outline: none;
-    margin: auto;
+    /* margin: auto; */
     border-radius: 50px;
     
 }

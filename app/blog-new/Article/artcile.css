@@ -15,7 +15,7 @@
 
 .articles-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(3,1fr);
   gap: 24px;
   border-top: 1px solid #ccc;
   padding-top: 24px;
@@ -43,6 +43,7 @@
 
 .article-content {
   padding: 16px;
+  min-height: 220px;
 }
 
 .article-date {
@@ -57,6 +58,9 @@
   font-weight: 600;
   color: #111;
   line-height: 1.4;
+}
+.article-desc{
+  margin-top: 10px;
 }
 @media screen and (max-width: 425px) {
   .articles-container {

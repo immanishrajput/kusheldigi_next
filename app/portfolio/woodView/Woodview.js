@@ -99,6 +99,15 @@ const WoodView = () => {
                   {/* <img className="pokli" src={omis1} id="rotat" alt="img"></img> */}
                   <img src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740401520/omis2_txza3q.svg' id="rotat" alt="img"></img>
                 </div>
+
+                  <Link
+                  className="btn-case-port"
+                  href="/portfolio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visit Website
+                </Link>
               </div>
               <div className="right-section-kids ramit">
                 <img className="sotal-group" src='https://res.cloudinary.com/dd9tagtiw/image/upload/v1740402063/renid_zvwlcc.svg' id="total-group" alt="img"></img>

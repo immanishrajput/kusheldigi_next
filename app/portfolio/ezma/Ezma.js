@@ -188,21 +188,20 @@ function Ezma() {
                 />
               </div>
 
-              
-               <div className="btn-caseG">
-               <p className="ca1firrigh">
-                Ezma is a sustainable and elegant brand that delivers comfort
-                and warmth with its Cashmere Scarves. The brand is committed to
-                creating them through expert craftsmanship, blending traditional
-                techniques with technology for optimal results.{" "}
-              </p>
+              <div className="btn-caseG">
+                <p className="ca1firrigh">
+                  Ezma is a sustainable and elegant brand that delivers comfort
+                  and warmth with its Cashmere Scarves. The brand is committed
+                  to creating them through expert craftsmanship, blending
+                  traditional techniques with technology for optimal results.{" "}
+                </p>
                 <Link
                   className="btn-case-port"
                   href="https://ezma.co.in/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Go Live
+                  Visit Website
                 </Link>
               </div>
             </div>

@@ -54,8 +54,6 @@ const SubhAlloys = () => {
     window.open(callUrl, "_blank");
   };
 
-
-
   return (
     <>
       <Head>
@@ -99,7 +97,7 @@ const SubhAlloys = () => {
       <div className="ser-main">
         <div>
           <div className="side-bg-trio">
-            <div className="first-kick-pads last-kick-pad incheingh">
+            <div className="first-kick-pads last-kick-pad incheingh1">
               <div className="left-section-kids">
                 <img
                   src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1740460708/subh_tobjrf.svg"
@@ -133,11 +131,11 @@ const SubhAlloys = () => {
                 </div>
                 <Link
                   className="btn-case-port"
-                  href="https://solenoid-ninja.com/"
+                  href="/portfolio"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Go Live
+                  Visit Website
                 </Link>
               </div>
               <div className="right-section-kids ramit">

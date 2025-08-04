@@ -191,20 +191,19 @@ function Digitalmna() {
                 />
               </div>
 
-             
               <div className="btn-caseG">
-               <p className="ca1firrigh">
-                In the world of digital marketing, Digital MNA is rocking as a
-                performance-driven digital marketing agency.It offers services
-                in SEO, content strategy, paid media, and social media.{" "}
-              </p>
+                <p className="ca1firrigh">
+                  In the world of digital marketing, Digital MNA is rocking as a
+                  performance-driven digital marketing agency.It offers services
+                  in SEO, content strategy, paid media, and social media.{" "}
+                </p>
                 <Link
                   className="btn-case-port"
                   href="https://digitalmna.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Go Live
+                  Visit Website
                 </Link>
               </div>
             </div>

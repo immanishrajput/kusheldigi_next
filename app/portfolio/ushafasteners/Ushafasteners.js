@@ -191,21 +191,19 @@ function Ushafast() {
                 />
               </div>
 
-             
-
               <div className="btn-caseG">
                 <p className="ca1firrigh">
-                Usha Fastener is a cutting-edge brand of industrial fasteners
-                and precision components. It deals with the manufacturing of
-                bolts, screws, washers, nuts, and much more.{" "}
-              </p>
+                  Usha Fastener is a cutting-edge brand of industrial fasteners
+                  and precision components. It deals with the manufacturing of
+                  bolts, screws, washers, nuts, and much more.{" "}
+                </p>
                 <Link
                   className="btn-case-port"
                   href="https://www.ushafasteners.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Go Live
+                  Visit Website
                 </Link>
               </div>
             </div>
