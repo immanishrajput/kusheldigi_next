@@ -75,9 +75,11 @@ export default function Page() {
     <>
       <Navbar />
       <BlogNew parentfunct={parentfunct} />
+      {show === "all" ? <Article title="Latest" /> :""}
       {show === "all" ? <Article title="eCommerce" /> :""}
-      {show === "all" ? <Article title="Buisness" /> :""}
       {show === "all" ? <Article title="web-dev" /> :""}
+      {show === "all" ? <Article title="Business" /> :""}
+      {show === "all" ? <Article title="bigcommerce-development" /> :""}
       {show === "all" ? <Article title="shopify" /> :""}
       <SectionAll />
       <Footer />

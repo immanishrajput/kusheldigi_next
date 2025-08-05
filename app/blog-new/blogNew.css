@@ -24,6 +24,12 @@
   justify-content: space-between;
   align-items: center;
 }
+.blogClockTime2 {
+  margin:10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .tags {
   display: flex;
   flex-wrap: wrap;
@@ -79,6 +85,7 @@
   flex-wrap: wrap;
   gap: 30px;
   align-items: stretch;
+  padding: 0px 60px;
 }
 
 .blog-image {
@@ -118,6 +125,10 @@
     justify-content: space-between;
     gap: 0px;
   }
+  .blogClockTime2 {
+    justify-content: space-between;
+    gap: 0px;
+  }
 }
 @media screen and (max-width: 850px) {
   .blog-container h1 {
@@ -146,6 +157,9 @@
   .blog-main-con {
     padding: 0px 20px;
   }
+  .blog-post {
+  padding: 0px 20px;
+}
   .blog-content h2 {
     font-size: 22px;
   }
@@ -157,6 +171,10 @@
     font-size: 11px;
   }
   .blogClockTime1 {
+    gap: 0px;
+    justify-content: space-between;
+  }
+  .blogClockTime2 {
     gap: 0px;
     justify-content: space-between;
   }
