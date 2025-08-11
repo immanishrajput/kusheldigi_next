@@ -9,6 +9,21 @@ import Article from './Article/Article';
 export default function BlogNew({ parentfunct }) {
     const [activeTag, setActiveTag] = useState('all');
 
+    
+    const articles = [
+        //Latest
+        {
+            id: 1,
+            category: "Latest",
+            culture: "More in Culture",
+            title: "BigCommerce System Integration For Large Catalog Management",
+            desc: "We provide innovative digital solutions tailored to your business needs. From web and mobile app development to SEO and eCommerce integration, our expert team ensures your online presence stands out. With a focus on quality, creativity, and performance, we help businesses grow and succeed in the digital world.",
+            date: "24 JUNE 2025",
+            image: "https://res.cloudinary.com/dt2lhechn/image/upload/v1750764362/blog_images/hvvxvh4geaikafxjm5oy.jpg",
+            alt: "Article 1"
+        },
+    ]
+
     const tags = [
         { id: 'all', label: 'All blogs' },
         { id: 'eCommerce', label: 'e-commerce' },
@@ -35,7 +50,16 @@ export default function BlogNew({ parentfunct }) {
         parentfunct(id)
     };
 
+
+    function slugify(title) {
+        return title
+            .toLowerCase()
+            .replace(/[^a-z0-9\s-]/g, '')
+            .trim()
+            .replace(/\s+/g, '-');
+    }
     return (
+        <>
         <section className="blog-main-con">
             <div className="blog-container">
                 <h1 className="heading">Innovate With Us</h1>
@@ -59,15 +83,24 @@ export default function BlogNew({ parentfunct }) {
                         }}
                     />
                 </div>
-                {
+              
+            </div>
+        </section>
+          {
                     activeTag === "all" ? <div className="blog-post">
-                        <div className="blog-image">
-                            <img
-                                src="https://res.cloudinary.com/dt2lhechn/image/upload/v1750764362/blog_images/hvvxvh4geaikafxjm5oy.jpg"
-                                alt="Blog Post"
-                                //   layout="fill"
-                                objectFit="cover" />
-                        </div>
+                        {articles                           
+                            .map((article) => (
+                                <Link
+                                    key={article.id}
+                                    href={`/blog-new/${slugify(article.title)}`}
+                                    className="blog-image">
+                                    <img
+                                        src="https://res.cloudinary.com/dt2lhechn/image/upload/v1750764362/blog_images/hvvxvh4geaikafxjm5oy.jpg"
+                                        alt="Blog Post"
+                                        //   layout="fill"
+                                        objectFit="cover" />
+                                </Link>
+                            ))}
                         <div className="blog-content">
                             <p className="date">24 JUNE 2025</p>
                             <h2>BigCommerce System Integration for Large Catalog Management</h2>
@@ -87,10 +120,11 @@ export default function BlogNew({ parentfunct }) {
                                 </span>
                             </div>
                         </div>
-                    </div> : <Article title={activeTag} />
+
+                    </div> : <Article   title={activeTag} />
+
                 }
-            </div>
-        </section>
+        </>
     );
 }
 

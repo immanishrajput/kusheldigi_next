@@ -2,7 +2,7 @@
 
 .article-detail {
   max-width: 1720px;
-  margin: 135px auto;
+  margin: 135px 0px auto;
   padding: 20px;
   background: #fdfcfa;
   border-radius: 12px;
@@ -11,7 +11,16 @@
   line-height: 1.7;
   color: #000000f0;
 }
-
+.bott-icon {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.icon-f {
+  background-color: #d3d5d8;
+  padding: 10px;
+  border-radius: 50px;
+}
 .article-detail h1 {
   margin-top: 160px;
   line-height: 60px;
@@ -41,44 +50,6 @@
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
 }
 
-/* .article-content p {
-  font-size: 1.05rem;
-  margin: 16px 0;
-}
-
-.article-content h2 {
-  font-size: 1.6rem;
-  margin-top: 36px;
-  margin-bottom: 12px;
-  color: #4a4a4a;
-  border-bottom: 2px solid #e5e5e5;
-  padding-bottom: 6px;
-}
-
-.article-content h3 {
-  font-size: 1.25rem;
-  margin-top: 28px;
-  color: #5c5c5c;
-}
-
-.article-content ul {
-  margin-top: 12px;
-  margin-left: 20px;
-  padding-left: 16px;
-  list-style: disc;
-}
-
-.article-content li {
-  margin-bottom: 10px;
-  font-size: 1rem;
-  color: #444;
-  transition: all 0.2s ease-in;
-} */
-
-/* .article-content li:hover {
-  color: #ff5c39;
-  transform: translateX(4px);
-} */
 .article-content {
   position: relative;
 }
@@ -87,9 +58,9 @@
   margin: auto;
 }
 .cta-Banner {
-  position: absolute;
-  top: 0;
-  right: 70px;
+  position: sticky;
+  top: 50%;
+  right: 80px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -100,7 +71,7 @@
   margin-top: 70px;
   display: flex;
   padding: 20px 15px !important;
-  gap: 125px;
+  gap: 105px;
   align-items: start;
 }
 .blog-by {
@@ -117,14 +88,14 @@
 }
 
 .pd-n p {
-  font-size: 14px;
+  font-size: 16px;
   text-transform: uppercase;
   line-height: 20px;
   font-weight: 400;
 }
 
 .main-contt-sec {
-  width: 763px;
+  max-width: 763px;
   font-size: 18px;
   font-weight: 400;
 }
@@ -133,15 +104,15 @@
   font-weight: 400;
   line-height: 2rem;
   /* letter-spacing: none !important; */
-  font-size: 16px;
+  font-size: 18px;
 }
 .subhead1 {
-  font-size: 2rem !important;
-  font-weight: 600 !important;
+  font-size: 32px !important;
+  font-weight: 800 !important;
   padding: 10px 0px 10px 0px !important;
 }
 .small-head1 {
-  font-size: 1.25rem;
+  font-size: 24px;
   margin-top: 28px;
   font-weight: 600;
 }
@@ -150,11 +121,11 @@
   padding-left: 20px;
   padding-left: 16px;
   list-style: disc;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .small-head2 {
-  font-size: 1.25rem;
+  font-size: 24px;
   margin-top: 28px;
   font-weight: 600;
 }
@@ -163,13 +134,13 @@
   padding-left: 20px;
   padding-left: 16px;
   list-style: disc;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .small-head3 {
-  font-size: 1.25rem;
+  font-size: 26px;
   margin-top: 28px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0;
 }
 .ul-3 {
@@ -177,7 +148,7 @@
   padding-left: 20px;
   padding-left: 16px;
   list-style: decimal;
-  font-size: 14px;
+  font-size: 16px;
 }
 .more-img img {
   border-radius: 10px;
@@ -186,7 +157,6 @@
   margin: 20px auto;
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
 }
-
 
 .table-container {
   margin: 2rem 0;
@@ -198,7 +168,7 @@
 .custom-table {
   width: 100%;
   border-collapse: collapse;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #ffffff;
   border: 1px solid #cbd5e0; /* ✅ Table outer border */
 }
@@ -230,10 +200,62 @@
   transition: background-color 0.2s ease;
 }
 
+@media (max-width: 850px) {
+  .contt-sec {
+    flex-direction: column-reverse;
+  }
+  .article-detail h1 {
+    line-height: 40px;
+    font-size: 32.5px;
+  }
+  .subhead1 {
+    font-size: 26px !important;
+  }
+  .small-head2 {
+    font-size: 26px !important;
+  }
+  .small-head3 {
+    font-size: 26px !important;
+  }
+}
 @media (max-width: 600px) {
   .custom-table th,
   .custom-table td {
     font-size: 12px;
     padding: 10px;
+  }
+  .subhead1 {
+    font-size: 24px !important;
+  }
+  .small-head2 {
+    font-size: 24px !important;
+  }
+  .small-head3 {
+    font-size: 24px !important;
+  }
+  .bott-icon {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+@media (max-width: 400px) {
+  .article-detail h1 {
+    line-height: 28px;
+    font-size: 23.5px;
+  }
+  .subhead1 {
+    font-size: 20px !important;
+  }
+  .small-head2 {
+    font-size: 20px !important;
+  }
+  .small-head3y {
+    font-size: 20px !important;
+  }
+  .article-content {
+    padding: 0px !important;
+  }
+  .contt-sec {
+    padding: 0px !important;
   }
 }

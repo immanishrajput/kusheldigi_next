@@ -85,6 +85,7 @@
   flex-wrap: wrap;
   gap: 30px;
   align-items: stretch;
+  padding: 0px 60px;
 }
 
 .blog-image {
@@ -156,6 +157,9 @@
   .blog-main-con {
     padding: 0px 20px;
   }
+  .blog-post {
+  padding: 0px 20px;
+}
   .blog-content h2 {
     font-size: 22px;
   }

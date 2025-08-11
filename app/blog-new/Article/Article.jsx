@@ -20,6 +20,7 @@ const articles = [
   {
     id: 1,
     category: "Latest",
+    culture: "More in Culture",
     title: "BigCommerce System Integration For Large Catalog Management",
     desc:"We provide innovative digital solutions tailored to your business needs. From web and mobile app development to SEO and eCommerce integration, our expert team ensures your online presence stands out. With a focus on quality, creativity, and performance, we help businesses grow and succeed in the digital world.",
     date: "24 JUNE 2025",
@@ -29,6 +30,7 @@ const articles = [
   {
     id: 2,
     category: "Latest",
+    culture: "More in Culture",
     title: "The Best E-Commerce Frameworks For Online Selling In 2025",
     desc:"We provide innovative digital solutions tailored to your business needs. From web and mobile app development to SEO and eCommerce integration, our expert team ensures your online presence stands out. With a focus on quality, creativity, and performance, we help businesses grow and succeed in the digital world.",
     date: "18 JUNE 2025",
@@ -38,6 +40,7 @@ const articles = [
   {
     id: 3,
     category: "Latest",
+    culture: "More in Culture",
     title: "The Growing Demand For Sustainable E-Commerce: Creating Eco-Friendly Online Stores",
     desc:"We provide innovative digital solutions tailored to your business needs. From web and mobile app development to SEO and eCommerce integration, our expert team ensures your online presence stands out. With a focus on quality, creativity, and performance, we help businesses grow and succeed in the digital world.",
     date: "12 JUNE 2025",
@@ -298,7 +301,7 @@ export default function Article({ title }) {
       <h2 className="heading">{title}</h2>
       <div className="articles-container">
         {articles
-          .filter((article) => article.category === title)
+          .filter((article) => article.category === title || article.culture === title)
           .map((article) => (
             <Link
               key={article.id}

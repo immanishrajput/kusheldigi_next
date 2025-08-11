@@ -4,6 +4,9 @@
   font-family: "Poppins", sans-serif;
   margin-top: 40px;
 }
+.extraClas {
+  padding: 40px 0px !important;
+}
 
 .heading {
   font-size: 2.5rem;
@@ -15,7 +18,7 @@
 
 .articles-container {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   border-top: 1px solid #ccc;
   padding-top: 24px;
@@ -59,20 +62,43 @@
   color: #111;
   line-height: 1.4;
 }
-.article-desc{
+.article-desc {
   margin-top: 10px;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1150px) {
+  .article-content {
+    min-height: 319px;
+  }
+}
+@media screen and (max-width: 1000px) {
   .articles-container {
-    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .article-content {
+    min-height: 200px;
+  }
+  .blog-content {
+    max-width: 1400px !important;
+  }
+}
+@media screen and (max-width: 630px) {
+  .articles-container {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 480px) {
+  .heading {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 380px) {
   .latest-articles {
     padding: 40px 24px;
   }
+}
+@media screen and (max-width: 330px) {
   .article-card {
-    width: 270px;
+    max-width: 270px;
   }
 }
