@@ -10,7 +10,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Expert eCommerce & BigCommerce Development Company | Kushel Digi",
+  title: "Expert eCommerce & BigCommerce Development Company ",
   description: "Work with 8+ year ecommerce experts to build, optimize, and grow your ecommerce store—BigCommerce and Shopify design, development, integrations, and apps.",
   keywords: [
     "Best Web Design Agency",

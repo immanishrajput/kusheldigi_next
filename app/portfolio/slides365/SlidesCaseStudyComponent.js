@@ -111,6 +111,14 @@ const SlidesCaseStudyComponent = () => {
                     alt="img"
                   ></img>
                 </div>
+                 <Link
+                  className="btn-case-port"
+                  href="https://slides365.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visit Website
+                </Link>
               </div>
               <div className="right-section-kids">
                 <img

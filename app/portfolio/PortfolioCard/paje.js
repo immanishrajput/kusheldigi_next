@@ -375,25 +375,25 @@ const portfolioData = [
     line: '|',
     category: ["ecommerce"],
   },
-  // {
-  //   id: 'automotive-8',
-  //   // companyName: 'Slides365',
-  //   logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725953057/slide_1_gelwuz.svg',
-  //   platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
-  //   alt: "Slides 365 Logo image for portfolio by Kushel Digi Solutions",
-  //   description: [
-  //     "UX/UI Website Design", "Website Development", "QA & Website Testing"
-  //   ],
-  //   links: {
-  //     liveStore: 'https://www.phastekperformance.com/',
-  //     caseStudy: '/portfolio/slides365',
-  //     platform: '/bigcommerce-development',
-  //   },
-  //   case: ' View Case Study',
-  //   case1: 'BigCommerce',
-  //   line: '|',
-  //   category: ["ecommerce"],
-  // },
+  {
+    id: 'automotive-8',
+    // companyName: 'Slides365',
+    logo: 'https://res.cloudinary.com/ecommerce-website/image/upload/v1725953057/slide_1_gelwuz.svg',
+    platformLogo: 'https://res.cloudinary.com/dd9tagtiw/image/upload/v1744283247/bigcommerce-logo_1_hhzwuv.svg',
+    alt: "Slides 365 Logo image for portfolio by Kushel Digi Solutions",
+    description: [
+      "UX/UI Website Design", "Website Development", "QA & Website Testing"
+    ],
+    links: {
+      liveStore: 'https://www.phastekperformance.com/',
+      caseStudy: '/portfolio/slides365',
+      platform: '/bigcommerce-development',
+    },
+    case: ' View Case Study',
+    case1: 'BigCommerce',
+    line: '|',
+    category: ["ecommerce"],
+  },
 
  
 

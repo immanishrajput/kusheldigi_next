@@ -135,6 +135,14 @@ const KickeezComponent = () => {
                     alt="img"
                   ></img>
                 </div>
+                 <Link
+                  className="btn-case-port"
+                  href="https://kickeezproducts.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visit Website
+                </Link>
               </div>
               <div className="right-section-kids">
                 <img

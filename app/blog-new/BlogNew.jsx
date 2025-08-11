@@ -120,7 +120,9 @@ export default function BlogNew({ parentfunct }) {
                                 </span>
                             </div>
                         </div>
+
                     </div> : <Article   title={activeTag} />
+
                 }
         </>
     );

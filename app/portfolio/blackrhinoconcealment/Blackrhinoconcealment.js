@@ -161,20 +161,20 @@ function Blackrhinoconcealment() {
                 </div>
               </div>
 
-              
               <div className="btn-caseG">
-               <p className="ca1firrigh">
-                Black Rhino Concealment is an esteemed brand of firearms
-                holsters and tactical gear. Since 2014, it has been a
-                trailblazer for offering custom Kydex holsters and accessories.
-              </p>
+                <p className="ca1firrigh">
+                  Black Rhino Concealment is an esteemed brand of firearms
+                  holsters and tactical gear. Since 2014, it has been a
+                  trailblazer for offering custom Kydex holsters and
+                  accessories.
+                </p>
                 <Link
                   className="btn-case-port"
                   href="/portfolio"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Go Live
+                  Visit Website
                 </Link>
               </div>
             </div>

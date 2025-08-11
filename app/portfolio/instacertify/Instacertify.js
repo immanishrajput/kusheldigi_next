@@ -196,7 +196,14 @@ function Instacertify() {
                   dedicatedly working to meet compliance needs of individuals
                   and businesses.{" "}
                 </p>
-                <Link className="btn-case-port" href="https://instacertify.com" target="_blank" rel="noopener noreferrer">Go Live</Link>
+                <Link
+                  className="btn-case-port"
+                  href="https://instacertify.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visit Website
+                </Link>
               </div>
             </div>
 

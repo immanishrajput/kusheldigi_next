@@ -170,7 +170,7 @@ function AiPartComponent() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Go Live
+                  Visit Website
                 </Link>
               </div>
             </div>
