@@ -6,7 +6,7 @@ const pageData = [
     category: "ecommerce",
     soc_icon: ["/facebook", "/linkedin", "/twitter"],
     banner: [
-      "https://res.cloudinary.com/dxlykgx6w/image/upload/v1754051727/new-img_hslt4h.webp",
+      "https://res.cloudinary.com/dxlykgx6w/image/upload/v1754905681/blog-banner-copyn_ffltfr.jpg",
     ],
     head: "BigCommerce System Integration For Large Catalog Management",
     image:
@@ -212,48 +212,7 @@ const pageData = [
         "If you’re prepared to optimize your BigCommerce platform, then get in touch with our e-commerce development company right now.  Allow our integration experts to create tailored solutions for you.",
       ],
 
-      // ✅ First Table: Inventory Sync Report
-      // table1: {
-      //   title: "Inventory Sync Report",
-      //   columns: ["SKU", "Product Name", "Inventory Status", "Last Synced"],
-      //   rows: [
-      //     [
-      //       "SKU12345",
-      //       "Men's Running Shoes",
-      //       "In Stock",
-      //       "2025-07-28 08:34 AM",
-      //     ],
-      //     [
-      //       "SKU23456",
-      //       "Wireless Earbuds",
-      //       "Out of Stock",
-      //       "2025-07-28 09:12 AM",
-      //     ],
-      //     ["SKU34567", "Yoga Mat", "Low Stock", "2025-07-28 10:45 AM"],
-      //     ["SKU45678", "Bluetooth Speaker", "In Stock", "2025-07-28 11:10 AM"],
-      //     ["SKU56789", "Smartwatch", "In Stock", "2025-07-28 11:45 AM"],
-      //   ],
-      // },
-
-      // ✅ Second Table: Platform Integration Overview
-      // table2: {
-      //   title: "Platform Integration Overview",
-      //   columns: ["System", "Integration Type", "Status", "Frequency"],
-      //   rows: [
-      //     ["ERP (SAP)", "Two-way Sync", "Active", "Hourly"],
-      //     ["CRM (HubSpot)", "One-way Push", "Active", "Daily"],
-      //     ["WMS (ShipBob)", "Two-way Sync", "Pending", "Every 2 Hours"],
-      //     [
-      //       "Analytics (Google Data Studio)",
-      //       "Read-only",
-      //       "Active",
-      //       "Real-time",
-      //     ],
-      //     ["PIM (Akeneo)", "Two-way Sync", "Active", "Every 30 Minutes"],
-      //     ["POS System", "One-way Pull", "Disabled", "Manual"],
-      //     ["Email Marketing", "One-way Push", "Active", "Nightly"],
-      //   ],
-      // },
+     
     },
   },
   {
@@ -419,6 +378,171 @@ const pageData = [
           ["WooCommerce", "Partial", "Requires plugins", "Client-side"],
         ],
       },
+    },
+  },
+  {
+    id: 4,
+    title: "How Much Does It Cost to Hire a Web Development Company in Delhi?",
+    category: "web-development",
+    soc_icon: ["/facebook", "/linkedin", "/twitter"],
+    banner: [
+      "https://res.cloudinary.com/dxlykgx6w/image/upload/v1754905681/blog-banner-copyn_ffltfr.jpg",
+    ],
+    head: "How Much Does It Cost to Hire a Web Development Company in Delhi?",
+    image:
+      "https://res.cloudinary.com/dxlykgx6w/image/upload/v1754905681/blog-banner-copyn_ffltfr.jpg",
+    date: "August 11, 2025",
+    time: "10:30 AM",
+    author: {
+      name: "Kushel Digi Solutions",
+      designation: "Web Development Experts",
+    },
+    content: {
+      paragraphs: [
+        "Want to create an online store? But don't know where to start? You are not alone. Every business, from startups to large enterprises, needs an online presence. That is why the demand for web designing services in Delhi is increasing.",
+        "However, one major problem that arises is, what will the expenditure be? In this article, we shall discuss the web development pricing in Delhi so that you can make an informed budgeting decision.",
+      ],
+      subHeading: "Quick Answer: Web Development Cost in Delhi at a Glance",
+      subParagraph: [
+        "As discussed in the previous section, the price of web development services in Delhi is determined by the design and complexity of the work, domain and hosting services, technologies serviced and other post-launch support services.",
+        "A basic site can be created for ₹10,000 to ₹30,000. An ecommerce website is more expensive, ranging from ₹20,000 to ₹1,25,000. A fully customised website with specific requirements like tailored features, pages, and designs starts at ₹1,00,000.",
+      ],
+      subHeading11:
+        "What’s the Cost of Web Design and Development Services in Delhi?",
+      subParagraph11: [
+        "Understanding the pricing associated with web design and development is pivotal if you are considering hiring a website development company in Delhi. Their estimated cost is as follows:",
+      ],
+      table1: {
+        title: "Web Design and Development Estimated Costs",
+        columns: ["Website Type", "Cost in INR"],
+        rows: [
+          ["Basic Business Website", "₹10,000 – ₹30,000"],
+          ["E-commerce Website", "₹20,000 – ₹1,25,000"],
+          ["Custom Web Application", "₹1,00,000 – ₹5,00,000+"],
+          ["Website Redesign", "₹20,000 – ₹70,000"],
+          ["Ongoing Maintenance & Support", "₹3,000 – ₹15,000/month"],
+        ],
+      },
+
+      subHeading2: "Factors That Influence Web Design Cost in Delhi",
+      subParagraph2: [
+        "Many Factors influence the custom web development in Delhi, such as website type, custom or template choice, complexity and many more. Understanding these will help you in finalizing the budget according to them.",
+      ],
+
+       smallHeading3:
+        "An expert customization agency assists with the integration of systems such as",
+      bulletPoints3: [
+        "Tools for inventory management",
+        "Platforms for drop shipping",
+        "Systems for multi-channel sales (such as eBay and Amazon)",
+        "ERP and CRM systems",
+      ],
+
+      paragraph1: [
+        "You can increase accuracy, speed, and control. It can easily happen without proper management of minute data entry. It occurs when all of these tools talk to one another.",
+      ],
+      smallHeading4: "1. Project Complexity",
+      bulletPoints4: [
+        "Simple projects cost less as compared to more complex business websites. Pages, user forms, login systems, and integrations affect the pricing model.",
+      ],
+      smallHeading5: "2. Custom vs. Template",
+      bulletPoints5: [
+        "It is less expensive to use a template, but it is more costly to create custom, one-of-a-kind websites.",
+      ],
+      smallHeading6: "3. CMS/Tech Stack",
+      bulletPoints6: [
+        "Custom-created websites are costly; however, platforms like WordPress web development in Delhi and Shopify web development in Delhi are reasonably priced.",
+      ],
+      smallHeading7: "4. Experience & Reputation",
+      bulletPoints7: [
+        "The best web development company in Delhi will charge more, but you can be confident that the work will be done on time and with quality.",
+      ],
+      smallHeading8: "5. Urgency",
+      bulletPoints8: [
+        "Due to a priority basis, shorter timelines are more expensive. A longer timetable will be less costly.",
+      ],
+      smallHeading9: "6. Add-ons",
+      bulletPoints9: [
+        "The total cost of web application development in Delhi is also impacted by the addition of services like SEO, hosting, content authoring, and responsive web design.",
+      ],
+
+        subHeading22: "Common Pricing Models for Web Development Services",
+      subParagraph22: [
+"While working with a web development company in Delhi, you have an option to select from a number of well-known pricing models. To assist you better, let us explain three common pricing models."
+      ],
+
+       smallHeading44:
+        "1. Fixed Price Model ",
+      bulletPoints44: [
+        "For small businesses and micro websites like portfolio sites. It includes a mobile-friendly website design, SEO, CMS, and basic design services in Delhi.",
+      ],
+
+
+      smallHeading55: "2. Hourly Rate Model",
+      bulletPoints55: [
+"Ideal for evolving or established websites, ranging from ₹500–₹2,000/hour. Paying for real-time development."
+      ],
+      smallHeading66: "  3. Retainer Model",
+      bulletPoints66: [
+
+      
+"Ideal for ongoing needs. If you want continuing support, monthly maintenance, and security checks, then the Retainer model is best for you.",
+"Choose the best model for your website according to your needs and budget, and the amount of interference you want from your web development agency in Delhi."
+      ],
+
+ subHeadingNew: "What’s Usually Included in Web Design Packages?",
+subParagraphNew: [
+  "When you hire a web design agency in Delhi, normal packages often include responsive design, CMS integration (such as WordPress web development or bespoke platforms), basic SEO setup, SSL security, and mobile optimization. Additionally, some firms may provide hosting and limited post-launch support for bug fixes or minor upgrades.",
+  "Always double-check what's included before signing the contract, as extras such as skilled content development, advanced SEO, and digital marketing services are often charged separately."
+],
+ subHeadingNew1: "Why Delhi is a Hotspot for Web Design & Development?",
+subParagraphNew1: [
+  "Delhi is top-notch for website design, as there are a lot of top web development companies in Delhi and freelancers offering high-end services. Compared to Mumbai or Bangalore, Delhi offers fast, affordable, yet high-quality services. ",
+"That’s why most of the businesses choose a web development company in Delhi to meet their demands."
+],
+
+
+//faq section
+
+headFaq:"FAQs – Web Development Cost in Delhi",
+
+ FaqData : [
+  {
+    id: 1,
+    question: "Can I get a quality website on a small budget in Delhi?",
+    answer: "Yes, many affordable web design companies in Delhi are available.",
+  },
+  {
+    id: 2,
+    question: "What’s the average timeline for a website design company in Delhi to deliver?",
+    answer: "2 to 6 weeks, depending on complexity.",
+  },
+  {
+    id: 3,
+    question: "Are there hidden costs?",
+    answer: "Maybe, so have a clear talk with the company about domain, hosting, extra features, and timeline to stay within budget.",
+  },
+  {
+    id: 4,
+    question: "Is post-launch support offered?",
+    answer: "Yes, most of the top ecommerce development companies in Delhi offer post-launch support and maintenance.",
+  },
+  {
+    id: 5,
+    question: "How to negotiate the price?",
+    answer: "Compare different proposals and ask for discounts.",
+  },
+],
+
+
+
+
+      subHeading9: "Conclusion",
+subParagraph9: [
+  "At last, choosing the best web design company in Delhi is crucial to create effective, fast, responsive, and secure websites. Always compare services and offers before hiring a web development agency in Delhi, as it can help you in deciding the best one.",
+  "Having said that, Kushel Digi Solutions is one of the leading website development companies in Delhi. It offers personalized website designs with a custom layout and fully responsive web design in Delhi.",
+  "Finding the right website design company in Delhi will take time, and it’s worth it in the end."
+],
     },
   },
 ];

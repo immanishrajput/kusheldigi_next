@@ -1,3 +1,4 @@
+"use client";
 import Navbar from "@/app/COMMON/Navbar";
 import pageData from "../pageData";
 import Footer from "@/app/COMMON/Footer";
@@ -5,9 +6,15 @@ import "./articledetail.css";
 import Article from "../Article/Article";
 import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import Link from "next/link";
+import React, { useState } from "react";
 
 export default function ArticleDetail({ params }) {
-  const { slug } = params;
+  const { slug } = React.use(params);
+  const [activeIndex, setActiveIndex] = useState(null);
+  const toggleAnswer = (index) => {
+    setActiveIndex(activeIndex === index ? null : index);
+  };
+
   // Find the article by slug
   const article = pageData.find(
     (item) =>
@@ -34,7 +41,6 @@ export default function ArticleDetail({ params }) {
         <div className="article-content">
           <div className="article-contt">
             <div className="contt-sec">
-             
               <div className="blog-by">
                 <div className="profileDate">
                   <div className="pd-n">
@@ -58,8 +64,11 @@ export default function ArticleDetail({ params }) {
                   <h2 className="subhead1">{article.content.subHeading}</h2>
                 )}
                 {/* Render subParagraph */}
-                {article.content?.subParagraph && (
-                  <p className="paratop1">{article.content.subParagraph}</p>
+                {article.content?.subParagraph?.[0] && (
+                  <p className="paratop1">{article.content.subParagraph[0]}</p>
+                )}
+                {article.content?.subParagraph?.[1] && (
+                  <p className="paratop1">{article.content.subParagraph[1]}</p>
                 )}
                 {/* Render smallHeading */}
                 {article.content?.smallHeading && (
@@ -143,7 +152,14 @@ export default function ArticleDetail({ params }) {
                 {article.content?.paragraph1 && (
                   <p className="paratop1">{article.content.paragraph1}</p>
                 )}
-
+                {article.content?.subHeading11 && (
+                  <h4 className="small-head3">
+                    {article.content.subHeading11}
+                  </h4>
+                )}
+                {article.content?.subParagraph11 && (
+                  <p className="paratop1">{article.content.subParagraph11}</p>
+                )}
                 {article.content.table1 &&
                   article.content.table1.columns &&
                   article.content.table1.rows && (
@@ -223,6 +239,7 @@ export default function ArticleDetail({ params }) {
                       ))}
                     </ul>
                   )}
+
                   {article.content?.smallHeading7 && (
                     <h3 className="small-head2">
                       {article.content.smallHeading7}
@@ -329,6 +346,56 @@ export default function ArticleDetail({ params }) {
                         ))}
                       </ul>
                     )}
+
+                    {article.content?.subHeading22 && (
+                      <h4 className="small-head3">
+                        {article.content.subHeading22}
+                      </h4>
+                    )}
+                    {article.content?.subParagraph22 && (
+                      <p className="paratop1">
+                        {article.content.subParagraph22}
+                      </p>
+                    )}
+
+                    {/* Render smallHeading4 and bulletPoints4 */}
+                    {article.content?.smallHeading44 && (
+                      <h3 className="small-head2">
+                        {article.content.smallHeading44}
+                      </h3>
+                    )}
+                    {article.content?.bulletPoints44 && (
+                      <ul className="ul-3">
+                        {article.content.bulletPoints44.map((bp, i) => (
+                          <li key={"bp2" + i}>{bp}</li>
+                        ))}
+                      </ul>
+                    )}
+                    {article.content?.smallHeading55 && (
+                      <h3 className="small-head2">
+                        {article.content.smallHeading55}
+                      </h3>
+                    )}
+                    {article.content?.bulletPoints55 && (
+                      <ul className="ul-3">
+                        {article.content.bulletPoints55.map((bp, i) => (
+                          <li key={"bp2" + i}>{bp}</li>
+                        ))}
+                      </ul>
+                    )}
+                    {article.content?.smallHeading66 && (
+                      <h3 className="small-head2">
+                        {article.content.smallHeading66}
+                      </h3>
+                    )}
+                    {article.content?.bulletPoints66 && (
+                      <ul className="ul-3">
+                        {article.content.bulletPoints66.map((bp, i) => (
+                          <li key={"bp2" + i}>{bp}</li>
+                        ))}
+                      </ul>
+                    )}
+
                     {article.content?.subHeading5 && (
                       <h4 className="small-head3">
                         {article.content.subHeading5}
@@ -459,6 +526,7 @@ export default function ArticleDetail({ params }) {
                         ))}
                       </ul>
                     )}
+
                     {article.content?.paragraph4 && (
                       <p className="paratop1">
                         {" "}
@@ -466,6 +534,89 @@ export default function ArticleDetail({ params }) {
                         {article.content.paragraph4[1]}
                       </p>
                     )}
+
+
+
+ {article.content?.subHeadingNew && (
+                      <h4 className="small-head3">
+                        {article.content.subHeadingNew}
+                      </h4>
+                    )}
+                    {article.content?.subParagraphNew && (
+                      <>
+                        <p className="paratop1">
+                          {article.content.subParagraphNew[0]}
+                        </p>
+                        <p className="paratop1">
+                          {article.content.subParagraphNew[1]}
+                        </p>
+                        <p className="paratop1">
+                          {article.content.subParagraphNew?.[2]}
+                        </p>
+                      </>
+                    )}
+
+
+
+
+                     {article.content?.subHeadingNew1 && (
+                      <h4 className="small-head3">
+                        {article.content.subHeadingNew1}
+                      </h4>
+                    )}
+                    {article.content?.subParagraphNew1 && (
+                      <>
+                        <p className="paratop1">
+                          {article.content.subParagraphNew1[0]}
+                        </p>
+                        <p className="paratop1">
+                          {article.content.subParagraphNew1[1]}
+                        </p>
+                        <p className="paratop1">
+                          {article.content.subParagraphNew1?.[2]}
+                        </p>
+                      </>
+                    )}
+
+
+
+
+
+
+
+
+
+
+
+
+                    {/* FAQ */}
+
+                    {<h5 className="small-head3">{article.content.headFaq}</h5>}
+
+                    <div className="faq-blogN">
+                      {article.content.FaqData.map((item, index) => (
+                        <div
+                          className={`faqr-item-new ${
+                            activeIndex === index ? "expanded" : ""
+                          }`}
+                          key={index}
+                        >
+                          <div className="faq-new-question">
+                            <h4 className="questionFaqNew">{item.question}</h4>
+                            <button
+                              className="toggle-btn"
+                              onClick={() => toggleAnswer(index)}
+                            >
+                              {activeIndex === index ? "-" : "+"}
+                            </button>
+                          </div>
+                          <p className="faqr-answer-new">{item.answer}</p>
+                        </div>
+                      ))}
+                    </div>
+
+                    {/* Conclusion */}
+
                     {article.content?.subHeading9 && (
                       <h4 className="small-head3">
                         {article.content.subHeading9}
@@ -479,27 +630,37 @@ export default function ArticleDetail({ params }) {
                         <p className="paratop1">
                           {article.content.subParagraph9[1]}
                         </p>
+                        <p className="paratop1">
+                          {article.content.subParagraph9?.[2]}
+                        </p>
                       </>
                     )}
+
                     {
                       <div className="bott-icon">
-                        <h6> <strong>{article.author.name}</strong> </h6>
+                        <h6>
+                          {" "}
+                          <strong>{article.author.name}</strong>{" "}
+                        </h6>
                         <div style={{ display: "flex", gap: "10px" }}>
-                          <Link className="icon-f"
+                          <Link
+                            className="icon-f"
                             href="https://facebook.com"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
                             <FaFacebookF size={20} />
                           </Link>
-                          <Link className="icon-f"
+                          <Link
+                            className="icon-f"
                             href="https://linkedin.com"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
                             <FaLinkedinIn size={20} />
                           </Link>
-                          <Link className="icon-f"
+                          <Link
+                            className="icon-f"
                             href="https://twitter.com"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -511,14 +672,10 @@ export default function ArticleDetail({ params }) {
                     }
                   </div>
                 </div>
-             
-         
-         
-         
-                 </div>
-                  <div className="cta-Banner">
+              </div>
+              <div className="cta-Banner">
                 <img src={article.banner} alt="" />
-              </div>  
+              </div>
             </div>
           </div>
         </div>
