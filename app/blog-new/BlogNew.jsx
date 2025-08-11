@@ -15,11 +15,11 @@ export default function BlogNew({ parentfunct }) {
         {
             id: 1,
             category: "Latest",
-            culture: "More in Culture",
-            title: "BigCommerce System Integration For Large Catalog Management",
-            desc: "We provide innovative digital solutions tailored to your business needs. From web and mobile app development to SEO and eCommerce integration, our expert team ensures your online presence stands out. With a focus on quality, creativity, and performance, we help businesses grow and succeed in the digital world.",
-            date: "24 JUNE 2025",
-            image: "https://res.cloudinary.com/dt2lhechn/image/upload/v1750764362/blog_images/hvvxvh4geaikafxjm5oy.jpg",
+            // culture: "More in Culture",
+            title: "How Much Does It Cost to Hire a Web Development Company in Delhi?",
+            desc: "Want to create an online store? But don't know where to start? You are not alone. Every business, from startups to large enterprises, needs an online presence. That is why the demand for web designing services in Delhi is increasing. ",
+            date: "11 AUG 2025",
+            image: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1754905681/blog-bannernew_t5y07v.jpg",
             alt: "Article 1"
         },
     ]
@@ -90,25 +90,23 @@ export default function BlogNew({ parentfunct }) {
                     activeTag === "all" ? <div className="blog-post">
                         {articles                           
                             .map((article) => (
-                                <Link
+                                <>
+                                 <Link
                                     key={article.id}
                                     href={`/blog-new/${slugify(article.title)}`}
                                     className="blog-image">
                                     <img
-                                        src="https://res.cloudinary.com/dt2lhechn/image/upload/v1750764362/blog_images/hvvxvh4geaikafxjm5oy.jpg"
+                                        src={article.image}
                                         alt="Blog Post"
                                         //   layout="fill"
                                         objectFit="cover" />
                                 </Link>
-                            ))}
+                            
                         <div className="blog-content">
-                            <p className="date">24 JUNE 2025</p>
-                            <h2>BigCommerce System Integration for Large Catalog Management</h2>
+                            <p className="date">{article.date}</p>
+                            <h2>{article.title}</h2>
                             <p>
-                                The significant challenge faced by modern e-commerce companies is
-                                managing thousands of stock-keeping units. If your BigCommerce
-                                platform manages large inventories, then system integration becomes
-                                necessary for you.
+                                {article.desc}
                             </p>
                             <div className="blogClockTime1">
                                 <Link href={``}>
@@ -120,7 +118,9 @@ export default function BlogNew({ parentfunct }) {
                                 </span>
                             </div>
                         </div>
-
+                                </>
+                               
+))}
                     </div> : <Article   title={activeTag} />
 
                 }
