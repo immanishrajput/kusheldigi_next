@@ -594,7 +594,7 @@ export default function ArticleDetail({ params }) {
                     {<h5 className="small-head3">{article.content.headFaq}</h5>}
 
                     <div className="faq-blogN">
-                      {article.content.FaqData.map((item, index) => (
+                      {article.content.FaqData?.map((item, index) => (
                         <div
                           className={`faqr-item-new ${
                             activeIndex === index ? "expanded" : ""
