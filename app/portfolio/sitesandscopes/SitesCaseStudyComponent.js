@@ -166,14 +166,14 @@ function SitesCaseStudyComponent() {
                   night vision devices, and all other items that you need to
                   explore the unseen wonders of outdoor settings.
                 </p>
-                <Link
+                {/* <Link
                   className="btn-case-port"
                   href="/portfolio"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Visit Website
-                </Link>
+                </Link> */}
               </div>
             </div>
 

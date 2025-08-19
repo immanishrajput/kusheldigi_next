@@ -129,14 +129,14 @@ const SubhAlloys = () => {
                     alt="img"
                   ></img>
                 </div>
-                <Link
+                {/* <Link
                   className="btn-case-port"
                   href="/portfolio"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Visit Website
-                </Link>
+                </Link> */}
               </div>
               <div className="right-section-kids ramit">
                 <img
