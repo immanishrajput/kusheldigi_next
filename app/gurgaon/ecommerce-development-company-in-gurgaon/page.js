@@ -1,8 +1,9 @@
-import EcommerceChennaiComponent from "./EcommerceChennaiComponent";
+import EcommerceGurgaonComponent from "./EcommerceGurgaonComponent";
+
 
 
 const Page = () => {
-  return <EcommerceChennaiComponent />;
+  return <EcommerceGurgaonComponent />;
 };
 
 export default Page;

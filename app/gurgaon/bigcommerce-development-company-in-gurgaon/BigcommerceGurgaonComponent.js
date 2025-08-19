@@ -4,7 +4,9 @@ import '../../globals.css';
 import Footer from '../../COMMON/Footer';
 import Navbar from '../../COMMON/Navbar';
 import DetailBigComChennai from './DetailBigComGurgaon/page';
-import HeroBigComChennai from './HeroBigComChennai/page';
+import HeroBigComChennai from './HeroBigComGurgaon/page';
+import HeroBigComGurgaon from './HeroBigComGurgaon/page';
+import DetailBigComgurgaon from './DetailBigComGurgaon/page';
 
 
 const phoneNumber = "9045301702";
@@ -17,14 +19,14 @@ const callHandler = () => {
     const callUrl = `tel:${phoneNumber}`;
     window.open(callUrl, "_blank");
 }
-function BigcommerceChennaiComponent() {
+function BigcommerceGurgaonComponent() {
     return (
         <div>
             <div className='ser-main'></div>
 
             <Navbar />
-            <HeroBigComChennai />
-            <DetailBigComChennai />
+            <HeroBigComGurgaon />
+            <DetailBigComgurgaon/>
 
             <Footer />
 
@@ -41,4 +43,4 @@ function BigcommerceChennaiComponent() {
     )
 }
 
-export default BigcommerceChennaiComponent;
+export default BigcommerceGurgaonComponent;

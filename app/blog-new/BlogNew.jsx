@@ -9,7 +9,7 @@ import Article from './Article/Article';
 export default function BlogNew({ parentfunct }) {
     const [activeTag, setActiveTag] = useState('all');
 
-    
+
     const articles = [
         //Latest
         {
@@ -60,38 +60,38 @@ export default function BlogNew({ parentfunct }) {
     }
     return (
         <>
-        <section className="blog-main-con">
-            <div className="blog-container">
-                <h1 className="heading">Innovate With Us</h1>
-                <div className="tags">
-                    {tags.map((tag) => (
-                        <button
-                            key={tag.id}
-                            className={`tag ${activeTag === tag.id ? 'active' : ''}`}
-                            onClick={() => handleTagClick(tag.id)}
-                        >
-                            {tag.label}
-                        </button>
-                    ))}
+            <section className="blog-main-con">
+                <div className="blog-container">
+                    <h1 className="heading">Innovate With Us</h1>
+                    <div className="tags">
+                        {tags.map((tag) => (
+                            <button
+                                key={tag.id}
+                                className={`tag ${activeTag === tag.id ? 'active' : ''}`}
+                                onClick={() => handleTagClick(tag.id)}
+                            >
+                                {tag.label}
+                            </button>
+                        ))}
+                    </div>
+                    <div>
+                        <p
+                            style={{
+                                border: "1px solid rgba(40, 39, 39, 0.17)",
+                                marginTop: 20,
+                                marginBottom: 40
+                            }}
+                        />
+                    </div>
+
                 </div>
-                <div>
-                    <p
-                        style={{
-                            border: "1px solid rgba(40, 39, 39, 0.17)",
-                            marginTop: 20,
-                            marginBottom: 40
-                        }}
-                    />
-                </div>
-              
-            </div>
-        </section>
-          {
-                    activeTag === "all" ? <div className="blog-post">
-                        {articles                           
-                            .map((article) => (
-                                <>
-                                 <Link
+            </section>
+            {
+                activeTag === "all" ? <div className="blog-post">
+                    {articles
+                        .map((article) => (
+                            <>
+                                <Link
                                     key={article.id}
                                     href={`/blog-new/${slugify(article.title)}`}
                                     className="blog-image">
@@ -101,29 +101,29 @@ export default function BlogNew({ parentfunct }) {
                                         //   layout="fill"
                                         objectFit="cover" />
                                 </Link>
-                            
-                        <div className="blog-content">
-                            <p className="date">{article.date}</p>
-                            <h2>{article.title}</h2>
-                            <p>
-                                {article.desc}
-                            </p>
-                            <div className="blogClockTime1">
-                                <Link href={``}>
-                                    <p className="cardBlogStpaarw">Read More</p>
-                                </Link>
-                                <span className="bimageloDiPargaph1">
-                                    <FcClock className="iconBlogClock" />
-                                    5:00 Min
-                                </span>
-                            </div>
-                        </div>
-                                </>
-                               
-))}
-                    </div> : <Article   title={activeTag} />
 
-                }
+                                <div className="blog-content">
+                                    <p className="date">{article.date}</p>
+                                    <h2>{article.title}</h2>
+                                    <p>
+                                        {article.desc}
+                                    </p>
+                                    <div className="blogClockTime1">
+                                        <Link href={``}>
+                                            <p className="cardBlogStpaarw">Read More</p>
+                                        </Link>
+                                        <span className="bimageloDiPargaph1">
+                                            <FcClock className="iconBlogClock" />
+                                            5:00 Min
+                                        </span>
+                                    </div>
+                                </div>
+                            </>
+
+                        ))}
+                </div> : <Article title={activeTag} />
+
+            }
         </>
     );
 }

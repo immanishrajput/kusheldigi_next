@@ -1,7 +1,7 @@
-import BigcommerceChennaiComponent from "./BigcommerceChennaiComponent";
+import BigcommerceGurgaonComponent from "./BigcommerceGurgaonComponent";
 
 const Page = () => {
-  return <BigcommerceChennaiComponent />;
+  return <BigcommerceGurgaonComponent />;
 };
 
 export default Page;

@@ -3,8 +3,8 @@ import "../../globals.css";
 
 import Footer from "../../COMMON/Footer";
 import Navbar from "../../COMMON/Navbar";
-import DetailEcomDevChennai from "./DetailEcomDevChennai/page";
-import HeroEComDevChennai from "./HeroEComDevChennai/page";
+import DetailEcomDevChennai from "./DetailEcomDevGurgaon/page";
+import HeroEComDevChennai from "./HeroEComDevGurgaon/page";
 
 const phoneNumber = "9045301702";
 
@@ -16,7 +16,7 @@ const callHandler = () => {
   const callUrl = `tel:${phoneNumber}`;
   window.open(callUrl, "_blank");
 };
-function EcommerceChennaiComponent() {
+function EcommerceGurgaonComponent() {
   return (
     <div>
       <div className="ser-main"></div>
@@ -48,4 +48,4 @@ function EcommerceChennaiComponent() {
   );
 }
 
-export default EcommerceChennaiComponent;
+export default EcommerceGurgaonComponent;
