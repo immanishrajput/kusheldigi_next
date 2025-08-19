@@ -26,7 +26,13 @@ export default function ArticleDetail({ params }) {
   );
 
   if (!article) {
-    return <div>Article not found.</div>;
+    return (
+     <>
+      <Navbar/>
+      <div className="bg-black article-detail text-white text-center p-2">Article not found.</div>
+      <Footer/>
+     </>
+    );
   }
 
   return (
