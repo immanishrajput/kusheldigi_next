@@ -216,14 +216,14 @@ function Page() {
                   bridge the gap between buyers, sellers, and real estate
                   professionals.
                 </p>
-                <Link
+                {/* <Link
                   className="btn-case-port"
                   href="/portfolio"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Visit Website
-                </Link>
+                </Link> */}
               </div>
             </div>
 
