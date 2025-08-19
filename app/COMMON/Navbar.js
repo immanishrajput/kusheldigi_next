@@ -255,6 +255,16 @@ const data = [
       },
 
       {
+        title: "UAE",
+        // navigate: "/",
+        subpart: [
+          {
+            title: "Dubai",
+            navigate: "/dubai",
+          },
+        ],
+      },
+      {
         title: "United Kingdom",
         // navigate: "/",
         subpart: [
@@ -916,6 +926,29 @@ const Navbar = () => {
                                   <Link href="/ecommerce-development-in-bulgaria">
                                     <span className="hover-country-ext">
                                       Bulgaria
+                                    </span>
+                                  </Link>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="">
+                              <div className="dummy ">
+                                <div className="ext-flagD" >
+                                  <img
+                                    className="img-flag-con"
+                                    src="https://res.cloudinary.com/dxlykgx6w/image/upload/v1755607181/united-arab-emirates_yvsofb.png"
+                                    alt="UAE_Flag"
+                                  />{" "}
+                                  <strong className="ext-dummy">
+                                    UAE
+                                  </strong>
+                                </div>
+                              </div>
+                              <div className="loc-left">
+                                <div className="dummy ">
+                                  <Link href="/dubai">
+                                    <span className="hover-country-ext">
+                                      Dubai
                                     </span>
                                   </Link>
                                 </div>
