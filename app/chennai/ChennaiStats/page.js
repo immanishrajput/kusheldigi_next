@@ -61,7 +61,9 @@ export default function ChennaiStatsService() {
                 className="ptag-service"
                 dangerouslySetInnerHTML={{ __html: stat.discp }}
               />
-              {/* Button hidden since no route */}
+              <button className="btn-service-visit" disabled>
+                Coming Soon
+              </button>
             </div>
           )
         )}
